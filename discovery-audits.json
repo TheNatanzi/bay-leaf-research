@@ -640,5 +640,41 @@
       "Lake Solano construction notice conflicts with later reservation text; gate closure not a music deadline. Tourism category is discovery evidence, not operator wedding permission."
     ],
     "pass": 10
+  },
+  {
+    "pass": 11,
+    "question": "What other possible venues have we missed in Solano municipal halls and fairground spaces?",
+    "scope": "Benicia, Suisun City and Solano County Fairgrounds; Marin operator workbook fact checks",
+    "completed_utc": "2026-10-11T05:09:37.681531+00:00",
+    "source_urls": [
+      "https://www.ci.benicia.ca.us/index.asp?DE=6C6829DE-75FD-4DC4-94F5-66DD197B85B9&SEC=0F1F1E42-7C13-47B2-9CE8-9FD1737C1497",
+      "https://www.ci.benicia.ca.us/vertical/sites/%7BF991A639-AAED-4E1A-9735-86EA195E2C8D%7D/uploads/Clock_Tower_Facility_Use_Guidelines_(with_composting_info)-_5.3.23_-_new_fees.pdf",
+      "https://www.ci.benicia.ca.us/vertical/sites/%7BF991A639-AAED-4E1A-9735-86EA195E2C8D%7D/uploads/Cleaning_options_for_renters_2022.pdf",
+      "https://www.ci.benicia.ca.us/vertical/sites/%7BF991A639-AAED-4E1A-9735-86EA195E2C8D%7D/uploads/CT_brochure_-_new_2023.pdf",
+      "https://www.suisun.com/Departments/Recreation-Parks-Marina/Nelson-Center",
+      "https://scfair.org/facilities-for-rent/"
+    ],
+    "added_record_ids": [
+      "benicia-clock-tower-solano",
+      "joseph-nelson-community-center-solano",
+      "solano-county-fairgrounds-event-center-expo-hall-solano",
+      "solano-county-fairgrounds-event-center-mccormack-hall-solano",
+      "solano-county-fairgrounds-event-center-winners-circle-solano",
+      "solano-county-fairgrounds-event-center-sheep-barn-solano",
+      "solano-county-fairgrounds-event-center-main-livestock-barn-rings-solano",
+      "solano-county-fairgrounds-event-center-performance-arena-solano"
+    ],
+    "duplicates_or_grouping": [
+      "Six fairground spaces share one parent property; livestock listing overlaps Sheep Barn and is represented as main barn/rings. Existing Vallejo private venues retained."
+    ],
+    "exclusions_or_restrictions": [
+      "Clock Tower subletting/profitable re-rental prohibited; not evidence of a business operating lease. Nelson meeting-room subdivisions not imported without verified room terms."
+    ],
+    "remaining_gaps": [
+      "Dixon, Rio Vista, Fairfield, Vacaville and Vallejo municipal inventories remain incomplete; fairground policies/prices, seating with dance floors, and Nelson direct source verification pending."
+    ],
+    "fact_check_findings": [
+      "Clock Tower 1am rental access does not mean midnight music; cleanup requires earlier event end. Standing occupancy conflicts preserved. Unity 1975 refers to airfield decommissioning, not construction. Ceremony/reception and rain-backup capacities separated."
+    ]
   }
 ]

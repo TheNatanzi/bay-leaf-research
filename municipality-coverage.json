@@ -691,9 +691,11 @@
   {
     "county": "Solano",
     "municipality": "Benicia",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial source review; additional facilities and current contracts pending",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
+    "source_urls": [
+      "https://www.ci.benicia.ca.us/index.asp?DE=6C6829DE-75FD-4DC4-94F5-66DD197B85B9&SEC=0F1F1E42-7C13-47B2-9CE8-9FD1737C1497"
+    ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
   {
@@ -723,9 +725,11 @@
   {
     "county": "Solano",
     "municipality": "Suisun City",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial source review; additional facilities and current contracts pending",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
+    "source_urls": [
+      "https://www.suisun.com/Departments/Recreation-Parks-Marina/Nelson-Center"
+    ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
   {
