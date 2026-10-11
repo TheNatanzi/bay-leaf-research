@@ -358,17 +358,21 @@
   {
     "county": "Napa",
     "municipality": "American Canyon",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Official source located; full rental page and fee PDF blocked",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
+    "source_urls": [
+      "https://www.americancanyon.gov/Play/Parks/Facility-Rentals"
+    ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
   {
     "county": "Napa",
     "municipality": "Calistoga",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial source review; specific permissions/room coverage incomplete",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
+    "source_urls": [
+      "https://www.calistogaca.gov/Government/Departments/Parks-and-Recreation/Park-and-Facility-Rentals/Community-Center"
+    ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
   {
@@ -384,17 +388,21 @@
   {
     "county": "Napa",
     "municipality": "St. Helena",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial source review; specific permissions/room coverage incomplete",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
+    "source_urls": [
+      "https://www.cityofsthelena.gov/Facilities/Facility/Details/Carnegie-Building-1"
+    ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
   {
     "county": "Napa",
     "municipality": "Yountville",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial source review; specific permissions/room coverage incomplete",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
+    "source_urls": [
+      "https://www.yountvilleevents.com/spaces"
+    ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
   {

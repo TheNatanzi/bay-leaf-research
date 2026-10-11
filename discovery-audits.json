@@ -750,5 +750,50 @@
     "fact_check_findings": [
       "Bud’s Hall requires its own catering and drinks; inexpensive venue fee is not all-in cost. Restaurant footer hours/address not copied as hall-specific facts. Fairfield audience seating not treated as banquet/dance capacity. Historical FY2024–25 Ulatis prices not imported as current quotes."
     ]
+  },
+  {
+    "pass": 14,
+    "question": "What other possible Napa County municipal and independent community halls have we missed?",
+    "scope": "Yountville rooms, St. Helena historic hall/parks, Tucker Farm Center and Calistoga hall",
+    "completed_utc": "2026-10-11T05:30:28.992621+00:00",
+    "source_urls": [
+      "https://www.yountvilleevents.com/spaces",
+      "https://www.yountvilleevents.com/packages",
+      "https://www.cityofsthelena.gov/Facilities/Facility/Details/Carnegie-Building-1",
+      "https://www.cityofsthelena.gov/Facilities/Facility/Details/Crane-Park-2",
+      "https://www.cityofsthelena.gov/Facilities/Facility/Details/Lyman-Park-6",
+      "https://www.cityofsthelena.gov/Facilities/Facility/Details/Jacob-Meily-Park-4",
+      "https://tuckerfarmcenter.com/rentals",
+      "https://img1.wsimg.com/blobby/go/e22b88e6-d459-48ad-b957-e106eaa65172/TFC-rental-app-2025-a100c40.pdf",
+      "https://tuckerfarmcenter.com/about",
+      "https://www.calistogaca.gov/Government/Departments/Parks-and-Recreation/Park-and-Facility-Rentals/Community-Center"
+    ],
+    "added_record_ids": [
+      "yountville-community-center-heritage-room-napa",
+      "yountville-community-center-generations-room-napa",
+      "yountville-community-center-patio-lawn-napa",
+      "yountville-commons-schmitt-hall-napa",
+      "yountville-community-center-town-square-napa",
+      "carnegie-building-great-room-napa",
+      "carnegie-building-meeting-room-napa",
+      "carnegie-building-dance-room-napa",
+      "crane-park-picnic-areas-napa",
+      "lyman-park-gazebo-adjoining-picnic-area-napa",
+      "jacob-meily-park-picnic-area-napa",
+      "tucker-farm-center-napa",
+      "calistoga-community-center-napa"
+    ],
+    "duplicates_or_grouping": [
+      "Yountville five distinct spaces under two parents; Carnegie three rooms under one parent. Shared rooms/packages cannot be summed into total guest capacity."
+    ],
+    "exclusions_or_restrictions": [
+      "Sports-only St. Helena facilities held; auxiliary Yountville bridal/classroom areas not counted as standalone venues. American Canyon full page/fee PDF blocked: record remains a coverage gap, not invented inventory."
+    ],
+    "remaining_gaps": [
+      "American Canyon actual inventory/policy; Calistoga more parks/halls; Yountville town-park wedding permit site inventory; operator rules, parking and complete costs for each room."
+    ],
+    "fact_check_findings": [
+      "Tucker PDF pages1and3 visually checked: midnight is cleanup,10pm music/bar, not a midnight wedding. Construction1921 separately sourced. Yountville advertised package includes refundable deposit, so stored as cash requirement and not per-head expense. Crane Park prohibits amplified music and has conflicting6am/7am access text."
+    ]
   }
 ]
