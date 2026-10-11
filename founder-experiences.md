@@ -1,6 +1,6 @@
 # Founder and operator experiences
 
-48 reading records; incomplete. Original publication/update dates are separate from check dates and venue milestones. Written publisher summaries are labeled; audio was not independently reviewed. Promotional/survivor bias remains. Self-reported foreign/historical costs are not Bay Area estimates.
+63 reading records; incomplete. Original publication/update dates are separate from check dates. Publisher-summary-only interviews are labeled; audio not independently reviewed. Historical/global costs are not Bay Area budgets or verified profit.
 
 ## Karri Jablonski
 
@@ -819,7 +819,6 @@ Lessons: Consider privacy, family time and long-term maintenance when the venue 
 
 Commercial context / review limits: Operator’s own venue marketing site; self-reported history and lessons, no independently audited finances.
 
-
 ## Mark and the founding family — full names and individual byline Unknown
 
 [About Nestldown — Our Story](https://www.nestldown.com/about-nestldown/)
@@ -827,17 +826,17 @@ Commercial context / review limits: Operator’s own venue marketing site; self-
 - Venue: Nestldown
 - Original publication: 2020-08-04
 - Update: 2026-08-25
+- Date evidence: Original page datePublished/dateModified metadata; revised story contains later events. Story milestones are not article publication dates.
 - Checked UTC: 2026-10-11T10:18:24.962060+00:00
 - Type: Firsthand operator written account
 - Jurisdiction: Los Gatos area, Santa Clara County, California
-- Date evidence: Original page datePublished/dateModified metadata; revised story contains later events. Story milestones are not article publication dates.
+- Scale: Family property conversion; this account provides no audited investment or approved guest capacity.
 
 The family describe acquiring an old fruit ranch in 1991, extensive restoration while working other jobs, and living temporarily in a converted shed. Personal and nonprofit gatherings led to wedding requests. They report a ten-year permitting process after county intervention; exact permit dates and issued conditions were not independently verified. Their children subsequently joined operations.
 
 Lessons: Check permitted commercial use before acquiring or hosting paid events; budget restoration, housing disruption, founder labor and a potentially lengthy approval process.
 
-Review limits: Original operator marketing page; self-reported experience, no audited financial records. The story names Mark but has no individual full-name byline.
-
+Commercial context / review limits: Original operator marketing page; self-reported experience, no audited financial records. The story names Mark but has no individual full-name byline.
 
 ## Jillian Moulton
 
@@ -846,17 +845,17 @@ Review limits: Original operator marketing page; self-reported experience, no au
 - Venue: Cold Spring Farm / Cold Spring Barn
 - Original publication: 2025-02-19
 - Update: 2026-03-28
+- Date evidence: Original datePublished and dateModified metadata; visible month/day alone omits year.
 - Checked UTC: 2026-10-11T11:00:06.228224+00:00
 - Type: Firsthand owner blog
 - Jurisdiction: Alton Bay, New Hampshire, US
-- Date evidence: Original datePublished and dateModified metadata; visible month/day alone omits year.
+- Scale: Family land and barn conversion; investment and approved event capacity Unknown.
 
 Family purchased approximately 280 acres in 2003; barn construction began in 2008. A family reception was held in spring 2019, which does not establish commercial opening. Conversion required replacement storage, bathrooms and service space. Unreliable solar pathway lights were replaced with wired lighting. Custom doors ordered in 2022 required a commercial loan and were installed by January 2023; later patio work took place between weddings.
 
 Lessons: Budget storage relocation, reliable guest lighting, weather protection, bathrooms, finance and ongoing improvements; DIY labor and family involvement are substantial.
 
-Review limits: Original operator promotional account; financing amount, commercial opening and profits not verified.
-
+Commercial context / review limits: Original operator promotional account; financing amount, commercial opening and profits not verified.
 
 ## George and Debra Tash; Adam and Rachel Tash — named owners, individual page byline Unknown
 
@@ -865,17 +864,17 @@ Review limits: Original operator promotional account; financing amount, commerci
 - Venue: Eden Gardens
 - Original publication: Unknown
 - Update: Unknown
+- Date evidence: Unknown — no reliable original publication or update date established; 2012 and 2022 are story milestones, not publication dates.
 - Checked UTC: 2026-10-11T11:00:06.228224+00:00
 - Type: Firsthand operator written account
 - Jurisdiction: Moorpark, Ventura County, California — outside the nine-county census
-- Date evidence: Unknown — no reliable original publication or update date established; 2012 and 2022 are story milestones, not publication dates.
+- Scale: Four-acre family garden venue; startup capital and approved capacity Unknown.
 
 Operator history identifies George and Debra Tash as founders in 2012, developing four acres of raw land into a garden wedding setting. Adam and Rachel Tash took over in 2022. Current marketing describes coordination, catering and bar partners; its CUP and accessibility claims have not been checked against issued approvals.
 
 Lessons: Track founding and successor management separately. A venue with coordinated catering and bar service is a different operational model from venue-only rentals.
 
-Review limits: Original operator marketing page; legal approval claims and financial performance not independently verified.
-
+Commercial context / review limits: Original operator marketing page; legal approval claims and financial performance not independently verified.
 
 ## Rene Byck; Sonia Byck-Barwick; Annette McDonnell — interviewed by Matthew McDermaid and Sandra K. Newton
 
@@ -884,17 +883,17 @@ Review limits: Original operator marketing page; legal approval claims and finan
 - Venue: Paradise Ridge Winery
 - Original publication: 2020-12-16
 - Update: Unknown
+- Date evidence: Original journal publication December 16, 2020 PDT; submitted and accepted dates are separate.
 - Checked UTC: 2026-10-11T11:00:06.228224+00:00
 - Type: Operator field-interview academic case
 - Jurisdiction: Santa Rosa, Sonoma County, California
-- Date evidence: Original journal publication December 16, 2020 PDT; submitted and accepted dates are separate.
+- Scale: 155-acre winery estate; original winery opening 1994 does not establish wedding opening.
 
 Based on 2020 interviews, the case describes recovery after the 2017 Tubbs fire and reopening in November 2019. Owners reported approximately $6 million to rebuild the main estate building and weddings providing nearly half of revenue. These are historical interview claims, not current valuation, audited earnings or a complete new-venue budget. Exhibits 10–11 use adapted industry financials, so their figures are excluded from competitor profit and valuation estimates.
 
 Lessons: Stress-test disaster interruption, insurance, rebuilding time, staffing and revenue concentration. Separate capital expenditure from property value and verified earnings from teaching exhibits.
 
-Review limits: Original academic case, CC BY 4.0; 2020 historical conditions. Adapted financial exhibits and unspecified nighttime noise permission cannot establish actual earnings or current midnight authorization.
-
+Commercial context / review limits: Original academic case, CC BY 4.0; 2020 historical conditions. Adapted financial exhibits and unspecified nighttime noise permission cannot establish actual earnings or current midnight authorization.
 
 ## Didi Russell (publisher byline drussell); quoted owner identity Unknown
 
@@ -903,13 +902,299 @@ Review limits: Original academic case, CC BY 4.0; 2020 historical conditions. Ad
 - Venue: Unknown — anonymous venue
 - Original publication: 2023-08-25
 - Update: Unknown
+- Date evidence: Displayed original article date; date of underlying Facebook post Unknown.
 - Checked UTC: 2026-10-11T11:00:06.228224+00:00
 - Type: Coach commentary / secondary anonymous owner account
 - Jurisdiction: Unknown — anonymous owner location not disclosed
-- Date evidence: Displayed original article date; date of underlying Facebook post Unknown.
+- Scale: Unknown — no verified venue identity, capital or capacity.
 
 Publisher reproduces an anonymous owner account of a partner leaving soon after acquisition, renovation consuming resources and bookings during construction. The publisher reports that the owner decided to sell. The original Facebook post, owner identity and venue are unverified; this is not a direct named firsthand source.
 
 Lessons: Define partner responsibilities and exit arrangements; test construction reserves, owner workload and feasibility of remote management.
 
-Review limits: Commercial coaching and education promotion; anonymous repost, not independently verified firsthand testimony. General marketing and profitability opinions are not established market statistics.
+Commercial context / review limits: Commercial coaching and education promotion; anonymous repost, not independently verified firsthand testimony. General marketing and profitability opinions are not established market statistics.
+
+## Kaylen Froese
+
+[From Wedding Coordinator to Venue Owner: Building a Wedding Venue Business | Kaylen Froese](https://podcasters.spotify.com/pod/show/the-venue-success-podcast70/episodes/From-Wedding-Coordinator-to-Venue-Owner-Building-a-Wedding-Venue-Business--Kaylen-Froese-e3p8vam)
+
+- Venue: Highland Oaks Weddings and Events
+- Original publication: 2026-09-23T04:00:00+00:00
+- Update: Unknown
+- Date evidence: Original publisher RSS item pubDate; feed discovered through Apple lookup and actual XML archived
+- Checked UTC: 2026-10-11T11:49:53.420258+00:00
+- Type: Operator interview — publisher show notes only
+- Jurisdiction: Unknown — jurisdiction not provided in reviewed feed
+- Scale: Existing venue acquired; guest capacity and transaction value Unknown
+
+Host notes cover purchase, changes after takeover, marketing, family dynamics and improvement investments. Purchase price, legal transfer and verified finances are not provided.
+
+Lessons: Budget transition costs and vendor/booking handover separately from the acquisition price.
+
+Commercial context / review limits: Host Tirzah Caffee promotes venue coaching. Publisher RSS descriptions reviewed; audio/video not played or transcribed. Self-reported claims not audited. Direct episode web-reader redirect inaccessible; RSS is archived evidence.
+
+## Victoria Melvin-Propert; husband/co-owner Blair discussed
+
+[How Exceptional Hospitality Gets Your Wedding Venue More Referrals | Victoria Melvin-Propert](https://podcasters.spotify.com/pod/show/the-venue-success-podcast70/episodes/How-Exceptional-Hospitality-Gets-Your-Wedding-Venue-More-Referrals--Victoria-Melvin-Propert-e3ntc2v)
+
+- Venue: The Historic Dallas Jail
+- Original publication: 2026-08-26T04:00:00+00:00
+- Update: Unknown
+- Date evidence: Original publisher RSS item pubDate; feed discovered through Apple lookup and actual XML archived
+- Checked UTC: 2026-10-11T11:49:53.420258+00:00
+- Type: Operator interview — publisher show notes only
+- Jurisdiction: Dallas, North Carolina
+- Scale: Historic 1848 jail conversion; event capacity / total investment Unknown
+
+Co-owners converted a vacant historic jail into an event venue. Notes discuss anticipating needs, personal service, automation and relationships. The 1848 jail date is a structure claim, not wedding opening.
+
+Lessons: Historic character still requires preservation, code review, service systems and staffing.
+
+Commercial context / review limits: Host Tirzah Caffee promotes venue coaching. Publisher RSS descriptions reviewed; audio/video not played or transcribed. Self-reported claims not audited. Direct episode web-reader redirect inaccessible; RSS is archived evidence.
+
+## Ashley Upton
+
+[Built With Love: The Story Behind Milk & Honey Farms // Ashley Upton](https://podcasters.spotify.com/pod/show/the-venue-success-podcast70/episodes/Built-With-Love-The-Story-Behind-Milk--Honey-Farms--Ashley-Upton-e3n9sng)
+
+- Venue: Milk & Honey Farms
+- Original publication: 2026-08-12T04:00:00+00:00
+- Update: Unknown
+- Date evidence: Original publisher RSS item pubDate; feed discovered through Apple lookup and actual XML archived
+- Checked UTC: 2026-10-11T11:49:53.420258+00:00
+- Type: Operator interview — publisher show notes only
+- Jurisdiction: Middle Tennessee
+- Scale: Ground-up venue, self-reported 2025 opening; investment and capacity Unknown
+
+Notes describe building from scratch, opening in 2025, marketing during construction, family roles, vendor partnerships, bar licensing and consideration of inclusive packages. Costs and profits not disclosed.
+
+Lessons: Track construction, preopening marketing, licensing and service staffing as separate workstreams.
+
+Commercial context / review limits: Host Tirzah Caffee promotes venue coaching. Publisher RSS descriptions reviewed; audio/video not played or transcribed. Self-reported claims not audited. Direct episode web-reader redirect inaccessible; RSS is archived evidence.
+
+## Jennifer and Tony Khatibi
+
+[The Promise of 2912 // Jennifer and Tony Khatibi](https://podcasters.spotify.com/pod/show/the-venue-success-podcast70/episodes/The-Promise-of-2912--Jennifer-and-Tony-Khatibi-e3m3gl1)
+
+- Venue: The Promise of 2912
+- Original publication: 2026-07-15T04:00:00+00:00
+- Update: Unknown
+- Date evidence: Original publisher RSS item pubDate; feed discovered through Apple lookup and actual XML archived
+- Checked UTC: 2026-10-11T11:49:53.420258+00:00
+- Type: Operator interview — publisher show notes only
+- Jurisdiction: Central Indiana
+- Scale: 24-acre family property, not 24 acres of approved event footprint; investment Unknown
+
+Publisher describes creating a new venue on Jennifer’s childhood property after her mother’s death in 2021; the family land is described as 24 acres. Notes cover building challenges, marketing and guest referrals.
+
+Lessons: Existing family land does not remove permitting, construction, operating capital or opportunity costs.
+
+Commercial context / review limits: Host Tirzah Caffee promotes venue coaching. Publisher RSS descriptions reviewed; audio/video not played or transcribed. Self-reported claims not audited. Direct episode web-reader redirect inaccessible; RSS is archived evidence.
+
+## Scott Davies
+
+[Should Your Wedding Venue Go All-Inclusive? | Scott Davies](https://podcasters.spotify.com/pod/show/the-venue-success-podcast70/episodes/Should-Your-Wedding-Venue-Go-All-Inclusive---Scott-Davies-e3l6rda)
+
+- Venue: Ridgefield Weddings
+- Original publication: 2026-06-24T04:00:00+00:00
+- Update: Unknown
+- Date evidence: Original publisher RSS item pubDate; feed discovered through Apple lookup and actual XML archived
+- Checked UTC: 2026-10-11T11:49:53.420258+00:00
+- Type: Operator interview — publisher show notes only
+- Jurisdiction: Unknown — jurisdiction not provided in reviewed feed
+- Scale: Existing venue operation; capacity/financial scale Unknown
+
+Operator interview addresses moving toward inclusive packages, evolving processes and partnerships, difficult event situations, communication and stronger teams.
+
+Lessons: Compare bundled service labor and margins against the proposed venue-only model.
+
+Commercial context / review limits: Host Tirzah Caffee promotes venue coaching. Publisher RSS descriptions reviewed; audio/video not played or transcribed. Self-reported claims not audited. Direct episode web-reader redirect inaccessible; RSS is archived evidence.
+
+## Lora Taub
+
+[How to Make Your Wedding Venue Stand Out in a Crowded Market | Lora Taub](https://podcasters.spotify.com/pod/show/the-venue-success-podcast70/episodes/How-to-Make-Your-Wedding-Venue-Stand-Out-in-a-Crowded-Market--Lora-Taub-e3kkmma)
+
+- Venue: Hartlot Happening
+- Original publication: 2026-06-11T01:08:14+00:00
+- Update: Unknown
+- Date evidence: Original publisher RSS item pubDate; feed discovered through Apple lookup and actual XML archived
+- Checked UTC: 2026-10-11T11:49:53.420258+00:00
+- Type: Operator interview — publisher show notes only
+- Jurisdiction: Unknown — jurisdiction not provided in reviewed feed
+- Scale: Operating venue; approved capacity and investment Unknown
+
+Notes describe moving from higher education to venue ownership, using craftsmanship, storytelling, venue tours and trust to communicate the venue’s character.
+
+Lessons: Aesthetic differentiation needs a clear client fit and tour/conversion process.
+
+Commercial context / review limits: Host Tirzah Caffee promotes venue coaching. Publisher RSS descriptions reviewed; audio/video not played or transcribed. Self-reported claims not audited. Direct episode web-reader redirect inaccessible; RSS is archived evidence.
+
+## Dixie Bagley
+
+[Microweddings, Maximum Impact // Dixie Bagley](https://podcasters.spotify.com/pod/show/the-venue-success-podcast70/episodes/Microweddings--Maximum-Impact--Dixie-Bagley-e3j9u8k)
+
+- Venue: The Farm; Tillman Hangar
+- Original publication: 2026-05-13T04:46:02+00:00
+- Update: Unknown
+- Date evidence: Original publisher RSS item pubDate; feed discovered through Apple lookup and actual XML archived
+- Checked UTC: 2026-10-11T11:49:53.420258+00:00
+- Type: Operator interview — publisher show notes only
+- Jurisdiction: Rome / northwestern Georgia
+- Scale: Estate with lodging and multiple related brands; guest count and valuation Unknown
+
+Venue operator and consultant discusses accidental venue ownership, micro-weddings, resilience and decision to sell. Notes also list lodging and other businesses. No completed sale price or proof of sale is supplied.
+
+Lessons: Evaluate workload, lodging complexity and exit options; intention to sell is not a completed transaction.
+
+Commercial context / review limits: Host Tirzah Caffee promotes venue coaching. Publisher RSS descriptions reviewed; audio/video not played or transcribed. Self-reported claims not audited. Direct episode web-reader redirect inaccessible; RSS is archived evidence.
+
+## Fausto Pifferrer
+
+[Inside the Vendor-Venue Partnership // Fausto Pifferrer](https://podcasters.spotify.com/pod/show/the-venue-success-podcast70/episodes/Inside-the-Vendor-Venue-Partnership--Fausto-Pifferrer-e3iifq7)
+
+- Venue: Blue Elephant Events and Catering / Maine Venue Partners
+- Original publication: 2026-04-29T04:00:00+00:00
+- Update: Unknown
+- Date evidence: Original publisher RSS item pubDate; feed discovered through Apple lookup and actual XML archived
+- Checked UTC: 2026-10-11T11:49:53.420258+00:00
+- Type: Caterer / venue partner interview — publisher show notes only
+- Jurisdiction: Maine
+- Scale: Multi-business catering/venue partnership; specific room capacities and finances Unknown
+
+Named co-founder discusses venue-caterer cooperation, challenges and guest experience. This is partnership expertise rather than a detailed venue startup cost account.
+
+Lessons: Outside vendor freedom still needs responsibilities, insurance, kitchen and service coordination.
+
+Commercial context / review limits: Host Tirzah Caffee promotes venue coaching. Publisher RSS descriptions reviewed; audio/video not played or transcribed. Self-reported claims not audited. Direct episode web-reader redirect inaccessible; RSS is archived evidence.
+
+## Kalli Doubleday
+
+[Vendor Agreements and Multi-Venue Management // Kalli Doubleday](https://podcasters.spotify.com/pod/show/the-venue-success-podcast70/episodes/Vendor-Agreements-and-Multi-Venue-Management--Kalli-Doubleday-e2qjgou)
+
+- Venue: Sparrow Creek Ranch; Shiraz Garden
+- Original publication: 2024-11-06T05:00:00+00:00
+- Update: Unknown
+- Date evidence: Original publisher RSS item pubDate; feed discovered through Apple lookup and actual XML archived
+- Checked UTC: 2026-10-11T11:49:53.420258+00:00
+- Type: Operator interview — publisher show notes only
+- Jurisdiction: Texas; Graham named for original property
+- Scale: Two venues; guest-impact and software claims self-reported, not audited profits
+
+Guest biography describes a 2011 family barn for her own wedding leading into venue ownership, directing two venues and using detailed automation pipelines. Resort acquisition is described as in progress, not closed.
+
+Lessons: Automated inquiry systems do not remove management, vendor agreements or local economic responsibilities.
+
+Commercial context / review limits: Host Tirzah Caffee promotes venue coaching. Publisher RSS descriptions reviewed; audio/video not played or transcribed. Self-reported claims not audited. Direct episode web-reader redirect inaccessible; RSS is archived evidence.
+
+## Kelly Ewell
+
+[Setting Up Your Venue for Success and Managing Vendor Relationships // Kelly Ewell](https://podcasters.spotify.com/pod/show/the-venue-success-podcast70/episodes/Setting-Up-Your-Venue-for-Success-and-Managing-Vendor-Relationships--Kelly-Ewell-e2pbqsd)
+
+- Venue: 48 Fields
+- Original publication: 2024-10-09T04:01:00+00:00
+- Update: Unknown
+- Date evidence: Original publisher RSS item pubDate; feed discovered through Apple lookup and actual XML archived
+- Checked UTC: 2026-10-11T11:49:53.420258+00:00
+- Type: Operator interview — publisher show notes only
+- Jurisdiction: Virginia wine country
+- Scale: Century-old farm estate described; precise construction/year and financial scale Unknown
+
+Notes describe a photographer becoming a venue owner, barn renovation challenges, management style and vendor relationships. No total buildout cost or permit file supplied.
+
+Lessons: Budget restoration/code work and management time; experience as a vendor differs from operating a property.
+
+Commercial context / review limits: Host Tirzah Caffee promotes venue coaching. Publisher RSS descriptions reviewed; audio/video not played or transcribed. Self-reported claims not audited. Direct episode web-reader redirect inaccessible; RSS is archived evidence.
+
+## Sarah Narcus; mother/business partner Ellen discussed
+
+[The Necessity of a Dynamic Website and Embracing Your Venue's Aesthetic // Sarah Narcus](https://podcasters.spotify.com/pod/show/the-venue-success-podcast70/episodes/The-Necessity-of-a-Dynamic-Website-and-Embracing-Your-Venues-Aesthetic--Sarah-Narcus-e2or2li)
+
+- Venue: Olio
+- Original publication: 2024-09-25T14:10:44+00:00
+- Update: Unknown
+- Date evidence: Original publisher RSS item pubDate; feed discovered through Apple lookup and actual XML archived
+- Checked UTC: 2026-10-11T11:49:53.420258+00:00
+- Type: Operator interview — publisher show notes only
+- Jurisdiction: Peabody, Massachusetts
+- Scale: 43 MainStreet historic building; acquisition/renovation prices and capacity Unknown
+
+Publisher biography dates property search to 2016, purchase tofall 2018 and opening after code renovations tosummer 2019. Notes cover family operations, website updates, client fit and shutdownMarch 2020–June 2021.
+
+Lessons: Model acquisition-to-opening carrying cost and renovation risk, plus interruption reserves.
+
+Commercial context / review limits: Host Tirzah Caffee promotes venue coaching. Publisher RSS descriptions reviewed; audio/video not played or transcribed. Self-reported claims not audited. Direct episode web-reader redirect inaccessible; RSS is archived evidence.
+
+## Amelia Holder; husband/co-owner Steve discussed
+
+[Adjusting to Market Trends and the Reality of Venue Ownership // Amelia Holder](https://podcasters.spotify.com/pod/show/the-venue-success-podcast70/episodes/Adjusting-to-Market-Trends-and-the-Reality-of-Venue-Ownership--Amelia-Holder-e2ndjho)
+
+- Venue: Emerson Fields
+- Original publication: 2024-08-28T04:01:00+00:00
+- Update: Unknown
+- Date evidence: Original publisher RSS item pubDate; feed discovered through Apple lookup and actual XML archived
+- Checked UTC: 2026-10-11T11:49:53.420258+00:00
+- Type: Operator interview — publisher show notes only
+- Jurisdiction: Missouri
+- Scale: Weekend venue with lodging; capacity/investment/verified profit Unknown
+
+Notes describe designing/building a venue, opening in 2018, full-weekend experiences with wedding-party lodging and winter closureJanuary / February. Booking claims are self-reported; no audited utilization or income.
+
+Lessons: Seasonality, lodging turnover, staff and fixed costs change the venue-only financial model.
+
+Commercial context / review limits: Host Tirzah Caffee promotes venue coaching. Publisher RSS descriptions reviewed; audio/video not played or transcribed. Self-reported claims not audited. Direct episode web-reader redirect inaccessible; RSS is archived evidence.
+
+## Aleah Chilleen
+
+[The Importance of Passion and Drive in Venue Ownership // Aleah Chilleen](https://podcasters.spotify.com/pod/show/the-venue-success-podcast70/episodes/The-Importance-of-Passion-and-Drive-in-Venue-Ownership--Aleah-Chilleen-e2meq2k)
+
+- Venue: The Venue at Chilleens
+- Original publication: 2024-08-14T04:01:00+00:00
+- Update: Unknown
+- Date evidence: Original publisher RSS item pubDate; feed discovered through Apple lookup and actual XML archived
+- Checked UTC: 2026-10-11T11:49:53.420258+00:00
+- Type: Operator interview — publisher show notes only
+- Jurisdiction: Arizona
+- Scale: Restaurant-linked venue;100+ annual events operator claim, no verified finances
+
+Notes describe turning a neglected area behind the family restaurant into an inclusive wedding venue established 2013. Annual 100+events claim is self-reported, not profit evidence.
+
+Lessons: A restaurant conversion has different kitchen/staff/assets from a standalone land project.
+
+Commercial context / review limits: Host Tirzah Caffee promotes venue coaching. Publisher RSS descriptions reviewed; audio/video not played or transcribed. Self-reported claims not audited. Direct episode web-reader redirect inaccessible; RSS is archived evidence.
+
+## Elaine Hanford; host David Schaub
+
+[What It Really Takes to Open a Venue - Elaine Hanford | The Venue at The Trail](https://podcasters.spotify.com/pod/show/wnyentrepreneur/episodes/What-It-Really-Takes-to-Open-a-Venue---Elaine-Hanford--The-Venue-at-The-Trail-e3gqvo6)
+
+- Venue: The Venue at The Trail
+- Original publication: 2026-04-14T11:00:00+00:00
+- Update: Unknown
+- Date evidence: Original publisher RSS pubDate; actual XML archived
+- Checked UTC: 2026-10-11T11:49:53.420258+00:00
+- Type: Operator interview — publisher show notes only
+- Jurisdiction: Western New York podcast; exact venue jurisdiction Unknown in reviewed notes
+- Scale: Venue buildout; capacity, project cost and current valuation Unknown
+
+Publisher notes address underestimated costs, permits and opening delays, booking before opening and consistent event operations. Specific costs, permit decisions and profit not disclosed.
+
+Lessons: Stress-test promises to couples against permit/construction delays and maintain working-capital reserves.
+
+Commercial context / review limits: Entrepreneurship podcast; written publisher RSS notes reviewed, audio/video not reviewed.
+
+## Abigail Olaya; co-founder Edward discussed; hosts Clate Mask and Scott Martineau
+
+[Two Scientists Walk Onto a Pecan Grove — Small Business Success 003](https://keap.com/resources/podcasts/small-business-success-podcast-003)
+
+- Venue: Venue at the Grove
+- Original publication: Unknown
+- Update: Unknown
+- Date evidence: Unknown — no original publication date established;2009 business start/six-year narration do not establish publication year
+- Checked UTC: 2026-10-11T11:49:53.420258+00:00
+- Type: Firsthand operator interview — original publisher written transcript reviewed
+- Jurisdiction: Phoenix, Arizona
+- Scale: Self-reported 86 weddings previous year; eight full-time staff including owners and up to 30 event staff at interview. Historical, not current verified utilization.
+
+Transcript describes 2009 startup on a 2.5-acre pecan grove, founder labor while Abigail kept her corporate job, a $15,000 loan, owner’s $1.4 million property asking price and initially no employees. Later staffing and coordinator resignation reveal key-person risk. Reported revenue growth is not profit; transaction/funding details incomplete.
+
+Lessons: A small startup loan is not total capital or property acquisition cost. Model founder labor, job-income subsidy, contingency coverage and property financing separately.
+
+Commercial context / review limits: Keap software-vendor podcast. Actual original HTML/transcript reviewed; figures self-reported and historical, no audited accounts or current Bay Area cost extrapolation.
