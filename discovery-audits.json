@@ -2530,5 +2530,61 @@
       "Trentadueactual6pgpacket deposit750versusweb1000/5vs5–7hours/winediscount10vs15; separatedining/ceremony/dancecapacities",
       "Nestldowncurrentrequiredvendorcontrol/optionalplanner/music9:45guests10vendors11; weekday14950–39500notallin. BRCohn200propertychairs150/wine30minimum;Viansa250vs300/wine35minimum"
     ]
+  },
+  {
+    "pass": 39,
+    "question": "What government-leased hotels or historic resort wedding spaces were missed, and which published capital figures were being mistaken for property value?",
+    "scope": "Argonaut new property/five spaces; Cavallo/Claremont/Fairmont source scope and historical lease/transaction checks",
+    "completed_utc": "2026-10-11T10:25:10.252643+00:00",
+    "source_urls": [
+      "https://www.argonauthotel.com/san-francisco-wedding/",
+      "https://www.argonauthotel.com/llm-info/",
+      "https://noblehousemenus.com/argo_WeddingFlipbook_ADA.pdf",
+      "https://noblehousemenus.com/argo-wedding-package_ADA.pdf",
+      "https://noblehousemenus.com/argo-intimate-wedding-package_ADA.pdf",
+      "https://www.nps.gov/subjects/leasing/success-stories.htm",
+      "https://www.nps.gov/subjects/leasing/index.htm",
+      "https://www.nps.gov/subjects/leasing/open-opportunities.htm",
+      "https://ohanare.com/portfolio/",
+      "https://www.sec.gov/Archives/edgar/data/1430259/000104746914004206/a2219904zdef14a.htm",
+      "https://www.costar.com/article/316386102/ohana-real-estate-investors-buys-claremont-club-spa-for-1633-million?edition=us",
+      "https://www.achp.gov/sites/default/files/2018-09/2008_Section%203_DOI_NPS.pdf",
+      "https://s29.q4cdn.com/223055717/files/doc_financials/2013/q2/Supplemental-Report-Q2.pdf",
+      "https://lwhospitalityadvisors.com/wp-content/uploads/2023/07/Q2-2023-Sales.pdf",
+      "https://www.nps.gov/safr/learn/management/foundation-document-appendixes.htm",
+      "https://www.sec.gov/Archives/edgar/data/1474098/000095012311015821/w81668aexv10w1.htm",
+      "https://claremontresortandclub.com/gather/weddings/",
+      "https://claremontresortandclub.com/about/history/",
+      "https://claremontresortandclub.com/about/contact-us/"
+    ],
+    "added_record_ids": [
+      "argonaut-hotel-golden-gate-ballroom-foyer-san-francisco",
+      "argonaut-hotel-maritime-room-san-francisco",
+      "argonaut-hotel-del-monte-courtyard-san-francisco",
+      "argonaut-hotel-constellation-room-san-francisco",
+      "argonaut-hotel-victoria-park-intimate-ceremony-package-san-francisco"
+    ],
+    "duplicates_merged": [
+      "Existing Cavallo/Claremont/Fairmont enriched rather than re-added",
+      "Room records share one hotel; no summed capacity or repeated asset values"
+    ],
+    "excluded": [
+      "2025Argonautprices as current2026quote",
+      "Currentwebsite280 versus2025package300 versusundatedbrochure260 as one confirmed dinner+dance limit",
+      "1937historicClaremontprice as currentvalue",
+      "Capitalspending,JVinterest and wholehotelprice as standalone weddingbusinessvalue"
+    ],
+    "remaining_gaps": [
+      "Actualcurrentleaseamendments/deeds/APNs/rent/earnings",
+      "Current2026quotes and approvedroom/dance/noisecutoffs",
+      "Weddingopening dates separate fromhotel dates",
+      "Ninecounty exhaustiveinventory notclaimed"
+    ],
+    "fact_check_findings": [
+      "Actual2008DOI34pg/WPC201346pg/LWHA202325pg PDFs downloaded and pertinent pages visually reviewed",
+      "Argonaut2025package21pg/brochure9pg/intimate2pg downloaded; pricing/capacity/FAQ pages visually reviewed",
+      "DirectoperatorHTML403 logged separately from primarywebreader; originalsources retained",
+      "ArgonautGoldenGatecapacity conflicting; Maritime90dinner+dance; courtyard200ceremony notdinner;10personintimatepackage includescouple"
+    ]
   }
 ]

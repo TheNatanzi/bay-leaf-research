@@ -84874,7 +84874,11 @@
       "midnight_indoor": null,
       "county": "Alameda",
       "sources": [
-        "https://www.herecomestheguide.com/wedding-venues/northern-california/the-claremont-hotel-club-and-spa"
+        "https://www.herecomestheguide.com/wedding-venues/northern-california/the-claremont-hotel-club-and-spa",
+        "https://ohanare.com/portfolio/",
+        "https://lwhospitalityadvisors.com/wp-content/uploads/2023/07/Q2-2023-Sales.pdf",
+        "https://claremontresortandclub.com/about/history/",
+        "https://claremontresortandclub.com/gather/weddings/"
       ],
       "midnight_outdoor": null,
       "vendors": null,
@@ -84890,10 +84894,10 @@
       ],
       "lat": null,
       "lng": null,
-      "address": null,
+      "address": "41 Tunnel Road, Berkeley mailing address, CA 94705; parcel jurisdiction unverified",
       "location_source": null,
       "included_items": null,
-      "food_requirement": null,
+      "food_requirement": "Resort culinary team; outside caterer exceptions Unknown",
       "bar_requirement": null,
       "other_requirements": null,
       "time_cut_off": "Event / indoor music / outdoor music / bar / cleanup: Unknown — inquire",
@@ -84908,33 +84912,38 @@
       "current_operator_since": null,
       "operating_years": null,
       "history_status": null,
-      "history_sources": [],
+      "history_sources": [
+        "https://claremontresortandclub.com/about/history/"
+      ],
       "property_value_low": null,
       "property_value_high": null,
       "business_value_low": null,
       "business_value_high": null,
-      "value_status": "Unknown — insufficient verified evidence",
-      "value_method": null,
-      "value_as_of": null,
-      "value_sources": [],
+      "value_status": "Historical2023reported transaction163.3m; current property/business value Unknown",
+      "value_method": "Historical reported hotel transaction, not current appraisal or standalone wedding business",
+      "value_as_of": "2023-05",
+      "value_sources": [
+        "https://ohanare.com/portfolio/",
+        "https://lwhospitalityadvisors.com/wp-content/uploads/2023/07/Q2-2023-Sales.pdf"
+      ],
       "parent_property": "Claremont Resort & Club",
       "record_kind": "Property",
       "category": "Wedding venue",
       "government": false,
       "unconventional": false,
-      "wedding_permission": "Wedding-directory listing — operator permission/availability unverified",
+      "wedding_permission": "Current operator weddings advertised; room/event approval required",
       "research_status": "Wedding-directory detail reviewed; operator terms unverified",
       "booking_status": "Listed — date availability unknown",
       "checked_utc": "2026-10-11T04:59:39.915588+00:00",
       "venue_url": "https://claremontresortandclub.com/gather/weddings/",
       "workbook_answers": {
         "identity-and-booking-wedding-permission": {
-          "answer": "Wedding-directory listing — operator permission/availability unverified",
-          "status": "Third-party directory evidence only",
+          "answer": "Current operator weddings advertised; room/event approval required",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
           "source_urls": [
-            "https://www.herecomestheguide.com/wedding-venues/northern-california/the-claremont-hotel-club-and-spa"
+            "https://claremontresortandclub.com/gather/weddings/"
           ],
-          "checked_utc": "2026-10-11T04:59:39.915588+00:00"
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
         },
         "identity-and-booking-exact-site-and-room": null,
         "identity-and-booking-county-and-jurisdiction": null,
@@ -85113,13 +85122,43 @@
         "business-suitability-break-even-events-and-working-capital": null,
         "business-suitability-acquisition-financial-verification": null,
         "business-suitability-government-rental-versus-concession-rights": null,
-        "history-building-construction-year": null,
+        "history-building-construction-year": {
+          "answer": "Hotel opened1915 per operator history. Construction completion/certificate and wedding opening separately Unknown.",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://claremontresortandclub.com/about/history/"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
         "history-wedding-operation-opening-year": null,
         "history-current-operator-start-date": null,
         "history-wedding-operation-duration-and-date-basis": null,
-        "valuation-exact-parcels-apns-and-asset-scope": null,
-        "valuation-owner-versus-operating-tenant": null,
-        "valuation-last-sale-price-and-date": null,
+        "valuation-exact-parcels-apns-and-asset-scope": {
+          "answer": "Whole resort/club transaction; APNs, land title and allocation among real estate/FF&E/business Unknown. No separate wedding business value inferred.",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://ohanare.com/portfolio/",
+            "https://lwhospitalityadvisors.com/wp-content/uploads/2023/07/Q2-2023-Sales.pdf"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "valuation-owner-versus-operating-tenant": {
+          "answer": "Ohana portfolio identifies May2023 property acquisition; this is ownership timing, not current operator start.",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://ohanare.com/portfolio/"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "valuation-last-sale-price-and-date": {
+          "answer": "May2023 acquisition confirmed bybuyerOhana. LWHAQ2survey reports163.3m ESTIMATED SALES PRICE/276rooms; buyer lists279rooms. Deed price, allocations and exact closing day Unknown.",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://ohanare.com/portfolio/",
+            "https://lwhospitalityadvisors.com/wp-content/uploads/2023/07/Q2-2023-Sales.pdf"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
         "valuation-current-asking-price-and-inclusions": null,
         "valuation-assessed-values-and-tax-year": null,
         "valuation-comparable-closed-sales": null,
@@ -85454,7 +85493,9 @@
       "midnight_indoor": null,
       "county": "Marin",
       "sources": [
-        "https://www.herecomestheguide.com/wedding-venues/northern-california/cavallo-point-lodge"
+        "https://www.herecomestheguide.com/wedding-venues/northern-california/cavallo-point-lodge",
+        "https://www.nps.gov/subjects/leasing/success-stories.htm",
+        "https://www.achp.gov/sites/default/files/2018-09/2008_Section%203_DOI_NPS.pdf"
       ],
       "midnight_outdoor": null,
       "vendors": null,
@@ -85493,14 +85534,17 @@
       "property_value_high": null,
       "business_value_low": null,
       "business_value_high": null,
-      "value_status": "Unknown — insufficient verified evidence",
+      "value_status": "Federal lease and historical development spending; current property/business value Unknown",
       "value_method": null,
       "value_as_of": null,
-      "value_sources": [],
+      "value_sources": [
+        "https://www.nps.gov/subjects/leasing/success-stories.htm",
+        "https://www.achp.gov/sites/default/files/2018-09/2008_Section%203_DOI_NPS.pdf"
+      ],
       "parent_property": "Cavallo Point, the Lodge at the Golden Gate",
       "record_kind": "Property",
       "category": "Wedding venue",
-      "government": false,
+      "government": true,
       "unconventional": false,
       "wedding_permission": "Wedding-directory listing — operator permission/availability unverified",
       "research_status": "Wedding-directory detail reviewed; operator terms unverified",
@@ -85694,19 +85738,51 @@
         "business-suitability-acquisition-financial-verification": null,
         "business-suitability-government-rental-versus-concession-rights": null,
         "history-building-construction-year": null,
-        "history-wedding-operation-opening-year": null,
+        "history-wedding-operation-opening-year": {
+          "answer": "Unknown. Lodgeopened2008; NPSsummaryMay versus2008DOIJuly conflict. Neither establishes first wedding-operation date.",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://www.nps.gov/subjects/leasing/success-stories.htm",
+            "https://www.achp.gov/sites/default/files/2018-09/2008_Section%203_DOI_NPS.pdf"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
         "history-current-operator-start-date": null,
         "history-wedding-operation-duration-and-date-basis": null,
         "valuation-exact-parcels-apns-and-asset-scope": null,
-        "valuation-owner-versus-operating-tenant": null,
+        "valuation-owner-versus-operating-tenant": {
+          "answer": "NPS land/facilities under developer historic lease; not a fee-simple property purchase or open opportunity for Mahdi/Rinad.",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://www.nps.gov/subjects/leasing/success-stories.htm",
+            "https://www.achp.gov/sites/default/files/2018-09/2008_Section%203_DOI_NPS.pdf"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
         "valuation-last-sale-price-and-date": null,
         "valuation-current-asking-price-and-inclusions": null,
         "valuation-assessed-values-and-tax-year": null,
         "valuation-comparable-closed-sales": null,
         "valuation-real-estate-value-range": null,
         "valuation-operating-business-value-range": null,
-        "valuation-lease-concession-terms": null,
-        "valuation-valuation-method-and-assumptions": null,
+        "valuation-lease-concession-terms": {
+          "answer": "2008DOIreport:60-year lease, rent400k/year plus increasing net-revenue share. Currentlease/amendments/rent Unknown; currentNPSpage names early2005agreement while report names2007.",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://www.achp.gov/sites/default/files/2018-09/2008_Section%203_DOI_NPS.pdf",
+            "https://www.nps.gov/subjects/leasing/success-stories.htm"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "valuation-valuation-method-and-assumptions": {
+          "answer": "2008DOIreported95mdeveloper restoration and22.9mNPSinfrastructure. CurrentNPScase says totalproject>100m. Development investment, not market value or wedding-only startup cost; scopes not added.",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://www.achp.gov/sites/default/files/2018-09/2008_Section%203_DOI_NPS.pdf",
+            "https://www.nps.gov/subjects/leasing/success-stories.htm"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
         "valuation-valuation-date-and-confidence": null,
         "valuation-unverified-evidence-and-due-diligence-gaps": null
       },
@@ -315818,7 +315894,8 @@
       "county": "Sonoma",
       "sources": [
         "https://www.fairmont-sonoma.com/gather/weddings/",
-        "https://www.fairmont-sonoma.com/content/uploads/2026/03/Fairmont-Sonoma-Weddings-Brochure-2025-v2.pdf"
+        "https://www.fairmont-sonoma.com/content/uploads/2026/03/Fairmont-Sonoma-Weddings-Brochure-2025-v2.pdf",
+        "https://s29.q4cdn.com/223055717/files/doc_financials/2013/q2/Supplemental-Report-Q2.pdf"
       ],
       "midnight_outdoor": null,
       "vendors": null,
@@ -315855,10 +315932,12 @@
       "property_value_high": null,
       "business_value_low": null,
       "business_value_high": null,
-      "value_status": "Unknown — insufficient verified evidence",
+      "value_status": "Historical2013JV investment documented; current property/business value Unknown",
       "value_method": null,
       "value_as_of": null,
-      "value_sources": [],
+      "value_sources": [
+        "https://s29.q4cdn.com/223055717/files/doc_financials/2013/q2/Supplemental-Report-Q2.pdf"
+      ],
       "parent_property": "Fairmont Sonoma Mission Inn & Spa",
       "record_kind": "Space",
       "category": "Hotel / golf-club wedding venue",
@@ -316088,7 +316167,14 @@
         "history-wedding-operation-duration-and-date-basis": null,
         "valuation-exact-parcels-apns-and-asset-scope": null,
         "valuation-owner-versus-operating-tenant": null,
-        "valuation-last-sale-price-and-date": null,
+        "valuation-last-sale-price-and-date": {
+          "answer": "July2013CWIacquired75%JVinterest; WPCQ2supplement reports97m total investment/Fairmont25%retained. Equity/debt/asset allocation Unknown; not currentwhole-property appraisal or room value.",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://s29.q4cdn.com/223055717/files/doc_financials/2013/q2/Supplemental-Report-Q2.pdf"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
         "valuation-current-asking-price-and-inclusions": null,
         "valuation-assessed-values-and-tax-year": null,
         "valuation-comparable-closed-sales": null,
@@ -316129,7 +316215,8 @@
       "county": "Sonoma",
       "sources": [
         "https://www.fairmont-sonoma.com/gather/weddings/",
-        "https://www.fairmont-sonoma.com/content/uploads/2026/03/Fairmont-Sonoma-Weddings-Brochure-2025-v2.pdf"
+        "https://www.fairmont-sonoma.com/content/uploads/2026/03/Fairmont-Sonoma-Weddings-Brochure-2025-v2.pdf",
+        "https://s29.q4cdn.com/223055717/files/doc_financials/2013/q2/Supplemental-Report-Q2.pdf"
       ],
       "midnight_outdoor": null,
       "vendors": null,
@@ -316166,10 +316253,12 @@
       "property_value_high": null,
       "business_value_low": null,
       "business_value_high": null,
-      "value_status": "Unknown — insufficient verified evidence",
+      "value_status": "Historical2013JV investment documented; current property/business value Unknown",
       "value_method": null,
       "value_as_of": null,
-      "value_sources": [],
+      "value_sources": [
+        "https://s29.q4cdn.com/223055717/files/doc_financials/2013/q2/Supplemental-Report-Q2.pdf"
+      ],
       "parent_property": "Fairmont Sonoma Mission Inn & Spa",
       "record_kind": "Space",
       "category": "Hotel / golf-club wedding venue",
@@ -316399,7 +316488,14 @@
         "history-wedding-operation-duration-and-date-basis": null,
         "valuation-exact-parcels-apns-and-asset-scope": null,
         "valuation-owner-versus-operating-tenant": null,
-        "valuation-last-sale-price-and-date": null,
+        "valuation-last-sale-price-and-date": {
+          "answer": "July2013CWIacquired75%JVinterest; WPCQ2supplement reports97m total investment/Fairmont25%retained. Equity/debt/asset allocation Unknown; not currentwhole-property appraisal or room value.",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://s29.q4cdn.com/223055717/files/doc_financials/2013/q2/Supplemental-Report-Q2.pdf"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
         "valuation-current-asking-price-and-inclusions": null,
         "valuation-assessed-values-and-tax-year": null,
         "valuation-comparable-closed-sales": null,
@@ -316440,7 +316536,8 @@
       "county": "Sonoma",
       "sources": [
         "https://www.fairmont-sonoma.com/gather/weddings/",
-        "https://www.fairmont-sonoma.com/content/uploads/2026/03/Fairmont-Sonoma-Weddings-Brochure-2025-v2.pdf"
+        "https://www.fairmont-sonoma.com/content/uploads/2026/03/Fairmont-Sonoma-Weddings-Brochure-2025-v2.pdf",
+        "https://s29.q4cdn.com/223055717/files/doc_financials/2013/q2/Supplemental-Report-Q2.pdf"
       ],
       "midnight_outdoor": null,
       "vendors": null,
@@ -316477,10 +316574,12 @@
       "property_value_high": null,
       "business_value_low": null,
       "business_value_high": null,
-      "value_status": "Unknown — insufficient verified evidence",
+      "value_status": "Historical2013JV investment documented; current property/business value Unknown",
       "value_method": null,
       "value_as_of": null,
-      "value_sources": [],
+      "value_sources": [
+        "https://s29.q4cdn.com/223055717/files/doc_financials/2013/q2/Supplemental-Report-Q2.pdf"
+      ],
       "parent_property": "Fairmont Sonoma Mission Inn & Spa",
       "record_kind": "Space",
       "category": "Hotel / golf-club wedding venue",
@@ -316710,7 +316809,14 @@
         "history-wedding-operation-duration-and-date-basis": null,
         "valuation-exact-parcels-apns-and-asset-scope": null,
         "valuation-owner-versus-operating-tenant": null,
-        "valuation-last-sale-price-and-date": null,
+        "valuation-last-sale-price-and-date": {
+          "answer": "July2013CWIacquired75%JVinterest; WPCQ2supplement reports97m total investment/Fairmont25%retained. Equity/debt/asset allocation Unknown; not currentwhole-property appraisal or room value.",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://s29.q4cdn.com/223055717/files/doc_financials/2013/q2/Supplemental-Report-Q2.pdf"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
         "valuation-current-asking-price-and-inclusions": null,
         "valuation-assessed-values-and-tax-year": null,
         "valuation-comparable-closed-sales": null,
@@ -316751,7 +316857,8 @@
       "county": "Sonoma",
       "sources": [
         "https://www.fairmont-sonoma.com/gather/weddings/",
-        "https://www.fairmont-sonoma.com/content/uploads/2026/03/Fairmont-Sonoma-Weddings-Brochure-2025-v2.pdf"
+        "https://www.fairmont-sonoma.com/content/uploads/2026/03/Fairmont-Sonoma-Weddings-Brochure-2025-v2.pdf",
+        "https://s29.q4cdn.com/223055717/files/doc_financials/2013/q2/Supplemental-Report-Q2.pdf"
       ],
       "midnight_outdoor": null,
       "vendors": null,
@@ -316788,10 +316895,12 @@
       "property_value_high": null,
       "business_value_low": null,
       "business_value_high": null,
-      "value_status": "Unknown — insufficient verified evidence",
+      "value_status": "Historical2013JV investment documented; current property/business value Unknown",
       "value_method": null,
       "value_as_of": null,
-      "value_sources": [],
+      "value_sources": [
+        "https://s29.q4cdn.com/223055717/files/doc_financials/2013/q2/Supplemental-Report-Q2.pdf"
+      ],
       "parent_property": "Fairmont Sonoma Mission Inn & Spa",
       "record_kind": "Space",
       "category": "Hotel / golf-club wedding venue",
@@ -317021,7 +317130,14 @@
         "history-wedding-operation-duration-and-date-basis": null,
         "valuation-exact-parcels-apns-and-asset-scope": null,
         "valuation-owner-versus-operating-tenant": null,
-        "valuation-last-sale-price-and-date": null,
+        "valuation-last-sale-price-and-date": {
+          "answer": "July2013CWIacquired75%JVinterest; WPCQ2supplement reports97m total investment/Fairmont25%retained. Equity/debt/asset allocation Unknown; not currentwhole-property appraisal or room value.",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://s29.q4cdn.com/223055717/files/doc_financials/2013/q2/Supplemental-Report-Q2.pdf"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
         "valuation-current-asking-price-and-inclusions": null,
         "valuation-assessed-values-and-tax-year": null,
         "valuation-comparable-closed-sales": null,
@@ -317062,7 +317178,8 @@
       "county": "Sonoma",
       "sources": [
         "https://www.fairmont-sonoma.com/gather/weddings/",
-        "https://www.fairmont-sonoma.com/content/uploads/2026/03/Fairmont-Sonoma-Weddings-Brochure-2025-v2.pdf"
+        "https://www.fairmont-sonoma.com/content/uploads/2026/03/Fairmont-Sonoma-Weddings-Brochure-2025-v2.pdf",
+        "https://s29.q4cdn.com/223055717/files/doc_financials/2013/q2/Supplemental-Report-Q2.pdf"
       ],
       "midnight_outdoor": null,
       "vendors": null,
@@ -317099,10 +317216,12 @@
       "property_value_high": null,
       "business_value_low": null,
       "business_value_high": null,
-      "value_status": "Unknown — insufficient verified evidence",
+      "value_status": "Historical2013JV investment documented; current property/business value Unknown",
       "value_method": null,
       "value_as_of": null,
-      "value_sources": [],
+      "value_sources": [
+        "https://s29.q4cdn.com/223055717/files/doc_financials/2013/q2/Supplemental-Report-Q2.pdf"
+      ],
       "parent_property": "Fairmont Sonoma Mission Inn & Spa",
       "record_kind": "Space",
       "category": "Hotel / golf-club wedding venue",
@@ -317332,7 +317451,14 @@
         "history-wedding-operation-duration-and-date-basis": null,
         "valuation-exact-parcels-apns-and-asset-scope": null,
         "valuation-owner-versus-operating-tenant": null,
-        "valuation-last-sale-price-and-date": null,
+        "valuation-last-sale-price-and-date": {
+          "answer": "July2013CWIacquired75%JVinterest; WPCQ2supplement reports97m total investment/Fairmont25%retained. Equity/debt/asset allocation Unknown; not currentwhole-property appraisal or room value.",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://s29.q4cdn.com/223055717/files/doc_financials/2013/q2/Supplemental-Report-Q2.pdf"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
         "valuation-current-asking-price-and-inclusions": null,
         "valuation-assessed-values-and-tax-year": null,
         "valuation-comparable-closed-sales": null,
@@ -317373,7 +317499,8 @@
       "county": "Sonoma",
       "sources": [
         "https://www.fairmont-sonoma.com/gather/weddings/",
-        "https://www.fairmont-sonoma.com/content/uploads/2026/03/Fairmont-Sonoma-Weddings-Brochure-2025-v2.pdf"
+        "https://www.fairmont-sonoma.com/content/uploads/2026/03/Fairmont-Sonoma-Weddings-Brochure-2025-v2.pdf",
+        "https://s29.q4cdn.com/223055717/files/doc_financials/2013/q2/Supplemental-Report-Q2.pdf"
       ],
       "midnight_outdoor": null,
       "vendors": null,
@@ -317410,10 +317537,12 @@
       "property_value_high": null,
       "business_value_low": null,
       "business_value_high": null,
-      "value_status": "Unknown — insufficient verified evidence",
+      "value_status": "Historical2013JV investment documented; current property/business value Unknown",
       "value_method": null,
       "value_as_of": null,
-      "value_sources": [],
+      "value_sources": [
+        "https://s29.q4cdn.com/223055717/files/doc_financials/2013/q2/Supplemental-Report-Q2.pdf"
+      ],
       "parent_property": "Fairmont Sonoma Mission Inn & Spa",
       "record_kind": "Space",
       "category": "Hotel / golf-club wedding venue",
@@ -317643,7 +317772,14 @@
         "history-wedding-operation-duration-and-date-basis": null,
         "valuation-exact-parcels-apns-and-asset-scope": null,
         "valuation-owner-versus-operating-tenant": null,
-        "valuation-last-sale-price-and-date": null,
+        "valuation-last-sale-price-and-date": {
+          "answer": "July2013CWIacquired75%JVinterest; WPCQ2supplement reports97m total investment/Fairmont25%retained. Equity/debt/asset allocation Unknown; not currentwhole-property appraisal or room value.",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://s29.q4cdn.com/223055717/files/doc_financials/2013/q2/Supplemental-Report-Q2.pdf"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
         "valuation-current-asking-price-and-inclusions": null,
         "valuation-assessed-values-and-tax-year": null,
         "valuation-comparable-closed-sales": null,
@@ -318307,10 +318443,2011 @@
           "lookup_url": "https://www.google.com/search?q=Sonoma%20Golf%20Club%20/%20Fairmont%20wedding%20offering%20Vintage%20Hall%20%26%20Patio%20Sonoma%20California+wedding+reviews"
         }
       }
+    },
+    {
+      "name": "Golden Gate Ballroom & Foyer",
+      "midnight_indoor": null,
+      "county": "San Francisco",
+      "sources": [
+        "https://www.argonauthotel.com/san-francisco-wedding/",
+        "https://noblehousemenus.com/argo-wedding-package_ADA.pdf",
+        "https://noblehousemenus.com/argo_WeddingFlipbook_ADA.pdf",
+        "https://www.argonauthotel.com/llm-info/",
+        "https://www.nps.gov/safr/learn/management/foundation-document-appendixes.htm",
+        "https://www.sec.gov/Archives/edgar/data/1474098/000095012311015821/w81668aexv10w1.htm"
+      ],
+      "midnight_outdoor": null,
+      "vendors": null,
+      "published_capacity": null,
+      "mandatory_total_price": null,
+      "id": "argonaut-hotel-golden-gate-ballroom-foyer-san-francisco",
+      "city": "San Francisco",
+      "unknowns": [
+        "Current complete quote",
+        "Approved dinner plus dance layout",
+        "Current event/music/bar/cleanup deadlines",
+        "Property ownership/lease and operating rights"
+      ],
+      "lat": 37.807550584866,
+      "lng": -122.420597962221,
+      "address": "495 Jefferson Street, San Francisco, CA 94109",
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
+      "included_items": null,
+      "food_requirement": "Blue Mermaid catering; cultural-food exceptions with plating fee in2025 packet",
+      "bar_requirement": "2025 packet: outside beer/liquor prohibited; wine corkage25/750ml",
+      "other_requirements": "2025 packet: professional coordinator; licensed/insured vendors, COI one week before event. Preferred list not exclusive.",
+      "time_cut_off": "Event/music/bar/cleanup: Unknown — inquire",
+      "price": {
+        "event_low": 2200,
+        "event_high": 3200,
+        "per_head_low": 240,
+        "per_head_high": 305,
+        "basis": "HISTORICAL2025 packet: room rental plus Classic/Premium food+limitedbar;26%fee+quoted8.625%tax/bartenders extra. Not2026/all-in quote",
+        "status": "Original packet marked2025; current written quote required"
+      },
+      "evidence_conflicts": null,
+      "pricing_checked_utc": null,
+      "directory_sources": null,
+      "construction_year": 1907,
+      "wedding_opening_year": null,
+      "current_operator_since": "2015 — hotel manager per operator; wedding-team start Unknown",
+      "operating_years": null,
+      "history_status": "Operator overview reports HaslettWarehouse1907/hotel2003/managerNobleHouse2015; weddingopening and duration Unknown",
+      "history_sources": [
+        "https://www.argonauthotel.com/llm-info/"
+      ],
+      "property_value_low": null,
+      "property_value_high": null,
+      "business_value_low": null,
+      "business_value_high": null,
+      "value_status": "Current real estate/business value Unknown; federal historic lease documented separately",
+      "value_method": null,
+      "value_as_of": null,
+      "value_sources": [
+        "https://www.nps.gov/safr/learn/management/foundation-document-appendixes.htm",
+        "https://www.sec.gov/Archives/edgar/data/1474098/000095012311015821/w81668aexv10w1.htm"
+      ],
+      "parent_property": "Argonaut Hotel",
+      "record_kind": "Space",
+      "category": "Hotel on historically leased federal property",
+      "government": true,
+      "unconventional": false,
+      "wedding_permission": "Current operator wedding offering; specific room/layout and date approval required",
+      "research_status": "Primary wedding web reader reviewed; directHTML403 logged. Actual2025package and undatedbrochure downloaded; packagefee/FAQpages visually reviewed. Current2026quote Unknown.",
+      "booking_status": "Listed; event approval required",
+      "checked_utc": "2026-10-11T10:25:10.252643+00:00",
+      "venue_url": "https://www.argonauthotel.com/san-francisco-wedding/",
+      "capacity_description": "Current wedding page: property dinner+dance280; 2025 package room300; undated brochure260. General banquet340 excludes dance assumptions. Confirm current room layout; no maximum selected.",
+      "generic_capacity": null,
+      "seated_capacity": null,
+      "location_checked_utc": "2026-10-11T10:26:15.316941+00:00",
+      "location_matched_address": "495 JEFFERSON ST, SAN FRANCISCO, CA, 94109",
+      "location_method": "Exact Census source-published street address with matching state/county; approximate campus/property point, not room or event entrance",
+      "standing_capacity": null,
+      "history_context": null,
+      "parcel_apn": null,
+      "ownership": null,
+      "workbook_answers": {
+        "identity-and-booking-wedding-permission": {
+          "answer": "Current operator wedding offering; specific room/layout and date approval required",
+          "status": "Operator-published; current contract/layout confirmation required",
+          "source_urls": [
+            "https://www.argonauthotel.com/san-francisco-wedding/",
+            "https://noblehousemenus.com/argo-wedding-package_ADA.pdf",
+            "https://noblehousemenus.com/argo_WeddingFlipbook_ADA.pdf",
+            "https://www.argonauthotel.com/llm-info/",
+            "https://www.nps.gov/safr/learn/management/foundation-document-appendixes.htm"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "identity-and-booking-exact-site-and-room": {
+          "answer": "495 Jefferson Street, San Francisco, CA 94109",
+          "status": "Operator-published; current contract/layout confirmation required",
+          "source_urls": [
+            "https://www.argonauthotel.com/san-francisco-wedding/",
+            "https://noblehousemenus.com/argo-wedding-package_ADA.pdf",
+            "https://noblehousemenus.com/argo_WeddingFlipbook_ADA.pdf",
+            "https://www.argonauthotel.com/llm-info/",
+            "https://www.nps.gov/safr/learn/management/foundation-document-appendixes.htm"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "identity-and-booking-county-and-jurisdiction": null,
+        "identity-and-booking-operator-and-owner": null,
+        "identity-and-booking-sales-contact": null,
+        "identity-and-booking-date-availability": null,
+        "identity-and-booking-booking-horizon": null,
+        "identity-and-booking-active-or-closed-status": null,
+        "identity-and-booking-other-simultaneous-events": null,
+        "identity-and-booking-exclusive-areas": null,
+        "capacity-and-layout-ceremony-seated-count": null,
+        "capacity-and-layout-dinner-plus-dance-capacity": {
+          "answer": "Current wedding page: property dinner+dance280; 2025 package room300; undated brochure260. General banquet340 excludes dance assumptions. Confirm current room layout; no maximum selected.",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://www.argonauthotel.com/san-francisco-wedding/",
+            "https://noblehousemenus.com/argo-wedding-package_ADA.pdf",
+            "https://noblehousemenus.com/argo_WeddingFlipbook_ADA.pdf"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "capacity-and-layout-standing-only-capacity": null,
+        "capacity-and-layout-indoor-and-outdoor-layouts": null,
+        "capacity-and-layout-comfortable-count-versus-maximum": null,
+        "capacity-and-layout-approved-occupancy-evidence": null,
+        "capacity-and-layout-floor-plan-and-dimensions": null,
+        "capacity-and-layout-cocktail-hour-space": null,
+        "capacity-and-layout-room-flip-logistics": null,
+        "capacity-and-layout-emergency-exits": null,
+        "time-cut-off-guest-event-start-end": null,
+        "time-cut-off-indoor-music-deadline": null,
+        "time-cut-off-outdoor-music-deadline": null,
+        "time-cut-off-bar-service-deadline": null,
+        "time-cut-off-guest-departure-deadline": null,
+        "time-cut-off-vendor-load-in-window": null,
+        "time-cut-off-cleanup-load-out-deadline": null,
+        "time-cut-off-rehearsal-access": null,
+        "time-cut-off-previous-day-setup": null,
+        "time-cut-off-overtime-conditions": null,
+        "included-equipment-table-sizes-and-quantities": null,
+        "included-equipment-chair-styles-and-quantities": null,
+        "included-equipment-linens-and-napkins": null,
+        "included-equipment-china-flatware-glassware": null,
+        "included-equipment-dance-floor": null,
+        "included-equipment-stage-and-av": null,
+        "included-equipment-existing-lighting": null,
+        "included-equipment-dressing-suites": null,
+        "included-equipment-heating-and-shade": null,
+        "included-equipment-item-condition-and-replacement-fees": null,
+        "labor-and-responsibilities-furniture-setup-breakdown-owner": null,
+        "labor-and-responsibilities-decor-setup-removal-owner": null,
+        "labor-and-responsibilities-room-flip-crew": null,
+        "labor-and-responsibilities-onsite-venue-manager": null,
+        "labor-and-responsibilities-coordinator-duties": null,
+        "labor-and-responsibilities-required-independent-planner": null,
+        "labor-and-responsibilities-catering-staff-responsibilities": null,
+        "labor-and-responsibilities-security-requirements": null,
+        "labor-and-responsibilities-cleaning-and-waste-owner": null,
+        "labor-and-responsibilities-after-hours-contact": null,
+        "vendor-freedom-required-versus-suggested-list": {
+          "answer": "2025:preferred vendor list not exclusive; professional coordinator required",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://noblehousemenus.com/argo-wedding-package_ADA.pdf"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "vendor-freedom-outside-caterer-permission": {
+          "answer": "Blue Mermaid catering; cultural-food exceptions with plating fee in2025 packet",
+          "status": "Operator-published; current contract/layout confirmation required",
+          "source_urls": [
+            "https://www.argonauthotel.com/san-francisco-wedding/",
+            "https://noblehousemenus.com/argo-wedding-package_ADA.pdf",
+            "https://noblehousemenus.com/argo_WeddingFlipbook_ADA.pdf",
+            "https://www.argonauthotel.com/llm-info/",
+            "https://www.nps.gov/safr/learn/management/foundation-document-appendixes.htm"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "vendor-freedom-catering-buyout-surcharge": null,
+        "vendor-freedom-dj-band-restrictions": null,
+        "vendor-freedom-rental-company-restrictions": null,
+        "vendor-freedom-food-truck-permission": null,
+        "vendor-freedom-vendor-insurance-documents": null,
+        "vendor-freedom-vendor-approval-deadlines": null,
+        "vendor-freedom-cultural-food-exceptions": null,
+        "vendor-freedom-vendor-commissions-disclosed": null,
+        "food-and-kitchen-meal-package-and-service-style": null,
+        "food-and-kitchen-food-minimum": null,
+        "food-and-kitchen-kids-and-vendor-meals": null,
+        "food-and-kitchen-dietary-allergy-handling": null,
+        "food-and-kitchen-tasting-terms": null,
+        "food-and-kitchen-preparation-kitchen-equipment": null,
+        "food-and-kitchen-cold-storage-and-ice": null,
+        "food-and-kitchen-water-and-handwashing": null,
+        "food-and-kitchen-service-routes": null,
+        "food-and-kitchen-food-waste-arrangements": null,
+        "alcohol-and-bar-byob-terms": {
+          "answer": "2025 packet: outside beer/liquor prohibited; wine corkage25/750ml",
+          "status": "Operator-published; current contract/layout confirmation required",
+          "source_urls": [
+            "https://www.argonauthotel.com/san-francisco-wedding/",
+            "https://noblehousemenus.com/argo-wedding-package_ADA.pdf",
+            "https://noblehousemenus.com/argo_WeddingFlipbook_ADA.pdf",
+            "https://www.argonauthotel.com/llm-info/",
+            "https://www.nps.gov/safr/learn/management/foundation-document-appendixes.htm"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "alcohol-and-bar-beer-wine-spirits-scope": null,
+        "alcohol-and-bar-licensed-service-provider": null,
+        "alcohol-and-bar-event-authorization-responsibility": null,
+        "alcohol-and-bar-bartender-requirements": null,
+        "alcohol-and-bar-open-bar-duration": null,
+        "alcohol-and-bar-corkage-and-bar-minimum": null,
+        "alcohol-and-bar-liquor-liability-coverage": null,
+        "alcohol-and-bar-last-call-procedure": null,
+        "alcohol-and-bar-alcohol-storage-rules": null,
+        "price-and-per-head-comparison-venue-fee-low-high": null,
+        "price-and-per-head-comparison-food-per-head-low-high": {
+          "answer": "2025Classic240–270/person; Premium275–305 includes specifiedbar.50minimum; room+26%fee+tax/bartenders separate",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://noblehousemenus.com/argo-wedding-package_ADA.pdf"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "price-and-per-head-comparison-bar-per-head-low-high": null,
+        "price-and-per-head-comparison-mandatory-spend-floor": null,
+        "price-and-per-head-comparison-ceremony-additional-space-fees": null,
+        "price-and-per-head-comparison-required-staffing-rental-costs": null,
+        "price-and-per-head-comparison-service-admin-charge-base": {
+          "answer": "2025 menu26%combined gratuity/admin; current fee/taxability allocation Unknown",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://noblehousemenus.com/argo-wedding-package_ADA.pdf"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "price-and-per-head-comparison-tax-and-charge-treatment": {
+          "answer": "Packet2025quotes8.625%tax onfood/beverage/room; not verified2026tax rate",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://noblehousemenus.com/argo-wedding-package_ADA.pdf"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "price-and-per-head-comparison-overtime-and-cleaning-fees": null,
+        "price-and-per-head-comparison-quote-date-and-expiry": null,
+        "price-and-per-head-comparison-date-season-assumptions": null,
+        "price-and-per-head-comparison-guest-count-assumptions": null,
+        "price-and-per-head-comparison-mandatory-total-low-high": null,
+        "price-and-per-head-comparison-refundable-security-deposit-separate": null,
+        "weather-and-continuity-reserved-backup-location": null,
+        "weather-and-continuity-backup-dinner-dance-capacity": null,
+        "weather-and-continuity-tent-permit-responsibility": null,
+        "weather-and-continuity-tent-flooring-heater-charges": null,
+        "weather-and-continuity-weather-decision-owner-and-deadline": null,
+        "weather-and-continuity-heat-cold-comfort": null,
+        "weather-and-continuity-wind-limits": null,
+        "weather-and-continuity-smoke-fire-response": null,
+        "weather-and-continuity-power-loss-backup": null,
+        "weather-and-continuity-closure-refund-contingency": null,
+        "arrival-and-travel-hotel-travel-time-and-date-basis": null,
+        "arrival-and-travel-airport-travel-time-and-basis": null,
+        "arrival-and-travel-major-city-access": null,
+        "arrival-and-travel-parking-count-and-costs": null,
+        "arrival-and-travel-valet-shuttle-mandates": null,
+        "arrival-and-travel-coach-turnaround": null,
+        "arrival-and-travel-rideshare-pickup-at-closing": null,
+        "arrival-and-travel-lodging-room-counts": null,
+        "arrival-and-travel-room-block-terms": null,
+        "arrival-and-travel-accessible-drop-off": null,
+        "access-and-guest-comfort-continuous-accessible-guest-route": null,
+        "access-and-guest-comfort-accessible-restroom-access": null,
+        "access-and-guest-comfort-accessible-seating-layout": null,
+        "access-and-guest-comfort-terrain-stairs-elevators": null,
+        "access-and-guest-comfort-restroom-count-and-condition": null,
+        "access-and-guest-comfort-restroom-service-during-event": null,
+        "access-and-guest-comfort-quiet-private-room": null,
+        "access-and-guest-comfort-nursing-family-space": null,
+        "access-and-guest-comfort-wayfinding-and-night-lighting": null,
+        "access-and-guest-comfort-coat-bag-gift-storage": null,
+        "production-and-delivery-loading-path-measurements": null,
+        "production-and-delivery-delivery-vehicle-access": null,
+        "production-and-delivery-dock-elevator-limits": null,
+        "production-and-delivery-storage-staging-area": null,
+        "production-and-delivery-available-electrical-circuits": null,
+        "production-and-delivery-generator-placement-permission": null,
+        "production-and-delivery-internet-mobile-signal": null,
+        "production-and-delivery-rigging-approvals": null,
+        "production-and-delivery-sound-system-limits": null,
+        "production-and-delivery-sunset-lighting-sightlines": null,
+        "design-and-cultural-fit-decor-attachment-rules": null,
+        "design-and-cultural-fit-furniture-moving-permission": null,
+        "design-and-cultural-fit-candles-flames-restrictions": null,
+        "design-and-cultural-fit-confetti-sparkler-restrictions": null,
+        "design-and-cultural-fit-floral-decor-disposal": null,
+        "design-and-cultural-fit-cultural-ceremony-accommodation": null,
+        "design-and-cultural-fit-baraat-procession-approval": null,
+        "design-and-cultural-fit-multi-event-celebration-access": null,
+        "design-and-cultural-fit-privacy-photo-location-access": null,
+        "design-and-cultural-fit-actual-event-photos-and-style-fit": null,
+        "contract-and-deadlines-deposit-payment-milestones": null,
+        "contract-and-deadlines-cancellation-refund-schedule": null,
+        "contract-and-deadlines-date-change-terms": null,
+        "contract-and-deadlines-force-majeure-wording": null,
+        "contract-and-deadlines-venue-cancellation-remedies": null,
+        "contract-and-deadlines-substitution-relocation-clause": null,
+        "contract-and-deadlines-price-change-clauses": null,
+        "contract-and-deadlines-damage-liability": null,
+        "contract-and-deadlines-insurance-limits-documents": null,
+        "contract-and-deadlines-final-headcount-deadline": {
+          "answer": "2025 packet:noon seven business days before event",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://noblehousemenus.com/argo-wedding-package_ADA.pdf"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "contract-and-deadlines-vendor-document-deadlines": null,
+        "contract-and-deadlines-permit-responsibility": null,
+        "quality-and-handover-recent-event-references": null,
+        "quality-and-handover-communication-response-history": null,
+        "quality-and-handover-named-day-of-contact": null,
+        "quality-and-handover-final-joint-walkthrough": null,
+        "quality-and-handover-approved-timeline-floor-plan": null,
+        "quality-and-handover-vendor-contact-sheet": null,
+        "quality-and-handover-construction-ownership-changes": null,
+        "quality-and-handover-complaints-and-resolution-evidence": null,
+        "business-suitability-recurring-commercial-use-approval": null,
+        "business-suitability-event-frequency-restrictions": null,
+        "business-suitability-lawful-music-hours-conditions": null,
+        "business-suitability-lease-sublease-event-rights": null,
+        "business-suitability-permit-license-transfer-conditions": null,
+        "business-suitability-septic-water-electrical-capacity": null,
+        "business-suitability-fire-access-and-occupancy-upgrade-costs": null,
+        "business-suitability-staffing-hours-per-event": null,
+        "business-suitability-maintenance-storage-security-costs": null,
+        "business-suitability-capital-cost-and-lead-time-scenarios": null,
+        "business-suitability-contribution-per-event": null,
+        "business-suitability-break-even-events-and-working-capital": null,
+        "business-suitability-acquisition-financial-verification": null,
+        "business-suitability-government-rental-versus-concession-rights": null,
+        "history-building-construction-year": {
+          "answer": "1907 Haslett Warehouse, operator overview; exact construction records not reviewed",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://www.argonauthotel.com/llm-info/"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "history-wedding-operation-opening-year": null,
+        "history-current-operator-start-date": {
+          "answer": "Hotel manager Noble House since2015, per operator. Wedding-operation opening and current wedding-team start Unknown.",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://www.argonauthotel.com/llm-info/"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "history-wedding-operation-duration-and-date-basis": null,
+        "valuation-exact-parcels-apns-and-asset-scope": null,
+        "valuation-owner-versus-operating-tenant": {
+          "answer": "Federal historic lease; operator identifies Pebblebrook hotel ownership and Noble House management. This does not establish private ownership of federal land.",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://www.argonauthotel.com/llm-info/",
+            "https://www.nps.gov/safr/learn/management/foundation-document-appendixes.htm"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "valuation-last-sale-price-and-date": null,
+        "valuation-current-asking-price-and-inclusions": null,
+        "valuation-assessed-values-and-tax-year": null,
+        "valuation-comparable-closed-sales": null,
+        "valuation-real-estate-value-range": null,
+        "valuation-operating-business-value-range": null,
+        "valuation-lease-concession-terms": {
+          "answer": "2016 NPS foundation document:57-year historic lease, listed2003–2059. SEC-filed original lease initial base rent1m/year, CPI and percentage terms; current amendments/rent Unknown.",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://www.nps.gov/safr/learn/management/foundation-document-appendixes.htm",
+            "https://www.sec.gov/Archives/edgar/data/1474098/000095012311015821/w81668aexv10w1.htm"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "valuation-valuation-method-and-assumptions": null,
+        "valuation-valuation-date-and-confidence": null,
+        "valuation-unverified-evidence-and-due-diligence-gaps": null
+      },
+      "reviews": {
+        "google": {
+          "rating": null,
+          "review_count": null,
+          "review_url": null,
+          "checked_utc": null,
+          "lookup_url": "https://www.google.com/maps/search/?api=1&query=Argonaut%20Hotel%20Golden%20Gate%20Ballroom%20%26%20Foyer%20San%20Francisco%20California"
+        },
+        "yelp": {
+          "rating": null,
+          "review_count": null,
+          "review_url": null,
+          "checked_utc": null,
+          "lookup_url": "https://www.yelp.com/search?find_desc=Argonaut%20Hotel%20Golden%20Gate%20Ballroom%20%26%20Foyer%20San%20Francisco%20California&find_loc=San%20Francisco%20California"
+        },
+        "other": {
+          "rating": null,
+          "review_count": null,
+          "review_url": null,
+          "checked_utc": null,
+          "lookup_url": "https://www.google.com/search?q=Argonaut%20Hotel%20Golden%20Gate%20Ballroom%20%26%20Foyer%20San%20Francisco%20California+wedding+reviews"
+        }
+      }
+    },
+    {
+      "name": "Maritime Room",
+      "midnight_indoor": null,
+      "county": "San Francisco",
+      "sources": [
+        "https://www.argonauthotel.com/san-francisco-wedding/",
+        "https://noblehousemenus.com/argo-wedding-package_ADA.pdf",
+        "https://noblehousemenus.com/argo_WeddingFlipbook_ADA.pdf",
+        "https://www.argonauthotel.com/llm-info/",
+        "https://www.nps.gov/safr/learn/management/foundation-document-appendixes.htm",
+        "https://www.sec.gov/Archives/edgar/data/1474098/000095012311015821/w81668aexv10w1.htm"
+      ],
+      "midnight_outdoor": null,
+      "vendors": null,
+      "published_capacity": null,
+      "mandatory_total_price": null,
+      "id": "argonaut-hotel-maritime-room-san-francisco",
+      "city": "San Francisco",
+      "unknowns": [
+        "Current complete quote",
+        "Approved dinner plus dance layout",
+        "Current event/music/bar/cleanup deadlines",
+        "Property ownership/lease and operating rights"
+      ],
+      "lat": 37.807550584866,
+      "lng": -122.420597962221,
+      "address": "495 Jefferson Street, San Francisco, CA 94109",
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
+      "included_items": null,
+      "food_requirement": "Blue Mermaid catering; cultural-food exceptions with plating fee in2025 packet",
+      "bar_requirement": "2025 packet: outside beer/liquor prohibited; wine corkage25/750ml",
+      "other_requirements": "2025 packet: professional coordinator; licensed/insured vendors, COI one week before event. Preferred list not exclusive.",
+      "time_cut_off": "Event/music/bar/cleanup: Unknown — inquire",
+      "price": {
+        "event_low": 1200,
+        "event_high": 2000,
+        "per_head_low": 240,
+        "per_head_high": 305,
+        "basis": "HISTORICAL2025 packet: room rental plus Classic/Premium food+limitedbar;26%fee+quoted8.625%tax/bartenders extra. Not2026/all-in quote",
+        "status": "Original packet marked2025; current written quote required"
+      },
+      "evidence_conflicts": null,
+      "pricing_checked_utc": null,
+      "directory_sources": null,
+      "construction_year": 1907,
+      "wedding_opening_year": null,
+      "current_operator_since": "2015 — hotel manager per operator; wedding-team start Unknown",
+      "operating_years": null,
+      "history_status": "Operator overview reports HaslettWarehouse1907/hotel2003/managerNobleHouse2015; weddingopening and duration Unknown",
+      "history_sources": [
+        "https://www.argonauthotel.com/llm-info/"
+      ],
+      "property_value_low": null,
+      "property_value_high": null,
+      "business_value_low": null,
+      "business_value_high": null,
+      "value_status": "Current real estate/business value Unknown; federal historic lease documented separately",
+      "value_method": null,
+      "value_as_of": null,
+      "value_sources": [
+        "https://www.nps.gov/safr/learn/management/foundation-document-appendixes.htm",
+        "https://www.sec.gov/Archives/edgar/data/1474098/000095012311015821/w81668aexv10w1.htm"
+      ],
+      "parent_property": "Argonaut Hotel",
+      "record_kind": "Space",
+      "category": "Hotel on historically leased federal property",
+      "government": true,
+      "unconventional": false,
+      "wedding_permission": "Current operator wedding offering; specific room/layout and date approval required",
+      "research_status": "Primary wedding web reader reviewed; directHTML403 logged. Actual2025package and undatedbrochure downloaded; packagefee/FAQpages visually reviewed. Current2026quote Unknown.",
+      "booking_status": "Listed; event approval required",
+      "checked_utc": "2026-10-11T10:25:10.252643+00:00",
+      "venue_url": "https://www.argonauthotel.com/san-francisco-wedding/",
+      "capacity_description": "2025 package90 dinner+dance; ceremony120 versus undated brochure100. General banquet125 excludes dance assumptions.",
+      "generic_capacity": null,
+      "seated_capacity": 90,
+      "location_checked_utc": "2026-10-11T10:26:15.316941+00:00",
+      "location_matched_address": "495 JEFFERSON ST, SAN FRANCISCO, CA, 94109",
+      "location_method": "Exact Census source-published street address with matching state/county; approximate campus/property point, not room or event entrance",
+      "standing_capacity": null,
+      "history_context": null,
+      "parcel_apn": null,
+      "ownership": null,
+      "workbook_answers": {
+        "identity-and-booking-wedding-permission": {
+          "answer": "Current operator wedding offering; specific room/layout and date approval required",
+          "status": "Operator-published; current contract/layout confirmation required",
+          "source_urls": [
+            "https://www.argonauthotel.com/san-francisco-wedding/",
+            "https://noblehousemenus.com/argo-wedding-package_ADA.pdf",
+            "https://noblehousemenus.com/argo_WeddingFlipbook_ADA.pdf",
+            "https://www.argonauthotel.com/llm-info/",
+            "https://www.nps.gov/safr/learn/management/foundation-document-appendixes.htm"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "identity-and-booking-exact-site-and-room": {
+          "answer": "495 Jefferson Street, San Francisco, CA 94109",
+          "status": "Operator-published; current contract/layout confirmation required",
+          "source_urls": [
+            "https://www.argonauthotel.com/san-francisco-wedding/",
+            "https://noblehousemenus.com/argo-wedding-package_ADA.pdf",
+            "https://noblehousemenus.com/argo_WeddingFlipbook_ADA.pdf",
+            "https://www.argonauthotel.com/llm-info/",
+            "https://www.nps.gov/safr/learn/management/foundation-document-appendixes.htm"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "identity-and-booking-county-and-jurisdiction": null,
+        "identity-and-booking-operator-and-owner": null,
+        "identity-and-booking-sales-contact": null,
+        "identity-and-booking-date-availability": null,
+        "identity-and-booking-booking-horizon": null,
+        "identity-and-booking-active-or-closed-status": null,
+        "identity-and-booking-other-simultaneous-events": null,
+        "identity-and-booking-exclusive-areas": null,
+        "capacity-and-layout-ceremony-seated-count": null,
+        "capacity-and-layout-dinner-plus-dance-capacity": {
+          "answer": "2025 package90 dinner+dance; ceremony120 versus undated brochure100. General banquet125 excludes dance assumptions.",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://www.argonauthotel.com/san-francisco-wedding/",
+            "https://noblehousemenus.com/argo-wedding-package_ADA.pdf",
+            "https://noblehousemenus.com/argo_WeddingFlipbook_ADA.pdf"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "capacity-and-layout-standing-only-capacity": null,
+        "capacity-and-layout-indoor-and-outdoor-layouts": null,
+        "capacity-and-layout-comfortable-count-versus-maximum": null,
+        "capacity-and-layout-approved-occupancy-evidence": null,
+        "capacity-and-layout-floor-plan-and-dimensions": null,
+        "capacity-and-layout-cocktail-hour-space": null,
+        "capacity-and-layout-room-flip-logistics": null,
+        "capacity-and-layout-emergency-exits": null,
+        "time-cut-off-guest-event-start-end": null,
+        "time-cut-off-indoor-music-deadline": null,
+        "time-cut-off-outdoor-music-deadline": null,
+        "time-cut-off-bar-service-deadline": null,
+        "time-cut-off-guest-departure-deadline": null,
+        "time-cut-off-vendor-load-in-window": null,
+        "time-cut-off-cleanup-load-out-deadline": null,
+        "time-cut-off-rehearsal-access": null,
+        "time-cut-off-previous-day-setup": null,
+        "time-cut-off-overtime-conditions": null,
+        "included-equipment-table-sizes-and-quantities": null,
+        "included-equipment-chair-styles-and-quantities": null,
+        "included-equipment-linens-and-napkins": null,
+        "included-equipment-china-flatware-glassware": null,
+        "included-equipment-dance-floor": null,
+        "included-equipment-stage-and-av": null,
+        "included-equipment-existing-lighting": null,
+        "included-equipment-dressing-suites": null,
+        "included-equipment-heating-and-shade": null,
+        "included-equipment-item-condition-and-replacement-fees": null,
+        "labor-and-responsibilities-furniture-setup-breakdown-owner": null,
+        "labor-and-responsibilities-decor-setup-removal-owner": null,
+        "labor-and-responsibilities-room-flip-crew": null,
+        "labor-and-responsibilities-onsite-venue-manager": null,
+        "labor-and-responsibilities-coordinator-duties": null,
+        "labor-and-responsibilities-required-independent-planner": null,
+        "labor-and-responsibilities-catering-staff-responsibilities": null,
+        "labor-and-responsibilities-security-requirements": null,
+        "labor-and-responsibilities-cleaning-and-waste-owner": null,
+        "labor-and-responsibilities-after-hours-contact": null,
+        "vendor-freedom-required-versus-suggested-list": {
+          "answer": "2025:preferred vendor list not exclusive; professional coordinator required",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://noblehousemenus.com/argo-wedding-package_ADA.pdf"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "vendor-freedom-outside-caterer-permission": {
+          "answer": "Blue Mermaid catering; cultural-food exceptions with plating fee in2025 packet",
+          "status": "Operator-published; current contract/layout confirmation required",
+          "source_urls": [
+            "https://www.argonauthotel.com/san-francisco-wedding/",
+            "https://noblehousemenus.com/argo-wedding-package_ADA.pdf",
+            "https://noblehousemenus.com/argo_WeddingFlipbook_ADA.pdf",
+            "https://www.argonauthotel.com/llm-info/",
+            "https://www.nps.gov/safr/learn/management/foundation-document-appendixes.htm"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "vendor-freedom-catering-buyout-surcharge": null,
+        "vendor-freedom-dj-band-restrictions": null,
+        "vendor-freedom-rental-company-restrictions": null,
+        "vendor-freedom-food-truck-permission": null,
+        "vendor-freedom-vendor-insurance-documents": null,
+        "vendor-freedom-vendor-approval-deadlines": null,
+        "vendor-freedom-cultural-food-exceptions": null,
+        "vendor-freedom-vendor-commissions-disclosed": null,
+        "food-and-kitchen-meal-package-and-service-style": null,
+        "food-and-kitchen-food-minimum": null,
+        "food-and-kitchen-kids-and-vendor-meals": null,
+        "food-and-kitchen-dietary-allergy-handling": null,
+        "food-and-kitchen-tasting-terms": null,
+        "food-and-kitchen-preparation-kitchen-equipment": null,
+        "food-and-kitchen-cold-storage-and-ice": null,
+        "food-and-kitchen-water-and-handwashing": null,
+        "food-and-kitchen-service-routes": null,
+        "food-and-kitchen-food-waste-arrangements": null,
+        "alcohol-and-bar-byob-terms": {
+          "answer": "2025 packet: outside beer/liquor prohibited; wine corkage25/750ml",
+          "status": "Operator-published; current contract/layout confirmation required",
+          "source_urls": [
+            "https://www.argonauthotel.com/san-francisco-wedding/",
+            "https://noblehousemenus.com/argo-wedding-package_ADA.pdf",
+            "https://noblehousemenus.com/argo_WeddingFlipbook_ADA.pdf",
+            "https://www.argonauthotel.com/llm-info/",
+            "https://www.nps.gov/safr/learn/management/foundation-document-appendixes.htm"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "alcohol-and-bar-beer-wine-spirits-scope": null,
+        "alcohol-and-bar-licensed-service-provider": null,
+        "alcohol-and-bar-event-authorization-responsibility": null,
+        "alcohol-and-bar-bartender-requirements": null,
+        "alcohol-and-bar-open-bar-duration": null,
+        "alcohol-and-bar-corkage-and-bar-minimum": null,
+        "alcohol-and-bar-liquor-liability-coverage": null,
+        "alcohol-and-bar-last-call-procedure": null,
+        "alcohol-and-bar-alcohol-storage-rules": null,
+        "price-and-per-head-comparison-venue-fee-low-high": null,
+        "price-and-per-head-comparison-food-per-head-low-high": {
+          "answer": "2025Classic240–270/person; Premium275–305 includes specifiedbar.50minimum; room+26%fee+tax/bartenders separate",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://noblehousemenus.com/argo-wedding-package_ADA.pdf"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "price-and-per-head-comparison-bar-per-head-low-high": null,
+        "price-and-per-head-comparison-mandatory-spend-floor": null,
+        "price-and-per-head-comparison-ceremony-additional-space-fees": null,
+        "price-and-per-head-comparison-required-staffing-rental-costs": null,
+        "price-and-per-head-comparison-service-admin-charge-base": {
+          "answer": "2025 menu26%combined gratuity/admin; current fee/taxability allocation Unknown",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://noblehousemenus.com/argo-wedding-package_ADA.pdf"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "price-and-per-head-comparison-tax-and-charge-treatment": {
+          "answer": "Packet2025quotes8.625%tax onfood/beverage/room; not verified2026tax rate",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://noblehousemenus.com/argo-wedding-package_ADA.pdf"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "price-and-per-head-comparison-overtime-and-cleaning-fees": null,
+        "price-and-per-head-comparison-quote-date-and-expiry": null,
+        "price-and-per-head-comparison-date-season-assumptions": null,
+        "price-and-per-head-comparison-guest-count-assumptions": null,
+        "price-and-per-head-comparison-mandatory-total-low-high": null,
+        "price-and-per-head-comparison-refundable-security-deposit-separate": null,
+        "weather-and-continuity-reserved-backup-location": null,
+        "weather-and-continuity-backup-dinner-dance-capacity": null,
+        "weather-and-continuity-tent-permit-responsibility": null,
+        "weather-and-continuity-tent-flooring-heater-charges": null,
+        "weather-and-continuity-weather-decision-owner-and-deadline": null,
+        "weather-and-continuity-heat-cold-comfort": null,
+        "weather-and-continuity-wind-limits": null,
+        "weather-and-continuity-smoke-fire-response": null,
+        "weather-and-continuity-power-loss-backup": null,
+        "weather-and-continuity-closure-refund-contingency": null,
+        "arrival-and-travel-hotel-travel-time-and-date-basis": null,
+        "arrival-and-travel-airport-travel-time-and-basis": null,
+        "arrival-and-travel-major-city-access": null,
+        "arrival-and-travel-parking-count-and-costs": null,
+        "arrival-and-travel-valet-shuttle-mandates": null,
+        "arrival-and-travel-coach-turnaround": null,
+        "arrival-and-travel-rideshare-pickup-at-closing": null,
+        "arrival-and-travel-lodging-room-counts": null,
+        "arrival-and-travel-room-block-terms": null,
+        "arrival-and-travel-accessible-drop-off": null,
+        "access-and-guest-comfort-continuous-accessible-guest-route": null,
+        "access-and-guest-comfort-accessible-restroom-access": null,
+        "access-and-guest-comfort-accessible-seating-layout": null,
+        "access-and-guest-comfort-terrain-stairs-elevators": null,
+        "access-and-guest-comfort-restroom-count-and-condition": null,
+        "access-and-guest-comfort-restroom-service-during-event": null,
+        "access-and-guest-comfort-quiet-private-room": null,
+        "access-and-guest-comfort-nursing-family-space": null,
+        "access-and-guest-comfort-wayfinding-and-night-lighting": null,
+        "access-and-guest-comfort-coat-bag-gift-storage": null,
+        "production-and-delivery-loading-path-measurements": null,
+        "production-and-delivery-delivery-vehicle-access": null,
+        "production-and-delivery-dock-elevator-limits": null,
+        "production-and-delivery-storage-staging-area": null,
+        "production-and-delivery-available-electrical-circuits": null,
+        "production-and-delivery-generator-placement-permission": null,
+        "production-and-delivery-internet-mobile-signal": null,
+        "production-and-delivery-rigging-approvals": null,
+        "production-and-delivery-sound-system-limits": null,
+        "production-and-delivery-sunset-lighting-sightlines": null,
+        "design-and-cultural-fit-decor-attachment-rules": null,
+        "design-and-cultural-fit-furniture-moving-permission": null,
+        "design-and-cultural-fit-candles-flames-restrictions": null,
+        "design-and-cultural-fit-confetti-sparkler-restrictions": null,
+        "design-and-cultural-fit-floral-decor-disposal": null,
+        "design-and-cultural-fit-cultural-ceremony-accommodation": null,
+        "design-and-cultural-fit-baraat-procession-approval": null,
+        "design-and-cultural-fit-multi-event-celebration-access": null,
+        "design-and-cultural-fit-privacy-photo-location-access": null,
+        "design-and-cultural-fit-actual-event-photos-and-style-fit": null,
+        "contract-and-deadlines-deposit-payment-milestones": null,
+        "contract-and-deadlines-cancellation-refund-schedule": null,
+        "contract-and-deadlines-date-change-terms": null,
+        "contract-and-deadlines-force-majeure-wording": null,
+        "contract-and-deadlines-venue-cancellation-remedies": null,
+        "contract-and-deadlines-substitution-relocation-clause": null,
+        "contract-and-deadlines-price-change-clauses": null,
+        "contract-and-deadlines-damage-liability": null,
+        "contract-and-deadlines-insurance-limits-documents": null,
+        "contract-and-deadlines-final-headcount-deadline": {
+          "answer": "2025 packet:noon seven business days before event",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://noblehousemenus.com/argo-wedding-package_ADA.pdf"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "contract-and-deadlines-vendor-document-deadlines": null,
+        "contract-and-deadlines-permit-responsibility": null,
+        "quality-and-handover-recent-event-references": null,
+        "quality-and-handover-communication-response-history": null,
+        "quality-and-handover-named-day-of-contact": null,
+        "quality-and-handover-final-joint-walkthrough": null,
+        "quality-and-handover-approved-timeline-floor-plan": null,
+        "quality-and-handover-vendor-contact-sheet": null,
+        "quality-and-handover-construction-ownership-changes": null,
+        "quality-and-handover-complaints-and-resolution-evidence": null,
+        "business-suitability-recurring-commercial-use-approval": null,
+        "business-suitability-event-frequency-restrictions": null,
+        "business-suitability-lawful-music-hours-conditions": null,
+        "business-suitability-lease-sublease-event-rights": null,
+        "business-suitability-permit-license-transfer-conditions": null,
+        "business-suitability-septic-water-electrical-capacity": null,
+        "business-suitability-fire-access-and-occupancy-upgrade-costs": null,
+        "business-suitability-staffing-hours-per-event": null,
+        "business-suitability-maintenance-storage-security-costs": null,
+        "business-suitability-capital-cost-and-lead-time-scenarios": null,
+        "business-suitability-contribution-per-event": null,
+        "business-suitability-break-even-events-and-working-capital": null,
+        "business-suitability-acquisition-financial-verification": null,
+        "business-suitability-government-rental-versus-concession-rights": null,
+        "history-building-construction-year": {
+          "answer": "1907 Haslett Warehouse, operator overview; exact construction records not reviewed",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://www.argonauthotel.com/llm-info/"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "history-wedding-operation-opening-year": null,
+        "history-current-operator-start-date": {
+          "answer": "Hotel manager Noble House since2015, per operator. Wedding-operation opening and current wedding-team start Unknown.",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://www.argonauthotel.com/llm-info/"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "history-wedding-operation-duration-and-date-basis": null,
+        "valuation-exact-parcels-apns-and-asset-scope": null,
+        "valuation-owner-versus-operating-tenant": {
+          "answer": "Federal historic lease; operator identifies Pebblebrook hotel ownership and Noble House management. This does not establish private ownership of federal land.",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://www.argonauthotel.com/llm-info/",
+            "https://www.nps.gov/safr/learn/management/foundation-document-appendixes.htm"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "valuation-last-sale-price-and-date": null,
+        "valuation-current-asking-price-and-inclusions": null,
+        "valuation-assessed-values-and-tax-year": null,
+        "valuation-comparable-closed-sales": null,
+        "valuation-real-estate-value-range": null,
+        "valuation-operating-business-value-range": null,
+        "valuation-lease-concession-terms": {
+          "answer": "2016 NPS foundation document:57-year historic lease, listed2003–2059. SEC-filed original lease initial base rent1m/year, CPI and percentage terms; current amendments/rent Unknown.",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://www.nps.gov/safr/learn/management/foundation-document-appendixes.htm",
+            "https://www.sec.gov/Archives/edgar/data/1474098/000095012311015821/w81668aexv10w1.htm"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "valuation-valuation-method-and-assumptions": null,
+        "valuation-valuation-date-and-confidence": null,
+        "valuation-unverified-evidence-and-due-diligence-gaps": null
+      },
+      "reviews": {
+        "google": {
+          "rating": null,
+          "review_count": null,
+          "review_url": null,
+          "checked_utc": null,
+          "lookup_url": "https://www.google.com/maps/search/?api=1&query=Argonaut%20Hotel%20Maritime%20Room%20San%20Francisco%20California"
+        },
+        "yelp": {
+          "rating": null,
+          "review_count": null,
+          "review_url": null,
+          "checked_utc": null,
+          "lookup_url": "https://www.yelp.com/search?find_desc=Argonaut%20Hotel%20Maritime%20Room%20San%20Francisco%20California&find_loc=San%20Francisco%20California"
+        },
+        "other": {
+          "rating": null,
+          "review_count": null,
+          "review_url": null,
+          "checked_utc": null,
+          "lookup_url": "https://www.google.com/search?q=Argonaut%20Hotel%20Maritime%20Room%20San%20Francisco%20California+wedding+reviews"
+        }
+      }
+    },
+    {
+      "name": "Del Monte Courtyard",
+      "midnight_indoor": null,
+      "county": "San Francisco",
+      "sources": [
+        "https://www.argonauthotel.com/san-francisco-wedding/",
+        "https://noblehousemenus.com/argo-wedding-package_ADA.pdf",
+        "https://noblehousemenus.com/argo_WeddingFlipbook_ADA.pdf",
+        "https://www.argonauthotel.com/llm-info/",
+        "https://www.nps.gov/safr/learn/management/foundation-document-appendixes.htm",
+        "https://www.sec.gov/Archives/edgar/data/1474098/000095012311015821/w81668aexv10w1.htm"
+      ],
+      "midnight_outdoor": null,
+      "vendors": null,
+      "published_capacity": null,
+      "mandatory_total_price": null,
+      "id": "argonaut-hotel-del-monte-courtyard-san-francisco",
+      "city": "San Francisco",
+      "unknowns": [
+        "Current complete quote",
+        "Approved dinner plus dance layout",
+        "Current event/music/bar/cleanup deadlines",
+        "Property ownership/lease and operating rights"
+      ],
+      "lat": 37.807550584866,
+      "lng": -122.420597962221,
+      "address": "495 Jefferson Street, San Francisco, CA 94109",
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
+      "included_items": null,
+      "food_requirement": "Blue Mermaid catering; cultural-food exceptions with plating fee in2025 packet",
+      "bar_requirement": "2025 packet: outside beer/liquor prohibited; wine corkage25/750ml",
+      "other_requirements": "2025 packet: professional coordinator; licensed/insured vendors, COI one week before event. Preferred list not exclusive.",
+      "time_cut_off": "Event/music/bar/cleanup: Unknown — inquire",
+      "price": {
+        "event_low": 1000,
+        "event_high": 2000,
+        "per_head_low": 240,
+        "per_head_high": 305,
+        "basis": "HISTORICAL2025 packet: room rental plus Classic/Premium food+limitedbar;26%fee+quoted8.625%tax/bartenders extra. Not2026/all-in quote",
+        "status": "Original packet marked2025; current written quote required"
+      },
+      "evidence_conflicts": null,
+      "pricing_checked_utc": null,
+      "directory_sources": null,
+      "construction_year": 1907,
+      "wedding_opening_year": null,
+      "current_operator_since": "2015 — hotel manager per operator; wedding-team start Unknown",
+      "operating_years": null,
+      "history_status": "Operator overview reports HaslettWarehouse1907/hotel2003/managerNobleHouse2015; weddingopening and duration Unknown",
+      "history_sources": [
+        "https://www.argonauthotel.com/llm-info/"
+      ],
+      "property_value_low": null,
+      "property_value_high": null,
+      "business_value_low": null,
+      "business_value_high": null,
+      "value_status": "Current real estate/business value Unknown; federal historic lease documented separately",
+      "value_method": null,
+      "value_as_of": null,
+      "value_sources": [
+        "https://www.nps.gov/safr/learn/management/foundation-document-appendixes.htm",
+        "https://www.sec.gov/Archives/edgar/data/1474098/000095012311015821/w81668aexv10w1.htm"
+      ],
+      "parent_property": "Argonaut Hotel",
+      "record_kind": "Space",
+      "category": "Hotel on historically leased federal property",
+      "government": true,
+      "unconventional": false,
+      "wedding_permission": "Current operator wedding offering; specific room/layout and date approval required",
+      "research_status": "Primary wedding web reader reviewed; directHTML403 logged. Actual2025package and undatedbrochure downloaded; packagefee/FAQpages visually reviewed. Current2026quote Unknown.",
+      "booking_status": "Listed; event approval required",
+      "checked_utc": "2026-10-11T10:25:10.252643+00:00",
+      "venue_url": "https://www.argonauthotel.com/san-francisco-wedding/",
+      "capacity_description": "200 ceremony; cocktail350 in2025 package versus300 undated brochure. Dinner+dance Unknown.",
+      "generic_capacity": null,
+      "seated_capacity": null,
+      "location_checked_utc": "2026-10-11T10:26:15.316941+00:00",
+      "location_matched_address": "495 JEFFERSON ST, SAN FRANCISCO, CA, 94109",
+      "location_method": "Exact Census source-published street address with matching state/county; approximate campus/property point, not room or event entrance",
+      "standing_capacity": null,
+      "history_context": null,
+      "parcel_apn": null,
+      "ownership": null,
+      "workbook_answers": {
+        "identity-and-booking-wedding-permission": {
+          "answer": "Current operator wedding offering; specific room/layout and date approval required",
+          "status": "Operator-published; current contract/layout confirmation required",
+          "source_urls": [
+            "https://www.argonauthotel.com/san-francisco-wedding/",
+            "https://noblehousemenus.com/argo-wedding-package_ADA.pdf",
+            "https://noblehousemenus.com/argo_WeddingFlipbook_ADA.pdf",
+            "https://www.argonauthotel.com/llm-info/",
+            "https://www.nps.gov/safr/learn/management/foundation-document-appendixes.htm"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "identity-and-booking-exact-site-and-room": {
+          "answer": "495 Jefferson Street, San Francisco, CA 94109",
+          "status": "Operator-published; current contract/layout confirmation required",
+          "source_urls": [
+            "https://www.argonauthotel.com/san-francisco-wedding/",
+            "https://noblehousemenus.com/argo-wedding-package_ADA.pdf",
+            "https://noblehousemenus.com/argo_WeddingFlipbook_ADA.pdf",
+            "https://www.argonauthotel.com/llm-info/",
+            "https://www.nps.gov/safr/learn/management/foundation-document-appendixes.htm"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "identity-and-booking-county-and-jurisdiction": null,
+        "identity-and-booking-operator-and-owner": null,
+        "identity-and-booking-sales-contact": null,
+        "identity-and-booking-date-availability": null,
+        "identity-and-booking-booking-horizon": null,
+        "identity-and-booking-active-or-closed-status": null,
+        "identity-and-booking-other-simultaneous-events": null,
+        "identity-and-booking-exclusive-areas": null,
+        "capacity-and-layout-ceremony-seated-count": null,
+        "capacity-and-layout-dinner-plus-dance-capacity": {
+          "answer": "200 ceremony; cocktail350 in2025 package versus300 undated brochure. Dinner+dance Unknown.",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://www.argonauthotel.com/san-francisco-wedding/",
+            "https://noblehousemenus.com/argo-wedding-package_ADA.pdf",
+            "https://noblehousemenus.com/argo_WeddingFlipbook_ADA.pdf"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "capacity-and-layout-standing-only-capacity": null,
+        "capacity-and-layout-indoor-and-outdoor-layouts": null,
+        "capacity-and-layout-comfortable-count-versus-maximum": null,
+        "capacity-and-layout-approved-occupancy-evidence": null,
+        "capacity-and-layout-floor-plan-and-dimensions": null,
+        "capacity-and-layout-cocktail-hour-space": null,
+        "capacity-and-layout-room-flip-logistics": null,
+        "capacity-and-layout-emergency-exits": null,
+        "time-cut-off-guest-event-start-end": null,
+        "time-cut-off-indoor-music-deadline": null,
+        "time-cut-off-outdoor-music-deadline": null,
+        "time-cut-off-bar-service-deadline": null,
+        "time-cut-off-guest-departure-deadline": null,
+        "time-cut-off-vendor-load-in-window": null,
+        "time-cut-off-cleanup-load-out-deadline": null,
+        "time-cut-off-rehearsal-access": null,
+        "time-cut-off-previous-day-setup": null,
+        "time-cut-off-overtime-conditions": null,
+        "included-equipment-table-sizes-and-quantities": null,
+        "included-equipment-chair-styles-and-quantities": null,
+        "included-equipment-linens-and-napkins": null,
+        "included-equipment-china-flatware-glassware": null,
+        "included-equipment-dance-floor": null,
+        "included-equipment-stage-and-av": null,
+        "included-equipment-existing-lighting": null,
+        "included-equipment-dressing-suites": null,
+        "included-equipment-heating-and-shade": null,
+        "included-equipment-item-condition-and-replacement-fees": null,
+        "labor-and-responsibilities-furniture-setup-breakdown-owner": null,
+        "labor-and-responsibilities-decor-setup-removal-owner": null,
+        "labor-and-responsibilities-room-flip-crew": null,
+        "labor-and-responsibilities-onsite-venue-manager": null,
+        "labor-and-responsibilities-coordinator-duties": null,
+        "labor-and-responsibilities-required-independent-planner": null,
+        "labor-and-responsibilities-catering-staff-responsibilities": null,
+        "labor-and-responsibilities-security-requirements": null,
+        "labor-and-responsibilities-cleaning-and-waste-owner": null,
+        "labor-and-responsibilities-after-hours-contact": null,
+        "vendor-freedom-required-versus-suggested-list": {
+          "answer": "2025:preferred vendor list not exclusive; professional coordinator required",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://noblehousemenus.com/argo-wedding-package_ADA.pdf"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "vendor-freedom-outside-caterer-permission": {
+          "answer": "Blue Mermaid catering; cultural-food exceptions with plating fee in2025 packet",
+          "status": "Operator-published; current contract/layout confirmation required",
+          "source_urls": [
+            "https://www.argonauthotel.com/san-francisco-wedding/",
+            "https://noblehousemenus.com/argo-wedding-package_ADA.pdf",
+            "https://noblehousemenus.com/argo_WeddingFlipbook_ADA.pdf",
+            "https://www.argonauthotel.com/llm-info/",
+            "https://www.nps.gov/safr/learn/management/foundation-document-appendixes.htm"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "vendor-freedom-catering-buyout-surcharge": null,
+        "vendor-freedom-dj-band-restrictions": null,
+        "vendor-freedom-rental-company-restrictions": null,
+        "vendor-freedom-food-truck-permission": null,
+        "vendor-freedom-vendor-insurance-documents": null,
+        "vendor-freedom-vendor-approval-deadlines": null,
+        "vendor-freedom-cultural-food-exceptions": null,
+        "vendor-freedom-vendor-commissions-disclosed": null,
+        "food-and-kitchen-meal-package-and-service-style": null,
+        "food-and-kitchen-food-minimum": null,
+        "food-and-kitchen-kids-and-vendor-meals": null,
+        "food-and-kitchen-dietary-allergy-handling": null,
+        "food-and-kitchen-tasting-terms": null,
+        "food-and-kitchen-preparation-kitchen-equipment": null,
+        "food-and-kitchen-cold-storage-and-ice": null,
+        "food-and-kitchen-water-and-handwashing": null,
+        "food-and-kitchen-service-routes": null,
+        "food-and-kitchen-food-waste-arrangements": null,
+        "alcohol-and-bar-byob-terms": {
+          "answer": "2025 packet: outside beer/liquor prohibited; wine corkage25/750ml",
+          "status": "Operator-published; current contract/layout confirmation required",
+          "source_urls": [
+            "https://www.argonauthotel.com/san-francisco-wedding/",
+            "https://noblehousemenus.com/argo-wedding-package_ADA.pdf",
+            "https://noblehousemenus.com/argo_WeddingFlipbook_ADA.pdf",
+            "https://www.argonauthotel.com/llm-info/",
+            "https://www.nps.gov/safr/learn/management/foundation-document-appendixes.htm"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "alcohol-and-bar-beer-wine-spirits-scope": null,
+        "alcohol-and-bar-licensed-service-provider": null,
+        "alcohol-and-bar-event-authorization-responsibility": null,
+        "alcohol-and-bar-bartender-requirements": null,
+        "alcohol-and-bar-open-bar-duration": null,
+        "alcohol-and-bar-corkage-and-bar-minimum": null,
+        "alcohol-and-bar-liquor-liability-coverage": null,
+        "alcohol-and-bar-last-call-procedure": null,
+        "alcohol-and-bar-alcohol-storage-rules": null,
+        "price-and-per-head-comparison-venue-fee-low-high": null,
+        "price-and-per-head-comparison-food-per-head-low-high": {
+          "answer": "2025Classic240–270/person; Premium275–305 includes specifiedbar.50minimum; room+26%fee+tax/bartenders separate",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://noblehousemenus.com/argo-wedding-package_ADA.pdf"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "price-and-per-head-comparison-bar-per-head-low-high": null,
+        "price-and-per-head-comparison-mandatory-spend-floor": null,
+        "price-and-per-head-comparison-ceremony-additional-space-fees": null,
+        "price-and-per-head-comparison-required-staffing-rental-costs": null,
+        "price-and-per-head-comparison-service-admin-charge-base": {
+          "answer": "2025 menu26%combined gratuity/admin; current fee/taxability allocation Unknown",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://noblehousemenus.com/argo-wedding-package_ADA.pdf"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "price-and-per-head-comparison-tax-and-charge-treatment": {
+          "answer": "Packet2025quotes8.625%tax onfood/beverage/room; not verified2026tax rate",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://noblehousemenus.com/argo-wedding-package_ADA.pdf"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "price-and-per-head-comparison-overtime-and-cleaning-fees": null,
+        "price-and-per-head-comparison-quote-date-and-expiry": null,
+        "price-and-per-head-comparison-date-season-assumptions": null,
+        "price-and-per-head-comparison-guest-count-assumptions": null,
+        "price-and-per-head-comparison-mandatory-total-low-high": null,
+        "price-and-per-head-comparison-refundable-security-deposit-separate": null,
+        "weather-and-continuity-reserved-backup-location": null,
+        "weather-and-continuity-backup-dinner-dance-capacity": null,
+        "weather-and-continuity-tent-permit-responsibility": null,
+        "weather-and-continuity-tent-flooring-heater-charges": null,
+        "weather-and-continuity-weather-decision-owner-and-deadline": null,
+        "weather-and-continuity-heat-cold-comfort": null,
+        "weather-and-continuity-wind-limits": null,
+        "weather-and-continuity-smoke-fire-response": null,
+        "weather-and-continuity-power-loss-backup": null,
+        "weather-and-continuity-closure-refund-contingency": null,
+        "arrival-and-travel-hotel-travel-time-and-date-basis": null,
+        "arrival-and-travel-airport-travel-time-and-basis": null,
+        "arrival-and-travel-major-city-access": null,
+        "arrival-and-travel-parking-count-and-costs": null,
+        "arrival-and-travel-valet-shuttle-mandates": null,
+        "arrival-and-travel-coach-turnaround": null,
+        "arrival-and-travel-rideshare-pickup-at-closing": null,
+        "arrival-and-travel-lodging-room-counts": null,
+        "arrival-and-travel-room-block-terms": null,
+        "arrival-and-travel-accessible-drop-off": null,
+        "access-and-guest-comfort-continuous-accessible-guest-route": null,
+        "access-and-guest-comfort-accessible-restroom-access": null,
+        "access-and-guest-comfort-accessible-seating-layout": null,
+        "access-and-guest-comfort-terrain-stairs-elevators": null,
+        "access-and-guest-comfort-restroom-count-and-condition": null,
+        "access-and-guest-comfort-restroom-service-during-event": null,
+        "access-and-guest-comfort-quiet-private-room": null,
+        "access-and-guest-comfort-nursing-family-space": null,
+        "access-and-guest-comfort-wayfinding-and-night-lighting": null,
+        "access-and-guest-comfort-coat-bag-gift-storage": null,
+        "production-and-delivery-loading-path-measurements": null,
+        "production-and-delivery-delivery-vehicle-access": null,
+        "production-and-delivery-dock-elevator-limits": null,
+        "production-and-delivery-storage-staging-area": null,
+        "production-and-delivery-available-electrical-circuits": null,
+        "production-and-delivery-generator-placement-permission": null,
+        "production-and-delivery-internet-mobile-signal": null,
+        "production-and-delivery-rigging-approvals": null,
+        "production-and-delivery-sound-system-limits": null,
+        "production-and-delivery-sunset-lighting-sightlines": null,
+        "design-and-cultural-fit-decor-attachment-rules": null,
+        "design-and-cultural-fit-furniture-moving-permission": null,
+        "design-and-cultural-fit-candles-flames-restrictions": null,
+        "design-and-cultural-fit-confetti-sparkler-restrictions": null,
+        "design-and-cultural-fit-floral-decor-disposal": null,
+        "design-and-cultural-fit-cultural-ceremony-accommodation": null,
+        "design-and-cultural-fit-baraat-procession-approval": null,
+        "design-and-cultural-fit-multi-event-celebration-access": null,
+        "design-and-cultural-fit-privacy-photo-location-access": null,
+        "design-and-cultural-fit-actual-event-photos-and-style-fit": null,
+        "contract-and-deadlines-deposit-payment-milestones": null,
+        "contract-and-deadlines-cancellation-refund-schedule": null,
+        "contract-and-deadlines-date-change-terms": null,
+        "contract-and-deadlines-force-majeure-wording": null,
+        "contract-and-deadlines-venue-cancellation-remedies": null,
+        "contract-and-deadlines-substitution-relocation-clause": null,
+        "contract-and-deadlines-price-change-clauses": null,
+        "contract-and-deadlines-damage-liability": null,
+        "contract-and-deadlines-insurance-limits-documents": null,
+        "contract-and-deadlines-final-headcount-deadline": {
+          "answer": "2025 packet:noon seven business days before event",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://noblehousemenus.com/argo-wedding-package_ADA.pdf"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "contract-and-deadlines-vendor-document-deadlines": null,
+        "contract-and-deadlines-permit-responsibility": null,
+        "quality-and-handover-recent-event-references": null,
+        "quality-and-handover-communication-response-history": null,
+        "quality-and-handover-named-day-of-contact": null,
+        "quality-and-handover-final-joint-walkthrough": null,
+        "quality-and-handover-approved-timeline-floor-plan": null,
+        "quality-and-handover-vendor-contact-sheet": null,
+        "quality-and-handover-construction-ownership-changes": null,
+        "quality-and-handover-complaints-and-resolution-evidence": null,
+        "business-suitability-recurring-commercial-use-approval": null,
+        "business-suitability-event-frequency-restrictions": null,
+        "business-suitability-lawful-music-hours-conditions": null,
+        "business-suitability-lease-sublease-event-rights": null,
+        "business-suitability-permit-license-transfer-conditions": null,
+        "business-suitability-septic-water-electrical-capacity": null,
+        "business-suitability-fire-access-and-occupancy-upgrade-costs": null,
+        "business-suitability-staffing-hours-per-event": null,
+        "business-suitability-maintenance-storage-security-costs": null,
+        "business-suitability-capital-cost-and-lead-time-scenarios": null,
+        "business-suitability-contribution-per-event": null,
+        "business-suitability-break-even-events-and-working-capital": null,
+        "business-suitability-acquisition-financial-verification": null,
+        "business-suitability-government-rental-versus-concession-rights": null,
+        "history-building-construction-year": {
+          "answer": "1907 Haslett Warehouse, operator overview; exact construction records not reviewed",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://www.argonauthotel.com/llm-info/"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "history-wedding-operation-opening-year": null,
+        "history-current-operator-start-date": {
+          "answer": "Hotel manager Noble House since2015, per operator. Wedding-operation opening and current wedding-team start Unknown.",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://www.argonauthotel.com/llm-info/"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "history-wedding-operation-duration-and-date-basis": null,
+        "valuation-exact-parcels-apns-and-asset-scope": null,
+        "valuation-owner-versus-operating-tenant": {
+          "answer": "Federal historic lease; operator identifies Pebblebrook hotel ownership and Noble House management. This does not establish private ownership of federal land.",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://www.argonauthotel.com/llm-info/",
+            "https://www.nps.gov/safr/learn/management/foundation-document-appendixes.htm"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "valuation-last-sale-price-and-date": null,
+        "valuation-current-asking-price-and-inclusions": null,
+        "valuation-assessed-values-and-tax-year": null,
+        "valuation-comparable-closed-sales": null,
+        "valuation-real-estate-value-range": null,
+        "valuation-operating-business-value-range": null,
+        "valuation-lease-concession-terms": {
+          "answer": "2016 NPS foundation document:57-year historic lease, listed2003–2059. SEC-filed original lease initial base rent1m/year, CPI and percentage terms; current amendments/rent Unknown.",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://www.nps.gov/safr/learn/management/foundation-document-appendixes.htm",
+            "https://www.sec.gov/Archives/edgar/data/1474098/000095012311015821/w81668aexv10w1.htm"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "valuation-valuation-method-and-assumptions": null,
+        "valuation-valuation-date-and-confidence": null,
+        "valuation-unverified-evidence-and-due-diligence-gaps": null
+      },
+      "reviews": {
+        "google": {
+          "rating": null,
+          "review_count": null,
+          "review_url": null,
+          "checked_utc": null,
+          "lookup_url": "https://www.google.com/maps/search/?api=1&query=Argonaut%20Hotel%20Del%20Monte%20Courtyard%20San%20Francisco%20California"
+        },
+        "yelp": {
+          "rating": null,
+          "review_count": null,
+          "review_url": null,
+          "checked_utc": null,
+          "lookup_url": "https://www.yelp.com/search?find_desc=Argonaut%20Hotel%20Del%20Monte%20Courtyard%20San%20Francisco%20California&find_loc=San%20Francisco%20California"
+        },
+        "other": {
+          "rating": null,
+          "review_count": null,
+          "review_url": null,
+          "checked_utc": null,
+          "lookup_url": "https://www.google.com/search?q=Argonaut%20Hotel%20Del%20Monte%20Courtyard%20San%20Francisco%20California+wedding+reviews"
+        }
+      }
+    },
+    {
+      "name": "Constellation Room",
+      "midnight_indoor": null,
+      "county": "San Francisco",
+      "sources": [
+        "https://www.argonauthotel.com/san-francisco-wedding/",
+        "https://noblehousemenus.com/argo-wedding-package_ADA.pdf",
+        "https://noblehousemenus.com/argo_WeddingFlipbook_ADA.pdf",
+        "https://www.argonauthotel.com/llm-info/",
+        "https://www.nps.gov/safr/learn/management/foundation-document-appendixes.htm",
+        "https://www.sec.gov/Archives/edgar/data/1474098/000095012311015821/w81668aexv10w1.htm"
+      ],
+      "midnight_outdoor": null,
+      "vendors": null,
+      "published_capacity": null,
+      "mandatory_total_price": null,
+      "id": "argonaut-hotel-constellation-room-san-francisco",
+      "city": "San Francisco",
+      "unknowns": [
+        "Current complete quote",
+        "Approved dinner plus dance layout",
+        "Current event/music/bar/cleanup deadlines",
+        "Property ownership/lease and operating rights"
+      ],
+      "lat": 37.807550584866,
+      "lng": -122.420597962221,
+      "address": "495 Jefferson Street, San Francisco, CA 94109",
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
+      "included_items": null,
+      "food_requirement": "Blue Mermaid catering; cultural-food exceptions with plating fee in2025 packet",
+      "bar_requirement": "2025 packet: outside beer/liquor prohibited; wine corkage25/750ml",
+      "other_requirements": "2025 packet: professional coordinator; licensed/insured vendors, COI one week before event. Preferred list not exclusive.",
+      "time_cut_off": "Event/music/bar/cleanup: Unknown — inquire",
+      "price": null,
+      "evidence_conflicts": null,
+      "pricing_checked_utc": null,
+      "directory_sources": null,
+      "construction_year": 1907,
+      "wedding_opening_year": null,
+      "current_operator_since": "2015 — hotel manager per operator; wedding-team start Unknown",
+      "operating_years": null,
+      "history_status": "Operator overview reports HaslettWarehouse1907/hotel2003/managerNobleHouse2015; weddingopening and duration Unknown",
+      "history_sources": [
+        "https://www.argonauthotel.com/llm-info/"
+      ],
+      "property_value_low": null,
+      "property_value_high": null,
+      "business_value_low": null,
+      "business_value_high": null,
+      "value_status": "Current real estate/business value Unknown; federal historic lease documented separately",
+      "value_method": null,
+      "value_as_of": null,
+      "value_sources": [
+        "https://www.nps.gov/safr/learn/management/foundation-document-appendixes.htm",
+        "https://www.sec.gov/Archives/edgar/data/1474098/000095012311015821/w81668aexv10w1.htm"
+      ],
+      "parent_property": "Argonaut Hotel",
+      "record_kind": "Space",
+      "category": "Hotel on historically leased federal property",
+      "government": true,
+      "unconventional": false,
+      "wedding_permission": "Current operator wedding offering; specific room/layout and date approval required",
+      "research_status": "Primary wedding web reader reviewed; directHTML403 logged. Actual2025package and undatedbrochure downloaded; packagefee/FAQpages visually reviewed. Current2026quote Unknown.",
+      "booking_status": "Listed; event approval required",
+      "checked_utc": "2026-10-11T10:25:10.252643+00:00",
+      "venue_url": "https://www.argonauthotel.com/san-francisco-wedding/",
+      "capacity_description": "Undated brochure48 seated dinner/banquet; dance footprint Unknown.",
+      "generic_capacity": null,
+      "seated_capacity": 48,
+      "location_checked_utc": "2026-10-11T10:26:15.316941+00:00",
+      "location_matched_address": "495 JEFFERSON ST, SAN FRANCISCO, CA, 94109",
+      "location_method": "Exact Census source-published street address with matching state/county; approximate campus/property point, not room or event entrance",
+      "standing_capacity": null,
+      "history_context": null,
+      "parcel_apn": null,
+      "ownership": null,
+      "workbook_answers": {
+        "identity-and-booking-wedding-permission": {
+          "answer": "Current operator wedding offering; specific room/layout and date approval required",
+          "status": "Operator-published; current contract/layout confirmation required",
+          "source_urls": [
+            "https://www.argonauthotel.com/san-francisco-wedding/",
+            "https://noblehousemenus.com/argo-wedding-package_ADA.pdf",
+            "https://noblehousemenus.com/argo_WeddingFlipbook_ADA.pdf",
+            "https://www.argonauthotel.com/llm-info/",
+            "https://www.nps.gov/safr/learn/management/foundation-document-appendixes.htm"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "identity-and-booking-exact-site-and-room": {
+          "answer": "495 Jefferson Street, San Francisco, CA 94109",
+          "status": "Operator-published; current contract/layout confirmation required",
+          "source_urls": [
+            "https://www.argonauthotel.com/san-francisco-wedding/",
+            "https://noblehousemenus.com/argo-wedding-package_ADA.pdf",
+            "https://noblehousemenus.com/argo_WeddingFlipbook_ADA.pdf",
+            "https://www.argonauthotel.com/llm-info/",
+            "https://www.nps.gov/safr/learn/management/foundation-document-appendixes.htm"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "identity-and-booking-county-and-jurisdiction": null,
+        "identity-and-booking-operator-and-owner": null,
+        "identity-and-booking-sales-contact": null,
+        "identity-and-booking-date-availability": null,
+        "identity-and-booking-booking-horizon": null,
+        "identity-and-booking-active-or-closed-status": null,
+        "identity-and-booking-other-simultaneous-events": null,
+        "identity-and-booking-exclusive-areas": null,
+        "capacity-and-layout-ceremony-seated-count": null,
+        "capacity-and-layout-dinner-plus-dance-capacity": {
+          "answer": "Undated brochure48 seated dinner/banquet; dance footprint Unknown.",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://www.argonauthotel.com/san-francisco-wedding/",
+            "https://noblehousemenus.com/argo-wedding-package_ADA.pdf",
+            "https://noblehousemenus.com/argo_WeddingFlipbook_ADA.pdf"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "capacity-and-layout-standing-only-capacity": null,
+        "capacity-and-layout-indoor-and-outdoor-layouts": null,
+        "capacity-and-layout-comfortable-count-versus-maximum": null,
+        "capacity-and-layout-approved-occupancy-evidence": null,
+        "capacity-and-layout-floor-plan-and-dimensions": null,
+        "capacity-and-layout-cocktail-hour-space": null,
+        "capacity-and-layout-room-flip-logistics": null,
+        "capacity-and-layout-emergency-exits": null,
+        "time-cut-off-guest-event-start-end": null,
+        "time-cut-off-indoor-music-deadline": null,
+        "time-cut-off-outdoor-music-deadline": null,
+        "time-cut-off-bar-service-deadline": null,
+        "time-cut-off-guest-departure-deadline": null,
+        "time-cut-off-vendor-load-in-window": null,
+        "time-cut-off-cleanup-load-out-deadline": null,
+        "time-cut-off-rehearsal-access": null,
+        "time-cut-off-previous-day-setup": null,
+        "time-cut-off-overtime-conditions": null,
+        "included-equipment-table-sizes-and-quantities": null,
+        "included-equipment-chair-styles-and-quantities": null,
+        "included-equipment-linens-and-napkins": null,
+        "included-equipment-china-flatware-glassware": null,
+        "included-equipment-dance-floor": null,
+        "included-equipment-stage-and-av": null,
+        "included-equipment-existing-lighting": null,
+        "included-equipment-dressing-suites": null,
+        "included-equipment-heating-and-shade": null,
+        "included-equipment-item-condition-and-replacement-fees": null,
+        "labor-and-responsibilities-furniture-setup-breakdown-owner": null,
+        "labor-and-responsibilities-decor-setup-removal-owner": null,
+        "labor-and-responsibilities-room-flip-crew": null,
+        "labor-and-responsibilities-onsite-venue-manager": null,
+        "labor-and-responsibilities-coordinator-duties": null,
+        "labor-and-responsibilities-required-independent-planner": null,
+        "labor-and-responsibilities-catering-staff-responsibilities": null,
+        "labor-and-responsibilities-security-requirements": null,
+        "labor-and-responsibilities-cleaning-and-waste-owner": null,
+        "labor-and-responsibilities-after-hours-contact": null,
+        "vendor-freedom-required-versus-suggested-list": {
+          "answer": "2025:preferred vendor list not exclusive; professional coordinator required",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://noblehousemenus.com/argo-wedding-package_ADA.pdf"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "vendor-freedom-outside-caterer-permission": {
+          "answer": "Blue Mermaid catering; cultural-food exceptions with plating fee in2025 packet",
+          "status": "Operator-published; current contract/layout confirmation required",
+          "source_urls": [
+            "https://www.argonauthotel.com/san-francisco-wedding/",
+            "https://noblehousemenus.com/argo-wedding-package_ADA.pdf",
+            "https://noblehousemenus.com/argo_WeddingFlipbook_ADA.pdf",
+            "https://www.argonauthotel.com/llm-info/",
+            "https://www.nps.gov/safr/learn/management/foundation-document-appendixes.htm"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "vendor-freedom-catering-buyout-surcharge": null,
+        "vendor-freedom-dj-band-restrictions": null,
+        "vendor-freedom-rental-company-restrictions": null,
+        "vendor-freedom-food-truck-permission": null,
+        "vendor-freedom-vendor-insurance-documents": null,
+        "vendor-freedom-vendor-approval-deadlines": null,
+        "vendor-freedom-cultural-food-exceptions": null,
+        "vendor-freedom-vendor-commissions-disclosed": null,
+        "food-and-kitchen-meal-package-and-service-style": null,
+        "food-and-kitchen-food-minimum": null,
+        "food-and-kitchen-kids-and-vendor-meals": null,
+        "food-and-kitchen-dietary-allergy-handling": null,
+        "food-and-kitchen-tasting-terms": null,
+        "food-and-kitchen-preparation-kitchen-equipment": null,
+        "food-and-kitchen-cold-storage-and-ice": null,
+        "food-and-kitchen-water-and-handwashing": null,
+        "food-and-kitchen-service-routes": null,
+        "food-and-kitchen-food-waste-arrangements": null,
+        "alcohol-and-bar-byob-terms": {
+          "answer": "2025 packet: outside beer/liquor prohibited; wine corkage25/750ml",
+          "status": "Operator-published; current contract/layout confirmation required",
+          "source_urls": [
+            "https://www.argonauthotel.com/san-francisco-wedding/",
+            "https://noblehousemenus.com/argo-wedding-package_ADA.pdf",
+            "https://noblehousemenus.com/argo_WeddingFlipbook_ADA.pdf",
+            "https://www.argonauthotel.com/llm-info/",
+            "https://www.nps.gov/safr/learn/management/foundation-document-appendixes.htm"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "alcohol-and-bar-beer-wine-spirits-scope": null,
+        "alcohol-and-bar-licensed-service-provider": null,
+        "alcohol-and-bar-event-authorization-responsibility": null,
+        "alcohol-and-bar-bartender-requirements": null,
+        "alcohol-and-bar-open-bar-duration": null,
+        "alcohol-and-bar-corkage-and-bar-minimum": null,
+        "alcohol-and-bar-liquor-liability-coverage": null,
+        "alcohol-and-bar-last-call-procedure": null,
+        "alcohol-and-bar-alcohol-storage-rules": null,
+        "price-and-per-head-comparison-venue-fee-low-high": null,
+        "price-and-per-head-comparison-food-per-head-low-high": {
+          "answer": "2025Classic240–270/person; Premium275–305 includes specifiedbar.50minimum; room+26%fee+tax/bartenders separate",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://noblehousemenus.com/argo-wedding-package_ADA.pdf"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "price-and-per-head-comparison-bar-per-head-low-high": null,
+        "price-and-per-head-comparison-mandatory-spend-floor": null,
+        "price-and-per-head-comparison-ceremony-additional-space-fees": null,
+        "price-and-per-head-comparison-required-staffing-rental-costs": null,
+        "price-and-per-head-comparison-service-admin-charge-base": {
+          "answer": "2025 menu26%combined gratuity/admin; current fee/taxability allocation Unknown",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://noblehousemenus.com/argo-wedding-package_ADA.pdf"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "price-and-per-head-comparison-tax-and-charge-treatment": {
+          "answer": "Packet2025quotes8.625%tax onfood/beverage/room; not verified2026tax rate",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://noblehousemenus.com/argo-wedding-package_ADA.pdf"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "price-and-per-head-comparison-overtime-and-cleaning-fees": null,
+        "price-and-per-head-comparison-quote-date-and-expiry": null,
+        "price-and-per-head-comparison-date-season-assumptions": null,
+        "price-and-per-head-comparison-guest-count-assumptions": null,
+        "price-and-per-head-comparison-mandatory-total-low-high": null,
+        "price-and-per-head-comparison-refundable-security-deposit-separate": null,
+        "weather-and-continuity-reserved-backup-location": null,
+        "weather-and-continuity-backup-dinner-dance-capacity": null,
+        "weather-and-continuity-tent-permit-responsibility": null,
+        "weather-and-continuity-tent-flooring-heater-charges": null,
+        "weather-and-continuity-weather-decision-owner-and-deadline": null,
+        "weather-and-continuity-heat-cold-comfort": null,
+        "weather-and-continuity-wind-limits": null,
+        "weather-and-continuity-smoke-fire-response": null,
+        "weather-and-continuity-power-loss-backup": null,
+        "weather-and-continuity-closure-refund-contingency": null,
+        "arrival-and-travel-hotel-travel-time-and-date-basis": null,
+        "arrival-and-travel-airport-travel-time-and-basis": null,
+        "arrival-and-travel-major-city-access": null,
+        "arrival-and-travel-parking-count-and-costs": null,
+        "arrival-and-travel-valet-shuttle-mandates": null,
+        "arrival-and-travel-coach-turnaround": null,
+        "arrival-and-travel-rideshare-pickup-at-closing": null,
+        "arrival-and-travel-lodging-room-counts": null,
+        "arrival-and-travel-room-block-terms": null,
+        "arrival-and-travel-accessible-drop-off": null,
+        "access-and-guest-comfort-continuous-accessible-guest-route": null,
+        "access-and-guest-comfort-accessible-restroom-access": null,
+        "access-and-guest-comfort-accessible-seating-layout": null,
+        "access-and-guest-comfort-terrain-stairs-elevators": null,
+        "access-and-guest-comfort-restroom-count-and-condition": null,
+        "access-and-guest-comfort-restroom-service-during-event": null,
+        "access-and-guest-comfort-quiet-private-room": null,
+        "access-and-guest-comfort-nursing-family-space": null,
+        "access-and-guest-comfort-wayfinding-and-night-lighting": null,
+        "access-and-guest-comfort-coat-bag-gift-storage": null,
+        "production-and-delivery-loading-path-measurements": null,
+        "production-and-delivery-delivery-vehicle-access": null,
+        "production-and-delivery-dock-elevator-limits": null,
+        "production-and-delivery-storage-staging-area": null,
+        "production-and-delivery-available-electrical-circuits": null,
+        "production-and-delivery-generator-placement-permission": null,
+        "production-and-delivery-internet-mobile-signal": null,
+        "production-and-delivery-rigging-approvals": null,
+        "production-and-delivery-sound-system-limits": null,
+        "production-and-delivery-sunset-lighting-sightlines": null,
+        "design-and-cultural-fit-decor-attachment-rules": null,
+        "design-and-cultural-fit-furniture-moving-permission": null,
+        "design-and-cultural-fit-candles-flames-restrictions": null,
+        "design-and-cultural-fit-confetti-sparkler-restrictions": null,
+        "design-and-cultural-fit-floral-decor-disposal": null,
+        "design-and-cultural-fit-cultural-ceremony-accommodation": null,
+        "design-and-cultural-fit-baraat-procession-approval": null,
+        "design-and-cultural-fit-multi-event-celebration-access": null,
+        "design-and-cultural-fit-privacy-photo-location-access": null,
+        "design-and-cultural-fit-actual-event-photos-and-style-fit": null,
+        "contract-and-deadlines-deposit-payment-milestones": null,
+        "contract-and-deadlines-cancellation-refund-schedule": null,
+        "contract-and-deadlines-date-change-terms": null,
+        "contract-and-deadlines-force-majeure-wording": null,
+        "contract-and-deadlines-venue-cancellation-remedies": null,
+        "contract-and-deadlines-substitution-relocation-clause": null,
+        "contract-and-deadlines-price-change-clauses": null,
+        "contract-and-deadlines-damage-liability": null,
+        "contract-and-deadlines-insurance-limits-documents": null,
+        "contract-and-deadlines-final-headcount-deadline": {
+          "answer": "2025 packet:noon seven business days before event",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://noblehousemenus.com/argo-wedding-package_ADA.pdf"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "contract-and-deadlines-vendor-document-deadlines": null,
+        "contract-and-deadlines-permit-responsibility": null,
+        "quality-and-handover-recent-event-references": null,
+        "quality-and-handover-communication-response-history": null,
+        "quality-and-handover-named-day-of-contact": null,
+        "quality-and-handover-final-joint-walkthrough": null,
+        "quality-and-handover-approved-timeline-floor-plan": null,
+        "quality-and-handover-vendor-contact-sheet": null,
+        "quality-and-handover-construction-ownership-changes": null,
+        "quality-and-handover-complaints-and-resolution-evidence": null,
+        "business-suitability-recurring-commercial-use-approval": null,
+        "business-suitability-event-frequency-restrictions": null,
+        "business-suitability-lawful-music-hours-conditions": null,
+        "business-suitability-lease-sublease-event-rights": null,
+        "business-suitability-permit-license-transfer-conditions": null,
+        "business-suitability-septic-water-electrical-capacity": null,
+        "business-suitability-fire-access-and-occupancy-upgrade-costs": null,
+        "business-suitability-staffing-hours-per-event": null,
+        "business-suitability-maintenance-storage-security-costs": null,
+        "business-suitability-capital-cost-and-lead-time-scenarios": null,
+        "business-suitability-contribution-per-event": null,
+        "business-suitability-break-even-events-and-working-capital": null,
+        "business-suitability-acquisition-financial-verification": null,
+        "business-suitability-government-rental-versus-concession-rights": null,
+        "history-building-construction-year": {
+          "answer": "1907 Haslett Warehouse, operator overview; exact construction records not reviewed",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://www.argonauthotel.com/llm-info/"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "history-wedding-operation-opening-year": null,
+        "history-current-operator-start-date": {
+          "answer": "Hotel manager Noble House since2015, per operator. Wedding-operation opening and current wedding-team start Unknown.",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://www.argonauthotel.com/llm-info/"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "history-wedding-operation-duration-and-date-basis": null,
+        "valuation-exact-parcels-apns-and-asset-scope": null,
+        "valuation-owner-versus-operating-tenant": {
+          "answer": "Federal historic lease; operator identifies Pebblebrook hotel ownership and Noble House management. This does not establish private ownership of federal land.",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://www.argonauthotel.com/llm-info/",
+            "https://www.nps.gov/safr/learn/management/foundation-document-appendixes.htm"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "valuation-last-sale-price-and-date": null,
+        "valuation-current-asking-price-and-inclusions": null,
+        "valuation-assessed-values-and-tax-year": null,
+        "valuation-comparable-closed-sales": null,
+        "valuation-real-estate-value-range": null,
+        "valuation-operating-business-value-range": null,
+        "valuation-lease-concession-terms": {
+          "answer": "2016 NPS foundation document:57-year historic lease, listed2003–2059. SEC-filed original lease initial base rent1m/year, CPI and percentage terms; current amendments/rent Unknown.",
+          "status": "Published historical/source evidence; present contract, title and conditions unverified",
+          "source_urls": [
+            "https://www.nps.gov/safr/learn/management/foundation-document-appendixes.htm",
+            "https://www.sec.gov/Archives/edgar/data/1474098/000095012311015821/w81668aexv10w1.htm"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "valuation-valuation-method-and-assumptions": null,
+        "valuation-valuation-date-and-confidence": null,
+        "valuation-unverified-evidence-and-due-diligence-gaps": null
+      },
+      "reviews": {
+        "google": {
+          "rating": null,
+          "review_count": null,
+          "review_url": null,
+          "checked_utc": null,
+          "lookup_url": "https://www.google.com/maps/search/?api=1&query=Argonaut%20Hotel%20Constellation%20Room%20San%20Francisco%20California"
+        },
+        "yelp": {
+          "rating": null,
+          "review_count": null,
+          "review_url": null,
+          "checked_utc": null,
+          "lookup_url": "https://www.yelp.com/search?find_desc=Argonaut%20Hotel%20Constellation%20Room%20San%20Francisco%20California&find_loc=San%20Francisco%20California"
+        },
+        "other": {
+          "rating": null,
+          "review_count": null,
+          "review_url": null,
+          "checked_utc": null,
+          "lookup_url": "https://www.google.com/search?q=Argonaut%20Hotel%20Constellation%20Room%20San%20Francisco%20California+wedding+reviews"
+        }
+      }
+    },
+    {
+      "name": "Victoria Park intimate ceremony package",
+      "midnight_indoor": null,
+      "county": "San Francisco",
+      "sources": [
+        "https://www.argonauthotel.com/san-francisco-wedding/",
+        "https://noblehousemenus.com/argo-intimate-wedding-package_ADA.pdf"
+      ],
+      "midnight_outdoor": null,
+      "vendors": null,
+      "published_capacity": null,
+      "mandatory_total_price": null,
+      "id": "argonaut-hotel-victoria-park-intimate-ceremony-package-san-francisco",
+      "city": "San Francisco",
+      "unknowns": [
+        "Current complete quote",
+        "Approved dinner plus dance layout",
+        "Current event/music/bar/cleanup deadlines",
+        "Property ownership/lease and operating rights"
+      ],
+      "lat": null,
+      "lng": null,
+      "address": "Victoria Park adjacent to Argonaut Hotel, San Francisco; exact ceremony parcel/permit Unknown",
+      "location_source": null,
+      "included_items": "Champagne toast, chairs, setup/teardown and staff; room/dining discounts not free accommodation",
+      "food_requirement": null,
+      "bar_requirement": null,
+      "other_requirements": null,
+      "time_cut_off": "Event/music/bar/cleanup: Unknown — inquire",
+      "price": {
+        "event_low": 1000,
+        "event_high": 1500,
+        "basis": "Undated intimate ceremony packet;10includingcouple, not reception/meal quote; taxes and current terms Unknown",
+        "status": "Downloaded original linked packet; publication date Unknown"
+      },
+      "evidence_conflicts": null,
+      "pricing_checked_utc": null,
+      "directory_sources": null,
+      "construction_year": null,
+      "wedding_opening_year": null,
+      "current_operator_since": null,
+      "operating_years": null,
+      "history_status": null,
+      "history_sources": [],
+      "property_value_low": null,
+      "property_value_high": null,
+      "business_value_low": null,
+      "business_value_high": null,
+      "value_status": "Unknown — insufficient verified evidence",
+      "value_method": null,
+      "value_as_of": null,
+      "value_sources": [],
+      "parent_property": "Argonaut Hotel — separate adjacent ceremony location",
+      "record_kind": "Space",
+      "category": "Small outdoor ceremony offering",
+      "government": false,
+      "unconventional": false,
+      "wedding_permission": "Operator advertises intimate ceremony; precise location/public authority approval Unknown",
+      "research_status": "Downloaded primary operator inventory reviewed; incomplete verification",
+      "booking_status": "Listed; event approval required",
+      "checked_utc": "2026-10-11T10:25:10.252643+00:00",
+      "venue_url": "https://www.argonauthotel.com/san-francisco-wedding/",
+      "capacity_description": "10 maximum INCLUDING couple; ceremony only, not reception seating",
+      "generic_capacity": 10,
+      "seated_capacity": null,
+      "location_checked_utc": null,
+      "location_matched_address": null,
+      "location_method": null,
+      "standing_capacity": null,
+      "history_context": null,
+      "parcel_apn": null,
+      "ownership": null,
+      "workbook_answers": {
+        "identity-and-booking-wedding-permission": {
+          "answer": "Operator advertises intimate ceremony; precise location/public authority approval Unknown",
+          "status": "Operator-published; current contract/layout confirmation required",
+          "source_urls": [
+            "https://www.argonauthotel.com/san-francisco-wedding/",
+            "https://noblehousemenus.com/argo-intimate-wedding-package_ADA.pdf"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "identity-and-booking-exact-site-and-room": {
+          "answer": "Victoria Park adjacent to Argonaut Hotel, San Francisco; exact ceremony parcel/permit Unknown",
+          "status": "Operator-published; current contract/layout confirmation required",
+          "source_urls": [
+            "https://www.argonauthotel.com/san-francisco-wedding/",
+            "https://noblehousemenus.com/argo-intimate-wedding-package_ADA.pdf"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "identity-and-booking-county-and-jurisdiction": null,
+        "identity-and-booking-operator-and-owner": null,
+        "identity-and-booking-sales-contact": null,
+        "identity-and-booking-date-availability": null,
+        "identity-and-booking-booking-horizon": null,
+        "identity-and-booking-active-or-closed-status": null,
+        "identity-and-booking-other-simultaneous-events": null,
+        "identity-and-booking-exclusive-areas": null,
+        "capacity-and-layout-ceremony-seated-count": null,
+        "capacity-and-layout-dinner-plus-dance-capacity": {
+          "answer": "10 maximum INCLUDING couple; ceremony only, not reception seating; dinner plus dance layout Unknown",
+          "status": "Operator-published; current contract/layout confirmation required",
+          "source_urls": [
+            "https://www.argonauthotel.com/san-francisco-wedding/",
+            "https://noblehousemenus.com/argo-intimate-wedding-package_ADA.pdf"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "capacity-and-layout-standing-only-capacity": null,
+        "capacity-and-layout-indoor-and-outdoor-layouts": null,
+        "capacity-and-layout-comfortable-count-versus-maximum": null,
+        "capacity-and-layout-approved-occupancy-evidence": null,
+        "capacity-and-layout-floor-plan-and-dimensions": null,
+        "capacity-and-layout-cocktail-hour-space": null,
+        "capacity-and-layout-room-flip-logistics": null,
+        "capacity-and-layout-emergency-exits": null,
+        "time-cut-off-guest-event-start-end": null,
+        "time-cut-off-indoor-music-deadline": null,
+        "time-cut-off-outdoor-music-deadline": null,
+        "time-cut-off-bar-service-deadline": null,
+        "time-cut-off-guest-departure-deadline": null,
+        "time-cut-off-vendor-load-in-window": null,
+        "time-cut-off-cleanup-load-out-deadline": null,
+        "time-cut-off-rehearsal-access": null,
+        "time-cut-off-previous-day-setup": null,
+        "time-cut-off-overtime-conditions": null,
+        "included-equipment-table-sizes-and-quantities": null,
+        "included-equipment-chair-styles-and-quantities": null,
+        "included-equipment-linens-and-napkins": null,
+        "included-equipment-china-flatware-glassware": null,
+        "included-equipment-dance-floor": null,
+        "included-equipment-stage-and-av": {
+          "answer": "Champagne toast, chairs, setup/teardown and staff; room/dining discounts not free accommodation",
+          "status": "Operator-published; current contract/layout confirmation required",
+          "source_urls": [
+            "https://www.argonauthotel.com/san-francisco-wedding/",
+            "https://noblehousemenus.com/argo-intimate-wedding-package_ADA.pdf"
+          ],
+          "checked_utc": "2026-10-11T10:25:10.252643+00:00"
+        },
+        "included-equipment-existing-lighting": null,
+        "included-equipment-dressing-suites": null,
+        "included-equipment-heating-and-shade": null,
+        "included-equipment-item-condition-and-replacement-fees": null,
+        "labor-and-responsibilities-furniture-setup-breakdown-owner": null,
+        "labor-and-responsibilities-decor-setup-removal-owner": null,
+        "labor-and-responsibilities-room-flip-crew": null,
+        "labor-and-responsibilities-onsite-venue-manager": null,
+        "labor-and-responsibilities-coordinator-duties": null,
+        "labor-and-responsibilities-required-independent-planner": null,
+        "labor-and-responsibilities-catering-staff-responsibilities": null,
+        "labor-and-responsibilities-security-requirements": null,
+        "labor-and-responsibilities-cleaning-and-waste-owner": null,
+        "labor-and-responsibilities-after-hours-contact": null,
+        "vendor-freedom-required-versus-suggested-list": null,
+        "vendor-freedom-outside-caterer-permission": null,
+        "vendor-freedom-catering-buyout-surcharge": null,
+        "vendor-freedom-dj-band-restrictions": null,
+        "vendor-freedom-rental-company-restrictions": null,
+        "vendor-freedom-food-truck-permission": null,
+        "vendor-freedom-vendor-insurance-documents": null,
+        "vendor-freedom-vendor-approval-deadlines": null,
+        "vendor-freedom-cultural-food-exceptions": null,
+        "vendor-freedom-vendor-commissions-disclosed": null,
+        "food-and-kitchen-meal-package-and-service-style": null,
+        "food-and-kitchen-food-minimum": null,
+        "food-and-kitchen-kids-and-vendor-meals": null,
+        "food-and-kitchen-dietary-allergy-handling": null,
+        "food-and-kitchen-tasting-terms": null,
+        "food-and-kitchen-preparation-kitchen-equipment": null,
+        "food-and-kitchen-cold-storage-and-ice": null,
+        "food-and-kitchen-water-and-handwashing": null,
+        "food-and-kitchen-service-routes": null,
+        "food-and-kitchen-food-waste-arrangements": null,
+        "alcohol-and-bar-byob-terms": null,
+        "alcohol-and-bar-beer-wine-spirits-scope": null,
+        "alcohol-and-bar-licensed-service-provider": null,
+        "alcohol-and-bar-event-authorization-responsibility": null,
+        "alcohol-and-bar-bartender-requirements": null,
+        "alcohol-and-bar-open-bar-duration": null,
+        "alcohol-and-bar-corkage-and-bar-minimum": null,
+        "alcohol-and-bar-liquor-liability-coverage": null,
+        "alcohol-and-bar-last-call-procedure": null,
+        "alcohol-and-bar-alcohol-storage-rules": null,
+        "price-and-per-head-comparison-venue-fee-low-high": null,
+        "price-and-per-head-comparison-food-per-head-low-high": null,
+        "price-and-per-head-comparison-bar-per-head-low-high": null,
+        "price-and-per-head-comparison-mandatory-spend-floor": null,
+        "price-and-per-head-comparison-ceremony-additional-space-fees": null,
+        "price-and-per-head-comparison-required-staffing-rental-costs": null,
+        "price-and-per-head-comparison-service-admin-charge-base": null,
+        "price-and-per-head-comparison-tax-and-charge-treatment": null,
+        "price-and-per-head-comparison-overtime-and-cleaning-fees": null,
+        "price-and-per-head-comparison-quote-date-and-expiry": null,
+        "price-and-per-head-comparison-date-season-assumptions": null,
+        "price-and-per-head-comparison-guest-count-assumptions": null,
+        "price-and-per-head-comparison-mandatory-total-low-high": null,
+        "price-and-per-head-comparison-refundable-security-deposit-separate": null,
+        "weather-and-continuity-reserved-backup-location": null,
+        "weather-and-continuity-backup-dinner-dance-capacity": null,
+        "weather-and-continuity-tent-permit-responsibility": null,
+        "weather-and-continuity-tent-flooring-heater-charges": null,
+        "weather-and-continuity-weather-decision-owner-and-deadline": null,
+        "weather-and-continuity-heat-cold-comfort": null,
+        "weather-and-continuity-wind-limits": null,
+        "weather-and-continuity-smoke-fire-response": null,
+        "weather-and-continuity-power-loss-backup": null,
+        "weather-and-continuity-closure-refund-contingency": null,
+        "arrival-and-travel-hotel-travel-time-and-date-basis": null,
+        "arrival-and-travel-airport-travel-time-and-basis": null,
+        "arrival-and-travel-major-city-access": null,
+        "arrival-and-travel-parking-count-and-costs": null,
+        "arrival-and-travel-valet-shuttle-mandates": null,
+        "arrival-and-travel-coach-turnaround": null,
+        "arrival-and-travel-rideshare-pickup-at-closing": null,
+        "arrival-and-travel-lodging-room-counts": null,
+        "arrival-and-travel-room-block-terms": null,
+        "arrival-and-travel-accessible-drop-off": null,
+        "access-and-guest-comfort-continuous-accessible-guest-route": null,
+        "access-and-guest-comfort-accessible-restroom-access": null,
+        "access-and-guest-comfort-accessible-seating-layout": null,
+        "access-and-guest-comfort-terrain-stairs-elevators": null,
+        "access-and-guest-comfort-restroom-count-and-condition": null,
+        "access-and-guest-comfort-restroom-service-during-event": null,
+        "access-and-guest-comfort-quiet-private-room": null,
+        "access-and-guest-comfort-nursing-family-space": null,
+        "access-and-guest-comfort-wayfinding-and-night-lighting": null,
+        "access-and-guest-comfort-coat-bag-gift-storage": null,
+        "production-and-delivery-loading-path-measurements": null,
+        "production-and-delivery-delivery-vehicle-access": null,
+        "production-and-delivery-dock-elevator-limits": null,
+        "production-and-delivery-storage-staging-area": null,
+        "production-and-delivery-available-electrical-circuits": null,
+        "production-and-delivery-generator-placement-permission": null,
+        "production-and-delivery-internet-mobile-signal": null,
+        "production-and-delivery-rigging-approvals": null,
+        "production-and-delivery-sound-system-limits": null,
+        "production-and-delivery-sunset-lighting-sightlines": null,
+        "design-and-cultural-fit-decor-attachment-rules": null,
+        "design-and-cultural-fit-furniture-moving-permission": null,
+        "design-and-cultural-fit-candles-flames-restrictions": null,
+        "design-and-cultural-fit-confetti-sparkler-restrictions": null,
+        "design-and-cultural-fit-floral-decor-disposal": null,
+        "design-and-cultural-fit-cultural-ceremony-accommodation": null,
+        "design-and-cultural-fit-baraat-procession-approval": null,
+        "design-and-cultural-fit-multi-event-celebration-access": null,
+        "design-and-cultural-fit-privacy-photo-location-access": null,
+        "design-and-cultural-fit-actual-event-photos-and-style-fit": null,
+        "contract-and-deadlines-deposit-payment-milestones": null,
+        "contract-and-deadlines-cancellation-refund-schedule": null,
+        "contract-and-deadlines-date-change-terms": null,
+        "contract-and-deadlines-force-majeure-wording": null,
+        "contract-and-deadlines-venue-cancellation-remedies": null,
+        "contract-and-deadlines-substitution-relocation-clause": null,
+        "contract-and-deadlines-price-change-clauses": null,
+        "contract-and-deadlines-damage-liability": null,
+        "contract-and-deadlines-insurance-limits-documents": null,
+        "contract-and-deadlines-final-headcount-deadline": null,
+        "contract-and-deadlines-vendor-document-deadlines": null,
+        "contract-and-deadlines-permit-responsibility": null,
+        "quality-and-handover-recent-event-references": null,
+        "quality-and-handover-communication-response-history": null,
+        "quality-and-handover-named-day-of-contact": null,
+        "quality-and-handover-final-joint-walkthrough": null,
+        "quality-and-handover-approved-timeline-floor-plan": null,
+        "quality-and-handover-vendor-contact-sheet": null,
+        "quality-and-handover-construction-ownership-changes": null,
+        "quality-and-handover-complaints-and-resolution-evidence": null,
+        "business-suitability-recurring-commercial-use-approval": null,
+        "business-suitability-event-frequency-restrictions": null,
+        "business-suitability-lawful-music-hours-conditions": null,
+        "business-suitability-lease-sublease-event-rights": null,
+        "business-suitability-permit-license-transfer-conditions": null,
+        "business-suitability-septic-water-electrical-capacity": null,
+        "business-suitability-fire-access-and-occupancy-upgrade-costs": null,
+        "business-suitability-staffing-hours-per-event": null,
+        "business-suitability-maintenance-storage-security-costs": null,
+        "business-suitability-capital-cost-and-lead-time-scenarios": null,
+        "business-suitability-contribution-per-event": null,
+        "business-suitability-break-even-events-and-working-capital": null,
+        "business-suitability-acquisition-financial-verification": null,
+        "business-suitability-government-rental-versus-concession-rights": null,
+        "history-building-construction-year": null,
+        "history-wedding-operation-opening-year": null,
+        "history-current-operator-start-date": null,
+        "history-wedding-operation-duration-and-date-basis": null,
+        "valuation-exact-parcels-apns-and-asset-scope": null,
+        "valuation-owner-versus-operating-tenant": null,
+        "valuation-last-sale-price-and-date": null,
+        "valuation-current-asking-price-and-inclusions": null,
+        "valuation-assessed-values-and-tax-year": null,
+        "valuation-comparable-closed-sales": null,
+        "valuation-real-estate-value-range": null,
+        "valuation-operating-business-value-range": null,
+        "valuation-lease-concession-terms": null,
+        "valuation-valuation-method-and-assumptions": null,
+        "valuation-valuation-date-and-confidence": null,
+        "valuation-unverified-evidence-and-due-diligence-gaps": null
+      },
+      "reviews": {
+        "google": {
+          "rating": null,
+          "review_count": null,
+          "review_url": null,
+          "checked_utc": null,
+          "lookup_url": "https://www.google.com/maps/search/?api=1&query=Argonaut%20Hotel%20Victoria%20Park%20intimate%20ceremony%20package%20San%20Francisco%20California"
+        },
+        "yelp": {
+          "rating": null,
+          "review_count": null,
+          "review_url": null,
+          "checked_utc": null,
+          "lookup_url": "https://www.yelp.com/search?find_desc=Argonaut%20Hotel%20Victoria%20Park%20intimate%20ceremony%20package%20San%20Francisco%20California&find_loc=San%20Francisco%20California"
+        },
+        "other": {
+          "rating": null,
+          "review_count": null,
+          "review_url": null,
+          "checked_utc": null,
+          "lookup_url": "https://www.google.com/search?q=Argonaut%20Hotel%20Victoria%20Park%20intimate%20ceremony%20package%20San%20Francisco%20California+wedding+reviews"
+        }
+      }
     }
   ],
   "coverage": "923 discovery records / 36 documented passes; inventory and verification incomplete.",
-  "checked_utc": "2026-10-11T10:10:47.324458+00:00",
+  "checked_utc": "2026-10-11T10:26:15.316941+00:00",
   "counties": {
     "type": "FeatureCollection",
     "features": [
@@ -510414,7 +512551,8 @@
     "Solano rural feasibility — 2026 guide": "# Screen rural parcels before comparing acreage prices\n\nThe county’s 16-page special-event guide is prepared March 2026, linked by its current planning page. This is unincorporated Solano guidance, not authority for incorporated cities or other counties, and not an issued parcel permit. Current written agency decisions and professional bids remain necessary.\n\n**Midnight feasibility:** page 7 common conditions describe events 10 AM–10 PM, setup/cleanup 8 AM–11 PM and guests departing 10:30 PM except approved lodging. Outdoor amplification guidance is 65 dB at the property line. Standard setbacks 100 ft from property lines/200 ft from adjacent residences are described. Open acreage alone does not grant midnight music; check zoning, issued permit, exceptions and sound design before relying on the business concept.\n\n**Use and time:** agriculture/agritourism zone and small/medium/large classifications determine the permit path; some zones do not permit special events. Guidance estimates administrative review 4–6 weeks and minor/use permits 4–6 months, not guaranteed timelines. Winery marketing events, vacation rentals and B&B lodging do not automatically authorize non-guest weddings. Lodging needs separate approval; guide describes up to 5 rooms/10 attendees where approved.\n\n**Water and wastewater:** water serving 25+ people on 60+ days/year or 15 connections may require a regulated public water system; the guide describes 6–12 months for the process. Food/beverage operation has separate water/health requirements. Small-system threshold wording differs between tables; do not assume 25 people exempt. Septic must match peak design flows. Portable sanitation is a case-specific deferral option, not automatic permission for a 300–400 guest site.\n\n**Access and construction:** building/change-of-occupancy and accessibility review, fire access, accessible parking/routes, year-round parking surface, encroachment and dust/lighting controls can dominate cost. Guide lists tent/canopy fire review above 400 sqft. Its parking ratio is guidance, not proof that any particular guest count is approved. Bella’s draft independently illustrates proposed 20 ft fire driveway, 61 parking spaces, restroom/septic works and road approval; no completed works assumed.\n\n**Fees are only one budget line:** rounded guide planning examples include administrative permit about $1,000, minor permit $2,800, large use permit $6,500; food permits about $1,100–3,100 initial; tent $400; road encroachment $460; septic conventional permit $1,700 / alternative initial $3,000 plus $200 operating fee; small-water annual about $500 plus lab testing. Prior-fiscal-year guide fees change July 1 and are not October 2026 quotes. Fee-table annual renewal charges and five-year permit terms require agency clarification. Guide’s minimum variable septic professional/construction allowance $3,000–10,000 is not an engineered 300–400 guest installed-system budget.\n\n**Model what is absent:** land/lease, due diligence/design, grading/drainage, fire access, water treatment/storage, engineered septic, buildings/tents/ADA, parking/power, insurance, staffing/owner time, marketing, working capital, seasonal demand and contingencies need separate low/base/high quotes. No sum of permit fees is a startup capital estimate, valuation or competitor profit.\n\nSources: [Current county planning page](https://www.solanocounty.gov/government/resource-management/planning-services/development-programs/special-event-facilities) · [Actual 16-page 2026 guide](https://content.solanocounty.gov/sites/default/files/2026-04/Special_Event_Facility_Guide_APR_2026.pdf) · [Bella draft conditions](https://solano.legistar.com/View.ashx?M=F&ID=11359473&GUID=A7075E28-AE45-4C6E-88D2-A8A1EB1845EB). Pages 5, 7, 14, 15 and draft page 8 visually reviewed from actual downloaded PDFs; current binding code/issued permit verification remains incomplete.\n",
     "Discovery audit — Pass 36": "# Remaining Solano halls and multi-site winery rules\n\nWhich remaining county veterans halls and multi-site wineries were missed, and do operator rules, historical records and capital budgets change their feasibility?\n\nTenadditionalrecords: threecountyhalls and seven Vezér named spaces/offers onthree sharedproperties. Vacaville/Benicia/Vallejo and Olde Vetsupdated, notduplicated. County sixcurrenthall locationsnow represented; currentcoverage/contractfacts incomplete.\n\nActual June 23, 2026 county 459 pageagenda/135 page 2022 Dixonfirepacket/44 page 2006–07 Grand Jury downloaded. Capitaltablesp 188/194, jury 26 andfire 92 visually reviewed. Dixon 2025 completedjob final order 80686 vsbudget 280000;Suisun 240000/Rio Vista 902500/Vallejo 800000 funded potential budgets NOTcompletedcost/property values.\n\nSuisunoperator 1927 vs Grand Jury 1929;Vacavillecounty 1929 vs Grand Jury 1935; construction conflicts held Unknown. Benicia 1948 oncityland;Vallejo 1940 sconstruction/Dec 2005 county acquisition notweddingopening. Historic 2007 defects notcurrentviolations.\n\nVacavilleoperator page actual 406/webreaderreview 150–175 assembly, $6758 hour/$85 hour, optionallicensedcatererkitchen/nooutsidealcohol/deposits; opening Unknown. Suisunrenderedcurrentrates/services archived: first 4 h 400/480 plusmonitor, 300 generic/BYOBclaimconditional; bannerrangebasis Unknown.\n\nVezéractualoriginal 300/130/300 generic mainoffers, 6 hourvenue fees 8500–10000/6500–7500/15000, wineonly/nospirits/legally bindingceremoniesprohibitedsymboliconly/security 150+/portable toilets>150/mandatoryshuttle. Fourcorporate rooms 10/16 generic, notweddingpermission.\n\nBroker 55 m 125 acrefourpropertyportfolio NOT Blue Victorianstandalone;7.75 m Mankasmixed-usewhole property ASK notgardensbusinessallocation.5.09%caprate/occupancyclaimsnotaudited; no NOI or profitinferred. 2001 winemaking is not wedding start.\n\nSources:\n- https://suisunveteranshall.com/\n- https://suisunveteranshall.com/rates\n- https://suisunveteranshall.com/services\n- https://vfw2333.org/contact\n- https://solano.legistar.com/View.ashx?GUID=3E4EBAC1-739A-4044-92B7-08081E628149&ID=1423323&M=PA\n- https://igsberkeley.contentdm.oclc.org/digital/api/collection/p266301coll6/id/336/download\n- https://vfw8151.org/di/vfw/v2/default.asp?pid=122920\n- https://www.cityofdixonca.gov/ResourceDirectory\n- https://www.cityofdixonca.gov/media/Agenda%20Items/20220419/10.3%20Combined.pdf\n- https://discoverriovista.com/wp-content/uploads/2021/12/DRV-Jan-Apr-2022-WEB.pdf\n- https://vezer.com/venue-rental/\n- https://vezer.com/\n- https://vezer.com/lodging/\n- https://vezer.com/about/\n- https://www.zola.com/wedding-vendors/wedding-venues/vezer-family-vineyard-blue-victorian-barrel-room\n- https://www.commercialsearch.com/commercial-property/us/ca/fairfield/5071-suisun-valley-rd/\n- https://www.commercialsearch.com/commercial-property/us/ca/fairfield/2522-mankas-corner-rd/\n- https://www.vacavets.org/vacaville-veterans-hall-rental/\n- https://www.vacavets.org/about-us/",
     "Solano capital evidence — budgets, jobs and property scope": "# Separate the numbers before using them\n\n**Public maintenance evidence:** the actual June 23, 2026 county agenda lists Dixon’s 2025 drainage/rear walkway project as completed: $280,000 project budget, $80,686 final job-order value. This is a particular completed contract, not a whole-hall replacement budget. Suisun’s$240,000 fire-alarm, Rio Vista’s$902,500 roof and Vallejo’s$800,000 improvement entries are funded potential projects, not verified final costs. These examples help identify systems requiring bids; they are not property values or venue profits.\n\n**Historical records:** a downloaded 2006–07 Grand Jury inspection gives Benicia 1948 construction/city-owned land and Rio Vista 1970. Its 1935 Vacaville and 1929 Suisun years conflict with newer county 1929 Vacaville and operator 1927 Suisun claims. Hold the disputed year Unknown. Vallejo’s 1940s building/December 2005 county acquisition are different milestones; wedding opening remains Unknown. The old accessibility defects do not establish current violations.\n\n**Acquisition scope:** broker marketing shows a $55 million ASK for a four-property 125 acre portfolio advertised under 5071 Suisun Valley Road, not a standalone Blue Victorian venue valuation. Separate Mankas Corner marketing lists $7.75 million ASK for the mixed-use property at 2522 Mankas Corner Road, including several income-producing units; the gardens and venue business have no verified allocation. Leaseback possibilities, advertised cap rate and occupancy require rent rolls, leases, expense/NOI evidence, deeds and entitlement verification. Do not add portfolio and component asking prices or infer wedding profits from winery/tenant income. Portfolio update metadata differs between indexed September 21 and web-reader July 9 versions; original valuation effective date Unknown, checked October 11.\n\n**Operating constraints:** the current Vezér original rental page limits ceremonies to symbolic ones and prohibits legally binding agreements/ceremonies on property. Only Vezér wine is allowed; no hard alcohol. Its 6 hour fees exclude unknown wine/staff/transport/sanitation costs; security starts 150 guests, portable toilets over 150. Mainwedding versusweekdaycorporategarden 130/150 capacity differs; approved dinner plus dance layouts remain Unknown. Winemaking 2001 does not establish wedding opening.\n\nSources: [County 2026 agenda](https://solano.legistar.com/View.ashx?GUID=3E4EBAC1-739A-4044-92B7-08081E628149&ID=1423323&M=PA) · [Historical Grand Juryreport](https://igsberkeley.contentdm.oclc.org/digital/api/collection/p266301coll6/id/336/download) · [Operatorrentalpolicy](https://vezer.com/venue-rental/) · [Portfolioask](https://www.commercialsearch.com/commercial-property/us/ca/fairfield/5071-suisun-valley-rd/) · [Mankaswhole-propertyask](https://www.commercialsearch.com/commercial-property/us/ca/fairfield/2522-mankas-corner-rd/). County/jurytable pages visually reviewed from actual downloaded PDFs. Broker PDF actual 403/too-large webreader; property marketing summarized through listing only, no downloaded brochure claim.\n",
-    "Reviews and capacity checks": "## Reviews and layout evidence\n\nSix exact-property WeddingWire ratings/counts have a direct platform link and source-check date in the comparison. Most Google/Yelp/other ratings remain Unknown. Property-wide scores do not establish room-specific service or current wedding terms; reviews can cover different years and operations. Google ratings repeated on another platform are not direct Google verification. No reviewer allegations were adopted as established facts.\n\nAracely's original courtyard description puts 200 seats around the dance floor plus 100 on it: 300 seated is not 300 dining with an open dance floor. Its shared auditorium has conflicting 380/400 theater counts and needs separate rental approval. Wedding packages start $150/person; the upper bound and complete compulsory charges remain Unknown. [Original wedding page](https://www.aracelysf.com/weddings-1) · [Shared auditorium](https://www.aracelysf.com/private-events).\n\nThomas Fogarty advertises 200 guests and event ending as late as 10PM, with caterers from its preferred list. Separate music/bar/cleanup deadlines and room-specific layouts remain Unknown. Its winery founding1981 is not wedding opening. [Original operator](https://www.fogartywinery.com/pages/weddings).\n\nMountain House Estate is excluded pending boundary confirmation: its own permit explanation names County of Mendocino, while other marketing references Cloverdale/Sonoma. Postal/tourism labels do not establish jurisdiction. Its extended-hours offer is not evidence of Bay Area county approval. [Operator permit explanation](https://mountainhouseestate.com/faq/).\n"
+    "Reviews and capacity checks": "## Reviews and layout evidence\n\nSix exact-property WeddingWire ratings/counts have a direct platform link and source-check date in the comparison. Most Google/Yelp/other ratings remain Unknown. Property-wide scores do not establish room-specific service or current wedding terms; reviews can cover different years and operations. Google ratings repeated on another platform are not direct Google verification. No reviewer allegations were adopted as established facts.\n\nAracely's original courtyard description puts 200 seats around the dance floor plus 100 on it: 300 seated is not 300 dining with an open dance floor. Its shared auditorium has conflicting 380/400 theater counts and needs separate rental approval. Wedding packages start $150/person; the upper bound and complete compulsory charges remain Unknown. [Original wedding page](https://www.aracelysf.com/weddings-1) · [Shared auditorium](https://www.aracelysf.com/private-events).\n\nThomas Fogarty advertises 200 guests and event ending as late as 10PM, with caterers from its preferred list. Separate music/bar/cleanup deadlines and room-specific layouts remain Unknown. Its winery founding1981 is not wedding opening. [Original operator](https://www.fogartywinery.com/pages/weddings).\n\nMountain House Estate is excluded pending boundary confirmation: its own permit explanation names County of Mendocino, while other marketing references Cloverdale/Sonoma. Postal/tourism labels do not establish jurisdiction. Its extended-hours offer is not evidence of Bay Area county approval. [Operator permit explanation](https://mountainhouseestate.com/faq/).\n",
+    "Government leases and hotel transaction scope": "Historical cases illustrate different measures of capital; none is a current valuation or an available operating opportunity.\n\n- Cavallo Point: the 2008 federal report records $95m developer restoration, $22.9m public infrastructure and $400k annual rent plus revenue participation under a 60-year lease. The current NPS summary gives project investment above $100m. Opening month/agreement-year sources differ. Preserve source scope and date; do not add overlapping totals. [2008 report, printed p23](https://www.achp.gov/sites/default/files/2018-09/2008_Section%203_DOI_NPS.pdf) · [NPS case](https://www.nps.gov/subjects/leasing/success-stories.htm).\n- Argonaut: NPS’s March2016 foundation document identifies a historic lease, listed2003–2059. The original SEC-filed lease includes an initial $1m annual base, CPI and percentage-rent terms, upfront payments and rehabilitation obligations. Current amendments, actual rent and transfer rights require examination. Hotel/operator ownership does not establish private land ownership. [NPS](https://www.nps.gov/safr/learn/management/foundation-document-appendixes.htm) · [Filed lease, sections4–5](https://www.sec.gov/Archives/edgar/data/1474098/000095012311015821/w81668aexv10w1.htm).\n- Claremont: buyer confirms May2023 acquisition; LWHA Q2survey labels $163.3m an estimated sales price. Whole hotel/club scope, not wedding-business goodwill. Deed, APNs and allocations remain Unknown. [Buyer](https://ohanare.com/portfolio/) · [Survey p6](https://lwhospitalityadvisors.com/wp-content/uploads/2023/07/Q2-2023-Sales.pdf).\n- Fairmont Sonoma: original W.P.Carey supplement records July2013 acquisition of a 75%JVinterest, $97m total investment and25%retained byFairmont. Do not multiply or divide this into an inferred whole-property market value without debt/capital allocation evidence. [Original Q2supplement p6](https://s29.q4cdn.com/223055717/files/doc_financials/2013/q2/Supplemental-Report-Q2.pdf).\n\nFor a prospective lease, obtain term, permitted events/noise/hours, improvements and maintenance responsibility, rent escalation/revenue share, lender/assignment rights, approval conditions and exit obligations. NPS says leases require appraised fair-market rent; qualification and financial capability enter RFP evaluation. [Current leasing guidance](https://www.nps.gov/subjects/leasing/index.htm) · [Solicitation guidance](https://www.nps.gov/subjects/leasing/open-opportunities.htm). Public wedding rental availability does not establish commercial lease availability."
   },
   "pricing_method": "Keep package, venue-only and total costs separate. Derived venue cost per head is published venue fee divided by a user-selected guest count; it is not an all-in wedding quote. Null means unknown. Taxes, service fees, minimums and exclusions require written terms.",
   "criteria": {
@@ -517052,6 +519190,62 @@
         "Trentadueactual6pgpacket deposit750versusweb1000/5vs5–7hours/winediscount10vs15; separatedining/ceremony/dancecapacities",
         "Nestldowncurrentrequiredvendorcontrol/optionalplanner/music9:45guests10vendors11; weekday14950–39500notallin. BRCohn200propertychairs150/wine30minimum;Viansa250vs300/wine35minimum"
       ]
+    },
+    {
+      "pass": 39,
+      "question": "What government-leased hotels or historic resort wedding spaces were missed, and which published capital figures were being mistaken for property value?",
+      "scope": "Argonaut new property/five spaces; Cavallo/Claremont/Fairmont source scope and historical lease/transaction checks",
+      "completed_utc": "2026-10-11T10:25:10.252643+00:00",
+      "source_urls": [
+        "https://www.argonauthotel.com/san-francisco-wedding/",
+        "https://www.argonauthotel.com/llm-info/",
+        "https://noblehousemenus.com/argo_WeddingFlipbook_ADA.pdf",
+        "https://noblehousemenus.com/argo-wedding-package_ADA.pdf",
+        "https://noblehousemenus.com/argo-intimate-wedding-package_ADA.pdf",
+        "https://www.nps.gov/subjects/leasing/success-stories.htm",
+        "https://www.nps.gov/subjects/leasing/index.htm",
+        "https://www.nps.gov/subjects/leasing/open-opportunities.htm",
+        "https://ohanare.com/portfolio/",
+        "https://www.sec.gov/Archives/edgar/data/1430259/000104746914004206/a2219904zdef14a.htm",
+        "https://www.costar.com/article/316386102/ohana-real-estate-investors-buys-claremont-club-spa-for-1633-million?edition=us",
+        "https://www.achp.gov/sites/default/files/2018-09/2008_Section%203_DOI_NPS.pdf",
+        "https://s29.q4cdn.com/223055717/files/doc_financials/2013/q2/Supplemental-Report-Q2.pdf",
+        "https://lwhospitalityadvisors.com/wp-content/uploads/2023/07/Q2-2023-Sales.pdf",
+        "https://www.nps.gov/safr/learn/management/foundation-document-appendixes.htm",
+        "https://www.sec.gov/Archives/edgar/data/1474098/000095012311015821/w81668aexv10w1.htm",
+        "https://claremontresortandclub.com/gather/weddings/",
+        "https://claremontresortandclub.com/about/history/",
+        "https://claremontresortandclub.com/about/contact-us/"
+      ],
+      "added_record_ids": [
+        "argonaut-hotel-golden-gate-ballroom-foyer-san-francisco",
+        "argonaut-hotel-maritime-room-san-francisco",
+        "argonaut-hotel-del-monte-courtyard-san-francisco",
+        "argonaut-hotel-constellation-room-san-francisco",
+        "argonaut-hotel-victoria-park-intimate-ceremony-package-san-francisco"
+      ],
+      "duplicates_merged": [
+        "Existing Cavallo/Claremont/Fairmont enriched rather than re-added",
+        "Room records share one hotel; no summed capacity or repeated asset values"
+      ],
+      "excluded": [
+        "2025Argonautprices as current2026quote",
+        "Currentwebsite280 versus2025package300 versusundatedbrochure260 as one confirmed dinner+dance limit",
+        "1937historicClaremontprice as currentvalue",
+        "Capitalspending,JVinterest and wholehotelprice as standalone weddingbusinessvalue"
+      ],
+      "remaining_gaps": [
+        "Actualcurrentleaseamendments/deeds/APNs/rent/earnings",
+        "Current2026quotes and approvedroom/dance/noisecutoffs",
+        "Weddingopening dates separate fromhotel dates",
+        "Ninecounty exhaustiveinventory notclaimed"
+      ],
+      "fact_check_findings": [
+        "Actual2008DOI34pg/WPC201346pg/LWHA202325pg PDFs downloaded and pertinent pages visually reviewed",
+        "Argonaut2025package21pg/brochure9pg/intimate2pg downloaded; pricing/capacity/FAQ pages visually reviewed",
+        "DirectoperatorHTML403 logged separately from primarywebreader; originalsources retained",
+        "ArgonautGoldenGatecapacity conflicting; Maritime90dinner+dance; courtyard200ceremony notdinner;10personintimatepackage includescouple"
+      ]
     }
   ],
   "municipality_coverage": [
@@ -517614,7 +519808,12 @@
         "https://www.aracelysf.com/weddings-1",
         "https://www.aracelysf.com/private-events",
         "https://www.aracelysf.com/",
-        "https://www.weddingwire.com/biz/aracely-cafe-san-francisco/5b6069e66f54229f.html"
+        "https://www.weddingwire.com/biz/aracely-cafe-san-francisco/5b6069e66f54229f.html",
+        "https://www.argonauthotel.com/san-francisco-wedding/",
+        "https://noblehousemenus.com/argo-wedding-package_ADA.pdf",
+        "https://noblehousemenus.com/argo_WeddingFlipbook_ADA.pdf",
+        "https://www.argonauthotel.com/llm-info/",
+        "https://www.nps.gov/safr/learn/management/foundation-document-appendixes.htm"
       ],
       "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
     },
@@ -518258,6 +520457,6 @@
   ],
   "census_method": "Discovery records include individual spaces, properties and aggregate site groups. Parent names prevent counting each room as a new venue property. These are source-reviewed leads, not complete feasibility or availability checks. Blank facts are unknown, not no or zero. Unknown geocodes stay off the map. Municipality coverage marks work still pending.",
   "review_method": "Review search links are discovery aids, not verified venue listings. Match exact property/room and address before recording a rating, review count, direct listing URL and checked date. Scores from different platforms must not be merged; reviews of a park or restaurant are not necessarily wedding reviews. Verified aggregates identify platform/date and property scope; numeric ratings describe platform users, not an independent quality finding. Primary platform web-reader checks may coexist with failed direct archive downloads. Secondary repeats of Google scores remain unverified Google data.",
-  "map_method": "449 sourced approximate map points. Exact Census street-address matches require matching state/county. Address-range points are not surveyed entrances; rooms/campus offerings may share points. Generic offices/campus addresses and non-exact/no-match responses held.",
-  "updated_utc": "2026-10-11T10:18:24.962060+00:00"
+  "map_method": "453 sourced approximate map points. Exact Census street-address matches require matching state/county. Address-range points are not surveyed entrances; rooms/campus offerings may share points. Generic offices/campus addresses and non-exact/no-match responses held.",
+  "updated_utc": "2026-10-11T10:25:10.252643+00:00"
 }
