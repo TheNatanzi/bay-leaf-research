@@ -3930,5 +3930,101 @@
       "Temescal current operator footbridge closure and swimming advisory separately flagged; neither is invented blanket picnic closure. Food-truck exception is North Temescal, not all five sites. Midnight event/music/cleanup permission remains unestablished.",
       "Actual primary HTML/text/link archives and fetch logs retained for all fifteen pages. Building construction, wedding operation opening, commercial operating rights, APNs, property values and actual operating profits remain Unknown without separate evidence."
     ]
+  },
+  {
+    "pass": 53,
+    "question": "Which Solano golf clubhouses, conservatory gardens and county recreation rentals have been missed, and which marketing capacities or public hours overstate wedding suitability?",
+    "scope": "Fairfield, Vacaville, Rio Vista and Lake Solano county sites",
+    "completed_utc": "2026-10-11T13:02:26.070280+00:00",
+    "source_urls": [
+      "https://www.youngartistsconservatory.org/event-rental-space",
+      "https://fairfieldgolf.com/topknot-weddings-events/",
+      "https://fairfieldgolf.com/bella-verdi-weddings-events/",
+      "https://www.solanocounty.gov/government/resource-management/solano-county-parks/sandy-beach-park-campground",
+      "https://www.solanocounty.gov/government/resource-management/solano-county-parks/park-hours",
+      "https://content.solanocounty.gov/sites/default/files/2025-06/SBP_Fees_2024.pdf",
+      "https://www.solanocounty.gov/government/resource-management/solano-county-parks",
+      "https://www.solanocounty.gov/government/resource-management/solano-county-parks/lake-solano-county-park-campground",
+      "https://content.solanocounty.gov/sites/default/files/2025-06/LSP_Fees_2024.pdf"
+    ],
+    "added_record_ids": [
+      "young-artists-conservatory-of-music-tarrega-garden-venue-solano",
+      "topknot-at-paradise-valley-indoor-outdoor-wedding-event-offering-solano",
+      "bella-verdi-at-rancho-solano-full-facility-solano",
+      "bella-verdi-at-rancho-solano-sunset-room-solano",
+      "bella-verdi-at-rancho-solano-terrace-room-solano",
+      "sandy-beach-county-park-day-use-picnic-beach-prospect-solano",
+      "lake-solano-county-park-nature-center-exhibition-program-room-solano",
+      "lake-solano-county-park-nature-center-patio-rental-prospect-solano",
+      "lake-solano-county-park-nature-center-outdoor-education-circle-solano"
+    ],
+    "updated_record_ids": [
+      "lake-solano-county-park-lake-solano-county-park-group-event-areas-solano"
+    ],
+    "duplicates_merged": [
+      "Former Rancho Solano clubhouse directory and current Bella Verdi same property",
+      "Rooms/full facility and Nature Center subareas overlap; capacities not summed"
+    ],
+    "excluded": [
+      "Fairfield Ohio packet out of California scope",
+      "Directory midnight not operator confirmed",
+      "Certificate failure not bypassed; failed fetch not counted as downloaded",
+      "More-than-500 fee tier not wedding occupancy"
+    ],
+    "remaining_gaps": [
+      "Issued event permits, dinner/dance layouts, exact entrance addresses and current quotes",
+      "All-nine-county inventory and valuations/history/reviews remain incomplete"
+    ],
+    "fact_check_findings": [
+      "Nine named golf/conservatory/waterfront/Nature Center offerings; existing Lake Solano group enriched. Rancho full facility/rooms share property; Nature Center subareas overlap existing group, not nine standalone properties.",
+      "Bella Verdi current maximum 500 generic versus directory 440; TopKnot separate Paradise Valley maximum 180. No banquet or midnight claims imported from directory. Primary golf web-reader excerpts reviewed; direct HTML 403 logged.",
+      "Tarrega below-100 recommendation not legal maximum. $500/six hours with refundable $250 deposit; outside furniture/catering; add-ons separate. No-cooking versus optional grill ambiguity preserved. Six-hour duration not end clock.",
+      "Lake Solano actual linked 2024-effective three-page fee PDF: picnic tier over 500 still each pad maximum 250. No 500-person wedding seating inferred. Nature Center rental/room/patio/education fees do not establish wedding/commercial operating permission or complete quote.",
+      "Sandy Beach first-come tables; 8–6 day use/no entry final hour, public capacity closures stop delivery/dropoffs/re-entry. Strong-current swimming ban; campground 42 and 24-hour boat launch not wedding occupancy or midnight permission.",
+      "Actual county/conservatory HTML and both county fee PDFs archived; Lake PDF page 2 visually reviewed. Upcoming 2027 fee announcement not used as effective current prices. Reservation-host certificate failure logged; certificate validation not bypassed.",
+      "Fairfield-city.org 2026 wedding rental packet is Fairfield Ohio, excluded from California inventory. Construction and campground availability conflicts preserved; histories/parcel/values/business earnings remain Unknown."
+    ]
+  },
+  {
+    "pass": 54,
+    "question": "What acquisition and planning-stage venue prospects were missed, and what evidence can support value without confusing asking price, broker estimates, approvals and verified profits?",
+    "scope": "Napa multi-parcel estate and former-school proposal; anonymous Alameda banquet acquisition listing",
+    "completed_utc": "2026-10-11T13:07:34.762022+00:00",
+    "source_urls": [
+      "https://about.mlslistings.com/property/ba326077400/6015-steele-canyon-rd-napa-ca-94558/17952197",
+      "https://burrisrealty.rereader.com/commercial-for-sale/6015-Steele-Canyon-Road-Napa-CA-94558-439347295",
+      "https://www.bizben.com/business-for-sale/banquet-hall-for-sale-in-bay-area-california-286519",
+      "https://napa.legistar.com/LegislationDetail.aspx?FullText=1&GUID=1C9E33E6-2211-41B6-9101-38CAC76EB914&ID=6661243",
+      "https://napa.legistar.com/View.ashx?GUID=C87B59FB-7A33-4EC4-BAC2-0E0941C7F664&ID=12911351&M=F"
+    ],
+    "added_record_ids": [
+      "moskowite-estate-winery-estate-winery-outdoor-wedding-acquisition-prospect-napa",
+      "alameda-county-anonymous-banquet-hall-bizben-286519-anonymous-three-ballroom-business-property-acquisition-listing-alameda",
+      "pridmore-property-former-capell-valley-school-former-school-proposed-lodge-and-private-event-barn-napa"
+    ],
+    "updated_record_ids": [],
+    "duplicates_merged": [
+      "Anonymous banquet listing identity unknown, potential duplicate explicitly flagged",
+      "Pridmore and Moskowite nearby but different APNs; not merged"
+    ],
+    "excluded": [
+      "Broker claims not verified actual earnings/appraisal",
+      "1975 property year not wedding opening/structure year",
+      "Recommended use conditions not issued final permit",
+      "Included licenses not added twice to package value",
+      "Misplaced Sunnyvale neighborhood prose on Napa MLS ignored"
+    ],
+    "remaining_gaps": [
+      "All parcel/APN title scope, current adopted permits, exact layouts, current quotes, actual availability",
+      "Verified property comps, tax assessments and normalized business earnings for all candidates"
+    ],
+    "fact_check_findings": [
+      "Three acquisition/planning leads; anonymous Alameda lead may overlap existing inventory and is not counted as a verified distinct property. Asking prices and broker allocations separated from independent appraisals/closed sales/tax assessment.",
+      "Moskowite current MLS asks $75m for claimed multi-parcel 788-acre winery estate; single APN does not cover full estate. Land/business allocations, exact wedding permissions and profit remain Unknown. MLS year 1975 is property-level, not newly described wedding-structure age.",
+      "Anonymous Alameda broker asks $16.5m while property/business estimates $12.3m/$4.5m sum $16.8m. Claimed licenses already included; no double counting. Revenue/NOI/pro forma values unverified; no competitor actual profit invented. Original posting and valuation date Unknown.",
+      "Nearby Pridmore property is a different 5.03-acre parcel, not Moskowite winery. County 2024 RECOMMENDED conditions: annual six events at 150/twelve at 60, 10PM event end except quiet cleanup, amplified sound inside approved enclosed buildings, overflow/shuttle over 60. Final adopted permit/current operation Unknown.",
+      "Actual MLS/BizBen/county HTML and 32-page recommended conditions PDF archived with fetch logs; PDF pages 6–7 visually reviewed. Web reader reported PDF unavailable but direct normal HTTPS fetch returned valid 200; certificate validation not bypassed. Broker HTML direct 403 logged.",
+      "Closed-sales comps/assessor values/verified earnings and full parcel title schedule remain missing. No Zillow commercial business value, acreage-based permitted capacity, license premium stacking or capital budget inferred."
+    ]
   }
 ]
