@@ -931,5 +931,58 @@
       "Santa Clara prohibits profit-making events under ordinary rentals; customer recreation rental does not establish a commercial operating lease.",
       "Santa Clara approved caterer list recorded. Maywood and Westwood party reservations end at 5 PM, separately from the general 10 PM window."
     ]
+  },
+  {
+    "pass": 17,
+    "question": "What other western Contra Costa and American Canyon municipal halls, small rooms and unconventional pool/grounds rentals have we missed?",
+    "scope": "Five American Canyon schedule entries; four Hercules event halls; six Pinole room/package/pool records",
+    "completed_utc": "2026-10-11T06:49:28.353905+00:00",
+    "source_urls": [
+      "https://www.americancanyon.gov/Play/Parks/Facility-Rentals",
+      "https://www.americancanyon.gov/files/assets/city/v/1/documents/parks-amp-rec/facility-rental-fees-revised-4.14.2026.pdf",
+      "https://www.americancanyon.gov/files/assets/city/v/1/documents/parks-amp-rec/2025_facility-rental-application-rules-and-regulations-1.pdf",
+      "https://www.herculesca.gov/government/parks-recreation/facility-rentals",
+      "https://www.herculesca.gov/home/showpublisheddocument/18595/638983905217630000",
+      "https://www.pinole.gov/recreation/parks_facilities/pinole-senior-center/",
+      "https://www.pinole.gov/recreation/parks_facilities/pinole-youth-center/",
+      "https://www.pinole.gov/recreation/parks_facilities/pinole-swim-center/",
+      "https://www.pinole.gov/wp-content/uploads/2026/09/Facility-Rental-Guide-2026.pdf"
+    ],
+    "added_record_ids": [
+      "recreation-center-recreation-center-napa",
+      "adult-activity-center-multi-use-room-napa",
+      "adult-activity-center-assembly-room-napa",
+      "mikolajcik-center-multipurpose-room-napa",
+      "mikolajcik-center-classrooms-17-18-rental-group-napa",
+      "hercules-community-center-event-hall-contra-costa",
+      "hercules-senior-center-event-hall-contra-costa",
+      "ohlone-community-center-ohlone-community-center-contra-costa",
+      "foxboro-community-center-foxboro-community-center-contra-costa",
+      "pinole-senior-center-main-hall-contra-costa",
+      "pinole-senior-center-large-meeting-room-contra-costa",
+      "pinole-senior-center-small-meeting-room-contra-costa",
+      "pinole-youth-center-main-hall-package-including-meeting-room-contra-costa",
+      "pinole-youth-center-meeting-room-contra-costa",
+      "pinole-swim-center-private-pool-and-grounds-rental-contra-costa"
+    ],
+    "duplicates_merged": [
+      "Pinole Youth main-hall package includes the meeting room; shared parent and overlap explicit, no summed capacity.",
+      "Hercules Community Center/Swim Center historical naming treated as one current parent."
+    ],
+    "excluded": [
+      "American Canyon commercial kitchen alone is ancillary; sports-only courts/fields and unnamed picnic groups held.",
+      "Hercules conference-only rooms with no food/drinks and sports-only gym/pool held pending event-specific rights."
+    ],
+    "remaining_gaps": [
+      "Hercules full current policies, prices and picnic inventory; indexed-guide provenance is lower confidence.",
+      "American Canyon actual facility addresses, room layouts and current contract conflicts.",
+      "Pinole parks/private/faith/fraternal venues and all unpublished details.",
+      "Every municipality remains incomplete."
+    ],
+    "fact_check_findings": [
+      "Pinole current September2026-linked guide downloaded and read; older indexed2024 URL returned404. Activities end11 PM; cleanup/departure bymidnight. Private for-profit use refused.",
+      "American Canyon2026 fees downloaded and visually reviewed. Two-hour room minima conflict with2025 blanket three-hour minimum; vendor fees and cancellation wording also differ.",
+      "Pinole Youth105 seats split65/40 across two rooms. Pool rate bracket is not approved wedding capacity; pool rules prohibit alcohol."
+    ]
   }
 ]

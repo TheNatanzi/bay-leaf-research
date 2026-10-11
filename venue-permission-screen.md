@@ -22,6 +22,8 @@ Evidence checked October 11, 2026 UTC (October 10 Pacific): current agency page 
 ## Napa County: temporary-event exemption does not authorize wedding use
 The September 23, 2025 staff report on proposed temporary-event changes says weddings and private parties are outside that temporary-event category and fall under other county provisions. Winery marketing is separately defined and subordinate to wine production. This is not permission to turn an agricultural winery into a wedding business. [County report](https://napa.legistar.com/LegislationDetail.aspx?FullText=1&GUID=74AAFD7E-5036-4DBF-A49B-C4EDD4C68308&ID=7663685&Options=&Search=).
 
+The newer August 25, 2026 agenda item (26-1526) and current county project page describe an updated proposal, with implementation listed for January 2027 if adopted. The agenda page still displays “Agenda Ready” with no final action. Do not use the older 2025 item as proof of adoption or treat the proposal as current operating permission. [2026 county agenda item](https://napa.legistar.com/LegislationDetail.aspx?FullText=1&GUID=35AABC94-AC02-4F2B-8EB9-032AE4766A10&ID=8185096&Options=&Search=) · [County project timeline](https://connect.napacounty.gov/temporary-event-ordinance).
+
 Verification gap: final adoption/current code and each property's grandfathered or approved uses remain unverified. Distinguish unincorporated county land from incorporated cities; keep candidate wedding permission Unknown until property-specific evidence supports it.
 
 ## Marin County: identify the actual food-service model
