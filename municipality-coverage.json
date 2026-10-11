@@ -21,7 +21,9 @@
     "municipal_rental_status": "Partial inventory imported; room/site terms remain unknown",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
-      "https://berkeleyca.gov/city-services/event-permits-rentals/event-and-facility-rentals"
+      "https://berkeleyca.gov/city-services/event-permits-rentals/event-and-facility-rentals",
+      "https://botanicalgarden.berkeley.edu/private-rentals/weddings/",
+      "https://botanicalgarden.berkeley.edu/private-rentals/weddings/ceremony-and-reception/"
     ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
@@ -429,7 +431,9 @@
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
       "https://sfrecpark.org/658/Indoor-Facility-Rentals",
-      "https://sfrecpark.org/738/Wedding-Site-Directory"
+      "https://sfrecpark.org/738/Wedding-Site-Directory",
+      "https://ces.sfsu.edu/conference-centers",
+      "https://ces.sfsu.edu/rates_booking_inquiries"
     ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
@@ -701,7 +705,8 @@
     "municipal_rental_status": "Partial source review",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
-      "https://www.santaclaraca.gov/our-city/departments-g-z/parks-recreation/reservations-and-permits"
+      "https://www.santaclaraca.gov/our-city/departments-g-z/parks-recreation/reservations-and-permits",
+      "https://www.scu.edu/missionchurch/host/"
     ],
     "remaining": "Current room-specific policies, private/faith/college inventories and all unpublished facts; incomplete"
   },

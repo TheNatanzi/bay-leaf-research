@@ -984,5 +984,69 @@
       "American Canyon2026 fees downloaded and visually reviewed. Two-hour room minima conflict with2025 blanket three-hour minimum; vendor fees and cancellation wording also differ.",
       "Pinole Youth105 seats split65/40 across two rooms. Pool rate bracket is not approved wedding capacity; pool rules prohibit alcohol."
     ]
+  },
+  {
+    "pass": 18,
+    "question": "What university/campus dining rooms, conference configurations, gardens and restricted ceremony spaces have we missed?",
+    "scope": "Stanford Faculty Club and church; SFSU Seven Hills/Towers; SCU Mission/Gardens; UC Botanical Garden offerings",
+    "completed_utc": "2026-10-11T07:04:31.425275+00:00",
+    "source_urls": [
+      "https://facultyclub.stanford.edu/event-spaces",
+      "https://facultyclub.stanford.edu/",
+      "https://orsl.stanford.edu/wedding-information",
+      "https://ces.sfsu.edu/conference-centers",
+      "https://ces.sfsu.edu/rates_booking_inquiries",
+      "https://www.scu.edu/missionchurch/host/",
+      "https://botanicalgarden.berkeley.edu/private-rentals/weddings/",
+      "https://botanicalgarden.berkeley.edu/private-rentals/weddings/ceremony-only/",
+      "https://botanicalgarden.berkeley.edu/private-rentals/weddings/reception-only/",
+      "https://botanicalgarden.berkeley.edu/private-rentals/weddings/ceremony-and-reception/"
+    ],
+    "added_record_ids": [
+      "stanford-faculty-club-cedar-room-santa-clara",
+      "stanford-faculty-club-redwood-room-santa-clara",
+      "stanford-faculty-club-palm-room-santa-clara",
+      "stanford-faculty-club-private-dining-rooms-group-santa-clara",
+      "stanford-faculty-club-oak-room-santa-clara",
+      "stanford-faculty-club-president-s-room-santa-clara",
+      "stanford-faculty-club-main-patio-santa-clara",
+      "stanford-faculty-club-garden-patio-santa-clara",
+      "stanford-faculty-club-upper-terrace-santa-clara",
+      "stanford-faculty-club-inner-courtyard-santa-clara",
+      "seven-hills-conference-center-san-francisco-state-university-nob-hill-room-san-francisco",
+      "seven-hills-conference-center-san-francisco-state-university-mount-davidson-twin-peaks-combined-breakout-san-francisco",
+      "seven-hills-conference-center-san-francisco-state-university-russian-hill-telegraph-hill-combined-breakout-san-francisco",
+      "seven-hills-conference-center-san-francisco-state-university-coit-lounge-san-francisco",
+      "towers-conference-center-san-francisco-state-university-sunset-room-san-francisco",
+      "towers-conference-center-san-francisco-state-university-presidio-room-san-francisco",
+      "towers-conference-center-san-francisco-state-university-richmond-room-san-francisco",
+      "towers-conference-center-san-francisco-state-university-sunset-presidio-richmond-connected-rooms-san-francisco",
+      "stanford-university-memorial-church-ceremony-santa-clara",
+      "santa-clara-university-mission-santa-clara-ceremony-santa-clara",
+      "santa-clara-university-mission-gardens-adobe-lodge-reception-offering-santa-clara",
+      "uc-botanical-garden-redwood-grove-amphitheater-ceremony-only-alameda",
+      "uc-botanical-garden-julia-morgan-hall-reception-only-alameda"
+    ],
+    "duplicates_merged": [
+      "Existing UC Botanical Garden property updated; its two offering records share property",
+      "SFSU combined configurations overlap constituent rooms; Stanford patios overlap room packages",
+      "SCU garden/Adobe Lodge retained as one offering pending actual room inventory"
+    ],
+    "excluded": [
+      "Stanford private dining group not expanded into unnamed room IDs; source intro five rooms vs specifics four remains uncertain",
+      "SCU Multifaith Sanctuary/St.Francis Chapel held: nonprofit/faith-purpose restrictions, wedding permission not established",
+      "SFSU classroom/theater/athletic inventory requires separate food/social-event permission review"
+    ],
+    "remaining_gaps": [
+      "Room-specific dance layouts, current campus contract prices/hours and sponsorship requirements",
+      "SCU reception inventory/eligibility and campus parcels/values/history",
+      "All other universities/colleges, municipal and private coverage incomplete"
+    ],
+    "fact_check_findings": [
+      "SFSU Towers combined400 cocktail differs250 banquet; SevenHills350 cocktail differs150 banquet; outside food prohibited. Current rates Coming Soon, indexed2023–24 rates not current.",
+      "Stanford current church page includes non-affiliate fees despite older/general Stanford-community language; ceremony-only rules and required clergy tracked. Club hours are not event cutoffs.",
+      "UC Garden combined package header5–11PM/6hours contradicts detailed guests11PM/cleanupmidnight timeline; conflict preserved, not asserted midnight wedding permission.",
+      "SCU ceremony affiliation/Catholic restrictions and400ceremony seats do not establish400guest reception or unrestricted outdoor ceremonies."
+    ]
   }
 ]
