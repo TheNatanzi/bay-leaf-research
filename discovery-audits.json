@@ -4399,5 +4399,64 @@
       "Museum1850s approximatebuildings notexactyear/firstwedding. Eventagreementnonsublettable; nooperatinglease. Property/APN/businessvalueUnknown. Publicrestroomaccessduringmuseumhours breaks assumption of fullprivacy.",
       "BeniciaClockTower536seated/601standing/currentaddress189vs1189conflict. Citygym sports-onlyheld; PardiPlaza expressly publiceventsONLY,noprivate/ticketed excluded. Fairfielddirect403logged, nodownloadclaimed; governmentsearchreadernewleadsheldfornextpass."
     ]
+  },
+  {
+    "pass": 60,
+    "question": "What Fairfield neighborhood/nature-center and community-room configurations were missed, and which published fees are proposals rather than current adopted quotes?",
+    "scope": "Fairfield city possible event rooms and historical named inventory; incomplete",
+    "completed_utc": "2026-10-11T14:03:40.493362+00:00",
+    "source_urls": [
+      "https://www.fairfield.ca.gov/government/city-departments/parks-and-recreation/facility-park-picnic-rentals",
+      "https://www.fairfield.ca.gov/government/city-departments/parks-and-recreation?locale=en",
+      "https://fairfield.novusagenda.com/agendapublic/AttachmentViewer.ashx?AttachmentID=9639&ItemID=5635"
+    ],
+    "added_record_ids": [
+      "fairfield-community-center-evergreen-room-solano",
+      "fairfield-community-center-lakeside-suite-a-solano",
+      "fairfield-community-center-lakeside-suite-b-solano",
+      "fairfield-community-center-lakeside-suite-c-solano",
+      "fairfield-community-center-lakeside-suites-a-b-c-solano",
+      "fairfield-community-center-patio-room-solano",
+      "fairfield-community-center-willow-hall-solano",
+      "fairfield-adult-recreation-center-assembly-hall-full-solano",
+      "fairfield-adult-recreation-center-assembly-hall-section-1-solano",
+      "fairfield-adult-recreation-center-assembly-hall-section-2-solano",
+      "fairfield-adult-recreation-center-christiansen-room-solano",
+      "fairfield-adult-recreation-center-multi-purpose-room-solano",
+      "fairfield-adult-recreation-center-roundtable-room-solano",
+      "dunnell-nature-park-and-education-center-room-a-solano",
+      "dunnell-nature-park-and-education-center-room-b-solano",
+      "dunnell-nature-park-and-education-center-room-c-solano",
+      "dunnell-nature-park-and-education-center-rooms-a-b-c-solano",
+      "dunnell-nature-park-and-education-center-patio-solano",
+      "mankas-neighborhood-center-meeting-space-event-prospect-solano",
+      "laurel-creek-neighborhood-center-meeting-space-event-prospect-solano",
+      "fairfield-sports-center-gymnasium-floor-mezzanine-event-prospect-solano",
+      "allan-witt-aquatics-complex-outside-area-event-prospect-solano"
+    ],
+    "updated_record_ids": [],
+    "duplicates_merged": [
+      "ExistingCommunityCenterparent retained; halls/suites/sections share properties, no summed occupancy"
+    ],
+    "excluded": [
+      "Ancillary kitchens and gallery add-ons",
+      "Pool public admission notwedding price",
+      "FY17–18prices inlaterbudget notcurrent",
+      "Unspecified conference/health/artsrooms held for room-level approval",
+      "Sportsplayingfield availability not establishedweddingpermission"
+    ],
+    "remaining_gaps": [
+      "Current adopted fees/issuedcontracts/weddingapproval/seating/music/vendorinsurance",
+      "Additional Fairfield parks awaitoriginalpacket",
+      "APNs/property/businessvalues andfirstwedding/operatorhistory",
+      "Ninecountyvenueinventory remainsincomplete"
+    ],
+    "fact_check_findings": [
+      "22 Fairfield room/configuration and possible event-space records from actually downloaded47-page FY2024/25 PROPOSED municipalfee PDF and city search-reader inventory. Not22 independent available sites. Currentadoption/pricing/weddingpermission Unknown.",
+      "Proposal July8,2024 cannot become current price; separate FY17–18fees embeddedin2023–25budget alsohistorical. Willow Hall/AssemblyHall correspondence unresolved, justunder500banquet versus600audience not500numeric/dinnerdance. Adultparent10–180notroomcapacity.",
+      "Dunnell1998bequest/2004plan notconstruction/firstwedding/operatorstart. Neighborhoodfurniture50notbanquetlayout; Laurel2980department vs2986rentalpageaddress retained. AdultCivicCenter vssecondaryHarryPrice namingneedsconfirmation.",
+      "DirectFairfieldHTML,parkPDF andhandbook403 logged; cachedsearch-reader archived asreaderresponse, notdownloadedoriginal. Actual proposalPDF succeeded. No browser permission bypass/accountcreation/inquiries.",
+      "Sportsgym explicitlyadvertises open-space eventrental; aquaticsoutsidearea historicalprospect noalcohol/glass, weddingUnknown. Kitchens,conference/health/artsrooms andpooladmissionheldratherthanassertingweddingcapacity; comprehensiveinventory remainsincomplete."
+    ]
   }
 ]
