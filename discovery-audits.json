@@ -4278,5 +4278,64 @@
       "VIBE explicitly advertises wedding receptions; FY26/27 main150/package180 generic, not banquet. Five-hour alcohol minimum, designated areas and safe transport obligation; teen priority/no private skatepark. Original webpage whole/half scope versus newer application room/package scope and payment deadlines require clarification.",
       "Actual primary municipal HTML and12 successful municipal PDFs archived; image-only Millbrae fees and new Foster fee tables visually reviewed. Menlo direct403 and SanMateo asset404 logged, not portrayed as downloaded/reviewed. Construction/first-wedding/operator/value/reviews remain Unknown without adequate evidence."
     ]
+  },
+  {
+    "pass": 58,
+    "question": "What Menlo Park community campus rooms and ceremony parks were missed, and which advertised capacities are standing rather than dinner seating?",
+    "scope": "Menlo Park municipal room/configuration and park-permit leads; partial coverage",
+    "completed_utc": "2026-10-11T13:46:33.360299+00:00",
+    "source_urls": [
+      "https://www.menlopark.gov/Government/Departments/Library-and-Community-Services/Facility-Rentals/Venues/Arrillaga-Family-Recreation-Center",
+      "https://www.menlopark.gov/Government/Departments/Library-and-Community-Services/Facility-Rentals",
+      "https://www.menlopark.gov/files/sharedassets/public/v/1/library-and-community-services/policies/lcs_facility-rental-meeting-room-policies.pdf",
+      "https://www.menlopark.gov/files/sharedassets/public/v/1/administrative-services/documents/finance/master-fee-schedule/2026-approved-master-fee-schedule.pdf",
+      "https://www.menlopark.gov/Government/Departments/Library-and-Community-Services/Facility-Rentals/Venues/Belle-Haven-Community-Campus",
+      "https://www.menlopark.gov/Venues",
+      "https://www.menlopark.gov/Government/Departments/Library-and-Community-Services/About-us",
+      "https://www.menlopark.gov/Parks/Sharon-Park",
+      "https://menlopark.gov/files/sharedassets/public/v/1/public-works/documents/capital-improvement-program/parks-and-recreation-facilities-master-plan.pdf",
+      "https://menlopark.gov/Parks/Bedwell-Bayfront-Park"
+    ],
+    "added_record_ids": [
+      "arrillaga-family-recreation-center-sequoia-room-san-mateo",
+      "arrillaga-family-recreation-center-elm-room-san-mateo",
+      "arrillaga-family-recreation-center-cypress-room-san-mateo",
+      "arrillaga-family-recreation-center-oak-room-san-mateo",
+      "arrillaga-family-recreation-center-juniper-room-san-mateo",
+      "arrillaga-family-recreation-center-willow-room-san-mateo",
+      "arrillaga-family-recreation-center-large-patio-san-mateo",
+      "arrillaga-family-recreation-center-small-patio-add-on-san-mateo",
+      "belle-haven-community-campus-large-event-room-full-san-mateo",
+      "belle-haven-community-campus-large-event-room-half-terrace-san-mateo",
+      "belle-haven-community-campus-gymnasium-san-mateo",
+      "belle-haven-community-campus-makerspace-terrace-san-mateo",
+      "belle-haven-community-campus-flex-classroom-san-mateo",
+      "belle-haven-community-campus-movement-studio-san-mateo",
+      "sharon-park-wedding-ceremony-rental-san-mateo",
+      "bedwell-bayfront-park-nonexclusive-special-event-permit-prospect-san-mateo"
+    ],
+    "updated_record_ids": [],
+    "duplicates_merged": [
+      "Belle Haven full/half/terrace and Arrillaga patios overlap sharedproperties; no summed capacity"
+    ],
+    "excluded": [
+      "Maple dance/fitness-only,nofood, not banquet venue",
+      "Gymnasium664spectator seating not banquet capacity; sports rental held",
+      "Mainlibrary public/open-meeting policy not private wedding permission",
+      "Ancillary prep kitchens and small conference rooms not independent venues",
+      "Foster FY2024 cost-recovery appendix404 not downloaded, no verified profits"
+    ],
+    "remaining_gaps": [
+      "Current issued contracts/layouts, dinner capacities and exact music deadlines",
+      "Remaining private/municipal inventory in nine counties incomplete",
+      "Property/value/APN and actual wedding-opening/operator dates Unknown"
+    ],
+    "fact_check_findings": [
+      "16 municipal room/configuration/park leads, not16 independent available venues. Sequoia/other Arrillaga capacity table expressly standing-only; current100–249generic versus250 historical/currentinventory conflict retained, banquet/dance Unknown. Maple dance/fitness-only/nofood excluded.",
+      "July14,2026 approved master fee schedule distinct fromJune3,2019 policy prices; chosen current fee bases recorded, complete food/bar/insurance/security costs Unknown. Arrillaga historical alcohol11PM/patio10PM/vacate1AMweekend not midnight music. Exactly100guest guard threshold unresolved.",
+      "Belle Haven city reports2024construction/publicopening, not first wedding; eventhall164generic not dinner+dance. Full/half/terrace configurations overlap, no164/2 capacity or inherited Arrillaga cutoff. New online booking and old in-person policy conflict marked.",
+      "Sharon Park wedding fee165/275 per event excludes preparation/equipment; not all-in. Bedwell nonexclusive daytime specialevent lead has no amplifiedsound/alcohol and is not a private venue/business lease.",
+      "Direct MenloPDF403 and Foster obsolete cost-recovery PDF404 logged. Original web-reader policy/currentfee text archived as web-reader responses, NOT downloaded PDF files; no verified municipal profitability analysis from inaccessible appendix."
+    ]
   }
 ]

@@ -905,7 +905,18 @@
     "municipality": "Menlo Park",
     "municipal_rental_status": "Not yet audited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
+    "source_urls": [
+      "https://www.menlopark.gov/Government/Departments/Library-and-Community-Services/Facility-Rentals/Venues/Arrillaga-Family-Recreation-Center",
+      "https://www.menlopark.gov/Government/Departments/Library-and-Community-Services/Facility-Rentals",
+      "https://www.menlopark.gov/files/sharedassets/public/v/1/library-and-community-services/policies/lcs_facility-rental-meeting-room-policies.pdf",
+      "https://www.menlopark.gov/files/sharedassets/public/v/1/administrative-services/documents/finance/master-fee-schedule/2026-approved-master-fee-schedule.pdf",
+      "https://www.menlopark.gov/Government/Departments/Library-and-Community-Services/Facility-Rentals/Venues/Belle-Haven-Community-Campus",
+      "https://www.menlopark.gov/Venues",
+      "https://www.menlopark.gov/Government/Departments/Library-and-Community-Services/About-us",
+      "https://www.menlopark.gov/Parks/Sharon-Park",
+      "https://menlopark.gov/files/sharedassets/public/v/1/public-works/documents/capital-improvement-program/parks-and-recreation-facilities-master-plan.pdf",
+      "https://menlopark.gov/Parks/Bedwell-Bayfront-Park"
+    ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
   {
