@@ -4753,5 +4753,90 @@
       "Jenner mainparcel099-120-0131946primary/effectiveyear and2026assessment1086717. Other offeredparcel099-112-0041911primary/1970effective and1991recordedsale175k is notwholeinn sale. Vacantparcel099-113-012 has no situs/building/sale field; null isUnknown, notzero.",
       "Business personal-property assessment0 is not operating-business value0. No ownership data inferred from omittedowner fields. CountyGIS is general planning reference, not survey/title/event-permit verification. Attribution County of Sonoma retained."
     ]
+  },
+  {
+    "pass": 67,
+    "question": "What official parcel matches were missed for resort, winery and community properties, and do their recorded prices or building fields describe the entire venue asset?",
+    "scope": "Six Sonoma exact-situs parcel matches and asset-scope fact checking",
+    "completed_utc": "2026-10-11T14:44:40.942407+00:00",
+    "source_urls": [
+      "https://socogis.sonomacounty.ca.gov/map/rest/services/AGCOMMPublic/Sonoma_County_Parcels/FeatureServer/0/query?where=%28SitusStreetNo%3D%2725200%27+AND+SitusStreetName%3D%27ARNOLD%27%29+OR+%28SitusStreetNo%3D%27100%27+AND+SitusStreetName%3D%27BOYES%27%29+OR+%28SitusStreetNo%3D%2717700%27+AND+SitusStreetName%3D%27ARNOLD%27%29+OR+%28SitusStreetNo%3D%27100%27+AND+SitusStreetName%3D%27MONTAGE%27%29+OR+%28SitusStreetNo%3D%2716467%27%29+OR+%28SitusStreetNo%3D%271370%27+AND+SitusStreetName%3D%27BODEGA%27%29&outFields=APN%2CSitusFormatted1%2CSitusFormatted2%2CLandSizeAcres%2CValue601RollYear%2CValue601Land%2CValue601Structure%2CValue601Fixtures%2CValue601FixturesRP%2CValue601Growing%2CValue601TotalLI%2CSitusStreetNo%2CSitusStreetName%2CSitusStreetType%2CSitusCity%2CBuildingPrimaryYearBuilt%2CBuildingPrimaryEffectiveYear%2CSaleRecordingDate%2CSaleDocNum%2CSaleSalesPrice%2CSaleMultiParcel%2CMegabyteUpdated&returnGeometry=false&f=pjson",
+      "https://socogis.sonomacounty.ca.gov/map/rest/services/AGCOMMPublic/Sonoma_County_Parcels/FeatureServer/0"
+    ],
+    "added_record_ids": [],
+    "updated_record_ids": [
+      "dawn-ranch-exclusive-wedding-weekend-package-sonoma",
+      "dawn-ranch-orchard-wedding-weekend-package-sonoma",
+      "dawn-ranch-weekday-wedding-package-sonoma",
+      "dawn-ranch-winter-wedding-package-sonoma",
+      "dawn-ranch-micro-wedding-package-sonoma",
+      "dawn-ranch-meadow-sonoma",
+      "dawn-ranch-orchard-sonoma",
+      "dawn-ranch-center-orchard-sonoma",
+      "dawn-ranch-lower-orchard-sonoma",
+      "dawn-ranch-crabapple-orchard-sonoma",
+      "dawn-ranch-kitchen-garden-sonoma",
+      "dawn-ranch-boathouse-lawn-sonoma",
+      "dawn-ranch-boathouse-deck-sonoma",
+      "dawn-ranch-band-shell-sonoma",
+      "dawn-ranch-sycamore-green-with-band-shell-sonoma",
+      "dawn-ranch-patio-sonoma",
+      "bodega-bay-grange-777-main-hall-sonoma",
+      "bodega-bay-grange-777-kitchen-adjacent-dining-room-sonoma",
+      "bodega-bay-grange-777-entire-complex-configuration-sonoma",
+      "viansa-sonoma-wedding-offering-sonoma",
+      "fairmont-sonoma-mission-inn-spa-creekside-lawn-sonoma",
+      "fairmont-sonoma-mission-inn-spa-breezeway-lawn-sonoma",
+      "fairmont-sonoma-mission-inn-spa-sonoma-valley-patio-sonoma",
+      "fairmont-sonoma-mission-inn-spa-sonoma-valley-room-sonoma",
+      "fairmont-sonoma-mission-inn-spa-kenwood-ballroom-sonoma",
+      "fairmont-sonoma-mission-inn-spa-pavilion-sonoma",
+      "sonoma-golf-club-fairmont-wedding-offering-oak-tree-lawn-sonoma",
+      "sonoma-golf-club-fairmont-wedding-offering-vintage-hall-patio-sonoma",
+      "montage-healdsburg-grand-ballroom-sonoma",
+      "montage-healdsburg-grand-west-sonoma",
+      "montage-healdsburg-grand-east-sonoma",
+      "montage-healdsburg-grand-promenade-sonoma",
+      "montage-healdsburg-gallery-ballroom-sonoma",
+      "montage-healdsburg-gallery-i-sonoma",
+      "montage-healdsburg-gallery-ii-sonoma",
+      "montage-healdsburg-gallery-iii-sonoma",
+      "montage-healdsburg-guest-house-indoor-sonoma",
+      "montage-healdsburg-grand-lawn-sonoma",
+      "montage-healdsburg-guest-house-outdoor-sonoma",
+      "montage-healdsburg-the-grove-sonoma",
+      "montage-healdsburg-the-courtyard-sonoma",
+      "montage-healdsburg-vista-lawn-sonoma",
+      "montage-healdsburg-oak-lawn-sonoma",
+      "montage-healdsburg-oak-terrace-sonoma",
+      "montage-healdsburg-vineyard-lawn-sonoma",
+      "montage-healdsburg-madrone-room-sonoma",
+      "montage-healdsburg-oak-room-sonoma",
+      "montage-healdsburg-oak-cathedral-amphitheater-legacy-ceremony-offering-sonoma"
+    ],
+    "duplicates_merged": [
+      "48room/package records referenceonlysixmatchingparcels; cannot sumtheir assessment/recordedprices"
+    ],
+    "excluded": [
+      "Fullresort/title assumption fromsingle matchingparcel",
+      "Zero recordedprice asfree acquisition",
+      "Component sumwithoutverifiedfielddefinitions",
+      "Firstwedding/operatorstart fromcountyprimary/effectiveyears"
+    ],
+    "remaining_gaps": [
+      "Fullparcelassemblages/deeds/owner/lease andscopeallocation",
+      "Assessorfielddefinition/component reconciliation",
+      "Currentproperty/businessvalues andauditedearnings",
+      "Allothercountyparcel/history andvenueinventory gaps"
+    ],
+    "fact_check_findings": [
+      "Six additional exact-situs County of Sonoma parcel matches added to48 existing shared room/package records across sixproperties. No new venuecount or current market/businessvalue derived.",
+      "Montage parcel091-310-001 recorded253.1035m with multiparcel flag1 differs from published265m hotelacquisition; scope/allocation unresolved, both retained. Countybuildingyearnull notinferred fromhotelopening.",
+      "Viansa128-491-059 raw2026totalfield11.350739m/recorded2005price30m;Fairmont056-404-003 rawtotal84.630029m/recorded2013price80.224m multiparcel. Single matchingparcel notfullcampus/title/appraisal.",
+      "DawnRanch071-180-002 raw2026total25.572992m/recorded2022price20.23m andcountyprimary1923; existing historic/site/operatorclaims retained, no roomconstruction/weddingopening inference.",
+      "SonomaGolfClub133-130-007 rawtotal14.004255m; salepricefield0 meanspriceUnknown, notfree acquisition. BodegaBayGrange100-080-057 rawtotal48047; nullsalesUnknown, notzero. Taxexemption/assessment does not establish marketworth.",
+      "Raw Value601TotalLI does not equal justland+structure in several rows. Additional component fields retained, definition/reconciliation pending; no invented reconstructedtotal. Personal-property assessment is not businessenterprisevalue.",
+      "Exact source-published situs and countyparcel match is general reference, notfullcampusscope, surveyedboundary, currentownership ortransferableweddingpermission. Prior answers/status/source dates retained alongsidenewcounty evidence."
+    ]
   }
 ]
