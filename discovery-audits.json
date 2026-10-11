@@ -1048,5 +1048,92 @@
       "UC Garden combined package header5–11PM/6hours contradicts detailed guests11PM/cleanupmidnight timeline; conflict preserved, not asserted midnight wedding permission.",
       "SCU ceremony affiliation/Catholic restrictions and400ceremony seats do not establish400guest reception or unrestricted outdoor ceremonies."
     ]
+  },
+  {
+    "pass": 19,
+    "question": "What fraternal lodges, religious/community halls and subdivided banquet rooms have we missed?",
+    "scope": "SF/SSF/Palo Alto Elks, Los Gatos/Sebastopol/SF Masonic, Sunnyvale temple and Livermore temple/Eagles/UUCiL/Islamic spaces",
+    "completed_utc": "2026-10-11T07:20:08.885056+00:00",
+    "source_urls": [
+      "https://www.elks.org/lodges/lodgefacilities.cfm?LodgeNumber=0003",
+      "https://www.elks.org/lodges/LodgeFacilities.cfm?LodgeNumber=2091",
+      "https://www.paloaltoeventcenter.com/spaces",
+      "https://www.paloaltoeventcenter.com/_files/ugd/ef0692_b8e572029a2a41d1824d29749b026a77.pdf",
+      "https://www.paloaltoeventcenter.com/menu",
+      "https://losgatosmasonic.org/",
+      "https://losgatosmasonic.org/about",
+      "https://mtmoriah292.org/hall-rental",
+      "https://www.sebastopolmasoniccenter.org/rooms",
+      "https://www.sebastopolmasoniccenter.org/reservations",
+      "https://www.sebastopolmasoniccenter.org/s/Short-term-Rental-Agreement.pdf",
+      "https://www.sebastopolmasoniccenter.org/s/Rental-brochure.pdf",
+      "https://www.sfmasonic.com/private-events",
+      "https://cdn.brandfolder.io/IW4GVCQ6/at/gkfgrcrq8p5grx9mtpqx97/The_Masonic_One-Sheet_.pdf",
+      "https://bayareahindutemple.org/hall-class-room-booking.php",
+      "https://livermoretemple.org/hints/facilities/eventhalls/event-halls.html",
+      "https://livermoretemple.org/cms/wp-content/uploads/2025/01/HCCCfacilityUsageApplication.pdf",
+      "https://livermoretemple.org/cms/overview/",
+      "https://livermoreeagles609.com/hall-rentals",
+      "https://uucil.org/about-us/contact-us/rental/",
+      "https://iclivermore.org/facility-rental/"
+    ],
+    "added_record_ids": [
+      "san-francisco-elks-lodge-3-event-rental-offering-san-francisco",
+      "south-san-francisco-elks-lodge-2091-main-hall-san-mateo",
+      "palo-alto-event-center-palo-alto-elks-grand-ballroom-santa-clara",
+      "palo-alto-event-center-palo-alto-elks-palo-alto-room-santa-clara",
+      "palo-alto-event-center-palo-alto-elks-palo-alto-room-side-a-santa-clara",
+      "palo-alto-event-center-palo-alto-elks-palo-alto-room-side-b-santa-clara",
+      "palo-alto-event-center-palo-alto-elks-cardinal-room-santa-clara",
+      "palo-alto-event-center-palo-alto-elks-conference-room-santa-clara",
+      "palo-alto-event-center-palo-alto-elks-bistro-add-on-santa-clara",
+      "palo-alto-event-center-palo-alto-elks-lawn-santa-clara",
+      "palo-alto-event-center-palo-alto-elks-patio-tiki-bar-santa-clara",
+      "los-gatos-masonic-center-mt-moriah-292-event-hall-santa-clara",
+      "sebastopol-masonic-center-multipurpose-room-sonoma",
+      "sebastopol-masonic-center-formal-lodge-room-sonoma",
+      "sebastopol-masonic-center-complete-facility-configuration-sonoma",
+      "the-masonic-live-nation-grand-lobby-san-francisco",
+      "the-masonic-live-nation-california-room-san-francisco",
+      "the-masonic-live-nation-exhibition-hall-san-francisco",
+      "the-masonic-live-nation-auditorium-san-francisco",
+      "bay-area-hindu-temple-community-hall-santa-clara",
+      "hccc-shiva-vishnu-temple-lakireddy-hall-alameda",
+      "hccc-shiva-vishnu-temple-akella-hall-alameda",
+      "hccc-shiva-vishnu-temple-badrinath-hall-alameda",
+      "hccc-shiva-vishnu-temple-kedarnath-hall-alameda",
+      "hccc-shiva-vishnu-temple-tirumala-hall-alameda",
+      "hccc-shiva-vishnu-temple-gangotri-hall-alameda",
+      "hccc-shiva-vishnu-temple-palani-hall-alameda",
+      "hccc-shiva-vishnu-temple-chamundi-hall-alameda",
+      "livermore-eagles-aerie-609-rental-hall-alameda",
+      "unitarian-universalist-church-in-livermore-sanctuary-alameda",
+      "unitarian-universalist-church-in-livermore-tot-green-room-alameda",
+      "unitarian-universalist-church-in-livermore-gazebo-alameda",
+      "islamic-center-of-livermore-main-prayer-hall-including-courtyard-alameda",
+      "islamic-center-of-livermore-women-s-room-youth-room-offering-alameda"
+    ],
+    "duplicates_merged": [
+      "Palo Alto Elks and dedicated Event Center are one property; subdivisions and add-ons overlap",
+      "Mt Moriah lodge and Los Gatos Masonic are one hall",
+      "Sebastopol whole facility overlaps two halls; Livermore church/temple rooms share parent sites"
+    ],
+    "excluded": [
+      "Bharatiya Temple b-temple.org is Chalfont Pennsylvania, not Bay Area",
+      "Unverified HTCS/geographic homonyms held",
+      "Unnamed classrooms, temple dressing rooms, ancillary kitchens and unverified Moose inventory not separately expanded",
+      "Ascension/Grace/Christ the Light held for separate indexed-versus-direct source review; no fabricated download success"
+    ],
+    "remaining_gaps": [
+      "Other local lodges, faith/cultural halls, current contracts, quote dates and wedding permission",
+      "Dinner-plus-dance layouts, full costs, late hours, permits and commercial operating rights",
+      "All nine-county municipal/private coverage remains incomplete"
+    ],
+    "fact_check_findings": [
+      "Palo Alto linked packet: Ballroom300 banquet versus350 cocktail/355theater; Cardinal49 vs web50; dinner menu49–61 food-only, not all-in; AV20%charge does not establish food/venue service charge.",
+      "Sebastopol web prices and Sunday2:30PM contradict linked brochure prices and Sunday3PM. Contract9/13/2024 music10PM/event11PM/cleaners afterward; cleanup final exit Unknown.",
+      "HCCC form2025 upload containsJan2022fees and2016rules; current price Unknown. Historical7PM/8PM cutoff conflict preserved. Lecture capacities are not banquet.",
+      "Sunnyvale at least150 is not maximum. Islamic hall300 plus courtyard75 not375 dinner capacity;200/400 fees have unknown time basis. Lodge charter, incorporation, and building inauguration do not establish wedding operating duration."
+    ]
   }
 ]

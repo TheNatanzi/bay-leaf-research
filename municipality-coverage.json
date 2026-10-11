@@ -64,7 +64,14 @@
     "municipality": "Livermore",
     "municipal_rental_status": "Not yet audited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
+    "source_urls": [
+      "https://livermoretemple.org/hints/facilities/eventhalls/event-halls.html",
+      "https://livermoretemple.org/cms/wp-content/uploads/2025/01/HCCCfacilityUsageApplication.pdf",
+      "https://livermoretemple.org/cms/overview/",
+      "https://livermoreeagles609.com/hall-rentals",
+      "https://uucil.org/about-us/contact-us/rental/",
+      "https://iclivermore.org/facility-rental/"
+    ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
   {
@@ -433,7 +440,10 @@
       "https://sfrecpark.org/658/Indoor-Facility-Rentals",
       "https://sfrecpark.org/738/Wedding-Site-Directory",
       "https://ces.sfsu.edu/conference-centers",
-      "https://ces.sfsu.edu/rates_booking_inquiries"
+      "https://ces.sfsu.edu/rates_booking_inquiries",
+      "https://www.elks.org/lodges/lodgefacilities.cfm?LodgeNumber=0003",
+      "https://www.sfmasonic.com/private-events",
+      "https://cdn.brandfolder.io/IW4GVCQ6/at/gkfgrcrq8p5grx9mtpqx97/The_Masonic_One-Sheet_.pdf"
     ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
@@ -586,7 +596,9 @@
     "municipality": "South San Francisco",
     "municipal_rental_status": "Not yet audited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
+    "source_urls": [
+      "https://www.elks.org/lodges/LodgeFacilities.cfm?LodgeNumber=2091"
+    ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
   {
@@ -642,7 +654,11 @@
     "municipality": "Los Gatos",
     "municipal_rental_status": "Not yet audited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
+    "source_urls": [
+      "https://losgatosmasonic.org/",
+      "https://losgatosmasonic.org/about",
+      "https://mtmoriah292.org/hall-rental"
+    ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
   {
@@ -685,7 +701,11 @@
     "municipality": "Palo Alto",
     "municipal_rental_status": "Not yet audited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
+    "source_urls": [
+      "https://www.paloaltoeventcenter.com/spaces",
+      "https://www.paloaltoeventcenter.com/_files/ugd/ef0692_b8e572029a2a41d1824d29749b026a77.pdf",
+      "https://www.paloaltoeventcenter.com/menu"
+    ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
   {
@@ -723,7 +743,9 @@
     "municipality": "Sunnyvale",
     "municipal_rental_status": "Not yet audited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
+    "source_urls": [
+      "https://bayareahindutemple.org/hall-class-room-booking.php"
+    ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
   {
@@ -845,7 +867,12 @@
     "municipality": "Sebastopol",
     "municipal_rental_status": "Not yet audited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
+    "source_urls": [
+      "https://www.sebastopolmasoniccenter.org/rooms",
+      "https://www.sebastopolmasoniccenter.org/reservations",
+      "https://www.sebastopolmasoniccenter.org/s/Short-term-Rental-Agreement.pdf",
+      "https://www.sebastopolmasoniccenter.org/s/Rental-brochure.pdf"
+    ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
   {
