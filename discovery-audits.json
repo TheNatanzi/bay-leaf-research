@@ -1193,5 +1193,66 @@
       "Sunnyvale250 generic banquet-room guests not confirmed dinner-plus-dance; advertised fees lack duration/security.",
       "Indexed Ascension seated500/max800 separate; maximum occupancy not automatically standing. Cathedral religious eligibility applies to ceremony; adjacent halls need their own terms."
     ]
+  },
+  {
+    "pass": 21,
+    "question": "What retreat/glamping estates and package-specific requirements have we missed, and do advertised costs omit mandatory lodging or guest surcharges?",
+    "scope": "Dawn Ranch16spaces/packages; Venture3packages; GilroyGlamping; existingWildwood operator detail/history update",
+    "completed_utc": "2026-10-11T07:27:19.944290+00:00",
+    "source_urls": [
+      "https://dawnranch.com/wp-content/uploads/2025/10/Official-2026-Wedding-Packages-Dawn-Ranch.pdf",
+      "https://www.ventureretreat.org/s/Wedding-Packages-2026-for-Web.pdf",
+      "https://www.ventureretreat.org/plan-your-celebration",
+      "https://www.ventureretreat.org/history",
+      "https://www.visithalfmoonbay.org/places/venture-retreat-center/",
+      "https://gilroyglamping.com/weddings",
+      "https://www.wildwoodacres.com/",
+      "https://www.wildwoodacres.com/weddings.html",
+      "https://www.wildwoodacres.com/nearby-hotels.html"
+    ],
+    "added_record_ids": [
+      "dawn-ranch-exclusive-wedding-weekend-package-sonoma",
+      "dawn-ranch-orchard-wedding-weekend-package-sonoma",
+      "dawn-ranch-weekday-wedding-package-sonoma",
+      "dawn-ranch-winter-wedding-package-sonoma",
+      "dawn-ranch-micro-wedding-package-sonoma",
+      "dawn-ranch-meadow-sonoma",
+      "dawn-ranch-orchard-sonoma",
+      "dawn-ranch-center-orchard-sonoma",
+      "dawn-ranch-lower-orchard-sonoma",
+      "dawn-ranch-crabapple-orchard-sonoma",
+      "dawn-ranch-kitchen-garden-sonoma",
+      "dawn-ranch-boathouse-lawn-sonoma",
+      "dawn-ranch-boathouse-deck-sonoma",
+      "dawn-ranch-band-shell-sonoma",
+      "dawn-ranch-sycamore-green-with-band-shell-sonoma",
+      "dawn-ranch-patio-sonoma",
+      "venture-retreat-center-essential-package-san-mateo",
+      "venture-retreat-center-signature-package-san-mateo",
+      "venture-retreat-center-bells-whistles-package-san-mateo",
+      "gilroyglamping-private-wedding-estate-offering-santa-clara"
+    ],
+    "duplicates_merged": [
+      "Dawn16records share one property; outdoor subsets/packages overlap",
+      "Venture3packages share one campus; selectedaccommodation spaces not invented as separateproperties",
+      "ExistingWildwood updated, no duplicateproperty"
+    ],
+    "excluded": [
+      "Gilroy nightly40/person not weddingfee;20sleeping/50vehicles noteventcapacity",
+      "Dawn1500genericMeadow count not300banquet or350package limit; CenterOrchard conflictedmax/seats held",
+      "Venture65baseguest inclusion notmaximum; no basefee÷300 derived",
+      "McCloud/Mendocino/Humboldt/outsideBayCounty discovery leads excluded from ninecounty inventory"
+    ],
+    "remaining_gaps": [
+      "All otherretreats/camps/glamping/estates; licensedlate-nightmusic andcurrentquotes",
+      "Dawnlodging/lateF&B/capacityconflicts;Venturemaxguest/vendors/time;Gilroyaddress/parcel",
+      "Construction/operatingdates,property/businessvalues,reviewratings andmunicipal/privatecoverage incomplete"
+    ],
+    "fact_check_findings": [
+      "Twoactual2026PDFs downloaded, pricing/capacitypages rendered andvisuallychecked. Dawn200weekday knownsubtotal89,840–91,840 excludesmanymandatoryunknowns, notall-in.",
+      "Dawnweekday12rooms vs15summary;exclusive550vs570components;CenterOrchard220maxvs250banquet retained. Lateadd-onmidnightconditional66room buyout, notoutdoormidnight.",
+      "Venture65guestbasefee extras28/35/60 bypackage,deposit/taxextra; arrival/departure notmusicdeadline.",
+      "Wildwoodoutdoor350seated/400generic vsindoor150/200standing;1954siteclaim notverifiedspecificbuilding orweddingopening. Hotel10minuteclaimfromdowntownnotvenue."
+    ]
   }
 ]
