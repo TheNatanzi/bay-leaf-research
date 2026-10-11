@@ -4337,5 +4337,67 @@
       "Sharon Park wedding fee165/275 per event excludes preparation/equipment; not all-in. Bedwell nonexclusive daytime specialevent lead has no amplifiedsound/alcohol and is not a private venue/business lease.",
       "Direct MenloPDF403 and Foster obsolete cost-recovery PDF404 logged. Original web-reader policy/currentfee text archived as web-reader responses, NOT downloaded PDF files; no verified municipal profitability analysis from inaccessible appendix."
     ]
+  },
+  {
+    "pass": 59,
+    "question": "What Solano city rooms, picnic rentals and historic museum wedding packages were missed, and do linked current contracts contradict marketing or alternate packets?",
+    "scope": "Dixon/Benicia primary-source room/package/rule expansion; partialSolano coverage",
+    "completed_utc": "2026-10-11T13:57:56.012638+00:00",
+    "source_urls": [
+      "https://www.cityofdixonca.gov/facilityreservations",
+      "https://www.cityofdixonca.gov/media/Recreation/smuc-rental-pricing-sheet.pdf",
+      "https://www.cityofdixonca.gov/media/Recreation/SMUC%20Rent%20Cover%20and%20Pricing.pdf",
+      "https://www.cityofdixonca.gov/media/Recreation/25-26%20Facility%20Rental%20and%20Waiver.pdf",
+      "https://www.ci.benicia.ca.us/facilities",
+      "https://mohbenicia.org/venue-rental/",
+      "https://mohbenicia.org/wp-content/uploads/2026/04/Facility-Rental-Agreement-STANDARD-rev-2026.03.17.pdf",
+      "https://mohbenicia.org/wp-content/uploads/2026/04/2026.04-Rental-Program-Packet.pdf"
+    ],
+    "added_record_ids": [
+      "dixon-senior-multi-use-center-assembly-hall-solano",
+      "dixon-senior-multi-use-center-arts-and-craft-room-solano",
+      "dixon-hall-park-bbq-i-by-pool-solano",
+      "dixon-hall-park-bbq-ii-by-skate-park-solano",
+      "dixon-hall-park-amphitheater-no-gazebo-area-solano",
+      "dixon-conejo-park-bbq-solano",
+      "dixon-patwin-park-bbq-solano",
+      "dixon-veterans-park-bbq-solano",
+      "dixon-bowen-park-bbq-solano",
+      "dixon-northwest-park-bbq-solano",
+      "benicia-senior-center-large-small-rooms-rental-solano",
+      "benicia-community-center-multi-purpose-room-solano",
+      "benicia-community-center-small-classroom-meeting-room-inventory-solano",
+      "museum-of-history-benicia-stone-hall-solano",
+      "museum-of-history-benicia-spenger-memorial-garden-solano",
+      "museum-of-history-benicia-signature-package-solano",
+      "museum-of-history-benicia-heritage-package-solano",
+      "museum-of-history-benicia-legacy-package-solano"
+    ],
+    "updated_record_ids": [
+      "dixon-senior-multi-use-center-solano",
+      "benicia-clock-tower-solano"
+    ],
+    "duplicates_merged": [
+      "Sharedmuseumspace/3packages andBeniciarooms nooccupancysums; existingSMUC/ClockTowerparents retained"
+    ],
+    "excluded": [
+      "PardiPlaza publiconly/noprivateevents",
+      "Sportsfields/sport-onlyCityGym not establishedweddingrental",
+      "Prep kitchens/galleryexperience ancillary not independentvenues",
+      "Fairfield403 source notoriginalHTMLdownload"
+    ],
+    "remaining_gaps": [
+      "Fairfield currentcontracts/rooms/approvedbanquetlayouts",
+      "Museumactualmusic/barlegalauthority",
+      "Dixoncurrenteffectivefees/approvedroomlayouts",
+      "Allninecounties stillincomplete; reviews/values/openinghistoryUnknown"
+    ],
+    "fact_check_findings": [
+      "18 records:twoDixonSMUCrooms,eightpicnic/amphitheaters,threeBeniciacityroominventories,fivemuseumspaces/packages. Configurations/packages share sites; not18 independent available venues. Twoexistingparents updated.",
+      "ActualdownloadfivePDFs including scannedcurrentlylinkedDixonfees visuallyreviewed:114/56/29,2minsurance; alternatepacket111/54/28,1m differs. July1,2025parkfees FY25–26 historical, notcurrentquote. Parknoalcohol/norefund notSMUCpolicy.",
+      "MuseumMarch17,2026contract cleaningincluded3packages versuswebFAQ550allrentals retained conflict; ownvendors approval+insurance. StoneHall150formal/300standing, brochure120dinner+DJlayout. Legacyuntil2AMbrochure notexactmusic/barlegaldeadline; independentnoisepermitUnknown.",
+      "Museum1850s approximatebuildings notexactyear/firstwedding. Eventagreementnonsublettable; nooperatinglease. Property/APN/businessvalueUnknown. Publicrestroomaccessduringmuseumhours breaks assumption of fullprivacy.",
+      "BeniciaClockTower536seated/601standing/currentaddress189vs1189conflict. Citygym sports-onlyheld; PardiPlaza expressly publiceventsONLY,noprivate/ticketed excluded. Fairfielddirect403logged, nodownloadclaimed; governmentsearchreadernewleadsheldfornextpass."
+    ]
   }
 ]
