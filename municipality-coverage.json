@@ -419,9 +419,13 @@
     "municipal_rental_status": "Partial source review; specific permissions/room coverage incomplete",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
-      "https://www.calistogaca.gov/Government/Departments/Parks-and-Recreation/Park-and-Facility-Rentals/Community-Center"
+      "https://www.calistogaca.gov/Government/Departments/Parks-and-Recreation/Park-and-Facility-Rentals/Community-Center",
+      "https://www.napavalleyexpo.com/expo-facilities",
+      "https://www.napavalley.edu/about/administrative-services/facilities-and-risk-management/facilities/facilities-reservations.html",
+      "https://www.calistogaca.gov/Fairgrounds/Rent-Fairgrounds-Facilities",
+      "https://www.cityofsthelena.gov/275/Parks-Facilities-Locations-Rental-Inform"
     ],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "remaining": "Partialpublic/campus/fairgroundconfigurationsreview; privatevenues/quotes/permit/layout/history/value auditincomplete."
   },
   {
     "county": "Napa",
@@ -432,9 +436,13 @@
       "https://www.cityofnapa.org/376/Parks-Facilities-Reservations",
       "https://www.dirosaart.org/weddings-and-private-events/private-events-rentals/",
       "https://www.dirosaart.org/weddings-and-private-events/weddings-elopements/",
-      "https://www.dirosaart.org/visit/"
+      "https://www.dirosaart.org/visit/",
+      "https://www.napavalleyexpo.com/expo-facilities",
+      "https://www.napavalley.edu/about/administrative-services/facilities-and-risk-management/facilities/facilities-reservations.html",
+      "https://www.calistogaca.gov/Fairgrounds/Rent-Fairgrounds-Facilities",
+      "https://www.cityofsthelena.gov/275/Parks-Facilities-Locations-Rental-Inform"
     ],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "remaining": "Partialpublic/campus/fairgroundconfigurationsreview; privatevenues/quotes/permit/layout/history/value auditincomplete."
   },
   {
     "county": "Napa",
@@ -445,9 +453,13 @@
       "https://www.cityofsthelena.gov/Facilities/Facility/Details/Carnegie-Building-1",
       "https://napavalleymuseum.org/pages/rent-the-museum",
       "https://cdn.shopify.com/s/files/1/0660/4462/5046/files/Rent_the_Museums_Both_11_24_2025.pdf?v=1764048461",
-      "https://napavalleymuseum.org/pages/plan-your-visit-to-napa-valley-museum-of-art-and-culture"
+      "https://napavalleymuseum.org/pages/plan-your-visit-to-napa-valley-museum-of-art-and-culture",
+      "https://www.napavalleyexpo.com/expo-facilities",
+      "https://www.napavalley.edu/about/administrative-services/facilities-and-risk-management/facilities/facilities-reservations.html",
+      "https://www.calistogaca.gov/Fairgrounds/Rent-Fairgrounds-Facilities",
+      "https://www.cityofsthelena.gov/275/Parks-Facilities-Locations-Rental-Inform"
     ],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "remaining": "Partialpublic/campus/fairgroundconfigurationsreview; privatevenues/quotes/permit/layout/history/value auditincomplete."
   },
   {
     "county": "Napa",
