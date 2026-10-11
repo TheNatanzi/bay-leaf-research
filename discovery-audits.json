@@ -282,5 +282,363 @@
     "fact_check_findings": [
       "Wildhaven wedding page corrects earlier tentative glamping classification and explicitly allows outside catering with approval. Larger outdoor count versus 50-seat tent creates a rain-backup gap."
     ]
+  },
+  {
+    "question": "What other possible venues have we missed in Marin tourism listings cross-checked against23 operator URLs?",
+    "scope": "Marin tourism listings cross-checked against23 operator URLs",
+    "completed_utc": "2026-10-11T04:57:20.402384+00:00",
+    "source_urls": [
+      "https://www.visitmarin.org/meetings/weddings/wedding-venues/",
+      "https://marincampus.com/our-spaces/",
+      "https://www.acquahotel.com",
+      "https://lodgeatmarconi.com/gather/weddings/",
+      "https://www.slideranch.org/weddingvenues",
+      "http://www.friendsofchinacamp.org/visit-the-park/weddings_and_celebrations/",
+      "https://weddings.ranchonicasio.com/",
+      "https://www.innmarin.com",
+      "https://mounttam.org/clubhouse-rental",
+      "https://www1.marin.edu/facilities-rental",
+      "https://www.straushomeranch.com/weddings",
+      "https://www.peacockgapgolfclub.com/event-venue/weddings",
+      "http://www.angelislandferry.com/the-tamalpais",
+      "https://www.cityofsanrafael.org/falkirk-rentals/",
+      "https://www.hilton.com/en/hotels/sforfes-embassy-suites-san-rafael-marin-center/",
+      "https://www.mtnhomeinn.com/private-events/",
+      "https://www.nickscove.com/private-events",
+      "https://www.tomaleshaven.com/weddings-and-elopements",
+      "https://stemplecreek.com/pages/weddings",
+      "https://www.marriott.com/en-us/hotels/sfost-marin-hilltop-hotel/overview/",
+      "https://thekeyroom.com/private-events/",
+      "https://unityinmarin.org/rentals-weddings/",
+      "https://schoonerfredab.com/weddings-at-sea/",
+      "https://www.achotelsanrafael.com/"
+    ],
+    "added_record_ids": [
+      "university-of-redlands-marin-campus-san-francisco-theological-seminary-marin",
+      "acqua-hotel-marin",
+      "lodge-at-marconi-marin",
+      "slide-ranch-marin",
+      "china-camp-state-park-c-o-friends-of-china-camp-marin",
+      "rancho-nicasio-marin",
+      "inn-marin-and-suites-marin",
+      "muir-woods-park-community-association-clubhouse-marin",
+      "bill-adele-jonas-center-at-college-of-marin-indian-valley-campus-marin",
+      "straus-home-ranch-marin",
+      "the-clubhouse-at-peacock-gap-marin",
+      "angel-island-tiburon-ferry-tamalpais-charters-marin",
+      "falkirk-cultural-center-marin",
+      "embassy-suites-by-hilton-san-rafael-at-marin-center-marin",
+      "mountain-home-inn-marin",
+      "nick-s-cove-tomales-bay-marin",
+      "the-haven-at-tomales-marin",
+      "stemple-creek-ranch-marin",
+      "marin-hilltop-hotel-marin",
+      "the-key-room-marin",
+      "unity-in-marin-marin",
+      "schooner-freda-b-marin",
+      "ac-hotel-san-rafael-downtown-marin"
+    ],
+    "duplicates_or_grouping": [
+      "Tamalpais charter is separate from Angel Island land sites. Hotel aliases and parent campus retained."
+    ],
+    "exclusions_or_restrictions": [
+      "Eight operator pages blocked or unacceptable responses; tourism leads retained with lower evidence status. No tourism capacity badges copied wholesale."
+    ],
+    "remaining_gaps": [
+      "Other Marin venues beyond this curated tourism directory; room inventories and exact parcel ownership; blocked operator pages."
+    ],
+    "fact_check_findings": [
+      "Operator clubhouse construction1950 verified separately from wedding opening. Straus parking/shuttle and rain-capacity mismatch flagged. Slide Ranch explicitly permits outside catering/alcohol."
+    ],
+    "pass": 6
+  },
+  {
+    "question": "What other possible venues have we missed in Berkeley, Napa city and San Ramon municipal spaces?",
+    "scope": "Berkeley, Napa city and San Ramon municipal spaces",
+    "completed_utc": "2026-10-11T04:57:20.402384+00:00",
+    "source_urls": [
+      "https://berkeleyca.gov/city-services/event-permits-rentals/event-and-facility-rentals",
+      "https://www.cityofnapa.org/376/Parks-Facilities-Reservations",
+      "https://www.sanramon.ca.gov/our_city/departments_and_divisions/parks_community_services/parks_facilities/facilities"
+    ],
+    "added_record_ids": [
+      "berkeley-rose-garden-alameda",
+      "codornices-park-alameda",
+      "cragmont-rock-park-alameda",
+      "john-hinkel-park-alameda",
+      "live-oak-park-alameda",
+      "horseshoe-park-alameda",
+      "spinnaker-way-vista-c-sar-ch-vez-park-alameda",
+      "yacht-club-point-alameda",
+      "frances-albrier-community-center-alameda",
+      "james-kenney-community-center-alameda",
+      "live-oak-community-center-alameda",
+      "willard-clubhouse-alameda",
+      "south-berkeley-senior-center-alameda",
+      "north-berkeley-senior-center-alameda",
+      "marina-mall-alameda",
+      "south-cove-alameda",
+      "gateway-pier-alameda",
+      "south-c-sar-ch-vez-peninsula-alameda",
+      "shorebird-park-amphitheater-alameda",
+      "napa-senior-center-napa",
+      "pelusi-building-napa",
+      "las-flores-community-center-napa",
+      "john-f-kennedy-park-john-f-kennedy-park-picnic-areas-napa",
+      "fuller-park-fuller-park-picnic-areas-napa",
+      "o-brien-park-o-brien-park-picnic-areas-napa",
+      "dry-creek-park-dry-creek-park-picnic-areas-napa",
+      "playground-fantastico-park-playground-fantastico-park-picnic-areas-napa",
+      "century-oaks-park-century-oaks-park-picnic-areas-napa",
+      "oxbow-commons-napa",
+      "plaza-rental-napa",
+      "alcosta-senior-community-center-contra-costa",
+      "amador-rancho-center-contra-costa",
+      "dougherty-station-community-arts-center-contra-costa",
+      "dougherty-valley-performing-arts-center-contra-costa",
+      "forest-home-farms-historic-park-contra-costa",
+      "front-row-theater-contra-costa",
+      "san-ramon-community-center-at-central-park-contra-costa"
+    ],
+    "duplicates_or_grouping": [
+      "Berkeley park capacities differ by wedding versus amphitheater use; retained wedding listing, no second duplicate parent count. Napa picnic areas are grouped, not28 fabricated distinct venues."
+    ],
+    "exclusions_or_restrictions": [
+      "Berkeley Echo Lake and Tuolumne camps outside nine counties excluded. Sports-only fields/gyms and children-only Adventure Playground not counted as wedding spaces without approval evidence."
+    ],
+    "remaining_gaps": [
+      "Room-specific municipal terms; six Napa names versus five stated parks; every other municipality remains incomplete."
+    ],
+    "fact_check_findings": [
+      "Berkeley alcohol restriction and noise permit flagged; numeric maxima not converted to seated wedding counts. Napa sports8am–10pm hours not copied onto banquet rooms."
+    ],
+    "pass": 7
+  },
+  {
+    "question": "What other possible venues have we missed in Angel Island event locations and Golden Gate National Recreation Area restrictions?",
+    "scope": "Angel Island event locations and Golden Gate National Recreation Area restrictions",
+    "completed_utc": "2026-10-11T04:59:39.915588+00:00",
+    "source_urls": [
+      "https://www.parks.ca.gov/?page_id=31974",
+      "https://www.nps.gov/goga/planyourvisit/specialparkuses.htm"
+    ],
+    "added_record_ids": [
+      "angel-island-state-park-camp-reynolds-marin",
+      "angel-island-camp-reynolds-bakehouse-marin",
+      "angel-island-camp-reynolds-quartermasters-building-marin",
+      "angel-island-camp-reynolds-quarters-10-marin",
+      "angel-island-state-park-quarry-beach-marin",
+      "angel-island-state-park-east-garrison-chapel-marin",
+      "angel-island-state-park-east-garrison-picnic-area-marin",
+      "angel-island-state-park-group-picnic-sites-marin",
+      "angel-island-immigration-museum-immigration-museum-event-rooms-marin"
+    ],
+    "duplicates_or_grouping": [
+      "Camp Reynolds buildings are child spaces, not independent land properties. Ferries separately listed in Marin pass."
+    ],
+    "exclusions_or_restrictions": [
+      "Angel Island Immigration Museum generally excludes weddings. GGNRA Alcatraz special-event permits currently suspended during construction; not added as rentable."
+    ],
+    "remaining_gaps": [
+      "NPS ceremony map is interactive; individual sites not yet extracted. Point Reyes URL returned404, requiring a current official source."
+    ],
+    "fact_check_findings": [
+      "Island spaces require event-specific permission. GGNRA wedding permits required even for small ceremonies; ceremonies are not automatically receptions."
+    ],
+    "pass": 8
+  },
+  {
+    "question": "What other possible venues have we missed in Nine curated Bay Area private-venue lists plus126 downloaded detail pages?",
+    "scope": "Nine curated Bay Area private-venue lists plus126 downloaded detail pages",
+    "completed_utc": "2026-10-11T04:59:39.915588+00:00",
+    "source_urls": [
+      "https://www.herecomestheguide.com/wedding-ideas/best-bay-area-wedding-venues",
+      "https://www.herecomestheguide.com/wedding-ideas/affordable-bay-area-wedding-venues",
+      "https://www.herecomestheguide.com/wedding-ideas/best-east-bay-wedding-venues-near-you",
+      "https://www.herecomestheguide.com/wedding-ideas/best-san-jose-area-wedding-venues",
+      "https://www.herecomestheguide.com/wedding-ideas/bay-area-wedding-venues-with-lodging",
+      "https://www.herecomestheguide.com/wedding-ideas/unique-bay-area-wedding-venues",
+      "https://www.herecomestheguide.com/wedding-ideas/bay-area-all-inclusive-wedding-venues",
+      "https://www.herecomestheguide.com/wedding-ideas/small-bay-area-wedding-venues-northern-california",
+      "https://www.herecomestheguide.com/wedding-ideas/bay-area-outdoor-wedding-venues"
+    ],
+    "added_record_ids": [
+      "alpine-ranch-sonoma",
+      "fairview-chardonnay-napa",
+      "wild-oak-saddle-club-sonoma",
+      "landmarks-art-and-garden-center-marin",
+      "mill-valley-community-center-marin",
+      "stem-kitchen-garden-san-francisco",
+      "swedish-american-hall-san-francisco",
+      "marines-memorial-club-and-hotel-san-francisco",
+      "berkeley-city-club-alameda",
+      "the-clubhouse-at-boundary-oak-contra-costa",
+      "club-los-meganos-trilogy-at-the-vineyards-contra-costa",
+      "preservation-park-alameda",
+      "hiddenbrooke-hills-by-wedgewood-weddings-solano",
+      "the-callippe-preserve-golf-course-alameda",
+      "oshman-family-jcc-santa-clara",
+      "oceano-hotel-and-spa-san-mateo",
+      "domenico-winery-san-mateo",
+      "hyatt-regency-san-francisco-airport-san-mateo",
+      "doubletree-by-hilton-san-jose-santa-clara",
+      "silver-creek-valley-country-club-santa-clara",
+      "the-westin-st-francis-san-francisco-on-union-square-san-francisco",
+      "concannon-vineyard-alameda",
+      "the-faculty-club-alameda",
+      "wildwood-acres-contra-costa",
+      "the-pearl-san-francisco",
+      "fort-mason-center-san-francisco",
+      "hastings-house-garden-weddings-san-mateo",
+      "the-gardens-at-heather-farm-contra-costa",
+      "california-academy-of-sciences-san-francisco",
+      "the-san-francisco-mint-san-francisco",
+      "above-the-rim-at-chase-center-san-francisco",
+      "the-mountain-terrace-san-mateo",
+      "carneros-resort-and-spa-napa",
+      "cline-cellars-sonoma",
+      "stonetree-estate-by-wedgewood-weddings-marin",
+      "fortino-winery-and-event-center-santa-clara",
+      "chabot-space-science-center-alameda",
+      "solage-auberge-resorts-collection-napa",
+      "jacuzzi-family-vineyards-sonoma",
+      "cinnabar-hills-golf-club-santa-clara",
+      "the-general-s-daughter-sonoma",
+      "berkeley-country-club-contra-costa",
+      "uc-botanical-garden-alameda",
+      "the-terrace-room-at-the-lake-merritt-alameda",
+      "sequoyah-country-club-alameda",
+      "redwood-canyon-by-wedgewood-weddings-alameda",
+      "shadelands-ranch-museum-contra-costa",
+      "bella-rosa-at-garr-vineyard-and-winery-alameda",
+      "the-bridges-golf-club-contra-costa",
+      "macarthur-place-sonoma",
+      "santa-rosa-golf-and-country-club-sonoma",
+      "the-barn-at-harrow-cellars-sonoma",
+      "vinarosa-resort-spa-sonoma",
+      "the-marker-san-francisco-san-francisco",
+      "intercontinental-mark-hopkins-san-francisco",
+      "w-san-francisco-san-francisco",
+      "discovery-bay-country-club-contra-costa",
+      "the-club-at-ruby-hill-alameda",
+      "fairview-crystal-springs-san-mateo",
+      "willow-heights-mansion-santa-clara",
+      "claremont-resort-club-alameda",
+      "graduate-berkeley-alameda",
+      "cavallo-point-the-lodge-at-the-golden-gate-marin",
+      "pelican-inn-marin",
+      "geyserville-inn-sonoma",
+      "the-meritage-resort-and-spa-napa",
+      "juniper-cupertino-santa-clara",
+      "hayes-mansion-san-jose-curio-collection-by-hilton-santa-clara",
+      "the-purple-orchid-wine-country-resort-and-spa-alameda",
+      "the-lighthouse-at-glen-cove-marina-solano",
+      "suisun-valley-inn-wedding-retreat-solano",
+      "maple-lawn-estate-marin",
+      "banshee-winery-sonoma",
+      "silverado-resort-napa",
+      "eagle-vines-vineyards-and-golf-club-napa",
+      "olympia-s-valley-sonoma",
+      "brix-napa-valley-napa",
+      "annadel-estate-winery-sonoma",
+      "olive-hill-estate-contra-costa",
+      "jefferson-street-mansion-by-wedgewood-weddings-solano",
+      "japanese-tea-garden-san-francisco",
+      "sens-san-francisco",
+      "the-newhall-nest-san-francisco",
+      "the-ameswell-hotel-santa-clara",
+      "cordevalle-winery-santa-clara",
+      "haas-lilienthal-house-san-francisco",
+      "allied-arts-guild-san-mateo",
+      "rengstorff-house-santa-clara",
+      "china-cabin-marin",
+      "the-lodge-at-bodega-bay-sonoma",
+      "merryvale-vineyards-napa",
+      "brindare-napa-valley-napa",
+      "vine-hill-house-at-o-connell-vineyards-sonoma",
+      "emmalily-winery-santa-clara",
+      "montalvo-arts-center-santa-clara",
+      "blanco-urban-venue-santa-clara",
+      "hakone-estate-and-gardens-santa-clara",
+      "casa-bella-alameda",
+      "corinthian-grand-ballroom-santa-clara",
+      "nella-terra-cellars-alameda",
+      "the-rotunda-building-alameda",
+      "fairyland-weddings-alameda",
+      "de-young-museum-san-francisco",
+      "hotel-zeppelin-san-francisco",
+      "the-regency-center-san-francisco",
+      "long-branch-saloon-and-farms-san-mateo",
+      "winchester-mystery-house-santa-clara"
+    ],
+    "duplicates_or_grouping": [
+      "University of Redlands, Marin Campus matched existing University of Redlands Marin Campus / San Francisco Theological Seminary",
+      "Falkirk Mansion matched existing Falkirk Cultural Center",
+      "Log Cabin at the Presidio by Wedgewood Weddings matched existing Log Cabin",
+      "The Tech Interactive matched existing Lower Level",
+      "Deer Park Villa matched existing Deer Park Villa",
+      "The Haven at Tomales matched existing The Haven at Tomales",
+      "Foreign Cinema matched existing Foreign Cinema",
+      "San Francisco Botanical Garden matched existing Gardens of Golden Gate Park",
+      "Lodge at Marconi matched existing Lodge at Marconi"
+    ],
+    "exclusions_or_restrictions": [
+      "The Highlands Estate: county boundary/parcel check pending, excluded from nine-county counts",
+      "BARRA of Mendocino Winery and Event Center — Redwood Valley outside confirmed nine-county geography",
+      "Jardines de San Juan — San Juan Bautista outside confirmed nine-county geography",
+      "Hotel Winters — Winters outside confirmed nine-county geography",
+      "Newcastle Wedding Gardens — Newcastle outside confirmed nine-county geography",
+      "Red Barn Ranch — Hopland outside confirmed nine-county geography",
+      "The Palms — Chico outside confirmed nine-county geography",
+      "Non-venue navigation row rejected: https://www.herecomestheguide.com/wedding-venues/small-wedding/northern-california",
+      "Cowell Ranch Hay Barn — Santa Cruz outside confirmed nine-county geography",
+      "Regale Winery and Vineyards: county boundary/parcel check pending, excluded from nine-county counts"
+    ],
+    "remaining_gaps": [
+      "Curated lists are not exhaustive; full directory blocked. Operator confirmation, county parcel boundaries and room inventories remain pending."
+    ],
+    "fact_check_findings": [
+      "Every downloaded detail fetch succeeded. Names/cities/operator links retained without inventing prices, capacity layouts or rental permissions. Out-of-area examples and navigation rows explicitly rejected."
+    ],
+    "pass": 9
+  },
+  {
+    "question": "What other possible venues have we missed in Sonoma tourism-directory blind spots and Solano municipal/county rental checks?",
+    "scope": "Sonoma tourism-directory blind spots and Solano municipal/county rental checks",
+    "completed_utc": "2026-10-11T04:59:39.915588+00:00",
+    "source_urls": [
+      "https://www.sonomacounty.com/weddings/wedding-venues/",
+      "https://www.solanocounty.gov/government/resource-management/solano-county-parks/lake-solano-county-park-campground",
+      "https://www.cityofvacaville.gov/government/parks-and-recreation/facilities/facility-rentals/ulatis-community-center",
+      "https://www.fairfield.ca.gov/government/city-departments/parks-and-recreation/facility-park-picnic-rentals"
+    ],
+    "added_record_ids": [
+      "ac-by-marriott-santa-rosa-sonoma-wine-country-sonoma",
+      "alexander-valley-hall-sonoma",
+      "b-r-cohn-winery-olive-oil-company-sonoma",
+      "bacchus-landing-cellars-sonoma",
+      "balletto-vineyards-sonoma",
+      "barndiva-sonoma",
+      "bees-n-blooms-sonoma",
+      "beltane-ranch-bed-breakfast-sonoma",
+      "bodega-bay-secret-gardens-sonoma",
+      "boho-manor-sonoma",
+      "boon-hotel-spa-sonoma",
+      "lake-solano-county-park-lake-solano-county-park-group-event-areas-solano",
+      "ulatis-community-center-solano"
+    ],
+    "duplicates_or_grouping": [
+      "Annadel already imported through private directory; retained once. Lake Solano is a site group, not one record per8-person campsite."
+    ],
+    "exclusions_or_restrictions": [
+      "Vacaville and Fairfield pages blocked; excerpt-only Ulatis explicitly lower confidence. No invented Fairfield room inventory."
+    ],
+    "remaining_gaps": [
+      "Sonoma first12 tourism listings only; pagination pending. Solano other cities/fairgrounds/parks and all private operators remain incomplete."
+    ],
+    "fact_check_findings": [
+      "Lake Solano construction notice conflicts with later reservation text; gate closure not a music deadline. Tourism category is discovery evidence, not operator wedding permission."
+    ],
+    "pass": 10
   }
 ]

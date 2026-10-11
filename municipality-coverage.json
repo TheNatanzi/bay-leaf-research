@@ -18,7 +18,7 @@
   {
     "county": "Alameda",
     "municipality": "Berkeley",
-    "municipal_rental_status": "Partial source review; inventory pending",
+    "municipal_rental_status": "Partial inventory imported; room/site terms remain unknown",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
       "https://berkeleyca.gov/city-services/event-permits-rentals/event-and-facility-rentals"
@@ -252,9 +252,11 @@
   {
     "county": "Contra Costa",
     "municipality": "San Ramon",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial inventory imported; room/site terms remain unknown",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
+    "source_urls": [
+      "https://www.sanramon.ca.gov/our_city/departments_and_divisions/parks_community_services/parks_facilities/facilities"
+    ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
   {
@@ -372,9 +374,11 @@
   {
     "county": "Napa",
     "municipality": "Napa",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial inventory imported; room/site terms remain unknown",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
+    "source_urls": [
+      "https://www.cityofnapa.org/376/Parks-Facilities-Reservations"
+    ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
   {
