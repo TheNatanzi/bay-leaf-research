@@ -4458,5 +4458,57 @@
       "DirectFairfieldHTML,parkPDF andhandbook403 logged; cachedsearch-reader archived asreaderresponse, notdownloadedoriginal. Actual proposalPDF succeeded. No browser permission bypass/accountcreation/inquiries.",
       "Sportsgym explicitlyadvertises open-space eventrental; aquaticsoutsidearea historicalprospect noalcohol/glass, weddingUnknown. Kitchens,conference/health/artsrooms andpooladmissionheldratherthanassertingweddingcapacity; comprehensiveinventory remainsincomplete."
     ]
+  },
+  {
+    "pass": 61,
+    "question": "Which Vacaville room configurations and garden wedding spaces were missed, and how do dining capacities differ from standing and generic marketing totals?",
+    "scope": "Ulatis/ThreeOaks/McBride primary-capacity comparison and partial room expansion",
+    "completed_utc": "2026-10-11T14:08:58.816263+00:00",
+    "source_urls": [
+      "https://www.cityofvacaville.gov/government/parks-and-recreation/facilities/facility-rentals",
+      "https://www.cprs.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=652a8cf2-fc3b-4a1e-9531-2376a3e60601",
+      "https://www.cityofvacaville.gov/home/showpublisheddocument/14976/638575226254970000",
+      "https://www.cprs.org/discussion/do-you-know-of-a-municipal-facility-with-400-dining-in-a-single-room-2",
+      "https://fliphtml5.com/VisitVacaville/ilxg/Visit_Vacaville_Inspiration_Guide_2025/",
+      "https://www.cityofvacaville.gov/government/parks-and-recreation/facilities/facility-rentals/mcbride-center"
+    ],
+    "added_record_ids": [
+      "ulatis-community-center-full-facility-a-b-c-d-e-f-g-solano",
+      "ulatis-community-center-large-five-section-configuration-inventory-solano",
+      "ulatis-community-center-medium-configuration-inventory-solano",
+      "ulatis-gardens-wedding-garden-ceremony-rental-solano",
+      "three-oaks-community-center-assembly-hall-solano",
+      "three-oaks-community-center-multi-purpose-room-solano",
+      "mcbride-community-center-assembly-hall-a-solano",
+      "mcbride-community-center-assembly-hall-b-solano",
+      "mcbride-community-center-assembly-hall-a-b-solano",
+      "mcbride-community-center-assembly-hall-c-solano",
+      "mcbride-community-center-assembly-hall-a-b-c-solano",
+      "mcbride-community-center-multipurpose-room1-solano",
+      "mcbride-community-center-multipurpose-room2-solano",
+      "mcbride-community-center-multipurpose-rooms1-2-solano"
+    ],
+    "updated_record_ids": [],
+    "duplicates_merged": [
+      "ParentUlatis/McBride/ThreeOaks retained; overlapping configurations cannot be summed"
+    ],
+    "excluded": [
+      "Exercise rooms standing capacity notdinner",
+      "Conference/arts/meeting-only smallrooms held",
+      "VPATfixedtheaterseats not wedding banquet seating",
+      "Inaccessible policy/budget not locallydownloaded or used to infer profits"
+    ],
+    "remaining_gaps": [
+      "Current music/alcohol/cleanup and fullquotes",
+      "AdditionalUlatis smaller configs, room-level permissions",
+      "Ninecountycompleteness/parcelvalues/reviewverification/history"
+    ],
+    "fact_check_findings": [
+      "14 Vacaville room/configuration/garden records; existing parent records retained. Shared facilities, not14 independent venues. Exact named capacities separated from standing and generic brochure totals.",
+      "Ulatis full400dining versus1124standing; larger and medium groups336/272dining versus944/764standing. Brochure70–625generic is not625banquet. ThreeOaks250/100dining; McBridefull200dining, partialrooms50/100 and multipurpose30/60. Dinnerplusdance stillUnknown.",
+      "Actual citybrochure2pages downloaded throughpublicCPRSattachment and visuallyreviewed; brochure labelOctober2023 comesfromattachment, notinferredsourcepublication. Firstwedding/operator datesUnknown. June3,2024staffdiscussion datedhistorical, notcurrent pricing/auditedprofits.",
+      "Directcityfees/policy/budget/HTML403 logged; originalfeePDFweb-reader response archived, notlocalPDFdownload. Policyreader later403, no inferredcutoff/insurance. VPATfetch200but0text not usableoriginalcontent; no newtheatercapacityclaim.",
+      "FY2024/25rates historical, currentcompletequotesUnknown. Brochurekitchen and equipment availability notproof allincluded orvendorfreedom. No businesslease/APN/propertyvalue/profit invented. RemainingindividualUlatisrooms andotherVacaville inventory requirefollowup."
+    ]
   }
 ]
