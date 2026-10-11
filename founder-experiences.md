@@ -1,6 +1,6 @@
 # Founder and operator experiences
 
-Nine reading records; eight operator accounts/interviews and one coach show-note resource. Incomplete; promotional/success bias remains. Original dates are distinct from checked dates. Missing names/dates remain Unknown. Historical and foreign costs are not current Bay Area estimates.
+13 reading records;12 operator accounts/interviews/advice articles and one coach show-note resource. Incomplete; promotional/success bias remains. Original publication, update and checked dates are distinct. Historical/foreign costs are not current Bay Area estimates.
 
 ## Karri Jablonski
 
@@ -10,12 +10,17 @@ Nine reading records; eight operator accounts/interviews and one coach show-note
 - Original publication: 2024-12-14
 - Update date: Unknown
 - Date evidence: Displayed original post date
-- Geography: Michigan, US
-- Experience type: Firsthand owner blog
-- Read for: Property search changed after a new-build plan failed. Describes owner education, peer venue visits and ongoing maintenance/logistics.
-- Context: Venue promotional blog; finances not independently verified
-- Review status: Written source reviewed
 - Checked UTC: 2026-10-11T04:10:37.248115+00:00
+- Experience type: Firsthand owner blog
+- Jurisdiction: Michigan, US
+- Scale: Unknown
+- Reviewed material: Written source reviewed
+
+Property search changed after a new-build plan failed. Describes owner education, peer venue visits and ongoing maintenance/logistics.
+
+Lessons: See source summary; further extraction pending
+
+Commercial context: Venue promotional blog; finances not independently verified
 
 ## Croix-View Farm owner (personal byline unknown)
 
@@ -25,12 +30,17 @@ Nine reading records; eight operator accounts/interviews and one coach show-note
 - Original publication: 2024-10-31
 - Update date: Unknown
 - Date evidence: Displayed original post date
-- Geography: Wisconsin, US
-- Experience type: Firsthand owner blog
-- Read for: Describes buying the property in 2012, renovating a barn, building a website and selling the early vision. Reports 14 couples in the first year; self-reported, not audited.
-- Context: Venue promotional blog
-- Review status: Written source reviewed
 - Checked UTC: 2026-10-11T04:10:37.248115+00:00
+- Experience type: Firsthand owner blog
+- Jurisdiction: Wisconsin, US
+- Scale: Unknown
+- Reviewed material: Written source reviewed
+
+Describes buying the property in 2012, renovating a barn, building a website and selling the early vision. Reports 14 couples in the first year; self-reported, not audited.
+
+Lessons: See source summary; further extraction pending
+
+Commercial context: Venue promotional blog
 
 ## Andrea Vallencourt; Monique Jeffrey (interviewed by Amanda Knaebel)
 
@@ -40,12 +50,17 @@ Nine reading records; eight operator accounts/interviews and one coach show-note
 - Original publication: 2022-09-12
 - Update date: Unknown
 - Date evidence: Displayed original post date
-- Geography: Florida / Massachusetts, US
-- Experience type: Operator interview
-- Read for: Owner and hospitality-operations perspectives on converting a theatre, launching tours while work was underway and organizing venue operations.
-- Context: Software-provider customer interview; product promotion
-- Review status: Written source reviewed
 - Checked UTC: 2026-10-11T04:10:37.248115+00:00
+- Experience type: Operator interview
+- Jurisdiction: Florida / Massachusetts, US
+- Scale: Unknown
+- Reviewed material: Written source reviewed
+
+Owner and hospitality-operations perspectives on converting a theatre, launching tours while work was underway and organizing venue operations.
+
+Lessons: See source summary; further extraction pending
+
+Commercial context: Software-provider customer interview; product promotion
 
 ## Crooked Willow owners; Derek named, other author unknown
 
@@ -55,12 +70,17 @@ Nine reading records; eight operator accounts/interviews and one coach show-note
 - Original publication: Unknown
 - Update date: Unknown
 - Date evidence: Unknown — original date not visible in reviewed page
-- Geography: Minnesota, US
-- Experience type: Firsthand owner blog
-- Read for: Owners describe leaving corporate jobs, heavy ongoing labor, frequent weather-plan changes and a slow path to profit. Relative years in the story cannot establish an opening date without its publication date.
-- Context: Venue promotional blog
-- Review status: Written source reviewed
 - Checked UTC: 2026-10-11T04:10:37.248115+00:00
+- Experience type: Firsthand owner blog
+- Jurisdiction: Minnesota, US
+- Scale: Unknown
+- Reviewed material: Written source reviewed
+
+Owners describe leaving corporate jobs, heavy ongoing labor, frequent weather-plan changes and a slow path to profit. Relative years in the story cannot establish an opening date without its publication date.
+
+Lessons: See source summary; further extraction pending
+
+Commercial context: Venue promotional blog
 
 ## Stephanie (surname unknown)
 
@@ -70,12 +90,17 @@ Nine reading records; eight operator accounts/interviews and one coach show-note
 - Original publication: Unknown
 - Update date: Unknown
 - Date evidence: Unknown — undated About page
-- Geography: US; location confirmation pending
-- Experience type: Owner origin story
-- Read for: Photographer describes creating an intimate event space and customization flexibility. Short origin story rather than a financial case study.
-- Context: Venue promotional About page
-- Review status: Written source reviewed
 - Checked UTC: 2026-10-11T04:10:37.248115+00:00
+- Experience type: Owner origin story
+- Jurisdiction: US; location confirmation pending
+- Scale: Unknown
+- Reviewed material: Written source reviewed
+
+Photographer describes creating an intimate event space and customization flexibility. Short origin story rather than a financial case study.
+
+Lessons: See source summary; further extraction pending
+
+Commercial context: Venue promotional About page
 
 ## Dwaine and Terran Evans; interviewed by Didi Russell
 
@@ -85,12 +110,17 @@ Nine reading records; eight operator accounts/interviews and one coach show-note
 - Original publication: 2021-05-12
 - Update date: Unknown
 - Date evidence: Displayed original post date
-- Geography: Kentucky, US
-- Experience type: Firsthand operator interview
-- Read for: Owners describe a2019 build, March2020 construction completion and delayed first weddings in August2020. Recommend buffer time before booking promised opening dates, researching negative competitor reviews, and investing in cleaning equipment.
-- Context: Venue-owner education site promotes tours/coaching; opening dates and lessons self-reported, no audited finances
-- Review status: Written source reviewed
 - Checked UTC: 2026-10-11T05:02:48.563107+00:00
+- Experience type: Firsthand operator interview
+- Jurisdiction: Kentucky, US
+- Scale: Unknown
+- Reviewed material: Written source reviewed
+
+Owners describe a2019 build, March2020 construction completion and delayed first weddings in August2020. Recommend buffer time before booking promised opening dates, researching negative competitor reviews, and investing in cleaning equipment.
+
+Lessons: See source summary; further extraction pending
+
+Commercial context: Venue-owner education site promotes tours/coaching; opening dates and lessons self-reported, no audited finances
 
 ## Sorella Farms owners (individual names unknown); interviewed by Alina Thomas
 
@@ -100,12 +130,17 @@ Nine reading records; eight operator accounts/interviews and one coach show-note
 - Original publication: 2014-05-02
 - Update date: 2024-02-10
 - Date evidence: Original article:published_time and datePublished metadata; update separately dateModified
-- Geography: Virginia, US
-- Experience type: Firsthand operator interview
-- Read for: Family operators describe converting a multigenerational farm into an event business, complementary family skills and the importance of customer care. Historical venue descriptions and guest counts are not current operating evidence.
-- Context: Photographer marketing interview; original2014 account, not a current financial case study
-- Review status: Written source reviewed
 - Checked UTC: 2026-10-11T05:02:48.563107+00:00
+- Experience type: Firsthand operator interview
+- Jurisdiction: Virginia, US
+- Scale: Unknown
+- Reviewed material: Written source reviewed
+
+Family operators describe converting a multigenerational farm into an event business, complementary family skills and the importance of customer care. Historical venue descriptions and guest counts are not current operating evidence.
+
+Lessons: See source summary; further extraction pending
+
+Commercial context: Photographer marketing interview; original2014 account, not a current financial case study
 
 ## Blackbrook Barns operating team (individual byline unknown)
 
@@ -115,12 +150,17 @@ Nine reading records; eight operator accounts/interviews and one coach show-note
 - Original publication: 2026-08-03
 - Update date: Unknown
 - Date evidence: Displayed original post date
-- Geography: Lichfield / Staffordshire, England
-- Experience type: Firsthand operating-team blog
-- Read for: First-year reflection stresses trained managers, cleaners, bar/setup staff, reliable suppliers, flexible communication and robust wet-weather plans. Useful counterpoint to a hands-off venue assumption; staffing costs are not disclosed.
-- Context: Promotional team account; ownership and financial performance not independently verified
-- Review status: Written source reviewed
 - Checked UTC: 2026-10-11T05:02:48.563107+00:00
+- Experience type: Firsthand operating-team blog
+- Jurisdiction: Lichfield / Staffordshire, England
+- Scale: Unknown
+- Reviewed material: Written source reviewed
+
+First-year reflection stresses trained managers, cleaners, bar/setup staff, reliable suppliers, flexible communication and robust wet-weather plans. Useful counterpoint to a hands-off venue assumption; staffing costs are not disclosed.
+
+Lessons: See source summary; further extraction pending
+
+Commercial context: Promotional team account; ownership and financial performance not independently verified
 
 ## Lindsay Lucas; podcast cohost Kinsey Roberts
 
@@ -130,10 +170,94 @@ Nine reading records; eight operator accounts/interviews and one coach show-note
 - Original publication: 2025-07-14
 - Update date: Unknown
 - Date evidence: Displayed original episode date
-- Geography: US; specific jurisdiction unknown
-- Experience type: Coach / educator podcast — show notes only
-- Read for: Show notes identify market research, phased launch, real economics, location, operations and pre-opening marketing. Coaching resource, not a firsthand failure case. Audio/transcript has not been reviewed.
-- Context: Promotes consulting and paid resources; keep separate from verified owner case studies
-- Review status: Written page / metadata reviewed; audio not reviewed
 - Checked UTC: 2026-10-11T05:02:48.563107+00:00
+- Experience type: Coach / educator podcast — show notes only
+- Jurisdiction: US; specific jurisdiction unknown
+- Scale: Unknown
+- Reviewed material: Written page / metadata reviewed; audio not reviewed
 
+Show notes identify market research, phased launch, real economics, location, operations and pre-opening marketing. Coaching resource, not a firsthand failure case. Audio/transcript has not been reviewed.
+
+Lessons: See source summary; further extraction pending
+
+Commercial context: Promotes consulting and paid resources; keep separate from verified owner case studies
+
+## Kimberly Keys; interviewer Didi Russell
+
+[Wedding Venue Stories, White Fallow Estate](https://weddingvenueowners.com/wedding-venue-stories-white-fallow-estate/)
+
+- Venue: White Fallow Estate
+- Original publication: 2020-11-10
+- Update date: 2020-11-10
+- Date evidence: Visible original date and article metadata agree
+- Checked UTC: 2026-10-11T05:35:48.603274+00:00
+- Experience type: Firsthand operator interview
+- Jurisdiction: Buford, Georgia, US
+- Scale: Article describes a 20-acre property; operator reports over a dozen events in pandemic year 2020.
+- Reviewed material: Original written account/interview and publication metadata reviewed; financial claims not audited
+
+Keys describes involvement after an investment group approached her, legal/zoning/fire-safety costs, maintenance and marketing. She describes moving celebrations indoors around local time restrictions and staff overtime after midnight; this is historical Georgia practice, not Bay Area permission.
+
+Lessons: Budget entitlement/legal work and ongoing maintenance/marketing; distinguish indoor transition from lawful outdoor sound.
+
+Commercial context: Operator interview on a venue-owner education/marketing site; promotional profile, not audited earnings
+
+## Kuyhlia Hulsbosch; co-owner Vital Hulsbosch
+
+[The beginning...](https://www.highpoint-events.com/post/the-beginning)
+
+- Venue: Highpoint Events / orchard
+- Original publication: 2020-02-24
+- Update date: 2020-02-27
+- Date evidence: Visible date Feb24; UTC publication metadata Feb25 at04:05Z, preserved as timezone difference
+- Checked UTC: 2026-10-11T05:35:48.603274+00:00
+- Experience type: Firsthand operator blog
+- Jurisdiction: Decatur County, US; state not verified in this post
+- Scale: One orchard/event property; guest/event count Unknown.
+- Reviewed material: Original written account/interview and publication metadata reviewed; financial claims not audited
+
+Kuyhlia describes their own expensive/limited venue search, buying an orchard/event property, delayed closing, bank/architect meetings and completing the purchase in February 2019. She acknowledges uneven days and challenges rather than presenting effortless ownership.
+
+Lessons: Allow financing/architect/closing delays and operating workload; their motivation closely matches Bay Leaf, but local feasibility must be established independently.
+
+Commercial context: Venue-owned promotional blog with personal acquisition account; no audited cost/profit
+
+## Ian Ramirez
+
+[How to Get Started as a Wedding Venue](https://pros.weddingpro.com/blog/entrepreneurship/how-to-start-a-wedding-venue/)
+
+- Venue: Madera Estates
+- Original publication: 2026-02-09
+- Update date: 2026-07-06
+- Date evidence: Current live byline/date verified in browser; original/update metadata distinct. Older indexed version has different author/date.
+- Checked UTC: 2026-10-11T05:35:48.603274+00:00
+- Experience type: Operator-authored advice / marketing
+- Jurisdiction: US; specific jurisdiction not independently verified in this article
+- Scale: Single family venue; more than 50 pre-opening bookings reported, not audited.
+- Reviewed material: Original written account/interview and publication metadata reviewed; financial claims not audited
+
+Ramirez says his family began the venue in 2012 and sold more than 50 weddings before completion. He describes redesigning a too-small reception plan and separating sales from event coordination after overloaded coordinators lost sales opportunities. Booking/revenue claims are self-reported.
+
+Lessons: Check reception layout before building, budget dedicated sales/event roles and delivery risk before preselling; gross bar sales are not profit.
+
+Commercial context: WeddingPro commercial platform article promotes advertising; current operator-authored version downloaded and live-verified. Cached web result showed an older Tayler Cusick Hollman article at same URL.
+
+## Wenna Hicks; interviewer Becca Pountney
+
+[How data and market research creates venue success — podcast218](https://beccapountney.com/podcast-218/)
+
+- Venue: The Barn at Pengelly
+- Original publication: 2026-05-14
+- Update date: Unknown
+- Date evidence: Original article/episode publication metadata
+- Checked UTC: 2026-10-11T05:35:48.603274+00:00
+- Experience type: Firsthand operator interview + consultancy
+- Jurisdiction: Cornwall, England, UK
+- Scale: One farm venue;22 first-year/85 preceding-year weddings self-reported.
+- Reviewed material: Original written account/interview and publication metadata reviewed; financial claims not audited
+
+Hicks describes a working-family-farm conversion, onsite holiday accommodation, pre-opening bookings, a lean staffing model that needed strengthening and weather-driven guest concerns. She reports 22 first-year weddings and 85 in the preceding year; figures are self-reported, not earnings.
+
+Lessons: Validate local demand and layout, plan staffing for remote operation, communicate pricing clearly and budget weather/landscaping recovery.
+
+Commercial context: Co-owner also operates Elevate Venue Consulting; podcast host promotes education. Written transcript reviewed; audio not reviewed.
