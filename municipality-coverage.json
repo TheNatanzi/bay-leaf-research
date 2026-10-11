@@ -569,7 +569,15 @@
       "https://noblehousemenus.com/argo-wedding-package_ADA.pdf",
       "https://noblehousemenus.com/argo_WeddingFlipbook_ADA.pdf",
       "https://www.argonauthotel.com/llm-info/",
-      "https://www.nps.gov/safr/learn/management/foundation-document-appendixes.htm"
+      "https://www.nps.gov/safr/learn/management/foundation-document-appendixes.htm",
+      "https://www.fourseasons.com/sanfrancisco/weddings/venues/",
+      "https://www.fourseasons.com/sanfrancisco/weddings/planning/",
+      "https://www.fourseasons.com/sanfrancisco/getting-here/",
+      "https://www.fairmont-san-francisco.com/gather/venues/",
+      "https://www.fairmont.com/en/hotels/san-francisco/fairmont-san-francisco/weddings.html",
+      "https://www.fairmont.com/content/dam/brands/fai/hotels/america/us/san-francisco/a576/msa_d_0000688.pdf",
+      "https://www.hyatt.com/hyatt-regency/en-US/sford-hyatt-regency-san-francisco-downtown-soma/weddings",
+      "https://www.hyatt.com/hyatt-regency/en-US/sford-hyatt-regency-san-francisco-downtown-soma/reviews"
     ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
@@ -626,7 +634,16 @@
     "municipality": "East Palo Alto",
     "municipal_rental_status": "Not yet audited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
+    "source_urls": [
+      "https://www.fourseasons.com/siliconvalley/weddings/venues/",
+      "https://www.fourseasons.com/siliconvalley/weddings/planning/",
+      "https://www.fourseasons.com/siliconvalley/weddings/packages/timeless-package/",
+      "https://www.fourseasons.com/siliconvalley/weddings/packages/organza-reception-package/",
+      "https://www.fourseasons.com/siliconvalley/weddings/packages/luxurious-package/",
+      "https://www.fourseasons.com/siliconvalley/weddings/packages/essence-collection/",
+      "https://www.fourseasons.com/siliconvalley/weddings/packages/elegant-collection/",
+      "https://www.fourseasons.com/siliconvalley/getting-here/"
+    ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
   {
