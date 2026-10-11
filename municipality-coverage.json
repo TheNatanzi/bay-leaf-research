@@ -802,7 +802,10 @@
       "https://www.thirdrailbarsf.com/s/Third-Rail-Private-Event-Deck-2122.pdf",
       "https://www.thirdrailbarsf.com/",
       "https://www.hilton.com/en-gb/hotels/sfofhhh-hilton-san-francisco-union-square/events/social-events-and-galas/",
-      "https://www.hilton.com/en/hotels/sfofhhh-hilton-san-francisco-union-square/hotel-location/"
+      "https://www.hilton.com/en/hotels/sfofhhh-hilton-san-francisco-union-square/hotel-location/",
+      "https://www.hilton.com/en/hotels/sfosfhh-parc-55-san-francisco/events/",
+      "https://www.hilton.com/en-gb/hotels/sfosfhh-parc-55-san-francisco/events/meetings-events/",
+      "https://jobs.hilton.com/emea/en/job/HOT0CI6M/Security-Officer-Parc-55-San-Francisco-a-Hilton-Hotel"
     ],
     "remaining": "Partial government/private inventory; site-specific weddings/layouts, contracts, parcel/history/value and reviews incomplete"
   },
@@ -1011,7 +1014,9 @@
     "municipal_rental_status": "Not yet audited",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
-      "https://www.elks.org/lodges/LodgeFacilities.cfm?LodgeNumber=2091"
+      "https://www.elks.org/lodges/LodgeFacilities.cfm?LodgeNumber=2091",
+      "https://www.sonesta.com/sonesta-es-suites/ca/south-san-francisco/sonesta-es-suites-san-francisco-airport-oyster-point",
+      "https://www.sonesta.com/sonesta-select/ca/south-san-francisco/sonesta-select-san-francisco-airport-oyster-point-waterfront/services"
     ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },

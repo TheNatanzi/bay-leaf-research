@@ -4571,5 +4571,48 @@
       "Actual29-page Atlas 2025 hotel-sales report contains reported Residence Inn Berkeley175.8m foreclosure, SigniaSanJose80m foreclosure and HiltonSFUnionSquare265.5m historical transactions. Exact closing/deed/APN/asset allocation unverified; current property/business values remain Unknown.",
       "Sonesta ES South San Francisco sale identity unresolved; Healdsburg Inn wedding permission unverified. Held rather than assigning value to an ambiguous venue. Hilton direct HTML403 logged; primary search-reader is not a downloaded original."
     ]
+  },
+  {
+    "pass": 63,
+    "question": "What nearby hotel and restaurant event spaces were missed, and are similar hotel brands causing incorrect capacity or valuation assignments?",
+    "scope": "Parc55 restaurant/ballrooms and Sonesta OysterPoint possible event spaces",
+    "completed_utc": "2026-10-11T14:22:36.465040+00:00",
+    "source_urls": [
+      "https://www.hilton.com/en/hotels/sfosfhh-parc-55-san-francisco/events/",
+      "https://www.hilton.com/en-gb/hotels/sfosfhh-parc-55-san-francisco/events/meetings-events/",
+      "https://jobs.hilton.com/emea/en/job/HOT0CI6M/Security-Officer-Parc-55-San-Francisco-a-Hilton-Hotel",
+      "https://www.sonesta.com/sonesta-es-suites/ca/south-san-francisco/sonesta-es-suites-san-francisco-airport-oyster-point",
+      "https://www.sonesta.com/sonesta-select/ca/south-san-francisco/sonesta-select-san-francisco-airport-oyster-point-waterfront/services"
+    ],
+    "added_record_ids": [
+      "parc-55-san-francisco-cyril-magnin-ballroom-san-francisco",
+      "parc-55-san-francisco-embarcadero-san-francisco",
+      "parc-55-san-francisco-market-street-san-francisco",
+      "parc-55-san-francisco-cable-55-private-dining-san-francisco",
+      "sonesta-es-suites-san-francisco-airport-oyster-point-waterfront-oyster-point-room-san-mateo",
+      "sonesta-select-san-francisco-airport-oyster-point-waterfront-meeting-space-inventory-lead-san-mateo"
+    ],
+    "updated_record_ids": [],
+    "duplicates_merged": [
+      "Parc55 rooms and restaurant share one hotel; Sonesta brands at1300/1350 Veterans are distinct properties"
+    ],
+    "excluded": [
+      "Healdsburg Inn lodging/group marketing not verified event-space rental",
+      "Hotel check-in/out and shuttle schedule as music deadline",
+      "Undownloaded capacity table values"
+    ],
+    "remaining_gaps": [
+      "Exact Parc55 dinner/dance layouts and current quotes",
+      "Sonesta wedding permissions, vendors and deadlines",
+      "Exact historical transaction identity/title/assets",
+      "All nine-county private inventory remains incomplete"
+    ],
+    "fact_check_findings": [
+      "Six potential-space records across three shared hotel properties; individual wedding permission remainsUnknown.",
+      "Parc55 CyrilMagnin/Embarcadero/MarketStreet and Cable55 restaurant added from primary reader. DirectHTML403; roomtable retrieval unsuccessful, banquetcountsUnknown. Headline800 reception is not anyroom dinner capacity.",
+      "Sonesta ES OysterPointRoom30 banquet rounds versus25 cabaret/60theater/65generic. Wedding lodging blocks do not prove reception approval. Airport shuttle cutoff is not music cutoff.",
+      "Sonesta Select1300 Veterans differs from Sonesta ES1350 Veterans. Four-room inventory and810square-foot largestroom do not establish banquet capacity. Historical27.5m Sonesta ES reported sale not assigned while exact title/asset identity unresolved.",
+      "Healdsburg Inn primary marketing confirms lodging/groups, not a rentable wedding reception space; held for inquiry rather than counted as a confirmed event venue."
+    ]
   }
 ]
