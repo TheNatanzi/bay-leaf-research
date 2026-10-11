@@ -1422,5 +1422,79 @@
       "Allrawpicnicfeesundated/durationUnknown;no fee÷300perhead. Tables and5/10/15includedadmissions notmaxcapacity.",
       "Publicrentals notcommerciallease;eachspecialeventapproval,siteplan/30daywalkthrough/foodwaste/restroom arrangements requiredsubjecttoeventclassification."
     ]
+  },
+  {
+    "pass": 24,
+    "question": "What restaurant full buyouts and museum configurations have we missed, and which food minima, planner mandates, rain plans and contract conflicts change their suitability?",
+    "scope": "San Francisco Beach/Park Chalet, Mattina, Camino Alto, Waterbar/EPIC, STEM and Oakland Museum of California",
+    "completed_utc": "2026-10-11T07:57:30.494336+00:00",
+    "source_urls": [
+      "https://www.beachchalet.com/private-dining/",
+      "https://www.mattinasf.com/privatedining",
+      "https://www.caminoaltosf.com/private-events",
+      "https://www.waterbarsf.com/private-dining/",
+      "https://www.waterbarsf.com/faq/",
+      "https://images.getbento.com/accounts/57c286fa6cfbd8712bc882c30a596d49/media/NGrrneNRS6cKBI8NBZps_Waterbar%20Private%20Dining%20Guide.pdf",
+      "https://images.getbento.com/accounts/57c286fa6cfbd8712bc882c30a596d49/media/Pa0VHZsRT96AmVV9VkiW_Waterbar%20Event%20Menus%20-%20November%202026.pdf",
+      "https://www.waterbarsf.com/location/waterbarsf/",
+      "https://museumca.org/venue-rentals/garden/",
+      "https://museumca.org/faqs-contact-us/",
+      "https://museumca.org/venue-rentals/",
+      "https://museumca.org/venue-rentals/peace-terrace/",
+      "https://museumca.org/venue-rentals/cafe/",
+      "https://museumca.org/venue-rentals/james-moore-theater/",
+      "https://museumca.org/venue-rentals/lillie-education-center/",
+      "https://www.stemkitchensf.com/conference-room-meeting-spaces"
+    ],
+    "added_record_ids": [
+      "beach-park-chalet-beach-sunset-lounge-san-francisco",
+      "beach-park-chalet-beach-cove-private-room-san-francisco",
+      "beach-park-chalet-beach-ocean-vista-san-francisco",
+      "beach-park-chalet-beach-chalet-full-buyout-san-francisco",
+      "beach-park-chalet-park-greenhouse-san-francisco",
+      "beach-park-chalet-park-atrium-san-francisco",
+      "beach-park-chalet-park-outdoor-patio-san-francisco",
+      "beach-park-chalet-combined-beach-park-chalet-full-buyout-san-francisco",
+      "mattina-full-restaurant-buyout-san-francisco",
+      "camino-alto-green-house-san-francisco",
+      "camino-alto-full-restaurant-buyout-san-francisco",
+      "waterbar-bridge-tower-room-san-francisco",
+      "waterbar-looking-glass-san-francisco",
+      "waterbar-waterbar-full-buyout-san-francisco",
+      "waterbar-epic-combined-offering-combined-waterbar-epic-full-property-san-francisco",
+      "oakland-museum-of-california-garden-alameda",
+      "oakland-museum-of-california-peace-terrace-alameda",
+      "oakland-museum-of-california-town-fare-cafe-alameda",
+      "oakland-museum-of-california-james-moore-theater-alameda",
+      "oakland-museum-of-california-lillie-education-center-alameda"
+    ],
+    "updated_record_ids": [
+      "stem-kitchen-garden-san-francisco"
+    ],
+    "duplicates_merged": [
+      "Existing STEM record enriched rather than duplicated",
+      "Beach/Park room and buyout configurations share one complex",
+      "Waterbar/EPIC combined buyout overlaps individual restaurant; capacities not summed",
+      "OMCA five rooms share campus"
+    ],
+    "excluded": [
+      "Mattina normal 10–16 dining parties not separate venue",
+      "EPIC standalone room inventory held for current primary verification",
+      "Public restaurant closing hours not promoted to music cutoff",
+      "Future November 2026 menu not treated as current dated quote"
+    ],
+    "remaining_gaps": [
+      "All nine-county restaurant/museum inventories incomplete",
+      "Outside-vendor permissions, approved dance/rain layouts, complete quotes and current contracts",
+      "Parcel/title/concession, history, property/business value and actual review scores"
+    ],
+    "fact_check_findings": [
+      "Restaurant meal/standing counts remain separate; Beach/Park combined 700 is generic, Camino Alto 35/75 unspecified, STEM full buyout 300 generic versus 75 seated meal. Overlapping rooms/buyouts are not independent venues.",
+      "Waterbar linked guide and FAQ conflict on 6% versus 7% surcharge, 5 versus 7 working-day contract return, early cancellation deductions, and Looking Glass 24 versus 27 seated. Conflicts retained; no complete price inferred.",
+      "Waterbar November 2026 filename denotes a future menu period, not original publication date. Dinner sample $120/person food only, luncheon $75 separately, bread/service/surcharge/tax/bar/wedding fee extra. Actual PDFs downloaded and relevant pricing/cancellation pages visually checked.",
+      "OMCA Garden publishes 700 meal seats but 300 ceremony plus meal. Cafe 200 meal seats versus conditional <=250 rain backup needs layout clarification. Theater 250 is not banquet; Lillie has no seated dining. Professional planner required; Town Fare exclusive bar and cafe catering.",
+      "OMCA operator FAQ states City owns museum buildings; APN/land title, transfer/commercial operating rights and values remain Unknown. Operator outdoor sound cutoff 10PM is not independently verified law. No commercial Zestimate or invented profit.",
+      "Direct restaurant pages/PDFs archived successfully; OMCA pages readable through web tool but direct downloads HTTP 403. Failure recorded, not represented as archived success. History/valuation dates remain Unknown where insufficient evidence."
+    ]
   }
 ]
