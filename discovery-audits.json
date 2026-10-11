@@ -676,5 +676,42 @@
     "fact_check_findings": [
       "Clock Tower 1am rental access does not mean midnight music; cleanup requires earlier event end. Standing occupancy conflicts preserved. Unity 1975 refers to airfield decommissioning, not construction. Ceremony/reception and rain-backup capacities separated."
     ]
+  },
+  {
+    "pass": 12,
+    "question": "What other possible federal and public-concession spaces have we missed, and which historical options are no longer usable?",
+    "scope": "Point Reyes, John Muir NHS, Lake Sonoma and Ardenwood historical/current concession reconciliation",
+    "completed_utc": "2026-10-11T05:14:43.807267+00:00",
+    "source_urls": [
+      "https://home.nps.gov/pore/planyourvisit/permitsandreservations.htm",
+      "https://www.nps.gov/pore/planyourvisit/upload/permits_standard_event_conditions.pdf",
+      "https://home.nps.gov/pore/learn/management/lawsandpolicies_superintendents_compendium.htm",
+      "https://www.nps.gov/jomu/planyourvisit/permitsandreservations.htm",
+      "https://www.spn.usace.army.mil/Missions/Recreation/Lake-Sonoma/Picnicking/",
+      "https://www.spn.usace.army.mil/Portals/68/docs/Lake%20Sonoma/2015/Warm%20Springs%20Recreation%20Area%282%29.pdf",
+      "https://www.ebparks.org/sites/default/files/Ardenwood-Cafe-and-Event-ConcessionRFP.pdf",
+      "https://www.ebparks.org/sites/default/files/rfp-ardenwood-cafe-concession.pdf",
+      "https://ebparks.new.swagit.com/videos/372115"
+    ],
+    "added_record_ids": [
+      "ardenwood-historic-farm-former-wedding-event-concession-alameda",
+      "point-reyes-national-seashore-bear-valley-group-picnic-site-marin",
+      "john-muir-national-historic-site-outdoor-grounds-contra-costa",
+      "john-muir-national-historic-site-muir-house-ceremony-interior-contra-costa",
+      "lake-sonoma-warm-springs-group-picnic-shelters-sonoma",
+      "lake-sonoma-yorty-creek-recreation-area-sonoma"
+    ],
+    "duplicates_or_grouping": [
+      "Two John Muir spaces share one site; Lake Sonoma six shelters are one group pending individual capacity verification. Ardenwood former event concession retained as one historical record rather than three purported active venues."
+    ],
+    "exclusions_or_restrictions": [
+      "Point Reyes Lighthouse weddings explicitly prohibited; vacant ranch cores closed to public. Lake Mendocino outside nine-county scope. Ardenwood historical event concession discontinued; no active business opportunity claimed."
+    ],
+    "remaining_gaps": [
+      "Lake Sonoma direct sources blocked; individual picnic-site configuration/approval pending. More federal properties, ports and public concessions remain unreviewed. Government approval is event-specific, not an operating lease."
+    ],
+    "fact_check_findings": [
+      "Point Reyes any-size wedding permit; John Muir limited small-ceremony exception differs. Historical Ardenwood sales not profit; 2026 restrictions supersede historical event marketing. Lake Sonoma brochure explicitly dates April2013, not search-crawl date."
+    ]
   }
 ]
