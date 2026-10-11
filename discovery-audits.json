@@ -4614,5 +4614,53 @@
       "Sonesta Select1300 Veterans differs from Sonesta ES1350 Veterans. Four-room inventory and810square-foot largestroom do not establish banquet capacity. Historical27.5m Sonesta ES reported sale not assigned while exact title/asset identity unresolved.",
       "Healdsburg Inn primary marketing confirms lodging/groups, not a rentable wedding reception space; held for inquiry rather than counted as a confirmed event venue."
     ]
+  },
+  {
+    "pass": 64,
+    "question": "What original owner stories have been missed, especially utilities, opening readiness, diversification and disruption rather than marketing-only startup advice?",
+    "scope": "Founder-library discovery/fact checking, not a Bay Area venue expansion pass",
+    "completed_utc": "2026-10-11T14:26:20.500679+00:00",
+    "source_urls": [
+      "https://whitefencefarmrentals.com/turn-your-rural-property-into-a-wedding-venue-business/",
+      "https://www.blackbarnatstonecreek.com/about",
+      "https://owlgrove.ca/about/",
+      "https://www.boutiquehotelier.com/cloud/2023/08/04/BH-Digital-August.pdf",
+      "https://www.champaigncountyil.gov/CountyBoard/CB/2020/200723_Meeting/200723Handouts.pdf#page=3",
+      "https://www.champaigncountyil.gov/CountyBoard/CB/2020/200723_Meeting/200723Handouts.pdf#page=4",
+      "https://whitefencefarmrentals.com/about/"
+    ],
+    "added_record_ids": [],
+    "updated_record_ids": [],
+    "added_founder_urls": [
+      "https://whitefencefarmrentals.com/turn-your-rural-property-into-a-wedding-venue-business/",
+      "https://www.blackbarnatstonecreek.com/about",
+      "https://owlgrove.ca/about/",
+      "https://www.boutiquehotelier.com/cloud/2023/08/04/BH-Digital-August.pdf",
+      "https://www.champaigncountyil.gov/CountyBoard/CB/2020/200723_Meeting/200723Handouts.pdf#page=3",
+      "https://www.champaigncountyil.gov/CountyBoard/CB/2020/200723_Meeting/200723Handouts.pdf#page=4"
+    ],
+    "duplicates_merged": [
+      "WhiteFenceFarm Tennessee distinguished from homonymous restaurants/HOA elsewhere",
+      "Two letters in the same government packet are different operators"
+    ],
+    "excluded": [
+      "MillerFarms partialexcerpt signature unresolved",
+      "Coaches/marketing claims as verified operator finances",
+      "Copyright/upload/crawl dates as original publication dates"
+    ],
+    "remaining_gaps": [
+      "Full signature/date review of MillerFarms letter",
+      "More BayArea founder accounts",
+      "Publication dates, audio/transcript reviews and independently verified finances"
+    ],
+    "fact_check_findings": [
+      "Six original owner/founder/operator accounts added;77 library records total, not77 independently verified financial cases.",
+      "WhiteFenceFarm original February8,2022date preserved; acreage conflict and current About naming kept separate. Utilities/toilets and repeated improvements challenge a hands-off model.",
+      "BlackBarn owner/director spelling/name conflicts explicitly retained;2020property search and2025copyright are not wedding-opening or publication dates.",
+      "OwlGrove2019 B&B start differs from wedding launch; undated2025future-cabin reference is not an original publication date.",
+      "Doxford magazine August2023month is known, exact publicationdayUnknown. Interview identifies seasonality, heritage planning, lender pressure and unfinished utilities; actual36-page PDF downloaded.",
+      "Two Illinois owner letters use written date separately from Unknown original publication date. Booked volumes, forecasts and payroll are self-reported, not audited earnings or current BayArea rules. County localPDF522 logged; reader review accurately labeled.",
+      "MillerFarmsBarn letter discovered but full signature/date/publication verification remains pending; not added from partial search excerpt. No outsourced marketing profit claims imported as competitor profit."
+    ]
   }
 ]

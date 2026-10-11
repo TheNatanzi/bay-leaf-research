@@ -1,6 +1,6 @@
 # Founder and operator experiences
 
-71 reading records; incomplete. Original publication/update dates are separate from check dates. Publisher-summary-only interviews are labeled; audio not independently reviewed. Historical/global costs are not Bay Area budgets or verified profit.
+77 reading records; incomplete. Original publication/update dates are separate from written/check dates. Publisher-summary-only interviews are labeled; audio not independently reviewed. Historical/global costs are not Bay Area budgets or verified profit.
 
 ## Karri Jablonski
 
@@ -8,6 +8,7 @@
 
 - Venue: Riverbend Estate
 - Original publication: 2024-12-14
+- Written date: Unknown
 - Update: Unknown
 - Date evidence: Displayed original post date
 - Checked UTC: 2026-10-11T04:10:37.248115+00:00
@@ -19,7 +20,7 @@ Property search changed after a new-build plan failed. Describes owner education
 
 Lessons: Further extraction pending
 
-Commercial context / review limits: Venue promotional blog; finances not independently verified; Written source reviewed
+Review limits: Written source reviewed
 
 ## Croix-View Farm owner (personal byline unknown)
 
@@ -27,6 +28,7 @@ Commercial context / review limits: Venue promotional blog; finances not indepen
 
 - Venue: Croix-View Farm
 - Original publication: 2024-10-31
+- Written date: Unknown
 - Update: Unknown
 - Date evidence: Displayed original post date
 - Checked UTC: 2026-10-11T04:10:37.248115+00:00
@@ -38,7 +40,7 @@ Describes buying the property in 2012, renovating a barn, building a website and
 
 Lessons: Further extraction pending
 
-Commercial context / review limits: Venue promotional blog; Written source reviewed
+Review limits: Written source reviewed
 
 ## Andrea Vallencourt; Monique Jeffrey (interviewed by Amanda Knaebel)
 
@@ -46,6 +48,7 @@ Commercial context / review limits: Venue promotional blog; Written source revie
 
 - Venue: Clay Theatre; Willowdale Estate / Briar Barn Inn
 - Original publication: 2022-09-12
+- Written date: Unknown
 - Update: Unknown
 - Date evidence: Displayed original post date
 - Checked UTC: 2026-10-11T04:10:37.248115+00:00
@@ -57,7 +60,7 @@ Owner and hospitality-operations perspectives on converting a theatre, launching
 
 Lessons: Further extraction pending
 
-Commercial context / review limits: Software-provider customer interview; product promotion; Written source reviewed
+Review limits: Written source reviewed
 
 ## Crooked Willow owners; Derek named, other author unknown
 
@@ -65,6 +68,7 @@ Commercial context / review limits: Software-provider customer interview; produc
 
 - Venue: Crooked Willow
 - Original publication: Unknown
+- Written date: Unknown
 - Update: Unknown
 - Date evidence: Unknown — original date not visible in reviewed page
 - Checked UTC: 2026-10-11T04:10:37.248115+00:00
@@ -76,7 +80,7 @@ Owners describe leaving corporate jobs, heavy ongoing labor, frequent weather-pl
 
 Lessons: Further extraction pending
 
-Commercial context / review limits: Venue promotional blog; Written source reviewed
+Review limits: Written source reviewed
 
 ## Stephanie (surname unknown)
 
@@ -84,6 +88,7 @@ Commercial context / review limits: Venue promotional blog; Written source revie
 
 - Venue: The Space on West Main
 - Original publication: Unknown
+- Written date: Unknown
 - Update: Unknown
 - Date evidence: Unknown — undated About page
 - Checked UTC: 2026-10-11T04:10:37.248115+00:00
@@ -95,7 +100,7 @@ Photographer describes creating an intimate event space and customization flexib
 
 Lessons: Further extraction pending
 
-Commercial context / review limits: Venue promotional About page; Written source reviewed
+Review limits: Written source reviewed
 
 ## Dwaine and Terran Evans; interviewed by Didi Russell
 
@@ -103,6 +108,7 @@ Commercial context / review limits: Venue promotional About page; Written source
 
 - Venue: Eastern Grace Events
 - Original publication: 2021-05-12
+- Written date: Unknown
 - Update: Unknown
 - Date evidence: Displayed original post date
 - Checked UTC: 2026-10-11T05:02:48.563107+00:00
@@ -114,7 +120,7 @@ Owners describe a2019 build, March2020 construction completion and delayed first
 
 Lessons: Further extraction pending
 
-Commercial context / review limits: Venue-owner education site promotes tours/coaching; opening dates and lessons self-reported, no audited finances; Written source reviewed
+Review limits: Written source reviewed
 
 ## Sorella Farms owners (individual names unknown); interviewed by Alina Thomas
 
@@ -122,6 +128,7 @@ Commercial context / review limits: Venue-owner education site promotes tours/co
 
 - Venue: Sorella Farms
 - Original publication: 2014-05-02
+- Written date: Unknown
 - Update: 2024-02-10
 - Date evidence: Original article:published_time and datePublished metadata; update separately dateModified
 - Checked UTC: 2026-10-11T05:02:48.563107+00:00
@@ -133,7 +140,7 @@ Family operators describe converting a multigenerational farm into an event busi
 
 Lessons: Further extraction pending
 
-Commercial context / review limits: Photographer marketing interview; original2014 account, not a current financial case study; Written source reviewed
+Review limits: Written source reviewed
 
 ## Blackbrook Barns operating team (individual byline unknown)
 
@@ -141,6 +148,7 @@ Commercial context / review limits: Photographer marketing interview; original20
 
 - Venue: Blackbrook Barns
 - Original publication: 2026-08-03
+- Written date: Unknown
 - Update: Unknown
 - Date evidence: Displayed original post date
 - Checked UTC: 2026-10-11T05:02:48.563107+00:00
@@ -152,7 +160,7 @@ First-year reflection stresses trained managers, cleaners, bar/setup staff, reli
 
 Lessons: Further extraction pending
 
-Commercial context / review limits: Promotional team account; ownership and financial performance not independently verified; Written source reviewed
+Review limits: Written source reviewed
 
 ## Lindsay Lucas; podcast cohost Kinsey Roberts
 
@@ -160,6 +168,7 @@ Commercial context / review limits: Promotional team account; ownership and fina
 
 - Venue: Multiple / not one named venue
 - Original publication: 2025-07-14
+- Written date: Unknown
 - Update: Unknown
 - Date evidence: Displayed original episode date
 - Checked UTC: 2026-10-11T05:02:48.563107+00:00
@@ -171,7 +180,7 @@ Show notes identify market research, phased launch, real economics, location, op
 
 Lessons: Further extraction pending
 
-Commercial context / review limits: Promotes consulting and paid resources; keep separate from verified owner case studies; Written page / metadata reviewed; audio not reviewed
+Review limits: Written page / metadata reviewed; audio not reviewed
 
 ## Kimberly Keys; interviewer Didi Russell
 
@@ -179,6 +188,7 @@ Commercial context / review limits: Promotes consulting and paid resources; keep
 
 - Venue: White Fallow Estate
 - Original publication: 2020-11-10
+- Written date: Unknown
 - Update: 2020-11-10
 - Date evidence: Visible original date and article metadata agree
 - Checked UTC: 2026-10-11T05:35:48.603274+00:00
@@ -190,7 +200,7 @@ Keys describes involvement after an investment group approached her, legal/zonin
 
 Lessons: Budget entitlement/legal work and ongoing maintenance/marketing; distinguish indoor transition from lawful outdoor sound.
 
-Commercial context / review limits: Operator interview on a venue-owner education/marketing site; promotional profile, not audited earnings; Original written account/interview and publication metadata reviewed; financial claims not audited
+Review limits: Original written account/interview and publication metadata reviewed; financial claims not audited
 
 ## Kuyhlia Hulsbosch; co-owner Vital Hulsbosch
 
@@ -198,6 +208,7 @@ Commercial context / review limits: Operator interview on a venue-owner educatio
 
 - Venue: Highpoint Events / orchard
 - Original publication: 2020-02-24
+- Written date: Unknown
 - Update: 2020-02-27
 - Date evidence: Visible date Feb24; UTC publication metadata Feb25 at04:05Z, preserved as timezone difference
 - Checked UTC: 2026-10-11T05:35:48.603274+00:00
@@ -209,7 +220,7 @@ Kuyhlia describes their own expensive/limited venue search, buying an orchard/ev
 
 Lessons: Allow financing/architect/closing delays and operating workload; their motivation closely matches Bay Leaf, but local feasibility must be established independently.
 
-Commercial context / review limits: Venue-owned promotional blog with personal acquisition account; no audited cost/profit; Original written account/interview and publication metadata reviewed; financial claims not audited
+Review limits: Original written account/interview and publication metadata reviewed; financial claims not audited
 
 ## Ian Ramirez
 
@@ -217,6 +228,7 @@ Commercial context / review limits: Venue-owned promotional blog with personal a
 
 - Venue: Madera Estates
 - Original publication: 2026-02-09
+- Written date: Unknown
 - Update: 2026-07-06
 - Date evidence: Current live byline/date verified in browser; original/update metadata distinct. Older indexed version has different author/date.
 - Checked UTC: 2026-10-11T05:35:48.603274+00:00
@@ -228,7 +240,7 @@ Ramirez says his family began the venue in 2012 and sold more than 50 weddings b
 
 Lessons: Check reception layout before building, budget dedicated sales/event roles and delivery risk before preselling; gross bar sales are not profit.
 
-Commercial context / review limits: WeddingPro commercial platform article promotes advertising; current operator-authored version downloaded and live-verified. Cached web result showed an older Tayler Cusick Hollman article at same URL.; Original written account/interview and publication metadata reviewed; financial claims not audited
+Review limits: Original written account/interview and publication metadata reviewed; financial claims not audited
 
 ## Wenna Hicks; interviewer Becca Pountney
 
@@ -236,6 +248,7 @@ Commercial context / review limits: WeddingPro commercial platform article promo
 
 - Venue: The Barn at Pengelly
 - Original publication: 2026-05-14
+- Written date: Unknown
 - Update: Unknown
 - Date evidence: Original article/episode publication metadata
 - Checked UTC: 2026-10-11T05:35:48.603274+00:00
@@ -247,7 +260,7 @@ Hicks describes a working-family-farm conversion, onsite holiday accommodation, 
 
 Lessons: Validate local demand and layout, plan staffing for remote operation, communicate pricing clearly and budget weather/landscaping recovery.
 
-Commercial context / review limits: Co-owner also operates Elevate Venue Consulting; podcast host promotes education. Written transcript reviewed; audio not reviewed.; Original written account/interview and publication metadata reviewed; financial claims not audited
+Review limits: Original written account/interview and publication metadata reviewed; financial claims not audited
 
 ## Gillespie family; Rob and Lori named as founders; individual narrator byline Unknown
 
@@ -255,6 +268,7 @@ Commercial context / review limits: Co-owner also operates Elevate Venue Consult
 
 - Venue: Villa Loriana / former Loriana Ranch
 - Original publication: Unknown
+- Written date: Unknown
 - Update: Unknown
 - Date evidence: Unknown — no original publication date found; historical event years are not publication dates
 - Checked UTC: 2026-10-11T06:56:11.991872+00:00
@@ -266,7 +280,7 @@ Family account describes developing the site from 2012, hosting a first tent wed
 
 Lessons: Include construction-loss scenarios, reopening delays and contingency reserves in development analysis. A resilience story does not prove the financial return of rebuilding.
 
-Commercial context / review limits: Venue marketing page; no individual byline or original publication date. Full original text reviewed through web; direct download406. No insurance or cost recovery claim inferred.; Original publisher/operator written account reviewed; personal/financial claims not independently audited
+Review limits: Original publisher/operator written account reviewed; personal/financial claims not independently audited
 
 ## Marianne and Victor, named co-founders; both personal surnames not confirmed
 
@@ -274,6 +288,7 @@ Commercial context / review limits: Venue marketing page; no individual byline o
 
 - Venue: Sand Canyon Ranch Venue
 - Original publication: Unknown
+- Written date: Unknown
 - Update: Unknown
 - Date evidence: Unknown — no original publication date found; historical event years are not publication dates
 - Checked UTC: 2026-10-11T06:56:11.991872+00:00
@@ -285,7 +300,7 @@ Co-founders describe a search exceeding six months, three years of land developm
 
 Lessons: Model groundskeeping, tours, client administration and event staffing separately. A residence-driven project without investor quotas may not match Bay Leaf’s required return or low owner involvement.
 
-Commercial context / review limits: Current venue marketing and photography-business promotion; undated page. Downloaded original HTML/text reviewed; no profits inferred.; Original publisher/operator written account reviewed; personal/financial claims not independently audited
+Review limits: Original publisher/operator written account reviewed; personal/financial claims not independently audited
 
 ## Michael and Amanda Quinones; host/writer Jonathan Aymin
 
@@ -293,6 +308,7 @@ Commercial context / review limits: Current venue marketing and photography-busi
 
 - Venue: The Glass Slipper Palace
 - Original publication: 2023-02-27
+- Written date: Unknown
 - Update: 2023-08-15
 - Date evidence: Original publication/update metadata reviewed
 - Checked UTC: 2026-10-11T06:56:11.991872+00:00
@@ -304,7 +320,7 @@ Publisher summary says the couple’s own venue search prompted a two-year plann
 
 Lessons: Test the unmet customer need before committing to a design-heavy conversion; distinctive aesthetics still require operating and acquisition cost evidence.
 
-Commercial context / review limits: Podcast operator/interview guests named; host promotes venue-management services. Show notes and publication metadata reviewed; audio/transcript not reviewed.; Original publisher/operator written account reviewed; personal/financial claims not independently audited
+Review limits: Original publisher/operator written account reviewed; personal/financial claims not independently audited
 
 ## Britt Schrader
 
@@ -312,6 +328,7 @@ Commercial context / review limits: Podcast operator/interview guests named; hos
 
 - Venue: The Colonial at Sunset
 - Original publication: 2026-09-16
+- Written date: Unknown
 - Update: 2026-09-24
 - Date evidence: Original publisher datePublished metadata; dateModified recorded separately
 - Checked UTC: 2026-10-11T08:14:28.820292+00:00
@@ -323,7 +340,7 @@ Discusses developing a family estate, launching a planning company, all-inclusiv
 
 Lessons: Define family roles and the operating responsibilities bundled into packages.
 
-Commercial context / review limits: Publisher/host promotes venue management services; guest claims not independently audited. Written show notes reviewed; audio/video not reviewed.; Publisher show notes and original publication metadata reviewed
+Review limits: Publisher show notes and original publication metadata reviewed
 
 ## Caroline and Kyler Parker
 
@@ -331,6 +348,7 @@ Commercial context / review limits: Publisher/host promotes venue management ser
 
 - Venue: The Firehouse Event Venue / Brooks & Reid Events
 - Original publication: 2026-08-25
+- Written date: Unknown
 - Update: 2026-09-24
 - Date evidence: Original publisher datePublished metadata; dateModified recorded separately
 - Checked UTC: 2026-10-11T08:14:28.820292+00:00
@@ -342,7 +360,7 @@ Discuss buying an established business versus building, unexpected costs, multip
 
 Lessons: Separate acquisition diligence, rental operations and owner workload.
 
-Commercial context / review limits: Publisher/host promotes venue management services; guest claims not independently audited. Written show notes reviewed; audio/video not reviewed.; Publisher show notes and original publication metadata reviewed
+Review limits: Publisher show notes and original publication metadata reviewed
 
 ## Kelsey Correia
 
@@ -350,6 +368,7 @@ Commercial context / review limits: Publisher/host promotes venue management ser
 
 - Venue: Floriana
 - Original publication: 2026-08-19
+- Written date: Unknown
 - Update: 2026-08-28
 - Date evidence: Original publisher datePublished metadata; dateModified recorded separately
 - Checked UTC: 2026-10-11T08:14:28.820292+00:00
@@ -361,7 +380,7 @@ Discusses rebranding, inherited bookings, financing, staffing and bringing cater
 
 Lessons: Audit inherited contracts and compare outsourced versus in-house catering costs.
 
-Commercial context / review limits: Publisher/host promotes venue management services; guest claims not independently audited. Written show notes reviewed; audio/video not reviewed.; Publisher show notes and original publication metadata reviewed
+Review limits: Publisher show notes and original publication metadata reviewed
 
 ## Hannah Corbacio
 
@@ -369,6 +388,7 @@ Commercial context / review limits: Publisher/host promotes venue management ser
 
 - Venue: The Rosalia Hotel
 - Original publication: 2026-07-13
+- Written date: Unknown
 - Update: 2026-08-21
 - Date evidence: Original publisher datePublished metadata; dateModified recorded separately
 - Checked UTC: 2026-10-11T08:14:28.820292+00:00
@@ -380,7 +400,7 @@ Describes raising renovation capital, working with a spouse, pre-opening booking
 
 Lessons: Specify construction contingencies and couple expectations before taking bookings; title does not establish zero capital requirement.
 
-Commercial context / review limits: Publisher/host promotes venue management services; guest claims not independently audited. Written show notes reviewed; audio/video not reviewed.; Publisher show notes and original publication metadata reviewed
+Review limits: Publisher show notes and original publication metadata reviewed
 
 ## Mary Luz Rodriguez Alvarez
 
@@ -388,6 +408,7 @@ Commercial context / review limits: Publisher/host promotes venue management ser
 
 - Venue: Living Sculpture Sanctuary
 - Original publication: 2026-07-08
+- Written date: Unknown
 - Update: 2026-07-14
 - Date evidence: Original publisher datePublished metadata; dateModified recorded separately
 - Checked UTC: 2026-10-11T08:14:28.820292+00:00
@@ -399,7 +420,7 @@ Discusses creating a nature-focused venue alongside a legal career, vendor relat
 
 Lessons: Test diversified programming and environmental/operating constraints.
 
-Commercial context / review limits: Publisher/host promotes venue management services; guest claims not independently audited. Written show notes reviewed; audio/video not reviewed.; Publisher show notes and original publication metadata reviewed
+Review limits: Publisher show notes and original publication metadata reviewed
 
 ## Wes Sytsma
 
@@ -407,6 +428,7 @@ Commercial context / review limits: Publisher/host promotes venue management ser
 
 - Venue: The Bowery Barn
 - Original publication: 2026-06-30
+- Written date: Unknown
 - Update: 2026-07-10
 - Date evidence: Original publisher datePublished metadata; dateModified recorded separately
 - Checked UTC: 2026-10-11T08:14:28.820292+00:00
@@ -418,7 +440,7 @@ Discusses entering without wedding experience, leadership transition, rebuilding
 
 Lessons: Budget for team development and management instead of assuming passive operation.
 
-Commercial context / review limits: Publisher/host promotes venue management services; guest claims not independently audited. Written show notes reviewed; audio/video not reviewed.; Publisher show notes and original publication metadata reviewed
+Review limits: Publisher show notes and original publication metadata reviewed
 
 ## David Short
 
@@ -426,6 +448,7 @@ Commercial context / review limits: Publisher/host promotes venue management ser
 
 - Venue: Irvington Event Center
 - Original publication: 2025-01-22
+- Written date: Unknown
 - Update: 2025-02-04
 - Date evidence: Original publisher datePublished metadata; dateModified recorded separately
 - Checked UTC: 2026-10-11T08:14:28.820292+00:00
@@ -437,7 +460,7 @@ Discusses moving from house flipping into events/coworking, pandemic financing h
 
 Lessons: Test multiple uses and funding resilience; no audited earnings supplied.
 
-Commercial context / review limits: Publisher/host promotes venue management services; guest claims not independently audited. Written show notes reviewed; audio/video not reviewed.; Publisher show notes and original publication metadata reviewed
+Review limits: Publisher show notes and original publication metadata reviewed
 
 ## Kate Kotecki
 
@@ -445,6 +468,7 @@ Commercial context / review limits: Publisher/host promotes venue management ser
 
 - Venue: Kotecki’s Grandview Grove
 - Original publication: 2025-01-13
+- Written date: Unknown
 - Update: 2025-01-23
 - Date evidence: Original publisher datePublished metadata; dateModified recorded separately
 - Checked UTC: 2026-10-11T08:14:28.820292+00:00
@@ -456,7 +480,7 @@ Discusses on-site living, client expectations, staffing and family-business boun
 
 Lessons: Define working hours, privacy and escalation roles before living on site.
 
-Commercial context / review limits: Publisher/host promotes venue management services; guest claims not independently audited. Written show notes reviewed; audio/video not reviewed.; Publisher show notes and original publication metadata reviewed
+Review limits: Publisher show notes and original publication metadata reviewed
 
 ## Kasie Romagno
 
@@ -464,6 +488,7 @@ Commercial context / review limits: Publisher/host promotes venue management ser
 
 - Venue: The Armory Arts
 - Original publication: 2025-01-10
+- Written date: Unknown
 - Update: 2025-01-14
 - Date evidence: Original publisher datePublished metadata; dateModified recorded separately
 - Checked UTC: 2026-10-11T08:14:28.820292+00:00
@@ -475,7 +500,7 @@ Discusses family operations, low overhead, client communication and balancing ae
 
 Lessons: Cost the maintenance and operational effects of every design choice.
 
-Commercial context / review limits: Publisher/host promotes venue management services; guest claims not independently audited. Written show notes reviewed; audio/video not reviewed.; Publisher show notes and original publication metadata reviewed
+Review limits: Publisher show notes and original publication metadata reviewed
 
 ## Beau Davis
 
@@ -483,6 +508,7 @@ Commercial context / review limits: Publisher/host promotes venue management ser
 
 - Venue: Launch Pointe
 - Original publication: 2024-12-30
+- Written date: Unknown
 - Update: 2025-01-13
 - Date evidence: Original publisher datePublished metadata; dateModified recorded separately
 - Checked UTC: 2026-10-11T08:14:28.820292+00:00
@@ -494,7 +520,7 @@ Discusses municipal venue redevelopment, community engagement, collaboration and
 
 Lessons: Distinguish public management, concession rights and private ownership; delegation still needs staffing.
 
-Commercial context / review limits: Publisher/host promotes venue management services; guest claims not independently audited. Written show notes reviewed; audio/video not reviewed.; Publisher show notes and original publication metadata reviewed
+Review limits: Publisher show notes and original publication metadata reviewed
 
 ## Joshua Pniewski
 
@@ -502,6 +528,7 @@ Commercial context / review limits: Publisher/host promotes venue management ser
 
 - Venue: Forever Farms Winery
 - Original publication: 2024-12-16
+- Written date: Unknown
 - Update: 2024-12-31
 - Date evidence: Original publisher datePublished metadata; dateModified recorded separately
 - Checked UTC: 2026-10-11T08:14:28.820292+00:00
@@ -513,7 +540,7 @@ Discusses zoning, client demands, reviews, financial misconceptions and integrat
 
 Lessons: Treat zoning and dual-business workload as prerequisites; venue revenue is not owner profit.
 
-Commercial context / review limits: Publisher/host promotes venue management services; guest claims not independently audited. Written show notes reviewed; audio/video not reviewed.; Publisher show notes and original publication metadata reviewed
+Review limits: Publisher show notes and original publication metadata reviewed
 
 ## Lindsay Barrows
 
@@ -521,6 +548,7 @@ Commercial context / review limits: Publisher/host promotes venue management ser
 
 - Venue: Mountain Mist Farm / Wildflower Event Center / The Loyston
 - Original publication: 2024-12-09
+- Written date: Unknown
 - Update: 2024-12-17
 - Date evidence: Original publisher datePublished metadata; dateModified recorded separately
 - Checked UTC: 2026-10-11T08:14:28.820292+00:00
@@ -532,7 +560,7 @@ Discusses recession challenges, delegation, process automation and coordinating 
 
 Lessons: Document tasks that can be delegated and the staffing cost behind lower owner involvement.
 
-Commercial context / review limits: Publisher/host promotes venue management services; guest claims not independently audited. Written show notes reviewed; audio/video not reviewed.; Publisher show notes and original publication metadata reviewed
+Review limits: Publisher show notes and original publication metadata reviewed
 
 ## Katherine Montes
 
@@ -540,6 +568,7 @@ Commercial context / review limits: Publisher/host promotes venue management ser
 
 - Venue: Continuum Art
 - Original publication: 2024-11-25
+- Written date: Unknown
 - Update: 2024-12-03
 - Date evidence: Original publisher datePublished metadata; dateModified recorded separately
 - Checked UTC: 2026-10-11T08:14:28.820292+00:00
@@ -551,7 +580,7 @@ Discusses lease and permit hurdles, pricing, protecting artwork and managing mul
 
 Lessons: Verify lease permissions and protect assets when combining events with another business.
 
-Commercial context / review limits: Publisher/host promotes venue management services; guest claims not independently audited. Written show notes reviewed; audio/video not reviewed.; Publisher show notes and original publication metadata reviewed
+Review limits: Publisher show notes and original publication metadata reviewed
 
 ## Mandi Young
 
@@ -559,6 +588,7 @@ Commercial context / review limits: Publisher/host promotes venue management ser
 
 - Venue: Juniper Gardens
 - Original publication: 2024-11-18
+- Written date: Unknown
 - Update: 2024-11-27
 - Date evidence: Original publisher datePublished metadata; dateModified recorded separately
 - Checked UTC: 2026-10-11T08:14:28.820292+00:00
@@ -570,7 +600,7 @@ Discusses design-led differentiation, project management, ongoing improvements a
 
 Lessons: Include ongoing construction and marketing effort in the feasibility model.
 
-Commercial context / review limits: Publisher/host promotes venue management services; guest claims not independently audited. Written show notes reviewed; audio/video not reviewed.; Publisher show notes and original publication metadata reviewed
+Review limits: Publisher show notes and original publication metadata reviewed
 
 ## Krisann Blanchard and Fohn Bendele
 
@@ -578,6 +608,7 @@ Commercial context / review limits: Publisher/host promotes venue management ser
 
 - Venue: Sparrow Field Estate
 - Original publication: 2024-11-11
+- Written date: Unknown
 - Update: 2024-11-19
 - Date evidence: Original publisher datePublished metadata; dateModified recorded separately
 - Checked UTC: 2026-10-11T08:14:28.820292+00:00
@@ -589,7 +620,7 @@ Discusses creating a venue after a family wedding, family meetings, construction
 
 Lessons: Agree on family governance and distinguish tent-based reception feasibility from land ownership.
 
-Commercial context / review limits: Publisher/host promotes venue management services; guest claims not independently audited. Written show notes reviewed; audio/video not reviewed.; Publisher show notes and original publication metadata reviewed
+Review limits: Publisher show notes and original publication metadata reviewed
 
 ## Bonnie Hawthorne
 
@@ -597,6 +628,7 @@ Commercial context / review limits: Publisher/host promotes venue management ser
 
 - Venue: Three operated venues — names not provided in these notes
 - Original publication: 2024-11-04
+- Written date: Unknown
 - Update: 2024-11-12
 - Date evidence: Original publisher datePublished metadata; dateModified recorded separately
 - Checked UTC: 2026-10-11T08:14:28.820292+00:00
@@ -608,7 +640,7 @@ Discusses zoning, package design, vendors and CRM systems. Coaching promotion is
 
 Lessons: Treat generic coaching advice separately from verifiable venue case histories.
 
-Commercial context / review limits: Publisher/host promotes venue management services; guest claims not independently audited. Written show notes reviewed; audio/video not reviewed.; Publisher show notes and original publication metadata reviewed
+Review limits: Publisher show notes and original publication metadata reviewed
 
 ## Leah Nadu
 
@@ -616,6 +648,7 @@ Commercial context / review limits: Publisher/host promotes venue management ser
 
 - Venue: Historic Ashland
 - Original publication: 2024-10-28
+- Written date: Unknown
 - Update: 2024-11-05
 - Date evidence: Original publisher datePublished metadata; dateModified recorded separately
 - Checked UTC: 2026-10-11T08:14:28.820292+00:00
@@ -627,7 +660,7 @@ Discusses corporate-to-venue transition, emotional demands, property/financial m
 
 Lessons: Distinguish incorporation/founding from first wedding operation and cost owner responsibilities.
 
-Commercial context / review limits: Publisher/host promotes venue management services; guest claims not independently audited. Written show notes reviewed; audio/video not reviewed.; Publisher show notes and original publication metadata reviewed
+Review limits: Publisher show notes and original publication metadata reviewed
 
 ## Kelsey and Tony Tenamore
 
@@ -635,6 +668,7 @@ Commercial context / review limits: Publisher/host promotes venue management ser
 
 - Venue: Vezalay Mountain Venue
 - Original publication: 2024-10-21
+- Written date: Unknown
 - Update: 2024-10-29
 - Date evidence: Original publisher datePublished metadata; dateModified recorded separately
 - Checked UTC: 2026-10-11T08:14:28.820292+00:00
@@ -646,7 +680,7 @@ Discusses in-house services, all-inclusive packages, social marketing and balanc
 
 Lessons: Compare vendor freedom with package control and the staffing each model requires.
 
-Commercial context / review limits: Publisher/host promotes venue management services; guest claims not independently audited. Written show notes reviewed; audio/video not reviewed.; Publisher show notes and original publication metadata reviewed
+Review limits: Publisher show notes and original publication metadata reviewed
 
 ## Helen Christopher
 
@@ -654,6 +688,7 @@ Commercial context / review limits: Publisher/host promotes venue management ser
 
 - Venue: Brookledge
 - Original publication: 2024-10-14
+- Written date: Unknown
 - Update: 2024-10-22
 - Date evidence: Original publisher datePublished metadata; dateModified recorded separately
 - Checked UTC: 2026-10-11T08:14:28.820292+00:00
@@ -665,7 +700,7 @@ Discusses converting a former camp, regulations, vendor relationships and cabins
 
 Lessons: Check entitlement and lodging/event interaction; purchase year does not establish opening date.
 
-Commercial context / review limits: Publisher/host promotes venue management services; guest claims not independently audited. Written show notes reviewed; audio/video not reviewed.; Publisher show notes and original publication metadata reviewed
+Review limits: Publisher show notes and original publication metadata reviewed
 
 ## Blake Harris; wife/co-founder Abby discussed
 
@@ -673,6 +708,7 @@ Commercial context / review limits: Publisher/host promotes venue management ser
 
 - Venue: The Haven Event Space
 - Original publication: 2023-10-10
+- Written date: Unknown
 - Update: 2023-10-17
 - Date evidence: Original publisher datePublished/dateModified metadata
 - Checked UTC: 2026-10-11T08:14:28.820292+00:00
@@ -684,7 +720,7 @@ Discusses financing barriers, construction, hiring, delegation, client fit and p
 
 Lessons: Compare acquisition-to-opening duration and staffing needs with the intended hands-off model.
 
-Commercial context / review limits: Host promotes venue management services. Written show notes reviewed; audio/video not reviewed; finances not audited.; Publisher written show notes and original publication metadata reviewed
+Review limits: Publisher written show notes and original publication metadata reviewed
 
 ## Derek and Jody — surnames Unknown
 
@@ -692,6 +728,7 @@ Commercial context / review limits: Host promotes venue management services. Wri
 
 - Venue: Crooked Willow
 - Original publication: 2023-01-23
+- Written date: Unknown
 - Update: 2024-01-02
 - Date evidence: Original page datePublished/dateModified metadata; self-reported event milestones recorded separately
 - Checked UTC: 2026-10-11T09:35:20.772795+00:00
@@ -703,7 +740,7 @@ The couple describe leaving corporate careers, buying a former antique shop, sel
 
 Lessons: Budget for personal housing disruption, permitting and the professional network behind a conversion.
 
-Commercial context / review limits: Operator’s own venue marketing site; self-reported history and lessons, no independently audited finances.; Original operator page downloaded and written account reviewed; publication metadata checked
+Review limits: Original operator page downloaded and written account reviewed; publication metadata checked
 
 ## Jamie Davis; co-owner Bryant Davis
 
@@ -711,6 +748,7 @@ Commercial context / review limits: Operator’s own venue marketing site; self-
 
 - Venue: The Burch on Twenty Seven
 - Original publication: 2026-01-26
+- Written date: Unknown
 - Update: 2026-01-26
 - Date evidence: Original page datePublished/dateModified metadata; self-reported event milestones recorded separately
 - Checked UTC: 2026-10-11T09:35:20.772795+00:00
@@ -722,7 +760,7 @@ Jamie describes expanding a short contract to cover vendor roles, payment, cance
 
 Lessons: Model tour readiness, maintenance, client communication and booking buffers as paid work; these are personal operating choices, not universal requirements.
 
-Commercial context / review limits: Operator’s own venue marketing site; self-reported history and lessons, no independently audited finances.; Original operator page downloaded and written account reviewed; publication metadata checked
+Review limits: Original operator page downloaded and written account reviewed; publication metadata checked
 
 ## Mark and Nicole Redden
 
@@ -730,6 +768,7 @@ Commercial context / review limits: Operator’s own venue marketing site; self-
 
 - Venue: Venue 290
 - Original publication: 2023-02-02
+- Written date: Unknown
 - Update: 2025-11-04
 - Date evidence: Original page datePublished/dateModified metadata; self-reported event milestones recorded separately
 - Checked UTC: 2026-10-11T09:35:20.772795+00:00
@@ -741,7 +780,7 @@ Owners report purchasing a historic building in 2019, renovating for a year and 
 
 Lessons: Include renovation and disruption contingencies; separate purchase, construction, operating opening and rebranding milestones.
 
-Commercial context / review limits: Operator’s own venue marketing site; self-reported history and lessons, no independently audited finances.; Original operator page downloaded and written account reviewed; publication metadata checked
+Review limits: Original operator page downloaded and written account reviewed; publication metadata checked
 
 ## Josh Banderas and Lydia Robertus
 
@@ -749,6 +788,7 @@ Commercial context / review limits: Operator’s own venue marketing site; self-
 
 - Venue: The Acreage
 - Original publication: Unknown
+- Written date: Unknown
 - Update: Unknown
 - Date evidence: Unknown — no reliable publication or update metadata found; story dates are not publication dates
 - Checked UTC: 2026-10-11T09:35:20.772795+00:00
@@ -760,7 +800,7 @@ Owners describe inspiration from their own 2022 wedding, months of property rese
 
 Lessons: Land purchase is an intermediate milestone; cost professional design and local feasibility before assuming an opening schedule.
 
-Commercial context / review limits: Operator’s own venue marketing site; self-reported history and lessons, no independently audited finances.; Original operator page downloaded and written account reviewed; publication metadata checked
+Review limits: Original operator page downloaded and written account reviewed; publication metadata checked
 
 ## Jessica and David Vedder
 
@@ -768,6 +808,7 @@ Commercial context / review limits: Operator’s own venue marketing site; self-
 
 - Venue: The Carriage House at Vedder Farms
 - Original publication: Unknown
+- Written date: Unknown
 - Update: Unknown
 - Date evidence: Unknown — no reliable publication or update metadata found; story dates are not publication dates
 - Checked UTC: 2026-10-11T09:35:20.772795+00:00
@@ -779,7 +820,7 @@ Owners describe inspiration from their own 2012 wedding at another new venue, cl
 
 Lessons: Separate land acquisition from opening and plan for the multi-year development period.
 
-Commercial context / review limits: Operator’s own venue marketing site; self-reported history and lessons, no independently audited finances.; Original operator page downloaded and written account reviewed; publication metadata checked
+Review limits: Original operator page downloaded and written account reviewed; publication metadata checked
 
 ## Delanie and Chad Riley
 
@@ -787,6 +828,7 @@ Commercial context / review limits: Operator’s own venue marketing site; self-
 
 - Venue: The Delanie
 - Original publication: Unknown
+- Written date: Unknown
 - Update: Unknown
 - Date evidence: Unknown — no reliable publication or update metadata found; story dates are not publication dates
 - Checked UTC: 2026-10-11T09:35:20.772795+00:00
@@ -798,7 +840,7 @@ Owners describe land originally intended for bulls and livestock, a transformati
 
 Lessons: Low founder involvement still requires someone to perform daily operations; identify and cost each family or employee role.
 
-Commercial context / review limits: Operator’s own venue marketing site; self-reported history and lessons, no independently audited finances.; Original operator page downloaded and written account reviewed; publication metadata checked
+Review limits: Original operator page downloaded and written account reviewed; publication metadata checked
 
 ## Shane — surname Unknown; wife Maritza discussed
 
@@ -806,6 +848,7 @@ Commercial context / review limits: Operator’s own venue marketing site; self-
 
 - Venue: Willow Creek Glass Chapel
 - Original publication: 2021-12-23
+- Written date: Unknown
 - Update: 2021-12-23
 - Date evidence: Original page datePublished/dateModified metadata; self-reported event milestones recorded separately
 - Checked UTC: 2026-10-11T09:35:20.772795+00:00
@@ -817,7 +860,7 @@ Shane describes married life, five children, the relationship between their home
 
 Lessons: Consider privacy, family time and long-term maintenance when the venue is also the family home.
 
-Commercial context / review limits: Operator’s own venue marketing site; self-reported history and lessons, no independently audited finances.; Original operator page downloaded and written account reviewed; publication metadata checked
+Review limits: Original operator page downloaded and written account reviewed; publication metadata checked
 
 ## Mark and the founding family — full names and individual byline Unknown
 
@@ -825,6 +868,7 @@ Commercial context / review limits: Operator’s own venue marketing site; self-
 
 - Venue: Nestldown
 - Original publication: 2020-08-04
+- Written date: Unknown
 - Update: 2026-08-25
 - Date evidence: Original page datePublished/dateModified metadata; revised story contains later events. Story milestones are not article publication dates.
 - Checked UTC: 2026-10-11T10:18:24.962060+00:00
@@ -836,7 +880,7 @@ The family describe acquiring an old fruit ranch in 1991, extensive restoration 
 
 Lessons: Check permitted commercial use before acquiring or hosting paid events; budget restoration, housing disruption, founder labor and a potentially lengthy approval process.
 
-Commercial context / review limits: Original operator marketing page; self-reported experience, no audited financial records. The story names Mark but has no individual full-name byline.; Original HTML and written account reviewed; original publication and update metadata checked
+Review limits: Original HTML and written account reviewed; original publication and update metadata checked
 
 ## Jillian Moulton
 
@@ -844,6 +888,7 @@ Commercial context / review limits: Original operator marketing page; self-repor
 
 - Venue: Cold Spring Farm / Cold Spring Barn
 - Original publication: 2025-02-19
+- Written date: Unknown
 - Update: 2026-03-28
 - Date evidence: Original datePublished and dateModified metadata; visible month/day alone omits year.
 - Checked UTC: 2026-10-11T11:00:06.228224+00:00
@@ -855,7 +900,7 @@ Family purchased approximately 280 acres in 2003; barn construction began in 200
 
 Lessons: Budget storage relocation, reliable guest lighting, weather protection, bathrooms, finance and ongoing improvements; DIY labor and family involvement are substantial.
 
-Commercial context / review limits: Original operator promotional account; financing amount, commercial opening and profits not verified.; Original HTML and written account reviewed
+Review limits: Original HTML and written account reviewed
 
 ## George and Debra Tash; Adam and Rachel Tash — named owners, individual page byline Unknown
 
@@ -863,6 +908,7 @@ Commercial context / review limits: Original operator promotional account; finan
 
 - Venue: Eden Gardens
 - Original publication: Unknown
+- Written date: Unknown
 - Update: Unknown
 - Date evidence: Unknown — no reliable original publication or update date established; 2012 and 2022 are story milestones, not publication dates.
 - Checked UTC: 2026-10-11T11:00:06.228224+00:00
@@ -874,7 +920,7 @@ Operator history identifies George and Debra Tash as founders in 2012, developin
 
 Lessons: Track founding and successor management separately. A venue with coordinated catering and bar service is a different operational model from venue-only rentals.
 
-Commercial context / review limits: Original operator marketing page; legal approval claims and financial performance not independently verified.; Original HTML and written account reviewed
+Review limits: Original HTML and written account reviewed
 
 ## Rene Byck; Sonia Byck-Barwick; Annette McDonnell — interviewed by Matthew McDermaid and Sandra K. Newton
 
@@ -882,6 +928,7 @@ Commercial context / review limits: Original operator marketing page; legal appr
 
 - Venue: Paradise Ridge Winery
 - Original publication: 2020-12-16
+- Written date: Unknown
 - Update: Unknown
 - Date evidence: Original journal publication December 16, 2020 PDT; submitted and accepted dates are separate.
 - Checked UTC: 2026-10-11T11:00:06.228224+00:00
@@ -893,7 +940,7 @@ Based on 2020 interviews, the case describes recovery after the 2017 Tubbs fire 
 
 Lessons: Stress-test disaster interruption, insurance, rebuilding time, staffing and revenue concentration. Separate capital expenditure from property value and verified earnings from teaching exhibits.
 
-Commercial context / review limits: Original academic case, CC BY 4.0; 2020 historical conditions. Adapted financial exhibits and unspecified nighttime noise permission cannot establish actual earnings or current midnight authorization.; Original HTML and written account reviewed; Paradise Ridge PDF pages 4 and 11 visually checked
+Review limits: Original HTML and written account reviewed; Paradise Ridge PDF pages 4 and 11 visually checked
 
 ## Didi Russell (publisher byline drussell); quoted owner identity Unknown
 
@@ -901,6 +948,7 @@ Commercial context / review limits: Original academic case, CC BY 4.0; 2020 hist
 
 - Venue: Unknown — anonymous venue
 - Original publication: 2023-08-25
+- Written date: Unknown
 - Update: Unknown
 - Date evidence: Displayed original article date; date of underlying Facebook post Unknown.
 - Checked UTC: 2026-10-11T11:00:06.228224+00:00
@@ -912,7 +960,7 @@ Publisher reproduces an anonymous owner account of a partner leaving soon after 
 
 Lessons: Define partner responsibilities and exit arrangements; test construction reserves, owner workload and feasibility of remote management.
 
-Commercial context / review limits: Commercial coaching and education promotion; anonymous repost, not independently verified firsthand testimony. General marketing and profitability opinions are not established market statistics.; Original HTML and written account reviewed
+Review limits: Original HTML and written account reviewed
 
 ## Kaylen Froese
 
@@ -920,6 +968,7 @@ Commercial context / review limits: Commercial coaching and education promotion;
 
 - Venue: Highland Oaks Weddings and Events
 - Original publication: 2026-09-23T04:00:00+00:00
+- Written date: Unknown
 - Update: Unknown
 - Date evidence: Original publisher RSS item pubDate; feed discovered through Apple lookup and actual XML archived
 - Checked UTC: 2026-10-11T11:49:53.420258+00:00
@@ -931,7 +980,7 @@ Host notes cover purchase, changes after takeover, marketing, family dynamics an
 
 Lessons: Budget transition costs and vendor/booking handover separately from the acquisition price.
 
-Commercial context / review limits: Host Tirzah Caffee promotes venue coaching. Publisher RSS descriptions reviewed; audio/video not played or transcribed. Self-reported claims not audited. Direct episode web-reader redirect inaccessible; RSS is archived evidence.; Actual publisher RSS show notes and original publication timestamp reviewed; audio/video unreviewed
+Review limits: Actual publisher RSS show notes and original publication timestamp reviewed; audio/video unreviewed
 
 ## Victoria Melvin-Propert; husband/co-owner Blair discussed
 
@@ -939,6 +988,7 @@ Commercial context / review limits: Host Tirzah Caffee promotes venue coaching. 
 
 - Venue: The Historic Dallas Jail
 - Original publication: 2026-08-26T04:00:00+00:00
+- Written date: Unknown
 - Update: Unknown
 - Date evidence: Original publisher RSS item pubDate; feed discovered through Apple lookup and actual XML archived
 - Checked UTC: 2026-10-11T11:49:53.420258+00:00
@@ -950,7 +1000,7 @@ Co-owners converted a vacant historic jail into an event venue. Notes discuss an
 
 Lessons: Historic character still requires preservation, code review, service systems and staffing.
 
-Commercial context / review limits: Host Tirzah Caffee promotes venue coaching. Publisher RSS descriptions reviewed; audio/video not played or transcribed. Self-reported claims not audited. Direct episode web-reader redirect inaccessible; RSS is archived evidence.; Actual publisher RSS show notes and original publication timestamp reviewed; audio/video unreviewed
+Review limits: Actual publisher RSS show notes and original publication timestamp reviewed; audio/video unreviewed
 
 ## Ashley Upton
 
@@ -958,6 +1008,7 @@ Commercial context / review limits: Host Tirzah Caffee promotes venue coaching. 
 
 - Venue: Milk & Honey Farms
 - Original publication: 2026-08-12T04:00:00+00:00
+- Written date: Unknown
 - Update: Unknown
 - Date evidence: Original publisher RSS item pubDate; feed discovered through Apple lookup and actual XML archived
 - Checked UTC: 2026-10-11T11:49:53.420258+00:00
@@ -969,7 +1020,7 @@ Notes describe building from scratch, opening in 2025, marketing during construc
 
 Lessons: Track construction, preopening marketing, licensing and service staffing as separate workstreams.
 
-Commercial context / review limits: Host Tirzah Caffee promotes venue coaching. Publisher RSS descriptions reviewed; audio/video not played or transcribed. Self-reported claims not audited. Direct episode web-reader redirect inaccessible; RSS is archived evidence.; Actual publisher RSS show notes and original publication timestamp reviewed; audio/video unreviewed
+Review limits: Actual publisher RSS show notes and original publication timestamp reviewed; audio/video unreviewed
 
 ## Jennifer and Tony Khatibi
 
@@ -977,6 +1028,7 @@ Commercial context / review limits: Host Tirzah Caffee promotes venue coaching. 
 
 - Venue: The Promise of 2912
 - Original publication: 2026-07-15T04:00:00+00:00
+- Written date: Unknown
 - Update: Unknown
 - Date evidence: Original publisher RSS item pubDate; feed discovered through Apple lookup and actual XML archived
 - Checked UTC: 2026-10-11T11:49:53.420258+00:00
@@ -988,7 +1040,7 @@ Publisher describes creating a new venue on Jennifer’s childhood property afte
 
 Lessons: Existing family land does not remove permitting, construction, operating capital or opportunity costs.
 
-Commercial context / review limits: Host Tirzah Caffee promotes venue coaching. Publisher RSS descriptions reviewed; audio/video not played or transcribed. Self-reported claims not audited. Direct episode web-reader redirect inaccessible; RSS is archived evidence.; Actual publisher RSS show notes and original publication timestamp reviewed; audio/video unreviewed
+Review limits: Actual publisher RSS show notes and original publication timestamp reviewed; audio/video unreviewed
 
 ## Scott Davies
 
@@ -996,6 +1048,7 @@ Commercial context / review limits: Host Tirzah Caffee promotes venue coaching. 
 
 - Venue: Ridgefield Weddings
 - Original publication: 2026-06-24T04:00:00+00:00
+- Written date: Unknown
 - Update: Unknown
 - Date evidence: Original publisher RSS item pubDate; feed discovered through Apple lookup and actual XML archived
 - Checked UTC: 2026-10-11T11:49:53.420258+00:00
@@ -1007,7 +1060,7 @@ Operator interview addresses moving toward inclusive packages, evolving processe
 
 Lessons: Compare bundled service labor and margins against the proposed venue-only model.
 
-Commercial context / review limits: Host Tirzah Caffee promotes venue coaching. Publisher RSS descriptions reviewed; audio/video not played or transcribed. Self-reported claims not audited. Direct episode web-reader redirect inaccessible; RSS is archived evidence.; Actual publisher RSS show notes and original publication timestamp reviewed; audio/video unreviewed
+Review limits: Actual publisher RSS show notes and original publication timestamp reviewed; audio/video unreviewed
 
 ## Lora Taub
 
@@ -1015,6 +1068,7 @@ Commercial context / review limits: Host Tirzah Caffee promotes venue coaching. 
 
 - Venue: Hartlot Happening
 - Original publication: 2026-06-11T01:08:14+00:00
+- Written date: Unknown
 - Update: Unknown
 - Date evidence: Original publisher RSS item pubDate; feed discovered through Apple lookup and actual XML archived
 - Checked UTC: 2026-10-11T11:49:53.420258+00:00
@@ -1026,7 +1080,7 @@ Notes describe moving from higher education to venue ownership, using craftsmans
 
 Lessons: Aesthetic differentiation needs a clear client fit and tour/conversion process.
 
-Commercial context / review limits: Host Tirzah Caffee promotes venue coaching. Publisher RSS descriptions reviewed; audio/video not played or transcribed. Self-reported claims not audited. Direct episode web-reader redirect inaccessible; RSS is archived evidence.; Actual publisher RSS show notes and original publication timestamp reviewed; audio/video unreviewed
+Review limits: Actual publisher RSS show notes and original publication timestamp reviewed; audio/video unreviewed
 
 ## Dixie Bagley
 
@@ -1034,6 +1088,7 @@ Commercial context / review limits: Host Tirzah Caffee promotes venue coaching. 
 
 - Venue: The Farm; Tillman Hangar
 - Original publication: 2026-05-13T04:46:02+00:00
+- Written date: Unknown
 - Update: Unknown
 - Date evidence: Original publisher RSS item pubDate; feed discovered through Apple lookup and actual XML archived
 - Checked UTC: 2026-10-11T11:49:53.420258+00:00
@@ -1045,7 +1100,7 @@ Venue operator and consultant discusses accidental venue ownership, micro-weddin
 
 Lessons: Evaluate workload, lodging complexity and exit options; intention to sell is not a completed transaction.
 
-Commercial context / review limits: Host Tirzah Caffee promotes venue coaching. Publisher RSS descriptions reviewed; audio/video not played or transcribed. Self-reported claims not audited. Direct episode web-reader redirect inaccessible; RSS is archived evidence.; Actual publisher RSS show notes and original publication timestamp reviewed; audio/video unreviewed
+Review limits: Actual publisher RSS show notes and original publication timestamp reviewed; audio/video unreviewed
 
 ## Fausto Pifferrer
 
@@ -1053,6 +1108,7 @@ Commercial context / review limits: Host Tirzah Caffee promotes venue coaching. 
 
 - Venue: Blue Elephant Events and Catering / Maine Venue Partners
 - Original publication: 2026-04-29T04:00:00+00:00
+- Written date: Unknown
 - Update: Unknown
 - Date evidence: Original publisher RSS item pubDate; feed discovered through Apple lookup and actual XML archived
 - Checked UTC: 2026-10-11T11:49:53.420258+00:00
@@ -1064,7 +1120,7 @@ Named co-founder discusses venue-caterer cooperation, challenges and guest exper
 
 Lessons: Outside vendor freedom still needs responsibilities, insurance, kitchen and service coordination.
 
-Commercial context / review limits: Host Tirzah Caffee promotes venue coaching. Publisher RSS descriptions reviewed; audio/video not played or transcribed. Self-reported claims not audited. Direct episode web-reader redirect inaccessible; RSS is archived evidence.; Actual publisher RSS show notes and original publication timestamp reviewed; audio/video unreviewed
+Review limits: Actual publisher RSS show notes and original publication timestamp reviewed; audio/video unreviewed
 
 ## Kalli Doubleday
 
@@ -1072,6 +1128,7 @@ Commercial context / review limits: Host Tirzah Caffee promotes venue coaching. 
 
 - Venue: Sparrow Creek Ranch; Shiraz Garden
 - Original publication: 2024-11-06T05:00:00+00:00
+- Written date: Unknown
 - Update: Unknown
 - Date evidence: Original publisher RSS item pubDate; feed discovered through Apple lookup and actual XML archived
 - Checked UTC: 2026-10-11T11:49:53.420258+00:00
@@ -1083,7 +1140,7 @@ Guest biography describes a 2011 family barn for her own wedding leading into ve
 
 Lessons: Automated inquiry systems do not remove management, vendor agreements or local economic responsibilities.
 
-Commercial context / review limits: Host Tirzah Caffee promotes venue coaching. Publisher RSS descriptions reviewed; audio/video not played or transcribed. Self-reported claims not audited. Direct episode web-reader redirect inaccessible; RSS is archived evidence.; Actual publisher RSS show notes and original publication timestamp reviewed; audio/video unreviewed
+Review limits: Actual publisher RSS show notes and original publication timestamp reviewed; audio/video unreviewed
 
 ## Kelly Ewell
 
@@ -1091,6 +1148,7 @@ Commercial context / review limits: Host Tirzah Caffee promotes venue coaching. 
 
 - Venue: 48 Fields
 - Original publication: 2024-10-09T04:01:00+00:00
+- Written date: Unknown
 - Update: Unknown
 - Date evidence: Original publisher RSS item pubDate; feed discovered through Apple lookup and actual XML archived
 - Checked UTC: 2026-10-11T11:49:53.420258+00:00
@@ -1102,7 +1160,7 @@ Notes describe a photographer becoming a venue owner, barn renovation challenges
 
 Lessons: Budget restoration/code work and management time; experience as a vendor differs from operating a property.
 
-Commercial context / review limits: Host Tirzah Caffee promotes venue coaching. Publisher RSS descriptions reviewed; audio/video not played or transcribed. Self-reported claims not audited. Direct episode web-reader redirect inaccessible; RSS is archived evidence.; Actual publisher RSS show notes and original publication timestamp reviewed; audio/video unreviewed
+Review limits: Actual publisher RSS show notes and original publication timestamp reviewed; audio/video unreviewed
 
 ## Sarah Narcus; mother/business partner Ellen discussed
 
@@ -1110,6 +1168,7 @@ Commercial context / review limits: Host Tirzah Caffee promotes venue coaching. 
 
 - Venue: Olio
 - Original publication: 2024-09-25T14:10:44+00:00
+- Written date: Unknown
 - Update: Unknown
 - Date evidence: Original publisher RSS item pubDate; feed discovered through Apple lookup and actual XML archived
 - Checked UTC: 2026-10-11T11:49:53.420258+00:00
@@ -1121,7 +1180,7 @@ Publisher biography dates property search to 2016, purchase tofall 2018 and open
 
 Lessons: Model acquisition-to-opening carrying cost and renovation risk, plus interruption reserves.
 
-Commercial context / review limits: Host Tirzah Caffee promotes venue coaching. Publisher RSS descriptions reviewed; audio/video not played or transcribed. Self-reported claims not audited. Direct episode web-reader redirect inaccessible; RSS is archived evidence.; Actual publisher RSS show notes and original publication timestamp reviewed; audio/video unreviewed
+Review limits: Actual publisher RSS show notes and original publication timestamp reviewed; audio/video unreviewed
 
 ## Amelia Holder; husband/co-owner Steve discussed
 
@@ -1129,6 +1188,7 @@ Commercial context / review limits: Host Tirzah Caffee promotes venue coaching. 
 
 - Venue: Emerson Fields
 - Original publication: 2024-08-28T04:01:00+00:00
+- Written date: Unknown
 - Update: Unknown
 - Date evidence: Original publisher RSS item pubDate; feed discovered through Apple lookup and actual XML archived
 - Checked UTC: 2026-10-11T11:49:53.420258+00:00
@@ -1140,7 +1200,7 @@ Notes describe designing/building a venue, opening in 2018, full-weekend experie
 
 Lessons: Seasonality, lodging turnover, staff and fixed costs change the venue-only financial model.
 
-Commercial context / review limits: Host Tirzah Caffee promotes venue coaching. Publisher RSS descriptions reviewed; audio/video not played or transcribed. Self-reported claims not audited. Direct episode web-reader redirect inaccessible; RSS is archived evidence.; Actual publisher RSS show notes and original publication timestamp reviewed; audio/video unreviewed
+Review limits: Actual publisher RSS show notes and original publication timestamp reviewed; audio/video unreviewed
 
 ## Aleah Chilleen
 
@@ -1148,6 +1208,7 @@ Commercial context / review limits: Host Tirzah Caffee promotes venue coaching. 
 
 - Venue: The Venue at Chilleens
 - Original publication: 2024-08-14T04:01:00+00:00
+- Written date: Unknown
 - Update: Unknown
 - Date evidence: Original publisher RSS item pubDate; feed discovered through Apple lookup and actual XML archived
 - Checked UTC: 2026-10-11T11:49:53.420258+00:00
@@ -1159,7 +1220,7 @@ Notes describe turning a neglected area behind the family restaurant into an inc
 
 Lessons: A restaurant conversion has different kitchen/staff/assets from a standalone land project.
 
-Commercial context / review limits: Host Tirzah Caffee promotes venue coaching. Publisher RSS descriptions reviewed; audio/video not played or transcribed. Self-reported claims not audited. Direct episode web-reader redirect inaccessible; RSS is archived evidence.; Actual publisher RSS show notes and original publication timestamp reviewed; audio/video unreviewed
+Review limits: Actual publisher RSS show notes and original publication timestamp reviewed; audio/video unreviewed
 
 ## Elaine Hanford; host David Schaub
 
@@ -1167,6 +1228,7 @@ Commercial context / review limits: Host Tirzah Caffee promotes venue coaching. 
 
 - Venue: The Venue at The Trail
 - Original publication: 2026-04-14T11:00:00+00:00
+- Written date: Unknown
 - Update: Unknown
 - Date evidence: Original publisher RSS pubDate; actual XML archived
 - Checked UTC: 2026-10-11T11:49:53.420258+00:00
@@ -1178,7 +1240,7 @@ Publisher notes address underestimated costs, permits and opening delays, bookin
 
 Lessons: Stress-test promises to couples against permit/construction delays and maintain working-capital reserves.
 
-Commercial context / review limits: Entrepreneurship podcast; written publisher RSS notes reviewed, audio/video not reviewed.; Original RSS description/date reviewed; interview audio unreviewed
+Review limits: Original RSS description/date reviewed; interview audio unreviewed
 
 ## Abigail Olaya; co-founder Edward discussed; hosts Clate Mask and Scott Martineau
 
@@ -1186,6 +1248,7 @@ Commercial context / review limits: Entrepreneurship podcast; written publisher 
 
 - Venue: Venue at the Grove
 - Original publication: Unknown
+- Written date: Unknown
 - Update: Unknown
 - Date evidence: Unknown — no original publication date established;2009 business start/six-year narration do not establish publication year
 - Checked UTC: 2026-10-11T11:49:53.420258+00:00
@@ -1197,7 +1260,7 @@ Transcript describes 2009 startup on a 2.5-acre pecan grove, founder labor while
 
 Lessons: A small startup loan is not total capital or property acquisition cost. Model founder labor, job-income subsidy, contingency coverage and property financing separately.
 
-Commercial context / review limits: Keap software-vendor podcast. Actual original HTML/transcript reviewed; figures self-reported and historical, no audited accounts or current Bay Area cost extrapolation.; Original publisher written transcript reviewed; audio unreviewed
+Review limits: Original publisher written transcript reviewed; audio unreviewed
 
 ## Annie Jo and Jackson Richard
 
@@ -1205,6 +1268,7 @@ Commercial context / review limits: Keap software-vendor podcast. Actual origina
 
 - Venue: Harvest Hollow Venue and Farm
 - Original publication: Unknown
+- Written date: Unknown
 - Update: Unknown
 - Date evidence: Unknown — original publication date not established
 - Checked UTC: 2026-10-11T13:13:27.384165+00:00
@@ -1216,7 +1280,7 @@ Owners describe a land search and roughly six-month build for their own wedding.
 
 Lessons: Protect the opening date with contingency, final inspections/power and a usable backup. Family/free labor is not evidence that commercial development is inexpensive or hands-off.
 
-Commercial context / review limits: Original venue/publisher material; marketing context. Self-reported story is not verified financial, planning or legal evidence.; Actual original operator HTML/text reviewed; finances self-reported/unverified
+Review limits: Actual original operator HTML/text reviewed; finances self-reported/unverified
 
 ## Rachel and Luke Whyte; partners Ben and Skylar Worley, Nate and Ali Sloan
 
@@ -1224,6 +1288,7 @@ Commercial context / review limits: Original venue/publisher material; marketing
 
 - Venue: Old Bethany Venue
 - Original publication: Unknown
+- Written date: Unknown
 - Update: Unknown
 - Date evidence: Unknown — original publication date not established
 - Checked UTC: 2026-10-11T13:13:27.384165+00:00
@@ -1235,7 +1300,7 @@ Operator story says Rachel had five years of wedding photography experience and 
 
 Lessons: Separate experience, investment capital, ownership percentages and management duties; a multi-partner model needs a governance agreement.
 
-Commercial context / review limits: Original venue/publisher material; marketing context. Self-reported story is not verified financial, planning or legal evidence.; Primary operator story reviewed through web reader; direct HTML 403 logged, no original download claimed
+Review limits: Primary operator story reviewed through web reader; direct HTML 403 logged, no original download claimed
 
 ## Alex Stobert and Emma — personal surnames not all confirmed; grandfather Ed Pfeifer discussed
 
@@ -1243,6 +1308,7 @@ Commercial context / review limits: Original venue/publisher material; marketing
 
 - Venue: Pfeifer Farm
 - Original publication: Unknown
+- Written date: Unknown
 - Update: Unknown
 - Date evidence: Unknown — original publication date not established
 - Checked UTC: 2026-10-11T13:13:27.384165+00:00
@@ -1254,7 +1320,7 @@ Operator describes inheriting a family farm, restoring the barn/grounds for the 
 
 Lessons: Historic structure age is separate from compliant commercial event use and business opening. Model restoration, accessibility, bathrooms and owner labor separately.
 
-Commercial context / review limits: Original venue/publisher material; marketing context. Self-reported story is not verified financial, planning or legal evidence.; Actual original operator HTML/text reviewed; finances self-reported/unverified
+Review limits: Actual original operator HTML/text reviewed; finances self-reported/unverified
 
 ## LaWanna and Chris — surnames not confirmed; Courtney and Whitney discussed
 
@@ -1262,6 +1328,7 @@ Commercial context / review limits: Original venue/publisher material; marketing
 
 - Venue: The Nest at Ruth Farms
 - Original publication: 2024-10-03
+- Written date: Unknown
 - Update: 2026-01-05
 - Date evidence: Original page metadata datePublished 2024-10-03; dateModified 2026-01-05. Earliest pre-migration publication not independently established; not the 2017 opening date.
 - Checked UTC: 2026-10-11T13:13:27.384165+00:00
@@ -1273,7 +1340,7 @@ Family account describes buying 36 acres with housing-development plans, then ch
 
 Lessons: Land purchase, venue opening and later chapel expansion are different milestones. Include management and vendor coordination in a hands-off staffing plan.
 
-Commercial context / review limits: Original venue/publisher material; marketing context. Self-reported story is not verified financial, planning or legal evidence.; Actual original operator HTML/text reviewed; finances self-reported/unverified
+Review limits: Actual original operator HTML/text reviewed; finances self-reported/unverified
 
 ## Janelle and Stephen Statham
 
@@ -1281,6 +1348,7 @@ Commercial context / review limits: Original venue/publisher material; marketing
 
 - Venue: Woodlands
 - Original publication: Unknown
+- Written date: Unknown
 - Update: Unknown
 - Date evidence: Unknown — original publication date not established
 - Checked UTC: 2026-10-11T13:13:27.384165+00:00
@@ -1292,7 +1360,7 @@ Owners report an eight-month land search, buying 52 acres in February 2017, high
 
 Lessons: Rezoning approval is not building or occupancy approval. Budget road/site/fire/water work, carrying cost, opening delays and paid owner-replacement labor; do not equate a rural parcel with easy permits.
 
-Commercial context / review limits: Original venue/publisher material; marketing context. Self-reported story is not verified financial, planning or legal evidence.; Actual original operator HTML/text reviewed; finances self-reported/unverified
+Review limits: Actual original operator HTML/text reviewed; finances self-reported/unverified
 
 ## Danielle Neaves; mother/cofounder discussed, name Unknown
 
@@ -1300,6 +1368,7 @@ Commercial context / review limits: Original venue/publisher material; marketing
 
 - Venue: Small Grand Things
 - Original publication: 2023-12-07
+- Written date: Unknown
 - Update: 2024-03-18
 - Date evidence: Original HTML meta/JSON-LD datePublished 2023-12-07; dateModified 2024-03-18. Displayed Dec 7 alone was insufficient until year metadata checked.
 - Checked UTC: 2026-10-11T13:13:27.384165+00:00
@@ -1311,7 +1380,7 @@ Founder describes leaving corporate employment, formalizing an initial informal 
 
 Lessons: Bookings before completion create date, deposit and delivery obligations; model delay risk, refund liquidity and a complete opening budget.
 
-Commercial context / review limits: Original venue/publisher material; marketing context. Self-reported story is not verified financial, planning or legal evidence.; Actual original operator HTML/text reviewed; finances self-reported/unverified
+Review limits: Actual original operator HTML/text reviewed; finances self-reported/unverified
 
 ## Lisa Fackler; husband/cofounder unnamed in article
 
@@ -1319,6 +1388,7 @@ Commercial context / review limits: Original venue/publisher material; marketing
 
 - Venue: The Promises We Make
 - Original publication: 2024-01-15
+- Written date: Unknown
 - Update: Unknown
 - Date evidence: Displayed publication January 15, 2024 agrees with original HTML time datetime.
 - Checked UTC: 2026-10-11T13:13:27.384165+00:00
@@ -1330,7 +1400,7 @@ In a dated original written interview, owner says the venue/farm was built with 
 
 Lessons: Family labor, land assembled over decades and diversification may subsidize venue startup; cost their labor and assets before using the story as a financial comparable.
 
-Commercial context / review limits: Original venue/publisher material; marketing context. Self-reported story is not verified financial, planning or legal evidence.; Actual original publisher HTML/text reviewed; self-reported figures, no audited financials
+Review limits: Actual original publisher HTML/text reviewed; self-reported figures, no audited financials
 
 ## Jessica Fewster; interviewed by Bethany Barrette / Grey Loft Studio
 
@@ -1338,6 +1408,7 @@ Commercial context / review limits: Original venue/publisher material; marketing
 
 - Venue: Le Belvédère
 - Original publication: 2020-05-20
+- Written date: Unknown
 - Update: Unknown
 - Date evidence: Original publisher page displays May 20, 2020; historical interview, not current operating results.
 - Checked UTC: 2026-10-11T13:13:27.384165+00:00
@@ -1349,4 +1420,128 @@ Original publisher notes describe business-planning/mortgage difficulties, choos
 
 Lessons: Transport/lodging/food service additions create separate assets, staffing and risk. Verify which revenue lines are actually profitable before bundling them.
 
-Commercial context / review limits: Original venue/publisher material; marketing context. Self-reported story is not verified financial, planning or legal evidence.; Original publisher written show notes reviewed through web reader; direct HTML 403; audio unreviewed
+Review limits: Original publisher written show notes reviewed through web reader; direct HTML 403; audio unreviewed
+
+## Denise and Fulton Lovin; individual post byline Unknown
+
+[How To Turn Your Rural Property Into A Wedding Venue Business](https://whitefencefarmrentals.com/turn-your-rural-property-into-a-wedding-venue-business/)
+
+- Venue: White Fence Farm Wedding & Event Venue
+- Original publication: 2022-02-08
+- Written date: Unknown
+- Update: Unknown
+- Date evidence: Original post displays February8,2022; current About page separately names Denise/Fulton. First-wedding opening date not established.
+- Checked UTC: 2026-10-11T14:26:20.500679+00:00
+- Type: Firsthand operator founding account
+- Jurisdiction: Trade, Tennessee / Boone, North Carolina, US
+- Scale: Blog says over70 acres; current About page says105 acres. Scope/date difference unresolved.
+
+Owners describe an unplanned transition from private rural property into weddings. They tested demand with wedding vendors, invited a planner, developed branding, improved grounds/utilities, replaced portable toilets with two bathrooms after guest feedback, and consulted insurance/legal advisers. Later additions included rentals and lodging.
+
+Lessons: Test demand and guest infrastructure before committing. Budget toilets, power, site maintenance, rentals and ongoing improvements. An attractive parcel alone is not an approved or ready venue.
+
+Review limits: Actual original HTML/text reviewed; promotional context and self-reported facts unverified
+
+Evidence conflicts: Blog acreage over70 versus current About105; do not silently choose a surveyed acreage. Private acquisition/business-start2012 is not a verified exact first-wedding date.
+
+## Heidi Sarnecki / Sarniecki — spelling conflict in original page
+
+[Our Story — farmhouse lodging before the venue](https://www.blackbarnatstonecreek.com/about)
+
+- Venue: Black Barn at Stone Creek
+- Original publication: Unknown
+- Written date: Unknown
+- Update: Unknown
+- Date evidence: Unknown — original publication date not established
+- Checked UTC: 2026-10-11T14:26:20.500679+00:00
+- Type: Firsthand operator founding account
+- Jurisdiction: Rantoul, Kansas, US
+- Scale: Barn/farmhouse venue; actual event capacity and startup budget Unknown
+
+Owner recounts searching for rural property in2020, first running the farmhouse as an Airbnb, then restoring the barn as a wedding/event space. Current page advertises retreats and community events as well. It says owners personally support nonprofits while operating-profit donations are not yet available; no audited profit figure disclosed.
+
+Lessons: Separate lodging permissions from event permissions. Model multiple event uses, restoration, guest service and ongoing staffing; promotional mission statements do not establish profitability.
+
+Review limits: Actual original HTML/text reviewed; promotional context and self-reported facts unverified
+
+Evidence conflicts: Owner heading HEIDI SARNECKI versus self-introduction Heidi Sarniecki. Director heading Amy Copeland versus paragraph Paxton Dawson. Do not assign conflicting team names or derive opening date from2025 copyright.
+
+## Marisa and the Vieira family; parents Dino/Nancy and husband Jeffrey discussed
+
+[Our Story — family land and a B&B expanding into weddings](https://owlgrove.ca/about/)
+
+- Venue: Owl Grove
+- Original publication: Unknown
+- Written date: Unknown
+- Update: Unknown
+- Date evidence: Unknown — original publication date not established
+- Checked UTC: 2026-10-11T14:26:20.500679+00:00
+- Type: Firsthand operator founding account
+- Jurisdiction: Sooke, Vancouver Island, British Columbia, Canada
+- Scale: Family countryside venue with cabins; approved capacity and project budget Unknown
+
+Marisa recounts family development of the property and a2019 B&B launch, followed by plans for a wedding venue. The undated page mentions a cabin coming in2025 and a formal venue opening, but does not establish an exact wedding-opening date or original publication date.
+
+Lessons: Separate family-land construction, B&B operation and wedding-launch milestones. Historic or familial land use does not establish commercial event permissions or a transferable operating duration.
+
+Review limits: Actual original HTML/text reviewed; promotional context and self-reported facts unverified
+
+## Richard Shell; interviewed by Eamonn Crowe
+
+[Down the Rabbit Hole — wedding operator diversifies into a hotel](https://www.boutiquehotelier.com/cloud/2023/08/04/BH-Digital-August.pdf)
+
+- Venue: Doxford Group / Charlton Hall / The Tempus
+- Original publication: 2023-08
+- Written date: Unknown
+- Update: Unknown
+- Date evidence: Magazine cover: August2023, Issue120; exact publication day Unknown. URL upload day not substituted for original publication day.
+- Checked UTC: 2026-10-11T14:26:20.500679+00:00
+- Type: Original publisher interview with venue founder
+- Jurisdiction: Northumberland, England, UK
+- Scale: Two wedding venues plus15-bedroom hotel in the interview
+
+Shell describes opening a barn wedding venue in2015, acquiring Charlton Hall two years later and adding The Tempus hotel to reduce wedding seasonality. He explains heritage-planning constraints and an opening pressured by financing while electricity and air conditioning were unfinished. Family management and a maintenance team participated in construction.
+
+Lessons: Stress-test seasonality and lender timing. Opening readiness needs utility connections, contingencies and completed guest systems. Staff/project-management labor remains material even when family contributes.
+
+Review limits: Actual36-page magazine PDF downloaded; interview pages18–21 text reviewed. Reported financial/operating claims not audited.
+
+## Chris Engelbrecht
+
+[Owner letter on shutdown and event-booking disruption](https://www.champaigncountyil.gov/CountyBoard/CB/2020/200723_Meeting/200723Handouts.pdf#page=3)
+
+- Venue: Engelbrecht Farmstead
+- Original publication: Unknown
+- Written date: 2020-05-17
+- Update: Unknown
+- Date evidence: Letter dated May17,2020; exact original public publication date Unknown. July2020 packet date is not the letter date.
+- Checked UTC: 2026-10-11T14:26:20.500679+00:00
+- Type: Firsthand operator public letter
+- Jurisdiction: Paxton, Illinois, US
+- Scale: Owner-reported average170 guests; not licensed capacity
+
+Owner reports one wedding per weekend, average170 guests and shutdown-related loss of tours/bookings.
+
+Lessons: Include revenue interruption, rescheduling and fixed-cost reserves in feasibility.
+
+Review limits: Original county PDF web-reader page3 reviewed; local original download522 logged, no downloaded PDF claimed.
+
+## Annie Murray; sister/co-owner discussed
+
+[Co-owner letter on event cancellations and employment](https://www.champaigncountyil.gov/CountyBoard/CB/2020/200723_Meeting/200723Handouts.pdf#page=4)
+
+- Venue: LA Gourmet / Pear Tree Estate
+- Original publication: Unknown
+- Written date: Unknown
+- Update: Unknown
+- Date evidence: Individual letter date and original publication date Unknown; hosted in aJuly2020 county packet.
+- Checked UTC: 2026-10-11T14:26:20.500679+00:00
+- Type: Firsthand operator public letter
+- Jurisdiction: Champaign County, Illinois, US
+- Scale: Owner-reported96 bookings; not completed events or verified annual results
+
+Co-owner describes96 booked weddings/events,10 full-time and40–60 part-time staff, and expenses continuing during cancellations. Forecast revenue is not realized profit.
+
+Lessons: Model payroll, suppliers, debt and cancellation exposure separately from booked revenue.
+
+Review limits: Original county PDF web-reader page4 reviewed; local original download522 logged, no downloaded PDF claimed.
