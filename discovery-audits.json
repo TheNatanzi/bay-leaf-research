@@ -1135,5 +1135,63 @@
       "HCCC form2025 upload containsJan2022fees and2016rules; current price Unknown. Historical7PM/8PM cutoff conflict preserved. Lecture capacities are not banquet.",
       "Sunnyvale at least150 is not maximum. Islamic hall300 plus courtyard75 not375 dinner capacity;200/400 fees have unknown time basis. Lodge charter, incorporation, and building inauguration do not establish wedding operating duration."
     ]
+  },
+  {
+    "pass": 20,
+    "question": "What cathedral-associated reception rooms and lodge spaces remain missing, and are ceremony permissions being confused with general rentals?",
+    "scope": "Grace Cathedral ten event-space configurations, Christ the Light indoor/plaza, Sunnyvale Elks, Ascension indexed reception rooms and sourced restricted ceremony",
+    "completed_utc": "2026-10-11T07:23:27.401537+00:00",
+    "source_urls": [
+      "https://gracecathedral.org/private-and-corporate-event-rentals/",
+      "https://gracecathedral.org/weddings/",
+      "https://www.ctlcathedral.org/eventcenter",
+      "https://svelks.org/facility-rental",
+      "https://svelks.org/",
+      "https://ascensioneventcenter.com/",
+      "https://www.ascensioncathedral.com/",
+      "https://www.ascensioncathedral.com/weddings"
+    ],
+    "added_record_ids": [
+      "grace-cathedral-cathedral-nave-san-francisco",
+      "grace-cathedral-great-quire-san-francisco",
+      "grace-cathedral-chapel-of-grace-san-francisco",
+      "grace-cathedral-indoor-labyrinth-san-francisco",
+      "grace-cathedral-wilsey-a-b-c-configuration-san-francisco",
+      "grace-cathedral-chapter-room-san-francisco",
+      "grace-cathedral-dining-room-san-francisco",
+      "grace-cathedral-plaza-san-francisco",
+      "grace-cathedral-gresham-hall-san-francisco",
+      "grace-cathedral-outdoor-labyrinth-san-francisco",
+      "cathedral-of-christ-the-light-lakeside-events-indoor-event-center-configurations-alameda",
+      "cathedral-of-christ-the-light-lakeside-events-outdoor-plaza-alameda",
+      "sunnyvale-elks-lodge-2128-main-banquet-room-santa-clara",
+      "sunnyvale-elks-lodge-2128-backyard-santa-clara",
+      "sunnyvale-elks-lodge-2128-members-bar-santa-clara",
+      "ascension-event-center-richmond-room-alameda",
+      "ascension-event-center-oakland-room-alameda",
+      "ascension-event-center-patio-alameda",
+      "ascension-event-center-platia-alameda",
+      "greek-orthodox-cathedral-of-the-ascension-cathedral-ceremony-alameda"
+    ],
+    "duplicates_merged": [
+      "Grace ten rental spaces are not seven confirmed wedding spaces; shared property/configurations not summed",
+      "Ascension cathedral ceremony separate from adjacent reception halls; church eligibility not imposed automatically on receptions"
+    ],
+    "excluded": [
+      "Grace Calameo brochure returned JavaScript-only: wedding-space mapping and prices not reviewed",
+      "Christ the Light typo over300hundred not interpreted as30000 capacity",
+      "Ascension indoor ***am placeholder not treated as midnight permission; AlbionMichigan homonym excluded"
+    ],
+    "remaining_gaps": [
+      "Direct current Ascension room confirmation, Grace wedding-room mapping, current prices and dinner/dance layouts",
+      "Current catering/bar conditions and time deadlines; all other cultural/faith/private categories",
+      "Every municipality and county inventory remains incomplete"
+    ],
+    "fact_check_findings": [
+      "Grace Quire185header versus175/200body conflict preserved; Nave1300 ceremony/assembly not banquet. Visiting hours not event deadline.",
+      "Christ the Light weekday/weekend booking hours and minimums are not separately verified music deadlines.",
+      "Sunnyvale250 generic banquet-room guests not confirmed dinner-plus-dance; advertised fees lack duration/security.",
+      "Indexed Ascension seated500/max800 separate; maximum occupancy not automatically standing. Cathedral religious eligibility applies to ceremony; adjacent halls need their own terms."
+    ]
   }
 ]

@@ -87,7 +87,12 @@
     "municipality": "Oakland",
     "municipal_rental_status": "Not yet audited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
+    "source_urls": [
+      "https://www.ctlcathedral.org/eventcenter",
+      "https://ascensioneventcenter.com/",
+      "https://www.ascensioncathedral.com/",
+      "https://www.ascensioncathedral.com/weddings"
+    ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
   {
@@ -443,7 +448,9 @@
       "https://ces.sfsu.edu/rates_booking_inquiries",
       "https://www.elks.org/lodges/lodgefacilities.cfm?LodgeNumber=0003",
       "https://www.sfmasonic.com/private-events",
-      "https://cdn.brandfolder.io/IW4GVCQ6/at/gkfgrcrq8p5grx9mtpqx97/The_Masonic_One-Sheet_.pdf"
+      "https://cdn.brandfolder.io/IW4GVCQ6/at/gkfgrcrq8p5grx9mtpqx97/The_Masonic_One-Sheet_.pdf",
+      "https://gracecathedral.org/private-and-corporate-event-rentals/",
+      "https://gracecathedral.org/weddings/"
     ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
@@ -744,7 +751,9 @@
     "municipal_rental_status": "Not yet audited",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
-      "https://bayareahindutemple.org/hall-class-room-booking.php"
+      "https://bayareahindutemple.org/hall-class-room-booking.php",
+      "https://svelks.org/facility-rental",
+      "https://svelks.org/"
     ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
