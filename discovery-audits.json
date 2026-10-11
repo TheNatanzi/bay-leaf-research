@@ -4710,5 +4710,48 @@
       "MarkWest assessment640574 is reported forparcel006 only, not the threeparcel assemblage asking3m. Currentassessor/title/taxyear Unknown. Jenner prior2.99m/3.6m conflictingasks preserved; no new claim fromfailed403fetch.",
       "DirectCBRE/LoopNet403,Colliers/operator522 logged; originalDepot18-pagePDF downloaded. Torrance/Seward andother Depot homonyms excluded. Commercial listing classification notproof operatingwedding rights."
     ]
+  },
+  {
+    "pass": 66,
+    "question": "What parcel-level official evidence was missed, and are repeated multi-parcel sale fields, assessments or effective building years being mistaken for current venue value and age?",
+    "scope": "Sonoma public assessor GIS verification of seven broker-identified parcels",
+    "completed_utc": "2026-10-11T14:40:09.337628+00:00",
+    "source_urls": [
+      "https://socogis.sonomacounty.ca.gov/map/rest/services/AGCOMMPublic/Sonoma_County_Parcels/FeatureServer/0/query?where=APN+IN+%28%27079-060-006%27%2C%27079-060-014%27%2C%27079-060-015%27%2C%27099-112-004%27%2C%27099-113-012%27%2C%27099-120-013%27%2C%27018-121-005%27%29&outFields=APN%2CSitusFormatted1%2CSitusFormatted2%2CSitusStreetNo%2CSitusStreetName%2CSitusStreetType%2CSitusCity%2CLandSizeAcres%2CValue601RollYear%2CValue601Land%2CValue601Structure%2CValue601Fixtures%2CValue601FixturesRP%2CValue601Growing%2CValue601TotalLI%2CValue601PPBusiness%2CValue601NetValue%2CBuildingPrimaryYearBuilt%2CBuildingPrimaryEffectiveYear%2CBuildingPrimarySize%2CSaleRecordingDate%2CSaleDocNum%2CSaleSalesPrice%2CSaleTranserType%2CSaleMultiParcel%2CSalePriorRecordingDate%2CSalePriorDocNum%2CSalePriorSalesPrice%2CSalePriorTransferType%2CSalePriorMultiParcel%2CMegabyteUpdated%2Clast_edited_date&returnGeometry=false&f=pjson",
+      "https://socogis.sonomacounty.ca.gov/map/rest/services/AGCOMMPublic/Sonoma_County_Parcels/FeatureServer/0",
+      "https://socogis.sonomacounty.ca.gov/map/rest/services/CRAPublic/Parcels_Public_Property_Hub_WM/MapServer"
+    ],
+    "added_record_ids": [],
+    "updated_record_ids": [
+      "mark-west-lodge-event-center-wedding-venue-sale-or-lease-lead-sonoma",
+      "jenner-inn-inn-restaurant-event-lawn-acquisition-lead-sonoma",
+      "the-depot-hotel-restaurant-and-garden-sonoma-restaurant-and-garden-wedding-buyout-sonoma",
+      "the-depot-hotel-restaurant-and-garden-sonoma-small-semi-private-wedding-offering-sonoma"
+    ],
+    "duplicates_merged": [
+      "Repeated2002recorded transaction acrossthreeMarkWest parcels countedonce",
+      "TwoDepot offeringrecords shareoneparcel"
+    ],
+    "excluded": [
+      "Current marketvalue fromtaxassessment",
+      "Operating business worthfrompersonalproperty assessment",
+      "Effective buildingyear asactualconstruction/weddingopening",
+      "Null salefields aszero",
+      "Omittedowners fromprivate/internaldata"
+    ],
+    "remaining_gaps": [
+      "Deeds/currenttitle andexactclosing/assetallocation",
+      "Depotbuildingyear conflict",
+      "All other venueparcels/APNs andproperty/businessvaluation",
+      "Event operatingpermissions,completequotes anddinner/dance layouts"
+    ],
+    "fact_check_findings": [
+      "Seven official County of Sonoma parcel records retrieved;four existing venue/space records updated, no new venue count.",
+      "County roll2026 assessment data now have an explicit year. MarkWest006 land192169/structure448405,total640574;014 total185758;015 total12806. These are assessments, not marketvalues or three independent business valuations.",
+      "MarkWest threeparcels repeat ONE recorded2002 transaction1.12m with multiparcel flag; do not sum to3.36m. Exact closing/deedasset scope stillunverified. County1981/1940 building fields nothistoric venueopening.",
+      "Depot018-121-005 situs241FirstStW;2026 land1082432/structure2164864,total3247296. County2021 recordedsale3m separate fromunknown2026 sale completion/currentvalue. Countyprimaryyear1920/effective1975 conflicts with1870heritageclaim; numeric construction year heldUnknown.",
+      "Jenner mainparcel099-120-0131946primary/effectiveyear and2026assessment1086717. Other offeredparcel099-112-0041911primary/1970effective and1991recordedsale175k is notwholeinn sale. Vacantparcel099-113-012 has no situs/building/sale field; null isUnknown, notzero.",
+      "Business personal-property assessment0 is not operating-business value0. No ownership data inferred from omittedowner fields. CountyGIS is general planning reference, not survey/title/event-permit verification. Attribution County of Sonoma retained."
+    ]
   }
 ]
