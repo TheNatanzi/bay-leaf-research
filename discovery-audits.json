@@ -1730,5 +1730,80 @@
       "Actual source PDFs saved, fetch logs retained. No venue values/profits fabricated. County fee agenda aggregate operating deficit is not an individual venue business valuation."
     ],
     "pass": 27
+  },
+  {
+    "pass": 28,
+    "question": "Which Sonoma veterans and arts spaces were missed, and do current dining-with-dance limits, lease closures and vendor policies change the 300–400 guest shortlist?",
+    "scope": "Four county veteran facilities rooms, Guerneville outside-rental closure, Cotati existing room updates, SebArts leased-building rooms/packages",
+    "completed_utc": "2026-10-11T08:28:48.427832+00:00",
+    "source_urls": [
+      "https://sonomacounty.gov/development-services/sonoma-public-infrastructure/divisions/administration-and-renting-facilities/santa-rosa-veterans-memorial-building",
+      "https://sonomacounty.gov/development-services/sonoma-public-infrastructure/divisions/administration-and-renting-facilities/petaluma-veterans-memorial-building",
+      "https://sonomacounty.gov/development-services/sonoma-public-infrastructure/divisions/administration-and-renting-facilities/sonoma-veterans-building",
+      "https://sonomacounty.gov/development-services/sonoma-public-infrastructure/divisions/administration-and-renting-facilities/cloverdale-facility",
+      "https://sonomacounty.gov/development-services/sonoma-public-infrastructure/divisions/administration-and-renting-facilities",
+      "https://sonomacounty.gov/development-services/sonoma-public-infrastructure/divisions/administration-and-renting-facilities/alcohol-policies",
+      "https://sonomacounty.gov/development-services/sonoma-public-infrastructure/divisions/administration-and-renting-facilities/insurance-requirements",
+      "https://sonomacounty.gov/development-services/sonoma-public-infrastructure/divisions/administration-and-renting-facilities/reservation-fees",
+      "https://sonoma-county.legistar.com/View.ashx?GUID=3B443115-A25E-4198-BC52-667DF4589F85&ID=12235395&M=F",
+      "https://sonomacounty.gov/development-services/sonoma-public-infrastructure/divisions/administration-and-renting-facilities/cotati-veterans-memorial-building",
+      "https://sonomacounty.gov/development-services/sonoma-public-infrastructure/divisions/administration-and-renting-facilities/guerneville-veterans-memorial-building",
+      "https://www.sebarts.org/rent-facility",
+      "https://static1.squarespace.com/static/5f2989572bf19a0f534afbc2/t/66c7c0452c9de7216096a777/1724366917690/SebArts+Equipment+Rental+Rate+Sheet+2024+dfoster+update+8_21+-+Sheet1.pdf"
+    ],
+    "added_record_ids": [
+      "santa-rosa-veterans-memorial-building-auditorium-sonoma",
+      "santa-rosa-veterans-memorial-building-lodge-room-sonoma",
+      "santa-rosa-veterans-memorial-building-dining-room-sonoma",
+      "santa-rosa-veterans-memorial-building-north-room-sonoma",
+      "santa-rosa-veterans-memorial-building-judges-chambers-sonoma",
+      "santa-rosa-veterans-memorial-building-conference-room-sonoma",
+      "petaluma-veterans-memorial-building-auditorium-sonoma",
+      "petaluma-veterans-memorial-building-banquet-room-sonoma",
+      "petaluma-veterans-memorial-building-conference-room-a-sonoma",
+      "petaluma-veterans-memorial-building-conference-room-b-sonoma",
+      "sonoma-veterans-memorial-building-auditorium-sonoma",
+      "sonoma-veterans-memorial-building-dining-room-sonoma",
+      "cloverdale-veterans-memorial-building-auditorium-sonoma",
+      "cloverdale-veterans-memorial-building-trophy-room-with-bar-restricted-sonoma",
+      "guerneville-veterans-memorial-building-building-not-available-for-rental-sonoma",
+      "sebastopol-center-for-the-arts-veterans-memorial-building-brent-auditorium-sonoma",
+      "sebastopol-center-for-the-arts-veterans-memorial-building-little-red-hen-dining-room-sonoma",
+      "sebastopol-center-for-the-arts-veterans-memorial-building-fireside-room-sonoma",
+      "sebastopol-center-for-the-arts-veterans-memorial-building-ron-and-bev-judd-patio-sonoma",
+      "sebastopol-center-for-the-arts-veterans-memorial-building-package-1-brent-auditorium-full-day-sonoma",
+      "sebastopol-center-for-the-arts-veterans-memorial-building-package-2-dining-room-and-patio-sonoma",
+      "sebastopol-center-for-the-arts-veterans-memorial-building-package-3-auditorium-dining-room-and-patio-sonoma"
+    ],
+    "updated_record_ids": [
+      "cotati-veterans-memorial-building-auditorium-sonoma",
+      "cotati-veterans-memorial-building-veterans-memorial-room-meetings-only-sonoma"
+    ],
+    "duplicates_merged": [
+      "Cotati two existing rooms enriched",
+      "SebArts/Veterans building is one leased property; package configurations overlap rooms"
+    ],
+    "excluded": [
+      "Kitchen and parking-only schedules not independent wedding venues",
+      "Guerneville not available to outside renters",
+      "No midnight permission inferred from after-1AM charges",
+      "Indexed 2024 tourism PDF actual404 not archived/current quote"
+    ],
+    "remaining_gaps": [
+      "All-nine-county census incomplete",
+      "Current signed event/music/cleanup permissions and complete quotes",
+      "Current parcel/title/land/lease value and opening/operator histories",
+      "Room layout/ADA/weather verification, direct review scores"
+    ],
+    "fact_check_findings": [
+      "Current county rates explicitly effective July 1, 2026 supersede unsigned proposed 2025 rate assumptions. Santa Rosa auditorium 500 dining WITH dancing vs 653 meal / 1,000 no-table seats / 1,200 assembly; Petaluma 375 dine-and-dance vs 450 dining / 800 no-table. Sonoma auditorium 250 dine-and-dance despite 300 dining / 700 assembly; Cloverdale 70 dine-and-dance vs 137 dining / 250 seated.",
+      "Cotati existing rooms enriched, not duplicated: 125 auditorium dine-and-dance, 153 dining. County after-1AM charge and one-hour weekday minimum conflict with city packet midnight exit/two-hour minimum; city meeting-room private-party prohibition retained. After-1AM pricing anywhere is not midnight music permission.",
+      "Guerneville expressly not taking outside rentals, leased to West County Community Services; retained as closed/restricted, not vacant operating site. County building inventory visually reviewed provides dated-source building years and raw parcel identifiers; current title/values remain Unknown.",
+      "County alcohol rules: 100+ private attendees require licensed off-premise liquor caterer/common bar, max five hours; last pour one hour before end except <=three-hour events; $100 below250/$200 at250+ venue alcohol fee, not beverage cost. Staff-only furniture setup fee and refundable/credited deposits distinct. Reservation 14-day hold versus 10-day late-fee clause retained.",
+      "Petaluma explicitly no air conditioning; generic headline capacity insufficient for heat/weather/dance planning. 23,600 vs23,800 square-foot source discrepancy retained. Sonoma remodel1992 not original year/wedding start.",
+      "SebArts is county-building leased operator, not separate Veterans property. Four rooms and three packages added; 146 auditorium seating not proven banquet. Generic dining-room 50–120 / Fireside10–40 not exact meal capacities; patio Unknown. 2026 equipment link delivers actual PDF headed2024: current inventory/rates held. Two paid hours plus complimentary hour is access duration, not midnight permission; package12-hour max. Class/ticket footer cancellation policy not assumed venue rental policy.",
+      "Petaluma 2024 tourism PDF indexed but actual source404; no successful archive/current facts claimed. Original HTML downloads for current county pages successful200 despite web reader error; archived source and fetch log distinguish tool failures.",
+      "No venue market/business valuation or competitor profits inferred from county aggregate operating results; infrastructure inventory does not establish sale availability or transferable lease."
+    ]
   }
 ]
