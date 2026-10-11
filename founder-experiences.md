@@ -1,6 +1,6 @@
 # Founder and operator experiences
 
-43 reading records; incomplete. Original publication/update dates are separate from check dates and venue milestones. Written publisher summaries are labeled; audio was not independently reviewed. Promotional/survivor bias remains. Self-reported foreign/historical costs are not Bay Area estimates.
+44 reading records; incomplete. Original publication/update dates are separate from check dates and venue milestones. Written publisher summaries are labeled; audio was not independently reviewed. Promotional/survivor bias remains. Self-reported foreign/historical costs are not Bay Area estimates.
 
 ## Karri Jablonski
 
@@ -818,3 +818,22 @@ Shane describes married life, five children, the relationship between their home
 Lessons: Consider privacy, family time and long-term maintenance when the venue is also the family home.
 
 Commercial context / review limits: Operator’s own venue marketing site; self-reported history and lessons, no independently audited finances.
+
+
+## Mark and the founding family — full names and individual byline Unknown
+
+[About Nestldown — Our Story](https://www.nestldown.com/about-nestldown/)
+
+- Venue: Nestldown
+- Original publication: 2020-08-04
+- Update: 2026-08-25
+- Checked UTC: 2026-10-11T10:18:24.962060+00:00
+- Type: Firsthand operator written account
+- Jurisdiction: Los Gatos area, Santa Clara County, California
+- Date evidence: Original page datePublished/dateModified metadata; revised story contains later events. Story milestones are not article publication dates.
+
+The family describe acquiring an old fruit ranch in 1991, extensive restoration while working other jobs, and living temporarily in a converted shed. Personal and nonprofit gatherings led to wedding requests. They report a ten-year permitting process after county intervention; exact permit dates and issued conditions were not independently verified. Their children subsequently joined operations.
+
+Lessons: Check permitted commercial use before acquiring or hosting paid events; budget restoration, housing disruption, founder labor and a potentially lengthy approval process.
+
+Review limits: Original operator marketing page; self-reported experience, no audited financial records. The story names Mark but has no individual full-name byline.

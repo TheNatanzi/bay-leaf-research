@@ -797,5 +797,24 @@
     "review_status": "Original operator page downloaded and written account reviewed; publication metadata checked",
     "startup_cost": null,
     "profit": null
+  },
+  {
+    "author": "Mark and the founding family — full names and individual byline Unknown",
+    "venue": "Nestldown",
+    "title": "About Nestldown — Our Story",
+    "url": "https://www.nestldown.com/about-nestldown/",
+    "published": "2020-08-04",
+    "updated_date": "2026-08-25",
+    "date_status": "Original page datePublished/dateModified metadata; revised story contains later events. Story milestones are not article publication dates.",
+    "geography": "Los Gatos area, Santa Clara County, California",
+    "type": "Firsthand operator written account",
+    "summary": "The family describe acquiring an old fruit ranch in 1991, extensive restoration while working other jobs, and living temporarily in a converted shed. Personal and nonprofit gatherings led to wedding requests. They report a ten-year permitting process after county intervention; exact permit dates and issued conditions were not independently verified. Their children subsequently joined operations.",
+    "scale": "Family property conversion; this account provides no audited investment or approved guest capacity.",
+    "lessons": "Check permitted commercial use before acquiring or hosting paid events; budget restoration, housing disruption, founder labor and a potentially lengthy approval process.",
+    "commercial_context": "Original operator marketing page; self-reported experience, no audited financial records. The story names Mark but has no individual full-name byline.",
+    "checked_utc": "2026-10-11T10:18:24.962060+00:00",
+    "review_status": "Original HTML and written account reviewed; original publication and update metadata checked",
+    "startup_cost": null,
+    "profit": null
   }
 ]
