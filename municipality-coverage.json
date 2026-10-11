@@ -382,8 +382,10 @@
     "municipality": "San Rafael",
     "municipal_rental_status": "Not yet audited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://www.marincenter.marincounty.gov/facilities-rental"
+    ],
+    "remaining": "Partialcounty-culturalcampusreview; municipal/private inventory and currentlayout/quote/permission/history/value gaps remain."
   },
   {
     "county": "Marin",

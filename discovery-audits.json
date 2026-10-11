@@ -1990,5 +1990,63 @@
       "Tuckerexistingrecordnotduplicated,actual6pagepacketvisuallyreviewed.175providedchairs vs150–180dining,10PMmusic/bar/nooutdoormusic,10:30PMevent/midnightcleanup distinct. Setup/cleanuplabor/security/insurance/cancellation enrichesworkbook; currentlawsnotassertedfromoperatornoiseclaim.",
       "CalistogaCommunityexistingrecordupdated80generic/currentquoteUnknown. StHelenaroomfee-categoryname mappingunresolved; filmingCarnegie$500/day sectionnotusedaseventrentalfee. No market/property/businessprofit values invented."
     ]
+  },
+  {
+    "pass": 31,
+    "question": "Which Marin county cultural-campus rooms, outdoor grounds and reception configurations were missed, and does current web guidance conflict with old linked packets?",
+    "scope": "Marin Center county campus and historical reception add-ons",
+    "completed_utc": "2026-10-11T08:59:05.318162+00:00",
+    "source_urls": [
+      "https://www.marincenter.marincounty.gov/facilities-rental",
+      "https://www.marincenter.marincounty.gov/facilities-rental/indoor-venue-rental-fees-and-rates",
+      "https://www.marincenter.marincounty.gov/facilities-rental/facilities-rental-policies",
+      "https://www.marincenter.marincounty.gov/facilities-rental/facilities-rental-policies/stagehand-rates",
+      "https://assets.marincounty.gov/marin_center-prod/public/2025-01/eh-kit-rental-packet-07_2019_.pdf",
+      "https://www.marincenter.marincounty.gov/facilities-rental/outdoor-venue-rental-fees-and-rates",
+      "https://assets.marincounty.gov/marin_center-prod/public/2025-01/fg-lp-rental-packet-07_2019_.pdf",
+      "https://www.marincenter.marincounty.gov/facilities-rental/meeting-room-rental-fees-and-rates",
+      "https://assets.marincounty.gov/marin_center-prod/public/2025-01/mtgrms-rental-packet-07_2019_.pdf",
+      "https://assets.marincounty.gov/marin_center-prod/public/2025-01/vma-rental-packet-07_2019_.pdf"
+    ],
+    "added_record_ids": [
+      "marin-center-veterans-memorial-auditorium-marin",
+      "marin-center-showcase-theater-marin",
+      "marin-center-exhibit-hall-marin",
+      "marin-center-fairgrounds-marin",
+      "marin-center-lagoon-park-marin",
+      "marin-center-fairgrounds-island-marin",
+      "marin-center-friends-of-marin-center-conference-room-marin",
+      "marin-center-manzanita-room-marin",
+      "marin-center-green-room-marin",
+      "marin-center-toyon-room-marin",
+      "marin-center-redwood-foyer-marin",
+      "marin-center-redwood-foyer-terrace-marin",
+      "marin-center-auditorium-plaza-marin"
+    ],
+    "updated_record_ids": [],
+    "duplicates_merged": [
+      "All13configurations share one county campus",
+      "Reception add-ons not independentproperties",
+      "Kitchen/parking incidental inventory not standaloneweddingvenue"
+    ],
+    "excluded": [
+      "No2001theaterseats assumedbanquet",
+      "No6000outdoor genericguests assumeddiners",
+      "No2019packet treated as2025policy basedupload",
+      "Noovertimefee treatedaspermission"
+    ],
+    "remaining_gaps": [
+      "Allninecountyinventoryincomplete",
+      "Currentmusic/catering/bar/contract/layout/totalquotes",
+      "Currentavailability and reception-add-on rates",
+      "Buildinghistory/title/value/reviewratings Unknown"
+    ],
+    "fact_check_findings": [
+      "Eight main campus offerings plus five historical reception add-ons; not13 independentproperties. Exhibit1000dining differs5000standing/2000theater; dinner+danceunknown. Fixedtheatersnotbanquet and Showcase348overview/300feepage conflict.",
+      "Currentwebpage dates2026-09-02 indoor versus2025-08-12 outdoor/meeting. LinkedPDFs July2019 despiteJanuary2025upload; historicaladd-onratesheldoutofcurrentper-head. DirectHTML/PDF downloads403 logged; web-reader evidence, no actualdownload/visualreview claimed.",
+      "Exhibit access7AM–1AM notmusicpermission; oldpolicy above250/extensivesetuprequiresfullsetupday. 3450+1675=5125selectedspace/setupsubtotal, kitchen425separate; notallin quote. DepositcreditUnknown, refundablecleaningnotexpense.",
+      "Outdoor8AM–8PMaccess; overtimefee notmidnightpermission. Meetingrooms72/150configuration-dependentnotbanquet. Old Exhibit-linkedmeetingdiscounts absentcurrentwebpages; Auditoriumcurrentdayaccessversusoldnon-ticketedblockconflict.",
+      "Technicalstaffrequiresquote, currentunionratesvalidthroughJuly6,2027; minimumcalls/overtime/payrollextra. Morethan50personassemblyneedspermitcoordination. Food/barconstraintsJuly2019notunrestrictedBYOB; currentapprovalneeded. Noproperty/businessvalue/operatingprofit invented."
+    ]
   }
 ]
