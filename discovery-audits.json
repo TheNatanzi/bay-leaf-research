@@ -795,5 +795,54 @@
     "fact_check_findings": [
       "Tucker PDF pages1and3 visually checked: midnight is cleanup,10pm music/bar, not a midnight wedding. Construction1921 separately sourced. Yountville advertised package includes refundable deposit, so stored as cash requirement and not per-head expense. Crane Park prohibits amplified music and has conflicting6am/7am access text."
     ]
+  },
+  {
+    "pass": 15,
+    "question": "What other western Contra Costa municipal halls, clubhouses and auditorium rooms have we missed?",
+    "scope": "El Cerrito and Richmond source inventories; Hercules held as blocked coverage gap",
+    "completed_utc": "2026-10-11T05:45:04.254490+00:00",
+    "source_urls": [
+      "https://elcerrito.gov/619/Facility-Rental",
+      "https://elcerrito.gov/DocumentCenter/View/13871/Clubhouse-Rental-Conditions-2020-Fillable",
+      "https://www.ci.richmond.ca.us/3094/Forms",
+      "https://www.ci.richmond.ca.us/DocumentCenter/View/41536/Convention-Center-Room-Capacity",
+      "https://www.ci.richmond.ca.us/DocumentCenter/View/56865/Community-Center-Rates"
+    ],
+    "added_record_ids": [
+      "el-cerrito-community-center-social-hall-and-skylight-room-contra-costa",
+      "arlington-park-arlington-clubhouse-contra-costa",
+      "castro-park-castro-clubhouse-b-contra-costa",
+      "hana-gardens-hana-gardens-community-room-contra-costa",
+      "richmond-memorial-auditorium-convention-center-main-floor-contra-costa",
+      "richmond-memorial-auditorium-convention-center-main-lobby-contra-costa",
+      "richmond-memorial-auditorium-convention-center-bermuda-room-contra-costa",
+      "richmond-memorial-auditorium-convention-center-catalina-room-contra-costa",
+      "richmond-memorial-auditorium-convention-center-drummond-room-contra-costa",
+      "richmond-memorial-auditorium-convention-center-emerald-room-contra-costa",
+      "richmond-memorial-auditorium-convention-center-farallon-room-contra-costa",
+      "richmond-memorial-auditorium-convention-center-governor-room-contra-costa",
+      "richmond-recreation-complex-social-hall-contra-costa",
+      "richmond-recreation-complex-gymnasium-social-events-contra-costa",
+      "booker-t-anderson-community-center-multipurpose-room-contra-costa",
+      "booker-t-anderson-community-center-gymnasium-social-events-contra-costa",
+      "nevin-community-center-social-hall-contra-costa",
+      "nevin-community-center-multipurpose-room-contra-costa",
+      "shields-reid-community-center-social-hall-contra-costa",
+      "shields-reid-community-center-multipurpose-room-contra-costa",
+      "parchester-community-center-social-hall-contra-costa",
+      "point-richmond-community-center-multipurpose-room-contra-costa"
+    ],
+    "duplicates_or_grouping": [
+      "Eight auditorium rooms grouped under one parent; community-center rooms grouped by building. No parent/room counts or capacities summed."
+    ],
+    "exclusions_or_restrictions": [
+      "Conference rooms treated as auxiliary pending independent ceremony/reception suitability. Canyon Trail appears only in linked2020 conditions, absent current rental inventory: held pending active status. Hercules full page403; no fabricated inventory. Pool/sports-only spaces not added."
+    ],
+    "remaining_gaps": [
+      "Richmond current site closures, comprehensive2026rates, restaurant/faith/private operators; El Cerrito picnic inventory, current signed policies; Hercules authoritative full inventory."
+    ],
+    "fact_check_findings": [
+      "Richmond capacity PDF visually checked: Main Floor650tables/chairs versus1800standing, not equivalent. Bermuda200tables versus170chairs contradiction flagged. El Cerrito current30Castro versus2020policy32 discrepancy retained. Linked2020music sunset restriction kept separate from10pmdeparture; no midnight claim. Sonoma current agency/code verified separately, no new venues counted for legal research."
+    ]
   }
 ]

@@ -156,18 +156,23 @@
   {
     "county": "Contra Costa",
     "municipality": "El Cerrito",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial source review",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://elcerrito.gov/619/Facility-Rental",
+      "https://elcerrito.gov/DocumentCenter/View/13871/Clubhouse-Rental-Conditions-2020-Fillable"
+    ],
+    "remaining": "Current policy, wedding approval, full price, all remaining public/private operator inventories; incomplete"
   },
   {
     "county": "Contra Costa",
     "municipality": "Hercules",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Official source located; full page blocked",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://www.herculesca.gov/government/parks-recreation/facility-rentals"
+    ],
+    "remaining": "Current policy, wedding approval, full price, all remaining public/private operator inventories; incomplete"
   },
   {
     "county": "Contra Costa",
@@ -236,10 +241,14 @@
   {
     "county": "Contra Costa",
     "municipality": "Richmond",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial source review",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://www.ci.richmond.ca.us/3094/Forms",
+      "https://www.ci.richmond.ca.us/DocumentCenter/View/41536/Convention-Center-Room-Capacity",
+      "https://www.ci.richmond.ca.us/DocumentCenter/View/56865/Community-Center-Rates"
+    ],
+    "remaining": "Current policy, wedding approval, full price, all remaining public/private operator inventories; incomplete"
   },
   {
     "county": "Contra Costa",
