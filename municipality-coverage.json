@@ -4,7 +4,10 @@
     "municipality": "Alameda",
     "municipal_rental_status": "Not yet audited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
+    "source_urls": [
+      "https://uss-hornet.org/rentals/",
+      "https://uss-hornet.org/wp-content/uploads/2024/07/Events-Rental-Booklet.pdf"
+    ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
   {
@@ -23,7 +26,8 @@
     "source_urls": [
       "https://berkeleyca.gov/city-services/event-permits-rentals/event-and-facility-rentals",
       "https://botanicalgarden.berkeley.edu/private-rentals/weddings/",
-      "https://botanicalgarden.berkeley.edu/private-rentals/weddings/ceremony-and-reception/"
+      "https://botanicalgarden.berkeley.edu/private-rentals/weddings/ceremony-and-reception/",
+      "https://lawrencehallofscience.org/visitors/facility-rentals/"
     ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
@@ -356,7 +360,10 @@
     "municipality": "Ross",
     "municipal_rental_status": "Not yet audited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
+    "source_urls": [
+      "https://maringarden.org/booking-information/",
+      "https://maringarden.org/historic-timeline/"
+    ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
   {
@@ -419,7 +426,10 @@
     "municipal_rental_status": "Partial inventory imported; room/site terms remain unknown",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
-      "https://www.cityofnapa.org/376/Parks-Facilities-Reservations"
+      "https://www.cityofnapa.org/376/Parks-Facilities-Reservations",
+      "https://www.dirosaart.org/weddings-and-private-events/private-events-rentals/",
+      "https://www.dirosaart.org/weddings-and-private-events/weddings-elopements/",
+      "https://www.dirosaart.org/visit/"
     ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
@@ -429,7 +439,10 @@
     "municipal_rental_status": "Partial source review; specific permissions/room coverage incomplete",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
-      "https://www.cityofsthelena.gov/Facilities/Facility/Details/Carnegie-Building-1"
+      "https://www.cityofsthelena.gov/Facilities/Facility/Details/Carnegie-Building-1",
+      "https://napavalleymuseum.org/pages/rent-the-museum",
+      "https://cdn.shopify.com/s/files/1/0660/4462/5046/files/Rent_the_Museums_Both_11_24_2025.pdf?v=1764048461",
+      "https://napavalleymuseum.org/pages/plan-your-visit-to-napa-valley-museum-of-art-and-culture"
     ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
@@ -439,7 +452,10 @@
     "municipal_rental_status": "Partial source review; specific permissions/room coverage incomplete",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
-      "https://www.yountvilleevents.com/spaces"
+      "https://www.yountvilleevents.com/spaces",
+      "https://napavalleymuseum.org/pages/rent-the-museum",
+      "https://cdn.shopify.com/s/files/1/0660/4462/5046/files/Rent_the_Museums_Both_11_24_2025.pdf?v=1764048461",
+      "https://napavalleymuseum.org/pages/plan-your-visit-to-napa-valley-museum-of-yountville"
     ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
@@ -602,7 +618,12 @@
     "municipality": "San Carlos",
     "municipal_rental_status": "Not yet audited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
+    "source_urls": [
+      "https://www.hiller.org/private-events/",
+      "https://www.hiller.org/private-events/museum-venue-options/",
+      "https://www.hiller.org/private-events/packages-and-pricing/",
+      "https://www.hiller.org/wp-content/uploads/Copy-of-2026-SPRINGSUMMER-RENTAL.pdf"
+    ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
   {

@@ -1496,5 +1496,87 @@
       "OMCA operator FAQ states City owns museum buildings; APN/land title, transfer/commercial operating rights and values remain Unknown. Operator outdoor sound cutoff 10PM is not independently verified law. No commercial Zestimate or invented profit.",
       "Direct restaurant pages/PDFs archived successfully; OMCA pages readable through web tool but direct downloads HTTP 403. Failure recorded, not represented as archived success. History/valuation dates remain Unknown where insufficient evidence."
     ]
+  },
+  {
+    "pass": 25,
+    "question": "What art gardens, science/aviation museums, museum ships and exhibition-dependent spaces have we missed, and are their advertised fees and availability still applicable?",
+    "scope": "Ross MAGC; Napa/Yountville/St. Helena museums; UC Berkeley Lawrence; San Carlos Hiller; Alameda Hornet",
+    "completed_utc": "2026-10-11T08:03:43.581772+00:00",
+    "source_urls": [
+      "https://maringarden.org/booking-information/",
+      "https://maringarden.org/historic-timeline/",
+      "https://napavalleymuseum.org/pages/rent-the-museum",
+      "https://cdn.shopify.com/s/files/1/0660/4462/5046/files/Rent_the_Museums_Both_11_24_2025.pdf?v=1764048461",
+      "https://napavalleymuseum.org/pages/plan-your-visit-to-napa-valley-museum-of-yountville",
+      "https://napavalleymuseum.org/pages/plan-your-visit-to-napa-valley-museum-of-art-and-culture",
+      "https://www.dirosaart.org/weddings-and-private-events/private-events-rentals/",
+      "https://www.dirosaart.org/weddings-and-private-events/weddings-elopements/",
+      "https://www.dirosaart.org/visit/",
+      "https://lawrencehallofscience.org/visitors/facility-rentals/",
+      "https://www.hiller.org/private-events/",
+      "https://www.hiller.org/private-events/museum-venue-options/",
+      "https://www.hiller.org/private-events/packages-and-pricing/",
+      "https://www.hiller.org/wp-content/uploads/Copy-of-2026-SPRINGSUMMER-RENTAL.pdf",
+      "https://uss-hornet.org/rentals/",
+      "https://uss-hornet.org/wp-content/uploads/2024/07/Events-Rental-Booklet.pdf"
+    ],
+    "added_record_ids": [
+      "marin-art-and-garden-center-livermore-pavilion-future-celebration-plaza-marin",
+      "marin-art-and-garden-center-the-studio-marin",
+      "marin-art-and-garden-center-the-grove-marin",
+      "marin-art-and-garden-center-gazebo-lawn-marin",
+      "marin-art-and-garden-center-fountain-pond-marin",
+      "marin-art-and-garden-center-garden-patio-marin",
+      "marin-art-and-garden-center-redwood-amphitheater-marin",
+      "napa-valley-museum-yountville-museum-buyout-napa",
+      "napa-valley-museum-yountville-main-gallery-including-terrace-napa",
+      "napa-valley-museum-yountville-outdoor-terrace-only-napa",
+      "napa-valley-museum-yountville-history-gallery-lower-level-napa",
+      "napa-valley-museum-of-art-culture-the-mac-main-gallery-and-lobby-rental-napa",
+      "di-rosa-contemporary-art-reserve-napa-gallery-1-lounge-and-patio-napa",
+      "di-rosa-contemporary-art-reserve-napa-the-courtyard-napa",
+      "di-rosa-contemporary-art-reserve-napa-the-olive-grove-napa",
+      "di-rosa-contemporary-art-reserve-napa-around-campus-outdoor-areas-aggregate-lead-napa",
+      "lawrence-hall-of-science-uc-berkeley-private-event-rental-offering-alameda",
+      "hiller-aviation-museum-entire-museum-rental-san-mateo",
+      "hiller-aviation-museum-atrium-san-mateo",
+      "hiller-aviation-museum-museum-gallery-san-mateo",
+      "hiller-aviation-museum-doyle-conference-room-san-mateo",
+      "hiller-aviation-museum-hall-of-fame-room-san-mateo",
+      "hiller-aviation-museum-courtyard-patio-san-mateo",
+      "uss-hornet-sea-air-space-museum-flight-deck-alameda",
+      "uss-hornet-sea-air-space-museum-hangar-deck-bays-1-2-and-3-alameda",
+      "uss-hornet-sea-air-space-museum-hangar-bay-3-alameda",
+      "uss-hornet-sea-air-space-museum-officers-wardroom-alameda",
+      "uss-hornet-sea-air-space-museum-cpo-mess-alameda",
+      "uss-hornet-sea-air-space-museum-fantail-alameda",
+      "uss-hornet-sea-air-space-museum-captain-s-conference-room-alameda"
+    ],
+    "duplicates_merged": [
+      "Marin Art and Garden Center differs from existing Landmarks Art and Garden Center; no homonym merge",
+      "Hiller whole museum and room configurations overlap",
+      "Hornet Hangar Bay 3 is included in full Hangar Deck, capacities not summed",
+      "Napa main gallery includes terrace, whole buyout overlaps spaces"
+    ],
+    "excluded": [
+      "Hiller Boeing 747 filming attraction / simulator throughput not separate wedding rooms",
+      "Napa parking lots listed only as parking, not fabricated wedding venues",
+      "Expired Hiller February–September $18 rate not current",
+      "Chabot room/package expansion deferred to detailed Pass 26",
+      "Unnamed di Rosa campus areas remain aggregate; San Francisco campus not assigned Napa site terms"
+    ],
+    "remaining_gaps": [
+      "Museum inventory, exact contemporary permission and approved dance/rain layouts incomplete",
+      "Construction/wedding/operator dates, parcel/title/business rights/values unknown unless specific evidence",
+      "Remaining nine-county municipal/private/unconventional coverage incomplete"
+    ],
+    "fact_check_findings": [
+      "Marin Art and Garden Center is distinct from Landmarks Art and Garden Center. Livermore Pavilion under renovation, future Celebration Plaza bookings from April 2027; Studio/Amphitheater 1948 and Pavilion 1957 construction from operator timeline. 1945 incorporation and 1980s–1990s wedding activity do not establish opening/duration.",
+      "Hiller standard whole museum $20/person minimum $2,000, $650 cleaning, required security extra; $500 refundable deposit separate, four event hours and $500 additional hour. Outside caterer allowed after advance approval meeting. Linked $18 special expired September 2026 and is not current.",
+      "Napa current linked one-page packet visually checked: MAC $2,500/four hours, $500 extra hour and no rental past midnight, but music/bar/cleanup Unknown; 50 meal / 150 standing. Yountville gallery $2,500/165 seated, terrace $1,500/200, history $1,500/90, buyout $5,000; duration of these offerings Unknown. Old 2022-upload gallery rates/capacities kept separate.",
+      "di Rosa Gallery 1 food/drink prohibited within exhibition, allowed areas need confirmation; capacity fluctuates with exhibition. 1886 is adjacent residence, not courtyard or wedding business age. Other campus areas remain aggregate until approved rentals known.",
+      "Hornet booklet actual capacity tables reviewed: Flight 2,000 seated versus 3,000 reception; Hangar 1,600 versus 2,500; Bay 3 650 versus 1,200. Museum ship history and military ceremony conditions do not establish civilian wedding cutoff, property/title or business value.",
+      "Actual source downloads/logs retained; Hiller/di Rosa/Hornet HTML 403 failures labeled, not claimed archived. Chabot 30-page current packet downloaded and held for separate detailed pass; no rushed room/package prices imported."
+    ]
   }
 ]
