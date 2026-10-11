@@ -275,8 +275,12 @@
     "municipality": "Moraga",
     "municipal_rental_status": "Not yet audited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://www.wedgewoodweddings.com/venues/hacienda-de-las-flores",
+      "https://www.moraga.ca.us/242/Hacienda-de-las-Flores/pricing",
+      "https://www.moraga.ca.us/DocumentCenter/View/6040/Council-06-23-21-Wedgewood-Lease-Agreement-at-the-Hacienda-PDF"
+    ],
+    "remaining": "Partial government/private inventory; site-specific weddings/layouts, contracts, parcel/history/value and reviews incomplete"
   },
   {
     "county": "Contra Costa",
@@ -619,9 +623,21 @@
       "https://www.fairmont.com/en/hotels/san-francisco/fairmont-san-francisco/weddings.html",
       "https://www.fairmont.com/content/dam/brands/fai/hotels/america/us/san-francisco/a576/msa_d_0000688.pdf",
       "https://www.hyatt.com/hyatt-regency/en-US/sford-hyatt-regency-san-francisco-downtown-soma/weddings",
-      "https://www.hyatt.com/hyatt-regency/en-US/sford-hyatt-regency-san-francisco-downtown-soma/reviews"
+      "https://www.hyatt.com/hyatt-regency/en-US/sford-hyatt-regency-san-francisco-downtown-soma/reviews",
+      "https://presidio.gov/venues/western-lawn-venue",
+      "https://wp.presidio.gov/wp-content/uploads/2026/01/Current-Outdoor-Events-Permit-Fee-Schedule-Accessible.pdf",
+      "https://wp.presidio.gov/wp-content/uploads/2024/04/Rules-for-Special-Use-Permit_Final_Updated-2024-Accessible.pdf",
+      "https://wp.presidio.gov/wp-content/uploads/2023/08/Sustainable-Event-Requirements-Accessible.pdf",
+      "https://presidio.gov/venues/east-meadow-venue/",
+      "https://presidio.gov/venues/graham-street-lawn/",
+      "https://presidio.gov/venues/civil-war-parade-ground-venue/",
+      "https://presidio.gov/venues/main-parade-lawn-venue/",
+      "https://home.nps.gov/prsf/learn/historyculture/crissy-field-historic-airplane-hangars.htm",
+      "https://www.parksconservancy.org/donate/trails-forever-dinner-2023",
+      "https://presidio.gov/about/press/fieldwork-brewing-company-signs-lease-in-the-presidio",
+      "https://presidio.gov/lease-an-office"
     ],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "remaining": "Partial government/private inventory; site-specific weddings/layouts, contracts, parcel/history/value and reviews incomplete"
   },
   {
     "county": "San Mateo",

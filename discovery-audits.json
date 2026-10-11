@@ -2991,5 +2991,77 @@
       "Flores dinner PDF lacks base meal price, lists 4% plus 20% fees; no all-in figure invented",
       "FJL Patio 100 PDF versus 80 webpage conflict held; 18% gratuity and tax excluded; menu label September2026 not exact publication date"
     ]
+  },
+  {
+    "pass": 44,
+    "question": "What federal lawn, hangar, planned restaurant and municipal operating-lease venues were missed, and which similar names or historic terms could mislead the business model?",
+    "scope": "Presidio lawns, partial/combined configurations, campground, hangar, chapel and future Fieldwork restaurant; Mavericks House layouts; Hacienda seasonal configurations and Casita. Nineteen offering records and three existing building-history enrichments.",
+    "completed_utc": "2026-10-11T11:21:07.750534+00:00",
+    "source_urls": [
+      "https://presidio.gov/venues/western-lawn-venue",
+      "https://wp.presidio.gov/wp-content/uploads/2026/01/Current-Outdoor-Events-Permit-Fee-Schedule-Accessible.pdf",
+      "https://wp.presidio.gov/wp-content/uploads/2024/04/Rules-for-Special-Use-Permit_Final_Updated-2024-Accessible.pdf",
+      "https://wp.presidio.gov/wp-content/uploads/2023/08/Sustainable-Event-Requirements-Accessible.pdf",
+      "https://presidio.gov/venues/east-meadow-venue/",
+      "https://presidio.gov/venues/graham-street-lawn/",
+      "https://presidio.gov/venues/civil-war-parade-ground-venue/",
+      "https://presidio.gov/venues/main-parade-lawn-venue/",
+      "https://home.nps.gov/prsf/learn/historyculture/crissy-field-historic-airplane-hangars.htm",
+      "https://www.parksconservancy.org/donate/trails-forever-dinner-2023",
+      "https://presidio.gov/about/press/fieldwork-brewing-company-signs-lease-in-the-presidio",
+      "https://presidio.gov/lease-an-office",
+      "https://maverickshouse.com/weddings/",
+      "https://maverickshouse.com/",
+      "https://media.eventective.com/3812247.pdf",
+      "https://www.zola.com/wedding-vendors/wedding-venues/mavericks-house",
+      "https://www.wedgewoodweddings.com/venues/hacienda-de-las-flores",
+      "https://www.moraga.ca.us/242/Hacienda-de-las-Flores/pricing",
+      "https://www.moraga.ca.us/DocumentCenter/View/6040/Council-06-23-21-Wedgewood-Lease-Agreement-at-the-Hacienda-PDF"
+    ],
+    "added_record_ids": [
+      "presidio-tunnel-tops-western-lawn-san-francisco",
+      "presidio-tunnel-tops-east-meadow-full-lawn-san-francisco",
+      "presidio-tunnel-tops-east-meadow-partial-lawn-san-francisco",
+      "presidio-main-post-graham-street-lawn-san-francisco",
+      "presidio-main-post-civil-war-parade-ground-san-francisco",
+      "presidio-main-post-main-parade-middle-san-francisco",
+      "presidio-main-post-main-parade-south-san-francisco",
+      "presidio-main-post-main-parade-middle-and-south-combined-san-francisco",
+      "presidio-trust-special-use-inventory-campfire-circle-add-on-or-standalone-rental-san-francisco",
+      "presidio-trust-special-use-inventory-rob-hill-campground-off-season-full-site-event-san-francisco",
+      "presidio-trust-special-use-inventory-building-937-special-event-hangar-san-francisco",
+      "presidio-trust-special-use-inventory-fort-scott-chapel-special-use-building-rental-san-francisco",
+      "fieldwork-brewing-presidio-planned-taproom-possible-private-event-space-san-francisco",
+      "mavericks-house-indoor-ballroom-san-mateo",
+      "mavericks-house-indoor-plus-outdoor-deck-san-mateo",
+      "mavericks-house-oceanfront-lawn-san-mateo",
+      "hacienda-de-las-flores-pavilion-garden-non-tent-configuration-contra-costa",
+      "hacienda-de-las-flores-pavilion-garden-seasonal-tent-configuration-contra-costa",
+      "hacienda-de-las-flores-casita-town-managed-small-event-room-contra-costa"
+    ],
+    "duplicates_merged": [
+      "Main Parade combined rental overlaps Middle and South; partial East Meadow overlaps full lawn; Campfire Circle can be a Western Lawn add-on",
+      "Mavericks indoor/deck/lawn share one property; Hacienda 200/150 is a seasonal configuration change, not two independent properties",
+      "Three existing historic Presidio Wedgewood venues enriched without adding duplicate records"
+    ],
+    "excluded": [
+      "Mavericks Surf Company LLC retail lease, APN047083060 and rent belong to a different business; excluded from Mavericks House",
+      "Fort Scott ballfield night fees do not grant wedding permission; office leases do not authorize venue use",
+      "Hacienda unsigned 2021 agenda draft is not a verified executed/current contract; revenue breakpoints are not actual sales",
+      "Wedgewood package PDF direct404 despite indexed result: no actual download or visual review claimed"
+    ],
+    "remaining_gaps": [
+      "Federalchapelidentity/entrance, allsiteapprovedwedding/danceoccupancy/currentwrittenpermits",
+      "Haciendaexecutedlease/currentamendments/parcel/valuation;Mavericksbuilding/operationdates/owner/parcel andcurrentbrochure",
+      "Allninecounty census/municipalityaudit incomplete;reviews/quotes/leasevaluesrequirefurtherprimaryevidence"
+    ],
+    "fact_check_findings": [
+      "Presidio January 2026 fees include the $500 permit in lawn rent. Base access 7 AM–6 PM includes setup/cleanup; partial East Meadow is 40 generic guests/$450/six hours. Main Parade sections are$6000 each but the combined product is$15000. All counts require approved wedding layouts.",
+      "Current Presidio pages allow outdoor music 9 AM–8 PM/tent 10 PM; general rules effective May 2022 say 8 AM start, so that discrepancy remains. Vendor approval requests 90 days ahead differ from the 15-business-day general application lead time. No self-service alcohol or spirit shots; liquor liability/license/food required.",
+      "NPS dates Building 937 construction to 1921. A 2023 indoor dinner 6–10 PM establishes a past event, not current wedding permission or occupancy. Fort Scott Chapel identity/capacity held. Fieldwork July 7,2026 announcement projects early 2027 opening; not currently available.",
+      "Mavericks current indoor 102 seated/120 standing conflicts with undated brochure 90/100; lawn 150 conflicts with brochure 140 and Zola 160 overall. Deck 130 dinner/140 standing is weather dependent. Brochure music 11 PMFri/Sat,10 PMotherdays; $7000–8000 venue plus$7000–10000 F&B minimum plus 22%service/tax is not all-in. Zola 5.0/9 checked directly; Google/Yelp unknown.",
+      "Hacienda is Town owned/Wedgewood operated. Operator seasonal tent reduces generic capacity 200 to 150 November–April. Current 2027 packages$89–154/guest plus venue/ceremony/admin 22%/tax/minimums. Historical 2021 draft lease: initial$240000 annualrent,1.5%escalation,$253000 improvementobligation,$48000 annualcapitalreserve from 2024, percentage-rent clause. Execution/current amendments and actual spend remain Unknown; these are not property/business valuations or actual profits.",
+      "Hacienda draft distinguishes service hours until midnight from music/events 10 PMFri/Sat or 9 PMotherdays. Presidio construction years verified: Chapel 1864, GoldenGateClub 1949, LogCabin 1937; wedding opening/operator duration remain Unknown."
+    ]
   }
 ]
