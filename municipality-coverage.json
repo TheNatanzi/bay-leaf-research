@@ -919,8 +919,11 @@
     "municipality": "Cotati",
     "municipal_rental_status": "Not yet audited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://www.cotaticity.gov/314/City-Facility-Park-Usage",
+      "https://www.cotaticity.gov/DocumentCenter/View/2572/Veterans-Building-Rental-Application-2026?bidId="
+    ],
+    "remaining": "Partial primary-source configurations checked; other venues, approval/layout/quotes/title/history remain unaudited."
   },
   {
     "county": "Sonoma",
@@ -951,8 +954,11 @@
     "municipality": "Santa Rosa",
     "municipal_rental_status": "Not yet audited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://sonomacountyfair.com/pages/venue-rental",
+      "https://cdn.shopify.com/s/files/1/0729/3236/0491/files/Interim_Rental_Rates_Effective_2-1-26.pdf?v=1777394794"
+    ],
+    "remaining": "Partial primary-source configurations checked; other venues, approval/layout/quotes/title/history remain unaudited."
   },
   {
     "county": "Sonoma",
@@ -963,9 +969,11 @@
       "https://www.sebastopolmasoniccenter.org/rooms",
       "https://www.sebastopolmasoniccenter.org/reservations",
       "https://www.sebastopolmasoniccenter.org/s/Short-term-Rental-Agreement.pdf",
-      "https://www.sebastopolmasoniccenter.org/s/Rental-brochure.pdf"
+      "https://www.sebastopolmasoniccenter.org/s/Rental-brochure.pdf",
+      "https://sebastopolgrange.org/rent-hall/",
+      "https://sebastopolgrange.org/wp-content/uploads/2026/04/Rental-Contract.pdf"
     ],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "remaining": "Partial primary-source configurations checked; other venues, approval/layout/quotes/title/history remain unaudited."
   },
   {
     "county": "Sonoma",
@@ -1058,8 +1066,11 @@
     "municipal_rental_status": "Partial county/park-source review",
     "private_venue_status": "Partial operator-led discovery; not systematic or complete",
     "source_urls": [
-      "https://dawnranch.com/wp-content/uploads/2025/10/Official-2026-Wedding-Packages-Dawn-Ranch.pdf"
+      "https://dawnranch.com/wp-content/uploads/2025/10/Official-2026-Wedding-Packages-Dawn-Ranch.pdf",
+      "https://sonomavalleygrange.org/renting/",
+      "https://bodegabaygrange.org/new-hall-rental/",
+      "https://farmyesno.com/"
     ],
-    "remaining": "County, regional, state, federal, special districts, colleges, fairs, remote properties; separate from city inventory"
+    "remaining": "Partial primary-source configurations checked; other venues, approval/layout/quotes/title/history remain unaudited."
   }
 ]

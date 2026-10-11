@@ -1647,5 +1647,88 @@
       "Waterbar/EPIC joint buyout corrected to Unknown joint bar/fees/hours; Waterbar-only terms not inherited onto sister restaurant.",
       "Actual 30-page PDF downloaded and key price/capacity/contract pages visually reviewed. Original publication date Unknown; 2026–2027 is rate schedule label and September upload/filename not original date. No unverified property/business values or profits inferred."
     ]
+  },
+  {
+    "question": "What Sonoma public fairground, grange, DIY and community spaces were missed, and do wedding-specific prices, midnight rules and county boundaries differ from general advertising?",
+    "scope": "Sonoma fairground configurations, three granges, DIY farm lead, Cotati auditorium/restricted meeting room and border/duplicate checks",
+    "completed_utc": "2026-10-11T08:20:55.027015+00:00",
+    "source_urls": [
+      "https://sonomacountyfair.com/pages/venue-rental",
+      "https://cdn.shopify.com/s/files/1/0729/3236/0491/files/Interim_Rental_Rates_Effective_2-1-26.pdf?v=1777394794",
+      "https://cdn.shopify.com/s/files/1/0729/3236/0491/files/Interim_Rental_Policies-effective_1-1-20.pdf?v=1726519254",
+      "https://cdn.shopify.com/s/files/1/0729/3236/0491/files/Sound_Policy_Approved_by_Board_11.22.16.pdf?v=1726520212",
+      "https://sebastopolgrange.org/rent-hall/",
+      "https://sebastopolgrange.org/wp-content/uploads/2026/04/Rental-Contract.pdf",
+      "https://bodegabaygrange.org/new-hall-rental/",
+      "https://bodegabaygrange.org/fees-conditions-2/",
+      "https://bodegabaygrange.org/wp-content/uploads/2023/10/Rental-Conditions-minor-changes-Nov-2023-v2.pdf",
+      "https://sonomavalleygrange.org/renting/",
+      "https://farmyesno.com/",
+      "https://www.cotaticity.gov/314/City-Facility-Park-Usage",
+      "https://www.cotaticity.gov/DocumentCenter/View/2572/Veterans-Building-Rental-Application-2026?bidId=",
+      "https://sonoma-county.legistar.com/View.ashx?GUID=3B443115-A25E-4198-BC52-667DF4589F85&ID=12235395&M=F",
+      "https://mountainhouseestate.com/faq/"
+    ],
+    "added_record_ids": [
+      "sonoma-county-event-center-at-the-fairgrounds-grace-pavilion-sonoma",
+      "sonoma-county-event-center-at-the-fairgrounds-saralee-richard-s-barn-sonoma",
+      "sonoma-county-event-center-at-the-fairgrounds-hall-of-flowers-sonoma",
+      "sonoma-county-event-center-at-the-fairgrounds-finley-hall-sonoma",
+      "sonoma-county-event-center-at-the-fairgrounds-garrett-building-sonoma",
+      "sonoma-county-event-center-at-the-fairgrounds-kraft-building-sonoma",
+      "sonoma-county-event-center-at-the-fairgrounds-showcase-caf-sonoma",
+      "sonoma-county-event-center-at-the-fairgrounds-garden-building-hall-of-flowers-annex-sonoma",
+      "sonoma-county-event-center-at-the-fairgrounds-chris-beck-arena-sonoma",
+      "sonoma-county-event-center-at-the-fairgrounds-community-theater-lawn-sonoma",
+      "sonoma-county-event-center-at-the-fairgrounds-redwood-lot-with-community-theater-lawn-sonoma",
+      "sonoma-county-event-center-at-the-fairgrounds-carnival-lot-sonoma",
+      "sonoma-county-event-center-at-the-fairgrounds-shade-park-sonoma",
+      "sonoma-county-event-center-at-the-fairgrounds-reynolds-park-sonoma",
+      "sonoma-county-event-center-at-the-fairgrounds-cattle-barn-1-sonoma",
+      "sonoma-county-event-center-at-the-fairgrounds-cattle-barn-2-sonoma",
+      "sonoma-county-event-center-at-the-fairgrounds-sheep-ring-covered-arena-sonoma",
+      "sonoma-county-event-center-at-the-fairgrounds-jamison-ring-sonoma",
+      "sonoma-county-event-center-at-the-fairgrounds-dorfman-ring-sonoma",
+      "sonoma-county-event-center-at-the-fairgrounds-concourse-sonoma",
+      "sonoma-county-event-center-at-the-fairgrounds-olive-grove-with-umbrellas-sonoma",
+      "sonoma-county-event-center-at-the-fairgrounds-south-pasture-sonoma",
+      "sonoma-county-event-center-at-the-fairgrounds-saralee-fountain-sonoma",
+      "sonoma-county-event-center-at-the-fairgrounds-mexican-village-sonoma",
+      "sebastopol-grange-306-hall-sonoma",
+      "bodega-bay-grange-777-main-hall-sonoma",
+      "bodega-bay-grange-777-kitchen-adjacent-dining-room-sonoma",
+      "bodega-bay-grange-777-entire-complex-configuration-sonoma",
+      "sonoma-valley-grange-407-hall-sonoma",
+      "farmyesno-diy-wedding-property-sonoma",
+      "cotati-veterans-memorial-building-auditorium-sonoma",
+      "cotati-veterans-memorial-building-veterans-memorial-room-meetings-only-sonoma"
+    ],
+    "updated_record_ids": [],
+    "duplicates_merged": [
+      "Sebastopol Masonic three existing configurations preserved",
+      "Fairground bundles overlap underlying lawn/park; Bodega whole complex overlaps rooms"
+    ],
+    "excluded": [
+      "Kitchen-only, parking-only and per-RV fees not standalone wedding venues",
+      "Cotati Memorial Room retained as restricted, not approved wedding space",
+      "Mountain House Estate outside-county lead held pending official boundary verification"
+    ],
+    "remaining_gaps": [
+      "All nine-county inventory incomplete",
+      "Current quotes, approved dinner+dance layouts, legal noise/entitlement, private caterer approvals",
+      "Sonoma veterans remaining buildings and county proposed fee adoption; grange rate image",
+      "Parcel/title/value, operator/wedding-opening dates and direct verified review profiles"
+    ],
+    "fact_check_findings": [
+      "24 fairground rooms/outdoor configurations added, with eight indoor dining/assembly distinctions; 2026-02-01 guideline rates reviewed on actual PDF tables. Assembly numbers not standing or dinner+dance counts. Garden 125+ is a lower bound, not max. Kitchen-only, parking-only and individual RV fees excluded as standalone wedding sites.",
+      "Outdoor fairgrounds amplified sound ends 10PM Mon–Sat / 8PM Sunday; indoor deadline Unknown. 2016 linked policy and 2020 rental policies retained with dates; 2026 rate sheet supersedes older Wi-Fi rates, and setup is not included merely because equipment is delivered. Food/private caterer permission needs reconciliation, exclusive bar confirmed by current FAQ.",
+      "Sebastopol Grange 150 banquet versus 140 supplied chairs; 2026 contract music midnight/cleanup 2AM versus webpage access midnight. No fully confirmed midnight option declared. No hard liquor/camping; deposits and cancellation fractions are separate from rent.",
+      "Bodega Bay whole-complex wedding rate $2,000/day differs from generic day rates. Main 96 and adjacent 46 dining seats not added into contiguous capacity. Loud music midnight can be curtailed for complaints; event end 1AM, cleanup immediate. HTML fetch failures 406 preserved; web tool primary review and successful original PDF are distinct.",
+      "Cotati auditorium 200 generic; Memorial room 60 meeting only expressly excludes private parties. Music 10PM/exit midnight. Current city-linked 2026 file has 2027 cleaning label and 2023 policy revision; 2025 county unsigned proposal rates not automatically adopted/current. County building inventory supports construction 1961 and raw parcel 144410032, not wedding-operation year/title/value.",
+      "FarmYesNo May 2026 $3,950/day on 30 acres; exact address, capacity, permits and dates Unknown. No per-head conversion using 300 guests. Sonoma Valley rate image not yet read; numbers held.",
+      "Existing Sebastopol Masonic configurations identified as duplicates, not re-added. Mountain House Estate held outside nine-county inventory: own FAQ says Mendocino permit UR 2014-0006 despite Cloverdale/Sonoma marketing; county boundary still needs official check.",
+      "Actual source PDFs saved, fetch logs retained. No venue values/profits fabricated. County fee agenda aggregate operating deficit is not an individual venue business valuation."
+    ],
+    "pass": 27
   }
 ]
