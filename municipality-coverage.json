@@ -74,7 +74,10 @@
       "https://livermoretemple.org/cms/overview/",
       "https://livermoreeagles609.com/hall-rentals",
       "https://uucil.org/about-us/contact-us/rental/",
-      "https://iclivermore.org/facility-rental/"
+      "https://iclivermore.org/facility-rental/",
+      "https://wentevineyards.com/plan-your-wedding/",
+      "https://wentevineyards.com/wp-content/uploads/2026/02/2026-Wente-Vineyards-Wedding-Menu.pdf",
+      "https://wentevineyards.com/wp-content/uploads/2025/12/2026-2027-Wente-Vineyards-Wedding-Menu.pdf"
     ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
@@ -122,7 +125,11 @@
     "municipality": "Pleasanton",
     "municipal_rental_status": "Not yet audited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
+    "source_urls": [
+      "https://www.casarealevents.com/tour/",
+      "https://www.casarealevents.com/get-married-and-celebrate/",
+      "https://www.casarealevents.com/taste-and-sip/"
+    ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
   {
@@ -777,7 +784,10 @@
     "source_urls": [
       "https://losgatosmasonic.org/",
       "https://losgatosmasonic.org/about",
-      "https://mtmoriah292.org/hall-rental"
+      "https://mtmoriah292.org/hall-rental",
+      "https://www.nestldown.com/weddings/",
+      "https://www.nestldown.com/faq/",
+      "https://www.nestldown.com/required-vendors/"
     ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
@@ -1090,7 +1100,11 @@
     "municipal_rental_status": "Not yet audited",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
-      "https://sonomacounty.gov/development-services/sonoma-public-infrastructure/divisions/administration-and-renting-facilities"
+      "https://sonomacounty.gov/development-services/sonoma-public-infrastructure/divisions/administration-and-renting-facilities",
+      "https://viansa.com/weddings",
+      "https://www.fairmont-sonoma.com/gather/weddings/",
+      "https://www.fairmont-sonoma.com/content/uploads/2026/03/Fairmont-Sonoma-Weddings-Brochure-2025-v2.pdf",
+      "https://www.sonomagolfclub.com/our-story/directions"
     ],
     "remaining": "Partial primary county/arts room review; private venues, layout/quote/permit/title/history audits incomplete."
   },

@@ -2448,5 +2448,87 @@
       "Fogarty200generic and10PM event end; caterer preferred list and estate winery1981 distinct from wedding opening",
       "Blue undated directory150body/300header and old pricing conflict with current original operator; current terms preserved"
     ]
+  },
+  {
+    "pass": 38,
+    "question": "What well-known winery and resort venues were still missing, and do actual original packages alter late-night, guest-count or total-cost comparisons?",
+    "scope": "Seven new operator properties plus separate Sonoma Golf Club; named spaces and2026/2027package distinctions",
+    "completed_utc": "2026-10-11T10:09:39.746666+00:00",
+    "source_urls": [
+      "https://www.nestldown.com/faq/",
+      "https://www.nestldown.com/required-vendors/",
+      "https://www.nestldown.com/",
+      "https://www.casarealevents.com/index.php",
+      "https://wentevineyards.com/plan-your-wedding/",
+      "https://trentadue.com/weddings/",
+      "https://trentadue.com/contact/",
+      "https://viansa.com/weddings",
+      "https://brcohn.com/weddings",
+      "https://www.fairmont-sonoma.com/gather/weddings/",
+      "https://www.casarealevents.com/tour/",
+      "https://www.casarealevents.com/get-married-and-celebrate/",
+      "https://www.casarealevents.com/taste-and-sip/",
+      "https://www.nestldown.com/weddings/",
+      "https://www.nestldown.com/about-nestldown/",
+      "https://wentevineyards.com/wp-content/uploads/2025/12/2026-2027-Wente-Vineyards-Wedding-Menu.pdf",
+      "https://trentadue.com/media/32361/trentadue-winery-weddings-special-events-updated.pdf",
+      "https://www.fairmont-sonoma.com/content/uploads/2026/03/Fairmont-Sonoma-Weddings-Brochure-2025-v2.pdf",
+      "https://www.brcohn.com/wp-content/uploads/2024/12/BR-Cohn-Weddings-2025-2026.pdf",
+      "https://wentevineyards.com/wp-content/uploads/2026/02/2026-Wente-Vineyards-Wedding-Menu.pdf",
+      "https://trentadue.com/wp-content/uploads/2025/01/print-trentadue-wedding-brochure-high-res-version-12-20-22.pdf",
+      "https://www.sonomagolfclub.com/our-story/directions"
+    ],
+    "added_record_ids": [
+      "nestldown-wedding-offering-santa-clara",
+      "casa-real-at-ruby-hill-winery-grand-salon-alameda",
+      "casa-real-at-ruby-hill-winery-amber-room-alameda",
+      "casa-real-at-ruby-hill-winery-sun-garden-alameda",
+      "wente-family-vineyards-cresta-blanca-room-alameda",
+      "wente-family-vineyards-terrace-lawn-alameda",
+      "wente-family-vineyards-vineyard-lawn-alameda",
+      "trentadue-winery-north-lawn-sonoma",
+      "trentadue-winery-south-lawn-sonoma",
+      "trentadue-winery-sala-de-leon-pavilion-sonoma",
+      "trentadue-winery-grape-arbor-sonoma",
+      "trentadue-winery-south-arbor-sonoma",
+      "trentadue-winery-la-storia-room-sonoma",
+      "b-r-cohn-winery-vineyard-pavilion-sonoma",
+      "b-r-cohn-winery-olive-grove-sonoma",
+      "b-r-cohn-winery-amphitheater-sonoma",
+      "viansa-sonoma-wedding-offering-sonoma",
+      "fairmont-sonoma-mission-inn-spa-creekside-lawn-sonoma",
+      "fairmont-sonoma-mission-inn-spa-breezeway-lawn-sonoma",
+      "fairmont-sonoma-mission-inn-spa-sonoma-valley-patio-sonoma",
+      "fairmont-sonoma-mission-inn-spa-sonoma-valley-room-sonoma",
+      "fairmont-sonoma-mission-inn-spa-kenwood-ballroom-sonoma",
+      "fairmont-sonoma-mission-inn-spa-pavilion-sonoma",
+      "sonoma-golf-club-fairmont-wedding-offering-oak-tree-lawn-sonoma",
+      "sonoma-golf-club-fairmont-wedding-offering-vintage-hall-patio-sonoma"
+    ],
+    "duplicates_merged": [
+      "CasaReal winery notTheClubatRubyHill; separate410Vineyard site",
+      "Namedspaces shareproperties; no capacitysum or repeatpropertyvaluation",
+      "Fairmontresort100Boyes versusGolfClub17700Arnold separateaddresses"
+    ],
+    "excluded": [
+      "NestledownEvents homonym notLosGatosNestldown",
+      "SantaCruzmountainrange asSantaCruzcounty",
+      "Wente2027minima as2026quote",
+      "BRCohnoldPDF404 andTrentadueobsoletePDF404 notdownloadsuccess",
+      "Tastinghours asweddingcutoff; chairinventory asoccupancy"
+    ],
+    "remaining_gaps": [
+      "Issuedpermits/approveddinnerplusdance/fullquotes/room-specificfees",
+      "Currenttotalcost, vendorcontracts and noiseboundaries",
+      "Construction/weddingopening/operatorhistory/APNs/verifiedearnings mostlyUnknown",
+      "Ninecounty exhaustiveinventory notclaimed"
+    ],
+    "fact_check_findings": [
+      "25nameddiscoveryrecords on8newproperties; incompleteverifiedavailability",
+      "ActualWente2026and2027linked15pgPDFs differ:2026facility3000–6000/menu200–250+25%admin/tax;2027listsadditional8000–25000minima. Webcapacity conflictsretained",
+      "ActualFairmont8pgbrochure:Kenwood150generic/1AMevents,Vintage175/midnight,otherrooms10PM; not300–400approvedmusic",
+      "Trentadueactual6pgpacket deposit750versusweb1000/5vs5–7hours/winediscount10vs15; separatedining/ceremony/dancecapacities",
+      "Nestldowncurrentrequiredvendorcontrol/optionalplanner/music9:45guests10vendors11; weekday14950–39500notallin. BRCohn200propertychairs150/wine30minimum;Viansa250vs300/wine35minimum"
+    ]
   }
 ]
