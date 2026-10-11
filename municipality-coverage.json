@@ -872,7 +872,16 @@
     "municipality": "Foster City",
     "municipal_rental_status": "Not yet audited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
+    "source_urls": [
+      "https://www.fostercity.org/545/Foster-City-Community-Center-Annex",
+      "https://www.fostercity.org/DocumentCenter/View/4109/Facility-Rental-Fees-FY-26_27",
+      "https://www.fostercity.org/DocumentCenter/View/5344/Community-Center-Annex-Rental-Application_FY-26_27_Fillable",
+      "https://www.fostercity.org/543/Facility-Reservations",
+      "https://www.fostercity.org/DocumentCenter/View/5291/Foster-City-Community-Center-Rates",
+      "https://www.fostercity.org/495/Rentals-and-Reservations",
+      "https://www.fostercity.org/Facilities/Facility/Details/Rent-the-VIBE-Teen-Center-18",
+      "https://www.fostercity.org/DocumentCenter/View/5290/The-VIBE-Rental-Application"
+    ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
   {
@@ -904,7 +913,15 @@
     "municipality": "Millbrae",
     "municipal_rental_status": "Not yet audited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
+    "source_urls": [
+      "https://www.ci.millbrae.ca.us/359/Facilities-Rentals",
+      "https://www.ci.millbrae.ca.us/DocumentCenter/View/1070/Room-Visuals-PDF",
+      "https://www.ci.millbrae.ca.us/DocumentCenter/View/2581",
+      "https://www.ci.millbrae.ca.us/DocumentCenter/View/3127",
+      "https://www.ci.millbrae.ca.us/DocumentCenter/View/2910",
+      "https://www.ci.millbrae.ca.us/453/Recreation-Center",
+      "https://www.ci.millbrae.ca.us/DocumentCenter/View/1068/Picnic-Reservation-Guide-PDF"
+    ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
   {
@@ -959,7 +976,18 @@
     "municipality": "San Mateo",
     "municipal_rental_status": "Not yet audited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
+    "source_urls": [
+      "https://www.cityofsanmateo.org/717/Beresford-Recreation-Center",
+      "https://www.cityofsanmateo.org/579/Meetings-Parties-Events",
+      "https://www.cityofsanmateo.org/DocumentCenter/View/89006",
+      "https://www.cityofsanmateo.org/DocumentCenter/View/97853/Fillable-Parks-and-Recreation_Building-Reservation-Application-ENGLISH",
+      "https://www.cityofsanmateo.org/718/Central-Recreation-Center",
+      "https://www.cityofsanmateo.org/716/Dr-Martin-Luther-King-Jr-Community-Cente",
+      "https://www.cityofsanmateo.org/638/Senior-Center",
+      "https://www.cityofsanmateo.org/3319/Central-Park-Japanese-Garden",
+      "https://www.cityofsanmateo.org/3341/Shoreview-Park-Recreation-Center",
+      "https://www.cityofsanmateo.org/3396/Joinville-Swim-Center"
+    ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
   {
