@@ -4072,5 +4072,84 @@
       "Four publication dates known: Lisa January15,2024; GreyLoft May20,2020; SmallGrand December7,2023 and Nest October3,2024 from page metadata. Update dates kept separate. Other dates Unknown; copyright/founded/building years not used as publication.",
       "All new stories outside nine-county inventory; not added as Bay Area venues. Founder anecdotes are self-reported, not audited profits/verified permit findings. Vendor/publisher promotional context and show-notes-only audio limits preserved."
     ]
+  },
+  {
+    "pass": 56,
+    "question": "What coastal glamping meadows, historic railway/distillery spaces, public botanical rooms and small spa/bar spaces were missed?",
+    "scope": "Five primary parent properties in Sonoma/Napa/San Francisco; configurations and package overlaps preserved",
+    "completed_utc": "2026-10-11T13:24:44.072459+00:00",
+    "source_urls": [
+      "https://www.thesearanchlodge.com/private-events/",
+      "https://www.thesearanchlodge.com/",
+      "https://www.thesearanchlodge.com/pdf/2025%20Event%20Menus_Dinner%20_%20Bar%20(2)_ADA.pdf",
+      "https://www.calistogadepot.com/private-events",
+      "https://www.calistogadepot.com/",
+      "https://www.drwilkinson.com/meetings-events/weddings",
+      "https://www.peerspace.com/pages/listings/68cc646ca9b09049ed230e3b",
+      "https://gggp.org/conservatory-of-flowers-event-rentals/",
+      "https://gggp.org/maintaining-143-years-of-history/",
+      "https://gggp.org/about/",
+      "https://www.drwilkinson.com/meetings-events",
+      "https://www.thirdrailbarsf.com/private-events",
+      "https://www.thirdrailbarsf.com/s/Third-Rail-Private-Event-Deck-2122.pdf",
+      "https://www.thirdrailbarsf.com/"
+    ],
+    "added_record_ids": [
+      "the-sea-ranch-lodge-barn-meadow-north-sonoma",
+      "the-sea-ranch-lodge-barn-meadow-south-sonoma",
+      "the-sea-ranch-lodge-ocean-deck-sonoma",
+      "the-sea-ranch-lodge-ocean-meadow-sonoma",
+      "the-sea-ranch-lodge-the-meadow-sonoma",
+      "the-sea-ranch-lodge-fireside-lounge-sonoma",
+      "the-sea-ranch-lodge-solarium-sonoma",
+      "the-sea-ranch-lodge-dining-room-sonoma",
+      "the-sea-ranch-lodge-meadow-room-sonoma",
+      "the-sea-ranch-lodge-redwood-room-sonoma",
+      "the-sea-ranch-lodge-courtyard-sonoma",
+      "calistoga-depot-private-event-offering-whole-property-scope-unconfirmed-napa",
+      "calistoga-depot-depot-distillery-napa",
+      "calistoga-depot-depot-backyard-napa",
+      "calistoga-depot-outdoor-beer-garden-napa",
+      "calistoga-depot-jcb-parlor-car-napa",
+      "calistoga-depot-first-millionaire-s-saloon-napa",
+      "calistoga-depot-casa-obsidiana-napa",
+      "calistoga-depot-distillery-mezzanine-napa",
+      "conservatory-of-flowers-conservatory-galleries-san-francisco",
+      "conservatory-of-flowers-west-gallery-micro-ceremony-san-francisco",
+      "conservatory-of-flowers-palm-terrace-san-francisco",
+      "conservatory-of-flowers-orchid-pavilion-san-francisco",
+      "dr-wilkinson-s-backyard-resort-mineral-springs-glass-den-napa",
+      "dr-wilkinson-s-backyard-resort-mineral-springs-glass-house-napa",
+      "dr-wilkinson-s-backyard-resort-mineral-springs-backyard-napa",
+      "dr-wilkinson-s-backyard-resort-mineral-springs-front-yard-napa",
+      "dr-wilkinson-s-backyard-resort-mineral-springs-micro-wedding-elopement-package-napa",
+      "third-rail-bar-bar-buyout-partial-buyout-san-francisco"
+    ],
+    "updated_record_ids": [],
+    "duplicates_merged": [
+      "Sea Ranch glamping and The Meadow are one space",
+      "Calistoga Depot referral on hotel site deduplicated to separate Depot parent",
+      "Conservatory micro/gallery and buyout spaces overlap; no summed occupancy",
+      "Wilkinson package overlaps resort rooms"
+    ],
+    "excluded": [
+      "Goleta,Soquel,Mendocino train/glamping properties outside nine counties",
+      "Mobile glamping rental suppliers without fixed venues",
+      "16th Street Station current site certificate expired; currentpermission/condition held for separate historical evidence review",
+      "Brochure inner pages unread and not represented as downloaded source"
+    ],
+    "remaining_gaps": [
+      "Calistoga direct brochure/approved room plans and conflicting platform maximum",
+      "Current all-in quotes, exact cutoff and wedding opening/operator dates",
+      "Nine-county inventory and municipal audits remain incomplete"
+    ],
+    "fact_check_findings": [
+      "29 property/space/package records at five parent properties; no independent-property or completeness claim. Sea Ranch glamping overlaps The Meadow; partner hotel referral to Depot is not an additional200-person resort room.",
+      "Sea Ranch dinner counts30/35/50/80/150/200 are distinct from200-person ceremony/reception claims. 17 guestrooms not200beds;1968main building/2023renovation not wedding opening. Historical January22,2025 menu:75–175food,55–140bar plus25%service/stated9%tax; room/venue/lodging/currentquote Unknown.",
+      "Conservatory150dinner/200standing pavilion versus50ceremony gallery. Palm package-specific food rule: ceremony-only nofood, buyout dining permitted; no tenting.50%deposit and approved licensed/insured caterers/dietary exceptions/off-listfee.1879building/publicopening notweddingopening.",
+      "Calistoga official200 versus platform300; seven host room capacities unverified and numeric verified fields held Unknown.1868buildingnotweddingoperation; brochure cover only viewed, internal navigation failed, no full review/download claimed.",
+      "Third Rail85generic and preferred caterer claim from currently linked older deck. Publicmidnight/2AMhours do not establish wedding/music deadline. Wilkinsonmicro30/from8000package notvenueonly/allin; glasshouse45generic not80.",
+      "29 new exact Census address matches with matching California/county, bringing mapped records to764; five shared property address points, not29 distinct surveyed entrances. Local1502-record UI verifies one dated-menu row, historical food/bar labels, all-in Unknown and horizontal slider advancement0→30; no console errors observed."
+    ]
   }
 ]
