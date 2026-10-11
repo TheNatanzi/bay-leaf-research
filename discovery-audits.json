@@ -2920,5 +2920,76 @@
       "HARDnohardliquor/kegs, alcoholmax5hours/end1hbefore; AVnotincluded; ownchairs/tablesprohibited",
       "HARDCastroactualdirectHTTP200soft404 notarchivevenuecontent; webreaderprimaryreviewretained"
     ]
+  },
+  {
+    "pass": 43,
+    "question": "What Alameda restaurant buyouts and privately operated halls were missed, and do public operating hours establish late wedding permission?",
+    "scope": "Meek West Terrace plus Emeryville Honor, Trader Vic’s, Flores, Harvest Hall, Townhouse and Dublin Hillview/FJL/Pippal; 18 rooms/offerings, nine parent properties.",
+    "completed_utc": "2026-10-11T11:06:20.050018+00:00",
+    "source_urls": [
+      "https://haywardrec.org/Facilities/Facility/Details/Meek-Park-69",
+      "https://www.haywardrec.org/DocumentCenter/View/8580",
+      "https://www.honoremeryville.com/parties",
+      "https://www.honoremeryville.com/s/Honor_Event-Deck-2025.pdf",
+      "https://tradervicsemeryville.com/privatediningmenu/",
+      "https://tradervicsemeryville.com/wp-content/uploads/sites/4/2024/12/2025-Private-Dining-1.pdf",
+      "https://www.floressf.com/group-events-emeryville/",
+      "https://images.getbento.com/accounts/5e452f88b7a0cec3564580f1d3a2c073/media/IDkz2XpSlaWimtZjn7Qw_7mu4IHArQYaa2r9N8dub_FLORES%20EM_event%20menu_DINNER.pdf",
+      "https://images.getbento.com/accounts/5e452f88b7a0cec3564580f1d3a2c073/media/Q0XJRfPnTHs2ZfnUktkW_v3KsONWSNC39P2Rw4PGe_FLORES%20EM_event%20menu_RECEPTION.pdf",
+      "https://publicmarketemeryville.com/special-events/",
+      "https://townhouseemeryville.com/-party",
+      "https://townhouseemeryville.com/",
+      "https://www.hillvieweventhall.com/home",
+      "https://www.hillvieweventhall.com/contractpricing",
+      "https://www.hillvieweventhall.com/faq",
+      "https://drive.google.com/uc?export=download&id=1lwS9sRWbNxsga7lh4EwCMMsrGT4JgqVF",
+      "https://www.frankiejohnnieluigidublin.com/private-events/",
+      "https://media-cdn.getbento.com/accounts/d2a97d07685cb4d6560b7c95baab5160/media/7rEP7kW8TJWbKj8rUCVL_Banquet%20Menu%20September%202026-3.pdf",
+      "https://www.pippaldublin.com/"
+    ],
+    "added_record_ids": [
+      "meek-estate-park-west-terrace-wedding-site-alameda",
+      "honor-kitchen-cocktails-atrium-alameda",
+      "honor-kitchen-cocktails-partial-atrium-alameda",
+      "honor-kitchen-cocktails-honor-lounge-alameda",
+      "honor-kitchen-cocktails-full-restaurant-buyout-alameda",
+      "trader-vic-s-emeryville-captain-s-cabin-deck-alameda",
+      "trader-vic-s-emeryville-outrigger-alameda",
+      "trader-vic-s-emeryville-lanyu-island-alameda",
+      "trader-vic-s-emeryville-full-restaurant-buyout-alameda",
+      "flores-emeryville-full-restaurant-buyout-alameda",
+      "flores-emeryville-private-dining-space-1-name-unknown-alameda",
+      "flores-emeryville-private-dining-space-2-name-unknown-alameda",
+      "public-market-emeryville-harvest-hall-private-event-space-alameda",
+      "townhouse-emeryville-private-party-offering-alameda",
+      "hillview-event-hall-banquet-hall-alameda",
+      "frankie-johnnie-luigi-too-patio-room-alameda",
+      "frankie-johnnie-luigi-too-middle-room-alameda",
+      "pippal-dublin-group-dining-private-event-offering-alameda"
+    ],
+    "duplicates_merged": [
+      "Room buyouts overlap component rooms; Honor Atrium/Partial Atrium share space",
+      "Trader Vic’s generic 300 buyout is not sum of three named dining rooms",
+      "Pippal Dublin distinct from Emeryville branch; no capacity borrowed"
+    ],
+    "excluded": [
+      "Dublin Ireland Urban Brewing and J.Liu Ohio search homonyms excluded",
+      "Trader 2023 PDF and Flores brunch PDF 404: no invented download/review",
+      "Townhouse selected testimonials not aggregate Google rating",
+      "No placeholder midnight form dropdown or public bar hours treated as amplified music permission"
+    ],
+    "remaining_gaps": [
+      "Private Albany/Hayward and all counties incomplete",
+      "Current total quotes, dance layouts, exact music/catering/bar/cleanup terms",
+      "Building/operation dates, parcels, property and business value, verified review aggregates"
+    ],
+    "fact_check_findings": [
+      "Meek 200 attendee cap, no alcohol, food allowed and bring furniture; 7 PM April–August rental, conditional amplification; 240/241 entrance discrepancy",
+      "Honor 120 versus 135 seated in same deck, 250 reception; midnight public bar hours are not wedding music permission",
+      "Hillview October 2026 policy: 200/225 hourly plus furniture setup/cleaning; 3200 all-day venue-services option; outside caterer preapproval/decorator first-refusal/outdoor amplification ban and nonassignment",
+      "Trader 2025 menu 64–95 dinner food only, 38–58 three-hour adult bar; minimum not extra double count; 25% venue-coordinated vendor markup",
+      "Flores dinner PDF lacks base meal price, lists 4% plus 20% fees; no all-in figure invented",
+      "FJL Patio 100 PDF versus 80 webpage conflict held; 18% gratuity and tax excluded; menu label September2026 not exact publication date"
+    ]
   }
 ]
