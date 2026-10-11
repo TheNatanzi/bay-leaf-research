@@ -3063,5 +3063,73 @@
       "Hacienda is Town owned/Wedgewood operated. Operator seasonal tent reduces generic capacity 200 to 150 November–April. Current 2027 packages$89–154/guest plus venue/ceremony/admin 22%/tax/minimums. Historical 2021 draft lease: initial$240000 annualrent,1.5%escalation,$253000 improvementobligation,$48000 annualcapitalreserve from 2024, percentage-rent clause. Execution/current amendments and actual spend remain Unknown; these are not property/business valuations or actual profits.",
       "Hacienda draft distinguishes service hours until midnight from music/events 10 PMFri/Sat or 9 PMotherdays. Presidio construction years verified: Chapel 1864, GoldenGateClub 1949, LogCabin 1937; wedding opening/operator duration remain Unknown."
     ]
+  },
+  {
+    "pass": 45,
+    "question": "What Solano ranches, design showrooms, lodge rooms and state fairgrounds have we missed, and which open-vendor or late-rental claims still need permission?",
+    "scope": "Ulatis, Mission on the Hill, Joyful and Yin Ranch in Vacaville; Masonic rooms and Suite Treatments in Vallejo; Dixon May Fairgrounds. Seventeen property, room and configuration records.",
+    "completed_utc": "2026-10-11T11:29:30.280574+00:00",
+    "source_urls": [
+      "https://www.ulatiscreekranch.com/",
+      "https://www.ulatiscreekranch.com/events",
+      "https://www.ulatiscreekranch.com/contact-10",
+      "https://weddingvenuevacaville.com/",
+      "https://weddingvenuevacaville.com/services/",
+      "https://weddingvenuevacaville.com/contact-us/",
+      "https://www.visitvacaville.com/directory/mission-on-the-hill/",
+      "https://joyfulranch.org/events",
+      "https://joyfulranch.org/about",
+      "https://www.visitvacaville.com/directory/joyful-ranch/",
+      "https://linktr.ee/yinranch",
+      "https://yinranch.com/weddings/",
+      "https://www.visitvallejo.com/venue/masonic-temple-event-center",
+      "https://vallejomasoniceventcenter.com",
+      "https://www.suitetreatments.com/rent-our-space",
+      "https://dixonmayfair.com/about-us/",
+      "https://dixonmayfair.com/wp-content/uploads/2025/10/Facility-Rental-Rates.pdf",
+      "https://dixonmayfair.com/wp-content/uploads/2025/01/36th-DAA-Policy-Manual-ByLaws-2025-Updates.pdf"
+    ],
+    "added_record_ids": [
+      "ulatis-creek-ranch-outdoor-wedding-event-offering-solano",
+      "mission-on-the-hill-indoor-courtyard-wedding-event-offering-solano",
+      "joyful-ranch-foundation-historic-ranch-weddings-and-retreats-solano",
+      "yin-ranch-wedding-offering-primary-details-unavailable-solano",
+      "vallejo-masonic-event-center-dining-room-solano",
+      "vallejo-masonic-event-center-major-lodge-room-solano",
+      "vallejo-masonic-event-center-minor-lodge-room-solano",
+      "vallejo-masonic-event-center-sunshine-room-solano",
+      "suite-treatments-showroom-and-garden-event-rental-solano",
+      "dixon-may-fairgrounds-36th-district-agricultural-association-madden-hall-solano",
+      "dixon-may-fairgrounds-36th-district-agricultural-association-madden-dining-hall-solano",
+      "dixon-may-fairgrounds-36th-district-agricultural-association-denverton-hall-solano",
+      "dixon-may-fairgrounds-36th-district-agricultural-association-leber-garden-stage-solano",
+      "dixon-may-fairgrounds-36th-district-agricultural-association-picnic-area-with-restroom-solano",
+      "dixon-may-fairgrounds-36th-district-agricultural-association-lawn-areas-specific-names-unknown-solano",
+      "dixon-may-fairgrounds-36th-district-agricultural-association-exclusive-whole-grounds-solano",
+      "dixon-may-fairgrounds-36th-district-agricultural-association-livestock-barn-horse-arena-rental-lead-solano"
+    ],
+    "duplicates_merged": [
+      "Four Masonic rooms share one property; generic500 meeting summary is not another room",
+      "Dixon whole grounds and sections overlap; unnamed lawns and barn/arena leads remain grouped rather than inventing areas",
+      "Ulatis acreage does not establish the approved event footprint"
+    ],
+    "excluded": [
+      "Dixon.org wedding brochure is Memphis, Tennessee, not Dixon, California",
+      "Madden Agricultural Society Canada is not Dixon Madden Hall",
+      "Younger Ranch Colorado and Diamond D Ranch Florida are outside the nine counties",
+      "Yin blank primary page/WeddingWire403/Masonic DNS failures are not claimed as verified primary contents; unverified accusations are not adopted as facts"
+    ],
+    "remaining_gaps": [
+      "Other Solano private farms, hotels and fraternal halls; all nine counties incomplete",
+      "Current quotes, issued wedding/dance/noise permission, vendor/insurance terms, parcel/history and property/business values",
+      "Dixon current full contract/hospitality attachments/wedding approval; ranch exact jurisdiction and addresses"
+    ],
+    "fact_check_findings": [
+      "Ulatis explicitly permits own catering, food truck, bartender, florist, decorator, DJ and live band. Previous/next-day setup access included; music 10 PM/event 11 PM. County-law explanation not independently verified; exact street address, approved capacity and price Unknown.",
+      "Mission tourism 125 generic capacity is not approved dinner/dance; office hours are not wedding deadlines. Joyful Victorian house 1891, conservation easement 366 acresJanuary 2003 and family homestead 1850 are distinct from wedding opening and current lawful event footprint.",
+      "Masonic tourism listing: Dining Room 300 seated, Sunshine 40–49 seated; generic 20–500 meeting summary not per-room wedding count. Operator DNS failed. Suite Treatments 350 generic,1 mCOI, security after 8 PM, bar ends 30 minutes before event; midnight music permission Unknown.",
+      "Dixon rate sheet: Madden 658 dining/1400 theater, Denverton 325 dining/706 theater. Discount minimum furniture 250 chairs+30 tables/$490 or 200 chairs+20 tables/$360 is additional to hall rent. Nonrefundable$250 reservation and refundable$1000 deposit separate. Buildings until midnight/cleanup 2 AM do not confirm midnight music or wedding approval.",
+      "Yin primary pageHTTP 200 blank and web-reader inaccessible. Official Linktree wedding marketing verified; secondary address not mapped, capacity/fees/hours/values Unknown. Linktree join dateJanuary 2024 not operating start."
+    ]
   }
 ]

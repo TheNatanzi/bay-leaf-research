@@ -994,9 +994,12 @@
       "https://vfw8151.org/di/vfw/v2/default.asp?pid=122920",
       "https://www.cityofdixonca.gov/ResourceDirectory",
       "https://www.cityofdixonca.gov/media/Agenda%20Items/20220419/10.3%20Combined.pdf",
-      "https://solano.legistar.com/View.ashx?GUID=3E4EBAC1-739A-4044-92B7-08081E628149&ID=1423323&M=PA"
+      "https://solano.legistar.com/View.ashx?GUID=3E4EBAC1-739A-4044-92B7-08081E628149&ID=1423323&M=PA",
+      "https://dixonmayfair.com/about-us/",
+      "https://dixonmayfair.com/wp-content/uploads/2025/10/Facility-Rental-Rates.pdf",
+      "https://dixonmayfair.com/wp-content/uploads/2025/01/36th-DAA-Policy-Manual-ByLaws-2025-Updates.pdf"
     ],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "remaining": "Partial public/private inventory; exact wedding/layout/price/permits, parcel/history/value and reviews incomplete"
   },
   {
     "county": "Solano",
@@ -1054,9 +1057,13 @@
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
       "https://www.cityofvacaville.gov/government/parks-and-recreation/facilities/facility-rentals",
-      "https://solano.legistar.com/LegislationDetail.aspx?FullText=1&GUID=633A4C8F-4694-4235-8F1B-4A61F0DE586C&ID=6899167&Options=&Search="
+      "https://solano.legistar.com/LegislationDetail.aspx?FullText=1&GUID=633A4C8F-4694-4235-8F1B-4A61F0DE586C&ID=6899167&Options=&Search=",
+      "https://weddingvenuevacaville.com/",
+      "https://weddingvenuevacaville.com/services/",
+      "https://weddingvenuevacaville.com/contact-us/",
+      "https://www.visitvacaville.com/directory/mission-on-the-hill/"
     ],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "remaining": "Partial public/private inventory; exact wedding/layout/price/permits, parcel/history/value and reviews incomplete"
   },
   {
     "county": "Solano",
@@ -1100,9 +1107,12 @@
       "https://solanolibrary.libnet.info/event/13221335",
       "https://www.visitvallejo.com/listing/vallejo-veterans-memorial-building",
       "https://www.vallejoveteransmemorialbuilding.com",
-      "https://solano.legistar.com/LegislationDetail.aspx?FullText=1&GUID=633A4C8F-4694-4235-8F1B-4A61F0DE586C&ID=6899167&Options=&Search="
+      "https://solano.legistar.com/LegislationDetail.aspx?FullText=1&GUID=633A4C8F-4694-4235-8F1B-4A61F0DE586C&ID=6899167&Options=&Search=",
+      "https://www.visitvallejo.com/venue/masonic-temple-event-center",
+      "https://vallejomasoniceventcenter.com",
+      "https://www.suitetreatments.com/rent-our-space"
     ],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "remaining": "Partial public/private inventory; exact wedding/layout/price/permits, parcel/history/value and reviews incomplete"
   },
   {
     "county": "Sonoma",
