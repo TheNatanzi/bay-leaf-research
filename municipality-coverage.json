@@ -1,0 +1,887 @@
+[
+  {
+    "county": "Alameda",
+    "municipality": "Alameda",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Alameda",
+    "municipality": "Albany",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Alameda",
+    "municipality": "Berkeley",
+    "municipal_rental_status": "Partial source review; inventory pending",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [
+      "https://berkeleyca.gov/city-services/event-permits-rentals/event-and-facility-rentals"
+    ],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Alameda",
+    "municipality": "Dublin",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Alameda",
+    "municipality": "Emeryville",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Alameda",
+    "municipality": "Fremont",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Alameda",
+    "municipality": "Hayward",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Alameda",
+    "municipality": "Livermore",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Alameda",
+    "municipality": "Newark",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Alameda",
+    "municipality": "Oakland",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Alameda",
+    "municipality": "Piedmont",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Alameda",
+    "municipality": "Pleasanton",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Alameda",
+    "municipality": "San Leandro",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Alameda",
+    "municipality": "Union City",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Contra Costa",
+    "municipality": "Antioch",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Contra Costa",
+    "municipality": "Brentwood",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Contra Costa",
+    "municipality": "Clayton",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Contra Costa",
+    "municipality": "Concord",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Contra Costa",
+    "municipality": "Danville",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Contra Costa",
+    "municipality": "El Cerrito",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Contra Costa",
+    "municipality": "Hercules",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Contra Costa",
+    "municipality": "Lafayette",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Contra Costa",
+    "municipality": "Martinez",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Contra Costa",
+    "municipality": "Moraga",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Contra Costa",
+    "municipality": "Oakley",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Contra Costa",
+    "municipality": "Orinda",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Contra Costa",
+    "municipality": "Pinole",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Contra Costa",
+    "municipality": "Pittsburg",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Contra Costa",
+    "municipality": "Pleasant Hill",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Contra Costa",
+    "municipality": "Richmond",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Contra Costa",
+    "municipality": "San Pablo",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Contra Costa",
+    "municipality": "San Ramon",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Contra Costa",
+    "municipality": "Walnut Creek",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Marin",
+    "municipality": "Belvedere",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Marin",
+    "municipality": "Corte Madera",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Marin",
+    "municipality": "Fairfax",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Marin",
+    "municipality": "Larkspur",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Marin",
+    "municipality": "Mill Valley",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Marin",
+    "municipality": "Novato",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Marin",
+    "municipality": "Ross",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Marin",
+    "municipality": "San Anselmo",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Marin",
+    "municipality": "San Rafael",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Marin",
+    "municipality": "Sausalito",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Marin",
+    "municipality": "Tiburon",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Napa",
+    "municipality": "American Canyon",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Napa",
+    "municipality": "Calistoga",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Napa",
+    "municipality": "Napa",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Napa",
+    "municipality": "St. Helena",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Napa",
+    "municipality": "Yountville",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "San Francisco",
+    "municipality": "San Francisco",
+    "municipal_rental_status": "Partial source review; inventory pending",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [
+      "https://sfrecpark.org/658/Indoor-Facility-Rentals",
+      "https://sfrecpark.org/738/Wedding-Site-Directory"
+    ],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "San Mateo",
+    "municipality": "Atherton",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "San Mateo",
+    "municipality": "Belmont",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "San Mateo",
+    "municipality": "Brisbane",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "San Mateo",
+    "municipality": "Burlingame",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "San Mateo",
+    "municipality": "Colma",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "San Mateo",
+    "municipality": "Daly City",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "San Mateo",
+    "municipality": "East Palo Alto",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "San Mateo",
+    "municipality": "Foster City",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "San Mateo",
+    "municipality": "Half Moon Bay",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "San Mateo",
+    "municipality": "Hillsborough",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "San Mateo",
+    "municipality": "Menlo Park",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "San Mateo",
+    "municipality": "Millbrae",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "San Mateo",
+    "municipality": "Pacifica",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "San Mateo",
+    "municipality": "Portola Valley",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "San Mateo",
+    "municipality": "Redwood City",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "San Mateo",
+    "municipality": "San Bruno",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "San Mateo",
+    "municipality": "San Carlos",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "San Mateo",
+    "municipality": "San Mateo",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "San Mateo",
+    "municipality": "South San Francisco",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "San Mateo",
+    "municipality": "Woodside",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Santa Clara",
+    "municipality": "Campbell",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Santa Clara",
+    "municipality": "Cupertino",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Santa Clara",
+    "municipality": "Gilroy",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Santa Clara",
+    "municipality": "Los Altos",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Santa Clara",
+    "municipality": "Los Altos Hills",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Santa Clara",
+    "municipality": "Los Gatos",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Santa Clara",
+    "municipality": "Milpitas",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Santa Clara",
+    "municipality": "Monte Sereno",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Santa Clara",
+    "municipality": "Morgan Hill",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Santa Clara",
+    "municipality": "Mountain View",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Santa Clara",
+    "municipality": "Palo Alto",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Santa Clara",
+    "municipality": "San Jose",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Santa Clara",
+    "municipality": "Santa Clara",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Santa Clara",
+    "municipality": "Saratoga",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Santa Clara",
+    "municipality": "Sunnyvale",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Solano",
+    "municipality": "Benicia",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Solano",
+    "municipality": "Dixon",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Solano",
+    "municipality": "Fairfield",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Solano",
+    "municipality": "Rio Vista",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Solano",
+    "municipality": "Suisun City",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Solano",
+    "municipality": "Vacaville",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Solano",
+    "municipality": "Vallejo",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Sonoma",
+    "municipality": "Cloverdale",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Sonoma",
+    "municipality": "Cotati",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Sonoma",
+    "municipality": "Healdsburg",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Sonoma",
+    "municipality": "Petaluma",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Sonoma",
+    "municipality": "Rohnert Park",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Sonoma",
+    "municipality": "Santa Rosa",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Sonoma",
+    "municipality": "Sebastopol",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Sonoma",
+    "municipality": "Sonoma",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Sonoma",
+    "municipality": "Windsor",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+  },
+  {
+    "county": "Alameda",
+    "municipality": "Unincorporated areas / county agencies",
+    "municipal_rental_status": "Partial county/park-source review",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "County, regional, state, federal, special districts, colleges, fairs, remote properties; separate from city inventory"
+  },
+  {
+    "county": "Contra Costa",
+    "municipality": "Unincorporated areas / county agencies",
+    "municipal_rental_status": "Partial county/park-source review",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "County, regional, state, federal, special districts, colleges, fairs, remote properties; separate from city inventory"
+  },
+  {
+    "county": "Marin",
+    "municipality": "Unincorporated areas / county agencies",
+    "municipal_rental_status": "Partial county/park-source review",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "County, regional, state, federal, special districts, colleges, fairs, remote properties; separate from city inventory"
+  },
+  {
+    "county": "Napa",
+    "municipality": "Unincorporated areas / county agencies",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "County, regional, state, federal, special districts, colleges, fairs, remote properties; separate from city inventory"
+  },
+  {
+    "county": "San Francisco",
+    "municipality": "Unincorporated areas / county agencies",
+    "municipal_rental_status": "Partial county/park-source review",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "County, regional, state, federal, special districts, colleges, fairs, remote properties; separate from city inventory"
+  },
+  {
+    "county": "San Mateo",
+    "municipality": "Unincorporated areas / county agencies",
+    "municipal_rental_status": "Partial county/park-source review",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "County, regional, state, federal, special districts, colleges, fairs, remote properties; separate from city inventory"
+  },
+  {
+    "county": "Santa Clara",
+    "municipality": "Unincorporated areas / county agencies",
+    "municipal_rental_status": "Partial county/park-source review",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "County, regional, state, federal, special districts, colleges, fairs, remote properties; separate from city inventory"
+  },
+  {
+    "county": "Solano",
+    "municipality": "Unincorporated areas / county agencies",
+    "municipal_rental_status": "Not yet audited",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "County, regional, state, federal, special districts, colleges, fairs, remote properties; separate from city inventory"
+  },
+  {
+    "county": "Sonoma",
+    "municipality": "Unincorporated areas / county agencies",
+    "municipal_rental_status": "Partial county/park-source review",
+    "private_venue_status": "Not yet systematically audited",
+    "source_urls": [],
+    "remaining": "County, regional, state, federal, special districts, colleges, fairs, remote properties; separate from city inventory"
+  }
+]

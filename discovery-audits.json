@@ -1,0 +1,286 @@
+[
+  {
+    "pass": 1,
+    "question": "What other possible venues have we missed in East Bay Regional Park District?",
+    "scope": "East Bay Regional Park District",
+    "completed_utc": "2026-10-11T04:37:23.083085+00:00",
+    "source_urls": [
+      "https://www.ebparks.org/reservations/event-venues"
+    ],
+    "added_record_ids": [
+      "tilden-regional-park-brazilian-room-contra-costa",
+      "kennedy-grove-regional-recreation-area-fern-cottage-contra-costa",
+      "temescal-regional-recreation-area-temescal-beach-house-alameda",
+      "martin-luther-king-jr-regional-shoreline-shoreline-center-alameda",
+      "reinhardt-redwood-regional-park-reinhardt-redwood-picnic-sites-alameda",
+      "roberts-regional-recreation-area-roberts-picnic-sites-alameda",
+      "tilden-regional-park-tilden-picnic-sites-contra-costa",
+      "briones-regional-park-briones-picnic-sites-contra-costa",
+      "contra-loma-regional-park-contra-loma-picnic-sites-contra-costa",
+      "del-valle-regional-park-del-valle-picnic-sites-alameda",
+      "kennedy-grove-regional-recreation-area-kennedy-grove-picnic-sites-contra-costa",
+      "quarry-lakes-regional-recreation-area-quarry-lakes-picnic-sites-alameda",
+      "las-trampas-regional-wilderness-little-hills-events-contra-costa",
+      "the-bridge-yard-alameda"
+    ],
+    "duplicates_or_grouping": [
+      "Picnic clusters recorded as site groups, not a fabricated count of individually approved wedding sites. Buildings and clusters share parent parks."
+    ],
+    "exclusions_or_restrictions": [
+      "Shoreline Center is not currently available for new reservations."
+    ],
+    "remaining_gaps": [
+      "All individual picnic sites, partner operating terms and current fees require deeper review."
+    ],
+    "fact_check_findings": [
+      "Four buildings, eight picnic clusters and two operating partners found. Midnight rental hours do not establish a midnight music deadline."
+    ]
+  },
+  {
+    "pass": 2,
+    "question": "What other possible venues have we missed in San Francisco Recreation and Parks indoor/outdoor directories?",
+    "scope": "San Francisco Recreation and Parks indoor/outdoor directories",
+    "completed_utc": "2026-10-11T04:37:23.083085+00:00",
+    "source_urls": [
+      "https://sfrecpark.org/658/Indoor-Facility-Rentals",
+      "https://sfrecpark.org/719/Rec-Center-Clubhouse-Directory",
+      "https://sfrecpark.org/738/Wedding-Site-Directory"
+    ],
+    "added_record_ids": [
+      "county-fair-building-san-francisco",
+      "ecocenter-at-heron-s-head-park-san-francisco",
+      "lake-merced-boathouse-san-francisco",
+      "shipwright-cottage-community-room-san-francisco",
+      "stern-grove-trocadero-clubhouse-san-francisco",
+      "sunnyside-conservatory-san-francisco",
+      "betty-ann-ong-rec-center-betty-ann-ong-rec-center-multi-purpose-room-3-all-upstairs-san-francisco",
+      "cabrillo-clubhouse-san-francisco",
+      "crocker-amazon-clubhouse-san-francisco",
+      "douglass-clubhouse-san-francisco",
+      "hamilton-rec-center-hamilton-rec-center-multi-purpose-room-1-wood-floor-san-francisco",
+      "jackson-clubhouse-san-francisco",
+      "joe-dimaggio-clubhouse-san-francisco",
+      "joseph-lee-rec-center-joseph-lee-rec-center-multi-purpose-room-1-san-francisco",
+      "louis-sutter-roundhouse-san-francisco",
+      "midtown-terrace-clubhouse-san-francisco",
+      "minnie-and-lovie-ward-recreation-center-minnie-and-lovie-ward-recreation-center-auditorium-san-francisco",
+      "mission-pool-and-playground-clubhouse-san-francisco",
+      "presidio-wall-clubhouse-san-francisco",
+      "sunset-rec-center-sunset-rec-center-multi-purpose-room-1-all-san-francisco",
+      "cayuga-clubhouse-san-francisco",
+      "glen-canyon-recreation-center-glen-canyon-recreation-center-multi-purpose-room-1-san-francisco",
+      "j-p-murphy-clubhouse-san-francisco",
+      "richmond-rec-center-richmond-rec-center-auditorium-san-francisco",
+      "eureka-valley-rec-center-eureka-valley-rec-center-auditorium-san-francisco",
+      "glen-canyon-recreation-center-glen-canyon-recreation-center-multi-purpose-room-2-san-francisco",
+      "moscone-recreation-center-moscone-recreation-center-community-room-san-francisco",
+      "palega-recreation-center-palega-recreation-center-lobby-atrium-san-francisco",
+      "palega-recreation-center-palega-recreation-center-multi-purpose-room-3-san-francisco",
+      "potrero-hill-rec-center-potrero-hill-rec-center-auditorium-san-francisco",
+      "saint-mary-s-recreation-center-saint-mary-s-recreation-center-auditorium-san-francisco",
+      "upper-noe-recreation-center-upper-noe-recreation-center-auditorium-san-francisco",
+      "hamilton-rec-center-hamilton-rec-center-multi-purpose-room-2-concrete-floor-san-francisco",
+      "sunnyside-playground-clubhouse-san-francisco",
+      "fay-park-san-francisco",
+      "golden-gate-park-gardens-of-golden-gate-park-san-francisco",
+      "golden-gate-park-golden-gate-park-chinese-pavilion-san-francisco",
+      "golden-gate-park-golden-gate-park-fuchsia-dell-san-francisco",
+      "golden-gate-park-golden-gate-park-keyhole-meadow-at-middle-lake-san-francisco",
+      "golden-gate-park-golden-gate-park-portals-of-the-past-san-francisco",
+      "golden-gate-park-golden-gate-park-queen-wilhelmina-garden-san-francisco",
+      "golden-gate-park-golden-gate-park-rose-garden-san-francisco",
+      "golden-gate-park-golden-gate-park-shakespeare-garden-san-francisco",
+      "lafayette-park-san-francisco",
+      "palace-of-fine-arts-san-francisco"
+    ],
+    "duplicates_or_grouping": [
+      "28 recreation room records retain parent facilities; one room is not a separate property. Gardens of Golden Gate Park is an umbrella group requiring subdivision."
+    ],
+    "exclusions_or_restrictions": [
+      "Kezar Pavilion excluded: official list says athletic rentals only. Four outdoor sites do not permit receptions, recorded explicitly."
+    ],
+    "remaining_gaps": [
+      "Gyms, complete Gardens operator roster, all city museums, Port rentals and current all-in fee calculation pending."
+    ],
+    "fact_check_findings": [
+      "Published general room maxima are not banquet capacity. Outdoor reception permission differs by site; Queen Wilhelmina maximum drops with reception."
+    ]
+  },
+  {
+    "pass": 3,
+    "question": "What other possible venues have we missed in San Mateo County reservable park facilities?",
+    "scope": "San Mateo County reservable park facilities",
+    "completed_utc": "2026-10-11T04:37:23.083085+00:00",
+    "source_urls": [
+      "https://www.smcgov.org/parks/county-reservable-facilities"
+    ],
+    "added_record_ids": [
+      "memorial-park-amphitheater-san-mateo",
+      "flood-park-bay-picnic-area-san-mateo",
+      "junipero-serra-park-bay-view-shelter-san-mateo",
+      "coyote-point-recreation-area-beach-picnic-area-san-mateo",
+      "coyote-point-recreation-area-beach-picnic-area-5-san-mateo",
+      "coyote-point-recreation-area-beach-picnic-area-6-san-mateo",
+      "coyote-point-recreation-area-beach-picnic-area-7-san-mateo",
+      "coyote-point-recreation-area-beach-picnic-area-8-san-mateo",
+      "junipero-serra-park-buckeye-picnic-area-san-mateo",
+      "sam-mcdonald-park-chinook-youth-campground-san-mateo",
+      "sam-mcdonald-park-choctaw-youth-campground-san-mateo",
+      "san-pedro-valley-park-creekside-picnic-area-san-mateo",
+      "san-pedro-valley-park-day-overnight-youth-camp-area-san-mateo",
+      "junipero-serra-park-de-anza-picnic-area-san-mateo",
+      "memorial-park-doug-fir-group-campground-san-mateo",
+      "huddart-park-east-meadow-picnic-area-san-mateo",
+      "san-bruno-mountain-state-county-park-edward-bacciocco-jr-day-overnight-youth-camp-san-mateo",
+      "coyote-point-recreation-area-eucalyptus-picnic-area-san-mateo",
+      "coyote-point-recreation-area-eucalyptus-picnic-area-1-san-mateo",
+      "coyote-point-recreation-area-eucalyptus-picnic-area-2-san-mateo",
+      "coyote-point-recreation-area-eucalyptus-picnic-area-3-san-mateo",
+      "coyote-point-recreation-area-eucalyptus-picnic-area-4-san-mateo",
+      "memorial-park-family-camping-at-memorial-park-san-mateo",
+      "flood-park-fir-picnic-area-san-mateo",
+      "memorial-park-huckleberry-flat-san-mateo",
+      "memorial-park-huckleberry-flat-1-san-mateo",
+      "memorial-park-huckleberry-flat-2-san-mateo",
+      "memorial-park-huckleberry-flat-3-san-mateo",
+      "memorial-park-huckleberry-flat-5-san-mateo",
+      "memorial-park-huckleberry-flat-6-san-mateo",
+      "memorial-park-huckleberry-flat-7-san-mateo",
+      "memorial-park-huckleberry-flat-9-san-mateo",
+      "sam-mcdonald-park-jack-brook-horse-camp-area-1-san-mateo",
+      "sam-mcdonald-park-jack-brook-horse-camp-area-2-san-mateo",
+      "sam-mcdonald-park-jack-brook-horse-camp-area-3-san-mateo",
+      "coyote-point-recreation-area-knoll-day-camp-area-san-mateo",
+      "flood-park-madrone-picnic-area-san-mateo",
+      "coyote-point-recreation-area-magic-mountain-picnic-area-san-mateo",
+      "coyote-point-recreation-area-magic-mountain-picnic-area-10-san-mateo",
+      "coyote-point-recreation-area-magic-mountain-picnic-area-11-san-mateo",
+      "coyote-point-recreation-area-magic-mountain-picnic-area-12-san-mateo",
+      "coyote-point-recreation-area-magic-mountain-picnic-area-13-san-mateo",
+      "coyote-point-recreation-area-magic-mountain-picnic-area-14-san-mateo",
+      "coyote-point-recreation-area-magic-mountain-picnic-area-15-san-mateo",
+      "coyote-point-recreation-area-magic-mountain-picnic-area-16-san-mateo",
+      "coyote-point-recreation-area-magic-mountain-picnic-area-17-san-mateo",
+      "coyote-point-recreation-area-magic-mountain-picnic-area-18-san-mateo",
+      "coyote-point-recreation-area-magic-mountain-picnic-area-19-san-mateo",
+      "coyote-point-recreation-area-magic-mountain-picnic-area-20-san-mateo",
+      "coyote-point-recreation-area-magic-mountain-picnic-area-21-san-mateo",
+      "coyote-point-recreation-area-magic-mountain-picnic-area-22-san-mateo",
+      "coyote-point-recreation-area-magic-mountain-picnic-area-23-san-mateo",
+      "coyote-point-recreation-area-magic-mountain-picnic-area-9-san-mateo",
+      "flood-park-maple-picnic-area-san-mateo",
+      "huddart-park-miwok-shelter-san-mateo",
+      "sam-mcdonald-park-modoc-youth-campground-san-mateo",
+      "san-pedro-valley-park-north-walnut-grove-picnic-area-san-mateo",
+      "junipero-serra-park-oak-cove-youth-day-overnight-camp-area-san-mateo",
+      "huddart-park-oak-picnic-area-san-mateo",
+      "flood-park-oak-premium-picnic-area-san-mateo",
+      "flood-park-pine-picnic-area-san-mateo",
+      "memorial-park-redwood-flat-san-mateo",
+      "huddart-park-redwood-picnic-area-san-mateo",
+      "flood-park-redwood-picnic-area-san-mateo",
+      "huddart-park-redwood-shelter-san-mateo",
+      "huddart-park-sequoia-amphitheater-san-mateo",
+      "huddart-park-sequoia-day-overnight-youth-camp-area-san-mateo",
+      "san-pedro-valley-park-south-walnut-grove-picnic-area-san-mateo",
+      "huddart-park-werder-shelter-san-mateo",
+      "huddart-park-west-meadow-picnic-area-san-mateo",
+      "junipero-serra-park-willow-shelter-picnic-area-san-mateo",
+      "memorial-park-wurr-flat-san-mateo",
+      "memorial-park-wurr-flat-1-san-mateo",
+      "memorial-park-wurr-flat-2-san-mateo",
+      "huddart-park-zwierlein-picnic-area-san-mateo"
+    ],
+    "duplicates_or_grouping": [
+      "Same-named picnic sites keyed by exact source URL and parent park; aggregate rows tagged Site group. Huckleberry sites grouped under Memorial Park per county index."
+    ],
+    "exclusions_or_restrictions": [
+      "Youth, family camping and horse-camp facilities retained as restricted leads, not confirmed adult-wedding venues."
+    ],
+    "remaining_gaps": [
+      "Specific wedding permits, recently rebuilt picnic layouts, all county non-park buildings, municipalities and fees pending."
+    ],
+    "fact_check_findings": [
+      "75 detail pages reviewed; seated and standing counts retained separately. A picnic reservation alone does not establish wedding/amplification permission."
+    ]
+  },
+  {
+    "pass": 4,
+    "question": "What other possible venues have we missed in Santa Clara county, Presidio federal and Sonoma state historic rentals?",
+    "scope": "Santa Clara county, Presidio federal and Sonoma state historic rentals",
+    "completed_utc": "2026-10-11T04:37:23.083085+00:00",
+    "source_urls": [
+      "https://parks.santaclaracounty.gov/things-do/reserve-grounds-county-parks-weddings-and-receptions",
+      "https://presidio.gov/plan-an-event/wedding-venues",
+      "https://www.parks.ca.gov/?page_id=31722"
+    ],
+    "added_record_ids": [
+      "sanborn-county-park-sequoia-peterson-grove-santa-clara",
+      "mount-madonna-county-park-amphitheater-santa-clara",
+      "joseph-d-grant-county-park-rose-garden-cookhouse-santa-clara",
+      "vasona-lake-county-park-circle-santa-clara",
+      "presidio-chapel-of-our-lady-chapel-of-our-lady-san-francisco",
+      "presidio-presidio-chapel-presidio-chapel-san-francisco",
+      "presidio-golden-gate-club-golden-gate-club-san-francisco",
+      "presidio-log-cabin-log-cabin-san-francisco",
+      "presidio-presidio-golf-course-presidio-golf-course-san-francisco",
+      "sonoma-state-historic-park-mission-chapel-sonoma",
+      "sonoma-state-historic-park-barracks-courtyard-sonoma",
+      "petaluma-adobe-state-historic-park-picnic-grove-sonoma"
+    ],
+    "duplicates_or_grouping": [
+      "Presidio Chapel and Chapel of Our Lady are distinct buildings; parent properties retained. Santa Clara counts are generic people maxima."
+    ],
+    "exclusions_or_restrictions": [
+      "Sunset park closing rules preclude an assumed outdoor-midnight option. Government rental is not a transferable business concession."
+    ],
+    "remaining_gaps": [
+      "Other SCC picnic sites, Presidio lawns/restaurants, Angel Island, Point Reyes and coast parks need subsequent searches."
+    ],
+    "fact_check_findings": [
+      "Twelve named spaces found. Sanborn seasonal music deadline and cooking/alcohol restrictions recorded from government text."
+    ]
+  },
+  {
+    "pass": 5,
+    "question": "What other possible venues have we missed in restaurants, museums, retreats and glamping operators?",
+    "scope": "restaurants, museums, retreats and glamping operators",
+    "completed_utc": "2026-10-11T04:37:23.083085+00:00",
+    "source_urls": [
+      "https://foreigncinema.com/private-dining/",
+      "https://www.thetech.org/visit/event-rentals/meeting-event-spaces/",
+      "https://www.wildhavensonoma.com/weddings",
+      "https://computerhistory.org/venue/",
+      "https://www.skatesonthebay.com/private-events/",
+      "https://www.greensrestaurant.com/privateevents",
+      "https://www.thewesterbekeranch.com/events/details/",
+      "https://autocamp.com/location/sonoma/",
+      "https://ralstonwhiteretreat.org/"
+    ],
+    "added_record_ids": [
+      "foreign-cinema-san-francisco",
+      "skates-on-the-bay-alameda",
+      "greens-restaurant-san-francisco",
+      "computer-history-museum-santa-clara",
+      "the-tech-interactive-lower-level-santa-clara",
+      "the-tech-interactive-new-venture-hall-lobby-santa-clara",
+      "the-tech-interactive-rooftop-terrace-santa-clara",
+      "wildhaven-sonoma-sonoma",
+      "westerbeke-ranch-sonoma",
+      "autocamp-sonoma-russian-river-sonoma",
+      "ralston-white-retreat-marin"
+    ],
+    "duplicates_or_grouping": [
+      "AutoCamp Sonoma / Russian River retained as one property; Tech rooms share one parent. Foreign Cinema, Greens and Wildhaven already advertise weddings and must not be labeled as non-marketing."
+    ],
+    "exclusions_or_restrictions": [
+      "Wildhaven Yosemite is outside the nine-county scope. Tech full-facility standing 2,250 is not a seated wedding capacity."
+    ],
+    "remaining_gaps": [
+      "Other restaurants/breweries, faith/fraternal halls, clubs, camps, schools, ports, fairgrounds and retreat operators still require broad discovery."
+    ],
+    "fact_check_findings": [
+      "Wildhaven wedding page corrects earlier tentative glamping classification and explicitly allows outside catering with approval. Larger outdoor count versus 50-seat tent creates a rain-backup gap."
+    ]
+  }
+]

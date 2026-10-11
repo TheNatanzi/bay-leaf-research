@@ -14,3 +14,6 @@ Research update: Planner workbook has 194 fields across 18 categories, based on 
 
 ## Per-venue planner tracking
 Each venue has 194 criterion answer slots in `workbook_answers`. Null means unknown, never no or zero. Recorded answers include status, source URLs and evidence date. Comparison supports Wedding essentials, original overview, all criteria and 18 category views, column sorting and unanswered-field filtering. Visible horizontal navigation and pinned venue names keep the full table reachable. Editing shared research still happens in the repository; this comparison is a read-only research view.
+
+## Census expansion (October 10, 2026 Pacific)
+159 discovery records, including properties, rooms, picnic sites, restricted facilities and aggregate site groups. 146 government-managed or partner records; 13 unconventional records (categories overlap). Five of ten requested missed-venue audits documented. Two records currently have checked coordinates. Government, Potential spaces and Coverage audit views are sortable/filterable; the audit contains 101 municipalities plus nine county/unincorporated workstreams. No county or full venue census is declared complete. Construction, operating dates and values remain unknown unless specific evidence supports them.
