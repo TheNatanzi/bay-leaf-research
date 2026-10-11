@@ -547,7 +547,11 @@
       "https://www.waterbarsf.com/faq/",
       "https://images.getbento.com/accounts/57c286fa6cfbd8712bc882c30a596d49/media/NGrrneNRS6cKBI8NBZps_Waterbar%20Private%20Dining%20Guide.pdf",
       "https://images.getbento.com/accounts/57c286fa6cfbd8712bc882c30a596d49/media/Pa0VHZsRT96AmVV9VkiW_Waterbar%20Event%20Menus%20-%20November%202026.pdf",
-      "https://www.waterbarsf.com/location/waterbarsf/"
+      "https://www.waterbarsf.com/location/waterbarsf/",
+      "https://www.aracelysf.com/weddings-1",
+      "https://www.aracelysf.com/private-events",
+      "https://www.aracelysf.com/",
+      "https://www.weddingwire.com/biz/aracely-cafe-san-francisco/5b6069e66f54229f.html"
     ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
@@ -715,7 +719,12 @@
     "municipality": "Woodside",
     "municipal_rental_status": "Not yet audited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
+    "source_urls": [
+      "https://www.fogartywinery.com/pages/weddings",
+      "https://www.fogartywinery.com/pages/contact",
+      "https://www.fogartywinery.com/pages/our-story",
+      "https://www.weddingwire.com/biz/thomas-fogarty-winery-redwood-city/cdc13f2ba7237fed.html"
+    ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
   {

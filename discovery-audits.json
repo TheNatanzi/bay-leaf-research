@@ -2397,5 +2397,56 @@
       "Vezéractualoriginal300/130/300generic mainoffers,6hourvenuefees8500–10000/6500–7500/15000,wineonly/nospirits/legallybindingceremoniesprohibitedsymboliconly/security150+/portabletoilets>150/mandatoryshuttle. Fourcorporaterooms10/16generic, notweddingpermission.",
       "Broker55m125acrefourpropertyportfolio NOT BlueVictorianstandalone;7.75mMankasmixed-usewholeproperty ASK notgardensbusinessallocation.5.09%caprate/occupancyclaimsnotaudited; noNIOrprofitinferred. 2001winemakingnotweddingstart."
     ]
+  },
+  {
+    "pass": 37,
+    "question": "Which well-known winery/restaurant venues were still missed, and are review scores, capacity claims and county boundaries matched to the correct property?",
+    "scope": "Peninsula winery and Treasure Island restaurant/shared auditorium; cross-platform review evidence and Mendocino boundary exclusion",
+    "completed_utc": "2026-10-11T10:02:41.982847+00:00",
+    "source_urls": [
+      "https://www.fogartywinery.com/pages/weddings",
+      "https://www.fogartyevents.com/preferred-vendors/",
+      "https://www.aracelysf.com/",
+      "https://www.aracelysf.com/events",
+      "https://mountainhouseestate.com/faq/",
+      "https://www.weddingwire.com/reviews/deer-park-villa-fairfax/31bcee03ef8f693c.html",
+      "https://www.weddingwire.com/reviews/preservation-park-oakland/2a3826343cba2621.html",
+      "https://www.weddingwire.com/biz/hans-fahden-vineyards-calistoga/30ab96df634997af.html",
+      "https://www.weddingwire.com/biz/vezer-blue-victorian-fairfield/1f696f3f5d6dbc2e.html",
+      "https://www.weddingwire.com/biz/thomas-fogarty-winery-redwood-city/cdc13f2ba7237fed.html",
+      "https://www.weddingwire.com/biz/aracely-cafe-san-francisco/5b6069e66f54229f.html",
+      "https://www.aracelysf.com/weddings-1",
+      "https://www.aracelysf.com/private-events",
+      "https://www.fogartywinery.com/pages/contact",
+      "https://www.fogartywinery.com/pages/our-story"
+    ],
+    "added_record_ids": [
+      "thomas-fogarty-winery-wedding-offering-san-mateo",
+      "aracely-cafe-wedding-tented-courtyard-offering-san-francisco",
+      "aracely-cafe-shared-conference-facility-shared-auditorium-add-on-san-francisco"
+    ],
+    "duplicates_merged": [
+      "Existing Deer Park Villa, Preservation Park, Hans Fahden and Blue Victorian matched and enriched, not duplicated",
+      "Aracely courtyard and shared auditorium occupy linked facilities; capacity not summed"
+    ],
+    "excluded": [
+      "Mountain House Estate: operator identifies County of Mendocino Major Use Permit UR2014-0006 despite Cloverdale/Sonoma marketing; exclude from nine-county census pending boundary resolution",
+      "Nearby recommended out-of-region WeddingWire venues",
+      "Google scores repeated by WeddingWire not treated as directly verified Google listing",
+      "Yelp robots-blocked; no bypass or fabricated rating",
+      "Private dining menu prices not wedding package totals"
+    ],
+    "remaining_gaps": [
+      "Exact issued permits, approved dinner/dance and auditorium reception layout",
+      "Current full quotes, food/bar allocation and late-night music terms",
+      "Reviews remain Unknown for most properties; no merged cross-platform score",
+      "All-nine-county exhaustive inventory remains incomplete"
+    ],
+    "fact_check_findings": [
+      "Three new discovery records on two properties; six exact property WeddingWire aggregates checked through primary platform web reader; direct downloads403 recorded separately",
+      "Aracely300seats includes100on dance floor; main package starts150/person with unknown upper/all-in cost; shared auditorium380/400theater not dinner",
+      "Fogarty200generic and10PM event end; caterer preferred list and estate winery1981 distinct from wedding opening",
+      "Blue undated directory150body/300header and old pricing conflict with current original operator; current terms preserved"
+    ]
   }
 ]
