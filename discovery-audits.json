@@ -2586,5 +2586,91 @@
       "DirectoperatorHTML403 logged separately from primarywebreader; originalsources retained",
       "ArgonautGoldenGatecapacity conflicting; Maritime90dinner+dance; courtyard200ceremony notdinner;10personintimatepackage includescouple"
     ]
+  },
+  {
+    "pass": 40,
+    "question": "What Contra Costa hotel ballrooms, courtyards and small event rooms were still missing beyond the wedding-directory list?",
+    "scope": "Four new hotel properties;47room/configuration records,14withweddingpermissionUnknown",
+    "completed_utc": "2026-10-11T10:30:35.668421+00:00",
+    "source_urls": [
+      "https://www.marriott.com/en-us/hotels/oakwc-walnut-creek-marriott/events/",
+      "https://www.hilton.com/en-gb/hotels/conchhf-hilton-concord/events/?displayCurrency=USD&numAdults=1&numChildren=0&numRooms=1&room1AdultAges=&room1ChildAges=",
+      "https://www.marriott.com/en-us/hotels/oakbr-renaissance-walnut-creek-hotel/events/",
+      "https://www.hilton.com/en/hotels/conchhf-hilton-concord/events/",
+      "https://www.hilton.com/en/hotels/sfophes-embassy-suites-walnut-creek/events/",
+      "https://www.marriott.com/marriottassets/marriott/OAKWC/PDF/OAKWC_BANQUET_MENUS.pdf"
+    ],
+    "added_record_ids": [
+      "walnut-creek-marriott-california-ballroom-contra-costa",
+      "walnut-creek-marriott-salon-a-contra-costa",
+      "walnut-creek-marriott-salon-b-contra-costa",
+      "walnut-creek-marriott-salon-c-contra-costa",
+      "walnut-creek-marriott-salon-d-contra-costa",
+      "walnut-creek-marriott-salon-e-contra-costa",
+      "walnut-creek-marriott-salon-f-contra-costa",
+      "walnut-creek-marriott-santa-rosa-contra-costa",
+      "walnut-creek-marriott-sacramento-contra-costa",
+      "walnut-creek-marriott-san-jose-contra-costa",
+      "walnut-creek-marriott-contra-costa-ballroom-contra-costa",
+      "walnut-creek-marriott-contra-costa-1-contra-costa",
+      "walnut-creek-marriott-contra-costa-ii-contra-costa",
+      "renaissance-walnut-creek-hotel-renaissance-room-contra-costa",
+      "renaissance-walnut-creek-hotel-club-room-contra-costa",
+      "renaissance-walnut-creek-hotel-boardroom-contra-costa",
+      "hilton-concord-golden-gate-ballroom-contra-costa",
+      "hilton-concord-courtyard-contra-costa",
+      "hilton-concord-golden-gate-parlor-b-contra-costa",
+      "hilton-concord-golden-gate-parlor-c-contra-costa",
+      "hilton-concord-golden-gate-parlor-a-contra-costa",
+      "hilton-concord-park-room-contra-costa",
+      "hilton-concord-seminar-4-contra-costa",
+      "hilton-concord-golden-gate-parlor-d-contra-costa",
+      "hilton-concord-golden-gate-parlor-e-contra-costa",
+      "hilton-concord-club-room-1-contra-costa",
+      "hilton-concord-club-room-2-contra-costa",
+      "hilton-concord-seminar-2-contra-costa",
+      "hilton-concord-seminar-3-contra-costa",
+      "hilton-concord-baldwin-room-contra-costa",
+      "hilton-concord-chabot-room-contra-costa",
+      "hilton-concord-tilden-room-contra-costa",
+      "hilton-concord-seminar-1-contra-costa",
+      "embassy-suites-by-hilton-walnut-creek-atrium-contra-costa",
+      "embassy-suites-by-hilton-walnut-creek-contra-costa-ballroom-contra-costa",
+      "embassy-suites-by-hilton-walnut-creek-alameda-ballroom-contra-costa",
+      "embassy-suites-by-hilton-walnut-creek-grizzly-peak-contra-costa",
+      "embassy-suites-by-hilton-walnut-creek-alameda-i-contra-costa",
+      "embassy-suites-by-hilton-walnut-creek-contra-costa-b-contra-costa",
+      "embassy-suites-by-hilton-walnut-creek-contra-costa-a-contra-costa",
+      "embassy-suites-by-hilton-walnut-creek-contra-costa-c-contra-costa",
+      "embassy-suites-by-hilton-walnut-creek-outdoor-patio-b-contra-costa",
+      "embassy-suites-by-hilton-walnut-creek-alameda-ii-contra-costa",
+      "embassy-suites-by-hilton-walnut-creek-outdoor-patio-a-contra-costa",
+      "embassy-suites-by-hilton-walnut-creek-black-diamond-contra-costa",
+      "embassy-suites-by-hilton-walnut-creek-magnolia-contra-costa",
+      "embassy-suites-by-hilton-walnut-creek-mt-diablo-ballroom-contra-costa"
+    ],
+    "duplicates_merged": [
+      "Ballroomsubdivisions preservedasroomrecords, not independentproperties or summablecapacities",
+      "Repeatedmetric/imperial tables usedonce"
+    ],
+    "excluded": [
+      "WalnutCreekMarriottsevenconference-only10/6roomslots withoutbanquet/weddingevidence heldfromcandidateimport",
+      "HiltonExecutiveBoardroom12conference/0banquet held",
+      "MarriottlegacyPDF403notreviewedandRenaissanceoldweddinglinkgenericredirectnotcurrentpackage",
+      "ConcordNCandNHhomonym hotels excluded"
+    ],
+    "remaining_gaps": [
+      "Actual issued occupancy/dinner+dance layouts andmidnightmusic approval",
+      "Completecurrentquotes/inclusions/vendorrequirements",
+      "Embassyweddingpermission andallpropertyAPNs/values/history/reviews Unknown",
+      "Allninecountyinventory remainsincomplete"
+    ],
+    "fact_check_findings": [
+      "WalnutCreekMarriottCalifornia400banquet500reception/theater notconfirmed400withdance",
+      "ContraCostaBallroomtable23banquetheldaspossibleerror,notsilentlycorrected230",
+      "Renaissance110weddingprose vs130banquet/180receptionchart;62dinnerfoodonlynotweddingpackage",
+      "HiltonConcord700banquet750reception950theater; dinner+danceUnknown",
+      "EmbassyAtrium250banquet450receptionvs500genericmarketing;14potentialeventroomrecords,weddingpermissionUnknown"
+    ]
   }
 ]

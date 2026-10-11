@@ -177,7 +177,9 @@
     "municipality": "Concord",
     "municipal_rental_status": "Not yet audited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
+    "source_urls": [
+      "https://www.hilton.com/en/hotels/conchhf-hilton-concord/events/"
+    ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
   {
@@ -314,7 +316,11 @@
     "municipality": "Walnut Creek",
     "municipal_rental_status": "Not yet audited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
+    "source_urls": [
+      "https://www.marriott.com/en-us/hotels/oakwc-walnut-creek-marriott/events/",
+      "https://www.marriott.com/en-us/hotels/oakbr-renaissance-walnut-creek-hotel/events/",
+      "https://www.hilton.com/en/hotels/sfophes-embassy-suites-walnut-creek/events/"
+    ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
   {
