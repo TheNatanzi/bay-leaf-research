@@ -636,8 +636,10 @@
     "county": "Santa Clara",
     "municipality": "Gilroy",
     "municipal_rental_status": "Not yet audited",
-    "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
+    "private_venue_status": "Partial operator-led discovery; not systematic or complete",
+    "source_urls": [
+      "https://gilroyglamping.com/weddings"
+    ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
   {
@@ -761,9 +763,12 @@
     "county": "Solano",
     "municipality": "Benicia",
     "municipal_rental_status": "Partial source review; additional facilities and current contracts pending",
-    "private_venue_status": "Not yet systematically audited",
+    "private_venue_status": "Partial operator-led discovery; not systematic or complete",
     "source_urls": [
-      "https://www.ci.benicia.ca.us/index.asp?DE=6C6829DE-75FD-4DC4-94F5-66DD197B85B9&SEC=0F1F1E42-7C13-47B2-9CE8-9FD1737C1497"
+      "https://www.ci.benicia.ca.us/index.asp?DE=6C6829DE-75FD-4DC4-94F5-66DD197B85B9&SEC=0F1F1E42-7C13-47B2-9CE8-9FD1737C1497",
+      "https://www.mareislandbrewingco.com/private-events",
+      "https://www.mareislandbrewingco.com/first-street",
+      "https://www.mareislandbrewingco.com/contact"
     ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
@@ -771,19 +776,23 @@
     "county": "Solano",
     "municipality": "Dixon",
     "municipal_rental_status": "Partial rental inventory reviewed; private wedding and room terms remain unknown",
-    "private_venue_status": "Not yet systematically audited",
+    "private_venue_status": "Partial operator-led discovery; not systematic or complete",
     "source_urls": [
-      "https://www.cityofdixonca.gov/facilityreservations"
+      "https://www.cityofdixonca.gov/facilityreservations",
+      "https://bellavista-farms.com/",
+      "https://bellavista-farms.com/the-venue"
     ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
   {
     "county": "Solano",
     "municipality": "Fairfield",
-    "municipal_rental_status": "Partial rental inventory reviewed; private wedding and room terms remain unknown",
+    "municipal_rental_status": "Partial primary-source room/site inventory; approved wedding layout and total quotes remain incomplete",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
-      "https://www.fairfield.ca.gov/government/city-departments/parks-and-recreation/facility-park-picnic-rentals"
+      "https://www.fairfield.ca.gov/government/city-departments/parks-and-recreation/facility-park-picnic-rentals",
+      "https://www.solanocemeteries.us/rockville-cemetery-stone-chapel",
+      "https://www.solanocemeteries.us/files/30dead4bc/Stone%2BChapel%2BRental%2BInfo-Weddings%2Band%2BSaturdays.pdf"
     ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
@@ -818,9 +827,30 @@
   {
     "county": "Solano",
     "municipality": "Vallejo",
-    "municipal_rental_status": "Not yet audited",
-    "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
+    "municipal_rental_status": "Partial primary-source room/site inventory; approved wedding layout and total quotes remain incomplete",
+    "private_venue_status": "Partial operator-led discovery; not systematic or complete",
+    "source_urls": [
+      "https://www.gvrd.org/foley-cultural-center",
+      "https://www.gvrd.org/community-centers",
+      "https://www.gvrd.org/files/b1d64451f/2026%2BGVRD%2BFacility%2BRental%2BInformation%2Band%2BApplication.pdf",
+      "https://www.gvrd.org/north-vallejo-community-center",
+      "https://www.gvrd.org/vallejo-community-center",
+      "https://www.gvrd.org/norman-c-king-south-vallejo-community-center",
+      "https://www.mareislandbrewingco.com/private-events",
+      "https://www.mareislandbrewingco.com/coal-shed",
+      "https://www.mareislandbrewingco.com/contact",
+      "https://www.mareislandbrewingco.com/news-articles/whaleboat-room",
+      "https://www.mareislandbrewingco.com/ferry-taproom",
+      "https://www.vinogodfather.com/venues/",
+      "https://www.vinogodfather.com/visit/",
+      "https://www.vinogodfather.com/contact/",
+      "https://mihpf.org/event-rentals",
+      "https://cdn.prod.website-files.com/623a614b155b26cf00f5dcad/681910f296fb415fe59a9f07_privateeventrates.pdf",
+      "https://empresstheatre.org/rentals/",
+      "https://vallejoyachtcluborg.squarespace.com/contact-us",
+      "https://www.visitvallejo.com/venues",
+      "https://arts.ca.gov/grantee/mira-theatre-guild/"
+    ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
   {
@@ -944,8 +974,13 @@
     "county": "San Mateo",
     "municipality": "Unincorporated areas / county agencies",
     "municipal_rental_status": "Partial county/park-source review",
-    "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
+    "private_venue_status": "Partial operator-led discovery; not systematic or complete",
+    "source_urls": [
+      "https://www.ventureretreat.org/s/Wedding-Packages-2026-for-Web.pdf",
+      "https://www.ventureretreat.org/plan-your-celebration",
+      "https://www.ventureretreat.org/history",
+      "https://www.visithalfmoonbay.org/places/venture-retreat-center/"
+    ],
     "remaining": "County, regional, state, federal, special districts, colleges, fairs, remote properties; separate from city inventory"
   },
   {
@@ -968,8 +1003,10 @@
     "county": "Sonoma",
     "municipality": "Unincorporated areas / county agencies",
     "municipal_rental_status": "Partial county/park-source review",
-    "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
+    "private_venue_status": "Partial operator-led discovery; not systematic or complete",
+    "source_urls": [
+      "https://dawnranch.com/wp-content/uploads/2025/10/Official-2026-Wedding-Packages-Dawn-Ranch.pdf"
+    ],
     "remaining": "County, regional, state, federal, special districts, colleges, fairs, remote properties; separate from city inventory"
   }
 ]
