@@ -261,3 +261,53 @@ Hicks describes a working-family-farm conversion, onsite holiday accommodation, 
 Lessons: Validate local demand and layout, plan staffing for remote operation, communicate pricing clearly and budget weather/landscaping recovery.
 
 Commercial context: Co-owner also operates Elevate Venue Consulting; podcast host promotes education. Written transcript reviewed; audio not reviewed.
+
+
+## Additional California operator experiences
+
+Publication dates are independent of the historical milestones in each story. Unknown dates remain Unknown.
+
+### Villa Loriana / former Loriana Ranch
+
+- Person: Gillespie family; Rob and Lori named as founders; individual narrator byline Unknown
+- Original publication: Unknown; update: Unknown; checked: 2026-10-11
+- Type: Operator-published first-person family history
+- Jurisdiction/scale: San Luis Obispo, California, USA — outside Bay Area; One estate; construction/capital and booking volume Unknown
+
+Family account describes developing the site from 2012, hosting a first tent wedding in 2013, a destructive fire during cottage construction, and rebuilding a villa completed 2018. Present-day family members describe operating the venue together.
+
+Lessons: Include construction-loss scenarios, reopening delays and contingency reserves in development analysis. A resilience story does not prove the financial return of rebuilding.
+
+Evidence limits: Venue marketing page; no individual byline or original publication date. Full original text reviewed through web; direct download406. No insurance or cost recovery claim inferred.
+
+[Original source](https://www.villaloriana.com/story/)
+
+### Sand Canyon Ranch Venue
+
+- Person: Marianne and Victor, named co-founders; both personal surnames not confirmed
+- Original publication: Unknown; update: Unknown; checked: 2026-10-11
+- Type: Operator-published founding experience
+- Jurisdiction/scale: Tehachapi, Kern County, California, USA — outside Bay Area; 19-acre site and 1,800 sqft barn, self-described; staffing cost/earnings Unknown
+
+Co-founders describe a search exceeding six months, three years of land development, construction completed 2020 and a team effort since 2018. Current roles include tours, administration, maintenance and event management. The page says profit quotas were not their starting motive.
+
+Lessons: Model groundskeeping, tours, client administration and event staffing separately. A residence-driven project without investor quotas may not match Bay Leaf’s required return or low owner involvement.
+
+Evidence limits: Current venue marketing and photography-business promotion; undated page. Downloaded original HTML/text reviewed; no profits inferred.
+
+[Original source](https://sandcanyonranchvenue.com/about)
+
+### The Glass Slipper Palace
+
+- Person: Michael and Amanda Quinones; host/writer Jonathan Aymin
+- Original publication: 2023-02-27; update: 2023-08-15; checked: 2026-10-11
+- Type: Operator interview — publisher show notes only
+- Jurisdiction/scale: Los Angeles, California, USA — outside Bay Area; One urban venue; verified budgets, capacity and earnings Unknown
+
+Publisher summary says the couple’s own venue search prompted a two-year planning effort and a strongly specified design concept. Their hospitality/entertainment background and differentiated branding are interview themes.
+
+Lessons: Test the unmet customer need before committing to a design-heavy conversion; distinctive aesthetics still require operating and acquisition cost evidence.
+
+Evidence limits: Podcast operator/interview guests named; host promotes venue-management services. Show notes and publication metadata reviewed; audio/transcript not reviewed.
+
+[Original source](https://www.thevenuerx.com/the-venue-owner-series/a-venue-fit-for-a-king-and-queen)
