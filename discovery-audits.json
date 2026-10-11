@@ -4662,5 +4662,53 @@
       "Two Illinois owner letters use written date separately from Unknown original publication date. Booked volumes, forecasts and payroll are self-reported, not audited earnings or current BayArea rules. County localPDF522 logged; reader review accurately labeled.",
       "MillerFarmsBarn letter discovered but full signature/date/publication verification remains pending; not added from partial search excerpt. No outsourced marketing profit claims imported as competitor profit."
     ]
+  },
+  {
+    "pass": 65,
+    "question": "What restaurant and historic commercial property leads were missed, and are stale listings, assessments or homonymous venues causing incorrect feasibility and valuation claims?",
+    "scope": "DepotSonoma/MoragaBarn possible acquisitions and MarkWest parcel-scope verification",
+    "completed_utc": "2026-10-11T14:35:20.598539+00:00",
+    "source_urls": [
+      "https://www.depothotel.com/reserve/",
+      "https://static1.squarespace.com/static/55147c84e4b076742436c530/t/6119ae6b0ba77f480290f542/1629073005890/NEW%2BWedding%2BInformation%2BPackage%2Bdated%2BAugust%2B2021.pdf",
+      "https://www.cbre.com/press-releases/cbre-announces-historic-sonoma-restaurant-and-event-venue-is-for-sale",
+      "https://www.loopnet.com/Listing/241-1st-St-W-Sonoma-CA/37636597/",
+      "https://www.colliersparrish.com/TheMoragaBarn/",
+      "https://www.colliersparrish.com/listings/aus/aus.hot.excl.pdf",
+      "https://www.loopnet.com/Listing/2520-Mark-West-Springs-Rd-Santa-Rosa-CA/40060548/"
+    ],
+    "added_record_ids": [
+      "the-depot-hotel-restaurant-and-garden-sonoma-restaurant-and-garden-wedding-buyout-sonoma",
+      "the-depot-hotel-restaurant-and-garden-sonoma-small-semi-private-wedding-offering-sonoma",
+      "the-moraga-barn-office-retail-sale-or-lease-prospect-contra-costa"
+    ],
+    "updated_record_ids": [
+      "mark-west-lodge-event-center-wedding-venue-sale-or-lease-lead-sonoma"
+    ],
+    "duplicates_merged": [
+      "DepotSonoma buyout and semi-private offering share one property",
+      "MarkWest singleparcel assessment separate from offered assemblage"
+    ],
+    "excluded": [
+      "DepotTorrance/Seward/MainVenues homonyms",
+      "Off-market broker page as proof of sale",
+      "Taxassessment as market/businessvalue",
+      "Restaurantconditionalpermit as eventpermission"
+    ],
+    "remaining_gaps": [
+      "CurrentDepot operator/weddingcontract and sale/title status",
+      "Moraga title/activequote/eventapproval and construction conflict",
+      "MarkWest currentassessor and offeredparcel scope",
+      "Ninecounty inventory and completequotes incomplete"
+    ],
+    "fact_check_findings": [
+      "Three possible restaurant/commercial offering records added across two properties; MarkWest single-parcel assessment evidence updated. No new current market or business valuation invented.",
+      "DepotSonoma1870 building separate from firstwedding/operator start. ActualAugust2021 packet140 summer/90winter conflicts with secondary160/190. Historical platedfood41–58 excludes mandatory8–11/hour adultbar/staff,20%service,tax and evening1000–3000buyout. Refundable1500deposit separate.",
+      "Depot historical music10PM Fri/Sat and9PM Sun–Thu is an operator claim, not independently verified current law/contract. Small4–49 semi-private offer excludes DJ/dancing; currentpermission Unknown.",
+      "CBRE February9,2026 court-supervised Depot sale announcement links toexpired/off-market offering. No closingprice/sale completion inferred. Broker APN/assessment fields unverifiedtaxyear, notmarketvalue.",
+      "MoragaBarn1913 vs1914 construction conflict heldUnknown. Undatedweb1.375m ask versus2015 flyer1.295m; lease2.50+NNN rateunit/periodUnknown, noannualrent invented. Restaurantpermit notwedding approval.",
+      "MarkWest assessment640574 is reported forparcel006 only, not the threeparcel assemblage asking3m. Currentassessor/title/taxyear Unknown. Jenner prior2.99m/3.6m conflictingasks preserved; no new claim fromfailed403fetch.",
+      "DirectCBRE/LoopNet403,Colliers/operator522 logged; originalDepot18-pagePDF downloaded. Torrance/Seward andother Depot homonyms excluded. Commercial listing classification notproof operatingwedding rights."
+    ]
   }
 ]
