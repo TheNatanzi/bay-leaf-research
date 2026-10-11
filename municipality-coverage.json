@@ -367,7 +367,14 @@
     "municipality": "Novato",
     "municipal_rental_status": "Not yet audited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
+    "source_urls": [
+      "https://www.novato.gov/Home/Components/FacilityDirectory/FacilityDirectory/67/535?locale=es&selcat=343",
+      "https://visitnovato.com/facilities/margaret-todd-center/",
+      "https://www.novato.gov/government/parks-recreation-community-services/margaret-todd-senior-center",
+      "https://www.novato.gov/home/showpublisheddocument/32698/638101469445430000",
+      "https://www.novato.gov/home/showpublisheddocument/2370/637474412485070000",
+      "https://www.novato.gov/Home/Components/FacilityDirectory/FacilityDirectory/63/"
+    ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
   {
@@ -419,7 +426,21 @@
       "https://drive.google.com/file/d/1Owp24oDWcL3QW2RNvwmv4cHY7bjm8sJ7/view?usp=sharing",
       "https://sausalitowomansclub.org/sausalitoweddingvenue/",
       "https://sausalitowomansclub.org/history/the-clubhouse/",
-      "https://sausalitowomansclub.org/venue/swc-club-house/"
+      "https://sausalitowomansclub.org/venue/swc-club-house/",
+      "https://sausalito.recdesk.com/Community/Facility/Detail?facilityId=3",
+      "https://www.sausalito.gov/departments/parks_and_recreation/parks_playgrounds_and_facilities/index.php",
+      "https://www.sausalito.gov/services/permits_and_licenses/rentals_special_event_permits.php",
+      "https://www.sausalito.gov/home/showpublisheddocument/35133/638941492423970000",
+      "https://sausalito.recdesk.com/Community/Facility/Detail?facilityId=2",
+      "https://sausalito.recdesk.com/Community/Facility/Detail?facilityId=4",
+      "https://sausalito.recdesk.com/Community/Facility/Detail?facilityId=31",
+      "https://sausalito.recdesk.com/Community/Facility/Detail?facilityId=13",
+      "https://sausalito.recdesk.com/Community/Facility/Detail?facilityId=225",
+      "https://sausalito.recdesk.com/Community/Facility/Detail?facilityId=10",
+      "https://sausalito.recdesk.com/Community/Facility/Detail?facilityId=11",
+      "https://sausalito.recdesk.com/Community/Facility/Detail?facilityId=9",
+      "https://sausalito.recdesk.com/Community/Facility/Detail?facilityId=1",
+      "https://sausalito.recdesk.com/Community/Facility/Detail?facilityId=260"
     ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },

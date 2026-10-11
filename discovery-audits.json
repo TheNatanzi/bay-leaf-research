@@ -2208,5 +2208,77 @@
       "Portuguese center actual 26-page April 3, 2025 brochure downloaded; capacity, fee and hours tables visually reviewed. 193/162 dining are not 414/347 chairs-only assembly; no 355-guest combined banquet assumed. Website and brochure hours conflict; midnight is cleanup lockup. Security and attendant charges prevent all-in inference.",
       "Sausalito Woman’s Club current 100 tables/chairs / 60 ceremony; old 110-person testimonial excluded from current capacity. 2026 fee $6,500, preferred caterer not established exclusive. Primary history construction 1918 versus marketing dedication 1917; wedding-operation start Unknown."
     ]
+  },
+  {
+    "pass": 34,
+    "question": "Which municipal rental catalogues, civic halls and publicly listed rooms are missing, and which entries are unavailable or overlap?",
+    "scope": "Sausalito live RecDesk and city fee/rules; Novato Hamilton/Margaret Todd/historic City Hall/Downtown prospects",
+    "completed_utc": "2026-10-11T09:26:20.673494+00:00",
+    "source_urls": [
+      "https://sausalito.recdesk.com/Community/Facility/Detail?facilityId=3",
+      "https://www.sausalito.gov/departments/parks_and_recreation/parks_playgrounds_and_facilities/index.php",
+      "https://www.sausalito.gov/services/permits_and_licenses/rentals_special_event_permits.php",
+      "https://www.sausalito.gov/home/showpublisheddocument/35133/638941492423970000",
+      "https://sausalito.recdesk.com/Community/Facility/Detail?facilityId=2",
+      "https://sausalito.recdesk.com/Community/Facility/Detail?facilityId=4",
+      "https://sausalito.recdesk.com/Community/Facility/Detail?facilityId=31",
+      "https://sausalito.recdesk.com/Community/Facility/Detail?facilityId=13",
+      "https://sausalito.recdesk.com/Community/Facility/Detail?facilityId=225",
+      "https://sausalito.recdesk.com/Community/Facility/Detail?facilityId=10",
+      "https://sausalito.recdesk.com/Community/Facility/Detail?facilityId=11",
+      "https://sausalito.recdesk.com/Community/Facility/Detail?facilityId=9",
+      "https://sausalito.recdesk.com/Community/Facility/Detail?facilityId=1",
+      "https://sausalito.recdesk.com/Community/Facility/Detail?facilityId=260",
+      "https://www.novato.gov/Home/Components/FacilityDirectory/FacilityDirectory/67/535?locale=es&selcat=343",
+      "https://visitnovato.com/facilities/margaret-todd-center/",
+      "https://www.novato.gov/government/parks-recreation-community-services/margaret-todd-senior-center",
+      "https://www.novato.gov/home/showpublisheddocument/32698/638101469445430000",
+      "https://www.novato.gov/home/showpublisheddocument/2370/637474412485070000",
+      "https://www.novato.gov/Home/Components/FacilityDirectory/FacilityDirectory/63/"
+    ],
+    "added_record_ids": [
+      "sausalito-city-hall-edgewater-room-marin",
+      "sausalito-city-hall-exercise-room-marin",
+      "dunphy-park-gazebo-area-marin",
+      "gabrielson-park-public-park-restricted-event-prospect-marin",
+      "robin-sweeney-park-patio-marin",
+      "marinship-park-field-rental-prospect-marin",
+      "martin-luther-king-jr-park-field-1-marin",
+      "martin-luther-king-jr-park-field-2-marin",
+      "martin-luther-king-jr-park-softball-field-marin",
+      "martin-luther-king-jr-park-gym-limited-use-prospect-marin",
+      "sausalito-community-boating-center-boating-center-prospect-marin",
+      "sausalito-city-hall-game-room-rental-listing-marin",
+      "hamilton-community-center-west-wing-marin",
+      "hamilton-community-center-front-conference-room-marin",
+      "hamilton-community-center-art-studio-marin",
+      "hamilton-community-center-bay-room-marin",
+      "margaret-todd-senior-center-auditorium-marin",
+      "novato-city-hall-historic-hall-wedding-rental-marin",
+      "downtown-recreation-center-center-pocket-park-prospect-marin"
+    ],
+    "duplicates_merged": [
+      "MLK Field 2 overlaps softball outfield",
+      "Novato City Hall package and outdoor add-ons not counted as separate properties",
+      "Sausalito room fee group sizes are pricing tiers, not separate venues"
+    ],
+    "excluded": [
+      "Sausalito live program chairs, concert tables, yard-sale booths, tennis/pickleball/bocce courts and sports subcomponents not separate wedding venues",
+      "Cloudview/Southview explicitly not currently for rent; City Hall Conference Room not rentable per City directory",
+      "Sports-only capacity and catalogue All Day hours not wedding permission",
+      "Historical Novato fee tables not current quotes; Hamilton Indiana homonym excluded"
+    ],
+    "remaining_gaps": [
+      "Current 2026–27 fees, approved seated layouts, wedding permissions, noise and cleanup contracts",
+      "Novato parks and named smaller rooms still incompletely researched; other nine-county municipalities incomplete",
+      "APNs/ownership/property and operating-business valuation, opening dates and review listings largely Unknown"
+    ],
+    "fact_check_findings": [
+      "Live Sausalito RecDesk catalogue visually inspected: 37 items, two current Rooms; sports courts, program seats and yard-sale booths not counted as independent wedding venues. Eleven actual primary detail pages archived. Game Room appears on fee page but absent live catalog, so bookability Unknown.",
+      "Edgewater has 52 dine/meet, 108 seated and 162 standing in description versus generic field 54; no dinner plus dance assumption. Office hours are not rental hours. All Day catalog schedules do not authorize midnight music.",
+      "Dunphy Gazebo excludes picnic tables; electricity extra. Gabrielson explicitly not rentable for events versus historical schedule special permit only; restricted status retained. MLK Field 2 overlaps softball outfield; never simultaneous independent rentals.",
+      "FY2025–26 July 1, 2025 fee schedule read through primary web-reader PDF only; actual URL returned 404, no downloaded/visual table claim. Adopted versus prior fee columns and website disagreements preserved; no 2026–27 current-rate assumption or full-cost column used as venue profit.",
+      "Novato direct sources/PDFs repeatedly 403; Hamilton primary web-reader room layouts not banquet. Margaret Todd tourism bureau 228 dining/280 theater; City terms Unknown. City Hall 1896 building and 88 banquet from historical indexed packet, not wedding opening/current approved count. Downtown generic/old party capacities conflict."
+    ]
   }
 ]
