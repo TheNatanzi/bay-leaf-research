@@ -1,6 +1,6 @@
 # Founder and operator experiences
 
-36 reading records; incomplete. Original publication and update dates are separate from check dates. Written publisher summaries are labeled; audio was not independently reviewed. Promotional/survivor bias remains. Self-reported foreign/historical costs are not Bay Area estimates.
+43 reading records; incomplete. Original publication/update dates are separate from check dates and venue milestones. Written publisher summaries are labeled; audio was not independently reviewed. Promotional/survivor bias remains. Self-reported foreign/historical costs are not Bay Area estimates.
 
 ## Karri Jablonski
 
@@ -685,3 +685,136 @@ Discusses financing barriers, construction, hiring, delegation, client fit and p
 Lessons: Compare acquisition-to-opening duration and staffing needs with the intended hands-off model.
 
 Commercial context / review limits: Host promotes venue management services. Written show notes reviewed; audio/video not reviewed; finances not audited.
+
+## Derek and Jody — surnames Unknown
+
+[This is our story](https://www.crookedwillowmn.com/blog/this-is-our-story)
+
+- Venue: Crooked Willow
+- Original publication: 2023-01-23
+- Update: 2024-01-02
+- Date evidence: Original page datePublished/dateModified metadata; self-reported event milestones recorded separately
+- Checked UTC: 2026-10-11T09:35:20.772795+00:00
+- Type: Firsthand operator written account
+- Jurisdiction: Osakis, Minnesota
+- Scale: Former antique property conversion
+
+The couple describe leaving corporate careers, buying a former antique shop, selling their home and living temporarily with friends. Derek encountered venue permitting through town planning work; friends and family contributed design and construction skills.
+
+Lessons: Budget for personal housing disruption, permitting and the professional network behind a conversion.
+
+Commercial context / review limits: Operator’s own venue marketing site; self-reported history and lessons, no independently audited finances.
+
+## Jamie Davis; co-owner Bryant Davis
+
+[Lessons Learned From Early Mistakes as Wedding Venue Owners](https://www.theburchontwenty-seven.com/post/lessons-learned-from-early-mistakes-as-wedding-venue-owners)
+
+- Venue: The Burch on Twenty Seven
+- Original publication: 2026-01-26
+- Update: 2026-01-26
+- Date evidence: Original page datePublished/dateModified metadata; self-reported event milestones recorded separately
+- Checked UTC: 2026-10-11T09:35:20.772795+00:00
+- Type: Firsthand operator written account
+- Jurisdiction: Hamilton, Harris County, Georgia
+- Scale: Acquired venue; investment and capacity Unknown
+
+Jamie describes expanding a short contract to cover vendor roles, payment, cancellation and weather; allowing a personal one-day buffer between weddings; combining software with a paper calendar; and handling ongoing equipment and building maintenance. Owners are identified on the operator’s separate owners page.
+
+Lessons: Model tour readiness, maintenance, client communication and booking buffers as paid work; these are personal operating choices, not universal requirements.
+
+Commercial context / review limits: Operator’s own venue marketing site; self-reported history and lessons, no independently audited finances.
+
+## Mark and Nicole Redden
+
+[About us — Venue 290](https://www.venue290.com/about-us/)
+
+- Venue: Venue 290
+- Original publication: 2023-02-02
+- Update: 2025-11-04
+- Date evidence: Original page datePublished/dateModified metadata; self-reported event milestones recorded separately
+- Checked UTC: 2026-10-11T09:35:20.772795+00:00
+- Type: Firsthand operator written account
+- Jurisdiction: Rocky Mount, Virginia
+- Scale: Operator describes 10,000-square-foot historic building
+
+Owners report purchasing a historic building in 2019, renovating for a year and delaying opening during COVID. They report opening The Grand at 290 at the start of 2021 and rebranding early in 2023 after research and feedback. The reported 1912 building origin is separate from purchase and wedding operation.
+
+Lessons: Include renovation and disruption contingencies; separate purchase, construction, operating opening and rebranding milestones.
+
+Commercial context / review limits: Operator’s own venue marketing site; self-reported history and lessons, no independently audited finances.
+
+## Josh Banderas and Lydia Robertus
+
+[Our story — The Acreage](https://www.acreageevents.com/our-story)
+
+- Venue: The Acreage
+- Original publication: Unknown
+- Update: Unknown
+- Date evidence: Unknown — no reliable publication or update metadata found; story dates are not publication dates
+- Checked UTC: 2026-10-11T09:35:20.772795+00:00
+- Type: Firsthand operator written account
+- Jurisdiction: Nebraska — precise jurisdiction Unknown
+- Scale: Ground-up venue development; budgets and approved capacity Unknown
+
+Owners describe inspiration from their own 2022 wedding, months of property research and work with architects, builders, mentors and family. They report purchasing a lot in October 2023. The page does not establish a publication date or wedding opening date.
+
+Lessons: Land purchase is an intermediate milestone; cost professional design and local feasibility before assuming an opening schedule.
+
+Commercial context / review limits: Operator’s own venue marketing site; self-reported history and lessons, no independently audited finances.
+
+## Jessica and David Vedder
+
+[Our story — Vedder Farms](https://www.vedderfarms.com/ourstory)
+
+- Venue: The Carriage House at Vedder Farms
+- Original publication: Unknown
+- Update: Unknown
+- Date evidence: Unknown — no reliable publication or update metadata found; story dates are not publication dates
+- Checked UTC: 2026-10-11T09:35:20.772795+00:00
+- Type: Firsthand operator written account
+- Jurisdiction: Leesburg, Florida
+- Scale: Land development / family venue
+
+Owners describe inspiration from their own 2012 wedding at another new venue, closing on their land in 2019 and a grand opening in 2022. These are self-reported event milestones, not publication metadata.
+
+Lessons: Separate land acquisition from opening and plan for the multi-year development period.
+
+Commercial context / review limits: Operator’s own venue marketing site; self-reported history and lessons, no independently audited finances.
+
+## Delanie and Chad Riley
+
+[Our story — The Delanie](https://www.thedelanie.com/ourstory)
+
+- Venue: The Delanie
+- Original publication: Unknown
+- Update: Unknown
+- Date evidence: Unknown — no reliable publication or update metadata found; story dates are not publication dates
+- Checked UTC: 2026-10-11T09:35:20.772795+00:00
+- Type: Firsthand operator written account
+- Jurisdiction: Forney, Texas
+- Scale: Family land conversion; investment Unknown
+
+Owners describe land originally intended for bulls and livestock, a transformation starting in 2023 and an official opening with their daughter’s May 2024 wedding. Their account assigns daily marketing, vendor and staff responsibilities to daughter Carsyn and design/build responsibilities to the founders.
+
+Lessons: Low founder involvement still requires someone to perform daily operations; identify and cost each family or employee role.
+
+Commercial context / review limits: Operator’s own venue marketing site; self-reported history and lessons, no independently audited finances.
+
+## Shane — surname Unknown; wife Maritza discussed
+
+[From Bachelor to Married with Children: My Story as a Wedding Venue Owner](https://www.willowcreekglasschapel.com/post/from-bachelor-to-married-with-children-my-story-as-a-wedding-venue-owner)
+
+- Venue: Willow Creek Glass Chapel
+- Original publication: 2021-12-23
+- Update: 2021-12-23
+- Date evidence: Original page datePublished/dateModified metadata; self-reported event milestones recorded separately
+- Checked UTC: 2026-10-11T09:35:20.772795+00:00
+- Type: Firsthand operator personal reflection
+- Jurisdiction: Council Bluffs / Omaha region — precise jurisdiction requires confirmation
+- Scale: Family/operator reflection; investment Unknown
+
+Shane describes married life, five children, the relationship between their home and venue, and plans for improvements and future generations. This is a personal operator reflection with limited startup detail. Copyright years do not establish venue opening.
+
+Lessons: Consider privacy, family time and long-term maintenance when the venue is also the family home.
+
+Commercial context / review limits: Operator’s own venue marketing site; self-reported history and lessons, no independently audited finances.
