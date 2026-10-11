@@ -844,5 +844,92 @@
     "fact_check_findings": [
       "Richmond capacity PDF visually checked: Main Floor650tables/chairs versus1800standing, not equivalent. Bermuda200tables versus170chairs contradiction flagged. El Cerrito current30Castro versus2020policy32 discrepancy retained. Linked2020music sunset restriction kept separate from10pmdeparture; no midnight claim. Sonoma current agency/code verified separately, no new venues counted for legal research."
     ]
+  },
+  {
+    "pass": 16,
+    "question": "What other Santa Clara County municipal centers, civic buildings and wedding park sites have we missed?",
+    "scope": "San José: 29 rental sites and seven unique wedding-site entries; Mountain View: two; Santa Clara: 18 spaces/site groups",
+    "completed_utc": "2026-10-11T05:50:52.731703+00:00",
+    "source_urls": [
+      "https://www.sanjoseca.gov/your-government/departments-offices/parks-recreation-neighborhood-services/rentals-and-events/facility-room-rentals",
+      "https://www.sanjoseca.gov/your-government/departments-offices/parks-recreation-neighborhood-services/rentals-and-events/wedding-sites",
+      "https://www.santaclaraca.gov/our-city/departments-g-z/parks-recreation/reservations-and-permits",
+      "https://www.mountainview.gov/our-city/departments/community-services/recreation/facilities-rentals/historic-adobe-building",
+      "https://www.mountainview.gov/Home/Components/FacilityDirectory/FacilityDirectory/114/735"
+    ],
+    "added_record_ids": [
+      "alma-youth-senior-center-alma-youth-senior-center-santa-clara",
+      "almaden-community-center-almaden-community-center-santa-clara",
+      "alum-rock-youth-center-alum-rock-youth-center-santa-clara",
+      "alviso-youth-center-alviso-youth-center-santa-clara",
+      "backesto-neighborhood-center-backesto-neighborhood-center-santa-clara",
+      "bascom-community-center-bascom-community-center-santa-clara",
+      "berryessa-community-center-berryessa-community-center-santa-clara",
+      "berryessa-youth-center-berryessa-youth-center-santa-clara",
+      "camden-community-center-camden-community-center-santa-clara",
+      "capitol-park-capitol-park-santa-clara",
+      "cypress-community-center-cypress-community-center-santa-clara",
+      "edenvale-community-center-edenvale-community-center-santa-clara",
+      "emma-prusch-farm-park-emma-prusch-farm-park-santa-clara",
+      "evergreen-community-center-evergreen-community-center-santa-clara",
+      "gardner-community-center-gardner-community-center-santa-clara",
+      "hamann-neighborhood-center-hamann-neighborhood-center-santa-clara",
+      "houge-park-houge-park-santa-clara",
+      "jts-northside-community-center-jts-northside-community-center-santa-clara",
+      "leininger-community-center-leininger-community-center-santa-clara",
+      "mayfair-community-center-mayfair-community-center-santa-clara",
+      "olinder-neighborhood-center-olinder-neighborhood-center-santa-clara",
+      "roosevelt-community-center-roosevelt-community-center-santa-clara",
+      "san-tomas-community-center-san-tomas-community-center-santa-clara",
+      "seven-trees-community-center-seven-trees-community-center-santa-clara",
+      "southside-community-center-southside-community-center-santa-clara",
+      "vista-park-neighborhood-center-vista-park-neighborhood-center-santa-clara",
+      "washington-united-youth-center-washington-united-youth-center-santa-clara",
+      "welch-park-welch-park-santa-clara",
+      "willow-glen-community-center-willow-glen-community-center-santa-clara",
+      "almaden-lake-amphitheater-almaden-lake-amphitheater-santa-clara",
+      "city-hall-rotunda-city-hall-rotunda-santa-clara",
+      "japanese-friendship-garden-regional-park-japanese-friendship-garden-regional-park-santa-clara",
+      "japanese-friendship-garden-tea-house-japanese-friendship-garden-tea-house-santa-clara",
+      "kelley-park-kelley-park-santa-clara",
+      "overfelt-gardens-park-overfelt-gardens-park-santa-clara",
+      "the-last-barn-at-prusch-farm-park-the-last-barn-at-prusch-farm-park-santa-clara",
+      "mountain-view-community-center-redwood-hall-santa-clara",
+      "historic-adobe-building-historic-adobe-building-santa-clara",
+      "community-recreation-center-auditorium-santa-clara",
+      "santa-clara-senior-center-auditorium-santa-clara",
+      "santa-clara-youth-teen-center-multi-purpose-room-santa-clara",
+      "lawrence-station-community-park-multi-purpose-room-santa-clara",
+      "montague-park-multi-purpose-room-santa-clara",
+      "maywood-park-maywood-park-building-santa-clara",
+      "westwood-oaks-park-westwood-oaks-park-building-santa-clara",
+      "reed-grant-sports-park-multi-purpose-room-santa-clara",
+      "youth-soccer-park-multi-purpose-room-santa-clara",
+      "agnews-campus-at-oracle-agnews-auditorium-santa-clara",
+      "agnews-campus-at-oracle-agnews-mansion-first-floor-rooms-santa-clara",
+      "mission-city-memorial-park-mission-city-memorial-chapel-santa-clara",
+      "mission-city-center-for-performing-arts-mission-city-center-for-performing-arts-santa-clara",
+      "central-park-arbor-picnic-areas-santa-clara",
+      "central-park-pavilion-picnic-areas-santa-clara",
+      "homeridge-park-homeridge-picnic-areas-santa-clara",
+      "lick-mill-park-lick-mill-picnic-areas-santa-clara",
+      "montague-park-montague-picnic-areas-santa-clara"
+    ],
+    "duplicates_or_grouping": [
+      "Kelley Park duplicate city directory entries deduplicated. Japanese Garden and Tea House, farm park and Last Barn share parents. Santa Clara picnic subareas grouped instead of summed or inflated as independent properties."
+    ],
+    "exclusions_or_restrictions": [
+      "TeaHouse and HistoricAdobe closed; CentralParkArbor/Pavilion closed for renovations. Meeting-only/nonprofit rooms and sports-only fields not imported as unrestricted wedding venues. Agnews limited access easement; no government land ownership inferred."
+    ],
+    "remaining_gaps": [
+      "Room-specific SanJosé layouts/policies/costs; MountainViewSeniorCenter and remaining rooms; private/college/faith operators; exact site permits, pricing, reviews, history and valuations."
+    ],
+    "fact_check_findings": [
+      "Direct downloads returned 403, but live primary pages worked; visible text and inventories saved.",
+      "Tea House currently lists occupancy 141 and seating 100 versus older policy total 120; conflict and booking closure retained.",
+      "The Last Barn is an open-air sculpture with ceremony seating 150, rather than an enclosed barn.",
+      "Santa Clara prohibits profit-making events under ordinary rentals; customer recreation rental does not establish a commercial operating lease.",
+      "Santa Clara approved caterer list recorded. Maywood and Westwood party reservations end at 5 PM, separately from the general 10 PM window."
+    ]
   }
 ]

@@ -660,10 +660,13 @@
   {
     "county": "Santa Clara",
     "municipality": "Mountain View",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial source review",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://www.mountainview.gov/our-city/departments/community-services/recreation/facilities-rentals/historic-adobe-building",
+      "https://www.mountainview.gov/Home/Components/FacilityDirectory/FacilityDirectory/114/735"
+    ],
+    "remaining": "Current room-specific policies, private/faith/college inventories and all unpublished facts; incomplete"
   },
   {
     "county": "Santa Clara",
@@ -676,18 +679,23 @@
   {
     "county": "Santa Clara",
     "municipality": "San Jose",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial source review",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://www.sanjoseca.gov/your-government/departments-offices/parks-recreation-neighborhood-services/rentals-and-events/facility-room-rentals",
+      "https://www.sanjoseca.gov/your-government/departments-offices/parks-recreation-neighborhood-services/rentals-and-events/wedding-sites"
+    ],
+    "remaining": "Current room-specific policies, private/faith/college inventories and all unpublished facts; incomplete"
   },
   {
     "county": "Santa Clara",
     "municipality": "Santa Clara",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial source review",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://www.santaclaraca.gov/our-city/departments-g-z/parks-recreation/reservations-and-permits"
+    ],
+    "remaining": "Current room-specific policies, private/faith/college inventories and all unpublished facts; incomplete"
   },
   {
     "county": "Santa Clara",
