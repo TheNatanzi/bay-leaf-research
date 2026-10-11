@@ -13,7 +13,15 @@
       "https://drive.google.com/file/d/1qIcyG9XBZGXfS0uQWFG7TUj6GRam5pPL/view",
       "https://alameda.legistar.com/LegislationDetail.aspx?ID=6552498&GUID=9A2C6221-CD98-42AA-841D-9E836D9ED6AA&Options=&Search=&FullText=1",
       "https://hangarone.com/stories/",
-      "https://drive.google.com/file/d/1V1Ya9A0dGlQW5J3zOXiz5-dWYYzI12Qb/view"
+      "https://drive.google.com/file/d/1V1Ya9A0dGlQW5J3zOXiz5-dWYYzI12Qb/view",
+      "https://www.ebparks.org/recreation/picnics/crown-beach-picnic-areas#cv",
+      "https://www.ebparks.org/recreation/picnics/crown-beach-picnic-areas",
+      "https://www.ebparks.org/recreation/picnics",
+      "https://www.ebparks.org/recreation/picnics/crown-beach-picnic-areas#cg",
+      "https://www.ebparks.org/recreation/picnics/crown-beach-picnic-areas#ml",
+      "https://www.ebparks.org/recreation/picnics/crown-beach-picnic-areas#n",
+      "https://www.ebparks.org/recreation/picnics/crown-beach-picnic-areas#sc",
+      "https://www.ebparks.org/recreation/picnics/crown-beach-picnic-areas#s"
     ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
@@ -89,7 +97,22 @@
     "municipality": "Fremont",
     "municipal_rental_status": "Not yet audited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
+    "source_urls": [
+      "https://www.ebparks.org/recreation/picnics/quarry-lakes-picnic-areas#Lampert",
+      "https://www.ebparks.org/recreation/picnics/quarry-lakes-picnic-areas",
+      "https://www.ebparks.org/recreation/picnics",
+      "https://www.ebparks.org/recreation/picnics/quarry-lakes-picnic-areas#North",
+      "https://www.ebparks.org/recreation/picnics/quarry-lakes-picnic-areas#Osprey",
+      "https://www.ebparks.org/recreation/picnics/quarry-lakes-picnic-areas#South",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/ardenwood-picnic-areas",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/coyote-hills",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/dumbarton-picnic-areas#ds",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/dumbarton-picnic-areas",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/dumbarton-picnic-areas#j",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/dumbarton-picnic-areas#m",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/dumbarton-picnic-areas#pt",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/dumbarton-picnic-areas#ac"
+    ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
   {
@@ -108,7 +131,17 @@
       "https://haywardrec.org/Facilities/Facility/Details/Sorensdale-Recreation-Center-117",
       "https://haywardrec.org/Facilities/Facility/Details/Southgate-Community-Center-103",
       "https://haywardrec.org/Facilities/Facility/Details/Weekes-Community-Center-123",
-      "https://www.haywardrec.org/facilities/facility/details/japanesegardens-100"
+      "https://www.haywardrec.org/facilities/facility/details/japanesegardens-100",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/don-castro-picnic-areas#Siesta",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/don-castro-picnic-areas",
+      "https://www.ebparks.org/recreation/picnics",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/don-castro-picnic-areas#Whispering",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/garin-dry-creek-picnic-areas#Buttonwood",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/garin-dry-creek-picnic-areas",
+      "https://www.ebparks.org/parks/garin-dry-creek",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/garin-dry-creek-picnic-areas#Cattlemen",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/garin-dry-creek-picnic-areas#Pioneer",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/garin-dry-creek-picnic-areas#Ranchside"
     ],
     "remaining": "Private venues, unconventional spaces, other parks/districts; issued permissions/quotes/layouts/history/value; no completeness claim"
   },
@@ -126,7 +159,21 @@
       "https://iclivermore.org/facility-rental/",
       "https://wentevineyards.com/plan-your-wedding/",
       "https://wentevineyards.com/wp-content/uploads/2026/02/2026-Wente-Vineyards-Wedding-Menu.pdf",
-      "https://wentevineyards.com/wp-content/uploads/2025/12/2026-2027-Wente-Vineyards-Wedding-Menu.pdf"
+      "https://wentevineyards.com/wp-content/uploads/2025/12/2026-2027-Wente-Vineyards-Wedding-Menu.pdf",
+      "https://www.ebparks.org/recreation/picnics/del-valle-picnic-areas#av",
+      "https://www.ebparks.org/recreation/picnics/del-valle-picnic-areas",
+      "https://www.ebparks.org/recreation/picnics",
+      "https://www.ebparks.org/recreation/picnics/del-valle-picnic-areas#am",
+      "https://www.ebparks.org/recreation/picnics/del-valle-picnic-areas#bv",
+      "https://www.ebparks.org/recreation/picnics/del-valle-picnic-areas#cc",
+      "https://www.ebparks.org/recreation/picnics/del-valle-picnic-areas#fg",
+      "https://www.ebparks.org/recreation/picnics/del-valle-picnic-areas#op",
+      "https://www.ebparks.org/recreation/picnics/del-valle-picnic-areas#gp",
+      "https://www.ebparks.org/recreation/picnics/del-valle-picnic-areas#lb",
+      "https://www.ebparks.org/recreation/picnics/del-valle-picnic-areas#so",
+      "https://www.ebparks.org/recreation/picnics/del-valle-picnic-areas#shf",
+      "https://www.ebparks.org/recreation/picnics/del-valle-picnic-areas#vo",
+      "https://www.ebparks.org/recreation/picnics/del-valle-picnic-areas#vdl"
     ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
@@ -157,7 +204,29 @@
       "https://museumca.org/venue-rentals/lillie-education-center/",
       "https://chabotspace.org/visit/rent-chabot/",
       "https://chabotspace.org/visit/rent-chabot/venues/",
-      "https://chabotspace.org/wp-content/uploads/2026/09/Chabot_RentalsPacket-web_26-May-260508-Edited-1.pdf"
+      "https://chabotspace.org/wp-content/uploads/2026/09/Chabot_RentalsPacket-web_26-May-260508-Edited-1.pdf",
+      "https://www.ebparks.org/recreation/picnics/reinhardt-redwood-picnic-areas#Old",
+      "https://www.ebparks.org/recreation/picnics/reinhardt-redwood-picnic-areas",
+      "https://www.ebparks.org/recreation/picnics",
+      "https://www.ebparks.org/recreation/picnics/reinhardt-redwood-picnic-areas#Owl",
+      "https://www.ebparks.org/recreation/picnics/reinhardt-redwood-picnic-areas#Quail",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/roberts-picnic-areas#Anna",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/roberts-picnic-areas",
+      "https://www.ebparks.org/sites/default/files/Roberts-Wedding-FAQs.pdf",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/roberts-picnic-areas#Bay",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/roberts-picnic-areas#Diablo",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/roberts-picnic-areas#Madrone",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/roberts-picnic-areas#Manzanita",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/roberts-picnic-areas#Redwood",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/roberts-picnic-areas#Roberts",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/roberts-picnic-areas#Sycamore",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/martin-luther-king-jr-picnic-areas",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/temescal-picnic-areas#Big",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/temescal-picnic-areas",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/temescal-picnic-areas#Landvale",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/temescal-picnic-areas#North",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/temescal-picnic-areas#Parkview",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/temescal-picnic-areas#Streamside"
     ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
@@ -177,7 +246,15 @@
     "source_urls": [
       "https://www.casarealevents.com/tour/",
       "https://www.casarealevents.com/get-married-and-celebrate/",
-      "https://www.casarealevents.com/taste-and-sip/"
+      "https://www.casarealevents.com/taste-and-sip/",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/shadow-cliffs-picnic-areas#Fiesta",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/shadow-cliffs-picnic-areas",
+      "https://www.ebparks.org/recreation/picnics",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/shadow-cliffs-picnic-areas#Lago",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/shadow-cliffs-picnic-areas#Lakeside",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/shadow-cliffs-picnic-areas#Marina",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/shadow-cliffs-picnic-areas#North",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/shadow-cliffs-picnic-areas#Seven"
     ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
@@ -202,7 +279,16 @@
     "municipality": "Antioch",
     "municipal_rental_status": "Not yet audited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
+    "source_urls": [
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/contra-loma-picnic-areas-antioch#cg",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/contra-loma-picnic-areas-antioch",
+      "https://www.ebparks.org/recreation/picnics",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/contra-loma-picnic-areas-antioch#lg",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/contra-loma-picnic-areas-antioch#li",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/contra-loma-picnic-areas-antioch#lr",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/contra-loma-picnic-areas-antioch#ml",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/contra-loma-picnic-areas-antioch#r"
+    ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
   {
@@ -342,7 +428,27 @@
     "source_urls": [
       "https://www.ci.richmond.ca.us/3094/Forms",
       "https://www.ci.richmond.ca.us/DocumentCenter/View/41536/Convention-Center-Room-Capacity",
-      "https://www.ci.richmond.ca.us/DocumentCenter/View/56865/Community-Center-Rates"
+      "https://www.ci.richmond.ca.us/DocumentCenter/View/56865/Community-Center-Rates",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/miller-knox-picnic-areas#Big",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/miller-knox-picnic-areas",
+      "https://www.ebparks.org/recreation/picnics",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/miller-knox-picnic-areas#Canvasback",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/miller-knox-picnic-areas#Hills",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/miller-knox-picnic-areas#Killdeer",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/miller-knox-picnic-areas#Lagoon",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/miller-knox-picnic-areas#Marsh",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/miller-knox-picnic-areas#Pickleweed",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/miller-knox-picnic-areas#Pintail",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/miller-knox-picnic-areas#Sea",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/point-pinole-picnic-areas#Giant",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/point-pinole-picnic-areas",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/point-pinole-picnic-areas#Palms",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/point-pinole-picnic-areas#Shoreline",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/wildcat-canyon-picnic-areas#Acacia",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/wildcat-canyon-picnic-areas",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/wildcat-canyon-picnic-areas#Alvarado",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/wildcat-canyon-picnic-areas#Bay",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/wildcat-canyon-picnic-areas#Elderberry"
     ],
     "remaining": "Current policy, wedding approval, full price, all remaining public/private operator inventories; incomplete"
   },
@@ -372,7 +478,17 @@
     "source_urls": [
       "https://www.marriott.com/en-us/hotels/oakwc-walnut-creek-marriott/events/",
       "https://www.marriott.com/en-us/hotels/oakbr-renaissance-walnut-creek-hotel/events/",
-      "https://www.hilton.com/en/hotels/sfophes-embassy-suites-walnut-creek/events/"
+      "https://www.hilton.com/en/hotels/sfophes-embassy-suites-walnut-creek/events/",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/castle-rock-diablo-foothills-picnic-areas#ct",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/castle-rock-diablo-foothills-picnic-areas",
+      "https://www.ebparks.org/recreation/picnics",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/castle-rock-diablo-foothills-picnic-areas#cv",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/castle-rock-diablo-foothills-picnic-areas#eb",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/castle-rock-diablo-foothills-picnic-areas#fw",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/castle-rock-diablo-foothills-picnic-areas#pc",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/castle-rock-diablo-foothills-picnic-areas#po",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/castle-rock-diablo-foothills-picnic-areas#sg",
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/castle-rock-diablo-foothills-picnic-areas#sc"
     ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
