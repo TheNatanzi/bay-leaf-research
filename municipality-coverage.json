@@ -827,7 +827,7 @@
   {
     "county": "Solano",
     "municipality": "Vallejo",
-    "municipal_rental_status": "Partial primary-source room/site inventory; approved wedding layout and total quotes remain incomplete",
+    "municipal_rental_status": "Partial GVRD center/park site inventory imported; wedding/music/capacity/policy conflicts unresolved; not complete",
     "private_venue_status": "Partial operator-led discovery; not systematic or complete",
     "source_urls": [
       "https://www.gvrd.org/foley-cultural-center",
@@ -849,7 +849,21 @@
       "https://empresstheatre.org/rentals/",
       "https://vallejoyachtcluborg.squarespace.com/contact-us",
       "https://www.visitvallejo.com/venues",
-      "https://arts.ca.gov/grantee/mira-theatre-guild/"
+      "https://arts.ca.gov/grantee/mira-theatre-guild/",
+      "https://www.gvrd.org/blue-rock-springs-park",
+      "https://www.gvrd.org/reservable-parks",
+      "https://www.gvrd.org/special-events-application-information",
+      "https://www.gvrd.org/files/e352c7bb0/GVRD%2BSpecial%2BEvents%2BApplication%2BFINAL.pdf",
+      "https://www.gvrd.org/dan-foley-park",
+      "https://www.gvrd.org/crest-ranch-park",
+      "https://www.gvrd.org/hanns-park",
+      "https://www.gvrd.org/highlands-park",
+      "https://www.gvrd.org/children-s-wonderland",
+      "https://www.gvrd.org/reservable-picnic-areas",
+      "https://www.gvrd.org/group-and-family-rentals",
+      "https://www.gvrd.org/prohibited-in-park",
+      "https://www.gvrd.org/files/c83ad3d31/CW%2BSpecial%2BEvents%2BApplication%2BFinal%2BFillable.pdf",
+      "https://solanolibrary.libnet.info/event/13221335"
     ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },

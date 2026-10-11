@@ -1348,5 +1348,79 @@
       "Mare privateevents saysnohardalcohol butcurrentmenus saycocktails; Ferryopening2014vs2013 conflict held. Vino2015tastingopening notweddingopening. StateMira2022–23 ownership narrative notverified currenttitle/value.",
       "BelleVie county checked through Census geographies: SacramentoCounty06067, not Solano despite RioVista address. Street address match is not parcel/title verification."
     ]
+  },
+  {
+    "pass": 23,
+    "question": "What named public park/picnic and themed-playground spaces have we missed, and does reservation actually allow a wedding, amplified sound or alcohol?",
+    "scope": "Six GVRD parks/Children’s Wonderland;28named site/configuration/aggregate records, with current policy conflicts",
+    "completed_utc": "2026-10-11T07:47:15.323006+00:00",
+    "source_urls": [
+      "https://www.gvrd.org/blue-rock-springs-park",
+      "https://www.gvrd.org/reservable-parks",
+      "https://www.gvrd.org/special-events-application-information",
+      "https://www.gvrd.org/files/e352c7bb0/GVRD%2BSpecial%2BEvents%2BApplication%2BFINAL.pdf",
+      "https://www.gvrd.org/dan-foley-park",
+      "https://www.gvrd.org/crest-ranch-park",
+      "https://www.gvrd.org/hanns-park",
+      "https://www.gvrd.org/highlands-park",
+      "https://www.gvrd.org/children-s-wonderland",
+      "https://www.gvrd.org/reservable-picnic-areas",
+      "https://www.gvrd.org/group-and-family-rentals",
+      "https://www.gvrd.org/prohibited-in-park",
+      "https://www.gvrd.org/files/c83ad3d31/CW%2BSpecial%2BEvents%2BApplication%2BFinal%2BFillable.pdf",
+      "https://solanolibrary.libnet.info/event/13221335"
+    ],
+    "added_record_ids": [
+      "blue-rock-springs-park-lower-vista-solano",
+      "blue-rock-springs-park-upper-vista-solano",
+      "blue-rock-springs-park-entire-vista-configuration-solano",
+      "blue-rock-springs-park-the-grove-solano",
+      "blue-rock-springs-park-the-pines-solano",
+      "blue-rock-springs-park-lake-area-solano",
+      "blue-rock-springs-park-parkview-solano",
+      "blue-rock-springs-park-trailside-solano",
+      "blue-rock-springs-park-playground-vista-solano",
+      "blue-rock-springs-park-blue-rock-terrace-solano",
+      "blue-rock-springs-park-peacock-roost-solano",
+      "dan-foley-park-lakeview-east-solano",
+      "dan-foley-park-lakeview-west-solano",
+      "dan-foley-park-entire-lakeview-configuration-solano",
+      "dan-foley-park-meadows-solano",
+      "dan-foley-park-mountain-view-solano",
+      "dan-foley-park-willow-glen-solano",
+      "crest-ranch-park-reservable-picnic-area-solano",
+      "hanns-park-reservable-picnic-area-solano",
+      "highlands-park-two-reservable-picnic-pavilions-group-solano",
+      "children-s-wonderland-train-station-stop-solano",
+      "children-s-wonderland-alice-s-enchanted-garden-solano",
+      "children-s-wonderland-humpty-dumpty-s-place-solano",
+      "children-s-wonderland-galaxy-picnic-area-solano",
+      "children-s-wonderland-something-big-solano",
+      "children-s-wonderland-something-small-solano",
+      "children-s-wonderland-something-big-and-something-small-configuration-solano",
+      "children-s-wonderland-whole-park-special-event-offering-solano"
+    ],
+    "duplicates_merged": [
+      "Vista, Lakeview and SomethingBig+Small configurations overlap individual areas; no independentproperty counts",
+      "DanFoleycenter fromPass22shares parkcampus, picnic areas distinct; no capacity sums"
+    ],
+    "excluded": [
+      "BlueRockheader8sites not assumed complete against10namedareas+combined config",
+      "Highlands thirdpavilion and WonderlandDinoland firstcome/nonreservable notbookable venue additions",
+      "Athleticfields/ordinaryvisitorhours/picnic tablecounts/admissionallowances notweddingpermission/capacity",
+      "No mappingunknownHighlandsaddress orCrestintersection asofficeaddress"
+    ],
+    "remaining_gaps": [
+      "Allpark weddingpermission,dinner+dancecapacity,event/music/cleanupdeadlines,current completefees",
+      "Sourceconflicts re deposit,insurance,layout/restroom/parking andWonderlandmusic;writtenDistrictdecisionneeded",
+      "Othercounty parks/government/publicland,private/unconventionalcoverage notcomplete"
+    ],
+    "fact_check_findings": [
+      "Actual15pagegeneral and5pageWonderland special-event PDFs downloaded; deposit/insurance/pricing/music pages rendered/visuallychecked. Source datesUnknown despitecurrent2025–26linkedlabel.",
+      "General packetdeposit700mainvs500paymentpanel,webinsurance72hrvspdf10businessdays,restroom1/50vsportable1/100+ADA,layoutsixty(30)day typo heldunresolved.",
+      "Generalparkbeerwine35permit;Wonderlandnoalcohol/glass. Wonderlandwebnomusic vs PDFconditional7–10requirescaseapproval, no midnightconfirmation.",
+      "Allrawpicnicfeesundated/durationUnknown;no fee÷300perhead. Tables and5/10/15includedadmissions notmaxcapacity.",
+      "Publicrentals notcommerciallease;eachspecialeventapproval,siteplan/30daywalkthrough/foodwaste/restroom arrangements requiredsubjecttoeventclassification."
+    ]
   }
 ]
