@@ -28,7 +28,41 @@
       "lat": 37.980676037406,
       "lng": -122.593016752941,
       "address": "367 Bolinas Road, Fairfax, CA 94930",
-      "location_source": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=367%20Bolinas%20Road%2C%20Fairfax%2C%20CA%2094930&benchmark=Public_AR_Current&format=json"
+      "location_source": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=367%20Bolinas%20Road%2C%20Fairfax%2C%20CA%2094930&benchmark=Public_AR_Current&format=json",
+      "included_items": "Directory reports tables/chairs, private venue access, suites, heaters and parking; current proposal needed.",
+      "food_requirement": "Preferred / approved catering list; outside exceptions unknown.",
+      "bar_requirement": "Directory reports in-house alcohol.",
+      "other_requirements": "Directory assigns linens/tableware and cleanup to caterer; staffing, insurance and fees need inquiry.",
+      "time_cut_off": "Event, indoor/outdoor music and cleanup: Unknown — inquire.",
+      "price": {
+        "basis": "venue package only; catering/bar and mandatory charges not established",
+        "event_low": 7000,
+        "event_high": 16500,
+        "per_head_low": null,
+        "per_head_high": null,
+        "source": "https://www.herecomestheguide.com/wedding-venues/northern-california/deer-park-villa",
+        "status": "Directory-reported; not a current written quote",
+        "checked_utc": "2026-10-11T04:04:12.292556+00:00"
+      },
+      "evidence_conflicts": "Directory lists 350 outdoors; operator says 300. Retain operator figure pending confirmation.",
+      "pricing_checked_utc": "2026-10-11T04:04:12.292556+00:00",
+      "directory_sources": [
+        "https://www.herecomestheguide.com/wedding-venues/northern-california/deer-park-villa"
+      ],
+      "construction_year": null,
+      "wedding_opening_year": null,
+      "current_operator_since": null,
+      "operating_years": null,
+      "history_status": "Unknown — inquire",
+      "history_sources": [],
+      "property_value_low": null,
+      "property_value_high": null,
+      "business_value_low": null,
+      "business_value_high": null,
+      "value_status": "Unknown — insufficient verified evidence",
+      "value_method": null,
+      "value_as_of": null,
+      "value_sources": []
     },
     {
       "name": "Palm Event Center",
@@ -63,7 +97,41 @@
       "address": "1184 Vineyard Avenue, Pleasanton, CA 94566",
       "location_source": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1184%20Vineyard%20Avenue%2C%20Pleasanton%2C%20CA%2094566&benchmark=Public_AR_Current&format=json",
       "city": "Pleasanton",
-      "county": "Alameda"
+      "county": "Alameda",
+      "included_items": "Operator: meal service, full open bar, day-of coordination. Directory additionally lists tables/chairs, linens, tableware and cake cutting; confirm package.",
+      "food_requirement": "Directory reports in-house catering; outside exceptions unknown.",
+      "bar_requirement": "Directory reports in-house alcohol.",
+      "other_requirements": "Directory: liability insurance; directed/valet parking over 275 guests. Coordinator inclusion conflicts across sources; confirm.",
+      "time_cut_off": "Directory availability: 8 a.m.–11 p.m.; exact event/music/cleanup deadlines: Unknown — inquire.",
+      "price": {
+        "basis": "food/beverage package with open bar; venue/ceremony fees additional",
+        "event_low": 1800,
+        "event_high": 5300,
+        "ceremony_fee": 1500,
+        "per_head_low": 126,
+        "per_head_high": null,
+        "source": "https://www.herecomestheguide.com/wedding-venues/northern-california/palm-event-center-in-the-vineyard",
+        "status": "Directory-reported starting price; upper bound and mandatory charges unknown",
+        "checked_utc": "2026-10-11T04:04:12.292556+00:00"
+      },
+      "pricing_checked_utc": "2026-10-11T04:04:12.292556+00:00",
+      "directory_sources": [
+        "https://www.herecomestheguide.com/wedding-venues/northern-california/palm-event-center-in-the-vineyard"
+      ],
+      "construction_year": null,
+      "wedding_opening_year": null,
+      "current_operator_since": null,
+      "operating_years": null,
+      "history_status": "Unknown — inquire",
+      "history_sources": [],
+      "property_value_low": null,
+      "property_value_high": null,
+      "business_value_low": null,
+      "business_value_high": null,
+      "value_status": "Unknown — insufficient verified evidence",
+      "value_method": null,
+      "value_as_of": null,
+      "value_sources": []
     }
   ],
   "coverage": "Two initial official-operator observations; not exhaustive",
@@ -192131,8 +192199,3381 @@
   },
   "wiki": {
     "Venue market": "# Bay Area wedding venue comparison\nStatus: source collection started with two initial operator records; coverage incomplete and charts pending.\n\n## Coverage\nWorking proposal: nine Bay Area counties; adjacent destination competitors separately tagged. Geographic boundary not yet agreed. Deduplicate by operator/property while keeping distinct spaces/packages. Track official URL, discovery source, active/closed/unconfirmed status, checked dates and gaps. No exhaustive inventory claimed.\n\n## Comparison fields\n- Capacity: seated dinner plus dance floor vs standing; indoor and weather-backup capacity.\n- Prices: venue-only vs package, headcount/day/season/duration/year, minimum spend, ceremony fee, extra hours, all mandatory taxes/service/rental/staff/security/cleanup charges, deposits/refunds/cancellation.\n- Inclusions: venue, chairs/tables, basic rentals, decor, setup/reset, kitchen/prep space, getting-ready rooms, exclusivity.\n- Outside vendors: approved lists, fees/restrictions, catering and alcohol/BYOB/bartender rules.\n- Hours: separate indoor/outdoor amplified music, alcohol service, guest departure and cleanup. Midnight status needs evidence.\n- Travel: parking/shuttle, nearby hotels, airports/cities, date/time-dependent road journeys; lodging room/capacity/exclusivity.\n- Other: restrooms, accessibility, rain/heat/smoke backup, power/lighting/storage/load-in, decoration/fire rules, insurance, permitted annual events and public availability.\n\n## Normalization and economics\nCompare full mandatory customer cost at stated headcount/date/duration; show food/drink inclusions. Refundable deposits are cash requirements, not automatically expenses. Label quote-only, starting-at, verified published values and modeled values separately.\n\nPrice does not reveal profit. Low/base/high scenarios need realized booking revenue, bookings/seasonality, per-event labor/cleanup/security/rentals, fixed rent/utilities/insurance/marketing/maintenance, owner pay, startup capital and booking-ramp cash reserves.\n\n## Planned charts\nComparable mandatory price vs capacity; hours/vendor flexibility; geography/travel; break-even bookings/seasonality. No numerical charts until enough comparable sourced observations exist.\n## Research scope clarification — 2026-10-11T03:38:07Z\n- Calculate realistic capital requirements from the evidence; do not impose an upfront budget ceiling or repeat the budget-cap question.\n- Compare four routes without selecting one: lease an existing lawful venue; convert leased space; buy land and develop; buy an established venue.\n- Desired ability to host 300–400 guests. Whether this is normal or peak capacity remains unknown; no minimum/approved occupancy established.\n- Prefer open/separated space to reduce noise issues, but acreage does not establish permitted event use, midnight hours or sound compliance.\n- Research comprehensive relevant data with source dates, confidence, explicit gaps and low/base/high scenarios. No exhaustive coverage or actual competitor profits claimed.\nRecord marketing capacity, actual permitted occupancy, seated dinner/dance-floor capacity and weather-backup capacity separately. Add usable event area/acreage, neighboring residences, sound conditions, approved annual events, parking/overflow/shuttle, deal type, asking price/date and real estate inclusion. Seller profitability claims need verification.\n## Initial operator observations\n- [Deer Park Villa FAQ](https://deerparkvilla.com/faq/) and [packages](https://deerparkvilla.com/packages/): Fairfax/Marin; published capacity 200 indoors and 300 outdoors, layout confirmation required. Preferred vendors are mentioned; unrestricted vendor choice is not established. Midnight permission and total mandatory price unknown.\n- [Palm Event Center wedding page](https://www.palmeventcenter.com/get-married/): five-hour reception; indoor/outdoor ceremony options; day-of coordination and food/open-bar service described. Capacity, end time, venue-only availability and full price unknown on this reviewed page. Bundled offering must be normalized before comparison.\n- Structured evidence, checked 2026-10-11T03:40:02Z. Marketing capacity is not verified legal occupancy. Neither venue is established as a midnight-compliant match.",
-    "Founder experiences": "# Founder and operator experiences\nStatus: source collection pending.\n\n## Source record fields\nURL/platform, creator/title, published and checked dates, geography, actual operator vs consultant/supplier, lease/purchase/development model, capacity, initial costs with currency/year, staffing, booking ramp, seasonality, permit issues, failures, changes and evidence quality.\n\n## Collection tracks\nOperator interviews/videos, founder blogs, public planning/permit cases, operator forums and public social accounts. Include failed/abandoned venues, not only successful promotional stories. Flag inaccessible/private/deleted sources rather than claiming review.\n\nSummarize useful findings without copying entire posts or transcripts. Older/out-of-region costs are context, not current Bay Area quotes. No sources have yet been cataloged here.",
+    "Founder experiences": "# Founder and operator experiences\n\nFive initial written sources. Discovery continues; this is not all people or all stories. Original dates are distinct from review dates. Undated sources remain unknown. Older/out-of-region costs are not current Bay Area estimates.\n\n## Karri Jablonski\n\n[How I Became a Wedding Venue Owner in Michigan](https://riverbendestatevenue.com/how-i-became-a-wedding-venue-owner-in-michigan/)\n\n- Venue: Riverbend Estate\n- Original publication: 2024-12-14\n- Date evidence: Displayed original post date\n- Geography: Michigan, US\n- Type: Firsthand owner blog\n- Read for: Property search changed after a new-build plan failed. Describes owner education, peer venue visits and ongoing maintenance/logistics.\n- Context: Venue promotional blog; finances not independently verified\n- Reviewed UTC: 2026-10-11T04:10:37.248115+00:00\n\n## Croix-View Farm owner (personal byline unknown)\n\n[How I stumbled into the Wedding World: A Venue Owner’s Honest Journey from Passion to Success](https://www.croixviewfarm.com/post/how-i-stumbled-into-the-wedding-world-a-venue-owner-s-honest-journey-from-passion-to-success)\n\n- Venue: Croix-View Farm\n- Original publication: 2024-10-31\n- Date evidence: Displayed original post date\n- Geography: Wisconsin, US\n- Type: Firsthand owner blog\n- Read for: Describes buying the property in 2012, renovating a barn, building a website and selling the early vision. Reports 14 couples in the first year; self-reported, not audited.\n- Context: Venue promotional blog\n- Reviewed UTC: 2026-10-11T04:10:37.248115+00:00\n\n## Andrea Vallencourt; Monique Jeffrey (interviewed by Amanda Knaebel)\n\n[How to start a wedding venue: Tips from two wedding industry experts](https://planningpod.com/blog/how-to-start-a-wedding-venue-tips-from-two-wedding-industry-experts)\n\n- Venue: Clay Theatre; Willowdale Estate / Briar Barn Inn\n- Original publication: 2022-09-12\n- Date evidence: Displayed original post date\n- Geography: Florida / Massachusetts, US\n- Type: Operator interview\n- Read for: Owner and hospitality-operations perspectives on converting a theatre, launching tours while work was underway and organizing venue operations.\n- Context: Software-provider customer interview; product promotion\n- Reviewed UTC: 2026-10-11T04:10:37.248115+00:00\n\n## Crooked Willow owners; Derek named, other author unknown\n\n[So you want to own a wedding venue? Here’s what you need to know…](https://www.crookedwillowmn.com/blog/so-you-want-to-own-a-wedding-venue-heres-what-you-need-to-know)\n\n- Venue: Crooked Willow\n- Original publication: Unknown\n- Date evidence: Unknown — original date not visible in reviewed page\n- Geography: Minnesota, US\n- Type: Firsthand owner blog\n- Read for: Owners describe leaving corporate jobs, heavy ongoing labor, frequent weather-plan changes and a slow path to profit. Relative years in the story cannot establish an opening date without its publication date.\n- Context: Venue promotional blog\n- Reviewed UTC: 2026-10-11T04:10:37.248115+00:00\n\n## Stephanie (surname unknown)\n\n[My journey as a venue owner / About](https://spaceonwestmain.com/about)\n\n- Venue: The Space on West Main\n- Original publication: Unknown\n- Date evidence: Unknown — undated About page\n- Geography: US; location confirmation pending\n- Type: Owner origin story\n- Read for: Photographer describes creating an intimate event space and customization flexibility. Short origin story rather than a financial case study.\n- Context: Venue promotional About page\n- Reviewed UTC: 2026-10-11T04:10:37.248115+00:00\n\n## Next collection targets\n\nFailed/abandoned plans, closures, acquisitions, leased venues, government concessions, permit disputes, dated owner podcasts/videos, and California-specific conversions. Separate named people from articles; one person may publish many stories and one interview may contain several people. Record original dates, updates, source type and unavailable/private/deleted material without claiming review.\n",
     "Feasibility": "# Property and operating feasibility\nEarly screening questions; no property-specific clearance or commitment.\n\n## Verified starting source\n[Solano County special-event facilities](https://www.solanocounty.gov/government/resource-management/planning-services/development-programs/special-event-facilities), checked 2026-10-11T03:33:01Z. Official page describes zoning/size/frequency requirements, permit steps, example fees and involvement of planning, building, environmental health and public works. Applies to unincorporated Solano, not automatically all Bay Area cities/counties. Linked detailed guide not yet reviewed.\n\n## Questions to investigate before commitment\nPermitted recurring paid event use at exact parcel/building; transferability of existing permits; capacity, event count, noise, operating hours and alcohol approvals; landlord consent and obligations if approvals fail; assembly occupancy, fire access/exits, accessible facilities, bathrooms, parking/transport, utilities/septic/water, neighbor impacts and weather/emergency backup.\n\nTest venue-only operations: setup/reset, security, cleaning, safety, vendor coordination, rental maintenance, sales/tours and incident response still need assigned responsibility. Customer-hired vendors do not establish owner workload.\n\nCompare all mandatory customer costs with rent, event contribution, operator pay, improvements and cash reserves. Validate actual target-couple interest. Compare land development, existing lawful venue lease and management/revenue-share options after clarifying constraints.\n\n## Hypotheses\nLeasing may reduce some development uncertainty, but lease obligations/improvements may still be costly. Creative decor can add labor/storage/reset costs. Land asking price is only part of usable-site cost. Midnight must distinguish music, alcohol, guest departure and cleanup. No cost/profit or permit outcome established.\n## Research scope clarification — 2026-10-11T03:38:07Z\n- Calculate realistic capital requirements from the evidence; do not impose an upfront budget ceiling or repeat the budget-cap question.\n- Compare four routes without selecting one: lease an existing lawful venue; convert leased space; buy land and develop; buy an established venue.\n- Desired ability to host 300–400 guests. Whether this is normal or peak capacity remains unknown; no minimum/approved occupancy established.\n- Prefer open/separated space to reduce noise issues, but acreage does not establish permitted event use, midnight hours or sound compliance.\n- Research comprehensive relevant data with source dates, confidence, explicit gaps and low/base/high scenarios. No exhaustive coverage or actual competitor profits claimed.\nAcquisition diligence: business-only leasehold vs business plus real estate; verify financials and owner labor, booking/customer-deposit obligations, deferred maintenance, permit/license/lease transfer, title and contracts. Existing operation does not prove approvals transfer or 400 guests are permitted.\n## Midnight research branches confirmed — 2026-10-11T03:40:02Z\nBoth branches are in scope:\nA. Outdoor amplified music and dancing until midnight.\nB. Outdoor earlier celebration with indoor late-night music/dancing until midnight.\nAlso tag fully indoor comparators separately. For each, research lawful hours/noise limits, actual layout/occupancy at 300–400 guests, sound mitigation and staffing, building/weather needs, setup/cleanup, customer experience and all capital/operating costs. Indoor midnight permission is not assumed.",
-    "Four business routes": "# Four-route capital and operations model\nStatus: framework; sourced dollar estimates not yet collected. Updated UTC: 2026-10-11T03:38:07Z.\n\n| Route | Capital to quantify | Key evidence |\n| --- | --- | --- |\n| Lease lawful venue | Deposit, ramp-up rent, repairs/design, equipment, approvals, professional fees and reserves | Lease terms, permitted use/capacity/hours, quotes |\n| Convert leased space | Above plus design, approvals, construction, fire/accessibility/occupancy, utilities, bathrooms, parking | Building/parcel records, approval conditions, scope-specific quotes, lease allocation |\n| Buy land and develop | Land/closing, investigations, design/permits, access, utilities/septic, parking, structures, finance carrying costs and reserves | Actual parcels, infrastructure feasibility, approvals, quotes and schedule |\n| Buy established venue | Business and/or real estate price, closing/diligence, equipment, repairs, booking liabilities, financing and reserves | Verified financial history, deal structure, permits, contracts/lease and title |\n\nModel 300 and 400 seated guests with dining/dancing and lawful facilities; do not assume land area implies approved capacity. Keep smaller competitors as benchmarks without replacing the desired flexibility.\n\n## Outputs\nTotal project cost; required cash/equity vs debt; pre-opening carry/time; fixed monthly cost; variable event/headcount cost; contribution; break-even bookings; owner/manager compensation; debt service; booking ramp/seasonality; peak cash deficit and contingency. Capital need is an output, not a predefined ceiling.\n\nSeparate operating profit, cash flow and debt repayment. Customer deposits may carry performance/refund liabilities. No confidential competitor profits asserted.\n\n## Every observation\nValue/unit, property/route/headcount/date/duration, original source URL/document, quote/publication/check dates, exclusions/taxes, status (verified, asking price, seller claim, assumption, unknown), confidence and sensitivity. Use ranges when one figure is unsupported.\n\n## Acquisition diligence\nBusiness-only/leasehold vs business plus real estate, valuation allocation, actual bookings/revenue/margins, owner labor/add-backs, deposits/unfulfilled events, liabilities/contracts/staff, deferred maintenance, transferable approvals/licenses, lease assignment/title/easements, permitted event count/hours/capacity and reason for sale. Asking price is not valuation.\n\nInitial source: [SBA planning and buying-business guidance](https://www.sba.gov/counseling/plan-your-business/), checked 2026-10-11T03:38:07Z. General guidance, not actual transaction documents or financing quotes."
-  }
+    "Four business routes": "# Four-route capital and operations model\nStatus: framework; sourced dollar estimates not yet collected. Updated UTC: 2026-10-11T03:38:07Z.\n\n| Route | Capital to quantify | Key evidence |\n| --- | --- | --- |\n| Lease lawful venue | Deposit, ramp-up rent, repairs/design, equipment, approvals, professional fees and reserves | Lease terms, permitted use/capacity/hours, quotes |\n| Convert leased space | Above plus design, approvals, construction, fire/accessibility/occupancy, utilities, bathrooms, parking | Building/parcel records, approval conditions, scope-specific quotes, lease allocation |\n| Buy land and develop | Land/closing, investigations, design/permits, access, utilities/septic, parking, structures, finance carrying costs and reserves | Actual parcels, infrastructure feasibility, approvals, quotes and schedule |\n| Buy established venue | Business and/or real estate price, closing/diligence, equipment, repairs, booking liabilities, financing and reserves | Verified financial history, deal structure, permits, contracts/lease and title |\n\nModel 300 and 400 seated guests with dining/dancing and lawful facilities; do not assume land area implies approved capacity. Keep smaller competitors as benchmarks without replacing the desired flexibility.\n\n## Outputs\nTotal project cost; required cash/equity vs debt; pre-opening carry/time; fixed monthly cost; variable event/headcount cost; contribution; break-even bookings; owner/manager compensation; debt service; booking ramp/seasonality; peak cash deficit and contingency. Capital need is an output, not a predefined ceiling.\n\nSeparate operating profit, cash flow and debt repayment. Customer deposits may carry performance/refund liabilities. No confidential competitor profits asserted.\n\n## Every observation\nValue/unit, property/route/headcount/date/duration, original source URL/document, quote/publication/check dates, exclusions/taxes, status (verified, asking price, seller claim, assumption, unknown), confidence and sensitivity. Use ranges when one figure is unsupported.\n\n## Acquisition diligence\nBusiness-only/leasehold vs business plus real estate, valuation allocation, actual bookings/revenue/margins, owner labor/add-backs, deposits/unfulfilled events, liabilities/contracts/staff, deferred maintenance, transferable approvals/licenses, lease assignment/title/easements, permitted event count/hours/capacity and reason for sale. Asking price is not valuation.\n\nInitial source: [SBA planning and buying-business guidance](https://www.sba.gov/counseling/plan-your-business/), checked 2026-10-11T03:38:07Z. General guidance, not actual transaction documents or financing quotes.",
+    "Planner workbook": "# What a planner needs from every venue\n\nOriginal Bay Leaf synthesis • 194 research fields in 18 categories • reviewed October 10, 2026 (Pacific).\n\nStart with suitability, then investigate logistics and complete cost. Every venue gets the same framework; irrelevant fields become **Not applicable** with a reason. Unknown never means allowed, included, free or zero. This is a proposed research standard, not verified answers for all venues.\n\n## The answer format\n\nFor each field record: **answer • evidence/status • source URL or written document • date checked • package/date/guest-count assumptions • unresolved question • person responsible • next action/deadline**. Keep quotes and private correspondence in shared private context, not the public website.\n\nEvidence labels: **Authority/document verified; Operator published; Directory reported; Observed on visit; Assumption/calculated; Unknown — inquire; Conflicting; Not applicable; Prohibited/closed**. Written sales answers do not establish legal occupancy. A permission can have conditions; preserve them.\n\n## Research stages\n\n1. Broad inventory: capture leads even when wedding permission is unknown. Do not silently discard unconventional spaces.\n2. Uniform inquiry: request terms and itemized prices before tours. Use guest-count scenarios for research without pretending they are booked plans.\n3. Joint visit: walk the guest route, supplier route and weather backup with floor plans; check equipment and responsibility gaps.\n4. Contract validation: reconcile every promised inclusion and exception with the final terms and relevant approvals.\n5. Business review: separately examine repeat use, improvements, operating effort and financial feasibility.\n\nThe public comparison should show the useful summary. Expandable details hold the full checklist rather than forcing every question into a very wide table. Filter by status, county, venue type, capacity basis, price basis and restrictions; sort unknowns last.\n\n## The workbook fields\n\n### Identity and booking — Research\n\n[Here Comes the Guide venue questions and worksheet](https://www.herecomestheguide.com/wedding-ideas/questions-to-ask-your-wedding-venue) · [Molto Bella venue comparison worksheet](https://www.moltobellaweddings.com/wp-content/uploads/2018/02/MB_Wedding_Planner_Venue_Comparison.pdf)\n\n- Wedding permission\n- Exact site and room\n- County and jurisdiction\n- Operator and owner\n- Sales contact\n- Date availability\n- Booking horizon\n- Active or closed status\n- Other simultaneous events\n- Exclusive areas\n\n### Capacity and layout — Inquiry\n\n[Warrenwood Manor venue shopping workbook](https://warrenwoodmanor.com/wp-content/uploads/2020/03/Wedding-Venue-Shopping-Guide.pdf) · [Molto Bella venue comparison worksheet](https://www.moltobellaweddings.com/wp-content/uploads/2018/02/MB_Wedding_Planner_Venue_Comparison.pdf)\n\n- Ceremony seated count\n- Dinner plus dance capacity\n- Standing-only capacity\n- Indoor and outdoor layouts\n- Comfortable count versus maximum\n- Approved occupancy evidence\n- Floor plan and dimensions\n- Cocktail-hour space\n- Room-flip logistics\n- Emergency exits\n\n### Time cut off — Inquiry\n\n[Warrenwood Manor venue shopping workbook](https://warrenwoodmanor.com/wp-content/uploads/2020/03/Wedding-Venue-Shopping-Guide.pdf) · [One Story Weddings venue checklist](https://static1.squarespace.com/static/6373bbd7b8f87c3f80597d63/t/692f51c3a7d9fe3ff4687b97/1764708803836/The%2BOne%2BStory%2BWeddings%2BUltimate%2BVenue%2BChecklist.pdf)\n\n- Guest event start/end\n- Indoor music deadline\n- Outdoor music deadline\n- Bar-service deadline\n- Guest departure deadline\n- Vendor load-in window\n- Cleanup/load-out deadline\n- Rehearsal access\n- Previous-day setup\n- Overtime conditions\n\n### Included equipment — Inquiry\n\n[A Practical Wedding planning workbooks](https://apracticalwedding.com/planner/) · [Here Comes the Guide venue questions and worksheet](https://www.herecomestheguide.com/wedding-ideas/questions-to-ask-your-wedding-venue) · [Warrenwood Manor venue shopping workbook](https://warrenwoodmanor.com/wp-content/uploads/2020/03/Wedding-Venue-Shopping-Guide.pdf)\n\n- Table sizes and quantities\n- Chair styles and quantities\n- Linens and napkins\n- China/flatware/glassware\n- Dance floor\n- Stage and AV\n- Existing lighting\n- Dressing suites\n- Heating and shade\n- Item condition and replacement fees\n\n### Labor and responsibilities — Inquiry\n\n[A Savvy Event Napa/Bay Area planning team](https://asavvyevent.com/team/) · [Foothills coordination checklist](https://foothillsconferencecentre.com.au/checklist-for-coordinating-with-wedding-venues/) · [A Practical Wedding planning workbooks](https://apracticalwedding.com/planner/)\n\n- Furniture setup/breakdown owner\n- Decor setup/removal owner\n- Room-flip crew\n- Onsite venue manager\n- Coordinator duties\n- Required independent planner\n- Catering staff responsibilities\n- Security requirements\n- Cleaning and waste owner\n- After-hours contact\n\n### Vendor freedom — Inquiry\n\n[One Story Weddings venue checklist](https://static1.squarespace.com/static/6373bbd7b8f87c3f80597d63/t/692f51c3a7d9fe3ff4687b97/1764708803836/The%2BOne%2BStory%2BWeddings%2BUltimate%2BVenue%2BChecklist.pdf) · [Here Comes the Guide venue questions and worksheet](https://www.herecomestheguide.com/wedding-ideas/questions-to-ask-your-wedding-venue)\n\n- Required versus suggested list\n- Outside-caterer permission\n- Catering buyout surcharge\n- DJ/band restrictions\n- Rental-company restrictions\n- Food-truck permission\n- Vendor insurance documents\n- Vendor approval deadlines\n- Cultural-food exceptions\n- Vendor commissions disclosed\n\n### Food and kitchen — Inquiry\n\n[Here Comes the Guide venue questions and worksheet](https://www.herecomestheguide.com/wedding-ideas/questions-to-ask-your-wedding-venue) · [Event Fab producer site inspections](https://eventfab.com/pre-event-site-visits-checklist/)\n\n- Meal package and service style\n- Food minimum\n- Kids and vendor meals\n- Dietary/allergy handling\n- Tasting terms\n- Preparation kitchen equipment\n- Cold storage and ice\n- Water and handwashing\n- Service routes\n- Food waste arrangements\n\n### Alcohol and bar — Inquiry\n\n[California ABC caterer permits](https://www.abc.ca.gov/licensing/license-forms/caterers-permit/) · [Here Comes the Guide venue questions and worksheet](https://www.herecomestheguide.com/wedding-ideas/questions-to-ask-your-wedding-venue)\n\n- BYOB terms\n- Beer/wine/spirits scope\n- Licensed service provider\n- Event authorization responsibility\n- Bartender requirements\n- Open-bar duration\n- Corkage and bar minimum\n- Liquor-liability coverage\n- Last-call procedure\n- Alcohol-storage rules\n\n### Price and per-head comparison — Inquiry\n\n[One Story Weddings venue checklist](https://static1.squarespace.com/static/6373bbd7b8f87c3f80597d63/t/692f51c3a7d9fe3ff4687b97/1764708803836/The%2BOne%2BStory%2BWeddings%2BUltimate%2BVenue%2BChecklist.pdf) · [Here Comes the Guide venue questions and worksheet](https://www.herecomestheguide.com/wedding-ideas/questions-to-ask-your-wedding-venue) · [A Practical Wedding planning workbooks](https://apracticalwedding.com/planner/)\n\n- Venue fee low/high\n- Food per-head low/high\n- Bar per-head low/high\n- Mandatory spend floor\n- Ceremony/additional-space fees\n- Required staffing/rental costs\n- Service/admin-charge base\n- Tax and charge treatment\n- Overtime and cleaning fees\n- Quote date and expiry\n- Date/season assumptions\n- Guest-count assumptions\n- Mandatory total low/high\n- Refundable security deposit separate\n\n### Weather and continuity — Visit\n\n[One Story Weddings venue checklist](https://static1.squarespace.com/static/6373bbd7b8f87c3f80597d63/t/692f51c3a7d9fe3ff4687b97/1764708803836/The%2BOne%2BStory%2BWeddings%2BUltimate%2BVenue%2BChecklist.pdf) · [Ready.gov business emergency plans](https://www.ready.gov/business/emergency-plans) · [Foothills coordination checklist](https://foothillsconferencecentre.com.au/checklist-for-coordinating-with-wedding-venues/)\n\n- Reserved backup location\n- Backup dinner/dance capacity\n- Tent permit responsibility\n- Tent/flooring/heater charges\n- Weather-decision owner and deadline\n- Heat/cold comfort\n- Wind limits\n- Smoke/fire response\n- Power-loss backup\n- Closure/refund contingency\n\n### Arrival and travel — Research\n\n[Molto Bella venue comparison worksheet](https://www.moltobellaweddings.com/wp-content/uploads/2018/02/MB_Wedding_Planner_Venue_Comparison.pdf) · [Foothills coordination checklist](https://foothillsconferencecentre.com.au/checklist-for-coordinating-with-wedding-venues/)\n\n- Hotel travel time and date basis\n- Airport travel time and basis\n- Major-city access\n- Parking count and costs\n- Valet/shuttle mandates\n- Coach turnaround\n- Rideshare pickup at closing\n- Lodging room counts\n- Room-block terms\n- Accessible drop-off\n\n### Access and guest comfort — Visit\n\n[US DOJ accessibility guidance](https://www.ada.gov/resources/title-iii-primer/) · [Molto Bella venue comparison worksheet](https://www.moltobellaweddings.com/wp-content/uploads/2018/02/MB_Wedding_Planner_Venue_Comparison.pdf)\n\n- Continuous accessible guest route\n- Accessible restroom access\n- Accessible seating layout\n- Terrain/stairs/elevators\n- Restroom count and condition\n- Restroom service during event\n- Quiet/private room\n- Nursing/family space\n- Wayfinding and night lighting\n- Coat/bag/gift storage\n\n### Production and delivery — Visit\n\n[Event Fab producer site inspections](https://eventfab.com/pre-event-site-visits-checklist/)\n\n- Loading path measurements\n- Delivery vehicle access\n- Dock/elevator limits\n- Storage/staging area\n- Available electrical circuits\n- Generator placement permission\n- Internet/mobile signal\n- Rigging approvals\n- Sound-system limits\n- Sunset lighting/sightlines\n\n### Design and cultural fit — Inquiry\n\n[Here Comes the Guide venue questions and worksheet](https://www.herecomestheguide.com/wedding-ideas/questions-to-ask-your-wedding-venue) · [One Story Weddings venue checklist](https://static1.squarespace.com/static/6373bbd7b8f87c3f80597d63/t/692f51c3a7d9fe3ff4687b97/1764708803836/The%2BOne%2BStory%2BWeddings%2BUltimate%2BVenue%2BChecklist.pdf) · [A Practical Wedding planning workbooks](https://apracticalwedding.com/planner/)\n\n- Decor attachment rules\n- Furniture moving permission\n- Candles/flames restrictions\n- Confetti/sparkler restrictions\n- Floral/decor disposal\n- Cultural ceremony accommodation\n- Baraat/procession approval\n- Multi-event celebration access\n- Privacy/photo-location access\n- Actual-event photos and style fit\n\n### Contract and deadlines — Contract\n\n[One Story Weddings venue checklist](https://static1.squarespace.com/static/6373bbd7b8f87c3f80597d63/t/692f51c3a7d9fe3ff4687b97/1764708803836/The%2BOne%2BStory%2BWeddings%2BUltimate%2BVenue%2BChecklist.pdf) · [Foothills coordination checklist](https://foothillsconferencecentre.com.au/checklist-for-coordinating-with-wedding-venues/)\n\n- Deposit/payment milestones\n- Cancellation refund schedule\n- Date-change terms\n- Force-majeure wording\n- Venue cancellation remedies\n- Substitution/relocation clause\n- Price-change clauses\n- Damage liability\n- Insurance limits/documents\n- Final headcount deadline\n- Vendor-document deadlines\n- Permit responsibility\n\n### Quality and handover — Visit\n\n[Warrenwood Manor venue shopping workbook](https://warrenwoodmanor.com/wp-content/uploads/2020/03/Wedding-Venue-Shopping-Guide.pdf) · [Foothills coordination checklist](https://foothillsconferencecentre.com.au/checklist-for-coordinating-with-wedding-venues/) · [A Savvy Event Napa/Bay Area planning team](https://asavvyevent.com/team/)\n\n- Recent event references\n- Communication response history\n- Named day-of contact\n- Final joint walkthrough\n- Approved timeline/floor plan\n- Vendor contact sheet\n- Construction/ownership changes\n- Complaints and resolution evidence\n\n### Business suitability — Business\n\n[California ABC caterer permits](https://www.abc.ca.gov/licensing/license-forms/caterers-permit/) · [San Francisco entertainment permit guidance](https://www.sf.gov/get-place-entertainment-permit-your-business) · [Sonoma proposed special-event zoning update](https://sonoma-county.legistar.com/LegislationDetail.aspx?GUID=3795E6F1-7701-4414-AB81-C8BB81143BC1&ID=7768001) · [Ready.gov business emergency plans](https://www.ready.gov/business/emergency-plans)\n\n- Recurring commercial-use approval\n- Event-frequency restrictions\n- Lawful music hours/conditions\n- Lease/sublease event rights\n- Permit/license transfer conditions\n- Septic/water/electrical capacity\n- Fire-access and occupancy upgrade costs\n- Staffing hours per event\n- Maintenance/storage/security costs\n- Capital cost and lead-time scenarios\n- Contribution per event\n- Break-even events and working capital\n- Acquisition financial verification\n- Government rental versus concession rights\n\n## Cost per head: compare the same thing\n\nMaintain three distinct measures: **venue-only ÷ guests**, **food/bar package per guest**, and **required event total ÷ guests**. The last is the useful comparison only when all mandatory components are known. It does not include optional photographer, attire or other whole-wedding spending unless explicitly selected.\n\nFor a comparable scenario, calculate the applicable venue/space fee + contracted food/bar spend after its minimum + mandatory staffing/rentals + compulsory access, cleaning, transport and permit costs + service charges and tax on their documented bases. Divide by the stated guest count. Count included items once. Keep refundable deposits as cash needed, not an event expense. Avoid adding a package rate to a minimum if the minimum already covers that package.\n\nRecord children/vendor-meal treatment and date/season. A “from” price has no known upper bound. If required charges are missing, show a **partial known subtotal**, not an all-in range. Do not manufacture a maximum from an optimistic estimate. Capital required for the business remains a research output, not an imposed budget limit.\n\n## What is especially easy to miss\n\n- A wet-weather room may exist yet be unreserved or too small for dinner plus dancing.\n- An item can be available on site without being included; quantities and setup labor matter.\n- Vendor lists can be optional, mandatory, or subject to an exception fee.\n- A five-hour reception does not identify music cutoff, bar closure, or final departure.\n- A high maximum may describe standing use, not the intended seating/dancing layout.\n- “Hands-off ownership” still requires named responsibility for safety, guest issues, load-in, cleaning and lockup. Model paid labor and owner hours separately.\n\n## California and Bay Area checks\n\nCalifornia ABC states that Type 58 catered alcohol events require event authorization and ordinarily have a 36-event annual limit at a location, with an exception process. This is not a general cap on weddings and does not determine every BYOB arrangement. Treat the alcohol operating route and any exception as a business due-diligence question. [ABC official FAQ](https://www.abc.ca.gov/licensing/license-forms/caterers-permit/).\n\nAccessibility is a continuous experience through arrival, rooms, seating and restrooms. “Historic” or “grandfathered” is not an automatic ADA exemption. [DOJ small-business guidance](https://www.ada.gov/resources/title-iii-primer/).\n\nDo not convert a one-time special-event rental into assumed permission for weekly commercial weddings. Confirm actual jurisdiction, land-use entitlement, permit conditions, occupancy, fire access, noise and food/wastewater requirements for the property. The reviewed Sonoma staff report contains proposed changes, not proof of final adoption; numerical thresholds remain unverified. [Sonoma source](https://sonoma-county.legistar.com/LegislationDetail.aspx?GUID=3795E6F1-7701-4414-AB81-C8BB81143BC1&ID=7768001).\n\n## Source review and limitations\n\n- [A Practical Wedding planning workbooks](https://apracticalwedding.com/planner/) — Public resource descriptions reviewed; embedded workbook links not extracted.\n- [Here Comes the Guide venue questions and worksheet](https://www.herecomestheguide.com/wedding-ideas/questions-to-ask-your-wedding-venue) — Article and eight-page PDF read; editorial tips are not code requirements.\n- [Warrenwood Manor venue shopping workbook](https://warrenwoodmanor.com/wp-content/uploads/2020/03/Wedding-Venue-Shopping-Guide.pdf) — 15-page PDF read; comparison pages 12–14 visually inspected. Example terms are historical 2021 and Kentucky-specific.\n- [Molto Bella venue comparison worksheet](https://www.moltobellaweddings.com/wp-content/uploads/2018/02/MB_Wedding_Planner_Venue_Comparison.pdf) — One-page PDF read; comparison structure, not California regulations.\n- [One Story Weddings venue checklist](https://static1.squarespace.com/static/6373bbd7b8f87c3f80597d63/t/692f51c3a7d9fe3ff4687b97/1764708803836/The%2BOne%2BStory%2BWeddings%2BUltimate%2BVenue%2BChecklist.pdf) — Two-page Southern California checklist read; percentage heuristics not adopted.\n- [Foothills coordination checklist](https://foothillsconferencecentre.com.au/checklist-for-coordinating-with-wedding-venues/) — Article and two-page PDF read; Australian operational process, not California law.\n- [Event Fab producer site inspections](https://eventfab.com/pre-event-site-visits-checklist/) — Production checks reviewed; venue-specific engineering still required.\n- [US DOJ accessibility guidance](https://www.ada.gov/resources/title-iii-primer/) — Official guidance reviewed; actual site accessibility requires assessment.\n- [California ABC caterer permits](https://www.abc.ca.gov/licensing/license-forms/caterers-permit/) — Official current permit FAQ reviewed; each property and alcohol arrangement must be confirmed.\n- [Ready.gov business emergency plans](https://www.ready.gov/business/emergency-plans) — Official public preparedness guidance reviewed.\n- [A Savvy Event Napa/Bay Area planning team](https://asavvyevent.com/team/) — Practitioner description supports dedicated onsite production responsibilities, not a standardized workbook.\n- [San Francisco entertainment permit guidance](https://www.sf.gov/get-place-entertainment-permit-your-business) — Official search-index text reviewed; direct page verification blocked. No parcel-specific legal conclusion.\n- [Sonoma proposed special-event zoning update](https://sonoma-county.legistar.com/LegislationDetail.aspx?GUID=3795E6F1-7701-4414-AB81-C8BB81143BC1&ID=7768001) — Staff report reviewed. Agenda Ready status and missing final action mean proposed numbers must not be treated as adopted law.\n\nFive freely accessible PDF workbooks/checklists were downloaded and read for this review. Original source PDFs remain research references and are not republished. Wedding Academy’s paid checklist description was discovered, but its full workbook was not purchased or reviewed. No universal restroom/security ratios, fixed hidden-fee percentage, attendance percentage or venue budget percentage were adopted from these resources. Requirements remain site- and event-specific.\n\n## Venue age and operating history\n\nRecord construction year, wedding-operation opening date, current-operator start date and operating duration separately. For multiple structures, identify which building the year describes. Track conversions, rebuilding and interruptions. A historic lodge date does not prove the current reception building was built that year. Exact opening dates allow elapsed years; year-only records produce an approximate duration with an as-of date. Unknown stays Unknown — inquire.\n\n## Value assessment\n\n\n\n| Field | Interpretation |\n|---|---|\n| Parcel/APN, area, zoning, buildings | Confirm the exact asset; a venue address may cover multiple parcels or a leased portion |\n| Owner versus operator | Determine what could actually be purchased or leased |\n| Last recorded sale and date | Historical transaction, not today's market value; inspect whether it covered these assets |\n| Current asking price and scope | Seller expectation; may include land, business, equipment or several properties |\n| Assessed land/improvement value and tax year | Tax basis, kept separate from market value |\n| Comparable closed sales | Match use, location, condition, acreage/building area and transferable approvals |\n| Property estimate low/high | Only when comps or another documented method support the range |\n| Business estimate low/high | Requires verified earnings/assets/contracts and valuation assumptions |\n| Rent/lease term and assignment | For a tenant operation, land value is not automatically part of the business acquisition |\n| Valuation date/method/confidence | Make the estimate reproducible and label evidence gaps |\n\nCalifornia tax assessments and current market values can differ because of assessment rules. Do not use the assessed number as a purchase-price estimate. [California BOE explanation](https://www.boe.ca.gov/proptaxes/pdf/lta25023.pdf).\n\n",
+    "Venue value": "# Venue value assessment\n\nTrack **real estate**, **operating business**, and **lease/concession rights** separately. No defensible valuation range has yet been established for the two initial venue records. Unknowns remain explicit; not every venue is for sale.\n\n## Can Zillow help?\n\nZillow says Zestimates apply to residential properties, excluding commercial property and vacant land. A residential estimate may inform the house component of an estate, but cannot value its wedding operation, event permissions, extra parcels or special-purpose structures. A Zestimate is not an appraisal. [Zillow FAQ](https://www.zillow.com/zestimate/).\n\n## Evidence to collect for each venue\n\n| Field | Interpretation |\n|---|---|\n| Parcel/APN, area, zoning, buildings | Confirm the exact asset; a venue address may cover multiple parcels or a leased portion |\n| Owner versus operator | Determine what could actually be purchased or leased |\n| Last recorded sale and date | Historical transaction, not today's market value; inspect whether it covered these assets |\n| Current asking price and scope | Seller expectation; may include land, business, equipment or several properties |\n| Assessed land/improvement value and tax year | Tax basis, kept separate from market value |\n| Comparable closed sales | Match use, location, condition, acreage/building area and transferable approvals |\n| Property estimate low/high | Only when comps or another documented method support the range |\n| Business estimate low/high | Requires verified earnings/assets/contracts and valuation assumptions |\n| Rent/lease term and assignment | For a tenant operation, land value is not automatically part of the business acquisition |\n| Valuation date/method/confidence | Make the estimate reproducible and label evidence gaps |\n\nCalifornia tax assessments and current market values can differ because of assessment rules. Do not use the assessed number as a purchase-price estimate. [California BOE explanation](https://www.boe.ca.gov/proptaxes/pdf/lta25023.pdf).\n\n## How the research will work\n\nUse assessor/recorder records for parcel and historical facts; [LoopNet's commercial valuation guidance](https://www.loopnet.com/cre-explained/tools/commercial-property-valuation/) and [Crexi commercial listings](https://www.crexi.com/) for relevant sale/lease evidence. Listings are asking prices; sold comps need actual closing dates and asset scope. Restricted or paywalled evidence is recorded as unavailable, not guessed.\n\nSales comparisons, an income approach and a replacement-cost approach answer different questions. A property's income valuation uses appropriate real-estate operating income and market-supported assumptions, not gross wedding revenue. Unique buildings may have weak comps. The operating business requires separate verification of earnings after normalizing owner labor, market rent, maintenance and one-time costs. A generic earnings multiple is not sufficient evidence for a competitor's valuation.\n\nFor an acquisition, model equipment, transferable contracts/approvals, customer deposits and obligations, lease rights, necessary improvements and working capital. Do not add a property value to an earnings-based business value if the same economic benefit is counted twice. Buying an established operation and buying its property are distinct transactions.\n\nPublic parks and government sites may offer rentals or concession/lease rights rather than a purchasable venue. Record Not applicable where ownership rules make an acquisition-value field irrelevant, with a reason; replacement cost is a different question.\n\nThis is an evidence-collection method. Preliminary ranges, when supported, remain research estimates with dates and assumptions; financing/purchase decisions need property-specific appraisal and business due diligence.\n"
+  },
+  "pricing_method": "Keep package, venue-only and total costs separate. Derived venue cost per head is published venue fee divided by a user-selected guest count; it is not an all-in wedding quote. Null means unknown. Taxes, service fees, minimums and exclusions require written terms.",
+  "criteria": {
+    "title": "Planner venue research framework",
+    "version": 1,
+    "reviewed_utc": "2026-10-11T04:08:13.664016+00:00",
+    "status": "Proposed Bay Leaf research standard; not completed venue answers",
+    "sources": {
+      "APW": {
+        "title": "A Practical Wedding planning workbooks",
+        "url": "https://apracticalwedding.com/planner/",
+        "review_note": "Public resource descriptions reviewed; embedded workbook links not extracted."
+      },
+      "HCTG": {
+        "title": "Here Comes the Guide venue questions and worksheet",
+        "url": "https://www.herecomestheguide.com/wedding-ideas/questions-to-ask-your-wedding-venue",
+        "review_note": "Article and eight-page PDF read; editorial tips are not code requirements."
+      },
+      "Warrenwood": {
+        "title": "Warrenwood Manor venue shopping workbook",
+        "url": "https://warrenwoodmanor.com/wp-content/uploads/2020/03/Wedding-Venue-Shopping-Guide.pdf",
+        "review_note": "15-page PDF read; comparison pages 12–14 visually inspected. Example terms are historical 2021 and Kentucky-specific."
+      },
+      "Molto": {
+        "title": "Molto Bella venue comparison worksheet",
+        "url": "https://www.moltobellaweddings.com/wp-content/uploads/2018/02/MB_Wedding_Planner_Venue_Comparison.pdf",
+        "review_note": "One-page PDF read; comparison structure, not California regulations."
+      },
+      "OneStory": {
+        "title": "One Story Weddings venue checklist",
+        "url": "https://static1.squarespace.com/static/6373bbd7b8f87c3f80597d63/t/692f51c3a7d9fe3ff4687b97/1764708803836/The%2BOne%2BStory%2BWeddings%2BUltimate%2BVenue%2BChecklist.pdf",
+        "review_note": "Two-page Southern California checklist read; percentage heuristics not adopted."
+      },
+      "Foothills": {
+        "title": "Foothills coordination checklist",
+        "url": "https://foothillsconferencecentre.com.au/checklist-for-coordinating-with-wedding-venues/",
+        "review_note": "Article and two-page PDF read; Australian operational process, not California law."
+      },
+      "EventFab": {
+        "title": "Event Fab producer site inspections",
+        "url": "https://eventfab.com/pre-event-site-visits-checklist/",
+        "review_note": "Production checks reviewed; venue-specific engineering still required."
+      },
+      "ADA": {
+        "title": "US DOJ accessibility guidance",
+        "url": "https://www.ada.gov/resources/title-iii-primer/",
+        "review_note": "Official guidance reviewed; actual site accessibility requires assessment."
+      },
+      "ABC": {
+        "title": "California ABC caterer permits",
+        "url": "https://www.abc.ca.gov/licensing/license-forms/caterers-permit/",
+        "review_note": "Official current permit FAQ reviewed; each property and alcohol arrangement must be confirmed."
+      },
+      "Ready": {
+        "title": "Ready.gov business emergency plans",
+        "url": "https://www.ready.gov/business/emergency-plans",
+        "review_note": "Official public preparedness guidance reviewed."
+      },
+      "Savvy": {
+        "title": "A Savvy Event Napa/Bay Area planning team",
+        "url": "https://asavvyevent.com/team/",
+        "review_note": "Practitioner description supports dedicated onsite production responsibilities, not a standardized workbook."
+      },
+      "Local": {
+        "title": "San Francisco entertainment permit guidance",
+        "url": "https://www.sf.gov/get-place-entertainment-permit-your-business",
+        "review_note": "Official search-index text reviewed; direct page verification blocked. No parcel-specific legal conclusion."
+      },
+      "Sonoma": {
+        "title": "Sonoma proposed special-event zoning update",
+        "url": "https://sonoma-county.legistar.com/LegislationDetail.aspx?GUID=3795E6F1-7701-4414-AB81-C8BB81143BC1&ID=7768001",
+        "review_note": "Staff report reviewed. Agenda Ready status and missing final action mean proposed numbers must not be treated as adopted law."
+      },
+      "Zillow": {
+        "title": "Zillow Zestimate FAQ",
+        "url": "https://www.zillow.com/zestimate/",
+        "review_note": "Residential eligibility only; not an appraisal."
+      },
+      "BOE": {
+        "title": "California BOE assessment explanation",
+        "url": "https://www.boe.ca.gov/proptaxes/pdf/lta25023.pdf",
+        "review_note": "Official explanation of tax assessment versus market value."
+      },
+      "LoopNet": {
+        "title": "LoopNet commercial valuation methods",
+        "url": "https://www.loopnet.com/cre-explained/tools/commercial-property-valuation/",
+        "review_note": "Commercial methodology, not a specific venue appraisal."
+      }
+    },
+    "fields": [
+      {
+        "id": "identity-and-booking-wedding-permission",
+        "category": "Identity and booking",
+        "criterion": "Wedding permission",
+        "stage": "Research",
+        "source_ids": [
+          "HCTG",
+          "Molto"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "identity-and-booking-exact-site-and-room",
+        "category": "Identity and booking",
+        "criterion": "Exact site and room",
+        "stage": "Research",
+        "source_ids": [
+          "HCTG",
+          "Molto"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "identity-and-booking-county-and-jurisdiction",
+        "category": "Identity and booking",
+        "criterion": "County and jurisdiction",
+        "stage": "Research",
+        "source_ids": [
+          "HCTG",
+          "Molto"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "identity-and-booking-operator-and-owner",
+        "category": "Identity and booking",
+        "criterion": "Operator and owner",
+        "stage": "Research",
+        "source_ids": [
+          "HCTG",
+          "Molto"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "identity-and-booking-sales-contact",
+        "category": "Identity and booking",
+        "criterion": "Sales contact",
+        "stage": "Research",
+        "source_ids": [
+          "HCTG",
+          "Molto"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "identity-and-booking-date-availability",
+        "category": "Identity and booking",
+        "criterion": "Date availability",
+        "stage": "Research",
+        "source_ids": [
+          "HCTG",
+          "Molto"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "identity-and-booking-booking-horizon",
+        "category": "Identity and booking",
+        "criterion": "Booking horizon",
+        "stage": "Research",
+        "source_ids": [
+          "HCTG",
+          "Molto"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "identity-and-booking-active-or-closed-status",
+        "category": "Identity and booking",
+        "criterion": "Active or closed status",
+        "stage": "Research",
+        "source_ids": [
+          "HCTG",
+          "Molto"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "identity-and-booking-other-simultaneous-events",
+        "category": "Identity and booking",
+        "criterion": "Other simultaneous events",
+        "stage": "Research",
+        "source_ids": [
+          "HCTG",
+          "Molto"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "identity-and-booking-exclusive-areas",
+        "category": "Identity and booking",
+        "criterion": "Exclusive areas",
+        "stage": "Research",
+        "source_ids": [
+          "HCTG",
+          "Molto"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "capacity-and-layout-ceremony-seated-count",
+        "category": "Capacity and layout",
+        "criterion": "Ceremony seated count",
+        "stage": "Inquiry",
+        "source_ids": [
+          "Warrenwood",
+          "Molto"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "capacity-and-layout-dinner-plus-dance-capacity",
+        "category": "Capacity and layout",
+        "criterion": "Dinner plus dance capacity",
+        "stage": "Inquiry",
+        "source_ids": [
+          "Warrenwood",
+          "Molto"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "capacity-and-layout-standing-only-capacity",
+        "category": "Capacity and layout",
+        "criterion": "Standing-only capacity",
+        "stage": "Inquiry",
+        "source_ids": [
+          "Warrenwood",
+          "Molto"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "capacity-and-layout-indoor-and-outdoor-layouts",
+        "category": "Capacity and layout",
+        "criterion": "Indoor and outdoor layouts",
+        "stage": "Inquiry",
+        "source_ids": [
+          "Warrenwood",
+          "Molto"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "capacity-and-layout-comfortable-count-versus-maximum",
+        "category": "Capacity and layout",
+        "criterion": "Comfortable count versus maximum",
+        "stage": "Inquiry",
+        "source_ids": [
+          "Warrenwood",
+          "Molto"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "capacity-and-layout-approved-occupancy-evidence",
+        "category": "Capacity and layout",
+        "criterion": "Approved occupancy evidence",
+        "stage": "Inquiry",
+        "source_ids": [
+          "Warrenwood",
+          "Molto"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "capacity-and-layout-floor-plan-and-dimensions",
+        "category": "Capacity and layout",
+        "criterion": "Floor plan and dimensions",
+        "stage": "Inquiry",
+        "source_ids": [
+          "Warrenwood",
+          "Molto"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "capacity-and-layout-cocktail-hour-space",
+        "category": "Capacity and layout",
+        "criterion": "Cocktail-hour space",
+        "stage": "Inquiry",
+        "source_ids": [
+          "Warrenwood",
+          "Molto"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "capacity-and-layout-room-flip-logistics",
+        "category": "Capacity and layout",
+        "criterion": "Room-flip logistics",
+        "stage": "Inquiry",
+        "source_ids": [
+          "Warrenwood",
+          "Molto"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "capacity-and-layout-emergency-exits",
+        "category": "Capacity and layout",
+        "criterion": "Emergency exits",
+        "stage": "Inquiry",
+        "source_ids": [
+          "Warrenwood",
+          "Molto"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "time-cut-off-guest-event-start-end",
+        "category": "Time cut off",
+        "criterion": "Guest event start/end",
+        "stage": "Inquiry",
+        "source_ids": [
+          "Warrenwood",
+          "OneStory"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "time-cut-off-indoor-music-deadline",
+        "category": "Time cut off",
+        "criterion": "Indoor music deadline",
+        "stage": "Inquiry",
+        "source_ids": [
+          "Warrenwood",
+          "OneStory"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "time-cut-off-outdoor-music-deadline",
+        "category": "Time cut off",
+        "criterion": "Outdoor music deadline",
+        "stage": "Inquiry",
+        "source_ids": [
+          "Warrenwood",
+          "OneStory"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "time-cut-off-bar-service-deadline",
+        "category": "Time cut off",
+        "criterion": "Bar-service deadline",
+        "stage": "Inquiry",
+        "source_ids": [
+          "Warrenwood",
+          "OneStory"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "time-cut-off-guest-departure-deadline",
+        "category": "Time cut off",
+        "criterion": "Guest departure deadline",
+        "stage": "Inquiry",
+        "source_ids": [
+          "Warrenwood",
+          "OneStory"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "time-cut-off-vendor-load-in-window",
+        "category": "Time cut off",
+        "criterion": "Vendor load-in window",
+        "stage": "Inquiry",
+        "source_ids": [
+          "Warrenwood",
+          "OneStory"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "time-cut-off-cleanup-load-out-deadline",
+        "category": "Time cut off",
+        "criterion": "Cleanup/load-out deadline",
+        "stage": "Inquiry",
+        "source_ids": [
+          "Warrenwood",
+          "OneStory"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "time-cut-off-rehearsal-access",
+        "category": "Time cut off",
+        "criterion": "Rehearsal access",
+        "stage": "Inquiry",
+        "source_ids": [
+          "Warrenwood",
+          "OneStory"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "time-cut-off-previous-day-setup",
+        "category": "Time cut off",
+        "criterion": "Previous-day setup",
+        "stage": "Inquiry",
+        "source_ids": [
+          "Warrenwood",
+          "OneStory"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "time-cut-off-overtime-conditions",
+        "category": "Time cut off",
+        "criterion": "Overtime conditions",
+        "stage": "Inquiry",
+        "source_ids": [
+          "Warrenwood",
+          "OneStory"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "included-equipment-table-sizes-and-quantities",
+        "category": "Included equipment",
+        "criterion": "Table sizes and quantities",
+        "stage": "Inquiry",
+        "source_ids": [
+          "APW",
+          "HCTG",
+          "Warrenwood"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "included-equipment-chair-styles-and-quantities",
+        "category": "Included equipment",
+        "criterion": "Chair styles and quantities",
+        "stage": "Inquiry",
+        "source_ids": [
+          "APW",
+          "HCTG",
+          "Warrenwood"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "included-equipment-linens-and-napkins",
+        "category": "Included equipment",
+        "criterion": "Linens and napkins",
+        "stage": "Inquiry",
+        "source_ids": [
+          "APW",
+          "HCTG",
+          "Warrenwood"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "included-equipment-china-flatware-glassware",
+        "category": "Included equipment",
+        "criterion": "China/flatware/glassware",
+        "stage": "Inquiry",
+        "source_ids": [
+          "APW",
+          "HCTG",
+          "Warrenwood"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "included-equipment-dance-floor",
+        "category": "Included equipment",
+        "criterion": "Dance floor",
+        "stage": "Inquiry",
+        "source_ids": [
+          "APW",
+          "HCTG",
+          "Warrenwood"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "included-equipment-stage-and-av",
+        "category": "Included equipment",
+        "criterion": "Stage and AV",
+        "stage": "Inquiry",
+        "source_ids": [
+          "APW",
+          "HCTG",
+          "Warrenwood"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "included-equipment-existing-lighting",
+        "category": "Included equipment",
+        "criterion": "Existing lighting",
+        "stage": "Inquiry",
+        "source_ids": [
+          "APW",
+          "HCTG",
+          "Warrenwood"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "included-equipment-dressing-suites",
+        "category": "Included equipment",
+        "criterion": "Dressing suites",
+        "stage": "Inquiry",
+        "source_ids": [
+          "APW",
+          "HCTG",
+          "Warrenwood"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "included-equipment-heating-and-shade",
+        "category": "Included equipment",
+        "criterion": "Heating and shade",
+        "stage": "Inquiry",
+        "source_ids": [
+          "APW",
+          "HCTG",
+          "Warrenwood"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "included-equipment-item-condition-and-replacement-fees",
+        "category": "Included equipment",
+        "criterion": "Item condition and replacement fees",
+        "stage": "Inquiry",
+        "source_ids": [
+          "APW",
+          "HCTG",
+          "Warrenwood"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "labor-and-responsibilities-furniture-setup-breakdown-owner",
+        "category": "Labor and responsibilities",
+        "criterion": "Furniture setup/breakdown owner",
+        "stage": "Inquiry",
+        "source_ids": [
+          "Savvy",
+          "Foothills",
+          "APW"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "labor-and-responsibilities-decor-setup-removal-owner",
+        "category": "Labor and responsibilities",
+        "criterion": "Decor setup/removal owner",
+        "stage": "Inquiry",
+        "source_ids": [
+          "Savvy",
+          "Foothills",
+          "APW"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "labor-and-responsibilities-room-flip-crew",
+        "category": "Labor and responsibilities",
+        "criterion": "Room-flip crew",
+        "stage": "Inquiry",
+        "source_ids": [
+          "Savvy",
+          "Foothills",
+          "APW"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "labor-and-responsibilities-onsite-venue-manager",
+        "category": "Labor and responsibilities",
+        "criterion": "Onsite venue manager",
+        "stage": "Inquiry",
+        "source_ids": [
+          "Savvy",
+          "Foothills",
+          "APW"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "labor-and-responsibilities-coordinator-duties",
+        "category": "Labor and responsibilities",
+        "criterion": "Coordinator duties",
+        "stage": "Inquiry",
+        "source_ids": [
+          "Savvy",
+          "Foothills",
+          "APW"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "labor-and-responsibilities-required-independent-planner",
+        "category": "Labor and responsibilities",
+        "criterion": "Required independent planner",
+        "stage": "Inquiry",
+        "source_ids": [
+          "Savvy",
+          "Foothills",
+          "APW"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "labor-and-responsibilities-catering-staff-responsibilities",
+        "category": "Labor and responsibilities",
+        "criterion": "Catering staff responsibilities",
+        "stage": "Inquiry",
+        "source_ids": [
+          "Savvy",
+          "Foothills",
+          "APW"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "labor-and-responsibilities-security-requirements",
+        "category": "Labor and responsibilities",
+        "criterion": "Security requirements",
+        "stage": "Inquiry",
+        "source_ids": [
+          "Savvy",
+          "Foothills",
+          "APW"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "labor-and-responsibilities-cleaning-and-waste-owner",
+        "category": "Labor and responsibilities",
+        "criterion": "Cleaning and waste owner",
+        "stage": "Inquiry",
+        "source_ids": [
+          "Savvy",
+          "Foothills",
+          "APW"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "labor-and-responsibilities-after-hours-contact",
+        "category": "Labor and responsibilities",
+        "criterion": "After-hours contact",
+        "stage": "Inquiry",
+        "source_ids": [
+          "Savvy",
+          "Foothills",
+          "APW"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "vendor-freedom-required-versus-suggested-list",
+        "category": "Vendor freedom",
+        "criterion": "Required versus suggested list",
+        "stage": "Inquiry",
+        "source_ids": [
+          "OneStory",
+          "HCTG"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "vendor-freedom-outside-caterer-permission",
+        "category": "Vendor freedom",
+        "criterion": "Outside-caterer permission",
+        "stage": "Inquiry",
+        "source_ids": [
+          "OneStory",
+          "HCTG"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "vendor-freedom-catering-buyout-surcharge",
+        "category": "Vendor freedom",
+        "criterion": "Catering buyout surcharge",
+        "stage": "Inquiry",
+        "source_ids": [
+          "OneStory",
+          "HCTG"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "vendor-freedom-dj-band-restrictions",
+        "category": "Vendor freedom",
+        "criterion": "DJ/band restrictions",
+        "stage": "Inquiry",
+        "source_ids": [
+          "OneStory",
+          "HCTG"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "vendor-freedom-rental-company-restrictions",
+        "category": "Vendor freedom",
+        "criterion": "Rental-company restrictions",
+        "stage": "Inquiry",
+        "source_ids": [
+          "OneStory",
+          "HCTG"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "vendor-freedom-food-truck-permission",
+        "category": "Vendor freedom",
+        "criterion": "Food-truck permission",
+        "stage": "Inquiry",
+        "source_ids": [
+          "OneStory",
+          "HCTG"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "vendor-freedom-vendor-insurance-documents",
+        "category": "Vendor freedom",
+        "criterion": "Vendor insurance documents",
+        "stage": "Inquiry",
+        "source_ids": [
+          "OneStory",
+          "HCTG"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "vendor-freedom-vendor-approval-deadlines",
+        "category": "Vendor freedom",
+        "criterion": "Vendor approval deadlines",
+        "stage": "Inquiry",
+        "source_ids": [
+          "OneStory",
+          "HCTG"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "vendor-freedom-cultural-food-exceptions",
+        "category": "Vendor freedom",
+        "criterion": "Cultural-food exceptions",
+        "stage": "Inquiry",
+        "source_ids": [
+          "OneStory",
+          "HCTG"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "vendor-freedom-vendor-commissions-disclosed",
+        "category": "Vendor freedom",
+        "criterion": "Vendor commissions disclosed",
+        "stage": "Inquiry",
+        "source_ids": [
+          "OneStory",
+          "HCTG"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "food-and-kitchen-meal-package-and-service-style",
+        "category": "Food and kitchen",
+        "criterion": "Meal package and service style",
+        "stage": "Inquiry",
+        "source_ids": [
+          "HCTG",
+          "EventFab"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "food-and-kitchen-food-minimum",
+        "category": "Food and kitchen",
+        "criterion": "Food minimum",
+        "stage": "Inquiry",
+        "source_ids": [
+          "HCTG",
+          "EventFab"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "food-and-kitchen-kids-and-vendor-meals",
+        "category": "Food and kitchen",
+        "criterion": "Kids and vendor meals",
+        "stage": "Inquiry",
+        "source_ids": [
+          "HCTG",
+          "EventFab"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "food-and-kitchen-dietary-allergy-handling",
+        "category": "Food and kitchen",
+        "criterion": "Dietary/allergy handling",
+        "stage": "Inquiry",
+        "source_ids": [
+          "HCTG",
+          "EventFab"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "food-and-kitchen-tasting-terms",
+        "category": "Food and kitchen",
+        "criterion": "Tasting terms",
+        "stage": "Inquiry",
+        "source_ids": [
+          "HCTG",
+          "EventFab"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "food-and-kitchen-preparation-kitchen-equipment",
+        "category": "Food and kitchen",
+        "criterion": "Preparation kitchen equipment",
+        "stage": "Inquiry",
+        "source_ids": [
+          "HCTG",
+          "EventFab"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "food-and-kitchen-cold-storage-and-ice",
+        "category": "Food and kitchen",
+        "criterion": "Cold storage and ice",
+        "stage": "Inquiry",
+        "source_ids": [
+          "HCTG",
+          "EventFab"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "food-and-kitchen-water-and-handwashing",
+        "category": "Food and kitchen",
+        "criterion": "Water and handwashing",
+        "stage": "Inquiry",
+        "source_ids": [
+          "HCTG",
+          "EventFab"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "food-and-kitchen-service-routes",
+        "category": "Food and kitchen",
+        "criterion": "Service routes",
+        "stage": "Inquiry",
+        "source_ids": [
+          "HCTG",
+          "EventFab"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "food-and-kitchen-food-waste-arrangements",
+        "category": "Food and kitchen",
+        "criterion": "Food waste arrangements",
+        "stage": "Inquiry",
+        "source_ids": [
+          "HCTG",
+          "EventFab"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "alcohol-and-bar-byob-terms",
+        "category": "Alcohol and bar",
+        "criterion": "BYOB terms",
+        "stage": "Inquiry",
+        "source_ids": [
+          "ABC",
+          "HCTG"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "alcohol-and-bar-beer-wine-spirits-scope",
+        "category": "Alcohol and bar",
+        "criterion": "Beer/wine/spirits scope",
+        "stage": "Inquiry",
+        "source_ids": [
+          "ABC",
+          "HCTG"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "alcohol-and-bar-licensed-service-provider",
+        "category": "Alcohol and bar",
+        "criterion": "Licensed service provider",
+        "stage": "Inquiry",
+        "source_ids": [
+          "ABC",
+          "HCTG"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "alcohol-and-bar-event-authorization-responsibility",
+        "category": "Alcohol and bar",
+        "criterion": "Event authorization responsibility",
+        "stage": "Inquiry",
+        "source_ids": [
+          "ABC",
+          "HCTG"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "alcohol-and-bar-bartender-requirements",
+        "category": "Alcohol and bar",
+        "criterion": "Bartender requirements",
+        "stage": "Inquiry",
+        "source_ids": [
+          "ABC",
+          "HCTG"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "alcohol-and-bar-open-bar-duration",
+        "category": "Alcohol and bar",
+        "criterion": "Open-bar duration",
+        "stage": "Inquiry",
+        "source_ids": [
+          "ABC",
+          "HCTG"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "alcohol-and-bar-corkage-and-bar-minimum",
+        "category": "Alcohol and bar",
+        "criterion": "Corkage and bar minimum",
+        "stage": "Inquiry",
+        "source_ids": [
+          "ABC",
+          "HCTG"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "alcohol-and-bar-liquor-liability-coverage",
+        "category": "Alcohol and bar",
+        "criterion": "Liquor-liability coverage",
+        "stage": "Inquiry",
+        "source_ids": [
+          "ABC",
+          "HCTG"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "alcohol-and-bar-last-call-procedure",
+        "category": "Alcohol and bar",
+        "criterion": "Last-call procedure",
+        "stage": "Inquiry",
+        "source_ids": [
+          "ABC",
+          "HCTG"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "alcohol-and-bar-alcohol-storage-rules",
+        "category": "Alcohol and bar",
+        "criterion": "Alcohol-storage rules",
+        "stage": "Inquiry",
+        "source_ids": [
+          "ABC",
+          "HCTG"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "price-and-per-head-comparison-venue-fee-low-high",
+        "category": "Price and per-head comparison",
+        "criterion": "Venue fee low/high",
+        "stage": "Inquiry",
+        "source_ids": [
+          "OneStory",
+          "HCTG",
+          "APW"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "price-and-per-head-comparison-food-per-head-low-high",
+        "category": "Price and per-head comparison",
+        "criterion": "Food per-head low/high",
+        "stage": "Inquiry",
+        "source_ids": [
+          "OneStory",
+          "HCTG",
+          "APW"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "price-and-per-head-comparison-bar-per-head-low-high",
+        "category": "Price and per-head comparison",
+        "criterion": "Bar per-head low/high",
+        "stage": "Inquiry",
+        "source_ids": [
+          "OneStory",
+          "HCTG",
+          "APW"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "price-and-per-head-comparison-mandatory-spend-floor",
+        "category": "Price and per-head comparison",
+        "criterion": "Mandatory spend floor",
+        "stage": "Inquiry",
+        "source_ids": [
+          "OneStory",
+          "HCTG",
+          "APW"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "price-and-per-head-comparison-ceremony-additional-space-fees",
+        "category": "Price and per-head comparison",
+        "criterion": "Ceremony/additional-space fees",
+        "stage": "Inquiry",
+        "source_ids": [
+          "OneStory",
+          "HCTG",
+          "APW"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "price-and-per-head-comparison-required-staffing-rental-costs",
+        "category": "Price and per-head comparison",
+        "criterion": "Required staffing/rental costs",
+        "stage": "Inquiry",
+        "source_ids": [
+          "OneStory",
+          "HCTG",
+          "APW"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "price-and-per-head-comparison-service-admin-charge-base",
+        "category": "Price and per-head comparison",
+        "criterion": "Service/admin-charge base",
+        "stage": "Inquiry",
+        "source_ids": [
+          "OneStory",
+          "HCTG",
+          "APW"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "price-and-per-head-comparison-tax-and-charge-treatment",
+        "category": "Price and per-head comparison",
+        "criterion": "Tax and charge treatment",
+        "stage": "Inquiry",
+        "source_ids": [
+          "OneStory",
+          "HCTG",
+          "APW"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "price-and-per-head-comparison-overtime-and-cleaning-fees",
+        "category": "Price and per-head comparison",
+        "criterion": "Overtime and cleaning fees",
+        "stage": "Inquiry",
+        "source_ids": [
+          "OneStory",
+          "HCTG",
+          "APW"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "price-and-per-head-comparison-quote-date-and-expiry",
+        "category": "Price and per-head comparison",
+        "criterion": "Quote date and expiry",
+        "stage": "Inquiry",
+        "source_ids": [
+          "OneStory",
+          "HCTG",
+          "APW"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "price-and-per-head-comparison-date-season-assumptions",
+        "category": "Price and per-head comparison",
+        "criterion": "Date/season assumptions",
+        "stage": "Inquiry",
+        "source_ids": [
+          "OneStory",
+          "HCTG",
+          "APW"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "price-and-per-head-comparison-guest-count-assumptions",
+        "category": "Price and per-head comparison",
+        "criterion": "Guest-count assumptions",
+        "stage": "Inquiry",
+        "source_ids": [
+          "OneStory",
+          "HCTG",
+          "APW"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "price-and-per-head-comparison-mandatory-total-low-high",
+        "category": "Price and per-head comparison",
+        "criterion": "Mandatory total low/high",
+        "stage": "Inquiry",
+        "source_ids": [
+          "OneStory",
+          "HCTG",
+          "APW"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "price-and-per-head-comparison-refundable-security-deposit-separate",
+        "category": "Price and per-head comparison",
+        "criterion": "Refundable security deposit separate",
+        "stage": "Inquiry",
+        "source_ids": [
+          "OneStory",
+          "HCTG",
+          "APW"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "weather-and-continuity-reserved-backup-location",
+        "category": "Weather and continuity",
+        "criterion": "Reserved backup location",
+        "stage": "Visit",
+        "source_ids": [
+          "OneStory",
+          "Ready",
+          "Foothills"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "weather-and-continuity-backup-dinner-dance-capacity",
+        "category": "Weather and continuity",
+        "criterion": "Backup dinner/dance capacity",
+        "stage": "Visit",
+        "source_ids": [
+          "OneStory",
+          "Ready",
+          "Foothills"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "weather-and-continuity-tent-permit-responsibility",
+        "category": "Weather and continuity",
+        "criterion": "Tent permit responsibility",
+        "stage": "Visit",
+        "source_ids": [
+          "OneStory",
+          "Ready",
+          "Foothills"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "weather-and-continuity-tent-flooring-heater-charges",
+        "category": "Weather and continuity",
+        "criterion": "Tent/flooring/heater charges",
+        "stage": "Visit",
+        "source_ids": [
+          "OneStory",
+          "Ready",
+          "Foothills"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "weather-and-continuity-weather-decision-owner-and-deadline",
+        "category": "Weather and continuity",
+        "criterion": "Weather-decision owner and deadline",
+        "stage": "Visit",
+        "source_ids": [
+          "OneStory",
+          "Ready",
+          "Foothills"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "weather-and-continuity-heat-cold-comfort",
+        "category": "Weather and continuity",
+        "criterion": "Heat/cold comfort",
+        "stage": "Visit",
+        "source_ids": [
+          "OneStory",
+          "Ready",
+          "Foothills"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "weather-and-continuity-wind-limits",
+        "category": "Weather and continuity",
+        "criterion": "Wind limits",
+        "stage": "Visit",
+        "source_ids": [
+          "OneStory",
+          "Ready",
+          "Foothills"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "weather-and-continuity-smoke-fire-response",
+        "category": "Weather and continuity",
+        "criterion": "Smoke/fire response",
+        "stage": "Visit",
+        "source_ids": [
+          "OneStory",
+          "Ready",
+          "Foothills"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "weather-and-continuity-power-loss-backup",
+        "category": "Weather and continuity",
+        "criterion": "Power-loss backup",
+        "stage": "Visit",
+        "source_ids": [
+          "OneStory",
+          "Ready",
+          "Foothills"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "weather-and-continuity-closure-refund-contingency",
+        "category": "Weather and continuity",
+        "criterion": "Closure/refund contingency",
+        "stage": "Visit",
+        "source_ids": [
+          "OneStory",
+          "Ready",
+          "Foothills"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "arrival-and-travel-hotel-travel-time-and-date-basis",
+        "category": "Arrival and travel",
+        "criterion": "Hotel travel time and date basis",
+        "stage": "Research",
+        "source_ids": [
+          "Molto",
+          "Foothills"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "arrival-and-travel-airport-travel-time-and-basis",
+        "category": "Arrival and travel",
+        "criterion": "Airport travel time and basis",
+        "stage": "Research",
+        "source_ids": [
+          "Molto",
+          "Foothills"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "arrival-and-travel-major-city-access",
+        "category": "Arrival and travel",
+        "criterion": "Major-city access",
+        "stage": "Research",
+        "source_ids": [
+          "Molto",
+          "Foothills"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "arrival-and-travel-parking-count-and-costs",
+        "category": "Arrival and travel",
+        "criterion": "Parking count and costs",
+        "stage": "Research",
+        "source_ids": [
+          "Molto",
+          "Foothills"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "arrival-and-travel-valet-shuttle-mandates",
+        "category": "Arrival and travel",
+        "criterion": "Valet/shuttle mandates",
+        "stage": "Research",
+        "source_ids": [
+          "Molto",
+          "Foothills"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "arrival-and-travel-coach-turnaround",
+        "category": "Arrival and travel",
+        "criterion": "Coach turnaround",
+        "stage": "Research",
+        "source_ids": [
+          "Molto",
+          "Foothills"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "arrival-and-travel-rideshare-pickup-at-closing",
+        "category": "Arrival and travel",
+        "criterion": "Rideshare pickup at closing",
+        "stage": "Research",
+        "source_ids": [
+          "Molto",
+          "Foothills"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "arrival-and-travel-lodging-room-counts",
+        "category": "Arrival and travel",
+        "criterion": "Lodging room counts",
+        "stage": "Research",
+        "source_ids": [
+          "Molto",
+          "Foothills"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "arrival-and-travel-room-block-terms",
+        "category": "Arrival and travel",
+        "criterion": "Room-block terms",
+        "stage": "Research",
+        "source_ids": [
+          "Molto",
+          "Foothills"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "arrival-and-travel-accessible-drop-off",
+        "category": "Arrival and travel",
+        "criterion": "Accessible drop-off",
+        "stage": "Research",
+        "source_ids": [
+          "Molto",
+          "Foothills"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "access-and-guest-comfort-continuous-accessible-guest-route",
+        "category": "Access and guest comfort",
+        "criterion": "Continuous accessible guest route",
+        "stage": "Visit",
+        "source_ids": [
+          "ADA",
+          "Molto"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "access-and-guest-comfort-accessible-restroom-access",
+        "category": "Access and guest comfort",
+        "criterion": "Accessible restroom access",
+        "stage": "Visit",
+        "source_ids": [
+          "ADA",
+          "Molto"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "access-and-guest-comfort-accessible-seating-layout",
+        "category": "Access and guest comfort",
+        "criterion": "Accessible seating layout",
+        "stage": "Visit",
+        "source_ids": [
+          "ADA",
+          "Molto"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "access-and-guest-comfort-terrain-stairs-elevators",
+        "category": "Access and guest comfort",
+        "criterion": "Terrain/stairs/elevators",
+        "stage": "Visit",
+        "source_ids": [
+          "ADA",
+          "Molto"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "access-and-guest-comfort-restroom-count-and-condition",
+        "category": "Access and guest comfort",
+        "criterion": "Restroom count and condition",
+        "stage": "Visit",
+        "source_ids": [
+          "ADA",
+          "Molto"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "access-and-guest-comfort-restroom-service-during-event",
+        "category": "Access and guest comfort",
+        "criterion": "Restroom service during event",
+        "stage": "Visit",
+        "source_ids": [
+          "ADA",
+          "Molto"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "access-and-guest-comfort-quiet-private-room",
+        "category": "Access and guest comfort",
+        "criterion": "Quiet/private room",
+        "stage": "Visit",
+        "source_ids": [
+          "ADA",
+          "Molto"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "access-and-guest-comfort-nursing-family-space",
+        "category": "Access and guest comfort",
+        "criterion": "Nursing/family space",
+        "stage": "Visit",
+        "source_ids": [
+          "ADA",
+          "Molto"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "access-and-guest-comfort-wayfinding-and-night-lighting",
+        "category": "Access and guest comfort",
+        "criterion": "Wayfinding and night lighting",
+        "stage": "Visit",
+        "source_ids": [
+          "ADA",
+          "Molto"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "access-and-guest-comfort-coat-bag-gift-storage",
+        "category": "Access and guest comfort",
+        "criterion": "Coat/bag/gift storage",
+        "stage": "Visit",
+        "source_ids": [
+          "ADA",
+          "Molto"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "production-and-delivery-loading-path-measurements",
+        "category": "Production and delivery",
+        "criterion": "Loading path measurements",
+        "stage": "Visit",
+        "source_ids": [
+          "EventFab"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "production-and-delivery-delivery-vehicle-access",
+        "category": "Production and delivery",
+        "criterion": "Delivery vehicle access",
+        "stage": "Visit",
+        "source_ids": [
+          "EventFab"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "production-and-delivery-dock-elevator-limits",
+        "category": "Production and delivery",
+        "criterion": "Dock/elevator limits",
+        "stage": "Visit",
+        "source_ids": [
+          "EventFab"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "production-and-delivery-storage-staging-area",
+        "category": "Production and delivery",
+        "criterion": "Storage/staging area",
+        "stage": "Visit",
+        "source_ids": [
+          "EventFab"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "production-and-delivery-available-electrical-circuits",
+        "category": "Production and delivery",
+        "criterion": "Available electrical circuits",
+        "stage": "Visit",
+        "source_ids": [
+          "EventFab"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "production-and-delivery-generator-placement-permission",
+        "category": "Production and delivery",
+        "criterion": "Generator placement permission",
+        "stage": "Visit",
+        "source_ids": [
+          "EventFab"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "production-and-delivery-internet-mobile-signal",
+        "category": "Production and delivery",
+        "criterion": "Internet/mobile signal",
+        "stage": "Visit",
+        "source_ids": [
+          "EventFab"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "production-and-delivery-rigging-approvals",
+        "category": "Production and delivery",
+        "criterion": "Rigging approvals",
+        "stage": "Visit",
+        "source_ids": [
+          "EventFab"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "production-and-delivery-sound-system-limits",
+        "category": "Production and delivery",
+        "criterion": "Sound-system limits",
+        "stage": "Visit",
+        "source_ids": [
+          "EventFab"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "production-and-delivery-sunset-lighting-sightlines",
+        "category": "Production and delivery",
+        "criterion": "Sunset lighting/sightlines",
+        "stage": "Visit",
+        "source_ids": [
+          "EventFab"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "design-and-cultural-fit-decor-attachment-rules",
+        "category": "Design and cultural fit",
+        "criterion": "Decor attachment rules",
+        "stage": "Inquiry",
+        "source_ids": [
+          "HCTG",
+          "OneStory",
+          "APW"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "design-and-cultural-fit-furniture-moving-permission",
+        "category": "Design and cultural fit",
+        "criterion": "Furniture moving permission",
+        "stage": "Inquiry",
+        "source_ids": [
+          "HCTG",
+          "OneStory",
+          "APW"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "design-and-cultural-fit-candles-flames-restrictions",
+        "category": "Design and cultural fit",
+        "criterion": "Candles/flames restrictions",
+        "stage": "Inquiry",
+        "source_ids": [
+          "HCTG",
+          "OneStory",
+          "APW"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "design-and-cultural-fit-confetti-sparkler-restrictions",
+        "category": "Design and cultural fit",
+        "criterion": "Confetti/sparkler restrictions",
+        "stage": "Inquiry",
+        "source_ids": [
+          "HCTG",
+          "OneStory",
+          "APW"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "design-and-cultural-fit-floral-decor-disposal",
+        "category": "Design and cultural fit",
+        "criterion": "Floral/decor disposal",
+        "stage": "Inquiry",
+        "source_ids": [
+          "HCTG",
+          "OneStory",
+          "APW"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "design-and-cultural-fit-cultural-ceremony-accommodation",
+        "category": "Design and cultural fit",
+        "criterion": "Cultural ceremony accommodation",
+        "stage": "Inquiry",
+        "source_ids": [
+          "HCTG",
+          "OneStory",
+          "APW"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "design-and-cultural-fit-baraat-procession-approval",
+        "category": "Design and cultural fit",
+        "criterion": "Baraat/procession approval",
+        "stage": "Inquiry",
+        "source_ids": [
+          "HCTG",
+          "OneStory",
+          "APW"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "design-and-cultural-fit-multi-event-celebration-access",
+        "category": "Design and cultural fit",
+        "criterion": "Multi-event celebration access",
+        "stage": "Inquiry",
+        "source_ids": [
+          "HCTG",
+          "OneStory",
+          "APW"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "design-and-cultural-fit-privacy-photo-location-access",
+        "category": "Design and cultural fit",
+        "criterion": "Privacy/photo-location access",
+        "stage": "Inquiry",
+        "source_ids": [
+          "HCTG",
+          "OneStory",
+          "APW"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "design-and-cultural-fit-actual-event-photos-and-style-fit",
+        "category": "Design and cultural fit",
+        "criterion": "Actual-event photos and style fit",
+        "stage": "Inquiry",
+        "source_ids": [
+          "HCTG",
+          "OneStory",
+          "APW"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "contract-and-deadlines-deposit-payment-milestones",
+        "category": "Contract and deadlines",
+        "criterion": "Deposit/payment milestones",
+        "stage": "Contract",
+        "source_ids": [
+          "OneStory",
+          "Foothills"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "contract-and-deadlines-cancellation-refund-schedule",
+        "category": "Contract and deadlines",
+        "criterion": "Cancellation refund schedule",
+        "stage": "Contract",
+        "source_ids": [
+          "OneStory",
+          "Foothills"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "contract-and-deadlines-date-change-terms",
+        "category": "Contract and deadlines",
+        "criterion": "Date-change terms",
+        "stage": "Contract",
+        "source_ids": [
+          "OneStory",
+          "Foothills"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "contract-and-deadlines-force-majeure-wording",
+        "category": "Contract and deadlines",
+        "criterion": "Force-majeure wording",
+        "stage": "Contract",
+        "source_ids": [
+          "OneStory",
+          "Foothills"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "contract-and-deadlines-venue-cancellation-remedies",
+        "category": "Contract and deadlines",
+        "criterion": "Venue cancellation remedies",
+        "stage": "Contract",
+        "source_ids": [
+          "OneStory",
+          "Foothills"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "contract-and-deadlines-substitution-relocation-clause",
+        "category": "Contract and deadlines",
+        "criterion": "Substitution/relocation clause",
+        "stage": "Contract",
+        "source_ids": [
+          "OneStory",
+          "Foothills"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "contract-and-deadlines-price-change-clauses",
+        "category": "Contract and deadlines",
+        "criterion": "Price-change clauses",
+        "stage": "Contract",
+        "source_ids": [
+          "OneStory",
+          "Foothills"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "contract-and-deadlines-damage-liability",
+        "category": "Contract and deadlines",
+        "criterion": "Damage liability",
+        "stage": "Contract",
+        "source_ids": [
+          "OneStory",
+          "Foothills"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "contract-and-deadlines-insurance-limits-documents",
+        "category": "Contract and deadlines",
+        "criterion": "Insurance limits/documents",
+        "stage": "Contract",
+        "source_ids": [
+          "OneStory",
+          "Foothills"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "contract-and-deadlines-final-headcount-deadline",
+        "category": "Contract and deadlines",
+        "criterion": "Final headcount deadline",
+        "stage": "Contract",
+        "source_ids": [
+          "OneStory",
+          "Foothills"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "contract-and-deadlines-vendor-document-deadlines",
+        "category": "Contract and deadlines",
+        "criterion": "Vendor-document deadlines",
+        "stage": "Contract",
+        "source_ids": [
+          "OneStory",
+          "Foothills"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "contract-and-deadlines-permit-responsibility",
+        "category": "Contract and deadlines",
+        "criterion": "Permit responsibility",
+        "stage": "Contract",
+        "source_ids": [
+          "OneStory",
+          "Foothills"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "quality-and-handover-recent-event-references",
+        "category": "Quality and handover",
+        "criterion": "Recent event references",
+        "stage": "Visit",
+        "source_ids": [
+          "Warrenwood",
+          "Foothills",
+          "Savvy"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "quality-and-handover-communication-response-history",
+        "category": "Quality and handover",
+        "criterion": "Communication response history",
+        "stage": "Visit",
+        "source_ids": [
+          "Warrenwood",
+          "Foothills",
+          "Savvy"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "quality-and-handover-named-day-of-contact",
+        "category": "Quality and handover",
+        "criterion": "Named day-of contact",
+        "stage": "Visit",
+        "source_ids": [
+          "Warrenwood",
+          "Foothills",
+          "Savvy"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "quality-and-handover-final-joint-walkthrough",
+        "category": "Quality and handover",
+        "criterion": "Final joint walkthrough",
+        "stage": "Visit",
+        "source_ids": [
+          "Warrenwood",
+          "Foothills",
+          "Savvy"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "quality-and-handover-approved-timeline-floor-plan",
+        "category": "Quality and handover",
+        "criterion": "Approved timeline/floor plan",
+        "stage": "Visit",
+        "source_ids": [
+          "Warrenwood",
+          "Foothills",
+          "Savvy"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "quality-and-handover-vendor-contact-sheet",
+        "category": "Quality and handover",
+        "criterion": "Vendor contact sheet",
+        "stage": "Visit",
+        "source_ids": [
+          "Warrenwood",
+          "Foothills",
+          "Savvy"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "quality-and-handover-construction-ownership-changes",
+        "category": "Quality and handover",
+        "criterion": "Construction/ownership changes",
+        "stage": "Visit",
+        "source_ids": [
+          "Warrenwood",
+          "Foothills",
+          "Savvy"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "quality-and-handover-complaints-and-resolution-evidence",
+        "category": "Quality and handover",
+        "criterion": "Complaints and resolution evidence",
+        "stage": "Visit",
+        "source_ids": [
+          "Warrenwood",
+          "Foothills",
+          "Savvy"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "business-suitability-recurring-commercial-use-approval",
+        "category": "Business suitability",
+        "criterion": "Recurring commercial-use approval",
+        "stage": "Business",
+        "source_ids": [
+          "ABC",
+          "Local",
+          "Sonoma",
+          "Ready"
+        ],
+        "scope": "Business feasibility",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "business-suitability-event-frequency-restrictions",
+        "category": "Business suitability",
+        "criterion": "Event-frequency restrictions",
+        "stage": "Business",
+        "source_ids": [
+          "ABC",
+          "Local",
+          "Sonoma",
+          "Ready"
+        ],
+        "scope": "Business feasibility",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "business-suitability-lawful-music-hours-conditions",
+        "category": "Business suitability",
+        "criterion": "Lawful music hours/conditions",
+        "stage": "Business",
+        "source_ids": [
+          "ABC",
+          "Local",
+          "Sonoma",
+          "Ready"
+        ],
+        "scope": "Business feasibility",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "business-suitability-lease-sublease-event-rights",
+        "category": "Business suitability",
+        "criterion": "Lease/sublease event rights",
+        "stage": "Business",
+        "source_ids": [
+          "ABC",
+          "Local",
+          "Sonoma",
+          "Ready"
+        ],
+        "scope": "Business feasibility",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "business-suitability-permit-license-transfer-conditions",
+        "category": "Business suitability",
+        "criterion": "Permit/license transfer conditions",
+        "stage": "Business",
+        "source_ids": [
+          "ABC",
+          "Local",
+          "Sonoma",
+          "Ready"
+        ],
+        "scope": "Business feasibility",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "business-suitability-septic-water-electrical-capacity",
+        "category": "Business suitability",
+        "criterion": "Septic/water/electrical capacity",
+        "stage": "Business",
+        "source_ids": [
+          "ABC",
+          "Local",
+          "Sonoma",
+          "Ready"
+        ],
+        "scope": "Business feasibility",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "business-suitability-fire-access-and-occupancy-upgrade-costs",
+        "category": "Business suitability",
+        "criterion": "Fire-access and occupancy upgrade costs",
+        "stage": "Business",
+        "source_ids": [
+          "ABC",
+          "Local",
+          "Sonoma",
+          "Ready"
+        ],
+        "scope": "Business feasibility",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "business-suitability-staffing-hours-per-event",
+        "category": "Business suitability",
+        "criterion": "Staffing hours per event",
+        "stage": "Business",
+        "source_ids": [
+          "ABC",
+          "Local",
+          "Sonoma",
+          "Ready"
+        ],
+        "scope": "Business feasibility",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "business-suitability-maintenance-storage-security-costs",
+        "category": "Business suitability",
+        "criterion": "Maintenance/storage/security costs",
+        "stage": "Business",
+        "source_ids": [
+          "ABC",
+          "Local",
+          "Sonoma",
+          "Ready"
+        ],
+        "scope": "Business feasibility",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "business-suitability-capital-cost-and-lead-time-scenarios",
+        "category": "Business suitability",
+        "criterion": "Capital cost and lead-time scenarios",
+        "stage": "Business",
+        "source_ids": [
+          "ABC",
+          "Local",
+          "Sonoma",
+          "Ready"
+        ],
+        "scope": "Business feasibility",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "business-suitability-contribution-per-event",
+        "category": "Business suitability",
+        "criterion": "Contribution per event",
+        "stage": "Business",
+        "source_ids": [
+          "ABC",
+          "Local",
+          "Sonoma",
+          "Ready"
+        ],
+        "scope": "Business feasibility",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "business-suitability-break-even-events-and-working-capital",
+        "category": "Business suitability",
+        "criterion": "Break-even events and working capital",
+        "stage": "Business",
+        "source_ids": [
+          "ABC",
+          "Local",
+          "Sonoma",
+          "Ready"
+        ],
+        "scope": "Business feasibility",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "business-suitability-acquisition-financial-verification",
+        "category": "Business suitability",
+        "criterion": "Acquisition financial verification",
+        "stage": "Business",
+        "source_ids": [
+          "ABC",
+          "Local",
+          "Sonoma",
+          "Ready"
+        ],
+        "scope": "Business feasibility",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "business-suitability-government-rental-versus-concession-rights",
+        "category": "Business suitability",
+        "criterion": "Government rental versus concession rights",
+        "stage": "Business",
+        "source_ids": [
+          "ABC",
+          "Local",
+          "Sonoma",
+          "Ready"
+        ],
+        "scope": "Business feasibility",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "history-building-construction-year",
+        "category": "Identity and booking",
+        "criterion": "Building construction year",
+        "stage": "Research",
+        "source_ids": [
+          "Warrenwood"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "history-wedding-operation-opening-year",
+        "category": "Identity and booking",
+        "criterion": "Wedding-operation opening year",
+        "stage": "Research",
+        "source_ids": [
+          "Warrenwood"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "history-current-operator-start-date",
+        "category": "Identity and booking",
+        "criterion": "Current operator start date",
+        "stage": "Research",
+        "source_ids": [
+          "Warrenwood"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "history-wedding-operation-duration-and-date-basis",
+        "category": "Identity and booking",
+        "criterion": "Wedding-operation duration and date basis",
+        "stage": "Research",
+        "source_ids": [
+          "Warrenwood"
+        ],
+        "scope": "Wedding venue",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "valuation-exact-parcels-apns-and-asset-scope",
+        "category": "Value assessment",
+        "criterion": "Exact parcels/APNs and asset scope",
+        "stage": "Business",
+        "source_ids": [
+          "Zillow",
+          "BOE",
+          "LoopNet"
+        ],
+        "scope": "Business feasibility",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "valuation-owner-versus-operating-tenant",
+        "category": "Value assessment",
+        "criterion": "Owner versus operating tenant",
+        "stage": "Business",
+        "source_ids": [
+          "Zillow",
+          "BOE",
+          "LoopNet"
+        ],
+        "scope": "Business feasibility",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "valuation-last-sale-price-and-date",
+        "category": "Value assessment",
+        "criterion": "Last sale price and date",
+        "stage": "Business",
+        "source_ids": [
+          "Zillow",
+          "BOE",
+          "LoopNet"
+        ],
+        "scope": "Business feasibility",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "valuation-current-asking-price-and-inclusions",
+        "category": "Value assessment",
+        "criterion": "Current asking price and inclusions",
+        "stage": "Business",
+        "source_ids": [
+          "Zillow",
+          "BOE",
+          "LoopNet"
+        ],
+        "scope": "Business feasibility",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "valuation-assessed-values-and-tax-year",
+        "category": "Value assessment",
+        "criterion": "Assessed values and tax year",
+        "stage": "Business",
+        "source_ids": [
+          "Zillow",
+          "BOE",
+          "LoopNet"
+        ],
+        "scope": "Business feasibility",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "valuation-comparable-closed-sales",
+        "category": "Value assessment",
+        "criterion": "Comparable closed sales",
+        "stage": "Business",
+        "source_ids": [
+          "Zillow",
+          "BOE",
+          "LoopNet"
+        ],
+        "scope": "Business feasibility",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "valuation-real-estate-value-range",
+        "category": "Value assessment",
+        "criterion": "Real-estate value range",
+        "stage": "Business",
+        "source_ids": [
+          "Zillow",
+          "BOE",
+          "LoopNet"
+        ],
+        "scope": "Business feasibility",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "valuation-operating-business-value-range",
+        "category": "Value assessment",
+        "criterion": "Operating-business value range",
+        "stage": "Business",
+        "source_ids": [
+          "Zillow",
+          "BOE",
+          "LoopNet"
+        ],
+        "scope": "Business feasibility",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "valuation-lease-concession-terms",
+        "category": "Value assessment",
+        "criterion": "Lease/concession terms",
+        "stage": "Business",
+        "source_ids": [
+          "Zillow",
+          "BOE",
+          "LoopNet"
+        ],
+        "scope": "Business feasibility",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "valuation-valuation-method-and-assumptions",
+        "category": "Value assessment",
+        "criterion": "Valuation method and assumptions",
+        "stage": "Business",
+        "source_ids": [
+          "Zillow",
+          "BOE",
+          "LoopNet"
+        ],
+        "scope": "Business feasibility",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "valuation-valuation-date-and-confidence",
+        "category": "Value assessment",
+        "criterion": "Valuation date and confidence",
+        "stage": "Business",
+        "source_ids": [
+          "Zillow",
+          "BOE",
+          "LoopNet"
+        ],
+        "scope": "Business feasibility",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      },
+      {
+        "id": "valuation-unverified-evidence-and-due-diligence-gaps",
+        "category": "Value assessment",
+        "criterion": "Unverified evidence and due-diligence gaps",
+        "stage": "Business",
+        "source_ids": [
+          "Zillow",
+          "BOE",
+          "LoopNet"
+        ],
+        "scope": "Business feasibility",
+        "status": "Unknown — inquire",
+        "answer": null,
+        "evidence_url": null,
+        "checked_utc": null,
+        "applies_to": null
+      }
+    ],
+    "history_method": "Construction, conversion, wedding opening, current ownership and interruptions are separate. Calculate duration only from a sourced opening date, state the as-of date, and use approximate years when only a year is known."
+  },
+  "founder_experiences": [
+    {
+      "author": "Karri Jablonski",
+      "venue": "Riverbend Estate",
+      "title": "How I Became a Wedding Venue Owner in Michigan",
+      "url": "https://riverbendestatevenue.com/how-i-became-a-wedding-venue-owner-in-michigan/",
+      "published": "2024-12-14",
+      "date_status": "Displayed original post date",
+      "geography": "Michigan, US",
+      "type": "Firsthand owner blog",
+      "summary": "Property search changed after a new-build plan failed. Describes owner education, peer venue visits and ongoing maintenance/logistics.",
+      "commercial_context": "Venue promotional blog; finances not independently verified",
+      "checked_utc": "2026-10-11T04:10:37.248115+00:00",
+      "updated_date": null,
+      "review_status": "Written source reviewed",
+      "startup_cost": null,
+      "profit": null
+    },
+    {
+      "author": "Croix-View Farm owner (personal byline unknown)",
+      "venue": "Croix-View Farm",
+      "title": "How I stumbled into the Wedding World: A Venue Owner’s Honest Journey from Passion to Success",
+      "url": "https://www.croixviewfarm.com/post/how-i-stumbled-into-the-wedding-world-a-venue-owner-s-honest-journey-from-passion-to-success",
+      "published": "2024-10-31",
+      "date_status": "Displayed original post date",
+      "geography": "Wisconsin, US",
+      "type": "Firsthand owner blog",
+      "summary": "Describes buying the property in 2012, renovating a barn, building a website and selling the early vision. Reports 14 couples in the first year; self-reported, not audited.",
+      "commercial_context": "Venue promotional blog",
+      "checked_utc": "2026-10-11T04:10:37.248115+00:00",
+      "updated_date": null,
+      "review_status": "Written source reviewed",
+      "startup_cost": null,
+      "profit": null
+    },
+    {
+      "author": "Andrea Vallencourt; Monique Jeffrey (interviewed by Amanda Knaebel)",
+      "venue": "Clay Theatre; Willowdale Estate / Briar Barn Inn",
+      "title": "How to start a wedding venue: Tips from two wedding industry experts",
+      "url": "https://planningpod.com/blog/how-to-start-a-wedding-venue-tips-from-two-wedding-industry-experts",
+      "published": "2022-09-12",
+      "date_status": "Displayed original post date",
+      "geography": "Florida / Massachusetts, US",
+      "type": "Operator interview",
+      "summary": "Owner and hospitality-operations perspectives on converting a theatre, launching tours while work was underway and organizing venue operations.",
+      "commercial_context": "Software-provider customer interview; product promotion",
+      "checked_utc": "2026-10-11T04:10:37.248115+00:00",
+      "updated_date": null,
+      "review_status": "Written source reviewed",
+      "startup_cost": null,
+      "profit": null
+    },
+    {
+      "author": "Crooked Willow owners; Derek named, other author unknown",
+      "venue": "Crooked Willow",
+      "title": "So you want to own a wedding venue? Here’s what you need to know…",
+      "url": "https://www.crookedwillowmn.com/blog/so-you-want-to-own-a-wedding-venue-heres-what-you-need-to-know",
+      "published": null,
+      "date_status": "Unknown — original date not visible in reviewed page",
+      "geography": "Minnesota, US",
+      "type": "Firsthand owner blog",
+      "summary": "Owners describe leaving corporate jobs, heavy ongoing labor, frequent weather-plan changes and a slow path to profit. Relative years in the story cannot establish an opening date without its publication date.",
+      "commercial_context": "Venue promotional blog",
+      "checked_utc": "2026-10-11T04:10:37.248115+00:00",
+      "updated_date": null,
+      "review_status": "Written source reviewed",
+      "startup_cost": null,
+      "profit": null
+    },
+    {
+      "author": "Stephanie (surname unknown)",
+      "venue": "The Space on West Main",
+      "title": "My journey as a venue owner / About",
+      "url": "https://spaceonwestmain.com/about",
+      "published": null,
+      "date_status": "Unknown — undated About page",
+      "geography": "US; location confirmation pending",
+      "type": "Owner origin story",
+      "summary": "Photographer describes creating an intimate event space and customization flexibility. Short origin story rather than a financial case study.",
+      "commercial_context": "Venue promotional About page",
+      "checked_utc": "2026-10-11T04:10:37.248115+00:00",
+      "updated_date": null,
+      "review_status": "Written source reviewed",
+      "startup_cost": null,
+      "profit": null
+    }
+  ]
 }
