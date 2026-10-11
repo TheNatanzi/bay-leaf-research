@@ -3199,5 +3199,82 @@
       "Hansalreadylistedtworecords Sonoma, not Napa despite Calistogamailing/marketing. No duplicateadded. Actual 5 page 2020–21 textdated PDFlegacyterms notcurrent; operatorover 25 yearsweddingsclaimnotinferredstart.",
       "County 2015 enforcementreportand 2009 staffreporthistoricalrestrictions;current August 25,2026 agenda 26-1526 definesweddingsasnottemporaryevents/marketingdistinct, butshows Agenda Ready/nofinalaction. Proposed 90 dayprocessing/2027 manualnotclaimedadopted. Currentissuedsitepermits/amendments/adoption Unknown. BCellarsexplicitcannotrentfacilities/wineeducationeventsrestricted, excluded as weddingvenue; tasting/privateeventnotautomaticweddingpermission."
     ]
+  },
+  {
+    "pass": 47,
+    "question": "What resort wedding rooms and historical property transactions have we missed, and which capacities or asset prices could be mistaken for approved wedding counts or current values?",
+    "scope": "Montage Healdsburg and Four Seasons Napa;31 rooms/configurations and historical whole-resort acquisition checks",
+    "completed_utc": "2026-10-11T12:01:53.224331+00:00",
+    "source_urls": [
+      "https://www.montage.com/healdsburg/gatherings/weddings/",
+      "https://www.montage.com/healdsburg/gatherings/event-venues/",
+      "https://uploads.montage.com/uploads/sites/4/2022/04/13110410/Montage-Healdsburg-Wedding-Brochure-ADA-VD1.pdf",
+      "https://s23.q4cdn.com/442848786/files/doc_financials/2022/ar/Sunstone-Hotel-Investors-2022-Annual-Report.pdf",
+      "https://www.sec.gov/Archives/edgar/data/1295810/000155837021005092/sho-20210422x8k.htm",
+      "https://www.sunstonehotels.com/investor-relations/press-releases/news-details/2021/Sunstone-Hotel-Investors-Acquires-The-130-Room-Montage-Healdsburg-Resort-For-265-Million/default.aspx",
+      "https://www.fourseasons.com/napavalley/weddings/venues/",
+      "https://www.fourseasons.com/napavalley/weddings/planning/",
+      "https://www.fourseasons.com/napavalley/getting-here/",
+      "https://www.sunstonehotels.com/investor-relations/press-releases/news-details/2021/Sunstone-Hotel-Investors-Completes-Disposition-Of-Embassy-Suites-La-Jolla-And-Acquisition-Of-Four-Seasons-Resort-Napa-Valley/default.aspx"
+    ],
+    "added_record_ids": [
+      "montage-healdsburg-grand-ballroom-sonoma",
+      "montage-healdsburg-grand-west-sonoma",
+      "montage-healdsburg-grand-east-sonoma",
+      "montage-healdsburg-grand-promenade-sonoma",
+      "montage-healdsburg-gallery-ballroom-sonoma",
+      "montage-healdsburg-gallery-i-sonoma",
+      "montage-healdsburg-gallery-ii-sonoma",
+      "montage-healdsburg-gallery-iii-sonoma",
+      "montage-healdsburg-guest-house-indoor-sonoma",
+      "montage-healdsburg-grand-lawn-sonoma",
+      "montage-healdsburg-guest-house-outdoor-sonoma",
+      "montage-healdsburg-the-grove-sonoma",
+      "montage-healdsburg-the-courtyard-sonoma",
+      "montage-healdsburg-vista-lawn-sonoma",
+      "montage-healdsburg-oak-lawn-sonoma",
+      "montage-healdsburg-oak-terrace-sonoma",
+      "montage-healdsburg-vineyard-lawn-sonoma",
+      "montage-healdsburg-madrone-room-sonoma",
+      "montage-healdsburg-oak-room-sonoma",
+      "montage-healdsburg-oak-cathedral-amphitheater-legacy-ceremony-offering-sonoma",
+      "four-seasons-resort-and-residences-napa-valley-vineyard-barn-napa",
+      "four-seasons-resort-and-residences-napa-valley-vineyard-lawn-napa",
+      "four-seasons-resort-and-residences-napa-valley-cabernet-terrace-napa",
+      "four-seasons-resort-and-residences-napa-valley-cork-room-napa",
+      "four-seasons-resort-and-residences-napa-valley-calistoga-ballroom-napa",
+      "four-seasons-resort-and-residences-napa-valley-calistoga-pre-function-napa",
+      "four-seasons-resort-and-residences-napa-valley-lakeside-lawn-napa",
+      "four-seasons-resort-and-residences-napa-valley-silverado-napa",
+      "four-seasons-resort-and-residences-napa-valley-rosedale-napa",
+      "four-seasons-resort-and-residences-napa-valley-lakeside-terrace-napa",
+      "four-seasons-resort-and-residences-napa-valley-silverado-terrace-napa"
+    ],
+    "updated_record_ids": [],
+    "duplicates_merged": [
+      "Ballroom subdivisions and grounds share two parent resorts; not 31 independent properties",
+      "Shared asset sale recorded per room for traceability; never sum",
+      "Oak Cathedral/Amphitheater legacy ceremony naming treated as one offering"
+    ],
+    "excluded": [
+      "2026 PartySlate brochure 404; no actual review claimed",
+      "Four Seasons 2020 PDF 403; not archived",
+      "Montage legacy amphitheater 70 not banquet/current availability",
+      "Embassy La Jolla 2021 sale outside Bay Area excluded",
+      "Forward hotel NOI yield projections not actual wedding profit or current business value"
+    ],
+    "remaining_gaps": [
+      "Current contracts/site fees/approved dance layouts and cutoff times",
+      "APNs/current deed and valuation/standalone verified wedding earnings",
+      "All nine counties and municipality inventory remain incomplete"
+    ],
+    "fact_check_findings": [
+      "20 Montage spaces and 11 Four Seasons rooms added, including legacy ceremony space and overlapping subdivisions; only two parent resorts.",
+      "Montage current wedding ballroom 200/150 conflicts with general banquet 280/180 and legacy narrative 250. Grand Lawn current 450 rounds / 600 reception versus legacy 600/840 and 350 wedding; do not choose largest count. Oak Cathedral 70 is legacy ceremony only/current absent.",
+      "Actual 2022-upload Montage packet: starting food / bar tiers 255/275/300, required facility 4000–30000,24% on food/beverage and rental plus taxes, full-service planner, AV extra, valet 25/car/limited 30, required two-night suite. Internal effective date Unknown; no current prices or all-in totals claimed. All-night afterglow wording is not midnight authorization.",
+      "Four Seasons chart banquet 140 Barn/150 Ballroom versus 174 reception; max 174 generic is not 174 dinner+dance. Full-service licensed planner own choice, furnishings can be provided not automatically included. Valet 16 day/28 overnight per current location page; event fee Unknown.",
+      "Sunstone actual annualreport and SEC acquisition filing verify Montage $265 m April 22,2021 and Four Seasons 177.5 m Dec 1,2021 gross fee-simple whole assets, not current appraisals/standalone wedding business prices. Montage 117 hotel acres differs 258 master plan/residences excluded. Four includes winery/vineyard/inventory; historical residentialprogram rights already in purchase allocation, never add again.",
+      "Annual 2022 Schedule III land allocations 40.326 mMontage/23.514 mFour and realestate grosscarrying 236.288 m/153.841 m are accounting cost, not tax assessment orcurrent market value. Management rights / owner acquisition do not establish wedding operating start."
+    ]
   }
 ]

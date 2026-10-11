@@ -533,9 +533,14 @@
       "https://www.napavalleyexpo.com/expo-facilities",
       "https://www.napavalley.edu/about/administrative-services/facilities-and-risk-management/facilities/facilities-reservations.html",
       "https://www.calistogaca.gov/Fairgrounds/Rent-Fairgrounds-Facilities",
-      "https://www.cityofsthelena.gov/275/Parks-Facilities-Locations-Rental-Inform"
+      "https://www.cityofsthelena.gov/275/Parks-Facilities-Locations-Rental-Inform",
+      "https://www.fourseasons.com/napavalley/weddings/venues/",
+      "https://www.fourseasons.com/napavalley/weddings/planning/",
+      "https://www.fourseasons.com/napavalley/getting-here/",
+      "https://s23.q4cdn.com/442848786/files/doc_financials/2022/ar/Sunstone-Hotel-Investors-2022-Annual-Report.pdf",
+      "https://www.sunstonehotels.com/investor-relations/press-releases/news-details/2021/Sunstone-Hotel-Investors-Completes-Disposition-Of-Embassy-Suites-La-Jolla-And-Acquisition-Of-Four-Seasons-Resort-Napa-Valley/default.aspx"
     ],
-    "remaining": "Partialpublic/campus/fairgroundconfigurationsreview; privatevenues/quotes/permit/layout/history/value auditincomplete."
+    "remaining": "Partial; current permits, dance layouts, costs, cutoffs and property/business valuation incomplete"
   },
   {
     "county": "Napa",
@@ -1148,8 +1153,15 @@
     "municipality": "Healdsburg",
     "municipal_rental_status": "Not yet audited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://www.montage.com/healdsburg/gatherings/weddings/",
+      "https://www.montage.com/healdsburg/gatherings/event-venues/",
+      "https://uploads.montage.com/uploads/sites/4/2022/04/13110410/Montage-Healdsburg-Wedding-Brochure-ADA-VD1.pdf",
+      "https://s23.q4cdn.com/442848786/files/doc_financials/2022/ar/Sunstone-Hotel-Investors-2022-Annual-Report.pdf",
+      "https://www.sec.gov/Archives/edgar/data/1295810/000155837021005092/sho-20210422x8k.htm",
+      "https://www.sunstonehotels.com/investor-relations/press-releases/news-details/2021/Sunstone-Hotel-Investors-Acquires-The-130-Room-Montage-Healdsburg-Resort-For-265-Million/default.aspx"
+    ],
+    "remaining": "Partial; current permits, dance layouts, costs, cutoffs and property/business valuation incomplete"
   },
   {
     "county": "Sonoma",
