@@ -2142,5 +2142,71 @@
       "Robson House was completed in 1906; current generic capacity is 50. Picnic sites have 45/60 generic counts and no restrooms. The first booking slot reads 9PM–1PM and is held as inconsistent. A San Anselmo search result with a recent label and 2014 filename contains a 2005 meeting packet; those fees were excluded. MCCSD’s indexed recommended schedule lacks verified adoption/site allocation and direct access redirects to sign-in; no new venue or profit projection was imported.",
       "Actual FY2025–26 Robson budget pages 84–85 were visually reviewed: FY2023–24 revenue and transfers $25,880, expenditures $41,892, net decrease $16,012. This is a mixed civic/office fund, not wedding-only profit or property/business value. Planned $50,000 ADA bathroom work is not evidence of completion or a current contractor quote. Town management FY2006–07 is separate from construction and unknown wedding opening."
     ]
+  },
+  {
+    "pass": 33,
+    "question": "What recreation districts, small-town parks and cultural clubhouses could still be missing from the Marin inventory?",
+    "scope": "Strawberry district; Corte Madera center and park prospects; Sausalito Portuguese Cultural Center and Woman’s Club",
+    "completed_utc": "2026-10-11T09:19:24.442047+00:00",
+    "source_urls": [
+      "https://strawberry.marin.org/rentals/",
+      "https://www.marinlafco.org/strawberry-recreation-district",
+      "https://www.cortemadera.gov/404/Indoor-Outdoor-Facilities",
+      "https://www.cortemadera.gov/DocumentCenter/View/1072",
+      "https://cortemadera.gov/973/Visit-Us",
+      "https://idesst.wildapricot.org/Rentals",
+      "https://drive.google.com/file/d/1Owp24oDWcL3QW2RNvwmv4cHY7bjm8sJ7/view?usp=sharing",
+      "https://sausalitowomansclub.org/sausalitoweddingvenue/",
+      "https://sausalitowomansclub.org/history/the-clubhouse/",
+      "https://sausalitowomansclub.org/venue/swc-club-house/"
+    ],
+    "added_record_ids": [
+      "strawberry-recreation-district-reception-hall-gym-marin",
+      "strawberry-recreation-district-first-floor-room-marin",
+      "strawberry-recreation-district-third-floor-room-marin",
+      "strawberry-recreation-district-courtyard-marin",
+      "strawberry-recreation-district-brickyard-park-rental-marin",
+      "strawberry-recreation-district-aquatic-facility-special-event-rental-marin",
+      "strawberry-recreation-district-majors-baseball-field-marin",
+      "strawberry-recreation-district-minors-baseball-field-marin",
+      "strawberry-recreation-district-practice-field-a-marin",
+      "strawberry-recreation-district-practice-field-b-marin",
+      "corte-madera-community-center-main-hall-patio-kitchen-bar-package-marin",
+      "town-park-outdoor-event-prospect-marin",
+      "cove-park-outdoor-event-prospect-marin",
+      "granada-park-outdoor-event-prospect-marin",
+      "skunk-hollow-mini-park-outdoor-event-prospect-marin",
+      "menke-park-piccolo-pavilion-outdoor-event-prospect-marin",
+      "bayside-trail-park-outdoor-event-prospect-marin",
+      "higgins-landing-outdoor-event-prospect-marin",
+      "idesst-sausalito-portuguese-cultural-center-ballroom-only-marin",
+      "idesst-sausalito-portuguese-cultural-center-dining-room-only-marin",
+      "idesst-sausalito-portuguese-cultural-center-entire-facility-excluding-chapel-marin",
+      "sausalito-woman-s-club-clubhouse-and-garden-wedding-rental-marin"
+    ],
+    "duplicates_merged": [
+      "Strawberry rooms and fields share a district campus; not independent properties",
+      "Portuguese whole facility overlaps two separately offered rooms; no capacity sum",
+      "Corte Madera main hall/patio/kitchen/bar one package; no four separate venues"
+    ],
+    "excluded": [
+      "Strawberry batting cages and tennis courts not independently expanded as wedding sites",
+      "Neil Cummins gym described for sporting activities; wedding authority unverified",
+      "Corte Madera generic COVID-era prohibition not asserted current",
+      "Strawberry 2019 PDF returned 404; historical indexed rates not current",
+      "Novato source 403 held for separate discovery pass; Sausalito public inventory deferred",
+      "Woman’s Club unsigned committee post not treated as a named founder experience"
+    ],
+    "remaining_gaps": [
+      "Current complete quotes, operating rights, wedding permissions for outdoors and exact park addresses",
+      "Novato/Sausalito/Tiburon/Larkspur and other nine-county municipalities remain incomplete",
+      "Current signed resolution of hours/capacity/vendor conflicts; APNs/property/business values and original wedding opening dates largely Unknown"
+    ],
+    "fact_check_findings": [
+      "Strawberry publishes seated versus assembled capacity and distinct 10 PM music, 10:10 PM guest exit and 10:30 PM lock. District establishment is not wedding opening; 2019 fees not used as current rates.",
+      "Corte Madera linked policy 200 banquet conflicts with broad website 150–300. Outdoor rental exit 8 PM differs from general park public hours. Seven parks are prospects, not seven confirmed wedding permissions. Sports-only Neil Cummins gym excluded.",
+      "Portuguese center actual 26-page April 3, 2025 brochure downloaded; capacity, fee and hours tables visually reviewed. 193/162 dining are not 414/347 chairs-only assembly; no 355-guest combined banquet assumed. Website and brochure hours conflict; midnight is cleanup lockup. Security and attendant charges prevent all-in inference.",
+      "Sausalito Woman’s Club current 100 tables/chairs / 60 ceremony; old 110-person testimonial excluded from current capacity. 2026 fee $6,500, preferred caterer not established exclusive. Primary history construction 1918 versus marketing dedication 1917; wedding-operation start Unknown."
+    ]
   }
 ]

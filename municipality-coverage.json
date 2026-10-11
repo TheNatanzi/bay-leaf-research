@@ -323,7 +323,11 @@
     "municipality": "Corte Madera",
     "municipal_rental_status": "Not yet audited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
+    "source_urls": [
+      "https://www.cortemadera.gov/404/Indoor-Outdoor-Facilities",
+      "https://www.cortemadera.gov/DocumentCenter/View/1072",
+      "https://cortemadera.gov/973/Visit-Us"
+    ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
   {
@@ -352,7 +356,10 @@
     "municipality": "Mill Valley",
     "municipal_rental_status": "Not yet audited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
+    "source_urls": [
+      "https://strawberry.marin.org/rentals/",
+      "https://www.marinlafco.org/strawberry-recreation-district"
+    ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
   {
@@ -407,7 +414,13 @@
     "municipality": "Sausalito",
     "municipal_rental_status": "Not yet audited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
+    "source_urls": [
+      "https://idesst.wildapricot.org/Rentals",
+      "https://drive.google.com/file/d/1Owp24oDWcL3QW2RNvwmv4cHY7bjm8sJ7/view?usp=sharing",
+      "https://sausalitowomansclub.org/sausalitoweddingvenue/",
+      "https://sausalitowomansclub.org/history/the-clubhouse/",
+      "https://sausalitowomansclub.org/venue/swc-club-house/"
+    ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
   {
