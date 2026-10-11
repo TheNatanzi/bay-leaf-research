@@ -1,6 +1,6 @@
 # Founder and operator experiences
 
-44 reading records; incomplete. Original publication/update dates are separate from check dates and venue milestones. Written publisher summaries are labeled; audio was not independently reviewed. Promotional/survivor bias remains. Self-reported foreign/historical costs are not Bay Area estimates.
+48 reading records; incomplete. Original publication/update dates are separate from check dates and venue milestones. Written publisher summaries are labeled; audio was not independently reviewed. Promotional/survivor bias remains. Self-reported foreign/historical costs are not Bay Area estimates.
 
 ## Karri Jablonski
 
@@ -837,3 +837,79 @@ The family describe acquiring an old fruit ranch in 1991, extensive restoration 
 Lessons: Check permitted commercial use before acquiring or hosting paid events; budget restoration, housing disruption, founder labor and a potentially lengthy approval process.
 
 Review limits: Original operator marketing page; self-reported experience, no audited financial records. The story names Mark but has no individual full-name byline.
+
+
+## Jillian Moulton
+
+[The Brief History of Cold Spring Barn | A New Hampshire Wedding Venue](https://www.coldspringbarn.com/blog/history)
+
+- Venue: Cold Spring Farm / Cold Spring Barn
+- Original publication: 2025-02-19
+- Update: 2026-03-28
+- Checked UTC: 2026-10-11T11:00:06.228224+00:00
+- Type: Firsthand owner blog
+- Jurisdiction: Alton Bay, New Hampshire, US
+- Date evidence: Original datePublished and dateModified metadata; visible month/day alone omits year.
+
+Family purchased approximately 280 acres in 2003; barn construction began in 2008. A family reception was held in spring 2019, which does not establish commercial opening. Conversion required replacement storage, bathrooms and service space. Unreliable solar pathway lights were replaced with wired lighting. Custom doors ordered in 2022 required a commercial loan and were installed by January 2023; later patio work took place between weddings.
+
+Lessons: Budget storage relocation, reliable guest lighting, weather protection, bathrooms, finance and ongoing improvements; DIY labor and family involvement are substantial.
+
+Review limits: Original operator promotional account; financing amount, commercial opening and profits not verified.
+
+
+## George and Debra Tash; Adam and Rachel Tash — named owners, individual page byline Unknown
+
+[About Eden Gardens — Our Story](https://edengardensweddings.com/about/)
+
+- Venue: Eden Gardens
+- Original publication: Unknown
+- Update: Unknown
+- Checked UTC: 2026-10-11T11:00:06.228224+00:00
+- Type: Firsthand operator written account
+- Jurisdiction: Moorpark, Ventura County, California — outside the nine-county census
+- Date evidence: Unknown — no reliable original publication or update date established; 2012 and 2022 are story milestones, not publication dates.
+
+Operator history identifies George and Debra Tash as founders in 2012, developing four acres of raw land into a garden wedding setting. Adam and Rachel Tash took over in 2022. Current marketing describes coordination, catering and bar partners; its CUP and accessibility claims have not been checked against issued approvals.
+
+Lessons: Track founding and successor management separately. A venue with coordinated catering and bar service is a different operational model from venue-only rentals.
+
+Review limits: Original operator marketing page; legal approval claims and financial performance not independently verified.
+
+
+## Rene Byck; Sonia Byck-Barwick; Annette McDonnell — interviewed by Matthew McDermaid and Sandra K. Newton
+
+[Paradise Ridge Winery: Can a Tragedy Strengthen a Brand?](https://wbj.scholasticahq.com/article/22075-paradise-ridge-winery-can-a-tragedy-strengthen-a-brand)
+
+- Venue: Paradise Ridge Winery
+- Original publication: 2020-12-16
+- Update: Unknown
+- Checked UTC: 2026-10-11T11:00:06.228224+00:00
+- Type: Operator field-interview academic case
+- Jurisdiction: Santa Rosa, Sonoma County, California
+- Date evidence: Original journal publication December 16, 2020 PDT; submitted and accepted dates are separate.
+
+Based on 2020 interviews, the case describes recovery after the 2017 Tubbs fire and reopening in November 2019. Owners reported approximately $6 million to rebuild the main estate building and weddings providing nearly half of revenue. These are historical interview claims, not current valuation, audited earnings or a complete new-venue budget. Exhibits 10–11 use adapted industry financials, so their figures are excluded from competitor profit and valuation estimates.
+
+Lessons: Stress-test disaster interruption, insurance, rebuilding time, staffing and revenue concentration. Separate capital expenditure from property value and verified earnings from teaching exhibits.
+
+Review limits: Original academic case, CC BY 4.0; 2020 historical conditions. Adapted financial exhibits and unspecified nighttime noise permission cannot establish actual earnings or current midnight authorization.
+
+
+## Didi Russell (publisher byline drussell); quoted owner identity Unknown
+
+[I Regret Buying My Wedding Venue](https://weddingvenueowners.com/i-regret-buying-my-wedding-venue/)
+
+- Venue: Unknown — anonymous venue
+- Original publication: 2023-08-25
+- Update: Unknown
+- Checked UTC: 2026-10-11T11:00:06.228224+00:00
+- Type: Coach commentary / secondary anonymous owner account
+- Jurisdiction: Unknown — anonymous owner location not disclosed
+- Date evidence: Displayed original article date; date of underlying Facebook post Unknown.
+
+Publisher reproduces an anonymous owner account of a partner leaving soon after acquisition, renovation consuming resources and bookings during construction. The publisher reports that the owner decided to sell. The original Facebook post, owner identity and venue are unverified; this is not a direct named firsthand source.
+
+Lessons: Define partner responsibilities and exit arrangements; test construction reserves, owner workload and feasibility of remote management.
+
+Review limits: Commercial coaching and education promotion; anonymous repost, not independently verified firsthand testimony. General marketing and profitability opinions are not established market statistics.
