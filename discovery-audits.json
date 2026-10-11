@@ -713,5 +713,42 @@
     "fact_check_findings": [
       "Point Reyes any-size wedding permit; John Muir limited small-ceremony exception differs. Historical Ardenwood sales not profit; 2026 restrictions supersede historical event marketing. Lake Sonoma brochure explicitly dates April2013, not search-crawl date."
     ]
+  },
+  {
+    "pass": 13,
+    "question": "What other possible Solano municipal, park and restaurant-operated halls have we missed?",
+    "scope": "Vacaville, Fairfield and Dixon rental inventories; restrictions and source-provenance checks",
+    "completed_utc": "2026-10-11T05:24:16.302557+00:00",
+    "source_urls": [
+      "https://www.cityofvacaville.gov/government/parks-and-recreation/facilities/facility-rentals",
+      "https://www.fairfield.ca.gov/government/city-departments/parks-and-recreation/facility-park-picnic-rentals",
+      "https://www.cityofdixonca.gov/facilityreservations",
+      "https://www.budspub.com/hall"
+    ],
+    "added_record_ids": [
+      "mcbride-community-center-solano",
+      "three-oaks-community-center-solano",
+      "vacaville-performing-arts-theatre-solano",
+      "pe-a-adobe-rental-area-solano",
+      "andrews-park-amphitheater-picnic-rentals-solano",
+      "arlington-park-picnic-rental-area-solano",
+      "lagoon-valley-park-picnic-rental-area-solano",
+      "magnolia-park-rental-area-solano",
+      "fairfield-community-center-solano",
+      "dixon-senior-multi-use-center-solano",
+      "olde-vet-s-hall-bud-s-pub-grill-solano"
+    ],
+    "duplicates_or_grouping": [
+      "Ulatis already counted; updated inclusions instead of creating duplicate. Andrews amphitheater/picnic areas grouped; no fabricated room counts."
+    ],
+    "exclusions_or_restrictions": [
+      "Dixon Pardi Plaza prohibits private/ticketed events; excluded as private-wedding lead. Aquatic and sports-only facilities held pending appropriate event evidence. Magnolia resident-only restriction flagged."
+    ],
+    "remaining_gaps": [
+      "Vacaville/Fairfield full pages blocked; indexed official text retained with lower provenance. Current room floorplans/prices, park wedding approval, Rio Vista and Vallejo inventories remain incomplete."
+    ],
+    "fact_check_findings": [
+      "Bud’s Hall requires its own catering and drinks; inexpensive venue fee is not all-in cost. Restaurant footer hours/address not copied as hall-specific facts. Fairfield audience seating not treated as banquet/dance capacity. Historical FY2024–25 Ulatis prices not imported as current quotes."
+    ]
   }
 ]

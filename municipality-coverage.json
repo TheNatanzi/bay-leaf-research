@@ -701,17 +701,21 @@
   {
     "county": "Solano",
     "municipality": "Dixon",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial rental inventory reviewed; private wedding and room terms remain unknown",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
+    "source_urls": [
+      "https://www.cityofdixonca.gov/facilityreservations"
+    ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
   {
     "county": "Solano",
     "municipality": "Fairfield",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial rental inventory reviewed; private wedding and room terms remain unknown",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
+    "source_urls": [
+      "https://www.fairfield.ca.gov/government/city-departments/parks-and-recreation/facility-park-picnic-rentals"
+    ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
   {
@@ -735,9 +739,11 @@
   {
     "county": "Solano",
     "municipality": "Vacaville",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial rental inventory reviewed; private wedding and room terms remain unknown",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
+    "source_urls": [
+      "https://www.cityofvacaville.gov/government/parks-and-recreation/facilities/facility-rentals"
+    ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
   {
