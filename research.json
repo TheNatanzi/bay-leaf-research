@@ -86648,7 +86648,9 @@
       "midnight_indoor": null,
       "county": "Santa Clara",
       "sources": [
-        "https://www.herecomestheguide.com/wedding-venues/northern-california/hayes-mansion-san-jose-curio-collection-by-hilton"
+        "https://www.herecomestheguide.com/wedding-venues/northern-california/hayes-mansion-san-jose-curio-collection-by-hilton",
+        "https://www.sanjoseca.gov/home/showpublisheddocument/39186/637049316526000000",
+        "https://www.hayesmansion.com/our-story/history/"
       ],
       "midnight_outdoor": null,
       "vendors": null,
@@ -86677,20 +86679,24 @@
       "directory_sources": [
         "https://www.herecomestheguide.com/wedding-venues/northern-california/hayes-mansion-san-jose-curio-collection-by-hilton"
       ],
-      "construction_year": null,
+      "construction_year": 1905,
       "wedding_opening_year": null,
       "current_operator_since": null,
       "operating_years": null,
-      "history_status": null,
-      "history_sources": [],
+      "history_status": "Mansion completion1905 sourced; conference opening1994 separate. Wedding opening/current operator start Unknown",
+      "history_sources": [
+        "https://www.hayesmansion.com/our-story/history/"
+      ],
       "property_value_low": null,
       "property_value_high": null,
       "business_value_low": null,
       "business_value_high": null,
-      "value_status": "Unknown — insufficient verified evidence",
-      "value_method": null,
+      "value_status": "Current property/business values Unknown; historical mixed-asset purchase evidence recorded",
+      "value_method": "Historical contractual transaction base $30m; asset allocation/net consideration/current comparability unverified. No capitalization applied.",
       "value_as_of": null,
-      "value_sources": [],
+      "value_sources": [
+        "https://www.sanjoseca.gov/home/showpublisheddocument/39186/637049316526000000"
+      ],
       "parent_property": "Hayes Mansion San Jose, Curio Collection by Hilton",
       "record_kind": "Property",
       "category": "Wedding venue",
@@ -86699,7 +86705,7 @@
       "wedding_permission": "Wedding-directory listing — operator permission/availability unverified",
       "research_status": "Wedding-directory detail reviewed; operator terms unverified",
       "booking_status": "Listed — date availability unknown",
-      "checked_utc": "2026-10-11T04:59:39.915588+00:00",
+      "checked_utc": "2026-10-11T05:58:58.824231+00:00",
       "venue_url": "https://www.hayesmansion.com/san-jose-weddings/",
       "workbook_answers": {
         "identity-and-booking-wedding-permission": {
@@ -86887,13 +86893,48 @@
         "business-suitability-break-even-events-and-working-capital": null,
         "business-suitability-acquisition-financial-verification": null,
         "business-suitability-government-rental-versus-concession-rights": null,
-        "history-building-construction-year": null,
-        "history-wedding-operation-opening-year": null,
+        "history-building-construction-year": {
+          "answer": "Mansion completed1905; construction began1903. Later additions separate.",
+          "status": "Historical primary evidence reviewed; not a current valuation",
+          "source_urls": [
+            "https://www.hayesmansion.com/our-story/history/"
+          ],
+          "checked_utc": "2026-10-11T05:58:58.824231+00:00"
+        },
+        "history-wedding-operation-opening-year": {
+          "answer": "Wedding opening Unknown; operator states conference center opened1994, not explicitly weddings.",
+          "status": "Historical primary evidence reviewed; not a current valuation",
+          "source_urls": [
+            "https://www.hayesmansion.com/our-story/history/"
+          ],
+          "checked_utc": "2026-10-11T05:58:58.824231+00:00"
+        },
         "history-current-operator-start-date": null,
         "history-wedding-operation-duration-and-date-basis": null,
-        "valuation-exact-parcels-apns-and-asset-scope": null,
-        "valuation-owner-versus-operating-tenant": null,
-        "valuation-last-sale-price-and-date": null,
+        "valuation-exact-parcels-apns-and-asset-scope": {
+          "answer": "Improved real property, related rights, personal/intangible assets; exactAPNs and allocation Unknown. Operating statements exclude building/improvements/debt.",
+          "status": "Historical primary evidence reviewed; not a current valuation",
+          "source_urls": [
+            "https://www.sanjoseca.gov/home/showpublisheddocument/39186/637049316526000000"
+          ],
+          "checked_utc": "2026-10-11T05:58:58.824231+00:00"
+        },
+        "valuation-owner-versus-operating-tenant": {
+          "answer": "City ownership/operations ended effective2019-02-05; buyer namedJMA VenturesLLC in audit. Current title holder/operator must be verified independently.",
+          "status": "Historical primary evidence reviewed; not a current valuation",
+          "source_urls": [
+            "https://www.sanjoseca.gov/home/showpublisheddocument/39186/637049316526000000"
+          ],
+          "checked_utc": "2026-10-11T05:58:58.824231+00:00"
+        },
+        "valuation-last-sale-price-and-date": {
+          "answer": "Audit: $30m contractual mixed-asset base subject to adjustments; sale finalized2019-02-04/effective2019-02-05. Final net proceeds and property/business allocation Unknown.",
+          "status": "Historical primary evidence reviewed; not a current valuation",
+          "source_urls": [
+            "https://www.sanjoseca.gov/home/showpublisheddocument/39186/637049316526000000"
+          ],
+          "checked_utc": "2026-10-11T05:58:58.824231+00:00"
+        },
         "valuation-current-asking-price-and-inclusions": null,
         "valuation-assessed-values-and-tax-year": null,
         "valuation-comparable-closed-sales": null,
@@ -86902,7 +86943,14 @@
         "valuation-lease-concession-terms": null,
         "valuation-valuation-method-and-assumptions": null,
         "valuation-valuation-date-and-confidence": null,
-        "valuation-unverified-evidence-and-due-diligence-gaps": null
+        "valuation-unverified-evidence-and-due-diligence-gaps": {
+          "answer": "Current APNs/title, property-business asset allocation, final net closing statement and current audited earnings Unknown.",
+          "status": "Historical primary evidence reviewed; not a current valuation",
+          "source_urls": [
+            "https://www.sanjoseca.gov/home/showpublisheddocument/39186/637049316526000000"
+          ],
+          "checked_utc": "2026-10-11T05:58:58.824231+00:00"
+        }
       },
       "geography_status": "Directory city mapped to county; exact parcel/jurisdiction unverified",
       "operator_url": "https://www.hayesmansion.com/san-jose-weddings/",
@@ -86931,6 +86979,28 @@
           "status": "Unknown — listing and rating not yet verified",
           "lookup_url": "https://www.google.com/search?q=Hayes%20Mansion%20San%20Jose%2C%20Curio%20Collection%20by%20Hilton%20San%20Jose%2C%20California%20wedding%20reviews%20-site%3Ayelp.com%20-site%3Agoogle.com"
         }
+      },
+      "historical_transaction": {
+        "contractual_base_consideration": 30000000,
+        "currency": "USD",
+        "finalized_date": "2019-02-04",
+        "effective_date": "2019-02-05",
+        "type": "Historical completed sale; contractual base, not verified net proceeds or asset allocation",
+        "asset_scope": "Improved real property and related rights, personal/intangible property",
+        "source_url": "https://www.sanjoseca.gov/home/showpublisheddocument/39186/637049316526000000",
+        "checked_utc": "2026-10-11T05:58:58.824231+00:00"
+      },
+      "historical_financials": {
+        "period_start": "2018-07-01",
+        "period_end": "2019-02-04",
+        "operating_revenue": 8815025,
+        "operating_expenses": 8634390,
+        "operating_income": 180635,
+        "operating_cash_flow": -18672,
+        "change_in_net_position": -1225570,
+        "source_url": "https://www.sanjoseca.gov/home/showpublisheddocument/39186/637049316526000000",
+        "scope": "Hotel/conference-center operation, not wedding-only; buildings/improvements/debt excluded from these operating statements",
+        "checked_utc": "2026-10-11T05:58:58.824231+00:00"
       }
     },
     {
@@ -105967,10 +106037,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 38.357512832669,
+      "lng": -121.987575637066,
       "address": "91 Town Square Place, Vacaville, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": "City community-center policy: tables, chairs and setup included; Wi-Fi available. Confirm counts/layout.",
       "food_requirement": null,
       "bar_requirement": null,
@@ -106232,7 +106302,10 @@
           "status": "Unknown — listing and rating not yet verified",
           "lookup_url": "https://www.google.com/search?q=McBride%20Community%20Center%20Vacaville%2C%20California+wedding+reviews"
         }
-      }
+      },
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "91 TOWN SQUARE PL, VACAVILLE, CA, 95688",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Three Oaks Community Center",
@@ -106253,10 +106326,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 38.342172054544,
+      "lng": -121.994098187617,
       "address": "1100 Alamo Drive, Vacaville, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": "City community-center policy: tables, chairs and setup included; Wi-Fi available. Confirm counts/layout.",
       "food_requirement": null,
       "bar_requirement": null,
@@ -106518,7 +106591,10 @@
           "status": "Unknown — listing and rating not yet verified",
           "lookup_url": "https://www.google.com/search?q=Three%20Oaks%20Community%20Center%20Vacaville%2C%20California+wedding+reviews"
         }
-      }
+      },
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "1100 ALAMO DR, VACAVILLE, CA, 95687",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Vacaville Performing Arts Theatre",
@@ -106539,10 +106615,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 38.357410668082,
+      "lng": -121.961486268079,
       "address": "1010 Ulatis Drive, Vacaville, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": null,
       "food_requirement": null,
       "bar_requirement": null,
@@ -106805,7 +106881,10 @@
           "status": "Unknown — listing and rating not yet verified",
           "lookup_url": "https://www.google.com/search?q=Vacaville%20Performing%20Arts%20Theatre%20Vacaville%2C%20California+wedding+reviews"
         }
-      }
+      },
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "1010 ULATIS DR, VACAVILLE, CA, 95687",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Peña Adobe rental area",
@@ -109071,10 +109150,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 38.401539897766,
+      "lng": -122.360414309509,
       "address": "6516 Washington Street, Yountville, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": "Package: 12-hour room/kitchen/patio/lawn rental; 150 ceremony chairs and reception tables/chairs for up to 200. Included cleaning/staff/security as applicable; cash total includes refundable deposit.",
       "food_requirement": null,
       "bar_requirement": null,
@@ -109358,7 +109437,10 @@
           "status": "Unknown — listing and rating not yet verified",
           "lookup_url": "https://www.google.com/search?q=Heritage%20Room%20Yountville%20California+wedding+reviews"
         }
-      }
+      },
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "6516 WASHINGTON ST, YOUNTVILLE, CA, 94599",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Generations Room",
@@ -109379,10 +109461,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 38.401539897766,
+      "lng": -122.360414309509,
       "address": "6516 Washington Street, Yountville, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": "Tables/chairs included in room rentals; confirm inventory.",
       "food_requirement": null,
       "bar_requirement": null,
@@ -109646,7 +109728,10 @@
           "status": "Unknown — listing and rating not yet verified",
           "lookup_url": "https://www.google.com/search?q=Generations%20Room%20Yountville%20California+wedding+reviews"
         }
-      }
+      },
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "6516 WASHINGTON ST, YOUNTVILLE, CA, 94599",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Patio & Lawn",
@@ -109667,10 +109752,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 38.401539897766,
+      "lng": -122.360414309509,
       "address": "6516 Washington Street, Yountville, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": "Tables/chairs included in room rentals; confirm inventory.",
       "food_requirement": null,
       "bar_requirement": null,
@@ -109934,7 +110019,10 @@
           "status": "Unknown — listing and rating not yet verified",
           "lookup_url": "https://www.google.com/search?q=Patio%20%26%20Lawn%20Yountville%20California+wedding+reviews"
         }
-      }
+      },
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "6516 WASHINGTON ST, YOUNTVILLE, CA, 94599",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Schmitt Hall",
@@ -109955,10 +110043,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 38.403735368564,
+      "lng": -122.361940288744,
       "address": "6554 Yount Street, Yountville, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": "Tables/chairs and adjacent prep kitchen: refrigerator, microwave, sink.",
       "food_requirement": null,
       "bar_requirement": null,
@@ -110222,7 +110310,10 @@
           "status": "Unknown — listing and rating not yet verified",
           "lookup_url": "https://www.google.com/search?q=Schmitt%20Hall%20Yountville%20California+wedding+reviews"
         }
-      }
+      },
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "6554 YOUNT ST, YOUNTVILLE, CA, 94599",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Town Square",
@@ -110243,10 +110334,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 38.401539897766,
+      "lng": -122.360414309509,
       "address": "6516 Washington Street, Yountville, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": null,
       "food_requirement": null,
       "bar_requirement": null,
@@ -110510,7 +110601,10 @@
           "status": "Unknown — listing and rating not yet verified",
           "lookup_url": "https://www.google.com/search?q=Town%20Square%20Yountville%20California+wedding+reviews"
         }
-      }
+      },
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "6516 WASHINGTON ST, YOUNTVILLE, CA, 94599",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Great Room",
@@ -110531,10 +110625,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 38.504206158342,
+      "lng": -122.470494389286,
       "address": "1360 Oak Avenue, St. Helena, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": "City describes elevator/ramp, restrooms, kitchen, HVAC and Wi-Fi; confirm room inclusions.",
       "food_requirement": null,
       "bar_requirement": null,
@@ -110807,7 +110901,10 @@
           "status": "Unknown — listing and rating not yet verified",
           "lookup_url": "https://www.google.com/search?q=Great%20Room%20St.%20Helena%20California+wedding+reviews"
         }
-      }
+      },
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "1360 OAK AVE, SAINT HELENA, CA, 94574",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Meeting Room",
@@ -110828,10 +110925,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 38.504206158342,
+      "lng": -122.470494389286,
       "address": "1360 Oak Avenue, St. Helena, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": "City describes elevator/ramp, restrooms, kitchen, HVAC and Wi-Fi; confirm room inclusions.",
       "food_requirement": null,
       "bar_requirement": null,
@@ -111104,7 +111201,10 @@
           "status": "Unknown — listing and rating not yet verified",
           "lookup_url": "https://www.google.com/search?q=Meeting%20Room%20St.%20Helena%20California+wedding+reviews"
         }
-      }
+      },
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "1360 OAK AVE, SAINT HELENA, CA, 94574",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Dance Room",
@@ -111125,10 +111225,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 38.504206158342,
+      "lng": -122.470494389286,
       "address": "1360 Oak Avenue, St. Helena, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": "City describes elevator/ramp, restrooms, kitchen, HVAC and Wi-Fi; confirm room inclusions.",
       "food_requirement": null,
       "bar_requirement": null,
@@ -111401,7 +111501,10 @@
           "status": "Unknown — listing and rating not yet verified",
           "lookup_url": "https://www.google.com/search?q=Dance%20Room%20St.%20Helena%20California+wedding+reviews"
         }
-      }
+      },
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "1360 OAK AVE, SAINT HELENA, CA, 94574",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Crane Park picnic areas",
@@ -112890,10 +112993,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 37.913960721715,
+      "lng": -122.302622933341,
       "address": "7007 Moeser Lane, El Cerrito, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": "Kitchen, fenced patio, table/chair setup and breakdown; 224 chairs, 17 eight-foot and 17 six-foot tables, 25 five-foot rounds, 15 cocktail tables; AV equipment not included.",
       "food_requirement": "Reusable or fiber-based compostable foodware required; single-use plastics/bioplastics prohibited. Outside caterer policy: Unknown — inquire",
       "bar_requirement": "City alcohol permit required; alcohol sales require ABC licensing. Full staffing/BYOB policy: Unknown — inquire",
@@ -113191,7 +113294,10 @@
       },
       "capacity_description": "Published maximum 224; dinner plus dance layout: Unknown — inquire",
       "generic_capacity": 224,
-      "seated_capacity": null
+      "seated_capacity": null,
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "7007 MOESER LN, EL CERRITO, CA, 94530",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Arlington Clubhouse",
@@ -113213,10 +113319,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 37.924358663949,
+      "lng": -122.293275407387,
       "address": "1120 Arlington Boulevard, El Cerrito, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": "Eight six-foot tables, 50 chairs, sink, refrigerator and patio; renter handles setup/breakdown.",
       "food_requirement": "Reusable or fiber-based compostable foodware required; single-use plastics/bioplastics prohibited. Outside caterer policy: Unknown — inquire",
       "bar_requirement": "City alcohol permit required; alcohol sales require ABC licensing. Full staffing/BYOB policy: Unknown — inquire",
@@ -113514,7 +113620,10 @@
       },
       "capacity_description": "Published maximum 50; dinner plus dance layout: Unknown — inquire",
       "generic_capacity": 50,
-      "seated_capacity": null
+      "seated_capacity": null,
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "1120 ARLINGTON BLVD, EL CERRITO, CA, 94530",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Castro Clubhouse B",
@@ -113536,10 +113645,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 37.92014998637,
+      "lng": -122.307321376817,
       "address": "1420 Norvell Street, El Cerrito, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": "Six six-foot tables, 30 chairs, sink, refrigerator, restroom and patio picnic tables; renter handles setup/breakdown.",
       "food_requirement": "Reusable or fiber-based compostable foodware required; single-use plastics/bioplastics prohibited. Outside caterer policy: Unknown — inquire",
       "bar_requirement": "City alcohol permit required; alcohol sales require ABC licensing. Full staffing/BYOB policy: Unknown — inquire",
@@ -113837,7 +113946,10 @@
       },
       "capacity_description": "Published maximum 30; dinner plus dance layout: Unknown — inquire",
       "generic_capacity": 30,
-      "seated_capacity": null
+      "seated_capacity": null,
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "1420 NORVELL ST, EL CERRITO, CA, 94530",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Hana Gardens Community Room",
@@ -113858,10 +113970,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 37.915179054926,
+      "lng": -122.311103206272,
       "address": "10870 San Pablo Avenue, El Cerrito, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": "Twenty five-foot and four six-foot tables; 60 chairs, sink/refrigerator, two restrooms, Wi-Fi, two wall TVs; no full kitchen.",
       "food_requirement": "Reusable or fiber-based compostable foodware required; single-use plastics/bioplastics prohibited. Outside caterer policy: Unknown — inquire",
       "bar_requirement": "City alcohol permit required; alcohol sales require ABC licensing. Full staffing/BYOB policy: Unknown — inquire",
@@ -114140,7 +114252,10 @@
       },
       "capacity_description": "Published maximum 60; dinner plus dance layout: Unknown — inquire",
       "generic_capacity": 60,
-      "seated_capacity": null
+      "seated_capacity": null,
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "10870 SAN PABLO AVE, EL CERRITO, CA, 94530",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Main Floor",
@@ -119480,10 +119595,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 37.314469824227,
+      "lng": -121.87662832699,
       "address": "136 W. Alma Ave. , San José, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": "City-wide rental guidance lists tables/chairs; AV and kitchens vary by room. Exact room inventory: Unknown — inquire",
       "food_requirement": null,
       "bar_requirement": null,
@@ -119749,7 +119864,10 @@
       },
       "capacity_description": "Unknown — inquire",
       "generic_capacity": null,
-      "seated_capacity": null
+      "seated_capacity": null,
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "136 W ALMA AVE, SAN JOSE, CA, 95110",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Almaden Community Center",
@@ -119771,10 +119889,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 37.222093689864,
+      "lng": -121.869673930096,
       "address": "6445 Camden Ave., San José, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": "City-wide rental guidance lists tables/chairs; AV and kitchens vary by room. Exact room inventory: Unknown — inquire",
       "food_requirement": null,
       "bar_requirement": null,
@@ -120040,7 +120158,10 @@
       },
       "capacity_description": "Unknown — inquire",
       "generic_capacity": null,
-      "seated_capacity": null
+      "seated_capacity": null,
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "6445 CAMDEN AVE, SAN JOSE, CA, 95120",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Alum Rock Youth Center",
@@ -120062,10 +120183,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 37.368742253171,
+      "lng": -121.83070484356,
       "address": "137 N. White Rd. , San José, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": "City-wide rental guidance lists tables/chairs; AV and kitchens vary by room. Exact room inventory: Unknown — inquire",
       "food_requirement": null,
       "bar_requirement": null,
@@ -120331,7 +120452,10 @@
       },
       "capacity_description": "Unknown — inquire",
       "generic_capacity": null,
-      "seated_capacity": null
+      "seated_capacity": null,
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "137 N WHITE RD, SAN JOSE, CA, 95127",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Alviso Youth Center",
@@ -120644,10 +120768,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 37.351434094922,
+      "lng": -121.883191195024,
       "address": "675 E. Empire St. , San José, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": "City-wide rental guidance lists tables/chairs; AV and kitchens vary by room. Exact room inventory: Unknown — inquire",
       "food_requirement": null,
       "bar_requirement": null,
@@ -120913,7 +121037,10 @@
       },
       "capacity_description": "Unknown — inquire",
       "generic_capacity": null,
-      "seated_capacity": null
+      "seated_capacity": null,
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "675 E EMPIRE ST, SAN JOSE, CA, 95112",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Bascom Community Center",
@@ -120935,10 +121062,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 37.307829026641,
+      "lng": -121.931697443849,
       "address": "1000 S. Bascom Ave., San José, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": "City-wide rental guidance lists tables/chairs; AV and kitchens vary by room. Exact room inventory: Unknown — inquire",
       "food_requirement": null,
       "bar_requirement": null,
@@ -121204,7 +121331,10 @@
       },
       "capacity_description": "Unknown — inquire",
       "generic_capacity": null,
-      "seated_capacity": null
+      "seated_capacity": null,
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "1000 S BASCOM AVE, SAN JOSE, CA, 95128",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Berryessa Community Center",
@@ -121226,10 +121356,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 37.392798964449,
+      "lng": -121.849658029078,
       "address": "3050 Berryessa Rd., San José, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": "City-wide rental guidance lists tables/chairs; AV and kitchens vary by room. Exact room inventory: Unknown — inquire",
       "food_requirement": null,
       "bar_requirement": null,
@@ -121495,7 +121625,10 @@
       },
       "capacity_description": "Unknown — inquire",
       "generic_capacity": null,
-      "seated_capacity": null
+      "seated_capacity": null,
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "3050 BERRYESSA RD, SAN JOSE, CA, 95132",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Berryessa Youth Center",
@@ -121517,10 +121650,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 37.410355002136,
+      "lng": -121.871119285151,
       "address": "1970 Morrill Ave. , San José, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": "City-wide rental guidance lists tables/chairs; AV and kitchens vary by room. Exact room inventory: Unknown — inquire",
       "food_requirement": null,
       "bar_requirement": null,
@@ -121786,7 +121919,10 @@
       },
       "capacity_description": "Unknown — inquire",
       "generic_capacity": null,
-      "seated_capacity": null
+      "seated_capacity": null,
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "1970 MORRILL AVE, SAN JOSE, CA, 95132",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Camden Community Center",
@@ -121808,10 +121944,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 37.263889156862,
+      "lng": -121.931507796445,
       "address": "3369 Union Ave, San José, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": "City-wide rental guidance lists tables/chairs; AV and kitchens vary by room. Exact room inventory: Unknown — inquire",
       "food_requirement": null,
       "bar_requirement": null,
@@ -122077,7 +122213,10 @@
       },
       "capacity_description": "Unknown — inquire",
       "generic_capacity": null,
-      "seated_capacity": null
+      "seated_capacity": null,
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "3369 UNION AVE, SAN JOSE, CA, 95124",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Capitol Park",
@@ -122099,10 +122238,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 37.350844323424,
+      "lng": -121.833872473208,
       "address": "800 Peter Pan Ave. , San José, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": "City-wide rental guidance lists tables/chairs; AV and kitchens vary by room. Exact room inventory: Unknown — inquire",
       "food_requirement": null,
       "bar_requirement": null,
@@ -122368,7 +122507,10 @@
       },
       "capacity_description": "Unknown — inquire",
       "generic_capacity": null,
-      "seated_capacity": null
+      "seated_capacity": null,
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "800 PETER PAN AVE, SAN JOSE, CA, 95116",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Cypress Community Center",
@@ -122681,10 +122823,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 37.269128175065,
+      "lng": -121.813041224848,
       "address": "330 Branham Ln E., San José, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": "City-wide rental guidance lists tables/chairs; AV and kitchens vary by room. Exact room inventory: Unknown — inquire",
       "food_requirement": null,
       "bar_requirement": null,
@@ -122950,7 +123092,10 @@
       },
       "capacity_description": "Unknown — inquire",
       "generic_capacity": null,
-      "seated_capacity": null
+      "seated_capacity": null,
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "330 BRANHAM LN E, SAN JOSE, CA, 95111",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Emma Prusch Farm Park",
@@ -122972,10 +123117,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 37.342255860356,
+      "lng": -121.845514207924,
       "address": "647 S King Rd., San José, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": "City-wide rental guidance lists tables/chairs; AV and kitchens vary by room. Exact room inventory: Unknown — inquire",
       "food_requirement": null,
       "bar_requirement": null,
@@ -123241,7 +123386,10 @@
       },
       "capacity_description": "Unknown — inquire",
       "generic_capacity": null,
-      "seated_capacity": null
+      "seated_capacity": null,
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "647 S KING RD, SAN JOSE, CA, 95116",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Evergreen Community Center",
@@ -123263,10 +123411,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 37.299568970426,
+      "lng": -121.771443068213,
       "address": "4860 San Felipe Rd., San José, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": "City-wide rental guidance lists tables/chairs; AV and kitchens vary by room. Exact room inventory: Unknown — inquire",
       "food_requirement": null,
       "bar_requirement": null,
@@ -123532,7 +123680,10 @@
       },
       "capacity_description": "Unknown — inquire",
       "generic_capacity": null,
-      "seated_capacity": null
+      "seated_capacity": null,
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "4860 SAN FELIPE RD, SAN JOSE, CA, 95135",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Gardner Community Center",
@@ -123554,10 +123705,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 37.320042734977,
+      "lng": -121.895793313012,
       "address": "520 W. Virginia St. , San José, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": "City-wide rental guidance lists tables/chairs; AV and kitchens vary by room. Exact room inventory: Unknown — inquire",
       "food_requirement": null,
       "bar_requirement": null,
@@ -123823,7 +123974,10 @@
       },
       "capacity_description": "Unknown — inquire",
       "generic_capacity": null,
-      "seated_capacity": null
+      "seated_capacity": null,
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "520 WEST VIRGINIA ST, SAN JOSE, CA, 95125",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Hamann Neighborhood Center",
@@ -123845,10 +123999,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 37.305264754672,
+      "lng": -121.942268351401,
       "address": "2747 Westfield Ave.\n, San José, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": "City-wide rental guidance lists tables/chairs; AV and kitchens vary by room. Exact room inventory: Unknown — inquire",
       "food_requirement": null,
       "bar_requirement": null,
@@ -124114,7 +124268,10 @@
       },
       "capacity_description": "Unknown — inquire",
       "generic_capacity": null,
-      "seated_capacity": null
+      "seated_capacity": null,
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "2747 WESTFIELD AVE, SAN JOSE, CA, 95128",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Houge Park",
@@ -124136,10 +124293,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 37.256820394416,
+      "lng": -121.943490594874,
       "address": "3952 Twilight Dr. , San José, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": "City-wide rental guidance lists tables/chairs; AV and kitchens vary by room. Exact room inventory: Unknown — inquire",
       "food_requirement": null,
       "bar_requirement": null,
@@ -124405,7 +124562,10 @@
       },
       "capacity_description": "Unknown — inquire",
       "generic_capacity": null,
-      "seated_capacity": null
+      "seated_capacity": null,
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "3952 TWILIGHT DR, SAN JOSE, CA, 95124",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "JTS Northside Community Center",
@@ -124427,10 +124587,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 37.347102685602,
+      "lng": -121.891426147377,
       "address": "488 N. 6th St. , San José, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": "City-wide rental guidance lists tables/chairs; AV and kitchens vary by room. Exact room inventory: Unknown — inquire",
       "food_requirement": null,
       "bar_requirement": null,
@@ -124696,7 +124856,10 @@
       },
       "capacity_description": "Unknown — inquire",
       "generic_capacity": null,
-      "seated_capacity": null
+      "seated_capacity": null,
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "488 N 6TH ST, SAN JOSE, CA, 95112",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Leininger Community Center",
@@ -124718,10 +124881,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 37.325740937802,
+      "lng": -121.865530413203,
       "address": "1300 Senter Rd., San José, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": "City-wide rental guidance lists tables/chairs; AV and kitchens vary by room. Exact room inventory: Unknown — inquire",
       "food_requirement": null,
       "bar_requirement": null,
@@ -124987,7 +125150,10 @@
       },
       "capacity_description": "Unknown — inquire",
       "generic_capacity": null,
-      "seated_capacity": null
+      "seated_capacity": null,
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "1300 SENTER RD, SAN JOSE, CA, 95112",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Mayfair Community Center",
@@ -125009,10 +125175,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 37.351552073407,
+      "lng": -121.843278649623,
       "address": "2039 Kammerer Ave., San José, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": "City-wide rental guidance lists tables/chairs; AV and kitchens vary by room. Exact room inventory: Unknown — inquire",
       "food_requirement": null,
       "bar_requirement": null,
@@ -125278,7 +125444,10 @@
       },
       "capacity_description": "Unknown — inquire",
       "generic_capacity": null,
-      "seated_capacity": null
+      "seated_capacity": null,
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "2039 KAMMERER AVE, SAN JOSE, CA, 95116",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Olinder Neighborhood Center",
@@ -125300,10 +125469,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 37.33777321785,
+      "lng": -121.867487858894,
       "address": "848 E. William St., San José, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": "City-wide rental guidance lists tables/chairs; AV and kitchens vary by room. Exact room inventory: Unknown — inquire",
       "food_requirement": null,
       "bar_requirement": null,
@@ -125569,7 +125738,10 @@
       },
       "capacity_description": "Unknown — inquire",
       "generic_capacity": null,
-      "seated_capacity": null
+      "seated_capacity": null,
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "848 E WILLIAM ST, SAN JOSE, CA, 95116",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Roosevelt Community Center\n",
@@ -125591,10 +125763,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 37.344815090646,
+      "lng": -121.87250592766,
       "address": "901 E. Santa Clara St.\n, San José, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": "City-wide rental guidance lists tables/chairs; AV and kitchens vary by room. Exact room inventory: Unknown — inquire",
       "food_requirement": null,
       "bar_requirement": null,
@@ -125860,7 +126032,10 @@
       },
       "capacity_description": "Unknown — inquire",
       "generic_capacity": null,
-      "seated_capacity": null
+      "seated_capacity": null,
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "901 E SANTA CLARA ST, SAN JOSE, CA, 95116",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "San Tomas Community Center",
@@ -126173,10 +126348,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 37.284428851499,
+      "lng": -121.832703234654,
       "address": "3590 Cas Dr., San José, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": "City-wide rental guidance lists tables/chairs; AV and kitchens vary by room. Exact room inventory: Unknown — inquire",
       "food_requirement": null,
       "bar_requirement": null,
@@ -126442,7 +126617,10 @@
       },
       "capacity_description": "Unknown — inquire",
       "generic_capacity": null,
-      "seated_capacity": null
+      "seated_capacity": null,
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "3590 CAS DR, SAN JOSE, CA, 95111",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Southside Community Center",
@@ -126464,10 +126642,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 37.25319694324,
+      "lng": -121.803844433403,
       "address": "5585 Cottle Rd., San José, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": "City-wide rental guidance lists tables/chairs; AV and kitchens vary by room. Exact room inventory: Unknown — inquire",
       "food_requirement": null,
       "bar_requirement": null,
@@ -126733,7 +126911,10 @@
       },
       "capacity_description": "Unknown — inquire",
       "generic_capacity": null,
-      "seated_capacity": null
+      "seated_capacity": null,
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "5585 COTTLE RD, SAN JOSE, CA, 95123",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Vista Park Neighborhood Center",
@@ -126755,10 +126936,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 37.263537656037,
+      "lng": -121.848137149574,
       "address": "475 Hyde Park Dr., San José, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": "City-wide rental guidance lists tables/chairs; AV and kitchens vary by room. Exact room inventory: Unknown — inquire",
       "food_requirement": null,
       "bar_requirement": null,
@@ -127024,7 +127205,10 @@
       },
       "capacity_description": "Unknown — inquire",
       "generic_capacity": null,
-      "seated_capacity": null
+      "seated_capacity": null,
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "475 HYDE PARK DR, SAN JOSE, CA, 95136",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Washington United Youth Center",
@@ -127046,10 +127230,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 37.32218304823,
+      "lng": -121.879859728502,
       "address": "921 S. 1st St. , San José, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": "City-wide rental guidance lists tables/chairs; AV and kitchens vary by room. Exact room inventory: Unknown — inquire",
       "food_requirement": null,
       "bar_requirement": null,
@@ -127315,7 +127499,10 @@
       },
       "capacity_description": "Unknown — inquire",
       "generic_capacity": null,
-      "seated_capacity": null
+      "seated_capacity": null,
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "921 S 1ST ST, SAN JOSE, CA, 95110",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Welch Park",
@@ -127628,10 +127815,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 37.291204854378,
+      "lng": -121.888689469504,
       "address": "2175 Lincoln Ave., San José, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": "City-wide rental guidance lists tables/chairs; AV and kitchens vary by room. Exact room inventory: Unknown — inquire",
       "food_requirement": null,
       "bar_requirement": null,
@@ -127897,7 +128084,10 @@
       },
       "capacity_description": "Unknown — inquire",
       "generic_capacity": null,
-      "seated_capacity": null
+      "seated_capacity": null,
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "2175 LINCOLN AVE, SAN JOSE, CA, 95125",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Almaden Lake Amphitheater",
@@ -128210,10 +128400,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 37.338163163635,
+      "lng": -121.886224209159,
       "address": "200 East Santa Clara Street, San José, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": null,
       "food_requirement": null,
       "bar_requirement": null,
@@ -128487,7 +128677,10 @@
       },
       "capacity_description": "6,948-square-foot circular gallery; guest and dinner/dance layout capacity Unknown",
       "generic_capacity": null,
-      "seated_capacity": null
+      "seated_capacity": null,
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "200 E SANTA CLARA ST, SAN JOSE, CA, 95113",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Japanese Friendship Garden Regional Park",
@@ -128800,10 +128993,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 37.325740937802,
+      "lng": -121.865530413203,
       "address": "1300 Senter Road, San José, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": "15 round tables, 100 black chairs, optional 10 rectangular tables, parking and catering kitchen with warmers/freezer/refrigerator/prep sinks",
       "food_requirement": "Full event catering available; outside catering incurs additional fee, amount Unknown",
       "bar_requirement": null,
@@ -129077,7 +129270,10 @@
       },
       "capacity_description": "Current city detail: indoor/terrace seating 100; maximum occupancy 141. Additional lawn/tent by arrangement; dinner plus dance layout Unknown",
       "generic_capacity": 141,
-      "seated_capacity": 100
+      "seated_capacity": 100,
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "1300 SENTER RD, SAN JOSE, CA, 95112",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Kelley Park",
@@ -129681,10 +129877,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 37.342255860356,
+      "lng": -121.845514207924,
       "address": "647 South King Road, San José, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": "Open-air sculptural ceremony setting with restrooms and parking. Furniture inventory: Unknown — inquire",
       "food_requirement": null,
       "bar_requirement": null,
@@ -129963,7 +130159,10 @@
       },
       "capacity_description": "Published ceremony seating: 150. Reception/dinner capacity: Unknown — inquire",
       "generic_capacity": 150,
-      "seated_capacity": null
+      "seated_capacity": null,
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "647 S KING RD, SAN JOSE, CA, 95116",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Redwood Hall",
@@ -129984,10 +130183,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 37.401270914597,
+      "lng": -122.098457809443,
       "address": "201 S. Rengstorff Avenue, Mountain View, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": "Tables/chairs, AV equipment, catering kitchen, carpet floors and outdoor patio",
       "food_requirement": null,
       "bar_requirement": null,
@@ -130259,7 +130458,10 @@
       },
       "capacity_description": "Published maximum: 250. Seated dinner plus dance layout: Unknown — inquire",
       "generic_capacity": 250,
-      "seated_capacity": null
+      "seated_capacity": null,
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "201 S RENGSTORFF AVE, MOUNTAIN VIEW, CA, 94040",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Historic Adobe Building",
@@ -131704,10 +131906,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 37.387102956483,
+      "lng": -121.946810559384,
       "address": "3595 MacGregor Lane, Santa Clara, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": null,
       "food_requirement": "City publishes approved caterer/equipment-vendor lists; exclusivity and approval process for other vendors Unknown — inquire",
       "bar_requirement": null,
@@ -131972,7 +132174,10 @@
       },
       "capacity_description": "Published maximum120; seated dinner/dance layout Unknown",
       "generic_capacity": 120,
-      "seated_capacity": null
+      "seated_capacity": null,
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "3595 MACGREGOR LN, SANTA CLARA, CA, 95054",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Maywood Park Building",
@@ -131993,10 +132198,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 37.331308105185,
+      "lng": -121.989068715203,
       "address": "3330 Pruneridge Avenue, Santa Clara, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": null,
       "food_requirement": "City publishes approved caterer/equipment-vendor lists; exclusivity and approval process for other vendors Unknown — inquire",
       "bar_requirement": null,
@@ -132261,7 +132466,10 @@
       },
       "capacity_description": "Published maximum60; seated dinner/dance layout Unknown",
       "generic_capacity": 60,
-      "seated_capacity": null
+      "seated_capacity": null,
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "3330 PRUNERIDGE AVE, SANTA CLARA, CA, 95051",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Westwood Oaks Park Building",
@@ -132282,10 +132490,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 37.329932250579,
+      "lng": -122.000082497308,
       "address": "460 La Herran Drive, Santa Clara, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": null,
       "food_requirement": "City publishes approved caterer/equipment-vendor lists; exclusivity and approval process for other vendors Unknown — inquire",
       "bar_requirement": null,
@@ -132550,7 +132758,10 @@
       },
       "capacity_description": "Published maximum60; seated dinner/dance layout Unknown",
       "generic_capacity": 60,
-      "seated_capacity": null
+      "seated_capacity": null,
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "460 LA HERRAN DR, SANTA CLARA, CA, 95051",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Multi-Purpose Room",
@@ -132571,10 +132782,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 37.359183658818,
+      "lng": -121.945255671997,
       "address": "750 Reed Street, Santa Clara, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": null,
       "food_requirement": "City publishes approved caterer/equipment-vendor lists; exclusivity and approval process for other vendors Unknown — inquire",
       "bar_requirement": null,
@@ -132839,7 +133050,10 @@
       },
       "capacity_description": "Published maximum50; seated dinner/dance layout Unknown",
       "generic_capacity": 50,
-      "seated_capacity": null
+      "seated_capacity": null,
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "750 REED ST, SANTA CLARA, CA, 95050",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Multi-Purpose Room",
@@ -134014,10 +134228,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 37.366907669439,
+      "lng": -121.986102729928,
       "address": "3250 Monroe Street, Santa Clara, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": null,
       "food_requirement": "City publishes approved caterer/equipment-vendor lists; exclusivity and approval process for other vendors Unknown — inquire",
       "bar_requirement": null,
@@ -134282,7 +134496,10 @@
       },
       "capacity_description": "350fixed theatre seats; seated reception/dinner capacity Unknown",
       "generic_capacity": null,
-      "seated_capacity": null
+      "seated_capacity": null,
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "3250 MONROE ST, SANTA CLARA, CA, 95051",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Arbor picnic areas",
@@ -134303,10 +134520,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 37.339140105202,
+      "lng": -121.977122078806,
       "address": "909 Kiely Boulevard, Santa Clara, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": null,
       "food_requirement": "City publishes approved caterer/equipment-vendor lists; exclusivity and approval process for other vendors Unknown — inquire",
       "bar_requirement": "Beer/wine/champagne only if permitted when reopened",
@@ -134571,7 +134788,10 @@
       },
       "capacity_description": "Published maximum250; seated dinner/dance layout Unknown",
       "generic_capacity": 250,
-      "seated_capacity": null
+      "seated_capacity": null,
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "909 KIELY BLVD, SANTA CLARA, CA, 95051",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Pavilion picnic areas",
@@ -134592,10 +134812,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 37.339140105202,
+      "lng": -121.977122078806,
       "address": "909 Kiely Boulevard, Santa Clara, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": null,
       "food_requirement": "City publishes approved caterer/equipment-vendor lists; exclusivity and approval process for other vendors Unknown — inquire",
       "bar_requirement": "Beer/wine/champagne only if permitted when reopened",
@@ -134860,7 +135080,10 @@
       },
       "capacity_description": "Published maximum150; seated dinner/dance layout Unknown",
       "generic_capacity": 150,
-      "seated_capacity": null
+      "seated_capacity": null,
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "909 KIELY BLVD, SANTA CLARA, CA, 95051",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Homeridge picnic areas",
@@ -134881,10 +135104,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 37.335167290986,
+      "lng": -121.981413498913,
       "address": "2985 Stevenson Street, Santa Clara, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": null,
       "food_requirement": "City publishes approved caterer/equipment-vendor lists; exclusivity and approval process for other vendors Unknown — inquire",
       "bar_requirement": "No alcohol permitted",
@@ -135149,7 +135372,10 @@
       },
       "capacity_description": "Published maximum75; seated dinner/dance layout Unknown",
       "generic_capacity": 75,
-      "seated_capacity": null
+      "seated_capacity": null,
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "2985 STEVENSON ST, SANTA CLARA, CA, 95051",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     },
     {
       "name": "Lick Mill picnic areas",
@@ -135459,10 +135685,10 @@
         "event/music/bar/cleanup deadlines",
         "current contract terms"
       ],
-      "lat": null,
-      "lng": null,
+      "lat": 37.387102956483,
+      "lng": -121.946810559384,
       "address": "3595 MacGregor Lane, Santa Clara, CA",
-      "location_source": null,
+      "location_source": "https://geocoding.geo.census.gov/geocoder/",
       "included_items": null,
       "food_requirement": "City publishes approved caterer/equipment-vendor lists; exclusivity and approval process for other vendors Unknown — inquire",
       "bar_requirement": "No alcohol permitted",
@@ -135727,11 +135953,14 @@
       },
       "capacity_description": "Published maximum40; seated dinner/dance layout Unknown",
       "generic_capacity": 40,
-      "seated_capacity": null
+      "seated_capacity": null,
+      "location_checked_utc": "2026-10-11T06:04:56.517953+00:00",
+      "location_matched_address": "3595 MACGREGOR LN, SANTA CLARA, CA, 95054",
+      "location_method": "Exact Census street-address match with matching state and county; approximate address-range point, not room or entrance"
     }
   ],
   "coverage": "Sixteen documented discovery/fact-check passes; inventory incomplete, evidence gaps retained",
-  "checked_utc": "2026-10-11T05:50:52.731703+00:00",
+  "checked_utc": "2026-10-11T06:04:56.517953+00:00",
   "counties": {
     "type": "FeatureCollection",
     "features": [
@@ -327807,7 +328036,8 @@
     "Government operating rights": "# Public rental versus operating rights\n\nA one-event rental does not grant commercial control, subletting or ongoing venue operations. Ask for the actual lease, license or concession instrument, permitted uses, term/renewal, fees, restrictions, maintenance, insurance and improvement obligations.\n\n[East Bay Parks 2025 catering RFP](https://www.ebparks.org/sites/default/files/RFP-Caterering-Reservable-Facilities.pdf): historical proposal deadline February10,2025; nonexclusive catering, term ending December31,2026, no leasehold rights. It required an established business and three years of comparable experience; social-event fees were11.5% of pre-tax food/beverage sales. This is catering authorization, not a venue lease. Current procurement/award status must be checked separately.\n\nSee the Ardenwood case study for an actual event-concession transition and historical sales evidence. Neither old RFP is presented as an available Bay Leaf opportunity.\n",
     "Permission and operating rights": "# Permission to hold a wedding versus operate a venue\nSource check: October 11, 2026. This is a research screen, not a property-specific approval. Record the actual jurisdiction, parcel and permit conditions before treating a candidate as feasible.\n\n| Question | Evidence to request |\n|---|---|\n| Can this exact property host our wedding? | Written confirmation of ceremony/reception use, rooms/grounds, guest layout, date and all deadlines. |\n| Can Bay Leaf operate recurring paid weddings here? | Current land-use entitlement, allowed annual event count, operator/ownership conditions, commercial lease or concession rights, and any required amendments. |\n| Does outside catering remove venue responsibilities? | Health department classification, food-service infrastructure/plan check, licensed caterer, water/waste/handwashing and permitted alcohol-service plan. |\n| Can music run to midnight? | Separate indoor/outdoor amplified-sound limits, permit conditions, contract cutoff and cleanup deadline. An access window is insufficient. |\n\n## Sonoma County: verified current periodic-event pathway\nPermit Sonoma's current guidance confirms that the Board adopted the update December 9, 2025, effective June 9, 2026. Its linked consolidated code, displayed as the September 25, 2026 current version, includes the adopted amendments in section 26-22-120. This resolves the earlier draft-versus-adopted verification gap. [Current Permit Sonoma guidance](https://permitsonoma.org/specialeventpermits) · [Current zoning code, section 26-22-120](https://library.municode.com/ca/sonoma_county/codes/code_of_ordinances?nodeId=CH26SOCOZORE_ART22REEDPUASUSST_S26-22-120PESPEV).\n\nThe periodic-event pathway allows up to four events on a site in two years. Events at least 30 days apart require separate zoning permits. The attendee cap is 2,500 at any one time, with a specified public-right-of-way/encroachment-permit exception. The code also excludes qualifying events entirely within appropriately permitted buildings and events within the approved use of fairgrounds/outdoor spectator facilities. **Do not apply the occasional-event limit to every approved venue without examining its actual entitlement.** The earlier county staff report separately says winery agricultural promotional standards are unaffected. [County staff report](https://sonoma-county.legistar.com/LegislationDetail.aspx?GUID=3795E6F1-7701-4414-AB81-C8BB81143BC1&ID=7768001).\n\nFor Bay Leaf, the occasional-event allowance alone cannot support a recurring wedding business. Check the parcel's approved use and commercial operating rights first. The code's agricultural-district restrictions and other applicable approvals remain separate. A public rental or wedding advertisement does not establish permission to lease and operate the property commercially.\n\nThe current application guidance requests submissions at least 60 days before an event. Noise follows the county general plan; the 7 AM–11 PM window in the code is one condition of a narrow exclusion, **not a universal licensed venue cutoff**. Music, overnight accommodations, food, tents and associated activities may trigger additional review. The code requires neighborhood notice at least ten days before the event. State and county regional parks use their own agencies' event-permit pathways rather than Permit Sonoma's. Property-specific permission, event frequency and actual indoor/outdoor deadlines remain Unknown until verified.\n\nEvidence checked October 11, 2026 UTC (October 10 Pacific): current agency page and consolidated code reviewed in the live browser; displayed text saved locally. The final signed ordinance document itself was not downloaded, but current agency confirmation and enacted codified text were verified.\n\n## Napa County: temporary-event exemption does not authorize wedding use\nThe September 23, 2025 staff report on proposed temporary-event changes says weddings and private parties are outside that temporary-event category and fall under other county provisions. Winery marketing is separately defined and subordinate to wine production. This is not permission to turn an agricultural winery into a wedding business. [County report](https://napa.legistar.com/LegislationDetail.aspx?FullText=1&GUID=74AAFD7E-5036-4DBF-A49B-C4EDD4C68308&ID=7663685&Options=&Search=).\n\nVerification gap: final adoption/current code and each property's grandfathered or approved uses remain unverified. Distinguish unincorporated county land from incorporated cities; keep candidate wedding permission Unknown until property-specific evidence supports it.\n\n## Marin County: identify the actual food-service model\nMarin's guidance, updated May 19, 2026, requires a current annual caterer health permit. A host-facility permit applies to a defined model involving direct public sales and venue infrastructure. Its four-hours-in-twelve operational limit is not a blanket four-hour limit on all weddings. The page says that host permit is unnecessary when vendors use none of the venue kitchen, refrigeration, storage, warewashing or other food-service infrastructure. Zoning, fire and other food/alcohol requirements still need their own assessment. [Marin Environmental Health](https://www.marincounty.gov/departments/cda/env-health-svcs/prgm-food/catering-host-facilities).\n\n## Berkeley: current application availability matters\nAs checked October 11, 2026, Berkeley's official page says new or expanded 2026 special-event applications are no longer accepted; returning/already-queued events are unaffected and 2027 applications are accepted. Its described pathway concerns city street/park events. This does not establish that all private indoor weddings or ordinary facility rentals are unavailable. [City event permits](https://berkeleyca.gov/city-services/event-permits-rentals/special-event-permits).\n\n## Research action\nFor each serious candidate, request the actual permit and operating contract as well as the customer wedding brochure. Track lawful event frequency, commercial-use rights, caterer infrastructure and sound deadlines independently. Preserve the distinction between rental permission and permission to run Bay Leaf there.\n",
     "Discovery audit — Pass 15": "# Pass 15: Western Contra Costa municipal rentals\n\nQuestion: What other western Contra Costa municipal halls, clubhouses and auditorium rooms have we missed?\n\n22 distinct space records added under shared parent buildings. Census incomplete.\n\nRichmond capacity PDF visually checked: Main Floor650tables/chairs versus1800standing, not equivalent. Bermuda200tables versus170chairs contradiction flagged. El Cerrito current30Castro versus2020policy32 discrepancy retained. Linked2020music sunset restriction kept separate from10pmdeparture; no midnight claim. Sonoma current agency/code verified separately, no new venues counted for legal research.\n\nSources:\n- https://elcerrito.gov/619/Facility-Rental\n- https://elcerrito.gov/DocumentCenter/View/13871/Clubhouse-Rental-Conditions-2020-Fillable\n- https://www.ci.richmond.ca.us/3094/Forms\n- https://www.ci.richmond.ca.us/DocumentCenter/View/41536/Convention-Center-Room-Capacity\n- https://www.ci.richmond.ca.us/DocumentCenter/View/56865/Community-Center-Rates\n\nRemaining: Richmond current site closures, comprehensive2026rates, restaurant/faith/private operators; El Cerrito picnic inventory, current signed policies; Hercules authoritative full inventory.",
-    "Discovery audit — Pass 16": "# Pass 16: South Bay municipal and wedding park inventory\n\nWhat other Santa Clara County municipal centers, civic buildings and wedding park sites have we missed?\n\n56 discovery records added; census incomplete.\n\nDirect downloads returned 403, but live primary pages worked; visible text and inventories saved.\n\nTea House currently lists occupancy 141 and seating 100 versus older policy total 120; conflict and booking closure retained.\n\nThe Last Barn is an open-air sculpture with ceremony seating 150, rather than an enclosed barn.\n\nSanta Clara prohibits profit-making events under ordinary rentals; customer recreation rental does not establish a commercial operating lease.\n\nSanta Clara approved caterer list recorded. Maywood and Westwood party reservations end at 5 PM, separately from the general 10 PM window.\n\nSources:\n- https://www.sanjoseca.gov/your-government/departments-offices/parks-recreation-neighborhood-services/rentals-and-events/facility-room-rentals\n- https://www.sanjoseca.gov/your-government/departments-offices/parks-recreation-neighborhood-services/rentals-and-events/wedding-sites\n- https://www.santaclaraca.gov/our-city/departments-g-z/parks-recreation/reservations-and-permits\n- https://www.mountainview.gov/our-city/departments/community-services/recreation/facilities-rentals/historic-adobe-building\n- https://www.mountainview.gov/Home/Components/FacilityDirectory/FacilityDirectory/114/735\n\nRemaining: Room-specific SanJosé layouts/policies/costs; MountainViewSeniorCenter and remaining rooms; private/college/faith operators; exact site permits, pricing, reviews, history and valuations."
+    "Discovery audit — Pass 16": "# Pass 16: South Bay municipal and wedding park inventory\n\nWhat other Santa Clara County municipal centers, civic buildings and wedding park sites have we missed?\n\n56 discovery records added; census incomplete.\n\nDirect downloads returned 403, but live primary pages worked; visible text and inventories saved.\n\nTea House currently lists occupancy 141 and seating 100 versus older policy total 120; conflict and booking closure retained.\n\nThe Last Barn is an open-air sculpture with ceremony seating 150, rather than an enclosed barn.\n\nSanta Clara prohibits profit-making events under ordinary rentals; customer recreation rental does not establish a commercial operating lease.\n\nSanta Clara approved caterer list recorded. Maywood and Westwood party reservations end at 5 PM, separately from the general 10 PM window.\n\nSources:\n- https://www.sanjoseca.gov/your-government/departments-offices/parks-recreation-neighborhood-services/rentals-and-events/facility-room-rentals\n- https://www.sanjoseca.gov/your-government/departments-offices/parks-recreation-neighborhood-services/rentals-and-events/wedding-sites\n- https://www.santaclaraca.gov/our-city/departments-g-z/parks-recreation/reservations-and-permits\n- https://www.mountainview.gov/our-city/departments/community-services/recreation/facilities-rentals/historic-adobe-building\n- https://www.mountainview.gov/Home/Components/FacilityDirectory/FacilityDirectory/114/735\n\nRemaining: Room-specific SanJosé layouts/policies/costs; MountainViewSeniorCenter and remaining rooms; private/college/faith operators; exact site permits, pricing, reviews, history and valuations.",
+    "Hayes Mansion sale and audited operations": "# Hayes Mansion: historical sale and audited operations\nChecked October 11, 2026. This is a historical hotel/conference-center case, not a current valuation or wedding-only business forecast.\n\n| Audited metric, July 1, 2018–February 4, 2019 | Amount |\n|---|---:|\n| Operating revenue | $8,815,025 |\n| Operating expenses | $8,634,390 |\n| Operating income | $180,635 |\n| Operating cash flow | −$18,672 |\n| Change in net position | −$1,225,570 |\n\nThe audit records a $30 million contractual base consideration for improved real property plus related rights, personal and intangible assets, subject to inventory/receivable/closing adjustments. Sale finalized February 4, 2019; city ownership/operation ended effective February 5. Asset allocation and final net proceeds remain unverified. Do not label this as a $30 million property-only value or add a separate business valuation.\n\nThe operating statements exclude buildings, improvements and related debt held elsewhere in city accounts. Accounting operating income therefore does not establish investment return or current NOI. No annualization or capitalization is applied. [Original city audit, pages 4–6 and 12](https://www.sanjoseca.gov/home/showpublisheddocument/39186/637049316526000000).\n\nThe operator dates mansion completion to 1905 and conference-center opening to 1994. Neither establishes wedding-opening date or current operator tenure. [Operator history](https://www.hayesmansion.com/our-story/history/).\n\nCurrent APNs, ownership, property value, business value and earnings: Unknown — verify.\n"
   },
   "pricing_method": "Keep package, venue-only and total costs separate. Derived venue cost per head is published venue fee divided by a user-selected guest count; it is not an all-in wedding quote. Null means unknown. Taxes, service fees, minimums and exclusions require written terms.",
   "criteria": {
@@ -333187,5 +333417,5 @@
   ],
   "census_method": "Discovery records include individual spaces, properties and aggregate site groups. Parent names prevent counting each room as a new venue property. These are source-reviewed leads, not complete feasibility or availability checks. Blank facts are unknown, not no or zero. Unknown geocodes stay off the map. Municipality coverage marks work still pending.",
   "review_method": "Review search links are discovery aids, not verified venue listings. Match exact property/room and address before recording a rating, review count, direct listing URL and checked date. Scores from different platforms must not be merged; reviews of a park or restaurant are not necessarily wedding reviews.",
-  "map_method": "Approximate source-address coordinates; Census exact address matches require matching county. These are not surveyed venue entrances. Unknown locations are not replaced by county centroids."
+  "map_method": "84 records have sourced approximate coordinates. Exact Census street-address matches require matching state and county; address-range points are not surveyed entrances or individual room locations. Rooms on one campus may share points. Unknown, tied and non-exact locations are held; no county centroids."
 }
