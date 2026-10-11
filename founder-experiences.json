@@ -1,5 +1,5 @@
 {
-  "coverage": "Five initial written sources; incomplete and success/promotional bias acknowledged",
+  "coverage": "Nine reading records; eight operator accounts/interviews and one coach show-note resource. Incomplete; promotional/success bias remains.",
   "records": [
     {
       "author": "Karri Jablonski",
@@ -85,6 +85,74 @@
       "review_status": "Written source reviewed",
       "startup_cost": null,
       "profit": null
+    },
+    {
+      "author": "Dwaine and Terran Evans; interviewed by Didi Russell",
+      "venue": "Eastern Grace Events",
+      "title": "Wedding Venue Stories, Eastern Grace Events",
+      "url": "https://weddingvenueowners.com/wedding-venue-stories-eastern-grace-events/",
+      "published": "2021-05-12",
+      "date_status": "Displayed original post date",
+      "geography": "Kentucky, US",
+      "type": "Firsthand operator interview",
+      "summary": "Owners describe a2019 build, March2020 construction completion and delayed first weddings in August2020. Recommend buffer time before booking promised opening dates, researching negative competitor reviews, and investing in cleaning equipment.",
+      "commercial_context": "Venue-owner education site promotes tours/coaching; opening dates and lessons self-reported, no audited finances",
+      "checked_utc": "2026-10-11T05:02:48.563107+00:00",
+      "review_status": "Written source reviewed",
+      "startup_cost": null,
+      "profit": null,
+      "updated_date": null
+    },
+    {
+      "author": "Sorella Farms owners (individual names unknown); interviewed by Alina Thomas",
+      "venue": "Sorella Farms",
+      "title": "Sorella Farms: A Virginia Barn Wedding Venue in Evington, VA",
+      "url": "https://alinathomas.com/sorella-farms/",
+      "published": "2014-05-02",
+      "updated_date": "2024-02-10",
+      "date_status": "Original article:published_time and datePublished metadata; update separately dateModified",
+      "geography": "Virginia, US",
+      "type": "Firsthand operator interview",
+      "summary": "Family operators describe converting a multigenerational farm into an event business, complementary family skills and the importance of customer care. Historical venue descriptions and guest counts are not current operating evidence.",
+      "commercial_context": "Photographer marketing interview; original2014 account, not a current financial case study",
+      "checked_utc": "2026-10-11T05:02:48.563107+00:00",
+      "review_status": "Written source reviewed",
+      "startup_cost": null,
+      "profit": null
+    },
+    {
+      "author": "Blackbrook Barns operating team (individual byline unknown)",
+      "venue": "Blackbrook Barns",
+      "title": "Our First Year of Owning a Wedding Venue",
+      "url": "https://www.blackbrookbarns.co.uk/blog/our-first-year-of-owning-a-wedding-venue",
+      "published": "2026-08-03",
+      "date_status": "Displayed original post date",
+      "geography": "Lichfield / Staffordshire, England",
+      "type": "Firsthand operating-team blog",
+      "summary": "First-year reflection stresses trained managers, cleaners, bar/setup staff, reliable suppliers, flexible communication and robust wet-weather plans. Useful counterpoint to a hands-off venue assumption; staffing costs are not disclosed.",
+      "commercial_context": "Promotional team account; ownership and financial performance not independently verified",
+      "checked_utc": "2026-10-11T05:02:48.563107+00:00",
+      "review_status": "Written source reviewed",
+      "startup_cost": null,
+      "profit": null,
+      "updated_date": null
+    },
+    {
+      "author": "Lindsay Lucas; podcast cohost Kinsey Roberts",
+      "venue": "Multiple / not one named venue",
+      "title": "Before You Break Ground: The7Mistakes First-Time Venue Owners Make",
+      "url": "https://thevenuepodcast.libsyn.com/before-you-break-ground-the-7-mistakes-first-time-venue-owners-make",
+      "published": "2025-07-14",
+      "date_status": "Displayed original episode date",
+      "geography": "US; specific jurisdiction unknown",
+      "type": "Coach / educator podcast — show notes only",
+      "summary": "Show notes identify market research, phased launch, real economics, location, operations and pre-opening marketing. Coaching resource, not a firsthand failure case. Audio/transcript has not been reviewed.",
+      "commercial_context": "Promotes consulting and paid resources; keep separate from verified owner case studies",
+      "checked_utc": "2026-10-11T05:02:48.563107+00:00",
+      "review_status": "Written page / metadata reviewed; audio not reviewed",
+      "startup_cost": null,
+      "profit": null,
+      "updated_date": null
     }
   ]
 }
