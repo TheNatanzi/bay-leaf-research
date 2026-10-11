@@ -885,7 +885,11 @@
     "source_urls": [
       "https://www.cityofdixonca.gov/facilityreservations",
       "https://bellavista-farms.com/",
-      "https://bellavista-farms.com/the-venue"
+      "https://bellavista-farms.com/the-venue",
+      "https://vfw8151.org/di/vfw/v2/default.asp?pid=122920",
+      "https://www.cityofdixonca.gov/ResourceDirectory",
+      "https://www.cityofdixonca.gov/media/Agenda%20Items/20220419/10.3%20Combined.pdf",
+      "https://solano.legistar.com/View.ashx?GUID=3E4EBAC1-739A-4044-92B7-08081E628149&ID=1423323&M=PA"
     ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
@@ -899,7 +903,14 @@
       "https://www.solanocemeteries.us/rockville-cemetery-stone-chapel",
       "https://www.solanocemeteries.us/files/30dead4bc/Stone%2BChapel%2BRental%2BInfo-Weddings%2Band%2BSaturdays.pdf",
       "https://www.caymus-suisun.com/private-events/",
-      "https://solano.legistar.com/LegislationDetail.aspx?FullText=1&GUID=E10218B2-01B5-4ACD-BBD8-C3A6414A9807&ID=3160719"
+      "https://solano.legistar.com/LegislationDetail.aspx?FullText=1&GUID=E10218B2-01B5-4ACD-BBD8-C3A6414A9807&ID=3160719",
+      "https://vezer.com/venue-rental/",
+      "https://vezer.com/",
+      "https://vezer.com/lodging/",
+      "https://vezer.com/about/",
+      "https://www.zola.com/wedding-vendors/wedding-venues/vezer-family-vineyard-blue-victorian-barrel-room",
+      "https://www.commercialsearch.com/commercial-property/us/ca/fairfield/5071-suisun-valley-rd/",
+      "https://www.commercialsearch.com/commercial-property/us/ca/fairfield/2522-mankas-corner-rd/"
     ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
@@ -908,7 +919,11 @@
     "municipality": "Rio Vista",
     "municipal_rental_status": "Not yet audited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
+    "source_urls": [
+      "https://solano.legistar.com/View.ashx?GUID=3E4EBAC1-739A-4044-92B7-08081E628149&ID=1423323&M=PA",
+      "https://igsberkeley.contentdm.oclc.org/digital/api/collection/p266301coll6/id/336/download",
+      "https://discoverriovista.com/wp-content/uploads/2021/12/DRV-Jan-Apr-2022-WEB.pdf"
+    ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
   {
@@ -917,7 +932,13 @@
     "municipal_rental_status": "Partial source review; additional facilities and current contracts pending",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
-      "https://www.suisun.com/Departments/Recreation-Parks-Marina/Nelson-Center"
+      "https://www.suisun.com/Departments/Recreation-Parks-Marina/Nelson-Center",
+      "https://suisunveteranshall.com/",
+      "https://suisunveteranshall.com/rates",
+      "https://suisunveteranshall.com/services",
+      "https://vfw2333.org/contact",
+      "https://solano.legistar.com/View.ashx?GUID=3E4EBAC1-739A-4044-92B7-08081E628149&ID=1423323&M=PA",
+      "https://igsberkeley.contentdm.oclc.org/digital/api/collection/p266301coll6/id/336/download"
     ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
