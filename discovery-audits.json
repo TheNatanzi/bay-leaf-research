@@ -1805,5 +1805,79 @@
       "Petaluma 2024 tourism PDF indexed but actual source404; no successful archive/current facts claimed. Original HTML downloads for current county pages successful200 despite web reader error; archived source and fetch log distinguish tool failures.",
       "No venue market/business valuation or competitor profits inferred from county aggregate operating results; infrastructure inventory does not establish sale availability or transferable lease."
     ]
+  },
+  {
+    "pass": 29,
+    "question": "What acquisition/lease or riverfront/inn/winery wedding possibilities were missed, and can asking prices, historical transaction estimates and dated permit evidence be mistaken for current value or rights?",
+    "scope": "Sonoma acquisition/lease and conversion leads, Hans Fahden wedding packages, Dawn Ranch valuation scope audit",
+    "completed_utc": "2026-10-11T08:41:00.486237+00:00",
+    "source_urls": [
+      "https://www.markwesteventcenter.com/",
+      "https://images1.showcase.com/d2/sCFejwaI5mEZePIWAvaDuBuBez95_WuzbdfrSQrJ02w/document.pdf",
+      "https://www.waterboards.ca.gov/waterrights/board_decisions/adopted_orders/orders/2016/wro2016_0014_dwr.pdf",
+      "https://www.resourcerock.com/river-view-garden-resort",
+      "https://www.jennerinn.com/",
+      "https://images1.showcase.com/d2/ZUwgRTtSiBopFUdBbg-nK-TNvIYEQf1y2sW8ZmsXZ38/document.pdf",
+      "https://www.loopnet.com/Listing/Jenner-Inn-Coast-Highway-Sale/36663601/",
+      "https://www.hansfahden.com/Host-Your-Wedding-Proposal-Parties",
+      "https://www.hansfahdenwedding.com/",
+      "https://www.hansfahdenwedding.com/_files/ugd/5ae0b6_5505eb951fce49c3b5b25ad2ba4ed8cb.pdf",
+      "https://sdwis.waterboards.ca.gov/PDWW/JSP/WaterSystemDetail.jsp?counter=0&tinwsys_is_number=14771&tinwsys_st_code=CA",
+      "https://permitsonoma.org/Microsites/Permit%20Sonoma/Documents/Archive/Planning/Project%20Review/EIRs/Henry-Cornell-Einery-Environmental-Impact_report-addendum.pdf",
+      "https://www.hansfahden.com/Elopements-Small-Weddings",
+      "https://lwhospitalityadvisors.com/wp-content/uploads/2023/03/Q2-2022-Sales.pdf",
+      "https://www.tidewatercap.com/listings/dawn-ranch"
+    ],
+    "added_record_ids": [
+      "mark-west-lodge-event-center-wedding-venue-sale-or-lease-lead-sonoma",
+      "river-view-garden-resort-potential-wedding-acquisition-lead-sonoma",
+      "jenner-inn-inn-restaurant-event-lawn-acquisition-lead-sonoma",
+      "hans-fahden-vineyards-wedding-offering-sonoma",
+      "hans-fahden-vineyards-2026-sweet-simple-small-wedding-package-sonoma"
+    ],
+    "updated_record_ids": [
+      "dawn-ranch-exclusive-wedding-weekend-package-sonoma",
+      "dawn-ranch-orchard-wedding-weekend-package-sonoma",
+      "dawn-ranch-weekday-wedding-package-sonoma",
+      "dawn-ranch-winter-wedding-package-sonoma",
+      "dawn-ranch-micro-wedding-package-sonoma",
+      "dawn-ranch-meadow-sonoma",
+      "dawn-ranch-orchard-sonoma",
+      "dawn-ranch-center-orchard-sonoma",
+      "dawn-ranch-lower-orchard-sonoma",
+      "dawn-ranch-crabapple-orchard-sonoma",
+      "dawn-ranch-kitchen-garden-sonoma",
+      "dawn-ranch-boathouse-lawn-sonoma",
+      "dawn-ranch-boathouse-deck-sonoma",
+      "dawn-ranch-band-shell-sonoma",
+      "dawn-ranch-sycamore-green-with-band-shell-sonoma",
+      "dawn-ranch-patio-sonoma"
+    ],
+    "duplicates_merged": [
+      "HansFahden two overlapping offerings, one property",
+      "Jenner portfolio not two additive venue properties",
+      "Dawn16existingconfigurations share one historical property-level estimate"
+    ],
+    "excluded": [
+      "Unverified Hanssaleprice and Moskowite/Fremont proposals held",
+      "No commercial Zillow estimates",
+      "No current wedding authority inferred from2014annualeventcount",
+      "No market value inferred from asking/estimated historic sale or broker revenue request"
+    ],
+    "remaining_gaps": [
+      "Ninecounty census incomplete",
+      "Current title/APNs/offerings and audited income/expenses",
+      "Current permits/amendments, complete quotes and dinner/dance layouts",
+      "Building history, exact opening/operator dates and independent review ratings"
+    ],
+    "fact_check_findings": [
+      "Mark West brochure sale$3m / lease$6kNNN monthly undated; current availability and operating rights Unknown. Operator200generic not300–400dinner.1840s vs1981 construction conflict held. Three broker parcels not current title. Historic water enforcement identifies parcel, not current compliance.",
+      "River View Garden Resort broker explicitly consult permitting for potential wedding/glamping use.1948 construction field/5.04acres/nineunits are broker claims; no price/earnings supplied, no valuation or permission invented.",
+      "Jenner asking conflict$3.6m brochure vs$2.99m listing; exact price chronology Unknown. Six parcel offer not two independent additive property valuations; current operatorsevenunits vsbrokersix/historicaldirectories20+ needs scope reconciliation. Current capacity/permission Unknown.",
+      "Hans Fahden site is Sonoma in state water registry, despite Napa marketing. Linked actual packet2020–21, not2026:100dinner,5–11PM event, all-service/vendor rules historical.2026smallpackage starts$2k/couple+12guests,2.5hrnotcutoff.",
+      "Henry Cornell EIR downloaded173pages, tablepage21visually reviewed.50annual events/19kcases uses June2014 county source, not current50weddings nor constructed production.1912estate/over25years undatedweddings cannot determine construction/opening.",
+      "LWHA actual38page compilation page7visually reviewed: header ESTIMATED sales price, Dawn$20.23m/Q22022/53keys. Not verified deed/currentvalue. Investor77keys20acres scope differs; repeatedroomrecordsdo notsum propertyprice.",
+      "Actual primary HTML/PDF sources archived with fetchlogs. LoopNet and Showcase direct403, primary broker PDF readable viaweb tool distinguished from successful actualdownload. RiverView operator timeout not closure proof. Unverified Moskowite/Fremont/Hanssale claims held outsideverified price data."
+    ]
   }
 ]
