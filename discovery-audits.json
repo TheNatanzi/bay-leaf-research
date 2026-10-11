@@ -1578,5 +1578,74 @@
       "Hornet booklet actual capacity tables reviewed: Flight 2,000 seated versus 3,000 reception; Hangar 1,600 versus 2,500; Bay 3 650 versus 1,200. Museum ship history and military ceremony conditions do not establish civilian wedding cutoff, property/title or business value.",
       "Actual source downloads/logs retained; Hiller/di Rosa/Hornet HTML 403 failures labeled, not claimed archived. Chabot 30-page current packet downloaded and held for separate detailed pass; no rushed room/package prices imported."
     ]
+  },
+  {
+    "pass": 26,
+    "question": "What Chabot spaces and overlapping wedding-package configurations were missed, and do the web, packet and whole-building capacities agree?",
+    "scope": "Chabot named rooms/levels, classrooms/labs, whole rental configurations and nine wedding packages; joint Waterbar/EPIC fact-check correction",
+    "completed_utc": "2026-10-11T08:07:16.182122+00:00",
+    "source_urls": [
+      "https://chabotspace.org/visit/rent-chabot/",
+      "https://chabotspace.org/visit/rent-chabot/venues/",
+      "https://chabotspace.org/wp-content/uploads/2026/09/Chabot_RentalsPacket-web_26-May-260508-Edited-1.pdf",
+      "https://chabotspace.org/visit/rent-chabot/corporateevents/",
+      "https://www.waterbarsf.com/private-dining/"
+    ],
+    "added_record_ids": [
+      "chabot-space-science-center-full-facility-excluding-planetarium-theater-and-telescopes-alameda",
+      "chabot-space-science-center-entire-spees-building-with-courtyard-alameda",
+      "chabot-space-science-center-spees-level-1-alameda",
+      "chabot-space-science-center-spees-level-2-alameda",
+      "chabot-space-science-center-pleiades-courtyard-alameda",
+      "chabot-space-science-center-planetarium-alameda",
+      "chabot-space-science-center-theater-alameda",
+      "chabot-space-science-center-studio-3-astronomy-hall-alameda",
+      "chabot-space-science-center-observatory-observation-deck-alameda",
+      "chabot-space-science-center-classroom-1-alameda",
+      "chabot-space-science-center-classroom-2-alameda",
+      "chabot-space-science-center-classroom-3-alameda",
+      "chabot-space-science-center-classroom-4-alameda",
+      "chabot-space-science-center-classrooms-3-4-joined-alameda",
+      "chabot-space-science-center-laboratory-1-alameda",
+      "chabot-space-science-center-laboratory-2-alameda",
+      "chabot-space-science-center-across-the-universe-package-alameda",
+      "chabot-space-science-center-written-in-the-stars-package-alameda",
+      "chabot-space-science-center-saturn-s-rings-package-alameda",
+      "chabot-space-science-center-moonlight-package-alameda",
+      "chabot-space-science-center-new-horizons-package-alameda",
+      "chabot-space-science-center-pleiades-package-alameda",
+      "chabot-space-science-center-open-sky-package-alameda",
+      "chabot-space-science-center-elopement-1-package-alameda",
+      "chabot-space-science-center-elopement-2-package-alameda"
+    ],
+    "updated_record_ids": [
+      "chabot-space-science-center-alameda",
+      "waterbar-epic-combined-offering-combined-waterbar-epic-full-property-san-francisco"
+    ],
+    "duplicates_merged": [
+      "Existing Chabot property enriched, retained as parent; rooms/packages overlap",
+      "Classrooms 3 and 4 joined overlaps individual rooms",
+      "Full facility and Spees configurations exclude or overlap other spaces; capacities not summed"
+    ],
+    "excluded": [
+      "Telescope per-show throughput and workshop throughput not additional wedding rooms",
+      "Elopement packages not 50-person dinner venues",
+      "Public telescope hours not private rental deadline",
+      "Conflicted seated capacities held out of numeric guest filters"
+    ],
+    "remaining_gaps": [
+      "Current signed quotes, occupancy/layout approval and event/music/bar/cleanup deadlines",
+      "Parcel/title, history, transfer/operating rights and property/business value evidence",
+      "All-nine-county inventory remains incomplete"
+    ],
+    "fact_check_findings": [
+      "Current primary Chabot packet explicitly identifies Studio 3 as 250 dining with dance floor and Observatory 150 reception with dance floor; whole campus 800 seats and Spees 450 are distributed, not single contiguous banquet layouts.",
+      "Conflicts retained: Spees Level 1 web 200 vs packet 150 seated; Level 2 100 vs 80; labs web 60 seated vs packet 45 seated/60 standing; corporate theater 204 vs venue/packet 205. Numeric conflicted counts held. Overview Spees $8,900 vs $9,500 entire building with courtyard requires scope/price confirmation.",
+      "Packages are overlapping combinations with 240/175/130/100 capacities, not summed room maxima. Written in Stars 240 is distributed cabaret. Elopements 50 are short ceremony/show packages, not dinner; no extra hours. December/holiday packages +15% separately from room tables.",
+      "Non-preferred catering adds $1,500 buyout and increases refundable security deposit to $1,500, not another $1,500 expense. Standard refundable security $1,000/classroom $200. Booking deposit 50% credited; cancellation returns fraction of deposit, not total fee; exact 150-day wording overlaps.",
+      "Formal dining furniture normally rented by caterer; venue coordinator not full planner. Venue rental includes regular evening security/parking/venue taxes-service, not external vendor fees. Exhibit access/setup 5PM, dock noon/staging 3PM not music cutoff. Fri/Sat Observatory 5–7PM private access including cleanup, public viewing afterward not private availability.",
+      "Waterbar/EPIC joint buyout corrected to Unknown joint bar/fees/hours; Waterbar-only terms not inherited onto sister restaurant.",
+      "Actual 30-page PDF downloaded and key price/capacity/contract pages visually reviewed. Original publication date Unknown; 2026–2027 is rate schedule label and September upload/filename not original date. No unverified property/business values or profits inferred."
+    ]
   }
 ]
