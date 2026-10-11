@@ -526849,7 +526849,7 @@
       }
     }
   ],
-  "coverage": "54 documented discovery/fact-check passes; incomplete inventory and verification",
+  "coverage": "55 documented discovery/fact-check audits, including 54 venue passes and a founder-library pass; incomplete inventory and verification",
   "checked_utc": "2026-10-11T12:39:40.727895+00:00",
   "counties": {
     "type": "FeatureCollection",
@@ -718976,7 +718976,9 @@
     "Discovery audit — Pass 52": "# Remaining East Bay picnic inventories and restrictions\n\nWhat other possible East Bay picnic sites were missed, and which site-specific catering, accessibility, closure and conflicting-capacity rules change wedding feasibility?\n\n72 additional named picnic sites across fifteen current district inventories. Combined passes 51–52 enumerate 130 named sites across 23 pages plus two required Roberts pairings. District FAQ headline says 139 reservable sites: discrepancy of nine unresolved; no complete district inventory claim.\n\nAll capacities are picnic-group maxima, not simultaneous banquet or dinner-plus-dance seating. Generic site addresses/park entrances are not precise configurations; no new map pins claimed. One site per event means picnic sites cannot be pooled for a larger wedding.\n\nArdenwood E-I-O explicitly prohibits caterers, BBQs, heat sources and modern recreation/decor. It is distinct from the farm wedding concession and may be unsuitable for the desired outside-vendor model.\n\nGarin dedicated headings list all four sites at 50. General park prose gives Buttonwood, Cattlemen’s and Ranchside 100; those three numeric capacities held Unknown with both statements preserved. Published 50-person fee tier is provisional, not guaranteed. Dry Creek Garden closure alert overrides stale opening schedule; picnic sites not assumed closed.\n\nMiller Knox and Shadow Cliffs prohibit alcohol. Crown Beach and Don Castro require reservation plus $25 beer/wine permit; spirits prohibited. All sites retain separate published venue-only rates plus mandatory $8 booking fee and refundable deposit; current quotes/complete costs Unknown.\n\nCastle Rock quarter-mile parking approach, MLK Bufflehead not wheelchair accessible, Lake Chabot uphill sites, Wildcat Bay toilets 550 feet away, Temescal Landvale freeway sound/views: access and experience may rule sites out before price comparison.\n\nTemescal current operator footbridge closure and swimming advisory separately flagged; neither is invented blanket picnic closure. Food-truck exception is North Temescal, not all five sites. Midnight event/music/cleanup permission remains unestablished.\n\nActual primary HTML/text/link archives and fetch logs retained for all fifteen pages. Building construction, wedding operation opening, commercial operating rights, APNs, property values and actual operating profits remain Unknown without separate evidence.\n\nSources:\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/ardenwood-picnic-areas\n- https://www.ebparks.org/recreation/picnics\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/castle-rock-diablo-foothills-picnic-areas#ct\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/castle-rock-diablo-foothills-picnic-areas\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/castle-rock-diablo-foothills-picnic-areas#cv\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/castle-rock-diablo-foothills-picnic-areas#eb\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/castle-rock-diablo-foothills-picnic-areas#fw\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/castle-rock-diablo-foothills-picnic-areas#pc\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/castle-rock-diablo-foothills-picnic-areas#po\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/castle-rock-diablo-foothills-picnic-areas#sg\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/castle-rock-diablo-foothills-picnic-areas#sc\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/coyote-hills\n- https://www.ebparks.org/recreation/picnics/crown-beach-picnic-areas#cv\n- https://www.ebparks.org/recreation/picnics/crown-beach-picnic-areas\n- https://www.ebparks.org/recreation/picnics/crown-beach-picnic-areas#cg\n- https://www.ebparks.org/recreation/picnics/crown-beach-picnic-areas#ml\n- https://www.ebparks.org/recreation/picnics/crown-beach-picnic-areas#n\n- https://www.ebparks.org/recreation/picnics/crown-beach-picnic-areas#sc\n- https://www.ebparks.org/recreation/picnics/crown-beach-picnic-areas#s\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/cull-canyon#c\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/cull-canyon\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/cull-canyon#f\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/cull-canyon#m\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/cull-canyon#dr\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/don-castro-picnic-areas#Siesta\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/don-castro-picnic-areas\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/don-castro-picnic-areas#Whispering\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/dumbarton-picnic-areas#ds\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/dumbarton-picnic-areas\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/dumbarton-picnic-areas#j\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/dumbarton-picnic-areas#m\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/dumbarton-picnic-areas#pt\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/dumbarton-picnic-areas#ac\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/garin-dry-creek-picnic-areas#Buttonwood\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/garin-dry-creek-picnic-areas\n- https://www.ebparks.org/parks/garin-dry-creek\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/garin-dry-creek-picnic-areas#Cattlemen\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/garin-dry-creek-picnic-areas#Pioneer\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/garin-dry-creek-picnic-areas#Ranchside\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/lake-chabot-picnic-areas#Cove\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/lake-chabot-picnic-areas\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/lake-chabot-picnic-areas#Elderberry\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/lake-chabot-picnic-areas#Heron\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/lake-chabot-picnic-areas#Mallard\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/lake-chabot-picnic-areas#Turtle\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/lake-chabot-picnic-areas#Willow\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/martin-luther-king-jr-picnic-areas\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/miller-knox-picnic-areas#Big\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/miller-knox-picnic-areas\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/miller-knox-picnic-areas#Canvasback\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/miller-knox-picnic-areas#Hills\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/miller-knox-picnic-areas#Killdeer\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/miller-knox-picnic-areas#Lagoon\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/miller-knox-picnic-areas#Marsh\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/miller-knox-picnic-areas#Pickleweed\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/miller-knox-picnic-areas#Pintail\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/miller-knox-picnic-areas#Sea\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/point-pinole-picnic-areas#Giant\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/point-pinole-picnic-areas\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/point-pinole-picnic-areas#Palms\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/point-pinole-picnic-areas#Shoreline\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/shadow-cliffs-picnic-areas#Fiesta\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/shadow-cliffs-picnic-areas\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/shadow-cliffs-picnic-areas#Lago\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/shadow-cliffs-picnic-areas#Lakeside\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/shadow-cliffs-picnic-areas#Marina\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/shadow-cliffs-picnic-areas#North\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/shadow-cliffs-picnic-areas#Seven\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/temescal-picnic-areas#Big\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/temescal-picnic-areas\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/temescal-picnic-areas#Landvale\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/temescal-picnic-areas#North\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/temescal-picnic-areas#Parkview\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/temescal-picnic-areas#Streamside\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/wildcat-canyon-picnic-areas#Acacia\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/wildcat-canyon-picnic-areas\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/wildcat-canyon-picnic-areas#Alvarado\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/wildcat-canyon-picnic-areas#Bay\n- https://www.ebparks.org/index%2Ephp/recreation/picnics/wildcat-canyon-picnic-areas#Elderberry",
     "Discovery audit — Pass 53": "# Solano golf, garden and county spaces\n\nWhich Solano golf clubhouses, conservatory gardens and county recreation rentals have been missed, and which marketing capacities or public hours overstate wedding suitability?\n\nNine named golf/conservatory/waterfront/Nature Center offerings; existing Lake Solano group enriched. Rancho full facility/rooms share property; Nature Center subareas overlap existing group, not nine standalone properties.\n\nBella Verdi current maximum 500 generic versus directory 440; TopKnot separate Paradise Valley maximum 180. No banquet or midnight claims imported from directory. Primary golf web-reader excerpts reviewed; direct HTML 403 logged.\n\nTarrega below-100 recommendation not legal maximum. $500/six hours with refundable $250 deposit; outside furniture/catering; add-ons separate. No-cooking versus optional grill ambiguity preserved. Six-hour duration not end clock.\n\nLake Solano actual linked 2024-effective three-page fee PDF: picnic tier over 500 still each pad maximum 250. No 500-person wedding seating inferred. Nature Center rental/room/patio/education fees do not establish wedding/commercial operating permission or complete quote.\n\nSandy Beach first-come tables; 8–6 day use/no entry final hour, public capacity closures stop delivery/dropoffs/re-entry. Strong-current swimming ban; campground 42 and 24-hour boat launch not wedding occupancy or midnight permission.\n\nActual county/conservatory HTML and both county fee PDFs archived; Lake PDF page 2 visually reviewed. Upcoming 2027 fee announcement not used as effective current prices. Reservation-host certificate failure logged; certificate validation not bypassed.\n\nFairfield-city.org 2026 wedding rental packet is Fairfield Ohio, excluded from California inventory. Construction and campground availability conflicts preserved; histories/parcel/values/business earnings remain Unknown.\n\nSources:\n- https://www.youngartistsconservatory.org/event-rental-space\n- https://fairfieldgolf.com/topknot-weddings-events/\n- https://fairfieldgolf.com/bella-verdi-weddings-events/\n- https://www.solanocounty.gov/government/resource-management/solano-county-parks/sandy-beach-park-campground\n- https://www.solanocounty.gov/government/resource-management/solano-county-parks/park-hours\n- https://content.solanocounty.gov/sites/default/files/2025-06/SBP_Fees_2024.pdf\n- https://www.solanocounty.gov/government/resource-management/solano-county-parks\n- https://www.solanocounty.gov/government/resource-management/solano-county-parks/lake-solano-county-park-campground\n- https://content.solanocounty.gov/sites/default/files/2025-06/LSP_Fees_2024.pdf",
     "Discovery audit — Pass 54": "# Acquisition and planning evidence\n\nWhat acquisition and planning-stage venue prospects were missed, and what evidence can support value without confusing asking price, broker estimates, approvals and verified profits?\n\nThree acquisition/planning leads; anonymous Alameda lead may overlap existing inventory and is not counted as a verified distinct property. Asking prices and broker allocations separated from independent appraisals/closed sales/tax assessment.\n\nMoskowite current MLS asks $75m for claimed multi-parcel 788-acre winery estate; single APN does not cover full estate. Land/business allocations, exact wedding permissions and profit remain Unknown. MLS year 1975 is property-level, not newly described wedding-structure age.\n\nAnonymous Alameda broker asks $16.5m while property/business estimates $12.3m/$4.5m sum $16.8m. Claimed licenses already included; no double counting. Revenue/NOI/pro forma values unverified; no competitor actual profit invented. Original posting and valuation date Unknown.\n\nNearby Pridmore property is a different 5.03-acre parcel, not Moskowite winery. County 2024 RECOMMENDED conditions: annual six events at 150/twelve at 60, 10PM event end except quiet cleanup, amplified sound inside approved enclosed buildings, overflow/shuttle over 60. Final adopted permit/current operation Unknown.\n\nActual MLS/BizBen/county HTML and 32-page recommended conditions PDF archived with fetch logs; PDF pages 6–7 visually reviewed. Web reader reported PDF unavailable but direct normal HTTPS fetch returned valid 200; certificate validation not bypassed. Broker HTML direct 403 logged.\n\nClosed-sales comps/assessor values/verified earnings and full parcel title schedule remain missing. No Zillow commercial business value, acreage-based permitted capacity, license premium stacking or capital budget inferred.\n\nSources:\n- https://about.mlslistings.com/property/ba326077400/6015-steele-canyon-rd-napa-ca-94558/17952197\n- https://burrisrealty.rereader.com/commercial-for-sale/6015-Steele-Canyon-Road-Napa-CA-94558-439347295\n- https://www.bizben.com/business-for-sale/banquet-hall-for-sale-in-bay-area-california-286519\n- https://napa.legistar.com/LegislationDetail.aspx?FullText=1&GUID=1C9E33E6-2211-41B6-9101-38CAC76EB914&ID=6661243\n- https://napa.legistar.com/View.ashx?GUID=C87B59FB-7A33-4EC4-BAC2-0E0941C7F664&ID=12911351&M=F",
-    "Acquisition evidence examples": "# Acquisition evidence: what the numbers mean\n\nChecked October 11, 2026. These are research examples, not recommended purchases or a capital budget.\n\n| Candidate | Evidence | What remains unknown |\n|---|---|---|\n| [Moskowite Estate](https://about.mlslistings.com/property/ba326077400/6015-steele-canyon-rd-napa-ca-94558/17952197) | $75m asking for a claimed 788-acre/13-parcel estate | Full title/parcel scope, separate property/business allocation, current issued wedding conditions and verified earnings |\n| [Anonymous Alameda hall](https://www.bizben.com/business-for-sale/banquet-hall-for-sale-in-bay-area-california-286519) | $16.5m combined asking; broker estimates $12.3m property + $4.5m business = $16.8m | Identity/date, appraisal/comps, title and verified earnings; do not add included licenses again |\n| [Pridmore former school](https://napa.legistar.com/LegislationDetail.aspx?FullText=1&GUID=1C9E33E6-2211-41B6-9101-38CAC76EB914&ID=6661243) | 2024 recommended limits: 150 people, limited annual events, 10PM end, indoor amplified sound | Final adopted permit, construction/opening/current availability and sale/value |\n\nThe 5.03-acre Pridmore proposal is separate from the Moskowite estate. Even acreage plus lodging/event plans cannot establish midnight or 300–400 seated permission. For each acquisition, request deed/APN schedule, conditions of approval, signed leases, transferable licences, three years of tax returns and monthly profit/loss, payroll and owner-replacement costs, booked deposits/liabilities, capex and title/environmental/fire/water/septic information. Unknown stays Unknown until verified; asking price is not intrinsic value."
+    "Acquisition evidence examples": "# Acquisition evidence: what the numbers mean\n\nChecked October 11, 2026. These are research examples, not recommended purchases or a capital budget.\n\n| Candidate | Evidence | What remains unknown |\n|---|---|---|\n| [Moskowite Estate](https://about.mlslistings.com/property/ba326077400/6015-steele-canyon-rd-napa-ca-94558/17952197) | $75m asking for a claimed 788-acre/13-parcel estate | Full title/parcel scope, separate property/business allocation, current issued wedding conditions and verified earnings |\n| [Anonymous Alameda hall](https://www.bizben.com/business-for-sale/banquet-hall-for-sale-in-bay-area-california-286519) | $16.5m combined asking; broker estimates $12.3m property + $4.5m business = $16.8m | Identity/date, appraisal/comps, title and verified earnings; do not add included licenses again |\n| [Pridmore former school](https://napa.legistar.com/LegislationDetail.aspx?FullText=1&GUID=1C9E33E6-2211-41B6-9101-38CAC76EB914&ID=6661243) | 2024 recommended limits: 150 people, limited annual events, 10PM end, indoor amplified sound | Final adopted permit, construction/opening/current availability and sale/value |\n\nThe 5.03-acre Pridmore proposal is separate from the Moskowite estate. Even acreage plus lodging/event plans cannot establish midnight or 300–400 seated permission. For each acquisition, request deed/APN schedule, conditions of approval, signed leases, transferable licences, three years of tax returns and monthly profit/loss, payroll and owner-replacement costs, booked deposits/liabilities, capex and title/environmental/fire/water/septic information. Unknown stays Unknown until verified; asking price is not intrinsic value.",
+    "Discovery audit — Pass 55": "# More original founder accounts\n\nWhat other original founder accounts were missed, and how do their construction, opening, labor and date evidence change venue feasibility research?\n\nEight original operator-story/interview reading records added; library 71, not complete. Six actual HTML/text archives; Old Bethany/Grey Loft direct403, original web-reader text reviewed and limits labeled. Denison launch PDF DNS failure held, not counted as downloaded/reviewed full guide.\n\nWoodlands details two approvals stages, road/forest work, opening permit three days before first wedding and owner presence at every event. Family/friend labor and employment-income subsidies cannot be mistaken for low startup cost or hands-off operation.\n\nFour publication dates known: Lisa January15,2024; GreyLoft May20,2020; SmallGrand December7,2023 and Nest October3,2024 from page metadata. Update dates kept separate. Other dates Unknown; copyright/founded/building years not used as publication.\n\nAll new stories outside nine-county inventory; not added as Bay Area venues. Founder anecdotes are self-reported, not audited profits/verified permit findings. Vendor/publisher promotional context and show-notes-only audio limits preserved.\n\nSources:\n- https://www.harvesthollow.com/investment\n- https://oldbethanyvenue.com/our-story/\n- https://www.pfeiferfarm.com/story\n- https://thenestatruthfarms.com/our-story/\n- https://www.woodlandscolorado.com/locallyowned-1\n- https://smallgrandthings.com/blog/our-story\n- https://shoutoutohio.com/meet-lisa-fackler-wedding-venue-owner-and-christmas-tree-farmer/\n- https://greyloftstudio.ca/podcast-building-wedding-venue/",
+    "Founder stories — development and owner labor": "# Founder stories to test the business model\n\nThese are original first-person histories and interviews, with self-reported facts, not transferable Bay Area budgets or permit advice.\n\n- [Woodlands](https://www.woodlandscolorado.com/locallyowned-1): acquisition → rezoning/public hearings → site-development review → building → occupancy; owners attended each event. Original publication date Unknown.\n- [Harvest Hollow](https://www.harvesthollow.com/investment): built for their own wedding, power and installation still unfinished near opening; family/friend labor. Publication date Unknown.\n- [Small Grand Things](https://smallgrandthings.com/blog/our-story): eleven-month build/landscaping effort and pre-completion bookings; published December 7, 2023, updated March 18, 2024.\n- [The Nest](https://thenestatruthfarms.com/our-story/): a 2017 opening and 2019–2022 chapel build are different milestones; current family/manager roles. Page metadata published October 3, 2024, updated January 5, 2026; earlier version history unknown.\n\nRead the full sortable Founder experiences library for all 71 records. No story establishes verified competitor profit. Use these accounts to identify diligence questions, labor requirements and contingency risks."
   },
   "pricing_method": "Keep package, venue-only and total costs separate. Derived venue cost per head is published venue fee divided by a user-selected guest count; it is not an all-in wedding quote. Null means unknown. Taxes, service fees, minimums and exclusions require written terms.",
   "criteria": {
@@ -723470,6 +723472,158 @@
       "review_status": "Original publisher written transcript reviewed; audio unreviewed",
       "startup_cost": "Reported$15,000 loan, not verified total project cost; property$1.4 mASKING, not closed sale",
       "profit": null
+    },
+    {
+      "author": "Annie Jo and Jackson Richard",
+      "venue": "Harvest Hollow Venue and Farm",
+      "title": "Our Story — building the venue for their own wedding",
+      "url": "https://www.harvesthollow.com/investment",
+      "published": null,
+      "date_status": "Unknown — original publication date not established",
+      "updated_date": null,
+      "geography": "Toney / Huntsville area, Alabama, US",
+      "type": "Operator-published first-person founding account",
+      "summary": "Owners describe a land search and roughly six-month build for their own wedding. They report final electrical power only two days before the wedding and unfinished installation work at rehearsal. Friends/family contributed labor; no complete project cost or permits disclosed.",
+      "scale": "Family-developed barn/grounds; actual guest count Unknown",
+      "lessons": "Protect the opening date with contingency, final inspections/power and a usable backup. Family/free labor is not evidence that commercial development is inexpensive or hands-off.",
+      "commercial_context": "Original venue/publisher material; marketing context. Self-reported story is not verified financial, planning or legal evidence.",
+      "checked_utc": "2026-10-11T13:13:27.384165+00:00",
+      "review_status": "Actual original operator HTML/text reviewed; finances self-reported/unverified",
+      "startup_cost": null,
+      "profit": null
+    },
+    {
+      "author": "Rachel and Luke Whyte; partners Ben and Skylar Worley, Nate and Ali Sloan",
+      "venue": "Old Bethany Venue",
+      "title": "Our Story — partners and a photography background",
+      "url": "https://oldbethanyvenue.com/our-story/",
+      "published": null,
+      "date_status": "Unknown — original publication date not established",
+      "updated_date": null,
+      "geography": "Central Texas / Waco area, US",
+      "type": "Operator-published first-person founding account",
+      "summary": "Operator story says Rachel had five years of wedding photography experience and began pursuing venue ownership in fall 2016 with Luke. Two other couples joined as business partners. No construction budget, profitability, opening day or permitting timeline established.",
+      "scale": "Unknown",
+      "lessons": "Separate experience, investment capital, ownership percentages and management duties; a multi-partner model needs a governance agreement.",
+      "commercial_context": "Original venue/publisher material; marketing context. Self-reported story is not verified financial, planning or legal evidence.",
+      "checked_utc": "2026-10-11T13:13:27.384165+00:00",
+      "review_status": "Primary operator story reviewed through web reader; direct HTML 403 logged, no original download claimed",
+      "startup_cost": null,
+      "profit": null
+    },
+    {
+      "author": "Alex Stobert and Emma — personal surnames not all confirmed; grandfather Ed Pfeifer discussed",
+      "venue": "Pfeifer Farm",
+      "title": "Our story — converting an inherited family farm",
+      "url": "https://www.pfeiferfarm.com/story",
+      "published": null,
+      "date_status": "Unknown — original publication date not established",
+      "updated_date": null,
+      "geography": "Valencia, Pennsylvania, US",
+      "type": "Operator-published first-person founding account",
+      "summary": "Operator describes inheriting a family farm, restoring the barn/grounds for the owners’ own wedding and later opening the site to others. Original barn said to date to the 1890s; restoration and wedding business opening dates not established. Reclaimed materials reused in furniture/interior elements.",
+      "scale": "Unknown",
+      "lessons": "Historic structure age is separate from compliant commercial event use and business opening. Model restoration, accessibility, bathrooms and owner labor separately.",
+      "commercial_context": "Original venue/publisher material; marketing context. Self-reported story is not verified financial, planning or legal evidence.",
+      "checked_utc": "2026-10-11T13:13:27.384165+00:00",
+      "review_status": "Actual original operator HTML/text reviewed; finances self-reported/unverified",
+      "startup_cost": null,
+      "profit": null
+    },
+    {
+      "author": "LaWanna and Chris — surnames not confirmed; Courtney and Whitney discussed",
+      "venue": "The Nest at Ruth Farms",
+      "title": "Our Story — from proposed subdivisions to a venue",
+      "url": "https://thenestatruthfarms.com/our-story/",
+      "published": "2024-10-03",
+      "date_status": "Original page metadata datePublished 2024-10-03; dateModified 2026-01-05. Earliest pre-migration publication not independently established; not the 2017 opening date.",
+      "updated_date": "2026-01-05",
+      "geography": "Ponder, Texas, US",
+      "type": "Operator-published first-person founding account",
+      "summary": "Family account describes buying 36 acres with housing-development plans, then choosing a wedding venue. Timeline says plans in 2016, first wedding July 2017, chapel construction 2019–2022, and named venue director/manager roles. Historical land/timeline facts are operator statements, not permit or cost records.",
+      "scale": "Operator says 36-acre development; event capacity/capital Unknown",
+      "lessons": "Land purchase, venue opening and later chapel expansion are different milestones. Include management and vendor coordination in a hands-off staffing plan.",
+      "commercial_context": "Original venue/publisher material; marketing context. Self-reported story is not verified financial, planning or legal evidence.",
+      "checked_utc": "2026-10-11T13:13:27.384165+00:00",
+      "review_status": "Actual original operator HTML/text reviewed; finances self-reported/unverified",
+      "startup_cost": null,
+      "profit": null
+    },
+    {
+      "author": "Janelle and Stephen Statham",
+      "venue": "Woodlands",
+      "title": "The Story of Woodlands — rezoning, development review and opening",
+      "url": "https://www.woodlandscolorado.com/locallyowned-1",
+      "published": null,
+      "date_status": "Unknown — original publication date not established",
+      "updated_date": null,
+      "geography": "Morrison / Jefferson County, Colorado, US",
+      "type": "Operator-published first-person founding account",
+      "summary": "Owners report an eight-month land search, buying 52 acres in February 2017, highway acceleration lane/driveway and forest-management requirements, a contentious community meeting and two public hearings. After rezoning came ten months of site-development review. Construction began August 2018; first wedding May 4, 2019, occupancy approval reportedly three days earlier. Owners quit professional jobs and attended every event; first part-time groundskeeper hired May 2021.",
+      "scale": "52 acres per owners; guest count/full startup capital Unknown",
+      "lessons": "Rezoning approval is not building or occupancy approval. Budget road/site/fire/water work, carrying cost, opening delays and paid owner-replacement labor; do not equate a rural parcel with easy permits.",
+      "commercial_context": "Original venue/publisher material; marketing context. Self-reported story is not verified financial, planning or legal evidence.",
+      "checked_utc": "2026-10-11T13:13:27.384165+00:00",
+      "review_status": "Actual original operator HTML/text reviewed; finances self-reported/unverified",
+      "startup_cost": null,
+      "profit": null
+    },
+    {
+      "author": "Danielle Neaves; mother/cofounder discussed, name Unknown",
+      "venue": "Small Grand Things",
+      "title": "Our Story — the family-land venue business plan",
+      "url": "https://smallgrandthings.com/blog/our-story",
+      "published": "2023-12-07",
+      "date_status": "Original HTML meta/JSON-LD datePublished 2023-12-07; dateModified 2024-03-18. Displayed Dec 7 alone was insufficient until year metadata checked.",
+      "updated_date": "2024-03-18",
+      "geography": "West Point, Iowa, US",
+      "type": "Operator-published first-person founding account",
+      "summary": "Founder describes leaving corporate employment, formalizing an initial informal plan, moving back to family land and working about eleven months alongside contractors. Couples booked from renderings/blueprints before the venue was finished. No full capital figure or audited return provided.",
+      "scale": "Unknown",
+      "lessons": "Bookings before completion create date, deposit and delivery obligations; model delay risk, refund liquidity and a complete opening budget.",
+      "commercial_context": "Original venue/publisher material; marketing context. Self-reported story is not verified financial, planning or legal evidence.",
+      "checked_utc": "2026-10-11T13:13:27.384165+00:00",
+      "review_status": "Actual original operator HTML/text reviewed; finances self-reported/unverified",
+      "startup_cost": null,
+      "profit": null
+    },
+    {
+      "author": "Lisa Fackler; husband/cofounder unnamed in article",
+      "venue": "The Promises We Make",
+      "title": "Meet Lisa Fackler — Wedding Venue Owner and Christmas Tree Farmer",
+      "url": "https://shoutoutohio.com/meet-lisa-fackler-wedding-venue-owner-and-christmas-tree-farmer/",
+      "published": "2024-01-15",
+      "date_status": "Displayed publication January 15, 2024 agrees with original HTML time datetime.",
+      "updated_date": null,
+      "geography": "Rural northwest Ohio / Montpelier-Bryan area, US",
+      "type": "Firsthand operator written interview",
+      "summary": "In a dated original written interview, owner says the venue/farm was built with her husband, originally on ten acres and later twelve adjacent acres. She describes detailed owner labor, hardship and partner teamwork; a Christmas-tree business and wetland habitat are separate activities. No capital or profit accounts disclosed.",
+      "scale": "Unknown",
+      "lessons": "Family labor, land assembled over decades and diversification may subsidize venue startup; cost their labor and assets before using the story as a financial comparable.",
+      "commercial_context": "Original venue/publisher material; marketing context. Self-reported story is not verified financial, planning or legal evidence.",
+      "checked_utc": "2026-10-11T13:13:27.384165+00:00",
+      "review_status": "Actual original publisher HTML/text reviewed; self-reported figures, no audited financials",
+      "startup_cost": null,
+      "profit": null
+    },
+    {
+      "author": "Jessica Fewster; interviewed by Bethany Barrette / Grey Loft Studio",
+      "venue": "Le Belvédère",
+      "title": "Building a Dream Wedding Venue — Path to Business episode 2",
+      "url": "https://greyloftstudio.ca/podcast-building-wedding-venue/",
+      "published": "2020-05-20",
+      "date_status": "Original publisher page displays May 20, 2020; historical interview, not current operating results.",
+      "updated_date": null,
+      "geography": "Wakefield, Québec, Canada",
+      "type": "Operator interview — publisher show notes only",
+      "summary": "Original publisher notes describe business-planning/mortgage difficulties, choosing weddings over a corporate-event mix, and adding shuttle/getting-ready/kitchen-related services. Publisher reports more than 120 weddings annually at the time; audio and underlying accounts were not reviewed.",
+      "scale": "Publisher-reported 120+ weddings/year as of historical interview, unverified/current Unknown",
+      "lessons": "Transport/lodging/food service additions create separate assets, staffing and risk. Verify which revenue lines are actually profitable before bundling them.",
+      "commercial_context": "Original venue/publisher material; marketing context. Self-reported story is not verified financial, planning or legal evidence.",
+      "checked_utc": "2026-10-11T13:13:27.384165+00:00",
+      "review_status": "Original publisher written show notes reviewed through web reader; direct HTML 403; audio unreviewed",
+      "startup_cost": null,
+      "profit": null
     }
   ],
   "discovery_audits": [
@@ -727500,6 +727654,52 @@
         "Actual MLS/BizBen/county HTML and 32-page recommended conditions PDF archived with fetch logs; PDF pages 6–7 visually reviewed. Web reader reported PDF unavailable but direct normal HTTPS fetch returned valid 200; certificate validation not bypassed. Broker HTML direct 403 logged.",
         "Closed-sales comps/assessor values/verified earnings and full parcel title schedule remain missing. No Zillow commercial business value, acreage-based permitted capacity, license premium stacking or capital budget inferred."
       ]
+    },
+    {
+      "pass": 55,
+      "question": "What other original founder accounts were missed, and how do their construction, opening, labor and date evidence change venue feasibility research?",
+      "scope": "Founder-library discovery/fact checking, not a Bay Area venue expansion pass",
+      "completed_utc": "2026-10-11T13:13:27.384165+00:00",
+      "source_urls": [
+        "https://www.harvesthollow.com/investment",
+        "https://oldbethanyvenue.com/our-story/",
+        "https://www.pfeiferfarm.com/story",
+        "https://thenestatruthfarms.com/our-story/",
+        "https://www.woodlandscolorado.com/locallyowned-1",
+        "https://smallgrandthings.com/blog/our-story",
+        "https://shoutoutohio.com/meet-lisa-fackler-wedding-venue-owner-and-christmas-tree-farmer/",
+        "https://greyloftstudio.ca/podcast-building-wedding-venue/"
+      ],
+      "added_record_ids": [],
+      "updated_record_ids": [],
+      "added_founder_urls": [
+        "https://www.harvesthollow.com/investment",
+        "https://oldbethanyvenue.com/our-story/",
+        "https://www.pfeiferfarm.com/story",
+        "https://thenestatruthfarms.com/our-story/",
+        "https://www.woodlandscolorado.com/locallyowned-1",
+        "https://smallgrandthings.com/blog/our-story",
+        "https://shoutoutohio.com/meet-lisa-fackler-wedding-venue-owner-and-christmas-tree-farmer/",
+        "https://greyloftstudio.ca/podcast-building-wedding-venue/"
+      ],
+      "duplicates_merged": [
+        "Prior 63 reading URLs preserved; source URL uniqueness checked"
+      ],
+      "excluded": [
+        "Non-Bay-Area stories not inserted into Bay Area venue census",
+        "Denison PDF DNS failure not claimed downloaded/full guide reviewed",
+        "Publication dates not inferred from copyright, operating start or upload path"
+      ],
+      "remaining_gaps": [
+        "Other original operator stories, missing original publication dates and full podcast/audio review",
+        "Actual Bay Area cost/approval comparison and complete financial data"
+      ],
+      "fact_check_findings": [
+        "Eight original operator-story/interview reading records added; library 71, not complete. Six actual HTML/text archives; Old Bethany/Grey Loft direct403, original web-reader text reviewed and limits labeled. Denison launch PDF DNS failure held, not counted as downloaded/reviewed full guide.",
+        "Woodlands details two approvals stages, road/forest work, opening permit three days before first wedding and owner presence at every event. Family/friend labor and employment-income subsidies cannot be mistaken for low startup cost or hands-off operation.",
+        "Four publication dates known: Lisa January15,2024; GreyLoft May20,2020; SmallGrand December7,2023 and Nest October3,2024 from page metadata. Update dates kept separate. Other dates Unknown; copyright/founded/building years not used as publication.",
+        "All new stories outside nine-county inventory; not added as Bay Area venues. Founder anecdotes are self-reported, not audited profits/verified permit findings. Vendor/publisher promotional context and show-notes-only audio limits preserved."
+      ]
     }
   ],
   "municipality_coverage": [
@@ -729007,5 +729207,5 @@
   "census_method": "Discovery records include individual spaces, properties and aggregate site groups. Parent names prevent counting each room as a new venue property. These are source-reviewed leads, not complete feasibility or availability checks. Blank facts are unknown, not no or zero. Unknown geocodes stay off the map. Municipality coverage marks work still pending.",
   "review_method": "Review search links are discovery aids, not verified venue listings. Match exact property/room and address before recording a rating, review count, direct listing URL and checked date. Scores from different platforms must not be merged; reviews of a park or restaurant are not necessarily wedding reviews. Verified aggregates identify platform/date and property scope; numeric ratings describe platform users, not an independent quality finding. Primary platform web-reader checks may coexist with failed direct archive downloads. Secondary repeats of Google scores remain unverified Google data.",
   "map_method": "735 sourced approximate map points. Exact Census street-address matches require matching state/county. Address-range points are not surveyed entrances; rooms/campus offerings may share points. Generic offices/campus addresses and non-exact/no-match responses held.",
-  "updated_utc": "2026-10-11T13:07:34.762022+00:00"
+  "updated_utc": "2026-10-11T13:13:27.384165+00:00"
 }

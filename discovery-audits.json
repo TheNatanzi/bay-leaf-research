@@ -4026,5 +4026,51 @@
       "Actual MLS/BizBen/county HTML and 32-page recommended conditions PDF archived with fetch logs; PDF pages 6–7 visually reviewed. Web reader reported PDF unavailable but direct normal HTTPS fetch returned valid 200; certificate validation not bypassed. Broker HTML direct 403 logged.",
       "Closed-sales comps/assessor values/verified earnings and full parcel title schedule remain missing. No Zillow commercial business value, acreage-based permitted capacity, license premium stacking or capital budget inferred."
     ]
+  },
+  {
+    "pass": 55,
+    "question": "What other original founder accounts were missed, and how do their construction, opening, labor and date evidence change venue feasibility research?",
+    "scope": "Founder-library discovery/fact checking, not a Bay Area venue expansion pass",
+    "completed_utc": "2026-10-11T13:13:27.384165+00:00",
+    "source_urls": [
+      "https://www.harvesthollow.com/investment",
+      "https://oldbethanyvenue.com/our-story/",
+      "https://www.pfeiferfarm.com/story",
+      "https://thenestatruthfarms.com/our-story/",
+      "https://www.woodlandscolorado.com/locallyowned-1",
+      "https://smallgrandthings.com/blog/our-story",
+      "https://shoutoutohio.com/meet-lisa-fackler-wedding-venue-owner-and-christmas-tree-farmer/",
+      "https://greyloftstudio.ca/podcast-building-wedding-venue/"
+    ],
+    "added_record_ids": [],
+    "updated_record_ids": [],
+    "added_founder_urls": [
+      "https://www.harvesthollow.com/investment",
+      "https://oldbethanyvenue.com/our-story/",
+      "https://www.pfeiferfarm.com/story",
+      "https://thenestatruthfarms.com/our-story/",
+      "https://www.woodlandscolorado.com/locallyowned-1",
+      "https://smallgrandthings.com/blog/our-story",
+      "https://shoutoutohio.com/meet-lisa-fackler-wedding-venue-owner-and-christmas-tree-farmer/",
+      "https://greyloftstudio.ca/podcast-building-wedding-venue/"
+    ],
+    "duplicates_merged": [
+      "Prior 63 reading URLs preserved; source URL uniqueness checked"
+    ],
+    "excluded": [
+      "Non-Bay-Area stories not inserted into Bay Area venue census",
+      "Denison PDF DNS failure not claimed downloaded/full guide reviewed",
+      "Publication dates not inferred from copyright, operating start or upload path"
+    ],
+    "remaining_gaps": [
+      "Other original operator stories, missing original publication dates and full podcast/audio review",
+      "Actual Bay Area cost/approval comparison and complete financial data"
+    ],
+    "fact_check_findings": [
+      "Eight original operator-story/interview reading records added; library 71, not complete. Six actual HTML/text archives; Old Bethany/Grey Loft direct403, original web-reader text reviewed and limits labeled. Denison launch PDF DNS failure held, not counted as downloaded/reviewed full guide.",
+      "Woodlands details two approvals stages, road/forest work, opening permit three days before first wedding and owner presence at every event. Family/friend labor and employment-income subsidies cannot be mistaken for low startup cost or hands-off operation.",
+      "Four publication dates known: Lisa January15,2024; GreyLoft May20,2020; SmallGrand December7,2023 and Nest October3,2024 from page metadata. Update dates kept separate. Other dates Unknown; copyright/founded/building years not used as publication.",
+      "All new stories outside nine-county inventory; not added as Bay Area venues. Founder anecdotes are self-reported, not audited profits/verified permit findings. Vendor/publisher promotional context and show-notes-only audio limits preserved."
+    ]
   }
 ]
