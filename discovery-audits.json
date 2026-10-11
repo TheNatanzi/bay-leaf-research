@@ -3352,5 +3352,77 @@
       "Indian Springs current socialpage highlights rehearsal dinners notexplicitfullweddings. Sam’s caters all events; Alley 40 private dining seats. Other room counts and wedding permission Unknown.2018 menu 404 not reviewed; old fee not current.",
       "Meadowood current 6–80 eventguests and 36 lodging rooms.2018 pricing/oldlargeevent spaces notcurrent capacity. Direct HTML 403 andold PDFexpiredcertificate recorded; no downloadreview orsecurity bypass. Ohio/Michigan/New Zealandhomonyms excluded."
     ]
+  },
+  {
+    "pass": 49,
+    "question": "What museum rooms, airport lounge rentals and former aviation facilities have we missed, and which old operator listings, furniture assumptions and generic capacities mislead wedding comparisons?",
+    "scope": "San Jose Tech, San Carlos Skyway and Gold Bar Treasure Island/Alameda",
+    "completed_utc": "2026-10-11T12:24:59.726911+00:00",
+    "source_urls": [
+      "https://www.thetech.org/visit/event-rentals/meeting-event-spaces/",
+      "https://www.thetech.org/visit/event-rentals/special-events-faqs/",
+      "https://s3.us-west-2.amazonaws.com/images.herecomestheguide.com/pdfs/Tech-Interactive-Packages-2026_05_06.pdf?v=1778077959",
+      "https://www.thetech.org/explore/floor-maps/",
+      "https://www.skywaycentersql.com/eventspace",
+      "https://ccag.ca.gov/wp-content/uploads/2020/01/Jan-2020-ALUC-Packet.pdf",
+      "https://goldbarwhiskey.com/pages/private-events",
+      "https://goldbarwhiskey.com/",
+      "https://drive.google.com/file/d/17-qJkqQJHKkqVMFcwmgeIuf39wI0z87Z/view",
+      "https://drive.google.com/file/d/1gSeWW8C21k_j92s4nrigoxA4fW9w-iHh/view",
+      "https://drive.google.com/file/d/1kozLJetDLcquwIiqXq34YSaBgtnpIuH-/view",
+      "https://drive.google.com/file/d/13wLavR7dMfAPiN6lJHRwHZdI_6O48Se5/view",
+      "https://drive.google.com/file/d/16hRr7knKKtQ_sr04zcqGz9-tCXnN5C73/view",
+      "https://drive.google.com/file/d/1Bhg_lbrqahTZvI1D2UPAl9vjkMUfkhg7/view",
+      "https://drive.google.com/file/d/1qIcyG9XBZGXfS0uQWFG7TUj6GRam5pPL/view",
+      "https://alameda.legistar.com/LegislationDetail.aspx?ID=6552498&GUID=9A2C6221-CD98-42AA-841D-9E836D9ED6AA&Options=&Search=&FullText=1",
+      "https://hangarone.com/stories/",
+      "https://drive.google.com/file/d/1V1Ya9A0dGlQW5J3zOXiz5-dWYYzI12Qb/view"
+    ],
+    "added_record_ids": [
+      "the-tech-interactive-whole-building-buyout-santa-clara",
+      "the-tech-interactive-upper-level-santa-clara",
+      "the-tech-interactive-new-venture-hall-only-santa-clara",
+      "the-tech-interactive-imax-dome-theater-santa-clara",
+      "the-tech-interactive-bowers-institute-santa-clara",
+      "the-tech-interactive-intimate-wedding-package-up-to70-guests-santa-clara",
+      "the-tech-interactive-grand-wedding-package-70-guests-santa-clara",
+      "skyway-center-san-carlos-airport-second-floor-event-space-san-mateo",
+      "skyway-center-san-carlos-airport-conference-room-configuration-san-mateo",
+      "gold-bar-distillery-treasure-island-interior-configuration-san-francisco",
+      "gold-bar-distillery-treasure-island-interior-plus-outdoor-configuration-san-francisco",
+      "gold-bar-distillery-alameda-hangar-interior-configuration-alameda",
+      "gold-bar-distillery-alameda-hangar-interior-plus-outdoor-configuration-alameda"
+    ],
+    "updated_record_ids": [
+      "the-tech-interactive-lower-level-santa-clara",
+      "the-tech-interactive-new-venture-hall-lobby-santa-clara",
+      "the-tech-interactive-rooftop-terrace-santa-clara"
+    ],
+    "duplicates_merged": [
+      "Tech existing Lower/New Venture Hall+Lobby/Rooftop retained; missing rooms/packages overlap",
+      "Gold Bar Alameda replaces historical Hangar One at same address; no active duplicate",
+      "Gold Bar TI and Alameda are distinct properties, interior and outdoor configurations overlap"
+    ],
+    "excluded": [
+      "HangarOne active listing after operator announced2022closure",
+      "Skyway Minneapolis and Hangar1Missouri homonyms",
+      "Airport aircraft hangar lease not automatic event-space permission",
+      "GoldBar500+five-star marketing not verified venue-specific review rating/count"
+    ],
+    "remaining_gaps": [
+      "Nine-county/municipality inventory incomplete",
+      "Current executed GoldBar lease/use permits, approved occupancy/music hours; law references in operator rules require jurisdiction verification",
+      "Complete current quotes, ballroom layouts, site histories, valuations and genuine independent review data"
+    ],
+    "fact_check_findings": [
+      "Thirteen configurations added: Tech five missing spaces and two packages, Skyway two and Gold Bar four across two properties. Three existing Tech spaces enriched; no duplicate Hangar One active listing.",
+      "Tech current Upper Level 70 dining conflicts brochure 80; Hall+Lobby 300–350/500 standing, Hallalone 270/350; IMAX 280 theater seats not banquet. Whole buyout brochure 800 seated/2250 standing across rooms, excludes IMAX; current approved dinner/dance layout Unknown.",
+      "Actual seven-page 2026-named Tech brochure: furniture up to 200 only, approved-list caterer/exclusive Smashing Dishes alcohol/10%food+nonalcohol catering fee; four-hour base+$1000/hour, no prep/storage kitchen/shared dock, same-day delivery. Six-hour packages$10000/$12000 do not include food/bar; roof seasonal/backup allocation confirm. Midnight is building stop, music clock still Unknown.",
+      "Skyway second-floor 2000+sf event space is not marketed aircraft hangar lease; conference 12 not banquet maximum. January 2020 ALUC packet 2019 plan APN 046-081-550/3.49 leasehold,1969 oldbuildings proposed demolition not current newroomcompletion.",
+      "Official Hangar One closure public finalday December 18,2022 overrides live staleprivate-event page. Gold Bar now markets same Alamedaaddress; TIweddings explicitly FAQ, Alameda weddingpermission Unknown. Marketing 5000/10000 generic not dinner capacity; plans reviewed no occupancy labels.",
+      "Gold Bar actual 8 public Drive PDFs: TIprep kitchen needswritten permission; Alameda none; firepermits/watch client-paid, same-nightload-out, no outsidecleaningcrew, waste offsite/conditional 500 charge. Alameda rules copy SFFDreference—not independently applicable Alamedalaw. COI 1 m CGL/2 maggregate+5 mumbrella in TIsharedfolder; furniture 296 chairs not 5000 seats.",
+      "City 2024 staffreport identifies City-owned 1941 Building 22/32500 sf Gold Barproposedleasedsuite,35750/month pluscommoncosts—not property/businessvalue. Initial proposal/amendments not finalcurrentexecutedlease; nextcheck municipalpermit/currentlease file.",
+      "Verification also repaired 213 ISO timestamp strings with whitespace next to T. Original date/time instants preserved, validated with datetime; no dates inferred."
+    ]
   }
 ]
