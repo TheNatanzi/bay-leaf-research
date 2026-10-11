@@ -17,3 +17,6 @@ Each venue has 194 criterion answer slots in `workbook_answers`. Null means unkn
 
 ## Census expansion (October 10, 2026 Pacific)
 159 discovery records, including properties, rooms, picnic sites, restricted facilities and aggregate site groups. 146 government-managed or partner records; 13 unconventional records (categories overlap). Five of ten requested missed-venue audits documented. Two records currently have checked coordinates. Government, Potential spaces and Coverage audit views are sortable/filterable; the audit contains 101 municipalities plus nine county/unincorporated workstreams. No county or full venue census is declared complete. Construction, operating dates and values remain unknown unless specific evidence supports them.
+
+### Venue links and reviews
+Venue names link to their official venue or rental source. Google, Yelp and other-review columns contain clearly labeled discovery search links until the exact venue listing is verified. Ratings, review counts and check dates remain Unknown until sourced; park or restaurant reviews do not automatically establish wedding quality.
