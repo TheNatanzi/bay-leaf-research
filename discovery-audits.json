@@ -3131,5 +3131,73 @@
       "Dixon rate sheet: Madden 658 dining/1400 theater, Denverton 325 dining/706 theater. Discount minimum furniture 250 chairs+30 tables/$490 or 200 chairs+20 tables/$360 is additional to hall rent. Nonrefundable$250 reservation and refundable$1000 deposit separate. Buildings until midnight/cleanup 2 AM do not confirm midnight music or wedding approval.",
       "Yin primary pageHTTP 200 blank and web-reader inaccessible. Official Linktree wedding marketing verified; secondary address not mapped, capacity/fees/hours/values Unknown. Linktree join dateJanuary 2024 not operating start."
     ]
+  },
+  {
+    "pass": 46,
+    "question": "What Napa winery wedding spaces and packages have we missed, and which wine-marketing or temporary-event claims could wrongly imply wedding permission?",
+    "scope": "Charles Krug, V. Sattui and Beringer: 19 space/package records. Two existing Hans Fahden records enriched; B Cellars and Napa county proposal screened.",
+    "completed_utc": "2026-10-11T11:41:19.526831+00:00",
+    "source_urls": [
+      "https://shop.charleskrug.com/visit/wedding-celebrations",
+      "https://www.vsattui.com/experiences/wedding-events/",
+      "https://www.vsattui.com/wp-content/uploads/2025/03/VSW-Wedding-Packet-2026.pdf",
+      "https://www.vsattui.com/wp-content/uploads/2026/04/Wedding-Packages-NP.pdf",
+      "https://www.vsattui.com/experiences/venues-new/",
+      "https://www.beringer.com/pages/wine-country-weddings",
+      "https://www.beringer.com/pages/event-spaces",
+      "https://www.bcellars.com/visit/private-experiences/",
+      "https://services.napacounty.gov/AgendaNet/DownloadDocument.aspx?doctype=ATTACHMENT&id=34247&type=PlanningAgenda",
+      "https://services.napacounty.gov/AgendaNetDocs/Agendas/PlanningAgenda/11-18-2009/10A.pdf",
+      "https://napa.legistar.com/LegislationDetail.aspx?FullText=1&GUID=35AABC94-AC02-4F2B-8EB9-032AE4766A10&ID=8185096"
+    ],
+    "added_record_ids": [
+      "charles-krug-winery-great-lawn-napa",
+      "charles-krug-winery-redwood-cellar-upstairs-napa",
+      "charles-krug-winery-redwood-cellar-downstairs-napa",
+      "charles-krug-winery-carriage-house-upstairs-napa",
+      "charles-krug-winery-carriage-house-downstairs-napa",
+      "v-sattui-winery-barrel-cellar-barrel-room-napa",
+      "v-sattui-winery-lower-courtyard-napa",
+      "v-sattui-winery-tower-lawn-napa",
+      "v-sattui-winery-vittorio-s-terrace-napa",
+      "v-sattui-winery-vittorio-s-vineyard-lawn-napa",
+      "v-sattui-winery-gold-room-napa",
+      "v-sattui-winery-elopement-at-the-estate-napa",
+      "v-sattui-winery-piccolo-package-napa",
+      "v-sattui-winery-bellezza-package-napa",
+      "v-sattui-winery-matrimonio-evening-package-napa",
+      "beringer-vineyards-hudson-house-and-grounds-napa",
+      "beringer-vineyards-the-grove-napa",
+      "beringer-vineyards-rhine-house-napa",
+      "beringer-vineyards-wine-caves-napa"
+    ],
+    "updated_record_ids": [
+      "hans-fahden-vineyards-wedding-offering-sonoma",
+      "hans-fahden-vineyards-2026-sweet-simple-small-wedding-package-sonoma"
+    ],
+    "duplicates_merged": [
+      "Hans Fahden already has two Sonoma records; no new duplicate",
+      "Four Sattui packages and six spaces overlap; capacities must not be summed",
+      "Krug floors and Beringer Grove share parent properties"
+    ],
+    "excluded": [
+      "B Cellars explicitly cannot rent facilities; wine education gatherings are not confirmed wedding permission",
+      "Bevan Cellars contact/tasting page insufficient; different operator from B Cellars",
+      "County electrical interpretation page is not a wedding ordinance",
+      "Historical county reports and 2026 proposed changes do not prove current permit or adoption"
+    ],
+    "remaining_gaps": [
+      "Other Napa hotels/resorts, clubs, restaurants and retreats; all nine counties incomplete",
+      "Current issued use/nonconforming rights, occupancy/noise conditions and jurisdiction",
+      "Full quotes, contracts, bar/rental charges, values, parcel/history and reviews"
+    ],
+    "fact_check_findings": [
+      "Charles Krugfive spaces:800 seatedlawn/1200 reception;Carriage 300 up/150 down;Redwood 110 up/120 down. Buildings 1881/1872 distinctfrom 1861 estatefounding andunknownwedding opening. Direct HTML 403 logged; web-readerprimaryonly. Operatorclaimoneoffivelegalwineryweddingsnotindependentlegalinventory.",
+      "Sattuiactual 2026 packet 170 with dance/200 without;currentgeneral venue page 250 Vittorio Lawnnotapproved 250 wedding. Courtyard 135 packetvs 160 webconflict. Fourday/eveningpackagesoverlapspacesandvaryexclusiveestate/hours. Wine 45 perhead 3500/4000 floorplus 22%/7.75%;micro 42 over 21. Menu 175 startingfood-only; site fee/allin Unknown.",
+      "Sattuievent 6–11/outdoor live music 10;requiredplannerandown vendorapproval; nohardalcohol. Older 2026 packetlocal-distributorbeer vsnewer package own beer/ciderup 100 cansretainedascontractquestion.",
+      "Beringer 5 event hours,10 outdoormusic,1000 extrahouronly BEFOREevent; clientall rentals,preferred caterer/partial plannerrequired;3 cases Beringerwine,ownsparkling/beerfreecorkage. Hudson 1852 notwedding opening;otherroomspermission Unknown.",
+      "Hansalreadylistedtworecords Sonoma, not Napa despite Calistogamailing/marketing. No duplicateadded. Actual 5 page 2020–21 textdated PDFlegacyterms notcurrent; operatorover 25 yearsweddingsclaimnotinferredstart.",
+      "County 2015 enforcementreportand 2009 staffreporthistoricalrestrictions;current August 25,2026 agenda 26-1526 definesweddingsasnottemporaryevents/marketingdistinct, butshows Agenda Ready/nofinalaction. Proposed 90 dayprocessing/2027 manualnotclaimedadopted. Currentissuedsitepermits/amendments/adoption Unknown. BCellarsexplicitcannotrentfacilities/wineeducationeventsrestricted, excluded as weddingvenue; tasting/privateeventnotautomaticweddingpermission."
+    ]
   }
 ]
