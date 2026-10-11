@@ -870,7 +870,10 @@
       "https://www.ci.benicia.ca.us/index.asp?DE=6C6829DE-75FD-4DC4-94F5-66DD197B85B9&SEC=0F1F1E42-7C13-47B2-9CE8-9FD1737C1497",
       "https://www.mareislandbrewingco.com/private-events",
       "https://www.mareislandbrewingco.com/first-street",
-      "https://www.mareislandbrewingco.com/contact"
+      "https://www.mareislandbrewingco.com/contact",
+      "https://beniciavetshall.org/",
+      "https://beniciavetshall.org/index.php/services/",
+      "https://solano.legistar.com/LegislationDetail.aspx?FullText=1&GUID=633A4C8F-4694-4235-8F1B-4A61F0DE586C&ID=6899167&Options=&Search="
     ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
@@ -894,7 +897,9 @@
     "source_urls": [
       "https://www.fairfield.ca.gov/government/city-departments/parks-and-recreation/facility-park-picnic-rentals",
       "https://www.solanocemeteries.us/rockville-cemetery-stone-chapel",
-      "https://www.solanocemeteries.us/files/30dead4bc/Stone%2BChapel%2BRental%2BInfo-Weddings%2Band%2BSaturdays.pdf"
+      "https://www.solanocemeteries.us/files/30dead4bc/Stone%2BChapel%2BRental%2BInfo-Weddings%2Band%2BSaturdays.pdf",
+      "https://www.caymus-suisun.com/private-events/",
+      "https://solano.legistar.com/LegislationDetail.aspx?FullText=1&GUID=E10218B2-01B5-4ACD-BBD8-C3A6414A9807&ID=3160719"
     ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
@@ -922,7 +927,8 @@
     "municipal_rental_status": "Partial rental inventory reviewed; private wedding and room terms remain unknown",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
-      "https://www.cityofvacaville.gov/government/parks-and-recreation/facilities/facility-rentals"
+      "https://www.cityofvacaville.gov/government/parks-and-recreation/facilities/facility-rentals",
+      "https://solano.legistar.com/LegislationDetail.aspx?FullText=1&GUID=633A4C8F-4694-4235-8F1B-4A61F0DE586C&ID=6899167&Options=&Search="
     ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },
@@ -965,7 +971,10 @@
       "https://www.gvrd.org/group-and-family-rentals",
       "https://www.gvrd.org/prohibited-in-park",
       "https://www.gvrd.org/files/c83ad3d31/CW%2BSpecial%2BEvents%2BApplication%2BFinal%2BFillable.pdf",
-      "https://solanolibrary.libnet.info/event/13221335"
+      "https://solanolibrary.libnet.info/event/13221335",
+      "https://www.visitvallejo.com/listing/vallejo-veterans-memorial-building",
+      "https://www.vallejoveteransmemorialbuilding.com",
+      "https://solano.legistar.com/LegislationDetail.aspx?FullText=1&GUID=633A4C8F-4694-4235-8F1B-4A61F0DE586C&ID=6899167&Options=&Search="
     ],
     "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
   },

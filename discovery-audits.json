@@ -2280,5 +2280,56 @@
       "FY2025–26 July 1, 2025 fee schedule read through primary web-reader PDF only; actual URL returned 404, no downloaded/visual table claim. Adopted versus prior fee columns and website disagreements preserved; no 2026–27 current-rate assumption or full-cost column used as venue profit.",
       "Novato direct sources/PDFs repeatedly 403; Hamilton primary web-reader room layouts not banquet. Margaret Todd tourism bureau 228 dining/280 theater; City terms Unknown. City Hall 1896 building and 88 banquet from historical indexed packet, not wedding opening/current approved count. Downtown generic/old party capacities conflict."
     ]
+  },
+  {
+    "pass": 35,
+    "question": "Which missing veterans halls, winery event offers and county permit records reveal overlooked venues or barriers to midnight rural operation?",
+    "scope": "Solano county veterans buildings, Caymus-Suisun and existing Bella Vista/Bud’s;2026county special-event feasibility guide",
+    "completed_utc": "2026-10-11T09:39:37.693601+00:00",
+    "source_urls": [
+      "https://www.solanocounty.gov/government/resource-management/planning-services/development-programs/special-event-facilities",
+      "https://beniciavetshall.org/",
+      "https://beniciavetshall.wordpress.com/services/",
+      "https://solano.legistar.com/LegislationDetail.aspx?FullText=1&GUID=EA801A34-55DF-4C13-B61F-A6B88FB0EB94&ID=5897442",
+      "https://solano.legistar.com/LegislationDetail.aspx?FullText=1&GUID=E10218B2-01B5-4ACD-BBD8-C3A6414A9807&ID=3160719",
+      "https://www.caymus-suisun.com/private-events/",
+      "https://solano.legistar.com/LegislationDetail.aspx?FullText=1&GUID=633A4C8F-4694-4235-8F1B-4A61F0DE586C&ID=6899167&Options=&Search=",
+      "https://beniciavetshall.org/index.php/services/",
+      "https://www.visitvallejo.com/listing/vallejo-veterans-memorial-building",
+      "https://www.vallejoveteransmemorialbuilding.com",
+      "https://www.budspub.com/hall",
+      "https://content.solanocounty.gov/sites/default/files/2026-04/Special_Event_Facility_Guide_APR_2026.pdf",
+      "https://solano.legistar.com/View.ashx?M=F&ID=11359473&GUID=A7075E28-AE45-4C6E-88D2-A8A1EB1845EB"
+    ],
+    "added_record_ids": [
+      "benicia-veterans-memorial-hall-wedding-reception-hall-solano",
+      "solano-county-veterans-memorial-hall-of-vacaville-event-hall-prospect-solano",
+      "vallejo-veterans-memorial-building-reception-banquet-hall-solano",
+      "caymus-suisun-winery-private-event-offering-solano"
+    ],
+    "duplicates_merged": [
+      "Bella Vista Farms historicalpermit addedtoexistingrecord",
+      "Olde Vet’s Hall Bud’s existingrecord refreshed; currentDixonCountyhall notsilentlysameproperty"
+    ],
+    "excluded": [
+      "CaymusRutherfordNapa location not thisSuisunproperty",
+      "Generic scraped Vacaville price ranges and unverifiedreviewratings",
+      "Draftpermit treatedasissued; lounge/restaurant hours treatedasweddingcutoff",
+      "Other fourcountyhalls held pending site/currentoperatoridentity; secondary oldaddresses not currentconfirmed"
+    ],
+    "remaining_gaps": [
+      "Current issuedBella/Caymuspermits, occupancy, approvals and newworks completion",
+      "RioVista/Suisun/currentDixonhalls plusotherninecountymunicipalitygaps",
+      "Currentcompletequotes, music/bar/dance layouts, dates, property/business values and independentlymatchedreviews"
+    ],
+    "fact_check_findings": [
+      "Four missing properties/prospects added; Bella Vista and Olde Vet’s Hall updated rather than duplicated. Benicia lounge midnight is not wedding permission. Vallejo200banquet vs300reception is not a300guest dinner/dance layout.",
+      "Actual16page Solano March2026 guide (April upload) downloaded; zoning,hours and fee tables visually reviewed. Applicable to unincorporated county special-event facilities; guidance not individual entitlement or binding current quote.",
+      "County guide event10AM–10PM,setupcleanup8AM–11PM,guestsout10:30PM except approved lodging; outdooramplification65dBpropertyline guidance. Acreage alone does not establish midnight operation.",
+      "ActualBella8page AttachmentA visiblyDRAFT; blank resolution/votes and hearing/expiry inconsistencies prevent claiming adopted/current permit or an expiry date.151attendance/36events/year are historicalproposals, not current approved banquet capacity.",
+      "Vacaville county reports1929building and completed2019$1.4m renovation; neither is wedding opening or marketvalue. County volunteer maintenance support not assumed transferable to commercialmodel.",
+      "Caymus150seated/250reception/min30 from current primary webreader; actual403download failure explicit.2017permit/appeal not opening or currentterms.",
+      "Bud’s original current webpage documents exclusive culinary/beverage provider,500–1200basefee,250cleaning, refundabledeposit, alcoholsecurity/bartender. Complete all-in head cost Unknown."
+    ]
   }
 ]
