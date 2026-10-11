@@ -3276,5 +3276,81 @@
       "Sunstone actual annualreport and SEC acquisition filing verify Montage $265 m April 22,2021 and Four Seasons 177.5 m Dec 1,2021 gross fee-simple whole assets, not current appraisals/standalone wedding business prices. Montage 117 hotel acres differs 258 master plan/residences excluded. Four includes winery/vineyard/inventory; historical residentialprogram rights already in purchase allocation, never add again.",
       "Annual 2022 Schedule III land allocations 40.326 mMontage/23.514 mFour and realestate grosscarrying 236.288 m/153.841 m are accounting cost, not tax assessment orcurrent market value. Management rights / owner acquisition do not establish wedding operating start."
     ]
+  },
+  {
+    "pass": 48,
+    "question": "What Napa resort rooms, ancillary wedding spaces and social gathering leads have we missed, and where do old prices, room-block rules or generic capacities conflict with current operator terms?",
+    "scope": "Stanly Ranch, Solage, Indian Springs and current Meadowood;28 additional configurations and oneexisting parent update",
+    "completed_utc": "2026-10-11T12:10:23.995755+00:00",
+    "source_urls": [
+      "https://auberge.com/stanly-ranch/events/weddings/",
+      "https://auberge.com/stanly-ranch/weddings-faq/",
+      "https://dreffui1gbt6t.cloudfront.net/images/Stanly-Ranch-Fact-Sheet-.pdf",
+      "https://auberge.com/solage/events/weddings/",
+      "https://prod-partyslate.s3.amazonaws.com/prices-pdf/2908/2025%20Solage%20Wedding%20Deck.pdf",
+      "https://www.indianspringscalistoga.com/event-space-in-calistoga/event-spaces",
+      "https://www.indianspringscalistoga.com/event-space-in-calistoga/events-weddings",
+      "https://www.samssocialclub.com/",
+      "https://meadowood.com/groups-meetings/",
+      "https://prod-images.exhibit-e.com/www_meadowood_com/Meadowood_wedding_pricing_sheet_2018.pdf"
+    ],
+    "added_record_ids": [
+      "stanly-ranch-auberge-collection-glasshouse-barn-napa",
+      "stanly-ranch-auberge-collection-glasshouse-terrace-napa",
+      "stanly-ranch-auberge-collection-garden-house-napa",
+      "stanly-ranch-auberge-collection-cutting-garden-napa",
+      "stanly-ranch-auberge-collection-bell-suite-preparation-room-napa",
+      "stanly-ranch-auberge-collection-lavender-lawn-napa",
+      "stanly-ranch-auberge-collection-the-porch-boardroom-napa",
+      "stanly-ranch-auberge-collection-the-grange-napa",
+      "stanly-ranch-auberge-collection-bear-private-dining-room-napa",
+      "solage-auberge-resorts-collection-solstice-ballroom-napa",
+      "solage-auberge-resorts-collection-solstice-courtyard-south-terrace-napa",
+      "solage-auberge-resorts-collection-solstice-event-lawn-napa",
+      "solage-auberge-resorts-collection-nova-napa",
+      "solage-auberge-resorts-collection-aurora-napa",
+      "solage-auberge-resorts-collection-estrella-lawn-napa",
+      "solage-auberge-resorts-collection-luna-vendor-staging-room-napa",
+      "solage-auberge-resorts-collection-classic-package-napa",
+      "solage-auberge-resorts-collection-elegant-package-napa",
+      "solage-auberge-resorts-collection-timeless-package-napa",
+      "solage-auberge-resorts-collection-intimate2-10guest-offering-napa",
+      "solage-auberge-resorts-collection-intimate10-50guest-offering-napa",
+      "indian-springs-calistoga-sam-s-social-club-the-alley-at-sam-s-social-club-napa",
+      "indian-springs-calistoga-sam-s-social-club-the-barn-napa",
+      "indian-springs-calistoga-sam-s-social-club-rose-garden-napa",
+      "indian-springs-calistoga-sam-s-social-club-river-room-napa",
+      "indian-springs-calistoga-sam-s-social-club-reflection-room-napa",
+      "indian-springs-calistoga-sam-s-social-club-moroccan-garden-napa",
+      "meadowood-napa-valley-current-social-gathering-retreat-offering-napa"
+    ],
+    "updated_record_ids": [
+      "solage-auberge-resorts-collection-napa"
+    ],
+    "duplicates_merged": [
+      "Solageparentexisting,7 rooms 5 legacy packagesoverlap",
+      "Indian Springsand Sam’soneproperty; retreat rooms/gardensoverlap",
+      "Stanly Bell Suiteprep/Porchboardroomnotindependentweddingvenues"
+    ],
+    "excluded": [
+      "2018 Meadowoodlarge-eventprices notcurrent; certificatefailure,no PDFarchive",
+      "Indian Springsoldmenu 404 notdownloaded",
+      "Indian Spring Country Club Florida/Georgia Villageand Ohio/Michigan/New Zealand Meadowoodhomonyms",
+      "43 rooms 1267 generic Stanlythird-partylistingunverified againstoperator 9 names/currenttable"
+    ],
+    "remaining_gaps": [
+      "Issuedpermits/occupancy/noiserights/currentcontracts/completecosts/valuation/history/reviewverification",
+      "Guestroomblockrates/attrition/dateavailability/outsidecatererexceptionconditions",
+      "Allninecounty inventory andmunicipalitycoverageincomplete"
+    ],
+    "fact_check_findings": [
+      "28 configurations added: Stanly Ranch nine, Solage seven rooms and five legacy packages, Indian Springs six, Meadowood one. Existing Solage parent enriched. Shared rooms, preparation areas and packages are not independent properties.",
+      "Stanly Ranch FAQ: outdoor music stops 10 PM; indoor music can continue during contracted time. Glasshouse Barn can extend to 2 AM with extra fees. Operator-stated only, current contract and issued permit unverified. Six event hours start at guest arrival; room block and professional planner required.",
+      "Stanly current Glasshouse 300 rounds/450 reception; Garden House 130/175. Bell Suiteprep 12 and Porch 8 boardroom not banquet. Current FAQ 8.75%tax conflicts undatedfact sheet 7.75%;26% management fee is not gratuity. Quote/chargebases Unknown.",
+      "Solage current 210 Ballroom/260 Lawn rounds versus actual 2025-named deck 170–210 Ballroom; Courtyard 180 reception vs 100 current, Nova 130 vs 100, Aurora 50–70 rounds/100 rec vs 50/80 current. Approved dinner/dance layouts Unknown.",
+      "Solage actual 30-page 2025-named third-party-hosted operator-branded deck: food / bar 300/340/375 with five-hour bar, plus 26% management/7.75%tax and site fees, not current quote/all-in. Roomblocknotrequired perpage 29; if bookedfive rooms/two nights/holidaythree. Intimatepage 19 minimum wording ambiguous.45 corkage/65 under 12 meals/75 vendor/7 cakecutconditional; complimentaryvalet legacy.",
+      "Indian Springs current socialpage highlights rehearsal dinners notexplicitfullweddings. Sam’s caters all events; Alley 40 private dining seats. Other room counts and wedding permission Unknown.2018 menu 404 not reviewed; old fee not current.",
+      "Meadowood current 6–80 eventguests and 36 lodging rooms.2018 pricing/oldlargeevent spaces notcurrent capacity. Direct HTML 403 andold PDFexpiredcertificate recorded; no downloadreview orsecurity bypass. Ohio/Michigan/New Zealandhomonyms excluded."
+    ]
   }
 ]
