@@ -4510,5 +4510,66 @@
       "Directcityfees/policy/budget/HTML403 logged; originalfeePDFweb-reader response archived, notlocalPDFdownload. Policyreader later403, no inferredcutoff/insurance. VPATfetch200but0text not usableoriginalcontent; no newtheatercapacityclaim.",
       "FY2024/25rates historical, currentcompletequotesUnknown. Brochurekitchen and equipment availability notproof allincluded orvendorfreedom. No businesslease/APN/propertyvalue/profit invented. RemainingindividualUlatisrooms andotherVacaville inventory requirefollowup."
     ]
+  },
+  {
+    "pass": 62,
+    "question": "What missing hotel wedding spaces and outside-catering packages remain, and can reported hotel sales support values without confusing historical transactions with current appraisals?",
+    "scope": "Berkeley/SanJose/SanFrancisco hotel inventory, package exclusions and historical sales",
+    "completed_utc": "2026-10-11T14:19:36.216959+00:00",
+    "source_urls": [
+      "https://www.marriott.com/en-us/hotels/oakrr-residence-inn-berkeley/events/",
+      "https://www.marriott.com/en-us/hotels/oakrr-residence-inn-berkeley/events/meetings-and-events/",
+      "https://www.hilton.com/en-gb/hotels/sjcsmsa-signia-san-jose/weddings/",
+      "https://assets.hiltonstatic.com/hilton-asset-cache/image/upload/v1754057354/dx/wp/sjcsmhh-signia-san-jose/pdf/Signia_by_Hilton_San_Jose_Wedding_Brochure_072425_WEB%20FINAL-ua_p7at0a.pdf",
+      "https://www.hilton.com/en-gb/hotels/sfofhhh-hilton-san-francisco-union-square/events/social-events-and-galas/",
+      "https://www.hilton.com/en/hotels/sfofhhh-hilton-san-francisco-union-square/hotel-location/",
+      "https://wpdash.medianewsgroup.com/wp-content/uploads/2026/04/Atlas-Hospitality-Group-California-Hotel-Sales-Survey-2025-Year-End.pdf"
+    ],
+    "added_record_ids": [
+      "residence-inn-berkeley-ashby-alameda",
+      "residence-inn-berkeley-berkeley-ballroom-alameda",
+      "residence-inn-berkeley-telegraph-alameda",
+      "residence-inn-berkeley-university-alameda",
+      "residence-inn-berkeley-shattuck-alameda",
+      "residence-inn-berkeley-san-pablo-alameda",
+      "residence-inn-berkeley-3rd-floor-terrace-alameda",
+      "residence-inn-berkeley-rooftop-bar-restaurant-alameda",
+      "residence-inn-berkeley-restaurant-terrace-alameda",
+      "signia-by-hilton-san-jose-imperial-ballroom-santa-clara",
+      "signia-by-hilton-san-jose-regency-ballroom-santa-clara",
+      "signia-by-hilton-san-jose-club-regent-santa-clara",
+      "signia-by-hilton-san-jose-market-street-foyer-santa-clara",
+      "signia-by-hilton-san-jose-fountain-restaurant-rehearsal-offering-santa-clara",
+      "signia-by-hilton-san-jose-classic-lunch-wedding-package-santa-clara",
+      "signia-by-hilton-san-jose-grand-wedding-package-santa-clara",
+      "signia-by-hilton-san-jose-luxe-wedding-package-santa-clara",
+      "signia-by-hilton-san-jose-elegance-wedding-package-santa-clara",
+      "signia-by-hilton-san-jose-outside-evening-catering-service-santa-clara",
+      "signia-by-hilton-san-jose-outside-lunch-catering-service-santa-clara",
+      "hilton-san-francisco-union-square-wedding-and-social-event-offering-san-francisco"
+    ],
+    "updated_record_ids": [],
+    "duplicates_merged": [
+      "Hotel rooms and alternative packages share properties; do not sum capacity or hotel transaction values across records"
+    ],
+    "excluded": [
+      "Sonesta ES sale identity unresolved",
+      "Healdsburg Inn wedding permission not established",
+      "Hotel suites/prefunction add-ons and total meeting area not independent reception capacity"
+    ],
+    "remaining_gaps": [
+      "Complete current quotes and approved dinner/dance layouts",
+      "Exact music/bar/cleanup deadlines",
+      "Deeds/APNs, current ownership, land/asset allocation and audited earnings",
+      "Other hotels and all nine-county inventory remain incomplete"
+    ],
+    "fact_check_findings": [
+      "21 hotel room/package/offering records added across three shared properties, not21 independent hotels.",
+      "Residence Inn Berkeley ballroom240 banquet versus517 reception; alternate400 generic FAQ conflicts. Published dinner72/person is food only, not a wedding total.",
+      "Signia brochure Classic125 is explicitly plated lunch; Grand190/Luxe260/Elegance295 base packages add28% facilities charge and tax. Outside-catering evening90/180 and lunch65/122 per person EXCLUDE actual food and add charge/tax/bartender fees.",
+      "Signia850/450/175 are generic guests, not verified banquet/dance seating. Bar durations, hotel check-in/out and promotional night language do not prove midnight music permission.",
+      "Actual29-page Atlas 2025 hotel-sales report contains reported Residence Inn Berkeley175.8m foreclosure, SigniaSanJose80m foreclosure and HiltonSFUnionSquare265.5m historical transactions. Exact closing/deed/APN/asset allocation unverified; current property/business values remain Unknown.",
+      "Sonesta ES South San Francisco sale identity unresolved; Healdsburg Inn wedding permission unverified. Held rather than assigning value to an ambiguous venue. Hilton direct HTML403 logged; primary search-reader is not a downloaded original."
+    ]
   }
 ]
