@@ -1,6 +1,6 @@
 # Five critical research reviews
 
-**4 of 5 reviews completed.** Checked 2026-10-26T11:11:04.432Z. Deadline: 8 AM Pacific October 26, 2026. This is a saved checkpoint, not a live process monitor or proof that every venue has been found.
+**5 of 5 reviews completed.** Checked 2026-10-26T11:22:22.356Z. Deadline: 8 AM Pacific October 26, 2026. This is a saved checkpoint, not a live process monitor or proof that every venue has been found.
 
 The separate historical discovery-audit count does not replace these five reviews. Questions alone are not completed passes.
 
@@ -10,14 +10,14 @@ Counts below are records, not independent properties. Known values can still be 
 
 | Field | Known | Searched, no answer | Conflicting | Other unresolved/unlogged |
 |---|---:|---:|---:|---:|
-|Max published capacity|1074|4|6|727|
-|Dinner + dance capacity|14|103|23|1671|
-|Event fee min|252|88|6|1465|
-|Bar min / guest|1|0|0|1810|
-|Indoor music cutoff|34|90|4|1683|
-|Overnight guest capacity|2|4|1|1804|
-|Mandatory lodging total min|0|20|0|1791|
-|First wedding-operation year|0|22|0|1789|
+|Max published capacity|1086|4|6|729|
+|Dinner + dance capacity|14|117|23|1671|
+|Event fee min|252|102|6|1465|
+|Bar min / guest|1|0|0|1824|
+|Indoor music cutoff|34|104|4|1683|
+|Overnight guest capacity|2|4|1|1818|
+|Mandatory lodging total min|0|34|0|1791|
+|First wedding-operation year|0|22|0|1803|
 
 [All typed-field coverage](field-coverage.json) · [Structured five-pass audit](critical-review.json) · [Discovery source audits](discovery-audits.json)
 
@@ -218,6 +218,56 @@ Status: **complete** · Checked 2026-10-26T11:08:45.295Z
 
 Sources: [Source 1](https://www.marriott.com/en-us/hotels/oakrr-residence-inn-berkeley/events/) · [Source 2](https://www.wayfaretavern.com/reservation) · [Source 3](https://www.wayfaretavern.com/private-events) · [Source 4](https://www.theknot.com/marketplace/wayfare-tavern-san-francisco-ca-2029353) · [Source 5](https://25lusk.com/) · [Source 6](https://25lusk.com/event-spaces/) · [Source 7](https://25lusk.com/wp-content/uploads/2026/09/25-Lusk-EVENT.Menu_.pricing.9.10.26.pdf) · [Source 8](https://ggra.org/private-dining-guide/) · [Source 9](https://www.baiasf.com/) · [Source 10](https://www.mercyhsb.com/about-us/kohl-mansion) · [Source 11](https://www.mercyhsb.com/about-us/campus-map) · [Source 12](https://kohlmansion.com/details/) · [Source 13](https://www.cityofsthelena.gov/Facilities/Facility/Details/Crane-Park-2) · [Source 14](https://www.cityofsthelena.gov/Facilities/Facility/Details/Lyman-Park-6)
 
+## Review 5: Independent inventories, conditional cost traps and full-chart behavior
+
+Status: **complete** · Checked 2026-10-26T11:22:21.115Z
+
+### Questions tested
+
+- What independent inventories would disprove apparent discovery completeness?
+- Can an attendance-dependent mandatory fee vanish under a low fixed-cost assumption, or be added twice?
+- Do filtering, numeric sorting, pagination and evidence accordions preserve access to every row?
+
+### Actual checks
+
+- Read all13pages of the Russian River Sector guide and current Armstrong/SaltPoint/SonomaCoast pages; reconciled each designated location against existing records before additions.
+- Compared133GGRAname/linkcandidates with all1811pre-additionrecords by exactnormalizedname;4match,129requirealias/currentoperationchecking.
+- Tested50/80attendee custodial/janitorial thresholds, vendorattendanceuncertainty, lowerfixedassumptions and already-includedfixedcharges.
+- Added50-rowcatalogpagination after actual browser slowdown; tested all1324potential records remain searchable/sortable and pagefilterreset.
+- Ran13regression suites; current publication verification recorded separately afterpush.
+
+### Verified improvements
+
+- Added14statepark site/prospect rows across4provisionalparkproperties, with12boundedpublishedmaxima; no banquet/dinnerdancecount inferred.
+- Preserved currentForestTheatre exception and Smokeytable-count/amplificationsource differences. Sunset/day-use and22quiet rule do not create numeric event/music permission.
+- Applied source-backed conditional mandatory fixed-charge floors to12existingrecords. Below-threshold guestcountalone doesnotresolve totalattendanceincludingvendors; contingentfailurepenalty notunavoidablebasecost.
+- Paginatedgovernmentandpotential catalogs at50rows withtotalmatchingcount/provisionalpropertygroups; filtering andsorting occurbeforepagination.
+- Saved structured independent reconciliation and browser proof; no stableIDs deleted orfuzzymerges.
+
+### Duplicates and exclusions
+
+- GerstleParkMarin differsfromGerstleCoveSonoma; beach150andblufflot20keptdistinctwithinoneparkparent.
+- FourexactGGRAname matches are candidateidentitymatches, notfournewvenues.129othernames notautomaticallyimported.
+- Historicalguidefiling/tier/parking/campfees nottreatedascurrentall-inquotes. Campingcalendar/quiethours notweddingbookingpermission.
+- Refundablesecuritydeposits, creditedpayments andfailuretocleanpenalties notcountedasunavoidableconsumedfees.
+
+### Validation
+
+- All13regression suites passed, including new conditional-charge and independent-park/pagination invariants.
+- Actual browser potential-space list1324matching records,50rendered; Next50showed51–100. SearchSmokeyreset1–2results across1provisionalproperty. Fullbreakdown expanded.
+- Numeric Maxcapacity sort verified ascending6,6,8… and descending6000,6000,5000… over fullfilteredset.
+- An initial selector used nonexistentmetric:capacity_max; inspectedactualheader andusedvisibleMaxcapacity control. No site defect inferred from locator mismatch.
+
+### Remaining uncertainty
+
+- 129restaurant names without an exactmatch are not129verifiedmissingvenues; allneedindividualidentity/currentoffer checks.
+- 66municipal/countyworkstreamsremainunaudited; reviewedworkstreamsarepartial.
+- Currentall-inquotes, lodgingliability, dinner/danceplans and permitclocks remainmajor gaps.
+- ForestTheatrecurrentcasebycaseapproval versusolderonly-reservableguide requireswrittenconfirmation.
+- No complete source-directory scrape, currentdateavailability or commercialoperatinglease established.
+
+Sources: [Source 1](https://ggra.org/private-dining-guide/) · [Source 2](https://stewardscr.org/wp-content/uploads/2024/09/Special-Event-Guide-1.pdf) · [Source 3](https://www.parks.ca.gov/?page_id=450) · [Source 4](https://www.parks.ca.gov/?page_id=453) · [Source 5](https://www.parks.ca.gov/?page_id=451)
+
 ## Next reviews
 
-- Independent adversarial cross-check, model/UI and publication
+

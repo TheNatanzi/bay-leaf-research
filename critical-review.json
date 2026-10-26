@@ -313,14 +313,95 @@
         "42 shared-source identity candidates and shared-address candidates remain provisional; zero exact-key collisions is not proof all aliases are reconciled.",
         "Canonical published terms may be old; construction year and ownership are owner-reported unless separately verified."
       ]
+    },
+    {
+      "id": 5,
+      "title": "Independent inventories, conditional cost traps and full-chart behavior",
+      "status": "complete",
+      "checked_utc": "2026-10-26T11:22:21.115Z",
+      "questions": [
+        "What independent inventories would disprove apparent discovery completeness?",
+        "Can an attendance-dependent mandatory fee vanish under a low fixed-cost assumption, or be added twice?",
+        "Do filtering, numeric sorting, pagination and evidence accordions preserve access to every row?"
+      ],
+      "checks": [
+        "Read all13pages of the Russian River Sector guide and current Armstrong/SaltPoint/SonomaCoast pages; reconciled each designated location against existing records before additions.",
+        "Compared133GGRAname/linkcandidates with all1811pre-additionrecords by exactnormalizedname;4match,129requirealias/currentoperationchecking.",
+        "Tested50/80attendee custodial/janitorial thresholds, vendorattendanceuncertainty, lowerfixedassumptions and already-includedfixedcharges.",
+        "Added50-rowcatalogpagination after actual browser slowdown; tested all1324potential records remain searchable/sortable and pagefilterreset.",
+        "Ran13regression suites; current publication verification recorded separately afterpush."
+      ],
+      "source_urls": [
+        "https://ggra.org/private-dining-guide/",
+        "https://stewardscr.org/wp-content/uploads/2024/09/Special-Event-Guide-1.pdf",
+        "https://www.parks.ca.gov/?page_id=450",
+        "https://www.parks.ca.gov/?page_id=453",
+        "https://www.parks.ca.gov/?page_id=451"
+      ],
+      "added_record_ids": [
+        "armstrong-smokeys-den-sonoma",
+        "armstrong-forest-theatre-sonoma",
+        "saltpoint-south-gerstle-sonoma",
+        "saltpoint-stump-beach-sonoma",
+        "sonomacoast-blind-beach-sonoma",
+        "sonomacoast-portuguese-beach-sonoma",
+        "sonomacoast-schoolhouse-beach-sonoma",
+        "sonomacoast-bodega-dunes-dayuse-sonoma",
+        "sonomacoast-campbell-cove-sonoma",
+        "sonomacoast-blind-beach-lot-sonoma",
+        "sonomacoast-pacific-view-sonoma",
+        "sonomacoast-furlong-gulch-sonoma",
+        "sonomacoast-bodega-head-sonoma",
+        "fortross-wedding-prospect-sonoma"
+      ],
+      "updated_record_ids": [
+        "redwoodcity-cab-room1-san-mateo",
+        "redwoodcity-cab-room2-san-mateo",
+        "redwoodcity-cab-room3-san-mateo",
+        "redwoodcity-cab-room4-san-mateo",
+        "redwoodcity-cab-rooms23-san-mateo",
+        "redwoodcity-cab-rooms34-san-mateo",
+        "redwoodcity-cab-rooms234-san-mateo",
+        "redwoodcity-fairoaks-multipurpose-san-mateo",
+        "redwoodcity-redmorton-roomsab-san-mateo",
+        "redwoodcity-sandpiper-multipurpose-san-mateo",
+        "redwoodcity-veterans-redwoodab-san-mateo",
+        "bayanihan-dr-borja-barangay-hall-san-francisco"
+      ],
+      "changes": [
+        "Added14statepark site/prospect rows across4provisionalparkproperties, with12boundedpublishedmaxima; no banquet/dinnerdancecount inferred.",
+        "Preserved currentForestTheatre exception and Smokeytable-count/amplificationsource differences. Sunset/day-use and22quiet rule do not create numeric event/music permission.",
+        "Applied source-backed conditional mandatory fixed-charge floors to12existingrecords. Below-threshold guestcountalone doesnotresolve totalattendanceincludingvendors; contingentfailurepenalty notunavoidablebasecost.",
+        "Paginatedgovernmentandpotential catalogs at50rows withtotalmatchingcount/provisionalpropertygroups; filtering andsorting occurbeforepagination.",
+        "Saved structured independent reconciliation and browser proof; no stableIDs deleted orfuzzymerges."
+      ],
+      "duplicates_exclusions": [
+        "GerstleParkMarin differsfromGerstleCoveSonoma; beach150andblufflot20keptdistinctwithinoneparkparent.",
+        "FourexactGGRAname matches are candidateidentitymatches, notfournewvenues.129othernames notautomaticallyimported.",
+        "Historicalguidefiling/tier/parking/campfees nottreatedascurrentall-inquotes. Campingcalendar/quiethours notweddingbookingpermission.",
+        "Refundablesecuritydeposits, creditedpayments andfailuretocleanpenalties notcountedasunavoidableconsumedfees."
+      ],
+      "tests": [
+        "All13regression suites passed, including new conditional-charge and independent-park/pagination invariants.",
+        "Actual browser potential-space list1324matching records,50rendered; Next50showed51–100. SearchSmokeyreset1–2results across1provisionalproperty. Fullbreakdown expanded.",
+        "Numeric Maxcapacity sort verified ascending6,6,8… and descending6000,6000,5000… over fullfilteredset.",
+        "An initial selector used nonexistentmetric:capacity_max; inspectedactualheader andusedvisibleMaxcapacity control. No site defect inferred from locator mismatch."
+      ],
+      "remaining": [
+        "129restaurant names without an exactmatch are not129verifiedmissingvenues; allneedindividualidentity/currentoffer checks.",
+        "66municipal/countyworkstreamsremainunaudited; reviewedworkstreamsarepartial.",
+        "Currentall-inquotes, lodgingliability, dinner/danceplans and permitclocks remainmajor gaps.",
+        "ForestTheatrecurrentcasebycaseapproval versusolderonly-reservableguide requireswrittenconfirmation.",
+        "No complete source-directory scrape, currentdateavailability or commercialoperatinglease established."
+      ]
     }
   ],
-  "updated_utc": "2026-10-26T11:11:04.432Z",
-  "completed_passes": 4,
+  "updated_utc": "2026-10-26T11:22:22.356Z",
+  "completed_passes": 5,
   "expected_passes": 5,
   "counts": {
-    "records": 1811,
-    "property_groups": 725,
+    "records": 1825,
+    "property_groups": 729,
     "municipal_unaudited": 66
   }
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-26T11:08:45.295Z",
+  "updated_utc": "2026-10-26T11:22:21.115Z",
   "scope": "Nine Bay Area counties; directory boundaries and nearby results require validation. Nonexhaustive source registry.",
   "sources": [
     {
@@ -977,6 +977,19 @@
       "collected_profiles": 0,
       "new_venue_records": 0,
       "notes": "LinkedBAIAdomainunrelatedcontent; heldcandidate, no activevenue orclosuredate claim."
+    },
+    {
+      "id": "russianriver-statepark-inventory",
+      "name": "Russian River Sector designated wedding and special-event sites",
+      "url": "https://stewardscr.org/wp-content/uploads/2024/09/Special-Event-Guide-1.pdf",
+      "category": "State government inventory",
+      "geography": "Sonoma County; fourparkunits",
+      "checked_utc": "2026-10-26T11:22:21.115Z",
+      "collection_status": "Full13-pageguide reviewed; threecurrentparkpages cross-checked; permit/siteconfirmationrequired",
+      "collection_method": "Robots-aware PDF/pagearchives; no login or securitybypass",
+      "collected_profiles": 14,
+      "new_venue_records": 14,
+      "notes": "Guideuploaded2024notcurrentfeequote. CurrentForestTheatrecasebycaseexception differsfromolderonly-reservableclaim. Namedbeach/lot/sitesnot14independentproperties."
     }
   ]
 }

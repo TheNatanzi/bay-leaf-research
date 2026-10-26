@@ -1,0 +1,879 @@
+{
+  "checked_utc": "2026-10-26T11:22:21.115Z",
+  "scope": "Independent inventory sample reconciliation and adversarial cost/UI checks; not an exhaustive county census.",
+  "restaurant_candidates": [
+    {
+      "name": "25 Lusk",
+      "url": "https://www.25lusk.com/wp-content/uploads/2022/09/25Lusk_EventBrochure_Website.pdf",
+      "exact_name_record_matches": [
+        "25-lusk-whole-san-francisco",
+        "25-lusk-rooftop-san-francisco",
+        "25-lusk-main-dining-san-francisco",
+        "25-lusk-lower-lounge-san-francisco",
+        "25-lusk-cleveland-san-francisco",
+        "25-lusk-semi-private-lounge-san-francisco",
+        "25-lusk-ogden-san-francisco",
+        "25-lusk-clarke-san-francisco",
+        "25-lusk-main-plus-lounge-san-francisco"
+      ],
+      "status": "Exact normalized name match; property/room identity still requires confirmation"
+    },
+    {
+      "name": "54 Mint",
+      "url": "https://www.54mint.com/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Acquerello",
+      "url": "https://www.acquerellosf.com/privatedining",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Alexander’s Steakhouse SF",
+      "url": "https://alexanderssteakhousesf.com/privatedining/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Alexander’s Steakhouse Cupertino",
+      "url": "https://alexanderssteakhouse.com/cupertino/privatedining/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "AsiaSF",
+      "url": "https://sf.asiasf.com/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Astra at The St. Regis San Francisco",
+      "url": "https://www.marriott.com/en-us/hotels/sfoxr-the-st-regis-san-francisco/dining/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "B Star Bar",
+      "url": "https://www.bstarbar.com/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "B-Side",
+      "url": "https://www.b-sidesf.com/privateevents",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "BAIA",
+      "url": "https://www.baiasf.com/events",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Bearing West Bar & Galley",
+      "url": "https://www.bearingwestsf.com/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Bella Trattoria",
+      "url": "https://osteriabella.com/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Beretta Divisadero",
+      "url": "http://berettasf.com",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Beretta Valencia",
+      "url": "http://berettasf.com",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Bettola",
+      "url": "https://www.bettolasf.com/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "",
+      "url": "https://www.biscuitsandblues.com/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Biscuit & Blues",
+      "url": "https://www.biscuitsandblues.com/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Black Cat Jazz Super Club",
+      "url": "http://www.blackcatsf.com",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Blue Mermaid Restaurant & Bar",
+      "url": "https://www.argonauthotel.com/fishermans-wharf-seafood-restaurants/?utm_source=gmb-restaurant&utm_medium=organic&utm_campaign=gmb",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Blue Plate",
+      "url": "http://blueplatesf.com",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Boulevard Restaurant",
+      "url": "http://www.Boulevardrestaurant.com",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Bobo’s",
+      "url": "https://www.bobossf.com/private-dining/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Brickhouse",
+      "url": "https://brickhousesf.com/private-events/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Burma Love Downtown",
+      "url": "https://www.burmalove.com",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Café de la Presse",
+      "url": "http://cafedelapresse.com",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Cafe Tiramisu",
+      "url": "http://tiramisusf.com",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Camino Alto",
+      "url": "https://www.caminoaltosf.com/",
+      "exact_name_record_matches": [
+        "camino-alto-green-house-san-francisco",
+        "camino-alto-full-restaurant-buyout-san-francisco"
+      ],
+      "status": "Exact normalized name match; property/room identity still requires confirmation"
+    },
+    {
+      "name": "Canela Bistro",
+      "url": "https://canelasf.com/events-catering/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Cantina Los Mayas",
+      "url": "https://www.cantinalosmayas.com/private-dining",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Cavana",
+      "url": "http://www.cavanasf.com/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Chao Pescao",
+      "url": "https://www.chaopescaosf.com",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Chapeau!",
+      "url": "https://www.chapeausf.com/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Che Fico",
+      "url": "https://www.chefico.com/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Che Fico Parco Menlo",
+      "url": "https://www.cheficoparcomenlo.com/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "China Live",
+      "url": "https://chinalivesf.com/china-live-spaces/events-private-dining/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Cioppino’s",
+      "url": "https://www.cioppinosf.com/group-dining",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Copra",
+      "url": "https://ettan.tripleseat.com/party_request/29121",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Coqueta",
+      "url": "https://www.coquetasf.com/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Corzetti",
+      "url": "http://corzettisf.com",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Crab House on Pier 39",
+      "url": "https://crabhouse39.com/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Creative Ideas Cafe",
+      "url": "https://creativeideascateringcafe.com/cafe",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Cubita",
+      "url": "https://www.cubitasf.com/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Curio Bar SF and The Chapel",
+      "url": "https://www.curiobarsf.com/private-events",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Damansara",
+      "url": "https://damansarasf.com/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Delfina Restaurant",
+      "url": "https://www.delfinasf.com/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Delarosa Yerba Buena",
+      "url": "http://delarosasf.com",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "E&O Kitchen and Bar",
+      "url": "http://www.eandokitchen.com",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Eagle Cafe",
+      "url": "https://eaglecafe.com/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Early to Rise",
+      "url": "https://www.earlytorisesf.com/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "EPIC Steak",
+      "url": "http://www.epicsteak.com",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Fior d’Italia",
+      "url": "http://fior.com",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Fiorella Clement",
+      "url": "https://www.fiorella-sf.com/large-parties-clement-1",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Fiorella Polk",
+      "url": "https://www.fiorella-sf.com/large-parties-polk-1",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Fiorella Sunset",
+      "url": "https://www.fiorella-sf.com/large-parties-sunset-1-1",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Flores",
+      "url": "http://floressf.com",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Flour + Water",
+      "url": "https://www.flourandwater.com/private-dining-events/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Fog Harbor Fish House",
+      "url": "https://fogharbor.com/private-events/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Goat Hill Pizza",
+      "url": "http://www.goathill.com",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Gozu",
+      "url": "https://www.gozusf.com/private-events",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Gumbo Social",
+      "url": "https://www.gumbosocial.com/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Harborview Restaurant & Bar",
+      "url": "http://harborviewsf.com",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Hilda and Jesse",
+      "url": "https://www.hildaandjessesf.com/events",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "",
+      "url": "https://www.idealerestaurant.com/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Ideale",
+      "url": "https://www.idealerestaurant.com/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Isa",
+      "url": "http://www.isarestaurant.com",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Johnny Foley’s",
+      "url": "https://www.johnnyfoleys.com/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "John’s Grill",
+      "url": "https://www.johnsgrill.com/private-events/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Kaiyo",
+      "url": "http://www.kaiyosf.com",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Kitava- Oakland",
+      "url": "https://www.kitava.com/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Lazy Bear",
+      "url": "http://www.lazybearsf.com",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Lolinda",
+      "url": "http://lolindasf.com",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Luce",
+      "url": "https://www.lucewinerestaurant.com/private-dining-san-francisco",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Mastro’s Steakhouse",
+      "url": "https://www.mastrosrestaurants.com/private-events-san-francisco/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Merkado",
+      "url": "https://www.merkadosf.com/private-events/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Mersea",
+      "url": "https://www.mersea.restaurant/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Montesacro Marina",
+      "url": "https://montesacro.com/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Montesacro SOMA",
+      "url": "https://montesacro.com/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Mosto Bar",
+      "url": "https://www.mostobar.com/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Mr. Tipple’s Jazz Club",
+      "url": "https://mrtipplessf.com/private-events/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "North Beach Restaurant",
+      "url": "https://www.northbeachrestaurant.com/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Octavia",
+      "url": "http://www.octavia-sf.com/privatedining",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Ofena",
+      "url": "https://ofenasf.com/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Old Skool Cafe",
+      "url": "https://www.oldskoolcafe.org/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "One Market",
+      "url": "https://onemarket.com/private-dining/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Oren’s Hummus",
+      "url": "http://www.orenshummus.com",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Osso Steakhouse",
+      "url": "https://www.ossosteakhouse.com/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Ozumo",
+      "url": "https://www.ozumosanfrancisco.com/events-and-catering-2/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Pacific Catch",
+      "url": "https://pacificcatch.com/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Palette Tea house",
+      "url": "https://paletteteahouse.com/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Palio",
+      "url": "https://www.paliosf.com/private-dining",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Palm House",
+      "url": "https://www.palmhousesf.com/private-events",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Park Chalet",
+      "url": "https://www.parkchalet.com/services-1",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Perbacco",
+      "url": "http://perbaccosf.com",
+      "exact_name_record_matches": [
+        "perbacco-buyout-san-francisco",
+        "perbacco-barolo-san-francisco",
+        "perbacco-barbaresco-san-francisco",
+        "perbacco-mezzanine-san-francisco"
+      ],
+      "status": "Exact normalized name match; property/room identity still requires confirmation"
+    },
+    {
+      "name": "Perry’s Embarcadero",
+      "url": "https://www.perryssf.com/private/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Perry’s on Union",
+      "url": "https://www.perryssf.com/private/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Piccino",
+      "url": "https://www.piccino.com/privateevents",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Pier 23 Cafe Restaurant & Bar",
+      "url": "http://pier23cafe.com/privateparties",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Pier Market Seafood",
+      "url": "https://piermarket.com/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Poesia",
+      "url": "http://Www.poesiasf.com",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Prospect",
+      "url": "http://www.prospectsf.com",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "ROOH San Francisco",
+      "url": "https://www.roohrestaurants.com/sf-private-events",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Saluhall",
+      "url": "https://saluhallmarket.com/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Sam’s Grill & Seafood Restaurant",
+      "url": "https://samsgrill-sf.com/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "San Francisco Italian Athletic Club",
+      "url": "https://www.sfiac.org/corporate-private-events",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Scoma’s Restaurant San Francisco",
+      "url": "https://scomas.com/private-dining/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Scopo Divino",
+      "url": "https://www.scopodivino.com/events",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Shuggies",
+      "url": "https://www.shuggiespizza.com/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Starbelly",
+      "url": "http://starbellysf.com",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "",
+      "url": "https://www.superprimesf.com/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Superprime:",
+      "url": "https://www.superprimesf.com/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Terzo",
+      "url": "https://terzosf.com/private-dining/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "The Barrel Room",
+      "url": "https://www.barrelroomsf.com/private-events",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "The City Club of San Francisco",
+      "url": "http://Cityclubsf.com",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "The Civic Kitchen",
+      "url": "https://civickitchensf.com/?gad_source=1&gad_campaignid=22310977321&gbraid=0AAAAAoXU2NDGtxXV-jSfyVyO_x-desIFd&gclid=CjwKCAiA_dDIBhB6EiwAvzc1cI_G_HHQkHcJVgXNC0ev4XAvdJ16zoaJKvLtZz6wq1dWUYG8sVOAkRoCJ-QQAvD_BwE",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "the front porch",
+      "url": "https://www.thefrontporchsf.com/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "The Luce Room at Bistro 888",
+      "url": "https://www.ihg.com/intercontinental/hotels/us/en/san-francisco/sfohb/hoteldetail",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "The Monk’s Kettle",
+      "url": "http://monkskettle.com",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "The Socialite Kitchen",
+      "url": "http://www.thesocialitekitchen.com",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "The Vault Garden & Steakhouse",
+      "url": "https://www.hineighborsf.com/privatedining",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "",
+      "url": "https://www.thewildsf.com/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "The Wild:",
+      "url": "https://www.thewildsf.com/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Tia Margarita",
+      "url": "http://tiamargarita-sf.com",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "TIYA",
+      "url": "https://www.tiyasf.com/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Underdogs Cantina",
+      "url": "https://underdogscantina.com/reservations/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Underdogs Next Door:",
+      "url": "https://underdogscantina.com/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Underdogs Tres",
+      "url": "https://underdogstres.com/reservations/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Uno Dos Tacos",
+      "url": "http://Unodostacos.com",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Via Aurelia",
+      "url": "https://www.viaaureliasf.com/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Waterbar",
+      "url": "http://www.waterbarsf.com",
+      "exact_name_record_matches": [
+        "waterbar-bridge-tower-room-san-francisco",
+        "waterbar-looking-glass-san-francisco",
+        "waterbar-waterbar-full-buyout-san-francisco"
+      ],
+      "status": "Exact normalized name match; property/room identity still requires confirmation"
+    },
+    {
+      "name": "Wayfare Tavern",
+      "url": "https://www.wayfaretavern.com/overview/",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Wilder",
+      "url": "https://www.wildersfc.com/private-events",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Wildseed Union",
+      "url": "http://wildseedsf.com",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    },
+    {
+      "name": "Wooden Spoon",
+      "url": "http://woodenspoonsf.com",
+      "exact_name_record_matches": [],
+      "status": "No exact normalized name match; alias, closure or missing property not resolved"
+    }
+  ],
+  "candidate_count": 133,
+  "exact_name_matches": 4,
+  "unresolved_name_candidates": 129,
+  "state_park_added_ids": [
+    "armstrong-smokeys-den-sonoma",
+    "armstrong-forest-theatre-sonoma",
+    "saltpoint-south-gerstle-sonoma",
+    "saltpoint-stump-beach-sonoma",
+    "sonomacoast-blind-beach-sonoma",
+    "sonomacoast-portuguese-beach-sonoma",
+    "sonomacoast-schoolhouse-beach-sonoma",
+    "sonomacoast-bodega-dunes-dayuse-sonoma",
+    "sonomacoast-campbell-cove-sonoma",
+    "sonomacoast-blind-beach-lot-sonoma",
+    "sonomacoast-pacific-view-sonoma",
+    "sonomacoast-furlong-gulch-sonoma",
+    "sonomacoast-bodega-head-sonoma",
+    "fortross-wedding-prospect-sonoma"
+  ],
+  "conditional_charge_rule_ids": [
+    "redwoodcity-cab-room1-san-mateo",
+    "redwoodcity-cab-room2-san-mateo",
+    "redwoodcity-cab-room3-san-mateo",
+    "redwoodcity-cab-room4-san-mateo",
+    "redwoodcity-cab-rooms23-san-mateo",
+    "redwoodcity-cab-rooms34-san-mateo",
+    "redwoodcity-cab-rooms234-san-mateo",
+    "redwoodcity-fairoaks-multipurpose-san-mateo",
+    "redwoodcity-redmorton-roomsab-san-mateo",
+    "redwoodcity-sandpiper-multipurpose-san-mateo",
+    "redwoodcity-veterans-redwoodab-san-mateo",
+    "bayanihan-dr-borja-barangay-hall-san-francisco"
+  ],
+  "source_urls": [
+    "https://ggra.org/private-dining-guide/",
+    "https://stewardscr.org/wp-content/uploads/2024/09/Special-Event-Guide-1.pdf",
+    "https://www.parks.ca.gov/?page_id=450",
+    "https://www.parks.ca.gov/?page_id=453",
+    "https://www.parks.ca.gov/?page_id=451"
+  ],
+  "tests": [
+    "All13regression suites passed, including new conditional-charge and independent-park/pagination invariants.",
+    "Actual browser potential-space list1324matching records,50rendered; Next50showed51–100. SearchSmokeyreset1–2results across1provisionalproperty. Fullbreakdown expanded.",
+    "Numeric Maxcapacity sort verified ascending6,6,8… and descending6000,6000,5000… over fullfilteredset.",
+    "An initial selector used nonexistentmetric:capacity_max; inspectedactualheader andusedvisibleMaxcapacity control. No site defect inferred from locator mismatch."
+  ],
+  "remaining": [
+    "129restaurant names without an exactmatch are not129verifiedmissingvenues; allneedindividualidentity/currentoffer checks.",
+    "66municipal/countyworkstreamsremainunaudited; reviewedworkstreamsarepartial.",
+    "Currentall-inquotes, lodgingliability, dinner/danceplans and permitclocks remainmajor gaps.",
+    "ForestTheatrecurrentcasebycaseapproval versusolderonly-reservableguide requireswrittenconfirmation.",
+    "No complete source-directory scrape, currentdateavailability or commercialoperatinglease established."
+  ]
+}

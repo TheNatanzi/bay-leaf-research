@@ -1,0 +1,11 @@
+'use strict';
+const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),d=require('./research.json'),e=require('./normalized-engine.js').create(d),by=new Map(d.venues.map(v=>[v.id,v]));
+assert.equal(e.value(by.get('armstrong-smokeys-den-sonoma'),'capacity_max'),150);assert.equal(e.value(by.get('armstrong-forest-theatre-sonoma'),'capacity_max'),null);assert.match(by.get('armstrong-forest-theatre-sonoma').capacity_description,/case-by-case/);
+for(const v of d.venues.filter(v=>v.historical_fee_reference)){
+ assert.equal(v.historical_fee_reference.current_quote,false);assert.equal(e.value(v,'fee_min'),null);assert.equal(e.value(v,'capacity_dinner_dance'),null);assert.equal(e.value(v,'music_outdoor'),null);assert.equal(e.value(v,'sleep_capacity'),null);
+ assert.ok(v.research_attempts.some(x=>x.field==='fee_max'));assert.ok(v.sources.includes('https://stewardscr.org/wp-content/uploads/2024/09/Special-Event-Guide-1.pdf'));
+}
+assert.equal(e.value(by.get('sonomacoast-blind-beach-sonoma'),'capacity_max'),150);assert.equal(e.value(by.get('sonomacoast-blind-beach-lot-sonoma'),'capacity_max'),20);assert.equal(e.record(by.get('sonomacoast-blind-beach-sonoma')).property_id,e.record(by.get('sonomacoast-blind-beach-lot-sonoma')).property_id);
+const html=fs.readFileSync(__dirname+'/index.html','utf8'),src=html.match(/function catalogPageRows\(rows,page\)\{[^\n]+\}/)[0],ctx={catalogPageSize:50};vm.createContext(ctx);vm.runInContext(src,ctx);const rows=Array.from({length:1324},(_,i)=>i);assert.equal(ctx.catalogPageRows(rows,0).length,50);assert.equal(ctx.catalogPageRows(rows,1)[0],50);assert.equal(ctx.catalogPageRows(rows,26).length,24);assert.deepEqual(Array.from({length:27},(_,i)=>[...ctx.catalogPageRows(rows,i)]).flat(),rows);
+assert.ok(html.includes('catalogPage[id]=0;renderCatalog(id)'));assert.ok(html.includes('.innerHTML=visible.map'));assert.equal(JSON.parse(html.match(/<script id="research-data" type="application\/json">(.*?)<\/script>/s)[1]).venues.length,d.venues.length);
+console.log('Adversarial cross-check: historical fees not current quotes, park versus beach/lot identity, daylight not clock/music permission, full pagination coverage and filter reset passed.');
