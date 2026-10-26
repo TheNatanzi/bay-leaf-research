@@ -1,8 +1,8 @@
 {
-  "updated_utc": "2026-10-26T10:53:09.583Z",
+  "updated_utc": "2026-10-26T11:11:04.432Z",
   "status": "Active overnight research",
   "deadline": "2026-10-26T08:00:00-07:00",
-  "current_batch": "Critical review 3 of 5 completed; remaining reviews and research continue",
+  "current_batch": "Critical review 4 of 5 completed; remaining reviews and research continue",
   "completed_this_run": [
     "Verified read-only Scrapzi data access; no jobs queued",
     "Resumed existing recovery automation through 8 AM Pacific",
@@ -31,17 +31,18 @@
     "Villa public operating-agreement case study: initial2022–2027term, staff/utilities/maintenance/communitybenefits, signedcontract3vsstaffreport6events discrepancy; no profit/appraisal invented.",
     "Critical review 1 complete: new Villa FAQ bar/parking/access checks, broken caterer link logged, required-maintenance minimum and fixed-cost override guard verified; all typed-field gaps enumerated.",
     "Critical geographic review:101officialcitynames reconciled;18newgovernmentspace/configurationleads across7parents; RedwoodCity,PortolaTown,NapaOpenSpace partialreviews. Mailingcity/legaleligibility andassembly/dining differences preserved.",
-    "Critical category review: 18 more space/offer records, ten existing leads enriched, ten category samples checked. Jonas250 dinner+dance, boat passenger constraints, no-alcohol hall and glamping buyout/layout conflicts sourced;133restaurant links queued."
+    "Critical category review: 18 more space/offer records, ten existing leads enriched, ten category samples checked. Jonas250 dinner+dance, boat passenger constraints, no-alcohol hall and glamping buyout/layout conflicts sourced;133restaurant links queued.",
+    "Critical identity review:14room/offer records at25Lusk/currentWayfare, 13existingrecords checked, old-address ratings excluded, canonicalKohl terms/staleheader reviewed,82founderreadingrecords. Mechanicalalias/address candidates remain unmerged."
   ],
   "baseline": {
-    "discovery_records": 1797,
-    "provisional_property_groups": 723,
-    "historical_audits": 81,
-    "founder_reading_records": 81,
+    "discovery_records": 1811,
+    "provisional_property_groups": 725,
+    "historical_audits": 82,
+    "founder_reading_records": 82,
     "municipal_workstreams": 110,
     "municipal_unaudited": 66
   },
-  "added_venue_records": 132,
+  "added_venue_records": 146,
   "gaps": [
     "66 municipal/county workstreams remain unaudited; reviewed rows remain partial, and four prior partial county rows need linked-evidence reconciliation.",
     "Directory registry collection pending; source blocks logged, not bypassed",
@@ -56,7 +57,7 @@
     "Resolve current lodging/payer/room-liability quotes and identity/conditional evidence; then five critical passes before8AM"
   ],
   "status_note": "This is the latest published checkpoint, not a live process monitor. An old timestamp may mean research is underway, the app is asleep, or a run stopped. No completeness claim.",
-  "critical_review_passes_completed": 3,
+  "critical_review_passes_completed": 4,
   "run_start_baseline": {
     "discovery_records": 1665,
     "provisional_property_groups": 649,

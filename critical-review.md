@@ -1,6 +1,6 @@
 # Five critical research reviews
 
-**3 of 5 reviews completed.** Checked 2026-10-26T10:53:09.583Z. Deadline: 8 AM Pacific October 26, 2026. This is a saved checkpoint, not a live process monitor or proof that every venue has been found.
+**4 of 5 reviews completed.** Checked 2026-10-26T11:11:04.432Z. Deadline: 8 AM Pacific October 26, 2026. This is a saved checkpoint, not a live process monitor or proof that every venue has been found.
 
 The separate historical discovery-audit count does not replace these five reviews. Questions alone are not completed passes.
 
@@ -10,14 +10,14 @@ Counts below are records, not independent properties. Known values can still be 
 
 | Field | Known | Searched, no answer | Conflicting | Other unresolved/unlogged |
 |---|---:|---:|---:|---:|
-|Max published capacity|1062|4|4|727|
-|Dinner + dance capacity|14|89|23|1671|
-|Event fee min|250|83|6|1458|
-|Bar min / guest|1|0|0|1796|
-|Indoor music cutoff|34|76|4|1683|
-|Overnight guest capacity|2|4|1|1790|
-|Mandatory lodging total min|0|20|0|1777|
-|First wedding-operation year|0|13|0|1784|
+|Max published capacity|1074|4|6|727|
+|Dinner + dance capacity|14|103|23|1671|
+|Event fee min|252|88|6|1465|
+|Bar min / guest|1|0|0|1810|
+|Indoor music cutoff|34|90|4|1683|
+|Overnight guest capacity|2|4|1|1804|
+|Mandatory lodging total min|0|20|0|1791|
+|First wedding-operation year|0|22|0|1789|
 
 [All typed-field coverage](field-coverage.json) · [Structured five-pass audit](critical-review.json) · [Discovery source audits](discovery-audits.json)
 
@@ -166,7 +166,58 @@ Status: **complete** · Checked 2026-10-26T10:51:08.963Z
 
 Sources: [Source 1](https://allianceredwoods.com/guest-groups/meeting-venues/) · [Source 2](https://mtgilead.org/guest-retreats/) · [Source 3](https://ladera.org/community-use/) · [Source 4](https://www.fadf-sf.org/rentals) · [Source 5](https://usspotomac.org/private-charters/) · [Source 6](https://www.sailingsanfrancisco.com/rates) · [Source 7](https://www.perbaccosf.com/dining/) · [Source 8](https://ggra.org/private-dining-guide/) · [Source 9](https://autocamp.com/location/sonoma/groups-and-events/) · [Source 10](https://autocamp.com/wp-content/uploads/2025/07/ACRR-Capacity-Chart_2025.pdf) · [Source 11](https://www1.marin.edu/facilities-rental) · [Source 12](https://www1.marin.edu/sites/default/files/Jonas-Center.pdf) · [Source 13](https://www1.marin.edu/facility-fees-schedule-2526) · [Source 14](https://computerhistory.org/venue/) · [Source 15](https://empresstheatre.org/rentals/) · [Source 16](https://www.elks.org/lodges/lodgefacilities.cfm?LodgeNumber=0003) · [Source 17](https://stewardscr.org/wp-content/uploads/2024/09/Special-Event-Guide-1.pdf)
 
+## Review 4: Property identity, source freshness and current availability
+
+Status: **complete** · Checked 2026-10-26T11:08:45.295Z
+
+### Questions tested
+
+- Are room names being mistaken for municipalities?
+- Do reviews and old menus still describe the same property and current rooms?
+- Are a closed neighboring use, changed domain or broken page being mistaken for venue closure?
+- Are construction, operator start, first wedding and publication dates kept distinct?
+
+### Actual checks
+
+- Compared official Marriott room chart/address with all nine existing Residence Inn Berkeley records. San Pablo is a room; existing Berkeley/Alameda geography was correct.
+- Compared Wayfare’s current address and five room pages with the old-address Knot profile. Held its 5.0/4 aggregate outside current-location ratings.
+- Archived 25 Lusk’s current operator pages and newly linked 20-page September 2026 menu, rather than using the older GGRA brochure.
+- Read exact 25 Lusk WeddingWire profile: 4.7/6, older and partly corporate-event feedback. Shared property scope retained across room records; old midnight anecdote not used as current permission.
+- Read Kohl’s canonical site and terms through the normal browser, plus current school campus pages. Noted stale booking years, old procedure link and distinct Mercy Center closure.
+- Checked BAIA’s directory domain, a broken Lyman page, and current Crane Park overview; unrelated content/errors are not closure dates.
+- Scanned exact name/city/county/parent keys and shared addresses across all 1,811 records; no fuzzy merges performed.
+
+### Verified improvements
+
+- Added 14 room/configuration records across two provisional properties: nine at 25 Lusk and five at current-location Wayfare.
+- Recorded current menu components/minimums, management/tax/employer charges, and preserved conflicting room capacities. Explicit no-venue-fee Ogden/Clarke offers use zero fee, with food/bar minimums and extras still required.
+- Added a completion guard for sourced mandatory percentage charges whose bases or allocation are unresolved; a fixed-cost assumption cannot silently erase that charge.
+- Added Kohl’s $500 refundable security deposit and $500/hour additional-time component; undated 8/9-hour options do not establish a single current booking duration.
+- Added one clearly labeled institutional founder profile with original publication date Unknown. Building 1917 and operator 2010 are separate from first-wedding dates.
+- Added identity audit and source-health cases without deleting stable venue IDs or automatically merging shared addresses.
+
+### Duplicates and exclusions
+
+- No change to Berkeley’s correct city/county; no invented fix.
+- Old Wayfare address/rating and Kentucky lookalike excluded from current-property facts.
+- Unrelated BAIA domain content, Mercy Center closure and Lyman page error did not become active-venue or campus-closure claims.
+- No capacity addition across overlapping floors, rooms or packages; no current midnight permission from historic review.
+
+### Validation
+
+- Identity evidence suite passed: room versus city, current versus historical-address ratings, capacity conflicts, explicit zero venue fee, unresolved mandate charge and separate history dates.
+- Nine earlier suites passed after the engine change. One brittle test expected exactly81readingrecords; changed it to check preservation minimum and uniqueness against actual count, then reran successfully with82.
+- September2026menu capacity, dinner price and charge pages2/14/20 rendered and visually checked against extractedtext.
+- Source-health checks tagged the Crane overview overlap and Lyman soft404 without deleting IDs; identity tests rerun passed.
+
+### Remaining uncertainty
+
+- Current written quotes, charge bases, exact dates and room permissions still need confirmation.
+- 42 shared-source identity candidates and shared-address candidates remain provisional; zero exact-key collisions is not proof all aliases are reconciled.
+- Canonical published terms may be old; construction year and ownership are owner-reported unless separately verified.
+
+Sources: [Source 1](https://www.marriott.com/en-us/hotels/oakrr-residence-inn-berkeley/events/) · [Source 2](https://www.wayfaretavern.com/reservation) · [Source 3](https://www.wayfaretavern.com/private-events) · [Source 4](https://www.theknot.com/marketplace/wayfare-tavern-san-francisco-ca-2029353) · [Source 5](https://25lusk.com/) · [Source 6](https://25lusk.com/event-spaces/) · [Source 7](https://25lusk.com/wp-content/uploads/2026/09/25-Lusk-EVENT.Menu_.pricing.9.10.26.pdf) · [Source 8](https://ggra.org/private-dining-guide/) · [Source 9](https://www.baiasf.com/) · [Source 10](https://www.mercyhsb.com/about-us/kohl-mansion) · [Source 11](https://www.mercyhsb.com/about-us/campus-map) · [Source 12](https://kohlmansion.com/details/) · [Source 13](https://www.cityofsthelena.gov/Facilities/Facility/Details/Crane-Park-2) · [Source 14](https://www.cityofsthelena.gov/Facilities/Facility/Details/Lyman-Park-6)
+
 ## Next reviews
 
-- Identity, current operations and availability
 - Independent adversarial cross-check, model/UI and publication

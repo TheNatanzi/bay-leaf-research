@@ -1,0 +1,588 @@
+{
+  "checked_utc": "2026-10-26T11:08:45.295Z",
+  "records_examined": 1811,
+  "provisional_property_groups": 725,
+  "exact_name_city_county_parent_collisions": [],
+  "shared_address_cross_parent_candidates": [
+    {
+      "address": "360 Crane Avenue, St. Helena, CA 94574",
+      "county": "Napa",
+      "records": [
+        {
+          "id": "crane-park-picnic-areas-napa",
+          "name": "Crane Park picnic areas",
+          "parent": "Crane Park picnic areas"
+        },
+        {
+          "id": "crane-park-picnic-pad1-napa",
+          "name": "Picnic Pad1",
+          "parent": "Crane Park"
+        },
+        {
+          "id": "crane-park-picnic-pad2-napa",
+          "name": "Picnic Pad2",
+          "parent": "Crane Park"
+        },
+        {
+          "id": "crane-park-picnic-pad3-del-britton-grove-napa",
+          "name": "Picnic Pad3 / Del Britton Grove",
+          "parent": "Crane Park"
+        },
+        {
+          "id": "crane-park-covered-picnic-pad4-napa",
+          "name": "Covered Picnic Pad4",
+          "parent": "Crane Park"
+        }
+      ],
+      "status": "Shared-address candidate only; campus, park/building or combination scope may differ. No automatic merge."
+    },
+    {
+      "address": "1498 Main Street, St. Helena, CA 94574",
+      "county": "Napa",
+      "records": [
+        {
+          "id": "lyman-park-gazebo-adjoining-picnic-area-napa",
+          "name": "Lyman Park gazebo / adjoining picnic area",
+          "parent": "Lyman Park gazebo / adjoining picnic area"
+        },
+        {
+          "id": "lyman-park-entire-park-rate-offering-napa",
+          "name": "Entire park rate offering",
+          "parent": "Lyman Park"
+        }
+      ],
+      "status": "Shared-address candidate only; campus, park/building or combination scope may differ. No automatic merge."
+    },
+    {
+      "address": "4700 Lincoln Avenue, Oakland, CA 94602",
+      "county": "Alameda",
+      "records": [
+        {
+          "id": "ascension-event-center-richmond-room-alameda",
+          "name": "Richmond Room",
+          "parent": "Ascension Event Center"
+        },
+        {
+          "id": "ascension-event-center-oakland-room-alameda",
+          "name": "Oakland Room",
+          "parent": "Ascension Event Center"
+        },
+        {
+          "id": "ascension-event-center-patio-alameda",
+          "name": "Patio",
+          "parent": "Ascension Event Center"
+        },
+        {
+          "id": "ascension-event-center-platia-alameda",
+          "name": "Platia",
+          "parent": "Ascension Event Center"
+        },
+        {
+          "id": "greek-orthodox-cathedral-of-the-ascension-cathedral-ceremony-alameda",
+          "name": "Cathedral ceremony",
+          "parent": "Greek Orthodox Cathedral of the Ascension"
+        }
+      ],
+      "status": "Shared-address candidate only; campus, park/building or combination scope may differ. No automatic merge."
+    },
+    {
+      "address": "399 The Embarcadero, San Francisco, CA 94105",
+      "county": "San Francisco",
+      "records": [
+        {
+          "id": "waterbar-bridge-tower-room-san-francisco",
+          "name": "Bridge Tower Room",
+          "parent": "Waterbar"
+        },
+        {
+          "id": "waterbar-looking-glass-san-francisco",
+          "name": "Looking Glass",
+          "parent": "Waterbar"
+        },
+        {
+          "id": "waterbar-waterbar-full-buyout-san-francisco",
+          "name": "Waterbar full buyout",
+          "parent": "Waterbar"
+        },
+        {
+          "id": "waterbar-epic-combined-offering-combined-waterbar-epic-full-property-san-francisco",
+          "name": "Combined Waterbar & EPIC full property",
+          "parent": "Waterbar / EPIC combined offering"
+        }
+      ],
+      "status": "Shared-address candidate only; campus, park/building or combination scope may differ. No automatic merge."
+    },
+    {
+      "address": "50 Canal Street, San Rafael, CA 94901",
+      "county": "Marin",
+      "records": [
+        {
+          "id": "albert-j-boro-community-center-cyr-miller-multipurpose-room-marin",
+          "name": "Cyr Miller Multipurpose Room",
+          "parent": "Albert J. Boro Community Center"
+        },
+        {
+          "id": "albert-j-boro-community-center-meeting-classroom-category-marin",
+          "name": "Meeting / classroom category",
+          "parent": "Albert J. Boro Community Center"
+        },
+        {
+          "id": "albert-j-boro-community-center-art-room-marin",
+          "name": "Art Room",
+          "parent": "Albert J. Boro Community Center"
+        },
+        {
+          "id": "albert-j-boro-community-center-teen-room-lounge-marin",
+          "name": "Teen Room / Lounge",
+          "parent": "Albert J. Boro Community Center"
+        },
+        {
+          "id": "pickleweed-park-picnic-area-marin",
+          "name": "Picnic Area",
+          "parent": "Pickleweed Park"
+        }
+      ],
+      "status": "Shared-address candidate only; campus, park/building or combination scope may differ. No automatic merge."
+    },
+    {
+      "address": "670 Del Ganado Road, San Rafael, CA 94903",
+      "county": "Marin",
+      "records": [
+        {
+          "id": "terra-linda-community-center-room2-marin",
+          "name": "Room2",
+          "parent": "Terra Linda Community Center"
+        },
+        {
+          "id": "terra-linda-community-center-room3-marin",
+          "name": "Room3",
+          "parent": "Terra Linda Community Center"
+        },
+        {
+          "id": "terra-linda-community-center-room4-marin",
+          "name": "Room4",
+          "parent": "Terra Linda Community Center"
+        },
+        {
+          "id": "terra-linda-community-center-rooms2-3-combined-marin",
+          "name": "Rooms2+3 combined",
+          "parent": "Terra Linda Community Center"
+        },
+        {
+          "id": "terra-linda-community-center-rooms3-4-combined-marin",
+          "name": "Rooms3+4 combined",
+          "parent": "Terra Linda Community Center"
+        },
+        {
+          "id": "terra-linda-community-center-rooms2-3-4-combined-marin",
+          "name": "Rooms2+3+4 combined",
+          "parent": "Terra Linda Community Center"
+        },
+        {
+          "id": "terra-linda-park-picnic-area1-marin",
+          "name": "Picnic Area1",
+          "parent": "Terra Linda Park"
+        },
+        {
+          "id": "terra-linda-park-picnic-area2-marin",
+          "name": "Picnic Area2",
+          "parent": "Terra Linda Park"
+        }
+      ],
+      "status": "Shared-address candidate only; campus, park/building or combination scope may differ. No automatic merge."
+    },
+    {
+      "address": "237 Crescent Road, San Anselmo, CA 94960",
+      "county": "Marin",
+      "records": [
+        {
+          "id": "robson-harrington-house-reception-offering-marin",
+          "name": "House reception offering",
+          "parent": "Robson-Harrington"
+        },
+        {
+          "id": "robson-harrington-park-lower-picnic-area-marin",
+          "name": "Lower Picnic Area",
+          "parent": "Robson-Harrington Park"
+        },
+        {
+          "id": "robson-harrington-park-upper-picnic-area-marin",
+          "name": "Upper Picnic Area",
+          "parent": "Robson-Harrington Park"
+        }
+      ],
+      "status": "Shared-address candidate only; campus, park/building or combination scope may differ. No automatic merge."
+    },
+    {
+      "address": "420 Litho Street, Sausalito, CA 94965",
+      "county": "Marin",
+      "records": [
+        {
+          "id": "sausalito-city-hall-edgewater-room-marin",
+          "name": "Edgewater Room",
+          "parent": "Sausalito City Hall"
+        },
+        {
+          "id": "sausalito-city-hall-exercise-room-marin",
+          "name": "Exercise Room",
+          "parent": "Sausalito City Hall"
+        },
+        {
+          "id": "robin-sweeney-park-patio-marin",
+          "name": "Patio",
+          "parent": "Robin Sweeney Park"
+        }
+      ],
+      "status": "Shared-address candidate only; campus, park/building or combination scope may differ. No automatic merge."
+    },
+    {
+      "address": "401 13th Street, Treasure Island, San Francisco, CA 94130",
+      "county": "San Francisco",
+      "records": [
+        {
+          "id": "aracely-cafe-wedding-tented-courtyard-offering-san-francisco",
+          "name": "Wedding / tented courtyard offering",
+          "parent": "Aracely Cafe"
+        },
+        {
+          "id": "aracely-cafe-shared-conference-facility-shared-auditorium-add-on-san-francisco",
+          "name": "Shared auditorium add-on",
+          "parent": "Aracely Cafe / shared conference facility"
+        }
+      ],
+      "status": "Shared-address candidate only; campus, park/building or combination scope may differ. No automatic merge."
+    },
+    {
+      "address": "477 Lincoln Circle, Millbrae, CA 94030",
+      "county": "San Mateo",
+      "records": [
+        {
+          "id": "millbrae-recreation-center-great-hall-full-san-mateo",
+          "name": "Great Hall — Full",
+          "parent": "Millbrae Recreation Center"
+        },
+        {
+          "id": "millbrae-recreation-center-great-hall-north-san-mateo",
+          "name": "Great Hall — North",
+          "parent": "Millbrae Recreation Center"
+        },
+        {
+          "id": "millbrae-recreation-center-great-hall-south-san-mateo",
+          "name": "Great Hall — South",
+          "parent": "Millbrae Recreation Center"
+        },
+        {
+          "id": "millbrae-recreation-center-classroom-a-san-mateo",
+          "name": "Classroom A",
+          "parent": "Millbrae Recreation Center"
+        },
+        {
+          "id": "millbrae-recreation-center-classroom-b-san-mateo",
+          "name": "Classroom B",
+          "parent": "Millbrae Recreation Center"
+        },
+        {
+          "id": "millbrae-recreation-center-classrooms-a-b-san-mateo",
+          "name": "Classrooms A+B",
+          "parent": "Millbrae Recreation Center"
+        },
+        {
+          "id": "millbrae-recreation-center-art-center-san-mateo",
+          "name": "Art Center",
+          "parent": "Millbrae Recreation Center"
+        },
+        {
+          "id": "millbrae-recreation-center-conference-room-b-san-mateo",
+          "name": "Conference Room B",
+          "parent": "Millbrae Recreation Center"
+        },
+        {
+          "id": "millbrae-recreation-center-fitness-center-san-mateo",
+          "name": "Fitness Center",
+          "parent": "Millbrae Recreation Center"
+        },
+        {
+          "id": "millbrae-recreation-center-game-room-san-mateo",
+          "name": "Game Room",
+          "parent": "Millbrae Recreation Center"
+        },
+        {
+          "id": "millbrae-recreation-center-senior-lounge-san-mateo",
+          "name": "Senior Lounge",
+          "parent": "Millbrae Recreation Center"
+        },
+        {
+          "id": "millbrae-picnic-reservation-inventory-picnic-area-1-san-mateo",
+          "name": "Picnic Area 1",
+          "parent": "Millbrae Central Park"
+        },
+        {
+          "id": "millbrae-picnic-reservation-inventory-picnic-area-2-san-mateo",
+          "name": "Picnic Area 2",
+          "parent": "Millbrae Central Park"
+        },
+        {
+          "id": "millbrae-picnic-reservation-inventory-picnic-area-3-san-mateo",
+          "name": "Picnic Area 3",
+          "parent": "Millbrae Central Park"
+        }
+      ],
+      "status": "Shared-address candidate only; campus, park/building or combination scope may differ. No automatic merge."
+    },
+    {
+      "address": "50 E 5th Avenue, San Mateo, CA 94401",
+      "county": "San Mateo",
+      "records": [
+        {
+          "id": "central-recreation-center-assembly-room-san-mateo",
+          "name": "Assembly Room",
+          "parent": "Central Recreation Center"
+        },
+        {
+          "id": "san-mateo-central-park-japanese-tea-garden-san-mateo",
+          "name": "Japanese Tea Garden",
+          "parent": "San Mateo Central Park"
+        },
+        {
+          "id": "san-mateo-central-park-rose-garden-small-wedding-gazebo-san-mateo",
+          "name": "Rose Garden / small wedding gazebo",
+          "parent": "San Mateo Central Park"
+        },
+        {
+          "id": "san-mateo-central-park-picnic-area-1-san-mateo",
+          "name": "Picnic Area 1",
+          "parent": "San Mateo Central Park"
+        },
+        {
+          "id": "san-mateo-central-park-picnic-area-2-san-mateo",
+          "name": "Picnic Area 2",
+          "parent": "San Mateo Central Park"
+        },
+        {
+          "id": "san-mateo-central-park-picnic-area-3-san-mateo",
+          "name": "Picnic Area 3",
+          "parent": "San Mateo Central Park"
+        },
+        {
+          "id": "san-mateo-central-park-picnic-area-4-san-mateo",
+          "name": "Picnic Area 4",
+          "parent": "San Mateo Central Park"
+        }
+      ],
+      "status": "Shared-address candidate only; campus, park/building or combination scope may differ. No automatic merge."
+    },
+    {
+      "address": "650 Shell Boulevard, Foster City, CA 94404",
+      "county": "San Mateo",
+      "records": [
+        {
+          "id": "new-foster-city-community-center-lagoon-event-hall-ultimate-package-san-mateo",
+          "name": "Ultimate Package",
+          "parent": "New Foster City Community Center — Lagoon Event Hall"
+        },
+        {
+          "id": "new-foster-city-community-center-lagoon-event-hall-package-a-san-mateo",
+          "name": "Package A",
+          "parent": "New Foster City Community Center — Lagoon Event Hall"
+        },
+        {
+          "id": "new-foster-city-community-center-lagoon-event-hall-package-b-san-mateo",
+          "name": "Package B",
+          "parent": "New Foster City Community Center — Lagoon Event Hall"
+        },
+        {
+          "id": "new-foster-city-community-center-lagoon-event-hall-package-c-san-mateo",
+          "name": "Package C",
+          "parent": "New Foster City Community Center — Lagoon Event Hall"
+        },
+        {
+          "id": "new-foster-city-community-center-lagoon-event-hall-package-d-san-mateo",
+          "name": "Package D",
+          "parent": "New Foster City Community Center — Lagoon Event Hall"
+        },
+        {
+          "id": "new-foster-city-community-center-lagoon-event-hall-package-e-san-mateo",
+          "name": "Package E",
+          "parent": "New Foster City Community Center — Lagoon Event Hall"
+        },
+        {
+          "id": "new-foster-city-community-center-boardwalk-room-san-mateo",
+          "name": "Boardwalk Room",
+          "parent": "New Foster City Community Center"
+        },
+        {
+          "id": "new-foster-city-community-center-fitness-room-a-san-mateo",
+          "name": "Fitness Room A",
+          "parent": "New Foster City Community Center"
+        },
+        {
+          "id": "new-foster-city-community-center-fitness-room-b-san-mateo",
+          "name": "Fitness Room B",
+          "parent": "New Foster City Community Center"
+        },
+        {
+          "id": "new-foster-city-community-center-fitness-rooms-a-b-san-mateo",
+          "name": "Fitness Rooms A+B",
+          "parent": "New Foster City Community Center"
+        },
+        {
+          "id": "new-foster-city-community-center-bay-room-san-mateo",
+          "name": "Bay Room",
+          "parent": "New Foster City Community Center"
+        },
+        {
+          "id": "new-foster-city-community-center-senior-lounge-san-mateo",
+          "name": "Senior Lounge",
+          "parent": "New Foster City Community Center"
+        },
+        {
+          "id": "new-foster-city-community-center-vista-room-a-san-mateo",
+          "name": "Vista Room A",
+          "parent": "New Foster City Community Center"
+        },
+        {
+          "id": "new-foster-city-community-center-vista-room-b-san-mateo",
+          "name": "Vista Room B",
+          "parent": "New Foster City Community Center"
+        },
+        {
+          "id": "new-foster-city-community-center-vista-rooms-a-b-with-terrace-san-mateo",
+          "name": "Vista Rooms A+B with Terrace",
+          "parent": "New Foster City Community Center"
+        }
+      ],
+      "status": "Shared-address candidate only; campus, park/building or combination scope may differ. No automatic merge."
+    },
+    {
+      "address": "1741 West Texas Street, Fairfield, CA 94533",
+      "county": "Solano",
+      "records": [
+        {
+          "id": "fairfield-sports-center-gymnasium-floor-mezzanine-event-prospect-solano",
+          "name": "Gymnasium floor + mezzanine event prospect",
+          "parent": "Fairfield Sports Center"
+        },
+        {
+          "id": "allan-witt-aquatics-complex-outside-area-event-prospect-solano",
+          "name": "Outside-area event prospect",
+          "parent": "Allan Witt Aquatics Complex"
+        }
+      ],
+      "status": "Shared-address candidate only; campus, park/building or combination scope may differ. No automatic merge."
+    },
+    {
+      "address": "1000 Ulatis Drive, Vacaville, CA 95687",
+      "county": "Solano",
+      "records": [
+        {
+          "id": "ulatis-community-center-full-facility-a-b-c-d-e-f-g-solano",
+          "name": "Full facility A+B+C+D+E+F+G",
+          "parent": "Ulatis Community Center"
+        },
+        {
+          "id": "ulatis-community-center-large-five-section-configuration-inventory-solano",
+          "name": "Large five-section configuration inventory",
+          "parent": "Ulatis Community Center"
+        },
+        {
+          "id": "ulatis-community-center-medium-configuration-inventory-solano",
+          "name": "Medium configuration inventory",
+          "parent": "Ulatis Community Center"
+        },
+        {
+          "id": "ulatis-gardens-wedding-garden-ceremony-rental-solano",
+          "name": "Wedding garden ceremony rental",
+          "parent": "Ulatis Gardens"
+        }
+      ],
+      "status": "Shared-address candidate only; campus, park/building or combination scope may differ. No automatic merge."
+    }
+  ],
+  "source_url_identity_candidates": 42,
+  "automatic_merges": 0,
+  "scope": "Mechanical candidate scans plus targeted primary checks. Zero exact-key collisions does not establish that all rooms, aliases or parcels are distinct.",
+  "cases": [
+    {
+      "case": "Residence Inn Berkeley / San Pablo",
+      "outcome": "Official chart identifies San Pablo as a room at 2121 Center Street, Berkeley. Existing city/county already correct; no geographic correction.",
+      "urls": [
+        "https://www.marriott.com/en-us/hotels/oakrr-residence-inn-berkeley/events/"
+      ]
+    },
+    {
+      "case": "Wayfare location and review era",
+      "outcome": "Current operator reservation and room pages use 201 Pine. Knot profile still uses 558 Sacramento and old room names; 5.0/4 observed but excluded from current-property aggregate. Exact relocation year not inferred from undated current pages.",
+      "urls": [
+        "https://www.wayfaretavern.com/reservation",
+        "https://www.wayfaretavern.com/private-events",
+        "https://www.theknot.com/marketplace/wayfare-tavern-san-francisco-ca-2029353"
+      ]
+    },
+    {
+      "case": "25 Lusk current operation and revised packet",
+      "outcome": "Current operator and September 2026 menu advertise events. GGRA’s old 2022 brochure is not the current packet. 500+ is a lower bound; whole-venue up-to-550 is separately explicit. Rooftop 125/135 and main dining 130/140 remain conflicting.",
+      "urls": [
+        "https://25lusk.com/",
+        "https://25lusk.com/event-spaces/",
+        "https://25lusk.com/wp-content/uploads/2026/09/25-Lusk-EVENT.Menu_.pricing.9.10.26.pdf"
+      ]
+    },
+    {
+      "case": "BAIA legacy domain",
+      "outcome": "Directory destination currently returns unrelated gambling/retail content. Held as an identity/operation research lead; no active venue, numeric facts or closure date inferred.",
+      "urls": [
+        "https://ggra.org/private-dining-guide/",
+        "https://www.baiasf.com/"
+      ]
+    },
+    {
+      "case": "Kohl / Mercy campus identities",
+      "outcome": "School links canonical kohlmansion.com. Ordinary browser reads canonical terms, but homepage still advertises 2024–2025 dates and procedure link points to a 2017 archive. School’s 2025 Mercy Center retreat closure is a different campus use, not proof Kohl or the school closed.",
+      "urls": [
+        "https://www.mercyhsb.com/about-us/kohl-mansion",
+        "https://www.mercyhsb.com/about-us/campus-map",
+        "https://kohlmansion.com/details/"
+      ]
+    },
+    {
+      "case": "Shared address and overview rows",
+      "outcome": "Crane Park overview and pad records share a site, while Waterbar/EPIC combined offerings and park/building campuses have different booking scopes. Shared address alone does not establish duplicate bookable space. Lyman source returns an error, not closure evidence.",
+      "urls": [
+        "https://www.cityofsthelena.gov/Facilities/Facility/Details/Crane-Park-2",
+        "https://www.cityofsthelena.gov/Facilities/Facility/Details/Lyman-Park-6"
+      ]
+    }
+  ],
+  "added_record_ids": [
+    "25-lusk-whole-san-francisco",
+    "25-lusk-rooftop-san-francisco",
+    "25-lusk-main-dining-san-francisco",
+    "25-lusk-lower-lounge-san-francisco",
+    "25-lusk-cleveland-san-francisco",
+    "25-lusk-semi-private-lounge-san-francisco",
+    "25-lusk-ogden-san-francisco",
+    "25-lusk-clarke-san-francisco",
+    "25-lusk-main-plus-lounge-san-francisco",
+    "wayfare-tavern-sequoia-san-francisco",
+    "wayfare-tavern-barbary-san-francisco",
+    "wayfare-tavern-juniper-bar-san-francisco",
+    "wayfare-tavern-juniper-dining-san-francisco",
+    "wayfare-tavern-cellar-san-francisco"
+  ],
+  "updated_record_ids": [
+    "residence-inn-berkeley-ashby-alameda",
+    "residence-inn-berkeley-berkeley-ballroom-alameda",
+    "residence-inn-berkeley-telegraph-alameda",
+    "residence-inn-berkeley-university-alameda",
+    "residence-inn-berkeley-shattuck-alameda",
+    "residence-inn-berkeley-san-pablo-alameda",
+    "residence-inn-berkeley-3rd-floor-terrace-alameda",
+    "residence-inn-berkeley-rooftop-bar-restaurant-alameda",
+    "residence-inn-berkeley-restaurant-terrace-alameda",
+    "kohl-mansion-san-mateo",
+    "crane-park-picnic-areas-napa",
+    "lyman-park-gazebo-adjoining-picnic-area-napa",
+    "lyman-park-entire-park-rate-offering-napa"
+  ],
+  "remaining": "Address/alias candidates and shared-source indexes require individual review; all dates/bookings, legal title and room availability remain unverified."
+}

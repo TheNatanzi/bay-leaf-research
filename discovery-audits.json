@@ -5558,5 +5558,65 @@
     "gaps": [
       "Specific camp/club/museum/theatre weddingpermission, currentall-inquotes, roomliability, otherunrevieweddirectories andagencyinventories. Publiclandguide sections1–4reviewed; site reconciliation/remaining permit conditions next."
     ]
+  },
+  {
+    "pass": 82,
+    "checked_utc": "2026-10-26T11:03:10.868026+00:00",
+    "question": "Are names, locations, current operations and exact review profiles being conflated?",
+    "sources": [
+      "https://www.marriott.com/en-us/hotels/oakrr-residence-inn-berkeley/events/",
+      "https://25lusk.com/",
+      "https://25lusk.com/event-spaces/",
+      "https://25lusk.com/about-25-lusk/",
+      "https://25lusk.com/wp-content/uploads/2026/09/25-Lusk-EVENT.Menu_.pricing.9.10.26.pdf",
+      "https://www.weddingwire.com/biz/twenty-five-lusk-san-francisco/ab47d89c645e1801.html",
+      "https://www.wayfaretavern.com/private-events",
+      "https://www.wayfaretavern.com/reservation",
+      "https://www.theknot.com/marketplace/wayfare-tavern-san-francisco-ca-2029353",
+      "https://kohlmansion.com/details/",
+      "https://www.mercyhsb.com/about-us/kohl-mansion",
+      "https://www.mercyhsb.com/about-us/campus-map",
+      "https://www.baiasf.com/"
+    ],
+    "added": [
+      "25-lusk-whole-san-francisco",
+      "25-lusk-rooftop-san-francisco",
+      "25-lusk-main-dining-san-francisco",
+      "25-lusk-lower-lounge-san-francisco",
+      "25-lusk-cleveland-san-francisco",
+      "25-lusk-semi-private-lounge-san-francisco",
+      "25-lusk-ogden-san-francisco",
+      "25-lusk-clarke-san-francisco",
+      "25-lusk-main-plus-lounge-san-francisco",
+      "wayfare-tavern-sequoia-san-francisco",
+      "wayfare-tavern-barbary-san-francisco",
+      "wayfare-tavern-juniper-bar-san-francisco",
+      "wayfare-tavern-juniper-dining-san-francisco",
+      "wayfare-tavern-cellar-san-francisco"
+    ],
+    "duplicates": [
+      "residence-inn-berkeley-ashby-alameda",
+      "residence-inn-berkeley-berkeley-ballroom-alameda",
+      "residence-inn-berkeley-telegraph-alameda",
+      "residence-inn-berkeley-university-alameda",
+      "residence-inn-berkeley-shattuck-alameda",
+      "residence-inn-berkeley-san-pablo-alameda",
+      "residence-inn-berkeley-3rd-floor-terrace-alameda",
+      "residence-inn-berkeley-rooftop-bar-restaurant-alameda",
+      "residence-inn-berkeley-restaurant-terrace-alameda",
+      "kohl-mansion-san-mateo",
+      "crane-park-picnic-areas-napa",
+      "lyman-park-gazebo-adjoining-picnic-area-napa",
+      "lyman-park-entire-park-rate-offering-napa"
+    ],
+    "exclusions": [
+      "BAIAlegacydomainnowunrelatedcontent: no activevenueimport or closuredateinferred",
+      "MercyCenterclosed2025isdistinctfromKohl; no campusclosureclaim",
+      "WayfareKnot5/4oldaddressnotappliedto201Pine; WayfarerTavernKentuckyexcluded",
+      "25Lusk500+notparsedasfinite500; roof125/135anddining130/140heldconflicts; no midnightfromoldreview"
+    ],
+    "gaps": [
+      "Currentbookings/issuedcontracts, datedownership/APN, exactoperationopenings, currentrevieweras, source/indexidentityqueue and incompletecostbases"
+    ]
   }
 ]

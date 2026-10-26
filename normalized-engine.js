@@ -30,6 +30,7 @@
       function read(key,override){if(override!==''&&override!=null){const n=Number(override);if(finite(n)){assumptions.push(key+' user assumption');return n}missing.push('Invalid assumption: '+key);return null}const f=fact(v,key),n=value(v,key);if(finite(n)){const p=provenance(v,key);if(p.quality.includes('proposal')){missing.push(key+' proposal not established');return null}conditions.push(p.note||p.source_text||key);return n}return null;}
       const pair=(lo,hi,override)=>{const a=read(lo,override),b=override!==''&&override!=null?a:read(hi,null);return [a,b]};
       const minHours=value(v,'minimum_rental_hours');if(minHours!=null&&hours<minHours)missing.push('rental shorter than published minimum');
+      for(const charge of v.unallocated_mandatory_charges||[]){if(charge.source_url&&finite(charge.rate_pct)&&charge.rate_pct>0){missing.push('unallocated mandatory charge: '+charge.name);conditions.push(charge.name+' '+charge.rate_pct+'%; published charge basis/quote allocation requires confirmation');}}
       const lodging=value(v,'lodging_requirement'),lodgingHandling=c.lodgingHandling||'';
       if(['required_extra','required_unallocated','conditional'].includes(lodging)){
         if(lodging==='conditional'&&lodgingHandling==='not_required')assumptions.push('selected conditional offer has no required lodging; user applicability assumption');

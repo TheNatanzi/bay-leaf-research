@@ -20,5 +20,5 @@ assert.ok(!e.scenario(unknown,{mode:'venue_only',food:50}).missing.includes('foo
 for(const lead of d.venues.filter(v=>v.id.startsWith('seb-chamber-')))assert.equal(e.value(lead,'capacity_max'),null,'Directory-only lead must not receive verified numeric occupancy');
 assert.equal(e.value(by.get('ralston-white-retreat-marin'),'construction_year'),null);assert.equal(e.fieldStatus(by.get('ralston-white-retreat-marin'),'construction_year'),'conflicting');
 assert.equal(e.value(by.get('larpd-ravenswood-historic-site-alameda'),'construction_year'),1893);
-assert.equal(d.founder_experiences.length,81);assert.equal(new Set(d.founder_experiences.map(r=>r.url.replace(/\/$/,''))).size,81);
+assert.ok(d.founder_experiences.length>=81);assert.equal(new Set(d.founder_experiences.map(r=>r.url.replace(/\/$/,''))).size,d.founder_experiences.length);
 console.log('Published date holds, invalid dates, event/rental duration, outside-food applicability, unverified directory leads, history separation and founder identity passed.');

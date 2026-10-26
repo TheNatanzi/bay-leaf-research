@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-26T10:51:08.963Z",
+  "updated_utc": "2026-10-26T11:08:45.295Z",
   "scope": "Nine Bay Area counties; directory boundaries and nearby results require validation. Nonexhaustive source registry.",
   "sources": [
     {
@@ -15,7 +15,7 @@
       "checked_utc": "2026-10-26T09:52:15.529466+00:00",
       "collected_profiles": 2,
       "new_venue_records": 0,
-      "notes": "KohlMansion andVillaChanticleer. Whole-property ratings may span operators and duplicate populations across platforms; no new property counted again here."
+      "notes": "Kohl/Villa exact profiles read; Wayfare5.0/4 at old558Sacramento address observed and excluded from current201Pine aggregate."
     },
     {
       "id": "weddingwire",
@@ -24,7 +24,7 @@
       "url": "https://www.weddingwire.com/c/ca-california/san-francisco-san-jose-oakland/wedding-venues/807-11-rca.html",
       "geography": "San Francisco / San Jose / Oakland region",
       "discovery_checked_utc": null,
-      "collection_status": "Two exact property profiles reviewed this run; broader collection pending",
+      "collection_status": "Three exact property profiles reviewed this run; broader collection pending",
       "collection_method": "Primary platform web reader; named property/city and rating/count headings reviewed, not a successful direct scrape",
       "checked_utc": "2026-10-26T09:52:15.529466+00:00",
       "collected_profiles": 2,
@@ -912,6 +912,71 @@
       "new_venue_records": 0,
       "queued_candidate_links": 0,
       "notes": "13-page official guide archived from park partner; venue inventory pages 1–4 read. Designated locations, nonexclusive use and fees vary. Site reconciliation and remaining conditions continue."
+    },
+    {
+      "id": "25lusk-operator",
+      "name": "25 Lusk current event inventory",
+      "url": "https://25lusk.com/private-events/",
+      "category": "Identity / current operator check",
+      "geography": "Bay Area; exact-property scope",
+      "checked_utc": "2026-10-26T11:08:45.295Z",
+      "collection_status": "Targeted identity review; broader collection open",
+      "collection_method": "Saved primary archives; canonical Kohl normal-browser observation; exact platform web-reader profile",
+      "collected_profiles": 1,
+      "new_venue_records": 9,
+      "notes": "Current2026menu/brochure archived; olderGGRA2022PDF not used as current. Room capacities conflict; fees/minimums scoped."
+    },
+    {
+      "id": "wayfare-current",
+      "name": "Wayfare Tavern — current201Pine rooms",
+      "url": "https://www.wayfaretavern.com/private-events",
+      "category": "Identity / current operator check",
+      "geography": "Bay Area; exact-property scope",
+      "checked_utc": "2026-10-26T11:08:45.295Z",
+      "collection_status": "Targeted identity review; broader collection open",
+      "collection_method": "Saved primary archives; canonical Kohl normal-browser observation; exact platform web-reader profile",
+      "collected_profiles": 0,
+      "new_venue_records": 5,
+      "notes": "Currentaddress andfiveconfigurations; Knotold558Sacramentoprofile excluded fromcurrentratings."
+    },
+    {
+      "id": "marriott-berkeley",
+      "name": "Residence Inn Berkeley official event inventory",
+      "url": "https://www.marriott.com/en-us/hotels/oakrr-residence-inn-berkeley/events/",
+      "category": "Identity / current operator check",
+      "geography": "Bay Area; exact-property scope",
+      "checked_utc": "2026-10-26T11:08:45.295Z",
+      "collection_status": "Targeted identity review; broader collection open",
+      "collection_method": "Saved primary archives; canonical Kohl normal-browser observation; exact platform web-reader profile",
+      "collected_profiles": 0,
+      "new_venue_records": 0,
+      "notes": "Nineexistingroomidentities matched; SanPabloroomnotwrongcity."
+    },
+    {
+      "id": "kohl-canonical",
+      "name": "Kohl Mansion canonical event terms",
+      "url": "https://kohlmansion.com/details/",
+      "category": "Identity / current operator check",
+      "geography": "Bay Area; exact-property scope",
+      "checked_utc": "2026-10-26T11:08:45.295Z",
+      "collection_status": "Targeted identity review; broader collection open",
+      "collection_method": "Saved primary archives; canonical Kohl normal-browser observation; exact platform web-reader profile",
+      "collected_profiles": 0,
+      "new_venue_records": 0,
+      "notes": "Normalbrowserread afterrawaccessheld;500deposit/overtime,8/9hours andstaledates retained."
+    },
+    {
+      "id": "ggra-baia-held",
+      "name": "GGRA BAIA legacy destination",
+      "url": "https://ggra.org/private-dining-guide/",
+      "category": "Identity / current operator check",
+      "geography": "Bay Area; exact-property scope",
+      "checked_utc": "2026-10-26T11:08:45.295Z",
+      "collection_status": "Targeted identity review; broader collection open",
+      "collection_method": "Saved primary archives; canonical Kohl normal-browser observation; exact platform web-reader profile",
+      "collected_profiles": 0,
+      "new_venue_records": 0,
+      "notes": "LinkedBAIAdomainunrelatedcontent; heldcandidate, no activevenue orclosuredate claim."
     }
   ]
 }

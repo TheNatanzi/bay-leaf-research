@@ -220,14 +220,107 @@
         "The member-only GGRA listing and 133 extracted candidates are not a census of all restaurant buyouts.",
         "Public-land site reconciliation and later permit conditions remain for an independent cross-check; source access failures remain logged."
       ]
+    },
+    {
+      "id": 4,
+      "title": "Property identity, source freshness and current availability",
+      "status": "complete",
+      "checked_utc": "2026-10-26T11:08:45.295Z",
+      "questions": [
+        "Are room names being mistaken for municipalities?",
+        "Do reviews and old menus still describe the same property and current rooms?",
+        "Are a closed neighboring use, changed domain or broken page being mistaken for venue closure?",
+        "Are construction, operator start, first wedding and publication dates kept distinct?"
+      ],
+      "checks": [
+        "Compared official Marriott room chart/address with all nine existing Residence Inn Berkeley records. San Pablo is a room; existing Berkeley/Alameda geography was correct.",
+        "Compared Wayfare’s current address and five room pages with the old-address Knot profile. Held its 5.0/4 aggregate outside current-location ratings.",
+        "Archived 25 Lusk’s current operator pages and newly linked 20-page September 2026 menu, rather than using the older GGRA brochure.",
+        "Read exact 25 Lusk WeddingWire profile: 4.7/6, older and partly corporate-event feedback. Shared property scope retained across room records; old midnight anecdote not used as current permission.",
+        "Read Kohl’s canonical site and terms through the normal browser, plus current school campus pages. Noted stale booking years, old procedure link and distinct Mercy Center closure.",
+        "Checked BAIA’s directory domain, a broken Lyman page, and current Crane Park overview; unrelated content/errors are not closure dates.",
+        "Scanned exact name/city/county/parent keys and shared addresses across all 1,811 records; no fuzzy merges performed."
+      ],
+      "source_urls": [
+        "https://www.marriott.com/en-us/hotels/oakrr-residence-inn-berkeley/events/",
+        "https://www.wayfaretavern.com/reservation",
+        "https://www.wayfaretavern.com/private-events",
+        "https://www.theknot.com/marketplace/wayfare-tavern-san-francisco-ca-2029353",
+        "https://25lusk.com/",
+        "https://25lusk.com/event-spaces/",
+        "https://25lusk.com/wp-content/uploads/2026/09/25-Lusk-EVENT.Menu_.pricing.9.10.26.pdf",
+        "https://ggra.org/private-dining-guide/",
+        "https://www.baiasf.com/",
+        "https://www.mercyhsb.com/about-us/kohl-mansion",
+        "https://www.mercyhsb.com/about-us/campus-map",
+        "https://kohlmansion.com/details/",
+        "https://www.cityofsthelena.gov/Facilities/Facility/Details/Crane-Park-2",
+        "https://www.cityofsthelena.gov/Facilities/Facility/Details/Lyman-Park-6"
+      ],
+      "added_record_ids": [
+        "25-lusk-whole-san-francisco",
+        "25-lusk-rooftop-san-francisco",
+        "25-lusk-main-dining-san-francisco",
+        "25-lusk-lower-lounge-san-francisco",
+        "25-lusk-cleveland-san-francisco",
+        "25-lusk-semi-private-lounge-san-francisco",
+        "25-lusk-ogden-san-francisco",
+        "25-lusk-clarke-san-francisco",
+        "25-lusk-main-plus-lounge-san-francisco",
+        "wayfare-tavern-sequoia-san-francisco",
+        "wayfare-tavern-barbary-san-francisco",
+        "wayfare-tavern-juniper-bar-san-francisco",
+        "wayfare-tavern-juniper-dining-san-francisco",
+        "wayfare-tavern-cellar-san-francisco"
+      ],
+      "updated_record_ids": [
+        "residence-inn-berkeley-ashby-alameda",
+        "residence-inn-berkeley-berkeley-ballroom-alameda",
+        "residence-inn-berkeley-telegraph-alameda",
+        "residence-inn-berkeley-university-alameda",
+        "residence-inn-berkeley-shattuck-alameda",
+        "residence-inn-berkeley-san-pablo-alameda",
+        "residence-inn-berkeley-3rd-floor-terrace-alameda",
+        "residence-inn-berkeley-rooftop-bar-restaurant-alameda",
+        "residence-inn-berkeley-restaurant-terrace-alameda",
+        "kohl-mansion-san-mateo",
+        "crane-park-picnic-areas-napa",
+        "lyman-park-gazebo-adjoining-picnic-area-napa",
+        "lyman-park-entire-park-rate-offering-napa"
+      ],
+      "changes": [
+        "Added 14 room/configuration records across two provisional properties: nine at 25 Lusk and five at current-location Wayfare.",
+        "Recorded current menu components/minimums, management/tax/employer charges, and preserved conflicting room capacities. Explicit no-venue-fee Ogden/Clarke offers use zero fee, with food/bar minimums and extras still required.",
+        "Added a completion guard for sourced mandatory percentage charges whose bases or allocation are unresolved; a fixed-cost assumption cannot silently erase that charge.",
+        "Added Kohl’s $500 refundable security deposit and $500/hour additional-time component; undated 8/9-hour options do not establish a single current booking duration.",
+        "Added one clearly labeled institutional founder profile with original publication date Unknown. Building 1917 and operator 2010 are separate from first-wedding dates.",
+        "Added identity audit and source-health cases without deleting stable venue IDs or automatically merging shared addresses."
+      ],
+      "duplicates_exclusions": [
+        "No change to Berkeley’s correct city/county; no invented fix.",
+        "Old Wayfare address/rating and Kentucky lookalike excluded from current-property facts.",
+        "Unrelated BAIA domain content, Mercy Center closure and Lyman page error did not become active-venue or campus-closure claims.",
+        "No capacity addition across overlapping floors, rooms or packages; no current midnight permission from historic review."
+      ],
+      "tests": [
+        "Identity evidence suite passed: room versus city, current versus historical-address ratings, capacity conflicts, explicit zero venue fee, unresolved mandate charge and separate history dates.",
+        "Nine earlier suites passed after the engine change. One brittle test expected exactly81readingrecords; changed it to check preservation minimum and uniqueness against actual count, then reran successfully with82.",
+        "September2026menu capacity, dinner price and charge pages2/14/20 rendered and visually checked against extractedtext.",
+        "Source-health checks tagged the Crane overview overlap and Lyman soft404 without deleting IDs; identity tests rerun passed."
+      ],
+      "remaining": [
+        "Current written quotes, charge bases, exact dates and room permissions still need confirmation.",
+        "42 shared-source identity candidates and shared-address candidates remain provisional; zero exact-key collisions is not proof all aliases are reconciled.",
+        "Canonical published terms may be old; construction year and ownership are owner-reported unless separately verified."
+      ]
     }
   ],
-  "updated_utc": "2026-10-26T10:53:09.583Z",
-  "completed_passes": 3,
+  "updated_utc": "2026-10-26T11:11:04.432Z",
+  "completed_passes": 4,
   "expected_passes": 5,
   "counts": {
-    "records": 1797,
-    "property_groups": 723,
+    "records": 1811,
+    "property_groups": 725,
     "municipal_unaudited": 66
   }
 }
