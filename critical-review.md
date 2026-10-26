@@ -1,6 +1,6 @@
 # Five critical research reviews
 
-**5 of 5 reviews completed.** Checked 2026-10-26T13:00:54.549Z. Deadline: 8 AM Pacific October 26, 2026. This is a saved checkpoint, not a live process monitor or proof that every venue has been found.
+**5 of 5 reviews completed.** Checked 2026-10-26T13:09:48.273Z. Deadline: 8 AM Pacific October 26, 2026. This is a saved checkpoint, not a live process monitor or proof that every venue has been found.
 
 The separate historical discovery-audit count does not replace these five reviews. Questions alone are not completed passes.
 
@@ -10,14 +10,14 @@ Counts below are records, not independent properties. Known values can still be 
 
 | Field | Known | Searched, no answer | Conflicting | Other unresolved/unlogged |
 |---|---:|---:|---:|---:|
-|Max published capacity|1199|49|16|748|
-|Dinner + dance capacity|21|291|24|1676|
-|Event fee min|252|215|6|1539|
-|Bar min / guest|1|0|0|2011|
-|Indoor music cutoff|54|235|4|1719|
-|Overnight guest capacity|2|4|1|2005|
-|Mandatory lodging total min|0|100|0|1912|
-|First wedding-operation year|0|69|0|1943|
+|Max published capacity|1212|49|16|754|
+|Dinner + dance capacity|21|306|24|1680|
+|Event fee min|252|215|6|1558|
+|Bar min / guest|1|0|0|2030|
+|Indoor music cutoff|54|242|4|1731|
+|Overnight guest capacity|2|4|1|2024|
+|Mandatory lodging total min|0|100|0|1931|
+|First wedding-operation year|0|76|0|1955|
 
 [All typed-field coverage](field-coverage.json) · [Structured five-pass audit](critical-review.json) · [Discovery source audits](discovery-audits.json)
 

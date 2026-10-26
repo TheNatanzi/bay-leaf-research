@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-26T12:58:35.934199+00:00",
+  "updated_utc": "2026-10-26T13:08:52.856140+00:00",
   "scope": "Nine Bay Area counties; directory boundaries and nearby results require validation. Nonexhaustive source registry.",
   "sources": [
     {
@@ -1146,6 +1146,19 @@
       "collected_profiles": 19,
       "new_venue_records": 19,
       "notes": "GuidepublishedJan13,2026; two exactweb/guide theaterconflicts;19room/addonsnot19properties."
+    },
+    {
+      "id": "petaluma-city-current-2026",
+      "name": "Petaluma actual July2026 facility and park rental booklets",
+      "url": "https://cityofpetaluma.org/reserve-register/",
+      "category": "Municipal government room/park/policy inventory",
+      "geography": "Petaluma, Sonoma County",
+      "checked_utc": "2026-10-26T13:08:52.856140+00:00",
+      "collection_status": "Partial actual18pagefacility/17pageparkbooklets reviewed; broaderinventoryopen",
+      "collection_method": "Normalbrowsercitynavigationtoactualcurrentlinks plusrobots-respectingsavedPDFs; rawcity403held",
+      "collected_profiles": 19,
+      "new_venue_records": 19,
+      "notes": "CurrentJune30,2026docpages; oldersearch2025notusedascurrent. Room/park/supportscopesqualified; noexhaustiveinventoryorallincostclaim."
     }
   ]
 }
