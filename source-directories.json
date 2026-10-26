@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-26T10:32:20.302965+00:00",
+  "updated_utc": "2026-10-26T10:51:08.963Z",
   "scope": "Nine Bay Area counties; directory boundaries and nearby results require validation. Nonexhaustive source registry.",
   "sources": [
     {
@@ -208,12 +208,15 @@
       "url": "https://www.opentable.com/",
       "geography": "Private dining leads; wedding permission unverified",
       "discovery_checked_utc": null,
-      "collection_status": "Queued — not yet checked this run",
+      "collection_status": "Access held for targeted SF private-dining article; no profile collection",
       "collection_method": "Not attempted",
-      "checked_utc": null,
+      "checked_utc": "2026-10-26T10:51:08.963Z",
       "collected_profiles": 0,
       "new_venue_records": 0,
-      "notes": "Index counts are platform claims, not our verified venue count. Review scores require an exact profile, count, scope and checked date. Automated collection permission not yet evaluated."
+      "notes": "Robots request timed out; search discovery is not a successful scrape.",
+      "checked_urls": [
+        "https://www.opentable.com/blog/best-san-francisco-private-dining-restaurants/"
+      ]
     },
     {
       "id": "bayareaweddings",
@@ -732,6 +735,183 @@
       "collected_profiles": 0,
       "new_venue_records": 0,
       "notes": "Policy reviewed, notindividualpark inventory. Eligibilitydiscussion,60daylead,50application; no blanket weddingpermission."
+    },
+    {
+      "id": "critical3-retreats-camps",
+      "name": "Alliance Redwoods; Mt. Gilead",
+      "category": "Category / operator inventory",
+      "url": "https://allianceredwoods.com/guest-groups/meeting-venues/",
+      "checked_urls": [
+        "https://allianceredwoods.com/guest-groups/meeting-venues/",
+        "https://mtgilead.org/guest-retreats/"
+      ],
+      "geography": "Nine Bay Area counties; sample scope only",
+      "checked_utc": "2026-10-26T10:51:08.963Z",
+      "collection_status": "Partial primary/category review; remaining inventories and terms open",
+      "collection_method": "Saved primary HTML/PDF or normal-browser fee image; dated visual checks",
+      "collected_profiles": 0,
+      "new_venue_records": 6,
+      "queued_candidate_links": 0,
+      "notes": "Six Alliance room prospects added; two existing campus leads enriched. Retreat eligibility is not wedding permission. Quiet hours, program-specific rules and overnight inventory remain scoped."
+    },
+    {
+      "id": "critical3-faith-cultural-community-halls",
+      "name": "Ladera Church; Bayanihan; grange/Holy Ghost leads",
+      "category": "Category / operator inventory",
+      "url": "https://ladera.org/community-use/",
+      "checked_urls": [
+        "https://ladera.org/community-use/",
+        "https://www.fadf-sf.org/rentals"
+      ],
+      "geography": "Nine Bay Area counties; sample scope only",
+      "checked_utc": "2026-10-26T10:51:08.963Z",
+      "collection_status": "Partial primary/category review; remaining inventories and terms open",
+      "collection_method": "Saved primary HTML/PDF or normal-browser fee image; dated visual checks",
+      "collected_profiles": 0,
+      "new_venue_records": 2,
+      "queued_candidate_links": 0,
+      "notes": "Church and community hall added. Faith consultation and alcohol prohibition/80-person janitorial threshold recorded. Grange/Holy Ghost lack current primary contracts."
+    },
+    {
+      "id": "critical3-boats",
+      "name": "USS Potomac; Sailing San Francisco",
+      "category": "Category / operator inventory",
+      "url": "https://usspotomac.org/private-charters/",
+      "checked_urls": [
+        "https://usspotomac.org/private-charters/",
+        "https://www.sailingsanfrancisco.com/rates"
+      ],
+      "geography": "Nine Bay Area counties; sample scope only",
+      "checked_utc": "2026-10-26T10:51:08.963Z",
+      "collection_status": "Partial primary/category review; remaining inventories and terms open",
+      "collection_method": "Saved primary HTML/PDF or normal-browser fee image; dated visual checks",
+      "collected_profiles": 0,
+      "new_venue_records": 3,
+      "queued_candidate_links": 0,
+      "notes": "Two Potomac offers, one property; six-passenger sailing offer. Staff-inclusive manifests, accessible routes and remote docking fees matter."
+    },
+    {
+      "id": "critical3-restaurants",
+      "name": "Perbacco; GGRA guide",
+      "category": "Category / operator inventory",
+      "url": "https://www.perbaccosf.com/dining/",
+      "checked_urls": [
+        "https://www.perbaccosf.com/dining/",
+        "https://ggra.org/private-dining-guide/"
+      ],
+      "geography": "Nine Bay Area counties; sample scope only",
+      "checked_utc": "2026-10-26T10:51:08.963Z",
+      "collection_status": "Partial primary/category review; remaining inventories and terms open",
+      "collection_method": "Saved primary HTML/PDF or normal-browser fee image; dated visual checks",
+      "collected_profiles": 1,
+      "new_venue_records": 4,
+      "queued_candidate_links": 133,
+      "notes": "Four overlapping Perbacco configurations added; 133 GGRA name/link candidates queued, not imported as verified venues. Membership directory is not every restaurant."
+    },
+    {
+      "id": "critical3-glamping",
+      "name": "AutoCamp Sonoma",
+      "category": "Category / operator inventory",
+      "url": "https://autocamp.com/location/sonoma/groups-and-events/",
+      "checked_urls": [
+        "https://autocamp.com/location/sonoma/groups-and-events/",
+        "https://autocamp.com/wp-content/uploads/2025/07/ACRR-Capacity-Chart_2025.pdf"
+      ],
+      "geography": "Nine Bay Area counties; sample scope only",
+      "checked_utc": "2026-10-26T10:51:08.963Z",
+      "collection_status": "Partial primary/category review; remaining inventories and terms open",
+      "collection_method": "Saved primary HTML/PDF or normal-browser fee image; dated visual checks",
+      "collected_profiles": 0,
+      "new_venue_records": 3,
+      "queued_candidate_links": 0,
+      "notes": "Existing property matched; three space configurations added. Grove 225/200 and area conflict retained. Clubhouse private use requires buyout; rooms/payers/nights unconfirmed."
+    },
+    {
+      "id": "critical3-colleges",
+      "name": "College of Marin / Jonas Center",
+      "category": "Category / operator inventory",
+      "url": "https://www1.marin.edu/facilities-rental",
+      "checked_urls": [
+        "https://www1.marin.edu/facilities-rental",
+        "https://www1.marin.edu/sites/default/files/Jonas-Center.pdf",
+        "https://www1.marin.edu/facility-fees-schedule-2526"
+      ],
+      "geography": "Nine Bay Area counties; sample scope only",
+      "checked_utc": "2026-10-26T10:51:08.963Z",
+      "collection_status": "Partial primary/category review; remaining inventories and terms open",
+      "collection_method": "Saved primary HTML/PDF or normal-browser fee image; dated visual checks",
+      "collected_profiles": 0,
+      "new_venue_records": 0,
+      "queued_candidate_links": 0,
+      "notes": "Existing property enriched: 300 dining, 250 with dance floor. July 2026 rate alternatives, kitchen cleaning, dance-floor and personnel extras retained; no duplicate campus."
+    },
+    {
+      "id": "critical3-museums-galleries",
+      "name": "Computer History Museum",
+      "category": "Category / operator inventory",
+      "url": "https://computerhistory.org/venue/",
+      "checked_urls": [
+        "https://computerhistory.org/venue/"
+      ],
+      "geography": "Nine Bay Area counties; sample scope only",
+      "checked_utc": "2026-10-26T10:51:08.963Z",
+      "collection_status": "Partial primary/category review; remaining inventories and terms open",
+      "collection_method": "Saved primary HTML/PDF or normal-browser fee image; dated visual checks",
+      "collected_profiles": 0,
+      "new_venue_records": 0,
+      "queued_candidate_links": 0,
+      "notes": "Current rental overview reviewed; no new property. Specific wedding/dance layout, clock and complete price remain searched unknowns."
+    },
+    {
+      "id": "critical3-theaters",
+      "name": "Empress Theatre / Marquee Club",
+      "category": "Category / operator inventory",
+      "url": "https://empresstheatre.org/rentals/",
+      "checked_urls": [
+        "https://empresstheatre.org/rentals/"
+      ],
+      "geography": "Nine Bay Area counties; sample scope only",
+      "checked_utc": "2026-10-26T10:51:08.963Z",
+      "collection_status": "Partial primary/category review; remaining inventories and terms open",
+      "collection_method": "Saved primary HTML/PDF or normal-browser fee image; dated visual checks",
+      "collected_profiles": 0,
+      "new_venue_records": 0,
+      "queued_candidate_links": 0,
+      "notes": "Existing lead matched. Connected spaces and qualification request distinguished from one confirmed wedding booking."
+    },
+    {
+      "id": "critical3-social-clubs-lodges",
+      "name": "San Francisco Elks Lodge #3",
+      "category": "Category / operator inventory",
+      "url": "https://www.elks.org/lodges/lodgefacilities.cfm?LodgeNumber=0003",
+      "checked_urls": [
+        "https://www.elks.org/lodges/lodgefacilities.cfm?LodgeNumber=0003"
+      ],
+      "geography": "Nine Bay Area counties; sample scope only",
+      "checked_utc": "2026-10-26T10:51:08.963Z",
+      "collection_status": "Partial primary/category review; remaining inventories and terms open",
+      "collection_method": "Saved primary HTML/PDF or normal-browser fee image; dated visual checks",
+      "collected_profiles": 0,
+      "new_venue_records": 0,
+      "queued_candidate_links": 0,
+      "notes": "Primary page allows members and nonmembers to rent; wedding/layout/quote unknown. Lounge/spa hours are not event deadlines."
+    },
+    {
+      "id": "critical3-public-land",
+      "name": "Russian River Sector State Parks guide",
+      "category": "Category / operator inventory",
+      "url": "https://stewardscr.org/wp-content/uploads/2024/09/Special-Event-Guide-1.pdf",
+      "checked_urls": [
+        "https://stewardscr.org/wp-content/uploads/2024/09/Special-Event-Guide-1.pdf"
+      ],
+      "geography": "Nine Bay Area counties; sample scope only",
+      "checked_utc": "2026-10-26T10:51:08.963Z",
+      "collection_status": "Partial primary/category review; remaining inventories and terms open",
+      "collection_method": "Saved primary HTML/PDF or normal-browser fee image; dated visual checks",
+      "collected_profiles": 0,
+      "new_venue_records": 0,
+      "queued_candidate_links": 0,
+      "notes": "13-page official guide archived from park partner; venue inventory pages 1–4 read. Designated locations, nonexclusive use and fees vary. Site reconciliation and remaining conditions continue."
     }
   ]
 }

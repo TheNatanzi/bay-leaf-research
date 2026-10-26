@@ -5489,5 +5489,74 @@
     "gaps": [
       "Remaining governmentauthorities, partialcityinventories, legaleligibility, currentquotes/dinnerdance layouts; no completeness claim"
     ]
+  },
+  {
+    "pass": 81,
+    "checked_utc": "2026-10-26T10:42:32.388478+00:00",
+    "question": "Which unconventional categories are hidden by wedding-directory-only discovery?",
+    "sources": [
+      "https://allianceredwoods.com/guest-groups/meeting-venues/",
+      "https://allianceredwoods.com/guest-groups/accommodations/",
+      "https://allianceredwoods.com/arrival-information-for-groups/",
+      "https://mtgilead.org/guest-retreats/",
+      "https://usspotomac.org/private-charters/",
+      "https://www.fadf-sf.org/rentals",
+      "https://www.fadf-sf.org/s/BCC-Rental_Liability-Agreement-1.pdf",
+      "https://www.fadf-sf.org/s/BCC-Public-Rental-Fee.png",
+      "https://ladera.org/community-use/",
+      "https://www.sailingsanfrancisco.com/sailing-weddings-proposals",
+      "https://www.sailingsanfrancisco.com/rates",
+      "https://www.sailingsanfrancisco.com/faq",
+      "https://www.perbaccosf.com/dining/",
+      "https://ggra.org/private-dining-guide/",
+      "https://autocamp.com/location/sonoma/groups-and-events/",
+      "https://autocamp.com/wp-content/uploads/2025/07/ACRR-Capacity-Chart_2025.pdf",
+      "https://www1.marin.edu/sites/default/files/Jonas-Center.pdf",
+      "https://www1.marin.edu/facility-fees-schedule-2526",
+      "https://computerhistory.org/venue/",
+      "https://empresstheatre.org/rentals/",
+      "https://www.elks.org/lodges/lodgefacilities.cfm?LodgeNumber=0003",
+      "https://stewardscr.org/wp-content/uploads/2024/09/Special-Event-Guide-1.pdf"
+    ],
+    "added": [
+      "alliance-redwoods-gym-sonoma",
+      "alliance-redwoods-tabernacle-sonoma",
+      "alliance-redwoods-upper-room-sonoma",
+      "alliance-redwoods-kinser-sonoma",
+      "alliance-redwoods-fire-circle-sonoma",
+      "alliance-redwoods-forest-theater-sonoma",
+      "uss-potomac-cruise-alameda",
+      "uss-potomac-dockside-alameda",
+      "bayanihan-dr-borja-barangay-hall-san-francisco",
+      "ladera-community-church-sanctuary-san-mateo",
+      "sailing-san-francisco-private-charter-san-francisco",
+      "perbacco-buyout-san-francisco",
+      "perbacco-barolo-san-francisco",
+      "perbacco-barbaresco-san-francisco",
+      "perbacco-mezzanine-san-francisco",
+      "autocamp-sonoma-clubhouse-sonoma",
+      "autocamp-sonoma-canopy-sonoma",
+      "autocamp-sonoma-redwood-grove-sonoma"
+    ],
+    "duplicates": [
+      "seb-chamber-alliance-redwoods-sonoma",
+      "seb-chamber-mt-gilead-sonoma",
+      "seb-chamber-great-blue-heron-hall-sonoma",
+      "seb-chamber-hessel-grange-sonoma",
+      "seb-chamber-holy-ghost-hall-sonoma",
+      "autocamp-sonoma-russian-river-sonoma",
+      "bill-adele-jonas-center-at-college-of-marin-indian-valley-campus-marin",
+      "computer-history-museum-santa-clara",
+      "empress-theatre-and-marquee-club-empress-theatre-solano",
+      "san-francisco-elks-lodge-3-event-rental-offering-san-francisco"
+    ],
+    "exclusions": [
+      "No secondproperty for existingAlliance/MtGilead/Heron/Grange/HolyGhost leads",
+      "No 480genericcamp maximum, studentlightsout asadultcutoff, roominventorysum or advertisedgrandcelebration capacity",
+      "No2015Heronquote treatedascurrent; unrelatedMtGileadPennsylvania/BenLomondSantaCruz/FortBraggMendocino excluded fromninecounty additions"
+    ],
+    "gaps": [
+      "Specific camp/club/museum/theatre weddingpermission, currentall-inquotes, roomliability, otherunrevieweddirectories andagencyinventories. Publiclandguide sections1–4reviewed; site reconciliation/remaining permit conditions next."
+    ]
   }
 ]

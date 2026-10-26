@@ -125,14 +125,109 @@
         "Current issued permits, eligibility, complete quotes and dinner-plus-dance layouts still need confirmation.",
         "Four previous partial county rows lack linked row-level evidence; flagging them does not verify the old review."
       ]
+    },
+    {
+      "id": 3,
+      "title": "Source and unconventional-category blind spots",
+      "status": "complete",
+      "checked_utc": "2026-10-26T10:51:08.963Z",
+      "questions": [
+        "Which spaces disappear if discovery relies on wedding directories?",
+        "Do conference, camp, restaurant or boat capacities actually describe a wedding layout?",
+        "Do normal hours, school-program rules or an advertised event imply private wedding permission?"
+      ],
+      "checks": [
+        "Reviewed ten category samples: camps, faith/community halls, boats, restaurants, glamping, colleges, museums, theaters, clubs and public land. Saved source archives and failures.",
+        "Read and archived Bayanihan’s posted fee image and rental agreement: alcohol prohibited, $250 janitorial charge at 80+ attendees, plus separate cleanup duties.",
+        "Compared Sailing San Francisco wedding marketing with its explicit six-passenger limit and ordinary charter prices.",
+        "Checked Potomac cruise/dockside offers, staff-inclusive passenger limits, remote docking fees and accessibility restrictions.",
+        "Compared AutoCamp’s current space page with its linked 2025 capacity chart; visually checked the chart and Jonas Center brochure.",
+        "Extracted 133 exact GGRA name/link candidates with a nested-list parser. Checked that contact email links were excluded; parsing limits and unverified status retained.",
+        "Retried primary verification for three chamber leads; inaccessible/insufficient evidence remains unknown. No 2015 Heron price promoted."
+      ],
+      "source_urls": [
+        "https://allianceredwoods.com/guest-groups/meeting-venues/",
+        "https://mtgilead.org/guest-retreats/",
+        "https://ladera.org/community-use/",
+        "https://www.fadf-sf.org/rentals",
+        "https://usspotomac.org/private-charters/",
+        "https://www.sailingsanfrancisco.com/rates",
+        "https://www.perbaccosf.com/dining/",
+        "https://ggra.org/private-dining-guide/",
+        "https://autocamp.com/location/sonoma/groups-and-events/",
+        "https://autocamp.com/wp-content/uploads/2025/07/ACRR-Capacity-Chart_2025.pdf",
+        "https://www1.marin.edu/facilities-rental",
+        "https://www1.marin.edu/sites/default/files/Jonas-Center.pdf",
+        "https://www1.marin.edu/facility-fees-schedule-2526",
+        "https://computerhistory.org/venue/",
+        "https://empresstheatre.org/rentals/",
+        "https://www.elks.org/lodges/lodgefacilities.cfm?LodgeNumber=0003",
+        "https://stewardscr.org/wp-content/uploads/2024/09/Special-Event-Guide-1.pdf"
+      ],
+      "updated_record_ids": [
+        "seb-chamber-alliance-redwoods-sonoma",
+        "seb-chamber-mt-gilead-sonoma",
+        "seb-chamber-great-blue-heron-hall-sonoma",
+        "seb-chamber-hessel-grange-sonoma",
+        "seb-chamber-holy-ghost-hall-sonoma",
+        "autocamp-sonoma-russian-river-sonoma",
+        "bill-adele-jonas-center-at-college-of-marin-indian-valley-campus-marin",
+        "computer-history-museum-santa-clara",
+        "empress-theatre-and-marquee-club-empress-theatre-solano",
+        "san-francisco-elks-lodge-3-event-rental-offering-san-francisco"
+      ],
+      "added_record_ids": [
+        "alliance-redwoods-gym-sonoma",
+        "alliance-redwoods-tabernacle-sonoma",
+        "alliance-redwoods-upper-room-sonoma",
+        "alliance-redwoods-kinser-sonoma",
+        "alliance-redwoods-fire-circle-sonoma",
+        "alliance-redwoods-forest-theater-sonoma",
+        "uss-potomac-cruise-alameda",
+        "uss-potomac-dockside-alameda",
+        "bayanihan-dr-borja-barangay-hall-san-francisco",
+        "ladera-community-church-sanctuary-san-mateo",
+        "sailing-san-francisco-private-charter-san-francisco",
+        "perbacco-buyout-san-francisco",
+        "perbacco-barolo-san-francisco",
+        "perbacco-barbaresco-san-francisco",
+        "perbacco-mezzanine-san-francisco",
+        "autocamp-sonoma-clubhouse-sonoma",
+        "autocamp-sonoma-canopy-sonoma",
+        "autocamp-sonoma-redwood-grove-sonoma"
+      ],
+      "changes": [
+        "Added 18 space/offer records across five new provisional properties; matched and enriched ten existing leads. Overlapping rooms/packages are not new independent venues.",
+        "Added Jonas Center’s sourced 250 dinner-plus-dance layout and 300 dining layout, plus current rate and extra-cost conditions.",
+        "Recorded alcohol, faith, membership, passenger, accessibility, buyout and conditional cleanup restrictions.",
+        "Added typed wedding-advertising observations and fixed the catalog filter to use them; advertising remains separate from approval.",
+        "Added category audit and 133 queued restaurant links; no mass import or complete-directory scrape claimed."
+      ],
+      "duplicates_exclusions": [
+        "Existing Alliance, Mt. Gilead, AutoCamp, Jonas, museum, theater and club properties were matched rather than duplicated.",
+        "Excluded out-of-region Pennsylvania, Santa Cruz and Mendocino search results from nine-county additions.",
+        "Did not add overlapping lodging alternatives, treat an office/lights-out time as a music deadline, use old Heron prices, or convert staff-inclusive standing limits to guest dinner counts."
+      ],
+      "tests": [
+        "Category evidence/filter regression passed: passenger and layout limits, alcohol policy, quiet-hour scope, lodging overlap, dated chart conflicts and typed advertising.",
+        "All eight existing regression suites passed after current data and filter changes.",
+        "AutoCamp chart and Jonas brochure visually checked; fee image and source failures archived.",
+        "Preservation checks retained all unrelated prior records; 18 added IDs and ten updated IDs recorded separately.",
+        "Local browser: 1,797-record snapshot; exact Sailing San Francisco search returns one record and remains visible under Advertised weddings. Screenshot saved."
+      ],
+      "remaining": [
+        "Specific camp/club/museum wedding permission, complete prices, room liability and date availability still require primary confirmation.",
+        "The member-only GGRA listing and 133 extracted candidates are not a census of all restaurant buyouts.",
+        "Public-land site reconciliation and later permit conditions remain for an independent cross-check; source access failures remain logged."
+      ]
     }
   ],
-  "updated_utc": "2026-10-26T10:34:08.237Z",
-  "completed_passes": 2,
+  "updated_utc": "2026-10-26T10:53:09.583Z",
+  "completed_passes": 3,
   "expected_passes": 5,
   "counts": {
-    "records": 1779,
-    "property_groups": 718,
+    "records": 1797,
+    "property_groups": 723,
     "municipal_unaudited": 66
   }
 }

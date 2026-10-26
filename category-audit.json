@@ -1,0 +1,143 @@
+{
+  "checked_utc": "2026-10-26T10:51:08.963Z",
+  "scope": "Targeted category tests, not exhaustive category inventories or current legal approval.",
+  "added_record_ids": [
+    "alliance-redwoods-gym-sonoma",
+    "alliance-redwoods-tabernacle-sonoma",
+    "alliance-redwoods-upper-room-sonoma",
+    "alliance-redwoods-kinser-sonoma",
+    "alliance-redwoods-fire-circle-sonoma",
+    "alliance-redwoods-forest-theater-sonoma",
+    "uss-potomac-cruise-alameda",
+    "uss-potomac-dockside-alameda",
+    "bayanihan-dr-borja-barangay-hall-san-francisco",
+    "ladera-community-church-sanctuary-san-mateo",
+    "sailing-san-francisco-private-charter-san-francisco",
+    "perbacco-buyout-san-francisco",
+    "perbacco-barolo-san-francisco",
+    "perbacco-barbaresco-san-francisco",
+    "perbacco-mezzanine-san-francisco",
+    "autocamp-sonoma-clubhouse-sonoma",
+    "autocamp-sonoma-canopy-sonoma",
+    "autocamp-sonoma-redwood-grove-sonoma"
+  ],
+  "updated_record_ids": [
+    "seb-chamber-alliance-redwoods-sonoma",
+    "seb-chamber-mt-gilead-sonoma",
+    "seb-chamber-great-blue-heron-hall-sonoma",
+    "seb-chamber-hessel-grange-sonoma",
+    "seb-chamber-holy-ghost-hall-sonoma",
+    "autocamp-sonoma-russian-river-sonoma",
+    "bill-adele-jonas-center-at-college-of-marin-indian-valley-campus-marin",
+    "computer-history-museum-santa-clara",
+    "empress-theatre-and-marquee-club-empress-theatre-solano",
+    "san-francisco-elks-lodge-3-event-rental-offering-san-francisco"
+  ],
+  "categories": [
+    {
+      "category": "Retreats/camps",
+      "sample": "Alliance Redwoods; Mt. Gilead",
+      "source_urls": [
+        "https://allianceredwoods.com/guest-groups/meeting-venues/",
+        "https://mtgilead.org/guest-retreats/"
+      ],
+      "outcome": "Six Alliance room prospects added; two existing campus leads enriched. Retreat eligibility is not wedding permission. Quiet hours, program-specific rules and overnight inventory remain scoped."
+    },
+    {
+      "category": "Faith/cultural/community halls",
+      "sample": "Ladera Church; Bayanihan; grange/Holy Ghost leads",
+      "source_urls": [
+        "https://ladera.org/community-use/",
+        "https://www.fadf-sf.org/rentals"
+      ],
+      "outcome": "Church and community hall added. Faith consultation and alcohol prohibition/80-person janitorial threshold recorded. Grange/Holy Ghost lack current primary contracts."
+    },
+    {
+      "category": "Boats",
+      "sample": "USS Potomac; Sailing San Francisco",
+      "source_urls": [
+        "https://usspotomac.org/private-charters/",
+        "https://www.sailingsanfrancisco.com/rates"
+      ],
+      "outcome": "Two Potomac offers, one property; six-passenger sailing offer. Staff-inclusive manifests, accessible routes and remote docking fees matter."
+    },
+    {
+      "category": "Restaurants",
+      "sample": "Perbacco; GGRA guide",
+      "source_urls": [
+        "https://www.perbaccosf.com/dining/",
+        "https://ggra.org/private-dining-guide/"
+      ],
+      "outcome": "Four overlapping Perbacco configurations added; 133 GGRA name/link candidates queued, not imported as verified venues. Membership directory is not every restaurant."
+    },
+    {
+      "category": "Glamping",
+      "sample": "AutoCamp Sonoma",
+      "source_urls": [
+        "https://autocamp.com/location/sonoma/groups-and-events/",
+        "https://autocamp.com/wp-content/uploads/2025/07/ACRR-Capacity-Chart_2025.pdf"
+      ],
+      "outcome": "Existing property matched; three space configurations added. Grove 225/200 and area conflict retained. Clubhouse private use requires buyout; rooms/payers/nights unconfirmed."
+    },
+    {
+      "category": "Colleges",
+      "sample": "College of Marin / Jonas Center",
+      "source_urls": [
+        "https://www1.marin.edu/facilities-rental",
+        "https://www1.marin.edu/sites/default/files/Jonas-Center.pdf",
+        "https://www1.marin.edu/facility-fees-schedule-2526"
+      ],
+      "outcome": "Existing property enriched: 300 dining, 250 with dance floor. July 2026 rate alternatives, kitchen cleaning, dance-floor and personnel extras retained; no duplicate campus."
+    },
+    {
+      "category": "Museums/galleries",
+      "sample": "Computer History Museum",
+      "source_urls": [
+        "https://computerhistory.org/venue/"
+      ],
+      "outcome": "Current rental overview reviewed; no new property. Specific wedding/dance layout, clock and complete price remain searched unknowns."
+    },
+    {
+      "category": "Theaters",
+      "sample": "Empress Theatre / Marquee Club",
+      "source_urls": [
+        "https://empresstheatre.org/rentals/"
+      ],
+      "outcome": "Existing lead matched. Connected spaces and qualification request distinguished from one confirmed wedding booking."
+    },
+    {
+      "category": "Social clubs/lodges",
+      "sample": "San Francisco Elks Lodge #3",
+      "source_urls": [
+        "https://www.elks.org/lodges/lodgefacilities.cfm?LodgeNumber=0003"
+      ],
+      "outcome": "Primary page allows members and nonmembers to rent; wedding/layout/quote unknown. Lounge/spa hours are not event deadlines."
+    },
+    {
+      "category": "Public land",
+      "sample": "Russian River Sector State Parks guide",
+      "source_urls": [
+        "https://stewardscr.org/wp-content/uploads/2024/09/Special-Event-Guide-1.pdf"
+      ],
+      "outcome": "13-page official guide archived from park partner; venue inventory pages 1–4 read. Designated locations, nonexclusive use and fees vary. Site reconciliation and remaining conditions continue."
+    }
+  ],
+  "held_sources": [
+    {
+      "url": "https://www.lagunafoundation.org/",
+      "outcome": "Timeout/robots unavailable; current terms not verified."
+    },
+    {
+      "url": "https://www.opentable.com/blog/best-san-francisco-private-dining-restaurants/",
+      "outcome": "Raw robots request timed out; no successful collection claimed."
+    }
+  ],
+  "candidate_queues": [
+    {
+      "source": "GGRA",
+      "name_link_rows": 133,
+      "status": "Extracted candidates, not added venues; rows without a capacity marker/direct link may be omitted."
+    }
+  ],
+  "remaining": "Other category/property inventories, primary permission, dated full quotes and complete lodging liabilities remain open."
+}

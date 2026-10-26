@@ -1,6 +1,6 @@
 # Five critical research reviews
 
-**2 of 5 reviews completed.** Checked 2026-10-26T10:34:08.237Z. Deadline: 8 AM Pacific October 26, 2026. This is a saved checkpoint, not a live process monitor or proof that every venue has been found.
+**3 of 5 reviews completed.** Checked 2026-10-26T10:53:09.583Z. Deadline: 8 AM Pacific October 26, 2026. This is a saved checkpoint, not a live process monitor or proof that every venue has been found.
 
 The separate historical discovery-audit count does not replace these five reviews. Questions alone are not completed passes.
 
@@ -10,14 +10,14 @@ Counts below are records, not independent properties. Known values can still be 
 
 | Field | Known | Searched, no answer | Conflicting | Other unresolved/unlogged |
 |---|---:|---:|---:|---:|
-|Max published capacity|1045|3|1|730|
-|Dinner + dance capacity|13|66|23|1677|
-|Event fee min|248|62|6|1463|
-|Bar min / guest|1|0|0|1778|
-|Indoor music cutoff|33|53|4|1689|
-|Overnight guest capacity|1|2|1|1775|
-|Mandatory lodging total min|0|8|0|1771|
-|First wedding-operation year|0|12|0|1767|
+|Max published capacity|1062|4|4|727|
+|Dinner + dance capacity|14|89|23|1671|
+|Event fee min|250|83|6|1458|
+|Bar min / guest|1|0|0|1796|
+|Indoor music cutoff|34|76|4|1683|
+|Overnight guest capacity|2|4|1|1790|
+|Mandatory lodging total min|0|20|0|1777|
+|First wedding-operation year|0|13|0|1784|
 
 [All typed-field coverage](field-coverage.json) · [Structured five-pass audit](critical-review.json) · [Discovery source audits](discovery-audits.json)
 
@@ -116,8 +116,57 @@ Status: **complete** · Checked 2026-10-26T10:32:20.302965+00:00
 
 Sources: [Source 1](https://www.redwoodcity.org/departments/parks-recreation-and-community-services/facilities/facility-rentals) · [Source 2](https://www.portolavalley.net/departments/parks-recreation/community-hall-room-rentals) · [Source 3](https://www.laderarec.org/book-a-party-at-lrd) · [Source 4](https://napaoutdoors.org/special-event-permits/) · [Source 5](https://census.bayareametro.gov/cities-counties) · [Source 6](https://abag.ca.gov/about-abag/what-we-do/our-members) · [Source 7](https://www.smcgov.org/lafco/ladera-recreation-district)
 
+## Review 3: Source and unconventional-category blind spots
+
+Status: **complete** · Checked 2026-10-26T10:51:08.963Z
+
+### Questions tested
+
+- Which spaces disappear if discovery relies on wedding directories?
+- Do conference, camp, restaurant or boat capacities actually describe a wedding layout?
+- Do normal hours, school-program rules or an advertised event imply private wedding permission?
+
+### Actual checks
+
+- Reviewed ten category samples: camps, faith/community halls, boats, restaurants, glamping, colleges, museums, theaters, clubs and public land. Saved source archives and failures.
+- Read and archived Bayanihan’s posted fee image and rental agreement: alcohol prohibited, $250 janitorial charge at 80+ attendees, plus separate cleanup duties.
+- Compared Sailing San Francisco wedding marketing with its explicit six-passenger limit and ordinary charter prices.
+- Checked Potomac cruise/dockside offers, staff-inclusive passenger limits, remote docking fees and accessibility restrictions.
+- Compared AutoCamp’s current space page with its linked 2025 capacity chart; visually checked the chart and Jonas Center brochure.
+- Extracted 133 exact GGRA name/link candidates with a nested-list parser. Checked that contact email links were excluded; parsing limits and unverified status retained.
+- Retried primary verification for three chamber leads; inaccessible/insufficient evidence remains unknown. No 2015 Heron price promoted.
+
+### Verified improvements
+
+- Added 18 space/offer records across five new provisional properties; matched and enriched ten existing leads. Overlapping rooms/packages are not new independent venues.
+- Added Jonas Center’s sourced 250 dinner-plus-dance layout and 300 dining layout, plus current rate and extra-cost conditions.
+- Recorded alcohol, faith, membership, passenger, accessibility, buyout and conditional cleanup restrictions.
+- Added typed wedding-advertising observations and fixed the catalog filter to use them; advertising remains separate from approval.
+- Added category audit and 133 queued restaurant links; no mass import or complete-directory scrape claimed.
+
+### Duplicates and exclusions
+
+- Existing Alliance, Mt. Gilead, AutoCamp, Jonas, museum, theater and club properties were matched rather than duplicated.
+- Excluded out-of-region Pennsylvania, Santa Cruz and Mendocino search results from nine-county additions.
+- Did not add overlapping lodging alternatives, treat an office/lights-out time as a music deadline, use old Heron prices, or convert staff-inclusive standing limits to guest dinner counts.
+
+### Validation
+
+- Category evidence/filter regression passed: passenger and layout limits, alcohol policy, quiet-hour scope, lodging overlap, dated chart conflicts and typed advertising.
+- All eight existing regression suites passed after current data and filter changes.
+- AutoCamp chart and Jonas brochure visually checked; fee image and source failures archived.
+- Preservation checks retained all unrelated prior records; 18 added IDs and ten updated IDs recorded separately.
+- Local browser: 1,797-record snapshot; exact Sailing San Francisco search returns one record and remains visible under Advertised weddings. Screenshot saved.
+
+### Remaining uncertainty
+
+- Specific camp/club/museum wedding permission, complete prices, room liability and date availability still require primary confirmation.
+- The member-only GGRA listing and 133 extracted candidates are not a census of all restaurant buyouts.
+- Public-land site reconciliation and later permit conditions remain for an independent cross-check; source access failures remain logged.
+
+Sources: [Source 1](https://allianceredwoods.com/guest-groups/meeting-venues/) · [Source 2](https://mtgilead.org/guest-retreats/) · [Source 3](https://ladera.org/community-use/) · [Source 4](https://www.fadf-sf.org/rentals) · [Source 5](https://usspotomac.org/private-charters/) · [Source 6](https://www.sailingsanfrancisco.com/rates) · [Source 7](https://www.perbaccosf.com/dining/) · [Source 8](https://ggra.org/private-dining-guide/) · [Source 9](https://autocamp.com/location/sonoma/groups-and-events/) · [Source 10](https://autocamp.com/wp-content/uploads/2025/07/ACRR-Capacity-Chart_2025.pdf) · [Source 11](https://www1.marin.edu/facilities-rental) · [Source 12](https://www1.marin.edu/sites/default/files/Jonas-Center.pdf) · [Source 13](https://www1.marin.edu/facility-fees-schedule-2526) · [Source 14](https://computerhistory.org/venue/) · [Source 15](https://empresstheatre.org/rentals/) · [Source 16](https://www.elks.org/lodges/lodgefacilities.cfm?LodgeNumber=0003) · [Source 17](https://stewardscr.org/wp-content/uploads/2024/09/Special-Event-Guide-1.pdf)
+
 ## Next reviews
 
-- Source and venue-category blind spots
 - Identity, current operations and availability
 - Independent adversarial cross-check, model/UI and publication
