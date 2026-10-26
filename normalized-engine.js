@@ -12,6 +12,7 @@
       else if(p[0]==='price'){source=v.price?.basis;urls=v.price?.source?[v.price.source]:v.sources||[];checked=v.price?.checked_utc||v.pricing_checked_utc||null;originalStatus=v.price?.status||null;}
       else if(p[0]==='parcel_evidence'){source=raw;urls=raw?.source_url?[raw.source_url]:v.value_sources||[];checked=raw?.checked_utc||null;originalStatus=raw?.scope||null;}
       else if(p[0]==='research_observations'){source=raw?.source_text;urls=raw?.source_urls||[];checked=raw?.checked_utc||null;originalStatus=raw?.basis||null;}
+      else if(p[0]==='research_attempts'){source=raw?.source_text;urls=raw?.source_urls||[];checked=raw?.checked_utc||null;originalStatus=raw?.status||null;}
       else if(/year|operator_start/.test(typeof key==='string'?key:'')){urls=v.history_sources||[];originalStatus=v.history_status||null;}
       else urls=v.value_sources&&/asking|value|sale/.test(String(p[0]))?v.value_sources:v.sources||[];
       if(key==='capacity_max')source={seated:v.seated_capacity??null,standing:v.standing_capacity??null,generic:v.generic_capacity??null,published:v.published_capacity??null,description:v.capacity_description??null};

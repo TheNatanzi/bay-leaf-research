@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-26T08:09:10.758685+00:00",
+  "updated_utc": "2026-10-26T08:22:33.195057+00:00",
   "scope": "Nine Bay Area counties; directory boundaries and nearby results require validation. Nonexhaustive source registry.",
   "sources": [
     {
@@ -38,12 +38,12 @@
       "url": "https://www.zola.com/wedding-vendors/find/venues/city/san-francisco-ca",
       "geography": "San Francisco; expand by county",
       "discovery_checked_utc": "2026-10-26T08:06:19.266392+00:00",
-      "collection_status": "Index archived; profile collection pending",
-      "collection_method": "Public HTTP 200; original HTML, text and links saved",
-      "checked_utc": "2026-10-26T08:08:07.538707+00:00",
-      "collected_profiles": 0,
-      "new_venue_records": 0,
-      "notes": "Single index archived; not a full directory scrape. Candidate links require profile/county/identity verification. No ratings imported from index summaries.",
+      "collection_status": "Six exact profiles reviewed; remaining profile/county collection pending",
+      "collection_method": "Public profile HTTP200; robots allowed, rate-limited; HTML/text/links archived",
+      "checked_utc": "2026-10-26T08:22:33.195057+00:00",
+      "collected_profiles": 6,
+      "new_venue_records": 5,
+      "notes": "Six score/count aggregates imported; includes couple and professional reviews. Five property leads added, one existing property updated. Internal capacity conflicts held. Full directory not collected.",
       "candidate_profile_links": 12
     },
     {

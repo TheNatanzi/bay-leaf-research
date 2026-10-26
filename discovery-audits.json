@@ -4873,5 +4873,131 @@
       "Both current primary pages downloaded successfully, HTML/text/links and fetch results archived."
     ],
     "pass": 68
+  },
+  {
+    "question": "Which archived special-district and Corte Madera rentals were missed, and which actual exit/music limits rule out midnight?",
+    "scope": "Ambrose BayPoint, LeftyGomez Rodeo and CorteMadera municipal source/policy review",
+    "completed_utc": "2026-10-26T08:22:33.195057+00:00",
+    "source_urls": [
+      "https://www.ambroserec.org/facility-rental",
+      "https://www.rodeobaseball.org/reccenter",
+      "https://www.cortemadera.gov/404/Indoor-Outdoor-Facilities",
+      "https://www.cortemadera.gov/DocumentCenter/View/1072"
+    ],
+    "added_record_ids": [
+      "ambrose-community-center-bay-point-contra-costa",
+      "lefty-gomez-recreation-center-rodeo-contra-costa",
+      "corte-madera-community-center-main-hall-marin",
+      "neil-cummins-gym-corte-madera-marin",
+      "menke-park-piccolo-pavilion-corte-madera-marin"
+    ],
+    "updated_record_ids": [],
+    "duplicates_merged": [],
+    "excluded": [
+      "AmbroseHall Dublin is distinct from AmbroseCommunityCenter BayPoint",
+      "TownPark20:00policy not copied onto indoor hall",
+      "72Leftychairs not treated as72capacity",
+      "CorteMadera2024–25rates not assumed current; historical350assembly figure not substituted"
+    ],
+    "remaining_gaps": [
+      "Current contracts, conditional date/season/eligibility, complete fees, event permissions",
+      "Other CorteMadera parks and public/private/faith/club inventories"
+    ],
+    "fact_check_findings": [
+      "Fresh policyPDF establishes hall music ends21:00Sun–Thu/22:00Fri–Sat; event22:00/23:00, not midnight.",
+      "Lefty60genericcapacity,20:00vacate,4hminimum; weekday3hwindow conflict retained.",
+      "Ambrose explicitly markets receptions but page omits numeric rates/capacity/time; searched gaps recorded."
+    ],
+    "pass": 69
+  },
+  {
+    "question": "Which exact wedding-platform profiles and review aggregates were missing, and do headline capacities conflict with room tables?",
+    "scope": "Six Zola profiles, five new property leads and one existing SwedishAmericanHall update",
+    "completed_utc": "2026-10-26T08:22:33.195057+00:00",
+    "source_urls": [
+      "https://www.zola.com/wedding-vendors/wedding-venues/the-palace-theater",
+      "https://www.zola.com/wedding-vendors/wedding-venues/plant-connection-sf",
+      "https://www.zola.com/wedding-vendors/wedding-venues/exploratorium",
+      "https://www.zola.com/wedding-vendors/wedding-venues/swedish-american-hall--2",
+      "https://www.zola.com/wedding-vendors/wedding-venues/hotel-kabuki",
+      "https://www.zola.com/wedding-vendors/wedding-venues/marigold-event-space"
+    ],
+    "added_record_ids": [
+      "the-palace-theater-san-francisco",
+      "plant-connection-sf-san-francisco",
+      "exploratorium-san-francisco",
+      "hotel-kabuki-san-francisco",
+      "marigold-event-space-san-francisco"
+    ],
+    "updated_record_ids": [
+      "swedish-american-hall-san-francisco"
+    ],
+    "duplicates_merged": [
+      "SwedishAmericanHall matched existing property; no duplicate inserted"
+    ],
+    "excluded": [
+      "Index-only rating imports",
+      "Starting price treated asall-in quote",
+      "Room capacities summed into property occupancy",
+      "Onsite lodging amenity treated asincluded/mandatory nights",
+      "700genericindex figure reused asseated capacity"
+    ],
+    "remaining_gaps": [
+      "Current operator permission/contracts, prices and room/party layout reconciliation",
+      "Remaining directory profiles and counties",
+      "Mandatory lodging costs, independent Google/Yelp and broader WW/TheKnot coverage"
+    ],
+    "fact_check_findings": [
+      "All six exact profiles downloaded with robots checks and per-host rate limit; displayed score and reviewcount parsed/checked.",
+      "Plant96headlinevs90seated/96standing andSwedish150headlinevs180room conflicts retained.",
+      "Marigold FAQ no outside alcohol/no elevator and cancellation tiers recorded; provider aggregate includes professional reviews."
+    ],
+    "pass": 70
+  },
+  {
+    "pass": 71,
+    "question": "Which San Pablo municipal rooms were missing, and do current dated fee tables change total obligations or capacity assumptions?",
+    "scope": "Official city inventory,15page application/policy packet, September2026feeappendix and CommunityHall detail",
+    "completed_utc": "2026-10-26T08:24:50.512730+00:00",
+    "source_urls": [
+      "https://sanpabloca.gov/1003/Facilities-Parks",
+      "https://www.sanpabloca.gov/DocumentCenter/View/7258/Facility-Rental-Application-Fillable",
+      "https://sanpabloca.gov/1389/Community-Hall"
+    ],
+    "added_record_ids": [
+      "san-pablo-maple-hall-contra-costa",
+      "san-pablo-community-hall-contra-costa",
+      "san-pablo-davis-park-multipurpose-room-contra-costa",
+      "san-pablo-davis-park-senior-center-contra-costa",
+      "san-pablo-library-community-room-contra-costa",
+      "san-pablo-activity-room-2-contra-costa",
+      "san-pablo-activity-room-3-contra-costa",
+      "san-pablo-church-lane-senior-center-contra-costa",
+      "san-pablo-wildcat-creek-community-room-contra-costa",
+      "san-pablo-community-room-west-contra-costa",
+      "san-pablo-community-room-east-contra-costa",
+      "san-pablo-fitness-room-contra-costa",
+      "san-pablo-teen-lounge-contra-costa"
+    ],
+    "updated_record_ids": [],
+    "duplicates_merged": [],
+    "excluded": [
+      "Kitchen-only, media-labdependentoffer, vendor kiosks/storage and sports-field-only offers held as support/sport rather than weddingroom records",
+      "Generic room maximums not reported as seated/dance capacities",
+      "Maintenance8/h and attendant24/h not added twice",
+      "January2026searchsnippet not used after actualPDF showed September2026appendix",
+      "OldFAQ2021closure nottreated ascurrent closure"
+    ],
+    "remaining_gaps": [
+      "ChurchLane/Wildcat/Library identity/address/availability andcapacity verification",
+      "Allspecificweddingpermissions,clockdeadlines,guardcounts,insurancepremiums,fullquotes",
+      "Other municipal/agency/faith/privatevenue coverage"
+    ],
+    "fact_check_findings": [
+      "PDFdownloaded15pages; feeappendixpage15renderedandvisuallyreviewed. Effective2026-09-01privateeligibilitycolumnschecked.",
+      "CommunityHall137resident/163nonresidenthourlymatchescurrentHTML; earliersearchsnippetJanuarytableoutdated, notanunresolvedfeeconflict.",
+      "MapleHall120andCommunityHall96applyFriAfter18/weekend, lowerweekday90/72; allservicepersonnelcount.",
+      "Minimum5bookedhours,guard38/hminimum5,nonrefundable52application; conditionalextras/depositsnotassumedallin."
+    ]
   }
 ]

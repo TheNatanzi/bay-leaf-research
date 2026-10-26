@@ -74,3 +74,7 @@ Deer Park Villa's operator page displays a Google 4.6 / 225 claim. It remains an
 The feature implementation and first whole-dataset extraction pass are complete. The identity and ambiguous-fact queues, missing review-profile verification, field-specific current quotes, current legal/permit approval and full-source completion remain research tasks. Numeric blanks are visible rather than fabricated. Travel counts and other source-unsupported metrics can legitimately remain Unknown.
 
 [Normalization counts](normalization-audit.json) · [Original and normalized evidence](research.json)
+
+
+## Documented search outcomes — October 26
+A source-reviewed field with no reliable public answer now uses `research_attempts`: field ID, outcome, source URLs, checked date and factual search result. This is distinct from an unsearched blank. Numeric observations take precedence; a negative search never erases a known value. An unresolved capacity conflict remains null/conflicting with its evidence visible. Six new exact Zola profile aggregates preserve counts, platform URL, checked date and mixed couple/professional scope. No new Google/Yelp values were inferred.

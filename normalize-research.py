@@ -258,6 +258,13 @@ for v in D['venues']:
  for i,obs in enumerate(v.get('research_observations',[])):
   if obs.get('field') in DEFS and obs.get('status')=='published_evidence' and nval(obs.get('value')) is not None:
    fact(v,out,obs['field'],obs['value'],['research_observations',i],'manually_reviewed_primary_operator',obs.get('basis'))
+ # A dated, sourced negative search result is distinct from a field never researched.
+ # Never let a negative attempt erase an existing numeric observation.
+ for i,attempt in enumerate(v.get('research_attempts',[])):
+  key=attempt.get('field');st=attempt.get('status');prev=out['facts'].get(key,{})
+  if key in DEFS and st in ('searched_no_public_answer','conflicting') and attempt.get('source_urls') and attempt.get('checked_utc') and prev.get('value') is None:
+   if prev.get('status')=='conflicting' and st!='conflicting':continue
+   out['facts'][key]={**prev,'value':None,'status':st,'ref':['research_attempts',i],'method':'documented_source_review','note':attempt.get('source_text'),'scope_record_id':v['id']}
  # Food-only menu tiers deliberately bounded as menu alternatives, not a single quote.
  a=v['workbook_answers'].get(WB['food_min'])
  if a and a.get('answer','').startswith('$64 plated dinner / $72 family style / $80 house buffet / $95 premium buffet; FOOD ONLY'):

@@ -459,12 +459,15 @@
   {
     "county": "Contra Costa",
     "municipality": "San Pablo",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory, facility policy and dated fee-table audit; room-specific permissions/remaining sources unverified",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
-      "https://www.contracosta.edu/facility-rentals/"
+      "https://www.contracosta.edu/facility-rentals/",
+      "https://sanpabloca.gov/1003/Facilities-Parks",
+      "https://www.sanpabloca.gov/DocumentCenter/View/7258/Facility-Rental-Application-Fillable",
+      "https://sanpabloca.gov/1389/Community-Hall"
     ],
-    "remaining": "Public college index reviewed separately; city municipal inventory and all remaining private/unconventional rentals still require systematic audit. College wedding permission unknown."
+    "remaining": "13namedmunicipalroomrecordsimported; roomidentity/clock/approval/currentquote andothermunicipal/private/faith/districtsourcesremain. Collegeinventoryseparate; noexhaustiveclaim."
   },
   {
     "county": "Contra Costa",
@@ -509,14 +512,14 @@
   {
     "county": "Marin",
     "municipality": "Corte Madera",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official index and indoor-policy audit; remaining parks/room policies and current contracts unverified",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
       "https://www.cortemadera.gov/404/Indoor-Outdoor-Facilities",
       "https://www.cortemadera.gov/DocumentCenter/View/1072",
       "https://cortemadera.gov/973/Visit-Us"
     ],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "remaining": "Hall/gym/pavilion reviewed; current rates and other named parks, district/school/faith/private spaces need further audit. No complete inventory claim."
   },
   {
     "county": "Marin",
@@ -1512,7 +1515,10 @@
     "municipality": "Unincorporated areas / county agencies",
     "municipal_rental_status": "Partial county/park-source review",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
+    "source_urls": [
+      "https://www.ambroserec.org/facility-rental",
+      "https://www.rodeobaseball.org/reccenter"
+    ],
     "remaining": "County, regional, state, federal, special districts, colleges, fairs, remote properties; separate from city inventory"
   },
   {
