@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-26T09:52:15.529466+00:00",
+  "updated_utc": "2026-10-26T10:32:20.302965+00:00",
   "scope": "Nine Bay Area counties; directory boundaries and nearby results require validation. Nonexhaustive source registry.",
   "sources": [
     {
@@ -676,6 +676,62 @@
       "collected_profiles": 1,
       "new_venue_records": 0,
       "notes": "Existing property enriched with original institutional/wedding history and NPS nomination; construction period and wedding opening remain separate."
+    },
+    {
+      "id": "redwood-city-rentals",
+      "name": "Redwood City rental inventory",
+      "category": "Government inventory",
+      "url": "https://www.redwoodcity.org/departments/parks-recreation-and-community-services/facilities/facility-rentals",
+      "geography": "San Mateo County",
+      "checked_utc": "2026-10-26T10:32:20.302965+00:00",
+      "discovery_checked_utc": "2026-10-26T10:32:20.302965+00:00",
+      "collection_status": "Partial official inventory/policy review; other authorities and terms remain",
+      "collection_method": "Saved raw archive or normal browser linked PDFs; per-source failures retained",
+      "collected_profiles": 0,
+      "new_venue_records": 11,
+      "notes": "Sixfacility packets andFebruary2026application browser-downloaded; rawrobot/webreader403 logged. Armory food/drink prohibition excludes full reception; other smallroom/gym inventory held."
+    },
+    {
+      "id": "portola-town-rentals",
+      "name": "Portola Valley Town facility rentals",
+      "category": "Government inventory",
+      "url": "https://www.portolavalley.net/departments/parks-recreation/community-hall-room-rentals",
+      "geography": "San Mateo County",
+      "checked_utc": "2026-10-26T10:32:20.302965+00:00",
+      "discovery_checked_utc": "2026-10-26T10:32:20.302965+00:00",
+      "collection_status": "Partial official inventory/policy review; other authorities and terms remain",
+      "collection_method": "Saved raw archive or normal browser linked PDFs; per-source failures retained",
+      "collected_profiles": 0,
+      "new_venue_records": 4,
+      "notes": "Normalbrowser archivedpolicy/masterfees; residentswithinlegalTownlimits only, feeconflicts andSunday restriction retained."
+    },
+    {
+      "id": "ladera-district-rentals",
+      "name": "Ladera Recreation District party inventory",
+      "category": "Government inventory",
+      "url": "https://www.laderarec.org/book-a-party-at-lrd",
+      "geography": "San Mateo County",
+      "checked_utc": "2026-10-26T10:32:20.302965+00:00",
+      "discovery_checked_utc": "2026-10-26T10:32:20.302965+00:00",
+      "collection_status": "Partial official inventory/policy review; other authorities and terms remain",
+      "collection_method": "Saved raw archive or normal browser linked PDFs; per-source failures retained",
+      "collected_profiles": 0,
+      "new_venue_records": 3,
+      "notes": "Primary rental policies archived; threeconfigurationleads, notverifiedweddingapproval. Separateunincorporateddistrict;20:30music."
+    },
+    {
+      "id": "napa-open-space-permits",
+      "name": "Napa Open Space District special-event policy",
+      "category": "Government inventory",
+      "url": "https://napaoutdoors.org/special-event-permits/",
+      "geography": "Napa County",
+      "checked_utc": "2026-10-26T10:32:20.302965+00:00",
+      "discovery_checked_utc": "2026-10-26T10:32:20.302965+00:00",
+      "collection_status": "Partial official inventory/policy review; other authorities and terms remain",
+      "collection_method": "Saved raw archive or normal browser linked PDFs; per-source failures retained",
+      "collected_profiles": 0,
+      "new_venue_records": 0,
+      "notes": "Policy reviewed, notindividualpark inventory. Eligibilitydiscussion,60daylead,50application; no blanket weddingpermission."
     }
   ]
 }

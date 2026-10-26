@@ -972,18 +972,32 @@
   {
     "county": "San Mateo",
     "municipality": "Portola Valley",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official rental inventory/policy review; other authorities and site terms unaudited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://www.portolavalley.net/departments/parks-recreation/community-hall-room-rentals",
+      "https://www.portolavalley.net/home/showpublisheddocument/20339/639051164192170000",
+      "https://www.portolavalley.net/home/showpublisheddocument/14733/637612637204470000"
+    ],
+    "remaining": "Other parks/school/district/private inventories and date-specific wedding permission, pricing, dance layouts. No exhaustive municipal claim.",
+    "checked_utc": "2026-10-26T10:30:45.437765+00:00"
   },
   {
     "county": "San Mateo",
     "municipality": "Redwood City",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official rental inventory/policy review; other authorities and site terms unaudited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://www.redwoodcity.org/departments/parks-recreation-and-community-services/facilities/facility-rentals",
+      "https://www.redwoodcity.org/home/showpublisheddocument/19541/639058156170770000",
+      "https://www.redwoodcity.org/home/showpublisheddocument/23795/638874968051230000",
+      "https://www.redwoodcity.org/home/showpublisheddocument/29126/638657277957700000",
+      "https://www.redwoodcity.org/home/showpublisheddocument/23799/638536924965900000",
+      "https://www.redwoodcity.org/home/showpublisheddocument/23801/638386809880670000",
+      "https://www.redwoodcity.org/home/showpublisheddocument/31385/639172768494300000"
+    ],
+    "remaining": "Other parks/school/district/private inventories and date-specific wedding permission, pricing, dance layouts. No exhaustive municipal claim.",
+    "checked_utc": "2026-10-26T10:30:45.437765+00:00"
   },
   {
     "county": "San Mateo",
@@ -1529,7 +1543,8 @@
     "municipal_rental_status": "Partial county/park-source review",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [],
-    "remaining": "County, regional, state, federal, special districts, colleges, fairs, remote properties; separate from city inventory"
+    "remaining": "County, regional, state, federal, special districts, colleges, fairs, remote properties; separate from city inventory",
+    "evidence_gap": "Prior partial status lacks linked row-level sources; underlying authority review must be reconciled before any completion claim."
   },
   {
     "county": "Contra Costa",
@@ -1548,15 +1563,19 @@
     "municipal_rental_status": "Partial county/park-source review",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [],
-    "remaining": "County, regional, state, federal, special districts, colleges, fairs, remote properties; separate from city inventory"
+    "remaining": "County, regional, state, federal, special districts, colleges, fairs, remote properties; separate from city inventory",
+    "evidence_gap": "Prior partial status lacks linked row-level sources; underlying authority review must be reconciled before any completion claim."
   },
   {
     "county": "Napa",
     "municipality": "Unincorporated areas / county agencies",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial district special-event policy review; county/state/federal inventories remain unaudited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "County, regional, state, federal, special districts, colleges, fairs, remote properties; separate from city inventory"
+    "source_urls": [
+      "https://napaoutdoors.org/special-event-permits/"
+    ],
+    "remaining": "NapaOpenSpaceDistrict policy reviewed: preliminary eligibility discussion,60day application lead,50nonrefundable fee. Individual park wedding approval, other authorities, capacities and full cost remain unverified.",
+    "checked_utc": "2026-10-26T10:30:45.437765+00:00"
   },
   {
     "county": "San Francisco",
@@ -1564,7 +1583,9 @@
     "municipal_rental_status": "Partial county/park-source review",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [],
-    "remaining": "County, regional, state, federal, special districts, colleges, fairs, remote properties; separate from city inventory"
+    "remaining": "County, regional, state, federal, special districts, colleges, fairs, remote properties; separate from city inventory",
+    "scope_note": "Consolidated city/county: this row tracks agency coverage, not a separate unincorporated locality.",
+    "evidence_gap": "Prior partial status lacks linked row-level sources; underlying authority review must be reconciled before any completion claim."
   },
   {
     "county": "San Mateo",
@@ -1575,9 +1596,13 @@
       "https://www.ventureretreat.org/s/Wedding-Packages-2026-for-Web.pdf",
       "https://www.ventureretreat.org/plan-your-celebration",
       "https://www.ventureretreat.org/history",
-      "https://www.visithalfmoonbay.org/places/venture-retreat-center/"
+      "https://www.visithalfmoonbay.org/places/venture-retreat-center/",
+      "https://www.laderarec.org/book-a-party-at-lrd",
+      "https://www.smcgov.org/lafco/ladera-recreation-district",
+      "https://www.laderaonline.org/default.php"
     ],
-    "remaining": "County, regional, state, federal, special districts, colleges, fairs, remote properties; separate from city inventory"
+    "remaining": "County, regional, state, federal, special districts, colleges, fairs, remote properties; separate from city inventory",
+    "scope_note": "Ladera is unincorporated despite PortolaValley mailing address. District review is not completion of all county/state/federal/school authorities."
   },
   {
     "county": "Santa Clara",
@@ -1585,7 +1610,8 @@
     "municipal_rental_status": "Partial county/park-source review",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [],
-    "remaining": "County, regional, state, federal, special districts, colleges, fairs, remote properties; separate from city inventory"
+    "remaining": "County, regional, state, federal, special districts, colleges, fairs, remote properties; separate from city inventory",
+    "evidence_gap": "Prior partial status lacks linked row-level sources; underlying authority review must be reconciled before any completion claim."
   },
   {
     "county": "Solano",

@@ -5441,5 +5441,53 @@
       "KohlZola300seatedheaderandspacecard matchaddress; sourceclassifieddirectory, noindoor300ordinnerdanceapproval",
       "Zolafullweddingstarts12000/18750vsreceptionFAQ10500/13500keptseparate; nofalseupperbound"
     ]
+  },
+  {
+    "pass": 80,
+    "checked_utc": "2026-10-26T10:30:45.437765+00:00",
+    "question": "Which authorities and legal jurisdictions are missed by a city-name coverage grid?",
+    "sources": [
+      "https://www.redwoodcity.org/departments/parks-recreation-and-community-services/facilities/facility-rentals",
+      "https://www.redwoodcity.org/home/showpublisheddocument/19541/639058156170770000",
+      "https://www.portolavalley.net/departments/parks-recreation/community-hall-room-rentals",
+      "https://www.portolavalley.net/home/showpublisheddocument/20339/639051164192170000",
+      "https://www.portolavalley.net/home/showpublisheddocument/14733/637612637204470000",
+      "https://www.laderarec.org/book-a-party-at-lrd",
+      "https://www.smcgov.org/lafco/ladera-recreation-district",
+      "https://napaoutdoors.org/special-event-permits/",
+      "https://census.bayareametro.gov/cities-counties",
+      "https://mtc.ca.gov/about-mtc/what-mtc",
+      "https://abag.ca.gov/about-abag/what-we-do/our-members"
+    ],
+    "added": [
+      "redwoodcity-cab-room1-san-mateo",
+      "redwoodcity-cab-room2-san-mateo",
+      "redwoodcity-cab-room3-san-mateo",
+      "redwoodcity-cab-room4-san-mateo",
+      "redwoodcity-cab-rooms23-san-mateo",
+      "redwoodcity-cab-rooms34-san-mateo",
+      "redwoodcity-cab-rooms234-san-mateo",
+      "redwoodcity-fairoaks-multipurpose-san-mateo",
+      "redwoodcity-redmorton-roomsab-san-mateo",
+      "redwoodcity-sandpiper-multipurpose-san-mateo",
+      "redwoodcity-veterans-redwoodab-san-mateo",
+      "portola-valley-towncenter-hall-san-mateo",
+      "portola-valley-towncenter-alder-san-mateo",
+      "portola-valley-towncenter-buckeye-san-mateo",
+      "portola-valley-towncenter-redwood-grove-san-mateo",
+      "ladera-recreation-district-rec-room-san-mateo",
+      "ladera-recreation-district-parking-lot-san-mateo",
+      "ladera-recreation-district-pool-deck-san-mateo"
+    ],
+    "duplicates": [],
+    "exclusions": [
+      "Armory gym/classrooms prohibit food/drink, not promoted as full reception options",
+      "RedMorton no-food dance/conference rooms, unidentifiedFOCCsmallroom combinations and ambiguousVeterans split-room capacities held",
+      "Ladera500combinedpoolpartymaximum is not wedding approval",
+      "PortolaTownHall office/library hours are not eventcutoffs; recommendations not adoptedprices"
+    ],
+    "gaps": [
+      "Remaining governmentauthorities, partialcityinventories, legaleligibility, currentquotes/dinnerdance layouts; no completeness claim"
+    ]
   }
 ]

@@ -1,0 +1,107 @@
+{
+  "checked_utc": "2026-10-26T10:30:45.437765+00:00",
+  "official_baseline_sources": [
+    "https://census.bayareametro.gov/cities-counties",
+    "https://mtc.ca.gov/about-mtc/what-mtc",
+    "https://abag.ca.gov/about-abag/what-we-do/our-members"
+  ],
+  "city_rows": 101,
+  "workstreams": 110,
+  "scope": "101cityrows plus9county/agencyworkstreams; not110unique municipal governments. Eight unincorporated county areas; SanFrancisco consolidatedagencyworkstream.",
+  "reconciliation": [
+    {
+      "county": "San Francisco",
+      "official_cities": 1,
+      "coverage_city_rows": 1,
+      "missing_city_rows": [],
+      "extra_city_rows": []
+    },
+    {
+      "county": "Alameda",
+      "official_cities": 14,
+      "coverage_city_rows": 14,
+      "missing_city_rows": [],
+      "extra_city_rows": []
+    },
+    {
+      "county": "Contra Costa",
+      "official_cities": 19,
+      "coverage_city_rows": 19,
+      "missing_city_rows": [],
+      "extra_city_rows": []
+    },
+    {
+      "county": "Marin",
+      "official_cities": 11,
+      "coverage_city_rows": 11,
+      "missing_city_rows": [],
+      "extra_city_rows": []
+    },
+    {
+      "county": "Napa",
+      "official_cities": 5,
+      "coverage_city_rows": 5,
+      "missing_city_rows": [],
+      "extra_city_rows": []
+    },
+    {
+      "county": "San Mateo",
+      "official_cities": 20,
+      "coverage_city_rows": 20,
+      "missing_city_rows": [],
+      "extra_city_rows": []
+    },
+    {
+      "county": "Santa Clara",
+      "official_cities": 15,
+      "coverage_city_rows": 15,
+      "missing_city_rows": [],
+      "extra_city_rows": []
+    },
+    {
+      "county": "Solano",
+      "official_cities": 7,
+      "coverage_city_rows": 7,
+      "missing_city_rows": [],
+      "extra_city_rows": []
+    },
+    {
+      "county": "Sonoma",
+      "official_cities": 9,
+      "coverage_city_rows": 9,
+      "missing_city_rows": [],
+      "extra_city_rows": []
+    }
+  ],
+  "membership_directory_caveat": "ABAG voluntary membership page omits CorteMadera fromMarinlisting; official MTCcity census includes it. Membership is not a completeness baseline.",
+  "agency_blind_spots": [
+    "Special recreation/community-services districts",
+    "School and college districts",
+    "State parks and federal land/concessions",
+    "County unincorporated communities",
+    "Cities private/unconventional inventories"
+  ],
+  "unlinked_partial_rows": [
+    {
+      "county": "Alameda",
+      "municipality": "Unincorporated areas / county agencies"
+    },
+    {
+      "county": "Marin",
+      "municipality": "Unincorporated areas / county agencies"
+    },
+    {
+      "county": "San Francisco",
+      "municipality": "Unincorporated areas / county agencies"
+    },
+    {
+      "county": "Santa Clara",
+      "municipality": "Unincorporated areas / county agencies"
+    }
+  ],
+  "notes": [
+    "Ladera district is separate from TownPortolaValley; mailingcity does not establish legal rental eligibility.",
+    "NapaOpenSpace permit policy is not individual park wedding permission or an operatinglease.",
+    "Partial reviewed status does not establish all authority inventories audited."
+  ]
+}

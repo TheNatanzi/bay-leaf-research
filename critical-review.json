@@ -54,14 +54,85 @@
         "Most capacities lack a dinner-plus-dance layout; subjective atmosphere and personal weights require user input.",
         "The existing main comparison exposes numeric scores; a final personal A–F preference result still depends on approved weights/thresholds and sufficient evidence. No grades or vibe scores were invented."
       ]
+    },
+    {
+      "id": 2,
+      "title": "Geographic baseline, legal eligibility and missing authorities",
+      "status": "complete",
+      "checked_utc": "2026-10-26T10:32:20.302965+00:00",
+      "questions": [
+        "Do the 110 workstreams include all 101 cities, or are jurisdictions missing?",
+        "Does a mailing address establish the relevant government or rental eligibility?",
+        "Does a district permit process establish wedding permission at each park?"
+      ],
+      "checks": [
+        "Compared the official MTC city/county list with all 101 city rows: no missing or extra city names. Clarified the consolidated San Francisco agency row.",
+        "Checked ABAG’s voluntary membership directory: it omits Corte Madera from its Marin listing, while the MTC city census includes it.",
+        "Read Redwood City’s rental index, six linked facility packets and its February 2026 application through the normal browser after raw-fetch failures. Visually checked the June 2026 Veterans room table.",
+        "Read Portola Valley’s current rental eligibility, general rules, rental policy and master fees. Visually checked the capacity table; policy prices differ from the linked 2024 adopted schedule.",
+        "Reviewed Ladera’s party terms, County LAFCO profile and community geography. It is a separate district in unincorporated San Mateo County.",
+        "Reviewed Napa Open Space District’s permit process. Flagged four previous partial county rows without row-level source links."
+      ],
+      "source_urls": [
+        "https://www.redwoodcity.org/departments/parks-recreation-and-community-services/facilities/facility-rentals",
+        "https://www.portolavalley.net/departments/parks-recreation/community-hall-room-rentals",
+        "https://www.laderarec.org/book-a-party-at-lrd",
+        "https://napaoutdoors.org/special-event-permits/",
+        "https://census.bayareametro.gov/cities-counties",
+        "https://abag.ca.gov/about-abag/what-we-do/our-members",
+        "https://www.smcgov.org/lafco/ladera-recreation-district"
+      ],
+      "updated_record_ids": [
+        "redwoodcity-cab-room1-san-mateo",
+        "redwoodcity-cab-room2-san-mateo",
+        "redwoodcity-cab-room3-san-mateo",
+        "redwoodcity-cab-room4-san-mateo",
+        "redwoodcity-cab-rooms23-san-mateo",
+        "redwoodcity-cab-rooms34-san-mateo",
+        "redwoodcity-cab-rooms234-san-mateo",
+        "redwoodcity-fairoaks-multipurpose-san-mateo",
+        "redwoodcity-redmorton-roomsab-san-mateo",
+        "redwoodcity-sandpiper-multipurpose-san-mateo",
+        "redwoodcity-veterans-redwoodab-san-mateo",
+        "portola-valley-towncenter-hall-san-mateo",
+        "portola-valley-towncenter-alder-san-mateo",
+        "portola-valley-towncenter-buckeye-san-mateo",
+        "portola-valley-towncenter-redwood-grove-san-mateo",
+        "ladera-recreation-district-rec-room-san-mateo",
+        "ladera-recreation-district-parking-lot-san-mateo",
+        "ladera-recreation-district-pool-deck-san-mateo"
+      ],
+      "changes": [
+        "Added 18 space/configuration records across seven provisional parent properties: 11 in Redwood City, four at Portola Valley Town Center and three at Ladera Recreation District.",
+        "Reduced unaudited workstreams from 69 to 66 after actual partial reviews. Preserved all 1,761 prior venue records.",
+        "Recorded banquet versus assembly capacities, separate event/cleanup deadlines, conditional custodial/security costs and resident restrictions.",
+        "Added a geographic reconciliation, authority blind spots and explicit evidence-gap flags."
+      ],
+      "duplicates_exclusions": [
+        "Matched names, cities and parent properties before additions; no existing property match found. Divided and combined rooms remain overlapping configurations.",
+        "Held Armory spaces because food/drink is prohibited, plus other small rooms, gyms and conflicting split-room capacities.",
+        "A 500-person pool-party maximum is not wedding permission. Office/library hours are not event deadlines. Proposed fees are not adopted current prices."
+      ],
+      "tests": [
+        "All seven existing regression suites passed after importing the 18 records.",
+        "Geography evidence tests passed: city/workstream reconciliation, legal eligibility, layout distinctions, separate clock limits, conditional prices and evidence-gap flags.",
+        "All 1,761 prior raw venue records were preserved under stable JSON comparison; IDs remain unique.",
+        "Visually checked the Veterans June 2026 room table and Portola Valley policy capacity table against extracted PDF text.",
+        "Local browser verified the 1,779-record snapshot and the rendered two-of-five review report."
+      ],
+      "remaining": [
+        "66 workstreams remain unaudited; reviewed authorities remain partial.",
+        "Current issued permits, eligibility, complete quotes and dinner-plus-dance layouts still need confirmation.",
+        "Four previous partial county rows lack linked row-level evidence; flagging them does not verify the old review."
+      ]
     }
   ],
-  "updated_utc": "2026-10-26T10:13:31.113Z",
-  "completed_passes": 1,
+  "updated_utc": "2026-10-26T10:34:08.237Z",
+  "completed_passes": 2,
   "expected_passes": 5,
   "counts": {
-    "records": 1761,
-    "property_groups": 711,
-    "municipal_unaudited": 69
+    "records": 1779,
+    "property_groups": 718,
+    "municipal_unaudited": 66
   }
 }
