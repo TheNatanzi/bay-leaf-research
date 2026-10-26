@@ -1,5 +1,5 @@
 {
-  "normalized_utc": "2026-10-26T08:48:03.180997+00:00",
+  "normalized_utc": "2026-10-26T08:57:40.995447+00:00",
   "record_count": 1695,
   "property_group_count": 666,
   "identity_review_candidates": 38,
@@ -97,11 +97,11 @@
     "sleep_capacity": 1,
     "included_overnight_guests": 1,
     "included_lodging_units": 0,
-    "required_lodging_units": 6,
+    "required_lodging_units": 4,
     "late_night_required_units": 2,
     "lodging_min_nights": 5,
     "included_lodging_nights": 1,
-    "required_lodging_unit_nights": 5,
+    "required_lodging_unit_nights": 3,
     "lodging_nightly_min": 0,
     "lodging_nightly_max": 0,
     "lodging_total_min": 0,
@@ -114,10 +114,10 @@
     "lodging_payer": 0
   },
   "status_counts": {
-    "published_evidence": 4857,
+    "published_evidence": 4853,
     "needs_confirmation": 10119,
     "searched_no_public_answer": 164,
-    "conflicting": 132
+    "conflicting": 136
   },
   "original_fields": "preserved; no new source verification by normalization"
 }

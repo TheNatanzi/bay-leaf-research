@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-26T08:49:36.017311+00:00",
+  "updated_utc": "2026-10-26T08:57:40.407049+00:00",
   "status": "Active overnight research",
   "deadline": "2026-10-26T08:00:00-07:00",
   "current_batch": "Overnight-stay metrics, source-backed obligations and cost guards verified; municipal/directory expansion continues",
@@ -18,7 +18,8 @@
     "Typed fields now distinguish138 sourced searched-unknown outcomes from unsearched blanks; known numbers are preserved and conflicts remain visible.",
     "Added Overnight stays comparison: required versus included guests/units/nights, late-night lodging escalation, payer and source conditions.106typed fields total.",
     "Checked five lodging operators/offers; DawnRanch baseline requirements and late-night escalation kept separate; no room-rate or guest-payment assumptions invented.",
-    "Required lodging now blocks a complete cost scenario unless explicitly accounted for; booking/security-hour minima and gross-lodging percentage overlap checked."
+    "Required lodging now blocks a complete cost scenario unless explicitly accounted for; booking/security-hour minima and gross-lodging percentage overlap checked.",
+    "Visual brochure comparison caught DawnRanch weekday12/15 andmicro3/12unit conflicts. Those two minimums/unit-night totals are heldUnknown/conflicting; sources and initial alternatives retained."
   ],
   "baseline": {
     "discovery_records": 1695,

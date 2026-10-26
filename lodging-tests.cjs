@@ -3,6 +3,7 @@ const assert=require('node:assert/strict'),d=require('./research.json'),E=requir
 const orchard=v('dawn-ranch-orchard-wedding-weekend-package-sonoma');
 assert.equal(e.value(orchard,'required_lodging_units'),40);assert.equal(e.value(orchard,'lodging_min_nights'),2);assert.equal(e.value(orchard,'required_lodging_unit_nights'),80);assert.equal(e.value(orchard,'late_night_required_units'),66);assert.equal(e.value(orchard,'lodging_in_venue_fee'),'no');assert.equal(e.value(orchard,'lodging_total_min'),null);
 const config={guests:100,hours:6,eventDate:'2027-05-15',mode:'separate',venueFee:1000,food:50,bar:10,fixed:5000,servicePct:0,taxPct:0,otherCostsConfirmed:true};
+for(const id of ['dawn-ranch-weekday-wedding-package-sonoma','dawn-ranch-micro-wedding-package-sonoma']){const record=v(id);assert.equal(e.value(record,'required_lodging_units'),null);assert.equal(e.fieldStatus(record,'required_lodging_units'),'conflicting');assert.equal(e.value(record,'required_lodging_unit_nights'),null);assert.equal(e.value(record,'lodging_min_nights'),2);}
 assert(e.scenario(orchard,config).missing.includes('mandatory lodging/buyout total, inclusion and payer liability'));
 const accounted=e.scenario(orchard,{...config,lodgingHandling:'included_in_fixed',spendBase:'food_bar'});assert(accounted.assumptions.some(x=>x.includes('no guest reimbursement')));
 assert(e.scenario(orchard,{...config,lodgingHandling:'not_required'}).missing.some(x=>x.includes('mandatory lodging')));
