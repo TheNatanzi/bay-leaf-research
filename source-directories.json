@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-26T13:30:08.896308+00:00",
+  "updated_utc": "2026-10-26T13:56:29.655025+00:00",
   "scope": "Nine Bay Area counties; directory boundaries and nearby results require validation. Nonexhaustive source registry.",
   "sources": [
     {
@@ -116,7 +116,7 @@
       "url": "https://www.peerspace.com/venues/san-francisco--ca/wedding-venue",
       "geography": "San Francisco; verify actual event permission",
       "discovery_checked_utc": null,
-      "collection_status": "Access held/failed \u2014 zero profiles collected",
+      "collection_status": "Access held/failed — zero profiles collected",
       "collection_method": "Robots-respecting rate-limited public HTML archive with saved fetch logs; no login/CAPTCHA/proxy bypass",
       "checked_utc": "2026-10-26T13:21:07.758581+00:00",
       "collected_profiles": 0,
@@ -331,7 +331,7 @@
       "url": "https://breezit.com/wedding-venues/northern-california",
       "geography": "Northern California exceeds nine counties; rating provenance requires checking",
       "discovery_checked_utc": null,
-      "collection_status": "HTML shell retrieved \u2014 no readable venue collection",
+      "collection_status": "HTML shell retrieved — no readable venue collection",
       "collection_method": "Robots-respecting rate-limited public HTML archive with saved fetch logs; no login/CAPTCHA/proxy bypass",
       "checked_utc": "2026-10-26T13:21:13.558259+00:00",
       "collected_profiles": 0,
@@ -553,7 +553,7 @@
       "url": "https://parks.santaclaracounty.gov/things-do/reserve-grounds-county-parks-weddings-and-receptions",
       "geography": "Santa Clara County",
       "discovery_checked_utc": null,
-      "collection_status": "Access held/failed \u2014 zero profiles collected",
+      "collection_status": "Access held/failed — zero profiles collected",
       "collection_method": "Robots-respecting rate-limited public HTML archive with saved fetch logs; no login/CAPTCHA/proxy bypass",
       "checked_utc": "2026-10-26T13:21:30.059215+00:00",
       "collected_profiles": 0,
@@ -769,7 +769,7 @@
     },
     {
       "id": "healdsburg-villa",
-      "name": "City of Healdsburg \u2014 Villa Chanticleer",
+      "name": "City of Healdsburg — Villa Chanticleer",
       "category": "Government inventory",
       "url": "https://ci.healdsburg.ca.us/942/Villa-Chanticleer",
       "geography": "Sonoma County",
@@ -783,7 +783,7 @@
     },
     {
       "id": "milestone-villa",
-      "name": "Milestone Events Group \u2014 Villa Chanticleer",
+      "name": "Milestone Events Group — Villa Chanticleer",
       "category": "Wedding/operator directory",
       "url": "https://milestoneeventsgroup.com/venue/villa-chanticleer/",
       "geography": "Sonoma County",
@@ -839,7 +839,7 @@
     },
     {
       "id": "mercy-kohl",
-      "name": "Mercy High School \u2014 Kohl Mansion Events",
+      "name": "Mercy High School — Kohl Mansion Events",
       "category": "School/faith inventory",
       "url": "https://www.mercyhsb.com/about-us/kohl-mansion",
       "geography": "San Mateo County",
@@ -1110,7 +1110,7 @@
       "collected_profiles": 0,
       "new_venue_records": 0,
       "queued_candidate_links": 0,
-      "notes": "13-page official guide archived from park partner; venue inventory pages 1\u20134 read. Designated locations, nonexclusive use and fees vary. Site reconciliation and remaining conditions continue."
+      "notes": "13-page official guide archived from park partner; venue inventory pages 1–4 read. Designated locations, nonexclusive use and fees vary. Site reconciliation and remaining conditions continue."
     },
     {
       "id": "25lusk-operator",
@@ -1127,7 +1127,7 @@
     },
     {
       "id": "wayfare-current",
-      "name": "Wayfare Tavern \u2014 current201Pine rooms",
+      "name": "Wayfare Tavern — current201Pine rooms",
       "url": "https://www.wayfaretavern.com/private-events",
       "category": "Identity / current operator check",
       "geography": "Bay Area; exact-property scope",
@@ -1231,7 +1231,7 @@
     },
     {
       "id": "ggra-operator-followup20",
-      "name": "GGRA private dining guide \u2014 first20operatorURLchecks",
+      "name": "GGRA private dining guide — first20operatorURLchecks",
       "url": "https://ggra.org/private-dining-guide/",
       "category": "Restaurant association directory",
       "geography": "PrimarilySanFrancisco; includesCupertino/otherbranches",
@@ -1266,7 +1266,7 @@
       "collection_method": "Saved public pages/PDFs plus normal-browser observations/downloads; failedsourceaccesslogged",
       "collected_profiles": 2,
       "new_venue_records": 16,
-      "notes": "Current9450fees July2026\u2013June2027and2026samplepermit actualdownload; Sequoia/Magnolia browserread. Calameobrochureinaccessible; otherroomcapacitiesUnknown. Rate/security/150attendantthreshold conflicts retained."
+      "notes": "Current9450fees July2026–June2027and2026samplepermit actualdownload; Sequoia/Magnolia browserread. Calameobrochureinaccessible; otherroomcapacitiesUnknown. Rate/security/150attendantthreshold conflicts retained."
     },
     {
       "id": "pacifica-community-current",
@@ -1283,7 +1283,7 @@
     },
     {
       "id": "sanmateo-city-recheck",
-      "name": "San Mateo existing municipal rooms \u2014 policy recheck",
+      "name": "San Mateo existing municipal rooms — policy recheck",
       "url": "https://www.cityofsanmateo.org/718/Central-Recreation-Center?NID=718",
       "category": "Municipal government room/policy inventory",
       "geography": "San Mateo County; named city",
@@ -1296,7 +1296,7 @@
     },
     {
       "id": "rohnert-current-inventory",
-      "name": "Rohnert Park current room inventory, FAQ and linked2026\u20132027files",
+      "name": "Rohnert Park current room inventory, FAQ and linked2026–2027files",
       "url": "https://rpcity.ca.gov/188/Building-Rentals",
       "category": "Municipal government room/policy inventory",
       "geography": "Rohnert Park, Sonoma County",
@@ -1309,7 +1309,7 @@
     },
     {
       "id": "windsor-current-policy-inventory",
-      "name": "Windsor facilities,17parks and restrictedTownGreen \u2014 July2026policy",
+      "name": "Windsor facilities,17parks and restrictedTownGreen — July2026policy",
       "url": "https://www.townofwindsor.ca.gov/330/Facility-Rentals",
       "category": "Municipal government room/park/policy inventory",
       "geography": "Windsor, Sonoma County",
@@ -1322,7 +1322,7 @@
     },
     {
       "id": "cotati-current-room-park-packets",
-      "name": "Cotati city rooms/parks and Veterans packet \u2014 source-date reconciliation",
+      "name": "Cotati city rooms/parks and Veterans packet — source-date reconciliation",
       "url": "https://www.cotaticity.gov/314/City-Facility-Park-Usage",
       "category": "Municipal government room/park/policy inventory",
       "geography": "Cotati, Sonoma County",
@@ -1361,7 +1361,7 @@
     },
     {
       "id": "petaluma-nonprofit-current-rentals",
-      "name": "Petaluma Woman\u2019s Club / Arts Center / PPSC Cavanagh primary rental sources",
+      "name": "Petaluma Woman’s Club / Arts Center / PPSC Cavanagh primary rental sources",
       "url": "https://www.petalumawomansclub.com/event-space/",
       "category": "Nonprofit/club/gallery source inventory",
       "geography": "Petaluma, Sonoma County",
@@ -1384,6 +1384,19 @@
       "collected_profiles": 2,
       "new_venue_records": 2,
       "notes": "Nonexclusiveuseexplicit. CityParkgroupareasunallocated; ScoutHutFutureRentalsnotcurrentbookingproof."
+    },
+    {
+      "id": "fremont-city-rental-inventory",
+      "name": "Fremont current community/event/park rental inventory",
+      "url": "https://www.fremont.gov/government/departments/parks-recreation/facilities-rentals",
+      "category": "Municipal official facility and picnic inventory",
+      "geography": "Fremont, Alameda County",
+      "checked_utc": "2026-10-26T13:56:29.655025+00:00",
+      "collection_status": "Partial named pages/closure notices/picnic charts and actual linked7/9/2pagePDFs reviewed; broadercityopen",
+      "collection_method": "Normalbrowserpublicreads/downloads; rawrobots403held, savedAXandPDFarchives; feequotevisuallychecked",
+      "collected_profiles": 53,
+      "new_venue_records": 53,
+      "notes": "Closed/restricted/history/configurationrecordsincluded, notindependentbookablevenuecount; midnightaccessnotmusic;500+lowerboundheld"
     }
   ],
   "candidate_queue_url": "directory-leads.html"

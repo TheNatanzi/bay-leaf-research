@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-26T13:45:39.821Z",
+  "updated_utc": "2026-10-26T13:57:42.583Z",
   "status": "Active overnight research",
   "deadline": "2026-10-26T08:00:00-07:00",
   "current_batch": "All five critical reviews completed; broader research backlog continues",
@@ -48,19 +48,20 @@
     "Audit95:8Petalumanonprofit/clubrecords; mandatoryPWCcleaning175/350,music22,1913constructionnotopening; Arts60seated/300standing; Cavanagh409genericandpaidfurniture,21:30music. Exactplatformsearchesunresolved, unrelatedvendors excluded.",
     "Audit96:CloverdaleCityPark2prospects/1parent; publicportalconfirmsnonexclusiveuse, ScoutHutfuturenotcurrent. Broaderinventoryopen.53workstreamsunaudited.",
     "Audit97:22indexchecks,20HTMLresponses(1shell)/2held;163candidateURLs extracted across5sources,40exactmatchaids/123withoutmatch, notnewproperties.278outsidecountyModerncards+2HCTGcategoriesexcluded. Sortable/filterablepubliccandidatequeue added.",
-    "Audit98: BLOC15 outside caterers verified,550generalbanquet/250wedding scope held unresolved;715Harrison two rooms1200/400generic, no dinner/music inference. Three rows/two parents. Four corrupted status summaries rewritten from saved audits."
+    "Audit98: BLOC15 outside caterers verified,550generalbanquet/250wedding scope held unresolved;715Harrison two rooms1200/400generic, no dinner/music inference. Three rows/two parents. Four corrupted status summaries rewritten from saved audits.",
+    "Audit99:Fremont53cityroom/site/configuration/historyrecords; currentclosuresandIrvingtonweddingexclusion,23musicnot00access, actualfees/addons/insurance,21CentralParksitesandPalmslowerboundpreserved.52workstreamsunaudited."
   ],
   "baseline": {
-    "discovery_records": 2044,
-    "provisional_property_groups": 808,
-    "historical_audits": 98,
+    "discovery_records": 2097,
+    "provisional_property_groups": 816,
+    "historical_audits": 99,
     "founder_reading_records": 85,
     "municipal_workstreams": 110,
-    "municipal_unaudited": 53
+    "municipal_unaudited": 52
   },
-  "added_venue_records": 379,
+  "added_venue_records": 432,
   "gaps": [
-    "53municipal/county workstreams remain unaudited; reviewed authorities remain partial.",
+    "52municipal/county workstreams remain unaudited; reviewed authorities remain partial.",
     "Directory registry collection pending; source blocks logged, not bypassed",
     "Scrapzi venue adapter absent; remote connection is read-only",
     "Missing current prices, midnight permissions, dinner/dance layouts, lodging obligations, reviews and business values",
