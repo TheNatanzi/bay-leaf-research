@@ -1,6 +1,6 @@
 # Foster City Annex — evidence staged for reconciliation
 
-Checked October 26, 2026. This final batch is **not yet imported into the comparison**, and Foster City remains one of the 50 unaudited workstreams. Reviewing these documents does not finish the city's inventory.
+Checked October 26, 2026. This fresh recheck is **not yet applied as a new comparison update**, and Foster City remains one of the 50 unaudited workstreams. Reviewing these documents does not finish the city's inventory.
 
 ## Sources actually examined
 
@@ -26,6 +26,10 @@ Checked October 26, 2026. This final batch is **not yet imported into the compar
 
 ## Held apart / next action
 
-Reconcile these named rooms against existing stable IDs before adding configurations. Keep the newer Lagoon Event Hall separate from the Annex; a September 19 opening statement without a year is not a construction or operating date. School MPR fee listings do not establish school wedding permission. The 670 Shell Boulevard office address is not this Annex's event address.
+Identity check matched four existing Annex rows: Port, Sail, Starboard and Wind (IDs begin foster-city-community-center-annex-). Earlier records already preserve many of these conditions; this recheck is not a new discovery. Preserve those IDs and compare their existing sourced facts before any update. Conference and patio must not become duplicate independent properties. Keep the newer Lagoon Event Hall separate from the Annex; a September 19 opening statement without a year is not a construction or operating date. School MPR fee listings do not establish school wedding permission. The 670 Shell Boulevard office address is not this Annex's event address.
 
 No new venue rows, workstream completion, current wedding availability, review ratings or complete all-in cost are claimed from this staged batch. Next: reconcile identities, resolve the room-capacity/Sunday/elevator conflicts, then import supported facts with source-specific conditions and searched-unknown outcomes.
+
+## Final targeted identity/access check, 14:58 UTC
+
+The official [Wind Room 34 profile](https://www.fostercity.org/facilities/facility/details/Wind-Room-34) also names the Annex, the same 1000 East Hillsdale address, 1,900 square feet and 100 theater/reception counts. It explicitly advertises wedding receptions. Treat profiles 31 and 34 as a duplicate-page identity candidate for the existing Wind row, not two new spaces. Individual booking approval, current elevator repair and a dinner/dance layout still require confirmation. This profile continues to display the dated February 12, 2025 outage notice; the targeted search did not establish a repair date. Old meeting directions saying an elevator exists do not prove current operation. The profile itself has no ratings; that is not a zero-star wedding review.

@@ -1,8 +1,8 @@
 {
-  "updated_utc": "2026-10-26T14:33:35.616Z",
-  "status": "Active overnight research",
+  "updated_utc": "2026-10-26T15:00:14.691377+00:00",
+  "status": "Overnight run ended; broader backlog incomplete",
   "deadline": "2026-10-26T08:00:00-07:00",
-  "current_batch": "All five critical reviews completed; broader research backlog continues",
+  "current_batch": "8 AM Pacific deadline reached; research stopped, final report and handoff published",
   "completed_this_run": [
     "Verified read-only Scrapzi data access; no jobs queued",
     "Resumed existing recovery automation through 8 AM Pacific",
@@ -55,7 +55,8 @@
     "Audit102:sixoriginaldated2020–21operatorinterviewsadded;91readingrecordsnot91people. Labor/infrastructure/acquisitionrepairs/lodging/permit/contractlessonsrecorded; no oldrulesasCaliforniaapproval orselfreportedbookingsasprofit.",
     "Audit103:54additionalfreeCensuspublic-addressqueries;35accepted/89newmappedrecords;1005priorpointsunchanged. Intersection/multiple/nomatch/mismatchedstreetheld, Alderalternativeofficialsourcepreserved. Map1094mapped/1032unmapped.",
     "Audit104:four exactWW/KnotaggregatesacrossPearl/Nestldownexistingproperties; no venueaddition. CurrentNestldown21:45music/22guests/23vendorsandapproved-onlycatering; Pearlprimarylink/address, AV/tentexclusivityandcoatcheckextra. Noamenitylodgingorcapacityscopeinference.",
-    "Audit105:BohoManor7configurations atoneexistingparent; groupoffer10rooms/25overnightguests/2midweeknights/15000combinedbase, NOTpurelodgingorallweddingsmandatory. Garden100/150operatorconflictheld; expiredhotelpromosnotcurrentweddingquotes."
+    "Audit105:BohoManor7configurations atoneexistingparent; groupoffer10rooms/25overnightguests/2midweeknights/15000combinedbase, NOTpurelodgingorallweddingsmandatory. Garden100/150operatorconflictheld; expiredhotelpromosnotcurrentweddingquotes.",
+    "Final Foster Annex recheck archived; matched four existing room IDs, no duplicate additions. New source note preserves capacity/Sunday/elevator conflicts and unresolved inventory scope."
   ],
   "baseline": {
     "discovery_records": 2133,
@@ -75,9 +76,9 @@
     "Exact first-wedding dates, room liabilities and actual business earnings remain largely unknown"
   ],
   "next": [
-    "Continue unaudited municipal authorities and current exact-profile/source verification until8AM",
-    "Resolve high-impact lodging, all-in cost, layout, clock and business-value gaps; preserve researched unknowns",
-    "At8AM publish morning report with five-pass audit and actual coverage; pause recovery automation"
+    "Complete shared coffee worksheet requirements and weights",
+    "Resolve shortlisted current quotes, layouts, music permissions and lodging obligations",
+    "Resume 50 unaudited municipal/county workstreams and remaining partial inventories in a newly authorized work session"
   ],
   "status_note": "This is the latest published checkpoint, not a live process monitor. An old timestamp may mean research is underway, the app is asleep, or a run stopped. No completeness claim.",
   "critical_review_passes_completed": 5,
@@ -89,13 +90,14 @@
     "municipal_unaudited": 78
   },
   "publication_verification": {
-    "checked_utc": "2026-10-26T14:39:33Z",
-    "previous_public_commit": "3dc29d014214d5364176ed253b404264d884c50d",
+    "checked_utc": "2026-10-26T15:00:14.691377+00:00",
+    "previous_public_commit": "6a39b721a4cbab8a706ff2c04e7a75b025a2a07c",
     "previous_pages_build": "built",
-    "git_remote": "Verified pushed and remote-matched by backup/checkpoint checks",
-    "local_browser": "Search, sorting, pagination, accordions, map precision, numeric room comparison and directory queue checked",
-    "full_current_tests": "32/32 passed; individual logs retained in private work archive",
+    "git_remote": "Previous research/report checkpoint pushed and remote-matched",
+    "local_browser": "Search, sorting, pagination, accordions, map, numeric room comparison, directory queue and readable morning report checked",
+    "full_current_tests": "32/32 passed; morning report checks repeated after final generation",
     "live_visual": "Blocked by saved browser permission for thenatanzi.github.io; no alternate access attempted",
-    "remaining": "Morning report commit/build and final backup receipts are checked separately after publication; cloud sync Unknown."
+    "backup": "84 tracked deliverables SHA256-matched in local Drive folder at14:53Z; final report backup follows final push",
+    "remaining": "Final report commit/build, final backup and automation pause verified separately after publication; cloud sync Unknown."
   }
 }

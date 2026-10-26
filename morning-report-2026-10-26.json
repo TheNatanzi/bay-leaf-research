@@ -1,8 +1,8 @@
 {
-  "generated_utc": "2026-10-26T14:52:04.851758+00:00",
+  "generated_utc": "2026-10-26T15:00:14.863280+00:00",
   "deadline_utc": "2026-10-26T15:00:00+00:00",
-  "final": false,
-  "status": "Draft checkpoint — work continues until 8 AM Pacific; counts may change.",
+  "final": true,
+  "status": "Overnight run ended at the 8 AM Pacific deadline; broader backlog remains incomplete.",
   "run_start_baseline": {
     "discovery_records": 1665,
     "provisional_property_groups": 649,
@@ -524,14 +524,15 @@
     "scope": "Full current suite result if present; draft may predate final verification"
   },
   "publication_verification": {
-    "checked_utc": "2026-10-26T14:39:33Z",
-    "previous_public_commit": "3dc29d014214d5364176ed253b404264d884c50d",
+    "checked_utc": "2026-10-26T15:00:14.691377+00:00",
+    "previous_public_commit": "6a39b721a4cbab8a706ff2c04e7a75b025a2a07c",
     "previous_pages_build": "built",
-    "git_remote": "Verified pushed and remote-matched by backup/checkpoint checks",
-    "local_browser": "Search, sorting, pagination, accordions, map precision, numeric room comparison and directory queue checked",
-    "full_current_tests": "32/32 passed; individual logs retained in private work archive",
+    "git_remote": "Previous research/report checkpoint pushed and remote-matched",
+    "local_browser": "Search, sorting, pagination, accordions, map, numeric room comparison, directory queue and readable morning report checked",
+    "full_current_tests": "32/32 passed; morning report checks repeated after final generation",
     "live_visual": "Blocked by saved browser permission for thenatanzi.github.io; no alternate access attempted",
-    "remaining": "Morning report commit/build and final backup receipts are checked separately after publication; cloud sync Unknown."
+    "backup": "84 tracked deliverables SHA256-matched in local Drive folder at14:53Z; final report backup follows final push",
+    "remaining": "Final report commit/build, final backup and automation pause verified separately after publication; cloud sync Unknown."
   },
   "highlights": [
     "Final Foster City Annex evidence is staged separately: current fees, insurance, setup/cleanup and capacity/accessibility conflicts were reviewed, but identities and city inventory remain unreconciled. No new rows or completed workstream are claimed.",
