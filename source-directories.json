@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-26T13:08:52.856140+00:00",
+  "updated_utc": "2026-10-26T13:14:30.783856+00:00",
   "scope": "Nine Bay Area counties; directory boundaries and nearby results require validation. Nonexhaustive source registry.",
   "sources": [
     {
@@ -1159,6 +1159,19 @@
       "collected_profiles": 19,
       "new_venue_records": 19,
       "notes": "CurrentJune30,2026docpages; oldersearch2025notusedascurrent. Room/park/supportscopesqualified; noexhaustiveinventoryorallincostclaim."
+    },
+    {
+      "id": "petaluma-nonprofit-current-rentals",
+      "name": "Petaluma Woman\u2019s Club / Arts Center / PPSC Cavanagh primary rental sources",
+      "url": "https://www.petalumawomansclub.com/event-space/",
+      "category": "Nonprofit/club/gallery source inventory",
+      "geography": "Petaluma, Sonoma County",
+      "checked_utc": "2026-10-26T13:14:30.783856+00:00",
+      "collection_status": "Threeprimarypages andactualcontract/rules/applicationreviewed; eventquotes/permissionunknown",
+      "collection_method": "Savedpages/PDFs; PWCscannedpages rendered andvisuallyread",
+      "collected_profiles": 8,
+      "new_venue_records": 8,
+      "notes": "Eightoffersnot8properties. PWC2026contract/olderrulesconflictsretained. NoGoogle/Yelp/Knot/WWratinginferredfromtestimonials."
     }
   ]
 }
