@@ -289,7 +289,7 @@ for attempt in D.get('review_research_log',[]):
 QUEUE=[q for q in QUEUE if RECORDS[q['record_id']]['facts'].get(q['field'],{}).get('value') is None or RECORDS[q['record_id']]['facts'].get(q['field'],{}).get('status')=='conflicting']
 NORMAL={'version':1,'normalized_utc':NOW,'default_status':'not_yet_extracted','statuses':STATUSES,'fields':FIELDS,'properties':PROPS,'records':RECORDS,'identity_candidates':aliases,'review_queue':QUEUE,'method':'Original venue fields remain unchanged. Facts reference original record paths for verbatim text, source URLs/status and dates. No inferred numeric values from unqualified narrative; no title/ownership verification claimed.'}
 D['normalized']=NORMAL
-(ROOT/'research.json').write_text(json.dumps(D,ensure_ascii=False,indent=2),encoding='utf-8')
+(ROOT/'research.json').write_text(json.dumps(D,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
 summary={'normalized_utc':NOW,'record_count':len(RECORDS),'property_group_count':len(PROPS),'identity_review_candidates':len(aliases),'numeric_review_queue':len(QUEUE),'field_count':len(FIELDS),'known_by_field':{f['id']:sum(r['facts'].get(f['id'],{}).get('value') is not None for r in RECORDS.values()) for f in FIELDS},'status_counts':dict(collections.Counter(x['status'] for r in RECORDS.values() for x in r['facts'].values())),'original_fields':'preserved; no new source verification by normalization'}
 (ROOT/'normalization-audit.json').write_text(json.dumps(summary,indent=2),encoding='utf-8')
 print(json.dumps(summary))
