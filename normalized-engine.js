@@ -27,6 +27,16 @@
       const guests=Number(c.guests)||300,hours=Number(c.hours)||6,missing=[],assumptions=[],components=[],conditions=[];
       function read(key,override){if(override!==''&&override!=null){const n=Number(override);if(finite(n)){assumptions.push(key+' user assumption');return n}missing.push('Invalid assumption: '+key);return null}const f=fact(v,key),n=value(v,key);if(finite(n)){const p=provenance(v,key);if(p.quality.includes('proposal')){missing.push(key+' proposal not established');return null}conditions.push(p.note||p.source_text||key);return n}return null;}
       const pair=(lo,hi,override)=>{const a=read(lo,override),b=override!==''&&override!=null?a:read(hi,null);return [a,b]};
+      const minHours=value(v,'minimum_rental_hours');if(minHours!=null&&hours<minHours)missing.push('rental shorter than published minimum');
+      const lodging=value(v,'lodging_requirement'),lodgingHandling=c.lodgingHandling||'';
+      if(['required_extra','required_unallocated','conditional'].includes(lodging)){
+        if(lodging==='conditional'&&lodgingHandling==='not_required')assumptions.push('selected conditional offer has no required lodging; user applicability assumption');
+        else if(lodgingHandling==='included_in_fixed'&&c.fixed!==''&&c.fixed!=null&&finite(Number(c.fixed))&&Number(c.fixed)>0){
+          assumptions.push('all required lodging, lodging fees/taxes and room liability included in positive fixed-charge assumption; no guest reimbursement deducted');
+          if((Number(c.servicePct)>0&&c.serviceBase==='all_components')||(Number(c.taxPct)>0&&['all_with_service','all_without_service'].includes(c.taxBase)))missing.push('lodging-inclusive fixed charges overlap service/tax base; specify a nonoverlapping or custom base');
+        }else missing.push('mandatory lodging/buyout total, inclusion and payer liability');
+      }
+      if(c.securityMode==='calculate'&&value(v,'security_min_hours')!=null&&Number(c.securityHours)<value(v,'security_min_hours'))missing.push('security billable hours below published minimum');
       let [feeLo,feeHi]=pair('fee_min','fee_max',c.venueFee);
       const perGuestVenue=value(v,'venue_per_guest_min'),perGuestVenueHigh=value(v,'venue_per_guest_max'),venueMinimum=value(v,'venue_minimum');
       if(feeLo==null&&perGuestVenue!=null){feeLo=perGuestVenue*guests;feeHi=perGuestVenueHigh==null?null:perGuestVenueHigh*guests;}
