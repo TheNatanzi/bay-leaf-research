@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-26T14:28:50.061Z",
+  "updated_utc": "2026-10-26T14:33:35.616Z",
   "status": "Active overnight research",
   "deadline": "2026-10-26T08:00:00-07:00",
   "current_batch": "All five critical reviews completed; broader research backlog continues",
@@ -54,17 +54,18 @@
     "Audit101:RioVista14facility/parkindexprospects;45Main2025packetdistinctfrom25Mainsenior, aviationonlyroomrestricted,500+50refunddeposit, protective-flooring/portabletoilets/insuranceconditions; fee-loginheld,park10vs11indexcountunresolved.50workstreamsunaudited.",
     "Audit102:sixoriginaldated2020–21operatorinterviewsadded;91readingrecordsnot91people. Labor/infrastructure/acquisitionrepairs/lodging/permit/contractlessonsrecorded; no oldrulesasCaliforniaapproval orselfreportedbookingsasprofit.",
     "Audit103:54additionalfreeCensuspublic-addressqueries;35accepted/89newmappedrecords;1005priorpointsunchanged. Intersection/multiple/nomatch/mismatchedstreetheld, Alderalternativeofficialsourcepreserved. Map1094mapped/1032unmapped.",
-    "Audit104:four exactWW/KnotaggregatesacrossPearl/Nestldownexistingproperties; no venueaddition. CurrentNestldown21:45music/22guests/23vendorsandapproved-onlycatering; Pearlprimarylink/address, AV/tentexclusivityandcoatcheckextra. Noamenitylodgingorcapacityscopeinference."
+    "Audit104:four exactWW/KnotaggregatesacrossPearl/Nestldownexistingproperties; no venueaddition. CurrentNestldown21:45music/22guests/23vendorsandapproved-onlycatering; Pearlprimarylink/address, AV/tentexclusivityandcoatcheckextra. Noamenitylodgingorcapacityscopeinference.",
+    "Audit105:BohoManor7configurations atoneexistingparent; groupoffer10rooms/25overnightguests/2midweeknights/15000combinedbase, NOTpurelodgingorallweddingsmandatory. Garden100/150operatorconflictheld; expiredhotelpromosnotcurrentweddingquotes."
   ],
   "baseline": {
-    "discovery_records": 2126,
+    "discovery_records": 2133,
     "provisional_property_groups": 832,
-    "historical_audits": 104,
+    "historical_audits": 105,
     "founder_reading_records": 91,
     "municipal_workstreams": 110,
     "municipal_unaudited": 50
   },
-  "added_venue_records": 461,
+  "added_venue_records": 468,
   "gaps": [
     "50municipal/county workstreams remain unaudited; reviewed authorities remain partial.",
     "Directory registry collection pending; source blocks logged, not bypassed",
