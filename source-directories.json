@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-26T14:07:04.562714+00:00",
+  "updated_utc": "2026-10-26T14:14:24.317387+00:00",
   "scope": "Nine Bay Area counties; directory boundaries and nearby results require validation. Nonexhaustive source registry.",
   "sources": [
     {
@@ -1410,6 +1410,19 @@
       "collected_profiles": 15,
       "new_venue_records": 15,
       "notes": "Overlappingprogram/sites/addonsnot15properties; URL2015butpolicyadopted2022; oldgeneralfeesnotcurrentweddingquote"
+    },
+    {
+      "id": "riovista-city-facilities-parks",
+      "name": "Rio Vista official facilities, park index and public applications",
+      "url": "https://www.riovistacity.com/publicworks/page/facilities-and-facility-use",
+      "category": "Municipal official rental and index prospect inventory",
+      "geography": "Rio Vista, Solano County",
+      "checked_utc": "2026-10-26T14:14:24.317387+00:00",
+      "collection_status": "Partial:facility/parkindex+3parkdetailpages+6/3/2pagePDFs;8parkdetailsnotreviewed",
+      "collection_method": "Normalsitebrowsersearch/readandpublicdownloads; rawHTTP403saved, node2331loginheldwithoutsign-in",
+      "collected_profiles": 14,
+      "new_venue_records": 14,
+      "notes": "14facility/prospectrecordsnot14confirmedweddingvenues; 45Main2025packetnot25MainSenior; parkheader10but11labels"
     }
   ],
   "candidate_queue_url": "directory-leads.html"

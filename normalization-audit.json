@@ -1,12 +1,12 @@
 {
-  "normalized_utc": "2026-10-26T14:07:05.529996+00:00",
-  "record_count": 2112,
-  "property_group_count": 818,
+  "normalized_utc": "2026-10-26T14:14:25.571187+00:00",
+  "record_count": 2126,
+  "property_group_count": 832,
   "identity_review_candidates": 52,
   "numeric_review_queue": 3301,
   "field_count": 106,
   "known_by_field": {
-    "capacity_max": 1269,
+    "capacity_max": 1271,
     "capacity_seated": 577,
     "capacity_standing": 344,
     "capacity_dinner_dance": 21,
@@ -19,7 +19,7 @@
     "fixed_mandatory": 16,
     "minimum_spend": 5,
     "ceremony_fee": 1,
-    "deposit_refundable": 281,
+    "deposit_refundable": 283,
     "booking_credit": 16,
     "cleaning_fee": 11,
     "food_min": 35,
@@ -74,11 +74,11 @@
     "business_value_max": 0,
     "outside_catering": 372,
     "byob": 204,
-    "tables_included": 571,
-    "chairs_included": 417,
+    "tables_included": 572,
+    "chairs_included": 426,
     "dance_floor": 80,
     "wedding_permission": 257,
-    "availability": 83,
+    "availability": 84,
     "accessibility": 0,
     "food_basis": 187,
     "restrooms": 1,
@@ -114,9 +114,9 @@
     "lodging_payer": 0
   },
   "status_counts": {
-    "published_evidence": 6398,
-    "needs_confirmation": 11820,
-    "searched_no_public_answer": 2765,
+    "published_evidence": 6413,
+    "needs_confirmation": 11876,
+    "searched_no_public_answer": 2959,
     "conflicting": 204
   },
   "original_fields": "preserved; no new source verification by normalization"
