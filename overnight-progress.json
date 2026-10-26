@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-26T12:14:57.243Z",
+  "updated_utc": "2026-10-26T12:28:10.005Z",
   "status": "Active overnight research",
   "deadline": "2026-10-26T08:00:00-07:00",
   "current_batch": "Critical review 5 of 5 completed; remaining reviews and research continue",
@@ -38,19 +38,20 @@
     "Audit85:49restaurant/hotel/jazz configurations across11new provisional properties; fourexistingArgonautrooms reconciled.20directoryURLchecks+9followups, rawfetchoutcomesretained. Acquerello4%benefitsunallocated, BSidefurnitureremovalextra, BluePlateF&Bminimums andhotelroomoverlap preserved.",
     "Threeoriginaloperatorreadingitems added:JuneBug,JaymeGreenfield,IanRamirezpodcast. ExistingColdSpringURLmatched/refreshedwithwriter-rolelimit, notduplicated.85readingrecordsnot85uniquepeople.",
     "Audit87:MorganHill17configurations/3campuses; CCCindoor00music/outdoor22, Hiram260dancing/220clearfloor, ElToro80, CRC50dancingwithnoalcohol. Cityguard48/hourthen71after8hours,3hminimum; tieredscenarioarithmeticadded.62municipalworkstreamsremainunaudited.",
-    "Audit88:23Peninsula configurations acrossBurlingame/Pacifica;7existingSanMateoroomsrechecked.Threeworkstreamsnowpartial,59unaudited. No midnightmusicfromrentalhours; actualcurrentPDFs used, property/room/layout distinctions preserved."
+    "Audit88:23Peninsula configurations acrossBurlingame/Pacifica;7existingSanMateoroomsrechecked.Threeworkstreamsnowpartial,59unaudited. No midnightmusicfromrentalhours; actualcurrentPDFs used, property/room/layout distinctions preserved.",
+    "Audit89:41validated public-address matches add118 approximate mapped records; seven no-matches held. Two exactStRegis wedding-platform aggregates added across21rooms, each5/5 withone review; old/small sample and property scope explicit."
   ],
   "baseline": {
     "discovery_records": 1938,
     "provisional_property_groups": 752,
-    "historical_audits": 88,
+    "historical_audits": 89,
     "founder_reading_records": 85,
     "municipal_workstreams": 110,
     "municipal_unaudited": 59
   },
   "added_venue_records": 273,
   "gaps": [
-    "66 municipal/county workstreams remain unaudited; reviewed rows remain partial, and four prior partial county rows need linked-evidence reconciliation.",
+    "59 municipal/county workstreams remain unaudited; reviewed authorities remain partial and wider inventories are open.",
     "Directory registry collection pending; source blocks logged, not bypassed",
     "Scrapzi venue adapter absent; remote connection is read-only",
     "Missing current prices, midnight permissions, dinner/dance layouts, lodging obligations, reviews and business values",
@@ -58,9 +59,9 @@
     "Exact first-wedding dates, room liabilities and actual business earnings remain largely unknown"
   ],
   "next": [
-    "Continue official inventories and primary verification of new local-directory candidates; perform five distinct critical audit passes by deadline",
-    "Expand exact WeddingWire/TheKnot and other platform/source collection without bypassing blocks",
-    "Resolve current lodging/payer/room-liability quotes and identity/conditional evidence; then five critical passes before8AM"
+    "Continue unaudited municipal authorities and current exact-profile/source verification until8AM",
+    "Resolve high-impact lodging, all-in cost, layout, clock and business-value gaps; preserve researched unknowns",
+    "At8AM publish morning report with five-pass audit and actual coverage; pause recovery automation"
   ],
   "status_note": "This is the latest published checkpoint, not a live process monitor. An old timestamp may mean research is underway, the app is asleep, or a run stopped. No completeness claim.",
   "critical_review_passes_completed": 5,

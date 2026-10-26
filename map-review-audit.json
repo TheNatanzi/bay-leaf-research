@@ -1,0 +1,67 @@
+{
+  "checked_utc": "2026-10-26T12:27:33.665628+00:00",
+  "requests": 48,
+  "accepted_addresses": 41,
+  "added_mapped_records": 118,
+  "mapped_records": 1005,
+  "unmapped_records": 933,
+  "held": [
+    {
+      "address": "7001 Pleasanton Avenue, Pleasanton CA",
+      "reasons": [
+        "Expected exactly one address match"
+      ]
+    },
+    {
+      "address": "5800 Parkside Drive, Pleasanton CA",
+      "reasons": [
+        "Expected exactly one address match"
+      ]
+    },
+    {
+      "address": "2647 Arroyo Road, Livermore CA94550",
+      "reasons": [
+        "Expected exactly one address match"
+      ]
+    },
+    {
+      "address": "390 Morris Street, Sebastopol CA95472",
+      "reasons": [
+        "Expected exactly one address match"
+      ]
+    },
+    {
+      "address": "1400 Roosevelt Avenue, Redwood City CA",
+      "reasons": [
+        "Expected exactly one address match"
+      ]
+    },
+    {
+      "address": "6250 Bohemian Highway, Occidental CA95465",
+      "reasons": [
+        "Expected exactly one address match"
+      ]
+    },
+    {
+      "address": "35501 Cedar Blvd., Newark CA94560",
+      "reasons": [
+        "Expected exactly one address match"
+      ]
+    }
+  ],
+  "review_profiles": [
+    {
+      "url": "https://www.weddingwire.com/biz/the-st-regis-san-francisco-san-francisco/1f3caf1af4981311.html",
+      "rating": 5,
+      "review_count": 1,
+      "visible_review_date": "2008-05-21"
+    },
+    {
+      "url": "https://www.theknot.com/marketplace/the-st-regis-san-francisco-san-francisco-ca-510790",
+      "rating": 5,
+      "review_count": 1,
+      "visible_review_date": null
+    }
+  ],
+  "scope": "Approximate property/campus points; ratings are property-level wedding aggregates. Private raw responses remain in work archive."
+}

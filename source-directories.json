@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-26T12:14:52.626650+00:00",
+  "updated_utc": "2026-10-26T12:30:07.639947+00:00",
   "scope": "Nine Bay Area counties; directory boundaries and nearby results require validation. Nonexhaustive source registry.",
   "sources": [
     {
@@ -10,12 +10,12 @@
       "url": "https://www.theknot.com/marketplace/wedding-reception-venues-san-francisco-ca",
       "geography": "San Francisco search; nearby results may be outside scope",
       "discovery_checked_utc": "2026-10-26T08:06:19.266392+00:00",
-      "collection_status": "Two exact property profiles reviewed this run; broader collection pending",
+      "collection_status": "Three exact property profiles reviewed this run; broader collection pending",
       "collection_method": "Primary platform web reader; named property/city and rating/count headings reviewed, not a successful direct scrape",
-      "checked_utc": "2026-10-26T09:52:15.529466+00:00",
-      "collected_profiles": 2,
+      "checked_utc": "2026-10-26T12:30:07.639947+00:00",
+      "collected_profiles": 3,
       "new_venue_records": 0,
-      "notes": "Kohl/Villa exact profiles read; Wayfare5.0/4 at old558Sacramento address observed and excluded from current201Pine aggregate."
+      "notes": "Kohl/Villa exact profiles read; Wayfare5.0/4 at old558Sacramento address observed and excluded from current201Pine aggregate. St.Regis exact profile read:5/5 from one review; property scope and small/old sample flagged."
     },
     {
       "id": "weddingwire",
@@ -26,10 +26,10 @@
       "discovery_checked_utc": null,
       "collection_status": "Three exact property profiles reviewed this run; broader collection pending",
       "collection_method": "Primary platform web reader; named property/city and rating/count headings reviewed, not a successful direct scrape",
-      "checked_utc": "2026-10-26T09:52:15.529466+00:00",
-      "collected_profiles": 2,
+      "checked_utc": "2026-10-26T12:30:07.639947+00:00",
+      "collected_profiles": 3,
       "new_venue_records": 0,
-      "notes": "KohlMansion andVillaChanticleer. Whole-property ratings may span operators and duplicate populations across platforms; no new property counted again here."
+      "notes": "KohlMansion andVillaChanticleer. Whole-property ratings may span operators and duplicate populations across platforms; no new property counted again here. St.Regis exact profile read:5/5 from one review; property scope and small/old sample flagged."
     },
     {
       "id": "zola",
