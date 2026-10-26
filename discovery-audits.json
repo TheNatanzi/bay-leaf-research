@@ -4838,5 +4838,40 @@
       "Raw Value601TotalLI does not equal justland+structure in several rows. Additional component fields retained, definition/reconciliation pending; no invented reconstructedtotal. Personal-property assessment is not businessenterprisevalue.",
       "Exact source-published situs and countyparcel match is general reference, notfullcampusscope, surveyedboundary, currentownership ortransferableweddingpermission. Prior answers/status/source dates retained alongsidenewcounty evidence."
     ]
+  },
+  {
+    "question": "What archived public community and college spaces were omitted, and are published capacities wedding dinner/dance layouts?",
+    "scope": "Crockett Community Center and Contra Costa College cutoff-lead import after fresh primary-source review",
+    "completed_utc": "2026-10-26T08:08:07.538707+00:00",
+    "source_urls": [
+      "https://crockettcsd.specialdistrict.org/auditorium-event-space",
+      "https://www.contracosta.edu/facility-rentals/"
+    ],
+    "added_record_ids": [
+      "crockett-community-center-auditorium-contra-costa",
+      "contra-costa-college-fireside-hall",
+      "contra-costa-college-general-education-lecture-hall",
+      "contra-costa-college-knox-performing-arts-center",
+      "contra-costa-college-gymnasium"
+    ],
+    "updated_record_ids": [],
+    "duplicates_merged": [],
+    "excluded": [
+      "Crockett 1920 community opening is not wedding-opening year",
+      "College fixed seats are not banquet/dance capacity",
+      "Resident and nonresident fees not flattened into an unconditional cost range",
+      "College sports fields/pool and unnamed small rooms held pending specific event scope"
+    ],
+    "remaining_gaps": [
+      "Specific wedding approval, complete charges and clock deadlines",
+      "Crockett current occupancy/layout and resident eligibility",
+      "College contract, room-specific social event permission",
+      "Ambrose Bay Point and Lefty Gomez archived leads not yet imported"
+    ],
+    "fact_check_findings": [
+      "Five distinct spaces across two provisional properties added after exact-name/parent check; no fuzzy merge with Dublin Ambrose Hall.",
+      "Both current primary pages downloaded successfully, HTML/text/links and fetch results archived."
+    ],
+    "pass": 68
   }
 ]

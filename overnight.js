@@ -1,0 +1,16 @@
+'use strict';
+(async function(){
+ const $=id=>document.getElementById(id),el=(tag,text)=>{const n=document.createElement(tag);if(text!=null)n.textContent=text;return n;};
+ try{
+  const [p,r]=await Promise.all(['overnight-progress.json','source-directories.json'].map(async url=>{const x=await fetch(url,{cache:'no-store'});if(!x.ok)throw Error('Unable to load '+url);return x.json();}));
+  $('updated').textContent='Last checkpoint: '+new Date(p.updated_utc).toLocaleString()+' · '+p.status;
+  const area=$('progress');area.append(el('p','Deadline: '+new Date(p.deadline).toLocaleString()),el('p','Current batch: '+p.current_batch));
+  const cards=el('div');cards.className='cards';for(const [key,label] of [['discovery_records','Discovery records'],['provisional_property_groups','Provisional property groups'],['municipal_unaudited','Municipal workstreams unaudited']]){const c=el('div');c.append(el('strong',p.baseline[key]),el('span',label));cards.append(c);}area.append(cards);
+  for(const [key,label] of [['completed_this_run','Completed this run'],['gaps','Remaining gaps'],['next','Next work']]){area.append(el('h3',label));const list=el('ul');for(const s of p[key]||[])list.append(el('li',s));area.append(list);}
+  let sort='name',direction=1;const cols=[['name','Source'],['category','Category'],['geography','Geography'],['collection_status','Collection status'],['collected_profiles','Profiles collected this run'],['new_venue_records','Venue records added'],['checked_utc','Last checked'],['collection_method','Method / notes']];
+  for(const [key,label] of cols){const th=el('th'),b=el('button',label);b.type='button';b.onclick=()=>{direction=sort===key?-direction:1;sort=key;render();};th.append(b);$('head').append(th);}
+  for(const [id,key] of [['category','category'],['status','collection_status']])for(const v of [...new Set(r.sources.map(s=>s[key]))].sort()){$(id).append(new Option(v,v));}
+  function render(){const query=$('search').value.toLowerCase();const rows=r.sources.filter(s=>(!query||JSON.stringify(s).toLowerCase().includes(query))&&(!$('category').value||s.category===$('category').value)&&(!$('status').value||s.collection_status===$('status').value));rows.sort((a,b)=>direction*(typeof a[sort]==='number'&&typeof b[sort]==='number'?a[sort]-b[sort]:String(a[sort]||'').localeCompare(String(b[sort]||''))));$('rows').replaceChildren();$('count').textContent=rows.length+' matching sources of '+r.sources.length;for(const s of rows){const tr=el('tr');for(const [key] of cols){const td=el('td');if(key==='name'){const a=el('a',s.name);a.href=s.url;a.target='_blank';a.rel='noopener noreferrer';td.append(a);}else if(key==='collection_method'){td.append(el('div',s.collection_method),el('small',s.notes));}else td.textContent=key==='checked_utc'?(s[key]?new Date(s[key]).toLocaleString():'Not checked this run'):s[key]??'Unknown';tr.append(td);}$('rows').append(tr);}}
+  for(const id of ['search','category','status'])$(id).addEventListener('input',render);$('reset').onclick=()=>{for(const id of ['search','category','status'])$(id).value='';render();};render();
+ }catch(e){$('updated').textContent='Checkpoint could not be loaded. Refresh or use the atlas link.';$('updated').className='error';}
+})();

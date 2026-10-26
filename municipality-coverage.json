@@ -461,8 +461,10 @@
     "municipality": "San Pablo",
     "municipal_rental_status": "Not yet audited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://www.contracosta.edu/facility-rentals/"
+    ],
+    "remaining": "Public college index reviewed separately; city municipal inventory and all remaining private/unconventional rentals still require systematic audit. College wedding permission unknown."
   },
   {
     "county": "Contra Costa",
