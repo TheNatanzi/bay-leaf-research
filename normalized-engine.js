@@ -23,6 +23,8 @@
     function fieldStatus(v,key){return key.startsWith('workbook:')?record(v)?.workbook_status[key.slice(9)]||layer.default_status:fact(v,key).status;}
     function coverage(v){const fields=data.criteria.fields;let answered=0,na=0;for(const f of fields){const a=v.workbook_answers?.[f.id],status=fieldStatus(v,'workbook:'+f.id);if(status==='not_applicable'){na++;continue}if(a?.answer!=null&&String(a.answer).trim()&&!/^\s*(unknown|not (yet )?(researched|verified|established)|pending)/i.test(String(a.answer)))answered++;}return {answered,not_applicable:na,applicable:fields.length-na,percent:fields.length>na?answered/(fields.length-na)*100:null};}
     const finite=x=>typeof x==='number'&&Number.isFinite(x)&&x>=0;
+    const validDate=s=>typeof s==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(s)&&!Number.isNaN(Date.parse(s+'T00:00:00Z'))&&new Date(s+'T00:00:00Z').toISOString().slice(0,10)===s;
+    function dateAvailability(v,eventDate){const restrictions=validDate(eventDate)?(v.availability_restrictions||[]).filter(r=>r.blocks_booking===true&&r.source_url&&r.checked_utc&&validDate(r.start)&&validDate(r.end)&&eventDate>=r.start&&eventDate<=r.end):[];return {blocked:restrictions.length>0,restrictions,note:restrictions.length?'Published booking restriction covers selected date; obtain current confirmation':'No matching published hold established; date availability remains unverified'};}
     function scenario(v,c={}){
       const guests=Number(c.guests)||300,hours=Number(c.hours)||6,missing=[],assumptions=[],components=[],conditions=[];
       function read(key,override){if(override!==''&&override!=null){const n=Number(override);if(finite(n)){assumptions.push(key+' user assumption');return n}missing.push('Invalid assumption: '+key);return null}const f=fact(v,key),n=value(v,key);if(finite(n)){const p=provenance(v,key);if(p.quality.includes('proposal')){missing.push(key+' proposal not established');return null}conditions.push(p.note||p.source_text||key);return n}return null;}
@@ -49,6 +51,13 @@
       const ceremony=value(v,'ceremony_fee');if(ceremony!=null){if(c.ceremony==='yes')components.push({name:'Additional ceremony fee',low:ceremony,high:ceremony});else if(c.ceremony!=='no')missing.push('ceremony-fee applicability');}
       let foodLo=null,foodHi=null,barLo=null,barHi=null,usedCombined=false;
       if(c.mode!=='venue_only'){
+        if(c.food!==''&&c.food!=null&&finite(Number(c.food))){
+          if(c.foodBasis==='outside_caterer'){
+            if(value(v,'outside_catering')!=='yes')missing.push('outside caterer permission for selected food assumption');
+            assumptions.push('outside-caterer food estimate only; staffing, rentals, tax and bar not implied');
+          }else if(c.foodBasis==='venue_quote')assumptions.push('venue-specific food quote entered by user; scope and inclusions unverified');
+          else missing.push('food assumption basis and venue applicability');
+        }
         const basis=value(v,'food_basis');const separate=c.mode==='separate'||c.food!==''&&c.food!=null||c.bar!==''&&c.bar!=null;
         if(!separate&&basis==='food_bar_combined'){
           usedCombined=true;const [a,b]=pair('package_min','package_max',null);foodLo=a==null?null:a*guests;foodHi=b==null?null:b*guests;barLo=barHi=0;components.push({name:'Combined food/bar package (not added twice)',low:foodLo,high:foodHi});if(a==null||b==null)missing.push('combined package bounds');
@@ -78,10 +87,11 @@
       if(taxLo!=null){components.push({name:'Tax',low:taxLo,high:taxHi});low+=taxLo;high+=taxHi??taxLo;}
       const hasKnown=components.some(x=>x.low!=null),deposit=value(v,'deposit_refundable');
       const capacity=value(v,'capacity_dinner_dance');let fit=capacity==null?'Dinner/dance layout unverified':guests<=capacity?'Fits published dinner/dance count; event approval unverified':'Exceeds published dinner/dance count';
-      if(!c.eventDate)missing.push('date/day/season applicability');else assumptions.push('user event date '+c.eventDate+'; published offer applicability not independently confirmed');
+      const dateAvailabilityResult=dateAvailability(v,c.eventDate);if(dateAvailabilityResult.blocked){missing.push('published booking hold covers selected date');conditions.push(dateAvailabilityResult.note);}
+      if(!c.eventDate)missing.push('date/day/season applicability');else if(!validDate(c.eventDate))missing.push('invalid event date');else assumptions.push('user event date '+c.eventDate+'; published offer applicability not independently confirmed');
       if(!c.otherCostsConfirmed)missing.push('complete mandatory-cost inventory not confirmed');
       const complete=hasKnown&&missing.length===0;
-      return {low:hasKnown?low:null,high:complete?high:null,known_subtotal_high:hasKnown?high:null,per_guest_low:hasKnown?low/guests:null,per_guest_high:complete?high/guests:null,deposit,cash_with_known_deposit:hasKnown&&deposit!=null?low+deposit:null,booking_credit:value(v,'booking_credit'),components,missing:[...new Set(missing)],assumptions:[...new Set(assumptions)],conditions,complete,label:complete?'Planning estimate — assumptions, not a venue quote':c.mode==='venue_only'?'Known venue-only subtotal — incomplete':'Known subtotal — incomplete',guest_count:guests,rental_hours:hours,capacity_fit:fit};
+      return {low:hasKnown?low:null,high:complete?high:null,known_subtotal_high:hasKnown?high:null,per_guest_low:hasKnown?low/guests:null,per_guest_high:complete?high/guests:null,deposit,cash_with_known_deposit:hasKnown&&deposit!=null?low+deposit:null,booking_credit:value(v,'booking_credit'),components,missing:[...new Set(missing)],assumptions:[...new Set(assumptions)],conditions,complete,label:complete?'Planning estimate — assumptions, not a venue quote':c.mode==='venue_only'?'Known venue-only subtotal — incomplete':'Known subtotal — incomplete',guest_count:guests,rental_hours:hours,capacity_fit:fit,date_availability:dateAvailabilityResult};
     }
     function ranking(v,c={},cost){const w=c.weights||{},items=[],target=Number(c.guests)||300;const add=(id,score,note)=>{const weight=Number(w[id])||0;if(weight>0)items.push({id,weight,score,note})};
       const cap=value(v,'capacity_dinner_dance');add('capacity',cap==null?null:Math.min(1,cap/target),'Published dinner/dance layout only');
@@ -90,12 +100,12 @@
       const reviews=(c.reviews||null);add('reviews',reviews==null?null:reviews/5,'Platform aggregate, not a wedding quality guarantee');
       const targetCost=Number(c.targetCost);add('cost',cost?.complete&&cost.high!=null&&targetCost>0?Math.max(0,Math.min(1,targetCost/Math.max(cost.high,1))):null,'Complete planning scenario and optional target cost required');
       const total=items.reduce((s,i)=>s+i.weight,0),covered=items.filter(i=>i.score!==null).reduce((s,i)=>s+i.weight,0),coverage=total?covered/total*100:null;
-      const blocked=value(v,'availability')==='closed'||value(v,'wedding_permission')==='explicit_no';
+      const held=cost?.date_availability?.blocked||dateAvailability(v,c.eventDate).blocked,blocked=value(v,'availability')==='closed'||value(v,'wedding_permission')==='explicit_no'||held;
       const threshold=c.minimumCoverage==null?100:Number(c.minimumCoverage);const score=!blocked&&covered>0&&coverage+1e-8>=threshold?items.reduce((s,i)=>s+(i.score??0)*i.weight,0)/covered*100:null;
-      return {score,coverage,items,blocked,note:blocked?'Closed / explicitly disallowed; not ranked':!total?'Choose weights to enable ranking':score==null?'Insufficient evidence for selected weights':coverage<100?'Partial-evidence preference score; compare coverage':'Preference score only; not legal/financial feasibility'};
+      return {score,coverage,items,blocked,note:held?'Published booking hold covers selected date; not ranked':blocked?'Closed / explicitly disallowed; not ranked':!total?'Choose weights to enable ranking':score==null?'Insufficient evidence for selected weights':coverage<100?'Partial-evidence preference score; compare coverage':'Preference score only; not legal/financial feasibility'};
     }
     function propertyGroups(rows){const groups=new Map();for(const v of rows){const id=record(v).property_id;if(!groups.has(id))groups.set(id,[]);groups.get(id).push(v)}return [...groups].map(([property_id,records])=>({property_id,records,identity:layer.properties[property_id]}));}
-    return {defs,record,fact,value,provenance,fieldStatus,coverage,scenario,ranking,propertyGroups,byId,statuses:layer.statuses};
+    return {defs,record,fact,value,provenance,fieldStatus,coverage,scenario,ranking,propertyGroups,dateAvailability,byId,statuses:layer.statuses};
   }
   function clockLabel(minutes){if(minutes==null)return 'Unknown';const day=Math.floor(minutes/1440),m=minutes%1440;return String(Math.floor(m/60)).padStart(2,'0')+':'+String(m%60).padStart(2,'0')+(day?' +'+day+'d':'');}
   return {create,clockLabel};

@@ -1,8 +1,8 @@
 {
-  "updated_utc": "2026-10-26T09:11:33.756Z",
+  "updated_utc": "2026-10-26T09:52:15.529466+00:00",
   "status": "Active overnight research",
   "deadline": "2026-10-26T08:00:00-07:00",
-  "current_batch": "East Bay municipal/district and faith inventory publication; further county/source research continues",
+  "current_batch": "Founder/operator sources, Sonoma inventories, exact platform ratings and food/date applicability guards published; further discovery and final critical reviews continue",
   "completed_this_run": [
     "Verified read-only Scrapzi data access; no jobs queued",
     "Resumed existing recovery automation through 8 AM Pacific",
@@ -23,25 +23,32 @@
     "Audits73–74:35 additional space/configuration records; matched5existingSausalitorows withoutduplicateproperties.1730records/686provisionalgroups.",
     "Piedmont event00:00 vs23:00indoormusic/22:00outdoor; Alameda diningvsassembly keptseparate.",
     "Pleasanton October2026fees/policy visuallychecked: kitchenreheatingonly, vendormunicipalbusinesslicenses, conditionaldumpster/staff/transactionfees, food/drinksprohibitedinmeetingrooms; classroom49/50heldconflict.",
-    "LARPD10spaces/configurationsacross3parents; seasonalRavenswood150/70and20:00/18:00rentalends. Churchceremonypastor/counselingrequirements, Sausalitoimpactpermitsrecorded."
+    "LARPD10spaces/configurationsacross3parents; seasonalRavenswood150/70and20:00/18:00rentalends. Churchceremonypastor/counselingrequirements, Sausalitoimpactpermitsrecorded.",
+    "Four original written operator accounts added:81readingrecords, not81uniquepeople. Original publication/update dates separated; one undated source staysUnknown.",
+    "Audits75–79: Kohlmissingproperty added, Ralston/Montalvo/Ravenswood history checked, Sonoma city/nonprofit inventories and21clearlyunverifiedchamberprospects.1761records/711provisionalgroups;69municipalworkstreamsunaudited.",
+    "Five exact platform observations acrossKohlandVilla added: WeddingWire/TheKnot/Zola ratings, counts, source methods and vendor/operator-history scope. Google secondary claim excluded.",
+    "Food overrides now require basis/applicability. Published selected-date booking holds block grades; eventduration separatedfromrentalhours. Noauto50buffet orfalsecompletequote.",
+    "Villa public operating-agreement case study: initial2022–2027term, staff/utilities/maintenance/communitybenefits, signedcontract3vsstaffreport6events discrepancy; no profit/appraisal invented."
   ],
   "baseline": {
-    "discovery_records": 1730,
-    "provisional_property_groups": 686,
-    "historical_audits": 74,
-    "founder_reading_records": 77,
+    "discovery_records": 1761,
+    "provisional_property_groups": 711,
+    "historical_audits": 79,
+    "founder_reading_records": 81,
     "municipal_workstreams": 110,
-    "municipal_unaudited": 71
+    "municipal_unaudited": 69
   },
-  "added_venue_records": 65,
+  "added_venue_records": 96,
   "gaps": [
-    "71 municipal workstreams remain unaudited; all partial reviews retain remaining-authority gaps.",
+    "69 municipal workstreams remain unaudited; partial reviews elsewhere remain incomplete.",
     "Directory registry collection pending; source blocks logged, not bypassed",
     "Scrapzi venue adapter absent; remote connection is read-only",
-    "Missing current prices, midnight permissions, dinner/dance layouts, lodging obligations, reviews and business values"
+    "Missing current prices, midnight permissions, dinner/dance layouts, lodging obligations, reviews and business values",
+    "21newlocal-directoryleads still need primary identity, permission, capacity and current operation checks",
+    "Exact first-wedding dates, room liabilities and actual business earnings remain largely unknown"
   ],
   "next": [
-    "Continue official municipal inventories across71unaudited workstreams and named district/private leads",
+    "Continue official inventories and primary verification of new local-directory candidates; perform five distinct critical audit passes by deadline",
     "Expand exact WeddingWire/TheKnot and other platform/source collection without bypassing blocks",
     "Resolve current lodging/payer/room-liability quotes and identity/conditional evidence; then five critical passes before8AM"
   ],

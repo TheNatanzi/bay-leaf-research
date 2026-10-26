@@ -266,7 +266,7 @@ for v in D['venues']:
   fact(v,out,'music_indoor',1560,['workbook_answers',WB['music_indoor']],'manually_reviewed_late_extension','2AM next event day, only with paid contracted extension; current event-specific/legal approval not established.')
  for i,obs in enumerate(v.get('research_observations',[])):
   if obs.get('field') in DEFS and obs.get('status')=='published_evidence' and (nval(obs.get('value')) is not None or (DEFS[obs['field']]['type']=='category' and obs.get('value') in DEFS[obs['field']].get('choices',[]))):
-   fact(v,out,obs['field'],obs['value'],['research_observations',i],'manually_reviewed_primary_operator',obs.get('basis'))
+   fact(v,out,obs['field'],obs['value'],['research_observations',i],'manually_reviewed_directory_profile' if obs.get('source_kind')=='directory_profile' else 'manually_reviewed_primary_operator',obs.get('basis'))
  # A dated, sourced negative search result is distinct from a field never researched.
  # Never let a negative attempt erase an existing numeric observation.
  for i,attempt in enumerate(v.get('research_attempts',[])):

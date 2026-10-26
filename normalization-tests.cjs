@@ -9,7 +9,7 @@ const synthetic={id:'test',name:'Test fixture, not a real venue',sources:[],work
 const testData={criteria:{fields:[]},venues:[synthetic],normalized:{fields:d.normalized.fields,properties:{p:{record_ids:['test']}},records:{test:{property_id:'p',workbook_status:{},facts:{}}},statuses:d.normalized.statuses,default_status:'not_yet_extracted'}};
 const t=Engine.create(testData);const f=(k,v)=>testData.normalized.records.test.facts[k]={value:v,status:'published_evidence',ref:[]};
 f('capacity_dinner_dance',150);f('deposit_refundable',500);f('booking_credit',200);
-const config={guests:100,hours:6,eventDate:'2026-11-01',mode:'separate',venueFee:1000,food:20,bar:10,fixed:100,minimumSpend:4000,spendBase:'food_bar',servicePct:10,serviceBase:'food_bar',taxPct:10,taxBase:'all_with_service',otherCostsConfirmed:true};
+const config={guests:100,hours:6,eventDate:'2026-11-01',mode:'separate',foodBasis:'venue_quote',venueFee:1000,food:20,bar:10,fixed:100,minimumSpend:4000,spendBase:'food_bar',servicePct:10,serviceBase:'food_bar',taxPct:10,taxBase:'all_with_service',otherCostsConfirmed:true};
 const s=t.scenario(synthetic,config);assert.equal(s.low,6050);assert.equal(s.high,6050);assert.equal(s.cash_with_known_deposit,6550);assert.equal(s.complete,true);assert.equal(s.booking_credit,200);
 const incomplete=t.scenario(synthetic,{...config,fixed:''});assert.equal(incomplete.complete,false);assert.equal(incomplete.high,null);assert(incomplete.missing.includes('additional mandatory fixed charges'));
 const invalid=t.scenario(synthetic,{...config,food:-1});assert.equal(invalid.complete,false);assert(invalid.missing.some(s=>s.includes('Invalid assumption')));

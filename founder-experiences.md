@@ -1,6 +1,6 @@
 # Founder and operator experiences
 
-77 reading records; incomplete. Original publication/update dates are separate from written/check dates. Publisher-summary-only interviews are labeled; audio not independently reviewed. Historical/global costs are not Bay Area budgets or verified profit.
+81 reading records; incomplete. Multiple sources may cover the same person; this is not81unique founders. Original publication/update dates are separate from written/check dates. Publisher-summary-only interviews are labeled; audio not independently reviewed. Historical/global costs are not Bay Area budgets or verified profit.
 
 ## Karri Jablonski
 
@@ -1548,3 +1548,83 @@ Co-owner describes96 booked weddings/events,10 full-time and40–60 part-time st
 Lessons: Model payroll, suppliers, debt and cancellation exposure separately from booked revenue.
 
 Commercial context / review limits: Original operator/publisher material; reported costs, volumes and business outcomes are not independently verified. Jurisdiction-specific accounts are not current Bay Area legal advice.; Original county PDF web-reader page4 reviewed; local original download522 logged, no downloaded PDF claimed.
+
+
+## Chancee Proctor and Christen Janik
+
+[Three-year search, a leased historic venue and a pandemic opening](https://voyagedallas.com/interview/inspiring-conversations-with-chancee-proctor-and-christen-janik-of-the-schoolhouse-wedding-venue/)
+
+- Venue: The Schoolhouse Wedding Venue
+- Original publication: 2021-08-02
+- Update: Unknown
+- Date evidence: Original publisher displays August2,2021; January2020lease is an event date, not publication.
+- Checked UTC: 2026-10-26T09:24:07.588853+00:00
+- Type: Firsthand founders interview — original publisher
+- Jurisdiction: West Dallas, Texas, US
+- Scale: One leased historic event property; licensed capacity and total startup cost not established
+
+The founders describe a three-year property search and a January2020 lease, followed by pandemic rescheduling. They offered micro weddings and elopements with vendor partners. Their model let clients choose caterers and bartenders. One partner handled events/people and the other finance; they report strain on their friendship.
+
+Lessons: Lease obligations and launch timing create risk before bookings stabilize. Budget website/marketing and founder labor, define complementary roles, and plan for cancellations. Historical advertised prices are not current Bay Area costs.
+
+Commercial context / review limits: Self-reported operator experience, not audited financials. Publisher/author may market services. Historical and out-of-state practices are not current Bay Area costs, permits or availability.
+
+
+## Mandi Young
+
+[Start a Wedding Venue: Tips & Lessons from A Venue Owner](https://www.trailblazerdesignagency.com/blog/start-a-wedding-venue-tips)
+
+- Venue: Two venues built by author; names not identified in this article
+- Original publication: 2025-01-16
+- Update: 2025-02-20
+- Date evidence: Visible Jan16 plus original HTML datetime/datePublished2025-01-16; year not inferred from copyright.
+- Checked UTC: 2026-10-26T09:24:07.588853+00:00
+- Type: Firsthand operator article — author also sells design/consulting
+- Jurisdiction: Jurisdiction not identified in this article; not treated as California regulatory guidance
+- Scale: Two self-reported venues; capital, profits and full staffing costs unverified
+
+Young reports building two venues, cash-flowing the first and keeping a corporate job for three and a half years. She describes regretting an unwritten early plan and consulting vendors about workspace needs. She distinguishes owner-operated, staffed and unattended models, and describes workload and burnout before adding a team.
+
+Lessons: Model replacement labor and reserves alongside construction. Outside catering still needs vendor infrastructure. Treat lease, acquisition and new construction as different routes; consultant advice is not local permit approval.
+
+Commercial context / review limits: Self-reported operator experience, not audited financials. Publisher/author may market services. Historical and out-of-state practices are not current Bay Area costs, permits or availability.
+
+
+## Ashlie and Ryan (surnames not given on page)
+
+[From custom-home building to a Montana wedding venue](https://www.whiteravenmontana.com/aboutus)
+
+- Venue: White Raven Venue & Retreat
+- Original publication: Unknown
+- Update: Unknown
+- Date evidence: Original publication date Unknown. Page says est.2015, which is a business-history claim, not a publication date.
+- Checked UTC: 2026-10-26T09:24:07.588853+00:00
+- Type: Firsthand owner origin story — venue website
+- Jurisdiction: Alberton gorge / Missoula area, Montana, US
+- Scale: One venue; budget, approved guest capacity and operating results not established
+
+The owners describe leaving counseling/engineering, building custom homes, then relocating and developing a venue around their design skills. Tours and prospective couples reportedly validated the concept. The current page also says it is no longer accepting new bookings while servicing existing reservations; the date and cause of that notice are unknown.
+
+Lessons: Founder construction skills and labor change startup assumptions. An origin story does not establish current availability: preserve the no-new-bookings notice without calling it a permanent closure.
+
+Commercial context / review limits: Self-reported operator experience, not audited financials. Publisher/author may market services. Historical and out-of-state practices are not current Bay Area costs, permits or availability.
+
+
+## Tina Drzonek; interviewed by Didi Russell / Wedding Venue Owners
+
+[Riverside Receptions, Wedding Venue Stories](https://weddingvenueowners.com/riverside-receptions-wedding-venue-stories/)
+
+- Venue: Riverside Receptions
+- Original publication: 2020-10-14
+- Update: 2020-10-16
+- Date evidence: Displayed October14,2020 matches original article metadata; update date separate.
+- Checked UTC: 2026-10-26T09:24:07.588853+00:00
+- Type: Firsthand owner/manager interview — original education publisher
+- Jurisdiction: Geneva, Illinois, US
+- Scale: One established venue; reported management tenure is not independently verified property operating duration
+
+Drzonek describes decades in hospitality and the recurring costs behind events: staff training, inspections, maintenance, insurance and supplies. She discusses staff retention, renovations and tours. Her example wedding staffing begins in the morning, finishes as late as2AM, then hands off to a cleaning crew; this is historical operator experience, not a guaranteed event cutoff.
+
+Lessons: Model setup, overnight cleanup, maintenance reserves and management coverage. Pay attention to turnover and inspections. Outsourced food or a simple rental offering does not eliminate operating labor.
+
+Commercial context / review limits: Self-reported operator experience, not audited financials. Publisher/author may market services. Historical and out-of-state practices are not current Bay Area costs, permits or availability.

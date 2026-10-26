@@ -1430,7 +1430,7 @@
   {
     "county": "Sonoma",
     "municipality": "Healdsburg",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official permit/operator inventory review; other authorities and event-specific approvals remain",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
       "https://www.montage.com/healdsburg/gatherings/weddings/",
@@ -1438,9 +1438,13 @@
       "https://uploads.montage.com/uploads/sites/4/2022/04/13110410/Montage-Healdsburg-Wedding-Brochure-ADA-VD1.pdf",
       "https://s23.q4cdn.com/442848786/files/doc_financials/2022/ar/Sunstone-Hotel-Investors-2022-Annual-Report.pdf",
       "https://www.sec.gov/Archives/edgar/data/1295810/000155837021005092/sho-20210422x8k.htm",
-      "https://www.sunstonehotels.com/investor-relations/press-releases/news-details/2021/Sunstone-Hotel-Investors-Acquires-The-130-Room-Montage-Healdsburg-Resort-For-265-Million/default.aspx"
+      "https://www.sunstonehotels.com/investor-relations/press-releases/news-details/2021/Sunstone-Hotel-Investors-Acquires-The-130-Room-Montage-Healdsburg-Resort-For-265-Million/default.aspx",
+      "https://ci.healdsburg.ca.us/942/Villa-Chanticleer",
+      "https://milestoneeventsgroup.com/venue/villa-chanticleer/",
+      "https://healdsburg.gov/1032/2022-Villa-Chanticleer-Operational-Trans",
+      "https://www.cityofhealdsburg.org/1200/Villa-Chanticleer-Modernization-Project"
     ],
-    "remaining": "Partial; current permits, dance layouts, costs, cutoffs and property/business valuation incomplete"
+    "remaining": "Villa only: city/operator/transition/2027modernization reviewed. Maingeneric632 differs from published250personweddingoffer; othercity/school/faith/public/privatevenues remain."
   },
   {
     "county": "Sonoma",
@@ -1475,7 +1479,7 @@
   {
     "county": "Sonoma",
     "municipality": "Sebastopol",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official permit/operator inventory review; other authorities and event-specific approvals remain",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
       "https://www.sebastopolmasoniccenter.org/rooms",
@@ -1484,9 +1488,14 @@
       "https://www.sebastopolmasoniccenter.org/s/Rental-brochure.pdf",
       "https://sebastopolgrange.org/rent-hall/",
       "https://sebastopolgrange.org/wp-content/uploads/2026/04/Rental-Contract.pdf",
-      "https://sonomacounty.gov/development-services/sonoma-public-infrastructure/divisions/administration-and-renting-facilities"
+      "https://sonomacounty.gov/development-services/sonoma-public-infrastructure/divisions/administration-and-renting-facilities",
+      "https://www.cityofsebastopol.gov/wp-content/uploads/2026/02/Special-Event-Permit-Application-Packet_Fill_2026-01-26.pdf",
+      "https://seb.org/rental-information/",
+      "https://sebastopolseniorcenter.org/rent-our-space/",
+      "https://www.sebarts.org/rent-facility",
+      "https://www.sebastopol.org/meeting-facilities/"
     ],
-    "remaining": "Partial primary county/arts room review; private venues, layout/quote/permit/title/history audits incomplete."
+    "remaining": "City17page2026specialeventpacket and nonprofitoperator inventories reviewed; chamber28listing rows reconciled into21newunverifiedleads plus7matched listings. No fullcitypark/room orauthority census."
   },
   {
     "county": "Sonoma",

@@ -78,3 +78,12 @@ The feature implementation and first whole-dataset extraction pass are complete.
 
 ## Documented search outcomes — October 26
 A source-reviewed field with no reliable public answer now uses `research_attempts`: field ID, outcome, source URLs, checked date and factual search result. This is distinct from an unsearched blank. Numeric observations take precedence; a negative search never erases a known value. An unresolved capacity conflict remains null/conflicting with its evidence visible. Six new exact Zola profile aggregates preserve counts, platform URL, checked date and mixed couple/professional scope. No new Google/Yelp values were inferred.
+
+
+## Food assumptions and dated booking holds — October 26
+
+A food-cost override now requires its basis. The user-reported $50/person outside buffet is not prefilled globally. An outside-caterer estimate needs a sourced yes for outside catering; an approved list alone does not establish that the chosen caterer qualifies. A venue-specific quote can instead be entered as an explicit user assumption. Staffing, bar, rentals, taxes and other charges remain separate. Ralston White’s published own licensed/insured-caterer permission is recorded; its transport requirements can add costs.
+
+Sourced date-limited booking holds now make a selected-date scenario incomplete and suppress its preference grade. Villa Chanticleer’s published January1–April9,2027hold is inclusive; absence of a matching hold does not establish availability. Invalid dates do not create complete estimates. Six event hours are not automatically six paid rental hours.
+
+The comparison percentage is labeled Workbook answered: it counts recorded answers to194planner questions, separately from typed facts and research attempts. A low percentage does not mean no research occurred.

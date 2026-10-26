@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-26T09:12:52.193907+00:00",
+  "updated_utc": "2026-10-26T09:52:15.529466+00:00",
   "scope": "Nine Bay Area counties; directory boundaries and nearby results require validation. Nonexhaustive source registry.",
   "sources": [
     {
@@ -10,12 +10,12 @@
       "url": "https://www.theknot.com/marketplace/wedding-reception-venues-san-francisco-ca",
       "geography": "San Francisco search; nearby results may be outside scope",
       "discovery_checked_utc": "2026-10-26T08:06:19.266392+00:00",
-      "collection_status": "Index reviewed; profile collection pending",
-      "collection_method": "Public index via web retrieval",
-      "checked_utc": "2026-10-26T08:06:19.266392+00:00",
-      "collected_profiles": 0,
+      "collection_status": "Two exact property profiles reviewed this run; broader collection pending",
+      "collection_method": "Primary platform web reader; named property/city and rating/count headings reviewed, not a successful direct scrape",
+      "checked_utc": "2026-10-26T09:52:15.529466+00:00",
+      "collected_profiles": 2,
       "new_venue_records": 0,
-      "notes": "Index counts are platform claims, not our verified venue count. Review scores require an exact profile, count, scope and checked date. Automated collection permission not yet evaluated."
+      "notes": "KohlMansion andVillaChanticleer. Whole-property ratings may span operators and duplicate populations across platforms; no new property counted again here."
     },
     {
       "id": "weddingwire",
@@ -24,12 +24,12 @@
       "url": "https://www.weddingwire.com/c/ca-california/san-francisco-san-jose-oakland/wedding-venues/807-11-rca.html",
       "geography": "San Francisco / San Jose / Oakland region",
       "discovery_checked_utc": null,
-      "collection_status": "Queued — not yet checked this run",
-      "collection_method": "Not attempted",
-      "checked_utc": null,
-      "collected_profiles": 0,
+      "collection_status": "Two exact property profiles reviewed this run; broader collection pending",
+      "collection_method": "Primary platform web reader; named property/city and rating/count headings reviewed, not a successful direct scrape",
+      "checked_utc": "2026-10-26T09:52:15.529466+00:00",
+      "collected_profiles": 2,
       "new_venue_records": 0,
-      "notes": "Index counts are platform claims, not our verified venue count. Review scores require an exact profile, count, scope and checked date. Automated collection permission not yet evaluated."
+      "notes": "KohlMansion andVillaChanticleer. Whole-property ratings may span operators and duplicate populations across platforms; no new property counted again here."
     },
     {
       "id": "zola",
@@ -38,12 +38,12 @@
       "url": "https://www.zola.com/wedding-vendors/find/venues/city/san-francisco-ca",
       "geography": "San Francisco; expand by county",
       "discovery_checked_utc": "2026-10-26T08:06:19.266392+00:00",
-      "collection_status": "Six exact profiles reviewed; remaining profile/county collection pending",
+      "collection_status": "Seven exact profiles reviewed; remaining collection pending",
       "collection_method": "Public profile HTTP200; robots allowed, rate-limited; HTML/text/links archived",
-      "checked_utc": "2026-10-26T08:22:33.195057+00:00",
-      "collected_profiles": 6,
+      "checked_utc": "2026-10-26T09:52:15.529466+00:00",
+      "collected_profiles": 7,
       "new_venue_records": 5,
-      "notes": "Six score/count aggregates imported; includes couple and professional reviews. Five property leads added, one existing property updated. Internal capacity conflicts held. Full directory not collected.",
+      "notes": "Kohl exact address verified; sole Zola review is vendor/coordinator. Original six profiles preserved. Ratings are not verified-purchaser-only populations.",
       "candidate_profile_links": 12
     },
     {
@@ -564,6 +564,118 @@
       "collected_profiles": 0,
       "new_venue_records": 0,
       "notes": "Primary direct archive and web-reader403. Existing MargaretToddAuditorium not duplicated from search snippet; workstream remains unaudited."
+    },
+    {
+      "id": "healdsburg-villa",
+      "name": "City of Healdsburg — Villa Chanticleer",
+      "category": "Government inventory",
+      "url": "https://ci.healdsburg.ca.us/942/Villa-Chanticleer",
+      "geography": "Sonoma County",
+      "discovery_checked_utc": "2026-10-26T09:52:15.529466+00:00",
+      "collection_status": "Partial primary/directory review; scope and remaining gaps recorded",
+      "collection_method": "Rate-limited robots-aware source archive; primary web reader where explicitly stated",
+      "checked_utc": "2026-10-26T09:52:15.529466+00:00",
+      "collected_profiles": 0,
+      "new_venue_records": 3,
+      "notes": "Three city facility configurations; operator wedding offer counted separately. Transition and modernization reviewed; remaining city inventory not complete."
+    },
+    {
+      "id": "milestone-villa",
+      "name": "Milestone Events Group — Villa Chanticleer",
+      "category": "Wedding/operator directory",
+      "url": "https://milestoneeventsgroup.com/venue/villa-chanticleer/",
+      "geography": "Sonoma County",
+      "discovery_checked_utc": "2026-10-26T09:52:15.529466+00:00",
+      "collection_status": "Partial primary/directory review; scope and remaining gaps recorded",
+      "collection_method": "Rate-limited robots-aware source archive; primary web reader where explicitly stated",
+      "checked_utc": "2026-10-26T09:52:15.529466+00:00",
+      "collected_profiles": 1,
+      "new_venue_records": 1,
+      "notes": "Exact operator profile and offer reviewed. Whole-city capacity and wedding-offer limit differ; midnight event extension is not verified midnight music. Rest of operator directory uncollected."
+    },
+    {
+      "id": "seb-sccc",
+      "name": "Sebastopol Community Cultural Center",
+      "category": "Community/nonprofit inventory",
+      "url": "https://seb.org/rental-information/",
+      "geography": "Sonoma County",
+      "discovery_checked_utc": "2026-10-26T09:52:15.529466+00:00",
+      "collection_status": "Partial primary/directory review; scope and remaining gaps recorded",
+      "collection_method": "Rate-limited robots-aware source archive; primary web reader where explicitly stated",
+      "checked_utc": "2026-10-26T09:52:15.529466+00:00",
+      "collected_profiles": 0,
+      "new_venue_records": 2,
+      "notes": "Detailed policy and room page archived; seasonal rates differ. MainHall350 and Annex100, extra charges and23:00approvedextension retained; not chamber600/250."
+    },
+    {
+      "id": "seb-senior",
+      "name": "Sebastopol Area Senior Center",
+      "category": "Community/nonprofit inventory",
+      "url": "https://sebastopolseniorcenter.org/rent-our-space/",
+      "geography": "Sonoma County",
+      "discovery_checked_utc": "2026-10-26T09:52:15.529466+00:00",
+      "collection_status": "Partial primary/directory review; scope and remaining gaps recorded",
+      "collection_method": "Rate-limited robots-aware source archive; primary web reader where explicitly stated",
+      "checked_utc": "2026-10-26T09:52:15.529466+00:00",
+      "collected_profiles": 0,
+      "new_venue_records": 3,
+      "notes": "Three rooms reviewed; separate kitchen rental, meal vs reception capacities, full clock/price terms unknown."
+    },
+    {
+      "id": "seb-chamber",
+      "name": "Sebastopol Chamber meeting-space directory",
+      "category": "Tourism/local event directory",
+      "url": "https://www.sebastopol.org/meeting-facilities/",
+      "geography": "Sonoma County",
+      "discovery_checked_utc": "2026-10-26T09:52:15.529466+00:00",
+      "collection_status": "Partial primary/directory review; scope and remaining gaps recorded",
+      "collection_method": "Rate-limited robots-aware source archive; primary web reader where explicitly stated",
+      "checked_utc": "2026-10-26T09:52:15.529466+00:00",
+      "collected_profiles": 0,
+      "new_venue_records": 21,
+      "notes": "28listing rows reconciled:7match existing/new primary records,21newdirectory-onlyleads with numeric claims held pending primary verification. Listed does not mean currently operating or wedding-approved."
+    },
+    {
+      "id": "mercy-kohl",
+      "name": "Mercy High School — Kohl Mansion Events",
+      "category": "School/faith inventory",
+      "url": "https://www.mercyhsb.com/about-us/kohl-mansion",
+      "geography": "San Mateo County",
+      "discovery_checked_utc": "2026-10-26T09:52:15.529466+00:00",
+      "collection_status": "Partial primary/directory review; scope and remaining gaps recorded",
+      "collection_method": "Rate-limited robots-aware source archive; primary web reader where explicitly stated",
+      "checked_utc": "2026-10-26T09:52:15.529466+00:00",
+      "collected_profiles": 0,
+      "new_venue_records": 1,
+      "notes": "School confirms wedding/event use and canonical event-site link. Alternate domain authority/freshness held; no uncertain-domain facts imported."
+    },
+    {
+      "id": "seb-city-permits",
+      "name": "City of Sebastopol special-event permits",
+      "category": "Government inventory",
+      "url": "https://www.cityofsebastopol.gov/wp-content/uploads/2026/02/Special-Event-Permit-Application-Packet_Fill_2026-01-26.pdf",
+      "geography": "Sonoma County",
+      "discovery_checked_utc": "2026-10-26T09:52:15.529466+00:00",
+      "collection_status": "Partial primary/directory review; scope and remaining gaps recorded",
+      "collection_method": "Rate-limited robots-aware source archive; primary web reader where explicitly stated",
+      "checked_utc": "2026-10-26T09:52:15.529466+00:00",
+      "collected_profiles": 0,
+      "new_venue_records": 0,
+      "notes": "17pageJanuary2026permitpacket reviewed; not a complete city facility inventory. Application is not approval; city and operator insurance scopes differ."
+    },
+    {
+      "id": "montalvo-operator",
+      "name": "Montalvo Arts Center wedding facilities",
+      "category": "Wedding/operator directory",
+      "url": "https://montalvoarts.org/host/weddings/",
+      "geography": "Santa Clara County",
+      "discovery_checked_utc": "2026-10-26T09:52:15.529466+00:00",
+      "collection_status": "Partial primary/directory review; scope and remaining gaps recorded",
+      "collection_method": "Rate-limited robots-aware source archive; primary web reader where explicitly stated",
+      "checked_utc": "2026-10-26T09:52:15.529466+00:00",
+      "collected_profiles": 1,
+      "new_venue_records": 0,
+      "notes": "Existing property enriched with original institutional/wedding history and NPS nomination; construction period and wedding opening remain separate."
     }
   ]
 }
