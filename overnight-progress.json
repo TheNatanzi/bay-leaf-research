@@ -1,8 +1,8 @@
 {
-  "updated_utc": "2026-10-26T09:52:15.529466+00:00",
+  "updated_utc": "2026-10-26T10:13:31.113Z",
   "status": "Active overnight research",
   "deadline": "2026-10-26T08:00:00-07:00",
-  "current_batch": "Founder/operator sources, Sonoma inventories, exact platform ratings and food/date applicability guards published; further discovery and final critical reviews continue",
+  "current_batch": "Critical review 1 of 5 completed; remaining reviews and research continue",
   "completed_this_run": [
     "Verified read-only Scrapzi data access; no jobs queued",
     "Resumed existing recovery automation through 8 AM Pacific",
@@ -28,7 +28,8 @@
     "Audits75–79: Kohlmissingproperty added, Ralston/Montalvo/Ravenswood history checked, Sonoma city/nonprofit inventories and21clearlyunverifiedchamberprospects.1761records/711provisionalgroups;69municipalworkstreamsunaudited.",
     "Five exact platform observations acrossKohlandVilla added: WeddingWire/TheKnot/Zola ratings, counts, source methods and vendor/operator-history scope. Google secondary claim excluded.",
     "Food overrides now require basis/applicability. Published selected-date booking holds block grades; eventduration separatedfromrentalhours. Noauto50buffet orfalsecompletequote.",
-    "Villa public operating-agreement case study: initial2022–2027term, staff/utilities/maintenance/communitybenefits, signedcontract3vsstaffreport6events discrepancy; no profit/appraisal invented."
+    "Villa public operating-agreement case study: initial2022–2027term, staff/utilities/maintenance/communitybenefits, signedcontract3vsstaffreport6events discrepancy; no profit/appraisal invented.",
+    "Critical review 1 complete: new Villa FAQ bar/parking/access checks, broken caterer link logged, required-maintenance minimum and fixed-cost override guard verified; all typed-field gaps enumerated."
   ],
   "baseline": {
     "discovery_records": 1761,
@@ -53,5 +54,5 @@
     "Resolve current lodging/payer/room-liability quotes and identity/conditional evidence; then five critical passes before8AM"
   ],
   "status_note": "This is the latest published checkpoint, not a live process monitor. An old timestamp may mean research is underway, the app is asleep, or a run stopped. No completeness claim.",
-  "critical_review_passes_completed": 0
+  "critical_review_passes_completed": 1
 }

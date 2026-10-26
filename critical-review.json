@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "deadline_utc": "2026-10-26T15:00:00Z",
+  "status": "In progress — five distinct reviews requested",
+  "passes": [
+    {
+      "id": 1,
+      "title": "Chart usefulness, cost assumptions and missing evidence",
+      "status": "complete",
+      "checked_utc": "2026-10-26T10:08:30Z",
+      "questions": [
+        "Can a low override silently waive a published mandatory fee?",
+        "Are a bar starting price, event hours or preparation-room access being treated as a full quote or full rental duration?",
+        "Which decision-changing fields lack numeric evidence, and which gaps have a documented search outcome?"
+      ],
+      "checks": [
+        "Reviewed a newly archived Villa operator FAQ: bar packages start at $15 per person, parking up to 100 cars, event hours exclude setup/breakdown, preparation rooms advertised09:00–22:00.",
+        "Compared FAQ room access with main operator page$500 early-access option; applicability remains unresolved.",
+        "Followed the actual operator catering link; it returned 404, logged without guessing replacements or granting outside-caterer permission.",
+        "Reproduced a too-low mandatory-fixed-cost override against Olde Vet’s $250 fee, then preserved the published amount and marked the scenario incomplete.",
+        "Checked SCCC’s $100 required maintenance against renter cleanup duties; recorded one mandatory minimum component, not a second cleaning fee.",
+        "Enumerated every typed field across all 1,761 records to separate known values, searched-no-answer outcomes, conflicts and other unlogged/unresolved gaps."
+      ],
+      "source_urls": [
+        "https://milestoneeventsgroup.com/dashboard/villa-chanticleer/",
+        "https://milestoneeventsgroup.com/venue/villa-chanticleer/",
+        "https://milestoneeventsgroup.com/napa-wedding-caterers/",
+        "https://seb.org/rental-information/"
+      ],
+      "updated_record_ids": [
+        "villa-chanticleer-wedding-package-sonoma",
+        "sebastopol-community-cultural-center-main-hall-sonoma",
+        "sebastopol-community-cultural-center-youth-annex-sonoma"
+      ],
+      "changes": [
+        "Added sourced Villa bar starting component of $15 per person and parking for up to 100 cars; upper bar price, staffing/tax/minimums and full booking hours remain Unknown.",
+        "Flagged preparation access/$500 early-access applicability;09:00room access is not vendor load-in permission.",
+        "Recorded SCCC’s $100 maintenance minimum without assuming full cleanup or a complete mandatory-cost inventory.",
+        "Cost engine retains published mandatory fixed amounts when an assumption is lower and prevents a complete estimate.",
+        "Added field-coverage artifact with a researched-versus-unlogged distinction; numeric availability does not mean current contractual verification."
+      ],
+      "duplicates_exclusions": [
+        "No venue additions or room merges in this pass.",
+        "$15 bar start is not a full-bar upper total;100 parking spaces are not100 guests.",
+        "No outside-food permission inferred from a broken catering link.",
+        "Prior research audits 75–79 and earlier model changes are context, not counted again as five new reviews."
+      ],
+      "tests": [
+        "mandatory-floor-tests.cjs passed: fixed-cost override floor, no maintenance/cleaning duplication, unresolved bar upper bound and outside-food applicability.",
+        "Full normalization, lodging, research-outcome, municipal, availability-food and actual script-loader regression suites all passed at the critical review 1 checkpoint."
+      ],
+      "remaining": [
+        "Current complete venue quotes, mandatory lodging totals and first-wedding opening years remain largely unknown.",
+        "Most capacities lack a dinner-plus-dance layout; subjective atmosphere and personal weights require user input.",
+        "The existing main comparison exposes numeric scores; a final personal A–F preference result still depends on approved weights/thresholds and sufficient evidence. No grades or vibe scores were invented."
+      ]
+    }
+  ],
+  "updated_utc": "2026-10-26T10:13:31.113Z",
+  "completed_passes": 1,
+  "expected_passes": 5,
+  "counts": {
+    "records": 1761,
+    "property_groups": 711,
+    "municipal_unaudited": 69
+  }
+}

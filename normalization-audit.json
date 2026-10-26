@@ -1,5 +1,5 @@
 {
-  "normalized_utc": "2026-10-26T09:52:59.444430+00:00",
+  "normalized_utc": "2026-10-26T10:08:20.233416+00:00",
   "record_count": 1761,
   "property_group_count": 711,
   "identity_review_candidates": 42,
@@ -16,7 +16,7 @@
     "capacity_outdoor": 2,
     "fee_min": 248,
     "fee_max": 245,
-    "fixed_mandatory": 1,
+    "fixed_mandatory": 3,
     "minimum_spend": 0,
     "ceremony_fee": 1,
     "deposit_refundable": 172,
@@ -24,7 +24,7 @@
     "cleaning_fee": 11,
     "food_min": 24,
     "food_max": 18,
-    "bar_min": 0,
+    "bar_min": 1,
     "bar_max": 0,
     "package_min": 54,
     "package_max": 52,
@@ -45,7 +45,7 @@
     "guest_departure": 5,
     "cleanup_end": 28,
     "load_in": 0,
-    "parking_spaces": 3,
+    "parking_spaces": 4,
     "lodging_rooms": 0,
     "beds": 1,
     "toilets": 0,
@@ -114,9 +114,9 @@
     "lodging_payer": 0
   },
   "status_counts": {
-    "published_evidence": 5009,
+    "published_evidence": 5013,
     "needs_confirmation": 10383,
-    "searched_no_public_answer": 338,
+    "searched_no_public_answer": 340,
     "conflicting": 138
   },
   "original_fields": "preserved; no new source verification by normalization"
