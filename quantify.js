@@ -10,7 +10,7 @@
     return {max,seated:positive(v.seated_capacity),standing:positive(v.standing_capacity),basis:candidates.filter(([,n])=>n===max).map(([s])=>s).join(' / ')||null,candidates};
   }
   function reviews(v){
-    const platforms=Object.entries(v.reviews||{}).filter(([,r])=>r&&number(r.rating)!==null&&r.rating>=0&&r.rating<=5&&r.review_url).map(([key,r])=>({name:r.provider||r.platform||({google:'Google',yelp:'Yelp',other:'Other'}[key]||key),rating:r.rating,count:positive(r.review_count),url:r.review_url,checked:r.checked_utc||null,scope:r.scope||null,status:r.status||r.review_status||null}));
+    const platforms=Object.entries(v.reviews||{}).concat((v.review_observations||[]).map((r,i)=>['observation-'+i,r])).filter(([,r])=>r&&r.included_in_aggregate!==false&&number(r.rating)!==null&&r.rating>=0&&r.rating<=5&&r.review_url).map(([key,r])=>({name:r.provider||r.platform||({google:'Google',yelp:'Yelp',other:'Other'}[key]||key),rating:r.rating,count:positive(r.review_count),url:r.review_url,checked:r.checked_utc||null,scope:r.scope||null,status:r.status||r.review_status||null}));
     // A profile exposed through two slots is one platform observation.
     const unique=[...new Map(platforms.map(r=>[r.url.replace(/\/$/,''),r])).values()];
     const weighted=unique.length>0&&unique.every(r=>r.count!==null);
