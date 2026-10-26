@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-26T13:19:34.858283+00:00",
+  "updated_utc": "2026-10-26T13:30:08.896308+00:00",
   "scope": "Nine Bay Area counties; directory boundaries and nearby results require validation. Nonexhaustive source registry.",
   "sources": [
     {
@@ -53,12 +53,22 @@
       "url": "https://www.herecomestheguide.com/wedding-venues/northern-california/region/bay-area",
       "geography": "Bay Area; validate nine-county boundaries",
       "discovery_checked_utc": null,
-      "collection_status": "Queued \u2014 not yet checked this run",
-      "collection_method": "Not attempted",
-      "checked_utc": null,
+      "collection_status": "Index sampled; candidate links extracted; individual profile review pending",
+      "collection_method": "Robots-respecting rate-limited public HTML archive with saved fetch logs; no login/CAPTCHA/proxy bypass",
+      "checked_utc": "2026-10-26T13:21:05.459594+00:00",
       "collected_profiles": 0,
       "new_venue_records": 0,
-      "notes": "Index counts are platform claims, not our verified venue count. Review scores require an exact profile, count, scope and checked date. Automated collection permission not yet evaluated."
+      "notes": "4 candidate profile URLs, not new verified venues. Full pagination/current operation/permission/quote review open.",
+      "access_check": {
+        "key": "overnight26-directory-hctg",
+        "source": "https://www.herecomestheguide.com/wedding-venues/northern-california/region/bay-area",
+        "checked_utc": "2026-10-26T13:21:05.459594+00:00",
+        "outcome": "archived",
+        "status": 200,
+        "final_url": "https://www.herecomestheguide.com/wedding-venues/northern-california/region/bay-area",
+        "chars": 3920
+      },
+      "candidate_urls_extracted": 4
     },
     {
       "id": "weddingspot",
@@ -67,12 +77,22 @@
       "url": "https://www.wedding-spot.com/wedding-venues/bay-area/",
       "geography": "Bay Area; directory label may differ from nine-county scope",
       "discovery_checked_utc": null,
-      "collection_status": "Queued \u2014 not yet checked this run",
-      "collection_method": "Not attempted",
-      "checked_utc": null,
+      "collection_status": "Index sampled; candidate links extracted; individual profile review pending",
+      "collection_method": "Robots-respecting rate-limited public HTML archive with saved fetch logs; no login/CAPTCHA/proxy bypass",
+      "checked_utc": "2026-10-26T13:21:06.321889+00:00",
       "collected_profiles": 0,
       "new_venue_records": 0,
-      "notes": "Index counts are platform claims, not our verified venue count. Review scores require an exact profile, count, scope and checked date. Automated collection permission not yet evaluated."
+      "notes": "36 candidate profile URLs, not new verified venues. Full pagination/current operation/permission/quote review open.",
+      "access_check": {
+        "key": "overnight26-directory-weddingspot",
+        "source": "https://www.wedding-spot.com/wedding-venues/bay-area/",
+        "checked_utc": "2026-10-26T13:21:06.321889+00:00",
+        "outcome": "archived",
+        "status": 200,
+        "final_url": "https://www.wedding-spot.com/wedding-venues/bay-area/",
+        "chars": 31565
+      },
+      "candidate_urls_extracted": 36
     },
     {
       "id": "eventective",
@@ -96,12 +116,19 @@
       "url": "https://www.peerspace.com/venues/san-francisco--ca/wedding-venue",
       "geography": "San Francisco; verify actual event permission",
       "discovery_checked_utc": null,
-      "collection_status": "Queued \u2014 not yet checked this run",
-      "collection_method": "Not attempted",
-      "checked_utc": null,
+      "collection_status": "Access held/failed \u2014 zero profiles collected",
+      "collection_method": "Robots-respecting rate-limited public HTML archive with saved fetch logs; no login/CAPTCHA/proxy bypass",
+      "checked_utc": "2026-10-26T13:21:07.758581+00:00",
       "collected_profiles": 0,
       "new_venue_records": 0,
-      "notes": "Index counts are platform claims, not our verified venue count. Review scores require an exact profile, count, scope and checked date. Automated collection permission not yet evaluated."
+      "notes": "Actual fetch outcome: robots HTTP 403; no bypass.",
+      "access_check": {
+        "key": "overnight26-directory-peerspace",
+        "source": "https://www.peerspace.com/venues/san-francisco--ca/wedding-venue",
+        "checked_utc": "2026-10-26T13:21:07.758581+00:00",
+        "outcome": "held",
+        "reason": "robots HTTP 403"
+      }
     },
     {
       "id": "giggster",
@@ -110,12 +137,22 @@
       "url": "https://giggster.com/find/san-francisco--ca/wedding",
       "geography": "San Francisco; production capacity is not wedding capacity",
       "discovery_checked_utc": null,
-      "collection_status": "Queued \u2014 not yet checked this run",
-      "collection_method": "Not attempted",
-      "checked_utc": null,
+      "collection_status": "Index sampled; candidate links extracted; individual profile review pending",
+      "collection_method": "Robots-respecting rate-limited public HTML archive with saved fetch logs; no login/CAPTCHA/proxy bypass",
+      "checked_utc": "2026-10-26T13:21:07.878961+00:00",
       "collected_profiles": 0,
       "new_venue_records": 0,
-      "notes": "Index counts are platform claims, not our verified venue count. Review scores require an exact profile, count, scope and checked date. Automated collection permission not yet evaluated."
+      "notes": "20 candidate profile URLs, not new verified venues. Full pagination/current operation/permission/quote review open.",
+      "access_check": {
+        "key": "overnight26-directory-giggster",
+        "source": "https://giggster.com/find/san-francisco--ca/wedding",
+        "checked_utc": "2026-10-26T13:21:07.878961+00:00",
+        "outcome": "archived",
+        "status": 200,
+        "final_url": "https://giggster.com/find/san-francisco--ca/wedding",
+        "chars": 36547
+      },
+      "candidate_urls_extracted": 20
     },
     {
       "id": "tagvenue",
@@ -124,12 +161,21 @@
       "url": "https://www.tagvenue.com/",
       "geography": "Bay Area regional coverage not yet checked",
       "discovery_checked_utc": null,
-      "collection_status": "Queued \u2014 not yet checked this run",
-      "collection_method": "Not attempted",
-      "checked_utc": null,
+      "collection_status": "Index/homepage retrieved; individual profile collection pending",
+      "collection_method": "Robots-respecting rate-limited public HTML archive with saved fetch logs; no login/CAPTCHA/proxy bypass",
+      "checked_utc": "2026-10-26T13:21:09.148515+00:00",
       "collected_profiles": 0,
       "new_venue_records": 0,
-      "notes": "Index counts are platform claims, not our verified venue count. Review scores require an exact profile, count, scope and checked date. Automated collection permission not yet evaluated."
+      "notes": "Successful page retrieval only. Regional filters/dynamic results and profile-level coverage not established.",
+      "access_check": {
+        "key": "overnight26-directory-tagvenue",
+        "source": "https://www.tagvenue.com/",
+        "checked_utc": "2026-10-26T13:21:09.148515+00:00",
+        "outcome": "archived",
+        "status": 200,
+        "final_url": "https://www.tagvenue.com/",
+        "chars": 22764
+      }
     },
     {
       "id": "partyslate",
@@ -138,12 +184,22 @@
       "url": "https://www.partyslate.com/find-venues/near/san-francisco-ca-usa",
       "geography": "San Francisco radius; county check needed",
       "discovery_checked_utc": null,
-      "collection_status": "Queued \u2014 not yet checked this run",
-      "collection_method": "Not attempted",
-      "checked_utc": null,
+      "collection_status": "Index sampled; candidate links extracted; individual profile review pending",
+      "collection_method": "Robots-respecting rate-limited public HTML archive with saved fetch logs; no login/CAPTCHA/proxy bypass",
+      "checked_utc": "2026-10-26T13:21:09.759510+00:00",
       "collected_profiles": 0,
       "new_venue_records": 0,
-      "notes": "Index counts are platform claims, not our verified venue count. Review scores require an exact profile, count, scope and checked date. Automated collection permission not yet evaluated."
+      "notes": "20 candidate profile URLs, not new verified venues. Full pagination/current operation/permission/quote review open.",
+      "access_check": {
+        "key": "overnight26-directory-partyslate",
+        "source": "https://www.partyslate.com/find-venues/near/san-francisco-ca-usa",
+        "checked_utc": "2026-10-26T13:21:09.759510+00:00",
+        "outcome": "archived",
+        "status": 200,
+        "final_url": "https://www.partyslate.com/find-venues/near/san-francisco-ca-usa",
+        "chars": 32418
+      },
+      "candidate_urls_extracted": 20
     },
     {
       "id": "caratscake",
@@ -152,12 +208,21 @@
       "url": "https://caratsandcake.com/",
       "geography": "Bay Area regional coverage not yet checked",
       "discovery_checked_utc": null,
-      "collection_status": "Queued \u2014 not yet checked this run",
-      "collection_method": "Not attempted",
-      "checked_utc": null,
+      "collection_status": "Index/homepage retrieved; individual profile collection pending",
+      "collection_method": "Robots-respecting rate-limited public HTML archive with saved fetch logs; no login/CAPTCHA/proxy bypass",
+      "checked_utc": "2026-10-26T13:21:10.683090+00:00",
       "collected_profiles": 0,
       "new_venue_records": 0,
-      "notes": "Index counts are platform claims, not our verified venue count. Review scores require an exact profile, count, scope and checked date. Automated collection permission not yet evaluated."
+      "notes": "Successful page retrieval only. Regional filters/dynamic results and profile-level coverage not established.",
+      "access_check": {
+        "key": "overnight26-directory-caratscake",
+        "source": "https://caratsandcake.com/",
+        "checked_utc": "2026-10-26T13:21:10.683090+00:00",
+        "outcome": "archived",
+        "status": 200,
+        "final_url": "https://caratsandcake.com/",
+        "chars": 7266
+      }
     },
     {
       "id": "venuereport",
@@ -166,12 +231,21 @@
       "url": "https://www.venuereport.com/",
       "geography": "Retreat and destination leads; regional coverage unchecked",
       "discovery_checked_utc": null,
-      "collection_status": "Queued \u2014 not yet checked this run",
-      "collection_method": "Not attempted",
-      "checked_utc": null,
+      "collection_status": "Index/homepage retrieved; individual profile collection pending",
+      "collection_method": "Robots-respecting rate-limited public HTML archive with saved fetch logs; no login/CAPTCHA/proxy bypass",
+      "checked_utc": "2026-10-26T13:21:11.280297+00:00",
       "collected_profiles": 0,
       "new_venue_records": 0,
-      "notes": "Index counts are platform claims, not our verified venue count. Review scores require an exact profile, count, scope and checked date. Automated collection permission not yet evaluated."
+      "notes": "Successful page retrieval only. Regional filters/dynamic results and profile-level coverage not established.",
+      "access_check": {
+        "key": "overnight26-directory-venuereport",
+        "source": "https://www.venuereport.com/",
+        "checked_utc": "2026-10-26T13:21:11.280297+00:00",
+        "outcome": "archived",
+        "status": 200,
+        "final_url": "https://venuereport.com:443/",
+        "chars": 2839
+      }
     },
     {
       "id": "vendry",
@@ -180,12 +254,21 @@
       "url": "https://thevendry.com/",
       "geography": "Corporate and private event leads; regional coverage unchecked",
       "discovery_checked_utc": null,
-      "collection_status": "Queued \u2014 not yet checked this run",
-      "collection_method": "Not attempted",
-      "checked_utc": null,
+      "collection_status": "Index/homepage retrieved; individual profile collection pending",
+      "collection_method": "Robots-respecting rate-limited public HTML archive with saved fetch logs; no login/CAPTCHA/proxy bypass",
+      "checked_utc": "2026-10-26T13:21:12.025786+00:00",
       "collected_profiles": 0,
       "new_venue_records": 0,
-      "notes": "Index counts are platform claims, not our verified venue count. Review scores require an exact profile, count, scope and checked date. Automated collection permission not yet evaluated."
+      "notes": "Successful page retrieval only. Regional filters/dynamic results and profile-level coverage not established.",
+      "access_check": {
+        "key": "overnight26-directory-vendry",
+        "source": "https://thevendry.com/",
+        "checked_utc": "2026-10-26T13:21:12.025786+00:00",
+        "outcome": "archived",
+        "status": 200,
+        "final_url": "https://thevendry.com/",
+        "chars": 1304
+      }
     },
     {
       "id": "cvent",
@@ -194,12 +277,21 @@
       "url": "https://www.cvent.com/",
       "geography": "Hotel/meeting leads; regional coverage unchecked",
       "discovery_checked_utc": null,
-      "collection_status": "Queued \u2014 not yet checked this run",
-      "collection_method": "Not attempted",
-      "checked_utc": null,
+      "collection_status": "Index/homepage retrieved; individual profile collection pending",
+      "collection_method": "Robots-respecting rate-limited public HTML archive with saved fetch logs; no login/CAPTCHA/proxy bypass",
+      "checked_utc": "2026-10-26T13:21:13.123843+00:00",
       "collected_profiles": 0,
       "new_venue_records": 0,
-      "notes": "Index counts are platform claims, not our verified venue count. Review scores require an exact profile, count, scope and checked date. Automated collection permission not yet evaluated."
+      "notes": "Successful page retrieval only. Regional filters/dynamic results and profile-level coverage not established.",
+      "access_check": {
+        "key": "overnight26-directory-cvent",
+        "source": "https://www.cvent.com/",
+        "checked_utc": "2026-10-26T13:21:13.123843+00:00",
+        "outcome": "archived",
+        "status": 200,
+        "final_url": "https://www.cvent.com/",
+        "chars": 9354
+      }
     },
     {
       "id": "opentable",
@@ -239,12 +331,21 @@
       "url": "https://breezit.com/wedding-venues/northern-california",
       "geography": "Northern California exceeds nine counties; rating provenance requires checking",
       "discovery_checked_utc": null,
-      "collection_status": "Queued \u2014 not yet checked this run",
-      "collection_method": "Not attempted",
-      "checked_utc": null,
+      "collection_status": "HTML shell retrieved \u2014 no readable venue collection",
+      "collection_method": "Robots-respecting rate-limited public HTML archive with saved fetch logs; no login/CAPTCHA/proxy bypass",
+      "checked_utc": "2026-10-26T13:21:13.558259+00:00",
       "collected_profiles": 0,
       "new_venue_records": 0,
-      "notes": "Index counts are platform claims, not our verified venue count. Review scores require an exact profile, count, scope and checked date. Automated collection permission not yet evaluated."
+      "notes": "Breezit response contained only its name; no successful venue scrape claimed.",
+      "access_check": {
+        "key": "overnight26-directory-breezit",
+        "source": "https://breezit.com/wedding-venues/northern-california",
+        "checked_utc": "2026-10-26T13:21:13.558259+00:00",
+        "outcome": "archived",
+        "status": 200,
+        "final_url": "https://breezit.com/wedding-venues/northern-california",
+        "chars": 7
+      }
     },
     {
       "id": "wedinsf",
@@ -253,12 +354,21 @@
       "url": "https://wedinsanfrancisco.com/wedding-venues/",
       "geography": "San Francisco",
       "discovery_checked_utc": null,
-      "collection_status": "Queued \u2014 not yet checked this run",
-      "collection_method": "Not attempted",
-      "checked_utc": null,
+      "collection_status": "Index/homepage retrieved; individual profile collection pending",
+      "collection_method": "Robots-respecting rate-limited public HTML archive with saved fetch logs; no login/CAPTCHA/proxy bypass",
+      "checked_utc": "2026-10-26T13:21:15.184044+00:00",
       "collected_profiles": 0,
       "new_venue_records": 0,
-      "notes": "Index counts are platform claims, not our verified venue count. Review scores require an exact profile, count, scope and checked date. Automated collection permission not yet evaluated."
+      "notes": "Successful page retrieval only. Regional filters/dynamic results and profile-level coverage not established.",
+      "access_check": {
+        "key": "overnight26-directory-wedinsf",
+        "source": "https://wedinsanfrancisco.com/wedding-venues/",
+        "checked_utc": "2026-10-26T13:21:15.184044+00:00",
+        "outcome": "archived",
+        "status": 200,
+        "final_url": "https://wedinsanfrancisco.com/wedding-venues/",
+        "chars": 8145
+      }
     },
     {
       "id": "moderndjs",
@@ -267,12 +377,22 @@
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues",
       "geography": "Northern California exceeds scope; vendor marketing source",
       "discovery_checked_utc": null,
-      "collection_status": "Queued \u2014 not yet checked this run",
-      "collection_method": "Not attempted",
-      "checked_utc": null,
+      "collection_status": "Index sampled; candidate links extracted; individual profile review pending",
+      "collection_method": "Robots-respecting rate-limited public HTML archive with saved fetch logs; no login/CAPTCHA/proxy bypass",
+      "checked_utc": "2026-10-26T13:21:16.598963+00:00",
       "collected_profiles": 0,
       "new_venue_records": 0,
-      "notes": "Index counts are platform claims, not our verified venue count. Review scores require an exact profile, count, scope and checked date. Automated collection permission not yet evaluated."
+      "notes": "83 candidate profile URLs, not new verified venues. Full pagination/current operation/permission/quote review open.",
+      "access_check": {
+        "key": "overnight26-directory-moderndjs",
+        "source": "https://www.modernweddingdjs.com/vendors/wedding-venues",
+        "checked_utc": "2026-10-26T13:21:16.598963+00:00",
+        "outcome": "archived",
+        "status": 200,
+        "final_url": "https://www.modernweddingdjs.com/vendors/wedding-venues",
+        "chars": 72439
+      },
+      "candidate_urls_extracted": 83
     },
     {
       "id": "vowpetal",
@@ -281,12 +401,21 @@
       "url": "https://vowpetal.com/vendors/us/san-francisco-ca/wedding-venues",
       "geography": "San Francisco; exact profile and source verification needed",
       "discovery_checked_utc": null,
-      "collection_status": "Queued \u2014 not yet checked this run",
-      "collection_method": "Not attempted",
-      "checked_utc": null,
+      "collection_status": "Index/homepage retrieved; individual profile collection pending",
+      "collection_method": "Robots-respecting rate-limited public HTML archive with saved fetch logs; no login/CAPTCHA/proxy bypass",
+      "checked_utc": "2026-10-26T13:21:17.266704+00:00",
       "collected_profiles": 0,
       "new_venue_records": 0,
-      "notes": "Index counts are platform claims, not our verified venue count. Review scores require an exact profile, count, scope and checked date. Automated collection permission not yet evaluated."
+      "notes": "Successful page retrieval only. Regional filters/dynamic results and profile-level coverage not established.",
+      "access_check": {
+        "key": "overnight26-directory-vowpetal",
+        "source": "https://vowpetal.com/vendors/us/san-francisco-ca/wedding-venues",
+        "checked_utc": "2026-10-26T13:21:17.266704+00:00",
+        "outcome": "archived",
+        "status": 200,
+        "final_url": "https://vowpetal.com/vendors/us/san-francisco-ca/wedding-venues",
+        "chars": 14124
+      }
     },
     {
       "id": "marintourism",
@@ -309,12 +438,21 @@
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/",
       "geography": "Sonoma region; verify county for boundary listings",
       "discovery_checked_utc": null,
-      "collection_status": "Queued \u2014 not yet checked this run",
-      "collection_method": "Not attempted",
-      "checked_utc": null,
+      "collection_status": "Index/homepage retrieved; individual profile collection pending",
+      "collection_method": "Robots-respecting rate-limited public HTML archive with saved fetch logs; no login/CAPTCHA/proxy bypass",
+      "checked_utc": "2026-10-26T13:21:18.191875+00:00",
       "collected_profiles": 0,
       "new_venue_records": 0,
-      "notes": "Index counts are platform claims, not our verified venue count. Review scores require an exact profile, count, scope and checked date. Automated collection permission not yet evaluated."
+      "notes": "Successful page retrieval only. Regional filters/dynamic results and profile-level coverage not established.",
+      "access_check": {
+        "key": "overnight26-directory-sonomatourism",
+        "source": "https://www.sonomacounty.com/weddings/wedding-venues/",
+        "checked_utc": "2026-10-26T13:21:18.191875+00:00",
+        "outcome": "archived",
+        "status": 200,
+        "final_url": "https://www.sonomacounty.com/weddings/wedding-venues/",
+        "chars": 3460
+      }
     },
     {
       "id": "napatourism",
@@ -323,12 +461,21 @@
       "url": "https://www.visitnapavalley.com/weddings/venues/?sort=rankTitle",
       "geography": "Napa County",
       "discovery_checked_utc": null,
-      "collection_status": "Queued \u2014 not yet checked this run",
-      "collection_method": "Not attempted",
-      "checked_utc": null,
+      "collection_status": "Index/homepage retrieved; individual profile collection pending",
+      "collection_method": "Robots-respecting rate-limited public HTML archive with saved fetch logs; no login/CAPTCHA/proxy bypass",
+      "checked_utc": "2026-10-26T13:21:22.189618+00:00",
       "collected_profiles": 0,
       "new_venue_records": 0,
-      "notes": "Index counts are platform claims, not our verified venue count. Review scores require an exact profile, count, scope and checked date. Automated collection permission not yet evaluated."
+      "notes": "Successful page retrieval only. Regional filters/dynamic results and profile-level coverage not established.",
+      "access_check": {
+        "key": "overnight26-directory-napatourism",
+        "source": "https://www.visitnapavalley.com/weddings/venues/?sort=rankTitle",
+        "checked_utc": "2026-10-26T13:21:22.189618+00:00",
+        "outcome": "archived",
+        "status": 200,
+        "final_url": "https://www.visitnapavalley.com/weddings/venues/?sort=rankTitle",
+        "chars": 9382
+      }
     },
     {
       "id": "sfrecreation",
@@ -337,12 +484,21 @@
       "url": "https://sfrecpark.org/738/Wedding-Site-Directory",
       "geography": "San Francisco; ceremony and reception permissions differ",
       "discovery_checked_utc": null,
-      "collection_status": "Queued \u2014 not yet checked this run",
-      "collection_method": "Not attempted",
-      "checked_utc": null,
+      "collection_status": "Index/homepage retrieved; individual profile collection pending",
+      "collection_method": "Robots-respecting rate-limited public HTML archive with saved fetch logs; no login/CAPTCHA/proxy bypass",
+      "checked_utc": "2026-10-26T13:21:23.308073+00:00",
       "collected_profiles": 0,
       "new_venue_records": 0,
-      "notes": "Index counts are platform claims, not our verified venue count. Review scores require an exact profile, count, scope and checked date. Automated collection permission not yet evaluated."
+      "notes": "Successful page retrieval only. Regional filters/dynamic results and profile-level coverage not established.",
+      "access_check": {
+        "key": "overnight26-directory-sfrecreation",
+        "source": "https://sfrecpark.org/738/Wedding-Site-Directory",
+        "checked_utc": "2026-10-26T13:21:23.308073+00:00",
+        "outcome": "archived",
+        "status": 200,
+        "final_url": "https://sfrecpark.org/738/Wedding-Site-Directory",
+        "chars": 2778
+      }
     },
     {
       "id": "ebparks",
@@ -351,12 +507,21 @@
       "url": "https://www.ebparks.org/reservations/event-venues",
       "geography": "Alameda / Contra Costa; event rental is not operating lease",
       "discovery_checked_utc": null,
-      "collection_status": "Queued \u2014 not yet checked this run",
-      "collection_method": "Not attempted",
-      "checked_utc": null,
+      "collection_status": "Index/homepage retrieved; individual profile collection pending",
+      "collection_method": "Robots-respecting rate-limited public HTML archive with saved fetch logs; no login/CAPTCHA/proxy bypass",
+      "checked_utc": "2026-10-26T13:21:24.354723+00:00",
       "collected_profiles": 0,
       "new_venue_records": 0,
-      "notes": "Index counts are platform claims, not our verified venue count. Review scores require an exact profile, count, scope and checked date. Automated collection permission not yet evaluated."
+      "notes": "Successful page retrieval only. Regional filters/dynamic results and profile-level coverage not established.",
+      "access_check": {
+        "key": "overnight26-directory-ebparks",
+        "source": "https://www.ebparks.org/reservations/event-venues",
+        "checked_utc": "2026-10-26T13:21:24.354723+00:00",
+        "outcome": "archived",
+        "status": 200,
+        "final_url": "https://www.ebparks.org/reservations/event-venues",
+        "chars": 11977
+      }
     },
     {
       "id": "smcparks",
@@ -365,12 +530,21 @@
       "url": "https://www.smcgov.org/parks/county-reservable-facilities",
       "geography": "San Mateo County",
       "discovery_checked_utc": null,
-      "collection_status": "Queued \u2014 not yet checked this run",
-      "collection_method": "Not attempted",
-      "checked_utc": null,
+      "collection_status": "Index/homepage retrieved; individual profile collection pending",
+      "collection_method": "Robots-respecting rate-limited public HTML archive with saved fetch logs; no login/CAPTCHA/proxy bypass",
+      "checked_utc": "2026-10-26T13:21:24.793943+00:00",
       "collected_profiles": 0,
       "new_venue_records": 0,
-      "notes": "Index counts are platform claims, not our verified venue count. Review scores require an exact profile, count, scope and checked date. Automated collection permission not yet evaluated."
+      "notes": "Successful page retrieval only. Regional filters/dynamic results and profile-level coverage not established.",
+      "access_check": {
+        "key": "overnight26-directory-smcparks",
+        "source": "https://www.smcgov.org/parks/county-reservable-facilities",
+        "checked_utc": "2026-10-26T13:21:24.793943+00:00",
+        "outcome": "archived",
+        "status": 200,
+        "final_url": "https://www.smcgov.org/parks/county-reservable-facilities",
+        "chars": 37430
+      }
     },
     {
       "id": "sccparks",
@@ -379,12 +553,19 @@
       "url": "https://parks.santaclaracounty.gov/things-do/reserve-grounds-county-parks-weddings-and-receptions",
       "geography": "Santa Clara County",
       "discovery_checked_utc": null,
-      "collection_status": "Queued \u2014 not yet checked this run",
-      "collection_method": "Not attempted",
-      "checked_utc": null,
+      "collection_status": "Access held/failed \u2014 zero profiles collected",
+      "collection_method": "Robots-respecting rate-limited public HTML archive with saved fetch logs; no login/CAPTCHA/proxy bypass",
+      "checked_utc": "2026-10-26T13:21:30.059215+00:00",
       "collected_profiles": 0,
       "new_venue_records": 0,
-      "notes": "Index counts are platform claims, not our verified venue count. Review scores require an exact profile, count, scope and checked date. Automated collection permission not yet evaluated."
+      "notes": "Actual fetch outcome: robots HTTP 403; no bypass.",
+      "access_check": {
+        "key": "overnight26-directory-sccparks",
+        "source": "https://parks.santaclaracounty.gov/things-do/reserve-grounds-county-parks-weddings-and-receptions",
+        "checked_utc": "2026-10-26T13:21:30.059215+00:00",
+        "outcome": "held",
+        "reason": "robots HTTP 403"
+      }
     },
     {
       "id": "presidio",
@@ -393,12 +574,21 @@
       "url": "https://presidio.gov/plan-an-event/wedding-venues",
       "geography": "San Francisco federal trust; check operator and permit",
       "discovery_checked_utc": null,
-      "collection_status": "Queued \u2014 not yet checked this run",
-      "collection_method": "Not attempted",
-      "checked_utc": null,
+      "collection_status": "Index/homepage retrieved; individual profile collection pending",
+      "collection_method": "Robots-respecting rate-limited public HTML archive with saved fetch logs; no login/CAPTCHA/proxy bypass",
+      "checked_utc": "2026-10-26T13:21:30.182300+00:00",
       "collected_profiles": 0,
       "new_venue_records": 0,
-      "notes": "Index counts are platform claims, not our verified venue count. Review scores require an exact profile, count, scope and checked date. Automated collection permission not yet evaluated."
+      "notes": "Successful page retrieval only. Regional filters/dynamic results and profile-level coverage not established.",
+      "access_check": {
+        "key": "overnight26-directory-presidio",
+        "source": "https://presidio.gov/plan-an-event/wedding-venues",
+        "checked_utc": "2026-10-26T13:21:30.182300+00:00",
+        "outcome": "archived",
+        "status": 200,
+        "final_url": "https://presidio.gov/plan-an-event/wedding-venues",
+        "chars": 3689
+      }
     },
     {
       "id": "npsgoga",
@@ -407,12 +597,21 @@
       "url": "https://www.nps.gov/goga/planyourvisit/specialparkuses.htm",
       "geography": "Federal park special uses; permit is not a commercial operating lease",
       "discovery_checked_utc": null,
-      "collection_status": "Queued \u2014 not yet checked this run",
-      "collection_method": "Not attempted",
-      "checked_utc": null,
+      "collection_status": "Index/homepage retrieved; individual profile collection pending",
+      "collection_method": "Robots-respecting rate-limited public HTML archive with saved fetch logs; no login/CAPTCHA/proxy bypass",
+      "checked_utc": "2026-10-26T13:21:30.925002+00:00",
       "collected_profiles": 0,
       "new_venue_records": 0,
-      "notes": "Index counts are platform claims, not our verified venue count. Review scores require an exact profile, count, scope and checked date. Automated collection permission not yet evaluated."
+      "notes": "Successful page retrieval only. Regional filters/dynamic results and profile-level coverage not established.",
+      "access_check": {
+        "key": "overnight26-directory-npsgoga",
+        "source": "https://www.nps.gov/goga/planyourvisit/specialparkuses.htm",
+        "checked_utc": "2026-10-26T13:21:30.925002+00:00",
+        "outcome": "archived",
+        "status": 200,
+        "final_url": "https://www.nps.gov/goga/planyourvisit/specialparkuses.htm",
+        "chars": 17678
+      }
     },
     {
       "id": "crockett",
@@ -1186,5 +1385,6 @@
       "new_venue_records": 2,
       "notes": "Nonexclusiveuseexplicit. CityParkgroupareasunallocated; ScoutHutFutureRentalsnotcurrentbookingproof."
     }
-  ]
+  ],
+  "candidate_queue_url": "directory-leads.html"
 }

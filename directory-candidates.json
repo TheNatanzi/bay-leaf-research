@@ -1,0 +1,3464 @@
+{
+  "summary": {
+    "checked_utc": "2026-10-26T13:28:51.955107+00:00",
+    "candidate_urls": 163,
+    "candidate_urls_with_exact_match": 40,
+    "candidate_urls_without_exact_match": 123,
+    "source_counts": {
+      "moderndjs": {
+        "raw_named_cards": 361,
+        "bay_county_candidates": 83,
+        "outside_nine_counties_excluded": 278
+      },
+      "weddingspot": {
+        "unique_profile_links": 36,
+        "individual_profiles_reviewed": 0
+      },
+      "giggster": {
+        "unique_profile_links": 20,
+        "individual_profiles_reviewed": 0
+      },
+      "partyslate": {
+        "unique_profile_links": 20,
+        "individual_profiles_reviewed": 0
+      },
+      "hctg": {
+        "unique_profile_links": 4,
+        "individual_profiles_reviewed": 0
+      }
+    },
+    "added_venue_records": 0,
+    "note": "Candidate URLs are not confirmed new venues. Multiple directories, rooms or aliases can refer to one property. Exact-name matches are review aids only. No capacity, permission, price or review rating was imported from indexes."
+  },
+  "candidates": [
+    {
+      "id": "directory-lead-b291c66df29e01",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/alameda-county-fairgrounds-event-center-pleasanton",
+      "name": "Alameda County Fairgrounds Event Center",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Alameda",
+      "city": "Pleasanton",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-11786b1773b945",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/berkeley-city-club-berkeley",
+      "name": "Berkeley City Club",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Alameda",
+      "city": "Berkeley",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "berkeley-city-club-alameda"
+      ],
+      "match_method": "Exact normalized name only; identity/branch not confirmed"
+    },
+    {
+      "id": "directory-lead-290ec392d5aa09",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/blackhawk-museum-danville",
+      "name": "Blackhawk Museum",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Contra Costa",
+      "city": "Danville",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-e061130785f802",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/blanco-urban-venue-san-jose",
+      "name": "Blanco Urban Venue",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Santa Clara",
+      "city": "San Jose",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "blanco-urban-venue-santa-clara"
+      ],
+      "match_method": "Exact normalized name only; identity/branch not confirmed"
+    },
+    {
+      "id": "directory-lead-b338a0dbed7437",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/bloc15-oakland",
+      "name": "BLOC15",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Alameda",
+      "city": "Oakland",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-ae0361ebd3d36f",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/boulder-ridge-by-wedgewood-weddings-san-jose",
+      "name": "Boulder Ridge by Wedgewood Weddings",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Santa Clara",
+      "city": "San Jose",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-f72b1a56c4839d",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/brazilian-room-at-tilden-regional-park-berkeley",
+      "name": "Brazilian Room at Tilden Regional Park",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Alameda",
+      "city": "Berkeley",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-71e6741fdfab04",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/brownstone-gardens-oakley",
+      "name": "Brownstone Gardens",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Contra Costa",
+      "city": "Oakley",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-c5b904aec2da3d",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/callippe-preserve-golf-course-pleasanton",
+      "name": "Callippe Preserve Golf Course",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Alameda",
+      "city": "Pleasanton",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-3348e53bdebfb3",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/casa-real-at-ruby-hill-winery-pleasanton",
+      "name": "Casa Real at Ruby Hill Winery",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Alameda",
+      "city": "Pleasanton",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "casa-real-at-ruby-hill-winery-amber-room-alameda",
+        "casa-real-at-ruby-hill-winery-grand-salon-alameda",
+        "casa-real-at-ruby-hill-winery-sun-garden-alameda"
+      ],
+      "match_method": "Exact normalized name only; identity/branch not confirmed"
+    },
+    {
+      "id": "directory-lead-10b5341c3ea193",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/chabot-space-science-center-oakland",
+      "name": "Chabot Space & Science Center",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Alameda",
+      "city": "Oakland",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "chabot-space-science-center-across-the-universe-package-alameda",
+        "chabot-space-science-center-alameda",
+        "chabot-space-science-center-classroom-1-alameda",
+        "chabot-space-science-center-classroom-2-alameda",
+        "chabot-space-science-center-classroom-3-alameda",
+        "chabot-space-science-center-classroom-4-alameda",
+        "chabot-space-science-center-classrooms-3-4-joined-alameda",
+        "chabot-space-science-center-elopement-1-package-alameda",
+        "chabot-space-science-center-elopement-2-package-alameda",
+        "chabot-space-science-center-entire-spees-building-with-courtyard-alameda",
+        "chabot-space-science-center-full-facility-excluding-planetarium-theater-and-telescopes-alameda",
+        "chabot-space-science-center-laboratory-1-alameda",
+        "chabot-space-science-center-laboratory-2-alameda",
+        "chabot-space-science-center-moonlight-package-alameda",
+        "chabot-space-science-center-new-horizons-package-alameda",
+        "chabot-space-science-center-observatory-observation-deck-alameda",
+        "chabot-space-science-center-open-sky-package-alameda",
+        "chabot-space-science-center-planetarium-alameda",
+        "chabot-space-science-center-pleiades-courtyard-alameda",
+        "chabot-space-science-center-pleiades-package-alameda",
+        "chabot-space-science-center-saturn-s-rings-package-alameda",
+        "chabot-space-science-center-spees-level-1-alameda",
+        "chabot-space-science-center-spees-level-2-alameda",
+        "chabot-space-science-center-studio-3-astronomy-hall-alameda",
+        "chabot-space-science-center-theater-alameda",
+        "chabot-space-science-center-written-in-the-stars-package-alameda"
+      ],
+      "match_method": "Exact normalized name only; identity/branch not confirmed"
+    },
+    {
+      "id": "directory-lead-dda7e649bbfa9b",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/cinnabar-hills-golf-club-san-jose",
+      "name": "Cinnabar Hills Golf Club",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Santa Clara",
+      "city": "San Jose",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "cinnabar-hills-golf-club-santa-clara"
+      ],
+      "match_method": "Exact normalized name only; identity/branch not confirmed"
+    },
+    {
+      "id": "directory-lead-1cc4c632c433bb",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/civic-park-community-center-walnut-creek",
+      "name": "Civic Park Community Center",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Contra Costa",
+      "city": "Walnut Creek",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-5bbb1ddf3ab6a6",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/claremont-resort-club-berkeley",
+      "name": "Claremont Resort & Club",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Alameda",
+      "city": "Berkeley",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "claremont-resort-club-alameda",
+        "claremont-resort-club-alumni-alameda",
+        "claremont-resort-club-bayview-terrace-alameda",
+        "claremont-resort-club-boardroom-alameda",
+        "claremont-resort-club-claremont-ballroom-alameda",
+        "claremont-resort-club-empire-ballroom-alameda",
+        "claremont-resort-club-front-lawn-alameda",
+        "claremont-resort-club-garber-alameda",
+        "claremont-resort-club-garden-private-dining-alameda",
+        "claremont-resort-club-garden-room-alameda",
+        "claremont-resort-club-grizzly-peak-alameda",
+        "claremont-resort-club-hillary-tenzing-alameda",
+        "claremont-resort-club-lanai-alameda",
+        "claremont-resort-club-piedmont-alameda",
+        "claremont-resort-club-presidential-suite-alameda",
+        "claremont-resort-club-redwood-alameda",
+        "claremont-resort-club-rockridge-a-alameda",
+        "claremont-resort-club-rockridge-a-b-alameda",
+        "claremont-resort-club-rockridge-a-b-c-alameda",
+        "claremont-resort-club-rockridge-b-alameda",
+        "claremont-resort-club-rockridge-b-c-alameda",
+        "claremont-resort-club-rockridge-c-alameda",
+        "claremont-resort-club-secret-garden-alameda",
+        "claremont-resort-club-skyline-a-alameda",
+        "claremont-resort-club-skyline-a-b-alameda",
+        "claremont-resort-club-skyline-b-alameda",
+        "claremont-resort-club-temescal-alameda"
+      ],
+      "match_method": "Exact normalized name only; identity/branch not confirmed"
+    },
+    {
+      "id": "directory-lead-2d83d8961362a6",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/club-auto-sport-san-jose",
+      "name": "Club Auto Sport",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Santa Clara",
+      "city": "San Jose",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-62a070e693d401",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/club-los-meganos-brentwood",
+      "name": "Club Los Meganos",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Contra Costa",
+      "city": "Brentwood",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-2386b66dd07c41",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/contra-costa-country-club-pleasant-hill",
+      "name": "Contra Costa Country Club",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Contra Costa",
+      "city": "Pleasant Hill",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-19d09545bd868a",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/cordevalle-san-martin",
+      "name": "CordeValle",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Santa Clara",
+      "city": "San Martin",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-60925a49e71d77",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/corinthian-grand-ballroom-san-jose",
+      "name": "Corinthian Grand Ballroom",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Santa Clara",
+      "city": "San Jose",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "corinthian-grand-ballroom-santa-clara"
+      ],
+      "match_method": "Exact normalized name only; identity/branch not confirmed"
+    },
+    {
+      "id": "directory-lead-1a0ef8cf5e5b2f",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/craneway-pavilion-richmond",
+      "name": "Craneway Pavilion",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Contra Costa",
+      "city": "Richmond",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-7bea591d035e8b",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/diablo-country-club-diablo",
+      "name": "Diablo Country Club",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Contra Costa",
+      "city": "Diablo",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-475127b6ab5389",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/dunsmuir-hellman-historic-estate-oakland",
+      "name": "Dunsmuir Hellman Historic Estate",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Alameda",
+      "city": "Oakland",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-7da663e39b7c6a",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/eagle-ridge-by-wedgewood-weddings-gilroy",
+      "name": "Eagle Ridge by Wedgewood Weddings",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Santa Clara",
+      "city": "Gilroy",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-de6c911b3099f9",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/elliston-vineyards-sunol",
+      "name": "Elliston Vineyards",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Alameda",
+      "city": "Sunol",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-9e648055b1ec49",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/fairview-metropolitan-oakland",
+      "name": "Fairview Metropolitan",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Alameda",
+      "city": "Oakland",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-7a267cdc66f9d4",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/fortino-winery-gilroy",
+      "name": "Fortino Winery",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Santa Clara",
+      "city": "Gilroy",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-670f82beb87bbf",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/gamble-garden-palo-alto",
+      "name": "Gamble Garden",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Santa Clara",
+      "city": "Palo Alto",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-5125a23d119f5f",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/garre-vineyard-winery-livermore",
+      "name": "Garré Vineyard & Winery",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Alameda",
+      "city": "Livermore",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-5fafa6711f7359",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/gilroy-lodge-on-the-hill-gilroy",
+      "name": "Gilroy Lodge on the Hill",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Santa Clara",
+      "city": "Gilroy",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-33cac965e61d54",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/guglielmo-winery-morgan-hill",
+      "name": "Guglielmo Winery",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Santa Clara",
+      "city": "Morgan Hill",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-07aa64bf79c56c",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/hacienda-de-las-flores-by-wedgewood-weddings-moraga",
+      "name": "Hacienda de Las Flores by Wedgewood Weddings",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Contra Costa",
+      "city": "Moraga",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-8443e535d6a3b2",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/hakone-estate-and-gardens-saratoga",
+      "name": "Hakone Estate and Gardens",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Santa Clara",
+      "city": "Saratoga",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "hakone-estate-and-gardens-santa-clara"
+      ],
+      "match_method": "Exact normalized name only; identity/branch not confirmed"
+    },
+    {
+      "id": "directory-lead-bbdb19822c9c2b",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/hannah-nicole-vineyards-winery-brentwood",
+      "name": "Hannah Nicole Vineyards & Winery",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Contra Costa",
+      "city": "Brentwood",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-22f8cc196e8c84",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/hayes-mansion-san-jose-san-jose",
+      "name": "Hayes Mansion San Jose",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Santa Clara",
+      "city": "San Jose",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-de43e85f4df362",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/hillside-club-berkeley",
+      "name": "Hillside Club",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Alameda",
+      "city": "Berkeley",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-599c3e51390398",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/hilton-concord-concord",
+      "name": "Hilton Concord",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Contra Costa",
+      "city": "Concord",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "hilton-concord-baldwin-room-contra-costa",
+        "hilton-concord-chabot-room-contra-costa",
+        "hilton-concord-club-room-1-contra-costa",
+        "hilton-concord-club-room-2-contra-costa",
+        "hilton-concord-courtyard-contra-costa",
+        "hilton-concord-golden-gate-ballroom-contra-costa",
+        "hilton-concord-golden-gate-parlor-a-contra-costa",
+        "hilton-concord-golden-gate-parlor-b-contra-costa",
+        "hilton-concord-golden-gate-parlor-c-contra-costa",
+        "hilton-concord-golden-gate-parlor-d-contra-costa",
+        "hilton-concord-golden-gate-parlor-e-contra-costa",
+        "hilton-concord-park-room-contra-costa",
+        "hilton-concord-seminar-1-contra-costa",
+        "hilton-concord-seminar-2-contra-costa",
+        "hilton-concord-seminar-3-contra-costa",
+        "hilton-concord-seminar-4-contra-costa",
+        "hilton-concord-tilden-room-contra-costa"
+      ],
+      "match_method": "Exact normalized name only; identity/branch not confirmed"
+    },
+    {
+      "id": "directory-lead-452d9ae26786af",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/hilton-santa-clara-santa-clara",
+      "name": "Hilton Santa Clara",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Santa Clara",
+      "city": "Santa Clara",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-9a2627ac003812",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/hotel-los-gatos-los-gatos",
+      "name": "Hotel Los Gatos",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Santa Clara",
+      "city": "Los Gatos",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-d8c9783b23220b",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/la-vigna-event-center-at-hecker-pass-winery-gilroy",
+      "name": "La Vigna Event Center at Hecker Pass Winery",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Santa Clara",
+      "city": "Gilroy",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-b550ea6d92f814",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/lafayette-park-hotel-spa-lafayette",
+      "name": "Lafayette Park Hotel & Spa",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Contra Costa",
+      "city": "Lafayette",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-3946acc5ef79f2",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/lafayette-veterans-memorial-center-lafayette",
+      "name": "Lafayette Veterans Memorial Center",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Contra Costa",
+      "city": "Lafayette",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-1c8b3b532325be",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/lake-merritt-sailboat-house-oakland",
+      "name": "Lake Merritt Sailboat House",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Alameda",
+      "city": "Oakland",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-a7ce3cf62382dd",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/los-altos-history-museum-los-altos",
+      "name": "Los Altos History Museum",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Santa Clara",
+      "city": "Los Altos",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-1ea95e7e43139b",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/mexican-heritage-plaza-san-jose",
+      "name": "Mexican Heritage Plaza",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Santa Clara",
+      "city": "San Jose",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-f7a6f98417dd51",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/montalvo-arts-center-saratoga",
+      "name": "Montalvo Arts Center",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Santa Clara",
+      "city": "Saratoga",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "montalvo-arts-center-santa-clara"
+      ],
+      "match_method": "Exact normalized name only; identity/branch not confirmed"
+    },
+    {
+      "id": "directory-lead-3c8a1ef9490b5c",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/nella-terra-cellars-sunol",
+      "name": "Nella Terra Cellars",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Alameda",
+      "city": "Sunol",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "nella-terra-cellars-alameda"
+      ],
+      "match_method": "Exact normalized name only; identity/branch not confirmed"
+    },
+    {
+      "id": "directory-lead-1b6ad4d9fc66d0",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/oakland-museum-of-california-oakland",
+      "name": "Oakland Museum of California",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Alameda",
+      "city": "Oakland",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "oakland-museum-of-california-garden-alameda",
+        "oakland-museum-of-california-james-moore-theater-alameda",
+        "oakland-museum-of-california-lillie-education-center-alameda",
+        "oakland-museum-of-california-peace-terrace-alameda",
+        "oakland-museum-of-california-town-fare-cafe-alameda"
+      ],
+      "match_method": "Exact normalized name only; identity/branch not confirmed"
+    },
+    {
+      "id": "directory-lead-b47f35cbbbf89c",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/oakland-scottish-rite-center-oakland",
+      "name": "Oakland Scottish Rite Center",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Alameda",
+      "city": "Oakland",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-cdb65db583a20e",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/orinda-country-club-orinda",
+      "name": "Orinda Country Club",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Contra Costa",
+      "city": "Orinda",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-390203fe202369",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/palm-event-center-in-the-vineyard-pleasanton",
+      "name": "Palm Event Center in the Vineyard",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Alameda",
+      "city": "Pleasanton",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-6da46eefc7f596",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/paradise-ballrooms-fremont",
+      "name": "Paradise Ballrooms",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Alameda",
+      "city": "Fremont",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-4f7b1f5f5c8c10",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/piedmont-community-hall-piedmont",
+      "name": "Piedmont Community Hall",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Alameda",
+      "city": "Piedmont",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "piedmont-community-hall-alameda",
+        "piedmont-community-hall-amphitheater-alameda",
+        "piedmont-exedra-plaza-fountain-alameda",
+        "piedmont-japanese-tea-house-alameda"
+      ],
+      "match_method": "Exact normalized name only; identity/branch not confirmed"
+    },
+    {
+      "id": "directory-lead-647fa8f6974acb",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/pleasant-hill-community-center-pleasant-hill",
+      "name": "Pleasant Hill Community Center",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Contra Costa",
+      "city": "Pleasant Hill",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-1b6e9517275d99",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/preservation-park-oakland",
+      "name": "Preservation Park",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Alameda",
+      "city": "Oakland",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "preservation-park-alameda"
+      ],
+      "match_method": "Exact normalized name only; identity/branch not confirmed"
+    },
+    {
+      "id": "directory-lead-b57749a0b19597",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/purple-orchid-wine-country-resort-spa-livermore",
+      "name": "Purple Orchid Wine Country Resort & Spa",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Alameda",
+      "city": "Livermore",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-1a8f513d294bc7",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/rengstorff-house-mountain-view",
+      "name": "Rengstorff House",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Santa Clara",
+      "city": "Mountain View",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "rengstorff-house-santa-clara"
+      ],
+      "match_method": "Exact normalized name only; identity/branch not confirmed"
+    },
+    {
+      "id": "directory-lead-a337c86a648baf",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/rios-lovell-winery-livermore",
+      "name": "Rios-Lovell Winery",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Alameda",
+      "city": "Livermore",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-ca1c97a83947f4",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/round-hill-country-club-alamo",
+      "name": "Round Hill Country Club",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Contra Costa",
+      "city": "Alamo",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-52c232845add21",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/san-jose-city-hall-rotunda-san-jose",
+      "name": "San José City Hall Rotunda",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Santa Clara",
+      "city": "San Jose",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-7056ea177ff41b",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/san-jose-museum-of-art-san-jose",
+      "name": "San José Museum of Art",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Santa Clara",
+      "city": "San Jose",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-890e59f9804f9d",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/san-jose-woman-s-club-san-jose",
+      "name": "San Jose Woman's Club",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Santa Clara",
+      "city": "San Jose",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-cdfcf94473565a",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/san-ramon-golf-club-san-ramon",
+      "name": "San Ramon Golf Club",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Contra Costa",
+      "city": "San Ramon",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-1950e89633a038",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/sanborn-county-park-saratoga",
+      "name": "Sanborn County Park",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Santa Clara",
+      "city": "Saratoga",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "sanborn-county-park-sequoia-peterson-grove-santa-clara"
+      ],
+      "match_method": "Exact normalized name only; identity/branch not confirmed"
+    },
+    {
+      "id": "directory-lead-385e382d966f6c",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/saratoga-springs-saratoga",
+      "name": "Saratoga Springs",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Santa Clara",
+      "city": "Saratoga",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-49e21d5953e577",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/sequoyah-country-club-oakland",
+      "name": "Sequoyah Country Club",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Alameda",
+      "city": "Oakland",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "sequoyah-country-club-alameda"
+      ],
+      "match_method": "Exact normalized name only; identity/branch not confirmed"
+    },
+    {
+      "id": "directory-lead-adc1118344e79c",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/shadow-lakes-club-brentwood",
+      "name": "Shadow Lakes Club",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Contra Costa",
+      "city": "Brentwood",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-7717dfd0439053",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/sunol-s-casa-bella-sunol",
+      "name": "Sunol's Casa Bella",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Alameda",
+      "city": "Sunol",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-841a17e04bf672",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/the-bridges-golf-club-san-ramon",
+      "name": "The Bridges Golf Club",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Contra Costa",
+      "city": "San Ramon",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "the-bridges-golf-club-contra-costa"
+      ],
+      "match_method": "Exact normalized name only; identity/branch not confirmed"
+    },
+    {
+      "id": "directory-lead-c09eac1ac00a27",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/the-club-at-castlewood-pleasanton",
+      "name": "The Club at Castlewood",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Alameda",
+      "city": "Pleasanton",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-9c20e23d983b8b",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/the-club-at-ruby-hill-pleasanton",
+      "name": "The Club at Ruby Hill",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Alameda",
+      "city": "Pleasanton",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "the-club-at-ruby-hill-alameda"
+      ],
+      "match_method": "Exact normalized name only; identity/branch not confirmed"
+    },
+    {
+      "id": "directory-lead-2534fc7faa9cc2",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/the-clubhouse-at-boundary-oak-walnut-creek",
+      "name": "The Clubhouse at Boundary Oak",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Contra Costa",
+      "city": "Walnut Creek",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "the-clubhouse-at-boundary-oak-contra-costa"
+      ],
+      "match_method": "Exact normalized name only; identity/branch not confirmed"
+    },
+    {
+      "id": "directory-lead-12c49625b331d4",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/the-faculty-club-at-uc-berkeley-berkeley",
+      "name": "The Faculty Club at UC Berkeley",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Alameda",
+      "city": "Berkeley",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-81cf7c666f08ec",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/the-gardens-at-heather-farm-walnut-creek",
+      "name": "The Gardens at Heather Farm",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Contra Costa",
+      "city": "Walnut Creek",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "the-gardens-at-heather-farm-contra-costa"
+      ],
+      "match_method": "Exact normalized name only; identity/branch not confirmed"
+    },
+    {
+      "id": "directory-lead-28118c89cdf022",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/the-glasshouse-san-jose-san-jose",
+      "name": "The GlassHouse San Jose",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Santa Clara",
+      "city": "San Jose",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-1247f5ac291ea5",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/the-mountain-winery-saratoga",
+      "name": "The Mountain Winery",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Santa Clara",
+      "city": "Saratoga",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-4a8e6a717968d8",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/the-ranch-at-silver-creek-by-wedgewood-weddings-san-jose",
+      "name": "The Ranch at Silver Creek by Wedgewood Weddings",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Santa Clara",
+      "city": "San Jose",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-73c4d81c574255",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/the-ruth-bancroft-garden-walnut-creek",
+      "name": "The Ruth Bancroft Garden",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Contra Costa",
+      "city": "Walnut Creek",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-bea71360633072",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/the-terrace-room-at-lake-merritt-oakland",
+      "name": "The Terrace Room at Lake Merritt",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Alameda",
+      "city": "Oakland",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-cec861c009f2c1",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/triton-museum-of-art-santa-clara",
+      "name": "Triton Museum of Art",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Santa Clara",
+      "city": "Santa Clara",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-1b7956df11685b",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/uc-botanical-garden-at-berkeley-berkeley",
+      "name": "UC Botanical Garden at Berkeley",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Alameda",
+      "city": "Berkeley",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-974cae3d1816f9",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/villa-ragusa-campbell",
+      "name": "Villa Ragusa",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Santa Clara",
+      "city": "Campbell",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-b58be1fc4af2c0",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/wente-vineyards-livermore",
+      "name": "Wente Vineyards",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Alameda",
+      "city": "Livermore",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-8f449d58162eb7",
+      "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/wildwood-acres-resort-lafayette",
+      "name": "Wildwood Acres Resort",
+      "label_method": "Named anchor on downloaded index",
+      "source_channels": [
+        "moderndjs"
+      ],
+      "source_indexes": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": "Contra Costa",
+      "city": "Lafayette",
+      "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-25045125c870d0",
+      "url": "https://www.wedding-spot.com/venue/148/fort-mason-center-for-arts-culture/",
+      "name": "Fort Mason Center For Arts Culture",
+      "label_method": "URL slug label only; exact profile title unverified",
+      "source_channels": [
+        "weddingspot"
+      ],
+      "source_indexes": [
+        "https://www.wedding-spot.com/wedding-venues/bay-area/"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-666afb0abe8a5f",
+      "url": "https://www.wedding-spot.com/venue/18275/mohi-ranch/",
+      "name": "Mohi Ranch",
+      "label_method": "URL slug label only; exact profile title unverified",
+      "source_channels": [
+        "weddingspot"
+      ],
+      "source_indexes": [
+        "https://www.wedding-spot.com/wedding-venues/bay-area/"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-a23d88b69066db",
+      "url": "https://www.wedding-spot.com/venue/2191/willow-heights-mansion/",
+      "name": "Willow Heights Mansion",
+      "label_method": "URL slug label only; exact profile title unverified",
+      "source_channels": [
+        "weddingspot"
+      ],
+      "source_indexes": [
+        "https://www.wedding-spot.com/wedding-venues/bay-area/"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "willow-heights-mansion-santa-clara"
+      ],
+      "match_method": "Exact normalized name only; identity/branch not confirmed"
+    },
+    {
+      "id": "directory-lead-c6a68fdf605580",
+      "url": "https://www.wedding-spot.com/venue/18104/the-conservatory-at-one-sansome/",
+      "name": "The Conservatory At One Sansome",
+      "label_method": "URL slug label only; exact profile title unverified",
+      "source_channels": [
+        "weddingspot"
+      ],
+      "source_indexes": [
+        "https://www.wedding-spot.com/wedding-venues/bay-area/"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-83cb4e34296ffe",
+      "url": "https://www.wedding-spot.com/venue/110/immanuel-lutheran-church/",
+      "name": "Immanuel Lutheran Church",
+      "label_method": "URL slug label only; exact profile title unverified",
+      "source_channels": [
+        "weddingspot"
+      ],
+      "source_indexes": [
+        "https://www.wedding-spot.com/wedding-venues/bay-area/"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-592c6d0c39d8a6",
+      "url": "https://www.wedding-spot.com/venue/3/kohl-mansion/",
+      "name": "Kohl Mansion",
+      "label_method": "URL slug label only; exact profile title unverified",
+      "source_channels": [
+        "weddingspot"
+      ],
+      "source_indexes": [
+        "https://www.wedding-spot.com/wedding-venues/bay-area/"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "kohl-mansion-san-mateo"
+      ],
+      "match_method": "Exact normalized name only; identity/branch not confirmed"
+    },
+    {
+      "id": "directory-lead-c898bda3301145",
+      "url": "https://www.wedding-spot.com/venue/12783/create-mix-mingle/",
+      "name": "Create Mix Mingle",
+      "label_method": "URL slug label only; exact profile title unverified",
+      "source_channels": [
+        "weddingspot"
+      ],
+      "source_indexes": [
+        "https://www.wedding-spot.com/wedding-venues/bay-area/"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-4b33552a714012",
+      "url": "https://www.wedding-spot.com/venue/11700/villa-montalvo-at-montalvo-arts-center/",
+      "name": "Villa Montalvo At Montalvo Arts Center",
+      "label_method": "URL slug label only; exact profile title unverified",
+      "source_channels": [
+        "weddingspot"
+      ],
+      "source_indexes": [
+        "https://www.wedding-spot.com/wedding-venues/bay-area/"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-6524e79d33b793",
+      "url": "https://www.wedding-spot.com/venue/483/le-bateau-ivre/",
+      "name": "Le Bateau Ivre",
+      "label_method": "URL slug label only; exact profile title unverified",
+      "source_channels": [
+        "weddingspot"
+      ],
+      "source_indexes": [
+        "https://www.wedding-spot.com/wedding-venues/bay-area/"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-3470f9c13e05ee",
+      "url": "https://www.wedding-spot.com/venue/1104/pavilion-redwood-estates/",
+      "name": "Pavilion Redwood Estates",
+      "label_method": "URL slug label only; exact profile title unverified",
+      "source_channels": [
+        "weddingspot"
+      ],
+      "source_indexes": [
+        "https://www.wedding-spot.com/wedding-venues/bay-area/"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-01f5df05142e7c",
+      "url": "https://www.wedding-spot.com/venue/8939/old-saint-hilarys/",
+      "name": "Old Saint Hilarys",
+      "label_method": "URL slug label only; exact profile title unverified",
+      "source_channels": [
+        "weddingspot"
+      ],
+      "source_indexes": [
+        "https://www.wedding-spot.com/wedding-venues/bay-area/"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-7c12f4f925464b",
+      "url": "https://www.wedding-spot.com/venue/327/presidio-chapel-san-francisco/",
+      "name": "Presidio Chapel San Francisco",
+      "label_method": "URL slug label only; exact profile title unverified",
+      "source_channels": [
+        "weddingspot"
+      ],
+      "source_indexes": [
+        "https://www.wedding-spot.com/wedding-venues/bay-area/"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-4cb9cbdd5e339c",
+      "url": "https://www.wedding-spot.com/venue/15944/hacienda-de-las-flores/",
+      "name": "Hacienda De Las Flores",
+      "label_method": "URL slug label only; exact profile title unverified",
+      "source_channels": [
+        "weddingspot"
+      ],
+      "source_indexes": [
+        "https://www.wedding-spot.com/wedding-venues/bay-area/"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "hacienda-de-las-flores-casita-town-managed-small-event-room-contra-costa",
+        "hacienda-de-las-flores-pavilion-garden-non-tent-configuration-contra-costa",
+        "hacienda-de-las-flores-pavilion-garden-seasonal-tent-configuration-contra-costa"
+      ],
+      "match_method": "Exact normalized name only; identity/branch not confirmed"
+    },
+    {
+      "id": "directory-lead-4712f6b7f8aadf",
+      "url": "https://www.wedding-spot.com/venue/11080/trou-normand/",
+      "name": "Trou Normand",
+      "label_method": "URL slug label only; exact profile title unverified",
+      "source_channels": [
+        "weddingspot"
+      ],
+      "source_indexes": [
+        "https://www.wedding-spot.com/wedding-venues/bay-area/"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-991675b9cd5287",
+      "url": "https://www.wedding-spot.com/venue/326/chapel-of-our-lady-at-the-presidio/",
+      "name": "Chapel Of Our Lady At The Presidio",
+      "label_method": "URL slug label only; exact profile title unverified",
+      "source_channels": [
+        "weddingspot"
+      ],
+      "source_indexes": [
+        "https://www.wedding-spot.com/wedding-venues/bay-area/"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-034a212090b95a",
+      "url": "https://www.wedding-spot.com/venue/7149/the-landmarks-art-garden-center/",
+      "name": "The Landmarks Art Garden Center",
+      "label_method": "URL slug label only; exact profile title unverified",
+      "source_channels": [
+        "weddingspot"
+      ],
+      "source_indexes": [
+        "https://www.wedding-spot.com/wedding-venues/bay-area/"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-406be31b1fd066",
+      "url": "https://www.wedding-spot.com/venue/9822/the-terrace-at-willow-glen/",
+      "name": "The Terrace At Willow Glen",
+      "label_method": "URL slug label only; exact profile title unverified",
+      "source_channels": [
+        "weddingspot"
+      ],
+      "source_indexes": [
+        "https://www.wedding-spot.com/wedding-venues/bay-area/"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-2af03ca8e2eebf",
+      "url": "https://www.wedding-spot.com/venue/2164/the-ranch-at-little-hills/",
+      "name": "The Ranch At Little Hills",
+      "label_method": "URL slug label only; exact profile title unverified",
+      "source_channels": [
+        "weddingspot"
+      ],
+      "source_indexes": [
+        "https://www.wedding-spot.com/wedding-venues/bay-area/"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-1c760f8e69a913",
+      "url": "https://www.wedding-spot.com/venue/6803/china-cabin/",
+      "name": "China Cabin",
+      "label_method": "URL slug label only; exact profile title unverified",
+      "source_channels": [
+        "weddingspot"
+      ],
+      "source_indexes": [
+        "https://www.wedding-spot.com/wedding-venues/bay-area/"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "china-cabin-marin"
+      ],
+      "match_method": "Exact normalized name only; identity/branch not confirmed"
+    },
+    {
+      "id": "directory-lead-b435619cc3afba",
+      "url": "https://www.wedding-spot.com/venue/12603/lodge-at-marconi/",
+      "name": "Lodge At Marconi",
+      "label_method": "URL slug label only; exact profile title unverified",
+      "source_channels": [
+        "weddingspot"
+      ],
+      "source_indexes": [
+        "https://www.wedding-spot.com/wedding-venues/bay-area/"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "lodge-at-marconi-marin"
+      ],
+      "match_method": "Exact normalized name only; identity/branch not confirmed"
+    },
+    {
+      "id": "directory-lead-c87bb6d4cb3ba9",
+      "url": "https://www.wedding-spot.com/venue/1071/san-ramon-waters-by-wedgewood-weddings/",
+      "name": "San Ramon Waters By Wedgewood Weddings",
+      "label_method": "URL slug label only; exact profile title unverified",
+      "source_channels": [
+        "weddingspot"
+      ],
+      "source_indexes": [
+        "https://www.wedding-spot.com/wedding-venues/bay-area/"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-cd9969e51f7b58",
+      "url": "https://www.wedding-spot.com/venue/105/sausalito-womans-club/",
+      "name": "Sausalito Womans Club",
+      "label_method": "URL slug label only; exact profile title unverified",
+      "source_channels": [
+        "weddingspot"
+      ],
+      "source_indexes": [
+        "https://www.wedding-spot.com/wedding-venues/bay-area/"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "sausalito-woman-s-club-clubhouse-and-garden-wedding-rental-marin"
+      ],
+      "match_method": "Exact normalized name only; identity/branch not confirmed"
+    },
+    {
+      "id": "directory-lead-301de24d504bf5",
+      "url": "https://www.wedding-spot.com/venue/11224/joseph-grant-park/",
+      "name": "Joseph Grant Park",
+      "label_method": "URL slug label only; exact profile title unverified",
+      "source_channels": [
+        "weddingspot"
+      ],
+      "source_indexes": [
+        "https://www.wedding-spot.com/wedding-venues/bay-area/"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-0e7dc087d528df",
+      "url": "https://www.wedding-spot.com/venue/1052/community-congregational-church-of-tiburon/",
+      "name": "Community Congregational Church Of Tiburon",
+      "label_method": "URL slug label only; exact profile title unverified",
+      "source_channels": [
+        "weddingspot"
+      ],
+      "source_indexes": [
+        "https://www.wedding-spot.com/wedding-venues/bay-area/"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-0bb0a8d6870dc4",
+      "url": "https://www.wedding-spot.com/venue/28/stonetree-estate-by-wedgewood-weddings/",
+      "name": "Stonetree Estate By Wedgewood Weddings",
+      "label_method": "URL slug label only; exact profile title unverified",
+      "source_channels": [
+        "weddingspot"
+      ],
+      "source_indexes": [
+        "https://www.wedding-spot.com/wedding-venues/bay-area/"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "stonetree-estate-by-wedgewood-weddings-marin"
+      ],
+      "match_method": "Exact normalized name only; identity/branch not confirmed"
+    },
+    {
+      "id": "directory-lead-57390e8c06a0a3",
+      "url": "https://www.wedding-spot.com/venue/15980/stemple-creek-ranch/",
+      "name": "Stemple Creek Ranch",
+      "label_method": "URL slug label only; exact profile title unverified",
+      "source_channels": [
+        "weddingspot"
+      ],
+      "source_indexes": [
+        "https://www.wedding-spot.com/wedding-venues/bay-area/"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "stemple-creek-ranch-marin"
+      ],
+      "match_method": "Exact normalized name only; identity/branch not confirmed"
+    },
+    {
+      "id": "directory-lead-83654d90a33b91",
+      "url": "https://www.wedding-spot.com/venue/10151/the-view-lounge/",
+      "name": "The View Lounge",
+      "label_method": "URL slug label only; exact profile title unverified",
+      "source_channels": [
+        "weddingspot"
+      ],
+      "source_indexes": [
+        "https://www.wedding-spot.com/wedding-venues/bay-area/"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-07c3388aefe5cf",
+      "url": "https://www.wedding-spot.com/venue/11873/historic-adobe-building/",
+      "name": "Historic Adobe Building",
+      "label_method": "URL slug label only; exact profile title unverified",
+      "source_channels": [
+        "weddingspot"
+      ],
+      "source_indexes": [
+        "https://www.wedding-spot.com/wedding-venues/bay-area/"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "historic-adobe-building-historic-adobe-building-santa-clara"
+      ],
+      "match_method": "Exact normalized name only; identity/branch not confirmed"
+    },
+    {
+      "id": "directory-lead-8618d83a5ca731",
+      "url": "https://www.wedding-spot.com/venue/3814/great-american-music-hall/",
+      "name": "Great American Music Hall",
+      "label_method": "URL slug label only; exact profile title unverified",
+      "source_channels": [
+        "weddingspot"
+      ],
+      "source_indexes": [
+        "https://www.wedding-spot.com/wedding-venues/bay-area/"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-2faca86208efe8",
+      "url": "https://www.wedding-spot.com/venue/9896/whitechapel-sf/",
+      "name": "Whitechapel Sf",
+      "label_method": "URL slug label only; exact profile title unverified",
+      "source_channels": [
+        "weddingspot"
+      ],
+      "source_indexes": [
+        "https://www.wedding-spot.com/wedding-venues/bay-area/"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-81ba897e2dd74b",
+      "url": "https://www.wedding-spot.com/venue/11800/chase-suite-hotel-newark/",
+      "name": "Chase Suite Hotel Newark",
+      "label_method": "URL slug label only; exact profile title unverified",
+      "source_channels": [
+        "weddingspot"
+      ],
+      "source_indexes": [
+        "https://www.wedding-spot.com/wedding-venues/bay-area/"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-bae41a84deb12b",
+      "url": "https://www.wedding-spot.com/venue/11162/san-jose-clubhouse/",
+      "name": "San Jose Clubhouse",
+      "label_method": "URL slug label only; exact profile title unverified",
+      "source_channels": [
+        "weddingspot"
+      ],
+      "source_indexes": [
+        "https://www.wedding-spot.com/wedding-venues/bay-area/"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-7498bf23946a14",
+      "url": "https://www.wedding-spot.com/venue/620/fern-cottage/",
+      "name": "Fern Cottage",
+      "label_method": "URL slug label only; exact profile title unverified",
+      "source_channels": [
+        "weddingspot"
+      ],
+      "source_indexes": [
+        "https://www.wedding-spot.com/wedding-venues/bay-area/"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "kennedy-grove-regional-recreation-area-fern-cottage-contra-costa"
+      ],
+      "match_method": "Exact normalized name only; identity/branch not confirmed"
+    },
+    {
+      "id": "directory-lead-8adc88cb549a9d",
+      "url": "https://www.wedding-spot.com/venue/11535/courtyard-by-marriott-san-jose-north-silicon-valley/",
+      "name": "Courtyard By Marriott San Jose North Silicon Valley",
+      "label_method": "URL slug label only; exact profile title unverified",
+      "source_channels": [
+        "weddingspot"
+      ],
+      "source_indexes": [
+        "https://www.wedding-spot.com/wedding-venues/bay-area/"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-fa4d82876a34fc",
+      "url": "https://www.wedding-spot.com/venue/11403/red-poppy-art-house/",
+      "name": "Red Poppy Art House",
+      "label_method": "URL slug label only; exact profile title unverified",
+      "source_channels": [
+        "weddingspot"
+      ],
+      "source_indexes": [
+        "https://www.wedding-spot.com/wedding-venues/bay-area/"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-14e31e5b9fffbf",
+      "url": "https://www.wedding-spot.com/venue/553/saratoga-country-club/",
+      "name": "Saratoga Country Club",
+      "label_method": "URL slug label only; exact profile title unverified",
+      "source_channels": [
+        "weddingspot"
+      ],
+      "source_indexes": [
+        "https://www.wedding-spot.com/wedding-venues/bay-area/"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-d76ec169fb9d01",
+      "url": "https://giggster.com/listing/art-deco-mod-old-hollywood-event-venue",
+      "name": "Art Deco + Mod High Design Event Venue",
+      "label_method": "Named downloaded index anchor",
+      "source_channels": [
+        "giggster"
+      ],
+      "source_indexes": [
+        "https://giggster.com/find/san-francisco--ca/wedding"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-9c261b9479fda3",
+      "url": "https://giggster.com/listing/urban-winery",
+      "name": "Urban Winery",
+      "label_method": "Named downloaded index anchor",
+      "source_channels": [
+        "giggster"
+      ],
+      "source_indexes": [
+        "https://giggster.com/find/san-francisco--ca/wedding"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-03726acc0a6ce8",
+      "url": "https://giggster.com/listing/urban-oasis-with-lush-patio-in-the-heart-of-sf",
+      "name": "Urban Oasis with Lush Patio in the Heart of SF",
+      "label_method": "Named downloaded index anchor",
+      "source_channels": [
+        "giggster"
+      ],
+      "source_indexes": [
+        "https://giggster.com/find/san-francisco--ca/wedding"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-68de6e6fa28459",
+      "url": "https://giggster.com/listing/mill-valley-modern-masterpiece",
+      "name": "Mill Valley Modern Masterpiece",
+      "label_method": "Named downloaded index anchor",
+      "source_channels": [
+        "giggster"
+      ],
+      "source_indexes": [
+        "https://giggster.com/find/san-francisco--ca/wedding"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-d218164f141a6a",
+      "url": "https://giggster.com/listing/mill-valley-beauty",
+      "name": "Mill Valley Beauty",
+      "label_method": "Named downloaded index anchor",
+      "source_channels": [
+        "giggster"
+      ],
+      "source_indexes": [
+        "https://giggster.com/find/san-francisco--ca/wedding"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-2ac04f6bd5c366",
+      "url": "https://giggster.com/listing/outdoor-kitchen-with-views-of-downtown-sf",
+      "name": "Lovely Outdoor Veranda in East Cut",
+      "label_method": "Named downloaded index anchor",
+      "source_channels": [
+        "giggster"
+      ],
+      "source_indexes": [
+        "https://giggster.com/find/san-francisco--ca/wedding"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-0fb95117db464b",
+      "url": "https://giggster.com/listing/stunning-indoor-outdoor-luxury-home",
+      "name": "Stunning Indoor/Outdoor Luxury Space",
+      "label_method": "Named downloaded index anchor",
+      "source_channels": [
+        "giggster"
+      ],
+      "source_indexes": [
+        "https://giggster.com/find/san-francisco--ca/wedding"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-c9f8d8112b615d",
+      "url": "https://giggster.com/listing/outer-sunset-san-francisco",
+      "name": "Outer Sunset/ San Francisco",
+      "label_method": "Named downloaded index anchor",
+      "source_channels": [
+        "giggster"
+      ],
+      "source_indexes": [
+        "https://giggster.com/find/san-francisco--ca/wedding"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-e398dbb0f609e3",
+      "url": "https://giggster.com/listing/fillmore-district-funky-lounge",
+      "name": "Sophisticated Lounge in Fillmore District",
+      "label_method": "Named downloaded index anchor",
+      "source_channels": [
+        "giggster"
+      ],
+      "source_indexes": [
+        "https://giggster.com/find/san-francisco--ca/wedding"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-d3d27d99ec41be",
+      "url": "https://giggster.com/listing/outdoor-terrace-with-sf-skyline-view",
+      "name": "Outdoor Terrace with SF Skyline View",
+      "label_method": "Named downloaded index anchor",
+      "source_channels": [
+        "giggster"
+      ],
+      "source_indexes": [
+        "https://giggster.com/find/san-francisco--ca/wedding"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-920498f3dcff30",
+      "url": "https://giggster.com/listing/spacious-stunning-ranch-resort-style-home-yard",
+      "name": "Spacious Updated Ranch Home & Resort Style Yard",
+      "label_method": "Named downloaded index anchor",
+      "source_channels": [
+        "giggster"
+      ],
+      "source_indexes": [
+        "https://giggster.com/find/san-francisco--ca/wedding"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-d4db9ce9f6f266",
+      "url": "https://giggster.com/listing/42nd-floor-sky-view-lounge",
+      "name": "42nd Floor Sky Lounge & Deck in East Cut",
+      "label_method": "Named downloaded index anchor",
+      "source_channels": [
+        "giggster"
+      ],
+      "source_indexes": [
+        "https://giggster.com/find/san-francisco--ca/wedding"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-56b0e0816e5b27",
+      "url": "https://giggster.com/listing/sf-chinatown-multiuse-venue",
+      "name": "Clarion Performing Arts Center",
+      "label_method": "Named downloaded index anchor",
+      "source_channels": [
+        "giggster"
+      ],
+      "source_indexes": [
+        "https://giggster.com/find/san-francisco--ca/wedding"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-21f2de9055e8b4",
+      "url": "https://giggster.com/listing/historic-independent-theater-arts-community",
+      "name": "Cheaper Than Therapy",
+      "label_method": "Named downloaded index anchor",
+      "source_channels": [
+        "giggster"
+      ],
+      "source_indexes": [
+        "https://giggster.com/find/san-francisco--ca/wedding"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-e8dff01fb7ca19",
+      "url": "https://giggster.com/listing/event-space-in-a-san-francisco-historical-gem",
+      "name": "Rustic San Francisco historical gem",
+      "label_method": "Named downloaded index anchor",
+      "source_channels": [
+        "giggster"
+      ],
+      "source_indexes": [
+        "https://giggster.com/find/san-francisco--ca/wedding"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-d6710bd718b22e",
+      "url": "https://giggster.com/listing/whimsical-cozy-art-studio-with-natural-lighting",
+      "name": "The Nest",
+      "label_method": "Named downloaded index anchor",
+      "source_channels": [
+        "giggster"
+      ],
+      "source_indexes": [
+        "https://giggster.com/find/san-francisco--ca/wedding"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-5142ee1ee4533b",
+      "url": "https://giggster.com/listing/luxe-modern-bright-victorian-duplex-w-barn",
+      "name": "Luxe, Modern & Bright Victorian Duplex w/ Barn",
+      "label_method": "Named downloaded index anchor",
+      "source_channels": [
+        "giggster"
+      ],
+      "source_indexes": [
+        "https://giggster.com/find/san-francisco--ca/wedding"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-92d3d1cb410c0b",
+      "url": "https://giggster.com/listing/backyard-with-full-grill-and-party-room",
+      "name": "Backyard with full grill and party room",
+      "label_method": "Named downloaded index anchor",
+      "source_channels": [
+        "giggster"
+      ],
+      "source_indexes": [
+        "https://giggster.com/find/san-francisco--ca/wedding"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-96540258db2d92",
+      "url": "https://giggster.com/listing/large-stylized-warehouse-space-soundproofed-room",
+      "name": "Large Stylized Warehouse Space & Soundproofed Room",
+      "label_method": "Named downloaded index anchor",
+      "source_channels": [
+        "giggster"
+      ],
+      "source_indexes": [
+        "https://giggster.com/find/san-francisco--ca/wedding"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-4742be50a4a1be",
+      "url": "https://giggster.com/listing/renovated-modern-warehouse",
+      "name": "Renovated Modern Warehouse",
+      "label_method": "Named downloaded index anchor",
+      "source_channels": [
+        "giggster"
+      ],
+      "source_indexes": [
+        "https://giggster.com/find/san-francisco--ca/wedding"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-e64f227bb87882",
+      "url": "https://www.partyslate.com/venues/log-cabin-at-the-presidio-by-wedgewood-weddings",
+      "name": "Log Cabin at the Presidio by Wedgewood Weddings",
+      "label_method": "Named downloaded index anchor",
+      "source_channels": [
+        "partyslate"
+      ],
+      "source_indexes": [
+        "https://www.partyslate.com/find-venues/near/san-francisco-ca-usa"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-bb110fb9ffb36a",
+      "url": "https://www.partyslate.com/venues/chapel-of-our-lady-by-wedgewood-weddings",
+      "name": "Chapel of Our Lady by Wedgewood Weddings",
+      "label_method": "Named downloaded index anchor",
+      "source_channels": [
+        "partyslate"
+      ],
+      "source_indexes": [
+        "https://www.partyslate.com/find-venues/near/san-francisco-ca-usa"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-cdd0661e69f899",
+      "url": "https://www.partyslate.com/venues/officers-club-at-the-presidio-by-wedgewood-weddings",
+      "name": "Officers' Club at the Presidio by Wedgewood Weddings",
+      "label_method": "Named downloaded index anchor",
+      "source_channels": [
+        "partyslate"
+      ],
+      "source_indexes": [
+        "https://www.partyslate.com/find-venues/near/san-francisco-ca-usa"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-b8765f723742a3",
+      "url": "https://www.partyslate.com/venues/exploratorium",
+      "name": "Exploratorium",
+      "label_method": "Named downloaded index anchor",
+      "source_channels": [
+        "partyslate"
+      ],
+      "source_indexes": [
+        "https://www.partyslate.com/find-venues/near/san-francisco-ca-usa"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "exploratorium-san-francisco"
+      ],
+      "match_method": "Exact normalized name only; identity/branch not confirmed"
+    },
+    {
+      "id": "directory-lead-d005c36f01f2ad",
+      "url": "https://www.partyslate.com/venues/715-harrison-st",
+      "name": "715 Harrison St",
+      "label_method": "Named downloaded index anchor",
+      "source_channels": [
+        "partyslate"
+      ],
+      "source_indexes": [
+        "https://www.partyslate.com/find-venues/near/san-francisco-ca-usa"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-bbd0cacedc6d0c",
+      "url": "https://www.partyslate.com/venues/california-academy-of-sciences",
+      "name": "California Academy of Sciences",
+      "label_method": "Named downloaded index anchor",
+      "source_channels": [
+        "partyslate"
+      ],
+      "source_indexes": [
+        "https://www.partyslate.com/find-venues/near/san-francisco-ca-usa"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "california-academy-of-sciences-san-francisco"
+      ],
+      "match_method": "Exact normalized name only; identity/branch not confirmed"
+    },
+    {
+      "id": "directory-lead-97c13138eddb44",
+      "url": "https://www.partyslate.com/venues/golden-gate-club-at-the-presidio",
+      "name": "Golden Gate Club at the Presidio",
+      "label_method": "Named downloaded index anchor",
+      "source_channels": [
+        "partyslate"
+      ],
+      "source_indexes": [
+        "https://www.partyslate.com/find-venues/near/san-francisco-ca-usa"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-e3dd3ab9341b34",
+      "url": "https://www.partyslate.com/venues/the-westin-st-francis",
+      "name": "The Westin St. Francis",
+      "label_method": "Named downloaded index anchor",
+      "source_channels": [
+        "partyslate"
+      ],
+      "source_indexes": [
+        "https://www.partyslate.com/find-venues/near/san-francisco-ca-usa"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-3a997bc9ae8417",
+      "url": "https://www.partyslate.com/venues/presidio-chapel-at-the-presidio-by-wedgewood-weddings",
+      "name": "Presidio Chapel at the Presidio by Wedgewood Weddings",
+      "label_method": "Named downloaded index anchor",
+      "source_channels": [
+        "partyslate"
+      ],
+      "source_indexes": [
+        "https://www.partyslate.com/find-venues/near/san-francisco-ca-usa"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-896845f0e55351",
+      "url": "https://www.partyslate.com/venues/25-lusk",
+      "name": "25 Lusk",
+      "label_method": "Named downloaded index anchor",
+      "source_channels": [
+        "partyslate"
+      ],
+      "source_indexes": [
+        "https://www.partyslate.com/find-venues/near/san-francisco-ca-usa"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "25-lusk-clarke-san-francisco",
+        "25-lusk-cleveland-san-francisco",
+        "25-lusk-lower-lounge-san-francisco",
+        "25-lusk-main-dining-san-francisco",
+        "25-lusk-main-plus-lounge-san-francisco",
+        "25-lusk-ogden-san-francisco",
+        "25-lusk-rooftop-san-francisco",
+        "25-lusk-semi-private-lounge-san-francisco",
+        "25-lusk-whole-san-francisco"
+      ],
+      "match_method": "Exact normalized name only; identity/branch not confirmed"
+    },
+    {
+      "id": "directory-lead-a45ecbc35f5dbe",
+      "url": "https://www.partyslate.com/venues/san-francisco-design-center-galleria",
+      "name": "San Francisco Design Center Galleria",
+      "label_method": "Named downloaded index anchor",
+      "source_channels": [
+        "partyslate"
+      ],
+      "source_indexes": [
+        "https://www.partyslate.com/find-venues/near/san-francisco-ca-usa"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-06a88dc9d80cac",
+      "url": "https://www.partyslate.com/venues/pier-27",
+      "name": "Pier 27",
+      "label_method": "Named downloaded index anchor",
+      "source_channels": [
+        "partyslate"
+      ],
+      "source_indexes": [
+        "https://www.partyslate.com/find-venues/near/san-francisco-ca-usa"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-2446c8537fd7cf",
+      "url": "https://www.partyslate.com/venues/convene-100-stockton",
+      "name": "Convene 100 Stockton",
+      "label_method": "Named downloaded index anchor",
+      "source_channels": [
+        "partyslate"
+      ],
+      "source_indexes": [
+        "https://www.partyslate.com/find-venues/near/san-francisco-ca-usa"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-55629b4f169bf2",
+      "url": "https://www.partyslate.com/venues/bstar-bar",
+      "name": "BStar Bar",
+      "label_method": "Named downloaded index anchor",
+      "source_channels": [
+        "partyslate"
+      ],
+      "source_indexes": [
+        "https://www.partyslate.com/find-venues/near/san-francisco-ca-usa"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-1e1deb4f01393c",
+      "url": "https://www.partyslate.com/venues/conservatory-of-flowers",
+      "name": "Conservatory of Flowers",
+      "label_method": "Named downloaded index anchor",
+      "source_channels": [
+        "partyslate"
+      ],
+      "source_indexes": [
+        "https://www.partyslate.com/find-venues/near/san-francisco-ca-usa"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "conservatory-of-flowers-conservatory-galleries-san-francisco",
+        "conservatory-of-flowers-orchid-pavilion-san-francisco",
+        "conservatory-of-flowers-palm-terrace-san-francisco",
+        "conservatory-of-flowers-west-gallery-micro-ceremony-san-francisco"
+      ],
+      "match_method": "Exact normalized name only; identity/branch not confirmed"
+    },
+    {
+      "id": "directory-lead-3da980ebaa6a88",
+      "url": "https://www.partyslate.com/venues/the-newhall-nest",
+      "name": "The Newhall Nest",
+      "label_method": "Named downloaded index anchor",
+      "source_channels": [
+        "partyslate"
+      ],
+      "source_indexes": [
+        "https://www.partyslate.com/find-venues/near/san-francisco-ca-usa"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "the-newhall-nest-san-francisco"
+      ],
+      "match_method": "Exact normalized name only; identity/branch not confirmed"
+    },
+    {
+      "id": "directory-lead-745b126d53d06d",
+      "url": "https://www.partyslate.com/venues/the-pearl",
+      "name": "The Pearl",
+      "label_method": "Named downloaded index anchor",
+      "source_channels": [
+        "partyslate"
+      ],
+      "source_indexes": [
+        "https://www.partyslate.com/find-venues/near/san-francisco-ca-usa"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "the-pearl-san-francisco"
+      ],
+      "match_method": "Exact normalized name only; identity/branch not confirmed"
+    },
+    {
+      "id": "directory-lead-5b6eafb0228436",
+      "url": "https://www.partyslate.com/venues/the-melody-of-san-francisco",
+      "name": "The Melody of San Francisco",
+      "label_method": "Named downloaded index anchor",
+      "source_channels": [
+        "partyslate"
+      ],
+      "source_indexes": [
+        "https://www.partyslate.com/find-venues/near/san-francisco-ca-usa"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-1de3d6b94656bf",
+      "url": "https://www.partyslate.com/venues/school-night",
+      "name": "School Night",
+      "label_method": "Named downloaded index anchor",
+      "source_channels": [
+        "partyslate"
+      ],
+      "source_indexes": [
+        "https://www.partyslate.com/find-venues/near/san-francisco-ca-usa"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-d3f121584c424e",
+      "url": "https://www.partyslate.com/venues/w-san-francisco",
+      "name": "W San Francisco",
+      "label_method": "Named downloaded index anchor",
+      "source_channels": [
+        "partyslate"
+      ],
+      "source_indexes": [
+        "https://www.partyslate.com/find-venues/near/san-francisco-ca-usa"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "w-san-francisco-san-francisco"
+      ],
+      "match_method": "Exact normalized name only; identity/branch not confirmed"
+    },
+    {
+      "id": "directory-lead-9211f631499ede",
+      "url": "https://www.herecomestheguide.com/wedding-venues/northern-california/vineyards-at-nella-terra-cellars",
+      "name": "Nella Terra Cellars",
+      "label_method": "Named downloaded index anchor",
+      "source_channels": [
+        "hctg"
+      ],
+      "source_indexes": [
+        "https://www.herecomestheguide.com/wedding-venues/northern-california/region/bay-area"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "nella-terra-cellars-alameda"
+      ],
+      "match_method": "Exact previously recorded source URL; record scope still needs review"
+    },
+    {
+      "id": "directory-lead-aee83393f44ec5",
+      "url": "https://www.herecomestheguide.com/wedding-venues/northern-california/shadelands-ranch-museum",
+      "name": "Shadelands Ranch Museum",
+      "label_method": "Named downloaded index anchor",
+      "source_channels": [
+        "hctg"
+      ],
+      "source_indexes": [
+        "https://www.herecomestheguide.com/wedding-venues/northern-california/region/bay-area"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "shadelands-ranch-museum-contra-costa"
+      ],
+      "match_method": "Exact previously recorded source URL; record scope still needs review"
+    },
+    {
+      "id": "directory-lead-8d4c01cfb2e153",
+      "url": "https://www.herecomestheguide.com/wedding-venues/northern-california/monroe",
+      "name": "Monroe",
+      "label_method": "Named downloaded index anchor",
+      "source_channels": [
+        "hctg"
+      ],
+      "source_indexes": [
+        "https://www.herecomestheguide.com/wedding-venues/northern-california/region/bay-area"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    },
+    {
+      "id": "directory-lead-d24f60936f1f73",
+      "url": "https://www.herecomestheguide.com/wedding-venues/northern-california/log-cabin-at-the-presidio-by-wedgewood-weddings",
+      "name": "Log Cabin at the Presidio by Wedgewood Weddings",
+      "label_method": "Named downloaded index anchor",
+      "source_channels": [
+        "hctg"
+      ],
+      "source_indexes": [
+        "https://www.herecomestheguide.com/wedding-venues/northern-california/region/bay-area"
+      ],
+      "source_checked_utc": "2026-10-26T13:28:51.955107+00:00",
+      "original_publication_date": null,
+      "county": null,
+      "city": null,
+      "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "No exact URL/name match; this does not establish a new property"
+    }
+  ]
+}
