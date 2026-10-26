@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-26T11:41:22.852Z",
+  "updated_utc": "2026-10-26T11:58:47.097Z",
   "scope": "Nine Bay Area counties; directory boundaries and nearby results require validation. Nonexhaustive source registry.",
   "sources": [
     {
@@ -1042,6 +1042,19 @@
       "collected_profiles": 20,
       "new_venue_records": 49,
       "notes": "49rowsare rooms/combinedoffers/packages across11newproperties; fourArgonautaliasesmatchedexistingIDs.133initialrawrowsincluded4emptynestedduplicates. Successfularchivealoneisnotcompletedvenueverification."
+    },
+    {
+      "id": "morganhill-room-inventory",
+      "name": "Morgan Hill CCC / CRC / Council facility inventory",
+      "url": "https://www.morganhill.ca.gov/255/Room-Rentals",
+      "category": "Municipal government inventory",
+      "geography": "Santa Clara County; Morgan Hill city facilities",
+      "checked_utc": "2026-10-26T11:58:47.097Z",
+      "collection_status": "CurrentlinkedAug2026capacity/Jan2026fees and2024CCC/2025CRCpolicies read; cityinventorypartial",
+      "collection_method": "Robots-aware/rate-limited saved publicpage/PDFarchives",
+      "collected_profiles": 17,
+      "new_venue_records": 17,
+      "notes": "17configurationrows includeoneoverlappingHiramclear-floorlayout; threecampuses. CCCmidnightmusicdoesnotapplytoCRC/Council. Sports-onlygym/nofoodstudios excluded fromweddingreceptionchart."
     }
   ]
 }

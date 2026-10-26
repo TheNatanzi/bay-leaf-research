@@ -1,0 +1,13 @@
+'use strict';
+const assert=require('node:assert/strict'),d=require('./research.json'),e=require('./normalized-engine.js').create(d),by=new Map(d.venues.map(v=>[v.id,v]));
+const h=by.get('morganhill-hiram-santa-clara'),clear=by.get('morganhill-hiram-clear-santa-clara'),el=by.get('morganhill-eltoro-santa-clara'),crc=by.get('morganhill-crc-multipurpose-santa-clara');
+assert.equal(e.value(h,'capacity_max'),300);assert.equal(e.value(h,'capacity_dinner_dance'),260);assert.equal(e.value(clear,'capacity_dinner_dance'),220);assert.equal(e.record(h).property_id,e.record(clear).property_id);assert.equal(e.value(el,'capacity_dinner_dance'),80);
+assert.equal(e.value(h,'music_indoor'),1440);assert.equal(e.value(h,'outside_catering'),'conditional');assert.equal(e.value(h,'cleanup_end'),null);assert.equal(e.value(h,'minimum_rental_hours'),null);assert.equal(e.value(h,'security_hourly'),48);assert.equal(e.value(h,'security_min_hours'),3);
+const c={guests:100,hours:8,eventDate:'2027-05-15',mode:'venue_only',venueFee:1000,fixed:0,servicePct:0,taxPct:0,otherCostsConfirmed:true,securityMode:'calculate',securityCount:2,securityHours:10,securityRate:''};
+const amount=s=>s.components.find(x=>x.name.startsWith('Security ('))?.low;
+assert.equal(amount(e.scenario(h,c)),1052);assert.equal(amount(e.scenario(h,{...c,securityHours:8})),768);assert.equal(amount(e.scenario(h,{...c,securityCount:1,securityHours:8.5})),419.5);
+const low=e.scenario(h,{...c,securityRate:40});assert.equal(amount(low),1052);assert.ok(low.missing.includes('assumed security rate below published tiered amount'));assert.equal(low.complete,false);assert.equal(amount(e.scenario(h,{...c,securityRate:80})),1600);
+assert.ok(e.scenario(h,{...c,securityHours:2}).missing.includes('security billable hours below published minimum'));
+assert.ok(e.scenario(h,{...c,mode:'separate',food:50,foodBasis:'outside_caterer',bar:0}).missing.includes('outside caterer permission for selected food assumption'));
+assert.equal(e.value(crc,'byob'),'no');assert.equal(e.value(crc,'music_indoor'),null);assert.equal(e.value(crc,'capacity_dinner_dance'),50);assert.equal(e.value(by.get('morganhill-amphitheater-santa-clara'),'music_outdoor'),1320);assert.equal(e.value(by.get('morganhill-amphitheater-santa-clara'),'capacity_dinner_dance'),null);assert.ok(!by.has('morganhill-crc-gym-santa-clara'));
+console.log('Morgan Hill: real dance layouts, scoped midnight music, conditional kitchen, separate campuses, exclusions and source-backed security tiers passed.');

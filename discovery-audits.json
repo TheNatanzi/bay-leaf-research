@@ -5838,5 +5838,50 @@
     "gaps": [
       "OriginalJuneBugpublicationdate, exactstartupbudgets/auditedearnings, additionalfirsthandBayAreaoperatoraccounts andcurrentregulatoryverification."
     ]
+  },
+  {
+    "pass": 87,
+    "checked_utc": "2026-10-26T11:57:37.574525+00:00",
+    "question": "Which late-music candidates have explicit policy, real dance layouts and hidden staffing/vendor constraints?",
+    "sources": [
+      "https://www.morganhill.ca.gov/255/Room-Rentals",
+      "https://www.morganhill.ca.gov/DocumentCenter/View/20408",
+      "https://www.morganhill.ca.gov/DocumentCenter/View/56013/Room-Rental---Rates---Effective-January-1st-2026",
+      "https://www.morganhill.ca.gov/DocumentCenter/View/547",
+      "https://www.morganhill.ca.gov/DocumentCenter/View/45597"
+    ],
+    "added": [
+      "morganhill-hiram-santa-clara",
+      "morganhill-hiram-clear-santa-clara",
+      "morganhill-eltoro-santa-clara",
+      "morganhill-diana-santa-clara",
+      "morganhill-machado-santa-clara",
+      "morganhill-madrone-santa-clara",
+      "morganhill-poppy-santa-clara",
+      "morganhill-miramonte-santa-clara",
+      "morganhill-playhouse-santa-clara",
+      "morganhill-amphitheater-santa-clara",
+      "morganhill-chambers-santa-clara",
+      "morganhill-chambers-meeting-santa-clara",
+      "morganhill-crc-multipurpose-santa-clara",
+      "morganhill-crc-meeting1-santa-clara",
+      "morganhill-crc-meeting2-santa-clara",
+      "morganhill-crc-party-santa-clara",
+      "morganhill-crc-teen-santa-clara"
+    ],
+    "duplicates": [
+      "Hiramclearfloor220is an explicit overlapping layout within same room/property; not separate physicalvenue."
+    ],
+    "exclusions": [
+      "CRCgym700is sports-only/nofood; exercise studios nofood/athleticshoes, not importedasweddingreceptionvenues.",
+      "No transfer of CCCalcohol/midnightmusic toCRC/Councilcampuses.",
+      "Amphitheater3000picnicwithoutchairs not3000banquet;300chaircapacity distinct.",
+      "No mandatory1200upgrade: optionalfullfacilityaccess after16:00is notrealestatebuyoutoroperatinglease.",
+      "Shared kitchen/reheating permission not blanketapprovalfor any outsidecaterer50buffet."
+    ],
+    "gaps": [
+      "Currentwrittenquotes, actualguardeachhours/attendance, paidrentalwindows, alcoholbarclock, vendorworkflow andfullmandatorycharges.",
+      "Othercity/district/park/privateinventoryremainsunaudited."
+    ]
   }
 ]

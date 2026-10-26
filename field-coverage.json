@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-26T11:49:40.592Z",
-  "records": 1898,
-  "provisional_property_groups": 747,
+  "generated_utc": "2026-10-26T11:58:48.534Z",
+  "records": 1915,
+  "provisional_property_groups": 750,
   "typed_fields": 106,
   "scope": "Counts are discovery records, including overlapping rooms/packages. Known numbers may be directory-reported, dated or conditional; they are not proof of legal wedding suitability.",
   "gap_method": "Searched-no-answer means a dated source review outcome is logged. Other unresolved/unlogged gaps combine untouched fields and recorded facts needing extraction or confirmation; absence of an attempt does not prove no page was ever read.",
@@ -10,14 +10,14 @@
       "id": "capacity_max",
       "label": "Max published capacity",
       "group": "Capacity",
-      "total_records": 1898,
-      "known_values": 1144,
-      "known_percent": 60.273972602739725,
+      "total_records": 1915,
+      "known_values": 1161,
+      "known_percent": 60.62663185378591,
       "searched_no_public_answer": 4,
       "conflicting": 10,
       "other_unresolved_or_unlogged": 740,
       "status_counts": {
-        "published_evidence": 1144,
+        "published_evidence": 1161,
         "not_yet_extracted": 740,
         "conflicting": 10,
         "searched_no_public_answer": 4
@@ -27,15 +27,15 @@
       "id": "capacity_seated",
       "label": "Seated capacity",
       "group": "Capacity",
-      "total_records": 1898,
-      "known_values": 536,
-      "known_percent": 28.240252897787144,
+      "total_records": 1915,
+      "known_values": 540,
+      "known_percent": 28.198433420365536,
       "searched_no_public_answer": 14,
       "conflicting": 4,
-      "other_unresolved_or_unlogged": 1344,
+      "other_unresolved_or_unlogged": 1357,
       "status_counts": {
-        "published_evidence": 536,
-        "not_yet_extracted": 1344,
+        "published_evidence": 540,
+        "not_yet_extracted": 1357,
         "conflicting": 4,
         "searched_no_public_answer": 14
       }
@@ -44,14 +44,14 @@
       "id": "capacity_standing",
       "label": "Standing capacity",
       "group": "Capacity",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 326,
-      "known_percent": 17.175974710221286,
+      "known_percent": 17.023498694516974,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1572,
+      "other_unresolved_or_unlogged": 1589,
       "status_counts": {
-        "not_yet_extracted": 1572,
+        "not_yet_extracted": 1589,
         "published_evidence": 326
       }
     },
@@ -59,17 +59,17 @@
       "id": "capacity_dinner_dance",
       "label": "Dinner + dance capacity",
       "group": "Capacity",
-      "total_records": 1898,
-      "known_values": 14,
-      "known_percent": 0.7376185458377239,
-      "searched_no_public_answer": 190,
+      "total_records": 1915,
+      "known_values": 18,
+      "known_percent": 0.9399477806788512,
+      "searched_no_public_answer": 203,
       "conflicting": 24,
       "other_unresolved_or_unlogged": 1670,
       "status_counts": {
         "not_yet_extracted": 800,
         "needs_confirmation": 870,
-        "searched_no_public_answer": 190,
-        "published_evidence": 14,
+        "searched_no_public_answer": 203,
+        "published_evidence": 18,
         "conflicting": 24
       }
     },
@@ -77,14 +77,14 @@
       "id": "capacity_rain_backup",
       "label": "Rain-backup dinner + dance",
       "group": "Capacity",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 0,
       "known_percent": 0,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1898,
+      "other_unresolved_or_unlogged": 1915,
       "status_counts": {
-        "not_yet_extracted": 1887,
+        "not_yet_extracted": 1904,
         "needs_confirmation": 11
       }
     },
@@ -92,14 +92,14 @@
       "id": "capacity_ceremony",
       "label": "Ceremony seating",
       "group": "Capacity",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 3,
-      "known_percent": 0.15806111696522657,
+      "known_percent": 0.1566579634464752,
       "searched_no_public_answer": 0,
       "conflicting": 3,
-      "other_unresolved_or_unlogged": 1892,
+      "other_unresolved_or_unlogged": 1909,
       "status_counts": {
-        "not_yet_extracted": 1892,
+        "not_yet_extracted": 1909,
         "conflicting": 3,
         "published_evidence": 3
       }
@@ -108,46 +108,46 @@
       "id": "capacity_indoor",
       "label": "Indoor published capacity",
       "group": "Capacity",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 3,
-      "known_percent": 0.15806111696522657,
+      "known_percent": 0.1566579634464752,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1895,
+      "other_unresolved_or_unlogged": 1912,
       "status_counts": {
         "published_evidence": 3,
-        "not_yet_extracted": 1895
+        "not_yet_extracted": 1912
       }
     },
     {
       "id": "capacity_outdoor",
       "label": "Outdoor published capacity",
       "group": "Capacity",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 2,
-      "known_percent": 0.10537407797681769,
+      "known_percent": 0.10443864229765012,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1896,
+      "other_unresolved_or_unlogged": 1913,
       "status_counts": {
         "published_evidence": 2,
-        "not_yet_extracted": 1896
+        "not_yet_extracted": 1913
       }
     },
     {
       "id": "fee_min",
       "label": "Event fee min",
       "group": "Costs",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 252,
-      "known_percent": 13.27713382507903,
-      "searched_no_public_answer": 175,
+      "known_percent": 13.159268929503916,
+      "searched_no_public_answer": 192,
       "conflicting": 6,
       "other_unresolved_or_unlogged": 1465,
       "status_counts": {
         "published_evidence": 252,
         "not_yet_extracted": 1100,
-        "searched_no_public_answer": 175,
+        "searched_no_public_answer": 192,
         "needs_confirmation": 365,
         "conflicting": 6
       }
@@ -156,16 +156,16 @@
       "id": "fee_max",
       "label": "Event fee max",
       "group": "Costs",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 247,
-      "known_percent": 13.013698630136986,
-      "searched_no_public_answer": 179,
+      "known_percent": 12.898172323759791,
+      "searched_no_public_answer": 196,
       "conflicting": 4,
       "other_unresolved_or_unlogged": 1468,
       "status_counts": {
         "published_evidence": 247,
         "not_yet_extracted": 1468,
-        "searched_no_public_answer": 179,
+        "searched_no_public_answer": 196,
         "conflicting": 4
       }
     },
@@ -173,14 +173,14 @@
       "id": "fixed_mandatory",
       "label": "Additional mandatory fixed charges",
       "group": "Costs",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 4,
-      "known_percent": 0.21074815595363539,
+      "known_percent": 0.20887728459530025,
       "searched_no_public_answer": 48,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1846,
+      "other_unresolved_or_unlogged": 1863,
       "status_counts": {
-        "not_yet_extracted": 1846,
+        "not_yet_extracted": 1863,
         "published_evidence": 4,
         "searched_no_public_answer": 48
       }
@@ -189,14 +189,14 @@
       "id": "minimum_spend",
       "label": "Mandatory spend floor",
       "group": "Costs",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 5,
-      "known_percent": 0.26343519494204426,
+      "known_percent": 0.26109660574412535,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1893,
+      "other_unresolved_or_unlogged": 1910,
       "status_counts": {
-        "not_yet_extracted": 1893,
+        "not_yet_extracted": 1910,
         "published_evidence": 5
       }
     },
@@ -204,14 +204,14 @@
       "id": "ceremony_fee",
       "label": "Additional ceremony fee",
       "group": "Costs",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 1,
-      "known_percent": 0.052687038988408846,
+      "known_percent": 0.05221932114882506,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1897,
+      "other_unresolved_or_unlogged": 1914,
       "status_counts": {
-        "not_yet_extracted": 1897,
+        "not_yet_extracted": 1914,
         "published_evidence": 1
       }
     },
@@ -219,15 +219,15 @@
       "id": "deposit_refundable",
       "label": "Refundable damage/security deposit",
       "group": "Costs",
-      "total_records": 1898,
-      "known_values": 197,
-      "known_percent": 10.379346680716543,
+      "total_records": 1915,
+      "known_values": 206,
+      "known_percent": 10.757180156657963,
       "searched_no_public_answer": 11,
       "conflicting": 2,
-      "other_unresolved_or_unlogged": 1688,
+      "other_unresolved_or_unlogged": 1696,
       "status_counts": {
-        "not_yet_extracted": 1664,
-        "published_evidence": 197,
+        "not_yet_extracted": 1672,
+        "published_evidence": 206,
         "needs_confirmation": 24,
         "conflicting": 2,
         "searched_no_public_answer": 11
@@ -237,14 +237,14 @@
       "id": "booking_credit",
       "label": "Booking payment credited to fee",
       "group": "Costs",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 2,
-      "known_percent": 0.10537407797681769,
+      "known_percent": 0.10443864229765012,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1896,
+      "other_unresolved_or_unlogged": 1913,
       "status_counts": {
-        "not_yet_extracted": 1896,
+        "not_yet_extracted": 1913,
         "published_evidence": 2
       }
     },
@@ -252,14 +252,14 @@
       "id": "cleaning_fee",
       "label": "Separate cleaning charge",
       "group": "Costs",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 11,
-      "known_percent": 0.5795574288724974,
+      "known_percent": 0.5744125326370757,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1887,
+      "other_unresolved_or_unlogged": 1904,
       "status_counts": {
-        "not_yet_extracted": 1887,
+        "not_yet_extracted": 1904,
         "published_evidence": 11
       }
     },
@@ -267,14 +267,14 @@
       "id": "food_min",
       "label": "Food min / guest",
       "group": "Costs",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 35,
-      "known_percent": 1.84404636459431,
+      "known_percent": 1.8276762402088773,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1863,
+      "other_unresolved_or_unlogged": 1880,
       "status_counts": {
-        "not_yet_extracted": 1809,
+        "not_yet_extracted": 1826,
         "published_evidence": 35,
         "needs_confirmation": 54
       }
@@ -283,14 +283,14 @@
       "id": "food_max",
       "label": "Food max / guest",
       "group": "Costs",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 20,
-      "known_percent": 1.053740779768177,
+      "known_percent": 1.0443864229765014,
       "searched_no_public_answer": 0,
       "conflicting": 4,
-      "other_unresolved_or_unlogged": 1874,
+      "other_unresolved_or_unlogged": 1891,
       "status_counts": {
-        "not_yet_extracted": 1874,
+        "not_yet_extracted": 1891,
         "published_evidence": 20,
         "conflicting": 4
       }
@@ -299,14 +299,14 @@
       "id": "bar_min",
       "label": "Bar min / guest",
       "group": "Costs",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 1,
-      "known_percent": 0.052687038988408846,
+      "known_percent": 0.05221932114882506,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1897,
+      "other_unresolved_or_unlogged": 1914,
       "status_counts": {
-        "not_yet_extracted": 1873,
+        "not_yet_extracted": 1890,
         "needs_confirmation": 24,
         "published_evidence": 1
       }
@@ -315,14 +315,14 @@
       "id": "bar_max",
       "label": "Bar max / guest",
       "group": "Costs",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 0,
       "known_percent": 0,
       "searched_no_public_answer": 10,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1888,
+      "other_unresolved_or_unlogged": 1905,
       "status_counts": {
-        "not_yet_extracted": 1888,
+        "not_yet_extracted": 1905,
         "searched_no_public_answer": 10
       }
     },
@@ -330,14 +330,14 @@
       "id": "package_min",
       "label": "Combined package min / guest",
       "group": "Costs",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 54,
-      "known_percent": 2.845100105374078,
+      "known_percent": 2.8198433420365534,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1844,
+      "other_unresolved_or_unlogged": 1861,
       "status_counts": {
-        "not_yet_extracted": 1844,
+        "not_yet_extracted": 1861,
         "published_evidence": 54
       }
     },
@@ -345,14 +345,14 @@
       "id": "package_max",
       "label": "Combined package max / guest",
       "group": "Costs",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 52,
-      "known_percent": 2.73972602739726,
+      "known_percent": 2.715404699738903,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1846,
+      "other_unresolved_or_unlogged": 1863,
       "status_counts": {
-        "not_yet_extracted": 1846,
+        "not_yet_extracted": 1863,
         "published_evidence": 52
       }
     },
@@ -360,14 +360,14 @@
       "id": "fb_minimum",
       "label": "Food/bar minimum / guest",
       "group": "Costs",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 4,
-      "known_percent": 0.21074815595363539,
+      "known_percent": 0.20887728459530025,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1894,
+      "other_unresolved_or_unlogged": 1911,
       "status_counts": {
-        "not_yet_extracted": 1894,
+        "not_yet_extracted": 1911,
         "published_evidence": 4
       }
     },
@@ -375,14 +375,14 @@
       "id": "service_pct",
       "label": "Service/admin charge",
       "group": "Costs",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 111,
-      "known_percent": 5.848261327713383,
+      "known_percent": 5.796344647519582,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1787,
+      "other_unresolved_or_unlogged": 1804,
       "status_counts": {
-        "not_yet_extracted": 1772,
+        "not_yet_extracted": 1789,
         "published_evidence": 111,
         "needs_confirmation": 15
       }
@@ -391,14 +391,14 @@
       "id": "tax_pct",
       "label": "Tax rate",
       "group": "Costs",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 9,
-      "known_percent": 0.4741833508956797,
+      "known_percent": 0.4699738903394256,
       "searched_no_public_answer": 0,
       "conflicting": 9,
-      "other_unresolved_or_unlogged": 1880,
+      "other_unresolved_or_unlogged": 1897,
       "status_counts": {
-        "not_yet_extracted": 1880,
+        "not_yet_extracted": 1897,
         "conflicting": 9,
         "published_evidence": 9
       }
@@ -407,14 +407,14 @@
       "id": "rental_hours",
       "label": "Included rental hours",
       "group": "Costs",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 7,
-      "known_percent": 0.36880927291886195,
+      "known_percent": 0.36553524804177545,
       "searched_no_public_answer": 2,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1889,
+      "other_unresolved_or_unlogged": 1906,
       "status_counts": {
-        "not_yet_extracted": 1889,
+        "not_yet_extracted": 1906,
         "published_evidence": 7,
         "searched_no_public_answer": 2
       }
@@ -423,14 +423,14 @@
       "id": "minimum_rental_hours",
       "label": "Minimum rental hours",
       "group": "Costs",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 37,
-      "known_percent": 1.9494204425711277,
+      "known_percent": 1.9321148825065273,
       "searched_no_public_answer": 3,
       "conflicting": 2,
-      "other_unresolved_or_unlogged": 1856,
+      "other_unresolved_or_unlogged": 1873,
       "status_counts": {
-        "not_yet_extracted": 1856,
+        "not_yet_extracted": 1873,
         "published_evidence": 37,
         "searched_no_public_answer": 3,
         "conflicting": 2
@@ -440,30 +440,30 @@
       "id": "bar_hours",
       "label": "Included bar hours",
       "group": "Costs",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 0,
       "known_percent": 0,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1898,
+      "other_unresolved_or_unlogged": 1915,
       "status_counts": {
-        "not_yet_extracted": 1898
+        "not_yet_extracted": 1915
       }
     },
     {
       "id": "hourly_fee",
       "label": "Venue hourly fee",
       "group": "Costs",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 21,
-      "known_percent": 1.106427818756586,
-      "searched_no_public_answer": 40,
+      "known_percent": 1.0966057441253265,
+      "searched_no_public_answer": 57,
       "conflicting": 4,
       "other_unresolved_or_unlogged": 1833,
       "status_counts": {
         "not_yet_extracted": 1833,
         "needs_confirmation": 21,
-        "searched_no_public_answer": 40,
+        "searched_no_public_answer": 57,
         "conflicting": 4
       }
     },
@@ -471,14 +471,14 @@
       "id": "overtime_hourly",
       "label": "Overtime hourly charge",
       "group": "Costs",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 2,
-      "known_percent": 0.10537407797681769,
+      "known_percent": 0.10443864229765012,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1896,
+      "other_unresolved_or_unlogged": 1913,
       "status_counts": {
-        "not_yet_extracted": 1896,
+        "not_yet_extracted": 1913,
         "published_evidence": 2
       }
     },
@@ -486,46 +486,46 @@
       "id": "security_hourly",
       "label": "Security hourly charge",
       "group": "Costs",
-      "total_records": 1898,
-      "known_values": 31,
-      "known_percent": 1.6332982086406742,
+      "total_records": 1915,
+      "known_values": 40,
+      "known_percent": 2.088772845953003,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1867,
+      "other_unresolved_or_unlogged": 1875,
       "status_counts": {
-        "not_yet_extracted": 1867,
-        "published_evidence": 31
+        "not_yet_extracted": 1875,
+        "published_evidence": 40
       }
     },
     {
       "id": "staff_hourly",
       "label": "Required staff hourly charge",
       "group": "Costs",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 0,
       "known_percent": 0,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1898,
+      "other_unresolved_or_unlogged": 1915,
       "status_counts": {
-        "not_yet_extracted": 1898
+        "not_yet_extracted": 1915
       }
     },
     {
       "id": "music_indoor",
       "label": "Indoor music cutoff",
       "group": "Time cutoffs",
-      "total_records": 1898,
-      "known_values": 44,
-      "known_percent": 2.3182297154899896,
-      "searched_no_public_answer": 167,
+      "total_records": 1915,
+      "known_values": 53,
+      "known_percent": 2.7676240208877285,
+      "searched_no_public_answer": 174,
       "conflicting": 4,
-      "other_unresolved_or_unlogged": 1683,
+      "other_unresolved_or_unlogged": 1684,
       "status_counts": {
-        "not_yet_extracted": 1622,
-        "searched_no_public_answer": 167,
+        "not_yet_extracted": 1623,
+        "searched_no_public_answer": 174,
         "needs_confirmation": 61,
-        "published_evidence": 44,
+        "published_evidence": 53,
         "conflicting": 4
       }
     },
@@ -533,16 +533,16 @@
       "id": "music_outdoor",
       "label": "Outdoor music cutoff",
       "group": "Time cutoffs",
-      "total_records": 1898,
-      "known_values": 37,
-      "known_percent": 1.9494204425711277,
+      "total_records": 1915,
+      "known_values": 38,
+      "known_percent": 1.9843342036553524,
       "searched_no_public_answer": 50,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1811,
+      "other_unresolved_or_unlogged": 1827,
       "status_counts": {
-        "not_yet_extracted": 1623,
+        "not_yet_extracted": 1639,
         "needs_confirmation": 188,
-        "published_evidence": 37,
+        "published_evidence": 38,
         "searched_no_public_answer": 50
       }
     },
@@ -550,14 +550,14 @@
       "id": "bar_end",
       "label": "Bar cutoff",
       "group": "Time cutoffs",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 3,
-      "known_percent": 0.15806111696522657,
+      "known_percent": 0.1566579634464752,
       "searched_no_public_answer": 4,
       "conflicting": 1,
-      "other_unresolved_or_unlogged": 1890,
+      "other_unresolved_or_unlogged": 1907,
       "status_counts": {
-        "not_yet_extracted": 1833,
+        "not_yet_extracted": 1850,
         "published_evidence": 3,
         "needs_confirmation": 57,
         "conflicting": 1,
@@ -568,16 +568,16 @@
       "id": "event_end",
       "label": "Event end",
       "group": "Time cutoffs",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 33,
-      "known_percent": 1.738672286617492,
-      "searched_no_public_answer": 28,
+      "known_percent": 1.723237597911227,
+      "searched_no_public_answer": 45,
       "conflicting": 23,
       "other_unresolved_or_unlogged": 1814,
       "status_counts": {
         "not_yet_extracted": 1814,
         "conflicting": 23,
-        "searched_no_public_answer": 28,
+        "searched_no_public_answer": 45,
         "published_evidence": 33
       }
     },
@@ -585,14 +585,14 @@
       "id": "guest_departure",
       "label": "Guest departure",
       "group": "Time cutoffs",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 12,
-      "known_percent": 0.6322444678609063,
+      "known_percent": 0.6266318537859008,
       "searched_no_public_answer": 13,
       "conflicting": 10,
-      "other_unresolved_or_unlogged": 1863,
+      "other_unresolved_or_unlogged": 1880,
       "status_counts": {
-        "not_yet_extracted": 1861,
+        "not_yet_extracted": 1878,
         "needs_confirmation": 2,
         "published_evidence": 12,
         "conflicting": 10,
@@ -603,10 +603,10 @@
       "id": "cleanup_end",
       "label": "Cleanup / load-out deadline",
       "group": "Time cutoffs",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 52,
-      "known_percent": 2.73972602739726,
-      "searched_no_public_answer": 119,
+      "known_percent": 2.715404699738903,
+      "searched_no_public_answer": 136,
       "conflicting": 14,
       "other_unresolved_or_unlogged": 1713,
       "status_counts": {
@@ -614,21 +614,21 @@
         "needs_confirmation": 48,
         "published_evidence": 52,
         "conflicting": 14,
-        "searched_no_public_answer": 119
+        "searched_no_public_answer": 136
       }
     },
     {
       "id": "load_in",
       "label": "Vendor load-in start",
       "group": "Time cutoffs",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 0,
       "known_percent": 0,
       "searched_no_public_answer": 1,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1897,
+      "other_unresolved_or_unlogged": 1914,
       "status_counts": {
-        "not_yet_extracted": 1897,
+        "not_yet_extracted": 1914,
         "searched_no_public_answer": 1
       }
     },
@@ -636,14 +636,14 @@
       "id": "parking_spaces",
       "label": "Parking spaces",
       "group": "Amenities",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 15,
-      "known_percent": 0.7903055848261329,
+      "known_percent": 0.7832898172323759,
       "searched_no_public_answer": 0,
       "conflicting": 15,
-      "other_unresolved_or_unlogged": 1868,
+      "other_unresolved_or_unlogged": 1885,
       "status_counts": {
-        "not_yet_extracted": 1765,
+        "not_yet_extracted": 1782,
         "published_evidence": 15,
         "needs_confirmation": 103,
         "conflicting": 15
@@ -653,14 +653,14 @@
       "id": "lodging_rooms",
       "label": "Lodging rooms",
       "group": "Amenities",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 0,
       "known_percent": 0,
       "searched_no_public_answer": 2,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1896,
+      "other_unresolved_or_unlogged": 1913,
       "status_counts": {
-        "not_yet_extracted": 1885,
+        "not_yet_extracted": 1902,
         "needs_confirmation": 11,
         "searched_no_public_answer": 2
       }
@@ -669,14 +669,14 @@
       "id": "beds",
       "label": "Beds",
       "group": "Amenities",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 1,
-      "known_percent": 0.052687038988408846,
+      "known_percent": 0.05221932114882506,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1897,
+      "other_unresolved_or_unlogged": 1914,
       "status_counts": {
-        "not_yet_extracted": 1897,
+        "not_yet_extracted": 1914,
         "published_evidence": 1
       }
     },
@@ -684,14 +684,14 @@
       "id": "toilets",
       "label": "Toilets",
       "group": "Amenities",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 0,
       "known_percent": 0,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1898,
+      "other_unresolved_or_unlogged": 1915,
       "status_counts": {
-        "not_yet_extracted": 1878,
+        "not_yet_extracted": 1895,
         "needs_confirmation": 20
       }
     },
@@ -699,14 +699,14 @@
       "id": "chairs",
       "label": "Included chairs",
       "group": "Amenities",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 2,
-      "known_percent": 0.10537407797681769,
+      "known_percent": 0.10443864229765012,
       "searched_no_public_answer": 0,
       "conflicting": 3,
-      "other_unresolved_or_unlogged": 1893,
+      "other_unresolved_or_unlogged": 1910,
       "status_counts": {
-        "not_yet_extracted": 1878,
+        "not_yet_extracted": 1895,
         "published_evidence": 2,
         "needs_confirmation": 15,
         "conflicting": 3
@@ -716,14 +716,14 @@
       "id": "tables",
       "label": "Included tables",
       "group": "Amenities",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 27,
-      "known_percent": 1.422550052687039,
+      "known_percent": 1.4099216710182767,
       "searched_no_public_answer": 0,
       "conflicting": 4,
-      "other_unresolved_or_unlogged": 1867,
+      "other_unresolved_or_unlogged": 1884,
       "status_counts": {
-        "not_yet_extracted": 1835,
+        "not_yet_extracted": 1852,
         "published_evidence": 27,
         "needs_confirmation": 32,
         "conflicting": 4
@@ -733,156 +733,156 @@
       "id": "security_count",
       "label": "Required security staff",
       "group": "Amenities",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 0,
       "known_percent": 0,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1898,
+      "other_unresolved_or_unlogged": 1915,
       "status_counts": {
-        "not_yet_extracted": 1898
+        "not_yet_extracted": 1915
       }
     },
     {
       "id": "staff_count",
       "label": "Required staff",
       "group": "Amenities",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 0,
       "known_percent": 0,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1898,
+      "other_unresolved_or_unlogged": 1915,
       "status_counts": {
-        "not_yet_extracted": 1898
+        "not_yet_extracted": 1915
       }
     },
     {
       "id": "staff_hours",
       "label": "Staff hours / event",
       "group": "Amenities",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 0,
       "known_percent": 0,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1898,
+      "other_unresolved_or_unlogged": 1915,
       "status_counts": {
-        "not_yet_extracted": 1898
+        "not_yet_extracted": 1915
       }
     },
     {
       "id": "area_sqft",
       "label": "Event area",
       "group": "Amenities",
-      "total_records": 1898,
-      "known_values": 40,
-      "known_percent": 2.107481559536354,
+      "total_records": 1915,
+      "known_values": 55,
+      "known_percent": 2.8720626631853787,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1858,
+      "other_unresolved_or_unlogged": 1860,
       "status_counts": {
-        "not_yet_extracted": 1858,
-        "published_evidence": 40
+        "not_yet_extracted": 1860,
+        "published_evidence": 55
       }
     },
     {
       "id": "land_acres",
       "label": "Property acreage",
       "group": "Amenities",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 1,
-      "known_percent": 0.052687038988408846,
+      "known_percent": 0.05221932114882506,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1897,
+      "other_unresolved_or_unlogged": 1914,
       "status_counts": {
         "published_evidence": 1,
-        "not_yet_extracted": 1897
+        "not_yet_extracted": 1914
       }
     },
     {
       "id": "parking_cost",
       "label": "Parking charge",
       "group": "Amenities",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 0,
       "known_percent": 0,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1898,
+      "other_unresolved_or_unlogged": 1915,
       "status_counts": {
-        "not_yet_extracted": 1898
+        "not_yet_extracted": 1915
       }
     },
     {
       "id": "hotel_minutes",
       "label": "Hotel travel time",
       "group": "Travel",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 0,
       "known_percent": 0,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1898,
+      "other_unresolved_or_unlogged": 1915,
       "status_counts": {
-        "not_yet_extracted": 1898
+        "not_yet_extracted": 1915
       }
     },
     {
       "id": "airport_minutes",
       "label": "Airport travel time",
       "group": "Travel",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 0,
       "known_percent": 0,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1898,
+      "other_unresolved_or_unlogged": 1915,
       "status_counts": {
-        "not_yet_extracted": 1898
+        "not_yet_extracted": 1915
       }
     },
     {
       "id": "hotel_miles",
       "label": "Hotel distance",
       "group": "Travel",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 0,
       "known_percent": 0,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1898,
+      "other_unresolved_or_unlogged": 1915,
       "status_counts": {
-        "not_yet_extracted": 1898
+        "not_yet_extracted": 1915
       }
     },
     {
       "id": "airport_miles",
       "label": "Airport distance",
       "group": "Travel",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 0,
       "known_percent": 0,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1898,
+      "other_unresolved_or_unlogged": 1915,
       "status_counts": {
-        "not_yet_extracted": 1898
+        "not_yet_extracted": 1915
       }
     },
     {
       "id": "construction_year",
       "label": "Construction year",
       "group": "History",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 81,
-      "known_percent": 4.267650158061117,
+      "known_percent": 4.22976501305483,
       "searched_no_public_answer": 1,
       "conflicting": 2,
-      "other_unresolved_or_unlogged": 1814,
+      "other_unresolved_or_unlogged": 1831,
       "status_counts": {
-        "not_yet_extracted": 1814,
+        "not_yet_extracted": 1831,
         "published_evidence": 81,
         "conflicting": 2,
         "searched_no_public_answer": 1
@@ -892,14 +892,14 @@
       "id": "wedding_opening_year",
       "label": "First wedding-operation year",
       "group": "History",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 0,
       "known_percent": 0,
       "searched_no_public_answer": 22,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1876,
+      "other_unresolved_or_unlogged": 1893,
       "status_counts": {
-        "not_yet_extracted": 1876,
+        "not_yet_extracted": 1893,
         "searched_no_public_answer": 22
       }
     },
@@ -907,14 +907,14 @@
       "id": "operator_start_year",
       "label": "Current operator start year",
       "group": "History",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 15,
-      "known_percent": 0.7903055848261329,
+      "known_percent": 0.7832898172323759,
       "searched_no_public_answer": 5,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1878,
+      "other_unresolved_or_unlogged": 1895,
       "status_counts": {
-        "not_yet_extracted": 1878,
+        "not_yet_extracted": 1895,
         "published_evidence": 15,
         "searched_no_public_answer": 5
       }
@@ -923,14 +923,14 @@
       "id": "assessment_total",
       "label": "Assessed value",
       "group": "Valuation",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 48,
-      "known_percent": 2.528977871443625,
+      "known_percent": 2.506527415143603,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1850,
+      "other_unresolved_or_unlogged": 1867,
       "status_counts": {
-        "not_yet_extracted": 1850,
+        "not_yet_extracted": 1867,
         "published_evidence": 48
       }
     },
@@ -938,14 +938,14 @@
       "id": "property_asking",
       "label": "Property asking price",
       "group": "Valuation",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 1,
-      "known_percent": 0.052687038988408846,
+      "known_percent": 0.05221932114882506,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1897,
+      "other_unresolved_or_unlogged": 1914,
       "status_counts": {
-        "not_yet_extracted": 1897,
+        "not_yet_extracted": 1914,
         "published_evidence": 1
       }
     },
@@ -953,99 +953,99 @@
       "id": "business_asking",
       "label": "Business asking price",
       "group": "Valuation",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 0,
       "known_percent": 0,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1898,
+      "other_unresolved_or_unlogged": 1915,
       "status_counts": {
-        "not_yet_extracted": 1898
+        "not_yet_extracted": 1915
       }
     },
     {
       "id": "closed_sale",
       "label": "Reported closed-sale price",
       "group": "Valuation",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 0,
       "known_percent": 0,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1898,
+      "other_unresolved_or_unlogged": 1915,
       "status_counts": {
-        "not_yet_extracted": 1898
+        "not_yet_extracted": 1915
       }
     },
     {
       "id": "property_appraisal_min",
       "label": "Property market value min",
       "group": "Valuation",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 0,
       "known_percent": 0,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1898,
+      "other_unresolved_or_unlogged": 1915,
       "status_counts": {
-        "needs_confirmation": 1898
+        "needs_confirmation": 1915
       }
     },
     {
       "id": "property_appraisal_max",
       "label": "Property market value max",
       "group": "Valuation",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 0,
       "known_percent": 0,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1898,
+      "other_unresolved_or_unlogged": 1915,
       "status_counts": {
-        "needs_confirmation": 1898
+        "needs_confirmation": 1915
       }
     },
     {
       "id": "business_value_min",
       "label": "Operating-business value min",
       "group": "Valuation",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 0,
       "known_percent": 0,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1898,
+      "other_unresolved_or_unlogged": 1915,
       "status_counts": {
-        "needs_confirmation": 1898
+        "needs_confirmation": 1915
       }
     },
     {
       "id": "business_value_max",
       "label": "Operating-business value max",
       "group": "Valuation",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 0,
       "known_percent": 0,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1898,
+      "other_unresolved_or_unlogged": 1915,
       "status_counts": {
-        "needs_confirmation": 1898
+        "needs_confirmation": 1915
       }
     },
     {
       "id": "outside_catering",
       "label": "Outside catering",
       "group": "Policies",
-      "total_records": 1898,
-      "known_values": 319,
-      "known_percent": 16.807165437302423,
+      "total_records": 1915,
+      "known_values": 328,
+      "known_percent": 17.12793733681462,
       "searched_no_public_answer": 83,
       "conflicting": 1,
-      "other_unresolved_or_unlogged": 1495,
+      "other_unresolved_or_unlogged": 1503,
       "status_counts": {
-        "not_yet_extracted": 819,
-        "published_evidence": 319,
+        "not_yet_extracted": 827,
+        "published_evidence": 328,
         "needs_confirmation": 676,
         "searched_no_public_answer": 83,
         "conflicting": 1
@@ -1055,16 +1055,16 @@
       "id": "byob",
       "label": "BYOB",
       "group": "Policies",
-      "total_records": 1898,
-      "known_values": 161,
-      "known_percent": 8.482613277133826,
+      "total_records": 1915,
+      "known_values": 168,
+      "known_percent": 8.772845953002612,
       "searched_no_public_answer": 0,
       "conflicting": 14,
-      "other_unresolved_or_unlogged": 1723,
+      "other_unresolved_or_unlogged": 1733,
       "status_counts": {
-        "not_yet_extracted": 1041,
+        "not_yet_extracted": 1051,
         "needs_confirmation": 682,
-        "published_evidence": 161,
+        "published_evidence": 168,
         "conflicting": 14
       }
     },
@@ -1072,14 +1072,14 @@
       "id": "tables_included",
       "label": "Tables included",
       "group": "Policies",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 509,
-      "known_percent": 26.817702845100104,
+      "known_percent": 26.579634464751955,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1389,
+      "other_unresolved_or_unlogged": 1406,
       "status_counts": {
-        "not_yet_extracted": 1389,
+        "not_yet_extracted": 1406,
         "published_evidence": 509
       }
     },
@@ -1087,14 +1087,14 @@
       "id": "chairs_included",
       "label": "Chairs included",
       "group": "Policies",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 345,
-      "known_percent": 18.177028451001053,
+      "known_percent": 18.01566579634465,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1553,
+      "other_unresolved_or_unlogged": 1570,
       "status_counts": {
-        "not_yet_extracted": 1553,
+        "not_yet_extracted": 1570,
         "published_evidence": 345
       }
     },
@@ -1102,14 +1102,14 @@
       "id": "dance_floor",
       "label": "Dance floor included",
       "group": "Policies",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 78,
-      "known_percent": 4.10958904109589,
+      "known_percent": 4.073107049608355,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1820,
+      "other_unresolved_or_unlogged": 1837,
       "status_counts": {
-        "not_yet_extracted": 1820,
+        "not_yet_extracted": 1837,
         "published_evidence": 78
       }
     },
@@ -1117,15 +1117,15 @@
       "id": "wedding_permission",
       "label": "Wedding permission",
       "group": "Policies",
-      "total_records": 1898,
-      "known_values": 241,
-      "known_percent": 12.697576396206534,
+      "total_records": 1915,
+      "known_values": 244,
+      "known_percent": 12.741514360313316,
       "searched_no_public_answer": 3,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1654,
+      "other_unresolved_or_unlogged": 1668,
       "status_counts": {
-        "published_evidence": 241,
-        "not_yet_extracted": 1654,
+        "published_evidence": 244,
+        "not_yet_extracted": 1668,
         "searched_no_public_answer": 3
       }
     },
@@ -1133,14 +1133,14 @@
       "id": "availability",
       "label": "Operating status",
       "group": "Policies",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 52,
-      "known_percent": 2.73972602739726,
+      "known_percent": 2.715404699738903,
       "searched_no_public_answer": 2,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1844,
+      "other_unresolved_or_unlogged": 1861,
       "status_counts": {
-        "not_yet_extracted": 1844,
+        "not_yet_extracted": 1861,
         "published_evidence": 52,
         "searched_no_public_answer": 2
       }
@@ -1149,14 +1149,14 @@
       "id": "accessibility",
       "label": "Accessible guest route",
       "group": "Policies",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 0,
       "known_percent": 0,
       "searched_no_public_answer": 0,
       "conflicting": 1,
-      "other_unresolved_or_unlogged": 1897,
+      "other_unresolved_or_unlogged": 1914,
       "status_counts": {
-        "not_yet_extracted": 1838,
+        "not_yet_extracted": 1855,
         "needs_confirmation": 59,
         "conflicting": 1
       }
@@ -1165,14 +1165,14 @@
       "id": "food_basis",
       "label": "Food/package basis",
       "group": "Policies",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 187,
-      "known_percent": 9.852476290832456,
+      "known_percent": 9.765013054830288,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1711,
+      "other_unresolved_or_unlogged": 1728,
       "status_counts": {
-        "not_yet_extracted": 1711,
+        "not_yet_extracted": 1728,
         "published_evidence": 187
       }
     },
@@ -1180,14 +1180,14 @@
       "id": "restrooms",
       "label": "Restroom rooms",
       "group": "Amenities",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 1,
-      "known_percent": 0.052687038988408846,
+      "known_percent": 0.05221932114882506,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1897,
+      "other_unresolved_or_unlogged": 1914,
       "status_counts": {
-        "not_yet_extracted": 1897,
+        "not_yet_extracted": 1914,
         "published_evidence": 1
       }
     },
@@ -1195,14 +1195,14 @@
       "id": "bedrooms",
       "label": "Lodging bedrooms",
       "group": "Amenities",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 1,
-      "known_percent": 0.052687038988408846,
+      "known_percent": 0.05221932114882506,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1897,
+      "other_unresolved_or_unlogged": 1914,
       "status_counts": {
-        "not_yet_extracted": 1897,
+        "not_yet_extracted": 1914,
         "published_evidence": 1
       }
     },
@@ -1210,14 +1210,14 @@
       "id": "lodging_units",
       "label": "Lodging units (rooms/cabins/tents)",
       "group": "Amenities",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 1,
-      "known_percent": 0.052687038988408846,
+      "known_percent": 0.05221932114882506,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1897,
+      "other_unresolved_or_unlogged": 1914,
       "status_counts": {
-        "not_yet_extracted": 1897,
+        "not_yet_extracted": 1914,
         "published_evidence": 1
       }
     },
@@ -1225,14 +1225,14 @@
       "id": "recorded_transfer",
       "label": "Parcel recorded-transfer price",
       "group": "Valuation",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 45,
-      "known_percent": 2.3709167544783982,
+      "known_percent": 2.3498694516971277,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1853,
+      "other_unresolved_or_unlogged": 1870,
       "status_counts": {
-        "not_yet_extracted": 1853,
+        "not_yet_extracted": 1870,
         "published_evidence": 45
       }
     },
@@ -1240,14 +1240,14 @@
       "id": "broker_property_estimate",
       "label": "Broker property allocation estimate",
       "group": "Valuation",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 1,
-      "known_percent": 0.052687038988408846,
+      "known_percent": 0.05221932114882506,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1897,
+      "other_unresolved_or_unlogged": 1914,
       "status_counts": {
-        "not_yet_extracted": 1897,
+        "not_yet_extracted": 1914,
         "published_evidence": 1
       }
     },
@@ -1255,14 +1255,14 @@
       "id": "broker_business_estimate",
       "label": "Broker business allocation estimate",
       "group": "Valuation",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 1,
-      "known_percent": 0.052687038988408846,
+      "known_percent": 0.05221932114882506,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1897,
+      "other_unresolved_or_unlogged": 1914,
       "status_counts": {
-        "not_yet_extracted": 1897,
+        "not_yet_extracted": 1914,
         "published_evidence": 1
       }
     },
@@ -1270,14 +1270,14 @@
       "id": "combined_asking",
       "label": "Combined property/business asking price",
       "group": "Valuation",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 1,
-      "known_percent": 0.052687038988408846,
+      "known_percent": 0.05221932114882506,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1897,
+      "other_unresolved_or_unlogged": 1914,
       "status_counts": {
-        "not_yet_extracted": 1897,
+        "not_yet_extracted": 1914,
         "published_evidence": 1
       }
     },
@@ -1285,14 +1285,14 @@
       "id": "assessment_year",
       "label": "Assessment roll year",
       "group": "Valuation",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 48,
-      "known_percent": 2.528977871443625,
+      "known_percent": 2.506527415143603,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1850,
+      "other_unresolved_or_unlogged": 1867,
       "status_counts": {
-        "not_yet_extracted": 1850,
+        "not_yet_extracted": 1867,
         "published_evidence": 48
       }
     },
@@ -1300,14 +1300,14 @@
       "id": "service_package_min",
       "label": "Service-only package min / guest",
       "group": "Costs",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 2,
-      "known_percent": 0.10537407797681769,
+      "known_percent": 0.10443864229765012,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1896,
+      "other_unresolved_or_unlogged": 1913,
       "status_counts": {
-        "not_yet_extracted": 1896,
+        "not_yet_extracted": 1913,
         "published_evidence": 2
       }
     },
@@ -1315,14 +1315,14 @@
       "id": "service_package_max",
       "label": "Service-only package max / guest",
       "group": "Costs",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 2,
-      "known_percent": 0.10537407797681769,
+      "known_percent": 0.10443864229765012,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1896,
+      "other_unresolved_or_unlogged": 1913,
       "status_counts": {
-        "not_yet_extracted": 1896,
+        "not_yet_extracted": 1913,
         "published_evidence": 2
       }
     },
@@ -1330,14 +1330,14 @@
       "id": "venue_per_guest_min",
       "label": "Venue-only min / guest",
       "group": "Costs",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 1,
-      "known_percent": 0.052687038988408846,
+      "known_percent": 0.05221932114882506,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1897,
+      "other_unresolved_or_unlogged": 1914,
       "status_counts": {
-        "not_yet_extracted": 1897,
+        "not_yet_extracted": 1914,
         "published_evidence": 1
       }
     },
@@ -1345,14 +1345,14 @@
       "id": "venue_per_guest_max",
       "label": "Venue-only max / guest",
       "group": "Costs",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 1,
-      "known_percent": 0.052687038988408846,
+      "known_percent": 0.05221932114882506,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1897,
+      "other_unresolved_or_unlogged": 1914,
       "status_counts": {
-        "not_yet_extracted": 1897,
+        "not_yet_extracted": 1914,
         "published_evidence": 1
       }
     },
@@ -1360,14 +1360,14 @@
       "id": "venue_minimum",
       "label": "Minimum venue rental charge",
       "group": "Costs",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 1,
-      "known_percent": 0.052687038988408846,
+      "known_percent": 0.05221932114882506,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1897,
+      "other_unresolved_or_unlogged": 1914,
       "status_counts": {
-        "not_yet_extracted": 1897,
+        "not_yet_extracted": 1914,
         "published_evidence": 1
       }
     },
@@ -1375,14 +1375,14 @@
       "id": "sleep_capacity",
       "label": "Overnight guest capacity",
       "group": "Overnight stays",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 2,
-      "known_percent": 0.10537407797681769,
+      "known_percent": 0.10443864229765012,
       "searched_no_public_answer": 4,
       "conflicting": 1,
-      "other_unresolved_or_unlogged": 1891,
+      "other_unresolved_or_unlogged": 1908,
       "status_counts": {
-        "not_yet_extracted": 1891,
+        "not_yet_extracted": 1908,
         "searched_no_public_answer": 4,
         "conflicting": 1,
         "published_evidence": 2
@@ -1392,14 +1392,14 @@
       "id": "included_overnight_guests",
       "label": "Included overnight guests",
       "group": "Overnight stays",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 1,
-      "known_percent": 0.052687038988408846,
+      "known_percent": 0.05221932114882506,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1897,
+      "other_unresolved_or_unlogged": 1914,
       "status_counts": {
-        "not_yet_extracted": 1897,
+        "not_yet_extracted": 1914,
         "published_evidence": 1
       }
     },
@@ -1407,28 +1407,28 @@
       "id": "included_lodging_units",
       "label": "Included lodging units",
       "group": "Overnight stays",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 0,
       "known_percent": 0,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1898,
+      "other_unresolved_or_unlogged": 1915,
       "status_counts": {
-        "not_yet_extracted": 1898
+        "not_yet_extracted": 1915
       }
     },
     {
       "id": "required_lodging_units",
       "label": "Required lodging units",
       "group": "Overnight stays",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 4,
-      "known_percent": 0.21074815595363539,
+      "known_percent": 0.20887728459530025,
       "searched_no_public_answer": 1,
       "conflicting": 2,
-      "other_unresolved_or_unlogged": 1891,
+      "other_unresolved_or_unlogged": 1908,
       "status_counts": {
-        "not_yet_extracted": 1891,
+        "not_yet_extracted": 1908,
         "searched_no_public_answer": 1,
         "published_evidence": 4,
         "conflicting": 2
@@ -1438,14 +1438,14 @@
       "id": "late_night_required_units",
       "label": "Lodging units required for late night",
       "group": "Overnight stays",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 2,
-      "known_percent": 0.10537407797681769,
+      "known_percent": 0.10443864229765012,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1896,
+      "other_unresolved_or_unlogged": 1913,
       "status_counts": {
-        "not_yet_extracted": 1896,
+        "not_yet_extracted": 1913,
         "published_evidence": 2
       }
     },
@@ -1453,14 +1453,14 @@
       "id": "lodging_min_nights",
       "label": "Minimum required lodging nights",
       "group": "Overnight stays",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 5,
-      "known_percent": 0.26343519494204426,
+      "known_percent": 0.26109660574412535,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1893,
+      "other_unresolved_or_unlogged": 1910,
       "status_counts": {
-        "not_yet_extracted": 1893,
+        "not_yet_extracted": 1910,
         "published_evidence": 5
       }
     },
@@ -1468,14 +1468,14 @@
       "id": "included_lodging_nights",
       "label": "Included lodging nights",
       "group": "Overnight stays",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 1,
-      "known_percent": 0.052687038988408846,
+      "known_percent": 0.05221932114882506,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1897,
+      "other_unresolved_or_unlogged": 1914,
       "status_counts": {
-        "not_yet_extracted": 1897,
+        "not_yet_extracted": 1914,
         "published_evidence": 1
       }
     },
@@ -1483,14 +1483,14 @@
       "id": "required_lodging_unit_nights",
       "label": "Minimum required unit-nights",
       "group": "Overnight stays",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 3,
-      "known_percent": 0.15806111696522657,
+      "known_percent": 0.1566579634464752,
       "searched_no_public_answer": 0,
       "conflicting": 2,
-      "other_unresolved_or_unlogged": 1893,
+      "other_unresolved_or_unlogged": 1910,
       "status_counts": {
-        "not_yet_extracted": 1893,
+        "not_yet_extracted": 1910,
         "published_evidence": 3,
         "conflicting": 2
       }
@@ -1499,57 +1499,57 @@
       "id": "lodging_nightly_min",
       "label": "Nightly lodging reference min",
       "group": "Overnight stays",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 0,
       "known_percent": 0,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1898,
+      "other_unresolved_or_unlogged": 1915,
       "status_counts": {
-        "not_yet_extracted": 1898
+        "not_yet_extracted": 1915
       }
     },
     {
       "id": "lodging_nightly_max",
       "label": "Nightly lodging reference max",
       "group": "Overnight stays",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 0,
       "known_percent": 0,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1898,
+      "other_unresolved_or_unlogged": 1915,
       "status_counts": {
-        "not_yet_extracted": 1898
+        "not_yet_extracted": 1915
       }
     },
     {
       "id": "lodging_total_min",
       "label": "Mandatory lodging total min",
       "group": "Overnight stays",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 0,
       "known_percent": 0,
-      "searched_no_public_answer": 83,
+      "searched_no_public_answer": 100,
       "conflicting": 0,
       "other_unresolved_or_unlogged": 1815,
       "status_counts": {
         "not_yet_extracted": 1815,
-        "searched_no_public_answer": 83
+        "searched_no_public_answer": 100
       }
     },
     {
       "id": "lodging_total_max",
       "label": "Mandatory lodging total max",
       "group": "Overnight stays",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 0,
       "known_percent": 0,
       "searched_no_public_answer": 5,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1893,
+      "other_unresolved_or_unlogged": 1910,
       "status_counts": {
-        "not_yet_extracted": 1893,
+        "not_yet_extracted": 1910,
         "searched_no_public_answer": 5
       }
     },
@@ -1557,14 +1557,14 @@
       "id": "lodging_service_pct",
       "label": "Lodging service charge",
       "group": "Overnight stays",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 1,
-      "known_percent": 0.052687038988408846,
+      "known_percent": 0.05221932114882506,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1897,
+      "other_unresolved_or_unlogged": 1914,
       "status_counts": {
-        "not_yet_extracted": 1897,
+        "not_yet_extracted": 1914,
         "published_evidence": 1
       }
     },
@@ -1572,43 +1572,43 @@
       "id": "lodging_tax_pct",
       "label": "Lodging tax reference",
       "group": "Overnight stays",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 0,
       "known_percent": 0,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1898,
+      "other_unresolved_or_unlogged": 1915,
       "status_counts": {
-        "not_yet_extracted": 1898
+        "not_yet_extracted": 1915
       }
     },
     {
       "id": "security_min_hours",
       "label": "Minimum billable hours per guard",
       "group": "Costs",
-      "total_records": 1898,
-      "known_values": 13,
-      "known_percent": 0.684931506849315,
+      "total_records": 1915,
+      "known_values": 22,
+      "known_percent": 1.1488250652741514,
       "searched_no_public_answer": 0,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1885,
+      "other_unresolved_or_unlogged": 1893,
       "status_counts": {
-        "not_yet_extracted": 1885,
-        "published_evidence": 13
+        "not_yet_extracted": 1893,
+        "published_evidence": 22
       }
     },
     {
       "id": "lodging_requirement",
       "label": "Lodging obligation",
       "group": "Overnight stays",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 10,
-      "known_percent": 0.5268703898840885,
+      "known_percent": 0.5221932114882507,
       "searched_no_public_answer": 8,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1880,
+      "other_unresolved_or_unlogged": 1897,
       "status_counts": {
-        "not_yet_extracted": 1880,
+        "not_yet_extracted": 1897,
         "published_evidence": 10,
         "searched_no_public_answer": 8
       }
@@ -1617,14 +1617,14 @@
       "id": "lodging_in_venue_fee",
       "label": "Lodging included in venue fee",
       "group": "Overnight stays",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 6,
-      "known_percent": 0.31612223393045313,
+      "known_percent": 0.3133159268929504,
       "searched_no_public_answer": 1,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1891,
+      "other_unresolved_or_unlogged": 1908,
       "status_counts": {
-        "not_yet_extracted": 1891,
+        "not_yet_extracted": 1908,
         "published_evidence": 6,
         "searched_no_public_answer": 1
       }
@@ -1633,14 +1633,14 @@
       "id": "lodging_payer",
       "label": "Contracted lodging payer",
       "group": "Overnight stays",
-      "total_records": 1898,
+      "total_records": 1915,
       "known_values": 0,
       "known_percent": 0,
       "searched_no_public_answer": 7,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1891,
+      "other_unresolved_or_unlogged": 1908,
       "status_counts": {
-        "not_yet_extracted": 1891,
+        "not_yet_extracted": 1908,
         "searched_no_public_answer": 7
       }
     }

@@ -1158,10 +1158,17 @@
   {
     "county": "Santa Clara",
     "municipality": "Morgan Hill",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official CCC/CRC/Council inventory and linked policy/fee review; other authorities/sites remain open",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://www.morganhill.ca.gov/255/Room-Rentals",
+      "https://www.morganhill.ca.gov/DocumentCenter/View/20408",
+      "https://www.morganhill.ca.gov/DocumentCenter/View/56013/Room-Rental---Rates---Effective-January-1st-2026",
+      "https://www.morganhill.ca.gov/DocumentCenter/View/547",
+      "https://www.morganhill.ca.gov/DocumentCenter/View/45597"
+    ],
+    "remaining": "Other cityparks, aquatics, school/district/private inventories and approvedquotes/layouts/dates remain open. Sports-onlyCRCgym andnofoodstudios excluded from wedding reception chart.",
+    "checked_utc": "2026-10-26T11:57:37.574525+00:00"
   },
   {
     "county": "Santa Clara",
