@@ -2,7 +2,7 @@
   {
     "county": "Alameda",
     "municipality": "Alameda",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
       "https://uss-hornet.org/rentals/",
@@ -21,9 +21,10 @@
       "https://www.ebparks.org/recreation/picnics/crown-beach-picnic-areas#ml",
       "https://www.ebparks.org/recreation/picnics/crown-beach-picnic-areas#n",
       "https://www.ebparks.org/recreation/picnics/crown-beach-picnic-areas#sc",
-      "https://www.ebparks.org/recreation/picnics/crown-beach-picnic-areas#s"
+      "https://www.ebparks.org/recreation/picnics/crown-beach-picnic-areas#s",
+      "https://www.alamedaca.gov/Departments/Recreation-Parks/Recreation-Center-Rentals"
     ],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "remaining": "Three recreation centers reviewed via primary web reader. Direct archival fetch held robots403; full packet, parks and other inventory remain."
   },
   {
     "county": "Alameda",
@@ -150,7 +151,7 @@
   {
     "county": "Alameda",
     "municipality": "Livermore",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial public inventory and facility-policy review; other authorities remain unaudited",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
       "https://livermoretemple.org/hints/facilities/eventhalls/event-halls.html",
@@ -175,9 +176,14 @@
       "https://www.ebparks.org/recreation/picnics/del-valle-picnic-areas#so",
       "https://www.ebparks.org/recreation/picnics/del-valle-picnic-areas#shf",
       "https://www.ebparks.org/recreation/picnics/del-valle-picnic-areas#vo",
-      "https://www.ebparks.org/recreation/picnics/del-valle-picnic-areas#vdl"
+      "https://www.ebparks.org/recreation/picnics/del-valle-picnic-areas#vdl",
+      "https://larpd.specialdistrict.org/rentals",
+      "https://larpd.specialdistrict.org/cresta-blanca-ballroom-event-rental",
+      "https://larpd.specialdistrict.org/robert-livermore-community-center-event-rental",
+      "https://larpd.specialdistrict.org/ravenswood-historic-site-event-rental",
+      "https://larpd.specialdistrict.org/veterans-memorial-building-event-rental"
     ],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "remaining": "IndependentLARPDinventoryreviewed:10space/configurationrecordsacross3parentproperties. Municipal/county/school/faith/privateandremainingdistrictparksnotfullyreviewed; notacountywideinventory."
   },
   {
     "county": "Alameda",
@@ -235,15 +241,18 @@
   {
     "county": "Alameda",
     "municipality": "Piedmont",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://ci.piedmont.ca.us/services___departments/recreation/facilities_rentals/",
+      "https://ci.piedmont.ca.us/services___departments/recreation/facilities_rentals/pricing___event_hours"
+    ],
+    "remaining": "Six records across three parent properties; ceremony areas not additive. Main facility/detail/pricing reviewed; contract, schools, faith and other public/private sources remain."
   },
   {
     "county": "Alameda",
     "municipality": "Pleasanton",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial public inventory and facility-policy review; other authorities remain unaudited",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
       "https://www.casarealevents.com/tour/",
@@ -256,9 +265,12 @@
       "https://www.ebparks.org/index%2Ephp/recreation/picnics/shadow-cliffs-picnic-areas#Lakeside",
       "https://www.ebparks.org/index%2Ephp/recreation/picnics/shadow-cliffs-picnic-areas#Marina",
       "https://www.ebparks.org/index%2Ephp/recreation/picnics/shadow-cliffs-picnic-areas#North",
-      "https://www.ebparks.org/index%2Ephp/recreation/picnics/shadow-cliffs-picnic-areas#Seven"
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/shadow-cliffs-picnic-areas#Seven",
+      "https://www.cityofpleasantonca.gov/your-community/recreation/facility-picnic-rentals/",
+      "https://www.cityofpleasantonca.gov/assets/your-community/recreation/park-facility-rentals/1026-Facility-Rates.pdf",
+      "https://www.cityofpleasantonca.gov/assets/your-community/recreation/park-facility-rentals/Facility%20Rental%20Full%20Packet.pdf"
     ],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "remaining": "13namedmunicipalspaces/parkareas reviewed, October2026two-pagefeesheetandnine-pageeventpacket. Meetingroomsnofood/drinks, classroom49/50conflict. School/fairgrounds/otherauthorities/privatevenuesnotcomplete."
   },
   {
     "county": "Alameda",
@@ -610,7 +622,7 @@
   {
     "county": "Marin",
     "municipality": "Sausalito",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
       "https://idesst.wildapricot.org/Rentals",
@@ -633,7 +645,7 @@
       "https://sausalito.recdesk.com/Community/Facility/Detail?facilityId=1",
       "https://sausalito.recdesk.com/Community/Facility/Detail?facilityId=260"
     ],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "remaining": "Current municipal index reviewed; five existing records reconciled, one gym added. Sports-only offers and not-currently-rentable Cloudview/Southview excluded; RecDesk details/contracts and other authorities remain."
   },
   {
     "county": "Marin",

@@ -15,7 +15,7 @@
       else if(p[0]==='research_attempts'){source=raw?.source_text;urls=raw?.source_urls||[];checked=raw?.checked_utc||null;originalStatus=raw?.status||null;}
       else if(/year|operator_start/.test(typeof key==='string'?key:'')){urls=v.history_sources||[];originalStatus=v.history_status||null;}
       else urls=v.value_sources&&/asking|value|sale/.test(String(p[0]))?v.value_sources:v.sources||[];
-      if(key==='capacity_max')source={seated:v.seated_capacity??null,standing:v.standing_capacity??null,generic:v.generic_capacity??null,published:v.published_capacity??null,description:v.capacity_description??null};
+      if(key==='capacity_max'&&!['research_observations','research_attempts'].includes(p[0]))source={seated:v.seated_capacity??null,standing:v.standing_capacity??null,generic:v.generic_capacity??null,published:v.published_capacity??null,description:v.capacity_description??null};
       const str=typeof source==='string'?source:'';
       const quality=/proposed|recommendation.*not.*adopted/i.test(str+' '+originalStatus)?'proposal; applicability unverified':/historical|legacy|2021|2022|2023|2024|2025/i.test(str+' '+originalStatus)?'historical or older material; current confirmation required':/directory/i.test(originalStatus||'')?'directory-reported; confirm with venue':'recorded published evidence; current contract unverified';
       return {source_text:source??null,source_urls:[...new Set(urls)],checked_utc:checked,effective_date:f.effective_date||raw?.effective_date||null,original_status:originalStatus,scope_record_id:v.id,unit:defs.get(typeof key==='string'?key:'')?.unit||null,quality,method:f.method||null,note:f.note||null};

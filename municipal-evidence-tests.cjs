@@ -1,0 +1,13 @@
+'use strict';
+const assert=require('node:assert/strict'),d=require('./research.json'),n=require('./normalized-engine.js').create(d),by=new Map(d.venues.map(v=>[v.id,v]));
+const hall=by.get('piedmont-community-hall-alameda');
+assert.equal(n.provenance(hall,'capacity_max').source_text,hall.research_observations[0].source_text);
+assert.equal(n.provenance(hall,'capacity_max').source_urls[0],hall.sources[0]);
+assert.equal(n.value(hall,'event_end'),1440);assert.equal(n.value(hall,'music_indoor'),1380);assert.equal(n.value(hall,'music_outdoor'),1320);assert.equal(n.value(hall,'capacity_seated'),120);assert.equal(n.value(hall,'capacity_dinner_dance'),null);
+assert.equal(n.value(by.get('piedmont-community-hall-amphitheater-alameda'),'capacity_ceremony'),200);assert.equal(n.value(by.get('piedmont-community-hall-amphitheater-alameda'),'capacity_seated'),null);
+const amador=by.get('pleasanton-amador-recreation-center-alameda');assert.equal(n.value(amador,'capacity_max'),120);assert.equal(n.value(amador,'capacity_indoor'),80);assert.equal(n.value(amador,'cleanup_end'),1440);assert.equal(n.value(amador,'music_indoor'),null);assert.equal(n.value(amador,'minimum_rental_hours'),4);
+const classroom=by.get('pleasanton-senior-center-classroom-alameda');assert.equal(n.value(classroom,'capacity_max'),null);assert.equal(n.fieldStatus(classroom,'capacity_max'),'conflicting');assert.match(classroom.food_requirement,/NOT allowed/);
+const rav=by.get('larpd-ravenswood-historic-site-alameda');assert.deepEqual(rav.seasonal_conditions.map(x=>x.capacity),[150,70]);assert.deepEqual(rav.seasonal_conditions.map(x=>x.rental_end),['20:00','18:00']);assert.equal(n.value(rav,'capacity_dinner_dance'),null);
+assert.equal(n.record(by.get('larpd-larkspur-north-alameda')).property_id,n.record(by.get('larpd-cresta-blanca-all-alameda')).property_id);
+assert.equal(new Set(d.venues.map(v=>v.id)).size,d.venues.length);
+console.log('Municipal evidence passed: clock scopes, ceremony vs dining, seasonal limits, source conflict, property alternatives and unique IDs.');
