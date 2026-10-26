@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-26T12:37:05.603685+00:00",
+  "updated_utc": "2026-10-26T12:42:25.036132+00:00",
   "scope": "Nine Bay Area counties; directory boundaries and nearby results require validation. Nonexhaustive source registry.",
   "sources": [
     {
@@ -1107,6 +1107,19 @@
       "collected_profiles": 12,
       "new_venue_records": 12,
       "notes": "12configurations/add-on/application-onlylead across4parents; nofood restrictions, capacity/cleanup conflicts; no complete all-in quote."
+    },
+    {
+      "id": "windsor-current-policy-inventory",
+      "name": "Windsor facilities,17parks and restrictedTownGreen \u2014 July2026policy",
+      "url": "https://www.townofwindsor.ca.gov/330/Facility-Rentals",
+      "category": "Municipal government room/park/policy inventory",
+      "geography": "Windsor, Sonoma County",
+      "checked_utc": "2026-10-26T12:42:25.036132+00:00",
+      "collection_status": "Partial primary namedinventory/34pagepolicy/12pagehandbook/3pagerates reviewed; eventpermits/quotes open",
+      "collection_method": "Robots-respecting actualsaved public pages/PDFs and fetchlogs",
+      "collected_profiles": 27,
+      "new_venue_records": 27,
+      "notes": "Rooms sharecampuses; parkprospects are not approvedweddingvenues. Nonprofit-onlyTownGreen, noDJSenior, sourceconflicts andANDcustodialthreshold preserved"
     }
   ]
 }

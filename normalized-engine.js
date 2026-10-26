@@ -72,9 +72,11 @@
       let conditionalFixed=0;
       for(const charge of v.conditional_mandatory_charges||[]){
         if(!charge.source_url||!finite(charge.amount)||!finite(charge.minimum_attendees))continue;
+        // Some required charges apply only when both attendance and paid rental duration meet a threshold.
+        if(charge.minimum_rental_hours!=null){if(!finite(charge.minimum_rental_hours)){missing.push('invalid published duration threshold: '+charge.name);continue;}if(hours<charge.minimum_rental_hours)continue;}
         const hasAttendance=c.attendees!==''&&c.attendees!=null&&finite(Number(c.attendees))&&Number(c.attendees)>=guests;
         const attendance=hasAttendance?Number(c.attendees):guests;
-        if(attendance>=charge.minimum_attendees){conditionalFixed+=charge.amount;conditions.push(charge.name+': $'+charge.amount+' required at attendance '+charge.minimum_attendees+'+; included in mandatory fixed-charge floor');}
+        if(attendance>=charge.minimum_attendees){conditionalFixed+=charge.amount;conditions.push(charge.name+': $'+charge.amount+' required at attendance '+charge.minimum_attendees+'+'+(charge.minimum_rental_hours!=null?' and rental '+charge.minimum_rental_hours+'+ hours':'')+'; included in mandatory fixed-charge floor');}
         else if(!hasAttendance)missing.push('total attendance including vendors for conditional charge: '+charge.name);
       }
       let fixed=read('fixed_mandatory',c.fixed);const baseFixed=value(v,'fixed_mandatory'),publishedFixed=baseFixed==null?(conditionalFixed||null):baseFixed+conditionalFixed;if(fixed==null&&conditionalFixed>0){fixed=conditionalFixed;missing.push('other mandatory fixed charges beyond conditional minimum');}if(fixed!=null&&publishedFixed!=null&&fixed<publishedFixed){missing.push('assumed fixed charges below published mandatory amount');fixed=publishedFixed;conditions.push('Published mandatory fixed amount retained; a lower assumption does not waive a required charge');}if(fixed==null)missing.push('additional mandatory fixed charges');else components.push({name:'Additional mandatory charges',low:fixed,high:fixed});

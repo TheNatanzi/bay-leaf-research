@@ -267,6 +267,11 @@ for v in D['venues']:
  for i,obs in enumerate(v.get('research_observations',[])):
   if obs.get('field') in DEFS and obs.get('status')=='published_evidence' and (nval(obs.get('value')) is not None or (DEFS[obs['field']]['type']=='category' and obs.get('value') in DEFS[obs['field']].get('choices',[]))):
    fact(v,out,obs['field'],obs['value'],['research_observations',i],'manually_reviewed_directory_profile' if obs.get('source_kind')=='directory_profile' else 'manually_reviewed_primary_operator',obs.get('basis'))
+  elif obs.get('field') in DEFS and obs.get('status')=='conflicting' and obs.get('source_urls') and obs.get('checked_utc') and obs.get('source_text'):
+   # A reviewed source contradiction must not leave an unrelated scalar fallback looking resolved.
+   key=obs['field'];prev=out['facts'].get(key)
+   out['facts'][key]={'value':None,'status':'conflicting','ref':['research_observations',i],'method':'documented_source_conflict','note':obs.get('basis') or obs['source_text'],'scope_record_id':v['id']}
+   if prev:out['facts'][key]['alternatives']=[prev]
  # A dated, sourced negative search result is distinct from a field never researched.
  # Never let a negative attempt erase an existing numeric observation.
  for i,attempt in enumerate(v.get('research_attempts',[])):

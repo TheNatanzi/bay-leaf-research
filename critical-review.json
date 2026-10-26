@@ -398,12 +398,12 @@
       ]
     }
   ],
-  "updated_utc": "2026-10-26T12:38:17.407Z",
+  "updated_utc": "2026-10-26T12:46:10.144Z",
   "completed_passes": 5,
   "expected_passes": 5,
   "counts": {
-    "records": 1950,
-    "property_groups": 756,
-    "municipal_unaudited": 58
+    "records": 1977,
+    "property_groups": 779,
+    "municipal_unaudited": 57
   }
 }
