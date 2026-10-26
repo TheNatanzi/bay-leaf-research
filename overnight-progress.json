@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-26T11:22:22.356Z",
+  "updated_utc": "2026-10-26T11:34:44.678Z",
   "status": "Active overnight research",
   "deadline": "2026-10-26T08:00:00-07:00",
   "current_batch": "Critical review 5 of 5 completed; remaining reviews and research continue",
@@ -33,17 +33,18 @@
     "Critical geographic review:101officialcitynames reconciled;18newgovernmentspace/configurationleads across7parents; RedwoodCity,PortolaTown,NapaOpenSpace partialreviews. Mailingcity/legaleligibility andassembly/dining differences preserved.",
     "Critical category review: 18 more space/offer records, ten existing leads enriched, ten category samples checked. Jonas250 dinner+dance, boat passenger constraints, no-alcohol hall and glamping buyout/layout conflicts sourced;133restaurant links queued.",
     "Critical identity review:14room/offer records at25Lusk/currentWayfare, 13existingrecords checked, old-address ratings excluded, canonicalKohl terms/staleheader reviewed,82founderreadingrecords. Mechanicalalias/address candidates remain unmerged.",
-    "Fivecriticalreviewscomplete: independentrestaurant/parkcrosscheck added14stateparksites/prospects;12conditionalmandatoryfeefloors;50rowcatalogpaginationtested.129GGRAnamecandidatesremainunresolved, notnewvenues."
+    "Fivecriticalreviewscomplete: independentrestaurant/parkcrosscheck added14stateparksites/prospects;12conditionalmandatoryfeefloors;50rowcatalogpaginationtested.129GGRAnamecandidatesremainunresolved, notnewvenues.",
+    "Audit84:24municipalroom/add-on/configurationrecords acrossNewark/SanLeandro/UnionCity; threeworkstreamsnowpartial,63remainunaudited. Newarkroofleakrisk/22vacate;SanLeandrocurrentJuly2026chartand6vs4h/depositconflicts;UnionCity500banquet/600assemblyandold2022handbookkeptseparate."
   ],
   "baseline": {
-    "discovery_records": 1825,
-    "provisional_property_groups": 729,
-    "historical_audits": 83,
+    "discovery_records": 1849,
+    "provisional_property_groups": 736,
+    "historical_audits": 84,
     "founder_reading_records": 82,
     "municipal_workstreams": 110,
-    "municipal_unaudited": 66
+    "municipal_unaudited": 63
   },
-  "added_venue_records": 160,
+  "added_venue_records": 184,
   "gaps": [
     "66 municipal/county workstreams remain unaudited; reviewed rows remain partial, and four prior partial county rows need linked-evidence reconciliation.",
     "Directory registry collection pending; source blocks logged, not bypassed",
@@ -65,5 +66,13 @@
     "historical_audits": 67,
     "founder_reading_records": 77,
     "municipal_unaudited": 78
+  },
+  "publication_verification": {
+    "checked_utc": "2026-10-26T11:34:11.855778+00:00",
+    "previous_public_commit": "b0116edc59003cae77e58a406a0579397549d493",
+    "previous_pages_build": "built",
+    "local_browser": "Pagination, search, sort and accordion checked",
+    "live_visual": "Blocked by saved browser permission for thenatanzi.github.io; no alternate access attempted",
+    "remaining": "Recheck build metadata after current publication. Live visual remains blocked."
   }
 }

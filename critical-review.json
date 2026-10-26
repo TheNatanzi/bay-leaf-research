@@ -329,7 +329,8 @@
         "Compared133GGRAname/linkcandidates with all1811pre-additionrecords by exactnormalizedname;4match,129requirealias/currentoperationchecking.",
         "Tested50/80attendee custodial/janitorial thresholds, vendorattendanceuncertainty, lowerfixedassumptions and already-includedfixedcharges.",
         "Added50-rowcatalogpagination after actual browser slowdown; tested all1324potential records remain searchable/sortable and pagefilterreset.",
-        "Ran13regression suites; current publication verification recorded separately afterpush."
+        "Ran13regression suites; current publication verification recorded separately afterpush.",
+        "Follow-up parser audit:133rawGGRArows included4empty nested links duplicating named parent rows. Refined129named candidates,4exact matches,125unresolved. No venue rows removed."
       ],
       "source_urls": [
         "https://ggra.org/private-dining-guide/",
@@ -392,16 +393,17 @@
         "66municipal/countyworkstreamsremainunaudited; reviewedworkstreamsarepartial.",
         "Currentall-inquotes, lodgingliability, dinner/danceplans and permitclocks remainmajor gaps.",
         "ForestTheatrecurrentcasebycaseapproval versusolderonly-reservableguide requireswrittenconfirmation.",
-        "No complete source-directory scrape, currentdateavailability or commercialoperatinglease established."
+        "No complete source-directory scrape, currentdateavailability or commercialoperatinglease established.",
+        "Restaurant candidate count corrected after nested-anchor review:125unresolved named candidates, not129names. Original133raw extraction retained in correction record."
       ]
     }
   ],
-  "updated_utc": "2026-10-26T11:22:22.356Z",
+  "updated_utc": "2026-10-26T11:34:44.678Z",
   "completed_passes": 5,
   "expected_passes": 5,
   "counts": {
-    "records": 1825,
-    "property_groups": 729,
-    "municipal_unaudited": 66
+    "records": 1849,
+    "property_groups": 736,
+    "municipal_unaudited": 63
   }
 }

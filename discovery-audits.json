@@ -410,7 +410,7 @@
       "Room-specific municipal terms; six Napa names versus five stated parks; every other municipality remains incomplete."
     ],
     "fact_check_findings": [
-      "Berkeley alcohol restriction and noise permit flagged; numeric maxima not converted to seated wedding counts. Napa sports8am\u201310pm hours not copied onto banquet rooms."
+      "Berkeley alcohol restriction and noise permit flagged; numeric maxima not converted to seated wedding counts. Napa sports8am–10pm hours not copied onto banquet rooms."
     ],
     "pass": 7
   },
@@ -584,14 +584,14 @@
     ],
     "exclusions_or_restrictions": [
       "The Highlands Estate: county boundary/parcel check pending, excluded from nine-county counts",
-      "BARRA of Mendocino Winery and Event Center \u2014 Redwood Valley outside confirmed nine-county geography",
-      "Jardines de San Juan \u2014 San Juan Bautista outside confirmed nine-county geography",
-      "Hotel Winters \u2014 Winters outside confirmed nine-county geography",
-      "Newcastle Wedding Gardens \u2014 Newcastle outside confirmed nine-county geography",
-      "Red Barn Ranch \u2014 Hopland outside confirmed nine-county geography",
-      "The Palms \u2014 Chico outside confirmed nine-county geography",
+      "BARRA of Mendocino Winery and Event Center — Redwood Valley outside confirmed nine-county geography",
+      "Jardines de San Juan — San Juan Bautista outside confirmed nine-county geography",
+      "Hotel Winters — Winters outside confirmed nine-county geography",
+      "Newcastle Wedding Gardens — Newcastle outside confirmed nine-county geography",
+      "Red Barn Ranch — Hopland outside confirmed nine-county geography",
+      "The Palms — Chico outside confirmed nine-county geography",
       "Non-venue navigation row rejected: https://www.herecomestheguide.com/wedding-venues/small-wedding/northern-california",
-      "Cowell Ranch Hay Barn \u2014 Santa Cruz outside confirmed nine-county geography",
+      "Cowell Ranch Hay Barn — Santa Cruz outside confirmed nine-county geography",
       "Regale Winery and Vineyards: county boundary/parcel check pending, excluded from nine-county counts"
     ],
     "remaining_gaps": [
@@ -748,7 +748,7 @@
       "Vacaville/Fairfield full pages blocked; indexed official text retained with lower provenance. Current room floorplans/prices, park wedding approval, Rio Vista and Vallejo inventories remain incomplete."
     ],
     "fact_check_findings": [
-      "Bud\u2019s Hall requires its own catering and drinks; inexpensive venue fee is not all-in cost. Restaurant footer hours/address not copied as hall-specific facts. Fairfield audience seating not treated as banquet/dance capacity. Historical FY2024\u201325 Ulatis prices not imported as current quotes."
+      "Bud’s Hall requires its own catering and drinks; inexpensive venue fee is not all-in cost. Restaurant footer hours/address not copied as hall-specific facts. Fairfield audience seating not treated as banquet/dance capacity. Historical FY2024–25 Ulatis prices not imported as current quotes."
     ]
   },
   {
@@ -848,7 +848,7 @@
   {
     "pass": 16,
     "question": "What other Santa Clara County municipal centers, civic buildings and wedding park sites have we missed?",
-    "scope": "San Jos\u00e9: 29 rental sites and seven unique wedding-site entries; Mountain View: two; Santa Clara: 18 spaces/site groups",
+    "scope": "San José: 29 rental sites and seven unique wedding-site entries; Mountain View: two; Santa Clara: 18 spaces/site groups",
     "completed_utc": "2026-10-11T05:50:52.731703+00:00",
     "source_urls": [
       "https://www.sanjoseca.gov/your-government/departments-offices/parks-recreation-neighborhood-services/rentals-and-events/facility-room-rentals",
@@ -922,7 +922,7 @@
       "TeaHouse and HistoricAdobe closed; CentralParkArbor/Pavilion closed for renovations. Meeting-only/nonprofit rooms and sports-only fields not imported as unrestricted wedding venues. Agnews limited access easement; no government land ownership inferred."
     ],
     "remaining_gaps": [
-      "Room-specific SanJos\u00e9 layouts/policies/costs; MountainViewSeniorCenter and remaining rooms; private/college/faith operators; exact site permits, pricing, reviews, history and valuations."
+      "Room-specific SanJosé layouts/policies/costs; MountainViewSeniorCenter and remaining rooms; private/college/faith operators; exact site permits, pricing, reviews, history and valuations."
     ],
     "fact_check_findings": [
       "Direct downloads returned 403, but live primary pages worked; visible text and inventories saved.",
@@ -1043,9 +1043,9 @@
       "All other universities/colleges, municipal and private coverage incomplete"
     ],
     "fact_check_findings": [
-      "SFSU Towers combined400 cocktail differs250 banquet; SevenHills350 cocktail differs150 banquet; outside food prohibited. Current rates Coming Soon, indexed2023\u201324 rates not current.",
+      "SFSU Towers combined400 cocktail differs250 banquet; SevenHills350 cocktail differs150 banquet; outside food prohibited. Current rates Coming Soon, indexed2023–24 rates not current.",
       "Stanford current church page includes non-affiliate fees despite older/general Stanford-community language; ceremony-only rules and required clergy tracked. Club hours are not event cutoffs.",
-      "UC Garden combined package header5\u201311PM/6hours contradicts detailed guests11PM/cleanupmidnight timeline; conflict preserved, not asserted midnight wedding permission.",
+      "UC Garden combined package header5–11PM/6hours contradicts detailed guests11PM/cleanupmidnight timeline; conflict preserved, not asserted midnight wedding permission.",
       "SCU ceremony affiliation/Catholic restrictions and400ceremony seats do not establish400guest reception or unrestricted outdoor ceremonies."
     ]
   },
@@ -1130,7 +1130,7 @@
       "All nine-county municipal/private coverage remains incomplete"
     ],
     "fact_check_findings": [
-      "Palo Alto linked packet: Ballroom300 banquet versus350 cocktail/355theater; Cardinal49 vs web50; dinner menu49\u201361 food-only, not all-in; AV20%charge does not establish food/venue service charge.",
+      "Palo Alto linked packet: Ballroom300 banquet versus350 cocktail/355theater; Cardinal49 vs web50; dinner menu49–61 food-only, not all-in; AV20%charge does not establish food/venue service charge.",
       "Sebastopol web prices and Sunday2:30PM contradict linked brochure prices and Sunday3PM. Contract9/13/2024 music10PM/event11PM/cleaners afterward; cleanup final exit Unknown.",
       "HCCC form2025 upload containsJan2022fees and2016rules; current price Unknown. Historical7PM/8PM cutoff conflict preserved. Lecture capacities are not banquet.",
       "Sunnyvale at least150 is not maximum. Islamic hall300 plus courtyard75 not375 dinner capacity;200/400 fees have unknown time basis. Lodge charter, incorporation, and building inauguration do not establish wedding operating duration."
@@ -1240,7 +1240,7 @@
     "excluded": [
       "Gilroy nightly40/person not weddingfee;20sleeping/50vehicles noteventcapacity",
       "Dawn1500genericMeadow count not300banquet or350package limit; CenterOrchard conflictedmax/seats held",
-      "Venture65baseguest inclusion notmaximum; no basefee\u00f7300 derived",
+      "Venture65baseguest inclusion notmaximum; no basefee÷300 derived",
       "McCloud/Mendocino/Humboldt/outsideBayCounty discovery leads excluded from ninecounty inventory"
     ],
     "remaining_gaps": [
@@ -1249,7 +1249,7 @@
       "Construction/operatingdates,property/businessvalues,reviewratings andmunicipal/privatecoverage incomplete"
     ],
     "fact_check_findings": [
-      "Twoactual2026PDFs downloaded, pricing/capacitypages rendered andvisuallychecked. Dawn200weekday knownsubtotal89,840\u201391,840 excludesmanymandatoryunknowns, notall-in.",
+      "Twoactual2026PDFs downloaded, pricing/capacitypages rendered andvisuallychecked. Dawn200weekday knownsubtotal89,840–91,840 excludesmanymandatoryunknowns, notall-in.",
       "Dawnweekday12rooms vs15summary;exclusive550vs570components;CenterOrchard220maxvs250banquet retained. Lateadd-onmidnightconditional66room buyout, notoutdoormidnight.",
       "Venture65guestbasefee extras28/35/60 bypackage,deposit/taxextra; arrival/departure notmusicdeadline.",
       "Wildwoodoutdoor350seated/400generic vsindoor150/200standing;1954siteclaim notverifiedspecificbuilding orweddingopening. Hotel10minuteclaimfromdowntownnotvenue."
@@ -1345,14 +1345,14 @@
       "GVRDprivate weddings five-hour minimum; resident/nonresident charges plus mandatory cleaning/security and refundabledeposit; business rates cannot be used for personal celebrations. No subletting.",
       "ActualMay2025MIPF PDF visually checked; Chapel160ceremony, Admiral150+notmaximum; Chapel explicitly not wheelchairaccessible; historical naval land not proof of government title.",
       "StoneundatedPDF visually checked:600fee+600refundabledeposit not1200expense;150ceremony seats/nofooddrinks, cancellation wording unclear.1856constructionstart/1857dedication not weddingopening.",
-      "Mare privateevents saysnohardalcohol butcurrentmenus saycocktails; Ferryopening2014vs2013 conflict held. Vino2015tastingopening notweddingopening. StateMira2022\u201323 ownership narrative notverified currenttitle/value.",
+      "Mare privateevents saysnohardalcohol butcurrentmenus saycocktails; Ferryopening2014vs2013 conflict held. Vino2015tastingopening notweddingopening. StateMira2022–23 ownership narrative notverified currenttitle/value.",
       "BelleVie county checked through Census geographies: SacramentoCounty06067, not Solano despite RioVista address. Street address match is not parcel/title verification."
     ]
   },
   {
     "pass": 23,
     "question": "What named public park/picnic and themed-playground spaces have we missed, and does reservation actually allow a wedding, amplified sound or alcohol?",
-    "scope": "Six GVRD parks/Children\u2019s Wonderland;28named site/configuration/aggregate records, with current policy conflicts",
+    "scope": "Six GVRD parks/Children’s Wonderland;28named site/configuration/aggregate records, with current policy conflicts",
     "completed_utc": "2026-10-11T07:47:15.323006+00:00",
     "source_urls": [
       "https://www.gvrd.org/blue-rock-springs-park",
@@ -1416,10 +1416,10 @@
       "Othercounty parks/government/publicland,private/unconventionalcoverage notcomplete"
     ],
     "fact_check_findings": [
-      "Actual15pagegeneral and5pageWonderland special-event PDFs downloaded; deposit/insurance/pricing/music pages rendered/visuallychecked. Source datesUnknown despitecurrent2025\u201326linkedlabel.",
+      "Actual15pagegeneral and5pageWonderland special-event PDFs downloaded; deposit/insurance/pricing/music pages rendered/visuallychecked. Source datesUnknown despitecurrent2025–26linkedlabel.",
       "General packetdeposit700mainvs500paymentpanel,webinsurance72hrvspdf10businessdays,restroom1/50vsportable1/100+ADA,layoutsixty(30)day typo heldunresolved.",
-      "Generalparkbeerwine35permit;Wonderlandnoalcohol/glass. Wonderlandwebnomusic vs PDFconditional7\u201310requirescaseapproval, no midnightconfirmation.",
-      "Allrawpicnicfeesundated/durationUnknown;no fee\u00f7300perhead. Tables and5/10/15includedadmissions notmaxcapacity.",
+      "Generalparkbeerwine35permit;Wonderlandnoalcohol/glass. Wonderlandwebnomusic vs PDFconditional7–10requirescaseapproval, no midnightconfirmation.",
+      "Allrawpicnicfeesundated/durationUnknown;no fee÷300perhead. Tables and5/10/15includedadmissions notmaxcapacity.",
       "Publicrentals notcommerciallease;eachspecialeventapproval,siteplan/30daywalkthrough/foodwaste/restroom arrangements requiredsubjecttoeventclassification."
     ]
   },
@@ -1478,7 +1478,7 @@
       "OMCA five rooms share campus"
     ],
     "excluded": [
-      "Mattina normal 10\u201316 dining parties not separate venue",
+      "Mattina normal 10–16 dining parties not separate venue",
       "EPIC standalone room inventory held for current primary verification",
       "Public restaurant closing hours not promoted to music cutoff",
       "Future November 2026 menu not treated as current dated quote"
@@ -1561,7 +1561,7 @@
     "excluded": [
       "Hiller Boeing 747 filming attraction / simulator throughput not separate wedding rooms",
       "Napa parking lots listed only as parking, not fabricated wedding venues",
-      "Expired Hiller February\u2013September $18 rate not current",
+      "Expired Hiller February–September $18 rate not current",
       "Chabot room/package expansion deferred to detailed Pass 26",
       "Unnamed di Rosa campus areas remain aggregate; San Francisco campus not assigned Napa site terms"
     ],
@@ -1571,7 +1571,7 @@
       "Remaining nine-county municipal/private/unconventional coverage incomplete"
     ],
     "fact_check_findings": [
-      "Marin Art and Garden Center is distinct from Landmarks Art and Garden Center. Livermore Pavilion under renovation, future Celebration Plaza bookings from April 2027; Studio/Amphitheater 1948 and Pavilion 1957 construction from operator timeline. 1945 incorporation and 1980s\u20131990s wedding activity do not establish opening/duration.",
+      "Marin Art and Garden Center is distinct from Landmarks Art and Garden Center. Livermore Pavilion under renovation, future Celebration Plaza bookings from April 2027; Studio/Amphitheater 1948 and Pavilion 1957 construction from operator timeline. 1945 incorporation and 1980s–1990s wedding activity do not establish opening/duration.",
       "Hiller standard whole museum $20/person minimum $2,000, $650 cleaning, required security extra; $500 refundable deposit separate, four event hours and $500 additional hour. Outside caterer allowed after advance approval meeting. Linked $18 special expired September 2026 and is not current.",
       "Napa current linked one-page packet visually checked: MAC $2,500/four hours, $500 extra hour and no rental past midnight, but music/bar/cleanup Unknown; 50 meal / 150 standing. Yountville gallery $2,500/165 seated, terrace $1,500/200, history $1,500/90, buyout $5,000; duration of these offerings Unknown. Old 2022-upload gallery rates/capacities kept separate.",
       "di Rosa Gallery 1 food/drink prohibited within exhibition, allowed areas need confirmation; capacity fluctuates with exhibition. 1886 is adjacent residence, not courtyard or wedding business age. Other campus areas remain aggregate until approved rentals known.",
@@ -1643,9 +1643,9 @@
       "Conflicts retained: Spees Level 1 web 200 vs packet 150 seated; Level 2 100 vs 80; labs web 60 seated vs packet 45 seated/60 standing; corporate theater 204 vs venue/packet 205. Numeric conflicted counts held. Overview Spees $8,900 vs $9,500 entire building with courtyard requires scope/price confirmation.",
       "Packages are overlapping combinations with 240/175/130/100 capacities, not summed room maxima. Written in Stars 240 is distributed cabaret. Elopements 50 are short ceremony/show packages, not dinner; no extra hours. December/holiday packages +15% separately from room tables.",
       "Non-preferred catering adds $1,500 buyout and increases refundable security deposit to $1,500, not another $1,500 expense. Standard refundable security $1,000/classroom $200. Booking deposit 50% credited; cancellation returns fraction of deposit, not total fee; exact 150-day wording overlaps.",
-      "Formal dining furniture normally rented by caterer; venue coordinator not full planner. Venue rental includes regular evening security/parking/venue taxes-service, not external vendor fees. Exhibit access/setup 5PM, dock noon/staging 3PM not music cutoff. Fri/Sat Observatory 5\u20137PM private access including cleanup, public viewing afterward not private availability.",
+      "Formal dining furniture normally rented by caterer; venue coordinator not full planner. Venue rental includes regular evening security/parking/venue taxes-service, not external vendor fees. Exhibit access/setup 5PM, dock noon/staging 3PM not music cutoff. Fri/Sat Observatory 5–7PM private access including cleanup, public viewing afterward not private availability.",
       "Waterbar/EPIC joint buyout corrected to Unknown joint bar/fees/hours; Waterbar-only terms not inherited onto sister restaurant.",
-      "Actual 30-page PDF downloaded and key price/capacity/contract pages visually reviewed. Original publication date Unknown; 2026\u20132027 is rate schedule label and September upload/filename not original date. No unverified property/business values or profits inferred."
+      "Actual 30-page PDF downloaded and key price/capacity/contract pages visually reviewed. Original publication date Unknown; 2026–2027 is rate schedule label and September upload/filename not original date. No unverified property/business values or profits inferred."
     ]
   },
   {
@@ -1721,7 +1721,7 @@
     ],
     "fact_check_findings": [
       "24 fairground rooms/outdoor configurations added, with eight indoor dining/assembly distinctions; 2026-02-01 guideline rates reviewed on actual PDF tables. Assembly numbers not standing or dinner+dance counts. Garden 125+ is a lower bound, not max. Kitchen-only, parking-only and individual RV fees excluded as standalone wedding sites.",
-      "Outdoor fairgrounds amplified sound ends 10PM Mon\u2013Sat / 8PM Sunday; indoor deadline Unknown. 2016 linked policy and 2020 rental policies retained with dates; 2026 rate sheet supersedes older Wi-Fi rates, and setup is not included merely because equipment is delivered. Food/private caterer permission needs reconciliation, exclusive bar confirmed by current FAQ.",
+      "Outdoor fairgrounds amplified sound ends 10PM Mon–Sat / 8PM Sunday; indoor deadline Unknown. 2016 linked policy and 2020 rental policies retained with dates; 2026 rate sheet supersedes older Wi-Fi rates, and setup is not included merely because equipment is delivered. Food/private caterer permission needs reconciliation, exclusive bar confirmed by current FAQ.",
       "Sebastopol Grange 150 banquet versus 140 supplied chairs; 2026 contract music midnight/cleanup 2AM versus webpage access midnight. No fully confirmed midnight option declared. No hard liquor/camping; deposits and cancellation fractions are separate from rent.",
       "Bodega Bay whole-complex wedding rate $2,000/day differs from generic day rates. Main 96 and adjacent 46 dining seats not added into contiguous capacity. Loud music midnight can be curtailed for complaints; event end 1AM, cleanup immediate. HTML fetch failures 406 preserved; web tool primary review and successful original PDF are distinct.",
       "Cotati auditorium 200 generic; Memorial room 60 meeting only expressly excludes private parties. Music 10PM/exit midnight. Current city-linked 2026 file has 2027 cleaning label and 2023 policy revision; 2025 county unsigned proposal rates not automatically adopted/current. County building inventory supports construction 1961 and raw parcel 144410032, not wedding-operation year/title/value.",
@@ -1733,7 +1733,7 @@
   },
   {
     "pass": 28,
-    "question": "Which Sonoma veterans and arts spaces were missed, and do current dining-with-dance limits, lease closures and vendor policies change the 300\u2013400 guest shortlist?",
+    "question": "Which Sonoma veterans and arts spaces were missed, and do current dining-with-dance limits, lease closures and vendor policies change the 300–400 guest shortlist?",
     "scope": "Four county veteran facilities rooms, Guerneville outside-rental closure, Cotati existing room updates, SebArts leased-building rooms/packages",
     "completed_utc": "2026-10-11T08:28:48.427832+00:00",
     "source_urls": [
@@ -1801,7 +1801,7 @@
       "Guerneville expressly not taking outside rentals, leased to West County Community Services; retained as closed/restricted, not vacant operating site. County building inventory visually reviewed provides dated-source building years and raw parcel identifiers; current title/values remain Unknown.",
       "County alcohol rules: 100+ private attendees require licensed off-premise liquor caterer/common bar, max five hours; last pour one hour before end except <=three-hour events; $100 below250/$200 at250+ venue alcohol fee, not beverage cost. Staff-only furniture setup fee and refundable/credited deposits distinct. Reservation 14-day hold versus 10-day late-fee clause retained.",
       "Petaluma explicitly no air conditioning; generic headline capacity insufficient for heat/weather/dance planning. 23,600 vs23,800 square-foot source discrepancy retained. Sonoma remodel1992 not original year/wedding start.",
-      "SebArts is county-building leased operator, not separate Veterans property. Four rooms and three packages added; 146 auditorium seating not proven banquet. Generic dining-room 50\u2013120 / Fireside10\u201340 not exact meal capacities; patio Unknown. 2026 equipment link delivers actual PDF headed2024: current inventory/rates held. Two paid hours plus complimentary hour is access duration, not midnight permission; package12-hour max. Class/ticket footer cancellation policy not assumed venue rental policy.",
+      "SebArts is county-building leased operator, not separate Veterans property. Four rooms and three packages added; 146 auditorium seating not proven banquet. Generic dining-room 50–120 / Fireside10–40 not exact meal capacities; patio Unknown. 2026 equipment link delivers actual PDF headed2024: current inventory/rates held. Two paid hours plus complimentary hour is access duration, not midnight permission; package12-hour max. Class/ticket footer cancellation policy not assumed venue rental policy.",
       "Petaluma 2024 tourism PDF indexed but actual source404; no successful archive/current facts claimed. Original HTML downloads for current county pages successful200 despite web reader error; archived source and fetch log distinguish tool failures.",
       "No venue market/business valuation or competitor profits inferred from county aggregate operating results; infrastructure inventory does not establish sale availability or transferable lease."
     ]
@@ -1871,10 +1871,10 @@
       "Building history, exact opening/operator dates and independent review ratings"
     ],
     "fact_check_findings": [
-      "Mark West brochure sale$3m / lease$6kNNN monthly undated; current availability and operating rights Unknown. Operator200generic not300\u2013400dinner.1840s vs1981 construction conflict held. Three broker parcels not current title. Historic water enforcement identifies parcel, not current compliance.",
+      "Mark West brochure sale$3m / lease$6kNNN monthly undated; current availability and operating rights Unknown. Operator200generic not300–400dinner.1840s vs1981 construction conflict held. Three broker parcels not current title. Historic water enforcement identifies parcel, not current compliance.",
       "River View Garden Resort broker explicitly consult permitting for potential wedding/glamping use.1948 construction field/5.04acres/nineunits are broker claims; no price/earnings supplied, no valuation or permission invented.",
       "Jenner asking conflict$3.6m brochure vs$2.99m listing; exact price chronology Unknown. Six parcel offer not two independent additive property valuations; current operatorsevenunits vsbrokersix/historicaldirectories20+ needs scope reconciliation. Current capacity/permission Unknown.",
-      "Hans Fahden site is Sonoma in state water registry, despite Napa marketing. Linked actual packet2020\u201321, not2026:100dinner,5\u201311PM event, all-service/vendor rules historical.2026smallpackage starts$2k/couple+12guests,2.5hrnotcutoff.",
+      "Hans Fahden site is Sonoma in state water registry, despite Napa marketing. Linked actual packet2020–21, not2026:100dinner,5–11PM event, all-service/vendor rules historical.2026smallpackage starts$2k/couple+12guests,2.5hrnotcutoff.",
       "Henry Cornell EIR downloaded173pages, tablepage21visually reviewed.50annual events/19kcases uses June2014 county source, not current50weddings nor constructed production.1912estate/over25years undatedweddings cannot determine construction/opening.",
       "LWHA actual38page compilation page7visually reviewed: header ESTIMATED sales price, Dawn$20.23m/Q22022/53keys. Not verified deed/currentvalue. Investor77keys20acres scope differs; repeatedroomrecordsdo notsum propertyprice.",
       "Actual primary HTML/PDF sources archived with fetchlogs. LoopNet and Showcase direct403, primary broker PDF readable viaweb tool distinguished from successful actualdownload. RiverView operator timeout not closure proof. Unverified Moskowite/Fremont/Hanssale claims held outsideverified price data."
@@ -1969,7 +1969,7 @@
       "Crane4padsonepark"
     ],
     "excluded": [
-      "Kitchen/parking/concession/practice1\u20132personrooms notindependentweddingvenues",
+      "Kitchen/parking/concession/practice1–2personrooms notindependentweddingvenues",
       "Pool/athletic-onlysalesnotweddingauthority",
       "Filmingfeesnotweddingfees",
       "No existingTuckerduplicate",
@@ -1987,7 +1987,7 @@
       "10%markedrentalservice, labor/AV/parkingextra. $2m insurancewithseparateendorsementvisuallyreviewed. NoBYOB, prior30daybeer/wineapproval; ABC/TIPS/RBS policy differences/currentrequirementsconfirm. General20businessdaysvsPAC8weeks andFeb1/firstFriday/March15deadlineconflicts. Instructionpriority/cancellation/fiscalyearnomonopoly precludeassumedoperatinglease.",
       "Calistoga8fairspaces, August3,2026fee-pageadoption vs2025guide.682/256seatingnotexplicitbanquet,grandstand2941notdiners. Setup/cleanupcolumnandhalf-refundable/half-hold deposit are separate from dailyfee; creditingUnknown. Renovationavailabilityheld. Actualdirectdownloads403; primarywebreaderPDFreview notactualfilearchiveclaimed.",
       "StHelena4Cranepads mapvisuallychecked,samepark/noamp/nonexclusive/publichoursconflict.WholeCarnegie/Lyman configurationsoverlapexistingproperties;60+26+48notcombined134banquet. WappoParkfirstcome/no-restrooms; ambiguousscheduleWappopicnicfee notassigned.",
-      "Tuckerexistingrecordnotduplicated,actual6pagepacketvisuallyreviewed.175providedchairs vs150\u2013180dining,10PMmusic/bar/nooutdoormusic,10:30PMevent/midnightcleanup distinct. Setup/cleanuplabor/security/insurance/cancellation enrichesworkbook; currentlawsnotassertedfromoperatornoiseclaim.",
+      "Tuckerexistingrecordnotduplicated,actual6pagepacketvisuallyreviewed.175providedchairs vs150–180dining,10PMmusic/bar/nooutdoormusic,10:30PMevent/midnightcleanup distinct. Setup/cleanuplabor/security/insurance/cancellation enrichesworkbook; currentlawsnotassertedfromoperatornoiseclaim.",
       "CalistogaCommunityexistingrecordupdated80generic/currentquoteUnknown. StHelenaroomfee-categoryname mappingunresolved; filmingCarnegie$500/day sectionnotusedaseventrentalfee. No market/property/businessprofit values invented."
     ]
   },
@@ -2044,8 +2044,8 @@
     "fact_check_findings": [
       "Eight main campus offerings plus five historical reception add-ons; not13 independentproperties. Exhibit1000dining differs5000standing/2000theater; dinner+danceunknown. Fixedtheatersnotbanquet and Showcase348overview/300feepage conflict.",
       "Currentwebpage dates2026-09-02 indoor versus2025-08-12 outdoor/meeting. LinkedPDFs July2019 despiteJanuary2025upload; historicaladd-onratesheldoutofcurrentper-head. DirectHTML/PDF downloads403 logged; web-reader evidence, no actualdownload/visualreview claimed.",
-      "Exhibit access7AM\u20131AM notmusicpermission; oldpolicy above250/extensivesetuprequiresfullsetupday. 3450+1675=5125selectedspace/setupsubtotal, kitchen425separate; notallin quote. DepositcreditUnknown, refundablecleaningnotexpense.",
-      "Outdoor8AM\u20138PMaccess; overtimefee notmidnightpermission. Meetingrooms72/150configuration-dependentnotbanquet. Old Exhibit-linkedmeetingdiscounts absentcurrentwebpages; Auditoriumcurrentdayaccessversusoldnon-ticketedblockconflict.",
+      "Exhibit access7AM–1AM notmusicpermission; oldpolicy above250/extensivesetuprequiresfullsetupday. 3450+1675=5125selectedspace/setupsubtotal, kitchen425separate; notallin quote. DepositcreditUnknown, refundablecleaningnotexpense.",
+      "Outdoor8AM–8PMaccess; overtimefee notmidnightpermission. Meetingrooms72/150configuration-dependentnotbanquet. Old Exhibit-linkedmeetingdiscounts absentcurrentwebpages; Auditoriumcurrentdayaccessversusoldnon-ticketedblockconflict.",
       "Technicalstaffrequiresquote, currentunionratesvalidthroughJuly6,2027; minimumcalls/overtime/payrollextra. Morethan50personassemblyneedspermitcoordination. Food/barconstraintsJuly2019notunrestrictedBYOB; currentapprovalneeded. Noproperty/businessvalue/operatingprofit invented."
     ]
   },
@@ -2135,18 +2135,18 @@
     ],
     "fact_check_findings": [
       "40 room, combination and picnic records were added, not 40 independent properties: San Rafael center 9, Boro 4, Terra Linda 6, city parks 11, Fairfax 5, San Anselmo 5. Boro gym is restricted to approved sports in the linked packet; its 530 assembly count does not establish wedding permission.",
-      "Actual San Rafael capacity and noise tables were visually reviewed. Auditorium has 300 dining / 400 assembly; Boro has 200 seated. Current Room 5 count of 20 conflicts with the old packet\u2019s 25 dining / 40 assembly. Terra Linda room numbering and weekday deadlines differ between current web and older policy; combined 70/100 counts are published, not sums inferred from rooms.",
+      "Actual San Rafael capacity and noise tables were visually reviewed. Auditorium has 300 dining / 400 assembly; Boro has 200 seated. Current Room 5 count of 20 conflicts with the old packet’s 25 dining / 40 assembly. Terra Linda room numbering and weekday deadlines differ between current web and older policy; combined 70/100 counts are published, not sums inferred from rooms.",
       "Current security rates effective July 1, 2026 are $44.14 per agent/hour, $66.20 after eight hours; staff attendance is $34 per person/hour. Required staffing hours, kitchen and other costs need a quote. The February 2022 deposit is separate from rent, with unusual cancellation treatment; confirm current terms. Older standalone alcohol sheet has a decimal typo; its legal assertion was not repeated.",
-      "Current 2026 park fees have a three-hour minimum including setup/cleanup. Picnic seating is not an approved banquet layout. A June 2026 upload contains May 2022 policy: sunrise\u2013sunset and no alcohol, while the current web page describes a special-permit exception. Redwood Grove insurance and private-picnic exemptions need event-specific clarification. The old Pickleweed construction notice does not establish a current closure.",
-      "Fairfax\u2019s relocated official site advertises weddings and gives Pavilion construction year 1921. Current private rates are $190/$225 per hour, with $325 maintenance; a generic $75 line conflicts. Actual linked packet has 400 seated, only 106 chairs and about 30 parking spaces. Pavilion-specific midnight music conflicts with the general Friday/Saturday 9:30PM rule. Women\u2019s Club stage access conflicts between web and packet. No midnight option is marked confirmed.",
-      "Robson House was completed in 1906; current generic capacity is 50. Picnic sites have 45/60 generic counts and no restrooms. The first booking slot reads 9PM\u20131PM and is held as inconsistent. A San Anselmo search result with a recent label and 2014 filename contains a 2005 meeting packet; those fees were excluded. MCCSD\u2019s indexed recommended schedule lacks verified adoption/site allocation and direct access redirects to sign-in; no new venue or profit projection was imported.",
-      "Actual FY2025\u201326 Robson budget pages 84\u201385 were visually reviewed: FY2023\u201324 revenue and transfers $25,880, expenditures $41,892, net decrease $16,012. This is a mixed civic/office fund, not wedding-only profit or property/business value. Planned $50,000 ADA bathroom work is not evidence of completion or a current contractor quote. Town management FY2006\u201307 is separate from construction and unknown wedding opening."
+      "Current 2026 park fees have a three-hour minimum including setup/cleanup. Picnic seating is not an approved banquet layout. A June 2026 upload contains May 2022 policy: sunrise–sunset and no alcohol, while the current web page describes a special-permit exception. Redwood Grove insurance and private-picnic exemptions need event-specific clarification. The old Pickleweed construction notice does not establish a current closure.",
+      "Fairfax’s relocated official site advertises weddings and gives Pavilion construction year 1921. Current private rates are $190/$225 per hour, with $325 maintenance; a generic $75 line conflicts. Actual linked packet has 400 seated, only 106 chairs and about 30 parking spaces. Pavilion-specific midnight music conflicts with the general Friday/Saturday 9:30PM rule. Women’s Club stage access conflicts between web and packet. No midnight option is marked confirmed.",
+      "Robson House was completed in 1906; current generic capacity is 50. Picnic sites have 45/60 generic counts and no restrooms. The first booking slot reads 9PM–1PM and is held as inconsistent. A San Anselmo search result with a recent label and 2014 filename contains a 2005 meeting packet; those fees were excluded. MCCSD’s indexed recommended schedule lacks verified adoption/site allocation and direct access redirects to sign-in; no new venue or profit projection was imported.",
+      "Actual FY2025–26 Robson budget pages 84–85 were visually reviewed: FY2023–24 revenue and transfers $25,880, expenditures $41,892, net decrease $16,012. This is a mixed civic/office fund, not wedding-only profit or property/business value. Planned $50,000 ADA bathroom work is not evidence of completion or a current contractor quote. Town management FY2006–07 is separate from construction and unknown wedding opening."
     ]
   },
   {
     "pass": 33,
     "question": "What recreation districts, small-town parks and cultural clubhouses could still be missing from the Marin inventory?",
-    "scope": "Strawberry district; Corte Madera center and park prospects; Sausalito Portuguese Cultural Center and Woman\u2019s Club",
+    "scope": "Strawberry district; Corte Madera center and park prospects; Sausalito Portuguese Cultural Center and Woman’s Club",
     "completed_utc": "2026-10-11T09:19:24.442047+00:00",
     "source_urls": [
       "https://strawberry.marin.org/rentals/",
@@ -2195,7 +2195,7 @@
       "Corte Madera generic COVID-era prohibition not asserted current",
       "Strawberry 2019 PDF returned 404; historical indexed rates not current",
       "Novato source 403 held for separate discovery pass; Sausalito public inventory deferred",
-      "Woman\u2019s Club unsigned committee post not treated as a named founder experience"
+      "Woman’s Club unsigned committee post not treated as a named founder experience"
     ],
     "remaining_gaps": [
       "Current complete quotes, operating rights, wedding permissions for outdoors and exact park addresses",
@@ -2204,9 +2204,9 @@
     ],
     "fact_check_findings": [
       "Strawberry publishes seated versus assembled capacity and distinct 10 PM music, 10:10 PM guest exit and 10:30 PM lock. District establishment is not wedding opening; 2019 fees not used as current rates.",
-      "Corte Madera linked policy 200 banquet conflicts with broad website 150\u2013300. Outdoor rental exit 8 PM differs from general park public hours. Seven parks are prospects, not seven confirmed wedding permissions. Sports-only Neil Cummins gym excluded.",
+      "Corte Madera linked policy 200 banquet conflicts with broad website 150–300. Outdoor rental exit 8 PM differs from general park public hours. Seven parks are prospects, not seven confirmed wedding permissions. Sports-only Neil Cummins gym excluded.",
       "Portuguese center actual 26-page April 3, 2025 brochure downloaded; capacity, fee and hours tables visually reviewed. 193/162 dining are not 414/347 chairs-only assembly; no 355-guest combined banquet assumed. Website and brochure hours conflict; midnight is cleanup lockup. Security and attendant charges prevent all-in inference.",
-      "Sausalito Woman\u2019s Club current 100 tables/chairs / 60 ceremony; old 110-person testimonial excluded from current capacity. 2026 fee $6,500, preferred caterer not established exclusive. Primary history construction 1918 versus marketing dedication 1917; wedding-operation start Unknown."
+      "Sausalito Woman’s Club current 100 tables/chairs / 60 ceremony; old 110-person testimonial excluded from current capacity. 2026 fee $6,500, preferred caterer not established exclusive. Primary history construction 1918 versus marketing dedication 1917; wedding-operation start Unknown."
     ]
   },
   {
@@ -2269,7 +2269,7 @@
       "Historical Novato fee tables not current quotes; Hamilton Indiana homonym excluded"
     ],
     "remaining_gaps": [
-      "Current 2026\u201327 fees, approved seated layouts, wedding permissions, noise and cleanup contracts",
+      "Current 2026–27 fees, approved seated layouts, wedding permissions, noise and cleanup contracts",
       "Novato parks and named smaller rooms still incompletely researched; other nine-county municipalities incomplete",
       "APNs/ownership/property and operating-business valuation, opening dates and review listings largely Unknown"
     ],
@@ -2277,14 +2277,14 @@
       "Live Sausalito RecDesk catalogue visually inspected: 37 items, two current Rooms; sports courts, program seats and yard-sale booths not counted as independent wedding venues. Eleven actual primary detail pages archived. Game Room appears on fee page but absent live catalog, so bookability Unknown.",
       "Edgewater has 52 dine/meet, 108 seated and 162 standing in description versus generic field 54; no dinner plus dance assumption. Office hours are not rental hours. All Day catalog schedules do not authorize midnight music.",
       "Dunphy Gazebo excludes picnic tables; electricity extra. Gabrielson explicitly not rentable for events versus historical schedule special permit only; restricted status retained. MLK Field 2 overlaps softball outfield; never simultaneous independent rentals.",
-      "FY2025\u201326 July 1, 2025 fee schedule read through primary web-reader PDF only; actual URL returned 404, no downloaded/visual table claim. Adopted versus prior fee columns and website disagreements preserved; no 2026\u201327 current-rate assumption or full-cost column used as venue profit.",
+      "FY2025–26 July 1, 2025 fee schedule read through primary web-reader PDF only; actual URL returned 404, no downloaded/visual table claim. Adopted versus prior fee columns and website disagreements preserved; no 2026–27 current-rate assumption or full-cost column used as venue profit.",
       "Novato direct sources/PDFs repeatedly 403; Hamilton primary web-reader room layouts not banquet. Margaret Todd tourism bureau 228 dining/280 theater; City terms Unknown. City Hall 1896 building and 88 banquet from historical indexed packet, not wedding opening/current approved count. Downtown generic/old party capacities conflict."
     ]
   },
   {
     "pass": 35,
     "question": "Which missing veterans halls, winery event offers and county permit records reveal overlooked venues or barriers to midnight rural operation?",
-    "scope": "Solano county veterans buildings, Caymus-Suisun and existing Bella Vista/Bud\u2019s;2026county special-event feasibility guide",
+    "scope": "Solano county veterans buildings, Caymus-Suisun and existing Bella Vista/Bud’s;2026county special-event feasibility guide",
     "completed_utc": "2026-10-11T09:39:37.693601+00:00",
     "source_urls": [
       "https://www.solanocounty.gov/government/resource-management/planning-services/development-programs/special-event-facilities",
@@ -2309,7 +2309,7 @@
     ],
     "duplicates_merged": [
       "Bella Vista Farms historicalpermit addedtoexistingrecord",
-      "Olde Vet\u2019s Hall Bud\u2019s existingrecord refreshed; currentDixonCountyhall notsilentlysameproperty"
+      "Olde Vet’s Hall Bud’s existingrecord refreshed; currentDixonCountyhall notsilentlysameproperty"
     ],
     "excluded": [
       "CaymusRutherfordNapa location not thisSuisunproperty",
@@ -2323,19 +2323,19 @@
       "Currentcompletequotes, music/bar/dance layouts, dates, property/business values and independentlymatchedreviews"
     ],
     "fact_check_findings": [
-      "Four missing properties/prospects added; Bella Vista and Olde Vet\u2019s Hall updated rather than duplicated. Benicia lounge midnight is not wedding permission. Vallejo200banquet vs300reception is not a300guest dinner/dance layout.",
+      "Four missing properties/prospects added; Bella Vista and Olde Vet’s Hall updated rather than duplicated. Benicia lounge midnight is not wedding permission. Vallejo200banquet vs300reception is not a300guest dinner/dance layout.",
       "Actual16page Solano March2026 guide (April upload) downloaded; zoning,hours and fee tables visually reviewed. Applicable to unincorporated county special-event facilities; guidance not individual entitlement or binding current quote.",
-      "County guide event10AM\u201310PM,setupcleanup8AM\u201311PM,guestsout10:30PM except approved lodging; outdooramplification65dBpropertyline guidance. Acreage alone does not establish midnight operation.",
+      "County guide event10AM–10PM,setupcleanup8AM–11PM,guestsout10:30PM except approved lodging; outdooramplification65dBpropertyline guidance. Acreage alone does not establish midnight operation.",
       "ActualBella8page AttachmentA visiblyDRAFT; blank resolution/votes and hearing/expiry inconsistencies prevent claiming adopted/current permit or an expiry date.151attendance/36events/year are historicalproposals, not current approved banquet capacity.",
       "Vacaville county reports1929building and completed2019$1.4m renovation; neither is wedding opening or marketvalue. County volunteer maintenance support not assumed transferable to commercialmodel.",
       "Caymus150seated/250reception/min30 from current primary webreader; actual403download failure explicit.2017permit/appeal not opening or currentterms.",
-      "Bud\u2019s original current webpage documents exclusive culinary/beverage provider,500\u20131200basefee,250cleaning, refundabledeposit, alcoholsecurity/bartender. Complete all-in head cost Unknown."
+      "Bud’s original current webpage documents exclusive culinary/beverage provider,500–1200basefee,250cleaning, refundabledeposit, alcoholsecurity/bartender. Complete all-in head cost Unknown."
     ]
   },
   {
     "pass": 36,
     "question": "Which remaining county veterans halls and multi-site wineries were missed, and do operator rules, historical records and capital budgets change their feasibility?",
-    "scope": "Solano remaininghall locations,historyconflicts andVez\u00e9rthreeproperties/sevenoffers;brokerasset-scope diligence",
+    "scope": "Solano remaininghall locations,historyconflicts andVezérthreeproperties/sevenoffers;brokerasset-scope diligence",
     "completed_utc": "2026-10-11T09:51:51.083235+00:00",
     "source_urls": [
       "https://suisunveteranshall.com/",
@@ -2390,11 +2390,11 @@
       "Allninecounty censusandjurisdictionverificationremainincomplete"
     ],
     "fact_check_findings": [
-      "Tenadditionalrecords: threecountyhalls and sevenVez\u00e9r named spaces/offers onthree sharedproperties. Vacaville/Benicia/Vallejo andOldeVetsupdated,notduplicated. County sixcurrenthall locationsnow represented; currentcoverage/contractfacts incomplete.",
-      "ActualJune23,2026county459pageagenda/135page2022Dixonfirepacket/44page2006\u201307GrandJury downloaded. Capitaltablesp188/194,jury26 andfire92visually reviewed. Dixon2025completedjob finalorder80686vsbudget280000;Suisun240000/RioVista902500/Vallejo800000fundedpotential budgetsNOTcompletedcost/propertyvalues.",
+      "Tenadditionalrecords: threecountyhalls and sevenVezér named spaces/offers onthree sharedproperties. Vacaville/Benicia/Vallejo andOldeVetsupdated,notduplicated. County sixcurrenthall locationsnow represented; currentcoverage/contractfacts incomplete.",
+      "ActualJune23,2026county459pageagenda/135page2022Dixonfirepacket/44page2006–07GrandJury downloaded. Capitaltablesp188/194,jury26 andfire92visually reviewed. Dixon2025completedjob finalorder80686vsbudget280000;Suisun240000/RioVista902500/Vallejo800000fundedpotential budgetsNOTcompletedcost/propertyvalues.",
       "Suisunoperator1927vsGrandJury1929;Vacavillecounty1929vsGrandJury1935; constructionconflictsheldUnknown. Benicia1948oncityland;Vallejo1940sconstruction/Dec2005countyacquisition notweddingopening. Historic2007defects notcurrentviolations.",
-      "Vacavilleoperator page actual406/webreaderreview150\u2013175assembly,$6758hour/$85hour,optionallicensedcatererkitchen/nooutsidealcohol/deposits; openingUnknown. Suisunrenderedcurrentrates/services archived: first4h400/480 plusmonitor,300generic/BYOBclaimconditional; bannerrangebasisUnknown.",
-      "Vez\u00e9ractualoriginal300/130/300generic mainoffers,6hourvenuefees8500\u201310000/6500\u20137500/15000,wineonly/nospirits/legallybindingceremoniesprohibitedsymboliconly/security150+/portabletoilets>150/mandatoryshuttle. Fourcorporaterooms10/16generic, notweddingpermission.",
+      "Vacavilleoperator page actual406/webreaderreview150–175assembly,$6758hour/$85hour,optionallicensedcatererkitchen/nooutsidealcohol/deposits; openingUnknown. Suisunrenderedcurrentrates/services archived: first4h400/480 plusmonitor,300generic/BYOBclaimconditional; bannerrangebasisUnknown.",
+      "Vezéractualoriginal300/130/300generic mainoffers,6hourvenuefees8500–10000/6500–7500/15000,wineonly/nospirits/legallybindingceremoniesprohibitedsymboliconly/security150+/portabletoilets>150/mandatoryshuttle. Fourcorporaterooms10/16generic, notweddingpermission.",
       "Broker55m125acrefourpropertyportfolio NOT BlueVictorianstandalone;7.75mMankasmixed-usewholeproperty ASK notgardensbusinessallocation.5.09%caprate/occupancyclaimsnotaudited; noNIOrprofitinferred. 2001winemakingnotweddingstart."
     ]
   },
@@ -2525,10 +2525,10 @@
     ],
     "fact_check_findings": [
       "25nameddiscoveryrecords on8newproperties; incompleteverifiedavailability",
-      "ActualWente2026and2027linked15pgPDFs differ:2026facility3000\u20136000/menu200\u2013250+25%admin/tax;2027listsadditional8000\u201325000minima. Webcapacity conflictsretained",
-      "ActualFairmont8pgbrochure:Kenwood150generic/1AMevents,Vintage175/midnight,otherrooms10PM; not300\u2013400approvedmusic",
-      "Trentadueactual6pgpacket deposit750versusweb1000/5vs5\u20137hours/winediscount10vs15; separatedining/ceremony/dancecapacities",
-      "Nestldowncurrentrequiredvendorcontrol/optionalplanner/music9:45guests10vendors11; weekday14950\u201339500notallin. BRCohn200propertychairs150/wine30minimum;Viansa250vs300/wine35minimum"
+      "ActualWente2026and2027linked15pgPDFs differ:2026facility3000–6000/menu200–250+25%admin/tax;2027listsadditional8000–25000minima. Webcapacity conflictsretained",
+      "ActualFairmont8pgbrochure:Kenwood150generic/1AMevents,Vintage175/midnight,otherrooms10PM; not300–400approvedmusic",
+      "Trentadueactual6pgpacket deposit750versusweb1000/5vs5–7hours/winediscount10vs15; separatedining/ceremony/dancecapacities",
+      "Nestldowncurrentrequiredvendorcontrol/optionalplanner/music9:45guests10vendors11; weekday14950–39500notallin. BRCohn200propertychairs150/wine30minimum;Viansa250vs300/wine35minimum"
     ]
   },
   {
@@ -2903,10 +2903,10 @@
       "Albany12MBguide403notreviewed; noprices/capacitiesinvented",
       "EmeryvilleECCLguide403notreviewed/nostateddeadlinesborrowedfromSeniorguide",
       "HARDparkfield/sportsinventorynotexpandedinthispass;MeekTerracePDFdownloadedheldforspecificseparatecheck",
-      "Google/Yelpunknown; municipal1\u20134voteportalratings notGoogle/Yelp/weddingreviews"
+      "Google/Yelpunknown; municipal1–4voteportalratings notGoogle/Yelp/weddingreviews"
     ],
     "remaining_gaps": [
-      "Currentcompletequotes/perhead/300\u2013400danceplans; municipalrentalnotcommerciallease",
+      "Currentcompletequotes/perhead/300–400danceplans; municipalrentalnotcommerciallease",
       "Emeryvillelinkedoldermatrixcurrentcapacityconflicts andBridgecourtcurrentavailability",
       "Albanysitecutoffconflicts/currentguide download",
       "HARDseatedcapacitylayouts, publicparksandprivateAlbany/Dublin/Emeryville/Hayward venues",
@@ -2915,8 +2915,8 @@
     "fact_check_findings": [
       "DublinupdatedMarch19,2026policymidnightmeanscleaned/vacated; notmidnightmusicpermission",
       "Ambrose300dining350assemblyPDFvs360assemblyweb; seniorFriday2hvs6hminimum;WaveSunday10PMvs12AMconflicts",
-      "Albanycurrentparkhours9AM\u20138PM differfromcached8AM\u20136PM; currentpageevent10PMcleanup11PMvsrentalendlineconflict",
-      "HARDcommunitymainhallactualhourlyrates145\u2013290resident/nonresidentbyfacility;3hminimum, refundabledepositseparate",
+      "Albanycurrentparkhours9AM–8PM differfromcached8AM–6PM; currentpageevent10PMcleanup11PMvsrentalendlineconflict",
+      "HARDcommunitymainhallactualhourlyrates145–290resident/nonresidentbyfacility;3hminimum, refundabledepositseparate",
       "HARDnohardliquor/kegs, alcoholmax5hours/end1hbefore; AVnotincluded; ownchairs/tablesprohibited",
       "HARDCastroactualdirectHTTP200soft404 notarchivevenuecontent; webreaderprimaryreviewretained"
     ]
@@ -2924,7 +2924,7 @@
   {
     "pass": 43,
     "question": "What Alameda restaurant buyouts and privately operated halls were missed, and do public operating hours establish late wedding permission?",
-    "scope": "Meek West Terrace plus Emeryville Honor, Trader Vic\u2019s, Flores, Harvest Hall, Townhouse and Dublin Hillview/FJL/Pippal; 18 rooms/offerings, nine parent properties.",
+    "scope": "Meek West Terrace plus Emeryville Honor, Trader Vic’s, Flores, Harvest Hall, Townhouse and Dublin Hillview/FJL/Pippal; 18 rooms/offerings, nine parent properties.",
     "completed_utc": "2026-10-11T11:06:20.050018+00:00",
     "source_urls": [
       "https://haywardrec.org/Facilities/Facility/Details/Meek-Park-69",
@@ -2969,7 +2969,7 @@
     ],
     "duplicates_merged": [
       "Room buyouts overlap component rooms; Honor Atrium/Partial Atrium share space",
-      "Trader Vic\u2019s generic 300 buyout is not sum of three named dining rooms",
+      "Trader Vic’s generic 300 buyout is not sum of three named dining rooms",
       "Pippal Dublin distinct from Emeryville branch; no capacity borrowed"
     ],
     "excluded": [
@@ -2984,10 +2984,10 @@
       "Building/operation dates, parcels, property and business value, verified review aggregates"
     ],
     "fact_check_findings": [
-      "Meek 200 attendee cap, no alcohol, food allowed and bring furniture; 7 PM April\u2013August rental, conditional amplification; 240/241 entrance discrepancy",
+      "Meek 200 attendee cap, no alcohol, food allowed and bring furniture; 7 PM April–August rental, conditional amplification; 240/241 entrance discrepancy",
       "Honor 120 versus 135 seated in same deck, 250 reception; midnight public bar hours are not wedding music permission",
       "Hillview October 2026 policy: 200/225 hourly plus furniture setup/cleaning; 3200 all-day venue-services option; outside caterer preapproval/decorator first-refusal/outdoor amplification ban and nonassignment",
-      "Trader 2025 menu 64\u201395 dinner food only, 38\u201358 three-hour adult bar; minimum not extra double count; 25% venue-coordinated vendor markup",
+      "Trader 2025 menu 64–95 dinner food only, 38–58 three-hour adult bar; minimum not extra double count; 25% venue-coordinated vendor markup",
       "Flores dinner PDF lacks base meal price, lists 4% plus 20% fees; no all-in figure invented",
       "FJL Patio 100 PDF versus 80 webpage conflict held; 18% gratuity and tax excluded; menu label September2026 not exact publication date"
     ]
@@ -3056,11 +3056,11 @@
       "Allninecounty census/municipalityaudit incomplete;reviews/quotes/leasevaluesrequirefurtherprimaryevidence"
     ],
     "fact_check_findings": [
-      "Presidio January 2026 fees include the $500 permit in lawn rent. Base access 7 AM\u20136 PM includes setup/cleanup; partial East Meadow is 40 generic guests/$450/six hours. Main Parade sections are$6000 each but the combined product is$15000. All counts require approved wedding layouts.",
-      "Current Presidio pages allow outdoor music 9 AM\u20138 PM/tent 10 PM; general rules effective May 2022 say 8 AM start, so that discrepancy remains. Vendor approval requests 90 days ahead differ from the 15-business-day general application lead time. No self-service alcohol or spirit shots; liquor liability/license/food required.",
-      "NPS dates Building 937 construction to 1921. A 2023 indoor dinner 6\u201310 PM establishes a past event, not current wedding permission or occupancy. Fort Scott Chapel identity/capacity held. Fieldwork July 7,2026 announcement projects early 2027 opening; not currently available.",
-      "Mavericks current indoor 102 seated/120 standing conflicts with undated brochure 90/100; lawn 150 conflicts with brochure 140 and Zola 160 overall. Deck 130 dinner/140 standing is weather dependent. Brochure music 11 PMFri/Sat,10 PMotherdays; $7000\u20138000 venue plus$7000\u201310000 F&B minimum plus 22%service/tax is not all-in. Zola 5.0/9 checked directly; Google/Yelp unknown.",
-      "Hacienda is Town owned/Wedgewood operated. Operator seasonal tent reduces generic capacity 200 to 150 November\u2013April. Current 2027 packages$89\u2013154/guest plus venue/ceremony/admin 22%/tax/minimums. Historical 2021 draft lease: initial$240000 annualrent,1.5%escalation,$253000 improvementobligation,$48000 annualcapitalreserve from 2024, percentage-rent clause. Execution/current amendments and actual spend remain Unknown; these are not property/business valuations or actual profits.",
+      "Presidio January 2026 fees include the $500 permit in lawn rent. Base access 7 AM–6 PM includes setup/cleanup; partial East Meadow is 40 generic guests/$450/six hours. Main Parade sections are$6000 each but the combined product is$15000. All counts require approved wedding layouts.",
+      "Current Presidio pages allow outdoor music 9 AM–8 PM/tent 10 PM; general rules effective May 2022 say 8 AM start, so that discrepancy remains. Vendor approval requests 90 days ahead differ from the 15-business-day general application lead time. No self-service alcohol or spirit shots; liquor liability/license/food required.",
+      "NPS dates Building 937 construction to 1921. A 2023 indoor dinner 6–10 PM establishes a past event, not current wedding permission or occupancy. Fort Scott Chapel identity/capacity held. Fieldwork July 7,2026 announcement projects early 2027 opening; not currently available.",
+      "Mavericks current indoor 102 seated/120 standing conflicts with undated brochure 90/100; lawn 150 conflicts with brochure 140 and Zola 160 overall. Deck 130 dinner/140 standing is weather dependent. Brochure music 11 PMFri/Sat,10 PMotherdays; $7000–8000 venue plus$7000–10000 F&B minimum plus 22%service/tax is not all-in. Zola 5.0/9 checked directly; Google/Yelp unknown.",
+      "Hacienda is Town owned/Wedgewood operated. Operator seasonal tent reduces generic capacity 200 to 150 November–April. Current 2027 packages$89–154/guest plus venue/ceremony/admin 22%/tax/minimums. Historical 2021 draft lease: initial$240000 annualrent,1.5%escalation,$253000 improvementobligation,$48000 annualcapitalreserve from 2024, percentage-rent clause. Execution/current amendments and actual spend remain Unknown; these are not property/business valuations or actual profits.",
       "Hacienda draft distinguishes service hours until midnight from music/events 10 PMFri/Sat or 9 PMotherdays. Presidio construction years verified: Chapel 1864, GoldenGateClub 1949, LogCabin 1937; wedding opening/operator duration remain Unknown."
     ]
   },
@@ -3127,7 +3127,7 @@
     "fact_check_findings": [
       "Ulatis explicitly permits own catering, food truck, bartender, florist, decorator, DJ and live band. Previous/next-day setup access included; music 10 PM/event 11 PM. County-law explanation not independently verified; exact street address, approved capacity and price Unknown.",
       "Mission tourism 125 generic capacity is not approved dinner/dance; office hours are not wedding deadlines. Joyful Victorian house 1891, conservation easement 366 acresJanuary 2003 and family homestead 1850 are distinct from wedding opening and current lawful event footprint.",
-      "Masonic tourism listing: Dining Room 300 seated, Sunshine 40\u201349 seated; generic 20\u2013500 meeting summary not per-room wedding count. Operator DNS failed. Suite Treatments 350 generic,1 mCOI, security after 8 PM, bar ends 30 minutes before event; midnight music permission Unknown.",
+      "Masonic tourism listing: Dining Room 300 seated, Sunshine 40–49 seated; generic 20–500 meeting summary not per-room wedding count. Operator DNS failed. Suite Treatments 350 generic,1 mCOI, security after 8 PM, bar ends 30 minutes before event; midnight music permission Unknown.",
       "Dixon rate sheet: Madden 658 dining/1400 theater, Denverton 325 dining/706 theater. Discount minimum furniture 250 chairs+30 tables/$490 or 200 chairs+20 tables/$360 is additional to hall rent. Nonrefundable$250 reservation and refundable$1000 deposit separate. Buildings until midnight/cleanup 2 AM do not confirm midnight music or wedding approval.",
       "Yin primary pageHTTP 200 blank and web-reader inaccessible. Official Linktree wedding marketing verified; secondary address not mapped, capacity/fees/hours/values Unknown. Linktree join dateJanuary 2024 not operating start."
     ]
@@ -3194,9 +3194,9 @@
     "fact_check_findings": [
       "Charles Krugfive spaces:800 seatedlawn/1200 reception;Carriage 300 up/150 down;Redwood 110 up/120 down. Buildings 1881/1872 distinctfrom 1861 estatefounding andunknownwedding opening. Direct HTML 403 logged; web-readerprimaryonly. Operatorclaimoneoffivelegalwineryweddingsnotindependentlegalinventory.",
       "Sattuiactual 2026 packet 170 with dance/200 without;currentgeneral venue page 250 Vittorio Lawnnotapproved 250 wedding. Courtyard 135 packetvs 160 webconflict. Fourday/eveningpackagesoverlapspacesandvaryexclusiveestate/hours. Wine 45 perhead 3500/4000 floorplus 22%/7.75%;micro 42 over 21. Menu 175 startingfood-only; site fee/allin Unknown.",
-      "Sattuievent 6\u201311/outdoor live music 10;requiredplannerandown vendorapproval; nohardalcohol. Older 2026 packetlocal-distributorbeer vsnewer package own beer/ciderup 100 cansretainedascontractquestion.",
+      "Sattuievent 6–11/outdoor live music 10;requiredplannerandown vendorapproval; nohardalcohol. Older 2026 packetlocal-distributorbeer vsnewer package own beer/ciderup 100 cansretainedascontractquestion.",
       "Beringer 5 event hours,10 outdoormusic,1000 extrahouronly BEFOREevent; clientall rentals,preferred caterer/partial plannerrequired;3 cases Beringerwine,ownsparkling/beerfreecorkage. Hudson 1852 notwedding opening;otherroomspermission Unknown.",
-      "Hansalreadylistedtworecords Sonoma, not Napa despite Calistogamailing/marketing. No duplicateadded. Actual 5 page 2020\u201321 textdated PDFlegacyterms notcurrent; operatorover 25 yearsweddingsclaimnotinferredstart.",
+      "Hansalreadylistedtworecords Sonoma, not Napa despite Calistogamailing/marketing. No duplicateadded. Actual 5 page 2020–21 textdated PDFlegacyterms notcurrent; operatorover 25 yearsweddingsclaimnotinferredstart.",
       "County 2015 enforcementreportand 2009 staffreporthistoricalrestrictions;current August 25,2026 agenda 26-1526 definesweddingsasnottemporaryevents/marketingdistinct, butshows Agenda Ready/nofinalaction. Proposed 90 dayprocessing/2027 manualnotclaimedadopted. Currentissuedsitepermits/amendments/adoption Unknown. BCellarsexplicitcannotrentfacilities/wineeducationeventsrestricted, excluded as weddingvenue; tasting/privateeventnotautomaticweddingpermission."
     ]
   },
@@ -3271,7 +3271,7 @@
     "fact_check_findings": [
       "20 Montage spaces and 11 Four Seasons rooms added, including legacy ceremony space and overlapping subdivisions; only two parent resorts.",
       "Montage current wedding ballroom 200/150 conflicts with general banquet 280/180 and legacy narrative 250. Grand Lawn current 450 rounds / 600 reception versus legacy 600/840 and 350 wedding; do not choose largest count. Oak Cathedral 70 is legacy ceremony only/current absent.",
-      "Actual 2022-upload Montage packet: starting food / bar tiers 255/275/300, required facility 4000\u201330000,24% on food/beverage and rental plus taxes, full-service planner, AV extra, valet 25/car/limited 30, required two-night suite. Internal effective date Unknown; no current prices or all-in totals claimed. All-night afterglow wording is not midnight authorization.",
+      "Actual 2022-upload Montage packet: starting food / bar tiers 255/275/300, required facility 4000–30000,24% on food/beverage and rental plus taxes, full-service planner, AV extra, valet 25/car/limited 30, required two-night suite. Internal effective date Unknown; no current prices or all-in totals claimed. All-night afterglow wording is not midnight authorization.",
       "Four Seasons chart banquet 140 Barn/150 Ballroom versus 174 reception; max 174 generic is not 174 dinner+dance. Full-service licensed planner own choice, furnishings can be provided not automatically included. Valet 16 day/28 overnight per current location page; event fee Unknown.",
       "Sunstone actual annualreport and SEC acquisition filing verify Montage $265 m April 22,2021 and Four Seasons 177.5 m Dec 1,2021 gross fee-simple whole assets, not current appraisals/standalone wedding business prices. Montage 117 hotel acres differs 258 master plan/residences excluded. Four includes winery/vineyard/inventory; historical residentialprogram rights already in purchase allocation, never add again.",
       "Annual 2022 Schedule III land allocations 40.326 mMontage/23.514 mFour and realestate grosscarrying 236.288 m/153.841 m are accounting cost, not tax assessment orcurrent market value. Management rights / owner acquisition do not establish wedding operating start."
@@ -3329,7 +3329,7 @@
     ],
     "duplicates_merged": [
       "Solageparentexisting,7 rooms 5 legacy packagesoverlap",
-      "Indian Springsand Sam\u2019soneproperty; retreat rooms/gardensoverlap",
+      "Indian Springsand Sam’soneproperty; retreat rooms/gardensoverlap",
       "Stanly Bell Suiteprep/Porchboardroomnotindependentweddingvenues"
     ],
     "excluded": [
@@ -3347,10 +3347,10 @@
       "28 configurations added: Stanly Ranch nine, Solage seven rooms and five legacy packages, Indian Springs six, Meadowood one. Existing Solage parent enriched. Shared rooms, preparation areas and packages are not independent properties.",
       "Stanly Ranch FAQ: outdoor music stops 10 PM; indoor music can continue during contracted time. Glasshouse Barn can extend to 2 AM with extra fees. Operator-stated only, current contract and issued permit unverified. Six event hours start at guest arrival; room block and professional planner required.",
       "Stanly current Glasshouse 300 rounds/450 reception; Garden House 130/175. Bell Suiteprep 12 and Porch 8 boardroom not banquet. Current FAQ 8.75%tax conflicts undatedfact sheet 7.75%;26% management fee is not gratuity. Quote/chargebases Unknown.",
-      "Solage current 210 Ballroom/260 Lawn rounds versus actual 2025-named deck 170\u2013210 Ballroom; Courtyard 180 reception vs 100 current, Nova 130 vs 100, Aurora 50\u201370 rounds/100 rec vs 50/80 current. Approved dinner/dance layouts Unknown.",
+      "Solage current 210 Ballroom/260 Lawn rounds versus actual 2025-named deck 170–210 Ballroom; Courtyard 180 reception vs 100 current, Nova 130 vs 100, Aurora 50–70 rounds/100 rec vs 50/80 current. Approved dinner/dance layouts Unknown.",
       "Solage actual 30-page 2025-named third-party-hosted operator-branded deck: food / bar 300/340/375 with five-hour bar, plus 26% management/7.75%tax and site fees, not current quote/all-in. Roomblocknotrequired perpage 29; if bookedfive rooms/two nights/holidaythree. Intimatepage 19 minimum wording ambiguous.45 corkage/65 under 12 meals/75 vendor/7 cakecutconditional; complimentaryvalet legacy.",
-      "Indian Springs current socialpage highlights rehearsal dinners notexplicitfullweddings. Sam\u2019s caters all events; Alley 40 private dining seats. Other room counts and wedding permission Unknown.2018 menu 404 not reviewed; old fee not current.",
-      "Meadowood current 6\u201380 eventguests and 36 lodging rooms.2018 pricing/oldlargeevent spaces notcurrent capacity. Direct HTML 403 andold PDFexpiredcertificate recorded; no downloadreview orsecurity bypass. Ohio/Michigan/New Zealandhomonyms excluded."
+      "Indian Springs current socialpage highlights rehearsal dinners notexplicitfullweddings. Sam’s caters all events; Alley 40 private dining seats. Other room counts and wedding permission Unknown.2018 menu 404 not reviewed; old fee not current.",
+      "Meadowood current 6–80 eventguests and 36 lodging rooms.2018 pricing/oldlargeevent spaces notcurrent capacity. Direct HTML 403 andold PDFexpiredcertificate recorded; no downloadreview orsecurity bypass. Ohio/Michigan/New Zealandhomonyms excluded."
     ]
   },
   {
@@ -3416,12 +3416,12 @@
     ],
     "fact_check_findings": [
       "Thirteen configurations added: Tech five missing spaces and two packages, Skyway two and Gold Bar four across two properties. Three existing Tech spaces enriched; no duplicate Hangar One active listing.",
-      "Tech current Upper Level 70 dining conflicts brochure 80; Hall+Lobby 300\u2013350/500 standing, Hallalone 270/350; IMAX 280 theater seats not banquet. Whole buyout brochure 800 seated/2250 standing across rooms, excludes IMAX; current approved dinner/dance layout Unknown.",
+      "Tech current Upper Level 70 dining conflicts brochure 80; Hall+Lobby 300–350/500 standing, Hallalone 270/350; IMAX 280 theater seats not banquet. Whole buyout brochure 800 seated/2250 standing across rooms, excludes IMAX; current approved dinner/dance layout Unknown.",
       "Actual seven-page 2026-named Tech brochure: furniture up to 200 only, approved-list caterer/exclusive Smashing Dishes alcohol/10%food+nonalcohol catering fee; four-hour base+$1000/hour, no prep/storage kitchen/shared dock, same-day delivery. Six-hour packages$10000/$12000 do not include food/bar; roof seasonal/backup allocation confirm. Midnight is building stop, music clock still Unknown.",
       "Skyway second-floor 2000+sf event space is not marketed aircraft hangar lease; conference 12 not banquet maximum. January 2020 ALUC packet 2019 plan APN 046-081-550/3.49 leasehold,1969 oldbuildings proposed demolition not current newroomcompletion.",
       "Official Hangar One closure public finalday December 18,2022 overrides live staleprivate-event page. Gold Bar now markets same Alamedaaddress; TIweddings explicitly FAQ, Alameda weddingpermission Unknown. Marketing 5000/10000 generic not dinner capacity; plans reviewed no occupancy labels.",
-      "Gold Bar actual 8 public Drive PDFs: TIprep kitchen needswritten permission; Alameda none; firepermits/watch client-paid, same-nightload-out, no outsidecleaningcrew, waste offsite/conditional 500 charge. Alameda rules copy SFFDreference\u2014not independently applicable Alamedalaw. COI 1 m CGL/2 maggregate+5 mumbrella in TIsharedfolder; furniture 296 chairs not 5000 seats.",
-      "City 2024 staffreport identifies City-owned 1941 Building 22/32500 sf Gold Barproposedleasedsuite,35750/month pluscommoncosts\u2014not property/businessvalue. Initial proposal/amendments not finalcurrentexecutedlease; nextcheck municipalpermit/currentlease file.",
+      "Gold Bar actual 8 public Drive PDFs: TIprep kitchen needswritten permission; Alameda none; firepermits/watch client-paid, same-nightload-out, no outsidecleaningcrew, waste offsite/conditional 500 charge. Alameda rules copy SFFDreference—not independently applicable Alamedalaw. COI 1 m CGL/2 maggregate+5 mumbrella in TIsharedfolder; furniture 296 chairs not 5000 seats.",
+      "City 2024 staffreport identifies City-owned 1941 Building 22/32500 sf Gold Barproposedleasedsuite,35750/month pluscommoncosts—not property/businessvalue. Initial proposal/amendments not finalcurrentexecutedlease; nextcheck municipalpermit/currentlease file.",
       "Verification also repaired 213 ISO timestamp strings with whitespace next to T. Original date/time instants preserved, validated with datetime; no dates inferred."
     ]
   },
@@ -3575,13 +3575,13 @@
     ],
     "fact_check_findings": [
       "Municipal picnic configurations overlap parent parks and combined sites; not additional independent properties. Wedding approval/layouts remain Unknown. Individual amenities take precedence over broad directory capacity bins without assuming banquet capacity.",
-      "Cypress Pavilion 400 picnic/88 tables,490\u20131235 resident/nonresident/daytier site fees plus 250 refundable deposit; sound permit allowed,20 amp electrical draw warning, sunset-based park closing is not midnight operation.",
+      "Cypress Pavilion 400 picnic/88 tables,490–1235 resident/nonresident/daytier site fees plus 250 refundable deposit; sound permit allowed,20 amp electrical draw warning, sunset-based park closing is not midnight operation.",
       "City FAQ prohibits adding outside chairs/tables to expand sites; private walk-in/push-in catering allowed. No weather refunds; changes 20 FAQ versus 25 rules unresolved. Ordinary sound ban applies except Cypress, and neighborhood/Emma Prusch/Overfelt alcohol bans prevent blanket BYOB assumptions.",
       "Cascade older 60 versus later 100; Twin Oaks current 50/5 tables versus legacy 80/8 tables and shade conflict. Held conflicting counts, no invented total.",
       "Actual South Bay Yacht Club contract:100 generic guests not seated; bar 10 PM/all offsite 11 PM; warming only,100 permit/10 wine corkage/bartender 100 first 4 h+25 hour,300 cleaningfee OR 400 refunddeposit,1 m COI/member sponsor; quote blank means all-in Unknown.",
       "Alviso county park 8 AMsunset/freeentry is not private wedding booking or late-event approval. Current address widget contradicts main address; adjacent refuge jurisdiction and rules separate.",
       "Actual Don Edwards FWS rules require special-use permit for all organized groups/portrait/event photography. Don Edwards and San Pablo refuge wildlife acreage is not marketable wedding inventory; leave specific event compatibility/permission unresolved rather than fabricate rentable sites.",
-      "Normalized accented San Jos\u00e9 city labels to San Jose for consistent municipality matching; venue evidence retained. Municipal/PDF 403 and FWS generic permit 404 failures documented; only SBYC PDF actual download claimed."
+      "Normalized accented San José city labels to San Jose for consistent municipality matching; venue evidence retained. Municipal/PDF 403 and FWS generic permit 404 failures documented; only SBYC PDF actual download claimed."
     ]
   },
   {
@@ -3737,11 +3737,11 @@
     "fact_check_findings": [
       "58 named picnic sites across eight existingpark groups plus 2 required Roberts ceremony pairs. These overlapparentrecords and are not 60 properties. Individualpicnic capacity remainsgeneric; simultaneousseating/dance Unknown.",
       "Actual current district FAQ: onepicnicsite perevent, onlyspecified Roberts ceremony pairs exception. No amplifiedmusic/50 footbattery audibility. Extra furniture cannot expandcapacity or claimpubliclawn. Foodservice privateonly/supervisorapproval; food truckslist specific.",
-      "Current capacity-tier resident/nonresident rates 60\u20131085 plus 8 booking; refundable security 50\u2013250 separate. Covered 200 Quarry Ensenada exception 420/588 plus 8, beer/wine 25 permit. No spirits; Contra Lomaalcohol prohibited. Per-head shownvenue-onlyforselectedguestcount, notapprovedcapacity/all-in wedding.",
-      "Actual onepage Roberts wedding FAQ downloaded/visuallyreviewed: requiredpairings, no treesd\u00e9cor/forestfloorchanges/gasgenerators/propaneheaters/food trucks, hand carryvendors, noparkstaffrides,5 parkingno-prepay/noguarantee/lowclearance. Accessible anddeliverylimitations materiallyaffect eventfeasibility.",
-      "Contra Loma Meadow Lark/Redwing temporarilyclosed; Tilden Laurel/Padre/Willows mid Oct\u2013mid Apr South Park Driveclosure and 2026 fuelwork. Different seasonalpark/gate/curfew clocks, notmidnightmusicpermission.",
+      "Current capacity-tier resident/nonresident rates 60–1085 plus 8 booking; refundable security 50–250 separate. Covered 200 Quarry Ensenada exception 420/588 plus 8, beer/wine 25 permit. No spirits; Contra Lomaalcohol prohibited. Per-head shownvenue-onlyforselectedguestcount, notapprovedcapacity/all-in wedding.",
+      "Actual onepage Roberts wedding FAQ downloaded/visuallyreviewed: requiredpairings, no treesdécor/forestfloorchanges/gasgenerators/propaneheaters/food trucks, hand carryvendors, noparkstaffrides,5 parkingno-prepay/noguarantee/lowclearance. Accessible anddeliverylimitations materiallyaffect eventfeasibility.",
+      "Contra Loma Meadow Lark/Redwing temporarilyclosed; Tilden Laurel/Padre/Willows mid Oct–mid Apr South Park Driveclosure and 2026 fuelwork. Different seasonalpark/gate/curfew clocks, notmidnightmusicpermission.",
       "Del Valle Fiesta Grande 500 picnic/Lichen Bark 300 but dinnerlayout Unknown; Quarry North/South Ensenada 200 pavilions explicitlypopularforweddings. Redwood Old Church picnic 50/amphitheater 40 ceremony, not 50 ceremonychairs. Newt Hollow chemicaltoilets 200 yards.",
-      "Fee FAQ rainrefundspecific 10\u20136 steady rain/samedayrequest unlike San Jose no-weatherrefund. Contract cancellation thresholds/deposits/servicefees separate. Venuebuilding/weddingopening/parcelvalue/actualbusinessprofits Unknown.",
+      "Fee FAQ rainrefundspecific 10–6 steady rain/samedayrequest unlike San Jose no-weatherrefund. Contract cancellation thresholds/deposits/servicefees separate. Venuebuilding/weddingopening/parcelvalue/actualbusinessprofits Unknown.",
       "No new map pins: parkcontactaddresses andmultipleentrances/Briones Bear Creek/Skyline Redwood Bowl/Tilden ZIPanomaly notexactpicnicsite access. Unmapped named sites remain searchable."
     ]
   },
@@ -3921,10 +3921,10 @@
       "All-nine-county private and municipal inventory remains incomplete; current quotes, seated layouts, time restrictions and parcel/business valuations need confirmation"
     ],
     "fact_check_findings": [
-      "72 additional named picnic sites across fifteen current district inventories. Combined passes 51\u201352 enumerate 130 named sites across 23 pages plus two required Roberts pairings. District FAQ headline says 139 reservable sites: discrepancy of nine unresolved; no complete district inventory claim.",
+      "72 additional named picnic sites across fifteen current district inventories. Combined passes 51–52 enumerate 130 named sites across 23 pages plus two required Roberts pairings. District FAQ headline says 139 reservable sites: discrepancy of nine unresolved; no complete district inventory claim.",
       "All capacities are picnic-group maxima, not simultaneous banquet or dinner-plus-dance seating. Generic site addresses/park entrances are not precise configurations; no new map pins claimed. One site per event means picnic sites cannot be pooled for a larger wedding.",
       "Ardenwood E-I-O explicitly prohibits caterers, BBQs, heat sources and modern recreation/decor. It is distinct from the farm wedding concession and may be unsuitable for the desired outside-vendor model.",
-      "Garin dedicated headings list all four sites at 50. General park prose gives Buttonwood, Cattlemen\u2019s and Ranchside 100; those three numeric capacities held Unknown with both statements preserved. Published 50-person fee tier is provisional, not guaranteed. Dry Creek Garden closure alert overrides stale opening schedule; picnic sites not assumed closed.",
+      "Garin dedicated headings list all four sites at 50. General park prose gives Buttonwood, Cattlemen’s and Ranchside 100; those three numeric capacities held Unknown with both statements preserved. Published 50-person fee tier is provisional, not guaranteed. Dry Creek Garden closure alert overrides stale opening schedule; picnic sites not assumed closed.",
       "Miller Knox and Shadow Cliffs prohibit alcohol. Crown Beach and Don Castro require reservation plus $25 beer/wine permit; spirits prohibited. All sites retain separate published venue-only rates plus mandatory $8 booking fee and refundable deposit; current quotes/complete costs Unknown.",
       "Castle Rock quarter-mile parking approach, MLK Bufflehead not wheelchair accessible, Lake Chabot uphill sites, Wildcat Bay toilets 550 feet away, Temescal Landvale freeway sound/views: access and experience may rule sites out before price comparison.",
       "Temescal current operator footbridge closure and swimming advisory separately flagged; neither is invented blanket picnic closure. Food-truck exception is North Temescal, not all five sites. Midnight event/music/cleanup permission remains unestablished.",
@@ -3980,7 +3980,7 @@
       "Bella Verdi current maximum 500 generic versus directory 440; TopKnot separate Paradise Valley maximum 180. No banquet or midnight claims imported from directory. Primary golf web-reader excerpts reviewed; direct HTML 403 logged.",
       "Tarrega below-100 recommendation not legal maximum. $500/six hours with refundable $250 deposit; outside furniture/catering; add-ons separate. No-cooking versus optional grill ambiguity preserved. Six-hour duration not end clock.",
       "Lake Solano actual linked 2024-effective three-page fee PDF: picnic tier over 500 still each pad maximum 250. No 500-person wedding seating inferred. Nature Center rental/room/patio/education fees do not establish wedding/commercial operating permission or complete quote.",
-      "Sandy Beach first-come tables; 8\u20136 day use/no entry final hour, public capacity closures stop delivery/dropoffs/re-entry. Strong-current swimming ban; campground 42 and 24-hour boat launch not wedding occupancy or midnight permission.",
+      "Sandy Beach first-come tables; 8–6 day use/no entry final hour, public capacity closures stop delivery/dropoffs/re-entry. Strong-current swimming ban; campground 42 and 24-hour boat launch not wedding occupancy or midnight permission.",
       "Actual county/conservatory HTML and both county fee PDFs archived; Lake PDF page 2 visually reviewed. Upcoming 2027 fee announcement not used as effective current prices. Reservation-host certificate failure logged; certificate validation not bypassed.",
       "Fairfield-city.org 2026 wedding rental packet is Fairfield Ohio, excluded from California inventory. Construction and campground availability conflicts preserved; histories/parcel/values/business earnings remain Unknown."
     ]
@@ -4023,7 +4023,7 @@
       "Moskowite current MLS asks $75m for claimed multi-parcel 788-acre winery estate; single APN does not cover full estate. Land/business allocations, exact wedding permissions and profit remain Unknown. MLS year 1975 is property-level, not newly described wedding-structure age.",
       "Anonymous Alameda broker asks $16.5m while property/business estimates $12.3m/$4.5m sum $16.8m. Claimed licenses already included; no double counting. Revenue/NOI/pro forma values unverified; no competitor actual profit invented. Original posting and valuation date Unknown.",
       "Nearby Pridmore property is a different 5.03-acre parcel, not Moskowite winery. County 2024 RECOMMENDED conditions: annual six events at 150/twelve at 60, 10PM event end except quiet cleanup, amplified sound inside approved enclosed buildings, overflow/shuttle over 60. Final adopted permit/current operation Unknown.",
-      "Actual MLS/BizBen/county HTML and 32-page recommended conditions PDF archived with fetch logs; PDF pages 6\u20137 visually reviewed. Web reader reported PDF unavailable but direct normal HTTPS fetch returned valid 200; certificate validation not bypassed. Broker HTML direct 403 logged.",
+      "Actual MLS/BizBen/county HTML and 32-page recommended conditions PDF archived with fetch logs; PDF pages 6–7 visually reviewed. Web reader reported PDF unavailable but direct normal HTTPS fetch returned valid 200; certificate validation not bypassed. Broker HTML direct 403 logged.",
       "Closed-sales comps/assessor values/verified earnings and full parcel title schedule remain missing. No Zillow commercial business value, acreage-based permitted capacity, license premium stacking or capital budget inferred."
     ]
   },
@@ -4145,11 +4145,11 @@
     ],
     "fact_check_findings": [
       "29 property/space/package records at five parent properties; no independent-property or completeness claim. Sea Ranch glamping overlaps The Meadow; partner hotel referral to Depot is not an additional200-person resort room.",
-      "Sea Ranch dinner counts30/35/50/80/150/200 are distinct from200-person ceremony/reception claims. 17 guestrooms not200beds;1968main building/2023renovation not wedding opening. Historical January22,2025 menu:75\u2013175food,55\u2013140bar plus25%service/stated9%tax; room/venue/lodging/currentquote Unknown.",
+      "Sea Ranch dinner counts30/35/50/80/150/200 are distinct from200-person ceremony/reception claims. 17 guestrooms not200beds;1968main building/2023renovation not wedding opening. Historical January22,2025 menu:75–175food,55–140bar plus25%service/stated9%tax; room/venue/lodging/currentquote Unknown.",
       "Conservatory150dinner/200standing pavilion versus50ceremony gallery. Palm package-specific food rule: ceremony-only nofood, buyout dining permitted; no tenting.50%deposit and approved licensed/insured caterers/dietary exceptions/off-listfee.1879building/publicopening notweddingopening.",
       "Calistoga official200 versus platform300; seven host room capacities unverified and numeric verified fields held Unknown.1868buildingnotweddingoperation; brochure cover only viewed, internal navigation failed, no full review/download claimed.",
       "Third Rail85generic and preferred caterer claim from currently linked older deck. Publicmidnight/2AMhours do not establish wedding/music deadline. Wilkinsonmicro30/from8000package notvenueonly/allin; glasshouse45generic not80.",
-      "29 new exact Census address matches with matching California/county, bringing mapped records to764; five shared property address points, not29 distinct surveyed entrances. Local1502-record UI verifies one dated-menu row, historical food/bar labels, all-in Unknown and horizontal slider advancement0\u219230; no console errors observed."
+      "29 new exact Census address matches with matching California/county, bringing mapped records to764; five shared property address points, not29 distinct surveyed entrances. Local1502-record UI verifies one dated-menu row, historical food/bar labels, all-in Unknown and horizontal slider advancement0→30; no console errors observed."
     ]
   },
   {
@@ -4263,7 +4263,7 @@
       "SanMateo Central ActivityA/B meeting-only, not wedding prospects",
       "New Foster165square-foot conference room and VIBE20-person weekday StudyRoom ancillary meeting-only leads",
       "Menlo403 direct sources held for separate evidence review, no fabricated download",
-      "New Millbrae picnic2A/2B/4 not assigned invented capacities from older1\u20133guide",
+      "New Millbrae picnic2A/2B/4 not assigned invented capacities from older1–3guide",
       "SanMateo assetPDF404; indexed1966 not used as verified construction year"
     ],
     "remaining_gaps": [
@@ -4273,8 +4273,8 @@
     ],
     "fact_check_findings": [
       "Millbrae rental curfew can reach midnight only special weekend approval, but music ends10:30PM. Great Hall300 is generic, Chetcuti126 dining/150 lecture and library30 dining/54 lecture separate. June11,2022 recreation facility opening is not first wedding/construction year. Customer caterer choice but no food trucks; insurance/guards/setup/cleaning/late fees matter.",
-      "San Mateo banquet counts200 Beresford/83 Central/175 SeniorAssembly/72 SeniorActivity separate from theater. King combined social rooms88, not42+53. Central weekend rental until midnight not music deadline. Meeting-only Central classrooms excluded. Picnic/playground closed18\u201324months noticeMay1,2026; Joinville reopening midJune2027, not current wedding availability.",
-      "Foster old Annex1000EastHillsdale versus new650Shell must not merge. FY26/27 Annex40/30 versus older50/35 conflict held Unknown;100 Wind is reception/meeting not banquet. New Lagoon private weekend packages3600\u20139625 include setup/cleanup within up10hours8AM\u2013midnight, refundable deposits separate. No approved hall capacity or midnight music permission inferred.",
+      "San Mateo banquet counts200 Beresford/83 Central/175 SeniorAssembly/72 SeniorActivity separate from theater. King combined social rooms88, not42+53. Central weekend rental until midnight not music deadline. Meeting-only Central classrooms excluded. Picnic/playground closed18–24months noticeMay1,2026; Joinville reopening midJune2027, not current wedding availability.",
+      "Foster old Annex1000EastHillsdale versus new650Shell must not merge. FY26/27 Annex40/30 versus older50/35 conflict held Unknown;100 Wind is reception/meeting not banquet. New Lagoon private weekend packages3600–9625 include setup/cleanup within up10hours8AM–midnight, refundable deposits separate. No approved hall capacity or midnight music permission inferred.",
       "VIBE explicitly advertises wedding receptions; FY26/27 main150/package180 generic, not banquet. Five-hour alcohol minimum, designated areas and safe transport obligation; teen priority/no private skatepark. Original webpage whole/half scope versus newer application room/package scope and payment deadlines require clarification.",
       "Actual primary municipal HTML and12 successful municipal PDFs archived; image-only Millbrae fees and new Foster fee tables visually reviewed. Menlo direct403 and SanMateo asset404 logged, not portrayed as downloaded/reviewed. Construction/first-wedding/operator/value/reviews remain Unknown without adequate evidence."
     ]
@@ -4331,7 +4331,7 @@
       "Property/value/APN and actual wedding-opening/operator dates Unknown"
     ],
     "fact_check_findings": [
-      "16 municipal room/configuration/park leads, not16 independent available venues. Sequoia/other Arrillaga capacity table expressly standing-only; current100\u2013249generic versus250 historical/currentinventory conflict retained, banquet/dance Unknown. Maple dance/fitness-only/nofood excluded.",
+      "16 municipal room/configuration/park leads, not16 independent available venues. Sequoia/other Arrillaga capacity table expressly standing-only; current100–249generic versus250 historical/currentinventory conflict retained, banquet/dance Unknown. Maple dance/fitness-only/nofood excluded.",
       "July14,2026 approved master fee schedule distinct fromJune3,2019 policy prices; chosen current fee bases recorded, complete food/bar/insurance/security costs Unknown. Arrillaga historical alcohol11PM/patio10PM/vacate1AMweekend not midnight music. Exactly100guest guard threshold unresolved.",
       "Belle Haven city reports2024construction/publicopening, not first wedding; eventhall164generic not dinner+dance. Full/half/terrace configurations overlap, no164/2 capacity or inherited Arrillaga cutoff. New online booking and old in-person policy conflict marked.",
       "Sharon Park wedding fee165/275 per event excludes preparation/equipment; not all-in. Bedwell nonexclusive daytime specialevent lead has no amplifiedsound/alcohol and is not a private venue/business lease.",
@@ -4394,7 +4394,7 @@
     ],
     "fact_check_findings": [
       "18 records:twoDixonSMUCrooms,eightpicnic/amphitheaters,threeBeniciacityroominventories,fivemuseumspaces/packages. Configurations/packages share sites; not18 independent available venues. Twoexistingparents updated.",
-      "ActualdownloadfivePDFs including scannedcurrentlylinkedDixonfees visuallyreviewed:114/56/29,2minsurance; alternatepacket111/54/28,1m differs. July1,2025parkfees FY25\u201326 historical, notcurrentquote. Parknoalcohol/norefund notSMUCpolicy.",
+      "ActualdownloadfivePDFs including scannedcurrentlylinkedDixonfees visuallyreviewed:114/56/29,2minsurance; alternatepacket111/54/28,1m differs. July1,2025parkfees FY25–26 historical, notcurrentquote. Parknoalcohol/norefund notSMUCpolicy.",
       "MuseumMarch17,2026contract cleaningincluded3packages versuswebFAQ550allrentals retained conflict; ownvendors approval+insurance. StoneHall150formal/300standing, brochure120dinner+DJlayout. Legacyuntil2AMbrochure notexactmusic/barlegaldeadline; independentnoisepermitUnknown.",
       "Museum1850s approximatebuildings notexactyear/firstwedding. Eventagreementnonsublettable; nooperatinglease. Property/APN/businessvalueUnknown. Publicrestroomaccessduringmuseumhours breaks assumption of fullprivacy.",
       "BeniciaClockTower536seated/601standing/currentaddress189vs1189conflict. Citygym sports-onlyheld; PardiPlaza expressly publiceventsONLY,noprivate/ticketed excluded. Fairfielddirect403logged, nodownloadclaimed; governmentsearchreadernewleadsheldfornextpass."
@@ -4441,7 +4441,7 @@
     "excluded": [
       "Ancillary kitchens and gallery add-ons",
       "Pool public admission notwedding price",
-      "FY17\u201318prices inlaterbudget notcurrent",
+      "FY17–18prices inlaterbudget notcurrent",
       "Unspecified conference/health/artsrooms held for room-level approval",
       "Sportsplayingfield availability not establishedweddingpermission"
     ],
@@ -4453,7 +4453,7 @@
     ],
     "fact_check_findings": [
       "22 Fairfield room/configuration and possible event-space records from actually downloaded47-page FY2024/25 PROPOSED municipalfee PDF and city search-reader inventory. Not22 independent available sites. Currentadoption/pricing/weddingpermission Unknown.",
-      "Proposal July8,2024 cannot become current price; separate FY17\u201318fees embeddedin2023\u201325budget alsohistorical. Willow Hall/AssemblyHall correspondence unresolved, justunder500banquet versus600audience not500numeric/dinnerdance. Adultparent10\u2013180notroomcapacity.",
+      "Proposal July8,2024 cannot become current price; separate FY17–18fees embeddedin2023–25budget alsohistorical. Willow Hall/AssemblyHall correspondence unresolved, justunder500banquet versus600audience not500numeric/dinnerdance. Adultparent10–180notroomcapacity.",
       "Dunnell1998bequest/2004plan notconstruction/firstwedding/operatorstart. Neighborhoodfurniture50notbanquetlayout; Laurel2980department vs2986rentalpageaddress retained. AdultCivicCenter vssecondaryHarryPrice namingneedsconfirmation.",
       "DirectFairfieldHTML,parkPDF andhandbook403 logged; cachedsearch-reader archived asreaderresponse, notdownloadedoriginal. Actual proposalPDF succeeded. No browser permission bypass/accountcreation/inquiries.",
       "Sportsgym explicitlyadvertises open-space eventrental; aquaticsoutsidearea historicalprospect noalcohol/glass, weddingUnknown. Kitchens,conference/health/artsrooms andpooladmissionheldratherthanassertingweddingcapacity; comprehensiveinventory remainsincomplete."
@@ -4505,7 +4505,7 @@
     ],
     "fact_check_findings": [
       "14 Vacaville room/configuration/garden records; existing parent records retained. Shared facilities, not14 independent venues. Exact named capacities separated from standing and generic brochure totals.",
-      "Ulatis full400dining versus1124standing; larger and medium groups336/272dining versus944/764standing. Brochure70\u2013625generic is not625banquet. ThreeOaks250/100dining; McBridefull200dining, partialrooms50/100 and multipurpose30/60. Dinnerplusdance stillUnknown.",
+      "Ulatis full400dining versus1124standing; larger and medium groups336/272dining versus944/764standing. Brochure70–625generic is not625banquet. ThreeOaks250/100dining; McBridefull200dining, partialrooms50/100 and multipurpose30/60. Dinnerplusdance stillUnknown.",
       "Actual citybrochure2pages downloaded throughpublicCPRSattachment and visuallyreviewed; brochure labelOctober2023 comesfromattachment, notinferredsourcepublication. Firstwedding/operator datesUnknown. June3,2024staffdiscussion datedhistorical, notcurrent pricing/auditedprofits.",
       "Directcityfees/policy/budget/HTML403 logged; originalfeePDFweb-reader response archived, notlocalPDFdownload. Policyreader later403, no inferredcutoff/insurance. VPATfetch200but0text not usableoriginalcontent; no newtheatercapacityclaim.",
       "FY2024/25rates historical, currentcompletequotesUnknown. Brochurekitchen and equipment availability notproof allincluded orvendorfreedom. No businesslease/APN/propertyvalue/profit invented. RemainingindividualUlatisrooms andotherVacaville inventory requirefollowup."
@@ -4703,8 +4703,8 @@
     ],
     "fact_check_findings": [
       "Three possible restaurant/commercial offering records added across two properties; MarkWest single-parcel assessment evidence updated. No new current market or business valuation invented.",
-      "DepotSonoma1870 building separate from firstwedding/operator start. ActualAugust2021 packet140 summer/90winter conflicts with secondary160/190. Historical platedfood41\u201358 excludes mandatory8\u201311/hour adultbar/staff,20%service,tax and evening1000\u20133000buyout. Refundable1500deposit separate.",
-      "Depot historical music10PM Fri/Sat and9PM Sun\u2013Thu is an operator claim, not independently verified current law/contract. Small4\u201349 semi-private offer excludes DJ/dancing; currentpermission Unknown.",
+      "DepotSonoma1870 building separate from firstwedding/operator start. ActualAugust2021 packet140 summer/90winter conflicts with secondary160/190. Historical platedfood41–58 excludes mandatory8–11/hour adultbar/staff,20%service,tax and evening1000–3000buyout. Refundable1500deposit separate.",
+      "Depot historical music10PM Fri/Sat and9PM Sun–Thu is an operator claim, not independently verified current law/contract. Small4–49 semi-private offer excludes DJ/dancing; currentpermission Unknown.",
       "CBRE February9,2026 court-supervised Depot sale announcement links toexpired/off-market offering. No closingprice/sale completion inferred. Broker APN/assessment fields unverifiedtaxyear, notmarketvalue.",
       "MoragaBarn1913 vs1914 construction conflict heldUnknown. Undatedweb1.375m ask versus2015 flyer1.295m; lease2.50+NNN rateunit/periodUnknown, noannualrent invented. Restaurantpermit notwedding approval.",
       "MarkWest assessment640574 is reported forparcel006 only, not the threeparcel assemblage asking3m. Currentassessor/title/taxyear Unknown. Jenner prior2.99m/3.6m conflictingasks preserved; no new claim fromfailed403fetch.",
@@ -4897,14 +4897,14 @@
       "AmbroseHall Dublin is distinct from AmbroseCommunityCenter BayPoint",
       "TownPark20:00policy not copied onto indoor hall",
       "72Leftychairs not treated as72capacity",
-      "CorteMadera2024\u201325rates not assumed current; historical350assembly figure not substituted"
+      "CorteMadera2024–25rates not assumed current; historical350assembly figure not substituted"
     ],
     "remaining_gaps": [
       "Current contracts, conditional date/season/eligibility, complete fees, event permissions",
       "Other CorteMadera parks and public/private/faith/club inventories"
     ],
     "fact_check_findings": [
-      "Fresh policyPDF establishes hall music ends21:00Sun\u2013Thu/22:00Fri\u2013Sat; event22:00/23:00, not midnight.",
+      "Fresh policyPDF establishes hall music ends21:00Sun–Thu/22:00Fri–Sat; event22:00/23:00, not midnight.",
       "Lefty60genericcapacity,20:00vacate,4hminimum; weekday3hwindow conflict retained.",
       "Ambrose explicitly markets receptions but page omits numeric rates/capacity/time; searched gaps recorded."
     ],
@@ -5048,7 +5048,7 @@
       "Added typed overnight obligation/inclusion/unit-night metrics; null remainsunknown.",
       "Wildhaven47units/2nights scenario differs fromSunday/midweek offers;80beds not146approved sleepers.",
       "Westerbeke packageincludes50overnight guests/2nights,20%charge on specifiedportions;propertymaximum unresolved.",
-      "Dawn2026brochure49pages archived; Orchard page8rendered/visuallyreviewed, baseline40\u00d72=80unitnights andlateoffer66units keptdistinct.",
+      "Dawn2026brochure49pages archived; Orchard page8rendered/visuallyreviewed, baseline40×2=80unitnights andlateoffer66units keptdistinct.",
       "Straus8sleepers/4bedrooms;1250nightly vacationreference+cleaning400/tax15 notautoapplied to weddings.",
       "After page12comparison rendered/visuallychecked, weekday12versus15 andmicro3versus12unit conflicts held; initial detailed-page-only numeric extraction corrected, source alternatives preserved."
     ]
@@ -5271,9 +5271,9 @@
     "fact_check_findings": [
       "Ralstoncurrentfoundation2005 andMontalvoAssociationOctober1953 sourcedseparately",
       "Ravenswoodoperatorhistoryexplicit1893buildings,1885purchase,1971donation",
-      "MontalvoNPS7pagePDFarchived/page4rendered;1912\u20131914range. Media-brochurecertificatehostnamefailureheldwithoutbypass.",
+      "MontalvoNPS7pagePDFarchived/page4rendered;1912–1914range. Media-brochurecertificatehostnamefailureheldwithoutbypass.",
       "MissingKohlMansionaddedfromMercyHighSchoolprimary; noexhaustiveclaimfromlargeexistingcount",
-      "Ralstonexplicitownlicensed/insuredcatererpermissionandlivingroom125seats extracted. Parking30\u201350vehiclesrequiresvalet/shuttlewhenover50; costsUnknown. Noautomatic$50allinfigure."
+      "Ralstonexplicitownlicensed/insuredcatererpermissionandlivingroom125seats extracted. Parking30–50vehiclesrequiresvalet/shuttlewhenover50; costsUnknown. Noautomatic$50allinfigure."
     ]
   },
   {
@@ -5353,7 +5353,7 @@
       "SCCCyear/seasonrateapplicability andoperator1mvsCitypermit2minsurance-scope reconciliation"
     ],
     "fact_check_findings": [
-      "VillaMilestoneeffectiveJuly1,2022; cityreportsJan1\u2013Apr9,2027bookinghold",
+      "VillaMilestoneeffectiveJuly1,2022; cityreportsJan1–Apr9,2027bookinghold",
       "Villaoperator250weddingoffer vsCity632genericMainVilla and200Annex; separateconfigurations",
       "SCCCdefaultmusic22:00,approved23:00extension100,cleanupnotpast00:00; maintenance100notfullcleanup, hardliquor300conditional",
       "SeniorRotary100meal/125reception, Program24tables/45reception, Classroom16tables; kitchenextra",
@@ -5393,7 +5393,7 @@
     ],
     "fact_check_findings": [
       "Signedsignaturepage25visuallychecked",
-      "InitialJuly1,2022\u2013June30,2027term andconditionalextension distinct",
+      "InitialJuly1,2022–June30,2027term andconditionalextension distinct",
       "Section2communitybenefitconsideration; utilities/staffing/upkeep andcapitalbudgetallocationmaterial",
       "Staffreport6Legionevents vsagreement7.4c3explicitdiscrepancy preserved",
       "Published linkedcase study; no speculativeearningsorvaluation"
@@ -5556,7 +5556,7 @@
       "No2015Heronquote treatedascurrent; unrelatedMtGileadPennsylvania/BenLomondSantaCruz/FortBraggMendocino excluded fromninecounty additions"
     ],
     "gaps": [
-      "Specific camp/club/museum/theatre weddingpermission, currentall-inquotes, roomliability, otherunrevieweddirectories andagencyinventories. Publiclandguide sections1\u20134reviewed; site reconciliation/remaining permit conditions next."
+      "Specific camp/club/museum/theatre weddingpermission, currentall-inquotes, roomliability, otherunrevieweddirectories andagencyinventories. Publiclandguide sections1–4reviewed; site reconciliation/remaining permit conditions next."
     ]
   },
   {
@@ -5659,6 +5659,63 @@
       "Other state/federal/county/municipal inventories remain incomplete.",
       "Forest Theatre current case-by-case approval differs from older only-reservable claim; written permit needed.",
       "Restaurant aliases/closure/current contracts require individual checks."
+    ]
+  },
+  {
+    "pass": 84,
+    "checked_utc": "2026-10-26T11:29:11.981615+00:00",
+    "question": "Which unaudited East Bay municipal rooms and cost/closing restrictions were missed?",
+    "sources": [
+      "https://www.newarkca.gov/departments/recreation-and-community-services/facilities/newark-community-center",
+      "https://www.newarkca.gov/home/showpublisheddocument/11629/638966461836000000",
+      "https://www.sanleandro.org/458/Facilities",
+      "https://www.sanleandro.org/DocumentCenter/View/16153/Rental-Rate-Sheet",
+      "https://www.sanleandro.org/DocumentCenter/View/16768/Facility-Reservation-Procedure-and-Application",
+      "https://www.unioncityca.gov/193/Community-Centers",
+      "https://www.unioncityca.gov/287/Holly-Community-Center",
+      "https://www.unioncityca.gov/991/Facility-Rental-Information-Kennedy-Yout",
+      "https://www.unioncityca.gov/990/Facility-Rental-Info-Ruggieri-Center",
+      "https://www.unioncityca.gov/989/Facility-Rental-Information-MGSC"
+    ],
+    "added": [
+      "newark-community-social-hall-alameda",
+      "newark-community-patio-room-alameda",
+      "newark-community-outdoor-patio-alameda",
+      "sanleandro-senior-arts-alameda",
+      "sanleandro-senior-meetingc-alameda",
+      "sanleandro-senior-meetingd-alameda",
+      "sanleandro-senior-fitness-alameda",
+      "sanleandro-senior-main-alameda",
+      "sanleandro-marina-multipurposea-alameda",
+      "sanleandro-marina-multipurposeb-alameda",
+      "sanleandro-marina-thunderbolt-alameda",
+      "sanleandro-marina-patio-alameda",
+      "sanleandro-marina-titan-alameda",
+      "unioncity-holly-auditorium-alameda",
+      "unioncity-holly-senior-alameda",
+      "unioncity-kennedy-classroom-alameda",
+      "unioncity-kennedy-game-addon-alameda",
+      "unioncity-ruggieri-assembly-alameda",
+      "unioncity-ruggieri-dining-alameda",
+      "unioncity-ruggieri-sunroom-alameda",
+      "unioncity-ruggieri-patio-alameda",
+      "unioncity-markgreen-gym-alameda",
+      "unioncity-markgreen-single-classroom-alameda",
+      "unioncity-markgreen-classab-alameda"
+    ],
+    "duplicates": [],
+    "exclusions": [
+      "AshlandHARDfacilitiesexisting; notsameauthorityascitySanLeandro.",
+      "NewarkDelaware/NewJersey andUnionCityGeorgia/NewJersey excluded.",
+      "SanLeandroolder2025ratesandRoomCnotcurrent2026inventory; linked16153/16768supersedeoldsearchresults.",
+      "No resident/nonresidentratescollapsedintooneunconditionalprice; combinedroommaxnotaddition.",
+      "No socialend/music22ascleanup23; no midnightpartyfromcleanupallowance.",
+      "Two single-room offers not assigned invented A/B room identities; one unnamed single-classroom configuration and explicit combined offering recorded."
+    ],
+    "gaps": [
+      "Currentfullquotes, approveddinnerdanceplans, cateringpermissions, securitycountsandothercityinventory",
+      "SanLeandroMain/Titan4vs6hminimum anddepositweb/PDFconflicts",
+      "NewarkPatio85vsolder105, roofleakrisk andweatherbackup"
     ]
   }
 ]

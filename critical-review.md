@@ -1,6 +1,6 @@
 # Five critical research reviews
 
-**5 of 5 reviews completed.** Checked 2026-10-26T11:22:22.356Z. Deadline: 8 AM Pacific October 26, 2026. This is a saved checkpoint, not a live process monitor or proof that every venue has been found.
+**5 of 5 reviews completed.** Checked 2026-10-26T11:34:44.678Z. Deadline: 8 AM Pacific October 26, 2026. This is a saved checkpoint, not a live process monitor or proof that every venue has been found.
 
 The separate historical discovery-audit count does not replace these five reviews. Questions alone are not completed passes.
 
@@ -10,14 +10,14 @@ Counts below are records, not independent properties. Known values can still be 
 
 | Field | Known | Searched, no answer | Conflicting | Other unresolved/unlogged |
 |---|---:|---:|---:|---:|
-|Max published capacity|1086|4|6|729|
-|Dinner + dance capacity|14|117|23|1671|
-|Event fee min|252|102|6|1465|
-|Bar min / guest|1|0|0|1824|
-|Indoor music cutoff|34|104|4|1683|
-|Overnight guest capacity|2|4|1|1818|
-|Mandatory lodging total min|0|34|0|1791|
-|First wedding-operation year|0|22|0|1803|
+|Max published capacity|1105|4|7|733|
+|Dinner + dance capacity|14|141|23|1671|
+|Event fee min|252|126|6|1465|
+|Bar min / guest|1|0|0|1848|
+|Indoor music cutoff|44|118|4|1683|
+|Overnight guest capacity|2|4|1|1842|
+|Mandatory lodging total min|0|34|0|1815|
+|First wedding-operation year|0|22|0|1827|
 
 [All typed-field coverage](field-coverage.json) · [Structured five-pass audit](critical-review.json) · [Discovery source audits](discovery-audits.json)
 
@@ -235,6 +235,7 @@ Status: **complete** · Checked 2026-10-26T11:22:21.115Z
 - Tested50/80attendee custodial/janitorial thresholds, vendorattendanceuncertainty, lowerfixedassumptions and already-includedfixedcharges.
 - Added50-rowcatalogpagination after actual browser slowdown; tested all1324potential records remain searchable/sortable and pagefilterreset.
 - Ran13regression suites; current publication verification recorded separately afterpush.
+- Follow-up parser audit:133rawGGRArows included4empty nested links duplicating named parent rows. Refined129named candidates,4exact matches,125unresolved. No venue rows removed.
 
 ### Verified improvements
 
@@ -265,6 +266,7 @@ Status: **complete** · Checked 2026-10-26T11:22:21.115Z
 - Currentall-inquotes, lodgingliability, dinner/danceplans and permitclocks remainmajor gaps.
 - ForestTheatrecurrentcasebycaseapproval versusolderonly-reservableguide requireswrittenconfirmation.
 - No complete source-directory scrape, currentdateavailability or commercialoperatinglease established.
+- Restaurant candidate count corrected after nested-anchor review:125unresolved named candidates, not129names. Original133raw extraction retained in correction record.
 
 Sources: [Source 1](https://ggra.org/private-dining-guide/) · [Source 2](https://stewardscr.org/wp-content/uploads/2024/09/Special-Event-Guide-1.pdf) · [Source 3](https://www.parks.ca.gov/?page_id=450) · [Source 4](https://www.parks.ca.gov/?page_id=453) · [Source 5](https://www.parks.ca.gov/?page_id=451)
 

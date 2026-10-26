@@ -188,10 +188,14 @@
   {
     "county": "Alameda",
     "municipality": "Newark",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official facility/room and current linked policy review; other city sites/authorities remain open",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://www.newarkca.gov/departments/recreation-and-community-services/facilities/newark-community-center",
+      "https://www.newarkca.gov/home/showpublisheddocument/11629/638966461836000000"
+    ],
+    "remaining": "Other municipal/library/park/district inventories, exact room permissions and current complete quotes remain unaudited. Newarkothercenters;SanLeandrolibraries/olderRoomC;UnionCityStudio11/Library needcurrentreview. Notcomplete.",
+    "checked_utc": "2026-10-26T11:29:11.981615+00:00"
   },
   {
     "county": "Alameda",
@@ -275,18 +279,30 @@
   {
     "county": "Alameda",
     "municipality": "San Leandro",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official facility/room and current linked policy review; other city sites/authorities remain open",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://www.sanleandro.org/458/Facilities",
+      "https://www.sanleandro.org/DocumentCenter/View/16153/Rental-Rate-Sheet",
+      "https://www.sanleandro.org/DocumentCenter/View/16768/Facility-Reservation-Procedure-and-Application"
+    ],
+    "remaining": "Other municipal/library/park/district inventories, exact room permissions and current complete quotes remain unaudited. Newarkothercenters;SanLeandrolibraries/olderRoomC;UnionCityStudio11/Library needcurrentreview. Notcomplete.",
+    "checked_utc": "2026-10-26T11:29:11.981615+00:00"
   },
   {
     "county": "Alameda",
     "municipality": "Union City",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official facility/room and current linked policy review; other city sites/authorities remain open",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://www.unioncityca.gov/193/Community-Centers",
+      "https://www.unioncityca.gov/287/Holly-Community-Center",
+      "https://www.unioncityca.gov/991/Facility-Rental-Information-Kennedy-Yout",
+      "https://www.unioncityca.gov/990/Facility-Rental-Info-Ruggieri-Center",
+      "https://www.unioncityca.gov/989/Facility-Rental-Information-MGSC"
+    ],
+    "remaining": "Other municipal/library/park/district inventories, exact room permissions and current complete quotes remain unaudited. Newarkothercenters;SanLeandrolibraries/olderRoomC;UnionCityStudio11/Library needcurrentreview. Notcomplete.",
+    "checked_utc": "2026-10-26T11:29:11.981615+00:00"
   },
   {
     "county": "Contra Costa",
