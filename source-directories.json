@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-26T12:49:15.052496+00:00",
+  "updated_utc": "2026-10-26T12:58:35.934199+00:00",
   "scope": "Nine Bay Area counties; directory boundaries and nearby results require validation. Nonexhaustive source registry.",
   "sources": [
     {
@@ -1133,6 +1133,19 @@
       "collected_profiles": 18,
       "new_venue_records": 16,
       "notes": "TwoexistingVeteransmatched; currentpacket2018/2023policy dates and2027cleaninglabelretained. Parksnonexclusive; exactweddingcapacityunknown. Countyrecheck502held, notnewverifiedcountyfacts."
+    },
+    {
+      "id": "santarosa-finley-person-current",
+      "name": "Santa Rosa Finley/Person current rental guide and primary layouts",
+      "url": "https://www.srcity.org/1566/Facility-Rentals",
+      "category": "Municipal government room/policy inventory",
+      "geography": "Santa Rosa, Sonoma County",
+      "checked_utc": "2026-10-26T12:58:35.934199+00:00",
+      "collection_status": "Partial primary Finley/Person guide/currentpages reviewed; othercityinventoryopen",
+      "collection_method": "Normalbrowserread and actual19pagePDFdownload; rawrobots403held, nobypass",
+      "collected_profiles": 19,
+      "new_venue_records": 19,
+      "notes": "GuidepublishedJan13,2026; two exactweb/guide theaterconflicts;19room/addonsnot19properties."
     }
   ]
 }
