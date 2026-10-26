@@ -153,7 +153,7 @@ for v in D['venues']:
    if re.search(r'unknown|not established|not verified|unverified',t,re.I):val=None
    elif re.search(r'unless|exception|subject to|conditional',t,re.I):val='conditional'
    elif re.match(r'^(yes|allowed|permitted)\b',t,re.I) and not re.search(r'only|unless|subject|except|approval|conditional',t,re.I):val='yes'
-   elif re.match(r'^No[.!]?$',t,re.I) or key=='outside_catering' and re.match(r'^(?:no outside cater|outside cater.*(?:prohibited|not allowed))',t,re.I) or key=='byob' and re.match(r'^No (?:outside alcohol|alcohol|BYOB)',t,re.I):val='no'
+   elif re.match(r'^No[.!]?$',t,re.I) or key=='outside_catering' and re.match(r'^(?:no outside cater|outside cater[^.;!?]*(?:prohibited|not allowed))',t,re.I) or key=='byob' and re.match(r'^No (?:outside alcohol|alcohol|BYOB)',t,re.I):val='no'
    elif key=='outside_catering' and re.search(r'approved (?:outside )?caterers? (?:only|required)|approved caterer list required|required caterer list|in.house menus or approved outside vendors',t,re.I):val='approved_only'
    elif re.search(r'conditional|subject to|approval|exception',t,re.I):val='conditional'
    if val:fact(v,out,key,val,path,'explicit_policy_category')

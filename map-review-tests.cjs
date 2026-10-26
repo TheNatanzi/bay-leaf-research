@@ -1,6 +1,6 @@
 const fs=require('fs'),assert=require('assert'),vm=require('vm'),path=require('path');
 const root=__dirname,d=JSON.parse(fs.readFileSync(path.join(root,'research.json'),'utf8')),a=JSON.parse(fs.readFileSync(path.join(root,'map-review-audit.json'),'utf8')),m=require('./quantify.js');
-const points=d.venues.filter(v=>Number.isFinite(v.lat)&&Number.isFinite(v.lng));assert.equal(points.length,a.mapped_records);assert.equal(a.mapped_records,1005);assert.equal(a.unmapped_records,933);assert.equal(a.held.length,7);
+const points=d.venues.filter(v=>Number.isFinite(v.lat)&&Number.isFinite(v.lng));assert.equal(points.length,a.mapped_records);assert.equal(a.mapped_records,1005);assert.equal(a.unmapped_records,933);assert(d.venues.length-points.length>=a.unmapped_records);assert.equal(a.held.length,7); // Audit counts are a dated snapshot; later unmapped additions are allowed.
 const added=points.filter(v=>v.location_precision==='Approximate street-address interpolation; not a verified entrance or parcel');assert.equal(added.length,118);
 for(const v of added){assert(v.location_address_sources.length);assert(v.location_source.startsWith('https://geocoding.geo.census.gov/'));assert(v.location_matched_address);assert(v.lat>36&&v.lat<40&&v.lng>-124&&v.lng<-120);}
 const st=d.venues.filter(v=>v.parent_property==='The St. Regis San Francisco');assert.equal(st.length,21);

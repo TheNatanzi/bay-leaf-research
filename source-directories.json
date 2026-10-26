@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-26T12:30:07.639947+00:00",
+  "updated_utc": "2026-10-26T12:37:05.603685+00:00",
   "scope": "Nine Bay Area counties; directory boundaries and nearby results require validation. Nonexhaustive source registry.",
   "sources": [
     {
@@ -1094,6 +1094,19 @@
       "collected_profiles": 7,
       "new_venue_records": 0,
       "notes": "SevenexistingBeresford/Central/SeniorIDsrechecked againstcurrentlinkedRev082023terms/application; no newduplicates. Cityworkstreampartial, widerinventoryopen."
+    },
+    {
+      "id": "rohnert-current-inventory",
+      "name": "Rohnert Park current room inventory, FAQ and linked2026\u20132027files",
+      "url": "https://rpcity.ca.gov/188/Building-Rentals",
+      "category": "Municipal government room/policy inventory",
+      "geography": "Rohnert Park, Sonoma County",
+      "checked_utc": "2026-10-26T12:37:05.603685+00:00",
+      "collection_status": "Partial primary inventory/FAQ and five linkedPDFs reviewed; current quote/layout conflicts open",
+      "collection_method": "Robots-respecting saved pages/PDFs with actual fetch logs; PDF internaldates preserved",
+      "collected_profiles": 12,
+      "new_venue_records": 12,
+      "notes": "12configurations/add-on/application-onlylead across4parents; nofood restrictions, capacity/cleanup conflicts; no complete all-in quote."
     }
   ]
 }
