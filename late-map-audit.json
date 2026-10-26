@@ -1,0 +1,222 @@
+{
+  "checked_utc": "2026-10-26T14:23:09.111245+00:00",
+  "requests": 54,
+  "accepted_addresses": 35,
+  "new_mapped_records": 89,
+  "previous_mapped_preserved": 1005,
+  "mapped_records": 1094,
+  "unmapped_records": 1032,
+  "record_count": 2126,
+  "applied_record_ids": [
+    "rohnert-multiuse-sonoma",
+    "rohnert-lounge-sonoma",
+    "rohnert-meeting2-sonoma",
+    "rohnert-meeting3-sonoma",
+    "rohnert-garden-sonoma",
+    "rohnert-crafts-sonoma",
+    "rohnert-conference-sonoma",
+    "rohnert-meeting2-lounge-sonoma",
+    "rohnert-outdoor-wedding-sonoma",
+    "rohnert-burton-sonoma",
+    "rohnert-senior-sonoma",
+    "windsor-cc-whole-sonoma",
+    "windsor-elsbree-sonoma",
+    "windsor-renee-sonoma",
+    "windsor-senior-large-sonoma",
+    "windsor-senior-small-sonoma",
+    "windsor-senior-outdoor-sonoma",
+    "windsor-bluebird-sonoma",
+    "windsor-park-lewis-sonoma",
+    "windsor-park-keiser-sonoma",
+    "windsor-park-wilson-sonoma",
+    "windsor-park-losrobles-sonoma",
+    "windsor-park-hall-sonoma",
+    "windsor-park-oldvineyard-sonoma",
+    "windsor-park-smith-sonoma",
+    "windsor-park-quail-sonoma",
+    "windsor-park-robbins-sonoma",
+    "windsor-park-starr-sonoma",
+    "windsor-park-sutton-sonoma",
+    "windsor-park-vintage-sonoma",
+    "cotati-raymiller-event-sonoma",
+    "cotati-raymiller-willow-sonoma",
+    "cotati-raymiller-stony-sonoma",
+    "cotati-raymiller-copeland-sonoma",
+    "cotati-raymiller-eagle-sonoma",
+    "cotati-park-civic-sonoma",
+    "santarosa-finley-auditorium-sonoma",
+    "santarosa-finley-cypress-sonoma",
+    "santarosa-finley-manzanita-sonoma",
+    "santarosa-finley-maple-sonoma",
+    "santarosa-finley-willow-sonoma",
+    "santarosa-finley-psw5-sonoma",
+    "santarosa-finley-psw4-sonoma",
+    "santarosa-finley-psw3-sonoma",
+    "santarosa-finley-psw21-sonoma",
+    "santarosa-finley-psw22-sonoma",
+    "santarosa-finley-psw23-sonoma",
+    "santarosa-finley-psw25-sonoma",
+    "santarosa-finley-psw20-sonoma",
+    "santarosa-finley-psw28-sonoma",
+    "santarosa-finley-kitchen-finley-sonoma",
+    "santarosa-finley-courtyard-sonoma",
+    "santarosa-finley-lobby-sonoma",
+    "santarosa-finley-kitchen-psw-sonoma",
+    "santarosa-finley-patio-sonoma",
+    "petaluma-city-assembly-sonoma",
+    "petaluma-city-meeting-sonoma",
+    "petaluma-city-activity-sonoma",
+    "petaluma-city-club-sonoma",
+    "petaluma-city-conference2-sonoma",
+    "petaluma-city-craft1-sonoma",
+    "petaluma-city-whole-sonoma",
+    "petaluma-city-lobby-sonoma",
+    "petaluma-city-kitchen-sonoma",
+    "petaluma-city-meeting-patio-sonoma",
+    "petaluma-park-leghorns-sonoma",
+    "petaluma-park-lucchesi-sonoma",
+    "petaluma-womans-club-whole-sonoma",
+    "petaluma-arts-whole-sonoma",
+    "petaluma-arts-classroom-sonoma",
+    "bloc15-whole-oakland-alameda",
+    "715-harrison-main-sanfrancisco",
+    "715-harrison-front-sanfrancisco",
+    "fremont-cerritos-multi-alameda",
+    "fremont-cerritos-children-alameda",
+    "fremont-cerritos-picnica-alameda",
+    "fremont-cerritos-picnicb-alameda",
+    "fremont-cerritos-picnicc-alameda",
+    "fremont-warmsprings-multi-alameda",
+    "fremont-warmsprings-craft-alameda",
+    "fremont-warmsprings-parkmeeting-alameda",
+    "fremont-warmsprings-children-alameda",
+    "fremont-warmsprings-picnic-alameda",
+    "riovista-senior-solano",
+    "riovista-community-solano",
+    "riovista-airport-conference-solano",
+    "riovista-bruning-solano",
+    "riovista-crescent-solano",
+    "riovista-drouin-solano"
+  ],
+  "held": [
+    {
+      "address": "9291 Old Redwood Highway Building200, Windsor CA95492",
+      "reason": [
+        "Expected exactly one address match"
+      ]
+    },
+    {
+      "address": "9291 Old Redwood Highway Building400, Windsor CA95492",
+      "reason": [
+        "Expected exactly one address match"
+      ]
+    },
+    {
+      "address": "6000 Old Redwood Highway, Windsor CA95492",
+      "reason": [
+        "Expected exactly one address match"
+      ]
+    },
+    {
+      "address": "7543 12th Hole Drive, Windsor CA95492",
+      "reason": [
+        "Expected exactly one address match"
+      ]
+    },
+    {
+      "address": "9150 Brooks Road, Windsor CA95492",
+      "reason": [
+        "Expected exactly one address match"
+      ]
+    },
+    {
+      "address": "45 Third Street, Windsor CA95492",
+      "reason": [
+        "House number differs",
+        "Street differs"
+      ]
+    },
+    {
+      "address": "701 McClelland Drive, Windsor CA95492",
+      "reason": [
+        "Expected exactly one address match"
+      ]
+    },
+    {
+      "address": "11th Street &F Street, Petaluma CA",
+      "reason": [
+        "Intersection/ordinal street reference is not a verified numbered street address"
+      ]
+    },
+    {
+      "address": "11th Street &G Street, Petaluma CA",
+      "reason": [
+        "Intersection/ordinal street reference is not a verified numbered street address"
+      ]
+    },
+    {
+      "address": "500 Fourth Street, Petaluma CA",
+      "reason": [
+        "House number differs",
+        "Street differs"
+      ]
+    },
+    {
+      "address": "201 Fourth Street, Petaluma CA",
+      "reason": [
+        "House number differs",
+        "Street differs"
+      ]
+    },
+    {
+      "address": "1 Parkside Terrace Boulevard, Petaluma CA",
+      "reason": [
+        "Source says Terrace Boulevard; geocoder returns TER. Street type unresolved; do not place point automatically."
+      ]
+    },
+    {
+      "address": "426 Eighth Street, Petaluma CA94952",
+      "reason": [
+        "House number differs",
+        "Street differs"
+      ]
+    },
+    {
+      "address": "3355 Country Drive, Fremont CA94536",
+      "reason": [
+        "Expected exactly one address match"
+      ]
+    },
+    {
+      "address": "3500 Capitol Avenue, Fremont CA94538",
+      "reason": [
+        "Expected exactly one address match"
+      ]
+    },
+    {
+      "address": "41885 Blacow Road, Fremont CA94538",
+      "reason": [
+        "Expected exactly one address match"
+      ]
+    },
+    {
+      "address": "780 St Francis Way, Rio Vista CA94571",
+      "reason": [
+        "Expected exactly one address match"
+      ]
+    },
+    {
+      "address": "720 Fisher Street, Rio Vista CA94571",
+      "reason": [
+        "Expected exactly one address match"
+      ]
+    },
+    {
+      "address": "2 Scott Street, Rio Vista CA94571",
+      "reason": [
+        "Expected exactly one address match"
+      ]
+    }
+  ],
+  "method": "FreeCensuspublicaddressrequests archived withhashes; oneexactcandidate/house/street/state/ZIPorcity/broadregionalbounds; intersectionsandmismatchedstreetsheld. AlderAvenueconfirmedbyseparateofficialcityinventory. Noentrance/parcel/currentavailabilityproof."
+}
