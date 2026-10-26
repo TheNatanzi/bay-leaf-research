@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-26T13:56:29.655025+00:00",
+  "updated_utc": "2026-10-26T14:07:04.562714+00:00",
   "scope": "Nine Bay Area counties; directory boundaries and nearby results require validation. Nonexhaustive source registry.",
   "sources": [
     {
@@ -1397,6 +1397,19 @@
       "collected_profiles": 53,
       "new_venue_records": 53,
       "notes": "Closed/restricted/history/configurationrecordsincluded, notindependentbookablevenuecount; midnightaccessnotmusic;500+lowerboundheld"
+    },
+    {
+      "id": "sonoma-city-park-weddings",
+      "name": "City of Sonoma Plaza wedding and Depot event inventory",
+      "url": "https://www.sonomacity.org/sonoma-plaza-weddings/",
+      "category": "Municipal wedding program / official park event inventory",
+      "geography": "Sonoma city, Sonoma County",
+      "checked_utc": "2026-10-26T14:07:04.562714+00:00",
+      "collection_status": "Partial:6publicpages and22pageactualpolicyreviewed; otherproperties/quotesopen",
+      "collection_method": "ActualHTMLarchives, normalbrowserexpandedFAQs anddownloadedpolicy; browserPDFdownloadtimeoutthenlegitimatepublicarchiveresponse200",
+      "collected_profiles": 15,
+      "new_venue_records": 15,
+      "notes": "Overlappingprogram/sites/addonsnot15properties; URL2015butpolicyadopted2022; oldgeneralfeesnotcurrentweddingquote"
     }
   ],
   "candidate_queue_url": "directory-leads.html"
