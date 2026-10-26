@@ -1,0 +1,8 @@
+const fs=require('fs'),path=require('path'),assert=require('assert'),d=require('./research.json'),r=require('./morning-report-2026-10-26.json'),p=require('./overnight-progress.json');
+assert.equal(r.counts.records,d.venues.length);assert.equal(r.counts.added_records,d.venues.length-r.run_start_baseline.discovery_records);assert.equal(r.counts.property_groups,Object.keys(d.normalized.properties).length);assert.equal(r.counts.reading_records,d.founder_experiences.length);assert.equal(r.critical_reviews_completed,5);assert.equal(r.county_workstreams.length,9);assert.equal(r.county_workstreams.reduce((n,x)=>n+x.total_workstreams,0),110);assert.equal(r.county_workstreams.reduce((n,x)=>n+x.unaudited,0),r.counts.unaudited_workstreams);assert.equal(r.counts.mapped+r.counts.unmapped,d.venues.length);
+for(const f of r.selected_field_coverage)assert.equal(f.known_values+f.searched_no_public_answer+f.conflicting+f.other_unresolved_or_unlogged,d.venues.length);
+if(r.final){assert(Date.parse(r.generated_utc)>=Date.parse(r.deadline_utc));assert(r.status.includes('incomplete'));}
+const html=fs.readFileSync(path.join(__dirname,'morning-report-2026-10-26.html'),'utf8');assert(html.includes('name="viewport"'));assert(html.includes('not a live process monitor'));assert(html.includes('not verified parcels'));assert(html.includes('Unknown'));assert(!html.includes('<script'));
+for(const m of html.matchAll(/href="([^"#]+)"/g)){if(/^https?:/.test(m[1]))continue;assert(fs.existsSync(path.join(__dirname,m[1])),m[1]);}
+assert(fs.readFileSync(path.join(__dirname,'overnight.html'),'utf8').includes('morning-report-2026-10-26.html'));
+console.log('Morning report: source counts, county totals, field partitions, time guard, uncertainty and local links passed');

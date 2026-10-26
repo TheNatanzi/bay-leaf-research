@@ -1,0 +1,559 @@
+{
+  "generated_utc": "2026-10-26T14:43:01.105988+00:00",
+  "deadline_utc": "2026-10-26T15:00:00+00:00",
+  "final": false,
+  "status": "Draft checkpoint — work continues until 8 AM Pacific; counts may change.",
+  "run_start_baseline": {
+    "discovery_records": 1665,
+    "provisional_property_groups": 649,
+    "historical_audits": 67,
+    "founder_reading_records": 77,
+    "municipal_unaudited": 78
+  },
+  "counts": {
+    "records": 2133,
+    "property_groups": 832,
+    "audits": 105,
+    "reading_records": 91,
+    "source_channels": 86,
+    "typed_fields": 106,
+    "planner_criteria": 194,
+    "mapped": 1094,
+    "rated_records": 64,
+    "unmapped": 1039,
+    "added_records": 468,
+    "added_provisional_groups": 183,
+    "new_audits": 38,
+    "added_reading_records": 14,
+    "unaudited_workstreams": 50,
+    "workstreams_newly_partially_reviewed": 28
+  },
+  "county_workstreams": [
+    {
+      "county": "Alameda",
+      "total_workstreams": 15,
+      "some_review": 14,
+      "unaudited": 1,
+      "unaudited_names": [
+        "Oakland"
+      ]
+    },
+    {
+      "county": "Contra Costa",
+      "total_workstreams": 20,
+      "some_review": 7,
+      "unaudited": 13,
+      "unaudited_names": [
+        "Antioch",
+        "Brentwood",
+        "Clayton",
+        "Concord",
+        "Danville",
+        "Lafayette",
+        "Martinez",
+        "Moraga",
+        "Oakley",
+        "Orinda",
+        "Pittsburg",
+        "Pleasant Hill",
+        "Walnut Creek"
+      ]
+    },
+    {
+      "county": "Marin",
+      "total_workstreams": 12,
+      "some_review": 3,
+      "unaudited": 9,
+      "unaudited_names": [
+        "Belvedere",
+        "Fairfax",
+        "Larkspur",
+        "Mill Valley",
+        "Novato",
+        "Ross",
+        "San Anselmo",
+        "San Rafael",
+        "Tiburon"
+      ]
+    },
+    {
+      "county": "Napa",
+      "total_workstreams": 6,
+      "some_review": 6,
+      "unaudited": 0,
+      "unaudited_names": []
+    },
+    {
+      "county": "San Francisco",
+      "total_workstreams": 2,
+      "some_review": 2,
+      "unaudited": 0,
+      "unaudited_names": []
+    },
+    {
+      "county": "San Mateo",
+      "total_workstreams": 21,
+      "some_review": 6,
+      "unaudited": 15,
+      "unaudited_names": [
+        "Atherton",
+        "Belmont",
+        "Brisbane",
+        "Colma",
+        "Daly City",
+        "East Palo Alto",
+        "Foster City",
+        "Half Moon Bay",
+        "Hillsborough",
+        "Menlo Park",
+        "Millbrae",
+        "San Bruno",
+        "San Carlos",
+        "South San Francisco",
+        "Woodside"
+      ]
+    },
+    {
+      "county": "Santa Clara",
+      "total_workstreams": 16,
+      "some_review": 5,
+      "unaudited": 11,
+      "unaudited_names": [
+        "Campbell",
+        "Cupertino",
+        "Gilroy",
+        "Los Altos",
+        "Los Altos Hills",
+        "Los Gatos",
+        "Milpitas",
+        "Monte Sereno",
+        "Palo Alto",
+        "Saratoga",
+        "Sunnyvale"
+      ]
+    },
+    {
+      "county": "Solano",
+      "total_workstreams": 8,
+      "some_review": 7,
+      "unaudited": 1,
+      "unaudited_names": [
+        "Unincorporated areas / county agencies"
+      ]
+    },
+    {
+      "county": "Sonoma",
+      "total_workstreams": 10,
+      "some_review": 10,
+      "unaudited": 0,
+      "unaudited_names": []
+    }
+  ],
+  "critical_reviews_completed": 5,
+  "coverage_method": "Searched-no-answer means a dated source review outcome is logged. Other unresolved/unlogged gaps combine untouched fields and recorded facts needing extraction or confirmation; absence of an attempt does not prove no page was ever read.",
+  "selected_field_coverage": [
+    {
+      "id": "capacity_max",
+      "label": "Max published capacity",
+      "group": "Capacity",
+      "total_records": 2133,
+      "known_values": 1277,
+      "known_percent": 59.86872948898265,
+      "searched_no_public_answer": 69,
+      "conflicting": 17,
+      "other_unresolved_or_unlogged": 770,
+      "status_counts": {
+        "published_evidence": 1277,
+        "not_yet_extracted": 770,
+        "conflicting": 17,
+        "searched_no_public_answer": 69
+      }
+    },
+    {
+      "id": "capacity_seated",
+      "label": "Seated capacity",
+      "group": "Capacity",
+      "total_records": 2133,
+      "known_values": 577,
+      "known_percent": 27.05110173464604,
+      "searched_no_public_answer": 54,
+      "conflicting": 6,
+      "other_unresolved_or_unlogged": 1496,
+      "status_counts": {
+        "published_evidence": 577,
+        "not_yet_extracted": 1496,
+        "conflicting": 6,
+        "searched_no_public_answer": 54
+      }
+    },
+    {
+      "id": "capacity_dinner_dance",
+      "label": "Dinner + dance capacity",
+      "group": "Capacity",
+      "total_records": 2133,
+      "known_values": 21,
+      "known_percent": 0.9845288326300985,
+      "searched_no_public_answer": 408,
+      "conflicting": 24,
+      "other_unresolved_or_unlogged": 1680,
+      "status_counts": {
+        "not_yet_extracted": 810,
+        "needs_confirmation": 870,
+        "searched_no_public_answer": 408,
+        "published_evidence": 21,
+        "conflicting": 24
+      }
+    },
+    {
+      "id": "fee_min",
+      "label": "Event fee min",
+      "group": "Costs",
+      "total_records": 2133,
+      "known_values": 252,
+      "known_percent": 11.814345991561181,
+      "searched_no_public_answer": 298,
+      "conflicting": 6,
+      "other_unresolved_or_unlogged": 1577,
+      "status_counts": {
+        "published_evidence": 252,
+        "not_yet_extracted": 1204,
+        "searched_no_public_answer": 298,
+        "needs_confirmation": 373,
+        "conflicting": 6
+      }
+    },
+    {
+      "id": "fixed_mandatory",
+      "label": "Additional mandatory fixed charges",
+      "group": "Costs",
+      "total_records": 2133,
+      "known_values": 16,
+      "known_percent": 0.7501172058134083,
+      "searched_no_public_answer": 132,
+      "conflicting": 7,
+      "other_unresolved_or_unlogged": 1978,
+      "status_counts": {
+        "not_yet_extracted": 1978,
+        "searched_no_public_answer": 132,
+        "published_evidence": 16,
+        "conflicting": 7
+      }
+    },
+    {
+      "id": "music_indoor",
+      "label": "Indoor music cutoff",
+      "group": "Time cutoffs",
+      "total_records": 2133,
+      "known_values": 76,
+      "known_percent": 3.5630567276136893,
+      "searched_no_public_answer": 269,
+      "conflicting": 4,
+      "other_unresolved_or_unlogged": 1784,
+      "status_counts": {
+        "not_yet_extracted": 1723,
+        "searched_no_public_answer": 269,
+        "needs_confirmation": 61,
+        "published_evidence": 76,
+        "conflicting": 4
+      }
+    },
+    {
+      "id": "music_outdoor",
+      "label": "Outdoor music cutoff",
+      "group": "Time cutoffs",
+      "total_records": 2133,
+      "known_values": 53,
+      "known_percent": 2.484763244256915,
+      "searched_no_public_answer": 103,
+      "conflicting": 0,
+      "other_unresolved_or_unlogged": 1977,
+      "status_counts": {
+        "not_yet_extracted": 1789,
+        "needs_confirmation": 188,
+        "published_evidence": 53,
+        "searched_no_public_answer": 103
+      }
+    },
+    {
+      "id": "guest_departure",
+      "label": "Guest departure",
+      "group": "Time cutoffs",
+      "total_records": 2133,
+      "known_values": 13,
+      "known_percent": 0.6094702297233943,
+      "searched_no_public_answer": 13,
+      "conflicting": 10,
+      "other_unresolved_or_unlogged": 2097,
+      "status_counts": {
+        "not_yet_extracted": 2095,
+        "needs_confirmation": 2,
+        "published_evidence": 13,
+        "conflicting": 10,
+        "searched_no_public_answer": 13
+      }
+    },
+    {
+      "id": "cleanup_end",
+      "label": "Cleanup / load-out deadline",
+      "group": "Time cutoffs",
+      "total_records": 2133,
+      "known_values": 86,
+      "known_percent": 4.031879981247069,
+      "searched_no_public_answer": 235,
+      "conflicting": 17,
+      "other_unresolved_or_unlogged": 1795,
+      "status_counts": {
+        "not_yet_extracted": 1747,
+        "needs_confirmation": 48,
+        "searched_no_public_answer": 235,
+        "published_evidence": 86,
+        "conflicting": 17
+      }
+    },
+    {
+      "id": "construction_year",
+      "label": "Construction year",
+      "group": "History",
+      "total_records": 2133,
+      "known_values": 89,
+      "known_percent": 4.172526957337084,
+      "searched_no_public_answer": 29,
+      "conflicting": 2,
+      "other_unresolved_or_unlogged": 2013,
+      "status_counts": {
+        "not_yet_extracted": 2013,
+        "published_evidence": 89,
+        "conflicting": 2,
+        "searched_no_public_answer": 29
+      }
+    },
+    {
+      "id": "wedding_opening_year",
+      "label": "First wedding-operation year",
+      "group": "History",
+      "total_records": 2133,
+      "known_values": 0,
+      "known_percent": 0,
+      "searched_no_public_answer": 165,
+      "conflicting": 0,
+      "other_unresolved_or_unlogged": 1968,
+      "status_counts": {
+        "not_yet_extracted": 1968,
+        "searched_no_public_answer": 165
+      }
+    },
+    {
+      "id": "operator_start_year",
+      "label": "Current operator start year",
+      "group": "History",
+      "total_records": 2133,
+      "known_values": 15,
+      "known_percent": 0.7032348804500703,
+      "searched_no_public_answer": 20,
+      "conflicting": 0,
+      "other_unresolved_or_unlogged": 2098,
+      "status_counts": {
+        "not_yet_extracted": 2098,
+        "published_evidence": 15,
+        "searched_no_public_answer": 20
+      }
+    },
+    {
+      "id": "assessment_total",
+      "label": "Assessed value",
+      "group": "Valuation",
+      "total_records": 2133,
+      "known_values": 48,
+      "known_percent": 2.250351617440225,
+      "searched_no_public_answer": 0,
+      "conflicting": 0,
+      "other_unresolved_or_unlogged": 2085,
+      "status_counts": {
+        "not_yet_extracted": 2085,
+        "published_evidence": 48
+      }
+    },
+    {
+      "id": "business_value_min",
+      "label": "Operating-business value min",
+      "group": "Valuation",
+      "total_records": 2133,
+      "known_values": 0,
+      "known_percent": 0,
+      "searched_no_public_answer": 0,
+      "conflicting": 0,
+      "other_unresolved_or_unlogged": 2133,
+      "status_counts": {
+        "needs_confirmation": 2133
+      }
+    },
+    {
+      "id": "outside_catering",
+      "label": "Outside catering",
+      "group": "Policies",
+      "total_records": 2133,
+      "known_values": 372,
+      "known_percent": 17.440225035161745,
+      "searched_no_public_answer": 214,
+      "conflicting": 1,
+      "other_unresolved_or_unlogged": 1546,
+      "status_counts": {
+        "not_yet_extracted": 874,
+        "published_evidence": 372,
+        "needs_confirmation": 672,
+        "searched_no_public_answer": 214,
+        "conflicting": 1
+      }
+    },
+    {
+      "id": "included_overnight_guests",
+      "label": "Included overnight guests",
+      "group": "Overnight stays",
+      "total_records": 2133,
+      "known_values": 2,
+      "known_percent": 0.09376465072667604,
+      "searched_no_public_answer": 0,
+      "conflicting": 0,
+      "other_unresolved_or_unlogged": 2131,
+      "status_counts": {
+        "not_yet_extracted": 2131,
+        "published_evidence": 2
+      }
+    },
+    {
+      "id": "included_lodging_units",
+      "label": "Included lodging units",
+      "group": "Overnight stays",
+      "total_records": 2133,
+      "known_values": 1,
+      "known_percent": 0.04688232536333802,
+      "searched_no_public_answer": 0,
+      "conflicting": 0,
+      "other_unresolved_or_unlogged": 2132,
+      "status_counts": {
+        "not_yet_extracted": 2132,
+        "published_evidence": 1
+      }
+    },
+    {
+      "id": "required_lodging_units",
+      "label": "Required lodging units",
+      "group": "Overnight stays",
+      "total_records": 2133,
+      "known_values": 4,
+      "known_percent": 0.1875293014533521,
+      "searched_no_public_answer": 8,
+      "conflicting": 2,
+      "other_unresolved_or_unlogged": 2119,
+      "status_counts": {
+        "not_yet_extracted": 2119,
+        "searched_no_public_answer": 8,
+        "published_evidence": 4,
+        "conflicting": 2
+      }
+    },
+    {
+      "id": "lodging_total_min",
+      "label": "Mandatory lodging total min",
+      "group": "Overnight stays",
+      "total_records": 2133,
+      "known_values": 0,
+      "known_percent": 0,
+      "searched_no_public_answer": 107,
+      "conflicting": 0,
+      "other_unresolved_or_unlogged": 2026,
+      "status_counts": {
+        "not_yet_extracted": 2026,
+        "searched_no_public_answer": 107
+      }
+    },
+    {
+      "id": "lodging_requirement",
+      "label": "Lodging obligation",
+      "group": "Overnight stays",
+      "total_records": 2133,
+      "known_values": 11,
+      "known_percent": 0.5157055789967182,
+      "searched_no_public_answer": 162,
+      "conflicting": 0,
+      "other_unresolved_or_unlogged": 1960,
+      "status_counts": {
+        "not_yet_extracted": 1960,
+        "published_evidence": 11,
+        "searched_no_public_answer": 162
+      }
+    }
+  ],
+  "directory_queue_summary": {
+    "checked_utc": "2026-10-26T13:28:51.955107+00:00",
+    "candidate_urls": 163,
+    "candidate_urls_with_exact_match": 42,
+    "candidate_urls_without_exact_match": 121,
+    "source_counts": {
+      "moderndjs": {
+        "raw_named_cards": 361,
+        "bay_county_candidates": 83,
+        "outside_nine_counties_excluded": 278
+      },
+      "weddingspot": {
+        "unique_profile_links": 36,
+        "individual_profiles_reviewed": 0
+      },
+      "giggster": {
+        "unique_profile_links": 20,
+        "individual_profiles_reviewed": 0
+      },
+      "partyslate": {
+        "unique_profile_links": 20,
+        "individual_profiles_reviewed": 0
+      },
+      "hctg": {
+        "unique_profile_links": 4,
+        "individual_profiles_reviewed": 0
+      }
+    },
+    "added_venue_records": 0,
+    "note": "Candidate URLs are not confirmed new venues. Multiple directories, rooms or aliases can refer to one property. Exact-name matches are review aids only. No capacity, permission, price or review rating was imported from indexes.",
+    "primary_followup_records_added": 3,
+    "followup_checked_utc": "2026-10-26T13:44:59.313544+00:00"
+  },
+  "tests": {
+    "suites": 32,
+    "passed": 32,
+    "failed": [],
+    "scope": "Full current suite result if present; draft may predate final verification"
+  },
+  "publication_verification": {
+    "checked_utc": "2026-10-26T14:39:33Z",
+    "previous_public_commit": "3dc29d014214d5364176ed253b404264d884c50d",
+    "previous_pages_build": "built",
+    "git_remote": "Verified pushed and remote-matched by backup/checkpoint checks",
+    "local_browser": "Search, sorting, pagination, accordions, map precision, numeric room comparison and directory queue checked",
+    "full_current_tests": "32/32 passed; individual logs retained in private work archive",
+    "live_visual": "Blocked by saved browser permission for thenatanzi.github.io; no alternate access attempted",
+    "remaining": "Morning report commit/build and final backup receipts are checked separately after publication; cloud sync Unknown."
+  },
+  "highlights": [
+    "Five distinct critical reviews completed with actual checks and improvements: cost/chart evidence, geographic authorities, source/category blind spots, identity/availability and independent cross-checks.",
+    "Cost/ranking safeguards preserve unknown mandatory charges, lodging obligations and billable minima; published mandatory floors survive lower overrides. Required charges are not counted twice, refundable deposits are separate, and speculative guest reimbursements do not reduce host cost.",
+    "New municipal work covers room/site/configuration records across San Pablo, Alameda, Piedmont, Pleasanton/LARPD, Peninsula cities, Morgan Hill, Sonoma County cities, Fremont and Rio Vista, among others. Reviews are partial, not declarations that a city is complete.",
+    "Current availability checks caught Fremont Community Center structural closure, Teen Center closure for replacement construction, Irvington reception exclusion and Rio Vista airport aviation-only use.",
+    "Late evidence includes BLOC15 free-choice outside catering versus unresolved 550 general banquet / 250 wedding scope; Nestldown approved-only catering and 21:45 music; Boho group lodging metrics versus no universal wedding buyout proof.",
+    "Exact review observations were added only where matching profiles were readable. The Pearl and Nestldown now have WeddingWire/TheKnot breakdowns. StRegis observations are shared across 21 room rows, not 21 review populations. Google/Yelp and lookalike business values were not invented.",
+    "The founder/operator reading library gained dated original accounts. Historical interviews and promotional coaching roles are labeled; self-reported bookings are not verified profits."
+  ],
+  "blockers_and_limits": [
+    "Scrapzi remains read-only and has no venue adapter. No jobs were queued, schema/permissions changed or home-worker code overwritten. A concrete implementation handoff remains private; its home checkout must be reconciled before code work.",
+    "Some automated archive requests were robots/HTTP blocked or returned JavaScript shells. Public readers/normal browsers were used where available; no CAPTCHA/login/security block was bypassed. RioVista fee link required login and was held.",
+    "A saved browser permission blocks the public GitHub Pages site visual check. Local browser tests and GitHub build metadata are separate evidence; do not interpret deployment success as a live visual inspection.",
+    "No new outbound inquiry, account creation or paid API-key spend occurred. Relevant private correspondence and shared worksheet answers were not published or overwritten.",
+    "File hashes establish a matching copy in the local Google Drive folder; cloud synchronization remains Unknown."
+  ],
+  "next_actions": [
+    "Fill the shared worksheet together: target/maximum headcount, dates/day/season, event and music times, food/bar/staffing/rental scope, lodging willingness and who pays. Then choose dealbreakers and weights for atmosphere/view/uniqueness and other preferences.",
+    "Prioritize a shortlist with current approved dinner+dance/weather layouts, vendor permission and written itemized quotes. Apply the user-reported $50/person buffet only when its caterer qualifies; staffing, tax, bar and rentals remain separate.",
+    "Continue the 50 unaudited municipal/county workstreams and partial agency inventories, then review unresolved directory/restaurant candidates. Use independent local inventories to challenge omissions rather than claiming every venue has been found.",
+    "Resolve room-buyout totals, required nights, tax/cleaning/attrition and direct guest payments before presenting host net cost; a nearby hotel or marketing amenity is not a lodging obligation.",
+    "For business feasibility, keep four routes separate: lease a lawful venue, convert a lease, buy/develop land, acquire an established venue. Property/land and business values need their own evidence; current verified earnings and commercial appraisals remain largely missing."
+  ]
+}

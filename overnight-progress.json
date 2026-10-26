@@ -89,11 +89,13 @@
     "municipal_unaudited": 78
   },
   "publication_verification": {
-    "checked_utc": "2026-10-26T11:34:11.855778+00:00",
-    "previous_public_commit": "b0116edc59003cae77e58a406a0579397549d493",
+    "checked_utc": "2026-10-26T14:39:33Z",
+    "previous_public_commit": "3dc29d014214d5364176ed253b404264d884c50d",
     "previous_pages_build": "built",
-    "local_browser": "Pagination, search, sort and accordion checked",
+    "git_remote": "Verified pushed and remote-matched by backup/checkpoint checks",
+    "local_browser": "Search, sorting, pagination, accordions, map precision, numeric room comparison and directory queue checked",
+    "full_current_tests": "32/32 passed; individual logs retained in private work archive",
     "live_visual": "Blocked by saved browser permission for thenatanzi.github.io; no alternate access attempted",
-    "remaining": "Recheck build metadata after current publication. Live visual remains blocked."
+    "remaining": "Morning report commit/build and final backup receipts are checked separately after publication; cloud sync Unknown."
   }
 }
