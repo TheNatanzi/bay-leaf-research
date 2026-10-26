@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-26T11:58:48.534Z",
+  "updated_utc": "2026-10-26T12:14:57.243Z",
   "status": "Active overnight research",
   "deadline": "2026-10-26T08:00:00-07:00",
   "current_batch": "Critical review 5 of 5 completed; remaining reviews and research continue",
@@ -37,17 +37,18 @@
     "Audit84:24municipalroom/add-on/configurationrecords acrossNewark/SanLeandro/UnionCity; threeworkstreamsnowpartial,63remainunaudited. Newarkroofleakrisk/22vacate;SanLeandrocurrentJuly2026chartand6vs4h/depositconflicts;UnionCity500banquet/600assemblyandold2022handbookkeptseparate.",
     "Audit85:49restaurant/hotel/jazz configurations across11new provisional properties; fourexistingArgonautrooms reconciled.20directoryURLchecks+9followups, rawfetchoutcomesretained. Acquerello4%benefitsunallocated, BSidefurnitureremovalextra, BluePlateF&Bminimums andhotelroomoverlap preserved.",
     "Threeoriginaloperatorreadingitems added:JuneBug,JaymeGreenfield,IanRamirezpodcast. ExistingColdSpringURLmatched/refreshedwithwriter-rolelimit, notduplicated.85readingrecordsnot85uniquepeople.",
-    "Audit87:MorganHill17configurations/3campuses; CCCindoor00music/outdoor22, Hiram260dancing/220clearfloor, ElToro80, CRC50dancingwithnoalcohol. Cityguard48/hourthen71after8hours,3hminimum; tieredscenarioarithmeticadded.62municipalworkstreamsremainunaudited."
+    "Audit87:MorganHill17configurations/3campuses; CCCindoor00music/outdoor22, Hiram260dancing/220clearfloor, ElToro80, CRC50dancingwithnoalcohol. Cityguard48/hourthen71after8hours,3hminimum; tieredscenarioarithmeticadded.62municipalworkstreamsremainunaudited.",
+    "Audit88:23Peninsula configurations acrossBurlingame/Pacifica;7existingSanMateoroomsrechecked.Threeworkstreamsnowpartial,59unaudited. No midnightmusicfromrentalhours; actualcurrentPDFs used, property/room/layout distinctions preserved."
   ],
   "baseline": {
-    "discovery_records": 1915,
-    "provisional_property_groups": 750,
-    "historical_audits": 87,
+    "discovery_records": 1938,
+    "provisional_property_groups": 752,
+    "historical_audits": 88,
     "founder_reading_records": 85,
     "municipal_workstreams": 110,
-    "municipal_unaudited": 62
+    "municipal_unaudited": 59
   },
-  "added_venue_records": 250,
+  "added_venue_records": 273,
   "gaps": [
     "66 municipal/county workstreams remain unaudited; reviewed rows remain partial, and four prior partial county rows need linked-evidence reconciliation.",
     "Directory registry collection pending; source blocks logged, not bypassed",

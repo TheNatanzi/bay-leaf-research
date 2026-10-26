@@ -871,10 +871,18 @@
   {
     "county": "San Mateo",
     "municipality": "Burlingame",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official room/policy/fee review; other city facilities and authorities remain open",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://www.burlingame.org/377/Community-Center-Rentals",
+      "https://www.burlingame.org/DocumentCenter/View/9450",
+      "https://www.burlingame.org/DocumentCenter/View/1276/Building-Rental-Policy-PDF",
+      "https://caburlingameweb.myvscloud.com/webtrac/web/iteminfo.html?FMID=1172994&Module=FR",
+      "https://caburlingameweb.myvscloud.com/webtrac/web/iteminfo.html?FMID=1173067&Module=FR",
+      "https://caburlingameweb.myvscloud.com/webtrac/web/iteminfo.html?module=FR&fmid=1172994&action=viewdocument&name=%5cStandard+Documents%5cRental+Docs+For+RecTrac_Updated+2026_PERMIT.pdf"
+    ],
+    "remaining": "Other city/district/park/library/private inventories and selected wedding permission, approvedlayouts/currentquotes remain open. Burlingamebrochureblocked; PacificaCivicCenter/Chamberspending; SanMateoexisting7roomsrechecked notduplicated.",
+    "checked_utc": "2026-10-26T12:12:31.695348+00:00"
   },
   {
     "county": "San Mateo",
@@ -980,10 +988,16 @@
   {
     "county": "San Mateo",
     "municipality": "Pacifica",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official room/policy/fee review; other city facilities and authorities remain open",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://www.cityofpacifica.org/departments/parks-beaches-recreation/special-event-or-facilities-permits-community-center-rentals/community-center-facilities-rentals",
+      "https://www.cityofpacifica.org/home/showpublisheddocument/20241/638815399305200000",
+      "https://www.cityofpacifica.org/home/showpublisheddocument/23540/639220360732900000",
+      "https://www.cityofpacifica.org/home/showpublisheddocument/23418/639210954754770000"
+    ],
+    "remaining": "Other city/district/park/library/private inventories and selected wedding permission, approvedlayouts/currentquotes remain open. Burlingamebrochureblocked; PacificaCivicCenter/Chamberspending; SanMateoexisting7roomsrechecked notduplicated.",
+    "checked_utc": "2026-10-26T12:12:31.695348+00:00"
   },
   {
     "county": "San Mateo",
@@ -1041,7 +1055,7 @@
   {
     "county": "San Mateo",
     "municipality": "San Mateo",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official room/policy/fee review; other city facilities and authorities remain open",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
       "https://www.cityofsanmateo.org/717/Beresford-Recreation-Center",
@@ -1053,9 +1067,11 @@
       "https://www.cityofsanmateo.org/638/Senior-Center",
       "https://www.cityofsanmateo.org/3319/Central-Park-Japanese-Garden",
       "https://www.cityofsanmateo.org/3341/Shoreview-Park-Recreation-Center",
-      "https://www.cityofsanmateo.org/3396/Joinville-Swim-Center"
+      "https://www.cityofsanmateo.org/3396/Joinville-Swim-Center",
+      "https://www.cityofsanmateo.org/718/Central-Recreation-Center?NID=718"
     ],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "remaining": "Other city/district/park/library/private inventories and selected wedding permission, approvedlayouts/currentquotes remain open. Burlingamebrochureblocked; PacificaCivicCenter/Chamberspending; SanMateoexisting7roomsrechecked notduplicated.",
+    "checked_utc": "2026-10-26T12:12:31.695348+00:00"
   },
   {
     "county": "San Mateo",

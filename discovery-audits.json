@@ -5883,5 +5883,72 @@
       "Currentwrittenquotes, actualguardeachhours/attendance, paidrentalwindows, alcoholbarclock, vendorworkflow andfullmandatorycharges.",
       "Othercity/district/park/privateinventoryremainsunaudited."
     ]
+  },
+  {
+    "pass": 88,
+    "checked_utc": "2026-10-26T12:12:31.695348+00:00",
+    "question": "Which Peninsula public rental hours, seating layouts and conditional fees are misleadingly similar?",
+    "sources": [
+      "https://www.burlingame.org/377/Community-Center-Rentals",
+      "https://www.burlingame.org/DocumentCenter/View/9450",
+      "https://www.burlingame.org/DocumentCenter/View/1276/Building-Rental-Policy-PDF",
+      "https://caburlingameweb.myvscloud.com/webtrac/web/iteminfo.html?FMID=1172994&Module=FR",
+      "https://caburlingameweb.myvscloud.com/webtrac/web/iteminfo.html?FMID=1173067&Module=FR",
+      "https://caburlingameweb.myvscloud.com/webtrac/web/iteminfo.html?module=FR&fmid=1172994&action=viewdocument&name=%5cStandard+Documents%5cRental+Docs+For+RecTrac_Updated+2026_PERMIT.pdf",
+      "https://www.cityofpacifica.org/departments/parks-beaches-recreation/special-event-or-facilities-permits-community-center-rentals/community-center-facilities-rentals",
+      "https://www.cityofpacifica.org/home/showpublisheddocument/20241/638815399305200000",
+      "https://www.cityofpacifica.org/home/showpublisheddocument/23540/639220360732900000",
+      "https://www.cityofpacifica.org/home/showpublisheddocument/23418/639210954754770000",
+      "https://www.cityofsanmateo.org/718/Central-Recreation-Center?NID=718",
+      "https://www.cityofsanmateo.org/DocumentCenter/View/89006",
+      "https://www.cityofsanmateo.org/DocumentCenter/View/97853/Fillable-Parks-and-Recreation_Building-Reservation-Application-ENGLISH"
+    ],
+    "added": [
+      "burlingame-community-sequoia-san-mateo",
+      "burlingame-community-sequoia-a-san-mateo",
+      "burlingame-community-sequoia-b-san-mateo",
+      "burlingame-community-elm-whole-san-mateo",
+      "burlingame-community-makers-san-mateo",
+      "burlingame-community-maple-san-mateo",
+      "burlingame-community-grand-oak-san-mateo",
+      "burlingame-community-kids-san-mateo",
+      "burlingame-community-steam-san-mateo",
+      "burlingame-community-finearts-san-mateo",
+      "burlingame-community-magnolia-san-mateo",
+      "burlingame-community-dance-san-mateo",
+      "burlingame-community-musical-san-mateo",
+      "burlingame-community-teen-san-mateo",
+      "burlingame-community-elm-a-san-mateo",
+      "burlingame-community-elm-b-san-mateo",
+      "pacifica-community-auditorium-san-mateo",
+      "pacifica-community-card-san-mateo",
+      "pacifica-community-portola-san-mateo",
+      "pacifica-community-game-san-mateo",
+      "pacifica-community-craft-san-mateo",
+      "pacifica-community-gallery-san-mateo",
+      "pacifica-community-dance-san-mateo"
+    ],
+    "duplicates": [
+      "beresford-recreation-center-assembly-room-san-mateo",
+      "beresford-recreation-center-conference-room-san-mateo",
+      "beresford-recreation-center-activity-room-san-mateo",
+      "central-recreation-center-assembly-room-san-mateo",
+      "san-mateo-senior-center-assembly-room-san-mateo",
+      "san-mateo-senior-center-activity-room-san-mateo",
+      "san-mateo-senior-center-conference-room-san-mateo"
+    ],
+    "exclusions": [
+      "No midnightmusicfrom08–00rentals/01vacate orCentralnoon–midnightaccess.",
+      "Sequoia560standing/260cafeteria/144–220banquet not560dining; Magnolia25chairsnot25tableseats.",
+      "Calameobrochureinaccessible; no successfulscrapeclaim or inventedotherroomcapacities.",
+      "Kitchenstandalonerentalis supportspace, not a weddingvenue row. PacificaCeramicsRoomfromolderfeePDFnotcurrentinventoryproof.",
+      "Pacifica1972buildingconstruction/1988dedicationnotfirstweddingdate. CivicCenterbusiness-hourmunicipal-onlyconditionnotmisreadasall-daypublicban.",
+      "SanMateosevenexistingroomsalreadyhavesourcedterms; corroborated, not claimedasnewroomdiscoveries."
+    ],
+    "gaps": [
+      "Broaderinventories andmissingroomcapacities, actualcatering/staff/securityquotes, exactmusic/barclock andevent-specificapprovedlayouts.",
+      "Burlingame150vs>150attendantthreshold, staleWebTrac332vsdated340rate andsecurityunit167/171.",
+      "PacificaCivicCenter/Chambersaddress/currenteligibilityandroomlimitsnotyetreconciled."
+    ]
   }
 ]
