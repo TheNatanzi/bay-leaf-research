@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-26T14:23:11.497Z",
+  "generated_utc": "2026-10-26T14:28:50.061Z",
   "records": 2126,
   "provisional_property_groups": 832,
   "typed_fields": 106,
@@ -13,14 +13,14 @@
       "total_records": 2126,
       "known_values": 1271,
       "known_percent": 59.783631232361245,
-      "searched_no_public_answer": 68,
+      "searched_no_public_answer": 69,
       "conflicting": 16,
-      "other_unresolved_or_unlogged": 771,
+      "other_unresolved_or_unlogged": 770,
       "status_counts": {
         "published_evidence": 1271,
-        "not_yet_extracted": 771,
+        "not_yet_extracted": 770,
         "conflicting": 16,
-        "searched_no_public_answer": 68
+        "searched_no_public_answer": 69
       }
     },
     {
@@ -30,14 +30,14 @@
       "total_records": 2126,
       "known_values": 577,
       "known_percent": 27.140169332079022,
-      "searched_no_public_answer": 53,
+      "searched_no_public_answer": 54,
       "conflicting": 6,
-      "other_unresolved_or_unlogged": 1490,
+      "other_unresolved_or_unlogged": 1489,
       "status_counts": {
         "published_evidence": 577,
-        "not_yet_extracted": 1490,
+        "not_yet_extracted": 1489,
         "conflicting": 6,
-        "searched_no_public_answer": 53
+        "searched_no_public_answer": 54
       }
     },
     {
@@ -62,13 +62,13 @@
       "total_records": 2126,
       "known_values": 21,
       "known_percent": 0.9877704609595485,
-      "searched_no_public_answer": 400,
+      "searched_no_public_answer": 401,
       "conflicting": 24,
-      "other_unresolved_or_unlogged": 1681,
+      "other_unresolved_or_unlogged": 1680,
       "status_counts": {
-        "not_yet_extracted": 811,
+        "not_yet_extracted": 810,
         "needs_confirmation": 870,
-        "searched_no_public_answer": 400,
+        "searched_no_public_answer": 401,
         "published_evidence": 21,
         "conflicting": 24
       }
@@ -141,13 +141,13 @@
       "total_records": 2126,
       "known_values": 252,
       "known_percent": 11.853245531514581,
-      "searched_no_public_answer": 291,
+      "searched_no_public_answer": 292,
       "conflicting": 6,
-      "other_unresolved_or_unlogged": 1577,
+      "other_unresolved_or_unlogged": 1576,
       "status_counts": {
         "published_evidence": 252,
-        "not_yet_extracted": 1204,
-        "searched_no_public_answer": 291,
+        "not_yet_extracted": 1203,
+        "searched_no_public_answer": 292,
         "needs_confirmation": 373,
         "conflicting": 6
       }
@@ -176,13 +176,13 @@
       "total_records": 2126,
       "known_values": 16,
       "known_percent": 0.7525870178739417,
-      "searched_no_public_answer": 124,
+      "searched_no_public_answer": 125,
       "conflicting": 7,
-      "other_unresolved_or_unlogged": 1979,
+      "other_unresolved_or_unlogged": 1978,
       "status_counts": {
-        "not_yet_extracted": 1979,
+        "not_yet_extracted": 1978,
+        "searched_no_public_answer": 125,
         "published_evidence": 16,
-        "searched_no_public_answer": 124,
         "conflicting": 7
       }
     },
@@ -519,16 +519,16 @@
       "label": "Indoor music cutoff",
       "group": "Time cutoffs",
       "total_records": 2126,
-      "known_values": 75,
-      "known_percent": 3.5277516462841016,
-      "searched_no_public_answer": 261,
+      "known_values": 76,
+      "known_percent": 3.574788334901223,
+      "searched_no_public_answer": 262,
       "conflicting": 4,
-      "other_unresolved_or_unlogged": 1786,
+      "other_unresolved_or_unlogged": 1784,
       "status_counts": {
-        "not_yet_extracted": 1725,
-        "searched_no_public_answer": 261,
+        "not_yet_extracted": 1723,
+        "searched_no_public_answer": 262,
         "needs_confirmation": 61,
-        "published_evidence": 75,
+        "published_evidence": 76,
         "conflicting": 4
       }
     },
@@ -537,16 +537,16 @@
       "label": "Outdoor music cutoff",
       "group": "Time cutoffs",
       "total_records": 2126,
-      "known_values": 52,
-      "known_percent": 2.4459078080903107,
-      "searched_no_public_answer": 95,
+      "known_values": 53,
+      "known_percent": 2.4929444967074317,
+      "searched_no_public_answer": 96,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1979,
+      "other_unresolved_or_unlogged": 1977,
       "status_counts": {
-        "not_yet_extracted": 1791,
+        "not_yet_extracted": 1789,
         "needs_confirmation": 188,
-        "published_evidence": 52,
-        "searched_no_public_answer": 95
+        "published_evidence": 53,
+        "searched_no_public_answer": 96
       }
     },
     {
@@ -589,15 +589,15 @@
       "label": "Guest departure",
       "group": "Time cutoffs",
       "total_records": 2126,
-      "known_values": 12,
-      "known_percent": 0.5644402634054563,
+      "known_values": 13,
+      "known_percent": 0.6114769520225777,
       "searched_no_public_answer": 13,
       "conflicting": 10,
-      "other_unresolved_or_unlogged": 2091,
+      "other_unresolved_or_unlogged": 2090,
       "status_counts": {
-        "not_yet_extracted": 2089,
+        "not_yet_extracted": 2088,
         "needs_confirmation": 2,
-        "published_evidence": 12,
+        "published_evidence": 13,
         "conflicting": 10,
         "searched_no_public_answer": 13
       }
@@ -607,17 +607,17 @@
       "label": "Cleanup / load-out deadline",
       "group": "Time cutoffs",
       "total_records": 2126,
-      "known_values": 85,
-      "known_percent": 3.9981185324553152,
-      "searched_no_public_answer": 228,
+      "known_values": 86,
+      "known_percent": 4.045155221072436,
+      "searched_no_public_answer": 229,
       "conflicting": 17,
-      "other_unresolved_or_unlogged": 1796,
+      "other_unresolved_or_unlogged": 1794,
       "status_counts": {
-        "not_yet_extracted": 1748,
+        "not_yet_extracted": 1746,
         "needs_confirmation": 48,
-        "published_evidence": 85,
-        "conflicting": 17,
-        "searched_no_public_answer": 228
+        "searched_no_public_answer": 229,
+        "published_evidence": 86,
+        "conflicting": 17
       }
     },
     {
@@ -640,14 +640,14 @@
       "label": "Parking spaces",
       "group": "Amenities",
       "total_records": 2126,
-      "known_values": 15,
-      "known_percent": 0.7055503292568204,
+      "known_values": 16,
+      "known_percent": 0.7525870178739417,
       "searched_no_public_answer": 0,
       "conflicting": 15,
-      "other_unresolved_or_unlogged": 2096,
+      "other_unresolved_or_unlogged": 2095,
       "status_counts": {
-        "not_yet_extracted": 1993,
-        "published_evidence": 15,
+        "not_yet_extracted": 1992,
+        "published_evidence": 16,
         "needs_confirmation": 103,
         "conflicting": 15
       }
@@ -1045,14 +1045,14 @@
       "total_records": 2126,
       "known_values": 372,
       "known_percent": 17.497648165569142,
-      "searched_no_public_answer": 207,
+      "searched_no_public_answer": 208,
       "conflicting": 1,
-      "other_unresolved_or_unlogged": 1546,
+      "other_unresolved_or_unlogged": 1545,
       "status_counts": {
-        "not_yet_extracted": 874,
+        "not_yet_extracted": 873,
         "published_evidence": 372,
         "needs_confirmation": 672,
-        "searched_no_public_answer": 207,
+        "searched_no_public_answer": 208,
         "conflicting": 1
       }
     },
@@ -1125,14 +1125,14 @@
       "label": "Wedding permission",
       "group": "Policies",
       "total_records": 2126,
-      "known_values": 257,
-      "known_percent": 12.088428974600188,
+      "known_values": 258,
+      "known_percent": 12.13546566321731,
       "searched_no_public_answer": 3,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1866,
+      "other_unresolved_or_unlogged": 1865,
       "status_counts": {
-        "published_evidence": 257,
-        "not_yet_extracted": 1866,
+        "published_evidence": 258,
+        "not_yet_extracted": 1865,
         "searched_no_public_answer": 3
       }
     },
@@ -1611,13 +1611,13 @@
       "total_records": 2126,
       "known_values": 10,
       "known_percent": 0.4703668861712135,
-      "searched_no_public_answer": 155,
+      "searched_no_public_answer": 156,
       "conflicting": 0,
-      "other_unresolved_or_unlogged": 1961,
+      "other_unresolved_or_unlogged": 1960,
       "status_counts": {
-        "not_yet_extracted": 1961,
+        "not_yet_extracted": 1960,
         "published_evidence": 10,
-        "searched_no_public_answer": 155
+        "searched_no_public_answer": 156
       }
     },
     {
