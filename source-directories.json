@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-26T13:14:30.783856+00:00",
+  "updated_utc": "2026-10-26T13:19:34.858283+00:00",
   "scope": "Nine Bay Area counties; directory boundaries and nearby results require validation. Nonexhaustive source registry.",
   "sources": [
     {
@@ -1172,6 +1172,19 @@
       "collected_profiles": 8,
       "new_venue_records": 8,
       "notes": "Eightoffersnot8properties. PWC2026contract/olderrulesconflictsretained. NoGoogle/Yelp/Knot/WWratinginferredfromtestimonials."
+    },
+    {
+      "id": "cloverdale-public-permit",
+      "name": "Cloverdale public park/facility permit portal and current index",
+      "url": "https://www.cloverdale.net/515/Reservations-and-Permits",
+      "category": "Municipal government policy/site prospect inventory",
+      "geography": "Cloverdale, Sonoma County",
+      "checked_utc": "2026-10-26T13:19:34.858283+00:00",
+      "collection_status": "Partial policy/publicportal review; broadinventoryandquotesopen",
+      "collection_method": "Savedofficialpage plusnormalbrowserpublicportalread, noApply/account/submission",
+      "collected_profiles": 2,
+      "new_venue_records": 2,
+      "notes": "Nonexclusiveuseexplicit. CityParkgroupareasunallocated; ScoutHutFutureRentalsnotcurrentbookingproof."
     }
   ]
 }

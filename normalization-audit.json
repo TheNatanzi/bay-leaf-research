@@ -1,7 +1,7 @@
 {
-  "normalized_utc": "2026-10-26T13:15:15.218501+00:00",
-  "record_count": 2039,
-  "property_group_count": 805,
+  "normalized_utc": "2026-10-26T13:19:57.095643+00:00",
+  "record_count": 2041,
+  "property_group_count": 806,
   "identity_review_candidates": 52,
   "numeric_review_queue": 3300,
   "field_count": 106,
@@ -74,11 +74,11 @@
     "business_value_max": 0,
     "outside_catering": 355,
     "byob": 200,
-    "tables_included": 550,
-    "chairs_included": 387,
+    "tables_included": 552,
+    "chairs_included": 389,
     "dance_floor": 78,
     "wedding_permission": 246,
-    "availability": 79,
+    "availability": 80,
     "accessibility": 0,
     "food_basis": 187,
     "restrooms": 1,
@@ -114,9 +114,9 @@
     "lodging_payer": 0
   },
   "status_counts": {
-    "published_evidence": 6091,
-    "needs_confirmation": 11527,
-    "searched_no_public_answer": 2201,
+    "published_evidence": 6096,
+    "needs_confirmation": 11535,
+    "searched_no_public_answer": 2215,
     "conflicting": 203
   },
   "original_fields": "preserved; no new source verification by normalization"
