@@ -2,8 +2,8 @@
   "summary": {
     "checked_utc": "2026-10-26T13:28:51.955107+00:00",
     "candidate_urls": 163,
-    "candidate_urls_with_exact_match": 40,
-    "candidate_urls_without_exact_match": 123,
+    "candidate_urls_with_exact_match": 42,
+    "candidate_urls_without_exact_match": 121,
     "source_counts": {
       "moderndjs": {
         "raw_named_cards": 361,
@@ -28,7 +28,9 @@
       }
     },
     "added_venue_records": 0,
-    "note": "Candidate URLs are not confirmed new venues. Multiple directories, rooms or aliases can refer to one property. Exact-name matches are review aids only. No capacity, permission, price or review rating was imported from indexes."
+    "note": "Candidate URLs are not confirmed new venues. Multiple directories, rooms or aliases can refer to one property. Exact-name matches are review aids only. No capacity, permission, price or review rating was imported from indexes.",
+    "primary_followup_records_added": 3,
+    "followup_checked_utc": "2026-10-26T13:44:59.313544+00:00"
   },
   "candidates": [
     {
@@ -131,9 +133,18 @@
       "county": "Alameda",
       "city": "Oakland",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
-      "match_method": "No exact URL/name match; this does not establish a new property"
+      "collection_status": "Primary operator pages reviewed; unresolved wedding layout/terms retained",
+      "matched_record_ids": [
+        "bloc15-whole-oakland-alameda"
+      ],
+      "match_method": "Manual primary-property identity verification; room records share parent",
+      "primary_reviewed_utc": "2026-10-26T13:44:59.313544+00:00",
+      "primary_source_urls": [
+        "https://bloc15.com/the-venue/",
+        "https://bloc15.com/events/oakland-wedding-venues/",
+        "https://bloc15.com/event-services/catering/",
+        "https://bloc15.com/event-services/bar-services/"
+      ]
     },
     {
       "id": "directory-lead-ae0361ebd3d36f",
@@ -3049,9 +3060,18 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
-      "match_method": "No exact URL/name match; this does not establish a new property"
+      "collection_status": "Primary operator pages reviewed; unresolved wedding layout/terms retained",
+      "matched_record_ids": [
+        "715-harrison-main-sanfrancisco",
+        "715-harrison-front-sanfrancisco"
+      ],
+      "match_method": "Manual primary-property identity verification; room records share parent",
+      "primary_reviewed_utc": "2026-10-26T13:44:59.313544+00:00",
+      "primary_source_urls": [
+        "https://715harrisoneventspace.com/",
+        "https://715harrisoneventspace.com/space",
+        "https://715harrisoneventspace.com/rental"
+      ]
     },
     {
       "id": "directory-lead-bbd0cacedc6d0c",
