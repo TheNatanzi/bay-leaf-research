@@ -5808,5 +5808,35 @@
       "StRegis432vs400Galleryheadline/chart conflict; Argonautballroom/courtyard datedcapacityconflicts persist.",
       "Acquerello4%benefitsbaseunallocated; BSideunpricedfurniture-removalfee for90standing."
     ]
+  },
+  {
+    "pass": 86,
+    "checked_utc": "2026-10-26T11:49:38.531477+00:00",
+    "question": "Which original operator accounts reveal permitting, workload and construction lessons beyond venue marketing?",
+    "sources": [
+      "https://www.junebugretroresort.com/our-story",
+      "https://shoutoutcolorado.com/meet-jayme-greenfield-wedding-venue-owner-2/",
+      "https://www.coldspringbarn.com/blog/history",
+      "https://beccapountney.com/podcast-152/"
+    ],
+    "added": [],
+    "added_founder_urls": [
+      "https://www.junebugretroresort.com/our-story",
+      "https://shoutoutcolorado.com/meet-jayme-greenfield-wedding-venue-owner-2/",
+      "https://beccapountney.com/podcast-152/"
+    ],
+    "duplicates": [
+      "ColdSpringexistingURLmatched/refreshed, not duplicated; prior narrative and original/update dates retained.",
+      "IanRamirezalreadyhas2026WeddingProarticle; additionaloriginal2025interview is a new reading item, not a second person."
+    ],
+    "exclusions": [
+      "No JuneBug publication year from internal2025reference or opening2017date.",
+      "ColdSpring writer not assumed owner; institutional story clearly distinguished from personal founder diary.",
+      "No old out-of-state permitting/cost story applied as current California rule or complete startup budget.",
+      "No counterfactualDIYsavings treated as profit; no copyrightdate as venueopening."
+    ],
+    "gaps": [
+      "OriginalJuneBugpublicationdate, exactstartupbudgets/auditedearnings, additionalfirsthandBayAreaoperatoraccounts andcurrentregulatoryverification."
+    ]
   }
 ]
