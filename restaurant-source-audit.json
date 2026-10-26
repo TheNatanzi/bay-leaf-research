@@ -1,0 +1,354 @@
+{
+  "checked_utc": "2026-10-26T11:41:22.852Z",
+  "scope": "20directory-entry URL checks plus9follow-up operator pages; no full directory scrape.",
+  "fetch_results": [
+    {
+      "key": "overnight26-ggra-check-01",
+      "source": "https://www.54mint.com/",
+      "checked_utc": "2026-10-26T11:32:05.389368+00:00",
+      "outcome": "archived",
+      "status": 200,
+      "final_url": "https://www.54mint.com/",
+      "chars": 1232
+    },
+    {
+      "key": "overnight26-ggra-check-02",
+      "source": "https://www.acquerellosf.com/privatedining",
+      "checked_utc": "2026-10-26T11:32:06.061355+00:00",
+      "outcome": "archived",
+      "status": 200,
+      "final_url": "https://www.acquerellosf.com/privatedining",
+      "chars": 3622
+    },
+    {
+      "key": "overnight26-ggra-check-03",
+      "source": "https://alexanderssteakhousesf.com/privatedining/",
+      "checked_utc": "2026-10-26T11:32:06.691173+00:00",
+      "outcome": "archived",
+      "status": 200,
+      "final_url": "https://alexanderssteakhousesf.com/privatedining/",
+      "chars": 2435
+    },
+    {
+      "key": "overnight26-ggra-check-04",
+      "source": "https://alexanderssteakhouse.com/cupertino/privatedining/",
+      "checked_utc": "2026-10-26T11:32:08.032208+00:00",
+      "outcome": "archived",
+      "status": 200,
+      "final_url": "https://alexanderssteakhouse.com/cupertino/privatedining/",
+      "chars": 3578
+    },
+    {
+      "key": "overnight26-ggra-check-05",
+      "source": "https://sf.asiasf.com/",
+      "checked_utc": "2026-10-26T11:32:08.645710+00:00",
+      "outcome": "failed",
+      "reason": "HTTP Error 404: Not Found"
+    },
+    {
+      "key": "overnight26-ggra-check-06",
+      "source": "https://www.marriott.com/en-us/hotels/sfoxr-the-st-regis-san-francisco/dining/",
+      "checked_utc": "2026-10-26T11:32:09.273959+00:00",
+      "outcome": "archived",
+      "status": 200,
+      "final_url": "https://www.marriott.com/en-us/hotels/sfoxr-the-st-regis-san-francisco/dining/",
+      "chars": 10310
+    },
+    {
+      "key": "overnight26-ggra-check-07",
+      "source": "https://www.bstarbar.com/",
+      "checked_utc": "2026-10-26T11:32:09.644054+00:00",
+      "outcome": "archived",
+      "status": 200,
+      "final_url": "https://www.bstarbar.com/",
+      "chars": 502
+    },
+    {
+      "key": "overnight26-ggra-check-08",
+      "source": "https://www.b-sidesf.com/privateevents",
+      "checked_utc": "2026-10-26T11:32:10.350650+00:00",
+      "outcome": "archived",
+      "status": 200,
+      "final_url": "https://www.b-sidesf.com/privateevents",
+      "chars": 3249
+    },
+    {
+      "key": "overnight26-ggra-check-09",
+      "source": "https://www.baiasf.com/events",
+      "checked_utc": "2026-10-26T11:32:11.148765+00:00",
+      "outcome": "archived",
+      "status": 200,
+      "final_url": "https://www.baiasf.com/",
+      "chars": 22859
+    },
+    {
+      "key": "overnight26-ggra-check-10",
+      "source": "https://www.bearingwestsf.com/",
+      "checked_utc": "2026-10-26T11:32:13.803111+00:00",
+      "outcome": "held",
+      "reason": "robots unavailable: <urlopen error [Errno 11002] getaddrinfo failed>"
+    },
+    {
+      "key": "overnight26-ggra-check-11",
+      "source": "https://osteriabella.com/",
+      "checked_utc": "2026-10-26T11:32:14.114463+00:00",
+      "outcome": "archived",
+      "status": 200,
+      "final_url": "https://www.bellatrattoriasf.com/",
+      "chars": 1237
+    },
+    {
+      "key": "overnight26-ggra-check-12",
+      "source": "http://berettasf.com",
+      "checked_utc": "2026-10-26T11:32:15.425317+00:00",
+      "outcome": "archived",
+      "status": 200,
+      "final_url": "https://www.berettasf.com/",
+      "chars": 1769
+    },
+    {
+      "key": "overnight26-ggra-check-13",
+      "source": "http://berettasf.com",
+      "checked_utc": "2026-10-26T11:32:16.585928+00:00",
+      "outcome": "archived",
+      "status": 200,
+      "final_url": "https://www.berettasf.com/",
+      "chars": 1769
+    },
+    {
+      "key": "overnight26-ggra-check-14",
+      "source": "https://www.bettolasf.com/",
+      "checked_utc": "2026-10-26T11:32:18.367309+00:00",
+      "outcome": "archived",
+      "status": 200,
+      "final_url": "https://www.clementinasf.com/",
+      "chars": 831
+    },
+    {
+      "key": "overnight26-ggra-check-15",
+      "source": "https://www.biscuitsandblues.com/",
+      "checked_utc": "2026-10-26T11:32:19.469836+00:00",
+      "outcome": "archived",
+      "status": 200,
+      "final_url": "https://www.biscuitsandblues.com/",
+      "chars": 4600
+    },
+    {
+      "key": "overnight26-ggra-check-16",
+      "source": "http://www.blackcatsf.com",
+      "checked_utc": "2026-10-26T11:32:20.331814+00:00",
+      "outcome": "archived",
+      "status": 200,
+      "final_url": "https://blackcatsf.com/",
+      "chars": 1046
+    },
+    {
+      "key": "overnight26-ggra-check-17",
+      "source": "https://www.argonauthotel.com/fishermans-wharf-seafood-restaurants/?utm_source=gmb-restaurant&utm_medium=organic&utm_campaign=gmb",
+      "checked_utc": "2026-10-26T11:32:21.343068+00:00",
+      "outcome": "archived",
+      "status": 200,
+      "final_url": "https://www.argonauthotel.com/fishermans-wharf-seafood-restaurants/?utm_source=gmb-restaurant&utm_medium=organic&utm_campaign=gmb",
+      "chars": 10159
+    },
+    {
+      "key": "overnight26-ggra-check-18",
+      "source": "http://blueplatesf.com",
+      "checked_utc": "2026-10-26T11:32:21.829940+00:00",
+      "outcome": "archived",
+      "status": 200,
+      "final_url": "https://www.blueplatesf.com/",
+      "chars": 674
+    },
+    {
+      "key": "overnight26-ggra-check-19",
+      "source": "http://www.Boulevardrestaurant.com",
+      "checked_utc": "2026-10-26T11:32:22.627484+00:00",
+      "outcome": "archived",
+      "status": 200,
+      "final_url": "https://www.boulevardrestaurant.com/",
+      "chars": 1724
+    },
+    {
+      "key": "overnight26-ggra-check-20",
+      "source": "https://www.bobossf.com/private-dining/",
+      "checked_utc": "2026-10-26T11:32:22.928228+00:00",
+      "outcome": "archived",
+      "status": 200,
+      "final_url": "https://www.bobossf.com/private-dining/",
+      "chars": 4315
+    },
+    {
+      "key": "overnight26-restaurant-detail-01",
+      "source": "https://www.54mint.com/privatedining",
+      "checked_utc": "2026-10-26T11:35:11.572444+00:00",
+      "outcome": "archived",
+      "status": 200,
+      "final_url": "https://www.54mint.com/privatedining",
+      "chars": 2800
+    },
+    {
+      "key": "overnight26-restaurant-detail-06",
+      "source": "https://www.marriott.com/en-us/hotels/sfoxr-the-st-regis-san-francisco/events/",
+      "checked_utc": "2026-10-26T11:35:12.443716+00:00",
+      "outcome": "archived",
+      "status": 200,
+      "final_url": "https://www.marriott.com/en-us/hotels/sfoxr-the-st-regis-san-francisco/events/",
+      "chars": 15642
+    },
+    {
+      "key": "overnight26-restaurant-detail-15",
+      "source": "https://www.biscuitsandblues.com/private-events",
+      "checked_utc": "2026-10-26T11:35:12.872163+00:00",
+      "outcome": "archived",
+      "status": 200,
+      "final_url": "https://www.biscuitsandblues.com/private-events",
+      "chars": 2332
+    },
+    {
+      "key": "overnight26-restaurant-detail-16",
+      "source": "https://blackcatsf.com/private-events/",
+      "checked_utc": "2026-10-26T11:35:14.033018+00:00",
+      "outcome": "archived",
+      "status": 200,
+      "final_url": "https://blackcatsf.com/private-events/",
+      "chars": 963
+    },
+    {
+      "key": "overnight26-restaurant-detail-17",
+      "source": "https://www.argonauthotel.com/fishermans-wharf-private-dining/",
+      "checked_utc": "2026-10-26T11:35:14.369069+00:00",
+      "outcome": "archived",
+      "status": 200,
+      "final_url": "https://www.argonauthotel.com/fishermans-wharf-private-dining/",
+      "chars": 5412
+    },
+    {
+      "key": "overnight26-restaurant-detail-18",
+      "source": "https://www.blueplatesf.com/events-too",
+      "checked_utc": "2026-10-26T11:35:15.082807+00:00",
+      "outcome": "archived",
+      "status": 200,
+      "final_url": "https://www.blueplatesf.com/events-too",
+      "chars": 4303
+    },
+    {
+      "key": "overnight26-restaurant-detail-19",
+      "source": "https://www.boulevardrestaurant.com/private-events-blvd/",
+      "checked_utc": "2026-10-26T11:35:15.509895+00:00",
+      "outcome": "archived",
+      "status": 200,
+      "final_url": "https://www.boulevardrestaurant.com/private-events-blvd/",
+      "chars": 2961
+    },
+    {
+      "key": "overnight26-restaurant-detail-02",
+      "source": "https://www.acquerellosf.com/history",
+      "checked_utc": "2026-10-26T11:35:15.714669+00:00",
+      "outcome": "archived",
+      "status": 200,
+      "final_url": "https://www.acquerellosf.com/history",
+      "chars": 2156
+    },
+    {
+      "key": "overnight26-restaurant-detail-14",
+      "source": "https://www.clementinasf.com/about-us",
+      "checked_utc": "2026-10-26T11:35:16.772824+00:00",
+      "outcome": "archived",
+      "status": 200,
+      "final_url": "https://www.clementinasf.com/about-us",
+      "chars": 1389
+    }
+  ],
+  "named_candidate_registry": 129,
+  "initial_empty_anchor_duplicates_excluded": 4,
+  "added_record_ids": [
+    "acquerello-gold-san-francisco",
+    "acquerello-wine-san-francisco",
+    "acquerello-buyout-san-francisco",
+    "alexanders-cupertino-wine1-santa-clara",
+    "alexanders-cupertino-wine2-santa-clara",
+    "alexanders-cupertino-wine-combined-santa-clara",
+    "alexanders-cupertino-great-santa-clara",
+    "alexanders-cupertino-hamilton-santa-clara",
+    "alexanders-sf-current-private-san-francisco",
+    "54mint-private-dining-san-francisco",
+    "bside-private-event-san-francisco",
+    "blackcat-lobby-san-francisco",
+    "blackcat-downstairs-san-francisco",
+    "biscuits-blues-main-san-francisco",
+    "biscuits-blues-upstairs-san-francisco",
+    "boulevard-vault-san-francisco",
+    "boulevard-lavenue-single-san-francisco",
+    "boulevard-lavenue-combined-san-francisco",
+    "bobos-circo-san-francisco",
+    "bobos-murano-san-francisco",
+    "bobos-rialto-san-francisco",
+    "bobos-piazza-san-francisco",
+    "blueplate-backporch-san-francisco",
+    "blueplate-garden-full-san-francisco",
+    "blueplate-garden-early-san-francisco",
+    "blueplate-garden-late-san-francisco",
+    "blueplate-buyout-lunch-san-francisco",
+    "blueplate-buyout-dinner-san-francisco",
+    "stregis-sf-conservatory-san-francisco",
+    "stregis-sf-modernist-san-francisco",
+    "stregis-sf-impressionist-san-francisco",
+    "stregis-sf-impressionist1-san-francisco",
+    "stregis-sf-impressionist2-san-francisco",
+    "stregis-sf-level4foyer-san-francisco",
+    "stregis-sf-terrace-san-francisco",
+    "stregis-sf-vitrine-san-francisco",
+    "stregis-sf-collections-san-francisco",
+    "stregis-sf-collections1-san-francisco",
+    "stregis-sf-collections2-san-francisco",
+    "stregis-sf-muse-san-francisco",
+    "stregis-sf-level3foyer-san-francisco",
+    "stregis-sf-gallery-san-francisco",
+    "stregis-sf-gallery1-san-francisco",
+    "stregis-sf-gallery2-san-francisco",
+    "stregis-sf-sculpture1-san-francisco",
+    "stregis-sf-sculpture2-san-francisco",
+    "stregis-sf-williams-san-francisco",
+    "stregis-sf-williams-private-san-francisco",
+    "stregis-sf-salon-san-francisco"
+  ],
+  "updated_record_ids": [
+    "argonaut-hotel-golden-gate-ballroom-foyer-san-francisco",
+    "argonaut-hotel-maritime-room-san-francisco",
+    "argonaut-hotel-del-monte-courtyard-san-francisco",
+    "argonaut-hotel-constellation-room-san-francisco"
+  ],
+  "identity_exclusions": [
+    {
+      "name": "AsiaSF",
+      "outcome": "DirectoryURL404; no current closure date inferred."
+    },
+    {
+      "name": "BAIA",
+      "outcome": "Legacydomain redirects to unrelated content; not an active-venue source."
+    },
+    {
+      "name": "Bearing West",
+      "outcome": "DNS/robots fetch failed; held, no route/securitybypass."
+    },
+    {
+      "name": "Bettola",
+      "outcome": "Domain resolves to Clementina; current primaryidentity/dietary restaurant story not proof of wedding buyout or rename date."
+    },
+    {
+      "name": "Blue Mermaid",
+      "outcome": "Operator private-event page maps to four existing Argonaut hotel rooms. Those IDs preserved; no duplicate restaurant property."
+    },
+    {
+      "name": "Beretta Divisadero/Valencia",
+      "outcome": "Bothdirectoryentrieslead tosamehomeURL; address/room-specificcurrenteventoffers remainunreviewed."
+    }
+  ],
+  "limits": [
+    "A successful archive is not a reviewed/available wedding venue.",
+    "Hotelguestrooms, operator testimonials, ordinary hours and publicshowcalendars are not room-block liability, platform ratings or wedding permission.",
+    "Sourcefeesundated/currentquoteunverified; unresolvedmandatorysurchargebase prevents completecost."
+  ],
+  "validation_note": "Initial restaurant invariant failed because previous structured maxima were derived only from seated90/48 and new layout observations175standing/60ceremony were treated as conflicting universal ceilings. Added the source-supported distinct layout counts to structured capacity; retained genuine Ballroom/Courtyard source conflicts and original seated values. No generic conflict guard weakened."
+}
