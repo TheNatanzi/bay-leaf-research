@@ -328,21 +328,6 @@
       }
     },
     {
-      "id": "wedding_opening_year",
-      "label": "First wedding-operation year",
-      "group": "History",
-      "total_records": 2133,
-      "known_values": 0,
-      "known_percent": 0,
-      "searched_no_public_answer": 165,
-      "conflicting": 0,
-      "other_unresolved_or_unlogged": 1968,
-      "status_counts": {
-        "not_yet_extracted": 1968,
-        "searched_no_public_answer": 165
-      }
-    },
-    {
       "id": "operator_start_year",
       "label": "Current operator start year",
       "group": "History",
