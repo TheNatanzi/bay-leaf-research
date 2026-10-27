@@ -1,0 +1,11 @@
+const fs=require('fs'),path=require('path'),assert=require('assert');
+const d=require('./wedding-budget.json'),{model}=require('./wedding-budget.js'),raw=require('./research.json');
+const x=model(d);assert.equal(x.guests,330);assert.equal(x.food,17000);assert.equal(x.remainingAfterFood,13000);assert.equal(x.total,x.rows.reduce((n,r)=>n+r.amount,0));assert.equal(x.total,44975);assert.equal(x.stretchTotal,30500);assert.equal(x.completeQuote,false);assert.equal(x.guestPaymentOffset,0);
+const y=model(d,{guests:300});assert.equal(y.food,15500);assert.equal(y.stretchTotal,29000);assert.equal(model(d,{guests:280}).food,14500);
+assert.equal(model(d,{}, {venue:2000}).total,x.total-1500);assert.equal(model(d,{}, {food:0}).food,17000);assert.equal(model(d,{}, {food:0}).total,x.total);
+assert.throws(()=>model(d,{guests:330.5}));assert.throws(()=>model(d,{guests:-1}));assert.throws(()=>model(d,{}, {venue:-1}));assert.equal(d.rules.rule_music,'must');assert.equal(d.rules.rule_capacity,'must');assert.equal(d.rules.rule_atmosphere,'must');assert.equal(d.rules.rule_logistics,'ignore');assert.equal(d.confirmed.dayFlexibility,'Saturdays only');
+for(const v of d.venue_leads)assert(raw.venues.some(r=>r.id===v.id),v.id);
+assert(d.allowances.find(r=>r.id==='dj').basis.includes('330 requires custom quote'));assert(d.sources.find(r=>r.name.includes('H.H.')).note.includes('1 server/25'));assert(d.limits.some(x=>x.includes('No complete under-$30k')));
+const html=fs.readFileSync(path.join(__dirname,'wedding-budget.html'),'utf8'),js=fs.readFileSync(path.join(__dirname,'wedding-budget.js'),'utf8');assert(html.includes('not a forecast'));assert(html.includes('caps are not')||html.includes('cap is a negotiating limit'));assert(html.includes('Assumptions, sources'));assert(!js.includes("request('POST'"));assert(!js.includes('coffee-sync-api'));assert(fs.readFileSync(path.join(__dirname,'coffee-worksheet.html'),'utf8').includes('wedding-budget.html'));
+for(const m of html.matchAll(/(?:href|src)="([^"#]+)"/g))if(!/^https?:/.test(m[1]))assert(fs.existsSync(path.join(__dirname,m[1])),m[1]);
+console.log('Budget: worksheet facts, 330/300/280 math, cap-vs-price distinction, quote/offset guards, real venue IDs and local links passed');

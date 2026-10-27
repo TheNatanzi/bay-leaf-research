@@ -1,0 +1,287 @@
+{
+  "title": "Your wedding · $30k target",
+  "worksheet_read_utc": "2026-10-27T04:56:30.835Z",
+  "budget_goal": 30000,
+  "confirmed": {
+    "attendance": "330",
+    "attendanceRange": "280",
+    "adultsChildren": "50$ per head includes children",
+    "vendorMeals": "10",
+    "dates": "Summer 2027 ",
+    "dayFlexibility": "Saturdays only",
+    "eventScope": "reception",
+    "scopeNotes": "DJ, Additional rentals to get to 330 people, appetizers, Drummers (cultural), sofre (cultural), photography, Videography, decorations, flowers, wedding planner/attendant, bartender, alcohol, dinner, late night snacks, servers/staff, coffee, dessert",
+    "midnightMeaning": "indoor_music",
+    "midnightFirm": "yes",
+    "timeline": "4, 6, 7",
+    "barEnd": "midnight",
+    "guestDeparture": "midnight",
+    "cleanupEnd": "12:30am",
+    "overnightDemand": "40 rooms 80 people",
+    "hostedRooms": "2",
+    "roomGuarantee": "case",
+    "guestNightCount": "2",
+    "lodgingPolicy": "Guests",
+    "decorWork": "a lot to save $",
+    "privacy": "privacy is valued but not deal breaker",
+    "foodBaseline": "self serve buffet with decent food with servers need to keep water pitchers full on the table and clear plates",
+    "flowersBaseline": "we have a friend who has a wholesale flower license and we are hoping to diy a lot of it"
+  },
+  "rules": {
+    "rule_music": "must",
+    "weight_music": "10",
+    "definition_music": "Good dance floor near the bar with great music.",
+    "rule_capacity": "must",
+    "weight_capacity": "9",
+    "definition_capacity": "we really need to try and get to 300 capacity",
+    "rule_vendors": "preference",
+    "weight_vendors": "4",
+    "definition_vendors": "we like the vender freedom because its usually a better price but its noones last meal as long as the food is decent.",
+    "rule_atmosphere": "must",
+    "weight_atmosphere": "7",
+    "definition_atmosphere": "cleanliness and having a well managed put together venue.",
+    "rule_view": "preference",
+    "weight_view": "5",
+    "definition_view": "would be nice for photos",
+    "rule_unique": "preference",
+    "weight_unique": "5",
+    "definition_unique": "We want it to be memorable and unique",
+    "rule_privacy": "preference",
+    "weight_privacy": "4",
+    "rule_logistics": "ignore",
+    "weight_logistics": "3",
+    "definition_logistics": "restrooms and parking needed ",
+    "rule_lodging": "ignore",
+    "weight_lodging": "3",
+    "definition_lodging": "guests can figure it out",
+    "rule_food": "preference",
+    "weight_food": "4",
+    "definition_food": "noones last meal",
+    "rule_flowers": "ignore",
+    "weight_flowers": "2",
+    "definition_flowers": "would be nice but not required"
+  },
+  "defaults": {
+    "guests": 330,
+    "vendorMeals": 10,
+    "buffetRate": 50,
+    "target": 30000,
+    "serverRate": 60,
+    "serverHours": 6,
+    "guestsPerServer": 35,
+    "bartenders": 3,
+    "bartenderHours": 8,
+    "bartenderRate": 65
+  },
+  "allowances": [
+    {
+      "id": "venue",
+      "label": "Venue + required spaces",
+      "amount": 3500,
+      "basis": "Spending allowance, not a quote. Require tables/chairs/basic kitchen and no mandatory overnight buyout."
+    },
+    {
+      "id": "extras",
+      "label": "Appetizers, snacks, coffee, dessert",
+      "amount": 1650,
+      "basis": "Allowance $5 × 330; scale with attendance. Separate from the $50 buffet until inclusions are confirmed."
+    },
+    {
+      "id": "alcohol",
+      "label": "Alcohol + ice/mixers/cups",
+      "amount": 1650,
+      "basis": "Allowance $5 × 330; beer/wine-forward assumption, not agreed drink scope or a consumption quote."
+    },
+    {
+      "id": "rentals",
+      "label": "Extra rentals / linens / tabletop",
+      "amount": 1000,
+      "basis": "Allowance assumes venue tables/chairs and simple serviceware; full external furniture could exceed it."
+    },
+    {
+      "id": "dj",
+      "label": "DJ, sound + microphones",
+      "amount": 2705,
+      "basis": "330-person allowance: $2,205 eight-hour base + $500 sound allowance. Provider prices capacity add-on only for 201–300; 330 requires custom quote."
+    },
+    {
+      "id": "photo",
+      "label": "Photography + videography",
+      "amount": 4410,
+      "basis": "Published example: one photographer + one videographer, eight hours, taxes included. Not an availability/2027 quote."
+    },
+    {
+      "id": "culture",
+      "label": "Drummers + sofreh",
+      "amount": 1000,
+      "basis": "Unquoted combined allowance; clarify sofreh/ceremony scope despite reception-only selection."
+    },
+    {
+      "id": "decor",
+      "label": "DIY flowers + decorations",
+      "amount": 600,
+      "basis": "Unquoted materials allowance. Friends/DIY still require supplies, setup and removal."
+    },
+    {
+      "id": "coordinator",
+      "label": "Day-of coordinator / attendant",
+      "amount": 1500,
+      "basis": "Unquoted allowance, not full planning. Scope and assistant needs at 330 remain open."
+    },
+    {
+      "id": "security",
+      "label": "Security, insurance + cleanup",
+      "amount": 1000,
+      "basis": "Unquoted allowance; cannot establish full venue-required charges or a 30-minute cleanup team."
+    },
+    {
+      "id": "hostRooms",
+      "label": "Two hosted rooms",
+      "amount": 800,
+      "basis": "Assumption: 2 rooms × 2 nights × $200 all-in. User entered 2 hosted rooms; nights/rate for hosted rooms not confirmed."
+    },
+    {
+      "id": "reserve",
+      "label": "Unpriced fees / tax / contingency reserve",
+      "amount": 3000,
+      "basis": "Cash allowance, not calculated tax or proof all charges are covered. Check every taxable/service base; do not tax the photo package twice."
+    }
+  ],
+  "stretch_caps": [
+    {
+      "id": "venue",
+      "label": "Venue",
+      "amount": 2000
+    },
+    {
+      "id": "staff",
+      "label": "Dinner staff",
+      "amount": 1500
+    },
+    {
+      "id": "bar",
+      "label": "Bar staff + alcohol/supplies",
+      "amount": 1800
+    },
+    {
+      "id": "extras",
+      "label": "All extra food/drinks/dessert",
+      "amount": 900
+    },
+    {
+      "id": "rentals",
+      "label": "Rentals",
+      "amount": 500
+    },
+    {
+      "id": "dj",
+      "label": "DJ + sound",
+      "amount": 800
+    },
+    {
+      "id": "photo",
+      "label": "Photo + video",
+      "amount": 1800
+    },
+    {
+      "id": "culture",
+      "label": "Drummers + sofreh",
+      "amount": 600
+    },
+    {
+      "id": "decor",
+      "label": "DIY flowers/decor",
+      "amount": 400
+    },
+    {
+      "id": "coordinator",
+      "label": "Coordinator",
+      "amount": 600
+    },
+    {
+      "id": "security",
+      "label": "Security/insurance/cleanup",
+      "amount": 600
+    },
+    {
+      "id": "hostRooms",
+      "label": "Hosted rooms",
+      "amount": 400
+    },
+    {
+      "id": "reserve",
+      "label": "Fees/tax/contingency reserve",
+      "amount": 1600
+    }
+  ],
+  "sources": [
+    {
+      "name": "Your saved coffee worksheet",
+      "url": "coffee-worksheet.html",
+      "type": "User answers",
+      "note": "Partial answers read without editing. $30,000 goal supplied in chat. Buffet price includes children, but tax/staff/equipment inclusions are not established."
+    },
+    {
+      "name": "H.H. staffing prices",
+      "url": "https://www.hhbartendersandservers.com/pricing.html",
+      "type": "Published reference, checked October 26, 2026",
+      "note": "Servers $55/hour; bartenders $60; add $5/hour outside Santa Clara County. Four-hour minimum; overtime after eight hours. Provider suggests 1 server/25 guests. Our lean 1/35 assumption needs approval."
+    },
+    {
+      "name": "DJ Alphire wedding prices",
+      "url": "https://djalphire.com/",
+      "type": "Published reference, checked October 26, 2026",
+      "note": "Five hours $1,650; advance extra hour $185; 201–300-person sound add-on $450. Eight-hour 300-person example $2,655. No published 330-person capacity add-on; no summer/Saturday discount assumed."
+    },
+    {
+      "name": "Lynds photo + video",
+      "url": "https://www.lyndsphoto.com/pricing",
+      "type": "Published reference, checked October 26, 2026",
+      "note": "Eight-hour combined photo/video example $4,410 including tax. Five-hour package is a different coverage scope, not an equivalent saving."
+    }
+  ],
+  "venue_leads": [
+    {
+      "name": "Petaluma Veterans Memorial · Auditorium",
+      "id": "petaluma-veterans-memorial-building-auditorium-sonoma",
+      "capacity": "Saved county evidence: 375 dinner + dance",
+      "fit": "Capacity lead for 330; midnight music, bar to midnight, 2027 rate and vendor approval unconfirmed. No air conditioning is recorded; summer comfort matters.",
+      "url": "https://sonomacounty.gov/development-services/sonoma-public-infrastructure/divisions/administration-and-renting-facilities/petaluma-veterans-memorial-building"
+    },
+    {
+      "name": "Santa Rosa Veterans Memorial · Auditorium",
+      "id": "santa-rosa-veterans-memorial-building-auditorium-sonoma",
+      "capacity": "Saved county evidence: 500 dinner + dance",
+      "fit": "Capacity lead for 330; current total rental, midnight music/bar, cleanup access and caterer permission need confirmation.",
+      "url": "https://sonomacounty.gov/development-services/sonoma-public-infrastructure/divisions/administration-and-renting-facilities/santa-rosa-veterans-memorial-building"
+    },
+    {
+      "name": "Dixon May Fair · Madden Hall",
+      "id": "dixon-may-fairgrounds-36th-district-agricultural-association-madden-hall-solano",
+      "capacity": "Saved evidence: 658 dining; dance layout unknown",
+      "fit": "Low-base-fee research lead only. Saved $1,100 reference is not a current complete Saturday 2027 quote. Music, bar, furnishings and required fees unknown.",
+      "url": "https://dixonmayfair.com/about-us/"
+    }
+  ],
+  "held_options": [
+    {
+      "name": "Mark Green Sports Center",
+      "reason": "500 banquet advertised, but saved 2022 handbook says 11 PM event end. Hold for current written midnight exception; do not count as meeting the music requirement.",
+      "url": "https://www.unioncityca.gov/989/Facility-Rental-Information-MGSC"
+    },
+    {
+      "name": "Hiram Morgan Hill Room",
+      "reason": "Saved current room chart: 260 with dancing versus 300 without; older page/PDF says 280. Not a 300/330 dinner-and-dance match.",
+      "url": "https://www.morganhill.ca.gov/DocumentCenter/View/20408"
+    }
+  ],
+  "limits": [
+    "No complete under-$30k venue match is verified.",
+    "No guest lodging reimbursement offsets are assumed.",
+    "No final A–F grade: must-have atmosphere and venue ratings still need evidence.",
+    "Quoted food applies only if the actual caterer is permitted.",
+    "Guest count 330 is base; 300 is a comparison; 280 sensitivity is below your stated ~300 capacity goal.",
+    "Music, bar and guest exit are separate midnight requirements. Your 00:30 cleanup target may need paid access until 01:00 or later.",
+    "10 vendor meals may not cover the eventual staffing/creative team; increase once contracts establish meal counts."
+  ]
+}
