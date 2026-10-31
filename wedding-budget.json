@@ -278,10 +278,11 @@
   "limits": [
     "No complete under-$30k venue match is verified.",
     "No guest lodging reimbursement offsets are assumed.",
-    "No final A–F grade: must-have atmosphere and venue ratings still need evidence.",
+    "Atmosphere, vibe and uniqueness are personal judgments for Mahdi and Rinad; no automated fit grade is required.",
     "Quoted food applies only if the actual caterer is permitted.",
     "Guest count 330 is base; 300 is a comparison; 280 sensitivity is below your stated ~300 capacity goal.",
     "Music, bar and guest exit are separate midnight requirements. Your 00:30 cleanup target may need paid access until 01:00 or later.",
     "10 vendor meals may not cover the eventual staffing/creative team; increase once contracts establish meal counts."
-  ]
+  ],
+  "comparison_mode": "cost_only"
 }
