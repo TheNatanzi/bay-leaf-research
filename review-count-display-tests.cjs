@@ -1,0 +1,10 @@
+const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),path=require('node:path'),q=require('./quantify.js'),d=require('./research.json');
+const context=vm.createContext({BayLeafMetrics:q,esc:x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))});
+vm.runInContext(fs.readFileSync(path.join(__dirname,'numeric-ui.js'),'utf8'),context);
+function cell(v){context.venue=v;return vm.runInContext('availableReviewCell(venue)',context);}
+const n=d.venues.find(v=>v.id==='nestldown-wedding-offering-santa-clara'),p=d.venues.find(v=>v.id==='the-pearl-san-francisco');assert(cell(n).includes('131 reviews'));assert(cell(n).includes('(66)'));assert(cell(n).includes('(65)'));assert(cell(p).includes('14 reviews'));assert(cell(p).includes('(9)'));assert(cell(p).includes('(5)'));
+const observation=(rating,count,url)=>({rating,review_count:count,review_url:url,provider:'Sample'}),mixed={reviews:{google:observation(4.5,30,'https://example.org/a'),yelp:observation(4,null,'https://example.org/b')}};assert(cell(mixed).includes('Count unknown'));assert(cell(mixed).includes('(30)'));assert(cell(mixed).includes('(count unknown)'));assert(!cell(mixed).includes('30 reviews</small>'));assert(!cell(mixed).includes('(0)'));
+assert.match(cell({}),/aria-label="Unknown"/);assert(!cell({}).includes('0 reviews'));assert(cell({reviews:{other:observation(5,1,'https://example.org/a')}}).includes('1 review</small>'));
+const duplicate={reviews:{google:observation(5,10,'https://example.org/a')},review_observations:[observation(5,10,'https://example.org/a/')]};assert.equal(q.reviews(duplicate).count,10);assert(cell(duplicate).includes('10 reviews'));
+assert(q.columns.some(([k,label])=>k==='review_count'&&label==='Review count'));const ui=fs.readFileSync(path.join(__dirname,'normalized-ui.js'),'utf8');assert(ui.includes("['review_count','Review count']"));assert.equal(q.metrics(n).review_count,131);
+console.log('Review display: per-platform counts, total, unknowns, singular/plural, profile deduplication and sortable/filterable numeric metric passed');

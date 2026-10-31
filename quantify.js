@@ -26,6 +26,6 @@
     const validScenario=positive(guestCount)!==null&&c.seated!==null&&guestCount<=c.seated;
     return {max_capacity:c.max,seated_capacity:c.seated,standing_capacity:c.standing,fee_low:feeLow,fee_high:feeHigh,package_low:nonnegative(p.per_head_low),package_high:nonnegative(p.per_head_high),venue_per_guest_low:validScenario&&feeLow!==null?feeLow/guestCount:null,venue_per_guest_high:validScenario&&feeHigh!==null?feeHigh/guestCount:null,review_score:r.score,review_count:r.count,platform_count:r.platforms.length||null,coverage_pct:criteriaCount>0?Math.min(100,answered/criteriaCount*100):null,answered_fields:answered,construction_year:number(v.construction_year),wedding_opening_year:number(v.wedding_opening_year),current_operator_since:number(v.current_operator_since),capacity_basis:c.basis,review_method:r.method};
   }
-  const columns=[['max_capacity','Max capacity'],['seated_capacity','Seated capacity'],['fee_low','Event fee min ($)'],['fee_high','Event fee max ($)'],['package_low','Package min ($/guest)'],['package_high','Package max ($/guest)'],['review_score','Reviews / 5'],['review_count','Rating count'],['coverage_pct','Workbook answered (%)']];
+  const columns=[['max_capacity','Max capacity'],['seated_capacity','Seated capacity'],['fee_low','Event fee min ($)'],['fee_high','Event fee max ($)'],['package_low','Package min ($/guest)'],['package_high','Package max ($/guest)'],['review_score','Reviews / 5'],['review_count','Review count'],['coverage_pct','Workbook answered (%)']];
   return {number,capacity,reviews,knownAnswer,metrics,columns};
 });
