@@ -1,0 +1,40 @@
+/* Dense, selectable spreadsheet-style views; full evidence remains in Details. */
+.sheet-toolbar{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin:12px 0;padding:10px 12px;background:#e9eddf;border:1px solid var(--line);border-radius:6px}.sheet-toolbar[hidden],.sheet-pager button[hidden],.controls[hidden]{display:none}.sheet-toolbar label{display:flex;gap:8px;align-items:center;font-weight:600}.sheet-toolbar select{padding:4px 8px}.sheet-toolbar small{color:#5b6d5d}.sheet-pager{display:flex;align-items:center;gap:8px;margin:8px 0}.venue-title{display:block}.venue-location{display:inline-block}
+body[data-density="compact"] main{max-width:none;padding:16px 20px}
+body[data-density="compact"] header{padding:12px 20px}
+body[data-density="compact"] header h1{font-size:32px;margin:3px 0}
+body[data-density="compact"] header p{margin:4px 0}
+body[data-density="compact"] header .stats b{font-size:18px}
+body[data-density="compact"] header .stats{font-size:12px;gap:18px}
+body[data-density="compact"] nav{margin:8px 0;gap:5px}
+body[data-density="compact"] nav :is(button,a){font-size:12px;padding:6px 10px!important}
+body[data-density="compact"] .sheet-toolbar{margin:6px 0;padding:6px 10px}
+body[data-density="compact"] :is(#compare,#government,#potential) h2{font-size:22px;margin:10px 0}
+body[data-density="compact"] .advanced-controls{padding:3px 8px;margin:5px 0}
+body[data-density="compact"] .advanced-controls>summary{padding:2px 0;font-size:12px;line-height:1.2}
+body[data-density="compact"] #normalizationGuide{font-size:11px;padding:3px 8px}
+.sheet-notes{margin:8px 0;font-size:12px}.sheet-notes>summary{cursor:pointer;color:#51674f;font-weight:600}.sheet-notes p{font-size:12px}
+body[data-density="compact"] :is(#compareScroll,.catalog-scroll){max-height:74vh;border-radius:3px}
+body[data-density="compact"] :is(#compareTable,.catalog-scroll table){font-size:12px;line-height:1.2}
+body[data-density="compact"] :is(#compareTable,.catalog-scroll table) :is(td,th){min-width:88px;width:108px;max-width:150px;padding:4px 6px;border:1px solid #dce2d6;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+body[data-density="compact"] :is(#compareTable,.catalog-scroll table) :is(td,th):first-child{min-width:220px;width:250px;max-width:250px;white-space:normal}
+body[data-density="compact"] :is(#compareTable,.catalog-scroll table) [data-column="metric:review_score"]{min-width:180px;width:190px;max-width:210px;white-space:normal}
+body[data-density="compact"] :is(#compareTable,.catalog-scroll table) th{background:#e8eddf;vertical-align:bottom;white-space:normal}
+body[data-density="compact"] :is(#compareTable,.catalog-scroll table) th button{padding:3px 0;border:0;border-radius:0;background:transparent;font-size:12px;font-weight:650;line-height:1.15;width:100%;text-align:left}
+body[data-density="compact"] :is(#compareTable,.catalog-scroll table) tbody tr:nth-child(even)>td{background:#f6f8f2}
+body[data-density="compact"] :is(#compareTable,.catalog-scroll table) tbody tr:hover>td{background:#edf3e4}
+body[data-density="compact"] .venue-title{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:12px;line-height:1.2}
+body[data-density="compact"] .venue-location{font-size:10px;color:#667466;line-height:1.2}
+body[data-density="compact"] .venue-breakdown{display:inline-block;margin:0 0 0 7px;font-size:10px;line-height:1.2}
+body[data-density="compact"] .venue-breakdown>summary{font-weight:500}
+body[data-density="compact"] .venue-breakdown[open]{display:block;margin:6px 0;font-size:13px;white-space:normal}
+body[data-density="compact"] td:has(.venue-breakdown[open]){overflow:visible}
+body[data-density="compact"] .breakdown-body{font-size:13px;line-height:1.45;white-space:normal}
+body[data-density="compact"] .review-breakdown{font-size:10px;line-height:1.15;margin-top:2px;min-width:0}
+body[data-density="compact"] :is(#compareTable,.catalog-scroll table) .muted{font-size:11px}
+body[data-density="compact"] :is(#compare,#government,#potential) .filters{gap:8px;margin-bottom:8px}
+body[data-density="compact"] :is(#compare,#government,#potential) .filters label{font-size:12px}
+body[data-density="compact"] :is(#compare,#government,#potential) .filters :is(input,select){font-size:12px;padding:5px 6px}
+body[data-density="compact"] :is(.sheet-pager,.scroll-tools,.controls) button{padding:5px 9px;font-size:12px}
+body[data-density="compact"] .scroll-tools{gap:8px;margin:8px 0}
+@media(max-width:600px){body[data-density="compact"] main{padding:12px 8px}.sheet-toolbar{gap:8px}.sheet-toolbar label{font-size:12px}body[data-density="compact"] :is(#compareTable,.catalog-scroll table) :is(td,th):first-child{min-width:160px;width:185px;max-width:185px}}
