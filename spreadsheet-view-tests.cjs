@@ -12,4 +12,15 @@ vm.runInContext(fs.readFileSync(path.join(__dirname,'numeric-ui.js'),'utf8').mat
 assert(html.includes("comparePageSize='all'"));assert(html.includes("catalogPageSize='all'"));assert(html.includes('<option value="all" selected>All results</option>'));for(const id of ['compareCity','governmentCity','potentialCity'])assert(html.includes('id="'+id+'"'));assert(html.includes('data-density="compact"'));
 for(const m of html.matchAll(/<script>([\s\S]*?)<\/script>/g))new vm.Script(m[1]);
 assert.deepEqual(JSON.parse(html.match(/<script id="research-data" type="application\/json">(.*?)<\/script>/s)[1]),d);
-console.log('Spreadsheet: all 2,133 rows by default, complete optional pages, boundary resets, city search, inline JS syntax and unchanged embedded data passed');
+const elements={};ctx.$=id=>elements[id];
+vm.runInContext(html.match(/function syncTablePosition\([^\n]+\}/)[0],ctx);
+for(const prefix of ['compare','government','potential']){
+ const tools={hidden:false};elements[prefix+'Scroll']={scrollWidth:1000,clientWidth:1000,scrollLeft:0};elements[prefix+'Position']={closest:()=>tools};elements[prefix+'Left']={};elements[prefix+'Right']={};
+ ctx.syncTablePosition(prefix);assert.equal(tools.hidden,true);assert.equal(elements[prefix+'Position'].disabled,true);
+ const el=elements[prefix+'Scroll'];el.scrollWidth=2000;ctx.syncTablePosition(prefix);assert.equal(tools.hidden,false);assert.equal(elements[prefix+'Left'].disabled,true);assert.equal(elements[prefix+'Right'].disabled,false);
+ el.scrollLeft=500;ctx.syncTablePosition(prefix);assert.equal(elements[prefix+'Position'].value,50);assert.equal(elements[prefix+'Left'].disabled,false);
+ el.scrollLeft=1000;ctx.syncTablePosition(prefix);assert.equal(elements[prefix+'Right'].disabled,true);
+ el.clientWidth=2000;ctx.syncTablePosition(prefix);assert.equal(tools.hidden,true);
+}
+assert(html.includes('.scroll-tools[hidden]{display:none}'));
+console.log('Spreadsheet: paging, city search, syntax, unchanged data and overflow-aware column controls passed');
