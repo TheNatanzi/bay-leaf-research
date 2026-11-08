@@ -1,0 +1,1718 @@
+{
+  "checked_utc": "2026-11-08T20:26:41.133688+00:00",
+  "summary": {
+    "audit_id": "20261108T194837Z-8caacf05-discovery-method-audit",
+    "checked_utc": "2026-11-08T20:29:36.220375+00:00",
+    "search_reviews_completed": 20,
+    "new_record_ids": [
+      "111-minna-gallery-san-francisco",
+      "amador-club-san-francisco",
+      "the-avalon-san-francisco",
+      "bombera-alameda",
+      "blackhawk-country-club-contra-costa",
+      "the-douglas-beach-house-san-mateo",
+      "mexican-heritage-plaza-santa-clara",
+      "the-madrona-sonoma",
+      "ggnra-building-989-crissy-field-san-francisco",
+      "ggnra-building-1050-fort-cronkhite-marin",
+      "nido-s-backyard-alameda",
+      "grand-lake-kitchen-dimond-alameda",
+      "grand-lake-kitchen-lake-merritt-alameda",
+      "pie-ranch-full-lower-slice-san-mateo",
+      "swedenborgian-church-of-san-francisco-san-francisco",
+      "luxe-cruises-events-cabernet-sauvignon-alameda",
+      "luxe-cruises-events-fume-blanc-alameda",
+      "the-contemporary-jewish-museum-san-francisco",
+      "brownstone-gardens-contra-costa",
+      "kissel-uptown-oakland-gold-bug-ballroom-alameda"
+    ],
+    "existing_records_updated": [
+      "angel-island-immigration-museum-immigration-museum-event-rooms-marin",
+      "beringer-vineyards-hudson-house-and-grounds-napa",
+      "haas-lilienthal-house-san-francisco",
+      "kennedy-grove-regional-recreation-area-fern-cottage-contra-costa",
+      "mare-island-brewing-co-coal-shed-brewery-taproom-and-beer-garden-solano",
+      "mare-island-brewing-co-coal-shed-brewery-whaleboat-room-and-garden-solano",
+      "mare-island-brewing-co-ferry-taproom-crow-s-nest-rooftop-patio-solano",
+      "mare-island-brewing-co-first-street-taphouse-benicia-room-solano",
+      "mare-island-brewing-co-first-street-taphouse-e-street-parklet-solano",
+      "martin-luther-king-jr-regional-shoreline-shoreline-center-alameda",
+      "temescal-regional-recreation-area-temescal-beach-house-alameda",
+      "tilden-regional-park-brazilian-room-contra-costa",
+      "venture-retreat-center-bells-whistles-package-san-mateo",
+      "venture-retreat-center-essential-package-san-mateo",
+      "venture-retreat-center-signature-package-san-mateo"
+    ],
+    "new_records": 20,
+    "updated_existing_records": 15,
+    "observations_added": 78,
+    "applied_outcomes": [
+      {
+        "pass": 2,
+        "name": "111 Minna Gallery",
+        "record_ids": [
+          "111-minna-gallery-san-francisco"
+        ]
+      },
+      {
+        "pass": 3,
+        "name": "Amador Club",
+        "record_ids": [
+          "amador-club-san-francisco"
+        ]
+      },
+      {
+        "pass": 3,
+        "name": "The Avalon",
+        "record_ids": [
+          "the-avalon-san-francisco"
+        ]
+      },
+      {
+        "pass": 5,
+        "name": "Bombera",
+        "record_ids": [
+          "bombera-alameda"
+        ]
+      },
+      {
+        "pass": 6,
+        "name": "Blackhawk Country Club",
+        "record_ids": [
+          "blackhawk-country-club-contra-costa"
+        ]
+      },
+      {
+        "pass": 8,
+        "name": "Beringer Vineyards â€” Hudson House and grounds",
+        "record_ids": [
+          "beringer-vineyards-hudson-house-and-grounds-napa"
+        ]
+      },
+      {
+        "pass": 9,
+        "name": "The Douglas Beach House",
+        "record_ids": [
+          "the-douglas-beach-house-san-mateo"
+        ]
+      },
+      {
+        "pass": 10,
+        "name": "Mexican Heritage Plaza",
+        "record_ids": [
+          "mexican-heritage-plaza-santa-clara"
+        ]
+      },
+      {
+        "pass": 11,
+        "name": "Mare Island Brewing Co. event spaces",
+        "record_ids": [
+          "mare-island-brewing-co-coal-shed-brewery-taproom-and-beer-garden-solano",
+          "mare-island-brewing-co-coal-shed-brewery-whaleboat-room-and-garden-solano",
+          "mare-island-brewing-co-ferry-taproom-crow-s-nest-rooftop-patio-solano",
+          "mare-island-brewing-co-first-street-taphouse-benicia-room-solano",
+          "mare-island-brewing-co-first-street-taphouse-e-street-parklet-solano"
+        ]
+      },
+      {
+        "pass": 12,
+        "name": "The Madrona",
+        "record_ids": [
+          "the-madrona-sonoma"
+        ]
+      },
+      {
+        "pass": 13,
+        "name": "GGNRA Building 989 â€” Crissy Field",
+        "record_ids": [
+          "ggnra-building-989-crissy-field-san-francisco"
+        ]
+      },
+      {
+        "pass": 13,
+        "name": "GGNRA Building 1050 â€” Fort Cronkhite",
+        "record_ids": [
+          "ggnra-building-1050-fort-cronkhite-marin"
+        ]
+      },
+      {
+        "pass": 14,
+        "name": "EBRPD four indoor rental facilities",
+        "record_ids": [
+          "tilden-regional-park-brazilian-room-contra-costa",
+          "kennedy-grove-regional-recreation-area-fern-cottage-contra-costa",
+          "temescal-regional-recreation-area-temescal-beach-house-alameda",
+          "martin-luther-king-jr-regional-shoreline-shoreline-center-alameda"
+        ]
+      },
+      {
+        "pass": 15,
+        "name": "NIDO's BackYard",
+        "record_ids": [
+          "nido-s-backyard-alameda"
+        ]
+      },
+      {
+        "pass": 15,
+        "name": "Grand Lake Kitchen â€” Dimond",
+        "record_ids": [
+          "grand-lake-kitchen-dimond-alameda"
+        ]
+      },
+      {
+        "pass": 15,
+        "name": "Grand Lake Kitchen â€” Lake Merritt",
+        "record_ids": [
+          "grand-lake-kitchen-lake-merritt-alameda"
+        ]
+      },
+      {
+        "pass": 16,
+        "name": "Pie Ranch â€” Full Lower Slice",
+        "record_ids": [
+          "pie-ranch-full-lower-slice-san-mateo"
+        ]
+      },
+      {
+        "pass": 17,
+        "name": "Swedenborgian Church of San Francisco",
+        "record_ids": [
+          "swedenborgian-church-of-san-francisco-san-francisco"
+        ]
+      },
+      {
+        "pass": 18,
+        "name": "Luxe Cruises & Events â€” Cabernet Sauvignon",
+        "record_ids": [
+          "luxe-cruises-events-cabernet-sauvignon-alameda"
+        ]
+      },
+      {
+        "pass": 18,
+        "name": "Luxe Cruises & Events â€” Fume Blanc",
+        "record_ids": [
+          "luxe-cruises-events-fume-blanc-alameda"
+        ]
+      },
+      {
+        "pass": 18,
+        "name": "Angel Island Immigration Museum event rooms",
+        "record_ids": [
+          "angel-island-immigration-museum-immigration-museum-event-rooms-marin"
+        ]
+      },
+      {
+        "pass": 19,
+        "name": "Haas-Lilienthal House",
+        "record_ids": [
+          "haas-lilienthal-house-san-francisco"
+        ]
+      },
+      {
+        "pass": 19,
+        "name": "The Contemporary Jewish Museum",
+        "record_ids": [
+          "the-contemporary-jewish-museum-san-francisco"
+        ]
+      },
+      {
+        "pass": 20,
+        "name": "Brownstone Gardens",
+        "record_ids": [
+          "brownstone-gardens-contra-costa"
+        ]
+      },
+      {
+        "pass": 5,
+        "name": "Kissel Uptown Oakland â€” Gold Bug Ballroom",
+        "record_ids": [
+          "kissel-uptown-oakland-gold-bug-ballroom-alameda"
+        ],
+        "supplemental": true
+      }
+    ],
+    "capture_counts": [
+      {
+        "pass": 4,
+        "index_url": "https://www.ggcatering.com/venues/san-francisco",
+        "actual_named_profile_links_captured": 39,
+        "profiles_fully_reviewed": false,
+        "navigation_links_excluded": 1
+      },
+      {
+        "pass": 20,
+        "index_url": "https://www.bayareaweddings.com/vendors/venue",
+        "actual_named_profile_links_captured": 158,
+        "profiles_fully_reviewed": false,
+        "fragment_only_variants_merged": 158
+      }
+    ],
+    "candidate_states": {
+      "pending": 538,
+      "reviewed_existing": 7,
+      "reviewed_added": 32,
+      "excluded": 3
+    },
+    "exhaustive": false,
+    "interface_changes": false,
+    "publication_verified": false,
+    "navigation_exclusions": [
+      {
+        "url": "https://www.ggcatering.com/venues/san-francisco",
+        "reason": "Source-page skip/navigation target, not a venue profile"
+      }
+    ]
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "question": "Was Conservatory SF never discovered, incorrectly excluded, confused with another conservatory, or stalled after capture?",
+      "searches": [
+        "Saved exact-domain/candidate-ID search across research, directory queue, discovery-gap audit and pass56 archives",
+        "Reopened https://www.conservatorysf.com/weddings/"
+      ],
+      "sources": [
+        {
+          "url": "https://www.conservatorysf.com/weddings/",
+          "state": "official wedding page re-read"
+        },
+        {
+          "url": "https://www.wedding-spot.com/venue/18104/the-conservatory-at-one-sansome/",
+          "state": "Exact historical candidate URL and saved queue/audit evidence inspected; no new profile-read claim"
+        }
+      ],
+      "outcomes": [
+        {
+          "action": "existing",
+          "name": "The Conservatory at One Sansome",
+          "record_ids": [
+            "conservatory-at-one-sansome-san-francisco",
+            "conservatory-at-one-sansome-san-francisco-atrium"
+          ],
+          "reason": "Captured2026-10-26T13:28:51Z; remained Candidate only; official review/addition2026-11-08T04:22:40Z. This is a proven promotion/backlog failure, not a proven search-engine or identity exclusion."
+        }
+      ],
+      "critique": "Prior search/pass/room counts concealed that only2of163captured profile URLs had primary review at the earlier snapshot; no evidence establishes budget/capacity/site inaccessibility as this exclusion's cause.",
+      "method_change": "Require each captured lead to reach a dated added/existing/excluded/blocked/pending disposition; display reviewed unique properties separately from raw rooms and captured links.",
+      "next_test": "Reconcile an independent local association inventory against actual property records, not exact name counts alone.",
+      "remaining": [
+        "Conservatory is already in data; no new venue counted here.",
+        "Historical query logs are incomplete; causal claims beyond saved queue evidence remain unproven."
+      ],
+      "reviewed_utc": "2026-11-08T19:59:41.062403+00:00",
+      "status": "completed_scoped_search_review",
+      "exhaustive": false
+    },
+    {
+      "pass": 2,
+      "question": "Do captured SF venue-association members still fail to reach a reviewed property record?",
+      "searches": [
+        "site.sfuva.com venues wedding members San Francisco unique venue alliance",
+        "Banking Hall Merchants Exchange San Francisco weddings official",
+        "Opened111Minna,715Harrison and BankingHall association profiles; followed actual111Minna operator wedding/venue links"
+      ],
+      "sources": [
+        {
+          "url": "https://www.sfuva.com/111-minna-gallery",
+          "state": "association listing reviewed"
+        },
+        {
+          "url": "https://111minnagallery.com/event-space/wedding-party-venue/",
+          "state": "official wedding page read; own caterer allowed subject to requirements;21+no exceptions"
+        },
+        {
+          "url": "https://111minnagallery.com/event-space/",
+          "state": "official venue/location/layout page read; numeric counts require proposal"
+        },
+        {
+          "url": "https://715harrisoneventspace.com/",
+          "state": "JavaScript shell; primary detail not read"
+        },
+        {
+          "url": "https://www.sfuva.com/715-harrison-event-space",
+          "state": "association content reviewed; current permit/24hour claims not verified as music permission"
+        },
+        {
+          "url": "https://www.sfuva.com/the-banking-hall-at-merchants-exchange",
+          "state": "association event-space description reviewed; exact operator booking terms still pending"
+        }
+      ],
+      "outcomes": [
+        {
+          "action": "add",
+          "name": "111 Minna Gallery",
+          "url": "https://111minnagallery.com/event-space/wedding-party-venue/",
+          "city": "San Francisco",
+          "county": "San Francisco",
+          "address": "111 Minna Street, San Francisco, CA94105",
+          "wedding": "advertised",
+          "category": "Gallery / event venue",
+          "facts": [
+            {
+              "field": "outside_catering",
+              "value": "conditional",
+              "basis": "Operator allows own caterer/vendors, with venue requirements confirmed in proposal."
+            }
+          ],
+          "notes": "21+ venue with no exceptions. SecondStreetGallery and ZappaRoom can be used separately/together, but no room capacities summed; current seating/music/rental price require proposal.",
+          "source_urls": [
+            "https://111minnagallery.com/event-space/wedding-party-venue/",
+            "https://111minnagallery.com/event-space/"
+          ]
+        },
+        {
+          "action": "existing",
+          "name": "715 Harrison Event Space",
+          "record_ids": [
+            "715-harrison-main-sanfrancisco",
+            "715-harrison-front-sanfrancisco"
+          ],
+          "reason": "Exact property identity exists as two spaces. Association capture was still pending; no new property added. JavaScript shell does not establish full review."
+        },
+        {
+          "action": "pending",
+          "name": "The Banking Hall at Merchants Exchange",
+          "url": "https://www.sfuva.com/the-banking-hall-at-merchants-exchange",
+          "reason": "Confirmed association event-space lead; operator-specific wedding/booking and same-building relationship need review."
+        }
+      ],
+      "critique": "Long repeated navigation dominated web-reader output; reading only the first excerpt would miss the actual member body. Association '24hours/no sound ordinance' is not a verified event music deadline.",
+      "method_change": "Read actual profile body and follow its operator link; close identity dispositions even for existing rooms, while leaving field/permit review separately incomplete.",
+      "next_test": "Test operator rebrands/new openings instead of relying on old popular-venue names.",
+      "remaining": [
+        "Primary715Harrison site rendered content unreviewed; no source count or permit claim upgraded.",
+        "BankingHall eligibility and current terms pending."
+      ],
+      "reviewed_utc": "2026-11-08T19:59:41.142957+00:00",
+      "status": "completed_scoped_search_review",
+      "exhaustive": false
+    },
+    {
+      "pass": 3,
+      "question": "Do rebrands and reopened historic venues disappear when searching only old wedding directories?",
+      "searches": [
+        "Amador Club San Francisco private events weddings Avalon San Francisco wedding venue",
+        "Opened both current operator event-space pages and reconciled baseline names/aliases"
+      ],
+      "sources": [
+        {
+          "url": "https://amadorclub.com/private-events-2/",
+          "state": "official full event-space body reviewed; weddings not explicit"
+        },
+        {
+          "url": "https://www.theavalonsf.com/event-spaces",
+          "state": "official capacities, inclusions, floor-plan contradictions and wedding footer reviewed"
+        }
+      ],
+      "outcomes": [
+        {
+          "action": "add",
+          "name": "Amador Club",
+          "city": "San Francisco",
+          "county": "San Francisco",
+          "url": "https://amadorclub.com/private-events-2/",
+          "category": "Private club / potential event space",
+          "wedding": "unknown",
+          "capacity_max": 350,
+          "address": "550 Montgomery Street, San Francisco, CA 94111",
+          "notes": "Club-wide buyout maximum350, no seated350 inference. Bank buyout150 is separate overlapping offer, not summed. Public opening hours not event music cutoffs; membership/wedding approval Unknown—inquire."
+        },
+        {
+          "action": "add",
+          "name": "The Avalon",
+          "city": "San Francisco",
+          "county": "San Francisco",
+          "url": "https://www.theavalonsf.com/event-spaces",
+          "category": "Historic event venue",
+          "wedding": "advertised",
+          "address": "1244 Sutter Street, San Francisco, CA",
+          "notes": "Ballroom reception550 versus floorplan500; banquet200–300 versus floorplan max280 conflict, so no single seated/standing value asserted.200paddedchairs,10cocktailtables,10roundtables included; A/V add-ons. Preferred vendors and in-house beverage partner listed; outside-vendor exclusivity Unknown. No operation year inferred from EST1911."
+        }
+      ],
+      "critique": "An association roster plus old-name matching misses current operators and reopened properties. The current page also contradicts its own layout counts.",
+      "method_change": "Add a current-operator/reopening search, read footer event categories, preserve layout contradictions rather than selecting the largest number.",
+      "next_test": "Test caterer partner inventories independently from venue directories.",
+      "remaining": [
+        "Amador wedding/membership/fee terms unconfirmed.",
+        "Avalon layout conflict and current rate sheet need operator clarification."
+      ],
+      "implementation_state": "staged_not_applied",
+      "reviewed_utc": "2026-11-08T20:14:46.044293+00:00",
+      "status": "completed_scoped_search_review",
+      "exhaustive": false
+    },
+    {
+      "pass": 4,
+      "question": "Do independent caterer partner inventories expose omissions hidden by wedding-directory repetition?",
+      "searches": [
+        "site.ggcatering.com/venues wedding San Francisco Bay Area venue",
+        "site.paula-leduc.com venues wedding Bay Area",
+        "Read GGC San Francisco roster and Avalon/Storek profiles; followed Storek operator link"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ggcatering.com/venues/san-francisco",
+          "state": "named roster reviewed; profile links to capture"
+        },
+        {
+          "url": "https://www.ggcatering.com/venues/the-avalon",
+          "state": "partner confirms weddings and seated280; official internal conflict retained"
+        },
+        {
+          "url": "https://www.ggcatering.com/venues/storek",
+          "state": "partner profile read"
+        },
+        {
+          "url": "https://npu.co/venue/storek/",
+          "state": "redirected to general operator inventory; no Storek-specific current booking confirmation"
+        },
+        {
+          "url": "https://www.ggcatering.com/venues/the-melody-of-san-francisco",
+          "state": "web fetch timeout; not reviewed"
+        }
+      ],
+      "outcomes": [
+        {
+          "action": "pending",
+          "name": "Storek",
+          "url": "https://www.ggcatering.com/venues/storek",
+          "city": "San Francisco",
+          "county": "San Francisco",
+          "reason": "Absent exact baseline; caterer profile gives155 9thStreet, reception999. Operator link redirects to broad inventory and omits Storek: current availability unresolved, not declared closed."
+        },
+        {
+          "action": "pending",
+          "name": "The Melody of San Francisco",
+          "url": "https://www.ggcatering.com/venues/the-melody-of-san-francisco",
+          "city": "San Francisco",
+          "county": "San Francisco",
+          "reason": "Named roster lead absent baseline; profile timed out, no permission/capacity upgrade."
+        },
+        {
+          "action": "inventory",
+          "name": "Global Gourmet San Francisco partner roster",
+          "url": "https://www.ggcatering.com/venues/san-francisco",
+          "reason": "Capture all named venue-profile links with pending state; already-known names are identity aids, not automatic dispositions."
+        },
+        {
+          "action": "existing_staged",
+          "name": "The Avalon",
+          "reason": "Partner supports280seated but cannot resolve operator's200–300vs280 floorplan conflict."
+        }
+      ],
+      "critique": "Partner rosters contain major omitted names but stale partner URLs can redirect silently. A successful HTTP200 may be a generic inventory, not the requested property.",
+      "method_change": "Use vendor/caterer rosters as independent source families; require final-URL and property-body checks before declaring current availability.",
+      "next_test": "Test official Alameda tourism inventory instead of another SF vendor list.",
+      "remaining": [
+        "Storek current operator/availability unresolved.",
+        "Entire partner roster captured does not mean each profile reviewed."
+      ],
+      "reviewed_utc": "2026-11-08T20:15:25.724294+00:00",
+      "status": "completed_scoped_search_review",
+      "exhaustive": false
+    },
+    {
+      "pass": 5,
+      "question": "Does official tourism coverage reveal major Alameda hotels while broad searches reveal omitted restaurant weddings?",
+      "searches": [
+        "site.visitoakland.com weddings venue private events Oakland wedding venues",
+        "Compared ten VisitOakland named venues against baseline; read Bombera operator wedding terms and Kissel Hyatt wedding page"
+      ],
+      "sources": [
+        {
+          "url": "https://www.visitoakland.com/blog/post/12-oakland-wedding-venues/",
+          "state": "ten named roster entries reviewed; individual identity checks scoped"
+        },
+        {
+          "url": "https://www.bomberaoakland.com/events",
+          "state": "full operator wedding/buyout conditions reviewed"
+        },
+        {
+          "url": "https://www.hyatt.com/unbound-collection/en-US/oakub-kissel-uptown-oakland/weddings",
+          "state": "operator wedding page checked"
+        }
+      ],
+      "outcomes": [
+        {
+          "action": "add",
+          "name": "Bombera",
+          "url": "https://www.bomberaoakland.com/events",
+          "city": "Oakland",
+          "county": "Alameda",
+          "address": "3459 Champion St, Oakland, CA 94602",
+          "category": "Restaurant / wedding buyout",
+          "wedding": "advertised",
+          "capacity_max": 90,
+          "notes": "40–90guest full buyout only; price invariant to guest count. Includes dinner/bar/waitstaff/coffee/dance space/cleanup; price Unknown. No live music or amplified sound/lights disturbing neighbors. No Friday evening private parties. Book8weeks–6months ahead;50%deposit (credit/refund basis unknown). Dining opening hours not wedding cutoff."
+        },
+        {
+          "action": "pending",
+          "name": "Kissel Uptown Oakland",
+          "url": "https://www.hyatt.com/unbound-collection/en-US/oakub-kissel-uptown-oakland/weddings",
+          "city": "Oakland",
+          "county": "Alameda",
+          "reason": "Absent baseline exact name; official wedding listing needs room/capacity/body verification before applying detailed facts."
+        },
+        {
+          "action": "existing",
+          "name": "Children's Fairyland",
+          "record_ids": [
+            "fairyland-weddings-alameda"
+          ],
+          "reason": "Tourism spelling matches known Fairyland Weddings; not a new property."
+        }
+      ],
+      "critique": "A short popular-venue list still exposed an absent major hotel; restaurant buyouts sit outside traditional venue rosters. Broad site queries returned off-domain candidates, requiring actual primary review.",
+      "method_change": "Reconcile every named tourism roster item; add restaurant event pages independently and retain size, live-music and date-window restrictions.",
+      "next_test": "Check ContraCosta municipal/tourism boundaries and an official independent venue inventory.",
+      "remaining": [
+        "Remaining tourism roster members need exact identity reconciliation.",
+        "Bombera fixed quote unknown; no330guest estimate extrapolated."
+      ],
+      "reviewed_utc": "2026-11-08T20:15:58.380923+00:00",
+      "status": "completed_scoped_search_review",
+      "exhaustive": false
+    },
+    {
+      "pass": 6,
+      "question": "Do county/city-name ambiguity and unrendered tourism filters hide ContraCosta venues?",
+      "searches": [
+        "site.visitconcordca.com wedding venues Concord event spaces",
+        "site.visittrivalley.com weddings venues Blackhawk Danville",
+        "Opened correct CA tourism roster, Blackhawk operator and Concord Historical Society link"
+      ],
+      "sources": [
+        {
+          "url": "https://www.visitconcordca.com/meetings/outdoor-venues/",
+          "state": "CA roster reviewed"
+        },
+        {
+          "url": "https://www.blackhawkcc.org/event",
+          "state": "official wedding page and non-member inquiry choice reviewed"
+        },
+        {
+          "url": "https://visittrivalley.com/wedding-venues/",
+          "state": "filters/load-more shell only; zero venue profiles rendered does not mean none exist"
+        },
+        {
+          "url": "https://concordhistorical.org/",
+          "state": "linked official historical society checked"
+        }
+      ],
+      "outcomes": [
+        {
+          "action": "add",
+          "name": "Blackhawk Country Club",
+          "url": "https://www.blackhawkcc.org/event",
+          "city": "Danville",
+          "county": "Contra Costa",
+          "address": "599 Blackhawk Club Drive, Danville, CA 94506",
+          "category": "Country club / wedding venue",
+          "wedding": "advertised",
+          "capacity_max": 300,
+          "notes": "Operator markets300-person weddings; room/layout/dinner+dance not established. Inquiry accepts Member or Non-Member, which does not prove no sponsorship requirement. Fee and clocks Unknown."
+        },
+        {
+          "action": "pending",
+          "name": "Concord Historical Society / Heritage Center / Galindo grounds",
+          "url": "https://concordhistorical.org/",
+          "city": "Concord",
+          "county": "Contra Costa",
+          "reason": "Tourism explicitly describes Galindo weddings; compare building/garden/HeritageCenter identities before adding."
+        },
+        {
+          "action": "excluded",
+          "name": "Concord Massachusetts tourism venues",
+          "url": "https://visitconcord.org/weddings-and-special-events/venues/",
+          "reason": "Search returned a different Concord in Massachusetts; out of BayArea geography."
+        },
+        {
+          "action": "pending",
+          "name": "The Veranda fountain plaza",
+          "url": "https://www.visitconcordca.com/meetings/outdoor-venues/",
+          "city": "Concord",
+          "county": "Contra Costa",
+          "reason": "Tourism event-plaza lead; wedding permission and exact rentable scope Unknown."
+        }
+      ],
+      "critique": "Search engines ignored the intended domain and returned Massachusetts/Illinois namesakes. A dynamic LoadMore directory returned no named profiles despite valid filters.",
+      "method_change": "Require California address/county before ingesting; mark dynamic directories uncollected rather than empty; use directly indexed official profiles as independent fallback.",
+      "next_test": "Test a Marin tourism guide and a current operator with weekday/date restrictions.",
+      "remaining": [
+        "TriValley dynamic roster uncollected.",
+        "Concord historical society/Veranda exact rental terms unresolved."
+      ],
+      "reviewed_utc": "2026-11-08T20:16:31.716473+00:00",
+      "status": "completed_scoped_search_review",
+      "exhaustive": false
+    },
+    {
+      "pass": 7,
+      "question": "Can retreat-style lodging be wrongly counted as a wedding possibility, and are tourism lodging numbers unit-safe?",
+      "searches": [
+        "site.visitmarin.org weddings venues outdoor Marin",
+        "site.westpointinn.com weddings rental",
+        "Read official WestPoint policy wedding prohibition and VisitMarin wedding roster body"
+      ],
+      "sources": [
+        {
+          "url": "https://www.westpointinn.com/policies",
+          "state": "explicit wedding prohibition and membership/day-use restrictions reviewed"
+        },
+        {
+          "url": "https://www.visitmarin.org/meetings/weddings/wedding-venues/",
+          "state": "roster and initial structured capacity blocks reviewed; all profile links to capture"
+        }
+      ],
+      "outcomes": [
+        {
+          "action": "excluded",
+          "name": "West Point Inn",
+          "url": "https://www.westpointinn.com/policies",
+          "city": "Mill Valley",
+          "county": "Marin",
+          "reason": "Operator explicitly prohibits weddings on Inn and grounds. General lodging/offsites not wedding approval."
+        },
+        {
+          "action": "inventory",
+          "name": "VisitMarin wedding venue roster",
+          "url": "https://www.visitmarin.org/meetings/weddings/wedding-venues/",
+          "reason": "Capture venue-specific MoreDetails links and retain source. Tourism Lodging numbers have ambiguous rooms-versus-guests units; no sleeping capacities asserted from them."
+        }
+      ],
+      "critique": "A picturesque inn with day rental and entire-inn bookings can explicitly prohibit weddings. Tourism tables can label rooms/cottages as lodging without a people unit.",
+      "method_change": "Read operator policy negative clauses before promoting retreat leads; require sleeping people versus rooms/beds unit definitions before numeric normalization.",
+      "next_test": "Test Napa winery-event permission versus wedding bans and jurisdiction-specific exceptions.",
+      "remaining": [
+        "Marin tourism individual roster review incomplete.",
+        "WestPoint excluded for weddings, not incorrectly declared unavailable for every other event."
+      ],
+      "reviewed_utc": "2026-11-08T20:17:02.178653+00:00",
+      "status": "completed_scoped_search_review",
+      "exhaustive": false
+    },
+    {
+      "pass": 8,
+      "question": "Does treating all winery events as wedding permission create false positives, and can an old snippet overrule a changed FAQ?",
+      "searches": [
+        "Napa winery weddings permitted wineries V Sattui Charles Krug Beringer official weddings",
+        "site.countyofnapa.org winery weddings prohibited marketing events",
+        "Read current Beringer wedding requirements and full current DelDotto FAQ"
+      ],
+      "sources": [
+        {
+          "url": "https://www.beringer.com/pages/wine-country-weddings",
+          "state": "official wedding inclusion/requirements body reviewed"
+        },
+        {
+          "url": "https://www.deldottovineyards.com/store/frequently-asked-questions/",
+          "state": "current FAQ reviewed; older search snippet wedding-ban sentence absent from opened body"
+        }
+      ],
+      "outcomes": [
+        {
+          "action": "update",
+          "name": "Beringer Vineyards — Hudson House and grounds",
+          "record_ids": [
+            "beringer-vineyards-hudson-house-and-grounds-napa"
+          ],
+          "url": "https://www.beringer.com/pages/wine-country-weddings",
+          "facts": [
+            {
+              "field": "music_outdoor",
+              "value": 1320,
+              "basis": "Outdoor amplified music until22:00; not guest/bar/cleanup deadline."
+            },
+            {
+              "field": "rental_hours",
+              "value": 5,
+              "basis": "Five event hours; no inferred end clock."
+            }
+          ],
+          "notes": "Site fee includes exclusiveHudsonHousegrounds/mainfloor,readyrooms15:00–17:00,valetFri–Sun. Client arranges catering/rentals; preferred caterer required; professional planner minimum partialpackage; Beringer wine minimum3cases via venue; outsidebeer/sparkling no corkage. Additional beginning time1000/hour, not general late overtime. Full fee/mandatory total Unknown."
+        },
+        {
+          "action": "pending",
+          "name": "Del Dotto winery locations",
+          "url": "https://www.deldottovineyards.com/store/frequently-asked-questions/",
+          "city": "Napa County",
+          "county": "Napa",
+          "reason": "Private tastings and group visits established, weddings not established in current body. Search snippet asserts prohibition but sentence absent from current page; do not label current wedding venue or impose unverified blanket ban."
+        }
+      ],
+      "critique": "A private tasting is not a wedding permit. A search snippet can retain a removed sentence and older planning documents cannot settle today's property-specific permission.",
+      "method_change": "Use current operator wedding/policy bodies and property-specific permit evidence; retain snippet/body contradictions. Map constraints to exact offer, not every room sharing a brand.",
+      "next_test": "Test Peninsula tourism geography and a small nontraditional operator FAQ.",
+      "remaining": [
+        "Beringer wine cost, all-in quote, event/bar/cleanup deadlines unknown.",
+        "DelDotto current wedding status unresolved; no legal advice inferred from historic county PDFs."
+      ],
+      "reviewed_utc": "2026-11-08T20:17:28.179880+00:00",
+      "status": "completed_scoped_search_review",
+      "exhaustive": false
+    },
+    {
+      "pass": 9,
+      "question": "Do Coastside meeting inventories expose venues omitted by wedding-only labels, and do linked fact sheets contain missing prices?",
+      "searches": [
+        "site.thesanfranciscopeninsula.com wedding venues unique Half Moon Bay Pacifica",
+        "site.sanchezartcenter.org rental wedding",
+        "Opened HalfMoonBay meeting table and Douglas wedding→factsheet→seating/menu/additional-info links"
+      ],
+      "sources": [
+        {
+          "url": "https://www.visithalfmoonbay.org/meet/venues",
+          "state": "meeting table reviewed; named candidate inventory to capture"
+        },
+        {
+          "url": "https://thedouglasbeachhouse.com/weddings/",
+          "state": "operator wedding capacity and clock FAQ reviewed"
+        },
+        {
+          "url": "https://thedouglasbeachhouse.com/fact-sheet/",
+          "state": "operator fee/catering/bar/deposit/inclusion terms reviewed"
+        },
+        {
+          "url": "https://thedouglasbeachhouse.com/seating_floor-plan/",
+          "state": "linked80/98dinner-layout PDFs identified, not yet reviewed"
+        },
+        {
+          "url": "https://thedouglasbeachhouse.com/sample-menus/",
+          "state": "operator buffet/plated and bartender requirement reviewed"
+        }
+      ],
+      "outcomes": [
+        {
+          "action": "add",
+          "name": "The Douglas Beach House",
+          "city": "Half Moon Bay",
+          "county": "San Mateo",
+          "url": "https://thedouglasbeachhouse.com/weddings/",
+          "category": "Oceanfront music / wedding venue",
+          "wedding": "advertised",
+          "capacity_max": 150,
+          "capacity_seated": 100,
+          "capacity_standing": 120,
+          "facts": [
+            {
+              "field": "event_end",
+              "value": 1260,
+              "basis": "Event ends21:00; not separate amplified music deadline."
+            },
+            {
+              "field": "cleanup_end",
+              "value": 1320,
+              "basis": "Catering staff depart by22:00."
+            },
+            {
+              "field": "fee_min",
+              "value": 3000,
+              "basis": "Undated published rental-only range; current quote required."
+            },
+            {
+              "field": "fee_max",
+              "value": 6000,
+              "basis": "Undated published rental-only range; mandatory manager/other charges extra."
+            },
+            {
+              "field": "outside_catering",
+              "value": "conditional",
+              "basis": "Alternative licensed/insured caterer requires approval and additional facility-manager fee."
+            }
+          ],
+          "notes": "150 is stage-presentation configuration using loft/floor, NOT wedding capacity; wedding standing120/seated100/ceremony50. Rental includes tables/chairs,concertroom/solarium/deck. Client alcohol;licensedbartender,no kegs. Overnight may be arranged,capacity/obligationUnknown. Optional northarea,A/V,piano extra; required manager fee Unknown when outsidecaterer."
+        },
+        {
+          "action": "inventory",
+          "name": "HalfMoonBay meeting venue table",
+          "url": "https://www.visithalfmoonbay.org/meet/venues",
+          "reason": "Capture named meeting listings without treating meetings as wedding permission; tourismDouglas125 conflicts with operator-specific wedding120standing/100seated."
+        }
+      ],
+      "critique": "Wedding-only searches omit concert/meeting venues. One linked fact sheet exposed price and mandatory manager fees; largest venue capacity includes non-wedding stage layout.",
+      "method_change": "Follow FAQ/factsheet/menu/layout links before outreach; preserve wedding versus meeting configurations and count unit, never extrapolate330guest quote from small-site fees.",
+      "next_test": "Test SantaClara official cultural/education venues and reopenings.",
+      "remaining": [
+        "Douglas current fees,facility-managercharge,lodging details and floorplan PDFs unresolved.",
+        "Additional-info page route inspected separately; any new conditions need reconciliation."
+      ],
+      "reviewed_utc": "2026-11-08T20:17:58.911260+00:00",
+      "status": "completed_scoped_search_review",
+      "exhaustive": false
+    },
+    {
+      "pass": 10,
+      "question": "Do cultural institutions, alternate operator domains and rental-resource tabs expose major SantaClara omissions?",
+      "searches": [
+        "site.sanjose.org unique wedding event venues Mexican Heritage Plaza",
+        "site.mhplaza.org rentals wedding capacity",
+        "Followed operator rent page→old-domain VenueTab redirect→current gallery; read insurance/caterer resource page"
+      ],
+      "sources": [
+        {
+          "url": "https://www.sanjose.org/listings/mexican-heritage-plaza",
+          "state": "tourism identity/address/operator overview reviewed"
+        },
+        {
+          "url": "https://mhplaza.org/",
+          "state": "explicit weddings advertised in rentals section"
+        },
+        {
+          "url": "https://mhplaza.org/rent-la-plaza",
+          "state": "operator rental/services overview reviewed"
+        },
+        {
+          "url": "https://mhplaza.org/gallery",
+          "state": "operator event-configuration descriptions reviewed"
+        },
+        {
+          "url": "https://mhplaza.org/resources",
+          "state": "approvedcaterer/vendorapplication/insurance/occupancy/layout resources identified, documents not all read"
+        }
+      ],
+      "outcomes": [
+        {
+          "action": "add",
+          "name": "Mexican Heritage Plaza",
+          "url": "https://mhplaza.org/rent-la-plaza",
+          "city": "San Jose",
+          "county": "Santa Clara",
+          "address": "1700 Alum Rock Avenue, San Jose, CA 95116",
+          "category": "Cultural center / wedding venue",
+          "wedding": "advertised",
+          "notes": "Operator explicitly advertises weddings. Festival2000 scope is NOT banquet/wedding capacity. Pavilion reception240 separate offer; no additive room capacities. Approvedcaterer list and event-specific vendorapplication/insurance documents linked; costs/clocks unresolved."
+        },
+        {
+          "action": "inventory",
+          "name": "Mexican Heritage Plaza linked rental resources",
+          "url": "https://mhplaza.org/resources",
+          "reason": "Capture named documents/occupancy/layout/application links pending full review; linked schoolofartsandculture.org is related operator domain, not a second venue."
+        }
+      ],
+      "critique": "Major cultural venues can be absent even when tourism and current operator explicitly advertise weddings. Operator rebrand/domain redirects and large nav blocks hide actionable resource bodies.",
+      "method_change": "Search cultural institutions independently, follow old/current operator domain aliases, inventory resource-tab forms and distinguish festival from banquet capacities.",
+      "next_test": "Test Solano historic industrial sites and current rental policies.",
+      "remaining": [
+        "MHP detailed occupancy/table layouts,fees and required insurance/vendor approvals need document review.",
+        "Do not infer construction/opening from25thanniversaryvideo or tourism1999opening without scoped proof."
+      ],
+      "reviewed_utc": "2026-11-08T20:18:42.449721+00:00",
+      "status": "completed_scoped_search_review",
+      "exhaustive": false
+    },
+    {
+      "pass": 11,
+      "question": "Do industrial-site aliases and tourist directories conflate unrelated operators or hide linked current rates in Solano?",
+      "searches": [
+        "site.visitvallejo.com weddings venues Mare Island",
+        "Mare Island Coal Sheds weddings rental official",
+        "site.visitfairfieldca.com weddings venues",
+        "Read current brewery policy, foundation event page and Vallejo venue inventory; followed ViewCurrentRates"
+      ],
+      "sources": [
+        {
+          "url": "https://www.visitvallejo.com/venues",
+          "state": "named inventory reviewed including misdirected inquiry links"
+        },
+        {
+          "url": "https://mareislandbrewingco.com/private-events",
+          "state": "official three-location/five-space food/bar/add-on policies reviewed"
+        },
+        {
+          "url": "https://mihpf.org/event-rentals",
+          "state": "official chapel160 and seasonal mansion wedding page reviewed"
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/623a614b155b26cf00f5dcad/6abada7aa8391cf7b7f94b35_MIHPFVenueRentalRates2026.pdf",
+          "state": "linked current-rate PDF webreader failed; ordinary download pending"
+        }
+      ],
+      "outcomes": [
+        {
+          "action": "update",
+          "name": "Mare Island Brewing Co. event spaces",
+          "record_ids": [
+            "mare-island-brewing-co-coal-shed-brewery-taproom-and-beer-garden-solano",
+            "mare-island-brewing-co-coal-shed-brewery-whaleboat-room-and-garden-solano",
+            "mare-island-brewing-co-ferry-taproom-crow-s-nest-rooftop-patio-solano",
+            "mare-island-brewing-co-first-street-taphouse-benicia-room-solano",
+            "mare-island-brewing-co-first-street-taphouse-e-street-parklet-solano"
+          ],
+          "url": "https://mareislandbrewingco.com/private-events",
+          "notes": "Operator prohibits hard alcohol and all outside drinks across listedeventspaces. Chef buffet/boxlunch/appetizer options; preferred cateringpartners can be arranged; no any-vendor approval inferred. PA/stage/DJ/tents/heaters add-ons. Generic10–1000 across3locations not assigned to each room."
+        },
+        {
+          "action": "existing",
+          "name": "Mare Island Historic Park Foundation venues",
+          "record_ids": [
+            "mare-island-historic-park-foundation-st-peter-s-chapel-solano",
+            "mare-island-historic-park-foundation-admiral-s-mansion-outdoor-garden-solano"
+          ],
+          "reason": "Chapel and mansion already present. Chapel160ceremony; mansion150+is lower-bound language not exactmax; May–Octgarden offer."
+        },
+        {
+          "action": "inventory",
+          "name": "VisitVallejo named venue roster",
+          "url": "https://www.visitvallejo.com/venues",
+          "reason": "Capture profile links; QualityInn inquiry points to fairgrounds, RedwoodEmpire inquiry points to SavageCooke. Do not treat mismatched links as verified owner/property identity."
+        }
+      ],
+      "critique": "A locality roster can contain wrong inquiry destinations and brandwide capacities. MareIsland brewing, chapel/mansion, VinoGodfather and coal-shed redevelopment are not one interchangeable property.",
+      "method_change": "Check property address/operator/final URL and exact offer before reuse; validate button destinations; archive current rates even if webreader fails by ordinary permitted download.",
+      "next_test": "Test Sonoma/Mendocino geographic boundary and similarly named properties.",
+      "remaining": [
+        "Foundation2026ratePDF not yet read; no prices applied.",
+        "VisitVallejo inventory remaining profiles pending."
+      ],
+      "reviewed_utc": "2026-11-08T20:19:23.969269+00:00",
+      "status": "completed_scoped_search_review",
+      "exhaustive": false
+    },
+    {
+      "pass": 12,
+      "question": "Do near-identical wine-country names cause boundary errors or hide rebranded Sonoma hotels?",
+      "searches": [
+        "The Madrona Healdsburg weddings buyout rooms official",
+        "The Madrones Philo weddings venue official",
+        "site.sonomacounty.com wedding venues new venues Healdsburg",
+        "Compared operator addresses and current FAQ rather than third-party room-rate claims"
+      ],
+      "sources": [
+        {
+          "url": "https://themadronahotel.com/events-2/",
+          "state": "old operator route404; not evidence venue closed"
+        },
+        {
+          "url": "https://themadronahotel.com/faqs/",
+          "state": "current wedding/rooms/caterer/resort-fee FAQ reviewed"
+        },
+        {
+          "url": "https://www.themadrones.com/weddings-2",
+          "state": "operator wedding imagery/address in Philo reviewed"
+        }
+      ],
+      "outcomes": [
+        {
+          "action": "add",
+          "name": "The Madrona",
+          "url": "https://themadronahotel.com/faqs/",
+          "city": "Healdsburg",
+          "county": "Sonoma",
+          "address": "1001 Westside Rd, Healdsburg, CA 95448",
+          "category": "Boutique hotel / wedding venue",
+          "wedding": "advertised",
+          "capacity_max": 150,
+          "facts": [
+            {
+              "field": "lodging_rooms",
+              "value": 24,
+              "basis": "Operator FAQ24rooms, not sleeping-guests count."
+            },
+            {
+              "field": "outside_catering",
+              "value": "no",
+              "basis": "Current FAQ explicitly says no outside catering."
+            }
+          ],
+          "notes": "Weddings up to150; dinner/dance layoutUnknown. Mandatory40dailyresortfee for roomstays; billingunit/tax and wedding buyout/minimumnights/roomliability not settled. Standard reservation7day cancellation not weddingcontract terms. Do not reuse historical MadronaManor roomrates as current."
+        },
+        {
+          "action": "excluded",
+          "name": "The Madrones / The Brambles",
+          "url": "https://www.themadrones.com/weddings-2",
+          "reason": "Philo/AndersonValley in Mendocino outside ninecounty census. Distinct from MadronaHealdsburg; preserve as outside-scope lead, not alias merge."
+        }
+      ],
+      "critique": "Similar names plus regional wine-country searches confuse Sonoma and Mendocino. A404on old eventslug coexists with live explicit wedding FAQ.",
+      "method_change": "Require exact address/county and current alternative navigation before closure; record old-brand evidence separately; room inventory does not prove mandatory wedding lodging.",
+      "next_test": "Test federal versus state versus municipal public-land booking authority.",
+      "remaining": [
+        "Madrona weddingbuyout/nightminimum/feebasis unknown.",
+        "No current wedding opening year inferred from historic estate age."
+      ],
+      "reviewed_utc": "2026-11-08T20:19:48.348370+00:00",
+      "status": "completed_scoped_search_review",
+      "exhaustive": false
+    },
+    {
+      "pass": 13,
+      "question": "Does a municipal-only government checklist miss federal event rentals, and are ceremony permits mistaken for receptions or commercial leases?",
+      "searches": [
+        "site.nps.gov goga wedding reception venues permits Fort Mason",
+        "site.parks.ca.gov Bay Area wedding reception indoor event rental",
+        "Followed GGNRA business→ShortTermLease current official page"
+      ],
+      "sources": [
+        {
+          "url": "https://www.nps.gov/goga/planyourvisit/specialparkuses.htm",
+          "state": "current permit scope,authority exclusions and wedding section reviewed"
+        },
+        {
+          "url": "https://www.nps.gov/goga/getinvolved/dobusinesswithus.htm?fullweb=1",
+          "state": "jurisdiction and short-term versus commercial routes reviewed"
+        },
+        {
+          "url": "https://www.nps.gov/goga/getinvolved/short-term-lease-event-rental-space.htm",
+          "state": "both building descriptions/rates/minimum reviewed; page updated2024-03-20"
+        }
+      ],
+      "outcomes": [
+        {
+          "action": "add",
+          "name": "GGNRA Building 989 — Crissy Field",
+          "url": "https://www.nps.gov/goga/getinvolved/short-term-lease-event-rental-space.htm",
+          "city": "San Francisco",
+          "county": "San Francisco",
+          "category": "Federal / potential event space",
+          "government": true,
+          "wedding": "unknown",
+          "capacity_max": 50,
+          "facts": [
+            {
+              "field": "hourly_fee",
+              "value": 150,
+              "basis": "PublishedMon–Thu excludingholidays;weekend/holiday200/hour;pageupdated2024-03-20,currentquote needed."
+            },
+            {
+              "field": "minimum_rental_hours",
+              "value": 3,
+              "basis": "Both federal buildings3hourminimum."
+            }
+          ],
+          "notes": "50conference-style capacity; not wedding dinner50.10foldingtables/50chairs/restroom included. Wedding/reception/music approvalUnknown. Shortterm day/hourrental not commercial operatinglease."
+        },
+        {
+          "action": "add",
+          "name": "GGNRA Building 1050 — Fort Cronkhite",
+          "url": "https://www.nps.gov/goga/getinvolved/short-term-lease-event-rental-space.htm",
+          "city": "Sausalito",
+          "county": "Marin",
+          "category": "Federal / potential event space",
+          "government": true,
+          "wedding": "unknown",
+          "capacity_max": 50,
+          "facts": [
+            {
+              "field": "hourly_fee",
+              "value": 150,
+              "basis": "PublishedMon–Thu excludingholidays;Fri–Sun/holiday200/hour;updated2024-03-20."
+            },
+            {
+              "field": "minimum_rental_hours",
+              "value": 3,
+              "basis": "Threehourminimum."
+            }
+          ],
+          "notes": "50conference-style;10foldingtables/50chairs,patio/restroom. Weddingeligibility and clocksUnknown. Not commerciallease."
+        }
+      ],
+      "critique": "Federal authorities are outside110municipality/county workstreams. GGNRA expressly excludes PresidioTrust/state/municipal authorities; an outdoor ceremony permit or short-term lease is not operating-business access.",
+      "method_change": "Track federal/state/independent authorities separately; distinguish ceremony, reception and operatinglease; preserve rate dates and conference layouts.",
+      "next_test": "Test independent regional-park authority policy shared across four venues.",
+      "remaining": [
+        "Exactbuildingidentity existing-record reconciliation occurs before applying; no duplicate addition if IDsalready exist.",
+        "Current2026rates/fees and wedding approvals unconfirmed."
+      ],
+      "reviewed_utc": "2026-11-08T20:20:20.266709+00:00",
+      "status": "completed_scoped_search_review",
+      "exhaustive": false
+    },
+    {
+      "pass": 14,
+      "question": "Can a regional-park food pickup exception incorrectly qualify the $50 staffed buffet or late wedding?",
+      "searches": [
+        "site.ebparks.org reservations event venues rental facilities faqs catering sound hours",
+        "Read current FAQ and caterer page rather than applying municipal policies to independent district venues"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ebparks.org/reservations/event-venues/rental-facilities-faqs",
+          "state": "sound,food,bar,parking,setup rules reviewed"
+        },
+        {
+          "url": "https://www.ebparks.org/reservations/event-venues/caterers-vendors",
+          "state": "specific non-catered weekday/hour/holiday restrictions reviewed"
+        }
+      ],
+      "outcomes": [
+        {
+          "action": "update",
+          "name": "EBRPD four indoor rental facilities",
+          "record_ids": [
+            "tilden-regional-park-brazilian-room-contra-costa",
+            "kennedy-grove-regional-recreation-area-fern-cottage-contra-costa",
+            "temescal-regional-recreation-area-temescal-beach-house-alameda",
+            "martin-luther-king-jr-regional-shoreline-shoreline-center-alameda"
+          ],
+          "url": "https://www.ebparks.org/reservations/event-venues/caterers-vendors",
+          "facts": [
+            {
+              "field": "outside_catering",
+              "value": "conditional",
+              "basis": "Approved-list caterers only for onsite/delivery; non-catered self-pickup exception cannot qualify unapproved hired caterer/staff."
+            }
+          ],
+          "notes": "Noncatered options endby19:00includingcleanup; BrazilianMon/Wed/Thuonly; specific holidays fullycatered. No hiredstaff for noncatered offer,orientation/additionalfee required. Outdoors amplified first90minutes,not clock permission. Indoor music permitted; beer/wine/champagneonly,nospirits. Foodtrucksdisallowed at rentalfacilities; feeamount/currenthoursUnknown."
+        }
+      ],
+      "critique": "Self-pickup is not outside staffed catering permission. Relative music durations and recommended cleanup buffers are not exact clock cutoffs; district policies differ from city/county inventories.",
+      "method_change": "Evaluate the actual caterer/staffing model and chosen day/offer before applying $50buffet; keep conditional deadlines and first90minute outdoor sound as scoped text.",
+      "next_test": "Test large restaurant buyouts with precise room/headcount and bar/food minimum conditions.",
+      "remaining": [
+        "Approved status of user's caterer unknown; no automatic $50food substitution.",
+        "Current rate/insurance documents and facility-specific clocks need review."
+      ],
+      "reviewed_utc": "2026-11-08T20:20:51.398733+00:00",
+      "status": "completed_scoped_search_review",
+      "exhaustive": false
+    },
+    {
+      "pass": 15,
+      "question": "Do restaurants hide wedding buyouts behind private-party menus, and are small-room prices wrongly applied to whole-venue weddings?",
+      "searches": [
+        "site.nidooakland.com parties wedding capacity La Plaza",
+        "site.grandlakekitchen.com private event wedding spaces oakland capacity",
+        "Read both official private-event pages fully and compared distinct location/room offers"
+      ],
+      "sources": [
+        {
+          "url": "https://www.nidooakland.com/parties",
+          "state": "operator wholeproperty versus LaPlaza/table offer reviewed"
+        },
+        {
+          "url": "https://www.grandlakekitchen.com/private-events/",
+          "state": "operator locations,fullbuyouts,roomminimums and shortfall rules reviewed"
+        }
+      ],
+      "outcomes": [
+        {
+          "action": "add",
+          "name": "NIDO's BackYard",
+          "url": "https://www.nidooakland.com/parties",
+          "city": "Oakland",
+          "county": "Alameda",
+          "address": "104 Oak Street, Oakland, CA 94607",
+          "category": "Restaurant / wedding buyout",
+          "wedding": "advertised",
+          "capacity_max": 250,
+          "notes": "Whole-site maximum250; privateLaPlaza30–200,ownbar/A-V,spaceforband/dance. Privatebookingwindow10:00–22:00 is not independent music/bar/cleanup permission. FiestaTable10/person+tax applies15–20guest3hsemi-private offer, not weddingbuyout."
+        },
+        {
+          "action": "add",
+          "name": "Grand Lake Kitchen — Dimond",
+          "url": "https://www.grandlakekitchen.com/private-events/",
+          "city": "Oakland",
+          "county": "Alameda",
+          "category": "Restaurant / wedding buyout",
+          "wedding": "advertised",
+          "capacity_seated": 100,
+          "capacity_max": 100,
+          "notes": "Fullrestaurantweddingbuyout up to100; minimum varies byday/time/duration. Setmenu; unmetfood/drinkminimum billed asroomfee.500/800smallroomminimums not fullbuyoutquotes; no330guest extrapolation."
+        },
+        {
+          "action": "add",
+          "name": "Grand Lake Kitchen — Lake Merritt",
+          "url": "https://www.grandlakekitchen.com/private-events/",
+          "city": "Oakland",
+          "county": "Alameda",
+          "category": "Restaurant / small wedding buyout",
+          "wedding": "advertised",
+          "capacity_seated": 83,
+          "capacity_max": 83,
+          "notes": "Operator expressly states combined83:40inside+25coveredpatio+18mezzanine. Fullbuyout unavailableweekendbrunch; pricevariable. Smallroom600minimum is not weddingquote; food/drinkshortfallcharged."
+        },
+        {
+          "action": "pending",
+          "name": "Grand Lake Kitchen — Noe Valley",
+          "url": "https://www.grandlakekitchen.com/private-events/",
+          "city": "San Francisco",
+          "county": "San Francisco",
+          "reason": "NewSF location explicitly markets weddings; seated40/standing60/70includingoutdoors and day1000/evening3500minimums need exactlocation/address/offer review."
+        }
+      ],
+      "critique": "Same-brand locations and room-specific minimums can generate plausible but false cheap wedding costs. Whole-site250 does not mean LaPlaza250.",
+      "method_change": "Treat restaurant address as property, fullbuyout as distinct offer, and minimum-spend shortfall as contractual cost; never borrow a private-room booking fee for wedding totals.",
+      "next_test": "Test retreats/glamping for mandatory lodging and explicit wedding scope.",
+      "remaining": [
+        "Tax/service/fullbar/staffing terms unknown; all-in estimates withheld.",
+        "GLK locationaddresses and detailed package terms pending."
+      ],
+      "reviewed_utc": "2026-11-08T20:21:16.718135+00:00",
+      "status": "completed_scoped_search_review",
+      "exhaustive": false
+    },
+    {
+      "pass": 16,
+      "question": "Can retreat package links supply hidden lodging/cost terms while marketing phrases falsely imply unlimited music?",
+      "searches": [
+        "site.ventureretreat.org weddings lodging buyout",
+        "site.wildhaven.com weddings Healdsburg",
+        "Read Venture celebration→package/FAQ and PieRanch wedding→actual Adobe rental packet"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ventureretreat.org/plan-your-celebration",
+          "state": "operator wedding page and package link reviewed"
+        },
+        {
+          "url": "https://www.ventureretreat.org/faq",
+          "state": "partial/exclusive rental and extra early/late fees reviewed"
+        },
+        {
+          "url": "https://www.ventureretreat.org/accommodations",
+          "state": "individual lodging descriptions reviewed; no property total summed"
+        },
+        {
+          "url": "https://www.ventureretreat.org/s/Wedding-Packages-2026-for-Web.pdf",
+          "state": "current linked2026PDF webreader redirect failed; ordinary download pending"
+        },
+        {
+          "url": "https://www.pieranch.org/site-rentals-and-weddings",
+          "state": "official wedding page read"
+        },
+        {
+          "url": "https://new.express.adobe.com/webpage/ufCK61NS2g5Q8",
+          "state": "full operator-linked rental packet reviewed including obligation clauses"
+        }
+      ],
+      "outcomes": [
+        {
+          "action": "add",
+          "name": "Pie Ranch — Full Lower Slice",
+          "parent_property": "Pie Ranch",
+          "url": "https://www.pieranch.org/site-rentals-and-weddings",
+          "city": "Pescadero",
+          "county": "San Mateo",
+          "address": "2080 Cabrillo Hwy, Pescadero, CA",
+          "category": "Farm / wedding venue",
+          "wedding": "advertised",
+          "facts": [
+            {
+              "field": "fee_min",
+              "value": 6000,
+              "basis": "FullLowerSliceNov–Apr rentalcomponent; undatedcurrentlinkedpacket,quote required."
+            },
+            {
+              "field": "fee_max",
+              "value": 7000,
+              "basis": "FullLowerSliceMay–Oct rentalcomponent,notall-in."
+            },
+            {
+              "field": "deposit_refundable",
+              "value": 250,
+              "basis": "Refundablecleaningdeposit,notexpense."
+            }
+          ],
+          "notes": "FullLowerSlice14:00–22:00,barnfrom18:00; barncapacity150notwholefarmweddingmax. Barnextensionto23:00costs300/hour; meadowends19:00. Requiredcoordinator,insurance500k(noalcohol)/1m(alcohol),rentercleanup;25%bookingpayment. Weathercancellation/shelterrisk. Smallwedding100/guestonly≤60,not330; no mandatorytotalasserted."
+        },
+        {
+          "action": "existing",
+          "name": "Venture Retreat Center packages",
+          "record_ids": [
+            "venture-retreat-center-essential-package-san-mateo",
+            "venture-retreat-center-signature-package-san-mateo",
+            "venture-retreat-center-bells-whistles-package-san-mateo"
+          ],
+          "reason": "Existing3offers; newlylinked2026PDFneedscomparison against historicalnumeric facts. 'Dance night away'/third-party'no curfew'not verified musicdeadline."
+        }
+      ],
+      "critique": "Retreat lodging inventory varies bypackage and cannot be summed into one guaranteed wedding entitlement. Generic ViewPackages led to a real current PDF; Adobe packet contained prices/cleanup/insurance absent from homepage.",
+      "method_change": "Follow every package/brochure button and read obligations, not just featurelists. Store conditionaloffer fees separately, never substitute perguestsmallwedding price into330guest estimate.",
+      "next_test": "Test membership/religious/social clubs and clear membership requirements.",
+      "remaining": [
+        "Venture2026PDF still pendingdownload/read; no oldpackagefacts overwritten.",
+        "PieRanch maxweddinglayout,currentfee validity, staffing/barservice/fullinsurancecost unknown."
+      ],
+      "reviewed_utc": "2026-11-08T20:21:54.045200+00:00",
+      "status": "completed_scoped_search_review",
+      "exhaustive": false
+    },
+    {
+      "pass": 17,
+      "question": "Do clubs/churches need actual membership and reception rules instead of assumptions, and can an exact wedding-review profile add usable ratings?",
+      "searches": [
+        "site.ggyc.org wedding venue non members capacity",
+        "site.swedenborgian.org wedding rentals San Francisco",
+        "Opened current redirectedGGYC page, SwedenborgianFAQ and exact WeddingWire review profile"
+      ],
+      "sources": [
+        {
+          "url": "https://ggyc.org/wp/facilities/san-francisco-waterfront-wedding-venue/",
+          "state": "redirected to ggyc.com JSshell; old nonmember snippet not current confirmation"
+        },
+        {
+          "url": "https://sfwedding.org/weddings/faq/",
+          "state": "official ceremony/reception capacity,faith,vendor,inclusion rules reviewed"
+        },
+        {
+          "url": "https://www.weddingwire.com/reviews/swedenborgian-church-san-francisco/d9bced1ddfbeaa22.html",
+          "state": "exactproperty wedding-review body readable:4.8/5,57reviews; indexed snapshot, not live delivery guarantee"
+        }
+      ],
+      "outcomes": [
+        {
+          "action": "add",
+          "name": "Swedenborgian Church of San Francisco",
+          "url": "https://sfwedding.org/weddings/faq/",
+          "city": "San Francisco",
+          "county": "San Francisco",
+          "address": "2107 Lyon St, San Francisco, CA 94115",
+          "category": "Church / wedding and reception venue",
+          "wedding": "advertised",
+          "capacity_max": 120,
+          "facts": [
+            {
+              "field": "capacity_ceremony",
+              "value": 100,
+              "basis": "Sanctuaryseated100;120standing. ParishHouseformalreception80/cocktail100,not additive."
+            },
+            {
+              "field": "rental_hours",
+              "value": 8,
+              "basis": "Ceremony+reception offer includes setup/cleanup; ceremonyonly2.5hours."
+            }
+          ],
+          "notes": "Open to allfaiths/nonreligiouscouples. Ownofficiant/musiciansallowed; minister/staffmusicians extra. Feeincludesvenuecoordinator,rehearsal,candles,fire,dressingrooms/garden. No dedicatedparking; residentialstreetrestrictions. Price,food/barandclock termsUnknown.",
+          "reviews": [
+            {
+              "platform": "WeddingWire",
+              "rating": 4.8,
+              "count": 57,
+              "url": "https://www.weddingwire.com/reviews/swedenborgian-church-san-francisco/d9bced1ddfbeaa22.html",
+              "scope": "wedding_property",
+              "observation": "Readableexactprofile indexed snapshot checked2026-11-08; not unrelated church worship reviews."
+            }
+          ]
+        },
+        {
+          "action": "pending",
+          "name": "Golden Gate Yacht Club",
+          "url": "https://ggyc.com/san-francisco-waterfront-wedding-venue",
+          "city": "San Francisco",
+          "county": "San Francisco",
+          "reason": "NewoperatorJSroute readableidentity1YachtRoad only; oldindexed nonmemberpolicy needs renderedcurrentbody. Not assume privateclub banspublic or acceptsall."
+        }
+      ],
+      "critique": "Religion/membership assumptions exclude viable venues. Olddomain searchsnippet can describe a policy missing from newJSshell; reviewcount belongs exactweddingprofile, not all affiliatedentities.",
+      "method_change": "Search faith/socialclub classes; read ceremonyversusreception scope and exactreview profile body. Keep redirectedJScontent unverified until actual render.",
+      "next_test": "Test mobile boats/islands and departurelocation rather than counting each port as a new venue.",
+      "remaining": [
+        "GGYC membership/capacity/availability currentbody unreviewed.",
+        "Swedenborgian full2026contract still linked externally, notyetread."
+      ],
+      "reviewed_utc": "2026-11-08T20:22:32.067660+00:00",
+      "status": "completed_scoped_search_review",
+      "exhaustive": false
+    },
+    {
+      "pass": 18,
+      "question": "Do mobile vessels get duplicated by ports, and does island-wide wedding marketing overstate museum eligibility?",
+      "searches": [
+        "site.luxecruises.com wedding yacht seated capacity San Francisco",
+        "site.angelisland.com weddings events rental",
+        "Read exactfleet vessel layouts plus StatePark and concessionaire island-event restrictions"
+      ],
+      "sources": [
+        {
+          "url": "https://luxecruises.com/fleet/",
+          "state": "fleet/vessel layouts and homeport reviewed; remaining fleetlinks capture"
+        },
+        {
+          "url": "https://parks.ca.gov/?page_id=31974",
+          "state": "current agency generalwedding permission and AIIM incompatibility reviewed"
+        },
+        {
+          "url": "https://angelisland.com/group-events-weddings/",
+          "state": "concessionaire CampReynolds/EastGarrison receptions and privateferry option reviewed"
+        }
+      ],
+      "outcomes": [
+        {
+          "action": "add",
+          "name": "Luxe Cruises & Events — Cabernet Sauvignon",
+          "parent_property": "Luxe Cruises & Events — Cabernet Sauvignon",
+          "url": "https://luxecruises.com/fleet/",
+          "city": "Alameda (home port)",
+          "county": "Alameda",
+          "category": "Yacht / mobile wedding venue",
+          "wedding": "advertised",
+          "capacity_seated": 220,
+          "notes": "Specificvessel dining220, separate dance deck; no combineddinnerdance capacity asserted. Operator serves19otherports; not19additionalvenues. Menu/barroute includedincharterdescription,pricing/minima/dockfeesUnknown."
+        },
+        {
+          "action": "add",
+          "name": "Luxe Cruises & Events — Fume Blanc",
+          "parent_property": "Luxe Cruises & Events — Fume Blanc",
+          "url": "https://luxecruises.com/fleet/",
+          "city": "Alameda (home port)",
+          "county": "Alameda",
+          "category": "Yacht / mobile wedding venue",
+          "wedding": "advertised",
+          "capacity_max": 330,
+          "capacity_seated": 160,
+          "notes": "330overall but160seateddining, separate dance deck. Do not qualify330dinnerwedding on totalpassengers alone. Boardingports are logistics, not duplicates."
+        },
+        {
+          "action": "update",
+          "name": "Angel Island Immigration Museum event rooms",
+          "record_ids": [
+            "angel-island-immigration-museum-immigration-museum-event-rooms-marin"
+          ],
+          "url": "https://parks.ca.gov/?page_id=31974",
+          "notes": "Agency says most weddings/birthdays incompatible and not accepted at ImmigrationMuseum; compatiblecorporate/education/galas reviewedcasebycase. Island-wide weddingadvertising must not imply museumpermission. No absoluteallweddingban asserted."
+        },
+        {
+          "action": "existing",
+          "name": "Angel Island CampReynolds / EastGarrison",
+          "record_ids": [
+            "angel-island-state-park-camp-reynolds-marin",
+            "angel-island-state-park-east-garrison-picnic-area-marin"
+          ],
+          "reason": "Existingislandsites; concessionaireexplicitlymarketsreceptions. Ferry/vendortransport extra unknown; no nighttimepermission inferred."
+        }
+      ],
+      "critique": "Movingboats belong to vesselidentity, not everydeparturecity. Shared island authority has site-specific incompatibilities that override broad weddingmarketing.",
+      "method_change": "Track namedvessel/room/site independently, geography/homeport separately, and hard eligibility restrictions before capacity/price ranking.",
+      "next_test": "Test current closures/ownership versus old tourism directories and wedding profiles.",
+      "remaining": [
+        "Luxe fullfleetremaining3offerscapturedpendingexactprofiles.",
+        "AngelIsland permits/privateferry/weather/currentcharges unknown."
+      ],
+      "reviewed_utc": "2026-11-08T20:23:03.617617+00:00",
+      "status": "completed_scoped_search_review",
+      "exhaustive": false
+    },
+    {
+      "pass": 19,
+      "question": "Can closure headlines, stale inquiry contacts and expired lease notices incorrectly exclude currently rentable venues or imply active business opportunities?",
+      "searches": [
+        "site.sfheritage.org Haas Lilienthal House private events rentals unavailable",
+        "site.thecjm.org private events rentals closed2026",
+        "site.srcity.org DeTurk Round Barn rental unavailable",
+        "Read current operator rentals/rates, March2026CJM release and SantaRosa lease deadline"
+      ],
+      "sources": [
+        {
+          "url": "https://www.haas-lilienthalhouse.org/house-rental",
+          "state": "current exclusivebooking partner and weddings reviewed"
+        },
+        {
+          "url": "https://www.haas-lilienthalhouse.org/rates-and-request",
+          "state": "currentofferfees/layouts/addons/conditionalendtimes reviewed"
+        },
+        {
+          "url": "https://www.thecjm.org/pages/658",
+          "state": "dated2026-03-18release says privateeventbookings throughJanuary2027 despite museumclosure"
+        },
+        {
+          "url": "https://www.thecjm.org/rent_the_museum",
+          "state": "official weddings and conditionalcaterer approval reviewed"
+        },
+        {
+          "url": "https://www.srcity.org/3141/Property-for-Lease",
+          "state": "lease terms reviewed; deadline2026-06-22already past"
+        }
+      ],
+      "outcomes": [
+        {
+          "action": "update",
+          "name": "Haas-Lilienthal House",
+          "record_ids": [
+            "haas-lilienthal-house-san-francisco"
+          ],
+          "url": "https://www.haas-lilienthalhouse.org/rates-and-request",
+          "facts": [
+            {
+              "field": "fee_min",
+              "value": 6000,
+              "basis": "Heritagefirstflooroffer;seated70/standing100;notall-in."
+            },
+            {
+              "field": "fee_max",
+              "value": 8600,
+              "basis": "Victorianoffer;Legacy7600;seated140/standing150;December1400extra."
+            },
+            {
+              "field": "capacity_max",
+              "value": 150,
+              "basis": "Currentoffermaximumstanding150;notdinnerdance."
+            },
+            {
+              "field": "capacity_seated",
+              "value": 140,
+              "basis": "Legacy/Victorianseated140;Heritage70."
+            },
+            {
+              "field": "rental_hours",
+              "value": 8,
+              "basis": "Up toeightconsecutivehoursincluding setup/breakdown."
+            },
+            {
+              "field": "overtime_hourly",
+              "value": 350,
+              "basis": "Overtimecharge;doesnotwaiveendtime."
+            }
+          ],
+          "notes": "Exclusivebooking/production throughGregangeloMuseum. Events end22:00weekdays/23:00FriSat,Sundaybasisneedsconfirmation. December1400surcharge;extra guest75basisunspecified;bridalsuite500;extra2staff1000/day. Currentquotes/catering/bar/taxUnknown; preserve conflictingolderfacts."
+        },
+        {
+          "action": "add",
+          "name": "The Contemporary Jewish Museum",
+          "url": "https://www.thecjm.org/rent_the_museum",
+          "city": "San Francisco",
+          "county": "San Francisco",
+          "address": "736 Mission Street, San Francisco, CA 94103",
+          "category": "Museum / wedding venue",
+          "wedding": "advertised",
+          "facts": [
+            {
+              "field": "outside_catering",
+              "value": "conditional",
+              "basis": "Approvedlist;unapprovedreviewedcasebycaseandmayincurtrainingfees."
+            }
+          ],
+          "notes": "Museumpublicclosure doesnotcloseeventrentals. DatedMarch18,2026release says bookingscontinue throughJan2027; availabilityafterthatUnknown. Building intendedforsale, no askingvalue/closedsaleasserted. Brochure/currentcapacity/fees pending."
+        },
+        {
+          "action": "existing",
+          "name": "DeTurk Round Barn",
+          "record_ids": [
+            "deturk-round-barn-santa-rosa"
+          ],
+          "reason": "Stillnotadvertisedasbookableweddingrental. CityleaseRFP advertisedas-is,tenantmaintenance/utility/improvements;proposalsdueJune22,2026past. Currentaward/leaseavailabilityUnknown;notopenopportunityclaimed."
+        }
+      ],
+      "critique": "Public museum closure is not event-rental closure. A live government leasing page can carry an expired submission deadline. Bookingpartner changes invalidate old outreach routing.",
+      "method_change": "Check currentofficial rental body and datedrelease alongside closure; evaluate deadline versus checkeddate; keep leaseopportunity,closedbusinessandbooking statuses separate.",
+      "next_test": "Independent holdout directory sample and pipeline reconciliation to test apparent coverage.",
+      "remaining": [
+        "CJM brochure and Jan2027booking horizon needtracking;nosalevaluationinvented.",
+        "Haas currententertainment/cateringfees and oldfact conflicts unresolved."
+      ],
+      "reviewed_utc": "2026-11-08T20:23:46.674705+00:00",
+      "status": "completed_scoped_search_review",
+      "exhaustive": false
+    },
+    {
+      "pass": 20,
+      "question": "Would an independent holdout directory still disprove apparent completeness, and can its numbers survive primary-source checks?",
+      "searches": [
+        "site.bayareaweddings.com/vendors/venue wedding venues",
+        "site.bayareaweddings.com wedding venue Oakley",
+        "site.bayareaweddings.com Healdsburg farm-to-table",
+        "Opened holdout roster and Brownstone officialpricing/FAQ/guidelines; checked BelleVie operatorrender"
+      ],
+      "sources": [
+        {
+          "url": "https://www.bayareaweddings.com/vendors/venue",
+          "state": "holdout roster reviewed; search158versusopened155counts differ; capture all actualprofilelinks"
+        },
+        {
+          "url": "https://www.brownstonegardens.com/details",
+          "state": "operator conditionaloutsidevendor/bar terms and linkedCanva resources reviewed"
+        },
+        {
+          "url": "https://www.brownstonegardens.com/faq",
+          "state": "operator approx200capacity/outdooronly/booking rules reviewed"
+        },
+        {
+          "url": "https://www.brownstonegardens.com/wedding-pricing",
+          "state": "pricing requires form; no unsolicited submission or hiddenasset extraction"
+        },
+        {
+          "url": "https://bellevieestate.com/",
+          "state": "webreaderJSshell only; no verifiedgeography/capacity/currentbooking"
+        }
+      ],
+      "outcomes": [
+        {
+          "action": "add",
+          "name": "Brownstone Gardens",
+          "url": "https://www.brownstonegardens.com/faq",
+          "city": "Oakley",
+          "county": "Contra Costa",
+          "address": "91 Brownstone Road, Oakley, CA 94561",
+          "category": "Outdoor garden / wedding venue",
+          "wedding": "advertised",
+          "facts": [
+            {
+              "field": "capacity_max",
+              "value": 200,
+              "basis": "Operator says approximately200; not legaloccupancy or dinner+dance guarantee; directory250not adopted."
+            },
+            {
+              "field": "outside_catering",
+              "value": "conditional",
+              "basis": "Operator explicitly links owncateringcompany requirements; exact approvalfees pending."
+            }
+          ],
+          "notes": "Outdoor-only; gettingready suites and privateparking. Preferredcaterer/barvendor, alternativecompanies subjectguidelines. Pricepamphletformgated; nofeesinvented. Finalcount21days;finalpayment2weeks; no music/endclocks established."
+        },
+        {
+          "action": "inventory",
+          "name": "BayAreaWeddings holdout venue directory",
+          "url": "https://www.bayareaweddings.com/vendors/venue",
+          "reason": "Capture actualnamedprofilelinks with pendingstate. CitylabelsSantaCruz/LosGatos don't prove ninecounty eligibility; eachaddressneedsreview."
+        },
+        {
+          "action": "pending",
+          "name": "Belle Vie Estate",
+          "url": "https://bellevieestate.com/",
+          "reason": "Candidate saysRioVista/nearOakley in indexed snippet; operatorbodyunread. County/address/currentpermission notverified; no publicvenueaddition."
+        },
+        {
+          "action": "existing",
+          "name": "Barndiva",
+          "record_ids": [
+            "barndiva-sonoma"
+          ],
+          "reason": "Namedholdout result alreadyexisting; notnewproperty."
+        }
+      ],
+      "critique": "Holdout still exposed an absent established outdoor wedding venue. Directorycapacity250 versus operatorapprox200 shows why thirdpartymaxima and fluctuatingdirectorycounts cannot establish completeness.",
+      "method_change": "Use holdout inventories and explicitnegativecontrols; close lead dispositions only after primary review, preserve source-count snapshotdifferences and gatedresources. Enforce research-first backlog before UI.",
+      "next_test": "Apply reviewedchanges, rebuild typeddata/embedded snapshot, test nofalsemidnight/dinner/cost inference, reconcile everycapturedlead and report remaining queue.",
+      "remaining": [
+        "All20scopedreviews do not establish fullBayArea census.",
+        "BrownstoneCanvaguidelines/pricinggated, BelleVieJSbody and all remainingholdoutprofiles pending.",
+        "Finalimplementation/testing/publication separate from search-review completion."
+      ],
+      "reviewed_utc": "2026-11-08T20:24:24.624856+00:00",
+      "status": "completed_scoped_search_review",
+      "exhaustive": false
+    }
+  ],
+  "limits": [
+    "Twenty scoped search reviews do not establish exhaustive geography/category coverage.",
+    "Downloaded roster profiles stay pending until actual property review.",
+    "No complete all-in venue totals invented.",
+    "Direct capture failures/robots holds and429s retained; no access bypass."
+  ],
+  "supplemental_reviews": [
+    {
+      "pass": 4,
+      "outcome": "Melody profile initially timed out in webreader; ordinary archived page was then read. Operator confirmation still pending.",
+      "source_url": "https://www.ggcatering.com/venues/the-melody-of-san-francisco"
+    },
+    {
+      "pass": 5,
+      "outcome": "Kissel current operator Gold Bug room body read; 300 reception / 200 rounds applied. Direct archive held robots; source check retained.",
+      "source_url": "https://www.hyatt.com/unbound-collection/en-US/oakub-kissel-uptown-oakland/weddings"
+    },
+    {
+      "pass": 9,
+      "outcome": "Additional-info page adds weekend fees/insurance/lodging and conflicts with timing/cancellation; conflicting clocks kept null.",
+      "source_url": "https://thedouglasbeachhouse.com/additional-information/"
+    },
+    {
+      "pass": 16,
+      "outcome": "Downloaded actual 6-page 2026 Venture PDF; all pages extracted and rendered/visually checked. Existing base fees unchanged; additional-guest and early-arrival costs added.",
+      "source_url": "https://www.ventureretreat.org/s/Wedding-Packages-2026-for-Web.pdf"
+    },
+    {
+      "pass": 18,
+      "outcome": "Fleet page claims five yachts but names four current vessel sections. Two added; Merlot/Pinot Noir remain pending detailed offers; fifth identity unknown.",
+      "source_url": "https://luxecruises.com/fleet/"
+    }
+  ]
+}

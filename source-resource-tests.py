@@ -39,4 +39,7 @@ class ResourceTests(unittest.TestCase):
  def test_room_anchors_and_accessible_labels_survive(self):
   rows=m.inventory('<h2>Facilities</h2><a href="#main" aria-label="Main Hall"></a><a href="#side">Side Room</a><a href="#" data-href="/fees.pdf" title="Rental fees"></a>','https://city.example/rentals')
   self.assertEqual(len(rows),3);self.assertEqual(rows[0]['url'],'https://city.example/rentals#main');self.assertEqual(rows[1]['url'],'https://city.example/rentals#side');self.assertEqual(rows[2]['kind'],'pdf_document')
+ def test_unvalued_accessibility_attributes_do_not_drop_brochures(self):
+  rows=m.inventory('<h2>Wedding Information</h2><a href="/fees.pdf" title><img alt>Download pricing</a><button data-url="/floor-plan.pdf" aria-label title>View floor plan</button>','https://venue.example/')
+  self.assertEqual([x['url'] for x in rows],['https://venue.example/fees.pdf','https://venue.example/floor-plan.pdf'])
 if __name__=='__main__':unittest.main()

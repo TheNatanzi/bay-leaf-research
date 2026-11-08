@@ -1,11 +1,12 @@
 {
-  "candidate_urls": 358,
-  "resolved_candidate_urls": 6,
-  "unresolved_candidate_urls": 352,
+  "candidate_urls": 580,
+  "resolved_candidate_urls": 42,
+  "unresolved_candidate_urls": 538,
   "review_counts": {
-    "pending": 352,
-    "reviewed_existing": 2,
-    "reviewed_added": 4
+    "pending": 538,
+    "reviewed_existing": 7,
+    "reviewed_added": 32,
+    "excluded": 3
   },
   "complete": false,
   "scope_note": "Candidate-queue resolution only; even zero unresolved leads does not establish all venues discovered. Room counts and source downloads are not property coverage.",
@@ -69,8 +70,10 @@
       "candidate_id": "directory-lead-71e6741fdfab04",
       "name": "Brownstone Gardens",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/brownstone-gardens-oakley",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "brownstone-gardens-contra-costa"
+      ]
     },
     {
       "candidate_id": "directory-lead-c5b904aec2da3d",
@@ -406,8 +409,10 @@
       "candidate_id": "directory-lead-1ea95e7e43139b",
       "name": "Mexican Heritage Plaza",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/mexican-heritage-plaza-san-jose",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "mexican-heritage-plaza-santa-clara"
+      ]
     },
     {
       "candidate_id": "directory-lead-f7a6f98417dd51",
@@ -1334,25 +1339,29 @@
       "candidate_id": "directory-lead-28c19d074bf146",
       "name": "111 Minna Gallery",
       "url": "https://www.sfuva.com/111-minna-gallery",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "111-minna-gallery-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-0ed0e297d9cfc9",
       "name": "715 Harrison Event Space",
       "url": "https://www.sfuva.com/715-harrison-event-space",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
-        "715-harrison-front-sanfrancisco",
-        "715-harrison-main-sanfrancisco"
+        "715-harrison-main-sanfrancisco",
+        "715-harrison-front-sanfrancisco"
       ]
     },
     {
       "candidate_id": "directory-lead-249311ae665b04",
       "name": "Amador Club",
       "url": "https://www.sfuva.com/amador-club",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "amador-club-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-840ca5847c5193",
@@ -1386,8 +1395,10 @@
       "candidate_id": "directory-lead-8f808b19346893",
       "name": "The Avalon",
       "url": "https://www.sfuva.com/the-avalon",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "the-avalon-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-5562bcf7e6a1be",
@@ -1487,8 +1498,10 @@
       "candidate_id": "directory-lead-826cbf0325b233",
       "name": "The Contemporary Jewish Museum",
       "url": "https://www.sfuva.com/the-contemporary-jewish-museum",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "the-contemporary-jewish-museum-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-1a6f7b5b4aba0f",
@@ -1894,7 +1907,7 @@
       "candidate_id": "directory-lead-52d2bb3691fbbe",
       "name": "Barndiva",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/barndiva/",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "barndiva-sonoma"
       ]
@@ -2830,6 +2843,1611 @@
       "record_ids": [
         "the-lodge-at-bodega-bay-sonoma"
       ]
+    },
+    {
+      "candidate_id": "directory-lead-54fd7632f989a0",
+      "name": "111 Minna Gallery",
+      "url": "https://111minnagallery.com/event-space/wedding-party-venue/",
+      "state": "reviewed_added",
+      "record_ids": [
+        "111-minna-gallery-san-francisco"
+      ]
+    },
+    {
+      "candidate_id": "directory-lead-65eacc5b8e059e",
+      "name": "Amador Club",
+      "url": "https://amadorclub.com/private-events-2/",
+      "state": "reviewed_added",
+      "record_ids": [
+        "amador-club-san-francisco"
+      ]
+    },
+    {
+      "candidate_id": "directory-lead-5fd923122fdc9d",
+      "name": "The Avalon",
+      "url": "https://www.theavalonsf.com/event-spaces",
+      "state": "reviewed_added",
+      "record_ids": [
+        "the-avalon-san-francisco"
+      ]
+    },
+    {
+      "candidate_id": "directory-lead-5ad40a65631586",
+      "name": "Storek",
+      "url": "https://www.ggcatering.com/venues/storek",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-c8d0a5f194e108",
+      "name": "The Melody of San Francisco",
+      "url": "https://www.ggcatering.com/venues/the-melody-of-san-francisco",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-a271442e322fed",
+      "name": "Bombera",
+      "url": "https://www.bomberaoakland.com/events",
+      "state": "reviewed_added",
+      "record_ids": [
+        "bombera-alameda"
+      ]
+    },
+    {
+      "candidate_id": "directory-lead-6eb3b9ba9fe543",
+      "name": "Kissel Uptown Oakland",
+      "url": "https://www.hyatt.com/unbound-collection/en-US/oakub-kissel-uptown-oakland/weddings",
+      "state": "reviewed_added",
+      "record_ids": [
+        "kissel-uptown-oakland-gold-bug-ballroom-alameda"
+      ]
+    },
+    {
+      "candidate_id": "directory-lead-d731240a8622d4",
+      "name": "Blackhawk Country Club",
+      "url": "https://www.blackhawkcc.org/event",
+      "state": "reviewed_added",
+      "record_ids": [
+        "blackhawk-country-club-contra-costa"
+      ]
+    },
+    {
+      "candidate_id": "directory-lead-84438a05e1cb7d",
+      "name": "Concord Historical Society / Heritage Center / Galindo grounds",
+      "url": "https://concordhistorical.org/",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-ffae97548b0fac",
+      "name": "Concord Massachusetts tourism venues",
+      "url": "https://visitconcord.org/weddings-and-special-events/venues/",
+      "state": "excluded",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-c6a9f52a0214f7",
+      "name": "The Veranda fountain plaza",
+      "url": "https://www.visitconcordca.com/meetings/outdoor-venues/",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-4dd1223d72ba0f",
+      "name": "West Point Inn",
+      "url": "https://www.westpointinn.com/policies",
+      "state": "excluded",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-d09624fafb9379",
+      "name": "Del Dotto winery locations",
+      "url": "https://www.deldottovineyards.com/store/frequently-asked-questions/",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-08ef2e507c0ec9",
+      "name": "The Douglas Beach House",
+      "url": "https://thedouglasbeachhouse.com/weddings/",
+      "state": "reviewed_added",
+      "record_ids": [
+        "the-douglas-beach-house-san-mateo"
+      ]
+    },
+    {
+      "candidate_id": "directory-lead-eaf1a9e2255f1c",
+      "name": "Mexican Heritage Plaza",
+      "url": "https://mhplaza.org/rent-la-plaza",
+      "state": "reviewed_added",
+      "record_ids": [
+        "mexican-heritage-plaza-santa-clara"
+      ]
+    },
+    {
+      "candidate_id": "directory-lead-b9b2247b55b0fe",
+      "name": "The Madrona",
+      "url": "https://themadronahotel.com/faqs/",
+      "state": "reviewed_added",
+      "record_ids": [
+        "the-madrona-sonoma"
+      ]
+    },
+    {
+      "candidate_id": "directory-lead-280ca474aba033",
+      "name": "The Madrones / The Brambles",
+      "url": "https://www.themadrones.com/weddings-2",
+      "state": "excluded",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-7475788529a292",
+      "name": "GGNRA Building 989 — Crissy Field",
+      "url": "https://www.nps.gov/goga/getinvolved/short-term-lease-event-rental-space.htm",
+      "state": "reviewed_added",
+      "record_ids": [
+        "ggnra-building-1050-fort-cronkhite-marin"
+      ]
+    },
+    {
+      "candidate_id": "directory-lead-cf9a48f2be8a85",
+      "name": "NIDO's BackYard",
+      "url": "https://www.nidooakland.com/parties",
+      "state": "reviewed_added",
+      "record_ids": [
+        "nido-s-backyard-alameda"
+      ]
+    },
+    {
+      "candidate_id": "directory-lead-4dcde623d28102",
+      "name": "Grand Lake Kitchen — Dimond",
+      "url": "https://www.grandlakekitchen.com/private-events/",
+      "state": "reviewed_added",
+      "record_ids": [
+        "grand-lake-kitchen-lake-merritt-alameda"
+      ]
+    },
+    {
+      "candidate_id": "directory-lead-07ef2d829bf3dc",
+      "name": "Pie Ranch — Full Lower Slice",
+      "url": "https://www.pieranch.org/site-rentals-and-weddings",
+      "state": "reviewed_added",
+      "record_ids": [
+        "pie-ranch-full-lower-slice-san-mateo"
+      ]
+    },
+    {
+      "candidate_id": "directory-lead-8ac71c65008a29",
+      "name": "Swedenborgian Church of San Francisco",
+      "url": "https://sfwedding.org/weddings/faq/",
+      "state": "reviewed_added",
+      "record_ids": [
+        "swedenborgian-church-of-san-francisco-san-francisco"
+      ]
+    },
+    {
+      "candidate_id": "directory-lead-bd43596f7bf5d3",
+      "name": "Golden Gate Yacht Club",
+      "url": "https://ggyc.com/san-francisco-waterfront-wedding-venue",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-83524d1e003acf",
+      "name": "Luxe Cruises & Events — Cabernet Sauvignon",
+      "url": "https://luxecruises.com/fleet/",
+      "state": "reviewed_added",
+      "record_ids": [
+        "luxe-cruises-events-fume-blanc-alameda"
+      ]
+    },
+    {
+      "candidate_id": "directory-lead-3700e44168c5e8",
+      "name": "The Contemporary Jewish Museum",
+      "url": "https://www.thecjm.org/rent_the_museum",
+      "state": "reviewed_added",
+      "record_ids": [
+        "the-contemporary-jewish-museum-san-francisco"
+      ]
+    },
+    {
+      "candidate_id": "directory-lead-e09e4d9804b8ff",
+      "name": "Brownstone Gardens",
+      "url": "https://www.brownstonegardens.com/faq",
+      "state": "reviewed_added",
+      "record_ids": [
+        "brownstone-gardens-contra-costa"
+      ]
+    },
+    {
+      "candidate_id": "directory-lead-f0b50c3d57f587",
+      "name": "Belle Vie Estate",
+      "url": "https://bellevieestate.com/",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-b3965d4af04950",
+      "name": "620 Jones",
+      "url": "https://www.ggcatering.com/venues/620-jones",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-708266ab5aeaea",
+      "name": "Above the Rim",
+      "url": "https://www.ggcatering.com/venues/above-the-rim",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-5f513d1e21e369",
+      "name": "Asian Art Museum",
+      "url": "https://www.ggcatering.com/venues/asian-art-museum",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-0b37ad0df2dfa3",
+      "name": "Atlas Union Square",
+      "url": "https://www.ggcatering.com/venues/atlas-union-square",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-cc37bf6b285ee5",
+      "name": "Bill Graham Civic Auditorium",
+      "url": "https://www.ggcatering.com/venues/bill-graham-civic-auditorium",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-fa36632f986d06",
+      "name": "Bimbo's 365 Club",
+      "url": "https://www.ggcatering.com/venues/bimbos-365-club",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-d558e0538796e2",
+      "name": "California Academy of Sciences",
+      "url": "https://www.ggcatering.com/venues/california-academy-of-sciences",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-1929392516a554",
+      "name": "Contemporary Jewish Musuem",
+      "url": "https://www.ggcatering.com/venues/contemporary-jewish-musuem",
+      "state": "reviewed_added",
+      "record_ids": [
+        "the-contemporary-jewish-museum-san-francisco"
+      ]
+    },
+    {
+      "candidate_id": "directory-lead-60642bedf2a707",
+      "name": "de Young Museum",
+      "url": "https://www.ggcatering.com/venues/de-young-museum",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-1faa96630efed1",
+      "name": "Exploratorium",
+      "url": "https://www.ggcatering.com/venues/exploratorium",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-2d6a830bc12789",
+      "name": "Ferry Building",
+      "url": "https://www.ggcatering.com/venues/ferry-building",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-dc9b2f5f9b73ed",
+      "name": "Flood Mansion",
+      "url": "https://www.ggcatering.com/venues/flood-mansion",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-1c36355a07664a",
+      "name": "Fort Mason",
+      "url": "https://www.ggcatering.com/venues/fort-mason",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-15a3c24c214962",
+      "name": "Legion of Honor",
+      "url": "https://www.ggcatering.com/venues/legion-of-honor",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-1e0ab4c3fbac80",
+      "name": "Mission Rock’s China Basin Park",
+      "url": "https://www.ggcatering.com/venues/mission-rocks-china-basin-park",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-2936747ac44de9",
+      "name": "Palace of Fine Arts",
+      "url": "https://www.ggcatering.com/venues/palace-of-fine-arts",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-c42ddc5223ae73",
+      "name": "Pier 27",
+      "url": "https://www.ggcatering.com/venues/pier-27",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-6e0ce06a222625",
+      "name": "Pier 35",
+      "url": "https://www.ggcatering.com/venues/pier-35",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-14513ad0852b5d",
+      "name": "Pier 48",
+      "url": "https://www.ggcatering.com/venues/pier-48",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-0156b930a0816a",
+      "name": "San Francisco City Hall",
+      "url": "https://www.ggcatering.com/venues/san-francisco-city-hall",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-e3b8594952f763",
+      "name": "San Francisco Design Center Galleria",
+      "url": "https://www.ggcatering.com/venues/galleria",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-8291302cc99fe9",
+      "name": "SF Masonic",
+      "url": "https://www.ggcatering.com/venues/sf-masonic",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-d67d1997ba3cae",
+      "name": "SF MOMA",
+      "url": "https://www.ggcatering.com/venues/sf-moma",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-6f664174c5c90b",
+      "name": "SFJAZZ",
+      "url": "https://www.ggcatering.com/venues/sfjazz",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-1b514b2d607bf5",
+      "name": "Shed A at Pier 80",
+      "url": "https://www.ggcatering.com/venues/shed-a-at-pier-80",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-e48555acefc283",
+      "name": "SVN West",
+      "url": "https://www.ggcatering.com/venues/svn-west",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-9c2336bb447e41",
+      "name": "Terra Gallery",
+      "url": "https://www.ggcatering.com/venues/terra-gallery",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-0716e00ad4952d",
+      "name": "The Avalon",
+      "url": "https://www.ggcatering.com/venues/the-avalon",
+      "state": "reviewed_added",
+      "record_ids": [
+        "the-avalon-san-francisco"
+      ]
+    },
+    {
+      "candidate_id": "directory-lead-cba61e16dd5837",
+      "name": "The Conservatory at One Sansome",
+      "url": "https://www.ggcatering.com/venues/the-conservatory-at-one-sansome",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "conservatory-at-one-sansome-san-francisco",
+        "conservatory-at-one-sansome-san-francisco-atrium"
+      ]
+    },
+    {
+      "candidate_id": "directory-lead-9c78e009ed38d6",
+      "name": "The Fillmore",
+      "url": "https://www.ggcatering.com/venues/the-fillmore",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-786bdd5d1b3524",
+      "name": "The Hibernia",
+      "url": "https://www.ggcatering.com/venues/the-hibernia",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "the-hibernia-san-francisco"
+      ]
+    },
+    {
+      "candidate_id": "directory-lead-148082b8723766",
+      "name": "The Midway",
+      "url": "https://www.ggcatering.com/venues/the-midway",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-c502ae9cb9488d",
+      "name": "The Pearl",
+      "url": "https://www.ggcatering.com/venues/the-pearl",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-52d0ed679ce38d",
+      "name": "The Regency Center",
+      "url": "https://www.ggcatering.com/venues/the-regency-center",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-44b94f7c9e70b2",
+      "name": "The San Francisco Mint",
+      "url": "https://www.ggcatering.com/venues/the-san-francisco-mint",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-de20c8928fd688",
+      "name": "Yerba Buena Center for the Arts",
+      "url": "https://www.ggcatering.com/venues/yerba-buena-center-for-the-arts",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-66d3892ff666e6",
+      "name": "Yerba Buena Gardens",
+      "url": "https://www.ggcatering.com/venues/yerba-buena-gardens",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-aefa4df6de4c59",
+      "name": "Gather Walnut Creek",
+      "url": "https://www.bayareaweddings.com/vendor/gather-walnut-creek",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-1dfcd32f715bf4",
+      "name": "Petaluma Woman's Club",
+      "url": "https://www.bayareaweddings.com/vendor/petaluma-womans-club",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-36133f882d74ed",
+      "name": "Brazilian Room",
+      "url": "https://www.bayareaweddings.com/vendor/brazilian-room",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-2c6d047ce4f1ef",
+      "name": "Cline Family Cellars",
+      "url": "https://www.bayareaweddings.com/vendor/cline-family-cellars",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-57bd35a36dda5e",
+      "name": "Merryvale Vineyards",
+      "url": "https://www.bayareaweddings.com/vendor/merryvale-vineyards",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-bae287a3e6c61e",
+      "name": "AC SAN JOSE SANTA CLARA  & AC SUNNYVALE CUPERTINO",
+      "url": "https://www.bayareaweddings.com/vendor/ac-san-jose-santa-clara-ac-sunnyvale-cupertino",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-ea3a64b677ac6a",
+      "name": "Arya Event Center",
+      "url": "https://www.bayareaweddings.com/vendor/arya-event-center",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-63e4ae989d62dc",
+      "name": "Avéline",
+      "url": "https://www.bayareaweddings.com/vendor/avline",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-da8fc6104903be",
+      "name": "Bally Keal Estate",
+      "url": "https://www.bayareaweddings.com/vendor/bally-keal-estate",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-cc39a94f49dda6",
+      "name": "Banshee Winery",
+      "url": "https://www.bayareaweddings.com/vendor/vendor-banshee-winery",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-ab3add029d2b76",
+      "name": "Barndiva",
+      "url": "https://www.bayareaweddings.com/vendor/barndiva",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-7321434c7f0e6e",
+      "name": "Bees N Blooms",
+      "url": "https://www.bayareaweddings.com/vendor/bees-n-blooms",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-d0cae21cb896b4",
+      "name": "Berkeley Country Club",
+      "url": "https://www.bayareaweddings.com/vendor/berkeley-country-club",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-d84a2dfa422108",
+      "name": "Blake Garden",
+      "url": "https://www.bayareaweddings.com/vendor/blake-garden",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-cd57efcd53d5ea",
+      "name": "Brindare Napa Valley",
+      "url": "https://www.bayareaweddings.com/vendor/brindare-napa-valley",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-f1af8ff4b19741",
+      "name": "Brownstone Gardens",
+      "url": "https://www.bayareaweddings.com/vendor/brownstone-gardens",
+      "state": "reviewed_added",
+      "record_ids": [
+        "brownstone-gardens-contra-costa"
+      ]
+    },
+    {
+      "candidate_id": "directory-lead-d051b4ed8619e7",
+      "name": "Burrell School Vineyards & Winery",
+      "url": "https://www.bayareaweddings.com/vendor/burrell-school-vineyards-winery",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-26aa8e3647c522",
+      "name": "Canyon View Event Center",
+      "url": "https://www.bayareaweddings.com/vendor/canyon-view-event-center",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-df17334733348f",
+      "name": "Capers Loft",
+      "url": "https://www.bayareaweddings.com/vendor/capers-loft",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-313a047ba45288",
+      "name": "Deer Park Villa",
+      "url": "https://www.bayareaweddings.com/vendor/vendor-deer-park-villa",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-0d4b90bbca9f55",
+      "name": "Eagle Ridge by Wedgewood Weddings",
+      "url": "https://www.bayareaweddings.com/vendor/eagle-ridge-by-wedgewood-weddings",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-e5a7ce81b5cc76",
+      "name": "Eagle Vines Vineyards and Golf Club",
+      "url": "https://www.bayareaweddings.com/vendor/vendor-eagle-vines-vineyards-and-golf-club",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-2b144b2c654599",
+      "name": "Ellington Events",
+      "url": "https://www.bayareaweddings.com/vendor/ellington-events",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-1f204018363aae",
+      "name": "Fairmont San Francisco",
+      "url": "https://www.bayareaweddings.com/vendor/fairmont-san-francisco",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-1ca42711aaf154",
+      "name": "Farmhouse Inn",
+      "url": "https://www.bayareaweddings.com/vendor/farmhouse-inn",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-6894ef5926c3d3",
+      "name": "Flying Cloud Farm",
+      "url": "https://www.bayareaweddings.com/vendor/flying-cloud-farm",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-57b7e70fcd304f",
+      "name": "Forage Kitchen Events",
+      "url": "https://www.bayareaweddings.com/vendor/forage-kitchen-events",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-9e0e1c80b2440e",
+      "name": "Hacienda de las Flores by Wedgewood Weddings",
+      "url": "https://www.bayareaweddings.com/vendor/hacienda-de-las-flores-by-wedgewood-weddings",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-18f77f09e3a9fd",
+      "name": "Half Moon Bay Lodge",
+      "url": "https://www.bayareaweddings.com/vendor/half-moon-bay-lodge",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-006f8c5af3b114",
+      "name": "Hall of the Above",
+      "url": "https://www.bayareaweddings.com/vendor/hall-of-the-above",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-abb406ae4cdb22",
+      "name": "Hennessey Estate",
+      "url": "https://www.bayareaweddings.com/vendor/hennessey-estate",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-55688f1c6d5488",
+      "name": "Hiddenbrooke Hills by Wedgewood Weddings",
+      "url": "https://www.bayareaweddings.com/vendor/hiddenbrooke-hills-by-wedgewood-weddings",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-9221ea9ad1d6bd",
+      "name": "Jefferson Street Mansion by Wedgewood Weddings",
+      "url": "https://www.bayareaweddings.com/vendor/jefferson-street-mansion-by-wedgewood-weddings",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-8eff93c887bf6f",
+      "name": "Kennolyn",
+      "url": "https://www.bayareaweddings.com/vendor/kennolyn",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-42f81d9f8c797e",
+      "name": "Little Hills Events",
+      "url": "https://www.bayareaweddings.com/vendor/little-hills-events",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-6446c84dd0b055",
+      "name": "Living Well Event Center",
+      "url": "https://www.bayareaweddings.com/vendor/living-well-event-center",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-f758b00d8de6a1",
+      "name": "Log Cabin at the Presidio",
+      "url": "https://www.bayareaweddings.com/vendor/log-cabin-at-the-presidio",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-8444de0a6198cf",
+      "name": "Lone Tree Golf & Event Center",
+      "url": "https://www.bayareaweddings.com/vendor/lone-tree-golf-event-center",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-9bccd221ae016d",
+      "name": "Maple Lawn Estate",
+      "url": "https://www.bayareaweddings.com/vendor/vendor-maple-lawn-estate",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-9d9d987ec4933a",
+      "name": "Maysonnave House",
+      "url": "https://www.bayareaweddings.com/vendor/maysonnave-house",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-0bfb6af735c9ab",
+      "name": "Nella Terra Cellars",
+      "url": "https://www.bayareaweddings.com/vendor/nella-terra-cellars",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-f0da45c25eb61d",
+      "name": "Olympia's Valley",
+      "url": "https://www.bayareaweddings.com/vendor/vendor-olympia-s-valley",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-a03bcbb028c1fd",
+      "name": "PHOENIX Alameda",
+      "url": "https://www.bayareaweddings.com/vendor/phoenix-alameda",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-6f7aa12b53ff8e",
+      "name": "Palm Event Center in the Vineyard",
+      "url": "https://www.bayareaweddings.com/vendor/palm-event-center-in-the-vineyard",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-e17a806b863e9a",
+      "name": "Palm Tree Weddings & Events",
+      "url": "https://www.bayareaweddings.com/vendor/palm-tree-weddings-events",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-aad94aa9bc83e6",
+      "name": "Pardee Home Museum",
+      "url": "https://www.bayareaweddings.com/vendor/pardee-home-museum",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-013f7a36c011d9",
+      "name": "Point San Pablo Harbor",
+      "url": "https://www.bayareaweddings.com/vendor/point-san-pablo-harbor",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-bb05665d391fb9",
+      "name": "Presidio Golf Course & Clubhouse",
+      "url": "https://www.bayareaweddings.com/vendor/presidio-golf-course-clubhouse",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-1c3eb58717dd94",
+      "name": "Redwood Canyon by Wedgewood Weddings",
+      "url": "https://www.bayareaweddings.com/vendor/redwood-canyon-by-wedgewood-weddings",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-c5a640bfb2f988",
+      "name": "Rosewood Events",
+      "url": "https://www.bayareaweddings.com/vendor/rosewood-events",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-01fdf40334ef10",
+      "name": "SF Botanical Garden Redwood Grove",
+      "url": "https://www.bayareaweddings.com/vendor/vendor-sf-botanical-garden-redwood-grove",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-8194452a67dac1",
+      "name": "Sam's Chowder House",
+      "url": "https://www.bayareaweddings.com/vendor/sams-chowder-house",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-4373d5246757d9",
+      "name": "San Benito House",
+      "url": "https://www.bayareaweddings.com/vendor/san-benito-house",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-4cc37d3d23dc22",
+      "name": "San Francisco Airport Marriott Waterfront",
+      "url": "https://www.bayareaweddings.com/vendor/san-francisco-airport-marriott-waterfront",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-b200357d7b7f64",
+      "name": "San Mateo Garden Center",
+      "url": "https://www.bayareaweddings.com/vendor/san-mateo-garden-center",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-401f0b67202ec7",
+      "name": "San Ramon Waters by Wedgewood Weddings",
+      "url": "https://www.bayareaweddings.com/vendor/san-ramon-waters-by-wedgewood-weddings",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-5cd69435bba421",
+      "name": "Saratoga Foothill Club",
+      "url": "https://www.bayareaweddings.com/vendor/saratoga-foothill-club",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-64a8b78764a791",
+      "name": "Seacliff Inn Aptos",
+      "url": "https://www.bayareaweddings.com/vendor/seacliff-inn-aptos",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-a9a3a39463a5fa",
+      "name": "Seven Branches Venue and Inn",
+      "url": "https://www.bayareaweddings.com/vendor/seven-branches-venue-and-inn",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-a52744c3ae20ad",
+      "name": "Skyview Marin",
+      "url": "https://www.bayareaweddings.com/vendor/skyview-marin",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-7cb7d0eb48e6aa",
+      "name": "Sonoma Stonehouse",
+      "url": "https://www.bayareaweddings.com/vendor/sonoma-stonehouse",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-d98c46858707d0",
+      "name": "The Bridges Golf Club",
+      "url": "https://www.bayareaweddings.com/vendor/the-bridges-golf-club",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-95574d068ff75f",
+      "name": "The Douglas Beach House",
+      "url": "https://www.bayareaweddings.com/vendor/the-douglas-beach-house",
+      "state": "reviewed_added",
+      "record_ids": [
+        "the-douglas-beach-house-san-mateo"
+      ]
+    },
+    {
+      "candidate_id": "directory-lead-d8432c992c2284",
+      "name": "The Hollins House",
+      "url": "https://www.bayareaweddings.com/vendor/the-hollins-house",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-79bc29f8c392d4",
+      "name": "The Lighthouse at Glen Cove Marina",
+      "url": "https://www.bayareaweddings.com/vendor/the-lighthouse-at-glen-cove-marina",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-6eedbc73971a83",
+      "name": "The Lodge at Sonoma",
+      "url": "https://www.bayareaweddings.com/vendor/the-lodge-at-sonoma",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-23663960821378",
+      "name": "The Lodge at Tiburon",
+      "url": "https://www.bayareaweddings.com/vendor/the-lodge-at-tiburon",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-4593d448db1dee",
+      "name": "The Madrona",
+      "url": "https://www.bayareaweddings.com/vendor/the-madrona",
+      "state": "reviewed_added",
+      "record_ids": [
+        "the-madrona-sonoma"
+      ]
+    },
+    {
+      "candidate_id": "directory-lead-08c566c2e8110f",
+      "name": "The Namak",
+      "url": "https://www.bayareaweddings.com/vendor/the-namak",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-2245a4ea1013de",
+      "name": "The Palace Hotel San Francisco",
+      "url": "https://www.bayareaweddings.com/vendor/the-palace-hotel-san-francisco",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-4a5734b6e9dd28",
+      "name": "The Purple Orchid Wine Country Resort & Spa",
+      "url": "https://www.bayareaweddings.com/vendor/the-purple-orchid-wine-country-resort-spa",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-6892c75cce5029",
+      "name": "The Saturday Afternoon Club",
+      "url": "https://www.bayareaweddings.com/vendor/the-saturday-afternoon-club",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-24a45d1fc393d9",
+      "name": "The St. Regis San Francisco",
+      "url": "https://www.bayareaweddings.com/vendor/the-st-regis-san-francisco",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-5af730c05bd2ac",
+      "name": "The Terrace at UUCB",
+      "url": "https://www.bayareaweddings.com/vendor/the-terrace-at-uucb",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-34cde5277b2e42",
+      "name": "Viansa Winery",
+      "url": "https://www.bayareaweddings.com/vendor/viansa-winery",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-ec045d0efb63b3",
+      "name": "Waterfall Lodge & Retreat",
+      "url": "https://www.bayareaweddings.com/vendor/waterfall-lodge-retreat",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-5a04db85865b9d",
+      "name": "Wente Vineyards",
+      "url": "https://www.bayareaweddings.com/vendor/wente-vineyards",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-02903d40ce7f32",
+      "name": "Alila Napa Valley",
+      "url": "https://www.bayareaweddings.com/vendor/alila-napa-valley",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-b768a8e8a1439c",
+      "name": "Allied Arts Guild",
+      "url": "https://www.bayareaweddings.com/vendor/allied-arts-guild",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-e55e64a1e64d29",
+      "name": "Asian Art Museum",
+      "url": "https://www.bayareaweddings.com/vendor/asian-art-museum",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-4c308d4fa7cb3b",
+      "name": "Auberge du Soleil",
+      "url": "https://www.bayareaweddings.com/vendor/auberge-du-soleil",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-6c29c0e0820b00",
+      "name": "BLOC15",
+      "url": "https://www.bayareaweddings.com/vendor/bloc15",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-e386fdc916ce72",
+      "name": "Bardessono Hotel & Spa",
+      "url": "https://www.bayareaweddings.com/vendor/bardessono-hotel-spa",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-343e19fdf5da06",
+      "name": "Beaulieu Garden",
+      "url": "https://www.bayareaweddings.com/vendor/beaulieu-garden",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-d2dfa9fa497437",
+      "name": "Beringer Vineyards",
+      "url": "https://www.bayareaweddings.com/vendor/beringer-vineyards",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-cbcee39c84f8a0",
+      "name": "Berkeley City Club",
+      "url": "https://www.bayareaweddings.com/vendor/berkeley-city-club",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-1831095be797db",
+      "name": "Bimbo's 365 Club",
+      "url": "https://www.bayareaweddings.com/vendor/bimbos-365-club",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-b920dd301b25a2",
+      "name": "Boulder Ridge by Wedgewood Weddings",
+      "url": "https://www.bayareaweddings.com/vendor/boulder-ridge-by-wedgewood-weddings",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-5e6e7df992af1c",
+      "name": "CIA at Copia",
+      "url": "https://www.bayareaweddings.com/vendor/cia-at-copia",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-eb0e4e553d7fa5",
+      "name": "Cafe Wisteria",
+      "url": "https://www.bayareaweddings.com/vendor/cafe-wisteria",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-5feed69b33a3c3",
+      "name": "Camron-Stanford House",
+      "url": "https://www.bayareaweddings.com/vendor/camron-stanford-house",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-79ab160d4e7112",
+      "name": "Carneros Resort and Spa",
+      "url": "https://www.bayareaweddings.com/vendor/carneros-resort-and-spa",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-edbecb710f4c8c",
+      "name": "Cavallo Point Lodge",
+      "url": "https://www.bayareaweddings.com/vendor/cavallo-point-lodge",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-e656ac160b7c5e",
+      "name": "Chabot Space & Science Center",
+      "url": "https://www.bayareaweddings.com/vendor/chabot-space-science-center",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-5e33af733c5c47",
+      "name": "Charles Krug Winery",
+      "url": "https://www.bayareaweddings.com/vendor/charles-krug-winery",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-85fff3a03bb547",
+      "name": "Children's Fairyland",
+      "url": "https://www.bayareaweddings.com/vendor/childrens-fairyland",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-28ae207a5dc447",
+      "name": "City Cruises San Francisco",
+      "url": "https://www.bayareaweddings.com/vendor/city-cruises-san-francisco",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-da61c16b259be0",
+      "name": "Concannon Vineyard",
+      "url": "https://www.bayareaweddings.com/vendor/concannon-vineyard",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-2cf57cb4b9ed30",
+      "name": "Cornerstone Sonoma",
+      "url": "https://www.bayareaweddings.com/vendor/cornerstone-sonoma",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-3634b0d57c015c",
+      "name": "Dunsmuir Hellman Historic Estate",
+      "url": "https://www.bayareaweddings.com/vendor/dunsmuir-hellman-historic-estate",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-74a61f03f82e62",
+      "name": "Elizabeth F. Gamble Garden",
+      "url": "https://www.bayareaweddings.com/vendor/elizabeth-f-gamble-garden",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-9c2b3e4f3a884f",
+      "name": "Fairview Crystal Springs",
+      "url": "https://www.bayareaweddings.com/vendor/fairview-crystal-springs",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-5d362fa2d8488b",
+      "name": "Fairview Napa",
+      "url": "https://www.bayareaweddings.com/vendor/fairview-napa",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-df2df48fd07f5d",
+      "name": "Farmstead at Long Meadow Ranch",
+      "url": "https://www.bayareaweddings.com/vendor/farmstead-at-long-meadow-ranch",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-57c78b5c634f69",
+      "name": "Ferry Building",
+      "url": "https://www.bayareaweddings.com/vendor/ferry-building",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-b05ba710fd04f2",
+      "name": "Filoli Historic House & Garden",
+      "url": "https://www.bayareaweddings.com/vendor/filoli-historic-house-garden",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-9ce85fbbaaca41",
+      "name": "Flood Mansion",
+      "url": "https://www.bayareaweddings.com/vendor/flood-mansion",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-dfa920716c38df",
+      "name": "Fort Mason Center for Arts & Culture",
+      "url": "https://www.bayareaweddings.com/vendor/fort-mason-center-for-arts-culture",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-760c96472a03da",
+      "name": "Four One Nine",
+      "url": "https://www.bayareaweddings.com/vendor/four-one-nine",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-a94cbba0be2bcf",
+      "name": "Garden Valley Ranch",
+      "url": "https://www.bayareaweddings.com/vendor/garden-valley-ranch",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-6fc36e7f906a71",
+      "name": "Gloria Ferrer Winery",
+      "url": "https://www.bayareaweddings.com/vendor/gloria-ferrer-winery",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-9846bcda6db707",
+      "name": "Golden Gate Club",
+      "url": "https://www.bayareaweddings.com/vendor/golden-gate-club",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-e1523215715548",
+      "name": "Gundlach Bundschu Winery",
+      "url": "https://www.bayareaweddings.com/vendor/gundlach-bundschu-winery",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-2a4def4f398641",
+      "name": "Half Moon Bay Golf Links",
+      "url": "https://www.bayareaweddings.com/vendor/half-moon-bay-golf-links",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-f977b3d6949012",
+      "name": "Harvest Inn",
+      "url": "https://www.bayareaweddings.com/vendor/harvest-inn",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-ed98acd710771d",
+      "name": "Hastings House Garden Weddings",
+      "url": "https://www.bayareaweddings.com/vendor/hastings-house-garden-weddings",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-4a0d7bd84dbd8b",
+      "name": "Hotel Yountville",
+      "url": "https://www.bayareaweddings.com/vendor/hotel-yountville",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-97196e1d9598f5",
+      "name": "James Leary Flood Mansion",
+      "url": "https://www.bayareaweddings.com/vendor/james-leary-flood-mansion",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-b889d82e1eb120",
+      "name": "Julia Morgan Ballroom",
+      "url": "https://www.bayareaweddings.com/vendor/julia-morgan-ballroom",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-fafcc71843163e",
+      "name": "Kohl Mansion",
+      "url": "https://www.bayareaweddings.com/vendor/kohl-mansion",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-f3a7c71e04acbd",
+      "name": "Kunde Family Winery",
+      "url": "https://www.bayareaweddings.com/vendor/kunde-family-winery",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-51e27884a99ded",
+      "name": "Lafayette Park Hotel & Spa",
+      "url": "https://www.bayareaweddings.com/vendor/lafayette-park-hotel-spa",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-d8dd2844bbd0d8",
+      "name": "Lucie Stern Community Center",
+      "url": "https://www.bayareaweddings.com/vendor/lucie-stern-community-center",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-537910fa04b197",
+      "name": "Mavericks House",
+      "url": "https://www.bayareaweddings.com/vendor/mavericks-house",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-c4df667f965f24",
+      "name": "Meadowood Napa Valley",
+      "url": "https://www.bayareaweddings.com/vendor/meadowood-napa-valley",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-0fa8fbb1579157",
+      "name": "Meritage Resort and Spa",
+      "url": "https://www.bayareaweddings.com/vendor/meritage-resort-and-spa",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-13133484e9ccc3",
+      "name": "Mountain Winery",
+      "url": "https://www.bayareaweddings.com/vendor/mountain-winery",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-c6937f483a43b5",
+      "name": "Napa Valley Wine Train",
+      "url": "https://www.bayareaweddings.com/vendor/napa-valley-wine-train",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-fc3b4fb0a7f658",
+      "name": "Nestldown",
+      "url": "https://www.bayareaweddings.com/vendor/nestldown",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-ad5bb17e381f01",
+      "name": "Oakland Museum of California",
+      "url": "https://www.bayareaweddings.com/vendor/oakland-museum-of-california",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-7282cf2ae84859",
+      "name": "Oakland Museum of California (OMCA) Garden",
+      "url": "https://www.bayareaweddings.com/vendor/oakland-museum-of-california-omca-garden",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-893ef654fe4079",
+      "name": "Oakland Scottish Rite Center",
+      "url": "https://www.bayareaweddings.com/vendor/oakland-scottish-rite-center",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-624e4c9f7f50f1",
+      "name": "Paradise Ridge Winery",
+      "url": "https://www.bayareaweddings.com/vendor/paradise-ridge-winery",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-e0af9be9d6999d",
+      "name": "Preservation Park",
+      "url": "https://www.bayareaweddings.com/vendor/preservation-park",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-7b968da0bd8879",
+      "name": "Rengstorff House",
+      "url": "https://www.bayareaweddings.com/vendor/rengstorff-house",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-65c42a7d08686f",
+      "name": "Rosewood Sand Hill",
+      "url": "https://www.bayareaweddings.com/vendor/rosewood-sand-hill",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-06da01b6689e25",
+      "name": "San Francisco City Hall",
+      "url": "https://www.bayareaweddings.com/vendor/san-francisco-city-hall",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-f8a8eea6e9fa94",
+      "name": "Sequoyah Country Club",
+      "url": "https://www.bayareaweddings.com/vendor/sequoyah-country-club",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-7b8316324aa6ad",
+      "name": "Silverado Resort and Spa",
+      "url": "https://www.bayareaweddings.com/vendor/silverado-resort-and-spa",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-27eb3a446856b6",
+      "name": "St. Francis Winery & Vineyards",
+      "url": "https://www.bayareaweddings.com/vendor/st-francis-winery-vineyards",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-306b0244e72411",
+      "name": "Stonetree Estate",
+      "url": "https://www.bayareaweddings.com/vendor/stonetree-estate",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-92cb02443b23e6",
+      "name": "Temescal Beach House",
+      "url": "https://www.bayareaweddings.com/vendor/temescal-beach-house",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-d93772e83e6059",
+      "name": "The Barn at Harrow Cellars",
+      "url": "https://www.bayareaweddings.com/vendor/the-barn-at-harrow-cellars",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-63508313176393",
+      "name": "The Culinary Institute of America at Greystone",
+      "url": "https://www.bayareaweddings.com/vendor/the-culinary-institute-of-america-at-greystone",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-b126cd106b26ab",
+      "name": "The Estate Yountville",
+      "url": "https://www.bayareaweddings.com/vendor/the-estate-yountville",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-8c02f0f435eb43",
+      "name": "The Hibernia",
+      "url": "https://www.bayareaweddings.com/vendor/the-hibernia",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "the-hibernia-san-francisco"
+      ]
+    },
+    {
+      "candidate_id": "directory-lead-b71aa800b8991b",
+      "name": "The Meritage Resort and Spa",
+      "url": "https://www.bayareaweddings.com/vendor/the-meritage-resort-and-spa",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-47bf582415cce4",
+      "name": "The Pearl",
+      "url": "https://www.bayareaweddings.com/vendor/the-pearl",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-c58d6a2ae73699",
+      "name": "The Ritz-Carlton, Half Moon Bay",
+      "url": "https://www.bayareaweddings.com/vendor/the-ritz-carlton-half-moon-bay",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-644701debeb771",
+      "name": "The San Francisco Mint",
+      "url": "https://www.bayareaweddings.com/vendor/the-san-francisco-mint",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-b5128f2d28ff61",
+      "name": "The Terrace Room",
+      "url": "https://www.bayareaweddings.com/vendor/the-terrace-room",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-d7d03f99516ed4",
+      "name": "The Terrace Room at Lake Merritt",
+      "url": "https://www.bayareaweddings.com/vendor/the-terrace-room-at-lake-merritt",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-37d05f7f8bb968",
+      "name": "Trione Vineyards & Winery",
+      "url": "https://www.bayareaweddings.com/vendor/trione-vineyards-winery",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-c0729abe5de7c5",
+      "name": "UC Botanical Garden at Berkeley",
+      "url": "https://www.bayareaweddings.com/vendor/uc-botanical-garden-at-berkeley",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-c3324ca35033af",
+      "name": "V. Sattui Winery",
+      "url": "https://www.bayareaweddings.com/vendor/v-sattui-winery",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-2af7ea013a2858",
+      "name": "Villa Chanticleer",
+      "url": "https://www.bayareaweddings.com/vendor/villa-chanticleer",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-b51a0c74707023",
+      "name": "di Rosa Center for Contemporary Art",
+      "url": "https://www.bayareaweddings.com/vendor/di-rosa-center-for-contemporary-art",
+      "state": "pending",
+      "record_ids": []
+    },
+    {
+      "candidate_id": "directory-lead-8ad97d463795a1",
+      "name": "el PRADO",
+      "url": "https://www.bayareaweddings.com/vendor/el-prado",
+      "state": "pending",
+      "record_ids": []
     }
   ]
 }

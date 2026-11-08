@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-11-08T04:46:11.223681+00:00",
+  "updated_utc": "2026-11-08T20:29:36.220375+00:00",
   "scope": "Nine Bay Area counties; directory boundaries and nearby results require validation. Nonexhaustive source registry.",
   "sources": [
     {
@@ -317,12 +317,12 @@
       "url": "https://www.bayareaweddings.com/vendors/venue",
       "geography": "Includes Beyond the Bay and Santa Cruz; exclude out-of-scope records",
       "discovery_checked_utc": null,
-      "collection_status": "Index archived; profile collection pending",
-      "collection_method": "Public HTTP 200; original HTML, text and links saved",
-      "checked_utc": "2026-10-26T08:08:07.538707+00:00",
-      "collected_profiles": 0,
+      "collection_status": "Named profile URLs captured; individual reviews partial",
+      "collection_method": "Ordinary downloaded HTML; actual 158 unique profile paths; request-quote fragments merged",
+      "checked_utc": "2026-11-08T20:29:36.220375+00:00",
+      "collected_profiles": 158,
       "new_venue_records": 0,
-      "notes": "Single index archived; not a full directory scrape. Candidate links require profile/county/identity verification. No ratings imported from index summaries."
+      "notes": "Directory snapshots differ 155/158. Brownstone primary followup applied, Barndiva known. Remaining profiles and nine-county eligibility pending; directory Verified badges not adopted as primary verification."
     },
     {
       "id": "breezit",
@@ -1442,6 +1442,19 @@
       "new_venue_records": 3,
       "new_parent_properties": 2,
       "notes": "New records: Conservatory property, its Atrium, Hibernia property. Rooms are not separate property additions."
+    },
+    {
+      "id": "ggcatering-sf",
+      "name": "Global Gourmet — San Francisco venues",
+      "url": "https://www.ggcatering.com/venues/san-francisco",
+      "category": "Caterer partner inventory",
+      "geography": "Bay Area; exact property county verification required",
+      "checked_utc": "2026-11-08T20:29:36.220375+00:00",
+      "collection_method": "Ordinary downloaded HTML; 39 named unique venue-profile anchors; skip link excluded",
+      "collection_status": "Named profile URLs captured; individual reviews partial",
+      "collected_profiles": 39,
+      "new_venue_records": 0,
+      "notes": "Partner roster is not proof of current operator booking or wedding eligibility. Specific Avalon/Storek/Melody checks in 20-pass audit; remaining candidates pending."
     }
   ],
   "candidate_queue_url": "directory-leads.html"

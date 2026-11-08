@@ -23,6 +23,17 @@
 | Unsearched | No documented attempt for this field |
 
 A scoped audit can finish while questions remain. It does not establish exhaustive discovery or that every possible method was exhausted.
+
+## Discovery gates — reviewed November 8, 2026
+
+- Search independent source families: official tourism, venue associations, caterer/planner partners, wedding directories, government authorities, and unconventional operators. Test each county; a popular regional list is not a county inventory.
+- Every captured lead retains a dated disposition and stable identity reference. A name match suggests a review; it does not automatically finish it. Keep property identity, wedding eligibility, date availability and missing-field review separate.
+- Read the requested property body and final URL. A redirect to a roster, JavaScript shell, form gate or successful HTTP response without content is not a completed property review.
+- Compare exact address, operator and jurisdiction. Resolve city namesakes, rebrands, room combinations, mobile vessels and boarding ports without fuzzy automatic merges.
+- Treat source labels and badges as claims. Verify operator facts; record approximate counts, lower bounds, layout conflicts and source-effective dates. An expired deadline on a live page is not an active lease opportunity.
+- Canonicalize fragment-only profile links; exclude skip/navigation targets. Explicit roster collection must inspect the actual member list even when it sits in navigation; the document extractor’s navigation filter is not an inventory-completeness check.
+- Use an independent holdout roster after a search batch. Record omissions, duplicates, exclusions, blocked routes and unresolved profiles, then improve the next search. Twenty loops are evidence of twenty scoped reviews, not all venues found.
+- Research takes priority over interface changes until the outstanding research is completed or a concrete evidence/access dependency remains.
 ## Download checks
 
 - Follow the current page’s brochure, rate-sheet and policy links; do not rely only on search results or an old saved URL.

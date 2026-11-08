@@ -36,13 +36,13 @@ class ResourceParser(HTMLParser):
   if tag=='a':
    match=re.search(r'(?:window\.)?(?:open|location\.assign)\([\'\"]([^\'\"]+)',a.get('onclick','')) or re.search(r'(?:window\.)?location(?:\.href)?\s*=\s*[\'\"]([^\'\"]+)',a.get('onclick',''))
    alternate=a.get('data-url') or a.get('data-href') or (match[1] if match else None)
-   self.anchor={'url':alternate if alternate and (not a.get('href') or a.get('href')=='#') else a.get('href'),'label':[a.get('aria-label') or a.get('title','')],'rel':a.get('rel','')}
+   self.anchor={'url':alternate if alternate and (not a.get('href') or a.get('href')=='#') else a.get('href'),'label':[a.get('aria-label') or a.get('title') or ''],'rel':a.get('rel') or ''}
   if tag=='area' and a.get('href'):self.emit(a['href'],a.get('alt',''))
-  if tag=='img' and self.anchor:self.anchor['label'].append(a.get('alt',''))
+  if tag=='img' and self.anchor:self.anchor['label'].append(a.get('alt') or '')
   if tag in ('iframe','embed','object') and (a.get('src') or a.get('data')):self.emit(a.get('src') or a['data'],a.get('title',''),tag)
   if tag=='button':
    target=a.get('data-url') or a.get('data-href');match=re.search(r'(?:window\.)?(?:open|location\.assign)\([\'\"]([^\'\"]+)',a.get('onclick','')) or re.search(r'(?:window\.)?location(?:\.href)?\s*=\s*[\'\"]([^\'\"]+)',a.get('onclick',''))
-   if target or match:self.button={'url':target or match[1],'label':[a.get('aria-label') or a.get('title','')]}
+   if target or match:self.button={'url':target or match[1],'label':[a.get('aria-label') or a.get('title') or '']}
  def handle_data(self,text):
   if self.skip_depth:return
   if self.h:self.htext.append(text)
