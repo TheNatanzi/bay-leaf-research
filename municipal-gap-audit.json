@@ -1,22 +1,22 @@
 {
   "audit_id": "municipal-gap-recovery-20261107",
-  "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+  "checked_utc": "2026-11-08T07:33:04.013862+00:00",
   "summary": {
-    "reviewed_workstreams": 48,
+    "reviewed_workstreams": 50,
     "counties": 6,
-    "new_discovery_records": 176,
+    "new_discovery_records": 196,
     "existing_inventory_matches": 20,
-    "new_field_observations": 102,
-    "unstarted_workstreams": 2,
+    "new_field_observations": 117,
+    "unstarted_workstreams": 0,
     "fully_complete_municipalities": 0,
-    "total_discovery_records": 2314,
-    "new_usable_cells": 90,
-    "new_provisional_property_groups": 159,
+    "total_discovery_records": 2334,
+    "new_usable_cells": 105,
+    "new_provisional_property_groups": 166,
     "existing_groups_extended": 0,
     "attempted_workstreams": 50
   },
   "complete": false,
-  "scope": "50 previously unstarted workstreams attempted:48partial inventory reviews,2policy/guide-only attempts with actual inventories unresolved. No municipality is complete.",
+  "scope": "All50previouslyunstarted workstreams now have partial primary inventory review, including final browser portal follow-ups. No municipality or wedding-venue census certified complete.",
   "record_ids_before": [
     "deer-park-villa-fairfax",
     "palm-event-center",
@@ -2333,7 +2333,27 @@
     "sunnyvale-recreation-center-board-room-sunnyvale-santa-clara",
     "sunnyvale-recreation-center-conference-room-sunnyvale-santa-clara",
     "sunnyvale-city-hall-cottonwood-room-sunnyvale-santa-clara",
-    "sunnyvale-city-hall-cedar-room-sunnyvale-santa-clara"
+    "sunnyvale-city-hall-cedar-room-sunnyvale-santa-clara",
+    "south-hillsborough-elementary-school-classroom-standard-hillsborough-san-mateo",
+    "north-hillsborough-elementary-school-classroom-standard-hillsborough-san-mateo",
+    "crocker-middle-school-classroom-standard-hillsborough-san-mateo",
+    "west-hillsborough-elementary-and-pre-school-classroom-standard-hillsborough-san-mateo",
+    "hillsborough-recreation-collab-room-hillsborough-san-mateo",
+    "crocker-middle-school-gym-hillsborough-san-mateo",
+    "crocker-middle-school-library-hillsborough-san-mateo",
+    "west-hillsborough-elementary-and-pre-school-library-hillsborough-san-mateo",
+    "north-hillsborough-elementary-school-library-media-center-hillsborough-san-mateo",
+    "south-hillsborough-elementary-school-media-center-james-library-hillsborough-san-mateo",
+    "north-hillsborough-elementary-school-multi-purpose-room-hillsborough-san-mateo",
+    "west-hillsborough-elementary-and-pre-school-multi-purpose-room-hillsborough-san-mateo",
+    "crocker-middle-school-multi-purpose-room-hillsborough-san-mateo",
+    "south-hillsborough-elementary-school-multi-purpose-room-hillsborough-san-mateo",
+    "south-hillsborough-elementary-school-north-multi-purpose-room-hillsborough-san-mateo",
+    "vista-park-picnic-tables-hillsborough-san-mateo",
+    "los-altos-hills-town-hall-council-chambers-los-altos-hills-santa-clara",
+    "los-altos-hills-town-hall-council-chambers-conference-room-los-altos-hills-santa-clara",
+    "los-altos-hills-town-hall-duxbury-room-los-altos-hills-santa-clara",
+    "los-altos-hills-town-hall-parks-and-recreation-building-los-altos-hills-santa-clara"
   ],
   "existing_matches": [
     {
@@ -3666,6 +3686,171 @@
       "basis": "City historical narrative explicitly built1921. Current private nonresident225/hr; resident190/hr. Maintenance fee text conflicts, not complete rental total.",
       "displayed_value": 225,
       "displayed_status": "published_evidence"
+    },
+    {
+      "record_id": "south-hillsborough-elementary-school-classroom-standard-hillsborough-san-mateo",
+      "field": "capacity_max",
+      "before": null,
+      "value": 25,
+      "status": "published_evidence",
+      "source_url": "https://www.facilitron.com/hr94010",
+      "basis": "Official Hillsborough Recreation Facilitron inventory, visible card capacity. Layout unspecified; not dinner, dancing, wedding eligibility or an issued occupancy certificate.",
+      "displayed_value": 25,
+      "displayed_status": "published_evidence"
+    },
+    {
+      "record_id": "north-hillsborough-elementary-school-classroom-standard-hillsborough-san-mateo",
+      "field": "capacity_max",
+      "before": null,
+      "value": 30,
+      "status": "published_evidence",
+      "source_url": "https://www.facilitron.com/hr94010",
+      "basis": "Official Hillsborough Recreation Facilitron inventory, visible card capacity. Layout unspecified; not dinner, dancing, wedding eligibility or an issued occupancy certificate.",
+      "displayed_value": 30,
+      "displayed_status": "published_evidence"
+    },
+    {
+      "record_id": "crocker-middle-school-classroom-standard-hillsborough-san-mateo",
+      "field": "capacity_max",
+      "before": null,
+      "value": 30,
+      "status": "published_evidence",
+      "source_url": "https://www.facilitron.com/hr94010",
+      "basis": "Official Hillsborough Recreation Facilitron inventory, visible card capacity. Layout unspecified; not dinner, dancing, wedding eligibility or an issued occupancy certificate.",
+      "displayed_value": 30,
+      "displayed_status": "published_evidence"
+    },
+    {
+      "record_id": "west-hillsborough-elementary-and-pre-school-classroom-standard-hillsborough-san-mateo",
+      "field": "capacity_max",
+      "before": null,
+      "value": 30,
+      "status": "published_evidence",
+      "source_url": "https://www.facilitron.com/hr94010",
+      "basis": "Official Hillsborough Recreation Facilitron inventory, visible card capacity. Layout unspecified; not dinner, dancing, wedding eligibility or an issued occupancy certificate.",
+      "displayed_value": 30,
+      "displayed_status": "published_evidence"
+    },
+    {
+      "record_id": "hillsborough-recreation-collab-room-hillsborough-san-mateo",
+      "field": "capacity_max",
+      "before": null,
+      "value": 30,
+      "status": "published_evidence",
+      "source_url": "https://www.facilitron.com/hr94010",
+      "basis": "Official Hillsborough Recreation Facilitron inventory, visible card capacity. Layout unspecified; not dinner, dancing, wedding eligibility or an issued occupancy certificate.",
+      "displayed_value": 30,
+      "displayed_status": "published_evidence"
+    },
+    {
+      "record_id": "crocker-middle-school-gym-hillsborough-san-mateo",
+      "field": "capacity_max",
+      "before": null,
+      "value": 700,
+      "status": "published_evidence",
+      "source_url": "https://www.facilitron.com/hr94010",
+      "basis": "Official Hillsborough Recreation Facilitron inventory, visible card capacity. Layout unspecified; not dinner, dancing, wedding eligibility or an issued occupancy certificate.",
+      "displayed_value": 700,
+      "displayed_status": "published_evidence"
+    },
+    {
+      "record_id": "crocker-middle-school-library-hillsborough-san-mateo",
+      "field": "capacity_max",
+      "before": null,
+      "value": 60,
+      "status": "published_evidence",
+      "source_url": "https://www.facilitron.com/hr94010",
+      "basis": "Official Hillsborough Recreation Facilitron inventory, visible card capacity. Layout unspecified; not dinner, dancing, wedding eligibility or an issued occupancy certificate.",
+      "displayed_value": 60,
+      "displayed_status": "published_evidence"
+    },
+    {
+      "record_id": "west-hillsborough-elementary-and-pre-school-library-hillsborough-san-mateo",
+      "field": "capacity_max",
+      "before": null,
+      "value": 30,
+      "status": "published_evidence",
+      "source_url": "https://www.facilitron.com/hr94010",
+      "basis": "Official Hillsborough Recreation Facilitron inventory, visible card capacity. Layout unspecified; not dinner, dancing, wedding eligibility or an issued occupancy certificate.",
+      "displayed_value": 30,
+      "displayed_status": "published_evidence"
+    },
+    {
+      "record_id": "north-hillsborough-elementary-school-library-media-center-hillsborough-san-mateo",
+      "field": "capacity_max",
+      "before": null,
+      "value": 50,
+      "status": "published_evidence",
+      "source_url": "https://www.facilitron.com/hr94010",
+      "basis": "Official Hillsborough Recreation Facilitron inventory, visible card capacity. Layout unspecified; not dinner, dancing, wedding eligibility or an issued occupancy certificate.",
+      "displayed_value": 50,
+      "displayed_status": "published_evidence"
+    },
+    {
+      "record_id": "south-hillsborough-elementary-school-media-center-james-library-hillsborough-san-mateo",
+      "field": "capacity_max",
+      "before": null,
+      "value": 60,
+      "status": "published_evidence",
+      "source_url": "https://www.facilitron.com/hr94010",
+      "basis": "Official Hillsborough Recreation Facilitron inventory, visible card capacity. Layout unspecified; not dinner, dancing, wedding eligibility or an issued occupancy certificate.",
+      "displayed_value": 60,
+      "displayed_status": "published_evidence"
+    },
+    {
+      "record_id": "north-hillsborough-elementary-school-multi-purpose-room-hillsborough-san-mateo",
+      "field": "capacity_max",
+      "before": null,
+      "value": 502,
+      "status": "published_evidence",
+      "source_url": "https://www.facilitron.com/hr94010",
+      "basis": "Official Hillsborough Recreation Facilitron inventory, visible card capacity. Layout unspecified; not dinner, dancing, wedding eligibility or an issued occupancy certificate.",
+      "displayed_value": 502,
+      "displayed_status": "published_evidence"
+    },
+    {
+      "record_id": "west-hillsborough-elementary-and-pre-school-multi-purpose-room-hillsborough-san-mateo",
+      "field": "capacity_max",
+      "before": null,
+      "value": 344,
+      "status": "published_evidence",
+      "source_url": "https://www.facilitron.com/hr94010",
+      "basis": "Official Hillsborough Recreation Facilitron inventory, visible card capacity. Layout unspecified; not dinner, dancing, wedding eligibility or an issued occupancy certificate.",
+      "displayed_value": 344,
+      "displayed_status": "published_evidence"
+    },
+    {
+      "record_id": "crocker-middle-school-multi-purpose-room-hillsborough-san-mateo",
+      "field": "capacity_max",
+      "before": null,
+      "value": 500,
+      "status": "published_evidence",
+      "source_url": "https://www.facilitron.com/hr94010",
+      "basis": "Official Hillsborough Recreation Facilitron inventory, visible card capacity. Layout unspecified; not dinner, dancing, wedding eligibility or an issued occupancy certificate.",
+      "displayed_value": 500,
+      "displayed_status": "published_evidence"
+    },
+    {
+      "record_id": "south-hillsborough-elementary-school-multi-purpose-room-hillsborough-san-mateo",
+      "field": "capacity_max",
+      "before": null,
+      "value": 400,
+      "status": "published_evidence",
+      "source_url": "https://www.facilitron.com/hr94010",
+      "basis": "Official Hillsborough Recreation Facilitron inventory, visible card capacity. Layout unspecified; not dinner, dancing, wedding eligibility or an issued occupancy certificate.",
+      "displayed_value": 400,
+      "displayed_status": "published_evidence"
+    },
+    {
+      "record_id": "south-hillsborough-elementary-school-north-multi-purpose-room-hillsborough-san-mateo",
+      "field": "capacity_max",
+      "before": null,
+      "value": 400,
+      "status": "published_evidence",
+      "source_url": "https://www.facilitron.com/hr94010",
+      "basis": "Official Hillsborough Recreation Facilitron inventory, visible card capacity. Layout unspecified; not dinner, dancing, wedding eligibility or an issued occupancy certificate.",
+      "displayed_value": 400,
+      "displayed_status": "published_evidence"
     }
   ],
   "cases": [
@@ -4245,7 +4430,9 @@
             "value": 174,
             "status": "published_evidence",
             "source_url": "https://www.claytonca.gov/m/faq",
-            "basis": "Current official inventory maximum; layout unspecified. Not dinner-plus-dance capacity."
+            "basis": "Current official inventory maximum; layout unspecified. Not dinner-plus-dance capacity.",
+            "displayed_value": 174,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "hoyer-hall-clayton-contra-costa",
@@ -4254,7 +4441,9 @@
             "value": 110,
             "status": "published_evidence",
             "source_url": "https://www.claytonca.gov/m/faq",
-            "basis": "City FAQ lists110stackingchairs and10rectangular tables; generic occupancy174 is not inventory of seated dinner places."
+            "basis": "City FAQ lists110stackingchairs and10rectangular tables; generic occupancy174 is not inventory of seated dinner places.",
+            "displayed_value": 110,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "hoyer-hall-clayton-contra-costa",
@@ -4263,7 +4452,9 @@
             "value": 10,
             "status": "published_evidence",
             "source_url": "https://www.claytonca.gov/m/faq",
-            "basis": "City FAQ lists110stackingchairs and10rectangular tables; generic occupancy174 is not inventory of seated dinner places."
+            "basis": "City FAQ lists110stackingchairs and10rectangular tables; generic occupancy174 is not inventory of seated dinner places.",
+            "displayed_value": 10,
+            "displayed_status": "published_evidence"
           }
         ],
         "other_fields": "Unsearched unless the case findings explicitly describe a source attempt. Unknown is not zero."
@@ -4360,7 +4551,9 @@
             "value": 400,
             "status": "published_evidence",
             "source_url": "https://cityofconcord.org/650/Indoor-Spaces",
-            "basis": "Current official inventory maximum; layout unspecified. Not dinner-plus-dance capacity."
+            "basis": "Current official inventory maximum; layout unspecified. Not dinner-plus-dance capacity.",
+            "displayed_value": 400,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "concord-senior-center-concord-contra-costa",
@@ -4369,7 +4562,9 @@
             "value": "advertised",
             "status": "published_evidence",
             "source_url": "https://cityofconcord.org/650/Indoor-Spaces",
-            "basis": "Exact facility described as available for weddings in reviewed primary source."
+            "basis": "Exact facility described as available for weddings in reviewed primary source.",
+            "displayed_value": "advertised",
+            "displayed_status": "published_evidence"
           }
         ],
         "other_fields": "Unsearched unless the case findings explicitly describe a source attempt. Unknown is not zero."
@@ -4598,7 +4793,9 @@
             "value": 225,
             "status": "published_evidence",
             "source_url": "https://www.lovelafayette.org/city-hall/city-departments/parks-trails-recreation/community-center/",
-            "basis": "Current official inventory maximum; layout unspecified. Not dinner-plus-dance capacity."
+            "basis": "Current official inventory maximum; layout unspecified. Not dinner-plus-dance capacity.",
+            "displayed_value": 225,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "lafayette-community-center-jennifer-russell-building-lafayette-contra-costa",
@@ -4607,7 +4804,9 @@
             "value": 240,
             "status": "published_evidence",
             "source_url": "https://www.lovelafayette.org/city-hall/city-departments/parks-trails-recreation/community-center/",
-            "basis": "Current official inventory maximum; layout unspecified. Not dinner-plus-dance capacity."
+            "basis": "Current official inventory maximum; layout unspecified. Not dinner-plus-dance capacity.",
+            "displayed_value": 240,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "lafayette-community-center-sequoia-room-lafayette-contra-costa",
@@ -4616,7 +4815,9 @@
             "value": 50,
             "status": "published_evidence",
             "source_url": "https://www.lovelafayette.org/city-hall/city-departments/parks-trails-recreation/community-center/",
-            "basis": "Current official inventory maximum; layout unspecified. Not dinner-plus-dance capacity."
+            "basis": "Current official inventory maximum; layout unspecified. Not dinner-plus-dance capacity.",
+            "displayed_value": 50,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "lafayette-community-center-cedar-room-lafayette-contra-costa",
@@ -4625,7 +4826,9 @@
             "value": 45,
             "status": "published_evidence",
             "source_url": "https://www.lovelafayette.org/city-hall/city-departments/parks-trails-recreation/community-center/",
-            "basis": "Current official inventory maximum; layout unspecified. Not dinner-plus-dance capacity."
+            "basis": "Current official inventory maximum; layout unspecified. Not dinner-plus-dance capacity.",
+            "displayed_value": 45,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "lafayette-community-center-arts-and-crafts-room-lafayette-contra-costa",
@@ -4634,7 +4837,9 @@
             "value": 45,
             "status": "published_evidence",
             "source_url": "https://www.lovelafayette.org/city-hall/city-departments/parks-trails-recreation/community-center/",
-            "basis": "Current official inventory maximum; layout unspecified. Not dinner-plus-dance capacity."
+            "basis": "Current official inventory maximum; layout unspecified. Not dinner-plus-dance capacity.",
+            "displayed_value": 45,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "lafayette-community-center-live-oak-room-lafayette-contra-costa",
@@ -4643,7 +4848,9 @@
             "value": 350,
             "status": "published_evidence",
             "source_url": "https://www.lovelafayette.org/city-hall/city-departments/parks-trails-recreation/community-center/",
-            "basis": "Nonresident private hourly rate; resident250LiveOak/275JenniferRussell/100other. Room choice, minimums, kitchen and insurance extra."
+            "basis": "Nonresident private hourly rate; resident250LiveOak/275JenniferRussell/100other. Room choice, minimums, kitchen and insurance extra.",
+            "displayed_value": 350,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "lafayette-community-center-live-oak-room-lafayette-contra-costa",
@@ -4652,7 +4859,9 @@
             "value": 4,
             "status": "published_evidence",
             "source_url": "https://www.lovelafayette.org/city-hall/city-departments/parks-trails-recreation/community-center/",
-            "basis": "Official room rental minimum; all setup/cleanup counted."
+            "basis": "Official room rental minimum; all setup/cleanup counted.",
+            "displayed_value": 4,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "lafayette-community-center-jennifer-russell-building-lafayette-contra-costa",
@@ -4661,7 +4870,9 @@
             "value": 375,
             "status": "published_evidence",
             "source_url": "https://www.lovelafayette.org/city-hall/city-departments/parks-trails-recreation/community-center/",
-            "basis": "Nonresident private hourly rate; resident250LiveOak/275JenniferRussell/100other. Room choice, minimums, kitchen and insurance extra."
+            "basis": "Nonresident private hourly rate; resident250LiveOak/275JenniferRussell/100other. Room choice, minimums, kitchen and insurance extra.",
+            "displayed_value": 375,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "lafayette-community-center-jennifer-russell-building-lafayette-contra-costa",
@@ -4670,7 +4881,9 @@
             "value": 4,
             "status": "published_evidence",
             "source_url": "https://www.lovelafayette.org/city-hall/city-departments/parks-trails-recreation/community-center/",
-            "basis": "Official room rental minimum; all setup/cleanup counted."
+            "basis": "Official room rental minimum; all setup/cleanup counted.",
+            "displayed_value": 4,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "lafayette-community-center-sequoia-room-lafayette-contra-costa",
@@ -4679,7 +4892,9 @@
             "value": 150,
             "status": "published_evidence",
             "source_url": "https://www.lovelafayette.org/city-hall/city-departments/parks-trails-recreation/community-center/",
-            "basis": "Nonresident private hourly rate; resident250LiveOak/275JenniferRussell/100other. Room choice, minimums, kitchen and insurance extra."
+            "basis": "Nonresident private hourly rate; resident250LiveOak/275JenniferRussell/100other. Room choice, minimums, kitchen and insurance extra.",
+            "displayed_value": 150,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "lafayette-community-center-sequoia-room-lafayette-contra-costa",
@@ -4688,7 +4903,9 @@
             "value": 2,
             "status": "published_evidence",
             "source_url": "https://www.lovelafayette.org/city-hall/city-departments/parks-trails-recreation/community-center/",
-            "basis": "Official room rental minimum; all setup/cleanup counted."
+            "basis": "Official room rental minimum; all setup/cleanup counted.",
+            "displayed_value": 2,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "lafayette-community-center-cedar-room-lafayette-contra-costa",
@@ -4697,7 +4914,9 @@
             "value": 150,
             "status": "published_evidence",
             "source_url": "https://www.lovelafayette.org/city-hall/city-departments/parks-trails-recreation/community-center/",
-            "basis": "Nonresident private hourly rate; resident250LiveOak/275JenniferRussell/100other. Room choice, minimums, kitchen and insurance extra."
+            "basis": "Nonresident private hourly rate; resident250LiveOak/275JenniferRussell/100other. Room choice, minimums, kitchen and insurance extra.",
+            "displayed_value": 150,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "lafayette-community-center-cedar-room-lafayette-contra-costa",
@@ -4706,7 +4925,9 @@
             "value": 2,
             "status": "published_evidence",
             "source_url": "https://www.lovelafayette.org/city-hall/city-departments/parks-trails-recreation/community-center/",
-            "basis": "Official room rental minimum; all setup/cleanup counted."
+            "basis": "Official room rental minimum; all setup/cleanup counted.",
+            "displayed_value": 2,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "lafayette-community-center-arts-and-crafts-room-lafayette-contra-costa",
@@ -4715,7 +4936,9 @@
             "value": 150,
             "status": "published_evidence",
             "source_url": "https://www.lovelafayette.org/city-hall/city-departments/parks-trails-recreation/community-center/",
-            "basis": "Nonresident private hourly rate; resident250LiveOak/275JenniferRussell/100other. Room choice, minimums, kitchen and insurance extra."
+            "basis": "Nonresident private hourly rate; resident250LiveOak/275JenniferRussell/100other. Room choice, minimums, kitchen and insurance extra.",
+            "displayed_value": 150,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "lafayette-community-center-arts-and-crafts-room-lafayette-contra-costa",
@@ -4724,7 +4947,9 @@
             "value": 2,
             "status": "published_evidence",
             "source_url": "https://www.lovelafayette.org/city-hall/city-departments/parks-trails-recreation/community-center/",
-            "basis": "Official room rental minimum; all setup/cleanup counted."
+            "basis": "Official room rental minimum; all setup/cleanup counted.",
+            "displayed_value": 2,
+            "displayed_status": "published_evidence"
           }
         ],
         "other_fields": "Unsearched unless the case findings explicitly describe a source attempt. Unknown is not zero."
@@ -4804,7 +5029,9 @@
             "value": 25,
             "status": "published_evidence",
             "source_url": "https://www.cityofmartinez.org/departments/recreation/rentals",
-            "basis": "Current official inventory maximum; layout unspecified. Not dinner-plus-dance capacity."
+            "basis": "Current official inventory maximum; layout unspecified. Not dinner-plus-dance capacity.",
+            "displayed_value": 25,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "nancy-boyd-meeting-room-martinez-contra-costa",
@@ -4813,7 +5040,9 @@
             "value": 20,
             "status": "published_evidence",
             "source_url": "https://www.cityofmartinez.org/departments/recreation/rentals",
-            "basis": "Current official inventory maximum; layout unspecified. Not dinner-plus-dance capacity."
+            "basis": "Current official inventory maximum; layout unspecified. Not dinner-plus-dance capacity.",
+            "displayed_value": 20,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "martinez-library-meeting-room-martinez-contra-costa",
@@ -4822,7 +5051,9 @@
             "value": 60,
             "status": "published_evidence",
             "source_url": "https://www.cityofmartinez.org/departments/recreation/rentals",
-            "basis": "Current official inventory maximum; layout unspecified. Not dinner-plus-dance capacity."
+            "basis": "Current official inventory maximum; layout unspecified. Not dinner-plus-dance capacity.",
+            "displayed_value": 60,
+            "displayed_status": "published_evidence"
           }
         ],
         "other_fields": "Unsearched unless the case findings explicitly describe a source attempt. Unknown is not zero."
@@ -5026,7 +5257,9 @@
             "value": 250,
             "status": "published_evidence",
             "source_url": "https://www.oakleyca.gov/178/Parks-Facility-Rentals",
-            "basis": "Current official inventory maximum; layout unspecified. Not dinner-plus-dance capacity."
+            "basis": "Current official inventory maximum; layout unspecified. Not dinner-plus-dance capacity.",
+            "displayed_value": 250,
+            "displayed_status": "published_evidence"
           }
         ],
         "other_fields": "Unsearched unless the case findings explicitly describe a source attempt. Unknown is not zero."
@@ -5395,7 +5628,9 @@
             "value": 300,
             "status": "published_evidence",
             "source_url": "https://www.walnutcreekartsrec.org/rentals",
-            "basis": "Current official inventory maximum; layout unspecified. Not dinner-plus-dance capacity."
+            "basis": "Current official inventory maximum; layout unspecified. Not dinner-plus-dance capacity.",
+            "displayed_value": 300,
+            "displayed_status": "published_evidence"
           }
         ],
         "other_fields": "Unsearched unless the case findings explicitly describe a source attempt. Unknown is not zero."
@@ -5455,7 +5690,9 @@
             "value": 100,
             "status": "published_evidence",
             "source_url": "https://www.theranchtoday.org/facility-rentals",
-            "basis": "Official published seated/dining maximum. Jennings dining range120-130; no dinner-plus-dance figure established."
+            "basis": "Official published seated/dining maximum. Jennings dining range120-130; no dinner-plus-dance figure established.",
+            "displayed_value": 100,
+            "displayed_status": "published_evidence"
           }
         ],
         "other_fields": "Unsearched unless the case findings explicitly describe a source attempt. Unknown is not zero."
@@ -5515,7 +5752,9 @@
             "value": "advertised",
             "status": "published_evidence",
             "source_url": "https://townoffairfaxca.gov/pavilion/",
-            "basis": "Exact facility described as available for weddings in reviewed primary source."
+            "basis": "Exact facility described as available for weddings in reviewed primary source.",
+            "displayed_value": "advertised",
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "fairfax-pavilion-fairfax-marin",
@@ -5524,7 +5763,9 @@
             "value": 1921,
             "status": "published_evidence",
             "source_url": "https://townoffairfaxca.gov/pavilion/",
-            "basis": "City historical narrative explicitly built1921. Current private nonresident225/hr; resident190/hr. Maintenance fee text conflicts, not complete rental total."
+            "basis": "City historical narrative explicitly built1921. Current private nonresident225/hr; resident190/hr. Maintenance fee text conflicts, not complete rental total.",
+            "displayed_value": 1921,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "fairfax-pavilion-fairfax-marin",
@@ -5533,7 +5774,9 @@
             "value": 225,
             "status": "published_evidence",
             "source_url": "https://townoffairfaxca.gov/pavilion/",
-            "basis": "City historical narrative explicitly built1921. Current private nonresident225/hr; resident190/hr. Maintenance fee text conflicts, not complete rental total."
+            "basis": "City historical narrative explicitly built1921. Current private nonresident225/hr; resident190/hr. Maintenance fee text conflicts, not complete rental total.",
+            "displayed_value": 225,
+            "displayed_status": "published_evidence"
           }
         ],
         "other_fields": "Unsearched unless the case findings explicitly describe a source attempt. Unknown is not zero."
@@ -5643,7 +5886,9 @@
             "value": 1440,
             "status": "published_evidence",
             "source_url": "https://www.millvalleyrecreation.org/DocumentCenter/View/798/Community-Center-Rental-Policies-PDF",
-            "basis": "Policy effectiveSeptember2,2026: indoor amplifiednoise endsmidnight; outdoor10PM. RentalwindowFri/Sat8AM-1AM; otherdays8AM-midnight."
+            "basis": "Policy effectiveSeptember2,2026: indoor amplifiednoise endsmidnight; outdoor10PM. RentalwindowFri/Sat8AM-1AM; otherdays8AM-midnight.",
+            "displayed_value": 1440,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "mill-valley-community-center-marin",
@@ -5652,7 +5897,9 @@
             "value": 1320,
             "status": "published_evidence",
             "source_url": "https://www.millvalleyrecreation.org/DocumentCenter/View/798/Community-Center-Rental-Policies-PDF",
-            "basis": "Policy effectiveSeptember2,2026: indoor amplifiednoise endsmidnight; outdoor10PM. RentalwindowFri/Sat8AM-1AM; otherdays8AM-midnight."
+            "basis": "Policy effectiveSeptember2,2026: indoor amplifiednoise endsmidnight; outdoor10PM. RentalwindowFri/Sat8AM-1AM; otherdays8AM-midnight.",
+            "displayed_value": 1320,
+            "displayed_status": "published_evidence"
           }
         ],
         "other_fields": "Unsearched unless the case findings explicitly describe a source attempt. Unknown is not zero."
@@ -6030,7 +6277,9 @@
             "value": 40,
             "status": "published_evidence",
             "source_url": "https://www.townofsananselmo.org/1800/Picnic-Rentals",
-            "basis": "Current official inventory maximum; layout unspecified. Not dinner-plus-dance capacity."
+            "basis": "Current official inventory maximum; layout unspecified. Not dinner-plus-dance capacity.",
+            "displayed_value": 40,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "san-anselmo-maple-room-san-anselmo-marin",
@@ -6039,7 +6288,9 @@
             "value": 40,
             "status": "published_evidence",
             "source_url": "https://www.townofsananselmo.org/1800/Picnic-Rentals",
-            "basis": "Current official inventory maximum; layout unspecified. Not dinner-plus-dance capacity."
+            "basis": "Current official inventory maximum; layout unspecified. Not dinner-plus-dance capacity.",
+            "displayed_value": 40,
+            "displayed_status": "published_evidence"
           }
         ],
         "other_fields": "Unsearched unless the case findings explicitly describe a source attempt. Unknown is not zero."
@@ -6106,7 +6357,9 @@
             "value": 1260,
             "status": "published_evidence",
             "source_url": "https://storage.googleapis.com/proudcity/sanrafaelca/2025/02/3bb1697d-2026-falkirk-facility-rental-information-packet-updated-1-5-26.pdf",
-            "basis": "2026Falkirkpacketpp3-8: outside event/sound9PM, inside10PM, cleanup/exit11PM; outside caterers allowed with requiredlicenses. Outdoor125/wholefirstfloor100; not dinner+dance."
+            "basis": "2026Falkirkpacketpp3-8: outside event/sound9PM, inside10PM, cleanup/exit11PM; outside caterers allowed with requiredlicenses. Outdoor125/wholefirstfloor100; not dinner+dance.",
+            "displayed_value": 1260,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "falkirk-cultural-center-marin",
@@ -6115,7 +6368,9 @@
             "value": 1320,
             "status": "published_evidence",
             "source_url": "https://storage.googleapis.com/proudcity/sanrafaelca/2025/02/3bb1697d-2026-falkirk-facility-rental-information-packet-updated-1-5-26.pdf",
-            "basis": "2026Falkirkpacketpp3-8: outside event/sound9PM, inside10PM, cleanup/exit11PM; outside caterers allowed with requiredlicenses. Outdoor125/wholefirstfloor100; not dinner+dance."
+            "basis": "2026Falkirkpacketpp3-8: outside event/sound9PM, inside10PM, cleanup/exit11PM; outside caterers allowed with requiredlicenses. Outdoor125/wholefirstfloor100; not dinner+dance.",
+            "displayed_value": 1320,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "falkirk-cultural-center-marin",
@@ -6124,7 +6379,9 @@
             "value": 1380,
             "status": "published_evidence",
             "source_url": "https://storage.googleapis.com/proudcity/sanrafaelca/2025/02/3bb1697d-2026-falkirk-facility-rental-information-packet-updated-1-5-26.pdf",
-            "basis": "2026Falkirkpacketpp3-8: outside event/sound9PM, inside10PM, cleanup/exit11PM; outside caterers allowed with requiredlicenses. Outdoor125/wholefirstfloor100; not dinner+dance."
+            "basis": "2026Falkirkpacketpp3-8: outside event/sound9PM, inside10PM, cleanup/exit11PM; outside caterers allowed with requiredlicenses. Outdoor125/wholefirstfloor100; not dinner+dance.",
+            "displayed_value": 1380,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "falkirk-cultural-center-marin",
@@ -6133,7 +6390,9 @@
             "value": "yes",
             "status": "published_evidence",
             "source_url": "https://storage.googleapis.com/proudcity/sanrafaelca/2025/02/3bb1697d-2026-falkirk-facility-rental-information-packet-updated-1-5-26.pdf",
-            "basis": "2026Falkirkpacketpp3-8: outside event/sound9PM, inside10PM, cleanup/exit11PM; outside caterers allowed with requiredlicenses. Outdoor125/wholefirstfloor100; not dinner+dance."
+            "basis": "2026Falkirkpacketpp3-8: outside event/sound9PM, inside10PM, cleanup/exit11PM; outside caterers allowed with requiredlicenses. Outdoor125/wholefirstfloor100; not dinner+dance.",
+            "displayed_value": "yes",
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "falkirk-cultural-center-marin",
@@ -6142,7 +6401,9 @@
             "value": 125,
             "status": "published_evidence",
             "source_url": "https://storage.googleapis.com/proudcity/sanrafaelca/2025/02/3bb1697d-2026-falkirk-facility-rental-information-packet-updated-1-5-26.pdf",
-            "basis": "2026Falkirkpacketpp3-8: outside event/sound9PM, inside10PM, cleanup/exit11PM; outside caterers allowed with requiredlicenses. Outdoor125/wholefirstfloor100; not dinner+dance."
+            "basis": "2026Falkirkpacketpp3-8: outside event/sound9PM, inside10PM, cleanup/exit11PM; outside caterers allowed with requiredlicenses. Outdoor125/wholefirstfloor100; not dinner+dance.",
+            "displayed_value": 125,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "falkirk-cultural-center-marin",
@@ -6151,7 +6412,9 @@
             "value": 100,
             "status": "published_evidence",
             "source_url": "https://storage.googleapis.com/proudcity/sanrafaelca/2025/02/3bb1697d-2026-falkirk-facility-rental-information-packet-updated-1-5-26.pdf",
-            "basis": "2026Falkirkpacketpp3-8: outside event/sound9PM, inside10PM, cleanup/exit11PM; outside caterers allowed with requiredlicenses. Outdoor125/wholefirstfloor100; not dinner+dance."
+            "basis": "2026Falkirkpacketpp3-8: outside event/sound9PM, inside10PM, cleanup/exit11PM; outside caterers allowed with requiredlicenses. Outdoor125/wholefirstfloor100; not dinner+dance.",
+            "displayed_value": 100,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "falkirk-cultural-center-marin",
@@ -6160,7 +6423,9 @@
             "value": 125,
             "status": "published_evidence",
             "source_url": "https://storage.googleapis.com/proudcity/sanrafaelca/2025/02/3bb1697d-2026-falkirk-facility-rental-information-packet-updated-1-5-26.pdf",
-            "basis": "2026Falkirkpacketpp3-8: outside event/sound9PM, inside10PM, cleanup/exit11PM; outside caterers allowed with requiredlicenses. Outdoor125/wholefirstfloor100; not dinner+dance."
+            "basis": "2026Falkirkpacketpp3-8: outside event/sound9PM, inside10PM, cleanup/exit11PM; outside caterers allowed with requiredlicenses. Outdoor125/wholefirstfloor100; not dinner+dance.",
+            "displayed_value": 125,
+            "displayed_status": "published_evidence"
           }
         ],
         "other_fields": "Unsearched unless the case findings explicitly describe a source attempt. Unknown is not zero."
@@ -6330,7 +6595,9 @@
             "value": 50,
             "status": "published_evidence",
             "source_url": "https://www.athertonca.gov/183/Fees-Rentals",
-            "basis": "Official published seated/dining maximum. Jennings dining range120-130; no dinner-plus-dance figure established."
+            "basis": "Official published seated/dining maximum. Jennings dining range120-130; no dinner-plus-dance figure established.",
+            "displayed_value": 50,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "holbrook-palmer-park-carriage-house-atherton-san-mateo",
@@ -6339,7 +6606,9 @@
             "value": 70,
             "status": "published_evidence",
             "source_url": "https://www.athertonca.gov/183/Fees-Rentals",
-            "basis": "Official published seated/dining maximum. Jennings dining range120-130; no dinner-plus-dance figure established."
+            "basis": "Official published seated/dining maximum. Jennings dining range120-130; no dinner-plus-dance figure established.",
+            "displayed_value": 70,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "holbrook-palmer-park-jennings-pavilion-atherton-san-mateo",
@@ -6348,7 +6617,9 @@
             "value": 130,
             "status": "published_evidence",
             "source_url": "https://www.athertonca.gov/183/Fees-Rentals",
-            "basis": "Official published seated/dining maximum. Jennings dining range120-130; no dinner-plus-dance figure established."
+            "basis": "Official published seated/dining maximum. Jennings dining range120-130; no dinner-plus-dance figure established.",
+            "displayed_value": 130,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "holbrook-palmer-park-jennings-pavilion-atherton-san-mateo",
@@ -6357,7 +6628,9 @@
             "value": 1977,
             "status": "published_evidence",
             "source_url": "https://www.athertonca.gov/183/Fees-Rentals",
-            "basis": "City explicitly says constructed1977;150theatre,120-130dining. Operation opening remains Unknown."
+            "basis": "City explicitly says constructed1977;150theatre,120-130dining. Operation opening remains Unknown.",
+            "displayed_value": 1977,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "holbrook-palmer-park-jennings-pavilion-atherton-san-mateo",
@@ -6366,7 +6639,9 @@
             "value": 150,
             "status": "published_evidence",
             "source_url": "https://www.athertonca.gov/183/Fees-Rentals",
-            "basis": "City explicitly says constructed1977;150theatre,120-130dining. Operation opening remains Unknown."
+            "basis": "City explicitly says constructed1977;150theatre,120-130dining. Operation opening remains Unknown.",
+            "displayed_value": 150,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "holbrook-palmer-park-jennings-pavilion-atherton-san-mateo",
@@ -6375,7 +6650,9 @@
             "value": "advertised",
             "status": "published_evidence",
             "source_url": "https://www.athertonca.gov/183/Fees-Rentals",
-            "basis": "Exact facility described as available for weddings in reviewed primary source."
+            "basis": "Exact facility described as available for weddings in reviewed primary source.",
+            "displayed_value": "advertised",
+            "displayed_status": "published_evidence"
           }
         ],
         "other_fields": "Unsearched unless the case findings explicitly describe a source attempt. Unknown is not zero."
@@ -6482,7 +6759,9 @@
             "value": 170,
             "status": "published_evidence",
             "source_url": "https://www.belmont.gov/departments/parks-and-recreation/rentals/new-facility-rentals-page",
-            "basis": "Current official inventory maximum; layout unspecified. Not dinner-plus-dance capacity."
+            "basis": "Current official inventory maximum; layout unspecified. Not dinner-plus-dance capacity.",
+            "displayed_value": 170,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "twin-pines-cottage-belmont-san-mateo",
@@ -6491,7 +6770,9 @@
             "value": 35,
             "status": "published_evidence",
             "source_url": "https://www.belmont.gov/departments/parks-and-recreation/rentals/new-facility-rentals-page",
-            "basis": "Current official inventory maximum; layout unspecified. Not dinner-plus-dance capacity."
+            "basis": "Current official inventory maximum; layout unspecified. Not dinner-plus-dance capacity.",
+            "displayed_value": 35,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "twin-pines-lodge-belmont-san-mateo",
@@ -6500,7 +6781,9 @@
             "value": 125,
             "status": "published_evidence",
             "source_url": "https://www.belmont.gov/departments/parks-and-recreation/rentals/new-facility-rentals-page",
-            "basis": "Current official inventory maximum; layout unspecified. Not dinner-plus-dance capacity."
+            "basis": "Current official inventory maximum; layout unspecified. Not dinner-plus-dance capacity.",
+            "displayed_value": 125,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "twin-pines-manor-belmont-san-mateo",
@@ -6509,7 +6792,9 @@
             "value": 70,
             "status": "published_evidence",
             "source_url": "https://www.belmont.gov/departments/parks-and-recreation/rentals/new-facility-rentals-page",
-            "basis": "Current official inventory maximum; layout unspecified. Not dinner-plus-dance capacity."
+            "basis": "Current official inventory maximum; layout unspecified. Not dinner-plus-dance capacity.",
+            "displayed_value": 70,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "twin-pines-senior-and-community-center-belmont-san-mateo",
@@ -6518,7 +6803,9 @@
             "value": 250,
             "status": "published_evidence",
             "source_url": "https://www.belmont.gov/departments/parks-and-recreation/rentals/new-facility-rentals-page",
-            "basis": "Current official inventory maximum; layout unspecified. Not dinner-plus-dance capacity."
+            "basis": "Current official inventory maximum; layout unspecified. Not dinner-plus-dance capacity.",
+            "displayed_value": 250,
+            "displayed_status": "published_evidence"
           }
         ],
         "other_fields": "Unsearched unless the case findings explicitly describe a source attempt. Unknown is not zero."
@@ -6578,7 +6865,9 @@
             "value": 110,
             "status": "published_evidence",
             "source_url": "https://www.brisbaneca.gov/Facilities/Facility/Details/Community-Center-1",
-            "basis": "Current web explicitly overrides older rate sheets. Nonresident110/hr, resident90/hr; deposit refundable."
+            "basis": "Current web explicitly overrides older rate sheets. Nonresident110/hr, resident90/hr; deposit refundable.",
+            "displayed_value": 110,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "brisbane-community-center-brisbane-san-mateo",
@@ -6587,7 +6876,9 @@
             "value": 200,
             "status": "published_evidence",
             "source_url": "https://www.brisbaneca.gov/Facilities/Facility/Details/Community-Center-1",
-            "basis": "Current web explicitly overrides older rate sheets. Nonresident110/hr, resident90/hr; deposit refundable."
+            "basis": "Current web explicitly overrides older rate sheets. Nonresident110/hr, resident90/hr; deposit refundable.",
+            "displayed_value": 200,
+            "displayed_status": "published_evidence"
           }
         ],
         "other_fields": "Unsearched unless the case findings explicitly describe a source attempt. Unknown is not zero."
@@ -6869,7 +7160,9 @@
             "value": 79,
             "status": "published_evidence",
             "source_url": "https://www.ci.east-palo-alto.ca.us/parksrec/page/community-room-city-hall",
-            "basis": "Current official inventory maximum; layout unspecified. Not dinner-plus-dance capacity."
+            "basis": "Current official inventory maximum; layout unspecified. Not dinner-plus-dance capacity.",
+            "displayed_value": 79,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "east-palo-alto-city-hall-community-room-east-palo-alto-san-mateo",
@@ -6878,7 +7171,9 @@
             "value": 121,
             "status": "published_evidence",
             "source_url": "https://www.ci.east-palo-alto.ca.us/parksrec/page/community-room-city-hall",
-            "basis": "Current nonresident rate; resident48weekday/60weekend; deposit separate and refundable."
+            "basis": "Current nonresident rate; resident48weekday/60weekend; deposit separate and refundable.",
+            "displayed_value": 121,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "east-palo-alto-city-hall-community-room-east-palo-alto-san-mateo",
@@ -6887,7 +7182,9 @@
             "value": 2,
             "status": "published_evidence",
             "source_url": "https://www.ci.east-palo-alto.ca.us/parksrec/page/community-room-city-hall",
-            "basis": "Current nonresident rate; resident48weekday/60weekend; deposit separate and refundable."
+            "basis": "Current nonresident rate; resident48weekday/60weekend; deposit separate and refundable.",
+            "displayed_value": 2,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "east-palo-alto-city-hall-community-room-east-palo-alto-san-mateo",
@@ -6896,7 +7193,9 @@
             "value": 250,
             "status": "published_evidence",
             "source_url": "https://www.ci.east-palo-alto.ca.us/parksrec/page/community-room-city-hall",
-            "basis": "Current nonresident rate; resident48weekday/60weekend; deposit separate and refundable."
+            "basis": "Current nonresident rate; resident48weekday/60weekend; deposit separate and refundable.",
+            "displayed_value": 250,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "east-palo-alto-city-hall-community-room-east-palo-alto-san-mateo",
@@ -6905,7 +7204,9 @@
             "value": 79,
             "status": "published_evidence",
             "source_url": "https://www.ci.east-palo-alto.ca.us/parksrec/page/community-room-city-hall",
-            "basis": "Current nonresident rate; resident48weekday/60weekend; deposit separate and refundable."
+            "basis": "Current nonresident rate; resident48weekday/60weekend; deposit separate and refundable.",
+            "displayed_value": 79,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "east-palo-alto-city-hall-community-room-east-palo-alto-san-mateo",
@@ -6914,7 +7215,9 @@
             "value": 10,
             "status": "published_evidence",
             "source_url": "https://www.ci.east-palo-alto.ca.us/parksrec/page/community-room-city-hall",
-            "basis": "Current nonresident rate; resident48weekday/60weekend; deposit separate and refundable."
+            "basis": "Current nonresident rate; resident48weekday/60weekend; deposit separate and refundable.",
+            "displayed_value": 10,
+            "displayed_status": "published_evidence"
           }
         ],
         "other_fields": "Unsearched unless the case findings explicitly describe a source attempt. Unknown is not zero."
@@ -7160,7 +7463,9 @@
             "value": 112,
             "status": "published_evidence",
             "source_url": "https://halfmoonbay.gov/225/Facility-Rentals",
-            "basis": "Current official inventory maximum; layout unspecified. Not dinner-plus-dance capacity."
+            "basis": "Current official inventory maximum; layout unspecified. Not dinner-plus-dance capacity.",
+            "displayed_value": 112,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "ted-adcock-community-center-half-moon-bay-san-mateo",
@@ -7169,7 +7474,9 @@
             "value": "advertised",
             "status": "published_evidence",
             "source_url": "https://halfmoonbay.gov/225/Facility-Rentals",
-            "basis": "Exact facility described as available for weddings in reviewed primary source."
+            "basis": "Exact facility described as available for weddings in reviewed primary source.",
+            "displayed_value": "advertised",
+            "displayed_status": "published_evidence"
           }
         ],
         "other_fields": "Unsearched unless the case findings explicitly describe a source attempt. Unknown is not zero."
@@ -7200,22 +7507,352 @@
     },
     {
       "case": 32,
-      "named_leads": [],
-      "finding": "School district primary rental policy reviewed: campus theaters/classrooms/athletics rented through approved Facilitron process when not in school use.",
-      "remaining": "No exact school room vetted this pass. Wedding permission Unknown; town directory pagination and school-level inventory remain. Crystal Springs Golf Burlingame address not reassigned to Hillsborough.",
-      "state": "attempted_inventory_unresolved",
+      "named_leads": [
+        "South Hillsborough Elementary School - Classroom Standard",
+        "North Hillsborough Elementary School - Classroom Standard",
+        "Crocker Middle School - Classroom Standard",
+        "West Hillsborough Elementary and Pre-School - Classroom Standard",
+        "Hillsborough Recreation - Collab Room",
+        "Crocker Middle School - Gym",
+        "Crocker Middle School - Library",
+        "West Hillsborough Elementary and Pre-School - Library",
+        "North Hillsborough Elementary School - Library Media Center",
+        "South Hillsborough Elementary School - Media Center / James Library",
+        "North Hillsborough Elementary School - Multi-Purpose Room",
+        "West Hillsborough Elementary and Pre-School - Multi-Purpose Room",
+        "Crocker Middle School - Multi-Purpose Room",
+        "South Hillsborough Elementary School - Multi-Purpose Room",
+        "South Hillsborough Elementary School - North Multi-Purpose Room",
+        "Vista Park - Picnic Tables"
+      ],
+      "finding": "District-linked public portal:44 facility cards reviewed across all3 pages.16 named indoor/picnic listings added. Sports fields/courts/parking and ambiguous TLC listing not promoted as wedding spaces.",
+      "remaining": "Wedding approval, food/alcohol permissions, price schedules and dinner/dance layouts remain Unknown. South School two similarly named MPR listings may overlap. Town/private/other-authority inventories remain separate.",
+      "state": "partial_primary_review",
       "methods_exhausted": false,
       "county": "San Mateo",
       "municipality": "Hillsborough",
-      "source_url": "https://www.hcsdk8.org/for-community/facility-rental-usage",
+      "source_url": "https://www.facilitron.com/hr94010",
       "checked_utc": "2026-11-08T07:23:22.024844+00:00",
-      "added_record_ids": [],
+      "added_record_ids": [
+        "south-hillsborough-elementary-school-classroom-standard-hillsborough-san-mateo",
+        "north-hillsborough-elementary-school-classroom-standard-hillsborough-san-mateo",
+        "crocker-middle-school-classroom-standard-hillsborough-san-mateo",
+        "west-hillsborough-elementary-and-pre-school-classroom-standard-hillsborough-san-mateo",
+        "hillsborough-recreation-collab-room-hillsborough-san-mateo",
+        "crocker-middle-school-gym-hillsborough-san-mateo",
+        "crocker-middle-school-library-hillsborough-san-mateo",
+        "west-hillsborough-elementary-and-pre-school-library-hillsborough-san-mateo",
+        "north-hillsborough-elementary-school-library-media-center-hillsborough-san-mateo",
+        "south-hillsborough-elementary-school-media-center-james-library-hillsborough-san-mateo",
+        "north-hillsborough-elementary-school-multi-purpose-room-hillsborough-san-mateo",
+        "west-hillsborough-elementary-and-pre-school-multi-purpose-room-hillsborough-san-mateo",
+        "crocker-middle-school-multi-purpose-room-hillsborough-san-mateo",
+        "south-hillsborough-elementary-school-multi-purpose-room-hillsborough-san-mateo",
+        "south-hillsborough-elementary-school-north-multi-purpose-room-hillsborough-san-mateo",
+        "vista-park-picnic-tables-hillsborough-san-mateo"
+      ],
       "existing_record_ids": [],
-      "lead_dispositions": [],
-      "record_ids": [],
+      "lead_dispositions": [
+        {
+          "name": "South Hillsborough Elementary School - Classroom Standard",
+          "state": "reviewed_added",
+          "record_ids": [
+            "south-hillsborough-elementary-school-classroom-standard-hillsborough-san-mateo"
+          ]
+        },
+        {
+          "name": "North Hillsborough Elementary School - Classroom Standard",
+          "state": "reviewed_added",
+          "record_ids": [
+            "north-hillsborough-elementary-school-classroom-standard-hillsborough-san-mateo"
+          ]
+        },
+        {
+          "name": "Crocker Middle School - Classroom Standard",
+          "state": "reviewed_added",
+          "record_ids": [
+            "crocker-middle-school-classroom-standard-hillsborough-san-mateo"
+          ]
+        },
+        {
+          "name": "West Hillsborough Elementary and Pre-School - Classroom Standard",
+          "state": "reviewed_added",
+          "record_ids": [
+            "west-hillsborough-elementary-and-pre-school-classroom-standard-hillsborough-san-mateo"
+          ]
+        },
+        {
+          "name": "Hillsborough Recreation - Collab Room",
+          "state": "reviewed_added",
+          "record_ids": [
+            "hillsborough-recreation-collab-room-hillsborough-san-mateo"
+          ]
+        },
+        {
+          "name": "Crocker Middle School - Gym",
+          "state": "reviewed_added",
+          "record_ids": [
+            "crocker-middle-school-gym-hillsborough-san-mateo"
+          ]
+        },
+        {
+          "name": "Crocker Middle School - Library",
+          "state": "reviewed_added",
+          "record_ids": [
+            "crocker-middle-school-library-hillsborough-san-mateo"
+          ]
+        },
+        {
+          "name": "West Hillsborough Elementary and Pre-School - Library",
+          "state": "reviewed_added",
+          "record_ids": [
+            "west-hillsborough-elementary-and-pre-school-library-hillsborough-san-mateo"
+          ]
+        },
+        {
+          "name": "North Hillsborough Elementary School - Library Media Center",
+          "state": "reviewed_added",
+          "record_ids": [
+            "north-hillsborough-elementary-school-library-media-center-hillsborough-san-mateo"
+          ]
+        },
+        {
+          "name": "South Hillsborough Elementary School - Media Center / James Library",
+          "state": "reviewed_added",
+          "record_ids": [
+            "south-hillsborough-elementary-school-media-center-james-library-hillsborough-san-mateo"
+          ]
+        },
+        {
+          "name": "North Hillsborough Elementary School - Multi-Purpose Room",
+          "state": "reviewed_added",
+          "record_ids": [
+            "north-hillsborough-elementary-school-multi-purpose-room-hillsborough-san-mateo"
+          ]
+        },
+        {
+          "name": "West Hillsborough Elementary and Pre-School - Multi-Purpose Room",
+          "state": "reviewed_added",
+          "record_ids": [
+            "west-hillsborough-elementary-and-pre-school-multi-purpose-room-hillsborough-san-mateo"
+          ]
+        },
+        {
+          "name": "Crocker Middle School - Multi-Purpose Room",
+          "state": "reviewed_added",
+          "record_ids": [
+            "crocker-middle-school-multi-purpose-room-hillsborough-san-mateo"
+          ]
+        },
+        {
+          "name": "South Hillsborough Elementary School - Multi-Purpose Room",
+          "state": "reviewed_added",
+          "record_ids": [
+            "south-hillsborough-elementary-school-multi-purpose-room-hillsborough-san-mateo"
+          ]
+        },
+        {
+          "name": "South Hillsborough Elementary School - North Multi-Purpose Room",
+          "state": "reviewed_added",
+          "record_ids": [
+            "south-hillsborough-elementary-school-north-multi-purpose-room-hillsborough-san-mateo"
+          ]
+        },
+        {
+          "name": "Vista Park - Picnic Tables",
+          "state": "reviewed_added",
+          "record_ids": [
+            "vista-park-picnic-tables-hillsborough-san-mateo"
+          ]
+        }
+      ],
+      "record_ids": [
+        "south-hillsborough-elementary-school-classroom-standard-hillsborough-san-mateo",
+        "north-hillsborough-elementary-school-classroom-standard-hillsborough-san-mateo",
+        "crocker-middle-school-classroom-standard-hillsborough-san-mateo",
+        "west-hillsborough-elementary-and-pre-school-classroom-standard-hillsborough-san-mateo",
+        "hillsborough-recreation-collab-room-hillsborough-san-mateo",
+        "crocker-middle-school-gym-hillsborough-san-mateo",
+        "crocker-middle-school-library-hillsborough-san-mateo",
+        "west-hillsborough-elementary-and-pre-school-library-hillsborough-san-mateo",
+        "north-hillsborough-elementary-school-library-media-center-hillsborough-san-mateo",
+        "south-hillsborough-elementary-school-media-center-james-library-hillsborough-san-mateo",
+        "north-hillsborough-elementary-school-multi-purpose-room-hillsborough-san-mateo",
+        "west-hillsborough-elementary-and-pre-school-multi-purpose-room-hillsborough-san-mateo",
+        "crocker-middle-school-multi-purpose-room-hillsborough-san-mateo",
+        "south-hillsborough-elementary-school-multi-purpose-room-hillsborough-san-mateo",
+        "south-hillsborough-elementary-school-north-multi-purpose-room-hillsborough-san-mateo",
+        "vista-park-picnic-tables-hillsborough-san-mateo"
+      ],
       "field_review_state": {
-        "numeric_changes": [],
-        "other_fields": "Unsearched unless the case findings explicitly describe a source attempt. Unknown is not zero."
+        "numeric_changes": [
+          {
+            "record_id": "south-hillsborough-elementary-school-classroom-standard-hillsborough-san-mateo",
+            "field": "capacity_max",
+            "before": null,
+            "value": 25,
+            "status": "published_evidence",
+            "source_url": "https://www.facilitron.com/hr94010",
+            "basis": "Official Hillsborough Recreation Facilitron inventory, visible card capacity. Layout unspecified; not dinner, dancing, wedding eligibility or an issued occupancy certificate.",
+            "displayed_value": 25,
+            "displayed_status": "published_evidence"
+          },
+          {
+            "record_id": "north-hillsborough-elementary-school-classroom-standard-hillsborough-san-mateo",
+            "field": "capacity_max",
+            "before": null,
+            "value": 30,
+            "status": "published_evidence",
+            "source_url": "https://www.facilitron.com/hr94010",
+            "basis": "Official Hillsborough Recreation Facilitron inventory, visible card capacity. Layout unspecified; not dinner, dancing, wedding eligibility or an issued occupancy certificate.",
+            "displayed_value": 30,
+            "displayed_status": "published_evidence"
+          },
+          {
+            "record_id": "crocker-middle-school-classroom-standard-hillsborough-san-mateo",
+            "field": "capacity_max",
+            "before": null,
+            "value": 30,
+            "status": "published_evidence",
+            "source_url": "https://www.facilitron.com/hr94010",
+            "basis": "Official Hillsborough Recreation Facilitron inventory, visible card capacity. Layout unspecified; not dinner, dancing, wedding eligibility or an issued occupancy certificate.",
+            "displayed_value": 30,
+            "displayed_status": "published_evidence"
+          },
+          {
+            "record_id": "west-hillsborough-elementary-and-pre-school-classroom-standard-hillsborough-san-mateo",
+            "field": "capacity_max",
+            "before": null,
+            "value": 30,
+            "status": "published_evidence",
+            "source_url": "https://www.facilitron.com/hr94010",
+            "basis": "Official Hillsborough Recreation Facilitron inventory, visible card capacity. Layout unspecified; not dinner, dancing, wedding eligibility or an issued occupancy certificate.",
+            "displayed_value": 30,
+            "displayed_status": "published_evidence"
+          },
+          {
+            "record_id": "hillsborough-recreation-collab-room-hillsborough-san-mateo",
+            "field": "capacity_max",
+            "before": null,
+            "value": 30,
+            "status": "published_evidence",
+            "source_url": "https://www.facilitron.com/hr94010",
+            "basis": "Official Hillsborough Recreation Facilitron inventory, visible card capacity. Layout unspecified; not dinner, dancing, wedding eligibility or an issued occupancy certificate.",
+            "displayed_value": 30,
+            "displayed_status": "published_evidence"
+          },
+          {
+            "record_id": "crocker-middle-school-gym-hillsborough-san-mateo",
+            "field": "capacity_max",
+            "before": null,
+            "value": 700,
+            "status": "published_evidence",
+            "source_url": "https://www.facilitron.com/hr94010",
+            "basis": "Official Hillsborough Recreation Facilitron inventory, visible card capacity. Layout unspecified; not dinner, dancing, wedding eligibility or an issued occupancy certificate.",
+            "displayed_value": 700,
+            "displayed_status": "published_evidence"
+          },
+          {
+            "record_id": "crocker-middle-school-library-hillsborough-san-mateo",
+            "field": "capacity_max",
+            "before": null,
+            "value": 60,
+            "status": "published_evidence",
+            "source_url": "https://www.facilitron.com/hr94010",
+            "basis": "Official Hillsborough Recreation Facilitron inventory, visible card capacity. Layout unspecified; not dinner, dancing, wedding eligibility or an issued occupancy certificate.",
+            "displayed_value": 60,
+            "displayed_status": "published_evidence"
+          },
+          {
+            "record_id": "west-hillsborough-elementary-and-pre-school-library-hillsborough-san-mateo",
+            "field": "capacity_max",
+            "before": null,
+            "value": 30,
+            "status": "published_evidence",
+            "source_url": "https://www.facilitron.com/hr94010",
+            "basis": "Official Hillsborough Recreation Facilitron inventory, visible card capacity. Layout unspecified; not dinner, dancing, wedding eligibility or an issued occupancy certificate.",
+            "displayed_value": 30,
+            "displayed_status": "published_evidence"
+          },
+          {
+            "record_id": "north-hillsborough-elementary-school-library-media-center-hillsborough-san-mateo",
+            "field": "capacity_max",
+            "before": null,
+            "value": 50,
+            "status": "published_evidence",
+            "source_url": "https://www.facilitron.com/hr94010",
+            "basis": "Official Hillsborough Recreation Facilitron inventory, visible card capacity. Layout unspecified; not dinner, dancing, wedding eligibility or an issued occupancy certificate.",
+            "displayed_value": 50,
+            "displayed_status": "published_evidence"
+          },
+          {
+            "record_id": "south-hillsborough-elementary-school-media-center-james-library-hillsborough-san-mateo",
+            "field": "capacity_max",
+            "before": null,
+            "value": 60,
+            "status": "published_evidence",
+            "source_url": "https://www.facilitron.com/hr94010",
+            "basis": "Official Hillsborough Recreation Facilitron inventory, visible card capacity. Layout unspecified; not dinner, dancing, wedding eligibility or an issued occupancy certificate.",
+            "displayed_value": 60,
+            "displayed_status": "published_evidence"
+          },
+          {
+            "record_id": "north-hillsborough-elementary-school-multi-purpose-room-hillsborough-san-mateo",
+            "field": "capacity_max",
+            "before": null,
+            "value": 502,
+            "status": "published_evidence",
+            "source_url": "https://www.facilitron.com/hr94010",
+            "basis": "Official Hillsborough Recreation Facilitron inventory, visible card capacity. Layout unspecified; not dinner, dancing, wedding eligibility or an issued occupancy certificate.",
+            "displayed_value": 502,
+            "displayed_status": "published_evidence"
+          },
+          {
+            "record_id": "west-hillsborough-elementary-and-pre-school-multi-purpose-room-hillsborough-san-mateo",
+            "field": "capacity_max",
+            "before": null,
+            "value": 344,
+            "status": "published_evidence",
+            "source_url": "https://www.facilitron.com/hr94010",
+            "basis": "Official Hillsborough Recreation Facilitron inventory, visible card capacity. Layout unspecified; not dinner, dancing, wedding eligibility or an issued occupancy certificate.",
+            "displayed_value": 344,
+            "displayed_status": "published_evidence"
+          },
+          {
+            "record_id": "crocker-middle-school-multi-purpose-room-hillsborough-san-mateo",
+            "field": "capacity_max",
+            "before": null,
+            "value": 500,
+            "status": "published_evidence",
+            "source_url": "https://www.facilitron.com/hr94010",
+            "basis": "Official Hillsborough Recreation Facilitron inventory, visible card capacity. Layout unspecified; not dinner, dancing, wedding eligibility or an issued occupancy certificate.",
+            "displayed_value": 500,
+            "displayed_status": "published_evidence"
+          },
+          {
+            "record_id": "south-hillsborough-elementary-school-multi-purpose-room-hillsborough-san-mateo",
+            "field": "capacity_max",
+            "before": null,
+            "value": 400,
+            "status": "published_evidence",
+            "source_url": "https://www.facilitron.com/hr94010",
+            "basis": "Official Hillsborough Recreation Facilitron inventory, visible card capacity. Layout unspecified; not dinner, dancing, wedding eligibility or an issued occupancy certificate.",
+            "displayed_value": 400,
+            "displayed_status": "published_evidence"
+          },
+          {
+            "record_id": "south-hillsborough-elementary-school-north-multi-purpose-room-hillsborough-san-mateo",
+            "field": "capacity_max",
+            "before": null,
+            "value": 400,
+            "status": "published_evidence",
+            "source_url": "https://www.facilitron.com/hr94010",
+            "basis": "Official Hillsborough Recreation Facilitron inventory, visible card capacity. Layout unspecified; not dinner, dancing, wedding eligibility or an issued occupancy certificate.",
+            "displayed_value": 400,
+            "displayed_status": "published_evidence"
+          }
+        ],
+        "other_fields": "Current inventory reviewed; field-specific permissions, fees and layouts remain unsearched or unresolved as described. Unknown is not zero."
       },
       "source_routes": [
         {
@@ -7238,8 +7875,20 @@
           "saved": "case-32\\inventory.html",
           "resource_count": 4,
           "case": 32
+        },
+        {
+          "url": "https://www.facilitron.com/hr94010",
+          "state": "primary_content_reviewed",
+          "method": "Ordinary Chrome rendered inventory and visible controls; no login or reservation",
+          "checked_utc": "2026-11-08T07:33:04.013862+00:00",
+          "pages_reviewed": [
+            1,
+            2,
+            3
+          ]
         }
-      ]
+      ],
+      "followup_checked_utc": "2026-11-08T07:33:04.013862+00:00"
     },
     {
       "case": 33,
@@ -7544,7 +8193,9 @@
             "value": 250,
             "status": "published_evidence",
             "source_url": "https://www.sanbruno.ca.gov/439/Facility-Rentals",
-            "basis": "Current official inventory maximum; layout unspecified. Not dinner-plus-dance capacity."
+            "basis": "Current official inventory maximum; layout unspecified. Not dinner-plus-dance capacity.",
+            "displayed_value": 250,
+            "displayed_status": "published_evidence"
           }
         ],
         "other_fields": "Unsearched unless the case findings explicitly describe a source attempt. Unknown is not zero."
@@ -7690,7 +8341,9 @@
             "value": 150,
             "status": "published_evidence",
             "source_url": "https://www.ssfca.gov/Departments/Parks-Recreation/Divisions/Recreation-Division/Rentals",
-            "basis": "Official published seated/dining maximum. Jennings dining range120-130; no dinner-plus-dance figure established."
+            "basis": "Official published seated/dining maximum. Jennings dining range120-130; no dinner-plus-dance figure established.",
+            "displayed_value": 150,
+            "displayed_status": "published_evidence"
           }
         ],
         "other_fields": "Unsearched unless the case findings explicitly describe a source attempt. Unknown is not zero."
@@ -8095,22 +8748,66 @@
     },
     {
       "case": 43,
-      "named_leads": [],
-      "finding": "2026 Spring/Summer guide reviewed at facility-rentalp20. Town resident rental process directs to official Register portal. NamedTownHall,WestwindCommunityBarnandparks on map are leads, not blanket rentable roster.",
-      "remaining": "Actual resident eligibility/policies/fees and current portal inventory remain unread. Do not add every mapped preserve/college as event rentable.",
-      "state": "attempted_inventory_unresolved",
+      "named_leads": [
+        "Los Altos Hills Town Hall - Council Chambers",
+        "Los Altos Hills Town Hall - Council Chambers Conference Room",
+        "Los Altos Hills Town Hall - Duxbury Room",
+        "Los Altos Hills Town Hall - Parks and Recreation Building"
+      ],
+      "finding": "Guide link followed to the actual public reservation portal. Four Town Hall room listings reviewed; resident nonprofit/noncommercial restriction preserved. Parking lot and sports fields excluded from wedding inference.",
+      "remaining": "Room capacities, current non-placeholder fees, event-specific wedding eligibility and cutoffs Unknown. Linked facility policy reader returned redirect-loop error. Westwind Barn/other authorities remain unreviewed; no account or reservation created.",
+      "state": "partial_primary_review",
       "methods_exhausted": false,
       "county": "Santa Clara",
       "municipality": "Los Altos Hills",
-      "source_url": "https://www.losaltoshills.ca.gov/DocumentCenter/View/7886/2026-01-Spring-Summer-LAH-Activity-Guide_02a-FINAL-WEB-",
+      "source_url": "https://secure.rec1.com/CA/los-altos-hills-ca/catalog",
       "checked_utc": "2026-11-08T07:23:22.024844+00:00",
-      "added_record_ids": [],
+      "added_record_ids": [
+        "los-altos-hills-town-hall-council-chambers-los-altos-hills-santa-clara",
+        "los-altos-hills-town-hall-council-chambers-conference-room-los-altos-hills-santa-clara",
+        "los-altos-hills-town-hall-duxbury-room-los-altos-hills-santa-clara",
+        "los-altos-hills-town-hall-parks-and-recreation-building-los-altos-hills-santa-clara"
+      ],
       "existing_record_ids": [],
-      "lead_dispositions": [],
-      "record_ids": [],
+      "lead_dispositions": [
+        {
+          "name": "Los Altos Hills Town Hall - Council Chambers",
+          "state": "reviewed_added",
+          "record_ids": [
+            "los-altos-hills-town-hall-council-chambers-los-altos-hills-santa-clara"
+          ]
+        },
+        {
+          "name": "Los Altos Hills Town Hall - Council Chambers Conference Room",
+          "state": "reviewed_added",
+          "record_ids": [
+            "los-altos-hills-town-hall-council-chambers-conference-room-los-altos-hills-santa-clara"
+          ]
+        },
+        {
+          "name": "Los Altos Hills Town Hall - Duxbury Room",
+          "state": "reviewed_added",
+          "record_ids": [
+            "los-altos-hills-town-hall-duxbury-room-los-altos-hills-santa-clara"
+          ]
+        },
+        {
+          "name": "Los Altos Hills Town Hall - Parks and Recreation Building",
+          "state": "reviewed_added",
+          "record_ids": [
+            "los-altos-hills-town-hall-parks-and-recreation-building-los-altos-hills-santa-clara"
+          ]
+        }
+      ],
+      "record_ids": [
+        "los-altos-hills-town-hall-council-chambers-los-altos-hills-santa-clara",
+        "los-altos-hills-town-hall-council-chambers-conference-room-los-altos-hills-santa-clara",
+        "los-altos-hills-town-hall-duxbury-room-los-altos-hills-santa-clara",
+        "los-altos-hills-town-hall-parks-and-recreation-building-los-altos-hills-santa-clara"
+      ],
       "field_review_state": {
         "numeric_changes": [],
-        "other_fields": "Unsearched unless the case findings explicitly describe a source attempt. Unknown is not zero."
+        "other_fields": "Current inventory reviewed; field-specific permissions, fees and layouts remain unsearched or unresolved as described. Unknown is not zero."
       },
       "source_routes": [
         {
@@ -8133,8 +8830,20 @@
           "text_chars": 58668,
           "saved": "case-43\\inventory.pdf",
           "case": 43
+        },
+        {
+          "url": "https://secure.rec1.com/CA/los-altos-hills-ca/catalog",
+          "state": "primary_content_reviewed",
+          "method": "Ordinary Chrome rendered inventory and visible controls; no login or reservation",
+          "checked_utc": "2026-11-08T07:33:04.013862+00:00",
+          "pages_reviewed": [
+            "Facility & Field Rentals",
+            "Town Hall group",
+            "Council Chambers details and rules link"
+          ]
         }
-      ]
+      ],
+      "followup_checked_utc": "2026-11-08T07:33:04.013862+00:00"
     },
     {
       "case": 44,
@@ -8174,7 +8883,9 @@
             "value": "advertised",
             "status": "published_evidence",
             "source_url": "https://www.losgatosca.gov/319/Adult-Recreation-Center-Rentals",
-            "basis": "Exact facility described as available for weddings in reviewed primary source."
+            "basis": "Exact facility described as available for weddings in reviewed primary source.",
+            "displayed_value": "advertised",
+            "displayed_status": "published_evidence"
           }
         ],
         "other_fields": "Unsearched unless the case findings explicitly describe a source attempt. Unknown is not zero."
@@ -8703,7 +9414,9 @@
             "value": 300,
             "status": "published_evidence",
             "source_url": "https://www.sunnyvale.ca.gov/recreation-and-community/facility-rentals/meeting-and-event-rooms",
-            "basis": "Official Meeting and Event Rooms table: generic capacity, not dining/dance approval."
+            "basis": "Official Meeting and Event Rooms table: generic capacity, not dining/dance approval.",
+            "displayed_value": 300,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "sunnyvale-recreation-center-ballroom-sunnyvale-santa-clara",
@@ -8712,7 +9425,9 @@
             "value": 250,
             "status": "published_evidence",
             "source_url": "https://www.sunnyvale.ca.gov/recreation-and-community/facility-rentals/meeting-and-event-rooms",
-            "basis": "Official Meeting and Event Rooms table: generic capacity, not dining/dance approval."
+            "basis": "Official Meeting and Event Rooms table: generic capacity, not dining/dance approval.",
+            "displayed_value": 250,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "sunnyvale-recreation-center-community-room-sunnyvale-santa-clara",
@@ -8721,7 +9436,9 @@
             "value": 80,
             "status": "published_evidence",
             "source_url": "https://www.sunnyvale.ca.gov/recreation-and-community/facility-rentals/meeting-and-event-rooms",
-            "basis": "Official Meeting and Event Rooms table: generic capacity, not dining/dance approval."
+            "basis": "Official Meeting and Event Rooms table: generic capacity, not dining/dance approval.",
+            "displayed_value": 80,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "sunnyvale-city-hall-bay-room-sunnyvale-santa-clara",
@@ -8730,7 +9447,9 @@
             "value": 75,
             "status": "published_evidence",
             "source_url": "https://www.sunnyvale.ca.gov/recreation-and-community/facility-rentals/meeting-and-event-rooms",
-            "basis": "Official Meeting and Event Rooms table: generic capacity, not dining/dance approval."
+            "basis": "Official Meeting and Event Rooms table: generic capacity, not dining/dance approval.",
+            "displayed_value": 75,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "sunnyvale-creative-arts-center-meeting-room-sunnyvale-santa-clara",
@@ -8739,7 +9458,9 @@
             "value": 45,
             "status": "published_evidence",
             "source_url": "https://www.sunnyvale.ca.gov/recreation-and-community/facility-rentals/meeting-and-event-rooms",
-            "basis": "Official Meeting and Event Rooms table: generic capacity, not dining/dance approval."
+            "basis": "Official Meeting and Event Rooms table: generic capacity, not dining/dance approval.",
+            "displayed_value": 45,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "sunnyvale-senior-center-cypress-room-sunnyvale-santa-clara",
@@ -8748,7 +9469,9 @@
             "value": 40,
             "status": "published_evidence",
             "source_url": "https://www.sunnyvale.ca.gov/recreation-and-community/facility-rentals/meeting-and-event-rooms",
-            "basis": "Official Meeting and Event Rooms table: generic capacity, not dining/dance approval."
+            "basis": "Official Meeting and Event Rooms table: generic capacity, not dining/dance approval.",
+            "displayed_value": 40,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "sunnyvale-senior-center-sequoia-room-sunnyvale-santa-clara",
@@ -8757,7 +9480,9 @@
             "value": 40,
             "status": "published_evidence",
             "source_url": "https://www.sunnyvale.ca.gov/recreation-and-community/facility-rentals/meeting-and-event-rooms",
-            "basis": "Official Meeting and Event Rooms table: generic capacity, not dining/dance approval."
+            "basis": "Official Meeting and Event Rooms table: generic capacity, not dining/dance approval.",
+            "displayed_value": 40,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "sunnyvale-senior-center-laurel-room-sunnyvale-santa-clara",
@@ -8766,7 +9491,9 @@
             "value": 40,
             "status": "published_evidence",
             "source_url": "https://www.sunnyvale.ca.gov/recreation-and-community/facility-rentals/meeting-and-event-rooms",
-            "basis": "Official Meeting and Event Rooms table: generic capacity, not dining/dance approval."
+            "basis": "Official Meeting and Event Rooms table: generic capacity, not dining/dance approval.",
+            "displayed_value": 40,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "sunnyvale-recreation-center-neighborhood-room-sunnyvale-santa-clara",
@@ -8775,7 +9502,9 @@
             "value": 40,
             "status": "published_evidence",
             "source_url": "https://www.sunnyvale.ca.gov/recreation-and-community/facility-rentals/meeting-and-event-rooms",
-            "basis": "Official Meeting and Event Rooms table: generic capacity, not dining/dance approval."
+            "basis": "Official Meeting and Event Rooms table: generic capacity, not dining/dance approval.",
+            "displayed_value": 40,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "sunnyvale-senior-center-oak-lounge-sunnyvale-santa-clara",
@@ -8784,7 +9513,9 @@
             "value": 50,
             "status": "published_evidence",
             "source_url": "https://www.sunnyvale.ca.gov/recreation-and-community/facility-rentals/meeting-and-event-rooms",
-            "basis": "Official Meeting and Event Rooms table: generic capacity, not dining/dance approval."
+            "basis": "Official Meeting and Event Rooms table: generic capacity, not dining/dance approval.",
+            "displayed_value": 50,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "sunnyvale-recreation-center-board-room-sunnyvale-santa-clara",
@@ -8793,7 +9524,9 @@
             "value": 25,
             "status": "published_evidence",
             "source_url": "https://www.sunnyvale.ca.gov/recreation-and-community/facility-rentals/meeting-and-event-rooms",
-            "basis": "Official Meeting and Event Rooms table: generic capacity, not dining/dance approval."
+            "basis": "Official Meeting and Event Rooms table: generic capacity, not dining/dance approval.",
+            "displayed_value": 25,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "sunnyvale-recreation-center-conference-room-sunnyvale-santa-clara",
@@ -8802,7 +9535,9 @@
             "value": 16,
             "status": "published_evidence",
             "source_url": "https://www.sunnyvale.ca.gov/recreation-and-community/facility-rentals/meeting-and-event-rooms",
-            "basis": "Official Meeting and Event Rooms table: generic capacity, not dining/dance approval."
+            "basis": "Official Meeting and Event Rooms table: generic capacity, not dining/dance approval.",
+            "displayed_value": 16,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "sunnyvale-city-hall-cottonwood-room-sunnyvale-santa-clara",
@@ -8811,7 +9546,9 @@
             "value": 15,
             "status": "published_evidence",
             "source_url": "https://www.sunnyvale.ca.gov/recreation-and-community/facility-rentals/meeting-and-event-rooms",
-            "basis": "Official Meeting and Event Rooms table: generic capacity, not dining/dance approval."
+            "basis": "Official Meeting and Event Rooms table: generic capacity, not dining/dance approval.",
+            "displayed_value": 15,
+            "displayed_status": "published_evidence"
           },
           {
             "record_id": "sunnyvale-city-hall-cedar-room-sunnyvale-santa-clara",
@@ -8820,7 +9557,9 @@
             "value": 12,
             "status": "published_evidence",
             "source_url": "https://www.sunnyvale.ca.gov/recreation-and-community/facility-rentals/meeting-and-event-rooms",
-            "basis": "Official Meeting and Event Rooms table: generic capacity, not dining/dance approval."
+            "basis": "Official Meeting and Event Rooms table: generic capacity, not dining/dance approval.",
+            "displayed_value": 12,
+            "displayed_status": "published_evidence"
           }
         ],
         "other_fields": "Unsearched unless the case findings explicitly describe a source attempt. Unknown is not zero."
@@ -9093,7 +9832,27 @@
     "sunnyvale-recreation-center-board-room-sunnyvale-santa-clara": "Sunnyvale Recreation Center — Board Room",
     "sunnyvale-recreation-center-conference-room-sunnyvale-santa-clara": "Sunnyvale Recreation Center — Conference Room",
     "sunnyvale-city-hall-cottonwood-room-sunnyvale-santa-clara": "Sunnyvale City Hall — Cottonwood Room",
-    "sunnyvale-city-hall-cedar-room-sunnyvale-santa-clara": "Sunnyvale City Hall — Cedar Room"
+    "sunnyvale-city-hall-cedar-room-sunnyvale-santa-clara": "Sunnyvale City Hall — Cedar Room",
+    "south-hillsborough-elementary-school-classroom-standard-hillsborough-san-mateo": "South Hillsborough Elementary School — Classroom Standard",
+    "north-hillsborough-elementary-school-classroom-standard-hillsborough-san-mateo": "North Hillsborough Elementary School — Classroom Standard",
+    "crocker-middle-school-classroom-standard-hillsborough-san-mateo": "Crocker Middle School — Classroom Standard",
+    "west-hillsborough-elementary-and-pre-school-classroom-standard-hillsborough-san-mateo": "West Hillsborough Elementary and Pre-School — Classroom Standard",
+    "hillsborough-recreation-collab-room-hillsborough-san-mateo": "Hillsborough Recreation — Collab Room",
+    "crocker-middle-school-gym-hillsborough-san-mateo": "Crocker Middle School — Gym",
+    "crocker-middle-school-library-hillsborough-san-mateo": "Crocker Middle School — Library",
+    "west-hillsborough-elementary-and-pre-school-library-hillsborough-san-mateo": "West Hillsborough Elementary and Pre-School — Library",
+    "north-hillsborough-elementary-school-library-media-center-hillsborough-san-mateo": "North Hillsborough Elementary School — Library Media Center",
+    "south-hillsborough-elementary-school-media-center-james-library-hillsborough-san-mateo": "South Hillsborough Elementary School — Media Center / James Library",
+    "north-hillsborough-elementary-school-multi-purpose-room-hillsborough-san-mateo": "North Hillsborough Elementary School — Multi-Purpose Room",
+    "west-hillsborough-elementary-and-pre-school-multi-purpose-room-hillsborough-san-mateo": "West Hillsborough Elementary and Pre-School — Multi-Purpose Room",
+    "crocker-middle-school-multi-purpose-room-hillsborough-san-mateo": "Crocker Middle School — Multi-Purpose Room",
+    "south-hillsborough-elementary-school-multi-purpose-room-hillsborough-san-mateo": "South Hillsborough Elementary School — Multi-Purpose Room",
+    "south-hillsborough-elementary-school-north-multi-purpose-room-hillsborough-san-mateo": "South Hillsborough Elementary School — North Multi-Purpose Room",
+    "vista-park-picnic-tables-hillsborough-san-mateo": "Vista Park — Picnic Tables",
+    "los-altos-hills-town-hall-council-chambers-los-altos-hills-santa-clara": "Los Altos Hills Town Hall — Council Chambers",
+    "los-altos-hills-town-hall-council-chambers-conference-room-los-altos-hills-santa-clara": "Los Altos Hills Town Hall — Council Chambers Conference Room",
+    "los-altos-hills-town-hall-duxbury-room-los-altos-hills-santa-clara": "Los Altos Hills Town Hall — Duxbury Room",
+    "los-altos-hills-town-hall-parks-and-recreation-building-los-altos-hills-santa-clara": "Los Altos Hills Town Hall — Parks and Recreation Building"
   },
   "collector_fix": "Initial22MBdownloadlimit truncated24.1MBColmaguide. Original logged outcome corrected; full28pages recovered. Future archive capture validates byte limit and PDF page/text availability.",
   "contact_research": {

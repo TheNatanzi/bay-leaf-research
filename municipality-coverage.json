@@ -1351,19 +1351,28 @@
   {
     "county": "San Mateo",
     "municipality": "Hillsborough",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
-      "https://www.hcsdk8.org/for-community/facility-rental-usage"
+      "https://www.hcsdk8.org/for-community/facility-rental-usage",
+      "https://www.facilitron.com/hr94010"
     ],
-    "remaining": "Primary policy/guide read, but actual named rentable-facility inventory remains unaudited. No exact school room vetted this pass. Wedding permission Unknown; town directory pagination and school-level inventory remain. Crystal Springs Golf Burlingame address not reassigned to Hillsborough.",
-    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "remaining": "Wedding approval, food/alcohol permissions, price schedules and dinner/dance layouts remain Unknown. South School two similarly named MPR listings may overlap. Town/private/other-authority inventories remain separate.",
+    "checked_utc": "2026-11-08T07:33:04.013862+00:00",
     "audit_history": [
       {
         "audit_id": "municipal-gap-recovery-20261107",
         "case": 32,
         "checked_utc": "2026-11-08T07:23:22.024844+00:00",
         "reviewed_scope": "Policy/guide attempt only; rental inventory not established.",
+        "report_url": "municipal-gap-audit.html#case-32",
+        "complete": false
+      },
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 32,
+        "checked_utc": "2026-11-08T07:33:04.013862+00:00",
+        "reviewed_scope": "District-linked public portal:44 facility cards reviewed across all3 pages.16 named indoor/picnic listings added. Sports fields/courts/parking and ambiguous TLC listing not promoted as wedding spaces.",
         "report_url": "municipal-gap-audit.html#case-32",
         "complete": false
       }
@@ -1676,19 +1685,28 @@
   {
     "county": "Santa Clara",
     "municipality": "Los Altos Hills",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
-      "https://www.losaltoshills.ca.gov/DocumentCenter/View/7886/2026-01-Spring-Summer-LAH-Activity-Guide_02a-FINAL-WEB-"
+      "https://www.losaltoshills.ca.gov/DocumentCenter/View/7886/2026-01-Spring-Summer-LAH-Activity-Guide_02a-FINAL-WEB-",
+      "https://secure.rec1.com/CA/los-altos-hills-ca/catalog"
     ],
-    "remaining": "Primary policy/guide read, but actual named rentable-facility inventory remains unaudited. Actual resident eligibility/policies/fees and current portal inventory remain unread. Do not add every mapped preserve/college as event rentable.",
-    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "remaining": "Room capacities, current non-placeholder fees, event-specific wedding eligibility and cutoffs Unknown. Linked facility policy reader returned redirect-loop error. Westwind Barn/other authorities remain unreviewed; no account or reservation created.",
+    "checked_utc": "2026-11-08T07:33:04.013862+00:00",
     "audit_history": [
       {
         "audit_id": "municipal-gap-recovery-20261107",
         "case": 43,
         "checked_utc": "2026-11-08T07:23:22.024844+00:00",
         "reviewed_scope": "Policy/guide attempt only; rental inventory not established.",
+        "report_url": "municipal-gap-audit.html#case-43",
+        "complete": false
+      },
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 43,
+        "checked_utc": "2026-11-08T07:33:04.013862+00:00",
+        "reviewed_scope": "Guide link followed to the actual public reservation portal. Four Town Hall room listings reviewed; resident nonprofit/noncommercial restriction preserved. Parking lot and sports fields excluded from wedding inference.",
         "report_url": "municipal-gap-audit.html#case-43",
         "complete": false
       }
