@@ -1,0 +1,914 @@
+{
+  "audit_id": "20261108T082601Z-6e00d92e-system-audit",
+  "checked_utc": "2026-11-08T08:44:20.116232+00:00",
+  "added_record_ids": [
+    "san-carlos-adult-community-center-parkview-patio-room-combo-san-carlos-san-mateo",
+    "san-carlos-adult-community-center-parkview-room-san-carlos-san-mateo",
+    "san-carlos-adult-community-center-patio-room-san-carlos-san-mateo",
+    "san-carlos-adult-community-center-chestnut-room-san-carlos-san-mateo",
+    "san-carlos-adult-community-center-game-room-san-carlos-san-mateo",
+    "lakeside-park-garden-center-vista-room-oakland-alameda",
+    "lakeside-park-garden-center-ebell-room-oakland-alameda",
+    "lakeside-park-garden-center-garden-room-oakland-alameda",
+    "joaquin-miller-community-center-assembly-rooms-combined-oakland-alameda",
+    "joaquin-miller-community-center-conference-rooms-combined-oakland-alameda"
+  ],
+  "changes": [
+    {
+      "record_id": "san-carlos-adult-community-center-san-carlos-san-mateo",
+      "field": "capacity_max",
+      "before": null,
+      "value": 150,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "Official two-page brochure effective July1,2026; p2 table visually checked. Largest Parkview/Patio combination:150 dinner-only/120 dinner+dance/150 assembly. Cleaning325 required; security72 per hour conditional on alcohol; count/hours unresolved.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-san-carlos-san-mateo",
+      "field": "capacity_seated",
+      "before": null,
+      "value": 150,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "Official two-page brochure effective July1,2026; p2 table visually checked. Largest Parkview/Patio combination:150 dinner-only/120 dinner+dance/150 assembly. Cleaning325 required; security72 per hour conditional on alcohol; count/hours unresolved.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-san-carlos-san-mateo",
+      "field": "capacity_dinner_dance",
+      "before": null,
+      "value": 120,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "Official two-page brochure effective July1,2026; p2 table visually checked. Largest Parkview/Patio combination:150 dinner-only/120 dinner+dance/150 assembly. Cleaning325 required; security72 per hour conditional on alcohol; count/hours unresolved.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-san-carlos-san-mateo",
+      "field": "chairs_included",
+      "before": null,
+      "value": "yes",
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "Official two-page brochure effective July1,2026; p2 table visually checked. Largest Parkview/Patio combination:150 dinner-only/120 dinner+dance/150 assembly. Cleaning325 required; security72 per hour conditional on alcohol; count/hours unresolved.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-san-carlos-san-mateo",
+      "field": "tables_included",
+      "before": null,
+      "value": "yes",
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "Official two-page brochure effective July1,2026; p2 table visually checked. Largest Parkview/Patio combination:150 dinner-only/120 dinner+dance/150 assembly. Cleaning325 required; security72 per hour conditional on alcohol; count/hours unresolved.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-san-carlos-san-mateo",
+      "field": "cleaning_fee",
+      "before": null,
+      "value": 325,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "Official two-page brochure effective July1,2026; p2 table visually checked. Largest Parkview/Patio combination:150 dinner-only/120 dinner+dance/150 assembly. Cleaning325 required; security72 per hour conditional on alcohol; count/hours unresolved.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-san-carlos-san-mateo",
+      "field": "security_hourly",
+      "before": null,
+      "value": 72,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "Official two-page brochure effective July1,2026; p2 table visually checked. Largest Parkview/Patio combination:150 dinner-only/120 dinner+dance/150 assembly. Cleaning325 required; security72 per hour conditional on alcohol; count/hours unresolved.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-san-carlos-san-mateo",
+      "field": "wedding_permission",
+      "before": null,
+      "value": "advertised",
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "Official two-page brochure effective July1,2026; p2 table visually checked. Largest Parkview/Patio combination:150 dinner-only/120 dinner+dance/150 assembly. Cleaning325 required; security72 per hour conditional on alcohol; count/hours unresolved.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-parkview-patio-room-combo-san-carlos-san-mateo",
+      "field": "capacity_max",
+      "before": null,
+      "value": 150,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-parkview-patio-room-combo-san-carlos-san-mateo",
+      "field": "capacity_seated",
+      "before": null,
+      "value": 150,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-parkview-patio-room-combo-san-carlos-san-mateo",
+      "field": "capacity_dinner_dance",
+      "before": null,
+      "value": 120,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-parkview-patio-room-combo-san-carlos-san-mateo",
+      "field": "fee_min",
+      "before": null,
+      "value": 1102,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-parkview-patio-room-combo-san-carlos-san-mateo",
+      "field": "fee_max",
+      "before": null,
+      "value": 1322,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-parkview-patio-room-combo-san-carlos-san-mateo",
+      "field": "rental_hours",
+      "before": null,
+      "value": 3,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-parkview-patio-room-combo-san-carlos-san-mateo",
+      "field": "minimum_rental_hours",
+      "before": null,
+      "value": 3,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-parkview-patio-room-combo-san-carlos-san-mateo",
+      "field": "deposit_refundable",
+      "before": null,
+      "value": 500,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-parkview-patio-room-combo-san-carlos-san-mateo",
+      "field": "cleaning_fee",
+      "before": null,
+      "value": 325,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-parkview-patio-room-combo-san-carlos-san-mateo",
+      "field": "security_hourly",
+      "before": null,
+      "value": 72,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-parkview-patio-room-combo-san-carlos-san-mateo",
+      "field": "tables_included",
+      "before": null,
+      "value": "yes",
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-parkview-patio-room-combo-san-carlos-san-mateo",
+      "field": "chairs_included",
+      "before": null,
+      "value": "yes",
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-parkview-room-san-carlos-san-mateo",
+      "field": "capacity_max",
+      "before": null,
+      "value": 135,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-parkview-room-san-carlos-san-mateo",
+      "field": "capacity_seated",
+      "before": null,
+      "value": 100,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-parkview-room-san-carlos-san-mateo",
+      "field": "capacity_dinner_dance",
+      "before": null,
+      "value": 75,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-parkview-room-san-carlos-san-mateo",
+      "field": "fee_min",
+      "before": null,
+      "value": 887,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-parkview-room-san-carlos-san-mateo",
+      "field": "fee_max",
+      "before": null,
+      "value": 1065,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-parkview-room-san-carlos-san-mateo",
+      "field": "rental_hours",
+      "before": null,
+      "value": 3,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-parkview-room-san-carlos-san-mateo",
+      "field": "minimum_rental_hours",
+      "before": null,
+      "value": 3,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-parkview-room-san-carlos-san-mateo",
+      "field": "deposit_refundable",
+      "before": null,
+      "value": 500,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-parkview-room-san-carlos-san-mateo",
+      "field": "cleaning_fee",
+      "before": null,
+      "value": 325,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-parkview-room-san-carlos-san-mateo",
+      "field": "security_hourly",
+      "before": null,
+      "value": 72,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-parkview-room-san-carlos-san-mateo",
+      "field": "tables_included",
+      "before": null,
+      "value": "yes",
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-parkview-room-san-carlos-san-mateo",
+      "field": "chairs_included",
+      "before": null,
+      "value": "yes",
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-patio-room-san-carlos-san-mateo",
+      "field": "capacity_max",
+      "before": null,
+      "value": 50,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-patio-room-san-carlos-san-mateo",
+      "field": "capacity_seated",
+      "before": null,
+      "value": 40,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-patio-room-san-carlos-san-mateo",
+      "field": "fee_min",
+      "before": null,
+      "value": 531,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-patio-room-san-carlos-san-mateo",
+      "field": "fee_max",
+      "before": null,
+      "value": 637,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-patio-room-san-carlos-san-mateo",
+      "field": "rental_hours",
+      "before": null,
+      "value": 3,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-patio-room-san-carlos-san-mateo",
+      "field": "minimum_rental_hours",
+      "before": null,
+      "value": 3,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-patio-room-san-carlos-san-mateo",
+      "field": "deposit_refundable",
+      "before": null,
+      "value": 250,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-patio-room-san-carlos-san-mateo",
+      "field": "cleaning_fee",
+      "before": null,
+      "value": 325,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-patio-room-san-carlos-san-mateo",
+      "field": "security_hourly",
+      "before": null,
+      "value": 72,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-patio-room-san-carlos-san-mateo",
+      "field": "tables_included",
+      "before": null,
+      "value": "yes",
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-patio-room-san-carlos-san-mateo",
+      "field": "chairs_included",
+      "before": null,
+      "value": "yes",
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-chestnut-room-san-carlos-san-mateo",
+      "field": "capacity_max",
+      "before": null,
+      "value": 32,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-chestnut-room-san-carlos-san-mateo",
+      "field": "fee_min",
+      "before": null,
+      "value": 531,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-chestnut-room-san-carlos-san-mateo",
+      "field": "fee_max",
+      "before": null,
+      "value": 637,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-chestnut-room-san-carlos-san-mateo",
+      "field": "rental_hours",
+      "before": null,
+      "value": 3,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-chestnut-room-san-carlos-san-mateo",
+      "field": "minimum_rental_hours",
+      "before": null,
+      "value": 3,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-chestnut-room-san-carlos-san-mateo",
+      "field": "deposit_refundable",
+      "before": null,
+      "value": 250,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-chestnut-room-san-carlos-san-mateo",
+      "field": "cleaning_fee",
+      "before": null,
+      "value": 325,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-chestnut-room-san-carlos-san-mateo",
+      "field": "security_hourly",
+      "before": null,
+      "value": 72,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-chestnut-room-san-carlos-san-mateo",
+      "field": "tables_included",
+      "before": null,
+      "value": "yes",
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-chestnut-room-san-carlos-san-mateo",
+      "field": "chairs_included",
+      "before": null,
+      "value": "yes",
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-game-room-san-carlos-san-mateo",
+      "field": "capacity_max",
+      "before": null,
+      "value": 20,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-game-room-san-carlos-san-mateo",
+      "field": "fee_min",
+      "before": null,
+      "value": 531,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-game-room-san-carlos-san-mateo",
+      "field": "fee_max",
+      "before": null,
+      "value": 637,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-game-room-san-carlos-san-mateo",
+      "field": "rental_hours",
+      "before": null,
+      "value": 3,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-game-room-san-carlos-san-mateo",
+      "field": "minimum_rental_hours",
+      "before": null,
+      "value": 3,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-game-room-san-carlos-san-mateo",
+      "field": "deposit_refundable",
+      "before": null,
+      "value": 250,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-game-room-san-carlos-san-mateo",
+      "field": "cleaning_fee",
+      "before": null,
+      "value": 325,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-game-room-san-carlos-san-mateo",
+      "field": "security_hourly",
+      "before": null,
+      "value": 72,
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-game-room-san-carlos-san-mateo",
+      "field": "tables_included",
+      "before": null,
+      "value": "yes",
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "san-carlos-adult-community-center-game-room-san-carlos-san-mateo",
+      "field": "chairs_included",
+      "before": null,
+      "value": "yes",
+      "source_url": "https://www.cityofsancarlos.org/Document%20Center/Parks%20and%20Facilities/Rent%20a%20Facility/ACC%20Rental%20Brochure%20%2026-27.pdf?t=202608071242190",
+      "basis": "2026â€“27 official brochure p2: exact named room. Fees span resident/nonresident three-hour base; subsequent hours115/138 respectively, eligibility unresolved. Deposit refundable; cleaning325 extra. Security72/hour only with alcohol; required count/hours not given.",
+      "effective_date": "2026-07-01"
+    },
+    {
+      "record_id": "leona-lodge-oakland-alameda",
+      "field": "capacity_max",
+      "before": null,
+      "value": 212,
+      "source_url": "https://www.oaklandca.gov/Community/Parks-Facilities/Recreation-Centers/Leona-Lodge?lang_update=639157588296359065",
+      "basis": "Official current facility description: separate banquet/theatre/standing capacities; explicitly permits choosing your caterer. Max here is standing, not dinner or dinner+dance.",
+      "effective_date": null
+    },
+    {
+      "record_id": "leona-lodge-oakland-alameda",
+      "field": "capacity_seated",
+      "before": null,
+      "value": 100,
+      "source_url": "https://www.oaklandca.gov/Community/Parks-Facilities/Recreation-Centers/Leona-Lodge?lang_update=639157588296359065",
+      "basis": "Official current facility description: separate banquet/theatre/standing capacities; explicitly permits choosing your caterer. Max here is standing, not dinner or dinner+dance.",
+      "effective_date": null
+    },
+    {
+      "record_id": "leona-lodge-oakland-alameda",
+      "field": "capacity_standing",
+      "before": null,
+      "value": 212,
+      "source_url": "https://www.oaklandca.gov/Community/Parks-Facilities/Recreation-Centers/Leona-Lodge?lang_update=639157588296359065",
+      "basis": "Official current facility description: separate banquet/theatre/standing capacities; explicitly permits choosing your caterer. Max here is standing, not dinner or dinner+dance.",
+      "effective_date": null
+    },
+    {
+      "record_id": "leona-lodge-oakland-alameda",
+      "field": "outside_catering",
+      "before": null,
+      "value": "yes",
+      "source_url": "https://www.oaklandca.gov/Community/Parks-Facilities/Recreation-Centers/Leona-Lodge?lang_update=639157588296359065",
+      "basis": "Official current facility description: separate banquet/theatre/standing capacities; explicitly permits choosing your caterer. Max here is standing, not dinner or dinner+dance.",
+      "effective_date": null
+    },
+    {
+      "record_id": "sequoia-lodge-oakland-alameda",
+      "field": "capacity_max",
+      "before": null,
+      "value": 150,
+      "source_url": "https://www.oaklandca.gov/Community/Parks-Facilities/Recreation-Centers/Sequoia-Lodge",
+      "basis": "Official current facility description: separate banquet/theatre/standing capacities; explicitly permits choosing your caterer. Max here is standing, not dinner or dinner+dance.",
+      "effective_date": null
+    },
+    {
+      "record_id": "sequoia-lodge-oakland-alameda",
+      "field": "capacity_seated",
+      "before": null,
+      "value": 80,
+      "source_url": "https://www.oaklandca.gov/Community/Parks-Facilities/Recreation-Centers/Sequoia-Lodge",
+      "basis": "Official current facility description: separate banquet/theatre/standing capacities; explicitly permits choosing your caterer. Max here is standing, not dinner or dinner+dance.",
+      "effective_date": null
+    },
+    {
+      "record_id": "sequoia-lodge-oakland-alameda",
+      "field": "capacity_standing",
+      "before": null,
+      "value": 150,
+      "source_url": "https://www.oaklandca.gov/Community/Parks-Facilities/Recreation-Centers/Sequoia-Lodge",
+      "basis": "Official current facility description: separate banquet/theatre/standing capacities; explicitly permits choosing your caterer. Max here is standing, not dinner or dinner+dance.",
+      "effective_date": null
+    },
+    {
+      "record_id": "sequoia-lodge-oakland-alameda",
+      "field": "outside_catering",
+      "before": null,
+      "value": "yes",
+      "source_url": "https://www.oaklandca.gov/Community/Parks-Facilities/Recreation-Centers/Sequoia-Lodge",
+      "basis": "Official current facility description: separate banquet/theatre/standing capacities; explicitly permits choosing your caterer. Max here is standing, not dinner or dinner+dance.",
+      "effective_date": null
+    },
+    {
+      "record_id": "dunsmuir-hellman-historic-estate-oakland-alameda",
+      "field": "construction_year",
+      "before": null,
+      "value": 1899,
+      "source_url": "https://www.oaklandca.gov/Community/Parks-Facilities/Rent-a-Facility-or-Park/Dunsmuir-Hellman-Historic-Estate",
+      "basis": "City describes the mansion as built1899 on50acres and advertises weddings. Building year applies to mansion, not every estate structure. Acreage is an advertised site extent, not parcel/title verification.",
+      "effective_date": null
+    },
+    {
+      "record_id": "dunsmuir-hellman-historic-estate-oakland-alameda",
+      "field": "land_acres",
+      "before": null,
+      "value": 50,
+      "source_url": "https://www.oaklandca.gov/Community/Parks-Facilities/Rent-a-Facility-or-Park/Dunsmuir-Hellman-Historic-Estate",
+      "basis": "City describes the mansion as built1899 on50acres and advertises weddings. Building year applies to mansion, not every estate structure. Acreage is an advertised site extent, not parcel/title verification.",
+      "effective_date": null
+    },
+    {
+      "record_id": "dunsmuir-hellman-historic-estate-oakland-alameda",
+      "field": "wedding_permission",
+      "before": null,
+      "value": "advertised",
+      "source_url": "https://www.oaklandca.gov/Community/Parks-Facilities/Rent-a-Facility-or-Park/Dunsmuir-Hellman-Historic-Estate",
+      "basis": "City describes the mansion as built1899 on50acres and advertises weddings. Building year applies to mansion, not every estate structure. Acreage is an advertised site extent, not parcel/title verification.",
+      "effective_date": null
+    },
+    {
+      "record_id": "lakeside-park-garden-center-oakland-alameda",
+      "field": "capacity_max",
+      "before": null,
+      "value": 300,
+      "source_url": "https://www.oaklandca.gov/Community/Parks-Facilities/Parks/Lakeside-Park/Lakeside-Park-Garden-Center",
+      "basis": "City room table: largest named room Vista300 standing/150 banquet; Ebell250/125; Garden100/50. Separate rooms not summed. Caterer of choice explicitly permitted.",
+      "effective_date": null
+    },
+    {
+      "record_id": "lakeside-park-garden-center-oakland-alameda",
+      "field": "capacity_seated",
+      "before": null,
+      "value": 150,
+      "source_url": "https://www.oaklandca.gov/Community/Parks-Facilities/Parks/Lakeside-Park/Lakeside-Park-Garden-Center",
+      "basis": "City room table: largest named room Vista300 standing/150 banquet; Ebell250/125; Garden100/50. Separate rooms not summed. Caterer of choice explicitly permitted.",
+      "effective_date": null
+    },
+    {
+      "record_id": "lakeside-park-garden-center-oakland-alameda",
+      "field": "outside_catering",
+      "before": null,
+      "value": "yes",
+      "source_url": "https://www.oaklandca.gov/Community/Parks-Facilities/Parks/Lakeside-Park/Lakeside-Park-Garden-Center",
+      "basis": "City room table: largest named room Vista300 standing/150 banquet; Ebell250/125; Garden100/50. Separate rooms not summed. Caterer of choice explicitly permitted.",
+      "effective_date": null
+    },
+    {
+      "record_id": "lakeside-park-garden-center-vista-room-oakland-alameda",
+      "field": "capacity_max",
+      "before": null,
+      "value": 300,
+      "source_url": "https://www.oaklandca.gov/Community/Parks-Facilities/Parks/Lakeside-Park/Lakeside-Park-Garden-Center",
+      "basis": "Official named-room table: banquet and standing separate; theatre 225. Not dinner+dance or an issued occupancy approval.",
+      "effective_date": null
+    },
+    {
+      "record_id": "lakeside-park-garden-center-vista-room-oakland-alameda",
+      "field": "capacity_seated",
+      "before": null,
+      "value": 150,
+      "source_url": "https://www.oaklandca.gov/Community/Parks-Facilities/Parks/Lakeside-Park/Lakeside-Park-Garden-Center",
+      "basis": "Official named-room table: banquet and standing separate; theatre 225. Not dinner+dance or an issued occupancy approval.",
+      "effective_date": null
+    },
+    {
+      "record_id": "lakeside-park-garden-center-vista-room-oakland-alameda",
+      "field": "capacity_standing",
+      "before": null,
+      "value": 300,
+      "source_url": "https://www.oaklandca.gov/Community/Parks-Facilities/Parks/Lakeside-Park/Lakeside-Park-Garden-Center",
+      "basis": "Official named-room table: banquet and standing separate; theatre 225. Not dinner+dance or an issued occupancy approval.",
+      "effective_date": null
+    },
+    {
+      "record_id": "lakeside-park-garden-center-vista-room-oakland-alameda",
+      "field": "outside_catering",
+      "before": null,
+      "value": "yes",
+      "source_url": "https://www.oaklandca.gov/Community/Parks-Facilities/Parks/Lakeside-Park/Lakeside-Park-Garden-Center",
+      "basis": "Official named-room table: banquet and standing separate; theatre 225. Not dinner+dance or an issued occupancy approval.",
+      "effective_date": null
+    },
+    {
+      "record_id": "lakeside-park-garden-center-ebell-room-oakland-alameda",
+      "field": "capacity_max",
+      "before": null,
+      "value": 250,
+      "source_url": "https://www.oaklandca.gov/Community/Parks-Facilities/Parks/Lakeside-Park/Lakeside-Park-Garden-Center",
+      "basis": "Official named-room table: banquet and standing separate; theatre 175. Not dinner+dance or an issued occupancy approval.",
+      "effective_date": null
+    },
+    {
+      "record_id": "lakeside-park-garden-center-ebell-room-oakland-alameda",
+      "field": "capacity_seated",
+      "before": null,
+      "value": 125,
+      "source_url": "https://www.oaklandca.gov/Community/Parks-Facilities/Parks/Lakeside-Park/Lakeside-Park-Garden-Center",
+      "basis": "Official named-room table: banquet and standing separate; theatre 175. Not dinner+dance or an issued occupancy approval.",
+      "effective_date": null
+    },
+    {
+      "record_id": "lakeside-park-garden-center-ebell-room-oakland-alameda",
+      "field": "capacity_standing",
+      "before": null,
+      "value": 250,
+      "source_url": "https://www.oaklandca.gov/Community/Parks-Facilities/Parks/Lakeside-Park/Lakeside-Park-Garden-Center",
+      "basis": "Official named-room table: banquet and standing separate; theatre 175. Not dinner+dance or an issued occupancy approval.",
+      "effective_date": null
+    },
+    {
+      "record_id": "lakeside-park-garden-center-ebell-room-oakland-alameda",
+      "field": "outside_catering",
+      "before": null,
+      "value": "yes",
+      "source_url": "https://www.oaklandca.gov/Community/Parks-Facilities/Parks/Lakeside-Park/Lakeside-Park-Garden-Center",
+      "basis": "Official named-room table: banquet and standing separate; theatre 175. Not dinner+dance or an issued occupancy approval.",
+      "effective_date": null
+    },
+    {
+      "record_id": "lakeside-park-garden-center-garden-room-oakland-alameda",
+      "field": "capacity_max",
+      "before": null,
+      "value": 100,
+      "source_url": "https://www.oaklandca.gov/Community/Parks-Facilities/Parks/Lakeside-Park/Lakeside-Park-Garden-Center",
+      "basis": "Official named-room table: banquet and standing separate; theatre 75. Not dinner+dance or an issued occupancy approval.",
+      "effective_date": null
+    },
+    {
+      "record_id": "lakeside-park-garden-center-garden-room-oakland-alameda",
+      "field": "capacity_seated",
+      "before": null,
+      "value": 50,
+      "source_url": "https://www.oaklandca.gov/Community/Parks-Facilities/Parks/Lakeside-Park/Lakeside-Park-Garden-Center",
+      "basis": "Official named-room table: banquet and standing separate; theatre 75. Not dinner+dance or an issued occupancy approval.",
+      "effective_date": null
+    },
+    {
+      "record_id": "lakeside-park-garden-center-garden-room-oakland-alameda",
+      "field": "capacity_standing",
+      "before": null,
+      "value": 100,
+      "source_url": "https://www.oaklandca.gov/Community/Parks-Facilities/Parks/Lakeside-Park/Lakeside-Park-Garden-Center",
+      "basis": "Official named-room table: banquet and standing separate; theatre 75. Not dinner+dance or an issued occupancy approval.",
+      "effective_date": null
+    },
+    {
+      "record_id": "lakeside-park-garden-center-garden-room-oakland-alameda",
+      "field": "outside_catering",
+      "before": null,
+      "value": "yes",
+      "source_url": "https://www.oaklandca.gov/Community/Parks-Facilities/Parks/Lakeside-Park/Lakeside-Park-Garden-Center",
+      "basis": "Official named-room table: banquet and standing separate; theatre 75. Not dinner+dance or an issued occupancy approval.",
+      "effective_date": null
+    },
+    {
+      "record_id": "joaquin-miller-community-center-oakland-alameda",
+      "field": "capacity_max",
+      "before": null,
+      "value": 300,
+      "source_url": "https://www.oaklandca.gov/Community/Parks-Facilities/Recreation-Centers/Joaquin-Miller-Community-Center",
+      "basis": "City table: two assembly rooms combined300standing/160banquet/175theatre; three conference rooms combined100standing/48banquet/72theatre. Do not sum across separate configurations.",
+      "effective_date": null
+    },
+    {
+      "record_id": "joaquin-miller-community-center-oakland-alameda",
+      "field": "capacity_seated",
+      "before": null,
+      "value": 160,
+      "source_url": "https://www.oaklandca.gov/Community/Parks-Facilities/Recreation-Centers/Joaquin-Miller-Community-Center",
+      "basis": "City table: two assembly rooms combined300standing/160banquet/175theatre; three conference rooms combined100standing/48banquet/72theatre. Do not sum across separate configurations.",
+      "effective_date": null
+    },
+    {
+      "record_id": "joaquin-miller-community-center-assembly-rooms-combined-oakland-alameda",
+      "field": "capacity_max",
+      "before": null,
+      "value": 300,
+      "source_url": "https://www.oaklandca.gov/Community/Parks-Facilities/Recreation-Centers/Joaquin-Miller-Community-Center",
+      "basis": "Official combined-room configuration only; assembly rooms80banquet each,160combined; conference16each,48combined. Separate layouts and rental combinations not summed.",
+      "effective_date": null
+    },
+    {
+      "record_id": "joaquin-miller-community-center-assembly-rooms-combined-oakland-alameda",
+      "field": "capacity_seated",
+      "before": null,
+      "value": 160,
+      "source_url": "https://www.oaklandca.gov/Community/Parks-Facilities/Recreation-Centers/Joaquin-Miller-Community-Center",
+      "basis": "Official combined-room configuration only; assembly rooms80banquet each,160combined; conference16each,48combined. Separate layouts and rental combinations not summed.",
+      "effective_date": null
+    },
+    {
+      "record_id": "joaquin-miller-community-center-assembly-rooms-combined-oakland-alameda",
+      "field": "capacity_standing",
+      "before": null,
+      "value": 300,
+      "source_url": "https://www.oaklandca.gov/Community/Parks-Facilities/Recreation-Centers/Joaquin-Miller-Community-Center",
+      "basis": "Official combined-room configuration only; assembly rooms80banquet each,160combined; conference16each,48combined. Separate layouts and rental combinations not summed.",
+      "effective_date": null
+    },
+    {
+      "record_id": "joaquin-miller-community-center-conference-rooms-combined-oakland-alameda",
+      "field": "capacity_max",
+      "before": null,
+      "value": 100,
+      "source_url": "https://www.oaklandca.gov/Community/Parks-Facilities/Recreation-Centers/Joaquin-Miller-Community-Center",
+      "basis": "Official combined-room configuration only; assembly rooms80banquet each,160combined; conference16each,48combined. Separate layouts and rental combinations not summed.",
+      "effective_date": null
+    },
+    {
+      "record_id": "joaquin-miller-community-center-conference-rooms-combined-oakland-alameda",
+      "field": "capacity_seated",
+      "before": null,
+      "value": 48,
+      "source_url": "https://www.oaklandca.gov/Community/Parks-Facilities/Recreation-Centers/Joaquin-Miller-Community-Center",
+      "basis": "Official combined-room configuration only; assembly rooms80banquet each,160combined; conference16each,48combined. Separate layouts and rental combinations not summed.",
+      "effective_date": null
+    },
+    {
+      "record_id": "joaquin-miller-community-center-conference-rooms-combined-oakland-alameda",
+      "field": "capacity_standing",
+      "before": null,
+      "value": 100,
+      "source_url": "https://www.oaklandca.gov/Community/Parks-Facilities/Recreation-Centers/Joaquin-Miller-Community-Center",
+      "basis": "Official combined-room configuration only; assembly rooms80banquet each,160combined; conference16each,48combined. Separate layouts and rental combinations not summed.",
+      "effective_date": null
+    }
+  ],
+  "unique_properties": 6,
+  "current_brochure": "San Carlos2pages effective2026-07-01, visually checkedp2",
+  "still_unknown": [
+    "SanCarlos independent clock cutoffs and caterer freedom",
+    "Current Oakland2026â€“27 fees",
+    "LakeGarden weekdayparking conflict",
+    "Issued current complete wedding quotes"
+  ],
+  "firecrawl": "Attempt failed; no facts imported",
+  "original_record_count": 2334,
+  "original_ids_preserved": true,
+  "resource_replay": {
+    "scanned_archived_inventory_pages": 30,
+    "new_resource_routes": 33,
+    "navigation_routes_removed": 59,
+    "review_complete": false,
+    "note": "Offline replay over existing HTML. New URLs are pending resources, not additional reviewed or wedding-approved venues."
+  },
+  "new_usable_fact_cells": 97,
+  "changed_known_fact_cells": 0,
+  "record_count": 2344,
+  "property_group_count": 1002,
+  "review_scope": "Cross-system software/workflow audit plus targeted public evidence review at six properties; not an audit of every source or venue."
+}

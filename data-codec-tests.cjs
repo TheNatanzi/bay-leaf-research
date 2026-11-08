@@ -1,0 +1,9 @@
+const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),{performance}=require('node:perf_hooks'),C=require('./data-codec.js');
+const d=require('./research.json'),h=fs.readFileSync(path.join(__dirname,'index.html'),'utf8'),wire=JSON.parse(h.match(/<script id="research-data" type="application\/json">([\s\S]*?)<\/script>/)[1]);
+assert.equal(wire.format,'bayleaf-intern-v1');const start=performance.now(),decoded=C.decode(wire),ms=performance.now()-start;assert.deepEqual(decoded,d,'Packed browser snapshot must retain all canonical facts, conditions, sources and dates');
+assert(Buffer.byteLength(JSON.stringify(wire))<Buffer.byteLength(JSON.stringify(d))*.25,'Snapshot should be less than25% of canonical size');
+const repeat={format:'bayleaf-intern-v1',root:5,nodes:[['s','x'],['p',1],['o',[0,1]],['s','a'],['s','b'],['o',[3,2,4,2]]]};const clone=C.decode(repeat);assert.notEqual(clone.a,clone.b);clone.a.x=9;assert.equal(clone.b.x,1,'Rooms with equal evidence must not share mutable objects');
+const dangerous=C.decode({format:'bayleaf-intern-v1',root:2,nodes:[['s','__proto__'],['p',4],['o',[0,1]]]});assert.equal(Object.getPrototypeOf(dangerous),Object.prototype);assert.equal(dangerous.__proto__,4);assert(Object.hasOwn(dangerous,'__proto__'));
+assert.throws(()=>C.decode({format:'bayleaf-intern-v1',root:0,nodes:[['a',[0]]]}),/cyclic/);assert.throws(()=>C.decode({format:'bayleaf-intern-v1',root:1,nodes:[['p',1],['o',[0]]]}),/object/);assert.equal(C.decode(d),d);
+for(const m of h.matchAll(/<script>([\s\S]*?)<\/script>/g))new vm.Script(m[1]);
+console.log(JSON.stringify({records:decoded.venues.length,canonical_bytes:Buffer.byteLength(JSON.stringify(d)),packed_bytes:Buffer.byteLength(JSON.stringify(wire)),decode_ms:Math.round(ms),lossless:true,independent_objects:true}));

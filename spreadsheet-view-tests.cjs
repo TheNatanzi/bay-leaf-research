@@ -11,7 +11,7 @@ const cityRows=d.venues.filter(v=>ctx.matchesCity(v,'San Francisco'));assert(cit
 vm.runInContext(fs.readFileSync(path.join(__dirname,'numeric-ui.js'),'utf8').match(/function venueTableLabel\([^\n]+\}/)[0],ctx);assert.equal(ctx.venueTableLabel({name:'Ballroom',parent_property:'Example Hotel'}),'Example Hotel · Ballroom');assert.equal(ctx.venueTableLabel({name:'Example Hotel — Ballroom',parent_property:'Example Hotel'}),'Example Hotel — Ballroom');vm.runInContext(html.match(/function compareValue\([^\n]+\}/)[0],ctx);assert.equal(ctx.compareValue({name:'Ballroom',parent_property:'Example Hotel'},'name'),'Example Hotel · Ballroom');
 assert(html.includes("comparePageSize='all'"));assert(html.includes("catalogPageSize='all'"));assert(html.includes('<option value="all" selected>All results</option>'));for(const id of ['compareCity','governmentCity','potentialCity'])assert(html.includes('id="'+id+'"'));assert(html.includes('data-density="compact"'));
 for(const m of html.matchAll(/<script>([\s\S]*?)<\/script>/g))new vm.Script(m[1]);
-assert.deepEqual(JSON.parse(html.match(/<script id="research-data" type="application\/json">(.*?)<\/script>/s)[1]),d);
+assert.deepEqual(require('./data-codec.js').decode(JSON.parse(html.match(/<script id="research-data" type="application\/json">(.*?)<\/script>/s)[1])),d);
 const elements={};ctx.$=id=>elements[id];
 vm.runInContext(html.match(/function syncTablePosition\([^\n]+\}/)[0],ctx);
 for(const prefix of ['compare','government','potential']){

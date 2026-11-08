@@ -31,3 +31,11 @@ A scoped audit can finish while questions remain. It does not establish exhausti
 - Record internal effective dates separately from filenames and fetch dates. Historical prices stay historical.
 - Keep failed captures and their corrected outcomes in the audit; preserve the full replacement separately.
 
+
+## Alternate-route checks added November 8, 2026
+
+- Follow named facility/room profiles and accessible button labels, including linked publication viewers. Keep each route pending until its content is actually reviewed.
+- Check the authority’s finance/adopted-fee index when a venue page links an older brochure. Search engines may substitute older schedules for an exact current-file query; verify the opened source’s internal date.
+- A failed browser download does not prove the document is unavailable. Try its already-published direct URL using an ordinary download when permitted. Respect robots and access blocks; never use another tool to bypass them.
+- For a PDF marked reviewed, account for every actual page number. Inspect image-only/table pages visually. A pair of arbitrary page numbers is not a complete two-page review.
+- Preserve disagreements, such as two parking prices on the same current page. Avoid one numeric fee until its applicable basis is resolved. Descriptive mansion rooms are not lodging bedrooms.

@@ -19,4 +19,24 @@ class ResourceTests(unittest.TestCase):
   self.assertFalse(m.resources_reviewed([row]));row['state']='unreadable_response';self.assertFalse(m.resources_reviewed([row]));row.update(state='reviewed',page_count=2,reviewed_pages=[1,2]);self.assertTrue(m.resources_reviewed([row]))
  def test_empty_accepted_response_is_not_a_download(self):
   self.assertFalse(m.usable_download(202,b''));self.assertFalse(m.usable_download(200,b'  '));self.assertTrue(m.usable_download(200,b'<html>Venue guide</html>'))
+ def test_named_room_links_are_preserved(self):
+  rows=m.inventory('<h2>Indoor Spaces</h2><a href="/165/Centre-Concord">Centre Concord</a><a href="/169/Willow-Pass">Willow Pass Community Center</a>','https://city.example/')
+  self.assertEqual([x['kind'] for x in rows],['facility_profile','facility_profile']);self.assertTrue(all(x['state']=='pending' for x in rows))
+ def test_navigation_and_footer_do_not_become_venue_leads(self):
+  rows=m.inventory('<nav><h2>Facility Rentals</h2><a href="/x">City Hall</a><img></nav><main><h2>Facilities</h2><a href="/y">Garden Room</a></main><footer><a href="/z">Town Hall</a></footer>','https://city.example/')
+  self.assertEqual([x['label'] for x in rows],['Garden Room'])
+ def test_literal_assignment_target_is_not_executed(self):
+  rows=m.inventory('''<button onclick="window.location.href='/guide.pdf'">View now</button>''','https://venue.example/')
+  self.assertEqual(rows[0]['url'],'https://venue.example/guide.pdf')
+ def test_reviewed_pages_must_be_actual_complete_page_range(self):
+  row={'kind':'pdf_document','state':'reviewed','reviewed_utc':'2026-11-08','page_count':2,'reviewed_pages':[99,100]}
+  self.assertFalse(m.resources_reviewed([row]));row['reviewed_pages']=[1,2];self.assertTrue(m.resources_reviewed([row]))
+ def test_truncated_bytes_are_not_success(self):
+  self.assertFalse(m.usable_download(200,b'123',content_length=8));self.assertFalse(m.usable_download(200,b'123',limit=3));self.assertTrue(m.usable_download(200,b'123',content_length=3,limit=4))
+ def test_publication_host_lookalikes_are_not_publication_sites(self):
+  self.assertIsNone(m.classify('https://issuu.com.example.net/'))
+  self.assertEqual(m.classify('https://viewer.heyzine.com/issue'),'interactive_publication')
+ def test_room_anchors_and_accessible_labels_survive(self):
+  rows=m.inventory('<h2>Facilities</h2><a href="#main" aria-label="Main Hall"></a><a href="#side">Side Room</a><a href="#" data-href="/fees.pdf" title="Rental fees"></a>','https://city.example/rentals')
+  self.assertEqual(len(rows),3);self.assertEqual(rows[0]['url'],'https://city.example/rentals#main');self.assertEqual(rows[1]['url'],'https://city.example/rentals#side');self.assertEqual(rows[2]['kind'],'pdf_document')
 if __name__=='__main__':unittest.main()

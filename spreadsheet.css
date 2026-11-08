@@ -71,3 +71,25 @@ body[data-density="compact"] :is(#compare,#government,#potential) .filters :is(i
 body[data-density="compact"] :is(.sheet-pager,.scroll-tools,.controls) button{padding:5px 9px;font-size:12px}
 body[data-density="compact"] .scroll-tools{gap:8px;margin:8px 0}
 @media(max-width:600px){body[data-density="compact"] main{padding:12px 8px}.sheet-toolbar{gap:8px}.sheet-toolbar label{font-size:12px}body[data-density="compact"] :is(#compareTable,.catalog-scroll table) :is(td,th):first-child{min-width:160px;width:185px;max-width:185px}}
+/* Focused workspace: one primary filter row, optional tools and grouped navigation. */
+body[data-density="compact"] header{display:flex;align-items:center;gap:18px;flex-wrap:wrap;padding:9px 20px}
+body[data-density="compact"] header .tag,body[data-density="compact"] header>p{display:none}
+body[data-density="compact"] header .stats{margin:0;gap:14px}
+body[data-density="compact"] header .stats>span:nth-child(n+3){display:none}
+body[data-density="compact"] .sheet-toolbar{justify-content:flex-start;gap:12px;padding:6px 0}
+body[data-density="compact"] .sheet-toolbar label{font-size:12px;gap:6px}
+body[data-density="compact"] .sheet-toolbar select{max-width:235px;height:30px;font-size:12px}
+body[data-density="compact"] #compare>.filters{grid-template-columns:minmax(200px,2fr) repeat(2,minmax(110px,1fr)) auto}
+.active-filter-summary{margin:3px 0;font-size:12px;color:#74561e}
+.extra-filters h3{font:600 12px system-ui;margin:10px 0 4px}
+.extra-filters>p{font-size:12px;max-width:90ch}
+.more-research>div{width:min(640px,90vw);display:grid;grid-template-columns:1fr 1fr 1.5fr;gap:10px;max-height:72vh;overflow:auto}
+.research-menu-group>strong{display:block;font-size:11px;text-transform:uppercase;letter-spacing:.04em;color:#65705d;padding:6px 8px}
+@media(max-width:800px){body[data-density="compact"] #compare>.filters{grid-template-columns:repeat(2,minmax(0,1fr))}.more-research>div{left:auto;right:0;grid-template-columns:1fr;width:min(350px,90vw)}body[data-density="compact"] header{gap:8px}}
+
+.more-research>div{width:min(420px,90vw);grid-template-columns:1fr 1fr}.research-menu-group:last-child{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr}.research-menu-group:last-child>strong{grid-column:1/-1}.sheet-toolbar input[type=number]{width:78px;height:30px;padding:4px 7px;font-size:12px}@media(max-width:800px){.more-research>div,.research-menu-group:last-child{grid-template-columns:1fr}.research-menu-group:last-child{grid-column:auto}}
+
+/* Evidence expands across the table rather than inside the pinned name cell. */
+body[data-density="compact"] :is(#compareTable,.catalog-scroll table) .venue-detail-row>td{position:static!important;width:auto!important;min-width:0!important;max-width:none!important;padding:12px!important;white-space:normal;overflow:visible;background:#fff!important}
+.venue-detail-row .breakdown-body{max-width:min(1100px,85vw);overflow-wrap:anywhere}.venue-detail-row .breakdown-body>details{margin:6px 0}.venue-detail-row .breakdown-body .metric-explanation{max-width:100%}
+body[data-density="compact"] header{max-width:none;margin:0}@media(max-width:800px){.more-research>div{position:fixed;left:12px;right:12px;top:150px;width:auto;max-height:calc(100vh - 175px)}}

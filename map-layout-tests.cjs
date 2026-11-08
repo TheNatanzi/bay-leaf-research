@@ -25,5 +25,5 @@ elements.search.value='Walnut Creek Marriott';ctx.filter();assert(buttons.some(b
 elements.search.value='no-such-venue-0000';ctx.filter();assert.equal(buttons.length,0);assert(elements.list.innerHTML.includes('No documented matches'));
 const explore=html.match(/<section id="explore">(.*?)<\/section>/s)[1];assert(explore.includes('<details class="map-notes">'));assert(explore.includes('<details id="mapResearch"'));assert(!explore.includes('<details id="mapResearch" open'));
 assert(explore.indexOf('</div></div><details id="mapResearch"')>0);assert(css.includes('minmax(260px,340px) minmax(0,1fr)'));assert(css.includes('overflow-x:hidden'));assert(css.includes('@media(max-width:800px)'));
-assert.deepEqual(JSON.parse(html.match(/<script id="research-data" type="application\/json">(.*?)<\/script>/s)[1]),data);
+assert.deepEqual(require('./data-codec.js').decode(JSON.parse(html.match(/<script id="research-data" type="application\/json">(.*?)<\/script>/s)[1])),data);
 console.log('Map layout: actual marker clicks select/reveal correct venue, list action preserves zoom, county clicks do not reset, filters, all records and unchanged evidence passed');

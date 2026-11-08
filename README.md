@@ -4,13 +4,24 @@ Public map, venue comparisons, research wiki and inquiry drafts.
 
 https://thenatanzi.github.io/bay-leaf-research/
 
-Current coverage: 1665 discovery records across all nine Bay Area counties; not an exhaustive or fully verified venue census. Unknown facts are explicitly marked. Inquiry notes use browser-local storage and are not shared.
+Current snapshot (November 8, 2026): **2,344 discovery records / 1,002 provisional property groups** across nine counties. Includes rooms and configurations; these are not independently available venues or verified parcels. [System audit](system-audit.html).
 
 Edit the research and site deliberately, preserve source URLs and check dates, and push reviewed changes to main to update GitHub Pages. No private collaboration logs belong here.
 
 Libraries: Leaflet 1.9.4 (BSD-2-Clause), Marked 15.0.12 (MIT), DOMPurify 3.2.6 (Apache-2.0/MPL-2.0). Inline distributions preserve license notices. Geography: US Census TIGERweb/geocoder. Basemap: OpenStreetMap.
 
 Research update: Planner workbook has 194 fields across 18 categories, based on five reviewed PDFs plus practitioner and official guidance. Seventy-seven founder/education reading records have original publication dates or explicit unknown dates. Venue comparisons separate inclusions, catering/bar/other requirements, time cutoffs, building and operator history, cost-per-head basis, and property/business value. Values and history are unknown until supported. All comparison headings sort; search and category filters narrow results. Founder and planner-framework views are sortable/filterable. Sixty-seven discovery/fact-check audits are documented (65 venue passes plus two founder-library passes); full coverage and detailed fact verification remain underway.
+
+## Current interface and build
+
+- Compare opens first; all results appear on one page. Eight default columns, selectable column groups, city search and optional filters keep the table compact.
+- Ratings and available review counts share one cell. Full evidence, conditions and source dates remain in each breakdown.
+- Guest basis defaults to 330. Complete cost estimates exclude known failed dinner/dance capacity; unknown fees keep the total blank.
+- `research.json` remains the canonical ordinary JSON export. `pack_data.py` and `data-codec.js` losslessly intern repeated data in the embedded snapshot; this changes transport size, not evidence.
+- Rebuild: `python -I normalize-research.py`, then `python -I update_site.py`. Run the codec, normalization, system-audit and UI tests before publishing.
+
+<details>
+<summary>Historical implementation notes and dated checkpoints (older counts and interface descriptions)</summary>
 
 ## Per-venue planner tracking
 Each venue has 194 criterion answer slots in `workbook_answers`. Null means unknown, never no or zero. Recorded answers include status, source URLs and evidence date. Comparison supports Wedding essentials, original overview, all criteria and 18 category views, column sorting and unanswered-field filtering. Visible horizontal navigation and pinned venue names keep the full table reachable. Editing shared research still happens in the repository; this comparison is a read-only research view.
@@ -54,3 +65,5 @@ First new batch adds five distinct public spaces across two provisional properti
 
 ### Founder, Sonoma and applicability checkpoint — October 26
 1761 discovery records /711 provisional property groups /79 source audits /81 reading records.31 further discovery additions include21clearly labeled unverified local-directory leads; these are not31newconfirmed wedding venues.69municipal workstreams remain unaudited. Source registry48channels. Five exact platform observations acrossKohl/Villa add WeddingWire/TheKnot/Zola evidence with populations/ownership-era limits; Google claim excluded. Date-specific booking holds suppress grades, food estimates require a source/permission basis, and event duration stays separate from rental duration. See #villa-case for the historical public operating-agreement study. Five final critical review passes remain pending; all-in quotes and exhaustive coverage remain unestablished.
+
+</details>
