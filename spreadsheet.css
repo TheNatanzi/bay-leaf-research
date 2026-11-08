@@ -21,7 +21,7 @@
 .map-venue-main a{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .map-venue-main small,.map-capacity{display:block;font-size:11px;color:#627063;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .map-venue-row button{font-size:11px;padding:5px 7px;border-radius:4px}
-.map-research{margin:10px 0;border:1px solid var(--line);border-radius:6px;background:white}
+.map-research{margin:10px 0;border:1px solid var(--line);border-radius:6px;background:white;scroll-margin-top:12px}
 .map-research>summary{padding:8px 12px;font-size:13px}
 .map-research .detail{margin:0;border:0;border-top:1px solid var(--line);padding:12px;font-size:13px;overflow-wrap:anywhere}
 .map-research h2{font-size:24px;margin:6px 0}.map-research p{margin:8px 0;max-width:none}.map-research .muted{font-size:12px}
