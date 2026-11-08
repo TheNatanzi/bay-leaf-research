@@ -6390,5 +6390,102 @@
     "autocamp-sonoma-clubhouse-sonoma": "AutoCamp Sonoma — Clubhouse — private buyout configuration",
     "autocamp-sonoma-canopy-sonoma": "AutoCamp Sonoma — Canopy",
     "autocamp-sonoma-redwood-grove-sonoma": "AutoCamp Sonoma — Redwood Grove"
-  }
+  },
+  "presentation_fixes": [
+    {
+      "record_id": "the-tech-interactive-lower-level-santa-clara",
+      "field": "time_cut_off",
+      "reason": "Propagate reviewed event clock to map breakdown"
+    },
+    {
+      "record_id": "the-tech-interactive-new-venture-hall-lobby-santa-clara",
+      "field": "time_cut_off",
+      "reason": "Propagate reviewed event clock to map breakdown"
+    },
+    {
+      "record_id": "the-tech-interactive-rooftop-terrace-santa-clara",
+      "field": "time_cut_off",
+      "reason": "Propagate reviewed event clock to map breakdown"
+    },
+    {
+      "record_id": "uss-hornet-sea-air-space-museum-flight-deck-alameda",
+      "field": "capacity_description",
+      "reason": "Map must display reviewed evidence/conflict, not stale raw summary"
+    },
+    {
+      "record_id": "uss-hornet-sea-air-space-museum-hangar-deck-bays-1-2-and-3-alameda",
+      "field": "capacity_description",
+      "reason": "Map must display reviewed evidence/conflict, not stale raw summary"
+    },
+    {
+      "record_id": "uss-hornet-sea-air-space-museum-hangar-bay-3-alameda",
+      "field": "capacity_description",
+      "reason": "Map must display reviewed evidence/conflict, not stale raw summary"
+    },
+    {
+      "record_id": "uss-hornet-sea-air-space-museum-captain-s-conference-room-alameda",
+      "field": "capacity_description",
+      "reason": "Map must display reviewed evidence/conflict, not stale raw summary"
+    },
+    {
+      "record_id": "chabot-space-science-center-spees-level-1-alameda",
+      "field": "capacity_description",
+      "reason": "Map must display reviewed evidence/conflict, not stale raw summary"
+    },
+    {
+      "record_id": "chabot-space-science-center-spees-level-2-alameda",
+      "field": "capacity_description",
+      "reason": "Map must display reviewed evidence/conflict, not stale raw summary"
+    },
+    {
+      "record_id": "the-tech-interactive-whole-building-buyout-santa-clara",
+      "field": "time_cut_off",
+      "reason": "Propagate reviewed event clock to map breakdown"
+    },
+    {
+      "record_id": "the-tech-interactive-upper-level-santa-clara",
+      "field": "time_cut_off",
+      "reason": "Propagate reviewed event clock to map breakdown"
+    },
+    {
+      "record_id": "the-tech-interactive-new-venture-hall-only-santa-clara",
+      "field": "time_cut_off",
+      "reason": "Propagate reviewed event clock to map breakdown"
+    },
+    {
+      "record_id": "the-tech-interactive-imax-dome-theater-santa-clara",
+      "field": "time_cut_off",
+      "reason": "Propagate reviewed event clock to map breakdown"
+    },
+    {
+      "record_id": "the-tech-interactive-bowers-institute-santa-clara",
+      "field": "time_cut_off",
+      "reason": "Propagate reviewed event clock to map breakdown"
+    },
+    {
+      "record_id": "the-tech-interactive-intimate-wedding-package-up-to70-guests-santa-clara",
+      "field": "time_cut_off",
+      "reason": "Propagate reviewed event clock to map breakdown"
+    },
+    {
+      "record_id": "the-tech-interactive-grand-wedding-package-70-guests-santa-clara",
+      "field": "time_cut_off",
+      "reason": "Propagate reviewed event clock to map breakdown"
+    },
+    {
+      "record_id": "dixon-senior-multi-use-center-assembly-hall-solano",
+      "field": "capacity_description",
+      "reason": "Map must display reviewed evidence/conflict, not stale raw summary"
+    },
+    {
+      "record_id": "dixon-senior-multi-use-center-arts-and-craft-room-solano",
+      "field": "capacity_description",
+      "reason": "Map must display reviewed evidence/conflict, not stale raw summary"
+    },
+    {
+      "record_id": "autocamp-sonoma-redwood-grove-sonoma",
+      "field": "capacity_description",
+      "reason": "Map must display reviewed evidence/conflict, not stale raw summary"
+    }
+  ]
 }
