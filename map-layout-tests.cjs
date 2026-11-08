@@ -1,0 +1,15 @@
+const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),path=require('node:path');
+const html=fs.readFileSync(path.join(__dirname,'index.html'),'utf8'),css=fs.readFileSync(path.join(__dirname,'spreadsheet.css'),'utf8'),data=require('./research.json');
+const elements=Object.fromEntries(['search','guests','county','midnight','unknowns','list','mapResearch','detail','prepare'].map(id=>[id,{value:'',checked:true,open:false}]));
+const buttons=[],rows=[];let selectedDetail=null;
+Object.defineProperty(elements.list,'innerHTML',{get(){return this.content},set(value){this.content=value;buttons.splice(0,buttons.length,...[...value.matchAll(/<button data-id="([^"]+)"/g)].map(m=>({dataset:{id:m[1]}})));rows.splice(0,rows.length,...[...value.matchAll(/data-venue-row="([^"]+)"/g)].map(m=>({dataset:{venueRow:m[1]}})));}});
+const ctx=vm.createContext({venues:data.venues,selected:data.venues[0].id,$:id=>elements[id],esc:v=>String(v??'').replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll('<','&lt;'),venueNameLink:v=>'<a>'+v.name+'</a>',capacity:v=>v.capacity_description||'Unknown — inquire',document:{querySelectorAll:selector=>selector==='[data-id]'?buttons:rows},detail:id=>{selectedDetail=id},map:null,markers:null,countyLayer:null});
+vm.runInContext(html.match(/^function filter\(\).*$/m)[0],ctx);ctx.filter();
+assert.equal(buttons.length,data.venues.length);assert.equal(rows.length,data.venues.length);assert.equal(elements.mapResearch.open,false);assert(elements.list.innerHTML.includes('discovery records'));assert(!elements.list.innerHTML.includes('class="card"'));
+buttons[1].onclick();assert.equal(selectedDetail,data.venues[1].id);assert.equal(elements.mapResearch.open,true);
+elements.search.value='Deer Park Villa';ctx.filter();assert(buttons.length>0&&buttons.length<data.venues.length);assert(elements.list.innerHTML.includes('Deer Park Villa'));
+elements.search.value='no-such-venue-0000';ctx.filter();assert.equal(buttons.length,0);assert(elements.list.innerHTML.includes('No documented matches'));
+const explore=html.match(/<section id="explore">(.*?)<\/section>/s)[1];assert(explore.includes('<details class="map-notes">'));assert(explore.includes('<details id="mapResearch"'));assert(!explore.includes('<details id="mapResearch" open'));
+assert(explore.indexOf('</div></div><details id="mapResearch"')>0);assert(css.includes('minmax(260px,340px) minmax(0,1fr)'));assert(css.includes('overflow-x:hidden'));assert(css.includes('@media(max-width:800px)'));
+assert.deepEqual(JSON.parse(html.match(/<script id="research-data" type="application\/json">(.*?)<\/script>/s)[1]),data);
+console.log('Map layout: all records retained, compact rows, detail buttons, search/empty states, collapsed notes, responsive sizing and unchanged evidence passed');
