@@ -23,3 +23,11 @@
 | Unsearched | No documented attempt for this field |
 
 A scoped audit can finish while questions remain. It does not establish exhaustive discovery or that every possible method was exhausted.
+## Download checks
+
+- Follow the current page’s brochure, rate-sheet and policy links; do not rely only on search results or an old saved URL.
+- Check downloaded bytes against the response length or size limit. A truncated file is a failed capture.
+- Verify the PDF opens and has pages. No extracted text may mean an image-only PDF: inspect the actual page before copying table values.
+- Record internal effective dates separately from filenames and fetch dates. Historical prices stay historical.
+- Keep failed captures and their corrected outcomes in the audit; preserve the full replacement separately.
+

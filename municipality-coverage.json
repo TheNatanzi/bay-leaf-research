@@ -217,7 +217,7 @@
   {
     "county": "Alameda",
     "municipality": "Oakland",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
       "https://www.ctlcathedral.org/eventcenter",
@@ -255,9 +255,21 @@
       "https://www.ebparks.org/index%2Ephp/recreation/picnics/temescal-picnic-areas#Landvale",
       "https://www.ebparks.org/index%2Ephp/recreation/picnics/temescal-picnic-areas#North",
       "https://www.ebparks.org/index%2Ephp/recreation/picnics/temescal-picnic-areas#Parkview",
-      "https://www.ebparks.org/index%2Ephp/recreation/picnics/temescal-picnic-areas#Streamside"
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/temescal-picnic-areas#Streamside",
+      "https://www.oaklandca.gov/Community/Parks-Facilities/Rent-a-Facility-or-Park/Facilities-Available-for-Rental"
     ],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "remaining": "Room-level terms, picnic subsites and other authorities remain. Sports fields/pools not assumed wedding-approved.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 1,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Official rental inventory reviewed, including enterprise venues and recreation centers. Amplified sound/alcohol can require additional permits.",
+        "report_url": "municipal-gap-audit.html#case-1",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "Alameda",
@@ -324,7 +336,7 @@
   {
     "county": "Contra Costa",
     "municipality": "Antioch",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
       "https://www.ebparks.org/index%2Ephp/recreation/picnics/contra-loma-picnic-areas-antioch#cg",
@@ -334,43 +346,106 @@
       "https://www.ebparks.org/index%2Ephp/recreation/picnics/contra-loma-picnic-areas-antioch#li",
       "https://www.ebparks.org/index%2Ephp/recreation/picnics/contra-loma-picnic-areas-antioch#lr",
       "https://www.ebparks.org/index%2Ephp/recreation/picnics/contra-loma-picnic-areas-antioch#ml",
-      "https://www.ebparks.org/index%2Ephp/recreation/picnics/contra-loma-picnic-areas-antioch#r"
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/contra-loma-picnic-areas-antioch#r",
+      "https://www.antiochca.gov/615/Facility-Rentals-Indoor-Events"
     ],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "remaining": "Rates/contract unread through archival route; property-specific wedding eligibility, layouts and cutoffs remain.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 2,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Official indoor-rental inventory explicitly includes weddings/receptions. Four locations listed; rates and contract links followed but archival route held.",
+        "report_url": "municipal-gap-audit.html#case-2",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "Contra Costa",
     "municipality": "Brentwood",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://www.brentwoodca.gov/government/parks-recreation/recreation/facilities-building-rentals/brentwood-community-center"
+    ],
+    "remaining": "Current grab sheets/inventory downloads did not finish; current prices/capacities remain unverified. Parking garage is shared, not a reserved allotment.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 3,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Current rental page and two-page brochure read. Furniture/setup included. Alcohol requires permit, staffed bar and approved security at one guard per 60 guests.",
+        "report_url": "municipal-gap-audit.html#case-3",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "Contra Costa",
     "municipality": "Clayton",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://www.claytonca.gov/m/faq"
+    ],
+    "remaining": "Current fees, event layouts and clock cutoffs unsearched in this pass. Sports-only field use excluded from wedding inference.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 4,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Official FAQ names rental facilities. Hoyer maximum174; 110 chairs/10 tables. Insurance Endeavor2M/Hoyer1M, host liquor endorsement if alcohol.",
+        "report_url": "municipal-gap-audit.html#case-4",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "Contra Costa",
     "municipality": "Concord",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
-      "https://www.hilton.com/en/hotels/conchhf-hilton-concord/events/"
+      "https://www.hilton.com/en/hotels/conchhf-hilton-concord/events/",
+      "https://cityofconcord.org/650/Indoor-Spaces"
     ],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "remaining": "Linked room pages, current fee application, Pavilion subspaces and seated/dance layouts remain.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 5,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Official indoor inventory read. Centre Concord advertises maximum400 guests; Senior Center explicitly advertises weddings.",
+        "report_url": "municipal-gap-audit.html#case-5",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "Contra Costa",
     "municipality": "Danville",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://www.danville.ca.gov/213/Community-Facilities-Rentals"
+    ],
+    "remaining": "Mon-Wed rates and full guide not read. Theatre245 is fixed theatre seating, not dinner capacity. Ranch subspaces remain separately scoped.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 6,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Official inventory plus July1,2026 Thur-Sun fee table reviewed. Dining differs from theatre: DCC165, Veterans160, OakHill140. Fees vary by room/residency/use.",
+        "report_url": "municipal-gap-audit.html#case-6",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "Contra Costa",
@@ -397,48 +472,112 @@
   {
     "county": "Contra Costa",
     "municipality": "Lafayette",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://www.lovelafayette.org/city-hall/city-departments/parks-trails-recreation/community-center/"
+    ],
+    "remaining": "Individual room PDFs, music/bar deadlines and insurance/deposit amounts remain. Sequoia prohibits food/drink.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 7,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Official live page read. LiveOak225/JenniferRussell240 generic. Fri-Sat rental ends11:30PM, Sunday10:30PM including cleanup. Kitchen is staging/prep only, no cooking.",
+        "report_url": "municipal-gap-audit.html#case-7",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "Contra Costa",
     "municipality": "Martinez",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://www.cityofmartinez.org/departments/recreation/rentals"
+    ],
+    "remaining": "Six picnic parks and current rates need follow-through. Historical Kiwanis/Senior Center not assumed currently rentable. Sports league policy is not wedding approval.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 8,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Official inventory read. GoldenHills25, NancyBoyd20, library60 maximum; library approved nonprofits only; three-hour minimum.",
+        "report_url": "municipal-gap-audit.html#case-8",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "Contra Costa",
     "municipality": "Moraga",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
       "https://www.wedgewoodweddings.com/venues/hacienda-de-las-flores",
       "https://www.moraga.ca.us/242/Hacienda-de-las-Flores/pricing",
       "https://www.moraga.ca.us/DocumentCenter/View/6040/Council-06-23-21-Wedgewood-Lease-Agreement-at-the-Hacienda-PDF",
       "https://www.colliersparrish.com/TheMoragaBarn/",
-      "https://www.colliersparrish.com/listings/aus/aus.hot.excl.pdf"
+      "https://www.colliersparrish.com/listings/aus/aus.hot.excl.pdf",
+      "https://www.moraga.ca.us/239/Facility-Rentals"
     ],
-    "remaining": "Partial government/private inventory; site-specific weddings/layouts, contracts, parcel/history/value and reviews incomplete"
+    "remaining": "Historic buildings/rooms, current fees, seated capacity and clocks remain unsearched. Council/library meeting permission is not wedding permission.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 9,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Official inventory lists Hacienda, library, chambers and two picnic parks. Facility rentals require confirmation; application alone is not booking.",
+        "report_url": "municipal-gap-audit.html#case-9",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "Contra Costa",
     "municipality": "Oakley",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://www.oakleyca.gov/178/Parks-Facility-Rentals"
+    ],
+    "remaining": "Indoor policy/rate documents and seated/dance layout unread; no indoor alcohol permission inferred from picnic rule.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 10,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Official rental page read. GreatRoom250 generic or125 each half. Four reservable picnic parks; no alcohol or personal barbecues at picnic sites.",
+        "report_url": "municipal-gap-audit.html#case-10",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "Contra Costa",
     "municipality": "Orinda",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://www.cityoforinda.gov/216/Facilities"
+    ],
+    "remaining": "Capacity-chart link returned a web interface, not a readable chart. Current room-specific capacities/rates and separate music/bar/cleanup clocks unresolved. Rental guide effective date Unknown.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 11,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Official facility page and rental guide read. Tables/chairs included; large-event attendant42/hr conditional. Fri-Sat activity stopmidnight, Sun-Thu10PM unless preapproved.",
+        "report_url": "municipal-gap-audit.html#case-11",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "Contra Costa",
@@ -456,18 +595,45 @@
   {
     "county": "Contra Costa",
     "municipality": "Pittsburg",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://www.pittsburgrec.com/services",
+      "https://www.pittsburgrec.com/services/marina-community-center"
+    ],
+    "remaining": "Broader Pittsburg inventory, rental rates, capacities and wedding permission remain. Reopening is not construction or original wedding-operation date.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 12,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Official Marina page read in Chrome: renovated center reopened spring2023 with three classrooms and gym; rental contact published.",
+        "report_url": "municipal-gap-audit.html#case-12",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "Contra Costa",
     "municipality": "Pleasant Hill",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://pleasanthillrec.com/443/Facilities"
+    ],
+    "remaining": "Community Center sheet archival route held; other linked sheets and property-specific eligibility/fees remain unread. Pools not automatically wedding-approved.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 13,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "District inventory explicitly advertises weddings and lists six facilities; four room/rate-sheet routes identified.",
+        "report_url": "municipal-gap-audit.html#case-13",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "Contra Costa",
@@ -527,7 +693,7 @@
   {
     "county": "Contra Costa",
     "municipality": "Walnut Creek",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
       "https://www.marriott.com/en-us/hotels/oakwc-walnut-creek-marriott/events/",
@@ -542,17 +708,42 @@
       "https://www.ebparks.org/index%2Ephp/recreation/picnics/castle-rock-diablo-foothills-picnic-areas#pc",
       "https://www.ebparks.org/index%2Ephp/recreation/picnics/castle-rock-diablo-foothills-picnic-areas#po",
       "https://www.ebparks.org/index%2Ephp/recreation/picnics/castle-rock-diablo-foothills-picnic-areas#sg",
-      "https://www.ebparks.org/index%2Ephp/recreation/picnics/castle-rock-diablo-foothills-picnic-areas#sc"
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/castle-rock-diablo-foothills-picnic-areas#sc",
+      "https://www.walnutcreekartsrec.org/rentals"
     ],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "remaining": "2026 linked PDFs not read; older FAQ has pandemic-era wording. Do not apply old restrictions as current or use office hours as event cutoff.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 14,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Current rental inventory read in Chrome: Gazette300 attendees, TiceValley30-449 seating, library limited availability; 2026 rates/brochure links found.",
+        "report_url": "municipal-gap-audit.html#case-14",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "Marin",
     "municipality": "Belvedere",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://www.theranchtoday.org/facility-rentals"
+    ],
+    "remaining": "Current application ratespp7-8 unread; older2025guide differs on Founders count. Tiburon unavailable room is a separate property, not a duplicate.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 15,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Joint recreation authority inventory read. Founders25 seated adults; combined multipurpose100 seated; wedding receptions explicitly advertised.",
+        "report_url": "municipal-gap-audit.html#case-15",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "Marin",
@@ -569,7 +760,7 @@
   {
     "county": "Marin",
     "municipality": "Fairfax",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
       "https://townoffairfaxca.gov/pavilion/",
@@ -577,31 +768,67 @@
       "https://townoffairfaxca.gov/womens-club/",
       "https://townoffairfaxca.gov/peri-park/"
     ],
-    "remaining": "Partialmunicipalrooms/parksreview; private/govt/unconventionalcoverage and currentquotes/layout/permits/history/value incomplete."
+    "remaining": "325private-event maintenance vs75general wording is a conflict. Current facilities-use form and independent music/event/cleanup clocks need confirmation; historical1AMrental window not music permission.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 16,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Current official Pavilion page read: built1921, weddings advertised; private hourly190resident/225nonresident; maintenance fee wording inconsistent.",
+        "report_url": "municipal-gap-audit.html#case-16",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "Marin",
     "municipality": "Larkspur",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://www.larkspur.ca.gov/682/Facilities"
+    ],
+    "remaining": "No event-rental venue added from sports-only list. Picnic policy and other municipal buildings remain unreviewed; this is not evidence of no wedding possibilities.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 17,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Current city inventory lists athletic fields/courts only: Hall Middle School synthetic, Piper Park soccer/softball/volleyball. Insurance1M.",
+        "report_url": "municipal-gap-audit.html#case-17",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "Marin",
     "municipality": "Mill Valley",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
       "https://strawberry.marin.org/rentals/",
-      "https://www.marinlafco.org/strawberry-recreation-district"
+      "https://www.marinlafco.org/strawberry-recreation-district",
+      "https://www.millvalleyrecreation.org/471/Rent-a-Room"
     ],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "remaining": "Dining/dance plan and actual staffing count required. Rates say weekday attendant after5PM, newer policy5:30PM: timing conflict retained. Full policy beyond reviewed sections remains.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 18,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Current page plus Sept2,2026 policies and Jan1,2026 rates read. Cascade250-285 dining/400theatre/566standing; indoor musicmidnight/outdoor10PM; Fri-Sat rental window to1AM.",
+        "report_url": "municipal-gap-audit.html#case-18",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "Marin",
     "municipality": "Novato",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
       "https://www.novato.gov/Home/Components/FacilityDirectory/FacilityDirectory/67/535?locale=es&selcat=343",
@@ -609,37 +836,73 @@
       "https://www.novato.gov/government/parks-recreation-community-services/margaret-todd-senior-center",
       "https://www.novato.gov/home/showpublisheddocument/32698/638101469445430000",
       "https://www.novato.gov/home/showpublisheddocument/2370/637474412485070000",
-      "https://www.novato.gov/Home/Components/FacilityDirectory/FacilityDirectory/63/"
+      "https://www.novato.gov/Home/Components/FacilityDirectory/FacilityDirectory/63/",
+      "https://www.novato.gov/government/parks-recreation-community-services/parks-facilities-reservations"
     ],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "remaining": "Current master fee schedules and individual policies linked but unread. Sports areas and trails excluded from wedding inference. Hill/Margaret same address does not establish duplicate rooms.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 19,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Official inventory read: five indoor facilities, seven picnic/park locations;25 nonrefundable application and425 refundable indoor deposit.",
+        "report_url": "municipal-gap-audit.html#case-19",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "Marin",
     "municipality": "Ross",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
       "https://maringarden.org/booking-information/",
-      "https://maringarden.org/historic-timeline/"
+      "https://maringarden.org/historic-timeline/",
+      "https://www.rossrecreation.org/rentalsandkeys"
     ],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "remaining": "Wedding permission Unknown; no large wedding capacity inferred. Tennis key sales are not event rentals.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 20,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Official town recreation rental page covers field/special-event permit for sports and small gatherings. No inflatables/portableBBQ on town property.",
+        "report_url": "municipal-gap-audit.html#case-20",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "Marin",
     "municipality": "San Anselmo",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
       "https://sananselmo.gov/1978/Robson-Harrington-Park",
       "https://sananselmo.gov/1839/Facility-Rentals",
-      "https://www.sananselmo.gov/Archive.aspx?ADID=6561"
+      "https://www.sananselmo.gov/Archive.aspx?ADID=6561",
+      "https://www.townofsananselmo.org/1800/Picnic-Rentals"
     ],
-    "remaining": "Partialmunicipalrooms/parksreview; private/govt/unconventionalcoverage and currentquotes/layout/permits/history/value incomplete."
+    "remaining": "Gymnastics birthday package excluded as wedding offering. Layouts, prices and clocks remain.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 21,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Current official rental page read. Vista40, Maple40, RobsonHouse50 generic. Picnic reservations at two parks; house advertises small receptions.",
+        "report_url": "municipal-gap-audit.html#case-21",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "Marin",
     "municipality": "San Rafael",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
       "https://www.marincenter.marincounty.gov/facilities-rental",
@@ -648,9 +911,21 @@
       "https://www.cityofsanrafael.org/albert-j-boro-community-center-rentals/",
       "https://www.cityofsanrafael.org/terra-linda-community-center-rental-information/",
       "https://www.cityofsanrafael.org/parks-picnic-rentals/",
-      "https://storage.googleapis.com/proudcity/sanrafaelca/2026/06/41edb7d3-picnicparkrentalapplicationandpolicyenglish.pdf"
+      "https://storage.googleapis.com/proudcity/sanrafaelca/2026/06/41edb7d3-picnicparkrentalapplicationandpolicyenglish.pdf",
+      "https://storage.googleapis.com/proudcity/sanrafaelca/2025/02/3bb1697d-2026-falkirk-facility-rental-information-packet-updated-1-5-26.pdf"
     ],
-    "remaining": "Partialmunicipalrooms/parksreview; private/govt/unconventionalcoverage and currentquotes/layout/permits/history/value incomplete."
+    "remaining": "Old San Rafael rental URL404 and newer guide download404. Citywide four-center inventory is not completed by this single property review; other centers/parks remain.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 22,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Current2026 Falkirk packet pages1-10 reviewed. Outdoor125/indoor100; outside sound9PM/inside10PM/cleanup11PM. Required security separate; own caterers permitted with licenses.",
+        "report_url": "municipal-gap-audit.html#case-22",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "Marin",
@@ -683,10 +958,23 @@
   {
     "county": "Marin",
     "municipality": "Tiburon",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://www.theranchtoday.org/facility-rentals"
+    ],
+    "remaining": "No wedding permission inferred for DairyKnoll. BelvedereCommunityCenter belongs in Belvedere, not duplicate Tiburon row. Current rates unread.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 23,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Joint authority inventory read. DairyKnoll has kitchen/patio/AV. TiburonCommunityRoom explicitly currently unavailable; historical25 seated adults.",
+        "report_url": "municipal-gap-audit.html#case-23",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "Napa",
@@ -864,26 +1152,65 @@
   {
     "county": "San Mateo",
     "municipality": "Atherton",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://www.athertonca.gov/183/Fees-Rentals"
+    ],
+    "remaining": "Day-use max50/no vendors/no alcohol applies to day-use permits, not blanket full-facility restriction. Signed terms/floorplans still unread; no late music approval inferred.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 24,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Official room descriptions/rate tables reviewed. MainHouse50dinner/60ceremony; Carriage70seated; Jennings120-130dinner/150theatre, built1977. Renter pays setup/cleanup time.",
+        "report_url": "municipal-gap-audit.html#case-24",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "San Mateo",
     "municipality": "Belmont",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://www.belmont.gov/departments/parks-and-recreation/rentals/new-facility-rentals-page"
+    ],
+    "remaining": "Current fees, rental packet, dinner/dance capacities and event/music cutoffs remain unread.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 25,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Current rental page read in Chrome: generic maxima170/35/125/70/250 respectively. Five exact addresses listed.",
+        "report_url": "municipal-gap-audit.html#case-25",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "San Mateo",
     "municipality": "Brisbane",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://www.brisbaneca.gov/Facilities/Facility/Details/Community-Center-1"
+    ],
+    "remaining": "Wedding approval, seated capacity and clock cutoffs Unknown. Alcohol sales require approval/ABC permit per city page; no admission charges permitted.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 26,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Full primary facility page read. Current web rates90resident/110nonresident hourly override unspecified older sheets;200refundable deposit; overtime1.5x;500k insurance.",
+        "report_url": "municipal-gap-audit.html#case-26",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "San Mateo",
@@ -904,23 +1231,49 @@
   {
     "county": "San Mateo",
     "municipality": "Colma",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://storage.googleapis.com/proudcity/colmaca/2025/09/FALL-2025-FINAL.pdf"
+    ],
+    "remaining": "Dated2025 prices not imported as current. 2026/27 inventory/eligibility/fees remain; historical guide dates contain invalid calendar dates so dates are not blindly copied.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 27,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Full28-page Fall2025guide downloaded after identifying truncated22MBfirst copy. Rentalsp26 reviewed: Colma150generic, six-hour minimum; Sterling50sit-down resident-only weekends11AM-6PM.",
+        "report_url": "municipal-gap-audit.html#case-27",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "San Mateo",
     "municipality": "Daly City",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://www.dalycity.org/332/Facility-Rentals"
+    ],
+    "remaining": "Fee table dense; numeric values not promoted without visual row verification. Summer2026guide and fee sheet show differing values in search: unresolved, not current quote. Gym/field fees separate.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 28,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Current rental index and general fee PDF read as archived. Reservations must be completed in person, first come first served.",
+        "report_url": "municipal-gap-audit.html#case-28",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "San Mateo",
     "municipality": "East Palo Alto",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
       "https://www.fourseasons.com/siliconvalley/weddings/venues/",
@@ -930,14 +1283,26 @@
       "https://www.fourseasons.com/siliconvalley/weddings/packages/luxurious-package/",
       "https://www.fourseasons.com/siliconvalley/weddings/packages/essence-collection/",
       "https://www.fourseasons.com/siliconvalley/weddings/packages/elegant-collection/",
-      "https://www.fourseasons.com/siliconvalley/getting-here/"
+      "https://www.fourseasons.com/siliconvalley/getting-here/",
+      "https://www.ci.east-palo-alto.ca.us/parksrec/page/community-room-city-hall"
     ],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "remaining": "Facility windows Mon-Thu9AM-8PM/Fri-Sun10AM-5PM are not separate music deadlines. CooleyLanding and broader city inventory remain. Exclude Palo Alto Mitchell Park's El Palo Alto Room as wrong city.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 29,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Primary room page reviewed. Maxoccupancy79;79chairs10tables; rates48weekday/60weekendresident,121nonresident hourly,2hminimum,250deposit.",
+        "report_url": "municipal-gap-audit.html#case-29",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "San Mateo",
     "municipality": "Foster City",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
       "https://www.fostercity.org/545/Foster-City-Community-Center-Annex",
@@ -949,28 +1314,65 @@
       "https://www.fostercity.org/Facilities/Facility/Details/Rent-the-VIBE-Teen-Center-18",
       "https://www.fostercity.org/DocumentCenter/View/5290/The-VIBE-Rental-Application"
     ],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "remaining": "Foster newcenter pricing tables visually checked; no wedding music permission inferred from midnight rental window. Other room capacity/layout and VIBE contract unread. Annex admin26allrentals/custodial60conditional.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 30,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Official index and bothFY26/27fee PDFs reviewed; newcenter openedSept19,2026. Lagoon full-day10hpackages8AM-midnight inclsetup/cleanup. AnnexWind100generic/70classroom.",
+        "report_url": "municipal-gap-audit.html#case-30",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "San Mateo",
     "municipality": "Half Moon Bay",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://halfmoonbay.gov/225/Facility-Rentals"
+    ],
+    "remaining": "Specificroom rates/contracts and Carter seating/permission remain. SmithField sports rental not automatically wedding possibility. Library openingAug2018 is not construction year.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 31,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Official inventory read. TedAdcock50-200dining vs30-over400assembly; depot49assembly; library112generic. Beer/wine/champagne only, no hard liquor; allsetup/cleanup billable.",
+        "report_url": "municipal-gap-audit.html#case-31",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "San Mateo",
     "municipality": "Hillsborough",
     "municipal_rental_status": "Not yet audited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://www.hcsdk8.org/for-community/facility-rental-usage"
+    ],
+    "remaining": "Primary policy/guide read, but actual named rentable-facility inventory remains unaudited. No exact school room vetted this pass. Wedding permission Unknown; town directory pagination and school-level inventory remain. Crystal Springs Golf Burlingame address not reassigned to Hillsborough.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 32,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Policy/guide attempt only; rental inventory not established.",
+        "report_url": "municipal-gap-audit.html#case-32",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "San Mateo",
     "municipality": "Menlo Park",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
       "https://www.menlopark.gov/Government/Departments/Library-and-Community-Services/Facility-Rentals/Venues/Arrillaga-Family-Recreation-Center",
@@ -984,12 +1386,23 @@
       "https://menlopark.gov/files/sharedassets/public/v/1/public-works/documents/capital-improvement-program/parks-and-recreation-facilities-master-plan.pdf",
       "https://menlopark.gov/Parks/Bedwell-Bayfront-Park"
     ],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "remaining": "Gymnastics center, libraries and pools not assumed private-wedding eligible. Individual layouts/terms/online rental inventory remain.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 33,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Official rental inventory read. Arrillaga explicitly weddings up250generic; BelleHavenEventHall164generic. Page explicitly says not all listed facilities rentable.",
+        "report_url": "municipal-gap-audit.html#case-33",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "San Mateo",
     "municipality": "Millbrae",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
       "https://www.ci.millbrae.ca.us/359/Facilities-Rentals",
@@ -1000,7 +1413,18 @@
       "https://www.ci.millbrae.ca.us/453/Recreation-Center",
       "https://www.ci.millbrae.ca.us/DocumentCenter/View/1068/Picnic-Reservation-Guide-PDF"
     ],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "remaining": "Fee sheet lacks effective date and says annualCPIincrease: dated applicability Unknown. Contract/room visuals/packet remain unread; not a current all-in quote.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 34,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Current index plus one-page image fee sheet reviewed visually. GreatHallfullweekend688.17nonresident/hour with4hminimum;341.07cleaning separate,538refundabledeposit.",
+        "report_url": "municipal-gap-audit.html#case-34",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "San Mateo",
@@ -1049,15 +1473,28 @@
   {
     "county": "San Mateo",
     "municipality": "San Bruno",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://www.sanbruno.ca.gov/439/Facility-Rentals"
+    ],
+    "remaining": "Room-specific seating/dance and policy fees/counts remain. Outdoor plaza daily rates are not indoor hall fee or music cutoffs.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 35,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Official current rate tables reviewed. RACcommunityhallAB588base/382resident hourly;45alcoholpermit; deposits/attendant/janitorial and insurance additional. Seniorassembly250generic.",
+        "report_url": "municipal-gap-audit.html#case-35",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "San Mateo",
     "municipality": "San Carlos",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
       "https://www.hiller.org/private-events/",
@@ -1065,9 +1502,21 @@
       "https://www.hiller.org/private-events/packages-and-pricing/",
       "https://www.hiller.org/wp-content/uploads/Copy-of-2026-SPRINGSUMMER-RENTAL.pdf",
       "https://www.skywaycentersql.com/eventspace",
-      "https://ccag.ca.gov/wp-content/uploads/2020/01/Jan-2020-ALUC-Packet.pdf"
+      "https://ccag.ca.gov/wp-content/uploads/2020/01/Jan-2020-ALUC-Packet.pdf",
+      "https://www.cityofsancarlos.org/facilityrental"
     ],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "remaining": "Current brochure browser download timed out; old price tables not promoted. Parks/picnic inventory and exact AdultCenter wedding policies/current room layouts remain.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 36,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Current city rental page read in Chrome after stale2025-26PDF404. New26-27brochure and2025policy located. Library rooms expressly unsuitable for social gatherings; YouthCenter youth-oriented.",
+        "report_url": "municipal-gap-audit.html#case-36",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "San Mateo",
@@ -1093,74 +1542,162 @@
   {
     "county": "San Mateo",
     "municipality": "South San Francisco",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
       "https://www.elks.org/lodges/LodgeFacilities.cfm?LodgeNumber=2091",
       "https://www.sonesta.com/sonesta-es-suites/ca/south-san-francisco/sonesta-es-suites-san-francisco-airport-oyster-point",
-      "https://www.sonesta.com/sonesta-select/ca/south-san-francisco/sonesta-select-san-francisco-airport-oyster-point-waterfront/services"
+      "https://www.sonesta.com/sonesta-select/ca/south-san-francisco/sonesta-select-san-francisco-airport-oyster-point-waterfront/services",
+      "https://www.ssfca.gov/Departments/Parks-Recreation/Divisions/Recreation-Division/Rentals"
     ],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "remaining": "Picnic page still says three-household limit, likely stale but not silently removed. Current policy/room links and wedding approval remain; office hours not event cutoffs.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 37,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Official rental inventory reviewed in Chrome. AliceBulos seating150; newLibraryParksRecCenter banquet/social halls privateeventrentals.",
+        "report_url": "municipal-gap-audit.html#case-37",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "San Mateo",
     "municipality": "Woodside",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
       "https://www.fogartywinery.com/pages/weddings",
       "https://www.fogartywinery.com/pages/contact",
       "https://www.fogartywinery.com/pages/our-story",
-      "https://www.weddingwire.com/biz/thomas-fogarty-winery-redwood-city/cdc13f2ba7237fed.html"
+      "https://www.weddingwire.com/biz/thomas-fogarty-winery-redwood-city/cdc13f2ba7237fed.html",
+      "https://www.woodsideca.gov/Facilities"
     ],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "remaining": "TownHall directory presence alone does not establish event rental, held as unverified. IndependenceHall exact current wedding permission/fees/layout remain.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 38,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Town facilities directory read; lists IndependenceHall and TownHall at2955WoodsideRoad.",
+        "report_url": "municipal-gap-audit.html#case-38",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "Santa Clara",
     "municipality": "Campbell",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://www.campbellca.gov/355/Renting-our-Meeting-Rooms-Banquet-Halls-"
+    ],
+    "remaining": "Nineindividualroom pages/BuildingUsePolicy/FAQ not fully reviewed. Gym/dancestudio insurance requirement not assumed all banquet terms.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 39,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Current primary index lists banquet/meeting rooms andprivate rentals. Weekendbanquetbooking1year exceptmultipurposeroom6months; other3-5months.",
+        "report_url": "municipal-gap-audit.html#case-39",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "Santa Clara",
     "municipality": "Cupertino",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://www.cupertino.gov/Parks-Recreation/Parks-and-Facilities/Indoor-Facilities"
+    ],
+    "remaining": "Room-level capacity/rates and currentPDFpolicy remain; general10-200range not assigned to every room. Office hours not event cutoff.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 40,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Official four-location inventory read. Selected eventrooms require security when serving alcohol at43/hr forwholebookedperiod, minimum6h. Insurance1M required with alcohol.",
+        "report_url": "municipal-gap-audit.html#case-40",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "Santa Clara",
     "municipality": "Gilroy",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Partial operator-led discovery; not systematic or complete",
     "source_urls": [
-      "https://gilroyglamping.com/weddings"
+      "https://gilroyglamping.com/weddings",
+      "https://www.cityofgilroy.org/538/Park-Facility-Rentals"
     ],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "remaining": "Indoorfacility policy and complete parks roster remain; sports court11PMexception not general wedding cutoff. Future demolition proposals are not current closures.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 41,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Official rental policy index read; named reservablepicnicsMulberryEast/West,Sycamore,Walnut,Oaks,Lakeside; seasonal parkhours distinct from music permission.",
+        "report_url": "municipal-gap-audit.html#case-41",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "Santa Clara",
     "municipality": "Los Altos",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://www.losaltosca.gov/338/Facility-Picnic-Reservations"
+    ],
+    "remaining": "Currentfees/application table and indoor layouts remain; athleticfields/courts not promoted as wedding eligible.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 42,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Official inventory read via primary web reader. Hourlyfacilities includesetup/cleanup; required application+facilityfees, alcoholfeeconditional.",
+        "report_url": "municipal-gap-audit.html#case-42",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "Santa Clara",
     "municipality": "Los Altos Hills",
     "municipal_rental_status": "Not yet audited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://www.losaltoshills.ca.gov/DocumentCenter/View/7886/2026-01-Spring-Summer-LAH-Activity-Guide_02a-FINAL-WEB-"
+    ],
+    "remaining": "Primary policy/guide read, but actual named rentable-facility inventory remains unaudited. Actual resident eligibility/policies/fees and current portal inventory remain unread. Do not add every mapped preserve/college as event rentable.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 43,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Policy/guide attempt only; rental inventory not established.",
+        "report_url": "municipal-gap-audit.html#case-43",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "Santa Clara",
     "municipality": "Los Gatos",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
       "https://losgatosmasonic.org/",
@@ -1168,25 +1705,63 @@
       "https://mtmoriah292.org/hall-rental",
       "https://www.nestldown.com/weddings/",
       "https://www.nestldown.com/faq/",
-      "https://www.nestldown.com/required-vendors/"
+      "https://www.nestldown.com/required-vendors/",
+      "https://www.losgatosca.gov/319/Adult-Recreation-Center-Rentals"
     ],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "remaining": "CurrentLGSfees, exactrooms, capacity and clock cutoffs remain.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 44,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Official town page explicitly advertises weddingreceptions;208EastMainStreet; townowned/LGSmanaged. Center openedJan2010underthisprogram, not construction/weddingopening proof.",
+        "report_url": "municipal-gap-audit.html#case-44",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "Santa Clara",
     "municipality": "Milpitas",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://www.milpitas.gov/504/Building-Rentals"
+    ],
+    "remaining": "Current2026/27fee schedule/contract needed. Do not treatmidnightdatedrentalwindow as currentmusicpermission; no-diningconference/studio spaces excluded from dinner capacity.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 45,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Primary index plus linked two-pagefee sheet read. Sheet internallyFY24.25, despitecurrentlink. Index30application vsPDF31 conflicts; sheetdiningcaps300/120-150/50/80 distinct.",
+        "report_url": "municipal-gap-audit.html#case-45",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "Santa Clara",
     "municipality": "Monte Sereno",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://www.montesereno.org/2153/Parks-Recreation"
+    ],
+    "remaining": "Privatevenues,otherauthoritiesandmunicipalbuildingsnotexhausted. Neighboringplaces remain their owncities; no falsezero-venue claim.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 46,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Official city says historically noownpublicparksystem; residentrentalprivileges are in LosGatos/Saratoga. No local named municipal eventrental found on reviewed page.",
+        "report_url": "municipal-gap-audit.html#case-46",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "Santa Clara",
@@ -1217,14 +1792,26 @@
   {
     "county": "Santa Clara",
     "municipality": "Palo Alto",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
       "https://www.paloaltoeventcenter.com/spaces",
       "https://www.paloaltoeventcenter.com/_files/ugd/ef0692_b8e572029a2a41d1824d29749b026a77.pdf",
-      "https://www.paloaltoeventcenter.com/menu"
+      "https://www.paloaltoeventcenter.com/menu",
+      "https://www.paloalto.gov/Departments/Community-Services/Facility-Rentals"
     ],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "remaining": "Communitycenter subinventory and roompolicies remain. TowleMay-Oct8campsites not summed into weddingcapacity. Childbirthdayoffer not evidence of wedding permission.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 47,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Official city rental category inventory read. Communitycenter,theatre,fieldhouse,art,naturecenter,picnic,campground routes identified.",
+        "report_url": "municipal-gap-audit.html#case-47",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "Santa Clara",
@@ -1289,22 +1876,47 @@
   {
     "county": "Santa Clara",
     "municipality": "Saratoga",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://www.saratoga.ca.us/336/Facility-Rentals"
+    ],
+    "remaining": "LGS/SASCC currentroomfees/contract/layout and parkssubinventory remain unread.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 48,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Official city page delegates firstthree LGS;SeniorCenterSASCC. Operators separate; not all cityfacilitydirectory entries are rentals.",
+        "report_url": "municipal-gap-audit.html#case-48",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "Santa Clara",
     "municipality": "Sunnyvale",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
       "https://bayareahindutemple.org/hall-class-room-booking.php",
       "https://svelks.org/facility-rental",
-      "https://svelks.org/"
+      "https://svelks.org/",
+      "https://www.sunnyvale.ca.gov/recreation-and-community/facility-rentals/"
     ],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "remaining": "Capacities are not seated/dance layouts. Currentrates,parkbuildings,theatre,pools and individualpolicies remain.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 49,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Current city rentalpage and roomtable read inChrome: genericmaxima300,250,80,75,45,40,40,40,40,50,25,16,15,12 in listedorder.",
+        "report_url": "municipal-gap-audit.html#case-49",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "Solano",
@@ -1712,10 +2324,23 @@
   {
     "county": "Solano",
     "municipality": "Unincorporated areas / county agencies",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial official municipal inventory review; remaining authorities and event-specific terms unaudited",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "County, regional, state, federal, special districts, colleges, fairs, remote properties; separate from city inventory"
+    "source_urls": [
+      "https://www.solanocounty.gov/government/resource-management/solano-county-parks/lake-solano-county-park-campground"
+    ],
+    "remaining": "Currentconstructionstatus notassumedresolved. Weddingpermits/prices/groupcapacityUnknown; eightpercampsite isnotweddingmaximum. SandyBeach/state/federalinventory remains.",
+    "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+    "audit_history": [
+      {
+        "audit_id": "municipal-gap-recovery-20261107",
+        "case": 50,
+        "checked_utc": "2026-11-08T07:23:22.024844+00:00",
+        "reviewed_scope": "Officialcountyparkpage reviewed. Constructionnotice saysintermittentthroughatleastSept2026; campgroundfirstcomeonly and existingreservationshonored. Dayuse5PM/7PMseasonal/Wed4PM; campgate9PM.",
+        "report_url": "municipal-gap-audit.html#case-50",
+        "complete": false
+      }
+    ]
   },
   {
     "county": "Sonoma",

@@ -49,10 +49,10 @@ def status(a):
  if re.search(r'^(unknown|not (?:yet )?(?:verified|established)|pending)',text,re.I):return 'needs_confirmation' if a.get('source_urls') else 'not_yet_extracted'
  return 'published_evidence' if a.get('source_urls') else 'needs_confirmation'
 OLD=D.get('normalized',{});PROPS=OLD.get('properties',{});KEYS={p['registry_key']:pid for pid,p in PROPS.items()};RECORDS={};QUEUE=[]
-def fact(v,out,key,value,path,method='structured',note=None,precision='exact'):
+def fact(v,out,key,value,path,method='structured',note=None,precision='exact',effective_date=None):
  if value is None:return
  prev=out['facts'].get(key)
- f={'value':value,'status':'published_evidence','ref':path,'method':method,'precision':precision,'effective_date':None,'scope_record_id':v['id']}
+ f={'value':value,'status':'published_evidence','ref':path,'method':method,'precision':precision,'effective_date':effective_date,'scope_record_id':v['id']}
  if note:f['note']=note
  if isinstance(path,list) and len(path)>1 and path[0]=='workbook_answers':
   a=v['workbook_answers'].get(path[1]);st=status(a)
@@ -266,7 +266,7 @@ for v in D['venues']:
   fact(v,out,'music_indoor',1560,['workbook_answers',WB['music_indoor']],'manually_reviewed_late_extension','2AM next event day, only with paid contracted extension; current event-specific/legal approval not established.')
  for i,obs in enumerate(v.get('research_observations',[])):
   if obs.get('field') in DEFS and obs.get('status')=='published_evidence' and (nval(obs.get('value')) is not None or (DEFS[obs['field']]['type']=='category' and obs.get('value') in DEFS[obs['field']].get('choices',[]))):
-   fact(v,out,obs['field'],obs['value'],['research_observations',i],'manually_reviewed_directory_profile' if obs.get('source_kind')=='directory_profile' else 'manually_reviewed_primary_operator',obs.get('basis'))
+   fact(v,out,obs['field'],obs['value'],['research_observations',i],'manually_reviewed_directory_profile' if obs.get('source_kind')=='directory_profile' else 'manually_reviewed_primary_operator',obs.get('basis'),effective_date=obs.get('effective_date'))
   elif obs.get('field') in DEFS and obs.get('status')=='conflicting' and obs.get('source_urls') and obs.get('checked_utc') and obs.get('source_text'):
    # A reviewed source contradiction must not leave an unrelated scalar fallback looking resolved.
    key=obs['field'];prev=out['facts'].get(key)
