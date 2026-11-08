@@ -2,8 +2,8 @@
   "summary": {
     "checked_utc": "2026-10-26T13:28:51.955107+00:00",
     "candidate_urls": 580,
-    "candidate_urls_with_exact_match": 113,
-    "candidate_urls_without_exact_match": 467,
+    "candidate_urls_with_exact_match": 151,
+    "candidate_urls_without_exact_match": 429,
     "source_counts": {
       "moderndjs": {
         "raw_named_cards": 361,
@@ -53,12 +53,12 @@
     },
     "added_venue_records": 0,
     "note": "Candidate URLs are not a venue count. Old source collection counts retain their original dates; followup state counts are current. Fragment-only links merged; names/URLs are aids, not automatic reviews. Original added_venue_records=0 describes index-only ingestion; primary_followup_records_added is separate.",
-    "primary_followup_records_added": 23,
-    "followup_checked_utc": "2026-11-08T20:29:36.220375+00:00",
+    "primary_followup_records_added": 47,
+    "followup_checked_utc": "2026-11-08T21:00:05.590334+00:00",
     "current_review_counts": {
-      "pending": 538,
-      "reviewed_existing": 7,
-      "reviewed_added": 32,
+      "pending": 500,
+      "reviewed_existing": 17,
+      "reviewed_added": 60,
       "excluded": 3
     }
   },
@@ -3584,10 +3584,20 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property review applied; outstanding terms listed",
+      "matched_record_ids": [
+        "the-melody-of-san-francisco-main-hall"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-08T20:39:56.904507+00:00",
+      "review_source_urls": [
+        "https://www.themelodysf.com/wedding-venue",
+        "https://www.themelodysf.com/event-spaces",
+        "https://www.themelodysf.com/packages-pricing",
+        "https://www.themelodysf.com/about-history"
+      ],
+      "review_reason": "Queued lead reviewed against actual current operator/branded document; specific wedding eligibility and unknown fields preserved"
     },
     {
       "id": "directory-lead-1de3d6b94656bf",
@@ -3875,10 +3885,20 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property review applied; outstanding terms listed",
+      "matched_record_ids": [
+        "atlas-union-square-san-francisco"
+      ],
       "match_method": "Not yet manually reconciled",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-08T20:39:56.904507+00:00",
+      "review_source_urls": [
+        "https://www.atlasunionsquare.com/",
+        "https://www.atlasunionsquare.com/thespace",
+        "https://www.sfuva.com/atlas-union-square",
+        "https://www.ggcatering.com/venues/atlas-union-square"
+      ],
+      "review_reason": "Queued lead reviewed against actual current operator/branded document; specific wedding eligibility and unknown fields preserved"
     },
     {
       "id": "directory-lead-44ed8ec11d5bc9",
@@ -3946,11 +3966,19 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property review applied; outstanding terms listed",
+      "matched_record_ids": [
+        "merchants-exchange-banking-hall-san-francisco"
+      ],
       "match_method": "Not yet manually reconciled",
-      "review_state": "pending",
-      "review_reason": "Confirmed association event-space lead; operator-specific wedding/booking and same-building relationship need review."
+      "review_state": "reviewed_added",
+      "review_reason": "Queued lead reviewed against actual current operator/branded document; specific wedding eligibility and unknown fields preserved",
+      "reviewed_utc": "2026-11-08T20:39:56.904507+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/the-banking-hall-at-merchants-exchange",
+        "https://www.sfuva.com/s/Banking-Hall-One-Sheet.pdf",
+        "https://juliamorganballroom.com/our-story/"
+      ]
     },
     {
       "id": "directory-lead-b85e54e5eda934",
@@ -4647,10 +4675,20 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property review applied; outstanding terms listed",
+      "matched_record_ids": [
+        "the-melody-of-san-francisco-main-hall"
+      ],
       "match_method": "Not yet manually reconciled",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-08T20:39:56.904507+00:00",
+      "review_source_urls": [
+        "https://www.themelodysf.com/wedding-venue",
+        "https://www.themelodysf.com/event-spaces",
+        "https://www.themelodysf.com/packages-pricing",
+        "https://www.themelodysf.com/about-history"
+      ],
+      "review_reason": "Queued lead reviewed against actual current operator/branded document; specific wedding eligibility and unknown fields preserved"
     },
     {
       "id": "directory-lead-19776c9dc35a27",
@@ -5094,10 +5132,22 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property review applied; outstanding terms listed",
+      "matched_record_ids": [
+        "terra-gallery-event-venue-san-francisco"
+      ],
       "match_method": "Not yet manually reconciled",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-08T20:39:56.904507+00:00",
+      "review_source_urls": [
+        "https://terrasf.com/",
+        "https://terrasf.com/event-venue-gallery-space/terra/",
+        "https://terrasf.com/event-venue-gallery-space/mer/",
+        "https://terrasf.com/floorplans/TERRA_FLOOR_PLAN_WITH_MEASUREMENTS.pdf",
+        "https://www.ggcatering.com/venues/terra-gallery",
+        "https://www.theknot.com/marketplace/terra-gallery-and-event-venue-san-francisco-ca-23768"
+      ],
+      "review_reason": "Queued lead reviewed against actual current operator/branded document; specific wedding eligibility and unknown fields preserved"
     },
     {
       "id": "directory-lead-5b2e5ff06b510d",
@@ -8131,7 +8181,17 @@
       "matched_record_ids": [],
       "match_method": "No automatic identity closure",
       "review_state": "pending",
-      "review_reason": "Absent exact baseline; caterer profile gives155 9thStreet, reception999. Operator link redirects to broad inventory and omits Storek: current availability unresolved, not declared closed."
+      "review_reason": "Absent exact baseline; caterer profile gives155 9thStreet, reception999. Operator link redirects to broad inventory and omits Storek: current availability unresolved, not declared closed.",
+      "review_attempts": [
+        {
+          "checked_utc": "2026-11-08T20:52:04.794970+00:00",
+          "sources": [
+            "https://npu.co/venue/storek/",
+            "https://www.ggcatering.com/venues/storek"
+          ],
+          "outcome": "Partner retains property profile but old operator URL redirects to broad inventory omitting Storek. Alternate directories disagree on149/1559thStreet and generic space capacities. No current property-specific operator booking confirmation. Remains pending, neither closed nor available claimed."
+        }
+      ]
     },
     {
       "id": "directory-lead-c8d0a5f194e108",
@@ -8149,11 +8209,20 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property review applied; outstanding terms listed",
+      "matched_record_ids": [
+        "the-melody-of-san-francisco-main-hall"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
-      "review_reason": "Named roster lead absent baseline; profile timed out, no permission/capacity upgrade."
+      "review_state": "reviewed_added",
+      "review_reason": "Queued lead reviewed against actual current operator/branded document; specific wedding eligibility and unknown fields preserved",
+      "reviewed_utc": "2026-11-08T20:39:56.904507+00:00",
+      "review_source_urls": [
+        "https://www.themelodysf.com/wedding-venue",
+        "https://www.themelodysf.com/event-spaces",
+        "https://www.themelodysf.com/packages-pricing",
+        "https://www.themelodysf.com/about-history"
+      ]
     },
     {
       "id": "directory-lead-a271442e322fed",
@@ -8623,11 +8692,18 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Current rendered source reviewed; cost/vendor/cutoff questions remain",
+      "matched_record_ids": [
+        "golden-gate-yacht-club-americas-cup-room-san-francisco"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
-      "review_reason": "NewoperatorJSroute readableidentity1YachtRoad only; oldindexed nonmemberpolicy needs renderedcurrentbody. Not assume privateclub banspublic or acceptsall."
+      "review_state": "reviewed_added",
+      "review_reason": "Current JavaScript-rendered operator wedding and facilities pages reviewed; non-member eligibility and exact room capacities verified.",
+      "reviewed_utc": "2026-11-08T20:52:04.794970+00:00",
+      "review_source_urls": [
+        "https://ggyc.com/san-francisco-waterfront-wedding-venue",
+        "https://ggyc.com/facilities"
+      ]
     },
     {
       "id": "directory-lead-83524d1e003acf",
@@ -8751,10 +8827,18 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped source review applied; linked documents/contract gaps retained",
+      "matched_record_ids": [
+        "620-jones-event-venue-san-francisco"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-08T21:00:05.590334+00:00",
+      "review_source_urls": [
+        "https://npu.co/venue/jones/",
+        "https://www.ggcatering.com/venues/620-jones"
+      ],
+      "review_reason": "Exact named operator/property source reviewed; scoped record added with explicit unanswered eligibility/cost/layout questions. Not a completed venue workbook."
     },
     {
       "id": "directory-lead-708266ab5aeaea",
@@ -8772,10 +8856,18 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Identity reconciliation reviewed; complete terms not claimed",
+      "matched_record_ids": [
+        "above-the-rim-at-chase-center-san-francisco"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-08T21:00:05.590334+00:00",
+      "review_source_urls": [
+        "https://www.ggcatering.com/venues/above-the-rim",
+        "https://chasecenter.com/premium-experiences/private-events/"
+      ],
+      "review_reason": "Actual partner profile reviewed and exact existing property family reconciled. No new venue or overwritten room-capacity facts."
     },
     {
       "id": "directory-lead-5f513d1e21e369",
@@ -8793,10 +8885,19 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped source review applied; linked documents/contract gaps retained",
+      "matched_record_ids": [
+        "asian-art-museum-samsung-hall-san-francisco"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-08T21:00:05.590334+00:00",
+      "review_source_urls": [
+        "https://rentals.asianart.org/weddings-private-events/",
+        "https://www.ggcatering.com/venues/asian-art-museum",
+        "https://rentals.asianart.org/faq/"
+      ],
+      "review_reason": "Exact named operator/property source reviewed; scoped record added with explicit unanswered eligibility/cost/layout questions. Not a completed venue workbook."
     },
     {
       "id": "directory-lead-0b37ad0df2dfa3",
@@ -8814,10 +8915,20 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property review applied; outstanding terms listed",
+      "matched_record_ids": [
+        "atlas-union-square-san-francisco"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-08T20:39:56.904507+00:00",
+      "review_source_urls": [
+        "https://www.atlasunionsquare.com/",
+        "https://www.atlasunionsquare.com/thespace",
+        "https://www.sfuva.com/atlas-union-square",
+        "https://www.ggcatering.com/venues/atlas-union-square"
+      ],
+      "review_reason": "Queued lead reviewed against actual current operator/branded document; specific wedding eligibility and unknown fields preserved"
     },
     {
       "id": "directory-lead-cc37bf6b285ee5",
@@ -8835,10 +8946,18 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped source review applied; linked documents/contract gaps retained",
+      "matched_record_ids": [
+        "bill-graham-civic-auditorium-san-francisco"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-08T21:00:05.590334+00:00",
+      "review_source_urls": [
+        "https://www.anotherplanetevents.com/the-bill-graham-civic-auditorium",
+        "https://www.ggcatering.com/venues/bill-graham-civic-auditorium"
+      ],
+      "review_reason": "Exact named operator/property source reviewed; scoped record added with explicit unanswered eligibility/cost/layout questions. Not a completed venue workbook."
     },
     {
       "id": "directory-lead-fa36632f986d06",
@@ -8856,10 +8975,18 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped source review applied; linked documents/contract gaps retained",
+      "matched_record_ids": [
+        "bimbos-365-club-san-francisco"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-08T21:00:05.590334+00:00",
+      "review_source_urls": [
+        "https://bimbos365club.com/private-events/",
+        "https://www.ggcatering.com/venues/bimbos-365-club"
+      ],
+      "review_reason": "Exact named operator/property source reviewed; scoped record added with explicit unanswered eligibility/cost/layout questions. Not a completed venue workbook."
     },
     {
       "id": "directory-lead-d558e0538796e2",
@@ -8877,10 +9004,18 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Identity reconciliation reviewed; complete terms not claimed",
+      "matched_record_ids": [
+        "california-academy-of-sciences-san-francisco"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-08T21:00:05.590334+00:00",
+      "review_source_urls": [
+        "https://www.ggcatering.com/venues/california-academy-of-sciences",
+        "https://www.calacademy.org/wedding-ceremonies-and-receptions"
+      ],
+      "review_reason": "Actual partner profile reviewed and exact existing property family reconciled. No new venue or overwritten room-capacity facts."
     },
     {
       "id": "directory-lead-1929392516a554",
@@ -8926,10 +9061,18 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Identity reconciliation reviewed; complete terms not claimed",
+      "matched_record_ids": [
+        "de-young-museum-san-francisco"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-08T21:00:05.590334+00:00",
+      "review_source_urls": [
+        "https://www.ggcatering.com/venues/de-young-museum",
+        "https://www.famsf.org/about/weddings-private-events#de-young-event-spaces"
+      ],
+      "review_reason": "Actual partner profile reviewed and exact existing property family reconciled. No new venue or overwritten room-capacity facts."
     },
     {
       "id": "directory-lead-1faa96630efed1",
@@ -8947,10 +9090,18 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Identity reconciliation reviewed; complete terms not claimed",
+      "matched_record_ids": [
+        "exploratorium-san-francisco"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-08T21:00:05.590334+00:00",
+      "review_source_urls": [
+        "https://www.ggcatering.com/venues/exploratorium",
+        "https://www.zola.com/wedding-vendors/wedding-venues/exploratorium"
+      ],
+      "review_reason": "Actual partner profile reviewed and exact existing property family reconciled. No new venue or overwritten room-capacity facts."
     },
     {
       "id": "directory-lead-2d6a830bc12789",
@@ -8968,10 +9119,18 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped source review applied; linked documents/contract gaps retained",
+      "matched_record_ids": [
+        "ferry-building-grand-hall-san-francisco"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-08T21:00:05.590334+00:00",
+      "review_source_urls": [
+        "https://www.ferrybuildingmarketplace.com/venue-rental-events/",
+        "https://www.ggcatering.com/venues/ferry-building"
+      ],
+      "review_reason": "Exact named operator/property source reviewed; scoped record added with explicit unanswered eligibility/cost/layout questions. Not a completed venue workbook."
     },
     {
       "id": "directory-lead-dc9b2f5f9b73ed",
@@ -8989,10 +9148,18 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped source review applied; linked documents/contract gaps retained",
+      "matched_record_ids": [
+        "flood-mansion-san-francisco"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-08T21:00:05.590334+00:00",
+      "review_source_urls": [
+        "https://www.floodmansion.org/",
+        "https://www.ggcatering.com/venues/flood-mansion"
+      ],
+      "review_reason": "Exact named operator/property source reviewed; scoped record added with explicit unanswered eligibility/cost/layout questions. Not a completed venue workbook."
     },
     {
       "id": "directory-lead-1c36355a07664a",
@@ -9010,10 +9177,18 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Identity reconciliation reviewed; complete terms not claimed",
+      "matched_record_ids": [
+        "fort-mason-center-san-francisco"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-08T21:00:05.590334+00:00",
+      "review_source_urls": [
+        "https://www.ggcatering.com/venues/fort-mason",
+        "https://fortmason.org/venues/"
+      ],
+      "review_reason": "Actual partner profile reviewed and exact existing property family reconciled. No new venue or overwritten room-capacity facts."
     },
     {
       "id": "directory-lead-15a3c24c214962",
@@ -9034,7 +9209,17 @@
       "collection_status": "Captured; property review pending",
       "matched_record_ids": [],
       "match_method": "No automatic identity closure",
-      "review_state": "pending"
+      "review_state": "pending",
+      "review_attempts": [
+        {
+          "checked_utc": "2026-11-08T21:00:05.590334+00:00",
+          "audit_id": "caterer-roster-reconciliation-20261108",
+          "sources": [
+            "https://www.ggcatering.com/venues/legion-of-honor"
+          ],
+          "outcome": "Primary rental page returned403; no bypass. Partner profile read but current terms/eligibility not yet verified."
+        }
+      ]
     },
     {
       "id": "directory-lead-1e0ab4c3fbac80",
@@ -9052,10 +9237,19 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped source review applied; linked documents/contract gaps retained",
+      "matched_record_ids": [
+        "china-basin-park-event-rental-san-francisco"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-08T21:00:05.590334+00:00",
+      "review_source_urls": [
+        "https://missionrock.com/china-basin-park/",
+        "https://www.ggcatering.com/venues/mission-rocks-china-basin-park",
+        "https://cdn.sanity.io/files/bs9rmafh/ts_multisite_01/6591682e3d9b2a25dd22a721640c5ad6bbac2e1d.pdf"
+      ],
+      "review_reason": "Exact named operator/property source reviewed; scoped record added with explicit unanswered eligibility/cost/layout questions. Not a completed venue workbook."
     },
     {
       "id": "directory-lead-2936747ac44de9",
@@ -9073,10 +9267,18 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Identity reconciliation reviewed; complete terms not claimed",
+      "matched_record_ids": [
+        "palace-of-fine-arts-san-francisco"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-08T21:00:05.590334+00:00",
+      "review_source_urls": [
+        "https://www.ggcatering.com/venues/palace-of-fine-arts",
+        "https://sfrecpark.org/917/Palace-of-Fine-Arts"
+      ],
+      "review_reason": "Actual partner profile reviewed and exact existing property family reconciled. No new venue or overwritten room-capacity facts."
     },
     {
       "id": "directory-lead-c42ddc5223ae73",
@@ -9094,10 +9296,18 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped source review applied; linked documents/contract gaps retained",
+      "matched_record_ids": [
+        "pier-27-event-venue-san-francisco"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-08T21:00:05.590334+00:00",
+      "review_source_urls": [
+        "https://metroevents.com/locations/pier-27/",
+        "https://www.ggcatering.com/venues/pier-27"
+      ],
+      "review_reason": "Exact named operator/property source reviewed; scoped record added with explicit unanswered eligibility/cost/layout questions. Not a completed venue workbook."
     },
     {
       "id": "directory-lead-6e0ce06a222625",
@@ -9115,10 +9325,18 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped source review applied; linked documents/contract gaps retained",
+      "matched_record_ids": [
+        "pier-35-event-venue-san-francisco"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-08T21:00:05.590334+00:00",
+      "review_source_urls": [
+        "https://metroevents.com/locations/pier-35/",
+        "https://www.ggcatering.com/venues/pier-35"
+      ],
+      "review_reason": "Exact named operator/property source reviewed; scoped record added with explicit unanswered eligibility/cost/layout questions. Not a completed venue workbook."
     },
     {
       "id": "directory-lead-14513ad0852b5d",
@@ -9136,10 +9354,18 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped source review applied; linked documents/contract gaps retained",
+      "matched_record_ids": [
+        "pier-48-event-venue-san-francisco"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-08T21:00:05.590334+00:00",
+      "review_source_urls": [
+        "https://giantsenterprises.com/oracle-park-edge/pier-48/",
+        "https://www.ggcatering.com/venues/pier-48"
+      ],
+      "review_reason": "Exact named operator/property source reviewed; scoped record added with explicit unanswered eligibility/cost/layout questions. Not a completed venue workbook."
     },
     {
       "id": "directory-lead-0156b930a0816a",
@@ -9160,7 +9386,17 @@
       "collection_status": "Captured; property review pending",
       "matched_record_ids": [],
       "match_method": "No automatic identity closure",
-      "review_state": "pending"
+      "review_state": "pending",
+      "review_attempts": [
+        {
+          "checked_utc": "2026-11-08T21:00:05.590334+00:00",
+          "audit_id": "caterer-roster-reconciliation-20261108",
+          "sources": [
+            "https://www.ggcatering.com/venues/san-francisco-city-hall"
+          ],
+          "outcome": "Primary old domain redirected to sf.gov and returned a robot-verification interstitial in standard web reader. Not bypassed; partner profile alone not a completed current City Hall rental audit."
+        }
+      ]
     },
     {
       "id": "directory-lead-e3b8594952f763",
@@ -9178,10 +9414,19 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped source review applied; linked documents/contract gaps retained",
+      "matched_record_ids": [
+        "san-francisco-design-center-galleria-san-francisco"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-08T21:00:05.590334+00:00",
+      "review_source_urls": [
+        "https://sfvenues.com/",
+        "https://www.ggcatering.com/venues/galleria",
+        "https://sfvenues.com/vendors/"
+      ],
+      "review_reason": "Exact named operator/property source reviewed; scoped record added with explicit unanswered eligibility/cost/layout questions. Not a completed venue workbook."
     },
     {
       "id": "directory-lead-8291302cc99fe9",
@@ -9199,10 +9444,24 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Identity reconciliation reviewed; complete terms not claimed",
+      "matched_record_ids": [
+        "the-masonic-live-nation-grand-lobby-san-francisco",
+        "the-masonic-live-nation-california-room-san-francisco",
+        "the-masonic-live-nation-exhibition-hall-san-francisco",
+        "the-masonic-live-nation-auditorium-san-francisco"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-08T21:00:05.590334+00:00",
+      "review_source_urls": [
+        "https://www.ggcatering.com/venues/sf-masonic",
+        "https://www.sfmasonic.com/private-events",
+        "https://www.sfmasonic.com/private-events",
+        "https://www.sfmasonic.com/private-events",
+        "https://www.sfmasonic.com/private-events"
+      ],
+      "review_reason": "Actual partner profile reviewed and exact existing property family reconciled. No new venue or overwritten room-capacity facts."
     },
     {
       "id": "directory-lead-d67d1997ba3cae",
@@ -9220,10 +9479,19 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped source review applied; linked documents/contract gaps retained",
+      "matched_record_ids": [
+        "sfmoma-wedding-rental-san-francisco"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-08T21:00:05.590334+00:00",
+      "review_source_urls": [
+        "https://www.sfmoma.org/rental-events/weddings-at-sfmoma/",
+        "https://www.ggcatering.com/venues/sf-moma",
+        "https://www.sfmoma.org/rental-events/facility-rental-faq/"
+      ],
+      "review_reason": "Exact named operator/property source reviewed; scoped record added with explicit unanswered eligibility/cost/layout questions. Not a completed venue workbook."
     },
     {
       "id": "directory-lead-6f664174c5c90b",
@@ -9241,10 +9509,19 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped source review applied; linked documents/contract gaps retained",
+      "matched_record_ids": [
+        "sfjazz-second-floor-lobby-san-francisco"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-08T21:00:05.590334+00:00",
+      "review_source_urls": [
+        "https://www.sfjazz.org/visit/rentals/",
+        "https://www.ggcatering.com/venues/sfjazz",
+        "https://www.sfjazz.org/media/3edguxa4/sfjazz-events-deck-2025.pdf"
+      ],
+      "review_reason": "Exact named operator/property source reviewed; scoped record added with explicit unanswered eligibility/cost/layout questions. Not a completed venue workbook."
     },
     {
       "id": "directory-lead-1b514b2d607bf5",
@@ -9262,10 +9539,18 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped source review applied; linked documents/contract gaps retained",
+      "matched_record_ids": [
+        "pier-80-shed-a-san-francisco"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-08T21:00:05.590334+00:00",
+      "review_source_urls": [
+        "https://npu.co/venue/pier-80-shed-a/",
+        "https://www.ggcatering.com/venues/shed-a-at-pier-80"
+      ],
+      "review_reason": "Exact named operator/property source reviewed; scoped record added with explicit unanswered eligibility/cost/layout questions. Not a completed venue workbook."
     },
     {
       "id": "directory-lead-e48555acefc283",
@@ -9283,10 +9568,18 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped source review applied; linked documents/contract gaps retained",
+      "matched_record_ids": [
+        "svn-west-event-venue-san-francisco"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-08T21:00:05.590334+00:00",
+      "review_source_urls": [
+        "https://npu.co/venue/svn-west/",
+        "https://www.ggcatering.com/venues/svn-west"
+      ],
+      "review_reason": "Exact named operator/property source reviewed; scoped record added with explicit unanswered eligibility/cost/layout questions. Not a completed venue workbook."
     },
     {
       "id": "directory-lead-9c2336bb447e41",
@@ -9304,10 +9597,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property review applied; outstanding terms listed",
+      "matched_record_ids": [
+        "terra-gallery-event-venue-san-francisco"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-08T20:39:56.904507+00:00",
+      "review_source_urls": [
+        "https://terrasf.com/",
+        "https://terrasf.com/event-venue-gallery-space/terra/",
+        "https://terrasf.com/event-venue-gallery-space/mer/",
+        "https://terrasf.com/floorplans/TERRA_FLOOR_PLAN_WITH_MEASUREMENTS.pdf",
+        "https://www.ggcatering.com/venues/terra-gallery",
+        "https://www.theknot.com/marketplace/terra-gallery-and-event-venue-san-francisco-ca-23768"
+      ],
+      "review_reason": "Queued lead reviewed against actual current operator/branded document; specific wedding eligibility and unknown fields preserved"
     },
     {
       "id": "directory-lead-0716e00ad4952d",
@@ -9388,10 +9693,19 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped source review applied; linked documents/contract gaps retained",
+      "matched_record_ids": [
+        "the-fillmore-main-ballroom-san-francisco"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-08T21:00:05.590334+00:00",
+      "review_source_urls": [
+        "https://specialevents.livenation.com/venues/the-fillmore",
+        "https://www.ggcatering.com/venues/the-fillmore",
+        "https://cdn.brandfolder.io/IW4GVCQ6/at/q6r8hw4xp58n9cfsc7bn68hv/The_Fillmore_One-Sheet.pdf"
+      ],
+      "review_reason": "Exact named operator/property source reviewed; scoped record added with explicit unanswered eligibility/cost/layout questions. Not a completed venue workbook."
     },
     {
       "id": "directory-lead-786bdd5d1b3524",
@@ -9438,10 +9752,18 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped source review applied; linked documents/contract gaps retained",
+      "matched_record_ids": [
+        "the-midway-event-venue-san-francisco"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-08T21:00:05.590334+00:00",
+      "review_source_urls": [
+        "https://npu.co/venue/the-midway/",
+        "https://www.ggcatering.com/venues/the-midway"
+      ],
+      "review_reason": "Exact named operator/property source reviewed; scoped record added with explicit unanswered eligibility/cost/layout questions. Not a completed venue workbook."
     },
     {
       "id": "directory-lead-c502ae9cb9488d",
@@ -9459,10 +9781,18 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Identity reconciliation reviewed; complete terms not claimed",
+      "matched_record_ids": [
+        "the-pearl-san-francisco"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-08T21:00:05.590334+00:00",
+      "review_source_urls": [
+        "https://www.ggcatering.com/venues/the-pearl",
+        "https://www.thepearlsf.com/events/weddings"
+      ],
+      "review_reason": "Actual partner profile reviewed and exact existing property family reconciled. No new venue or overwritten room-capacity facts."
     },
     {
       "id": "directory-lead-52d0ed679ce38d",
@@ -9480,10 +9810,18 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Identity reconciliation reviewed; complete terms not claimed",
+      "matched_record_ids": [
+        "the-regency-center-san-francisco"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-08T21:00:05.590334+00:00",
+      "review_source_urls": [
+        "https://www.ggcatering.com/venues/the-regency-center",
+        "https://www.theregencyballroom.com/rentals"
+      ],
+      "review_reason": "Actual partner profile reviewed and exact existing property family reconciled. No new venue or overwritten room-capacity facts."
     },
     {
       "id": "directory-lead-44b94f7c9e70b2",
@@ -9501,10 +9839,18 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Identity reconciliation reviewed; complete terms not claimed",
+      "matched_record_ids": [
+        "the-san-francisco-mint-san-francisco"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-08T21:00:05.590334+00:00",
+      "review_source_urls": [
+        "https://www.ggcatering.com/venues/the-san-francisco-mint",
+        "https://thesanfranciscomint.com/"
+      ],
+      "review_reason": "Actual partner profile reviewed and exact existing property family reconciled. No new venue or overwritten room-capacity facts."
     },
     {
       "id": "directory-lead-de20c8928fd688",
@@ -9522,10 +9868,19 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped source review applied; linked documents/contract gaps retained",
+      "matched_record_ids": [
+        "ybca-forum-san-francisco"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-08T21:00:05.590334+00:00",
+      "review_source_urls": [
+        "https://ybca.org/venues/",
+        "https://www.ggcatering.com/venues/yerba-buena-center-for-the-arts",
+        "https://ybca.org/wp-content/uploads/2020/01/YBCA-Venues-Use-Policy.pdf"
+      ],
+      "review_reason": "Exact named operator/property source reviewed; scoped record added with explicit unanswered eligibility/cost/layout questions. Not a completed venue workbook."
     },
     {
       "id": "directory-lead-66d3892ff666e6",
@@ -9543,10 +9898,18 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped source review applied; linked documents/contract gaps retained",
+      "matched_record_ids": [
+        "yerba-buena-gardens-great-lawn-san-francisco"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-08T21:00:05.590334+00:00",
+      "review_source_urls": [
+        "https://yerbabuenagardens.org/plan-an-event/",
+        "https://www.ggcatering.com/venues/yerba-buena-gardens"
+      ],
+      "review_reason": "Exact named operator/property source reviewed; scoped record added with explicit unanswered eligibility/cost/layout questions. Not a completed venue workbook."
     },
     {
       "id": "directory-lead-aefa4df6de4c59",

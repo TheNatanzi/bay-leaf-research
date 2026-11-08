@@ -1,0 +1,308 @@
+{
+  "schema_version": 1,
+  "research_first": true,
+  "interface_changes_deferred": true,
+  "batches": [
+    {
+      "id": "queued-sources-20261108-01",
+      "checked_utc": "2026-11-08T20:39:56.904507+00:00",
+      "phase": "Queued property/source review after twenty discovery-method audits",
+      "records_added": [
+        "the-melody-of-san-francisco-main-hall",
+        "terra-gallery-event-venue-san-francisco",
+        "atlas-union-square-san-francisco",
+        "merchants-exchange-banking-hall-san-francisco"
+      ],
+      "candidate_urls_resolved": [
+        "directory-lead-5b6eafb0228436",
+        "directory-lead-fa718462d2c1ee",
+        "directory-lead-c8d0a5f194e108",
+        "directory-lead-262d015c7d7906",
+        "directory-lead-9c2336bb447e41",
+        "directory-lead-6e13e491328181",
+        "directory-lead-0b37ad0df2dfa3",
+        "directory-lead-5562bcf7e6a1be"
+      ],
+      "sources_reviewed": [
+        "https://www.themelodysf.com/wedding-venue",
+        "https://www.themelodysf.com/event-spaces",
+        "https://www.themelodysf.com/packages-pricing",
+        "https://www.themelodysf.com/about-history",
+        "https://terrasf.com/",
+        "https://terrasf.com/event-venue-gallery-space/terra/",
+        "https://terrasf.com/event-venue-gallery-space/mer/",
+        "https://terrasf.com/floorplans/TERRA_FLOOR_PLAN_WITH_MEASUREMENTS.pdf",
+        "https://www.ggcatering.com/venues/terra-gallery",
+        "https://www.theknot.com/marketplace/terra-gallery-and-event-venue-san-francisco-ca-23768",
+        "https://www.atlasunionsquare.com/",
+        "https://www.atlasunionsquare.com/thespace",
+        "https://www.sfuva.com/atlas-union-square",
+        "https://www.ggcatering.com/venues/atlas-union-square",
+        "https://www.sfuva.com/the-banking-hall-at-merchants-exchange",
+        "https://www.sfuva.com/s/Banking-Hall-One-Sheet.pdf",
+        "https://juliamorganballroom.com/our-story/"
+      ],
+      "blocked": [
+        "Melody house-rules PDF robots hold; no bypass"
+      ],
+      "remaining": [
+        {
+          "record_id": "the-melody-of-san-francisco-main-hall",
+          "questions": [
+            "House-rules PDF blocked",
+            "Package/space seating scope",
+            "Tax/service and complete total",
+            "Independent clocks",
+            "Building construction and current operator start year"
+          ]
+        },
+        {
+          "record_id": "terra-gallery-event-venue-san-francisco",
+          "questions": [
+            "Current scoped fees and mandatory costs",
+            "Operator dinner+dance layout",
+            "Vendor/bar/clock terms",
+            "History and property value"
+          ]
+        },
+        {
+          "record_id": "atlas-union-square-san-francisco",
+          "questions": [
+            "Wedding permission",
+            "Seated layout contradiction",
+            "Full fee, vendors, clocks",
+            "Linked floorplan download"
+          ]
+        },
+        {
+          "record_id": "merchants-exchange-banking-hall-san-francisco",
+          "questions": [
+            "Specific wedding approval",
+            "Current quote/vendor restrictions",
+            "Independent clocks",
+            "Lease listing current availability not verified"
+          ]
+        }
+      ],
+      "facts_added": 17,
+      "new_review_aggregates": 1,
+      "not_all_in": true,
+      "exhaustive": false
+    },
+    {
+      "id": "founder-written-interviews-20261108",
+      "checked_utc": "2026-11-08T20:46:19.870126+00:00",
+      "reading_records_added": 5,
+      "source_urls": [
+        "https://weddingvenueowners.com/wedding-venue-story-fountain-view-farm/",
+        "https://weddingvenueowners.com/wedding-venue-stories-the-venue-at-chilleens/",
+        "https://weddingvenueowners.com/wedding-venue-stories-cedar-grove-lodging/",
+        "https://weddingvenueowners.com/vue-columbus-wedding-venue-stories/",
+        "https://weddingvenueowners.com/block-41-wedding-venue-stories/"
+      ],
+      "held_video_interviews": [
+        {
+          "venue": "Maple Ridge at Red Maple Ranch",
+          "people": "Pamela and Brian McKenney",
+          "url": "https://weddingvenueowners.com/wedding-venue-stories-maple-ridge-at-red-maple-ranch/",
+          "published": "2021-10-04",
+          "status": "Publisher introduction reviewed; core embedded video interview not reviewed. Not added as a fully reviewed firsthand interview.",
+          "checked_utc": "2026-11-08T20:46:19.870126+00:00"
+        },
+        {
+          "venue": "Hawks Point Acres",
+          "people": "Missy and Matt Lowstetter",
+          "url": "https://weddingvenueowners.com/wedding-venue-stories-hawk-point-acres/",
+          "published": "2021-08-11",
+          "status": "Publisher introduction reviewed; core embedded video interview not reviewed. Not added as a fully reviewed firsthand interview.",
+          "checked_utc": "2026-11-08T20:46:19.870126+00:00"
+        },
+        {
+          "venue": "The Hangar at Stanley",
+          "people": "April Chase, venue director",
+          "url": "https://weddingvenueowners.com/wedding-venue-stories-the-hangar-at-stanley/",
+          "published": "2021-07-08",
+          "status": "Publisher introduction reviewed; core embedded video interview not reviewed. Not added as a fully reviewed firsthand interview.",
+          "checked_utc": "2026-11-08T20:46:19.870126+00:00"
+        }
+      ],
+      "metadata_is_not_review": true
+    },
+    {
+      "id": "county-wedding-costs-20261108",
+      "checked_utc": "2026-11-08T20:48:34.006607+00:00",
+      "records_updated": [
+        "sanborn-county-park-sequoia-peterson-grove-santa-clara",
+        "mount-madonna-county-park-amphitheater-santa-clara",
+        "vasona-lake-county-park-circle-santa-clara",
+        "joseph-d-grant-county-park-rose-garden-cookhouse-santa-clara"
+      ],
+      "records_added": [],
+      "new_observations": 23,
+      "source_urls": [
+        "https://parks.santaclaracounty.gov/things-do/reserve-grounds-county-parks-weddings-and-receptions",
+        "https://parks.santaclaracounty.gov/plan-your-visit/fees/wedding-fees",
+        "https://parks.santaclaracounty.gov/plan-your-visit/fees/group-picnic-site-fees",
+        "https://parks.santaclaracounty.gov/plan-your-visit/fees/vehicle-entrance-fees",
+        "https://parks.santaclaracounty.gov/plan-your-visit/fees/service-fees",
+        "https://parks.santaclaracounty.gov/plan-your-visit/park-rules/frequently-asked-questions"
+      ],
+      "archival_limit": "Six official pages reviewed in standard web reader. Direct archival collector held at robots check; no successful raw source download claimed. Structured observations and exact URLs preserved.",
+      "no_change_rechecks": [
+        {
+          "property": "Alliance Redwoods",
+          "sources": [
+            "https://allianceredwoods.com/day-experiences/book-your-event/",
+            "https://allianceredwoods.com/arrival-information-for-groups/"
+          ],
+          "outcome": "Group retreats and 22:00 quiet hours reconfirmed. No explicit wedding offering found; existing wedding permission remains Unknown. Meal service throughput400 is not a seated wedding capacity. No duplicate new fact counted."
+        }
+      ],
+      "not_all_in": true,
+      "exhaustive": false
+    },
+    {
+      "id": "redirect-and-rendered-review-20261108",
+      "checked_utc": "2026-11-08T20:52:04.794970+00:00",
+      "records_added": [
+        "golden-gate-yacht-club-americas-cup-room-san-francisco"
+      ],
+      "records_updated": [
+        "atlas-union-square-san-francisco"
+      ],
+      "candidate_urls_resolved": [
+        "directory-lead-bd43596f7bf5d3"
+      ],
+      "new_observations": 7,
+      "browser_source_urls": [
+        "https://ggyc.com/facilities",
+        "https://ggyc.com/san-francisco-waterfront-wedding-venue"
+      ],
+      "floorplan_review": {
+        "url": "https://www.atlasunionsquare.com/s/Atlas-Floorplan_Blank.pdf",
+        "pages": 1,
+        "downloaded": true,
+        "rendered_and_visually_reviewed": true,
+        "capacity_conflict_resolved": false
+      },
+      "remaining_storek": "Current operator confirmation unavailable after redirect, current roster and alternate listing checks; candidate kept pending.",
+      "firecrawl_used": false,
+      "exhaustive": false
+    },
+    {
+      "id": "caterer-roster-reconciliation-20261108",
+      "checked_utc": "2026-11-08T21:00:05.590334+00:00",
+      "partner_profiles_actually_read": 31,
+      "records_added": [
+        "flood-mansion-san-francisco",
+        "ferry-building-grand-hall-san-francisco",
+        "san-francisco-design-center-galleria-san-francisco",
+        "bimbos-365-club-san-francisco",
+        "sfmoma-wedding-rental-san-francisco",
+        "sfjazz-second-floor-lobby-san-francisco",
+        "pier-27-event-venue-san-francisco",
+        "pier-35-event-venue-san-francisco",
+        "pier-48-event-venue-san-francisco",
+        "china-basin-park-event-rental-san-francisco",
+        "the-fillmore-main-ballroom-san-francisco",
+        "620-jones-event-venue-san-francisco",
+        "pier-80-shed-a-san-francisco",
+        "svn-west-event-venue-san-francisco",
+        "the-midway-event-venue-san-francisco",
+        "asian-art-museum-samsung-hall-san-francisco",
+        "bill-graham-civic-auditorium-san-francisco",
+        "ybca-forum-san-francisco",
+        "yerba-buena-gardens-great-lawn-san-francisco"
+      ],
+      "existing_records_source_reconciled": [
+        "above-the-rim-at-chase-center-san-francisco",
+        "california-academy-of-sciences-san-francisco",
+        "de-young-museum-san-francisco",
+        "exploratorium-san-francisco",
+        "fort-mason-center-san-francisco",
+        "palace-of-fine-arts-san-francisco",
+        "the-masonic-live-nation-grand-lobby-san-francisco",
+        "the-masonic-live-nation-california-room-san-francisco",
+        "the-masonic-live-nation-exhibition-hall-san-francisco",
+        "the-masonic-live-nation-auditorium-san-francisco",
+        "the-pearl-san-francisco",
+        "the-regency-center-san-francisco",
+        "the-san-francisco-mint-san-francisco"
+      ],
+      "candidate_urls_resolved": [
+        "directory-lead-dc9b2f5f9b73ed",
+        "directory-lead-2d6a830bc12789",
+        "directory-lead-e3b8594952f763",
+        "directory-lead-fa36632f986d06",
+        "directory-lead-d67d1997ba3cae",
+        "directory-lead-6f664174c5c90b",
+        "directory-lead-c42ddc5223ae73",
+        "directory-lead-6e0ce06a222625",
+        "directory-lead-14513ad0852b5d",
+        "directory-lead-1e0ab4c3fbac80",
+        "directory-lead-9c78e009ed38d6",
+        "directory-lead-b3965d4af04950",
+        "directory-lead-1b514b2d607bf5",
+        "directory-lead-e48555acefc283",
+        "directory-lead-148082b8723766",
+        "directory-lead-5f513d1e21e369",
+        "directory-lead-cc37bf6b285ee5",
+        "directory-lead-de20c8928fd688",
+        "directory-lead-66d3892ff666e6",
+        "directory-lead-708266ab5aeaea",
+        "directory-lead-d558e0538796e2",
+        "directory-lead-60642bedf2a707",
+        "directory-lead-1faa96630efed1",
+        "directory-lead-1c36355a07664a",
+        "directory-lead-2936747ac44de9",
+        "directory-lead-8291302cc99fe9",
+        "directory-lead-c502ae9cb9488d",
+        "directory-lead-52d0ed679ce38d",
+        "directory-lead-44b94f7c9e70b2"
+      ],
+      "observations_added": 73,
+      "pending_primary_reviews": [
+        {
+          "name": "Legion of Honor",
+          "reason": "Primary rental page returned403; no bypass. Partner profile read but current terms/eligibility not yet verified."
+        },
+        {
+          "name": "San Francisco City Hall",
+          "reason": "Primary old domain redirected to sf.gov and returned a robot-verification interstitial in standard web reader. Not bypassed; partner profile alone not a completed current City Hall rental audit."
+        }
+      ],
+      "operator_source_urls": [
+        "https://www.floodmansion.org/",
+        "https://www.ferrybuildingmarketplace.com/venue-rental-events/",
+        "https://sfvenues.com/",
+        "https://bimbos365club.com/private-events/",
+        "https://www.sfmoma.org/rental-events/weddings-at-sfmoma/",
+        "https://www.sfjazz.org/visit/rentals/",
+        "https://metroevents.com/locations/pier-27/",
+        "https://metroevents.com/locations/pier-35/",
+        "https://giantsenterprises.com/oracle-park-edge/pier-48/",
+        "https://missionrock.com/china-basin-park/",
+        "https://specialevents.livenation.com/venues/the-fillmore",
+        "https://npu.co/venue/jones/",
+        "https://npu.co/venue/pier-80-shed-a/",
+        "https://npu.co/venue/svn-west/",
+        "https://npu.co/venue/the-midway/",
+        "https://rentals.asianart.org/weddings-private-events/",
+        "https://www.anotherplanetevents.com/the-bill-graham-civic-auditorium",
+        "https://ybca.org/venues/",
+        "https://yerbabuenagardens.org/plan-an-event/"
+      ],
+      "source_limits": [
+        "Flood brochure interactive viewer not read",
+        "Pier27/35floorplans/vendorlists pending",
+        "Pier48brochure pending; direct primary archival fetch held robots but standard web reader succeeded",
+        "SFJAZZ selected sections of27page brochure read, technical appendix not fully reviewed",
+        "YBCA linked24page policy has January2020PDFmetadata; selected sections reviewed, current legal/fee confirmation required"
+      ],
+      "exhaustive": false,
+      "all_in_totals_added": 0,
+      "interface_changes": false
+    }
+  ],
+  "updated_utc": "2026-11-08T21:00:05.590334+00:00"
+}

@@ -1449,12 +1449,16 @@
       "url": "https://www.ggcatering.com/venues/san-francisco",
       "category": "Caterer partner inventory",
       "geography": "Bay Area; exact property county verification required",
-      "checked_utc": "2026-11-08T20:29:36.220375+00:00",
+      "checked_utc": "2026-11-08T21:00:05.590334+00:00",
       "collection_method": "Ordinary downloaded HTML; 39 named unique venue-profile anchors; skip link excluded",
-      "collection_status": "Named profile URLs captured; individual reviews partial",
+      "collection_status": "31 additional profile bodies reviewed; 29 candidate identities resolved in the latest batch; three GGC candidates still pending",
       "collected_profiles": 39,
-      "new_venue_records": 0,
-      "notes": "Partner roster is not proof of current operator booking or wedding eligibility. Specific Avalon/Storek/Melody checks in 20-pass audit; remaining candidates pending."
+      "new_venue_records": 19,
+      "notes": "Scoped identity/operator review, not full venue workbooks. Storek operator redirect unresolved; Legion primary403; CityHall robot-verification hold. Prices/layout conditions come from actual operator pages where reviewed.",
+      "last_batch_profiles_read": 31,
+      "last_batch_candidates_resolved": 29,
+      "new_venue_records_scope": "Latest operator follow-up batch only; earlier source milestones counted separately",
+      "last_batch_existing_record_links": 13
     }
   ],
   "candidate_queue_url": "directory-leads.html"

@@ -1,11 +1,11 @@
 {
   "candidate_urls": 580,
-  "resolved_candidate_urls": 42,
-  "unresolved_candidate_urls": 538,
+  "resolved_candidate_urls": 80,
+  "unresolved_candidate_urls": 500,
   "review_counts": {
-    "pending": 538,
-    "reviewed_existing": 7,
-    "reviewed_added": 32,
+    "pending": 500,
+    "reviewed_existing": 17,
+    "reviewed_added": 60,
     "excluded": 3
   },
   "complete": false,
@@ -1284,8 +1284,10 @@
       "candidate_id": "directory-lead-5b6eafb0228436",
       "name": "The Melody of San Francisco",
       "url": "https://www.partyslate.com/venues/the-melody-of-san-francisco",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "the-melody-of-san-francisco-main-hall"
+      ]
     },
     {
       "candidate_id": "directory-lead-1de3d6b94656bf",
@@ -1381,8 +1383,10 @@
       "candidate_id": "directory-lead-6e13e491328181",
       "name": "Atlas Union Square",
       "url": "https://www.sfuva.com/atlas-union-square",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "atlas-union-square-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-44ed8ec11d5bc9",
@@ -1404,8 +1408,10 @@
       "candidate_id": "directory-lead-5562bcf7e6a1be",
       "name": "The Banking Hall at Merchants Exchange",
       "url": "https://www.sfuva.com/the-banking-hall-at-merchants-exchange",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "merchants-exchange-banking-hall-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-b85e54e5eda934",
@@ -1651,8 +1657,10 @@
       "candidate_id": "directory-lead-fa718462d2c1ee",
       "name": "The Melody",
       "url": "https://www.sfuva.com/the-melody",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "the-melody-of-san-francisco-main-hall"
+      ]
     },
     {
       "candidate_id": "directory-lead-19776c9dc35a27",
@@ -1804,8 +1812,10 @@
       "candidate_id": "directory-lead-262d015c7d7906",
       "name": "Terra Gallery",
       "url": "https://www.sfuva.com/terra-gallery",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "terra-gallery-event-venue-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-5b2e5ff06b510d",
@@ -2882,8 +2892,10 @@
       "candidate_id": "directory-lead-c8d0a5f194e108",
       "name": "The Melody of San Francisco",
       "url": "https://www.ggcatering.com/venues/the-melody-of-san-francisco",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "the-melody-of-san-francisco-main-hall"
+      ]
     },
     {
       "candidate_id": "directory-lead-a271442e322fed",
@@ -3030,8 +3042,10 @@
       "candidate_id": "directory-lead-bd43596f7bf5d3",
       "name": "Golden Gate Yacht Club",
       "url": "https://ggyc.com/san-francisco-waterfront-wedding-venue",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "golden-gate-yacht-club-americas-cup-room-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-83524d1e003acf",
@@ -3071,50 +3085,64 @@
       "candidate_id": "directory-lead-b3965d4af04950",
       "name": "620 Jones",
       "url": "https://www.ggcatering.com/venues/620-jones",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "620-jones-event-venue-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-708266ab5aeaea",
       "name": "Above the Rim",
       "url": "https://www.ggcatering.com/venues/above-the-rim",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "above-the-rim-at-chase-center-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-5f513d1e21e369",
       "name": "Asian Art Museum",
       "url": "https://www.ggcatering.com/venues/asian-art-museum",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "asian-art-museum-samsung-hall-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-0b37ad0df2dfa3",
       "name": "Atlas Union Square",
       "url": "https://www.ggcatering.com/venues/atlas-union-square",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "atlas-union-square-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-cc37bf6b285ee5",
       "name": "Bill Graham Civic Auditorium",
       "url": "https://www.ggcatering.com/venues/bill-graham-civic-auditorium",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "bill-graham-civic-auditorium-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-fa36632f986d06",
       "name": "Bimbo's 365 Club",
       "url": "https://www.ggcatering.com/venues/bimbos-365-club",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "bimbos-365-club-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-d558e0538796e2",
       "name": "California Academy of Sciences",
       "url": "https://www.ggcatering.com/venues/california-academy-of-sciences",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "california-academy-of-sciences-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-1929392516a554",
@@ -3129,36 +3157,46 @@
       "candidate_id": "directory-lead-60642bedf2a707",
       "name": "de Young Museum",
       "url": "https://www.ggcatering.com/venues/de-young-museum",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "de-young-museum-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-1faa96630efed1",
       "name": "Exploratorium",
       "url": "https://www.ggcatering.com/venues/exploratorium",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "exploratorium-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-2d6a830bc12789",
       "name": "Ferry Building",
       "url": "https://www.ggcatering.com/venues/ferry-building",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "ferry-building-grand-hall-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-dc9b2f5f9b73ed",
       "name": "Flood Mansion",
       "url": "https://www.ggcatering.com/venues/flood-mansion",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "flood-mansion-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-1c36355a07664a",
       "name": "Fort Mason",
       "url": "https://www.ggcatering.com/venues/fort-mason",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "fort-mason-center-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-15a3c24c214962",
@@ -3171,36 +3209,46 @@
       "candidate_id": "directory-lead-1e0ab4c3fbac80",
       "name": "Mission Rock’s China Basin Park",
       "url": "https://www.ggcatering.com/venues/mission-rocks-china-basin-park",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "china-basin-park-event-rental-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-2936747ac44de9",
       "name": "Palace of Fine Arts",
       "url": "https://www.ggcatering.com/venues/palace-of-fine-arts",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "palace-of-fine-arts-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-c42ddc5223ae73",
       "name": "Pier 27",
       "url": "https://www.ggcatering.com/venues/pier-27",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "pier-27-event-venue-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-6e0ce06a222625",
       "name": "Pier 35",
       "url": "https://www.ggcatering.com/venues/pier-35",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "pier-35-event-venue-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-14513ad0852b5d",
       "name": "Pier 48",
       "url": "https://www.ggcatering.com/venues/pier-48",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "pier-48-event-venue-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-0156b930a0816a",
@@ -3213,50 +3261,67 @@
       "candidate_id": "directory-lead-e3b8594952f763",
       "name": "San Francisco Design Center Galleria",
       "url": "https://www.ggcatering.com/venues/galleria",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "san-francisco-design-center-galleria-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-8291302cc99fe9",
       "name": "SF Masonic",
       "url": "https://www.ggcatering.com/venues/sf-masonic",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "the-masonic-live-nation-grand-lobby-san-francisco",
+        "the-masonic-live-nation-california-room-san-francisco",
+        "the-masonic-live-nation-exhibition-hall-san-francisco",
+        "the-masonic-live-nation-auditorium-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-d67d1997ba3cae",
       "name": "SF MOMA",
       "url": "https://www.ggcatering.com/venues/sf-moma",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "sfmoma-wedding-rental-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-6f664174c5c90b",
       "name": "SFJAZZ",
       "url": "https://www.ggcatering.com/venues/sfjazz",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "sfjazz-second-floor-lobby-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-1b514b2d607bf5",
       "name": "Shed A at Pier 80",
       "url": "https://www.ggcatering.com/venues/shed-a-at-pier-80",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "pier-80-shed-a-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-e48555acefc283",
       "name": "SVN West",
       "url": "https://www.ggcatering.com/venues/svn-west",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "svn-west-event-venue-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-9c2336bb447e41",
       "name": "Terra Gallery",
       "url": "https://www.ggcatering.com/venues/terra-gallery",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "terra-gallery-event-venue-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-0716e00ad4952d",
@@ -3281,8 +3346,10 @@
       "candidate_id": "directory-lead-9c78e009ed38d6",
       "name": "The Fillmore",
       "url": "https://www.ggcatering.com/venues/the-fillmore",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "the-fillmore-main-ballroom-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-786bdd5d1b3524",
@@ -3297,43 +3364,55 @@
       "candidate_id": "directory-lead-148082b8723766",
       "name": "The Midway",
       "url": "https://www.ggcatering.com/venues/the-midway",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "the-midway-event-venue-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-c502ae9cb9488d",
       "name": "The Pearl",
       "url": "https://www.ggcatering.com/venues/the-pearl",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "the-pearl-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-52d0ed679ce38d",
       "name": "The Regency Center",
       "url": "https://www.ggcatering.com/venues/the-regency-center",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "the-regency-center-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-44b94f7c9e70b2",
       "name": "The San Francisco Mint",
       "url": "https://www.ggcatering.com/venues/the-san-francisco-mint",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "the-san-francisco-mint-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-de20c8928fd688",
       "name": "Yerba Buena Center for the Arts",
       "url": "https://www.ggcatering.com/venues/yerba-buena-center-for-the-arts",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "ybca-forum-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-66d3892ff666e6",
       "name": "Yerba Buena Gardens",
       "url": "https://www.ggcatering.com/venues/yerba-buena-gardens",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "yerba-buena-gardens-great-lawn-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-aefa4df6de4c59",

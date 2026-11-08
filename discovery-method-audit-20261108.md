@@ -1,8 +1,10 @@
 # Discovery review — November 8
 
+Initial 20-review milestone below. [Latest research totals and follow-on work](research-backlog-progress.md).
+
 - **20/20 search reviews completed**, including the remaining 18.
 - **20 new records; 15 existing records updated.** These include properties, one hotel-room offer and two named yachts—not 20 verified parcels.
-- **8 previously pending leads resolved.** New rosters also exposed more candidates; 538 URLs currently await review.
+- **8 previously pending leads resolved.** New rosters also exposed more candidates; 538 URLs awaited review at this milestone.
 - **No interface redesign. No complete wedding totals invented.** Current census: 2,364 records / 1,022 provisional identity groups; completeness remains unproven.
 
 ## Useful changes
@@ -57,7 +59,7 @@ Each review used an actual search/source check, dataset comparison, critique and
 
 ## Still open
 
-- **538 candidate URLs**, including newly captured profiles, need individual review. Only eight of the original pending leads were resolved in this batch.
+- **538 candidate URLs** awaited individual review at this milestone. See the latest progress above for subsequent resolutions. Only eight of the original pending leads were resolved in this batch.
 - All **110 municipality/county workstreams remain partial**. Federal/state/district reviews supplement that list; they do not finish it.
 - Full all-in costs, dinner-and-dance layouts, lodging liabilities, reviews, history and valuations remain sparse. Unknown is not zero.
 - Brownstone’s pricing is inquiry-gated; some sources return robots holds, 429s, redirects or scripts. Those routes remain blocked/unread—not successful collections.
