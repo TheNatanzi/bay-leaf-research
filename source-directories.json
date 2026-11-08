@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-11-08T04:22:40.779058+00:00",
+  "updated_utc": "2026-11-08T04:46:11.223681+00:00",
   "scope": "Nine Bay Area counties; directory boundaries and nearby results require validation. Nonexhaustive source registry.",
   "sources": [
     {
@@ -438,12 +438,12 @@
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/",
       "geography": "Sonoma region; verify county for boundary listings",
       "discovery_checked_utc": null,
-      "collection_status": "Index/homepage retrieved; individual profile collection pending",
+      "collection_status": "Partial: all 11 declared listing pages yield 128 profile links; guide full extraction unavailable; individual profile review pending",
       "collection_method": "Robots-respecting rate-limited public HTML archive with saved fetch logs; no login/CAPTCHA/proxy bypass",
-      "checked_utc": "2026-10-26T13:21:18.191875+00:00",
+      "checked_utc": "2026-11-08T04:46:11.223681+00:00",
       "collected_profiles": 0,
       "new_venue_records": 0,
-      "notes": "Successful page retrieval only. Regional filters/dynamic results and profile-level coverage not established.",
+      "notes": "Previous archived page had 12 profile links and pagination but tourism was absent from the candidate extractor. Current guide button captured; HTTP 202 empty response not counted as a download/review. Historical guide needs current source checks.",
       "access_check": {
         "key": "overnight26-directory-sonomatourism",
         "source": "https://www.sonomacounty.com/weddings/wedding-venues/",
@@ -452,7 +452,11 @@
         "status": 200,
         "final_url": "https://www.sonomacounty.com/weddings/wedding-venues/",
         "chars": 3460
-      }
+      },
+      "candidate_profile_links": 128,
+      "primary_operator_followups": 1,
+      "guide_url": "https://mydigitalpublication.com/publication/?i=746128&p=44&view=issueViewer",
+      "guide_state": "unreadable_response"
     },
     {
       "id": "napatourism",

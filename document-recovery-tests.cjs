@@ -1,0 +1,19 @@
+const fs=require('fs'),assert=require('assert/strict'),p=require('path'),E=require('./normalized-engine.js');
+const d=JSON.parse(fs.readFileSync(p.join(__dirname,'research.json'),'utf8')),a=JSON.parse(fs.readFileSync(p.join(__dirname,'document-recovery-audit.json'),'utf8')),e=E.create(d),v=id=>d.venues.find(x=>x.id===id);
+assert.equal(a.cases.length,21);assert.equal(new Set(a.cases.map(c=>c.property)).size,21);assert.equal(new Set(a.cases.map(c=>c.county)).size,9);
+for(const c of a.cases){assert.equal(c.status,'completed_scoped_audit');assert.equal(c.methods_exhausted,false);assert(c.sources.length);assert(c.root_cause);assert(Object.keys(c.reviewed).length);for(const x of c.changes){assert(x.source_url.startsWith('https://'));assert(d.normalized.records[x.record_id]);}}
+assert.equal(e.value(v('the-tech-interactive-lower-level-santa-clara'),'event_end'),1440);assert.equal(e.value(v('the-tech-interactive-lower-level-santa-clara'),'music_indoor'),null);
+assert.equal(e.value(v('chabot-space-science-center-full-facility-excluding-planetarium-theater-and-telescopes-alameda'),'fee_min'),13900);
+assert.equal(e.value(v('chabot-space-science-center-full-facility-excluding-planetarium-theater-and-telescopes-alameda'),'fee_max'),16900);
+assert.equal(e.value(v('venture-retreat-center-essential-package-san-mateo'),'fee_min'),5900);assert.equal(e.value(v('venture-retreat-center-essential-package-san-mateo'),'capacity_max'),null);
+assert.equal(e.value(v('sebastopol-grange-306-hall-sonoma'),'music_indoor'),1440);assert.equal(e.value(v('sebastopol-grange-306-hall-sonoma'),'cleanup_end'),1560);
+assert.equal(e.value(v('pinole-senior-center-main-hall-contra-costa'),'event_end'),1380);assert.equal(e.value(v('pinole-senior-center-main-hall-contra-costa'),'cleanup_end'),1440);
+assert.equal(e.value(v('uss-hornet-sea-air-space-museum-flight-deck-alameda'),'capacity_max'),null);assert.equal(e.fact(v('uss-hornet-sea-air-space-museum-flight-deck-alameda'),'capacity_max').status,'conflicting');
+assert.equal(e.value(v('sonoma-county-event-center-at-the-fairgrounds-grace-pavilion-sonoma'),'fee_min'),null);
+assert.equal(e.value(v('rockville-cemetery-solano-cemetery-district-stone-chapel-solano'),'capacity_ceremony'),150);assert.equal(e.value(v('rockville-cemetery-solano-cemetery-district-stone-chapel-solano'),'outside_catering'),'no');
+assert.equal(e.value(v('foley-cultural-center-lake-room-kitchen-and-refreshment-center-solano'),'cleaning_fee'),1190);
+assert.equal(e.value(v('waterbar-bridge-tower-room-san-francisco'),'overtime_hourly'),null);assert.equal(e.value(v('waterbar-bridge-tower-room-san-francisco'),'service_pct'),22);
+assert.equal(e.value(v('benicia-clock-tower-solano'),'hourly_fee'),null);assert.equal(a.firecrawl_used,false);
+for(const filename of ['sonoma-guide-audit.html','document-recovery-audit.html','email-workflow.html','research-method.md'])assert(fs.existsSync(p.join(__dirname,filename)),filename);
+const son=JSON.parse(fs.readFileSync(p.join(__dirname,'sonoma-guide-audit.json'),'utf8'));assert.equal(son.guide.full_issue_read,false);assert.equal(son.guide.page_count,97);
+console.log('21 property audit provenance, conditional costs, clock rollover, conflicts and publication artifacts passed');

@@ -1,9 +1,9 @@
 {
   "summary": {
     "checked_utc": "2026-10-26T13:28:51.955107+00:00",
-    "candidate_urls": 230,
-    "candidate_urls_with_exact_match": 55,
-    "candidate_urls_without_exact_match": 175,
+    "candidate_urls": 358,
+    "candidate_urls_with_exact_match": 82,
+    "candidate_urls_without_exact_match": 276,
     "source_counts": {
       "moderndjs": {
         "raw_named_cards": 361,
@@ -30,16 +30,24 @@
         "unique_profile_links": 67,
         "individual_profiles_reviewed": 2,
         "note": "One Sansome and Hibernia manually verified; other member links are candidates, not approved weddings"
+      },
+      "sonomatourism": {
+        "unique_profile_links": 128,
+        "declared_listing_pages": 11,
+        "distinct_profile_sets": 11,
+        "individual_profiles_reviewed": 0,
+        "primary_operator_followups": 1,
+        "note": "Listing links captured, not 128 verified new properties; Ranch resolved using official wedding page and separate tourism profile"
       }
     },
     "added_venue_records": 0,
     "note": "Candidate URLs are not confirmed new venues. Multiple directories, rooms or aliases can refer to one property. Exact-name matches are review aids only. No capacity, permission, price or review rating was imported from indexes.",
     "primary_followup_records_added": 3,
-    "followup_checked_utc": "2026-11-08T04:22:40.779058+00:00",
+    "followup_checked_utc": "2026-11-08T04:46:11.223681+00:00",
     "current_review_counts": {
-      "pending": 225,
+      "pending": 352,
       "reviewed_existing": 2,
-      "reviewed_added": 3
+      "reviewed_added": 4
     }
   },
   "candidates": [
@@ -5131,6 +5139,2798 @@
       "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
       "matched_record_ids": [],
       "match_method": "Not yet manually reconciled",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-60dc1cc1d5c2f9",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/ac-by-marriott-santa-rosa-sonoma-wine-country/",
+      "name": "AC by Marriott Santa Rosa Sonoma Wine Country",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "ac-by-marriott-santa-rosa-sonoma-wine-country-sonoma"
+      ],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-086bbf4ec61dd5",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/alexander-valley-hall/",
+      "name": "Alexander Valley Hall",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "alexander-valley-hall-sonoma"
+      ],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-d6cebc041134b5",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/annadel-estate-winery/",
+      "name": "Annadel Estate Winery",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "annadel-estate-winery-sonoma"
+      ],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-6dbd03e3553de3",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/b-r-cohn-winery-olive-oil-company/",
+      "name": "B.R. Cohn Winery & Olive Oil Company",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "b-r-cohn-winery-olive-oil-company-sonoma"
+      ],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-ba5ccb4ee6f7d6",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/bacchus-landing-cellars/",
+      "name": "Bacchus Landing Cellars",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "bacchus-landing-cellars-sonoma"
+      ],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-ee4c87cc60df27",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/balletto-vineyards/",
+      "name": "Balletto Vineyards",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "balletto-vineyards-sonoma"
+      ],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-52d2bb3691fbbe",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/barndiva/",
+      "name": "Barndiva",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "barndiva-sonoma"
+      ],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-da9bea1f97ec3a",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/bees-n-blooms/",
+      "name": "Bees N Blooms",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "bees-n-blooms-sonoma"
+      ],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-dfd5b948222d0d",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/beltane-ranch-bed-breakfast/",
+      "name": "Beltane Ranch Bed & Breakfast",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "beltane-ranch-bed-breakfast-sonoma"
+      ],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-6ef9da7bafe737",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/bodega-bay-secret-gardens/",
+      "name": "Bodega Bay Secret Gardens",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "bodega-bay-secret-gardens-sonoma"
+      ],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-9e830d910c5bf4",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/boho-manor/",
+      "name": "Boho Manor",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "boho-deck-sonoma",
+        "boho-dining-sonoma",
+        "boho-firepit-sonoma",
+        "boho-garden-sonoma",
+        "boho-manor-sonoma",
+        "boho-midweek-group-package-sonoma",
+        "boho-piano-sonoma",
+        "boho-speakeasy-sonoma"
+      ],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-020360a998c18c",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/boon-hotel-spa/",
+      "name": "boon hotel + spa",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "boon-hotel-spa-sonoma"
+      ],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-3c577e2356d8ee",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/buena-vista-winery/",
+      "name": "Buena Vista Winery",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-45cb8fbf5693d0",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/cabianca-italian-restaurant/",
+      "name": "CaÃ¢â‚¬â„¢Bianca Italian Restaurant",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-9646b7e5415368",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/capo-creek-winery/",
+      "name": "Capo Creek Winery",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-505df103370aed",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/cast-wines/",
+      "name": "Cast Wines",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-560c89ac782b92",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/catellis/",
+      "name": "CatelliÃ¢â‚¬â„¢s",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-cbc3d904313b98",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/chalk-hill-estate-vineyards-winery/",
+      "name": "Chalk Hill Estate Vineyards & Winery",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-d6720fdd3e5933",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/chateau-st-jean/",
+      "name": "Chateau St. Jean",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-60383078ae7c98",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/cline-family-cellars/",
+      "name": "Cline Family Cellars",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-4088defb54a292",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/cornerstone-sonoma/",
+      "name": "Cornerstone Sonoma",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-eadf49b225abbf",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/cyrus/",
+      "name": "Cyrus",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-952e6ef05382cb",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/dawn-ranch/",
+      "name": "Dawn Ranch",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "dawn-ranch-band-shell-sonoma",
+        "dawn-ranch-boathouse-deck-sonoma",
+        "dawn-ranch-boathouse-lawn-sonoma",
+        "dawn-ranch-center-orchard-sonoma",
+        "dawn-ranch-crabapple-orchard-sonoma",
+        "dawn-ranch-exclusive-wedding-weekend-package-sonoma",
+        "dawn-ranch-kitchen-garden-sonoma",
+        "dawn-ranch-lower-orchard-sonoma",
+        "dawn-ranch-meadow-sonoma",
+        "dawn-ranch-micro-wedding-package-sonoma",
+        "dawn-ranch-orchard-sonoma",
+        "dawn-ranch-orchard-wedding-weekend-package-sonoma",
+        "dawn-ranch-patio-sonoma",
+        "dawn-ranch-sycamore-green-with-band-shell-sonoma",
+        "dawn-ranch-weekday-wedding-package-sonoma",
+        "dawn-ranch-winter-wedding-package-sonoma"
+      ],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-03e8f68e54b15a",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/deerfield-ranch-winery/",
+      "name": "Deerfield Ranch Winery",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-6e9d17c02bceb8",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/deloach-vineyards/",
+      "name": "DeLoach Vineyards",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-19d3b1f8536ce9",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/delorimier-winery/",
+      "name": "deLorimier Winery",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-0214cd91bfa7e3",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/diavola-pizzeria-salumeria/",
+      "name": "Diavola Pizzeria & Salumeria",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-cc7de48a91f6b9",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/doubletree-by-hilton-hotel-sonoma-wine-country/",
+      "name": "DoubleTree by Hilton Hotel Sonoma Wine Country",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-fb3762c88ccfe5",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/dragonfly-floral/",
+      "name": "Dragonfly Floral",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-f11f59ca2fd32a",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/fairmont-sonoma-mission-inn-spa/",
+      "name": "Fairmont Sonoma Mission Inn & Spa",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "fairmont-sonoma-mission-inn-spa-breezeway-lawn-sonoma",
+        "fairmont-sonoma-mission-inn-spa-creekside-lawn-sonoma",
+        "fairmont-sonoma-mission-inn-spa-kenwood-ballroom-sonoma",
+        "fairmont-sonoma-mission-inn-spa-pavilion-sonoma",
+        "fairmont-sonoma-mission-inn-spa-sonoma-valley-patio-sonoma",
+        "fairmont-sonoma-mission-inn-spa-sonoma-valley-room-sonoma"
+      ],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-f48a310590afb2",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/farmhouse-inn/",
+      "name": "Farmhouse Inn",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-31d79c748ea6c4",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/flamingo-resort-spa-santa-rosa-sonoma-tapestry-collection-by-hilton/",
+      "name": "Flamingo Resort & Spa Santa Rosa Sonoma, Tapestry Collection by Hilton",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-42129bbc406414",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/flying-cloud-special-event-conference-center/",
+      "name": "Flying Cloud Special Event & Conference Center",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-a4b6f641a0bf67",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/foley-sonoma/",
+      "name": "Foley Sonoma",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-b251aef7e72051",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/foxtail-golf-club/",
+      "name": "Foxtail Golf Club",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-1a3976b5efd6fa",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/francis-ford-coppola-winery/",
+      "name": "Francis Ford Coppola Winery",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-0f51c026e1aaf4",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/the-maysonnave-house/",
+      "name": "The Maysonnave House",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-2c6653ffa1d0ee",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/the-ranch-at-lake-sonoma/",
+      "name": "The Ranch at Lake Sonoma",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Primary wedding offering reviewed; property record added with dated-price and capacity limits",
+      "matched_record_ids": [
+        "the-ranch-at-lake-sonoma-geyserville"
+      ],
+      "match_method": "Manual named-property reconciliation against operator wedding page and tourism meeting profile",
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-08T04:46:11.223681+00:00",
+      "review_source_urls": [
+        "https://www.theranchatlakesonoma.com/weddings.html",
+        "https://www.sonomacounty.com/meetings-groups/meeting-venues/the-ranch-at-lake-sonoma/"
+      ]
+    },
+    {
+      "id": "directory-lead-b32b1ae99b0080",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/the-sea-ranch-chapel/",
+      "name": "The Sea Ranch Chapel",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-e829abd948735e",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/the-sea-ranch-lodge/",
+      "name": "The Sea Ranch Lodge",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "the-sea-ranch-lodge-barn-meadow-north-sonoma",
+        "the-sea-ranch-lodge-barn-meadow-south-sonoma",
+        "the-sea-ranch-lodge-courtyard-sonoma",
+        "the-sea-ranch-lodge-dining-room-sonoma",
+        "the-sea-ranch-lodge-fireside-lounge-sonoma",
+        "the-sea-ranch-lodge-meadow-room-sonoma",
+        "the-sea-ranch-lodge-ocean-deck-sonoma",
+        "the-sea-ranch-lodge-ocean-meadow-sonoma",
+        "the-sea-ranch-lodge-redwood-room-sonoma",
+        "the-sea-ranch-lodge-solarium-sonoma",
+        "the-sea-ranch-lodge-the-meadow-sonoma"
+      ],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-ccfca09c32cca4",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/the-venue-at-the-barlow/",
+      "name": "The Venue at The Barlow",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-4f8ab0439241cb",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/timber-cove-resort/",
+      "name": "Timber Cove Resort",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-f30b7ce035d8fe",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/trentadue-winery/",
+      "name": "Trentadue Winery",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "trentadue-winery-grape-arbor-sonoma",
+        "trentadue-winery-la-storia-room-sonoma",
+        "trentadue-winery-north-lawn-sonoma",
+        "trentadue-winery-sala-de-leon-pavilion-sonoma",
+        "trentadue-winery-south-arbor-sonoma",
+        "trentadue-winery-south-lawn-sonoma"
+      ],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-87f3746944aef8",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/trione-vineyards-winery/",
+      "name": "Trione Vineyards & Winery",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-3fe766f73836ea",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/valley-ford-hotel/",
+      "name": "Valley Ford Hotel",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-fedb9a3ad8314b",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/valley-of-the-moon-club/",
+      "name": "Valley of the Moon Club",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-df5d5f5fb937c7",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/viansa-sonoma/",
+      "name": "Viansa Sonoma",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "viansa-sonoma-wedding-offering-sonoma"
+      ],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-9f601ce6d47012",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/villa-chanticleer/",
+      "name": "Villa Chanticleer",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "villa-chanticleer-annex-sonoma",
+        "villa-chanticleer-garden-sonoma",
+        "villa-chanticleer-main-villa-sonoma",
+        "villa-chanticleer-wedding-package-sonoma"
+      ],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-3ef6df9bf213e2",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/vinarosa-resort-spa/",
+      "name": "Vinarosa Resort & Spa",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "vinarosa-resort-spa-sonoma"
+      ],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-014a12790b44ab",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/vine-hill-house-at-oconnell-vineyards/",
+      "name": "Vine Hill House at OÃ¢â‚¬â„¢Connell Vineyards",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "vine-hill-house-at-o-connell-vineyards-sonoma"
+      ],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-497be6f0534e80",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/vintage-house/",
+      "name": "Vintage House",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-9a03e4e5a2e326",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/westerbeke-ranch-conference-center/",
+      "name": "Westerbeke Ranch Conference Center",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-c64e4bf1c538ec",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/wildhaven-sonoma-glamping/",
+      "name": "Wildhaven Sonoma Glamping",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-27b0cff9b2f2d3",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/wildwood-conservation-foundation-retreat-center/",
+      "name": "Wildwood Conservation Foundation & Retreat Center",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-99403102d50a72",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/windsor-golf-club/",
+      "name": "Windsor Golf Club",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-7d47f6613acec3",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/woods-resort/",
+      "name": "Woods Resort",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-c11c6fab07c9b7",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/friedman-event-center/",
+      "name": "Friedman Event Center",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-985e02621c45ee",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/garden-valley-ranch/",
+      "name": "Garden Valley Ranch",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-6ce5c99f0755ed",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/geyserville-inn/",
+      "name": "Geyserville Inn",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "geyserville-inn-sonoma"
+      ],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-3438dff2ffe758",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/glaser-center/",
+      "name": "Glaser Center",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-5029ef5539ee41",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/gloria-ferrer-caves-vineyards/",
+      "name": "Gloria Ferrer Caves & Vineyards",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-89b3caf4a192cc",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/green-music-center-at-sonoma-state-university/",
+      "name": "Green Music Center at Sonoma State University",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-eb61d52b29b2ce",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/gualala-arts-center/",
+      "name": "Gualala Arts Center",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-5387553a023049",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/gundlach-bundschu-winery/",
+      "name": "Gundlach Bundschu Winery",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-47452d7809a175",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/hall-of-the-above/",
+      "name": "Hall of the Above",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-098c65fa5b0893",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/hanna-winery-alexander-valley-hospitality-center/",
+      "name": "Hanna Winery â€“ Alexander Valley Hospitality Center",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-aefaff4149620c",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/hans-fahden-winery/",
+      "name": "Hans Fahden Winery",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-6a9d9a54259109",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/hawkwood-hill/",
+      "name": "Hawkwood Hill",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-e7e7bffc8b4792",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/highland-dell-lodge/",
+      "name": "Highland Dell Lodge",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-a73b3cefe78f08",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/hopmonk-tavern-sebastopol/",
+      "name": "HopMonk Tavern Sebastopol",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-16e5cc73640521",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/hotel-e/",
+      "name": "Hotel E",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-b95d2b100bd243",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/hotel-petaluma-tapestry-collection-by-hilton/",
+      "name": "Hotel Petaluma, Tapestry Collection by Hilton",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-aff88c90a811a6",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/hyatt-regency-sonoma-wine-country/",
+      "name": "Hyatt Regency Sonoma Wine Country",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-f06d5f35e3e6f1",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/inn-at-occidental/",
+      "name": "Inn at Occidental",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-c075d37bbc2356",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/inn-on-the-russian-river/",
+      "name": "Inn on the Russian River",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-1f42c97fbd47d3",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/iron-vine-restaurant/",
+      "name": "Iron & Vine Restaurant",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-edf8db58cbb07f",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/jack-london-state-historic-park/",
+      "name": "Jack London State Historic Park",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-a42864dfcc3732",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/jacuzzi-family-vineyards/",
+      "name": "Jacuzzi Family Vineyards",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "jacuzzi-family-vineyards-sonoma"
+      ],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-67aa1228d7bdd4",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/jenner-inn/",
+      "name": "Jenner Inn",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "jenner-inn-inn-restaurant-event-lawn-acquisition-lead-sonoma"
+      ],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-ac926735689ac9",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/kenwood-inn-and-spa/",
+      "name": "Kenwood Inn and Spa",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-2f30745b19b022",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/kenwood-ranch/",
+      "name": "Kenwood Ranch",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-6a5c8f0ab6d3fd",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/kunde-family-winery/",
+      "name": "Kunde Family Winery",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-70296cf221616e",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/lancaster-estate/",
+      "name": "Lancaster Estate",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-20c3a5081dcef9",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/landmark-vineyards/",
+      "name": "Landmark Vineyards",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-ab000d74ccd73a",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/luther-burbank-center-for-the-arts/",
+      "name": "Luther Burbank Center for the Arts",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-8abd5e9108af31",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/luther-burbank-home-gardens/",
+      "name": "Luther Burbank Home & Gardens",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-8f40f181ea9c40",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/mauna-kai-water-gardens/",
+      "name": "Mauna Kai Water Gardens",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-020fb27a3f0f8e",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/mayo-family-winery/",
+      "name": "Mayo Family Winery",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-d24d5517b402ff",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/medlock-ames-winery-at-bell-mountain-ranch/",
+      "name": "Medlock Ames Winery at Bell Mountain Ranch",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-2515fbbc05bd6c",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/monte-rio-recreation-and-park-district/",
+      "name": "Monte Rio Recreation and Park District",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-5fa44b7a551d1c",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/monte-rio-riverfront-meadow/",
+      "name": "Monte Rio Riverfront Meadow",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-a98f80ef563951",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/mountain-house-estate/",
+      "name": "Mountain House Estate",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-4628f4dd3487cb",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/newtree-ranch/",
+      "name": "NewTree Ranch",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-f1ba34599d4d62",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/occidental-union-hotel-restaurant/",
+      "name": "Occidental Union Hotel Restaurant",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-3e2fb6c3b8e75a",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/olympias-valley-estate/",
+      "name": "Olympiaâ€™s Valley Estate",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-d31fda9cf2e81f",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/paradise-ridge-winery/",
+      "name": "Paradise Ridge Winery",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-03040747763d6e",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/paul-mahder-gallery/",
+      "name": "Paul Mahder Gallery",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-19fdffa142183c",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/pellegrini-olivet-lane/",
+      "name": "Pellegrini-Olivet Lane",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-7d4d331c52d436",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/petaluma-golf-country-club/",
+      "name": "Petaluma Golf & Country Club",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-f53a2e3ac8ed66",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/robert-young-estate-winery/",
+      "name": "Robert Young Estate Winery",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-11583c240bada8",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/rooster-run-golf-club/",
+      "name": "Rooster Run Golf Club",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-9cdbe60e02f125",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/rosewood-events/",
+      "name": "Rosewood Events",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-bb945b199a710e",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/rus-farm/",
+      "name": "ruâ€™s Farm",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-98cf25f4cf5405",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/running-rabbit-ranch-and-vineyard/",
+      "name": "Running Rabbit Ranch and Vineyard",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-9068f02fbeb23e",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/sabor-mexicano-farm/",
+      "name": "Sabor Mexicano Farm",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-6cd7422ae273c0",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/santa-rosa-golf-country-club/",
+      "name": "Santa Rosa Golf & Country Club",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-cbb8df54e7ce15",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/sebastiani-vineyards-winery/",
+      "name": "Sebastiani Vineyards & Winery",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-0732bacd7e8176",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/sebastopol-veterans-memorial-building-sebastopol-center-for-the-arts/",
+      "name": "Sebastopol Veterans Memorial Building/ Sebastopol Center for the Arts",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-697e701a786efc",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/seven-branches-venue-and-inn/",
+      "name": "Seven Branches Venue and Inn",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-014eb55b5eb4ef",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/sheraton-sonoma-wine-country/",
+      "name": "Sheraton Sonoma Wine Country",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-fe5e8d5998d15b",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/simi-winery/",
+      "name": "Simi Winery",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-b06608051284fd",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/singlethread-farm-restaurant-inn/",
+      "name": "SingleThread Farm Restaurant & Inn",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-4cf3c88c9a6af9",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/soda-rock-winery/",
+      "name": "Soda Rock Winery",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-4e87acc547bc4b",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/songbird-parlour/",
+      "name": "Songbird Parlour",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-57babb33006c4b",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/sonoma-coast-villa/",
+      "name": "Sonoma Coast Villa",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-e115f1eeda7e8e",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/sova-gardens/",
+      "name": "Sova Gardens",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "seb-chamber-sova-gardens-sonoma"
+      ],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-c771171568b2f6",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/st-francis-winery-vineyards/",
+      "name": "St. Francis Winery & Vineyards",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-0d75231d10ac34",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/st-philip-catholic-church/",
+      "name": "St. Philip Catholic Church",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-1df228cbf7d9f2",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/st-teresa-catholic-church/",
+      "name": "St. Teresa Catholic Church",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-2b55441b80d131",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/sugarloaf-wine-co/",
+      "name": "Sugarloaf Wine Co.",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-ca5b1879e32fe2",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/the-barn-at-harrow-cellars/",
+      "name": "The Barn at Harrow Cellars",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "the-barn-at-harrow-cellars-sonoma"
+      ],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-2f34ccde6dbed7",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/the-bridal-path-carriage-occasions/",
+      "name": "The Bridal Path & Carriage Occasions",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-9efd1731180b8b",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/the-gables-wine-country-inn/",
+      "name": "The Gables Wine Country Inn",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-d3b7d2033bfb3a",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/the-highlands-estate/",
+      "name": "The Highlands Estate",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-5f99c8f87ec27a",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/the-inn-at-the-tides/",
+      "name": "The Inn at the Tides",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-f19ccdc88d6c46",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/the-jack-london-lodge/",
+      "name": "The Jack London Lodge",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-d489ab9ae50397",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/the-links-at-bodega-harbour/",
+      "name": "The Links at Bodega Harbour",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
+      "review_state": "pending"
+    },
+    {
+      "id": "directory-lead-10d849499e6605",
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/the-lodge-at-bodega-bay/",
+      "name": "The Lodge at Bodega Bay",
+      "label_method": "Named tourism listing link",
+      "source_channels": [
+        "sonomatourism"
+      ],
+      "source_indexes": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/"
+      ],
+      "source_checked_utc": "2026-11-08T04:46:11.223681+00:00",
+      "original_publication_date": null,
+      "county": "Sonoma",
+      "city": null,
+      "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
+      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "matched_record_ids": [
+        "the-lodge-at-bodega-bay-sonoma"
+      ],
+      "match_method": "Exact normalized name aid only; identity and current terms need manual review",
       "review_state": "pending"
     }
   ],

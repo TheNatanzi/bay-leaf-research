@@ -1,0 +1,187 @@
+{
+  "checked_utc": "2026-11-08T06:48:46.181612+00:00",
+  "source_url": "https://www.sonomacounty.com/weddings/",
+  "complete": false,
+  "resources": [
+    {
+      "url": "https://www.sonomacounty.com/weddings/#fl-main-content",
+      "label": "Skip to content",
+      "context_heading": "",
+      "kind": "source_home",
+      "state": "pending",
+      "reason": null,
+      "parent_source_url": "https://www.sonomacounty.com/weddings/",
+      "discovered_utc": "2026-11-08T04:46:11.223681+00:00"
+    },
+    {
+      "url": "https://www.sonomacounty.com/trip-planning/visitors-guide/",
+      "label": "Free Visitor Guide",
+      "context_heading": "Popular Stories",
+      "kind": "guide_or_fact_document",
+      "state": "pending",
+      "reason": null,
+      "parent_source_url": "https://www.sonomacounty.com/weddings/",
+      "discovered_utc": "2026-11-08T04:46:11.223681+00:00"
+    },
+    {
+      "url": "https://wl-suppliers.app.cvent.com/?uid=MHQCD&accessKey=c872a363-3a8c-48e0-e524-d9129afc3fef&isInWindow=true&display=window",
+      "label": "Submit Wedding Venue RFP",
+      "context_heading": "Congratulations on your engagement – what an exciting time in your lives!",
+      "kind": "outbound_form",
+      "state": "excluded_action",
+      "reason": "Read-only research does not submit inquiries",
+      "parent_source_url": "https://www.sonomacounty.com/weddings/",
+      "discovered_utc": "2026-11-08T04:46:11.223681+00:00"
+    },
+    {
+      "url": "https://mydigitalpublication.com/publication/?m=45969&l=1",
+      "label": "View Now",
+      "context_heading": "View the Sonoma County Wedding Guide",
+      "kind": "interactive_publication",
+      "state": "viewer_verified_pdf_discovered",
+      "reason": "2022 edition; PDF archive held by CDN robots. Original viewer inspected; full issue remains unread.",
+      "parent_source_url": "https://www.sonomacounty.com/weddings/",
+      "discovered_utc": "2026-11-08T04:46:11.223681+00:00",
+      "page_count": 97,
+      "reviewed_pages": [],
+      "full_issue_read": false,
+      "pdf_url": "https://cdn.coverstand.com/45969/746128/f9833aece0197cd7eb2511cbf67b90afce567beb.11.pdf"
+    },
+    {
+      "url": "https://mydigitalpublication.com/publication/?i=746128&p=44&view=issueViewer",
+      "label": "2022 Wedding Guide — user-observed p44",
+      "context_heading": "User screenshot",
+      "kind": "interactive_publication",
+      "state": "viewer_verified_pdf_discovered",
+      "reason": "2022 edition; PDF archive held by CDN robots. Original viewer inspected; full issue remains unread.",
+      "publication_year": 2022,
+      "page_count": 97,
+      "reviewed_pages": [],
+      "screenshot_observations": [
+        {
+          "viewer_position": "p44",
+          "names": [
+            "The Barn at Harrow Cellars",
+            "The Ranch at Lake Sonoma",
+            "DeTurk Round Barn"
+          ],
+          "note": "Only screenshot spread reviewed; no whole-guide extraction claimed"
+        }
+      ],
+      "parent_source_url": "https://www.sonomacounty.com/weddings/",
+      "discovered_utc": "2026-11-08T04:46:11.223681+00:00",
+      "full_issue_read": false,
+      "pdf_url": "https://cdn.coverstand.com/45969/746128/f9833aece0197cd7eb2511cbf67b90afce567beb.11.pdf"
+    },
+    {
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/",
+      "label": "Venue listing page",
+      "kind": "pagination",
+      "state": "reviewed",
+      "reviewed_utc": "2026-11-08T04:46:11.223681+00:00",
+      "scope": "Listing link extraction only; individual profiles separate",
+      "parent_source_url": "https://www.sonomacounty.com/weddings/wedding-venues/"
+    },
+    {
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/?_p=1",
+      "label": "Venue listing page",
+      "kind": "pagination",
+      "state": "reviewed",
+      "reviewed_utc": "2026-11-08T04:46:11.223681+00:00",
+      "scope": "Listing link extraction only; individual profiles separate",
+      "parent_source_url": "https://www.sonomacounty.com/weddings/wedding-venues/"
+    },
+    {
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/?_p=2",
+      "label": "Venue listing page",
+      "kind": "pagination",
+      "state": "reviewed",
+      "reviewed_utc": "2026-11-08T04:46:11.223681+00:00",
+      "scope": "Listing link extraction only; individual profiles separate",
+      "parent_source_url": "https://www.sonomacounty.com/weddings/wedding-venues/"
+    },
+    {
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/?_p=3",
+      "label": "Venue listing page",
+      "kind": "pagination",
+      "state": "reviewed",
+      "reviewed_utc": "2026-11-08T04:46:11.223681+00:00",
+      "scope": "Listing link extraction only; individual profiles separate",
+      "parent_source_url": "https://www.sonomacounty.com/weddings/wedding-venues/"
+    },
+    {
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/?_p=10",
+      "label": "Venue listing page",
+      "kind": "pagination",
+      "state": "reviewed",
+      "reviewed_utc": "2026-11-08T04:46:11.223681+00:00",
+      "scope": "Listing link extraction only; individual profiles separate",
+      "parent_source_url": "https://www.sonomacounty.com/weddings/wedding-venues/"
+    },
+    {
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/?_p=11",
+      "label": "Venue listing page",
+      "kind": "pagination",
+      "state": "reviewed",
+      "reviewed_utc": "2026-11-08T04:46:11.223681+00:00",
+      "scope": "Listing link extraction only; individual profiles separate",
+      "parent_source_url": "https://www.sonomacounty.com/weddings/wedding-venues/"
+    },
+    {
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/?_p=4",
+      "label": "Venue listing page",
+      "kind": "pagination",
+      "state": "reviewed",
+      "reviewed_utc": "2026-11-08T04:46:11.223681+00:00",
+      "scope": "Listing link extraction only; individual profiles separate",
+      "parent_source_url": "https://www.sonomacounty.com/weddings/wedding-venues/"
+    },
+    {
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/?_p=5",
+      "label": "Venue listing page",
+      "kind": "pagination",
+      "state": "reviewed",
+      "reviewed_utc": "2026-11-08T04:46:11.223681+00:00",
+      "scope": "Listing link extraction only; individual profiles separate",
+      "parent_source_url": "https://www.sonomacounty.com/weddings/wedding-venues/"
+    },
+    {
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/?_p=6",
+      "label": "Venue listing page",
+      "kind": "pagination",
+      "state": "reviewed",
+      "reviewed_utc": "2026-11-08T04:46:11.223681+00:00",
+      "scope": "Listing link extraction only; individual profiles separate",
+      "parent_source_url": "https://www.sonomacounty.com/weddings/wedding-venues/"
+    },
+    {
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/?_p=7",
+      "label": "Venue listing page",
+      "kind": "pagination",
+      "state": "reviewed",
+      "reviewed_utc": "2026-11-08T04:46:11.223681+00:00",
+      "scope": "Listing link extraction only; individual profiles separate",
+      "parent_source_url": "https://www.sonomacounty.com/weddings/wedding-venues/"
+    },
+    {
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/?_p=8",
+      "label": "Venue listing page",
+      "kind": "pagination",
+      "state": "reviewed",
+      "reviewed_utc": "2026-11-08T04:46:11.223681+00:00",
+      "scope": "Listing link extraction only; individual profiles separate",
+      "parent_source_url": "https://www.sonomacounty.com/weddings/wedding-venues/"
+    },
+    {
+      "url": "https://www.sonomacounty.com/weddings/wedding-venues/?_p=9",
+      "label": "Venue listing page",
+      "kind": "pagination",
+      "state": "reviewed",
+      "reviewed_utc": "2026-11-08T04:46:11.223681+00:00",
+      "scope": "Listing link extraction only; individual profiles separate",
+      "parent_source_url": "https://www.sonomacounty.com/weddings/wedding-venues/"
+    }
+  ],
+  "guide_full_extraction_complete": false,
+  "note": "A generic View Now link is retained with its heading/target. Source review is not complete while linked publication/profile work remains open."
+}
