@@ -98,7 +98,7 @@
   {
     "county": "Alameda",
     "municipality": "Fremont",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial — current named city rooms, closure notices, picnic and event-center policies reviewed",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
       "https://www.ebparks.org/recreation/picnics/quarry-lakes-picnic-areas#Lampert",
@@ -114,9 +114,26 @@
       "https://www.ebparks.org/index%2Ephp/recreation/picnics/dumbarton-picnic-areas#j",
       "https://www.ebparks.org/index%2Ephp/recreation/picnics/dumbarton-picnic-areas#m",
       "https://www.ebparks.org/index%2Ephp/recreation/picnics/dumbarton-picnic-areas#pt",
-      "https://www.ebparks.org/index%2Ephp/recreation/picnics/dumbarton-picnic-areas#ac"
+      "https://www.ebparks.org/index%2Ephp/recreation/picnics/dumbarton-picnic-areas#ac",
+      "https://www.fremont.gov/government/departments/parks-recreation/facilities-rentals/community-centers/centerville-community-center",
+      "https://www.fremont.gov/government/departments/parks-recreation/facilities-rentals/community-centers/central-park-performance-pavilion",
+      "https://www.fremont.gov/government/departments/parks-recreation/facilities-rentals/community-centers/central-park-teen-center",
+      "https://www.fremont.gov/government/departments/parks-recreation/facilities-rentals/community-centers/fremont-community-center",
+      "https://www.fremont.gov/government/departments/parks-recreation/facilities-rentals/community-centers/los-cerritos-community-center",
+      "https://www.fremont.gov/government/departments/parks-recreation/facilities-rentals/community-centers/olive-hyde-art-gallery",
+      "https://www.fremont.gov/government/departments/parks-recreation/facilities-rentals/community-centers/olive-hyde-program-center",
+      "https://www.fremont.gov/government/departments/parks-recreation/facilities-rentals/community-centers/wally-pond-irvington-community-center",
+      "https://www.fremont.gov/government/departments/parks-recreation/facilities-rentals/community-centers/warm-springs-community-center",
+      "https://www.fremont.gov/government/departments/parks-recreation/facilities-rentals/downtown-event-center-plaza",
+      "https://www.fremont.gov/government/departments/parks-recreation/facilities-rentals/historic-parks-facilities",
+      "https://www.fremont.gov/government/departments/parks-recreation/facilities-rentals/picnic-area-reservations",
+      "https://www.fremont.gov/home/showpublisheddocument/8862/639249752236130000",
+      "https://www.fremont.gov/home/showdocument?id=8864&t=637861383009130000",
+      "https://www.fremont.gov/home/showdocument?id=20816&t=639185253676130000",
+      "https://www.fremont.gov/government/departments/parks-recreation/facilities-rentals/palms-pavilion"
     ],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "remaining": "Historicparkpermission/layouts, golf/tennis/otherauthorities andprivatevenues; currentcompletequotes/securityhours, citywideinventorynotexhausted",
+    "checked_utc": "2026-10-26T13:56:29.655025+00:00"
   },
   {
     "county": "Alameda",
@@ -1359,7 +1376,7 @@
   {
     "county": "Solano",
     "municipality": "Rio Vista",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial — official facility/park inventories and current public application packets reviewed",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
       "https://solano.legistar.com/View.ashx?GUID=3E4EBAC1-739A-4044-92B7-08081E628149&ID=1423323&M=PA",
@@ -1368,9 +1385,16 @@
       "https://www.solanocounty.gov/government/resource-management/solano-county-parks/sandy-beach-park-campground",
       "https://www.solanocounty.gov/government/resource-management/solano-county-parks/park-hours",
       "https://content.solanocounty.gov/sites/default/files/2025-06/SBP_Fees_2024.pdf",
-      "https://www.solanocounty.gov/government/resource-management/solano-county-parks"
+      "https://www.solanocounty.gov/government/resource-management/solano-county-parks",
+      "https://www.riovistacity.com/publicworks/page/facilities-and-facility-use",
+      "https://www.riovistacity.com/publicworks/page/parks-department",
+      "https://www.riovistacity.com/parksrec/page/facility-rental-applications",
+      "https://www.riovistacity.com/media/4646",
+      "https://www.riovistacity.com/media/4651",
+      "https://www.riovistacity.com/media/8881"
     ],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "remaining": "Currentfeesbehindlogin, individualparkpermissions/layouts/privatevenues/otheragencies; parkindexclaims10butlists11labels, unresolvedinventorycount; airportaviationonly",
+    "checked_utc": "2026-10-26T14:14:24.317387+00:00"
   },
   {
     "county": "Solano",
@@ -1461,24 +1485,31 @@
   {
     "county": "Sonoma",
     "municipality": "Cloverdale",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial — current city reservation policy and public permit portal reviewed",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
-      "https://sonomacounty.gov/development-services/sonoma-public-infrastructure/divisions/administration-and-renting-facilities"
+      "https://sonomacounty.gov/development-services/sonoma-public-infrastructure/divisions/administration-and-renting-facilities",
+      "https://www.cloverdale.net/515/Reservations-and-Permits",
+      "https://cloverdaleca.viewpointcloud.com/categories/1081/record-types/6433"
     ],
-    "remaining": "Partial primary county/arts room review; private venues, layout/quote/permit/title/history audits incomplete."
+    "remaining": "Fullnamedpark/facilityinventory/fees/layouts/privatevenuesandotherauthoritiesopen; CityParkstreetaddress/unallocatedpicnicareas; ScoutHutcurrentavailabilityunestablished",
+    "checked_utc": "2026-10-26T13:19:34.858283+00:00"
   },
   {
     "county": "Sonoma",
     "municipality": "Cotati",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial — city room/park inventory and three actual packets reviewed",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
       "https://www.cotaticity.gov/314/City-Facility-Park-Usage",
       "https://www.cotaticity.gov/DocumentCenter/View/2572/Veterans-Building-Rental-Application-2026?bidId=",
-      "https://sonomacounty.gov/development-services/sonoma-public-infrastructure/divisions/administration-and-renting-facilities"
+      "https://sonomacounty.gov/development-services/sonoma-public-infrastructure/divisions/administration-and-renting-facilities",
+      "https://www.cotaticity.gov/DocumentCenter/View/2576",
+      "https://www.cotaticity.gov/DocumentCenter/View/2577",
+      "https://www.cotaticity.gov/DocumentCenter/View/2572"
     ],
-    "remaining": "Partial primary county/arts room review; private venues, layout/quote/permit/title/history audits incomplete."
+    "remaining": "Private/otheragencyinventory andsite-specificweddingpermission; Veteranscounty/citylayout/rateconflicts; currentissuedquotes/effectivefee dates; nonexclusiveparkclosures",
+    "checked_utc": "2026-10-26T12:49:15.052496+00:00"
   },
   {
     "county": "Sonoma",
@@ -1502,32 +1533,46 @@
   {
     "county": "Sonoma",
     "municipality": "Petaluma",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial — current July2026facility/parkbooklets and primary city links reviewed",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
-      "https://sonomacounty.gov/development-services/sonoma-public-infrastructure/divisions/administration-and-renting-facilities"
+      "https://sonomacounty.gov/development-services/sonoma-public-infrastructure/divisions/administration-and-renting-facilities",
+      "https://cityofpetaluma.org/reserve-register/",
+      "https://storage.googleapis.com/proudcity/petalumaca/2026/03/facility-rentals-july-2026-english-v1-a41c12b4.pdf",
+      "https://storage.googleapis.com/proudcity/petalumaca/2026/03/park-rentals-july-2026-english-v1-591a8fa2.pdf"
     ],
-    "remaining": "Partial primary county/arts room review; private venues, layout/quote/permit/title/history audits incomplete."
+    "remaining": "Fairgroundscurrentfootprints/othercityagencies/schools/pools/privateinventory; currentspecificpermit/quotes/combinedlayouts; Kenilworthaddress/areaandotherparkcoverageopen",
+    "checked_utc": "2026-10-26T13:08:52.856140+00:00"
   },
   {
     "county": "Sonoma",
     "municipality": "Rohnert Park",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial — current primary rental inventory, five room/application PDFs and FAQ reviewed",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://rpcity.ca.gov/188/Building-Rentals",
+      "https://rpcity.ca.gov/DocumentCenter/View/3176/2026-2027-APPLICATION-FOR-USE-OF-CITY-FACILITY",
+      "https://rpcity.ca.gov/m/faq?cat=50"
+    ],
+    "remaining": "Room/current quote/layout and source-age/conflict reconciliation; GoldRidge/Crafts current availability; parks/other authorities and private inventory open",
+    "checked_utc": "2026-10-26T12:37:05.603685+00:00"
   },
   {
     "county": "Sonoma",
     "municipality": "Santa Rosa",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial — current municipal index and Finley/Person2026guide/layouts reviewed",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
       "https://sonomacountyfair.com/pages/venue-rental",
       "https://cdn.shopify.com/s/files/1/0729/3236/0491/files/Interim_Rental_Rates_Effective_2-1-26.pdf?v=1777394794",
-      "https://sonomacounty.gov/development-services/sonoma-public-infrastructure/divisions/administration-and-renting-facilities"
+      "https://sonomacounty.gov/development-services/sonoma-public-infrastructure/divisions/administration-and-renting-facilities",
+      "https://www.srcity.org/1566/Facility-Rentals",
+      "https://www.srcity.org/2110/Finley-Community-Center",
+      "https://www.srcity.org/2112/Person-Senior-Wing",
+      "https://www.srcity.org/DocumentCenter/View/15835"
     ],
-    "remaining": "Partial acquisition/lease/inn/winery review; title/value/permit/layout/quote/private inventory incomplete."
+    "remaining": "Otherclubhouses/parks/cemetery/golf/operatorcontracts andprivateinventory; directPDFfees/currentquote, maxconflicts andotheragencyrentalsremainopen",
+    "checked_utc": "2026-10-26T12:58:35.934199+00:00"
   },
   {
     "county": "Sonoma",
@@ -1553,7 +1598,7 @@
   {
     "county": "Sonoma",
     "municipality": "Sonoma",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial — Plaza wedding program and Depot/Plaza named public rental inventory reviewed",
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
       "https://sonomacounty.gov/development-services/sonoma-public-infrastructure/divisions/administration-and-renting-facilities",
@@ -1564,17 +1609,29 @@
       "https://www.depothotel.com/reserve/",
       "https://static1.squarespace.com/static/55147c84e4b076742436c530/t/6119ae6b0ba77f480290f542/1629073005890/NEW%2BWedding%2BInformation%2BPackage%2Bdated%2BAugust%2B2021.pdf",
       "https://www.cbre.com/press-releases/cbre-announces-historic-sonoma-restaurant-and-event-venue-is-for-sale",
-      "https://www.loopnet.com/Listing/241-1st-St-W-Sonoma-CA/37636597/"
+      "https://www.loopnet.com/Listing/241-1st-St-W-Sonoma-CA/37636597/",
+      "https://www.sonomacity.org/sonoma-plaza-weddings/",
+      "https://www.sonomacity.org/venues-plaza/",
+      "https://www.sonomacity.org/depot-park-event-venues/",
+      "https://www.sonomacity.org/special-event-fees/",
+      "https://storage.googleapis.com/proudcity/sonomaca/uploads/2017/08/Special-Events-Policy-Adopted-.pdf"
     ],
-    "remaining": "Partial primary county/arts room review; private venues, layout/quote/permit/title/history audits incomplete."
+    "remaining": "Othercityproperties/agencies/privatevenues/currentquotes/site-specificweddinglayouts; generalfee-pageversion/privateweddingpolicyapplicability",
+    "checked_utc": "2026-10-26T14:07:04.562714+00:00"
   },
   {
     "county": "Sonoma",
     "municipality": "Windsor",
-    "municipal_rental_status": "Not yet audited",
+    "municipal_rental_status": "Partial — current facilities and full named park inventory/policy reviewed",
     "private_venue_status": "Not yet systematically audited",
-    "source_urls": [],
-    "remaining": "Municipal facilities + private venues + unconventional spaces; no completeness claim"
+    "source_urls": [
+      "https://www.townofwindsor.ca.gov/330/Facility-Rentals",
+      "https://www.townofwindsor.ca.gov/DocumentCenter/View/32863/Facility-Use-Policy-Rate-increase-July-2026",
+      "https://www.townofwindsor.ca.gov/DocumentCenter/View/32636/2026-Facilities-Rental-Rate-sheet",
+      "https://www.townofwindsor.ca.gov/DocumentCenter/View/32637/Facility-Rental-Handbook-7-2026"
+    ],
+    "remaining": "Private venues/otherauthorities; Bluebirdcurrentbooking; exactcurrentlayout/quote and sourceconflicts; park weddingpermissions/unusablefootprints unverified",
+    "checked_utc": "2026-10-26T12:42:25.036132+00:00"
   },
   {
     "county": "Alameda",
