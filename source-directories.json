@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-26T14:14:24.317387+00:00",
+  "updated_utc": "2026-11-08T04:22:40.779058+00:00",
   "scope": "Nine Bay Area counties; directory boundaries and nearby results require validation. Nonexhaustive source registry.",
   "sources": [
     {
@@ -1423,6 +1423,21 @@
       "collected_profiles": 14,
       "new_venue_records": 14,
       "notes": "14facility/prospectrecordsnot14confirmedweddingvenues; 45Main2025packetnot25MainSenior; parkheader10but11labels"
+    },
+    {
+      "id": "sfuva",
+      "name": "San Francisco Unique Venue Alliance",
+      "category": "Local venue association",
+      "url": "https://www.sfuva.com/",
+      "geography": "San Francisco city; association membership is not wedding approval",
+      "checked_utc": "2026-11-08T04:22:40.779058+00:00",
+      "collection_status": "67 member profile links captured; One Sansome and Hibernia verified through official wedding pages; remaining profiles pending individual review",
+      "collection_method": "Public member navigation inventory, exact property/alias reconciliation, official operator follow-up",
+      "collected_profiles": 2,
+      "candidate_profile_links": 67,
+      "new_venue_records": 3,
+      "new_parent_properties": 2,
+      "notes": "New records: Conservatory property, its Atrium, Hibernia property. Rooms are not separate property additions."
     }
   ],
   "candidate_queue_url": "directory-leads.html"

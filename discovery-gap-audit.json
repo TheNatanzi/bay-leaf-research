@@ -1,0 +1,165 @@
+{
+  "checked_utc": "2026-11-08T04:22:40.779058+00:00",
+  "case": {
+    "name": "The Conservatory at One Sansome",
+    "captured_utc": "2026-10-26T13:28:51.955107+00:00",
+    "prior_candidate_id": "directory-lead-c6a68fdf605580",
+    "prior_queue_state": "Candidate only; no exact record match",
+    "prior_primary_review_count": 2,
+    "prior_candidate_urls": 163,
+    "prior_unreviewed_candidate_urls": 161,
+    "primary_url": "https://www.conservatorysf.com/weddings/",
+    "root_cause": "Lead captured but never dispositioned into research dataset. Directory-index collection and room-level row expansion were not evidence of completed property coverage.",
+    "not_established": [
+      "No evidence that budget, seating, wedding prohibition or inaccessible official site caused exclusion",
+      "No safe inference of completed search coverage from record count or number of loops"
+    ]
+  },
+  "source_inventory": {
+    "url": "https://www.sfuva.com/",
+    "named_member_links": 67,
+    "prior_exact_name_aids": 9,
+    "prior_without_exact_name_aid": 58,
+    "note": "58 unmatched labels are review gaps, not 58 confirmed new properties; aliases and closed/ineligible listings require manual review"
+  },
+  "new_record_ids": [
+    "conservatory-at-one-sansome-san-francisco",
+    "conservatory-at-one-sansome-san-francisco-atrium",
+    "the-hibernia-san-francisco"
+  ],
+  "new_parent_properties": 2,
+  "alliance_record_ids": [
+    "seb-chamber-alliance-redwoods-sonoma",
+    "alliance-redwoods-gym-sonoma",
+    "alliance-redwoods-tabernacle-sonoma",
+    "alliance-redwoods-upper-room-sonoma",
+    "alliance-redwoods-kinser-sonoma",
+    "alliance-redwoods-fire-circle-sonoma",
+    "alliance-redwoods-forest-theater-sonoma"
+  ],
+  "archive_manifest": [
+    {
+      "url": "https://www.conservatorysf.com/weddings/",
+      "final_url": "https://www.conservatorysf.com/weddings/",
+      "status": 200,
+      "bytes": 36728,
+      "saved": "weddings.html",
+      "checked_utc": "2026-11-08T04:19:52.712491+00:00",
+      "sha256": "e31c69ba8427dfa17b4040f6566fd4d89d20c1ba894cb1fd540c73b45ce28658"
+    },
+    {
+      "url": "https://www.conservatorysf.com/venue/",
+      "final_url": "https://www.conservatorysf.com/venue/",
+      "status": 200,
+      "bytes": 41494,
+      "saved": "spaces.html",
+      "checked_utc": "2026-11-08T04:19:53.366003+00:00",
+      "sha256": "bf30a46d14d21f2a1bc9c1bace0638d64b74d6cd0bd28b5e0d4bcfce0025d7bc"
+    },
+    {
+      "url": "https://www.conservatorysf.com/team-member/what-are-the-conservatorys-hours-of-operation/",
+      "final_url": "https://www.conservatorysf.com/team-member/what-are-the-conservatorys-hours-of-operation/",
+      "status": 200,
+      "bytes": 32054,
+      "saved": "hours.html",
+      "checked_utc": "2026-11-08T04:19:54.274852+00:00",
+      "sha256": "2c477fb1cbfa0670637cb88e73ff550dfae61bea10a90b1bce8d2ce3ed314fc6"
+    },
+    {
+      "url": "https://www.conservatorysf.com/team-member/what-is-included-in-the-rental-price/",
+      "final_url": "https://www.conservatorysf.com/team-member/what-is-included-in-the-rental-price/",
+      "status": 200,
+      "bytes": 31915,
+      "saved": "inclusions.html",
+      "checked_utc": "2026-11-08T04:19:55.149228+00:00",
+      "sha256": "10253f68e4b6276fe5a7934e89253e14dd87aac42c52699ae2ea11ea5224c94a"
+    },
+    {
+      "url": "https://www.conservatorysf.com/team-member/that-are-the-required-taxes-and-fees/",
+      "final_url": "https://www.conservatorysf.com/team-member/that-are-the-required-taxes-and-fees/",
+      "status": 200,
+      "bytes": 31802,
+      "saved": "fees.html",
+      "checked_utc": "2026-11-08T04:19:56.022822+00:00",
+      "sha256": "cd5067da3a9c7cae04ec020d783037f923c7239c6569edacb022612d115da8af"
+    },
+    {
+      "url": "https://www.conservatorysf.com/team-member/do-you-have-a-preferred-vendor-and-caterer-list/",
+      "final_url": "https://www.conservatorysf.com/team-member/do-you-have-a-preferred-vendor-and-caterer-list/",
+      "status": 200,
+      "bytes": 32084,
+      "saved": "vendors.html",
+      "checked_utc": "2026-11-08T04:19:56.927578+00:00",
+      "sha256": "0aa4e5789e57afb88d0d6f104f30916c54fb46ecacc4f4ce27c2e1868ec1199c"
+    },
+    {
+      "url": "https://www.conservatorysf.com/team-member/does-the-conservatory-serve-alcohol/",
+      "final_url": "https://www.conservatorysf.com/team-member/does-the-conservatory-serve-alcohol/",
+      "status": 200,
+      "bytes": 31900,
+      "saved": "bar.html",
+      "checked_utc": "2026-11-08T04:19:57.925616+00:00",
+      "sha256": "d92324ce85ee7b928d87bdcdee0a6c452bdda499bf693cf7b9ae578f4e377b94"
+    },
+    {
+      "url": "https://www.sfuva.com/",
+      "final_url": "https://www.sfuva.com/",
+      "status": 200,
+      "bytes": 2950147,
+      "saved": "sfuva.html",
+      "checked_utc": "2026-11-08T04:19:59.542645+00:00",
+      "sha256": "ecadbbed87b980df6bb078c0ef8d964a3faf5b6557211a5942752e2719d899fd"
+    },
+    {
+      "url": "https://allianceredwoods.com/",
+      "final_url": "https://allianceredwoods.com/",
+      "status": 200,
+      "bytes": 123437,
+      "saved": "alliance-home.html",
+      "checked_utc": "2026-11-08T04:21:40.261006+00:00",
+      "sha256": "596eebe9a3e6b2f292e135de109bd65cff661498ffdcccd975714963094104b8"
+    },
+    {
+      "url": "https://allianceredwoods.com/guest-groups/meeting-venues/",
+      "final_url": "https://allianceredwoods.com/guest-groups/meeting-venues/",
+      "status": 200,
+      "bytes": 161455,
+      "saved": "alliance-meetings.html",
+      "checked_utc": "2026-11-08T04:21:40.966423+00:00",
+      "sha256": "544be217e83a91aa11a4e5456ececb84cbec1a3fbf8675f8cc989dc3749808a6"
+    },
+    {
+      "url": "https://allianceredwoods.com/arrival-information-for-groups/",
+      "final_url": "https://allianceredwoods.com/arrival-information-for-groups/",
+      "status": 200,
+      "bytes": 119640,
+      "saved": "alliance-arrival.html",
+      "checked_utc": "2026-11-08T04:21:41.684742+00:00",
+      "sha256": "7b4191cf287bef51d757706f5a0950f79831fa4ebfba19619226aca05e57c173"
+    },
+    {
+      "url": "https://thehiberniasf.com/",
+      "final_url": "https://thehiberniasf.com/",
+      "status": 200,
+      "bytes": 279782,
+      "saved": "hibernia.html",
+      "checked_utc": "2026-11-08T04:21:42.457196+00:00",
+      "sha256": "6ec0543f8c7ca32812d303571b2e5922e2b7c073817de2d1357ea120d3099eab"
+    },
+    {
+      "url": "https://thehiberniasf.com/weddings/",
+      "final_url": "https://thehiberniasf.com/weddings/",
+      "status": 200,
+      "bytes": 310958,
+      "saved": "hibernia-weddings.html",
+      "checked_utc": "2026-11-08T04:21:43.116012+00:00",
+      "sha256": "45a8cfb59cd6b940dd614e058906a7f5182497ed610e6e67862c26d509e577a5"
+    }
+  ],
+  "review_counts": {
+    "pending": 225,
+    "reviewed_existing": 2,
+    "reviewed_added": 3
+  },
+  "remaining": "Pending leads and county/source inventory gaps remain. This repair does not establish exhaustive coverage."
+}
