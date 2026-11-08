@@ -1,0 +1,11 @@
+const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),vm=require('node:vm');
+const html=fs.readFileSync(path.join(__dirname,'index.html'),'utf8'),numeric=fs.readFileSync(path.join(__dirname,'numeric-ui.js'),'utf8'),typed=fs.readFileSync(path.join(__dirname,'normalized-ui.js'),'utf8'),d=require('./research.json'),ctx=vm.createContext({});
+for(const name of ['venueTableLabel','venuePropertyGroups'])vm.runInContext(numeric.match(new RegExp('^function '+name+'\\(.*$','m'))[0],ctx);
+const room=d.venues.find(v=>v.name==='Contra Costa II');assert.equal(ctx.venueTableLabel(room),'Walnut Creek Marriott · Contra Costa II');
+const groups=ctx.venuePropertyGroups(d.venues);assert.equal(groups.flatMap(g=>g.records).length,d.venues.length);assert.equal(new Set(groups.flatMap(g=>g.records).map(v=>v.id)).size,d.venues.length);assert(groups.some(g=>g.name==='Walnut Creek Marriott'&&g.records.some(v=>v.id===room.id)));
+assert.equal(ctx.venuePropertyGroups([{name:'A',parent_property:'Hotel',city:'Oakland',county:'Alameda'},{name:'B',parent_property:'Hotel',city:'San Francisco',county:'San Francisco'}]).length,2);
+const nav=html.match(/<nav aria-label="Research views">(.*?)<\/nav>/s)[1];assert(!nav.includes('coffee-worksheet'));assert(nav.includes('More research'));for(const label of ['Map','Compare','Government','Potential spaces'])assert(nav.includes('>'+label+'<'));
+assert(typed.includes('rank.hidden=true'));assert(!typed.includes("'Scenario','Ranking','Field status'"));assert(!typed.includes('scenarioColumns.concat(rankColumns).map'));
+assert(html.includes("['comparePrice','compareCatering','compareAnswer'],'More filters'"));assert(html.includes('simplifyVenueControls();'));assert(numeric.includes('class="venue-summary-grid"'));assert(numeric.includes('<summary>More details</summary>'));assert(html.includes('new Option(venueTableLabel(v),v.id)'));
+for(const file of ['numeric-ui.js','normalized-ui.js'])new vm.Script(fs.readFileSync(path.join(__dirname,file),'utf8'));
+console.log('Interface cleanup: parent names, lossless explicit-property groups, no cross-city grouping, simple nav, optional controls hidden and aligned detail structure passed');
