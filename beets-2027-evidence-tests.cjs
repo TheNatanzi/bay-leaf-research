@@ -1,0 +1,13 @@
+const fs=require('fs'),path=require('path'),assert=require('assert/strict'),vm=require('vm'),E=require('./normalized-engine.js');
+const d=require('./research.json'),receipts=require('./correspondence-evidence.json'),e=E.create(d),find=id=>d.venues.find(v=>v.id===id),p=find('palm-event-center'),c=find('casa-real-at-ruby-hill-winery-grand-salon-alameda');
+assert.equal(e.value(p,'capacity_max'),320);assert.equal(e.value(p,'capacity_dinner_dance'),null,'Reception count is not verified dinner plus dance');
+for(const v of [p,c]){
+ assert.equal(e.value(v,'package_min'),126);assert.equal(e.value(v,'package_max'),166);assert.equal(e.value(v,'service_package_min'),116);assert.equal(e.value(v,'service_package_max'),116);assert.equal(e.value(v,'outside_catering'),'conditional');assert.equal(e.value(v,'service_pct'),25);assert.equal(e.value(v,'rental_hours'),5);assert.equal(e.value(v,'bar_hours'),4.5);
+ for(const k of ['event_end','music_indoor','music_outdoor','cleanup_end'])assert.equal(e.value(v,k),null,'Durations and extensions do not establish clock permission');
+ assert.equal(e.scenario(v,{guests:330,hours:5,food:50}).complete,false,'An unapproved caterer and unresolved fees cannot produce an all-in total');
+ const a=v.public_2027_cost_options;assert.equal(a.outside_food_included,false);assert.equal(a.outside_caterer_fee.amount,1500);assert.equal(a.outside_caterer_fee.waived_for_listed_caterer,true);assert.equal(a.outside_rows.find(r=>r.day==='Sat'&&r.season==='Peak').minimum,33000);assert.equal(a.inhouse_rows.find(r=>r.day==='Sat'&&r.season==='Peak').minimum,36000);assert(a.not_complete_all_in_quote);assert(v.historical_evidence_versions.length);
+}
+assert.equal(e.value(find('casa-real-at-ruby-hill-winery-amber-room-alameda'),'capacity_ceremony'),306);assert.equal(e.value(find('casa-real-at-ruby-hill-winery-amber-room-alameda'),'capacity_seated'),null);
+assert.equal(receipts.length,29);for(const r of receipts){assert.equal(r.source_kind,'public_operator_document');assert(r.source_urls.every(u=>u.startsWith('https://indd.adobe.com/view/publication/')));assert(!/rinahdi|danielkx|louisegd|portal\.tripleseat|198 Guest|88,012|82,972/i.test(JSON.stringify(r)));}
+const html=fs.readFileSync(path.join(__dirname,'correspondence-evidence.html'),'utf8');for(const m of html.matchAll(/<script>([\s\S]*?)<\/script>/g))new vm.Script(m[1]);
+console.log('2027 Beets brochures: separate package modes, conditional caterer fees, exact layouts, unknown clocks/all-in totals, retained originals and public/private separation passed');

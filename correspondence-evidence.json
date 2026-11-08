@@ -1,1 +1,379 @@
-[]
+[
+  {
+    "id": "1a60dacf6f31bb1fdecc8880",
+    "venue": "Palm Event Center",
+    "field": "fee_min",
+    "value": 1800,
+    "conditions": "Published2027brochure pp3/13; five-hour reception package,4.5hour bar; ceremony and other charges separate. Pricing varies by weekday/season and adult count; holidays higher. Public source: https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf",
+    "checked_utc": "2026-11-08T17:11:11.344555+00:00",
+    "source_kind": "public_operator_document",
+    "original": "Public brochure; exact bytes also privately archived",
+    "source_urls": [
+      "https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf"
+    ]
+  },
+  {
+    "id": "61f2d9bac4f00fc1b75fc2e0",
+    "venue": "Palm Event Center",
+    "field": "fee_max",
+    "value": 5300,
+    "conditions": "Published2027brochure pp3/13; five-hour reception package,4.5hour bar; ceremony and other charges separate. Pricing varies by weekday/season and adult count; holidays higher. Public source: https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf",
+    "checked_utc": "2026-11-08T17:11:11.351674+00:00",
+    "source_kind": "public_operator_document",
+    "original": "Public brochure; exact bytes also privately archived",
+    "source_urls": [
+      "https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf"
+    ]
+  },
+  {
+    "id": "159dba9c2b22163bb98dde0d",
+    "venue": "Palm Event Center",
+    "field": "package_min",
+    "value": 126,
+    "conditions": "Published2027brochure pp3/13; five-hour reception package,4.5hour bar; ceremony and other charges separate. Pricing varies by weekday/season and adult count; holidays higher. Public source: https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf",
+    "checked_utc": "2026-11-08T17:11:11.358664+00:00",
+    "source_kind": "public_operator_document",
+    "original": "Public brochure; exact bytes also privately archived",
+    "source_urls": [
+      "https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf"
+    ]
+  },
+  {
+    "id": "cf82a9e1c27108c5df37af12",
+    "venue": "Palm Event Center",
+    "field": "package_max",
+    "value": 166,
+    "conditions": "Published2027brochure pp3/13; five-hour reception package,4.5hour bar; ceremony and other charges separate. Pricing varies by weekday/season and adult count; holidays higher. Public source: https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf",
+    "checked_utc": "2026-11-08T17:11:11.365775+00:00",
+    "source_kind": "public_operator_document",
+    "original": "Public brochure; exact bytes also privately archived",
+    "source_urls": [
+      "https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf"
+    ]
+  },
+  {
+    "id": "3e32d1231b8d85bc21bc9373",
+    "venue": "Palm Event Center",
+    "field": "ceremony_fee",
+    "value": 1500,
+    "conditions": "Published2027brochure pp3/13; five-hour reception package,4.5hour bar; ceremony and other charges separate. Pricing varies by weekday/season and adult count; holidays higher. Public source: https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf",
+    "checked_utc": "2026-11-08T17:11:11.372930+00:00",
+    "source_kind": "public_operator_document",
+    "original": "Public brochure; exact bytes also privately archived",
+    "source_urls": [
+      "https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf"
+    ]
+  },
+  {
+    "id": "2ea1e86e559c241009d1503b",
+    "venue": "Palm Event Center",
+    "field": "rental_hours",
+    "value": 5,
+    "conditions": "Published2027brochure pp3/13; five-hour reception package,4.5hour bar; ceremony and other charges separate. Pricing varies by weekday/season and adult count; holidays higher. Public source: https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf",
+    "checked_utc": "2026-11-08T17:11:11.379965+00:00",
+    "source_kind": "public_operator_document",
+    "original": "Public brochure; exact bytes also privately archived",
+    "source_urls": [
+      "https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf"
+    ]
+  },
+  {
+    "id": "06be53776ef93aa0c16e3b8e",
+    "venue": "Palm Event Center",
+    "field": "bar_hours",
+    "value": 4.5,
+    "conditions": "Published2027brochure pp3/13; five-hour reception package,4.5hour bar; ceremony and other charges separate. Pricing varies by weekday/season and adult count; holidays higher. Public source: https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf",
+    "checked_utc": "2026-11-08T17:11:11.387015+00:00",
+    "source_kind": "public_operator_document",
+    "original": "Public brochure; exact bytes also privately archived",
+    "source_urls": [
+      "https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf"
+    ]
+  },
+  {
+    "id": "88e9ee43d9c7528b9002cb8b",
+    "venue": "Palm Event Center",
+    "field": "service_pct",
+    "value": 25,
+    "conditions": "Published2027brochure pp3/13; five-hour reception package,4.5hour bar; ceremony and other charges separate. Pricing varies by weekday/season and adult count; holidays higher. Public source: https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf",
+    "checked_utc": "2026-11-08T17:11:11.393614+00:00",
+    "source_kind": "public_operator_document",
+    "original": "Public brochure; exact bytes also privately archived",
+    "source_urls": [
+      "https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf"
+    ]
+  },
+  {
+    "id": "b1194b9924a3d96db24dd6a2",
+    "venue": "Palm Event Center",
+    "field": "outside_catering",
+    "value": "conditional",
+    "conditions": "Published2027outside-catering brochure pp6/10, price table visually checked:116/adult service/bar package EXCLUDES catered food. Only cuisine not specialized in; venue approval required.1500outside-caterer fee waived for listed caterers.25%operations applies to service and in-house food/beverage, plus sales tax. Public source: https://indd.adobe.com/view/publication/5fef56e4-668b-4fad-83a4-87c6de2241f5/9hb5/publication-web-resources/pdf/2027OutsideCatering.pdf",
+    "checked_utc": "2026-11-08T17:11:11.417751+00:00",
+    "source_kind": "public_operator_document",
+    "original": "Public brochure; exact bytes also privately archived",
+    "source_urls": [
+      "https://indd.adobe.com/view/publication/5fef56e4-668b-4fad-83a4-87c6de2241f5/9hb5/publication-web-resources/pdf/2027OutsideCatering.pdf"
+    ]
+  },
+  {
+    "id": "2c9267e80e3beb2424d12dc6",
+    "venue": "Palm Event Center",
+    "field": "service_package_min",
+    "value": 116,
+    "conditions": "Published2027outside-catering brochure pp6/10, price table visually checked:116/adult service/bar package EXCLUDES catered food. Only cuisine not specialized in; venue approval required.1500outside-caterer fee waived for listed caterers.25%operations applies to service and in-house food/beverage, plus sales tax. Public source: https://indd.adobe.com/view/publication/5fef56e4-668b-4fad-83a4-87c6de2241f5/9hb5/publication-web-resources/pdf/2027OutsideCatering.pdf",
+    "checked_utc": "2026-11-08T17:11:11.425268+00:00",
+    "source_kind": "public_operator_document",
+    "original": "Public brochure; exact bytes also privately archived",
+    "source_urls": [
+      "https://indd.adobe.com/view/publication/5fef56e4-668b-4fad-83a4-87c6de2241f5/9hb5/publication-web-resources/pdf/2027OutsideCatering.pdf"
+    ]
+  },
+  {
+    "id": "6da7d4e9b162706d1aee2358",
+    "venue": "Palm Event Center",
+    "field": "service_package_max",
+    "value": 116,
+    "conditions": "Published2027outside-catering brochure pp6/10, price table visually checked:116/adult service/bar package EXCLUDES catered food. Only cuisine not specialized in; venue approval required.1500outside-caterer fee waived for listed caterers.25%operations applies to service and in-house food/beverage, plus sales tax. Public source: https://indd.adobe.com/view/publication/5fef56e4-668b-4fad-83a4-87c6de2241f5/9hb5/publication-web-resources/pdf/2027OutsideCatering.pdf",
+    "checked_utc": "2026-11-08T17:11:11.433358+00:00",
+    "source_kind": "public_operator_document",
+    "original": "Public brochure; exact bytes also privately archived",
+    "source_urls": [
+      "https://indd.adobe.com/view/publication/5fef56e4-668b-4fad-83a4-87c6de2241f5/9hb5/publication-web-resources/pdf/2027OutsideCatering.pdf"
+    ]
+  },
+  {
+    "id": "0ce637b854e47727f8ce035f",
+    "venue": "Grand Salon",
+    "field": "fee_min",
+    "value": 1800,
+    "conditions": "Published2027brochure pp3/13; five-hour reception package,4.5hour bar; ceremony and other charges separate. Pricing varies by weekday/season and adult count; holidays higher. Public source: https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf",
+    "checked_utc": "2026-11-08T17:11:11.441401+00:00",
+    "source_kind": "public_operator_document",
+    "original": "Public brochure; exact bytes also privately archived",
+    "source_urls": [
+      "https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf"
+    ]
+  },
+  {
+    "id": "d7a125c221926e10699dbe42",
+    "venue": "Grand Salon",
+    "field": "fee_max",
+    "value": 5300,
+    "conditions": "Published2027brochure pp3/13; five-hour reception package,4.5hour bar; ceremony and other charges separate. Pricing varies by weekday/season and adult count; holidays higher. Public source: https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf",
+    "checked_utc": "2026-11-08T17:11:11.448963+00:00",
+    "source_kind": "public_operator_document",
+    "original": "Public brochure; exact bytes also privately archived",
+    "source_urls": [
+      "https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf"
+    ]
+  },
+  {
+    "id": "34cd83e52cbcce28ab7af784",
+    "venue": "Grand Salon",
+    "field": "package_min",
+    "value": 126,
+    "conditions": "Published2027brochure pp3/13; five-hour reception package,4.5hour bar; ceremony and other charges separate. Pricing varies by weekday/season and adult count; holidays higher. Public source: https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf",
+    "checked_utc": "2026-11-08T17:11:11.458102+00:00",
+    "source_kind": "public_operator_document",
+    "original": "Public brochure; exact bytes also privately archived",
+    "source_urls": [
+      "https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf"
+    ]
+  },
+  {
+    "id": "99aa1b78711e5d78ce5b7d3a",
+    "venue": "Grand Salon",
+    "field": "package_max",
+    "value": 166,
+    "conditions": "Published2027brochure pp3/13; five-hour reception package,4.5hour bar; ceremony and other charges separate. Pricing varies by weekday/season and adult count; holidays higher. Public source: https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf",
+    "checked_utc": "2026-11-08T17:11:11.466097+00:00",
+    "source_kind": "public_operator_document",
+    "original": "Public brochure; exact bytes also privately archived",
+    "source_urls": [
+      "https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf"
+    ]
+  },
+  {
+    "id": "aa63c8ca74efc629f71a3cce",
+    "venue": "Grand Salon",
+    "field": "ceremony_fee",
+    "value": 1500,
+    "conditions": "Published2027brochure pp3/13; five-hour reception package,4.5hour bar; ceremony and other charges separate. Pricing varies by weekday/season and adult count; holidays higher. Public source: https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf",
+    "checked_utc": "2026-11-08T17:11:11.474207+00:00",
+    "source_kind": "public_operator_document",
+    "original": "Public brochure; exact bytes also privately archived",
+    "source_urls": [
+      "https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf"
+    ]
+  },
+  {
+    "id": "f7f471b65f60bd59ae021bf1",
+    "venue": "Grand Salon",
+    "field": "rental_hours",
+    "value": 5,
+    "conditions": "Published2027brochure pp3/13; five-hour reception package,4.5hour bar; ceremony and other charges separate. Pricing varies by weekday/season and adult count; holidays higher. Public source: https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf",
+    "checked_utc": "2026-11-08T17:11:11.480254+00:00",
+    "source_kind": "public_operator_document",
+    "original": "Public brochure; exact bytes also privately archived",
+    "source_urls": [
+      "https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf"
+    ]
+  },
+  {
+    "id": "ad72d785fe7d88efa40619e0",
+    "venue": "Grand Salon",
+    "field": "bar_hours",
+    "value": 4.5,
+    "conditions": "Published2027brochure pp3/13; five-hour reception package,4.5hour bar; ceremony and other charges separate. Pricing varies by weekday/season and adult count; holidays higher. Public source: https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf",
+    "checked_utc": "2026-11-08T17:11:11.488345+00:00",
+    "source_kind": "public_operator_document",
+    "original": "Public brochure; exact bytes also privately archived",
+    "source_urls": [
+      "https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf"
+    ]
+  },
+  {
+    "id": "dee42b93eea69e481d680b70",
+    "venue": "Grand Salon",
+    "field": "service_pct",
+    "value": 25,
+    "conditions": "Published2027brochure pp3/13; five-hour reception package,4.5hour bar; ceremony and other charges separate. Pricing varies by weekday/season and adult count; holidays higher. Public source: https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf",
+    "checked_utc": "2026-11-08T17:11:11.497425+00:00",
+    "source_kind": "public_operator_document",
+    "original": "Public brochure; exact bytes also privately archived",
+    "source_urls": [
+      "https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf"
+    ]
+  },
+  {
+    "id": "86598f3f4bc363317a185ee8",
+    "venue": "Grand Salon",
+    "field": "outside_catering",
+    "value": "conditional",
+    "conditions": "Published2027outside-catering brochure pp6/10, price table visually checked:116/adult service/bar package EXCLUDES catered food. Only cuisine not specialized in; venue approval required.1500outside-caterer fee waived for listed caterers.25%operations applies to service and in-house food/beverage, plus sales tax. Public source: https://indd.adobe.com/view/publication/5fef56e4-668b-4fad-83a4-87c6de2241f5/9hb5/publication-web-resources/pdf/2027OutsideCatering.pdf",
+    "checked_utc": "2026-11-08T17:11:11.521224+00:00",
+    "source_kind": "public_operator_document",
+    "original": "Public brochure; exact bytes also privately archived",
+    "source_urls": [
+      "https://indd.adobe.com/view/publication/5fef56e4-668b-4fad-83a4-87c6de2241f5/9hb5/publication-web-resources/pdf/2027OutsideCatering.pdf"
+    ]
+  },
+  {
+    "id": "eef7b5ea3cef28636c16554b",
+    "venue": "Grand Salon",
+    "field": "service_package_min",
+    "value": 116,
+    "conditions": "Published2027outside-catering brochure pp6/10, price table visually checked:116/adult service/bar package EXCLUDES catered food. Only cuisine not specialized in; venue approval required.1500outside-caterer fee waived for listed caterers.25%operations applies to service and in-house food/beverage, plus sales tax. Public source: https://indd.adobe.com/view/publication/5fef56e4-668b-4fad-83a4-87c6de2241f5/9hb5/publication-web-resources/pdf/2027OutsideCatering.pdf",
+    "checked_utc": "2026-11-08T17:11:11.529790+00:00",
+    "source_kind": "public_operator_document",
+    "original": "Public brochure; exact bytes also privately archived",
+    "source_urls": [
+      "https://indd.adobe.com/view/publication/5fef56e4-668b-4fad-83a4-87c6de2241f5/9hb5/publication-web-resources/pdf/2027OutsideCatering.pdf"
+    ]
+  },
+  {
+    "id": "ceab93b0a0703376feea3452",
+    "venue": "Grand Salon",
+    "field": "service_package_max",
+    "value": 116,
+    "conditions": "Published2027outside-catering brochure pp6/10, price table visually checked:116/adult service/bar package EXCLUDES catered food. Only cuisine not specialized in; venue approval required.1500outside-caterer fee waived for listed caterers.25%operations applies to service and in-house food/beverage, plus sales tax. Public source: https://indd.adobe.com/view/publication/5fef56e4-668b-4fad-83a4-87c6de2241f5/9hb5/publication-web-resources/pdf/2027OutsideCatering.pdf",
+    "checked_utc": "2026-11-08T17:11:11.537766+00:00",
+    "source_kind": "public_operator_document",
+    "original": "Public brochure; exact bytes also privately archived",
+    "source_urls": [
+      "https://indd.adobe.com/view/publication/5fef56e4-668b-4fad-83a4-87c6de2241f5/9hb5/publication-web-resources/pdf/2027OutsideCatering.pdf"
+    ]
+  },
+  {
+    "id": "4d30b392632af49e8eb72501",
+    "venue": "Palm Event Center",
+    "field": "capacity_max",
+    "value": 320,
+    "conditions": "2027brochure p11: Palm Ballroom320reception capacity; not certified seated dinner/dance. Public source: https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf",
+    "checked_utc": "2026-11-08T17:11:11.545330+00:00",
+    "source_kind": "public_operator_document",
+    "original": "Public brochure; exact bytes also privately archived",
+    "source_urls": [
+      "https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf"
+    ]
+  },
+  {
+    "id": "68e73d1a01113f33472c0c55",
+    "venue": "Amber Room",
+    "field": "capacity_ceremony",
+    "value": 306,
+    "conditions": "2027brochure pp6–7: named ceremony layout, never reception/dinner capacity. Public source: https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf",
+    "checked_utc": "2026-11-08T17:11:11.553857+00:00",
+    "source_kind": "public_operator_document",
+    "original": "Public brochure; exact bytes also privately archived",
+    "source_urls": [
+      "https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf"
+    ]
+  },
+  {
+    "id": "ef9803a8bf1544d225481d9a",
+    "venue": "Sun Garden",
+    "field": "capacity_ceremony",
+    "value": 400,
+    "conditions": "2027brochure pp6–7: named ceremony layout, never reception/dinner capacity. Public source: https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf",
+    "checked_utc": "2026-11-08T17:11:11.561426+00:00",
+    "source_kind": "public_operator_document",
+    "original": "Public brochure; exact bytes also privately archived",
+    "source_urls": [
+      "https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf"
+    ]
+  },
+  {
+    "id": "51b534a7a61024ba19b7350c",
+    "venue": "Palm Event Center",
+    "field": "tables_included",
+    "value": "conditional",
+    "conditions": "Tables/chairs are included in selected2027reception packages; not a claim of free equipment with every rental mode. Public source: https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf",
+    "checked_utc": "2026-11-08T17:17:29.899696+00:00",
+    "source_kind": "public_operator_document",
+    "original": "Public brochure; exact bytes also privately archived",
+    "source_urls": [
+      "https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf"
+    ]
+  },
+  {
+    "id": "d0995eed18e6f78ceecc2070",
+    "venue": "Palm Event Center",
+    "field": "chairs_included",
+    "value": "conditional",
+    "conditions": "Tables/chairs are included in selected2027reception packages; not a claim of free equipment with every rental mode. Public source: https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf",
+    "checked_utc": "2026-11-08T17:17:29.907272+00:00",
+    "source_kind": "public_operator_document",
+    "original": "Public brochure; exact bytes also privately archived",
+    "source_urls": [
+      "https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf"
+    ]
+  },
+  {
+    "id": "98cc93b4bc66c447d6137d13",
+    "venue": "Grand Salon",
+    "field": "tables_included",
+    "value": "conditional",
+    "conditions": "Tables/chairs are included in selected2027reception packages; not a claim of free equipment with every rental mode. Public source: https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf",
+    "checked_utc": "2026-11-08T17:17:29.913307+00:00",
+    "source_kind": "public_operator_document",
+    "original": "Public brochure; exact bytes also privately archived",
+    "source_urls": [
+      "https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf"
+    ]
+  },
+  {
+    "id": "3dbb34f0f961203bfa4c786b",
+    "venue": "Grand Salon",
+    "field": "chairs_included",
+    "value": "conditional",
+    "conditions": "Tables/chairs are included in selected2027reception packages; not a claim of free equipment with every rental mode. Public source: https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf",
+    "checked_utc": "2026-11-08T17:17:29.920867+00:00",
+    "source_kind": "public_operator_document",
+    "original": "Public brochure; exact bytes also privately archived",
+    "source_urls": [
+      "https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf"
+    ]
+  }
+]
