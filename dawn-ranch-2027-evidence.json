@@ -1,0 +1,162 @@
+{
+  "id": "dawn-2027-brochure-20261110",
+  "source_kind": "public_operator_document",
+  "source_url": "https://www.flipsnack.com/E78D698C5A8/2027-dawn-ranch-weddings",
+  "checked_utc": "2026-11-10T17:17:26.086820+00:00",
+  "effective_year": 2027,
+  "pages_saved": 53,
+  "reviewed_sections": "All53 pages overview; package7–13 and capacity30 read individually at full resolution. Remaining pages primarily photos, sample menus, accommodations and amenities.",
+  "packages": [
+    {
+      "key": "exclusive-wedding-weekend",
+      "record_id": "dawn-ranch-exclusive-wedding-weekend-package-sonoma",
+      "page": 7,
+      "guest_limit": 350,
+      "venue_fee_min": 25000,
+      "venue_fee_max": 30000,
+      "fee_conditions": "April $25,000; May–October $30,000",
+      "fb_minimum_by_day": {
+        "Friday": 185,
+        "Saturday": 365
+      },
+      "combined_fb_comparison_per_guest": 550,
+      "late_night_fb_per_guest": 20,
+      "required_lodging_units": 86,
+      "minimum_nights": null,
+      "notes": "Friday4PM check-in/Sunday11AM checkout shown; exact minimum nights/rate/room liability require written quote. Lodge and spa remain public unless separately bought out. Ceremony seating included only up to200; extra rentals/tenting can be required. Combined $550 vs components $570 with late-night remains unclear."
+    },
+    {
+      "key": "orchard-wedding-weekend",
+      "record_id": "dawn-ranch-orchard-wedding-weekend-package-sonoma",
+      "page": 8,
+      "guest_limit": 150,
+      "venue_fee_min": 20000,
+      "venue_fee_max": 20000,
+      "fb_minimum_by_day": {
+        "Friday_or_Sunday": 145,
+        "Saturday": 345
+      },
+      "combined_fb_comparison_per_guest": 490,
+      "required_lodging_units": 40,
+      "minimum_nights": 2,
+      "late_night_required_units": 67,
+      "late_night_fee": 2500,
+      "late_night_fb_per_guest": 20,
+      "late_night_event_window": "22:00–24:00 in Lodge; music and cleanup clocks not separately confirmed",
+      "notes": "Room rates extra; do not add40+67 automatically. Optional Thursday event has extra site fee."
+    },
+    {
+      "key": "weekday-wedding",
+      "record_id": "dawn-ranch-weekday-wedding-package-sonoma",
+      "page": 11,
+      "guest_limit": null,
+      "recommended_guest_count": 200,
+      "venue_fee_min": 8000,
+      "venue_fee_max": 10000,
+      "fee_conditions": "Sunday–Thursday; June–October $10,000; April/May/November $8,000",
+      "fb_reception_per_guest": 330,
+      "required_lodging_units": null,
+      "required_lodging_alternatives": [
+        12,
+        15
+      ],
+      "minimum_nights": 2,
+      "late_night_required_units": 67,
+      "late_night_fee": 2500,
+      "late_night_fb_per_guest": 20,
+      "late_night_event_window": "22:00–24:00 in Lodge; music and cleanup clocks not separately confirmed",
+      "notes": "Page11 says12 rooms (list names only11), comparison13 says15. Hold numeric room obligation unresolved. Main event16:00–22:00; recommendation200 is not verified legal/layout maximum."
+    },
+    {
+      "key": "signature-winter-wedding",
+      "record_id": "dawn-ranch-winter-wedding-package-sonoma",
+      "page": 9,
+      "guest_limit": 90,
+      "venue_fee_min": 15000,
+      "venue_fee_max": 25000,
+      "fee_conditions": "November–April; Sunday–Thursday $15,000; Friday/Saturday $25,000",
+      "fb_reception_per_guest": 345,
+      "required_lodging_units": 38,
+      "minimum_nights": 2,
+      "late_night_required_units": 67,
+      "late_night_event_window": "22:00–24:00 in Lodge; add-on price not separately listed here",
+      "notes": "38 required units =2spa+1Olive+13Sycamore+14Meadow+8Redwood; composition calls8 Redwood cabins on9 but chalets on13. 90-person package vs tent80 banquet table on30 needs layout confirmation. Insured planner90days ahead; event16:00–22:00."
+    },
+    {
+      "key": "micro-wedding",
+      "record_id": "dawn-ranch-micro-wedding-package-sonoma",
+      "page": 12,
+      "guest_limit": 50,
+      "venue_fee_min": 5000,
+      "venue_fee_max": 5000,
+      "fb_reception_per_guest": 330,
+      "required_lodging_units": 3,
+      "minimum_nights": 2,
+      "late_night_fee": 2000,
+      "late_night_fb_per_guest": 20,
+      "late_night_event_window": "Boathouse21:00–23:00 or22:00–24:00; bar package plus food minimum; max50; all Poolside units required",
+      "notes": "April–October. Main ceremony/dinner16:00–20:00, bonfire option to22:00. No dancing add-on. BaseOlive+2Spa;13Sycamore cabins if using tent;4Poolside cottages for bonfire. Late-night bar fee unknown; bonfire unavailable during late-night."
+    },
+    {
+      "key": "micro-winter-wedding",
+      "record_id": null,
+      "page": 10,
+      "guest_limit": 48,
+      "venue_fee_min": 9000,
+      "venue_fee_max": 9000,
+      "optional_tent_ceremony_fee": 2000,
+      "fb_reception_per_guest": 330,
+      "required_lodging_units": 2,
+      "minimum_nights": 2,
+      "notes": "November–April; Lodge16:00–22:00. Insured planner90days ahead. Add13Sycamore cabins if tent used. Newly distinguished package; no existing stable row yet; not merged into50-person summer micro package."
+    }
+  ],
+  "all_packages": {
+    "service_pct": 24,
+    "service_base": "Food and beverage; tax additional, rate/base not established",
+    "planner": "Insured full-service wedding planner; no in-house planning",
+    "lodging_in_venue_fee": false,
+    "room_rates": "Vary by date/availability; not published",
+    "tax_room_attrition_cleanup_music_limits": "Unknown—inquire",
+    "weather": "April/May/October tent contingency required; additional cost; indoor spaces cannot relocate a large outdoor group"
+  },
+  "contradictions": [
+    {
+      "pages": [
+        7,
+        13,
+        17
+      ],
+      "issue": "$550 combined food/beverage minimum vs185+365+20 late-night components"
+    },
+    {
+      "pages": [
+        11,
+        13
+      ],
+      "issue": "Weekday room minimum12 vs15; listed9glamping+2spa only11"
+    },
+    {
+      "pages": [
+        9,
+        30
+      ],
+      "issue": "Winter package90 guests vs tent80 banquet capacity; dinner/dance layout unresolved"
+    },
+    {
+      "pages": [
+        30
+      ],
+      "issue": "Center Orchard max220 but banquet250/cocktail350; wedding reception220; do not force a single maximum"
+    },
+    {
+      "pages": [
+        7,
+        30
+      ],
+      "issue": "Exclusive wedding package350; Meadow generic1500/banquet300/ceremony500/reception800 are different uses, not wedding package approval"
+    }
+  ],
+  "complete_all_in_cost": null,
+  "original_assets_published": false
+}

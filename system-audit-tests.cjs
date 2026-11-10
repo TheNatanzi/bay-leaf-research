@@ -1,8 +1,8 @@
 const fs=require('fs'),path=require('path'),assert=require('assert/strict'),vm=require('vm'),E=require('./normalized-engine.js');
 const d=require('./research.json'),a=require('./system-audit.json'),e=E.create(d),v=id=>d.venues.find(x=>x.id===id),val=(id,key)=>e.value(v(id),key);
-assert.equal(d.venues.length,2344);assert.equal(Object.keys(d.normalized.properties).length,1002);
+assert(d.venues.length>=2344,'Historical audit records must remain after later census additions');assert(Object.keys(d.normalized.properties).length>=1002,'Historical property groups must remain');
 assert.equal(a.unique_properties,6);assert.equal(a.added_record_ids.length,10);assert.equal(a.changes.length,97);
-assert.deepEqual(d.venues.slice(2334).map(x=>x.id),a.added_record_ids);
+assert.deepEqual(d.venues.slice(2334,2344).map(x=>x.id),a.added_record_ids);
 for(const x of a.changes){assert.equal(val(x.record_id,x.field),x.value);assert(x.source_url.startsWith('https://'));}
 const sc='san-carlos-adult-community-center-san-carlos-san-mateo',combo='san-carlos-adult-community-center-parkview-patio-room-combo-san-carlos-san-mateo';
 assert.equal(val(sc,'capacity_dinner_dance'),120);assert.equal(val(combo,'fee_min'),1102);assert.equal(val(combo,'fee_max'),1322);assert.equal(val(combo,'cleaning_fee'),325);assert.equal(val(combo,'security_hourly'),72);
