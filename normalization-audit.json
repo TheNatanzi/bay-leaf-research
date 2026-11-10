@@ -1,5 +1,5 @@
 {
-  "normalized_utc": "2026-11-10T20:43:54.486033+00:00",
+  "normalized_utc": "2026-11-10T22:58:54.089407+00:00",
   "record_count": 2388,
   "property_group_count": 1046,
   "identity_review_candidates": 85,
@@ -32,7 +32,7 @@
     "service_pct": 116,
     "tax_pct": 12,
     "rental_hours": 41,
-    "minimum_rental_hours": 81,
+    "minimum_rental_hours": 82,
     "bar_hours": 2,
     "hourly_fee": 39,
     "overtime_hourly": 6,
@@ -114,7 +114,7 @@
     "lodging_payer": 1
   },
   "status_counts": {
-    "published_evidence": 6999,
+    "published_evidence": 7000,
     "needs_confirmation": 12862,
     "searched_no_public_answer": 3612,
     "conflicting": 236

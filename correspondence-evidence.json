@@ -705,5 +705,25 @@
     "checked_utc": "2026-11-10T20:43:25.679980+00:00",
     "source_kind": "operator_correspondence",
     "original": "Privately archived; not publicly shared"
+  },
+  {
+    "id": "c1b62db60e4d7d2bd8903dfb",
+    "venue": "Assembly Hall",
+    "field": "hourly_fee",
+    "value": 114,
+    "conditions": "Assembly Hall114/hour; buildingmonitor included; refundabledeposit separate and dependsfood/alcohol. Setup/cleanup time29/hourif rentalover4hours; renterdoesownsetup/takedown/cleaning.",
+    "checked_utc": "2026-11-10T22:58:51.918996+00:00",
+    "source_kind": "operator_correspondence",
+    "original": "Privately archived; not publicly shared"
+  },
+  {
+    "id": "c1a5eeb0fc5444e0f46eda50",
+    "venue": "Assembly Hall",
+    "field": "minimum_rental_hours",
+    "value": 2,
+    "conditions": "Assembly Hall has2hourminimum. Wedding receptions considered subjectavailability, eventpermit and Cityrentalrequirements. No date-specific approval or completecost established.",
+    "checked_utc": "2026-11-10T22:58:51.925513+00:00",
+    "source_kind": "operator_correspondence",
+    "original": "Privately archived; not publicly shared"
   }
 ]

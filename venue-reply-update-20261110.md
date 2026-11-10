@@ -5,4 +5,6 @@
 - **Late nights:** Dawn’s included Lodge dancing ends at midnight, with approximately 150 guests recommended using the patio. Waterbar dinner events stop at 11 PM; lunch at 3 PM. Waterbar allows one hour after the 11 PM event end to remove decor and sound equipment, through midnight for the full-buyout scenario. That is cleanup time, not a midnight party.
 - **Waterbar fees:** newly received packet lists 7% ordinance surcharge, alongside 22% service and 8.625% tax on the total. The operator confirmed 7% is current and may change next year. Full buyout has a **$65,000 food/beverage minimum before fees**, potentially higher during conference weeks. The 22% service charge contains 17% gratuity + 5% admin; these are not extra charges. No complete all-in total is available.
 
+- **Dixon Senior / Multi-Use Center:** staff says wedding receptions may be rented, subject to City requirements. Assembly Hall is $114/hour with a two-hour minimum. Activities/music end at 10 PM weekdays or midnight weekends; exact weekend days and cleanup need confirmation. Staff says $1 million insurance, while the linked packet says $2 million; clarification requested.
+
 [Detailed Dawn Ranch breakdown](dawn-ranch-2027-evidence.md) · [Reviewed general source facts](correspondence-evidence.html). Original correspondence and attachments remain private.
