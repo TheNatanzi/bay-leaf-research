@@ -303,7 +303,7 @@
     "venue": "Amber Room",
     "field": "capacity_ceremony",
     "value": 306,
-    "conditions": "2027brochure pp6–7: named ceremony layout, never reception/dinner capacity. Public source: https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf",
+    "conditions": "2027brochure pp6\u20137: named ceremony layout, never reception/dinner capacity. Public source: https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf",
     "checked_utc": "2026-11-08T17:11:11.553857+00:00",
     "source_kind": "public_operator_document",
     "original": "Public brochure; exact bytes also privately archived",
@@ -316,7 +316,7 @@
     "venue": "Sun Garden",
     "field": "capacity_ceremony",
     "value": 400,
-    "conditions": "2027brochure pp6–7: named ceremony layout, never reception/dinner capacity. Public source: https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf",
+    "conditions": "2027brochure pp6\u20137: named ceremony layout, never reception/dinner capacity. Public source: https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf",
     "checked_utc": "2026-11-08T17:11:11.561426+00:00",
     "source_kind": "public_operator_document",
     "original": "Public brochure; exact bytes also privately archived",
@@ -375,5 +375,315 @@
     "source_urls": [
       "https://indd.adobe.com/view/publication/f1e82c41-8386-48d0-8b10-e1124eeb325c/mdw3/publication-web-resources/pdf/2027WeddingPricing.pdf"
     ]
+  },
+  {
+    "id": "043a70f0c500597f461d16f2",
+    "venue": "Weekday Wedding package",
+    "field": "required_lodging_units",
+    "value": 12,
+    "conditions": "2027 Weekday package: operator corrected comparison chart to12 rooms for2nights. Guests may pay directly, but host owes any unbooked required rooms for both nights and initial first-night deposit. Deposit may offset other event bills or be refunded after event; exact allocation/rates unquoted.",
+    "checked_utc": "2026-11-10T19:49:22.970071+00:00",
+    "source_kind": "operator_correspondence",
+    "original": "Privately archived; not publicly shared"
+  },
+  {
+    "id": "4b255a2c948e0edc474190cc",
+    "venue": "Weekday Wedding package",
+    "field": "lodging_min_nights",
+    "value": 2,
+    "conditions": "2027 Weekday package: operator corrected comparison chart to12 rooms for2nights. Guests may pay directly, but host owes any unbooked required rooms for both nights and initial first-night deposit. Deposit may offset other event bills or be refunded after event; exact allocation/rates unquoted.",
+    "checked_utc": "2026-11-10T19:49:22.978136+00:00",
+    "source_kind": "operator_correspondence",
+    "original": "Privately archived; not publicly shared"
+  },
+  {
+    "id": "a8e34e8682b076eb7f21fe2b",
+    "venue": "Weekday Wedding package",
+    "field": "required_lodging_unit_nights",
+    "value": 24,
+    "conditions": "2027 Weekday package: operator corrected comparison chart to12 rooms for2nights. Guests may pay directly, but host owes any unbooked required rooms for both nights and initial first-night deposit. Deposit may offset other event bills or be refunded after event; exact allocation/rates unquoted.",
+    "checked_utc": "2026-11-10T19:49:22.985688+00:00",
+    "source_kind": "operator_correspondence",
+    "original": "Privately archived; not publicly shared"
+  },
+  {
+    "id": "1ce8d99c855999815fc1f1e2",
+    "venue": "Weekday Wedding package",
+    "field": "lodging_payer",
+    "value": "conditional",
+    "conditions": "2027 Weekday package: operator corrected comparison chart to12 rooms for2nights. Guests may pay directly, but host owes any unbooked required rooms for both nights and initial first-night deposit. Deposit may offset other event bills or be refunded after event; exact allocation/rates unquoted.",
+    "checked_utc": "2026-11-10T19:49:22.992206+00:00",
+    "source_kind": "operator_correspondence",
+    "original": "Privately archived; not publicly shared"
+  },
+  {
+    "id": "3829a4c0c1202e08bfd7bb02",
+    "venue": "Exclusive Wedding Weekend package",
+    "field": "required_lodging_units",
+    "value": 86,
+    "conditions": "2027 Exclusive Weekend:86accommodations for2nights, extra to venue fee. F&B minimum550/person =Friday185+Saturday345+late-night20;24%F&Bservice and tax additional. Included Lodge dancing22:00\u201324:00; recommended about150 with patio, not an approved330-guest indoor after-party. Room rates, tax bases and other event-specific charges unquoted.",
+    "checked_utc": "2026-11-10T19:49:22.998284+00:00",
+    "source_kind": "operator_correspondence",
+    "original": "Privately archived; not publicly shared"
+  },
+  {
+    "id": "5fc0731471968eada2ee4fd0",
+    "venue": "Exclusive Wedding Weekend package",
+    "field": "lodging_min_nights",
+    "value": 2,
+    "conditions": "2027 Exclusive Weekend:86accommodations for2nights, extra to venue fee. F&B minimum550/person =Friday185+Saturday345+late-night20;24%F&Bservice and tax additional. Included Lodge dancing22:00\u201324:00; recommended about150 with patio, not an approved330-guest indoor after-party. Room rates, tax bases and other event-specific charges unquoted.",
+    "checked_utc": "2026-11-10T19:49:23.006324+00:00",
+    "source_kind": "operator_correspondence",
+    "original": "Privately archived; not publicly shared"
+  },
+  {
+    "id": "329149382b24e306109aaf3e",
+    "venue": "Exclusive Wedding Weekend package",
+    "field": "required_lodging_unit_nights",
+    "value": 172,
+    "conditions": "2027 Exclusive Weekend:86accommodations for2nights, extra to venue fee. F&B minimum550/person =Friday185+Saturday345+late-night20;24%F&Bservice and tax additional. Included Lodge dancing22:00\u201324:00; recommended about150 with patio, not an approved330-guest indoor after-party. Room rates, tax bases and other event-specific charges unquoted.",
+    "checked_utc": "2026-11-10T19:49:23.012879+00:00",
+    "source_kind": "operator_correspondence",
+    "original": "Privately archived; not publicly shared"
+  },
+  {
+    "id": "9a06ba9ea872ee44dc801aef",
+    "venue": "Exclusive Wedding Weekend package",
+    "field": "package_min",
+    "value": 550,
+    "conditions": "2027 Exclusive Weekend:86accommodations for2nights, extra to venue fee. F&B minimum550/person =Friday185+Saturday345+late-night20;24%F&Bservice and tax additional. Included Lodge dancing22:00\u201324:00; recommended about150 with patio, not an approved330-guest indoor after-party. Room rates, tax bases and other event-specific charges unquoted.",
+    "checked_utc": "2026-11-10T19:49:23.025949+00:00",
+    "source_kind": "operator_correspondence",
+    "original": "Privately archived; not publicly shared"
+  },
+  {
+    "id": "d8d1c5933245d6134cb20c46",
+    "venue": "Exclusive Wedding Weekend package",
+    "field": "package_max",
+    "value": 550,
+    "conditions": "2027 Exclusive Weekend:86accommodations for2nights, extra to venue fee. F&B minimum550/person =Friday185+Saturday345+late-night20;24%F&Bservice and tax additional. Included Lodge dancing22:00\u201324:00; recommended about150 with patio, not an approved330-guest indoor after-party. Room rates, tax bases and other event-specific charges unquoted.",
+    "checked_utc": "2026-11-10T19:49:23.032987+00:00",
+    "source_kind": "operator_correspondence",
+    "original": "Privately archived; not publicly shared"
+  },
+  {
+    "id": "3ed39d2580dd3ca03269248d",
+    "venue": "Exclusive Wedding Weekend package",
+    "field": "service_pct",
+    "value": 24,
+    "conditions": "2027 Exclusive Weekend:86accommodations for2nights, extra to venue fee. F&B minimum550/person =Friday185+Saturday345+late-night20;24%F&Bservice and tax additional. Included Lodge dancing22:00\u201324:00; recommended about150 with patio, not an approved330-guest indoor after-party. Room rates, tax bases and other event-specific charges unquoted.",
+    "checked_utc": "2026-11-10T19:49:23.040016+00:00",
+    "source_kind": "operator_correspondence",
+    "original": "Privately archived; not publicly shared"
+  },
+  {
+    "id": "4a6c48cf52edfd58d138ba83",
+    "venue": "Exclusive Wedding Weekend package",
+    "field": "lodging_tax_pct",
+    "value": 14.195,
+    "conditions": "2027 Exclusive Weekend:86accommodations for2nights, extra to venue fee. F&B minimum550/person =Friday185+Saturday345+late-night20;24%F&Bservice and tax additional. Included Lodge dancing22:00\u201324:00; recommended about150 with patio, not an approved330-guest indoor after-party. Room rates, tax bases and other event-specific charges unquoted.",
+    "checked_utc": "2026-11-10T19:49:23.046558+00:00",
+    "source_kind": "operator_correspondence",
+    "original": "Privately archived; not publicly shared"
+  },
+  {
+    "id": "4c48792ae7fb71d2eb9de2be",
+    "venue": "Exclusive Wedding Weekend package",
+    "field": "event_end",
+    "value": 1440,
+    "conditions": "2027 Exclusive Weekend:86accommodations for2nights, extra to venue fee. F&B minimum550/person =Friday185+Saturday345+late-night20;24%F&Bservice and tax additional. Included Lodge dancing22:00\u201324:00; recommended about150 with patio, not an approved330-guest indoor after-party. Room rates, tax bases and other event-specific charges unquoted.",
+    "checked_utc": "2026-11-10T19:49:23.053638+00:00",
+    "source_kind": "operator_correspondence",
+    "original": "Privately archived; not publicly shared"
+  },
+  {
+    "id": "1a85ae5bd884740b3eb8a218",
+    "venue": "Bridge Tower Room",
+    "field": "service_pct",
+    "value": 22,
+    "conditions": "Private Dining packet receivedNovember10:22%F&Bservice plus7%ordinance surcharge onF&B,8.625%taxontotal; current event quote required. Wedding-event fee500. Fourhourreservation;500peradditional30minutes orfraction onlyifapproved. Not all-in price.",
+    "checked_utc": "2026-11-10T19:49:23.097399+00:00",
+    "source_kind": "operator_correspondence",
+    "original": "Privately archived; not publicly shared"
+  },
+  {
+    "id": "9f25a9fcec3974756ef69ee3",
+    "venue": "Bridge Tower Room",
+    "field": "tax_pct",
+    "value": 8.625,
+    "conditions": "Private Dining packet receivedNovember10:22%F&Bservice plus7%ordinance surcharge onF&B,8.625%taxontotal; current event quote required. Wedding-event fee500. Fourhourreservation;500peradditional30minutes orfraction onlyifapproved. Not all-in price.",
+    "checked_utc": "2026-11-10T19:49:23.105444+00:00",
+    "source_kind": "operator_correspondence",
+    "original": "Privately archived; not publicly shared"
+  },
+  {
+    "id": "ac14c870e5ee346c3341e42b",
+    "venue": "Bridge Tower Room",
+    "field": "rental_hours",
+    "value": 4,
+    "conditions": "Private Dining packet receivedNovember10:22%F&Bservice plus7%ordinance surcharge onF&B,8.625%taxontotal; current event quote required. Wedding-event fee500. Fourhourreservation;500peradditional30minutes orfraction onlyifapproved. Not all-in price.",
+    "checked_utc": "2026-11-10T19:49:23.113049+00:00",
+    "source_kind": "operator_correspondence",
+    "original": "Privately archived; not publicly shared"
+  },
+  {
+    "id": "3233b6994d3370c836829643",
+    "venue": "Bridge Tower Room",
+    "field": "fixed_mandatory",
+    "value": 500,
+    "conditions": "Private Dining packet receivedNovember10:22%F&Bservice plus7%ordinance surcharge onF&B,8.625%taxontotal; current event quote required. Wedding-event fee500. Fourhourreservation;500peradditional30minutes orfraction onlyifapproved. Not all-in price.",
+    "checked_utc": "2026-11-10T19:49:23.120082+00:00",
+    "source_kind": "operator_correspondence",
+    "original": "Privately archived; not publicly shared"
+  },
+  {
+    "id": "47a4217bd5fa6732a3a04a22",
+    "venue": "Bridge Tower Room",
+    "field": "event_end",
+    "value": 1380,
+    "conditions": "Operator confirms dinner hardstop23:00; lunch15:00. Event-end clock only; music, guest exit and vendor cleanup not separately established. Exact date/room minimum unquoted.",
+    "checked_utc": "2026-11-10T19:49:23.126597+00:00",
+    "source_kind": "operator_correspondence",
+    "original": "Privately archived; not publicly shared"
+  },
+  {
+    "id": "468c38051cdba46ddbf7f814",
+    "venue": "Looking Glass",
+    "field": "service_pct",
+    "value": 22,
+    "conditions": "Private Dining packet receivedNovember10:22%F&Bservice plus7%ordinance surcharge onF&B,8.625%taxontotal; current event quote required. Wedding-event fee500. Fourhourreservation;500peradditional30minutes orfraction onlyifapproved. Not all-in price.",
+    "checked_utc": "2026-11-10T19:49:23.133287+00:00",
+    "source_kind": "operator_correspondence",
+    "original": "Privately archived; not publicly shared"
+  },
+  {
+    "id": "2b1be8ff0d2bd6179f448d86",
+    "venue": "Looking Glass",
+    "field": "tax_pct",
+    "value": 8.625,
+    "conditions": "Private Dining packet receivedNovember10:22%F&Bservice plus7%ordinance surcharge onF&B,8.625%taxontotal; current event quote required. Wedding-event fee500. Fourhourreservation;500peradditional30minutes orfraction onlyifapproved. Not all-in price.",
+    "checked_utc": "2026-11-10T19:49:23.141387+00:00",
+    "source_kind": "operator_correspondence",
+    "original": "Privately archived; not publicly shared"
+  },
+  {
+    "id": "1add36de33be308fb2a17f61",
+    "venue": "Looking Glass",
+    "field": "rental_hours",
+    "value": 4,
+    "conditions": "Private Dining packet receivedNovember10:22%F&Bservice plus7%ordinance surcharge onF&B,8.625%taxontotal; current event quote required. Wedding-event fee500. Fourhourreservation;500peradditional30minutes orfraction onlyifapproved. Not all-in price.",
+    "checked_utc": "2026-11-10T19:49:23.147898+00:00",
+    "source_kind": "operator_correspondence",
+    "original": "Privately archived; not publicly shared"
+  },
+  {
+    "id": "b137233d0e8f312a7a8397d3",
+    "venue": "Looking Glass",
+    "field": "fixed_mandatory",
+    "value": 500,
+    "conditions": "Private Dining packet receivedNovember10:22%F&Bservice plus7%ordinance surcharge onF&B,8.625%taxontotal; current event quote required. Wedding-event fee500. Fourhourreservation;500peradditional30minutes orfraction onlyifapproved. Not all-in price.",
+    "checked_utc": "2026-11-10T19:49:23.154477+00:00",
+    "source_kind": "operator_correspondence",
+    "original": "Privately archived; not publicly shared"
+  },
+  {
+    "id": "e93d267d960c03f2944d393d",
+    "venue": "Looking Glass",
+    "field": "event_end",
+    "value": 1380,
+    "conditions": "Operator confirms dinner hardstop23:00; lunch15:00. Event-end clock only; music, guest exit and vendor cleanup not separately established. Exact date/room minimum unquoted.",
+    "checked_utc": "2026-11-10T19:49:23.162040+00:00",
+    "source_kind": "operator_correspondence",
+    "original": "Privately archived; not publicly shared"
+  },
+  {
+    "id": "ae8dee18a6bbd4e685b49274",
+    "venue": "Waterbar full buyout",
+    "field": "service_pct",
+    "value": 22,
+    "conditions": "Private Dining packet receivedNovember10:22%F&Bservice plus7%ordinance surcharge onF&B,8.625%taxontotal; current event quote required. Wedding-event fee500. Fourhourreservation;500peradditional30minutes orfraction onlyifapproved. Not all-in price.",
+    "checked_utc": "2026-11-10T19:49:23.168604+00:00",
+    "source_kind": "operator_correspondence",
+    "original": "Privately archived; not publicly shared"
+  },
+  {
+    "id": "738cbecc33c9554e79bd653e",
+    "venue": "Waterbar full buyout",
+    "field": "tax_pct",
+    "value": 8.625,
+    "conditions": "Private Dining packet receivedNovember10:22%F&Bservice plus7%ordinance surcharge onF&B,8.625%taxontotal; current event quote required. Wedding-event fee500. Fourhourreservation;500peradditional30minutes orfraction onlyifapproved. Not all-in price.",
+    "checked_utc": "2026-11-10T19:49:23.176168+00:00",
+    "source_kind": "operator_correspondence",
+    "original": "Privately archived; not publicly shared"
+  },
+  {
+    "id": "1fa35e300655dc9486a8acfa",
+    "venue": "Waterbar full buyout",
+    "field": "rental_hours",
+    "value": 4,
+    "conditions": "Private Dining packet receivedNovember10:22%F&Bservice plus7%ordinance surcharge onF&B,8.625%taxontotal; current event quote required. Wedding-event fee500. Fourhourreservation;500peradditional30minutes orfraction onlyifapproved. Not all-in price.",
+    "checked_utc": "2026-11-10T19:49:23.183198+00:00",
+    "source_kind": "operator_correspondence",
+    "original": "Privately archived; not publicly shared"
+  },
+  {
+    "id": "9f5c257b783fe4c36945c748",
+    "venue": "Waterbar full buyout",
+    "field": "fixed_mandatory",
+    "value": 500,
+    "conditions": "Private Dining packet receivedNovember10:22%F&Bservice plus7%ordinance surcharge onF&B,8.625%taxontotal; current event quote required. Wedding-event fee500. Fourhourreservation;500peradditional30minutes orfraction onlyifapproved. Not all-in price.",
+    "checked_utc": "2026-11-10T19:49:23.190758+00:00",
+    "source_kind": "operator_correspondence",
+    "original": "Privately archived; not publicly shared"
+  },
+  {
+    "id": "759b6549bb1f442237af395d",
+    "venue": "Waterbar full buyout",
+    "field": "event_end",
+    "value": 1380,
+    "conditions": "Operator confirms dinner hardstop23:00; lunch15:00. Event-end clock only; music, guest exit and vendor cleanup not separately established. Exact date/room minimum unquoted.",
+    "checked_utc": "2026-11-10T19:49:23.197324+00:00",
+    "source_kind": "operator_correspondence",
+    "original": "Privately archived; not publicly shared"
+  },
+  {
+    "id": "9819e0b4b89b9b614c5cbeaa",
+    "venue": "Bridge Tower Room",
+    "field": "capacity_seated",
+    "value": 60,
+    "conditions": "Packet pages4\u20135: roundtable seated and standing reception are separate layouts; no dinner+dance capacity established.",
+    "checked_utc": "2026-11-10T19:49:23.204954+00:00",
+    "source_kind": "operator_correspondence",
+    "original": "Privately archived; not publicly shared"
+  },
+  {
+    "id": "981481c6baf6188540b65121",
+    "venue": "Bridge Tower Room",
+    "field": "capacity_standing",
+    "value": 75,
+    "conditions": "Packet pages4\u20135: roundtable seated and standing reception are separate layouts; no dinner+dance capacity established.",
+    "checked_utc": "2026-11-10T19:49:23.211525+00:00",
+    "source_kind": "operator_correspondence",
+    "original": "Privately archived; not publicly shared"
+  },
+  {
+    "id": "2bab9bc1da05d2692a07d41c",
+    "venue": "Looking Glass",
+    "field": "capacity_seated",
+    "value": 27,
+    "conditions": "Packet pages4\u20135: roundtable seated and standing reception are separate layouts; no dinner+dance capacity established.",
+    "checked_utc": "2026-11-10T19:49:23.219565+00:00",
+    "source_kind": "operator_correspondence",
+    "original": "Privately archived; not publicly shared"
+  },
+  {
+    "id": "684863441920fd82402534e4",
+    "venue": "Looking Glass",
+    "field": "capacity_standing",
+    "value": 50,
+    "conditions": "Packet pages4\u20135: roundtable seated and standing reception are separate layouts; no dinner+dance capacity established.",
+    "checked_utc": "2026-11-10T19:49:23.225602+00:00",
+    "source_kind": "operator_correspondence",
+    "original": "Privately archived; not publicly shared"
   }
 ]

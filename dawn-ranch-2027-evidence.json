@@ -17,13 +17,14 @@
       "fee_conditions": "April $25,000; May–October $30,000",
       "fb_minimum_by_day": {
         "Friday": 185,
-        "Saturday": 365
+        "Saturday": 345
       },
       "combined_fb_comparison_per_guest": 550,
       "late_night_fb_per_guest": 20,
       "required_lodging_units": 86,
-      "minimum_nights": null,
-      "notes": "Friday4PM check-in/Sunday11AM checkout shown; exact minimum nights/rate/room liability require written quote. Lodge and spa remain public unless separately bought out. Ceremony seating included only up to200; extra rentals/tenting can be required. Combined $550 vs components $570 with late-night remains unclear."
+      "minimum_nights": 2,
+      "notes": "Friday4PM check-in/Sunday11AM checkout shown; exact minimum nights/rate/room liability require written quote. Lodge and spa remain public unless separately bought out. Ceremony seating included only up to200; extra rentals/tenting can be required. Combined $550 vs components $570 with late-night remains unclear. OperatorcorrectedSaturdayF&Bto345;550includes20late-night.",
+      "combined_fb_confirmed_per_guest": 550
     },
     {
       "key": "orchard-wedding-weekend",
@@ -55,7 +56,7 @@
       "venue_fee_max": 10000,
       "fee_conditions": "Sunday–Thursday; June–October $10,000; April/May/November $8,000",
       "fb_reception_per_guest": 330,
-      "required_lodging_units": null,
+      "required_lodging_units": 12,
       "required_lodging_alternatives": [
         12,
         15
@@ -65,7 +66,11 @@
       "late_night_fee": 2500,
       "late_night_fb_per_guest": 20,
       "late_night_event_window": "22:00–24:00 in Lodge; music and cleanup clocks not separately confirmed",
-      "notes": "Page11 says12 rooms (list names only11), comparison13 says15. Hold numeric room obligation unresolved. Main event16:00–22:00; recommendation200 is not verified legal/layout maximum."
+      "notes": "Page11 says12 rooms (list names only11), comparison13 says15. Hold numeric room obligation unresolved. Main event16:00–22:00; recommendation200 is not verified legal/layout maximum. Operator subsequently confirmed12;15chartfigureincorrect. Hostliableforunbookedrequiredrooms andinitialfirstnightdeposit; guestdirectpaymentallowed.",
+      "required_lodging_alternatives_historical": [
+        12,
+        15
+      ]
     },
     {
       "key": "signature-winter-wedding",
@@ -127,14 +132,16 @@
         13,
         17
       ],
-      "issue": "$550 combined food/beverage minimum vs185+365+20 late-night components"
+      "issue": "$550 combined food/beverage minimum vs185+365+20 late-night components",
+      "resolution": "Operator clarified November10; original brochure alternatives retained historically."
     },
     {
       "pages": [
         11,
         13
       ],
-      "issue": "Weekday room minimum12 vs15; listed9glamping+2spa only11"
+      "issue": "Weekday room minimum12 vs15; listed9glamping+2spa only11",
+      "resolution": "Operator clarified November10; original brochure alternatives retained historically."
     },
     {
       "pages": [
@@ -158,5 +165,29 @@
     }
   ],
   "complete_all_in_cost": null,
-  "original_assets_published": false
+  "original_assets_published": false,
+  "operator_clarification_checked_utc": "2026-11-10T19:49:22.967558+00:00",
+  "clarifications": {
+    "weekday_rooms": 12,
+    "weekday_nights": 2,
+    "weekday_guest_direct_payments": true,
+    "weekday_host_unbooked_room_liability": true,
+    "weekday_initial_first_night_deposit": true,
+    "exclusive_units": 86,
+    "exclusive_nights": 2,
+    "exclusive_fb_per_guest": 550,
+    "exclusive_fb_components": {
+      "Friday": 185,
+      "Saturday": 345,
+      "late_night": 20
+    },
+    "lodging_resort_fee_pct": 10,
+    "lodging_occupancy_tax_pct": 14.195,
+    "community_fee_per_room_night": 1,
+    "lodge_late_night_recommended_guests_including_patio": 150,
+    "lodge_dancing_window": "22:00–24:00 forExclusive; otherextensionssubjectpackage/approval",
+    "complete_all_in_cost": null,
+    "tax_bases_room_prices": "Unknown—inquire",
+    "source": "Reviewed operator correspondence; original privately archived"
+  }
 }
