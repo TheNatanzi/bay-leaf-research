@@ -1,5 +1,5 @@
 {
-  "normalized_utc": "2026-11-10T19:50:15.275748+00:00",
+  "normalized_utc": "2026-11-10T20:43:54.486033+00:00",
   "record_count": 2388,
   "property_group_count": 1046,
   "identity_review_candidates": 85,
@@ -28,7 +28,7 @@
     "bar_max": 0,
     "package_min": 57,
     "package_max": 55,
-    "fb_minimum": 4,
+    "fb_minimum": 5,
     "service_pct": 116,
     "tax_pct": 12,
     "rental_hours": 41,
@@ -43,7 +43,7 @@
     "bar_end": 37,
     "event_end": 56,
     "guest_departure": 16,
-    "cleanup_end": 91,
+    "cleanup_end": 92,
     "load_in": 0,
     "parking_spaces": 23,
     "lodging_rooms": 2,
@@ -114,7 +114,7 @@
     "lodging_payer": 1
   },
   "status_counts": {
-    "published_evidence": 6997,
+    "published_evidence": 6999,
     "needs_confirmation": 12862,
     "searched_no_public_answer": 3612,
     "conflicting": 236

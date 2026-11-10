@@ -685,5 +685,25 @@
     "checked_utc": "2026-11-10T19:49:23.225602+00:00",
     "source_kind": "operator_correspondence",
     "original": "Privately archived; not publicly shared"
+  },
+  {
+    "id": "9c9dd22aae208582ae92da87",
+    "venue": "Waterbar full buyout",
+    "field": "fb_minimum",
+    "value": 65000,
+    "conditions": "Operator states lowest full-restaurant buyout food/beverage minimum65000; actual date and conference weeks can be higher. Add22%service(17%gratuity+5%admin),7%ordinance surcharge and tax. This is a spend minimum, not an all-in quote.",
+    "checked_utc": "2026-11-10T20:43:25.672393+00:00",
+    "source_kind": "operator_correspondence",
+    "original": "Privately archived; not publicly shared"
+  },
+  {
+    "id": "3ed15378ff7b1f3dffb7de20",
+    "venue": "Waterbar full buyout",
+    "field": "cleanup_end",
+    "value": 1440,
+    "conditions": "Dinner event ends23:00; operator allows onehour of strike to remove decor and sound equipment. Thus vendor strike deadline24:00 for this full-buyout scenario, not midnight guest festivities or music permission.",
+    "checked_utc": "2026-11-10T20:43:25.679980+00:00",
+    "source_kind": "operator_correspondence",
+    "original": "Privately archived; not publicly shared"
   }
 ]
