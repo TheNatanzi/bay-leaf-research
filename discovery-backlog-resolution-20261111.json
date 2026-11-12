@@ -1,6 +1,6 @@
 {
   "audit_id": "discovery-backlog-20261111",
-  "updated_utc": "2026-11-12T05:22:18.739596+00:00",
+  "updated_utc": "2026-11-12T05:47:50.045581+00:00",
   "original_pending_candidates": 500,
   "reviewed_dispositions_applied": [
     {
@@ -3752,9 +3752,830 @@
         "https://www.sonomacounty.com/weddings/wedding-venues/newtree-ranch/": false,
         "https://newtreeranch.com": false
       }
+    },
+    {
+      "candidate_id": "directory-lead-f1ba34599d4d62",
+      "original_pending_index": 304,
+      "checked_utc": "2026-11-12T05:32:11.910844+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "seb-chamber-union-hotel-occidental-sonoma"
+      ],
+      "source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/occidental-union-hotel-restaurant/"
+      ],
+      "candidate_capture_sha256": "340bda0bb6f43dd035b172dbd9bb011e08b0ea6b5983e3c44b33fda03c167927",
+      "operator_capture_sha256": "340bda0bb6f43dd035b172dbd9bb011e08b0ea6b5983e3c44b33fda03c167927",
+      "reason": "Same named Union Hotel restaurant and 3731 Main Street Occidental property as the baseline chamber lead. Not Union Hotel Benicia or another town. Current primary homepage also advertises wedding receptions in its title; identity clearance does not review full event contracts."
+    },
+    {
+      "candidate_id": "directory-lead-6cd7422ae273c0",
+      "original_pending_index": 316,
+      "checked_utc": "2026-11-12T05:32:11.910844+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "santa-rosa-golf-and-country-club-sonoma"
+      ],
+      "source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/santa-rosa-golf-country-club/",
+        "https://www.clubcorp.com/Clubs/Santa-Rosa-Golf-Country-Club"
+      ],
+      "candidate_capture_sha256": "c40f865182738d65208bf721417672ed07ce7c1ae42292858ec1ddb6c95b4576",
+      "operator_capture_sha256": "0abde5f0850e3ce72f67cb8a7f8eee56303ab72b5efd4ad89aaef5fe9c674075",
+      "reason": "Same existing Santa Rosa golf property. Distinct from Petaluma Golf & Country Club and the Santa Rosa-named room at Walnut Creek Marriott. Current Invited primary identity reviewed; individual room and event terms remain incomplete."
+    },
+    {
+      "candidate_id": "directory-lead-0732bacd7e8176",
+      "original_pending_index": 318,
+      "checked_utc": "2026-11-12T05:32:11.910844+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "sebastopol-center-for-the-arts-veterans-memorial-building-brent-auditorium-sonoma",
+        "sebastopol-center-for-the-arts-veterans-memorial-building-little-red-hen-dining-room-sonoma",
+        "sebastopol-center-for-the-arts-veterans-memorial-building-fireside-room-sonoma",
+        "sebastopol-center-for-the-arts-veterans-memorial-building-ron-and-bev-judd-patio-sonoma",
+        "sebastopol-center-for-the-arts-veterans-memorial-building-package-1-brent-auditorium-full-day-sonoma",
+        "sebastopol-center-for-the-arts-veterans-memorial-building-package-2-dining-room-and-patio-sonoma",
+        "sebastopol-center-for-the-arts-veterans-memorial-building-package-3-auditorium-dining-room-and-patio-sonoma"
+      ],
+      "source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/sebastopol-veterans-memorial-building-sebastopol-center-for-the-arts/"
+      ],
+      "candidate_capture_sha256": "a9413f955f0987503f7d936462419810306e8a1e03bf7193496b4e7b42454a3f",
+      "operator_capture_sha256": "a9413f955f0987503f7d936462419810306e8a1e03bf7193496b4e7b42454a3f",
+      "reason": "Same 282 High Street Sebastopol Veterans Memorial Building / Sebastopol Center for the Arts parent already represented by seven room/package records. Do not create an eighth parent duplicate or sum overlapping package capacities. Old primary rental route failed; that is not evidence of closure."
+    },
+    {
+      "candidate_id": "directory-lead-e115f1eeda7e8e",
+      "original_pending_index": 326,
+      "checked_utc": "2026-11-12T05:32:11.910844+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "seb-chamber-sova-gardens-sonoma"
+      ],
+      "source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/sova-gardens/"
+      ],
+      "candidate_capture_sha256": "f46ae44702f6730c9565ccec7cb8436406017c1deef7c405ccfb301a0da9ee45",
+      "operator_capture_sha256": "f46ae44702f6730c9565ccec7cb8436406017c1deef7c405ccfb301a0da9ee45",
+      "reason": "Same Sova Gardens property at 5186 South Gravenstein Highway as baseline chamber record. Regional wedding offer read; current primary terms/permission and physical entrance remain unverified."
+    },
+    {
+      "candidate_id": "directory-lead-ca5b1879e32fe2",
+      "original_pending_index": 331,
+      "checked_utc": "2026-11-12T05:32:11.910844+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "the-barn-at-harrow-cellars-sonoma"
+      ],
+      "source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/the-barn-at-harrow-cellars/",
+        "https://thebarnatharrowcellars.com/"
+      ],
+      "candidate_capture_sha256": "ec9033a7b7a86dcced826c560f6929bb13f89893d4bb9158ce047ce69ae6ccf7",
+      "operator_capture_sha256": "53d1eb276ae2df7ec862efcce078519d06671550844baf587712bdc14dd329d0",
+      "reason": "Same existing Harrow Cellars wedding property, distinct from Indian Springs Calistoga Barn or another generic barn. Current operator describes three spaces and exclusive in-house catering; current fees/layout/contract still need review."
+    },
+    {
+      "candidate_id": "directory-lead-10d849499e6605",
+      "original_pending_index": 338,
+      "checked_utc": "2026-11-12T05:32:11.910844+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "the-lodge-at-bodega-bay-sonoma"
+      ],
+      "source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/the-lodge-at-bodega-bay/",
+        "https://www.lodgeatbodegabay.com"
+      ],
+      "candidate_capture_sha256": "ea17f0266a337ae2720cfe1f21d74ac87dfbb9e9205864c3c5e9a7b9bf0d88f8",
+      "operator_capture_sha256": "df4dff5f4d296de2b2ac26e07ba761e67821d3cdd0f390fcb0795fa3ad132435",
+      "reason": "Same existing Lodge at Bodega Bay property, corroborated by regional 103 Highway 1 address. Not Inn at the Tides or Sonoma Coast Villa. Current primary hotel identity checked; directory package marketing does not establish complete current wedding charges."
+    },
+    {
+      "candidate_id": "directory-lead-3e2fb6c3b8e75a",
+      "original_pending_index": 305,
+      "checked_utc": "2026-11-12T05:32:11.910844+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "olympia-s-valley-sonoma"
+      ],
+      "source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/olympias-valley-estate/",
+        "https://www.olympiasvalley.com",
+        "https://www.herecomestheguide.com/wedding-venues/northern-california/olympias-valley"
+      ],
+      "candidate_capture_sha256": "aaa810c8c2156481d016f62c4f36c54b275576fafe0c7835c3f1328ae797bcb4",
+      "operator_capture_sha256": "adc5d50e3622b1728b2e95b486382913fcac51ab95c4518a6530632e37fb4056",
+      "reason": "Same Olympia's Valley property at1051WalkerRoad, confirmed by existing HCTG source and exact olympiasvalley.com operator. Estate suffix and broken imported apostrophe caused missed name suggestion. Owned new duplicate merged into stable baseline canonical ID; all existing facts and new operator evidence retained. Current event terms remain incomplete.",
+      "correction_history": [
+        {
+          "corrected_utc": "2026-11-12T05:33:27.876690+00:00",
+          "previous_state": "reviewed_added",
+          "previous_record_ids": [
+            "olympias-valley-estate-petaluma-sonoma"
+          ],
+          "reason": "Same Olympia's Valley property at1051WalkerRoad, confirmed by existing HCTG source and exact olympiasvalley.com operator. Estate suffix and broken imported apostrophe caused missed name suggestion. Owned new duplicate merged into stable baseline canonical ID; all existing facts and new operator evidence retained. Current event terms remain incomplete."
+        }
+      ],
+      "alias_cross_source_sha256": "137a4eae1049873779d32c6fd22de5c0aa1c21a6b374cd7d010a5319ea08874e"
+    },
+    {
+      "candidate_id": "directory-lead-d31fda9cf2e81f",
+      "original_pending_index": 306,
+      "checked_utc": "2026-11-12T05:32:11.910844+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "paradise-ridge-winery-santa-rosa-sonoma"
+      ],
+      "source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/paradise-ridge-winery/",
+        "https://prwinery.com/"
+      ],
+      "candidate_capture_sha256": "5433f7ec6f0ee449bd3bdd29d9836253d16a0a07fb6cf0f065edaff74b012364",
+      "operator_capture_sha256": "c3f367fe59196901c923ca67d41a10122328cd74aacdd6fe88087bec38ef3050",
+      "reason": "Current primary wedding offering matches regional 4555 Thomas Lake Harris Drive. Up to 250 is generic event capacity, not an approved dinner plus dancing layout; all-in charges, weather backup and room scopes remain to review."
+    },
+    {
+      "candidate_id": "directory-lead-19fdffa142183c",
+      "original_pending_index": 308,
+      "checked_utc": "2026-11-12T05:32:11.910844+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "pellegrini-olivet-lane-santa-rosa-sonoma"
+      ],
+      "source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/pellegrini-olivet-lane/"
+      ],
+      "candidate_capture_sha256": "e4152dc80a1194bf8c9d9bc5f576afddec4776148f4a0cfc22a7b1e52f9df4cc",
+      "operator_capture_sha256": "e4152dc80a1194bf8c9d9bc5f576afddec4776148f4a0cfc22a7b1e52f9df4cc",
+      "reason": "Regional wedding offer and named street address actually read. Old Milestone operator route is HTTP error, not closure. Directory capacities 100 seated-meal versus 300 combined-seated/standing have distinct scopes and remain unresolved; outside-catering directory amenity is not a current issued permission."
+    },
+    {
+      "candidate_id": "directory-lead-7d4d331c52d436",
+      "original_pending_index": 309,
+      "checked_utc": "2026-11-12T05:32:11.910844+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "petaluma-golf-country-club-sonoma"
+      ],
+      "source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/petaluma-golf-country-club/",
+        "https://www.petalumagolfandcountryclub.com/event-facilities/weddings"
+      ],
+      "candidate_capture_sha256": "36c32b0188be02b0147d684f09612e2a6cfbeb7f9cd67a0d7fd57a78a2674bfa",
+      "operator_capture_sha256": "a09dbc8f8db49f0d56b2a3634afd2fa70d68ce0e6c42f5c109e6eaf00820f4f1",
+      "reason": "Current primary dedicated wedding page and homepage 1500 Country Club Drive establish a separate Petaluma venue, not Santa Rosa Golf & Country Club. Pricing/contract/availability expressly require inquiry. No package amount, dinner+dance capacity or membership eligibility invented."
+    },
+    {
+      "candidate_id": "directory-lead-11583c240bada8",
+      "original_pending_index": 311,
+      "checked_utc": "2026-11-12T05:32:11.910844+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "rooster-run-golf-club-petaluma-sonoma"
+      ],
+      "source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/rooster-run-golf-club/",
+        "https://roosterrun.com/weddings/"
+      ],
+      "candidate_capture_sha256": "d977c19787c2551a38227c1c4309bcf99ffd9b4f1666f9d40f3b0cd0a73981af",
+      "operator_capture_sha256": "430cb7b0522bddd1457a7ae6a0290dcd0f93e9358a4a9bbac2dff0791c3ceb8b",
+      "reason": "Primary wedding package is advertised, 2301 East Washington Street. Up to 220 combined banquet/patio is not a dinner+dance layout. Page says updated packages/menu coming soon while listing 1000 up to100 and1500 for100–150 facility component plus150+ table setup. Effective year unknown and not all-in; retain current-price uncertainty. Rehearsal/golf perks do not imply date availability."
+    },
+    {
+      "candidate_id": "directory-lead-98cf25f4cf5405",
+      "original_pending_index": 314,
+      "checked_utc": "2026-11-12T05:32:11.910844+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "running-rabbit-ranch-vineyard-santa-rosa-sonoma"
+      ],
+      "source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/running-rabbit-ranch-and-vineyard/",
+        "https://www.runningrabbitranchandvineyard.com"
+      ],
+      "candidate_capture_sha256": "0be1716dd6425c1c2419f2e53942c450252cbb5a9d148e5caa44682ef0506645",
+      "operator_capture_sha256": "6dbff89e267fb9d60f0a02821e081c028f97ecd2aac395ddc23ed9325aea4212",
+      "reason": "Actual primary ranch wedding/private-event offer remains on page alongside unrelated book promotion. Regional 281 Somerville Road identifies property. Barn, gazebo, forest/lawn and bar/patio are separate spaces without verified approved layouts or fees; public website is not issued permission."
+    },
+    {
+      "candidate_id": "directory-lead-cbb8df54e7ce15",
+      "original_pending_index": 317,
+      "checked_utc": "2026-11-12T05:32:11.910844+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "sebastiani-vineyards-winery-sonoma"
+      ],
+      "source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/sebastiani-vineyards-winery/",
+        "https://www.sebastiani.com/"
+      ],
+      "candidate_capture_sha256": "79149a58391bb8f1556af236f668139874f2082521f4381832b70a0c8f825edb",
+      "operator_capture_sha256": "1288a525bca5b7c6014a5a45e7801bfc9ff736de1a509d5c9ec0862dd90adf92",
+      "reason": "Current primary explicitly offers weddings/private events, matching regional 389 Fourth Street East. Not another Sebastiani brand tasting room or generic Sonoma historic winery. Barrel room, terraces and other spaces require separate layout/current pricing review."
+    },
+    {
+      "candidate_id": "directory-lead-697e701a786efc",
+      "original_pending_index": 319,
+      "checked_utc": "2026-11-12T05:32:11.910844+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "seven-branches-venue-inn-sonoma"
+      ],
+      "source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/seven-branches-venue-and-inn/",
+        "https://sevenbranchesvenueandinn.com/"
+      ],
+      "candidate_capture_sha256": "520da2c01837224340c0bb9b1d24c5e203344e8a7cc5be1e65388da2a6a65956",
+      "operator_capture_sha256": "f656d49a5baae106d17c77745389402f20603d56fae67253c96d385c2c5240e7",
+      "reason": "Current Seven Branches operator wedding/inn offer matches regional 450 West Spain Street. Directory body still calls the property Ramekins Culinary School & Inn: retain as earlier alias, not a second physical venue. Buyout/lodging minimums, fees and dinner+dance layouts not yet verified."
+    },
+    {
+      "candidate_id": "directory-lead-014eb55b5eb4ef",
+      "original_pending_index": 320,
+      "checked_utc": "2026-11-12T05:32:11.910844+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "sheraton-sonoma-wine-country-petaluma-sonoma"
+      ],
+      "source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/sheraton-sonoma-wine-country/"
+      ],
+      "candidate_capture_sha256": "67c9eca073f6cd1a52f580ef0bcf41d3ec3a23c2380fdf65dd74759b7ecb99a1",
+      "operator_capture_sha256": "67c9eca073f6cd1a52f580ef0bcf41d3ec3a23c2380fdf65dd74759b7ecb99a1",
+      "reason": "Actual named regional hotel event profile read. Distinct from Hyatt Regency Sonoma Wine Country in Santa Rosa. Published operator route unavailable at robots check; current primary wedding terms unverified. Directory Great Blue Heron banquet capacity is not an all-layout approval or current wedding quote."
+    },
+    {
+      "candidate_id": "directory-lead-fe5e8d5998d15b",
+      "original_pending_index": 321,
+      "checked_utc": "2026-11-12T05:32:11.910844+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "simi-winery-healdsburg-sonoma"
+      ],
+      "source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/simi-winery/"
+      ],
+      "candidate_capture_sha256": "b98966ae93900c75b54fe40744d97f7ce94a03158de4d85591aa0cdf3f212b91",
+      "operator_capture_sha256": "b98966ae93900c75b54fe40744d97f7ce94a03158de4d85591aa0cdf3f212b91",
+      "reason": "Regional named wedding offer is retained as an unverified current lead, not proof presently bookable. Current brand homepage lacks event offer; old contact route now HTTP error. Search-indexed former primary says tasting room closed but private events continued; later brand/property changes mean live event operator/status unresolved. Do not infer entire venue closed from tasting-room closure."
+    },
+    {
+      "candidate_id": "directory-lead-b06608051284fd",
+      "original_pending_index": 322,
+      "checked_utc": "2026-11-12T05:32:11.910844+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "singlethread-restaurant-inn-healdsburg-sonoma"
+      ],
+      "source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/singlethread-farm-restaurant-inn/",
+        "https://singlethreadfarms.com/private-events-2/"
+      ],
+      "candidate_capture_sha256": "c1a02ca8ba26f6c34dfe348bb90f7cf7c9545d13dd1d22b0f8408cf5a484fd0d",
+      "operator_capture_sha256": "384f887c71dfb3976a40dd09a6a20113a9eff8de4141fd71393a64e78d844c33",
+      "reason": "Actual primary restaurant-property buyout/rehearsal/corporate/private dining offer, 131 North Street on linked homepage. Separate production farm and off-site activations are not automatically rentable wedding properties. North Wing 10–16 semi-private, 10 single table/11–16 adjacent tables; five rooms are lodging not event occupancy. Restaurant buyout wedding permission and fees unknown. Linked 2025 event PDF queued for actual document review."
+    },
+    {
+      "candidate_id": "directory-lead-4cf3c88c9a6af9",
+      "original_pending_index": 323,
+      "checked_utc": "2026-11-12T05:32:11.910844+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "soda-rock-winery-healdsburg-sonoma"
+      ],
+      "source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/soda-rock-winery/"
+      ],
+      "candidate_capture_sha256": "a5197dfbea439b31492cb4240d143774ed101b0e412df150acf2a9bd69081c34",
+      "operator_capture_sha256": "a5197dfbea439b31492cb4240d143774ed101b0e412df150acf2a9bd69081c34",
+      "reason": "Regional wedding/private event offer and barn property address read. Primary now distinguishes Alexander Valley Barn from Downtown Healdsburg tasting site; no permission/capacity transferred between them. Current wedding contract and reconstruction-era changes unknown. Regional75 capacities not silently converted to dinner+dance."
+    },
+    {
+      "candidate_id": "directory-lead-4e87acc547bc4b",
+      "original_pending_index": 324,
+      "checked_utc": "2026-11-12T05:32:11.910844+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "songbird-parlour-glen-ellen-sonoma"
+      ],
+      "source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/songbird-parlour/",
+        "https://www.songbirdparlour.com/"
+      ],
+      "candidate_capture_sha256": "0e7fbc82833c7a3b229fce19a258931e186d8360376ab34693cb4666bea5f552",
+      "operator_capture_sha256": "0ee6774f833a7aa907e93d95450e81916e8bea8f62d2095a3a67931a93989162",
+      "reason": "Actual primary wedding/custom-event offer. Primary 23–46 dining buyout differs from tourism50 seated/85reception; preserve scope/version conflict, not choose largest.105/person group menu has minimum requirements and is not all-in wedding cost. Ordinary5–9PM dining hours are not wedding cutoff. Regional14301ArnoldDriveSuite3 identifies property."
+    },
+    {
+      "candidate_id": "directory-lead-57babb33006c4b",
+      "original_pending_index": 325,
+      "checked_utc": "2026-11-12T05:32:11.910844+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "sonoma-coast-villa-bodega-sonoma"
+      ],
+      "source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/sonoma-coast-villa/",
+        "https://www.scvilla.com/"
+      ],
+      "candidate_capture_sha256": "c643fe2f48d1d10303bcc3d04d82ec742ffabac79e8a66fa64e15d579c66aed6",
+      "operator_capture_sha256": "0f15ce54f020d78d00e896133bc2de0f8560d0e98d549a15bc3b505b5a2059d9",
+      "reason": "Current primary property wedding offer and16702ShorelineHighway address match regionalHighway1. Five event spaces include BoardRoom20 private dining and CourtyardLawn over200generic; do not sum or infer dinner+dance. Room-specific air-conditioning differences matter for lodging, not event occupancy. Fees/mandatory lodging/clocks unknown."
+    },
+    {
+      "candidate_id": "directory-lead-c771171568b2f6",
+      "original_pending_index": 327,
+      "checked_utc": "2026-11-12T05:32:11.910844+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "st-francis-winery-vineyards-santa-rosa-sonoma"
+      ],
+      "source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/st-francis-winery-vineyards/",
+        "https://www.stfranciswinery.com"
+      ],
+      "candidate_capture_sha256": "5b4d304a2b7d2824b5c17fd8c4efaace458d2306b238d752da1bfaec27cf1080",
+      "operator_capture_sha256": "6ccc3ffa87b397e84351a394824565bb50b5174607f79e6e4c2c655efe6a96a4",
+      "reason": "Actual primary wedding/private-event offer and regional100PythianRoad identify one winery property. Regional200guest claim is not dinner+dance or an issued permit. Current catering, alcohol, timing and package conditions still require source review."
+    },
+    {
+      "candidate_id": "directory-lead-0d75231d10ac34",
+      "original_pending_index": 328,
+      "checked_utc": "2026-11-12T05:32:11.910844+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "st-philip-apostle-church-hall-occidental-sonoma"
+      ],
+      "source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/st-philip-catholic-church/",
+        "https://www.stphilipstteresa.org/hall-rental.html"
+      ],
+      "candidate_capture_sha256": "12ba534216ece4df3e0f9f04fcac2f6637c46cae0555c1ef72397adf5b3581fe",
+      "operator_capture_sha256": "c76d9384cd6c7339eaa4cff11fffdd3c8d16bd5a27394c6a10d41be3d29a4d1b",
+      "reason": "Actual parish hall offering restricts eligibility to outside nonprofits/active registered parishioners, with Catholic event and religious-use conditions; no general public commercial rental assumed. Main hall and adjacent rooms125seated/250standing, not dinner+dance. Thirty-hour access includes setup/event/cleanup, not a clock cutoff. Kitchen staging included; cooking50/hour plus200cleaningdeposit conditional. Alcohol requires special permission. Listed1300hall+540supervisor+95insurance=1935 plus750refundabledeposit=2685due; supervisor line says30hours at12.50/hour which would375, a contradiction requiring clarification. No all-in cost inferred. Separate StTeresa church address/permissions not transferred."
+    },
+    {
+      "candidate_id": "directory-lead-2b55441b80d131",
+      "original_pending_index": 330,
+      "checked_utc": "2026-11-12T05:32:11.910844+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "sugarloaf-wine-co-santa-rosa-sonoma"
+      ],
+      "source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/sugarloaf-wine-co/",
+        "https://www.sugarloafwineco.com/private-events/"
+      ],
+      "candidate_capture_sha256": "f3b379392d2c207b75692a3fb870c70ac405383fa84ad729b3b3d9017a92e9a3",
+      "operator_capture_sha256": "0024b953eb13e81db48a5b02f6d84e37487609864e203976415027db01144cf6",
+      "reason": "Current primary private/corporate-event offer,6705CristoLane. Primary page does not explicitly confirm weddings, though regional profile does. Regional120 seated plus dance versus152salon/250–300wholeproperty are separate scopes, not summed. Outside catering welcome with current vendor/licensing conditions still unknown."
+    },
+    {
+      "candidate_id": "directory-lead-2f34ccde6dbed7",
+      "original_pending_index": 332,
+      "checked_utc": "2026-11-12T05:32:11.910844+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "bridal-path-carriage-occasions-santa-rosa-sonoma"
+      ],
+      "source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/the-bridal-path-carriage-occasions/"
+      ],
+      "candidate_capture_sha256": "b03cd13b5df4fd3ed832bbf59db08f4696fa901f62f94cebe41f3e006441bd16",
+      "operator_capture_sha256": "b03cd13b5df4fd3ed832bbf59db08f4696fa901f62f94cebe41f3e006441bd16",
+      "reason": "Regional named facility/wedding offer and public business street address read. Published operator website HTTP error is an unresolved current-operating-status gap, not closure. Carriage service identity alone is not a second physical venue. Capacity/prices/current permissions unknown."
+    },
+    {
+      "candidate_id": "directory-lead-9efd1731180b8b",
+      "original_pending_index": 333,
+      "checked_utc": "2026-11-12T05:32:11.910844+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "gables-wine-country-inn-santa-rosa-sonoma"
+      ],
+      "source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/the-gables-wine-country-inn/"
+      ],
+      "candidate_capture_sha256": "e0d27cff19bed2f626c3a0a8bb50901a2cca8eaa78f64c2d4d861f230fb7ea19",
+      "operator_capture_sha256": "e0d27cff19bed2f626c3a0a8bb50901a2cca8eaa78f64c2d4d861f230fb7ea19",
+      "reason": "Actual regional wedding package offer, up to120generic guests and two-night lodging package read. Actual primary homepage corroborates4257PetalumaHillRoad/8-roominn, not package cost. Included lodging does not prove universal mandatory buyout. Cottage/barn/grounds scope preserved; current primary contract and all-in charges unknown."
+    },
+    {
+      "candidate_id": "directory-lead-5f99c8f87ec27a",
+      "original_pending_index": 335,
+      "checked_utc": "2026-11-12T05:32:11.910844+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "inn-at-the-tides-bodega-bay-sonoma"
+      ],
+      "source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/the-inn-at-the-tides/"
+      ],
+      "candidate_capture_sha256": "ce7294cd3f8bc3c4893b0a856fb565fd3256e7e566f3ab54d33047066511527e",
+      "operator_capture_sha256": "ce7294cd3f8bc3c4893b0a856fb565fd3256e7e566f3ab54d33047066511527e",
+      "reason": "Regional named hotel event/meeting/wedding amenity read; actual primary operating hotel at BodegaBay corroborated. Not Lodge at BodegaBay or separate Links/YachtClub sites. Six meeting rooms/1800largest/5000total squarefeet are floor areas, not occupancy. Rooms/restaurant hours not event deadlines; current wedding terms unknown."
+    },
+    {
+      "candidate_id": "directory-lead-f19ccdc88d6c46",
+      "original_pending_index": 336,
+      "checked_utc": "2026-11-12T05:32:11.910844+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "jack-london-lodge-glen-ellen-sonoma"
+      ],
+      "source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/the-jack-london-lodge/"
+      ],
+      "candidate_capture_sha256": "091bbf49d7e8eac1ec9ebc890cc7daa7df53400da2613366686bf3dc1c217c4c",
+      "operator_capture_sha256": "091bbf49d7e8eac1ec9ebc890cc7daa7df53400da2613366686bf3dc1c217c4c",
+      "reason": "Regional named lodge wedding offer and address read. Not JackLondonStateHistoricPark or OaklandJackLondonAquaticCenter. Primary website disallowed automated archival route, so operator verification remains unresolved.22rooms not event capacity; lawn/patio/saloon packages still require review."
+    },
+    {
+      "candidate_id": "directory-lead-84438a05e1cb7d",
+      "original_pending_index": 340,
+      "checked_utc": "2026-11-12T05:47:50.045581+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "concord-heritage-center-betty-martin-barnes-hall-contra-costa",
+        "concord-heritage-center-foskett-brown-fireplace-room-contra-costa",
+        "concord-heritage-center-galindo-gardens-gazebo-contra-costa"
+      ],
+      "source_urls": [
+        "https://concordhistorical.org/",
+        "https://concordhistorical.org/visit-us/event-center-rental/"
+      ],
+      "candidate_capture_sha256": "7b94fa3b3076a6f5231eee0866d7eb912321b571bbda49e6d81ec89d27f4529e",
+      "operator_capture_sha256": "b7774554b96d4e49b9b11f0c4fe2cee2a94c134440324b4a625112331edbf592",
+      "reason": "Official rental inventory and complete seven-page October 2023 agreement reviewed. Three named spaces in one Heritage Center complex are retained separately. The Galindo museum interior and porches are explicitly unavailable for rental. Historical three-hour minimum conflicts with current webpage four-hour minimum; all-in pricing remains unknown."
+    },
+    {
+      "candidate_id": "directory-lead-d09624fafb9379",
+      "original_pending_index": 342,
+      "checked_utc": "2026-11-12T05:47:50.045581+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "del-dotto-venetian-estate-st-helena-napa",
+        "piazza-del-dotto-napa"
+      ],
+      "source_urls": [
+        "https://www.deldottovineyards.com/store/frequently-asked-questions/"
+      ],
+      "candidate_capture_sha256": "452f8baef7624993bcf95304167729a57d8236a1084fbd69ea828b47ca00c069",
+      "operator_capture_sha256": "452f8baef7624993bcf95304167729a57d8236a1084fbd69ea828b47ca00c069",
+      "reason": "Both currently advertised winery locations checked against exact operator street addresses. Private tastings are offered, but weddings/receptions explicitly prohibited at all locations. Preserve the negative answer instead of contacting the operator or treating a private tasting minimum as a wedding price."
+    },
+    {
+      "candidate_id": "directory-lead-f0b50c3d57f587",
+      "original_pending_index": 343,
+      "checked_utc": "2026-11-12T05:47:50.045581+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "belle-vie-estate-sherman-island-sacramento"
+      ],
+      "source_urls": [
+        "https://bellevieestate.com/"
+      ],
+      "candidate_capture_sha256": "904f74573d2df9ec87c6335cc74f194664c3ce80b5703eb4cd029681162c2f57",
+      "operator_capture_sha256": "904f74573d2df9ec87c6335cc74f194664c3ce80b5703eb4cd029681162c2f57",
+      "reason": "Actual supported browser recovered the client-rendered homepage, contact-gated pricing page and all 27 public FAQ answers. Belle Vie Estate formerly Belle Vie Vineyards is one property. State Lands Commission report matches 19900 Sherman Island Crossing to Sacramento County; retain this adjacent Delta lead outside original nine counties, rather than assigning Solano from Rio Vista mailing city. Browser fact-review transcription is retained and labeled as such; no original DOM export claimed. No form submitted."
+    },
+    {
+      "candidate_id": "directory-lead-0156b930a0816a",
+      "original_pending_index": 345,
+      "checked_utc": "2026-11-12T05:47:50.045581+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "sf-city-hall-rotunda-san-francisco",
+        "sf-city-hall-mayors-balcony-san-francisco",
+        "sf-city-hall-fourth-floor-north-gallery-san-francisco",
+        "sf-city-hall-north-light-court-san-francisco",
+        "sf-city-hall-south-light-court-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.ggcatering.com/venues/san-francisco-city-hall",
+        "https://www.sfcityhallevents.org/"
+      ],
+      "candidate_capture_sha256": "bb298a7609491c7ee47d8ecac28264c0626ecbbd0717b78d903fc01544a0ee14",
+      "operator_capture_sha256": "ae1a7437c5a065ad888b5eb510d191d940e0ad84241653dd009377afda632cc6",
+      "reason": "Old events URL now redirects to official SF.gov. Five named spaces reviewed individually, plus evening rates and qualified-vendor rules. Evening rooms are bundled, not separately priced or additive capacities. Midnight event end differs from 2 AM load-out; mandatory Sheriff costs and other extras prevent an all-in total. Original catering-directory capacities conflict with current room-specific primary layouts; retained as source/scope conflict."
+    },
+    {
+      "candidate_id": "directory-lead-1dfcd32f715bf4",
+      "original_pending_index": 347,
+      "checked_utc": "2026-11-12T05:47:50.045581+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "petaluma-womans-club-whole-sonoma"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/petaluma-womans-club"
+      ],
+      "candidate_capture_sha256": "3e1f6e6ec08f11a38b5d56ae15504821a4fa886c37b3e92575f916a10618fbfa",
+      "operator_capture_sha256": "3e1f6e6ec08f11a38b5d56ae15504821a4fa886c37b3e92575f916a10618fbfa",
+      "reason": "Same existing Petaluma clubhouse at 518 B Street, corroborated by exact published operator link. Entire clubhouse already represented; do not duplicate from a new directory profile or sum Fireside Room with whole-site capacity. No new price imported."
+    },
+    {
+      "candidate_id": "directory-lead-36133f882d74ed",
+      "original_pending_index": 348,
+      "checked_utc": "2026-11-12T05:47:50.045581+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "tilden-regional-park-brazilian-room-contra-costa"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/brazilian-room",
+        "https://www.ebparks.org/reservations/event-venues/brazilian-room"
+      ],
+      "candidate_capture_sha256": "11d31fca0405ee02774c02ee37de3ab3d590a32c25876cd65ffb7da64daf61ad",
+      "operator_capture_sha256": "ab0258e36343a2d96f3e0ecd643cfca41cf653b23c4e716bb9c2af4ae41fe566",
+      "reason": "Same existing Brazilian Room. Berkeley mailing city does not change Contra Costa physical county. Current primary page also notes November–March South Park Drive closure; this affects routing, not venue closure. Current fee/layout review remains separate."
+    },
+    {
+      "candidate_id": "directory-lead-2c6d047ce4f1ef",
+      "original_pending_index": 349,
+      "checked_utc": "2026-11-12T05:47:50.045581+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "cline-cellars-sonoma"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/cline-family-cellars",
+        "https://clinecellars.com/events/weddings"
+      ],
+      "candidate_capture_sha256": "8fff7290a9287f80cb3b078c33e31f738111181180e3f2dd1d37a7c148c02d60",
+      "operator_capture_sha256": "f92f34eeb2be4ff7b369ace855ad78a699f960dc1783bb49c6ba2cd1874b1e74",
+      "reason": "Same existing Sonoma Cline Cellars / Cline Family Cellars property. Great Lawn and Adobe Mission spaces belong to that parent; do not create another winery from a brand-name variation. Primary seasonal outdoor wedding offering read; full current charges/layouts remain separate."
+    },
+    {
+      "candidate_id": "directory-lead-57bd35a36dda5e",
+      "original_pending_index": 350,
+      "checked_utc": "2026-11-12T05:47:50.045581+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "merryvale-vineyards-napa"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/merryvale-vineyards"
+      ],
+      "candidate_capture_sha256": "16830b9587d13b05bee5c17ddf73d514632b2dca0771889e092eb87d684fc832",
+      "operator_capture_sha256": "16830b9587d13b05bee5c17ddf73d514632b2dca0771889e092eb87d684fc832",
+      "reason": "Same existing Merryvale winery parent and published merryvale.com operator. Profile Vineyard is a separate location/branch to review; permission and capacities must not transfer from the St. Helena Cask Room. Current pricing/physical branch details remain explicit follow-on work."
+    },
+    {
+      "candidate_id": "directory-lead-aefa4df6de4c59",
+      "original_pending_index": 346,
+      "checked_utc": "2026-11-12T05:47:50.045581+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "gather-walnut-creek-contra-costa"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/gather-walnut-creek",
+        "https://gatherwc.com"
+      ],
+      "candidate_capture_sha256": "e41923a463c16af7129a9919fde9bed8bebb206c19315bef124198cc8a2db178",
+      "operator_capture_sha256": "a40aa716481f222c96d8331c1f0b2a7a5c497da7251d7cb0a2217c2aeec6a805",
+      "reason": "Actual current operator advertises micro-weddings at 1347 Locust Street, with 49 guests indoors plus private patio. Directory 50 differs; current primary 49 retained, not silently rounded. Venue hourly marketing says all-in while food/add-ons and outside DJ/photographer fee may apply; no full wedding total inferred. Open vendor policy still has specific fees/conditions."
+    },
+    {
+      "candidate_id": "directory-lead-ea3a64b677ac6a",
+      "original_pending_index": 352,
+      "checked_utc": "2026-11-12T05:47:50.045581+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "arya-event-center-livermore-alameda"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/arya-event-center",
+        "https://aryaeventcenter.com/"
+      ],
+      "candidate_capture_sha256": "9136b7bf9c7200ab10eed473fc52e0c5f48e086831b50e1f4a8b5da0d247a4f0",
+      "operator_capture_sha256": "a4b33fca5ef71b32cadf65f9ae2c0b8a10e8b9c66ef190d2d68d86da898ff1de",
+      "reason": "Actual dedicated operator wedding/event venue in Livermore, distinct from Palm Event Center in Pleasanton. The 18,500 square feet and more than 275 generic guests do not establish approved dinner/dance occupancy. Commercial kitchen is advertised but outside caterer permission still requires terms. Related winery is expressly a short distance away, not another room at this center."
+    },
+    {
+      "candidate_id": "directory-lead-cc39a94f49dda6",
+      "original_pending_index": 355,
+      "checked_utc": "2026-11-12T05:47:50.045581+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "banshee-winery-sonoma"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/vendor-banshee-winery",
+        "https://www.bansheewines.com/"
+      ],
+      "candidate_capture_sha256": "5c8f01cda87c0cd7350a2b1ad6ca38105618f107d6a3fe62be4add9f8a177bdf",
+      "operator_capture_sha256": "903013f8cc1e847da3c091c0bc2938fa1d241df930f3812c731e3a6397a699fe",
+      "reason": "Same existing Geyserville / Alexander Valley Banshee estate, despite directory Healdsburg service-area label. Do not transfer estate wedding permission to a downtown tasting room. Current private-event identity checked; no unreviewed lodging minimum or quote imported."
+    },
+    {
+      "candidate_id": "directory-lead-ab3add029d2b76",
+      "original_pending_index": 356,
+      "checked_utc": "2026-11-12T05:47:50.045581+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "barndiva-sonoma"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/barndiva",
+        "https://www.barndiva.com/"
+      ],
+      "candidate_capture_sha256": "0f4242ca73a6499e3383ceb6727a03d9a72868bba043667e197f66a4d7886645",
+      "operator_capture_sha256": "466e63ebd0e669f29c56f1b3064e476d9719112f815ae333690e1f806a528801",
+      "reason": "Same existing Healdsburg Barndiva parent with Studio/garden/gallery spaces. Primary advertises weddings and private events. Named rooms are not automatically independent properties or additive capacities; current layout/charges remain incomplete."
+    },
+    {
+      "candidate_id": "directory-lead-7321434c7f0e6e",
+      "original_pending_index": 357,
+      "checked_utc": "2026-11-12T05:47:50.045581+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "bees-n-blooms-sonoma"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/bees-n-blooms",
+        "https://beesnblooms.com/"
+      ],
+      "candidate_capture_sha256": "f0210658c5f1e165c897813d5c74760629b66479e2148d1f8255066570b821f4",
+      "operator_capture_sha256": "46c248e5a7ece05aa992ddc307383c56a564908c6a79539e4c2084a33b13e0e3",
+      "reason": "Same existing Santa Rosa Bees N Blooms. Current primary says public farm visits closed until March 2027, while private indoor events up to 25 continue year-round and outdoor pavilion up to 200 is seasonal May 15–October 1. Public visitor closure does not mean private event venue closure. These are generic scoped capacities, not dinner plus dance."
+    },
+    {
+      "candidate_id": "directory-lead-d0cae21cb896b4",
+      "original_pending_index": 358,
+      "checked_utc": "2026-11-12T05:47:50.045581+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "berkeley-country-club-contra-costa"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/berkeley-country-club",
+        "https://www.berkeleycountryclub.com/"
+      ],
+      "candidate_capture_sha256": "aa2a41a61fc6bf791d1be3abd0af6796f5427e714786ea81c5f19d6c4366e058",
+      "operator_capture_sha256": "32a7bc2c4ee86224ca28062b4b431850f632f72fc5101af3839de0ebf0ef3b07",
+      "reason": "Same existing Berkeley Country Club in El Cerrito / Contra Costa, not Berkeley City Club in Alameda. Primary identity and wedding navigation reviewed; room layouts and vendor terms not inferred from shared city-name branding."
+    },
+    {
+      "candidate_id": "directory-lead-cd57efcd53d5ea",
+      "original_pending_index": 360,
+      "checked_utc": "2026-11-12T05:47:50.045581+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "brindare-napa-valley-napa"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/brindare-napa-valley",
+        "https://brindarenapa.com/"
+      ],
+      "candidate_capture_sha256": "6e336e401328825448e3203e07cc28e725640eccfb451f3a5cb8f6c722037041",
+      "operator_capture_sha256": "1c0264daca9908ed297925d7a8ff32ca9488d151795355db1a7f02558b86757a",
+      "reason": "Same existing Brindare Napa Valley / St. Helena property. Five event settings and 350 generic guests do not establish a dinner/dance layout or transfer permission to off-site catered locations. No full package price inferred."
+    },
+    {
+      "candidate_id": "directory-lead-313a047ba45288",
+      "original_pending_index": 364,
+      "checked_utc": "2026-11-12T05:47:50.045581+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "deer-park-villa-fairfax"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/vendor-deer-park-villa",
+        "https://www.deerparkvilla.com/"
+      ],
+      "candidate_capture_sha256": "a3c1b406ec11cc09c4c5bca4879edd16a6f85cb96402960c02727c7472c51dd2",
+      "operator_capture_sha256": "0f28efcca6b87accdc5203833f1fe963745d1325e78f956a000db1b913377673",
+      "reason": "Same existing Fairfax Deer Park Villa. Directory San Rafael service-area label is not the physical city. Current operator venue identity/wedding offer reviewed; no planting date treated as wedding operation opening date."
+    },
+    {
+      "candidate_id": "directory-lead-0d4b90bbca9f55",
+      "original_pending_index": 365,
+      "checked_utc": "2026-11-12T05:47:50.045581+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "eagle-ridge-wedgewood-gilroy-santa-clara"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/eagle-ridge-by-wedgewood-weddings",
+        "https://www.wedgewoodweddings.com/eagleridge"
+      ],
+      "candidate_capture_sha256": "88df69b2788a40488d27411efac8635ce33b14a415d810ecbace86b168c2b7a6",
+      "operator_capture_sha256": "b5d4b10d42d6be3016d7d32b7bba82f1f995310b825e96bfcd2e80a2f7087e09",
+      "reason": "Same existing Gilroy Eagle Ridge by Wedgewood, not Boulder Ridge in San Jose or another Wedgewood property. Current property-specific primary route read; package prices and administration/tax conditions require scoped review, not a universal all-in total."
+    },
+    {
+      "candidate_id": "directory-lead-e5a7ce81b5cc76",
+      "original_pending_index": 366,
+      "checked_utc": "2026-11-12T05:47:50.045581+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "eagle-vines-vineyards-and-golf-club-napa"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/vendor-eagle-vines-vineyards-and-golf-club",
+        "https://www.eaglevinesgolfclub.com/"
+      ],
+      "candidate_capture_sha256": "64ad8f35e0ebe55e4879cc0068aff233ed5260755885a52250fe775171d3f836",
+      "operator_capture_sha256": "a3c46d9ff698c12ca954ab37be52f891a85fd4e28f31c17a9db72b8b11298230",
+      "reason": "Same existing Eagle Vines golf/winery property, not Eagle Ridge Gilroy. American Canyon physical city versus Napa mailing/service label retained as geography review work. Pavilion generic 250 is not an approved dinner/dance layout."
+    },
+    {
+      "candidate_id": "directory-lead-1ca42711aaf154",
+      "original_pending_index": 369,
+      "checked_utc": "2026-11-12T05:47:50.045581+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "farmhouse-inn-forestville-sonoma"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/farmhouse-inn",
+        "https://www.farmhouseinn.com/"
+      ],
+      "candidate_capture_sha256": "1f720b0f28e5fe2a727bae9f74220f1f88cf241bf0ae2e38b8c8ed619b9d3013",
+      "operator_capture_sha256": "aa2b9e89a9e94ad450f3f519d4ff4494d07be971e6f854bf70a2f4ce2e915f9f",
+      "reason": "Same existing Forestville Farmhouse Inn. Directory Santa Rosa service-area label is not physical city. Primary current up-to-50 intimate wedding offer read; 25 lodging rooms are not 25 event guests or proof all events require a full buyout."
+    },
+    {
+      "candidate_id": "directory-lead-1f204018363aae",
+      "original_pending_index": 368,
+      "checked_utc": "2026-11-12T05:47:50.045581+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "fairmont-san-francisco-crown-room-san-francisco",
+        "fairmont-san-francisco-garden-room-san-francisco",
+        "fairmont-san-francisco-green-room-san-francisco",
+        "fairmont-san-francisco-empire-room-san-francisco",
+        "fairmont-san-francisco-gold-room-san-francisco",
+        "fairmont-san-francisco-crystal-room-san-francisco",
+        "fairmont-san-francisco-fountain-room-san-francisco",
+        "fairmont-san-francisco-venetian-room-san-francisco",
+        "fairmont-san-francisco-french-room-san-francisco",
+        "fairmont-san-francisco-cirque-room-san-francisco",
+        "fairmont-san-francisco-loggia-room-san-francisco",
+        "fairmont-san-francisco-pavilion-room-san-francisco",
+        "fairmont-san-francisco-roof-garden-san-francisco",
+        "fairmont-san-francisco-intersect-san-francisco",
+        "fairmont-san-francisco-intersect-screening-room-san-francisco",
+        "fairmont-san-francisco-oval-room-san-francisco",
+        "fairmont-san-francisco-diplomat-club-san-francisco",
+        "fairmont-san-francisco-california-room-san-francisco",
+        "fairmont-san-francisco-hunt-room-san-francisco",
+        "fairmont-san-francisco-hunt-foyer-san-francisco",
+        "fairmont-san-francisco-far-east-room-san-francisco",
+        "fairmont-san-francisco-international-room-san-francisco",
+        "fairmont-san-francisco-state-room-san-francisco",
+        "fairmont-san-francisco-terrace-room-san-francisco",
+        "fairmont-san-francisco-vanderbilt-room-san-francisco",
+        "fairmont-san-francisco-grand-ballroom-lounge-san-francisco",
+        "fairmont-san-francisco-grand-ballroom-san-francisco",
+        "fairmont-san-francisco-tonga-room-hurricane-bar-san-francisco",
+        "fairmont-san-francisco-penthouse-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/fairmont-san-francisco"
+      ],
+      "candidate_capture_sha256": "1f2d89c18114b6d5381816eb19eda3dbe6d6c1851c8eb0ebebcbae6c6b846176",
+      "operator_capture_sha256": "1f2d89c18114b6d5381816eb19eda3dbe6d6c1851c8eb0ebebcbae6c6b846176",
+      "reason": "Same existing 950 Mason Street Fairmont San Francisco parent and published operator. Link all existing room/package IDs without creating another hotel; do not treat directory 800 as capacity for each named room or sum overlapping rooms."
+    },
+    {
+      "candidate_id": "directory-lead-26aa8e3647c522",
+      "original_pending_index": 362,
+      "checked_utc": "2026-11-12T05:47:50.045581+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "canyon-view-event-center-san-ramon-contra-costa"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/canyon-view-event-center",
+        "https://www.thecanyonview.com/"
+      ],
+      "candidate_capture_sha256": "2372f5286a1147f8e3a59d44317b4cdad35cdb17b1eb631f852c38eb2a43a081",
+      "operator_capture_sha256": "1aa647e2522187aceed2e8a84a6632287fb0eeb749c53b91f4e82316d77b7d69",
+      "reason": "Actual primary dedicated hilltop wedding/event venue in San Ramon. Indoor ballroom and outdoor terrace share one property; current complete charges, approved layout, catering and timing conditions remain unknown. A directory quote attributed to The Knot is not imported as a current venue price."
+    },
+    {
+      "candidate_id": "directory-lead-2b144b2c654599",
+      "original_pending_index": 367,
+      "checked_utc": "2026-11-12T05:47:50.045581+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "ellington-events-santa-rosa-sonoma"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/ellington-events",
+        "https://www.ellingtonevents.com/"
+      ],
+      "candidate_capture_sha256": "afa5cfd6f54b6f1fff3f8203ddc3e2c577d9b9b4b71d8230cb4d28ff78f55b49",
+      "operator_capture_sha256": "ff18dac6493255093746f3aac553fe02c6bf50a17d76760044b97ec1b133f71b",
+      "reason": "Actual primary wedding/private-event facility at 3535 Industrial Drive, Suite B4. Two ballrooms, protected patio and lounge share one property; 40–300 layout marketing is not a single approved dinner/dance capacity. Services and drop-off catering are options with current fee/contract scope still unknown."
     }
   ],
-  "unreviewed_original_inputs": 339,
+  "unreviewed_original_inputs": 290,
   "municipal_searches_completed": 0,
   "complete": false,
   "scope": "Queue identity resolution is not full venue facts, exhaustive geographic discovery or permission for any event. Actual access/identity blockers remain separate from unreviewed work."

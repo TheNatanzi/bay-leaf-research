@@ -1,11 +1,11 @@
 {
   "candidate_urls": 580,
-  "resolved_candidate_urls": 234,
-  "unresolved_candidate_urls": 346,
+  "resolved_candidate_urls": 283,
+  "unresolved_candidate_urls": 297,
   "review_counts": {
-    "reviewed_added": 148,
-    "reviewed_existing": 83,
-    "pending": 339,
+    "reviewed_added": 176,
+    "reviewed_existing": 104,
+    "pending": 290,
     "blocked": 7,
     "excluded": 3
   },
@@ -2753,22 +2753,28 @@
       "candidate_id": "directory-lead-f1ba34599d4d62",
       "name": "Occidental Union Hotel Restaurant",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/occidental-union-hotel-restaurant/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "seb-chamber-union-hotel-occidental-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-3e2fb6c3b8e75a",
       "name": "Olympiaâ€™s Valley Estate",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/olympias-valley-estate/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "olympia-s-valley-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-d31fda9cf2e81f",
       "name": "Paradise Ridge Winery",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/paradise-ridge-winery/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "paradise-ridge-winery-santa-rosa-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-03040747763d6e",
@@ -2781,15 +2787,19 @@
       "candidate_id": "directory-lead-19fdffa142183c",
       "name": "Pellegrini-Olivet Lane",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/pellegrini-olivet-lane/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "pellegrini-olivet-lane-santa-rosa-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-7d4d331c52d436",
       "name": "Petaluma Golf & Country Club",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/petaluma-golf-country-club/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "petaluma-golf-country-club-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-f53a2e3ac8ed66",
@@ -2802,8 +2812,10 @@
       "candidate_id": "directory-lead-11583c240bada8",
       "name": "Rooster Run Golf Club",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/rooster-run-golf-club/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "rooster-run-golf-club-petaluma-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-9cdbe60e02f125",
@@ -2823,8 +2835,10 @@
       "candidate_id": "directory-lead-98cf25f4cf5405",
       "name": "Running Rabbit Ranch and Vineyard",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/running-rabbit-ranch-and-vineyard/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "running-rabbit-ranch-vineyard-santa-rosa-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-9068f02fbeb23e",
@@ -2837,77 +2851,103 @@
       "candidate_id": "directory-lead-6cd7422ae273c0",
       "name": "Santa Rosa Golf & Country Club",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/santa-rosa-golf-country-club/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "santa-rosa-golf-and-country-club-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-cbb8df54e7ce15",
       "name": "Sebastiani Vineyards & Winery",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/sebastiani-vineyards-winery/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "sebastiani-vineyards-winery-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-0732bacd7e8176",
       "name": "Sebastopol Veterans Memorial Building/ Sebastopol Center for the Arts",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/sebastopol-veterans-memorial-building-sebastopol-center-for-the-arts/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "sebastopol-center-for-the-arts-veterans-memorial-building-brent-auditorium-sonoma",
+        "sebastopol-center-for-the-arts-veterans-memorial-building-little-red-hen-dining-room-sonoma",
+        "sebastopol-center-for-the-arts-veterans-memorial-building-fireside-room-sonoma",
+        "sebastopol-center-for-the-arts-veterans-memorial-building-ron-and-bev-judd-patio-sonoma",
+        "sebastopol-center-for-the-arts-veterans-memorial-building-package-1-brent-auditorium-full-day-sonoma",
+        "sebastopol-center-for-the-arts-veterans-memorial-building-package-2-dining-room-and-patio-sonoma",
+        "sebastopol-center-for-the-arts-veterans-memorial-building-package-3-auditorium-dining-room-and-patio-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-697e701a786efc",
       "name": "Seven Branches Venue and Inn",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/seven-branches-venue-and-inn/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "seven-branches-venue-inn-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-014eb55b5eb4ef",
       "name": "Sheraton Sonoma Wine Country",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/sheraton-sonoma-wine-country/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "sheraton-sonoma-wine-country-petaluma-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-fe5e8d5998d15b",
       "name": "Simi Winery",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/simi-winery/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "simi-winery-healdsburg-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-b06608051284fd",
       "name": "SingleThread Farm Restaurant & Inn",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/singlethread-farm-restaurant-inn/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "singlethread-restaurant-inn-healdsburg-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-4cf3c88c9a6af9",
       "name": "Soda Rock Winery",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/soda-rock-winery/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "soda-rock-winery-healdsburg-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-4e87acc547bc4b",
       "name": "Songbird Parlour",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/songbird-parlour/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "songbird-parlour-glen-ellen-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-57babb33006c4b",
       "name": "Sonoma Coast Villa",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/sonoma-coast-villa/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "sonoma-coast-villa-bodega-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-e115f1eeda7e8e",
       "name": "Sova Gardens",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/sova-gardens/",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "seb-chamber-sova-gardens-sonoma"
       ]
@@ -2916,15 +2956,19 @@
       "candidate_id": "directory-lead-c771171568b2f6",
       "name": "St. Francis Winery & Vineyards",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/st-francis-winery-vineyards/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "st-francis-winery-vineyards-santa-rosa-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-0d75231d10ac34",
       "name": "St. Philip Catholic Church",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/st-philip-catholic-church/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "st-philip-apostle-church-hall-occidental-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-1df228cbf7d9f2",
@@ -2937,14 +2981,16 @@
       "candidate_id": "directory-lead-2b55441b80d131",
       "name": "Sugarloaf Wine Co.",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/sugarloaf-wine-co/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "sugarloaf-wine-co-santa-rosa-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-ca5b1879e32fe2",
       "name": "The Barn at Harrow Cellars",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/the-barn-at-harrow-cellars/",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "the-barn-at-harrow-cellars-sonoma"
       ]
@@ -2953,15 +2999,19 @@
       "candidate_id": "directory-lead-2f34ccde6dbed7",
       "name": "The Bridal Path & Carriage Occasions",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/the-bridal-path-carriage-occasions/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "bridal-path-carriage-occasions-santa-rosa-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-9efd1731180b8b",
       "name": "The Gables Wine Country Inn",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/the-gables-wine-country-inn/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "gables-wine-country-inn-santa-rosa-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-d3b7d2033bfb3a",
@@ -2974,15 +3024,19 @@
       "candidate_id": "directory-lead-5f99c8f87ec27a",
       "name": "The Inn at the Tides",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/the-inn-at-the-tides/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "inn-at-the-tides-bodega-bay-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-f19ccdc88d6c46",
       "name": "The Jack London Lodge",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/the-jack-london-lodge/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "jack-london-lodge-glen-ellen-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-d489ab9ae50397",
@@ -2995,7 +3049,7 @@
       "candidate_id": "directory-lead-10d849499e6605",
       "name": "The Lodge at Bodega Bay",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/the-lodge-at-bodega-bay/",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "the-lodge-at-bodega-bay-sonoma"
       ]
@@ -3074,8 +3128,12 @@
       "candidate_id": "directory-lead-84438a05e1cb7d",
       "name": "Concord Historical Society / Heritage Center / Galindo grounds",
       "url": "https://concordhistorical.org/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "concord-heritage-center-betty-martin-barnes-hall-contra-costa",
+        "concord-heritage-center-foskett-brown-fireplace-room-contra-costa",
+        "concord-heritage-center-galindo-gardens-gazebo-contra-costa"
+      ]
     },
     {
       "candidate_id": "directory-lead-ffae97548b0fac",
@@ -3102,8 +3160,11 @@
       "candidate_id": "directory-lead-d09624fafb9379",
       "name": "Del Dotto winery locations",
       "url": "https://www.deldottovineyards.com/store/frequently-asked-questions/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "del-dotto-venetian-estate-st-helena-napa",
+        "piazza-del-dotto-napa"
+      ]
     },
     {
       "candidate_id": "directory-lead-08ef2e507c0ec9",
@@ -3224,8 +3285,10 @@
       "candidate_id": "directory-lead-f0b50c3d57f587",
       "name": "Belle Vie Estate",
       "url": "https://bellevieestate.com/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "belle-vie-estate-sherman-island-sacramento"
+      ]
     },
     {
       "candidate_id": "directory-lead-b3965d4af04950",
@@ -3400,8 +3463,14 @@
       "candidate_id": "directory-lead-0156b930a0816a",
       "name": "San Francisco City Hall",
       "url": "https://www.ggcatering.com/venues/san-francisco-city-hall",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "sf-city-hall-rotunda-san-francisco",
+        "sf-city-hall-mayors-balcony-san-francisco",
+        "sf-city-hall-fourth-floor-north-gallery-san-francisco",
+        "sf-city-hall-north-light-court-san-francisco",
+        "sf-city-hall-south-light-court-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-e3b8594952f763",
@@ -3564,36 +3633,46 @@
       "candidate_id": "directory-lead-aefa4df6de4c59",
       "name": "Gather Walnut Creek",
       "url": "https://www.bayareaweddings.com/vendor/gather-walnut-creek",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "gather-walnut-creek-contra-costa"
+      ]
     },
     {
       "candidate_id": "directory-lead-1dfcd32f715bf4",
       "name": "Petaluma Woman's Club",
       "url": "https://www.bayareaweddings.com/vendor/petaluma-womans-club",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "petaluma-womans-club-whole-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-36133f882d74ed",
       "name": "Brazilian Room",
       "url": "https://www.bayareaweddings.com/vendor/brazilian-room",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "tilden-regional-park-brazilian-room-contra-costa"
+      ]
     },
     {
       "candidate_id": "directory-lead-2c6d047ce4f1ef",
       "name": "Cline Family Cellars",
       "url": "https://www.bayareaweddings.com/vendor/cline-family-cellars",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "cline-cellars-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-57bd35a36dda5e",
       "name": "Merryvale Vineyards",
       "url": "https://www.bayareaweddings.com/vendor/merryvale-vineyards",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "merryvale-vineyards-napa"
+      ]
     },
     {
       "candidate_id": "directory-lead-bae287a3e6c61e",
@@ -3606,8 +3685,10 @@
       "candidate_id": "directory-lead-ea3a64b677ac6a",
       "name": "Arya Event Center",
       "url": "https://www.bayareaweddings.com/vendor/arya-event-center",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "arya-event-center-livermore-alameda"
+      ]
     },
     {
       "candidate_id": "directory-lead-63e4ae989d62dc",
@@ -3627,29 +3708,37 @@
       "candidate_id": "directory-lead-cc39a94f49dda6",
       "name": "Banshee Winery",
       "url": "https://www.bayareaweddings.com/vendor/vendor-banshee-winery",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "banshee-winery-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-ab3add029d2b76",
       "name": "Barndiva",
       "url": "https://www.bayareaweddings.com/vendor/barndiva",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "barndiva-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-7321434c7f0e6e",
       "name": "Bees N Blooms",
       "url": "https://www.bayareaweddings.com/vendor/bees-n-blooms",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "bees-n-blooms-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-d0cae21cb896b4",
       "name": "Berkeley Country Club",
       "url": "https://www.bayareaweddings.com/vendor/berkeley-country-club",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "berkeley-country-club-contra-costa"
+      ]
     },
     {
       "candidate_id": "directory-lead-d84a2dfa422108",
@@ -3662,8 +3751,10 @@
       "candidate_id": "directory-lead-cd57efcd53d5ea",
       "name": "Brindare Napa Valley",
       "url": "https://www.bayareaweddings.com/vendor/brindare-napa-valley",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "brindare-napa-valley-napa"
+      ]
     },
     {
       "candidate_id": "directory-lead-f1af8ff4b19741",
@@ -3685,8 +3776,10 @@
       "candidate_id": "directory-lead-26aa8e3647c522",
       "name": "Canyon View Event Center",
       "url": "https://www.bayareaweddings.com/vendor/canyon-view-event-center",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "canyon-view-event-center-san-ramon-contra-costa"
+      ]
     },
     {
       "candidate_id": "directory-lead-df17334733348f",
@@ -3699,43 +3792,83 @@
       "candidate_id": "directory-lead-313a047ba45288",
       "name": "Deer Park Villa",
       "url": "https://www.bayareaweddings.com/vendor/vendor-deer-park-villa",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "deer-park-villa-fairfax"
+      ]
     },
     {
       "candidate_id": "directory-lead-0d4b90bbca9f55",
       "name": "Eagle Ridge by Wedgewood Weddings",
       "url": "https://www.bayareaweddings.com/vendor/eagle-ridge-by-wedgewood-weddings",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "eagle-ridge-wedgewood-gilroy-santa-clara"
+      ]
     },
     {
       "candidate_id": "directory-lead-e5a7ce81b5cc76",
       "name": "Eagle Vines Vineyards and Golf Club",
       "url": "https://www.bayareaweddings.com/vendor/vendor-eagle-vines-vineyards-and-golf-club",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "eagle-vines-vineyards-and-golf-club-napa"
+      ]
     },
     {
       "candidate_id": "directory-lead-2b144b2c654599",
       "name": "Ellington Events",
       "url": "https://www.bayareaweddings.com/vendor/ellington-events",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "ellington-events-santa-rosa-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-1f204018363aae",
       "name": "Fairmont San Francisco",
       "url": "https://www.bayareaweddings.com/vendor/fairmont-san-francisco",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "fairmont-san-francisco-crown-room-san-francisco",
+        "fairmont-san-francisco-garden-room-san-francisco",
+        "fairmont-san-francisco-green-room-san-francisco",
+        "fairmont-san-francisco-empire-room-san-francisco",
+        "fairmont-san-francisco-gold-room-san-francisco",
+        "fairmont-san-francisco-crystal-room-san-francisco",
+        "fairmont-san-francisco-fountain-room-san-francisco",
+        "fairmont-san-francisco-venetian-room-san-francisco",
+        "fairmont-san-francisco-french-room-san-francisco",
+        "fairmont-san-francisco-cirque-room-san-francisco",
+        "fairmont-san-francisco-loggia-room-san-francisco",
+        "fairmont-san-francisco-pavilion-room-san-francisco",
+        "fairmont-san-francisco-roof-garden-san-francisco",
+        "fairmont-san-francisco-intersect-san-francisco",
+        "fairmont-san-francisco-intersect-screening-room-san-francisco",
+        "fairmont-san-francisco-oval-room-san-francisco",
+        "fairmont-san-francisco-diplomat-club-san-francisco",
+        "fairmont-san-francisco-california-room-san-francisco",
+        "fairmont-san-francisco-hunt-room-san-francisco",
+        "fairmont-san-francisco-hunt-foyer-san-francisco",
+        "fairmont-san-francisco-far-east-room-san-francisco",
+        "fairmont-san-francisco-international-room-san-francisco",
+        "fairmont-san-francisco-state-room-san-francisco",
+        "fairmont-san-francisco-terrace-room-san-francisco",
+        "fairmont-san-francisco-vanderbilt-room-san-francisco",
+        "fairmont-san-francisco-grand-ballroom-lounge-san-francisco",
+        "fairmont-san-francisco-grand-ballroom-san-francisco",
+        "fairmont-san-francisco-tonga-room-hurricane-bar-san-francisco",
+        "fairmont-san-francisco-penthouse-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-1ca42711aaf154",
       "name": "Farmhouse Inn",
       "url": "https://www.bayareaweddings.com/vendor/farmhouse-inn",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "farmhouse-inn-forestville-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-6894ef5926c3d3",

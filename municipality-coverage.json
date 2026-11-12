@@ -411,7 +411,10 @@
     "private_venue_status": "Not yet systematically audited",
     "source_urls": [
       "https://www.hilton.com/en/hotels/conchhf-hilton-concord/events/",
-      "https://cityofconcord.org/650/Indoor-Spaces"
+      "https://cityofconcord.org/650/Indoor-Spaces",
+      "https://concordhistorical.org/visit-us/event-center-rental/",
+      "https://concordhistorical.org/wp-content/uploads/2023/11/CHS-v-10_23-Venue-Rental-Application.docx-Google-Docs.pdf",
+      "https://concordhistorical.org/"
     ],
     "remaining": "Linked room pages, current fee application, Pavilion subspaces and seated/dance layouts remain.",
     "checked_utc": "2026-11-08T07:23:22.024844+00:00",
@@ -423,6 +426,21 @@
         "reviewed_scope": "Official indoor inventory read. Centre Concord advertises maximum400 guests; Senior Center explicitly advertises weddings.",
         "report_url": "municipal-gap-audit.html#case-5",
         "complete": false
+      }
+    ],
+    "authority_inventory_reviews": [
+      {
+        "audit_id": "concord-heritage-documents-20261111",
+        "checked_utc": "2026-11-12T05:49:16.032797+00:00",
+        "authority": "Concord Historical Society - Heritage Center",
+        "source_family": "Named primary rental inventory and public terms",
+        "record_ids": [
+          "concord-heritage-center-betty-martin-barnes-hall-contra-costa",
+          "concord-heritage-center-foskett-brown-fireplace-room-contra-costa",
+          "concord-heritage-center-galindo-gardens-gazebo-contra-costa"
+        ],
+        "review_status": "Scoped named facility review; locality remains partial",
+        "remaining": "Other locality authorities, private/unconventional source rosters and pagination remain incomplete"
       }
     ]
   },
@@ -1145,9 +1163,35 @@
       "https://www.hilton.com/en/hotels/sfofhhh-hilton-san-francisco-union-square/hotel-location/",
       "https://www.hilton.com/en/hotels/sfosfhh-parc-55-san-francisco/events/",
       "https://www.hilton.com/en-gb/hotels/sfosfhh-parc-55-san-francisco/events/meetings-events/",
-      "https://jobs.hilton.com/emea/en/job/HOT0CI6M/Security-Officer-Parc-55-San-Francisco-a-Hilton-Hotel"
+      "https://jobs.hilton.com/emea/en/job/HOT0CI6M/Security-Officer-Parc-55-San-Francisco-a-Hilton-Hotel",
+      "https://www.sf.gov/the-rotunda-at-city-hall",
+      "https://www.sfcityhallevents.org/",
+      "https://www.sf.gov/evening-weddings-at-city-hall",
+      "https://www.sf.gov/qualified-vendors-for-san-francisco-city-hall-events",
+      "https://www.ggcatering.com/venues/san-francisco-city-hall",
+      "https://www.sf.gov/mayors-balcony-at-city-hall",
+      "https://www.sf.gov/fourth-floor-gallery-at-city-hall",
+      "https://www.sf.gov/north-light-court-at-city-hall",
+      "https://www.sf.gov/south-light-court-at-city-hall"
     ],
-    "remaining": "Partial government/private inventory; site-specific weddings/layouts, contracts, parcel/history/value and reviews incomplete"
+    "remaining": "Partial government/private inventory; site-specific weddings/layouts, contracts, parcel/history/value and reviews incomplete",
+    "authority_inventory_reviews": [
+      {
+        "audit_id": "sf-city-hall-inventory-20261111",
+        "checked_utc": "2026-11-12T05:49:16.032797+00:00",
+        "authority": "San Francisco City Hall Events Office",
+        "source_family": "Named primary rental inventory and public terms",
+        "record_ids": [
+          "sf-city-hall-rotunda-san-francisco",
+          "sf-city-hall-mayors-balcony-san-francisco",
+          "sf-city-hall-fourth-floor-north-gallery-san-francisco",
+          "sf-city-hall-north-light-court-san-francisco",
+          "sf-city-hall-south-light-court-san-francisco"
+        ],
+        "review_status": "Scoped named facility review; locality remains partial",
+        "remaining": "Other locality authorities, private/unconventional source rosters and pagination remain incomplete"
+      }
+    ]
   },
   {
     "county": "San Mateo",

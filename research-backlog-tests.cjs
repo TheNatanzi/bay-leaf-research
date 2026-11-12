@@ -42,5 +42,20 @@ for(const receipt of applications){
 }
 const reconciliation=require('./discovery-reconciliation.json');
 assert.equal(resolution.complete,false);assert.equal(resolution.municipal_searches_completed,0);
-assert.equal(queue.candidates.filter(x=>x.url.includes('ggcatering.com/venues/')&&x.review_state==='pending').length,3);
+for(const slug of ['storek','legion-of-honor','san-francisco-city-hall']){
+ const c=queue.candidates.find(x=>x.url==='https://www.ggcatering.com/venues/'+slug);assert(c);
+ assert(['pending','blocked','reviewed_added','reviewed_existing'].includes(c.review_state));
+ if(c.review_state.startsWith('reviewed_'))assert(c.matched_record_ids.length&&c.review_source_urls.length);
+}
+const cityHall=by('sf-city-hall-rotunda-san-francisco');
+assert.equal(N.value(cityHall,'capacity_seated'),320);assert.equal(N.value(cityHall,'capacity_dinner_dance'),null);
+assert.equal(N.value(cityHall,'event_end'),1440);assert.equal(N.value(cityHall,'cleanup_end'),1560);assert.equal(N.value(cityHall,'music_indoor'),null,'load-out at 2 AM is not music permission');
+assert.equal(cityHall.mandatory_total_price,null);assert.equal(N.value(by('sf-city-hall-fourth-floor-north-gallery-san-francisco'),'event_end'),null,'daytime-only gallery must not inherit evening event clock');
+const heritage=by('concord-heritage-center-betty-martin-barnes-hall-contra-costa');
+assert.equal(N.value(heritage,'cleanup_end'),1380);assert.equal(N.value(heritage,'music_indoor'),null,'no loud music after 10 PM is not necessarily an all-music cutoff');
+assert.equal(N.fact(heritage,'cleanup_end').effective_date,'2023-10-14');assert.equal(heritage.mandatory_total_price,null);
+const single=by('singlethread-restaurant-inn-healdsburg-sonoma');assert(single.conditional_pricing_evidence.some(x=>x.midweek_buyout_starts_usd===65000&&x.peak_season_buyout_usd===85000&&x.all_in_total_unknown));assert.equal(single.mandatory_total_price,null);
+const belle=by('belle-vie-estate-sherman-island-sacramento');assert.equal(belle.county,'Sacramento');assert.match(belle.geography_scope,/outside original nine/);
+assert.equal(N.value(belle,'music_outdoor'),1380);assert.equal(N.value(belle,'bar_end'),1560);assert.equal(N.value(belle,'byob'),'no');assert.equal(N.value(belle,'capacity_dinner_dance'),null);assert.equal(belle.mandatory_total_price,null);
+for(const id of ['del-dotto-venetian-estate-st-helena-napa','piazza-del-dotto-napa'])assert.equal(N.value(by(id),'wedding_permission'),'explicit_no');
 console.log('Package limits, capacity conflicts, exact reviews, property identity, component costs, sunset clocks and complete founder export passed.');

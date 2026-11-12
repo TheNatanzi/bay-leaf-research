@@ -1,10 +1,20 @@
 # Research progress — November 11
 
-- **154 of the original 500 pending profiles resolved**. **7 hidden-address identity blockers** remain unresolved, alongside **339 profiles awaiting final disposition**, some partly reviewed.
-- **90 new venue/property/space lead records** now bring the master to **2,478 records**. These include uncertain event offers, not a verified count of unique or approved wedding properties. All **110 locality workstreams remain partial**.
+- **203 of the original 500 pending profiles resolved**. **7 hidden-address identity blockers** remain unresolved, alongside **290 profiles awaiting final disposition**, some partly reviewed.
+- **125 net new venue/property/space lead records** now bring the master to **2,513 records**. These include uncertain event offers and an explicitly flagged adjacent Delta lead, not a verified count of unique or approved wedding properties. All **110 locality workstreams remain partial**.
 - Missing records recovered include The Mountain Winery, Saratoga Springs, Villa Ragusa, Hillside Club, San José Museum of Art, La Vigna at Hecker Pass Winery, Shadow Lakes Club, Chateau St. Jean and Cornerstone Sonoma. Identity review does not mean all costs, room layouts or permissions are complete.
 - **Aliases and shared operators checked:** Sunol’s Casa Bella was an existing Casa Bella alias; the duplicate was merged with sources/history retained. Mayo’s Glen Ellen and Kenwood sites, and Monte Rio’s Community Center and Amphitheater, remain separate physical properties. Monte Rio’s actual October2026PDF explicitly prices Community Center weddings separately from its $1,500 general package.
 - [Expansive discovery methods: 10 repositories and 6 guides](expansive-discovery-methods-20261111.md) · [Current evidence-backed dispositions](discovery-backlog-resolution-20261111.json). Raw captures are preparation; unreadable sources and unreviewed material remain separate.
+
+## Questions answered from published sources
+
+| Property | Reviewed finding and limit |
+|---|---|
+| [San Francisco City Hall](https://www.sf.gov/evening-weddings-at-city-hall) | Evening base starts at $12,000 and excludes mandatory Sheriff staffing, typically $10,000–$15,000+. Midnight event end differs from 2 AM load-out. Five spaces retain separate layouts; evening spaces are bundled. |
+| [Concord Heritage Center](https://concordhistorical.org/visit-us/event-center-rental/) | Named hall, fireplace room and garden rentals reviewed. Its linked seven-page October 2023 agreement gives separate wedding packages and restrictions; the current webpage's four-hour minimum conflicts with the older agreement's three-hour minimum. Museum interior/porches are unavailable for rental. |
+| [SingleThread](https://singlethreadfarms.com/private-events-2/) | Actual 15-page linked deck reviewed: midweek property buyout starts at $65,000, rising to $85,000 in peak season; the five-room inn is required for a property buyout. Deck upload path is August 2025, effective pricing date unknown. No complete current wedding total established. |
+| [Belle Vie Estate](https://bellevieestate.com/faq) | Actual browser recovered all 27 public FAQ answers. 2027 fee and vendor options, conditional charges, lodging and independent music/bar limits recorded. Full pricing guide remains contact-gated; no form submitted. Sacramento County on Sherman Island, retained explicitly as an adjacent Delta lead outside the original nine counties. |
+| [Del Dotto locations](https://www.deldottovineyards.com/store/frequently-asked-questions/) | Two current physical wineries identified. Operator explicitly prohibits weddings/receptions at all locations; private tasting packages do not establish wedding permission. |
 
 ## Earlier November 8 milestone
 
@@ -42,7 +52,7 @@
 
 ## Still unfinished
 
-- **339 candidate URLs awaiting final disposition**, **7 unresolved physical-identity blockers**, and remaining authorities/source families within **110 partially reviewed local workstreams**.
+- **290 candidate URLs awaiting final disposition**, **7 unresolved physical-identity blockers**, and remaining authorities/source families within **110 partially reviewed local workstreams**.
 - Complete costs, mandatory lodging, approved dinner/dance layouts, independent cutoffs, history and defensible valuations.
 - Some documents are blocked or inquiry-only. Six county pages were readable through standard web search, but direct archival collection was held at the robots check; no raw download success is claimed.
 - Three caterer leads remain unresolved: Storek's operator redirect, Legion of Honor's blocked primary page, and City Hall's robot-verification hold. Other linked floor plans, brochures and technical appendices remain explicitly unreviewed.
