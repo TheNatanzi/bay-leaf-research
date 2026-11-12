@@ -1,6 +1,6 @@
 {
   "audit_id": "discovery-backlog-20261111",
-  "updated_utc": "2026-11-12T14:45:54.603010+00:00",
+  "updated_utc": "2026-11-12T14:53:23.790593+00:00",
   "original_pending_candidates": 500,
   "reviewed_dispositions_applied": [
     {
@@ -7595,9 +7595,137 @@
       "candidate_capture_sha256": "4dcc4be333f812e3b304da49e5512016d482407fe213aad53fbf270e1b773c1c",
       "operator_capture_sha256": "83e5397eb0986ef136ad4c29ec0a2d2b87a5b0d5de6a36b85f36717cfa826a58",
       "reason": "ExistingPresidioGolf300FinleyNOTPresidioLogCabin. Actualhome/weddings/ourspaces/ALLcontactFAQ+THREEoriginalPDFs24/36/36pagesALLtextread, selectedpackage/capacitychartvisuallyviewed. Cover2026–27weddingguidefooterlastupdated1/8/2025/versionconditionsconflict. Fullbuyout230SEATED500standingPDF/notdirectory250seated;Terrace170seated130DAYTIMEparkingcap300standingPDFvs200standingweb. Clubhouse100seated80WITHdance/Palmer40seated60standingPDFvs50web. FriSatSunEVENINGfullbuyoutPDFvswebSatonlynotresolved. No330approveddinner. Allprices+3%PARK21%SERVICE+currenttax, bases/compoundingunknownnotallin. RentF&BMINmustbemetregardlessoutsidefood/noheadcountminimum. WebsiteculturallyspecificcateringexceptionvsPDFsupplemental/expressapproval/restrictivevendorclause;outsideALCOHOLNOthoughcorkagelinewithoutpriceexists/conflictnotBYOpermission. WeddingPDFPavilion3hBEERWINEvsOurPackagesPDF3hCALLLIQUOR/Pavilionincludedpassedapps differences. GoldenGate5hevent4hsuperpremiumbar/dessert/cakeCUTnotcake. Noactualbasepackagepricesinreadtext/selectedvisualchart;quoteunknown. Staffbar/managerfurnituretableware/setupcleanupincludednotcoordinator/personaldecorunlessupgrade. Vendor1hPDFvs2hWEBaccessconflict. DepositPDF>=25%F&BMIN+50%6months vsWEB25%or50%ofrentF&Btaxfeesconflict;balanceguarantee14days/no decrease. Menupricesguaranteedonly90days. Fooddisplay2hvs1.5h/currentpackageguideNoREALflamevsothersglass-enclosedcandles conflict. Clubhousemusic11PM/Tent10PM. Nooutsidechairlinenrentalsunlessapprovalthroughvenue. Paidparkingnotfree. Guidepricefiguresnoallin."
+    },
+    {
+      "candidate_id": "directory-lead-1c3eb58717dd94",
+      "original_pending_index": 393,
+      "checked_utc": "2026-11-12T14:53:23.790593+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "redwood-canyon-by-wedgewood-weddings-alameda"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/redwood-canyon-by-wedgewood-weddings",
+        "https://www.wedgewoodweddings.com/redwoodcanyon"
+      ],
+      "candidate_capture_sha256": "d2504906564f7d4ac03c26dbd35848206e5d1f4f13bf46750719481d39214e7d",
+      "operator_capture_sha256": "c50cca9c790c1355ed6b6797f37ed303ec7adaa06f3669ba3cb471fc6a8de5ae",
+      "reason": "ExistingCastroValley17007RedwoodRdnotnewparent. Actualcurrentprimarybodyread74BuildOwn89Classic119Premier144Elitepp+995ceremony1295venuestarting+22%ADMINtaxminima. Notallin/currenteffectiveyearunknown. Spring2025renovationclaimedbyoperatornotindependentlyinspected. ExistingglobalWedgewood4packagebodies23FAQanswersbatch44alreadyreviewed/reused;venueexceptionsunknown. Nearbyvenues250SanRamon200HaciendaNOTRedwoodcapacity."
+    },
+    {
+      "candidate_id": "directory-lead-c5a640bfb2f988",
+      "original_pending_index": 394,
+      "checked_utc": "2026-11-12T14:53:23.790593+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "rosewood-events-hicks-valley-petaluma"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/rosewood-events",
+        "https://www.rosewoodevent.com/"
+      ],
+      "candidate_capture_sha256": "117c7bd4cd4d6d7482c9c9ab031ca0dd39eac2831043fadda034ac4f5208d6e5",
+      "operator_capture_sha256": "58e1d2185823ff3827ca5ff26c2c3960a6496977afeb450d20bfa510eb72f4cd",
+      "reason": "ExactexistingRosewoodHicksValleyestatealreadyreviewedbatch42/singularworkingdomainnotCommonsPleasanton. Primaryhomebodyreread200coveredtent. PriorfullrelevantFAQ/DinnerDancing/Glamping/contact/aboutreviewsretainednotrepeated ornewPDFclaim. CountyborderprovisionalMarin/officialparcelnotverified remains. No secondRosewoodparent."
+    },
+    {
+      "candidate_id": "directory-lead-01fdf40334ef10",
+      "original_pending_index": 395,
+      "checked_utc": "2026-11-12T14:53:23.790593+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "san-francisco-botanical-garden-golden-gate-park"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/vendor-sf-botanical-garden-redwood-grove",
+        "https://gggp.org/event-rentals/botanical-garden-event-rentals/"
+      ],
+      "candidate_capture_sha256": "818704d574ec15906e01404a114ccf3db0750d9c2975531ad4b0923919531bb0",
+      "operator_capture_sha256": "e028efde8cde5c7bee9a76249192e14c4dd530c02d7498d08842b0d9b93a28fc",
+      "reason": "ExactexistingSFBotanicalGardenoperatorRedwoodGroveonephysicalgardenwithinparkNOTnewproperty. Currentactualspecificprimarybodypreviouslyreviewedbatch38/allFAQ4roommodalsopenedread;reusedexistingverifiedreviewplusRedwoodtextrechecked. GenericGGGPhomefailedsizelimitnotwholevenueblocked. CelebrationGarden10PM/restincludingRedwood5PMnotmidnight. Approvedvendorlist/50%booking/quoteunpublished. Allpreviousroomcapacityconditionsretainednotinventedfromdirectory55acres/8000plants."
+    },
+    {
+      "candidate_id": "directory-lead-8194452a67dac1",
+      "original_pending_index": 396,
+      "checked_utc": "2026-11-12T14:53:23.790593+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "sams-chowder-house-half-moon-bay-san-mateo"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/sams-chowder-house",
+        "https://samschowderhouse.com/weddings/"
+      ],
+      "candidate_capture_sha256": "78aa24640a457ba48a9b506d231caf1773dbbac7a2540378704d81dba37694ac",
+      "operator_capture_sha256": "1d44898e7a75eb3b6508f3be288396c6204bf125786f8f6b2b780f6db5761b72",
+      "reason": "4210NCabrilloHwyHMBoneproperty/sevenroomareasNOTseparateoutreach. Actualcompletewedding/menuhub+FOURPDFs5/1/1/2pagesALLTEXTread. Mavericks20seated16standingasPUBLISHED(unusualnotcorrected);HarborView54/75;OceanTerrace35/75;BeachLawn100/120;NorthPatio40/55+optionalMiddleWest20;SouthBeach60/80. WholeRESTAURANTpatioBUYOUTcapacityunpublished/notaddrooms. OutdoorpatiosBOOKEDSEPARATELYnotincludedOceanTerrace;tentoptionalextra. Room-specificF&BMINunknown. Menu20%service9.375%STATEDtaxcurrenteffectiveyearunverified/notindependenttaxrule;basefoodpricesmissing/unknownnotzero. PillarPoint3or4coursePacificDream4course/familystyleplatedprecount7days. Lobsterluncheon15minimumnotweddingmin/Beachbuffet25minimum/filet+5pp/Speciallobstermarketprice. Apps20piecesmin/vegetarian25/pricePERPIECEexceptplattersnotperperson. Dessertrepresentativeunpriced. BarHOSTEDCONSUMPTIONorCASHnoflatopenbarpriceproven. Retailrestaurantclosing8:30/9PMNOTprivateweddingcurfew. Venueeventstaffrentchargesinsuranceoutsidefoodalcoholunknown. Noformsubmitted."
+    },
+    {
+      "candidate_id": "directory-lead-4373d5246757d9",
+      "original_pending_index": 397,
+      "checked_utc": "2026-11-12T14:53:23.790593+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "san-benito-house-half-moon-bay-san-mateo"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/san-benito-house",
+        "https://sanbenitohouse.com/wedding-and-events"
+      ],
+      "candidate_capture_sha256": "f8e59d26b9ba4d9ced6d9bda4493eb30c72482835926942e43f058421d925413",
+      "operator_capture_sha256": "04be39ba2590e9aef0566c27e7bd022f929828ea3788c02677e75293097a0fc2",
+      "reason": "356MainHMBnotSanBenitoCounty/outsideBayArea. Actualcompleteeventsbodyread. Gardenbackyard/patiodeckoutdoorbaroneproperty/spacealoneorincombination. RentINCLUDESexistingtableschairsplatewareglasswaresilverware;EXCLUDESserviceSTAFF/cakephotographyofficiantflowersDJmusicianstents. Outdoorstereocomplimentary/liveMUSICandvaletextra. Inhousefoodandbeerwinespiritsnonalcoholicavailablebutpricesunknown/notfreeopenbar. HistoricInnroomsavailable/noverifiedroomcountrequiredlodgingorbuynights. Currentcapacityrentminima/service/taxbarinsurancecutoffsunknown. Officialcontacteventformofferedembeddedfieldsnotvisibleinstaticbody/unreviewed/notfilled. NoidentitysplitforCantinaDeliInn."
+    },
+    {
+      "candidate_id": "directory-lead-4cc37d3d23dc22",
+      "original_pending_index": 398,
+      "checked_utc": "2026-11-12T14:53:23.790593+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "san-francisco-airport-marriott-waterfront-san-mateo"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/san-francisco-airport-marriott-waterfront",
+        "https://www.marriott.com/en-us/hotels/sfobg-san-francisco-airport-marriott-waterfront/events/"
+      ],
+      "candidate_capture_sha256": "ddfd4d310a3d0b7b9b7f160b2f913ae55d73d48105e6bae2080ce7803247fea9",
+      "operator_capture_sha256": "c41fbbee2c400061443ebde56a8ccbb762575b96044a50d79e99030f1cb42546",
+      "reason": "1800OldBayshoreBurlingameSanMateoONEhotel/notSFcityfromname. ActualspecificeventsPRIMARYbodyvenueandALLsinglechartrows/equipmentFAQaddressread;duplicatesecondmobilechart/globalnavigationnotfullyreread. RawgenericHOMEHTTPfailurepreserved/eventsRAWworksnotwholeblocked. Officialweddingpageactualwebreaderrelevantfullbodyread/exportretainedNOTrawHTML. Grand1100BANQUETvswedding800SEATED/1600standing1560THEATERnot1600dinner. Junior280banquetvs210wedding/480standing;BaysideIIIII210generalvs160dinnerdancepossiblelayoutnotresolved;BaysideI60vs50wedding/SanRamon100vs80seated180vs150standing. 13rooms25breakouts vs26roomscopyconflict. Nestedcombinationsnotadditive/newproperties. OutsidecateringWELCOMEDforculturalweddings/conditionsfeesunknown/inhouseavailable. PlannersAVsecuritylistedavailabilityNOTallfree. Roomblockdiscount10+meetingroomsnotmandatoryweddinglodging. ComplimentaryROOMUPGRADEnotfreeroomrental. RentF&Bminimumfoodbarfeesinsurancecutoffsunknown. PubliclinkedemenurobotsdisallowedNOTpricecontentreview;noattemptbypass."
+    },
+    {
+      "candidate_id": "directory-lead-b200357d7b7f64",
+      "original_pending_index": 399,
+      "checked_utc": "2026-11-12T14:53:23.790593+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "san-mateo-garden-center-san-mateo"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/san-mateo-garden-center",
+        "https://www.sanmateogardencenter.org/event-spaces"
+      ],
+      "candidate_capture_sha256": "09d7de22cb138ea846e493392fdd5d7470fda096c65649b1d84b326c878dec43",
+      "operator_capture_sha256": "ac9d1ad26e240696bd9c7f56c25a0d2179a349aa8bf0676903275295e638d2b9",
+      "reason": "605ParksideWaySanMateoBeresfordParkNEcorneroneGardenCenterNOTSMCECeventfairgrounds. Actualhome/events/bookingbodiesread. Facility125TOTAL/RedwoodHall115SEATED/Rose38seatednot153aggregate. GardenGazebo/pond/waterfallweddings/kitchenstovecooktopmicrowavefridgesinks/tableschairsAVAILABLEnotprovenfree. Publishedvendorlistnotconfirmedexclusive. Rentfoodbarstaffinsurancecleanupdeadlineunknown;no125approveddinnerdanceassumed. Formofferedbutembeddedfieldsnotvisible/unreviewed/noformsubmitted. OpenSundaycalendarNOTeventrentalavailabilityorcurfew."
+    },
+    {
+      "candidate_id": "directory-lead-401f0b67202ec7",
+      "original_pending_index": 400,
+      "checked_utc": "2026-11-12T14:53:23.790593+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "san-ramon-waters-fircrest-contra-costa"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/san-ramon-waters-by-wedgewood-weddings",
+        "https://www.wedgewoodweddings.com/sanramon"
+      ],
+      "candidate_capture_sha256": "491b1fcbef22c1cabe98fe5ad11702e61cdbd3d5bb52f779fb1296663f316985",
+      "operator_capture_sha256": "ba48d1f159aa8f2e40ff2f52dd15b3dd183be4e9ff647cd10ffd7faa9d6ae80c",
+      "reason": "ExistingSanRamonGolfClubWaters9430Fircrestnotseparategolfcourseparent. Actualprimary82BuildOwn97Classic127Premier152Elitepp+995ceremony1295venuestarting22%ADMINtaxminima/notallin. PriorWedgewoodgeneralpackage4bodies/23FAQanswersalreadyreviewedbatch44retained/noextraauditorfalse. NearbyRedwood300Hacienda200Jefferson200NOTSanRamonowncapacity. Effectiveyearandissuedcapacitylayoutunknown."
     }
   ],
-  "unreviewed_original_inputs": 107,
+  "unreviewed_original_inputs": 99,
   "municipal_searches_completed": 0,
   "complete": false,
   "scope": "Queue identity resolution is not full venue facts, exhaustive geographic discovery or permission for any event. Actual access/identity blockers remain separate from unreviewed work."

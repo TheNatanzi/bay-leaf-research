@@ -2,8 +2,8 @@
   "summary": {
     "checked_utc": "2026-10-26T13:28:51.955107+00:00",
     "candidate_urls": 580,
-    "candidate_urls_with_exact_match": 453,
-    "candidate_urls_without_exact_match": 127,
+    "candidate_urls_with_exact_match": 461,
+    "candidate_urls_without_exact_match": 119,
     "source_counts": {
       "moderndjs": {
         "raw_named_cards": 361,
@@ -53,16 +53,16 @@
     },
     "added_venue_records": 0,
     "note": "Candidate URLs are not a venue count. Old source collection counts retain their original dates; followup state counts are current. Fragment-only links merged; names/URLs are aids, not automatic reviews. Original added_venue_records=0 describes index-only ingestion; primary_followup_records_added is separate.",
-    "primary_followup_records_added": 276,
-    "followup_checked_utc": "2026-11-12T14:45:54.603010+00:00",
+    "primary_followup_records_added": 280,
+    "followup_checked_utc": "2026-11-12T14:53:23.790593+00:00",
     "current_review_counts": {
-      "reviewed_added": 272,
-      "reviewed_existing": 181,
+      "reviewed_added": 276,
+      "reviewed_existing": 185,
       "blocked": 10,
       "reviewed_supplier_not_venue_offer": 1,
       "reviewed_outside_scope": 6,
       "excluded": 3,
-      "pending": 107
+      "pending": 99
     }
   },
   "candidates": [
@@ -14284,13 +14284,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "redwood-canyon-by-wedgewood-weddings-alameda"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_existing",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/redwood-canyon-by-wedgewood-weddings#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T14:53:23.790593+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/redwood-canyon-by-wedgewood-weddings",
+        "https://www.wedgewoodweddings.com/redwoodcanyon"
+      ],
+      "review_reason": "ExistingCastroValley17007RedwoodRdnotnewparent. Actualcurrentprimarybodyread74BuildOwn89Classic119Premier144Elitepp+995ceremony1295venuestarting+22%ADMINtaxminima. Notallin/currenteffectiveyearunknown. Spring2025renovationclaimedbyoperatornotindependentlyinspected. ExistingglobalWedgewood4packagebodies23FAQanswersbatch44alreadyreviewed/reused;venueexceptionsunknown. Nearbyvenues250SanRamon200HaciendaNOTRedwoodcapacity.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-c5a640bfb2f988",
@@ -14308,13 +14317,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "rosewood-events-hicks-valley-petaluma"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_existing",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/rosewood-events#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T14:53:23.790593+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/rosewood-events",
+        "https://www.rosewoodevent.com/"
+      ],
+      "review_reason": "ExactexistingRosewoodHicksValleyestatealreadyreviewedbatch42/singularworkingdomainnotCommonsPleasanton. Primaryhomebodyreread200coveredtent. PriorfullrelevantFAQ/DinnerDancing/Glamping/contact/aboutreviewsretainednotrepeated ornewPDFclaim. CountyborderprovisionalMarin/officialparcelnotverified remains. No secondRosewoodparent.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-01fdf40334ef10",
@@ -14332,13 +14350,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "san-francisco-botanical-garden-golden-gate-park"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_existing",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/vendor-sf-botanical-garden-redwood-grove#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T14:53:23.790593+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/vendor-sf-botanical-garden-redwood-grove",
+        "https://gggp.org/event-rentals/botanical-garden-event-rentals/"
+      ],
+      "review_reason": "ExactexistingSFBotanicalGardenoperatorRedwoodGroveonephysicalgardenwithinparkNOTnewproperty. Currentactualspecificprimarybodypreviouslyreviewedbatch38/allFAQ4roommodalsopenedread;reusedexistingverifiedreviewplusRedwoodtextrechecked. GenericGGGPhomefailedsizelimitnotwholevenueblocked. CelebrationGarden10PM/restincludingRedwood5PMnotmidnight. Approvedvendorlist/50%booking/quoteunpublished. Allpreviousroomcapacityconditionsretainednotinventedfromdirectory55acres/8000plants.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-8194452a67dac1",
@@ -14356,13 +14383,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "sams-chowder-house-half-moon-bay-san-mateo"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_added",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/sams-chowder-house#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T14:53:23.790593+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/sams-chowder-house",
+        "https://samschowderhouse.com/weddings/"
+      ],
+      "review_reason": "4210NCabrilloHwyHMBoneproperty/sevenroomareasNOTseparateoutreach. Actualcompletewedding/menuhub+FOURPDFs5/1/1/2pagesALLTEXTread. Mavericks20seated16standingasPUBLISHED(unusualnotcorrected);HarborView54/75;OceanTerrace35/75;BeachLawn100/120;NorthPatio40/55+optionalMiddleWest20;SouthBeach60/80. WholeRESTAURANTpatioBUYOUTcapacityunpublished/notaddrooms. OutdoorpatiosBOOKEDSEPARATELYnotincludedOceanTerrace;tentoptionalextra. Room-specificF&BMINunknown. Menu20%service9.375%STATEDtaxcurrenteffectiveyearunverified/notindependenttaxrule;basefoodpricesmissing/unknownnotzero. PillarPoint3or4coursePacificDream4course/familystyleplatedprecount7days. Lobsterluncheon15minimumnotweddingmin/Beachbuffet25minimum/filet+5pp/Speciallobstermarketprice. Apps20piecesmin/vegetarian25/pricePERPIECEexceptplattersnotperperson. Dessertrepresentativeunpriced. BarHOSTEDCONSUMPTIONorCASHnoflatopenbarpriceproven. Retailrestaurantclosing8:30/9PMNOTprivateweddingcurfew. Venueeventstaffrentchargesinsuranceoutsidefoodalcoholunknown. Noformsubmitted.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-4373d5246757d9",
@@ -14380,13 +14416,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "san-benito-house-half-moon-bay-san-mateo"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_added",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/san-benito-house#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T14:53:23.790593+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/san-benito-house",
+        "https://sanbenitohouse.com/wedding-and-events"
+      ],
+      "review_reason": "356MainHMBnotSanBenitoCounty/outsideBayArea. Actualcompleteeventsbodyread. Gardenbackyard/patiodeckoutdoorbaroneproperty/spacealoneorincombination. RentINCLUDESexistingtableschairsplatewareglasswaresilverware;EXCLUDESserviceSTAFF/cakephotographyofficiantflowersDJmusicianstents. Outdoorstereocomplimentary/liveMUSICandvaletextra. Inhousefoodandbeerwinespiritsnonalcoholicavailablebutpricesunknown/notfreeopenbar. HistoricInnroomsavailable/noverifiedroomcountrequiredlodgingorbuynights. Currentcapacityrentminima/service/taxbarinsurancecutoffsunknown. Officialcontacteventformofferedembeddedfieldsnotvisibleinstaticbody/unreviewed/notfilled. NoidentitysplitforCantinaDeliInn.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-4cc37d3d23dc22",
@@ -14404,13 +14449,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "san-francisco-airport-marriott-waterfront-san-mateo"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_added",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/san-francisco-airport-marriott-waterfront#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T14:53:23.790593+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/san-francisco-airport-marriott-waterfront",
+        "https://www.marriott.com/en-us/hotels/sfobg-san-francisco-airport-marriott-waterfront/events/"
+      ],
+      "review_reason": "1800OldBayshoreBurlingameSanMateoONEhotel/notSFcityfromname. ActualspecificeventsPRIMARYbodyvenueandALLsinglechartrows/equipmentFAQaddressread;duplicatesecondmobilechart/globalnavigationnotfullyreread. RawgenericHOMEHTTPfailurepreserved/eventsRAWworksnotwholeblocked. Officialweddingpageactualwebreaderrelevantfullbodyread/exportretainedNOTrawHTML. Grand1100BANQUETvswedding800SEATED/1600standing1560THEATERnot1600dinner. Junior280banquetvs210wedding/480standing;BaysideIIIII210generalvs160dinnerdancepossiblelayoutnotresolved;BaysideI60vs50wedding/SanRamon100vs80seated180vs150standing. 13rooms25breakouts vs26roomscopyconflict. Nestedcombinationsnotadditive/newproperties. OutsidecateringWELCOMEDforculturalweddings/conditionsfeesunknown/inhouseavailable. PlannersAVsecuritylistedavailabilityNOTallfree. Roomblockdiscount10+meetingroomsnotmandatoryweddinglodging. ComplimentaryROOMUPGRADEnotfreeroomrental. RentF&Bminimumfoodbarfeesinsurancecutoffsunknown. PubliclinkedemenurobotsdisallowedNOTpricecontentreview;noattemptbypass.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-b200357d7b7f64",
@@ -14428,13 +14482,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "san-mateo-garden-center-san-mateo"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_added",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/san-mateo-garden-center#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T14:53:23.790593+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/san-mateo-garden-center",
+        "https://www.sanmateogardencenter.org/event-spaces"
+      ],
+      "review_reason": "605ParksideWaySanMateoBeresfordParkNEcorneroneGardenCenterNOTSMCECeventfairgrounds. Actualhome/events/bookingbodiesread. Facility125TOTAL/RedwoodHall115SEATED/Rose38seatednot153aggregate. GardenGazebo/pond/waterfallweddings/kitchenstovecooktopmicrowavefridgesinks/tableschairsAVAILABLEnotprovenfree. Publishedvendorlistnotconfirmedexclusive. Rentfoodbarstaffinsurancecleanupdeadlineunknown;no125approveddinnerdanceassumed. Formofferedbutembeddedfieldsnotvisible/unreviewed/noformsubmitted. OpenSundaycalendarNOTeventrentalavailabilityorcurfew.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-401f0b67202ec7",
@@ -14452,13 +14515,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "san-ramon-waters-fircrest-contra-costa"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_existing",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/san-ramon-waters-by-wedgewood-weddings#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T14:53:23.790593+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/san-ramon-waters-by-wedgewood-weddings",
+        "https://www.wedgewoodweddings.com/sanramon"
+      ],
+      "review_reason": "ExistingSanRamonGolfClubWaters9430Fircrestnotseparategolfcourseparent. Actualprimary82BuildOwn97Classic127Premier152Elitepp+995ceremony1295venuestarting22%ADMINtaxminima/notallin. PriorWedgewoodgeneralpackage4bodies/23FAQanswersalreadyreviewedbatch44retained/noextraauditorfalse. NearbyRedwood300Hacienda200Jefferson200NOTSanRamonowncapacity. Effectiveyearandissuedcapacitylayoutunknown.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-5cd69435bba421",
