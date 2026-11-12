@@ -2,8 +2,8 @@
   "summary": {
     "checked_utc": "2026-10-26T13:28:51.955107+00:00",
     "candidate_urls": 580,
-    "candidate_urls_with_exact_match": 151,
-    "candidate_urls_without_exact_match": 429,
+    "candidate_urls_with_exact_match": 209,
+    "candidate_urls_without_exact_match": 371,
     "source_counts": {
       "moderndjs": {
         "raw_named_cards": 361,
@@ -53,12 +53,13 @@
     },
     "added_venue_records": 0,
     "note": "Candidate URLs are not a venue count. Old source collection counts retain their original dates; followup state counts are current. Fragment-only links merged; names/URLs are aids, not automatic reviews. Original added_venue_records=0 describes index-only ingestion; primary_followup_records_added is separate.",
-    "primary_followup_records_added": 47,
-    "followup_checked_utc": "2026-11-08T21:00:05.590334+00:00",
+    "primary_followup_records_added": 87,
+    "followup_checked_utc": "2026-11-12T04:46:30.214771+00:00",
     "current_review_counts": {
-      "pending": 500,
-      "reviewed_existing": 17,
-      "reviewed_added": 60,
+      "reviewed_added": 100,
+      "reviewed_existing": 68,
+      "pending": 402,
+      "blocked": 7,
       "excluded": 3
     }
   },
@@ -79,10 +80,18 @@
       "county": "Alameda",
       "city": "Pleasanton",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "alameda-county-fairgrounds-event-center-pleasanton-alameda"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T04:32:14.419222+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/alameda-county-fairgrounds-event-center-pleasanton",
+        "https://alamedacountyfair.com/venue-guide/"
+      ],
+      "review_reason": "Current official venue menu and guide recovered beyond obsolete safety-heavy facility-rentals entry page. Inventory includes BuildingsA/B/C/J/O/P/Q/R, Farmhouse, Plaza, Court of Four, SkyLounge, Amphitheater, Grandstand, SafewayBarn and equestrian area. BuildingQ306roundbanquet/390rectangle/700theater/reception;R320round/400rectangle/540theater/700reception;Farmhouse175banquet/225reception;SkyLounge160banquet/reception with125setupfeature conflict. These are independent scoped spaces, not summed or adopted as whole-property dinner+dance. Current price is linked image; no dollar fees imported until actually read. Master parent record added; separate room normalization still pending."
     },
     {
       "id": "directory-lead-11786b1773b945",
@@ -100,12 +109,18 @@
       "county": "Alameda",
       "city": "Berkeley",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
         "berkeley-city-club-alameda"
       ],
       "match_method": "Exact normalized name only; identity/branch not confirmed",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:26:39.031072+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/berkeley-city-club-berkeley",
+        "https://www.berkeleycityclub.com"
+      ],
+      "review_reason": "Exact named Berkeley City Club, same Berkeley location and official published wedding offering; not Berkeley Country Club in El Cerrito. Scoped property reconciliation only; six-room/250directory claims not applied. Actual operator address now corroborated; full current package review remains."
     },
     {
       "id": "directory-lead-290ec392d5aa09",
@@ -123,10 +138,18 @@
       "county": "Contra Costa",
       "city": "Danville",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "blackhawk-museum-event-rentals-danville-contra-costa"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T04:32:14.419222+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/blackhawk-museum-danville",
+        "https://blackhawkmuseum.org/rentals/"
+      ],
+      "review_reason": "Actual official museum rental offering, distinct from Blackhawk Country Club. Current operator news explicitly says museum remains open despite separate Plaza news. Wedding-specific permission not established in rental body; named directory markets weddings. Inquiry requires name/email confirmation/event details with preferred date/count. Capacity, rates and clocks unknown."
     },
     {
       "id": "directory-lead-e061130785f802",
@@ -144,12 +167,18 @@
       "county": "Santa Clara",
       "city": "San Jose",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
         "blanco-urban-venue-santa-clara"
       ],
       "match_method": "Exact normalized name only; identity/branch not confirmed",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:26:39.031072+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/blanco-urban-venue-san-jose",
+        "https://blancourbanvenue.com"
+      ],
+      "review_reason": "Actual official Blanco San Pedro/San Jose operator body and profile reviewed; existing same property. Three floors are not three venues and capacities are not summed. Brochure link captured; full brochure review remains separate. No current price or clock inference."
     },
     {
       "id": "directory-lead-b338a0dbed7437",
@@ -204,10 +233,18 @@
       "county": "Santa Clara",
       "city": "San Jose",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "boulder-ridge-wedgewood-san-jose-santa-clara"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T04:32:14.419222+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/boulder-ridge-by-wedgewood-weddings-san-jose",
+        "https://www.wedgewoodweddings.com/boulderridge"
+      ],
+      "review_reason": "Official property at1000OldQuarryRoad,SanJose; do not merge with other Wedgewood properties on same domain. Packages listed BuildYourOwn105,Classic115,Premier145,Elite175perguest; ceremony and venue starting995each;22%admin plus applicable taxes and date/count minimums. These are distinct components, never an all-in quote. Effective year unknown from body; metadata validity not treated as event quote. Full package PDFs and room capacity still pending."
     },
     {
       "id": "directory-lead-f72b1a56c4839d",
@@ -225,10 +262,18 @@
       "county": "Alameda",
       "city": "Berkeley",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "tilden-regional-park-brazilian-room-contra-costa"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:26:39.031072+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/brazilian-room-at-tilden-regional-park-berkeley",
+        "https://www.ebparks.org/reservations/event-venues/brazilian-room"
+      ],
+      "review_reason": "Exact primary park district room/location and directory title reconcile to existing Brazilian Room; directory AlamedaCounty classification not adopted over retained ContraCosta/Tilden parcel scope. Berkeley is mailing location. Reservable hours to midnight not independent music or bar permission. Nov2026-March2027 SouthParkDrive closure needs alternate access, not venue closure."
     },
     {
       "id": "directory-lead-71e6741fdfab04",
@@ -278,12 +323,18 @@
       "county": "Alameda",
       "city": "Pleasanton",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
         "the-callippe-preserve-golf-course-alameda"
       ],
       "match_method": "Exact normalized name aid only; manual identity review still pending",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:46:30.214771+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/callippe-preserve-golf-course-pleasanton"
+      ],
+      "review_reason": "Actual named candidate profile and locality/space description compared against existing specific property records. PleasantonCallippePreserve golfcourse andVistaVeranda sameproperty;independentHCTGbodyalsoread. Duplicate identity only resolved; current fees, issued permissions and full room/document inventory remain open.",
+      "identity_review_source_kind": "wedding_vendor_directory"
     },
     {
       "id": "directory-lead-3348e53bdebfb3",
@@ -301,14 +352,20 @@
       "county": "Alameda",
       "city": "Pleasanton",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
         "casa-real-at-ruby-hill-winery-amber-room-alameda",
         "casa-real-at-ruby-hill-winery-grand-salon-alameda",
         "casa-real-at-ruby-hill-winery-sun-garden-alameda"
       ],
       "match_method": "Exact normalized name only; identity/branch not confirmed",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:26:39.031072+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/casa-real-at-ruby-hill-winery-pleasanton",
+        "https://www.casarealevents.com"
+      ],
+      "review_reason": "Directory exact CasaReal identity and current official named room family checked against existing property/room sources and tour. One parent property covers the current three room records; do not add a second venue from this profile or sum areas. Full permissions/package/date review remains."
     },
     {
       "id": "directory-lead-10b5341c3ea193",
@@ -326,7 +383,7 @@
       "county": "Alameda",
       "city": "Oakland",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
         "chabot-space-science-center-across-the-universe-package-alameda",
         "chabot-space-science-center-alameda",
@@ -356,7 +413,13 @@
         "chabot-space-science-center-written-in-the-stars-package-alameda"
       ],
       "match_method": "Exact normalized name only; identity/branch not confirmed",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:26:39.031072+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/chabot-space-science-center-oakland",
+        "https://chabotspace.org/visit/rent-chabot/"
+      ],
+      "review_reason": "Directory older private-events/weddings link failed; current known official rent-Chabot body reviewed as alternate. Exact Oakland Hills property and existing room/package family reconcile; prior completed packet audit not repeated or overwritten. Campus room/package limits remain independent; download/quote gaps separate."
     },
     {
       "id": "directory-lead-dda7e649bbfa9b",
@@ -374,12 +437,18 @@
       "county": "Santa Clara",
       "city": "San Jose",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
         "cinnabar-hills-golf-club-santa-clara"
       ],
       "match_method": "Exact normalized name only; identity/branch not confirmed",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:32:14.419222+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/cinnabar-hills-golf-club-san-jose",
+        "https://cinnabarhills.com/wedding-information/"
+      ],
+      "review_reason": "Actual official wedding page and homepage/structured address identify SanJose23600McKeanRd, rather than existing MorganHill city label. Correction retained as identity discrepancy pending applied geography update. Current wedding body explicitly200dinner+dance; includes in-house catering, tables/chairs/linens/flatware/glassware/staff/bartenders/setup/cleanup. Payment widget is not an inquiry;10minimum payment is not rental fee. No payment/terms touched."
     },
     {
       "id": "directory-lead-1cc4c632c433bb",
@@ -418,38 +487,18 @@
       "county": "Alameda",
       "city": "Berkeley",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
-        "claremont-resort-club-alameda",
-        "claremont-resort-club-alumni-alameda",
-        "claremont-resort-club-bayview-terrace-alameda",
-        "claremont-resort-club-boardroom-alameda",
-        "claremont-resort-club-claremont-ballroom-alameda",
-        "claremont-resort-club-empire-ballroom-alameda",
-        "claremont-resort-club-front-lawn-alameda",
-        "claremont-resort-club-garber-alameda",
-        "claremont-resort-club-garden-private-dining-alameda",
-        "claremont-resort-club-garden-room-alameda",
-        "claremont-resort-club-grizzly-peak-alameda",
-        "claremont-resort-club-hillary-tenzing-alameda",
-        "claremont-resort-club-lanai-alameda",
-        "claremont-resort-club-piedmont-alameda",
-        "claremont-resort-club-presidential-suite-alameda",
-        "claremont-resort-club-redwood-alameda",
-        "claremont-resort-club-rockridge-a-alameda",
-        "claremont-resort-club-rockridge-a-b-alameda",
-        "claremont-resort-club-rockridge-a-b-c-alameda",
-        "claremont-resort-club-rockridge-b-alameda",
-        "claremont-resort-club-rockridge-b-c-alameda",
-        "claremont-resort-club-rockridge-c-alameda",
-        "claremont-resort-club-secret-garden-alameda",
-        "claremont-resort-club-skyline-a-alameda",
-        "claremont-resort-club-skyline-a-b-alameda",
-        "claremont-resort-club-skyline-b-alameda",
-        "claremont-resort-club-temescal-alameda"
+        "claremont-resort-club-alameda"
       ],
       "match_method": "Exact normalized name only; identity/branch not confirmed",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:32:14.419222+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/claremont-resort-club-berkeley",
+        "https://claremontresortandclub.com/gather/venues/"
+      ],
+      "review_reason": "Exact named Claremont current official venue page reconciles existing parent; room-family records preserved.41TunnelRoad Berkeley mailing versus Oakland/parcel distinction remains explicit. Two grand ballrooms, function rooms and smaller dining areas are separate; generic30,000sqft not summed capacity. Property room-level floorplan audit retained."
     },
     {
       "id": "directory-lead-2d83d8961362a6",
@@ -488,10 +537,18 @@
       "county": "Contra Costa",
       "city": "Brentwood",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "club-los-meganos-trilogy-at-the-vineyards-contra-costa"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:32:14.419222+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/club-los-meganos-brentwood",
+        "https://www.mytrilogylife.com/vineyards/events-weddings/"
+      ],
+      "review_reason": "Reparse recovered full current operator body after empty-main failure. Exact ClubLosMeganos at1700TrilogyParkwayBrentwood, not another Trilogy. MountDiabloEventCenter max216, Lawn216, AbbyGourmetStudio60 are separate scopes; do not add or infer dinner+dance from max. Current brochure linked for later full reading; no capacity overwrite."
     },
     {
       "id": "directory-lead-2386b66dd07c41",
@@ -551,12 +608,18 @@
       "county": "Santa Clara",
       "city": "San Jose",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
         "corinthian-grand-ballroom-santa-clara"
       ],
       "match_method": "Exact normalized name only; identity/branch not confirmed",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:46:30.214771+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/corinthian-grand-ballroom-san-jose"
+      ],
+      "review_reason": "Actual named candidate profile and locality/space description compared against existing specific property records. SanJosedowntownCorinthianGrandBallroom/CorinthianEventCenter alias;independentHCTGprimaryidentitydescriptionread. Duplicate identity only resolved; current fees, issued permissions and full room/document inventory remain open.",
+      "identity_review_source_kind": "wedding_vendor_directory"
     },
     {
       "id": "directory-lead-1a0ef8cf5e5b2f",
@@ -616,10 +679,18 @@
       "county": "Alameda",
       "city": "Oakland",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "dunsmuir-hellman-historic-estate-oakland-alameda"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:46:30.214771+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/dunsmuir-hellman-historic-estate-oakland"
+      ],
+      "review_reason": "Actual named candidate profile and locality/space description compared against existing specific property records. ExactOaklandDunsmuirHellman namedestate;currentcityroutesfailed,directorymansion/gardenidentityread. Currentbookingtermsnotcleared. Duplicate identity only resolved; current fees, issued permissions and full room/document inventory remain open.",
+      "identity_review_source_kind": "wedding_vendor_directory"
     },
     {
       "id": "directory-lead-7da663e39b7c6a",
@@ -637,10 +708,18 @@
       "county": "Santa Clara",
       "city": "Gilroy",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "eagle-ridge-wedgewood-gilroy-santa-clara"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T04:32:14.419222+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/eagle-ridge-by-wedgewood-weddings-gilroy",
+        "https://www.wedgewoodweddings.com/eagleridge"
+      ],
+      "review_reason": "Official EagleRidge Gilroy countryclub venue, not BoulderRidge or another Wedgewood site. Ceremony/clubhouse architecture reviewed; package offer/ceremony/venue fee/admin/tax conditions still need full extraction and current contract. No numeric all-in or combined capacity imported."
     },
     {
       "id": "directory-lead-de6c911b3099f9",
@@ -658,10 +737,18 @@
       "county": "Alameda",
       "city": "Sunol",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "elliston-vineyards-sunol-alameda"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T04:32:14.419222+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/elliston-vineyards-sunol",
+        "https://elliston.com/weddings/"
+      ],
+      "review_reason": "Actual current official wedding navigation and published address read.2015testimonial is historical, not a present price/capacity. Follow actual HostingYourWedding menus/FAQ for current details; do not treat testimonials as issued event permission or cutoff."
     },
     {
       "id": "directory-lead-9e648055b1ec49",
@@ -679,10 +766,18 @@
       "county": "Alameda",
       "city": "Oakland",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "fairview-metropolitan-oakland-alameda"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T04:32:14.419222+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/fairview-metropolitan-oakland",
+        "https://www.fairviewevents.com/metropolitan"
+      ],
+      "review_reason": "Official current Oakland wedding page distinguishes50-225weddingoffer from structured250capacity/40-250description conflict. Do not silently pick250 or infer a330wedding. Published quote examples are perguest115plus count-based rentalfee, excludes tax/optionalgratuity, date minimums. Fivehourrental and listedsecurity/cake/DJ/serviceinclusions are package conditions; no all-in total imported."
     },
     {
       "id": "directory-lead-7a267cdc66f9d4",
@@ -700,10 +795,18 @@
       "county": "Santa Clara",
       "city": "Gilroy",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "fortino-winery-and-event-center-santa-clara"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:32:14.419222+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/fortino-winery-gilroy",
+        "https://www.fortinowinery.com/weddings/"
+      ],
+      "review_reason": "Actual official Fortino wedding page matches Gilroy existing property. Night narrative not a numeric music/event cutoff. Coordinator/catering/bridalroom/dancearea/bar listed; room/layout/prices require actual FAQ/menu reading. Do not overwrite current facts from testimonials."
     },
     {
       "id": "directory-lead-670f82beb87bbf",
@@ -721,10 +824,18 @@
       "county": "Santa Clara",
       "city": "Palo Alto",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "elizabeth-f-gamble-garden-palo-alto-santa-clara"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T04:32:14.419222+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/gamble-garden-palo-alto",
+        "https://www.gamblegarden.org/weddings-rentals/weddings/"
+      ],
+      "review_reason": "Official wedding rental advertises50guests with RoseGarden/Wisteria/TeaHousePatio ceremony and CarriageHouse/TeaHousePatio reception. Rental is section ropedoff, not whole-public-gardenexclusive. Weekdayevenings/weekends; eventinsurance required; linkedrates/contract/vendorlist not all read. Max50 is not dinner+dance/legal occupancy."
     },
     {
       "id": "directory-lead-5125a23d119f5f",
@@ -742,10 +853,18 @@
       "county": "Alameda",
       "city": "Livermore",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "bella-rosa-at-garr-vineyard-and-winery-alameda"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:46:30.214771+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/garre-vineyard-winery-livermore"
+      ],
+      "review_reason": "Actual named candidate profile and locality/space description compared against existing specific property records. LivermoreGarreestate explicitlynamesBellaRosa eventcenter;existingmasterroom belongsunderthisparent,notnewproperty. Directory370notimportedwithoutoperatorlayoutverification. Duplicate identity only resolved; current fees, issued permissions and full room/document inventory remain open.",
+      "identity_review_source_kind": "wedding_vendor_directory"
     },
     {
       "id": "directory-lead-5fafa6711f7359",
@@ -763,10 +882,18 @@
       "county": "Santa Clara",
       "city": "Gilroy",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "gilroy-lodge-on-the-hill-elks-1567-santa-clara"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T04:32:14.419222+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/gilroy-lodge-on-the-hill-gilroy",
+        "https://gilroylodgeonthehill.com/"
+      ],
+      "review_reason": "Official exact named venue and Elks1567 affiliation reviewed. Main site contains repeated heading/slider content, not many properties. BanquetRooms&Catering link captured; actual room inventory, membership/guest eligibility, capacity/charges and clocks remain unknown."
     },
     {
       "id": "directory-lead-33cac965e61d54",
@@ -784,10 +911,18 @@
       "county": "Santa Clara",
       "city": "Morgan Hill",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "guglielmo-winery-villa-emile-heritage-morgan-hill-santa-clara"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T04:32:14.419222+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/guglielmo-winery-morgan-hill",
+        "https://guglielmowinery.com/"
+      ],
+      "review_reason": "Reparse recovered whole primary homepage instead of only first eventcard. Current operator weddingoffering namesVillaEmile/HeritageRoom inMorganHill. Since1925winemaking is not firstweddingyear. Tasting11-5 is not wedding/music cutoff. WeddingPricingPamphlet gate and actualweddingpage remain to read; no unreviewed brochure facts imported."
     },
     {
       "id": "directory-lead-07aa64bf79c56c",
@@ -826,12 +961,18 @@
       "county": "Santa Clara",
       "city": "Saratoga",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
         "hakone-estate-and-gardens-santa-clara"
       ],
       "match_method": "Exact normalized name only; identity/branch not confirmed",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:46:30.214771+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/hakone-estate-and-gardens-saratoga"
+      ],
+      "review_reason": "Actual named candidate profile and locality/space description compared against existing specific property records. SaratogaHakone Japanese gardenestate;independentHCTGdescriptionsreviewed. Daytimepublichoursnotprivateweddingcurfew. Duplicate identity only resolved; current fees, issued permissions and full room/document inventory remain open.",
+      "identity_review_source_kind": "wedding_vendor_directory"
     },
     {
       "id": "directory-lead-bbdb19822c9c2b",
@@ -849,10 +990,18 @@
       "county": "Contra Costa",
       "city": "Brentwood",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "hannah-nicole-vineyards-winery-brentwood-contra-costa"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T04:39:35.748490+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/hannah-nicole-vineyards-winery-brentwood",
+        "https://www.hnvwines.com/"
+      ],
+      "review_reason": "Named operator and Brentwood directory identity reviewed; actual operator advertises private group events and bridal showers. Wedding ceremony/reception permission remains unknown until actual rental packages reviewed; do not infer from tasting hours."
     },
     {
       "id": "directory-lead-22f8cc196e8c84",
@@ -870,10 +1019,18 @@
       "county": "Santa Clara",
       "city": "San Jose",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "hayes-mansion-san-jose-curio-collection-by-hilton-santa-clara"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:39:35.748490+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/hayes-mansion-san-jose-san-jose",
+        "https://www.hayesmansion.com"
+      ],
+      "review_reason": "Same named estate in San Jose as existing hotel record. Generic 33000 square feet meeting space is not wedding capacity. Current wedding packets/room conditions not newly reviewed."
     },
     {
       "id": "directory-lead-de43e85f4df362",
@@ -891,10 +1048,18 @@
       "county": "Alameda",
       "city": "Berkeley",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "hillside-club-berkeley-alameda"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T04:39:35.748490+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/hillside-club-berkeley",
+        "https://www.hillsideclub.org/rentalhome"
+      ],
+      "review_reason": "Official Arts & Crafts clubhouse wedding rental at2286CedarStBerkeley. Operator separately150seatedperformance,120dinner,180standing. Do not treat120as dinner+dance or sum layouts. Floorplans,conditions,FAQ linked but pending full review."
     },
     {
       "id": "directory-lead-599c3e51390398",
@@ -912,28 +1077,19 @@
       "county": "Contra Costa",
       "city": "Concord",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
-        "hilton-concord-baldwin-room-contra-costa",
-        "hilton-concord-chabot-room-contra-costa",
-        "hilton-concord-club-room-1-contra-costa",
-        "hilton-concord-club-room-2-contra-costa",
-        "hilton-concord-courtyard-contra-costa",
         "hilton-concord-golden-gate-ballroom-contra-costa",
-        "hilton-concord-golden-gate-parlor-a-contra-costa",
-        "hilton-concord-golden-gate-parlor-b-contra-costa",
-        "hilton-concord-golden-gate-parlor-c-contra-costa",
-        "hilton-concord-golden-gate-parlor-d-contra-costa",
-        "hilton-concord-golden-gate-parlor-e-contra-costa",
-        "hilton-concord-park-room-contra-costa",
-        "hilton-concord-seminar-1-contra-costa",
-        "hilton-concord-seminar-2-contra-costa",
-        "hilton-concord-seminar-3-contra-costa",
-        "hilton-concord-seminar-4-contra-costa",
-        "hilton-concord-tilden-room-contra-costa"
+        "hilton-concord-courtyard-contra-costa"
       ],
       "match_method": "Exact normalized name only; identity/branch not confirmed",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:46:30.214771+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/hilton-concord-concord"
+      ],
+      "review_reason": "Actual named candidate profile and locality/space description compared against existing specific property records. ConcordhotelparentincludesexistingGoldenGateBallroom/Courtyard;directorywrongHiltonhotelcode404,currentknownrouteinmasterretained. NootherHiltonmerged. Duplicate identity only resolved; current fees, issued permissions and full room/document inventory remain open.",
+      "identity_review_source_kind": "wedding_vendor_directory"
     },
     {
       "id": "directory-lead-452d9ae26786af",
@@ -972,10 +1128,18 @@
       "county": "Santa Clara",
       "city": "Los Gatos",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "hotel-los-gatos-weddings-santa-clara"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T04:39:35.748490+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/hotel-los-gatos-los-gatos",
+        "https://www.hotellosgatos.com/weddings/"
+      ],
+      "review_reason": "Actual primary hotel wedding offering; custom catering and guestroom blocks advertised. Maximum100 generic not dinner+dance. Lower CTA erroneously says submitRFPtoCreeksideInn; preserve template/recipient conflict and do not submit/reroute until verified."
     },
     {
       "id": "directory-lead-d8c9783b23220b",
@@ -993,10 +1157,19 @@
       "county": "Santa Clara",
       "city": "Gilroy",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "la-vigna-hecker-pass-winery-gilroy-santa-clara"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T04:46:30.214771+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/la-vigna-event-center-at-hecker-pass-winery-gilroy",
+        "https://heckerpasswinery.com/about-la-vigna/"
+      ],
+      "review_reason": "Obsoleteoperatorroute404recoveredthroughcurrenthomepagepublishedAboutLaVignalink. Primaryindoor/coveredpatio/openpatio,bridalroom,bar,setup/service/cleanupadvertisedaspossiblepackageinclusions,notunconditionalallin. OperatorexplicitlyoutsideGilroycitylimitswithGilroymailingaddress;parceljurisdictionnotverified. Actualcustomquoteformunsubmitted;capacity/clocksunknown.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-b550ea6d92f814",
@@ -1014,10 +1187,18 @@
       "county": "Contra Costa",
       "city": "Lafayette",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "lafayette-park-hotel-spa-contra-costa"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T04:39:35.748490+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/lafayette-park-hotel-spa-lafayette",
+        "https://www.lafayetteparkhotel.com"
+      ],
+      "review_reason": "Exact hotel identity in Lafayette EastBay, distinct from public LafayettePark inSanFrancisco. Directory advertises weddings; current homepage body hospitality reviewed, primary wedding page/permission still pending. Hotel room deals not venue rental prices."
     },
     {
       "id": "directory-lead-3946acc5ef79f2",
@@ -1035,10 +1216,18 @@
       "county": "Contra Costa",
       "city": "Lafayette",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "lafayette-veterans-memorial-center-contra-costa"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T04:39:35.748490+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/lafayette-veterans-memorial-center-lafayette",
+        "https://www.lafayetteveterans.org/"
+      ],
+      "review_reason": "Actual operator clubhouse and wedding offering reconciled. RentalInfo,FAQ,floorplans linked; rates are quote-based on homepage. No numeric fee or capacity invented."
     },
     {
       "id": "directory-lead-1c8b3b532325be",
@@ -1056,10 +1245,18 @@
       "county": "Alameda",
       "city": "Oakland",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "lake-merritt-sailboat-house-oakland-alameda"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:46:30.214771+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/lake-merritt-sailboat-house-oakland"
+      ],
+      "review_reason": "Actual named candidate profile and locality/space description compared against existing specific property records. ExactOaklandcitylakesidesailboathousebanquet/terrace/kitchen;distinctfromTerraceRoomLakeMerrittHotel. Oldcitypathfailed,currenttermsremainseparate. Duplicate identity only resolved; current fees, issued permissions and full room/document inventory remain open.",
+      "identity_review_source_kind": "wedding_vendor_directory"
     },
     {
       "id": "directory-lead-a7ce3cf62382dd",
@@ -1077,10 +1274,18 @@
       "county": "Santa Clara",
       "city": "Los Altos",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "los-altos-history-museum-wedding-rental-santa-clara"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T04:39:35.748490+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/los-altos-history-museum-los-altos",
+        "https://www.losaltoshistory.org/rent/"
+      ],
+      "review_reason": "Current primary wedding rental season firstweekendMay throughfirstweekendOctober; vendorarrival3pm,earliestevent5pm. Standard event10pm/cleanup11pm; optionalhour event11pm/cleanupmidnight. Midnightcleanup is not midnightmusic. Friday/Sunday7000booking+500nonrefundableapplication+1300security/rentalsdeposit=8800cashschedule; optionalhour500; rentalsTBD. Deposit not silentlytreatednonrefundablecost; noallin. Saturday/fulltermscontinue below reviewed excerpt."
     },
     {
       "id": "directory-lead-1ea95e7e43139b",
@@ -1130,12 +1335,18 @@
       "county": "Santa Clara",
       "city": "Saratoga",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
         "montalvo-arts-center-santa-clara"
       ],
       "match_method": "Exact normalized name only; identity/branch not confirmed",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:39:35.748490+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/montalvo-arts-center-saratoga",
+        "https://montalvoarts.org"
+      ],
+      "review_reason": "Same named MontalvoArtsCenter/VillaMontalvo estate, existingidentity preserved. Concert tickets not wedding rental charges; follow actual wedding and venue packet separately."
     },
     {
       "id": "directory-lead-3c8a1ef9490b5c",
@@ -1153,12 +1364,18 @@
       "county": "Alameda",
       "city": "Sunol",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
         "nella-terra-cellars-alameda"
       ],
       "match_method": "Exact normalized name only; identity/branch not confirmed",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:39:35.748490+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/nella-terra-cellars-sunol",
+        "https://www.nellaterra.com"
+      ],
+      "review_reason": "Exact NellaTerra Sunol winery/estate match; tasting-roomreservationtimes not eventcurfews. Tent,gardens,vineyard venueoffering,preferredvendors advertised; complete charges/conditions remain pending."
     },
     {
       "id": "directory-lead-1b6ad4d9fc66d0",
@@ -1176,16 +1393,19 @@
       "county": "Alameda",
       "city": "Oakland",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
         "oakland-museum-of-california-garden-alameda",
-        "oakland-museum-of-california-james-moore-theater-alameda",
-        "oakland-museum-of-california-lillie-education-center-alameda",
-        "oakland-museum-of-california-peace-terrace-alameda",
-        "oakland-museum-of-california-town-fare-cafe-alameda"
+        "oakland-museum-of-california-peace-terrace-alameda"
       ],
       "match_method": "Exact normalized name only; identity/branch not confirmed",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:46:30.214771+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/oakland-museum-of-california-oakland"
+      ],
+      "review_reason": "Actual named candidate profile and locality/space description compared against existing specific property records. ExactOMCAOaklandparent;currentprimaryTownFareandAlternativeVenuesbodyread,café200meal/Garden700mealvs300ceremony+meal differentconditions. No roomcapacitysumorblanket700weddingapproval. Duplicate identity only resolved; current fees, issued permissions and full room/document inventory remain open.",
+      "identity_review_source_kind": "wedding_vendor_directory"
     },
     {
       "id": "directory-lead-b47f35cbbbf89c",
@@ -1245,10 +1465,18 @@
       "county": "Alameda",
       "city": "Pleasanton",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "palm-event-center"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:39:35.748490+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/palm-event-center-in-the-vineyard-pleasanton",
+        "https://www.palmeventcenter.com"
+      ],
+      "review_reason": "Exact Palm EventCenter Pleasanton address and operator reviewed, distinct from CasaReal despite commonmanagement/nearbywinery. Existing2027pricingdocumentaudit preserved,notrepeated. Layout/room facts not summed."
     },
     {
       "id": "directory-lead-6da46eefc7f596",
@@ -1266,10 +1494,18 @@
       "county": "Alameda",
       "city": "Fremont",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "paradise-ballrooms-fremont-alameda"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T04:39:35.748490+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/paradise-ballrooms-fremont",
+        "https://paradiseballrooms.com/"
+      ],
+      "review_reason": "One parent withParadiseandMirageballrooms,not twoindependent duplicateoutreachproperties. Operator150–1000combinedmaximum not1000dinner+dance. Setup,linens,china,catering,staffing,cleanup advertised. Separate roomfloorplans,prices,clocks remain unknown."
     },
     {
       "id": "directory-lead-4f7b1f5f5c8c10",
@@ -1287,15 +1523,19 @@
       "county": "Alameda",
       "city": "Piedmont",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
         "piedmont-community-hall-alameda",
-        "piedmont-community-hall-amphitheater-alameda",
-        "piedmont-exedra-plaza-fountain-alameda",
-        "piedmont-japanese-tea-house-alameda"
+        "piedmont-community-hall-amphitheater-alameda"
       ],
       "match_method": "Exact normalized name only; identity/branch not confirmed",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:46:30.214771+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/piedmont-community-hall-piedmont"
+      ],
+      "review_reason": "Actual named candidate profile and locality/space description compared against existing specific property records. ExactPiedmontcityhallcampus;actualcitypage200outdoor/120indoor andamphitheater120patio+80bleachers read. Keepceremonyvsdinnerandrainbackupdistinct. Duplicate identity only resolved; current fees, issued permissions and full room/document inventory remain open.",
+      "identity_review_source_kind": "wedding_vendor_directory"
     },
     {
       "id": "directory-lead-647fa8f6974acb",
@@ -1313,10 +1553,18 @@
       "county": "Contra Costa",
       "city": "Pleasant Hill",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "pleasant-hill-community-center-pleasant-hill-contra-costa"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:46:30.214771+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/pleasant-hill-community-center-pleasant-hill"
+      ],
+      "review_reason": "Actual named candidate profile and locality/space description compared against existing specific property records. SamePleasantHillCommunityCenter at320CivicDrive;actualdistrictfacilitiesinventoryread. OtherSenior/Teen/Winslow/RodgersRanchsitesnotmergedbecauseoneshareddomain. Duplicate identity only resolved; current fees, issued permissions and full room/document inventory remain open.",
+      "identity_review_source_kind": "wedding_vendor_directory"
     },
     {
       "id": "directory-lead-1b6e9517275d99",
@@ -1334,12 +1582,18 @@
       "county": "Alameda",
       "city": "Oakland",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
         "preservation-park-alameda"
       ],
       "match_method": "Exact normalized name only; identity/branch not confirmed",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:39:35.748490+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/preservation-park-oakland",
+        "https://www.preservationpark.com/"
+      ],
+      "review_reason": "Same Oakland historiccampus as existing record; management attributedEBALDC bycurrentoperator. Multiplehouses/roomsneedseparatescopes,notwholecampuscapacity. Prices/clocksunreviewed."
     },
     {
       "id": "directory-lead-b57749a0b19597",
@@ -1357,10 +1611,18 @@
       "county": "Alameda",
       "city": "Livermore",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "the-purple-orchid-wine-country-resort-and-spa-alameda"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:39:35.748490+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/purple-orchid-wine-country-resort-spa-livermore",
+        "https://www.purpleorchid.com/weddings/"
+      ],
+      "review_reason": "Current named Livermore resortweddingoffer exactmatch. Overnightstay describedasoption,notevidencemandatorybuyout. Tenseparatehotelroomsnotcapacity. No newfee/layoutinference."
     },
     {
       "id": "directory-lead-1a8f513d294bc7",
@@ -1378,12 +1640,18 @@
       "county": "Santa Clara",
       "city": "Mountain View",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
         "rengstorff-house-santa-clara"
       ],
       "match_method": "Exact normalized name only; identity/branch not confirmed",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:46:30.214771+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/rengstorff-house-mountain-view"
+      ],
+      "review_reason": "Actual named candidate profile and locality/space description compared against existing specific property records. ExactMountainViewShoreline restoredVictorianRengstorffHouse;independentHCTGbodyread. Oldcityroute404notpropertyclosure. Duplicate identity only resolved; current fees, issued permissions and full room/document inventory remain open.",
+      "identity_review_source_kind": "wedding_vendor_directory"
     },
     {
       "id": "directory-lead-a337c86a648baf",
@@ -1443,10 +1711,18 @@
       "county": "Santa Clara",
       "city": "San Jose",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "city-hall-rotunda-city-hall-rotunda-santa-clara"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:46:30.214771+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/san-jose-city-hall-rotunda-san-jose"
+      ],
+      "review_reason": "Actual named candidate profile and locality/space description compared against existing specific property records. ActualSanJoseciviccenterglassrotunda;existing200EastSantaClaraStreetroom,notWalnutCreekMarriottroomnamedSanJose. Plazasnotautomaticallyincluded. Duplicate identity only resolved; current fees, issued permissions and full room/document inventory remain open.",
+      "identity_review_source_kind": "wedding_vendor_directory"
     },
     {
       "id": "directory-lead-7056ea177ff41b",
@@ -1464,10 +1740,18 @@
       "county": "Santa Clara",
       "city": "San Jose",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "san-jose-museum-of-art-event-rental-santa-clara"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T04:39:35.748490+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/san-jose-museum-of-art-san-jose",
+        "https://sjmusart.org/plan-your-event"
+      ],
+      "review_reason": "Actual museum wedding/privatepartyoffer.400genericmuseum/600withCircleofPalmsadd-on,not600indoordinnerdanceorautomaticpublicplazapermission. Separate daytime/eveningpackages pending. Politicalcampaignandothernonprofitfundraiserrestrictions not blanketweddingban."
     },
     {
       "id": "directory-lead-890e59f9804f9d",
@@ -1485,10 +1769,18 @@
       "county": "Santa Clara",
       "city": "San Jose",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "san-jose-womans-club-historic-venue-santa-clara"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T04:39:35.748490+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/san-jose-woman-s-club-san-jose",
+        "https://sjwomansclub.org/historicvenuerental/"
+      ],
+      "review_reason": "Actual operator historicvenue supports200generic,3000sqftballroom,flexibleroomselectionflat-rate butdollaramountunknown. Ceremonydiscussed andweddingdirectorysupportspermission. Caterercoordinatedbyclient; actualvendor/licensingconditionspending. NotWalnutCreekMarriottSanJoseroom,despitebadfuzzysuggestion."
     },
     {
       "id": "directory-lead-cdfcf94473565a",
@@ -1506,10 +1798,18 @@
       "county": "Contra Costa",
       "city": "San Ramon",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "san-ramon-golf-club-wedgewood-contra-costa"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T04:39:35.748490+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/san-ramon-golf-club-san-ramon",
+        "https://golfsanramon.com/contra-costa-wedding-venue/"
+      ],
+      "review_reason": "Exact golfproperty and exclusiveweddingoperator. Whitegazebo,lakesideceremony,grandbanquetroom,builtinbar/dancefloor. Do notmergewithBridgesorotherWedgewoodvenues. Currentpackages/capacityunknown."
     },
     {
       "id": "directory-lead-1950e89633a038",
@@ -1527,12 +1827,18 @@
       "county": "Santa Clara",
       "city": "Saratoga",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
         "sanborn-county-park-sequoia-peterson-grove-santa-clara"
       ],
       "match_method": "Exact normalized name only; identity/branch not confirmed",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:46:30.214771+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/sanborn-county-park-saratoga"
+      ],
+      "review_reason": "Actual named candidate profile and locality/space description compared against existing specific property records. SameSaratogaareaSanbornCountyParkPetersonGrove. DirectoryadditionalCostanoan/Ohlonesitesremaininventoryleads,notverifiedweddingpermissions. Parkthousandsacresnotcapacity. Duplicate identity only resolved; current fees, issued permissions and full room/document inventory remain open.",
+      "identity_review_source_kind": "wedding_vendor_directory"
     },
     {
       "id": "directory-lead-385e382d966f6c",
@@ -1550,10 +1856,18 @@
       "county": "Santa Clara",
       "city": "Saratoga",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "saratoga-springs-events-weddings-santa-clara"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T04:39:35.748490+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/saratoga-springs-saratoga",
+        "https://www.saratoga-springs.com"
+      ],
+      "review_reason": "Actual named operator and address confirmed. FiveprivategrovesLongbridge,Hilltop,CathedralGrove,RedwoodGrove,SaratogaCove plusCreeksideRoomneedindividualreview.50–2000genericpicnicspacesnot2000weddingdinnerdance. Oldestcontinuouslyoperatingclaim remainsoperatorassertion,notindependentlyverifiedhistoricalfact."
     },
     {
       "id": "directory-lead-49e21d5953e577",
@@ -1571,12 +1885,18 @@
       "county": "Alameda",
       "city": "Oakland",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
         "sequoyah-country-club-alameda"
       ],
       "match_method": "Exact normalized name only; identity/branch not confirmed",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:46:30.214771+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/sequoyah-country-club-oakland"
+      ],
+      "review_reason": "Actual named candidate profile and locality/space description compared against existing specific property records. SameOaklandHillsSequoyahgolfclub,TerraceLawn/BayRoom/TerraceRoom;independentHCTGbodyread. Restrictedoperatorfetchnotvenueclosed. Duplicate identity only resolved; current fees, issued permissions and full room/document inventory remain open.",
+      "identity_review_source_kind": "wedding_vendor_directory"
     },
     {
       "id": "directory-lead-adc1118344e79c",
@@ -1594,10 +1914,19 @@
       "county": "Contra Costa",
       "city": "Brentwood",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "shadow-lakes-club-brentwood-contra-costa"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T04:46:30.214771+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/shadow-lakes-club-brentwood",
+        "https://www.shadowlakesclub.com/weddings"
+      ],
+      "review_reason": "Oldshadowlakesgolfdomainrequestfailed;currentofficialshadowlakesclubweddingpagerecovered.401WCountryClubDrBrentwood. Indoor150diningonly,not150dinnerdance;CeremonyLawn,EventLawn,Patio,EventCenteroneproperty. Primarycurrent18holeclaimcontradictsdirectory9holecopy,notusedforcapacity. No formsubmission.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-7717dfd0439053",
@@ -1615,10 +1944,18 @@
       "county": "Alameda",
       "city": "Sunol",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "sunols-casa-bella-alameda"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T04:39:35.748490+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/sunol-s-casa-bella-sunol",
+        "https://sunolscasabella.com/"
+      ],
+      "review_reason": "Current named Sunol CasaBella weddingoffering, distinctfromCasaRealPleasanton. Ballroom,Galleria,ceremonygroundsoneparent. Testimonialsabouttacotrucknotcurrentoutsidecateringpermission. No capacityorpriceassumed."
     },
     {
       "id": "directory-lead-841a17e04bf672",
@@ -1636,12 +1973,18 @@
       "county": "Contra Costa",
       "city": "San Ramon",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
         "the-bridges-golf-club-contra-costa"
       ],
       "match_method": "Exact normalized name only; identity/branch not confirmed",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:46:30.214771+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/the-bridges-golf-club-san-ramon"
+      ],
+      "review_reason": "Actual named candidate profile and locality/space description compared against existing specific property records. SameSanRamonBridgesgolfproperty;independentHCTGViewRoom/Fireside/GardenPavilionbodyread. NotSanRamonGolfClub/WedgewoodSanRamon. Duplicate identity only resolved; current fees, issued permissions and full room/document inventory remain open.",
+      "identity_review_source_kind": "wedding_vendor_directory"
     },
     {
       "id": "directory-lead-c09eac1ac00a27",
@@ -1680,12 +2023,18 @@
       "county": "Alameda",
       "city": "Pleasanton",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
         "the-club-at-ruby-hill-alameda"
       ],
       "match_method": "Exact normalized name only; identity/branch not confirmed",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:39:35.748490+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/the-club-at-ruby-hill-pleasanton",
+        "https://arcisgolf.com/clubs/the_club_at_ruby_hill/home"
+      ],
+      "review_reason": "Exact ArcisGolfoperatedRubyHillPleasantoncountryclub match.225acresnotcapacityandpublicteetimereservationnotprivateeventpermission. Currentweddingnavlinked,fullmembership/eventrulespending."
     },
     {
       "id": "directory-lead-2534fc7faa9cc2",
@@ -1703,12 +2052,18 @@
       "county": "Contra Costa",
       "city": "Walnut Creek",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
         "the-clubhouse-at-boundary-oak-contra-costa"
       ],
       "match_method": "Exact normalized name only; identity/branch not confirmed",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:39:35.748490+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/the-clubhouse-at-boundary-oak-walnut-creek",
+        "https://www.playboundaryoak.com/hosting-an-event"
+      ],
+      "review_reason": "Same BoundaryOak operator domain and namedprimaryheading; shortpage links currentweddings-events. Minimumsnotquantified; publicphotographercontactnotvenuecontact. No newrateorcurfewinvented."
     },
     {
       "id": "directory-lead-12c49625b331d4",
@@ -1726,10 +2081,18 @@
       "county": "Alameda",
       "city": "Berkeley",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "the-faculty-club-alameda"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:46:30.214771+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/the-faculty-club-at-uc-berkeley-berkeley"
+      ],
+      "review_reason": "Actual named candidate profile and locality/space description compared against existing specific property records. SameUC BerkeleyFacultyClub besideStrawberryCreek;independentHCTGGreatHall/Seaborg/Heyns/Gladebodyread. Distinctfacultywomenclubnotmerged. Duplicate identity only resolved; current fees, issued permissions and full room/document inventory remain open.",
+      "identity_review_source_kind": "wedding_vendor_directory"
     },
     {
       "id": "directory-lead-81cf7c666f08ec",
@@ -1747,12 +2110,18 @@
       "county": "Contra Costa",
       "city": "Walnut Creek",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
         "the-gardens-at-heather-farm-contra-costa"
       ],
       "match_method": "Exact normalized name only; identity/branch not confirmed",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:39:35.748490+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/the-gardens-at-heather-farm-walnut-creek",
+        "https://gardenshf.org"
+      ],
+      "review_reason": "Actual current nonprofitgarden and weddingnavigation matchesexistingparent. Publicopeninghoursnotexclusivebookingrights or eventdeadlines. Garden/indoorroom capacitiesremainseparatescopes."
     },
     {
       "id": "directory-lead-28118c89cdf022",
@@ -1791,10 +2160,18 @@
       "county": "Santa Clara",
       "city": "Saratoga",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "the-mountain-winery-saratoga-santa-clara"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T04:39:35.748490+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/the-mountain-winery-saratoga",
+        "https://www.mountainwinery.com/weddings/"
+      ],
+      "review_reason": "Current operatorweddingpage advertisesup to400overalland400seatedceremonies; these arenotproof400seateddinner+dance. Outsidecateringflexibility andfireceremonywithrestrictions; actualapprovedvendors,spaces,fees/curfewsrequirepackage/contractreview. Do notdropduetomusicunknown."
     },
     {
       "id": "directory-lead-4a8e6a717968d8",
@@ -1812,10 +2189,18 @@
       "county": "Santa Clara",
       "city": "San Jose",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "ranch-at-silver-creek-wedgewood-san-jose-santa-clara"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T04:39:35.748490+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/the-ranch-at-silver-creek-by-wedgewood-weddings-san-jose",
+        "https://www.wedgewoodweddings.com/ranchsilvercreek"
+      ],
+      "review_reason": "Distinct namedSanJoseproperty,notBoulderRidgeorEagleRidge. Ceremonygarden,ballroom,wraparoundterraceoneparent. Classic117perguestexcerpt notallin; ceremony/rental/admin/tax/minimums not yetfullyread, no totalpriceinvented."
     },
     {
       "id": "directory-lead-73c4d81c574255",
@@ -1854,10 +2239,18 @@
       "county": "Alameda",
       "city": "Oakland",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "the-terrace-room-at-the-lake-merritt-alameda"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:39:35.748490+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/the-terrace-room-at-lake-merritt-oakland",
+        "https://www.theterraceroomevents.com/"
+      ],
+      "review_reason": "Exact lakefronthotelTerraceRoom parentmatch inOakland. Primaryweddings,inhousecatering/fullbar,multiplerooms; notLakeMerrittSailboatHouse.1927buildingassertionnotindependentlyverified. No all-in frommarketinglabel."
     },
     {
       "id": "directory-lead-cec861c009f2c1",
@@ -1875,10 +2268,18 @@
       "county": "Santa Clara",
       "city": "Santa Clara",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "triton-museum-of-art-santa-clara"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T04:39:35.748490+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/triton-museum-of-art-santa-clara",
+        "https://www.tritonmuseum.org/rentals"
+      ],
+      "review_reason": "Current namedmuseumweddingoffer verified; StartHereinquiryrouteunsubmitted. Complete rooms,capacities,catering,prices/curfewsunknown; retain as actualvenuelead,notcompleteresearch."
     },
     {
       "id": "directory-lead-1b7956df11685b",
@@ -1896,10 +2297,19 @@
       "county": "Alameda",
       "city": "Berkeley",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "uc-botanical-garden-alameda",
+        "uc-botanical-garden-redwood-grove-amphitheater-ceremony-only-alameda"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:39:35.748490+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/uc-botanical-garden-at-berkeley-berkeley",
+        "https://botanicalgarden.berkeley.edu/private-rentals/weddings/"
+      ],
+      "review_reason": "Exact UCgardenparentfamily;200ceremony vs82reception scope mustremain separate. Currentpricingrangespackagesnotallin. Existingreviewedsourceconflictsretained."
     },
     {
       "id": "directory-lead-974cae3d1816f9",
@@ -1917,10 +2327,18 @@
       "county": "Santa Clara",
       "city": "Campbell",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "villa-ragusa-campbell-santa-clara"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T04:39:35.748490+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/villa-ragusa-campbell",
+        "https://villaragusa.com/"
+      ],
+      "review_reason": "CurrentnamedCampbellbanquethallwithresizablerooms,12000sqft,generic650celebrationnot650dinnerdance. Inhouseandoutsidecateringoffered,requiredlicenses/kitchenfees/roompartitionspending. FacilityInfo/menu linksactualdocumentsneedreview."
     },
     {
       "id": "directory-lead-b58be1fc4af2c0",
@@ -1938,10 +2356,19 @@
       "county": "Alameda",
       "city": "Livermore",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "wente-family-vineyards-cresta-blanca-room-alameda",
+        "wente-family-vineyards-terrace-lawn-alameda"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:46:30.214771+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/wente-vineyards-livermore"
+      ],
+      "review_reason": "Actual named candidate profile and locality/space description compared against existing specific property records. CurrentWenteFamilyVineyards weddingpageactuallyread;matchesLivermore5050ArroyoRoadexistingroomfamily. Current2026/2027packageslinked;priorpacketreviewpreserved,notassumedreviewedagain. Duplicate identity only resolved; current fees, issued permissions and full room/document inventory remain open.",
+      "identity_review_source_kind": "wedding_vendor_directory"
     },
     {
       "id": "directory-lead-8f449d58162eb7",
@@ -1959,10 +2386,18 @@
       "county": "Contra Costa",
       "city": "Lafayette",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "wildwood-acres-contra-costa"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:39:35.748490+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/wildwood-acres-resort-lafayette",
+        "https://www.wildwoodacres.com/"
+      ],
+      "review_reason": "Exact Lafayettecanyonpropertyaddressmatch. Outdoorseasonal/indooryearround separate; datedOctober13openhousealreadyhistoricalbycheckdate,notfutureavailability. Existingweddingpagecontinuationnotnewoutreach."
     },
     {
       "id": "directory-lead-25045125c870d0",
@@ -2766,10 +3201,18 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "monroe-private-events-san-francisco"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T04:23:24.144323+00:00",
+      "review_source_urls": [
+        "https://giggster.com/listing/art-deco-mod-old-hollywood-event-venue",
+        "https://www.monroesf.com/private-events/"
+      ],
+      "review_reason": "Anonymous Art Deco platform description names Monroe; actual official page and public address inspected. Operator groups 25 to 200+ is not a numeric maximum or dinner/dance figure. Platform 250 standing/sitting conflicts with generic operator range and is not applied. Full buyout, Deco, Peacock and Avedon lounge are one parent family, not additive capacity. Independent music/bar/guest/cleanup clocks and current all-in costs unknown."
     },
     {
       "id": "directory-lead-9c261b9479fda3",
@@ -2787,10 +3230,18 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "noria-wines-berkeley-alameda"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T04:23:24.144323+00:00",
+      "review_source_urls": [
+        "https://giggster.com/listing/urban-winery",
+        "https://www.noriawines.com/visit-us"
+      ],
+      "review_reason": "Platform Urban Winery body explicitly gives 725 Gilman Unit A and noriawines.com; current static operator bytes confirm exact tasting-room address but load only footer, not the full private-event section seen in search text. Platform event offering retained as platform claim. Do not promote search snippet to current operator wedding permission. Platform sitting/standing80 not verified dinner/dance/legal occupancy; weekend daytime2-6 restriction is platform-scoped, not all venue closing time. Operator rendered content remains to inspect."
     },
     {
       "id": "directory-lead-03726acc0a6ce8",
@@ -2808,10 +3259,18 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "plant-connection-sf-san-francisco"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:23:24.144323+00:00",
+      "review_source_urls": [
+        "https://giggster.com/listing/urban-oasis-with-lush-patio-in-the-heart-of-sf",
+        "https://www.plantconnectionsf.com/event-rentals"
+      ],
+      "review_reason": "Platform anonymous urban oasis body names Plant Connection SF; operator confirms same nursery/indoor-outdoor venue. Platform96standing/60seated differs from operator85combined and approximately45eacharea. Retain conflict; no summed dinner+dance or legal occupancy. Rates are component fees:3hour minimum,200/hour1-15 or350/hour16-85;2500eight-hourday;10%gratuity for after6PM or weekend rental fees. No all-in total. Business hours10-6 and response hours not music/event cutoffs."
     },
     {
       "id": "directory-lead-68de6e6fa28459",
@@ -2829,10 +3288,15 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Reviewed platform listing; physical-property identity cannot be verified from published information; unresolved blocker",
       "matched_record_ids": [],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "blocked",
+      "reviewed_utc": "2026-11-12T04:26:39.031072+00:00",
+      "review_source_urls": [
+        "https://giggster.com/listing/mill-valley-modern-masterpiece"
+      ],
+      "review_reason": "Actual public platform listing body reviewed, including published city and activity description. Exact location is explicitly provided only after booking; no public operator/property identity establishes cross-platform parent-property deduplication. Do not deanonymize a private home, book or contact merely to obtain its address. Listing retained with original stable platform URL. Wedding-specific permission, occupancy, total charges and independent clocks remain unknown; not excluded by size, price or closing time."
     },
     {
       "id": "directory-lead-d218164f141a6a",
@@ -2850,10 +3314,15 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Reviewed platform listing; physical-property identity cannot be verified from published information; unresolved blocker",
       "matched_record_ids": [],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "blocked",
+      "reviewed_utc": "2026-11-12T04:26:39.031072+00:00",
+      "review_source_urls": [
+        "https://giggster.com/listing/mill-valley-beauty"
+      ],
+      "review_reason": "Actual public platform listing body reviewed, including published city and activity description. Exact location is explicitly provided only after booking; no public operator/property identity establishes cross-platform parent-property deduplication. Do not deanonymize a private home, book or contact merely to obtain its address. Listing retained with original stable platform URL. Wedding-specific permission, occupancy, total charges and independent clocks remain unknown; not excluded by size, price or closing time."
     },
     {
       "id": "directory-lead-2ac04f6bd5c366",
@@ -2892,10 +3361,15 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Reviewed platform listing; physical-property identity cannot be verified from published information; unresolved blocker",
       "matched_record_ids": [],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "blocked",
+      "reviewed_utc": "2026-11-12T04:26:39.031072+00:00",
+      "review_source_urls": [
+        "https://giggster.com/listing/stunning-indoor-outdoor-luxury-home"
+      ],
+      "review_reason": "Actual public platform listing body reviewed, including published city and activity description. Exact location is explicitly provided only after booking; no public operator/property identity establishes cross-platform parent-property deduplication. Do not deanonymize a private home, book or contact merely to obtain its address. Listing retained with original stable platform URL. Wedding-specific permission, occupancy, total charges and independent clocks remain unknown; not excluded by size, price or closing time."
     },
     {
       "id": "directory-lead-c9f8d8112b615d",
@@ -2913,10 +3387,15 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Reviewed platform listing; physical-property identity cannot be verified from published information; unresolved blocker",
       "matched_record_ids": [],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "blocked",
+      "reviewed_utc": "2026-11-12T04:26:39.031072+00:00",
+      "review_source_urls": [
+        "https://giggster.com/listing/outer-sunset-san-francisco"
+      ],
+      "review_reason": "Actual public platform listing body reviewed, including published city and activity description. Exact location is explicitly provided only after booking; no public operator/property identity establishes cross-platform parent-property deduplication. Do not deanonymize a private home, book or contact merely to obtain its address. Listing retained with original stable platform URL. Wedding-specific permission, occupancy, total charges and independent clocks remain unknown; not excluded by size, price or closing time."
     },
     {
       "id": "directory-lead-e398dbb0f609e3",
@@ -2976,10 +3455,15 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Reviewed platform listing; physical-property identity cannot be verified from published information; unresolved blocker",
       "matched_record_ids": [],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "blocked",
+      "reviewed_utc": "2026-11-12T04:26:39.031072+00:00",
+      "review_source_urls": [
+        "https://giggster.com/listing/spacious-stunning-ranch-resort-style-home-yard"
+      ],
+      "review_reason": "Actual public platform listing body reviewed, including published city and activity description. Exact location is explicitly provided only after booking; no public operator/property identity establishes cross-platform parent-property deduplication. Do not deanonymize a private home, book or contact merely to obtain its address. Listing retained with original stable platform URL. Wedding-specific permission, occupancy, total charges and independent clocks remain unknown; not excluded by size, price or closing time."
     },
     {
       "id": "directory-lead-d4db9ce9f6f266",
@@ -3039,10 +3523,18 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "cheaper-than-therapy-event-space-san-francisco"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T04:23:24.144323+00:00",
+      "review_source_urls": [
+        "https://giggster.com/listing/historic-independent-theater-arts-community",
+        "https://cttcomedy.com/event-space/"
+      ],
+      "review_reason": "Exact current official event-space operator names Cheaper Than Therapy, not The Independent despite misleading platform SEO title. Operator audience107 is theater seating, not dinner or combined theater sum. Platform describes two theaters75/60; do not sum into wedding capacity. Private celebrations advertised but wedding-specific permission unconfirmed. Quote depends on duration, bar, attendance, staff and services. Sound, stage lighting and flexible seating included; actual inventory/mandatory charges unknown."
     },
     {
       "id": "directory-lead-e8dff01fb7ca19",
@@ -3102,10 +3594,15 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Reviewed platform listing; physical-property identity cannot be verified from published information; unresolved blocker",
       "matched_record_ids": [],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "blocked",
+      "reviewed_utc": "2026-11-12T04:26:39.031072+00:00",
+      "review_source_urls": [
+        "https://giggster.com/listing/luxe-modern-bright-victorian-duplex-w-barn"
+      ],
+      "review_reason": "Actual public platform listing body reviewed, including published city and activity description. Exact location is explicitly provided only after booking; no public operator/property identity establishes cross-platform parent-property deduplication. Do not deanonymize a private home, book or contact merely to obtain its address. Listing retained with original stable platform URL. Wedding-specific permission, occupancy, total charges and independent clocks remain unknown; not excluded by size, price or closing time."
     },
     {
       "id": "directory-lead-92d3d1cb410c0b",
@@ -3123,10 +3620,15 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Reviewed platform listing; physical-property identity cannot be verified from published information; unresolved blocker",
       "matched_record_ids": [],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "blocked",
+      "reviewed_utc": "2026-11-12T04:26:39.031072+00:00",
+      "review_source_urls": [
+        "https://giggster.com/listing/backyard-with-full-grill-and-party-room"
+      ],
+      "review_reason": "Actual public platform listing body reviewed, including published city and activity description. Exact location is explicitly provided only after booking; no public operator/property identity establishes cross-platform parent-property deduplication. Do not deanonymize a private home, book or contact merely to obtain its address. Listing retained with original stable platform URL. Wedding-specific permission, occupancy, total charges and independent clocks remain unknown; not excluded by size, price or closing time."
     },
     {
       "id": "directory-lead-96540258db2d92",
@@ -3165,10 +3667,18 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped identity/operator review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "lovely-day-oakland-alameda"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T04:23:24.144323+00:00",
+      "review_source_urls": [
+        "https://giggster.com/listing/renovated-modern-warehouse",
+        "https://lovelydayoakland.com/faq"
+      ],
+      "review_reason": "Platform Renovated Modern Warehouse describes Longfellow railway car barn; official Lovely Day current FAQ and public loading address identify named operator/site. Platform500standing/300sitting versus operator280standing/210dining total: retain scope conflict, no automatic500guest venue or combined dinner+dance eligibility. Typical6hblock includes2hloadin,3hevent,1hloadout. Event ending negotiable; last loadout1hourafter event, independent music/bar clocks unknown. Insurance for renter and vendors; kitchen availability conditional. Rates2000Mon-Wed,2500Thu/Sun,3000Fri/Sat are rental components, not all-in charges. Customized contract/deposit/cancellation unknown."
     },
     {
       "id": "directory-lead-e64f227bb87882",
@@ -5291,12 +5801,18 @@
       "county": "Sonoma",
       "city": null,
       "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
         "ac-by-marriott-santa-rosa-sonoma-wine-country-sonoma"
       ],
       "match_method": "Exact normalized name aid only; identity and current terms need manual review",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:42:59.258298+00:00",
+      "review_source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/ac-by-marriott-santa-rosa-sonoma-wine-country/"
+      ],
+      "review_reason": "Actual regional tourism profile identity/address and description read and compared to existing named master property. Same AC branded hotel in Santa Rosa;142hotelrooms not eventcapacity. Current primary operating permissions, fees and layout facts remain unverified; this resolves duplicate property identity only, not complete venue research.",
+      "identity_review_source_kind": "regional_tourism_directory"
     },
     {
       "id": "directory-lead-086bbf4ec61dd5",
@@ -5314,12 +5830,18 @@
       "county": "Sonoma",
       "city": null,
       "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
         "alexander-valley-hall-sonoma"
       ],
       "match_method": "Exact normalized name aid only; identity and current terms need manual review",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:42:59.258298+00:00",
+      "review_source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/alexander-valley-hall/"
+      ],
+      "review_reason": "Actual regional tourism profile identity/address and description read and compared to existing named master property. Same AlexanderValleyCommunityHall inGeyserville;200generic notdinnerdance; limitedoutsidervents conditional. Current primary operating permissions, fees and layout facts remain unverified; this resolves duplicate property identity only, not complete venue research.",
+      "identity_review_source_kind": "regional_tourism_directory"
     },
     {
       "id": "directory-lead-d6cebc041134b5",
@@ -5337,12 +5859,18 @@
       "county": "Sonoma",
       "city": null,
       "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
         "annadel-estate-winery-sonoma"
       ],
       "match_method": "Exact normalized name aid only; identity and current terms need manual review",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:42:59.258298+00:00",
+      "review_source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/annadel-estate-winery/"
+      ],
+      "review_reason": "Actual regional tourism profile identity/address and description read and compared to existing named master property. Same SantaRosaAnnadel estate;225eventgeneric notdinnerdance. Current primary operating permissions, fees and layout facts remain unverified; this resolves duplicate property identity only, not complete venue research.",
+      "identity_review_source_kind": "regional_tourism_directory"
     },
     {
       "id": "directory-lead-6dbd03e3553de3",
@@ -5360,12 +5888,18 @@
       "county": "Sonoma",
       "city": null,
       "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
         "b-r-cohn-winery-olive-oil-company-sonoma"
       ],
       "match_method": "Exact normalized name aid only; identity and current terms need manual review",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:42:59.258298+00:00",
+      "review_source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/b-r-cohn-winery-olive-oil-company/"
+      ],
+      "review_reason": "Actual regional tourism profile identity/address and description read and compared to existing named master property. Same GlenEllen B.R.Cohn estate;OliveGrove,amphitheater,BarrelBarn separate layoutscopes. Current primary operating permissions, fees and layout facts remain unverified; this resolves duplicate property identity only, not complete venue research.",
+      "identity_review_source_kind": "regional_tourism_directory"
     },
     {
       "id": "directory-lead-ba5ccb4ee6f7d6",
@@ -5383,12 +5917,18 @@
       "county": "Sonoma",
       "city": null,
       "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
         "bacchus-landing-cellars-sonoma"
       ],
       "match_method": "Exact normalized name aid only; identity and current terms need manual review",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:42:59.258298+00:00",
+      "review_source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/bacchus-landing-cellars/"
+      ],
+      "review_reason": "Actual regional tourism profile identity/address and description read and compared to existing named master property. Same Healdsburgmultiwinerycampus;25000sqftnotcapacity;oneparentwithseparatetastingrooms. Current primary operating permissions, fees and layout facts remain unverified; this resolves duplicate property identity only, not complete venue research.",
+      "identity_review_source_kind": "regional_tourism_directory"
     },
     {
       "id": "directory-lead-ee4c87cc60df27",
@@ -5406,12 +5946,18 @@
       "county": "Sonoma",
       "city": null,
       "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
         "balletto-vineyards-sonoma"
       ],
       "match_method": "Exact normalized name aid only; identity and current terms need manual review",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:42:59.258298+00:00",
+      "review_source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/balletto-vineyards/"
+      ],
+      "review_reason": "Actual regional tourism profile identity/address and description read and compared to existing named master property. Same SantaRosaBalletto property;directory300genericcombination pendingoperatorlayoutvalidation. Current primary operating permissions, fees and layout facts remain unverified; this resolves duplicate property identity only, not complete venue research.",
+      "identity_review_source_kind": "regional_tourism_directory"
     },
     {
       "id": "directory-lead-52d2bb3691fbbe",
@@ -5461,12 +6007,18 @@
       "county": "Sonoma",
       "city": null,
       "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
         "bees-n-blooms-sonoma"
       ],
       "match_method": "Exact normalized name aid only; identity and current terms need manual review",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:42:59.258298+00:00",
+      "review_source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/bees-n-blooms/"
+      ],
+      "review_reason": "Actual regional tourism profile identity/address and description read and compared to existing named master property. Same SantaRosalavendergardens;directoryPavilion120seatednotdinnerdance. Current primary operating permissions, fees and layout facts remain unverified; this resolves duplicate property identity only, not complete venue research.",
+      "identity_review_source_kind": "regional_tourism_directory"
     },
     {
       "id": "directory-lead-dfd5b948222d0d",
@@ -5484,12 +6036,18 @@
       "county": "Sonoma",
       "city": null,
       "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
         "beltane-ranch-bed-breakfast-sonoma"
       ],
       "match_method": "Exact normalized name aid only; identity and current terms need manual review",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:42:59.258298+00:00",
+      "review_source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/beltane-ranch-bed-breakfast/"
+      ],
+      "review_reason": "Actual regional tourism profile identity/address and description read and compared to existing named master property. Same GlenEllenranch;6lodgingunitsnotcapacity andnotmandatorybuyoutevidence. Current primary operating permissions, fees and layout facts remain unverified; this resolves duplicate property identity only, not complete venue research.",
+      "identity_review_source_kind": "regional_tourism_directory"
     },
     {
       "id": "directory-lead-6ef9da7bafe737",
@@ -5507,12 +6065,18 @@
       "county": "Sonoma",
       "city": null,
       "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
         "bodega-bay-secret-gardens-sonoma"
       ],
       "match_method": "Exact normalized name aid only; identity and current terms need manual review",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:42:59.258298+00:00",
+      "review_source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/bodega-bay-secret-gardens/"
+      ],
+      "review_reason": "Actual regional tourism profile identity/address and description read and compared to existing named master property. Same namedBodegaBaygardenproperty;operatorcurrenttermsstillpending. Current primary operating permissions, fees and layout facts remain unverified; this resolves duplicate property identity only, not complete venue research.",
+      "identity_review_source_kind": "regional_tourism_directory"
     },
     {
       "id": "directory-lead-9e830d910c5bf4",
@@ -5530,19 +6094,18 @@
       "county": "Sonoma",
       "city": null,
       "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
-        "boho-deck-sonoma",
-        "boho-dining-sonoma",
-        "boho-firepit-sonoma",
-        "boho-garden-sonoma",
-        "boho-manor-sonoma",
-        "boho-midweek-group-package-sonoma",
-        "boho-piano-sonoma",
-        "boho-speakeasy-sonoma"
+        "boho-manor-sonoma"
       ],
       "match_method": "Exact normalized name aid only; identity and current terms need manual review",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:42:59.258298+00:00",
+      "review_source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/boho-manor/"
+      ],
+      "review_reason": "Actual regional tourism profile identity/address and description read and compared to existing named master property. Same MonteRioBohoManor exactpublicaddress;existingroomfamilyandlodgingauditpreserved. Current primary operating permissions, fees and layout facts remain unverified; this resolves duplicate property identity only, not complete venue research.",
+      "identity_review_source_kind": "regional_tourism_directory"
     },
     {
       "id": "directory-lead-020360a998c18c",
@@ -5560,12 +6123,18 @@
       "county": "Sonoma",
       "city": null,
       "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
         "boon-hotel-spa-sonoma"
       ],
       "match_method": "Exact normalized name aid only; identity and current terms need manual review",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:42:59.258298+00:00",
+      "review_source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/boon-hotel-spa/"
+      ],
+      "review_reason": "Actual regional tourism profile identity/address and description read and compared to existing named master property. Same Guernevilleboonhotel;directory150genericwithfoureventsitesnot150indoordinnerdance. Current primary operating permissions, fees and layout facts remain unverified; this resolves duplicate property identity only, not complete venue research.",
+      "identity_review_source_kind": "regional_tourism_directory"
     },
     {
       "id": "directory-lead-3c577e2356d8ee",
@@ -5583,10 +6152,19 @@
       "county": "Sonoma",
       "city": null,
       "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "buena-vista-winery-sonoma"
+      ],
       "match_method": "Exact normalized name aid only; identity and current terms need manual review",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T04:42:59.258298+00:00",
+      "review_source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/buena-vista-winery/",
+        "https://buenavistawinery.com"
+      ],
+      "review_reason": "Operator identity atSonoma matches tourism18000OldWineryRoad. Primarywine/tourbody andregional eventofferreviewed. Weddingpermissionunknownuntilprivateeventspage;agegateformnotcompleted,availablepublicbodyread only. Wineryfoundation1857notweddinghistory. DistinctfromRioVistaBuenaVistaPark.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-45cb8fbf5693d0",
@@ -5604,10 +6182,19 @@
       "county": "Sonoma",
       "city": null,
       "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "ca-bianca-italian-restaurant-santa-rosa-sonoma"
+      ],
       "match_method": "Exact normalized name aid only; identity and current terms need manual review",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T04:42:59.258298+00:00",
+      "review_source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/cabianca-italian-restaurant/",
+        "https://www.cabianca.com"
+      ],
+      "review_reason": "Actualoperatorwedding/private-diningoffering inVictorianhouse;regional835SecondSt address. Candidateimportnamehadmojibake;correctpublicnamefromactualoperator,notnewaliasproperty. Menus/rooms/chargesstillunreviewed.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-9646b7e5415368",
@@ -5625,10 +6212,19 @@
       "county": "Sonoma",
       "city": null,
       "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "capo-creek-winery-healdsburg-sonoma"
+      ],
       "match_method": "Exact normalized name aid only; identity and current terms need manual review",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T04:42:59.258298+00:00",
+      "review_source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/capo-creek-winery/",
+        "https://www.capocreekranch.com"
+      ],
+      "review_reason": "Same namedDryCreekwineryoperator andtourism7171WDryCreekRd;directoryweddings and42meal/60indoorstanding/119combinedseated separateunverifiedscopes. Primarytastingbrunch125/person is notweddingpackage. Privateeventslinkstilltofollow.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-505df103370aed",
@@ -5646,10 +6242,19 @@
       "county": "Sonoma",
       "city": null,
       "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "cast-wines-geyserville-sonoma"
+      ],
       "match_method": "Exact normalized name aid only; identity and current terms need manual review",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T04:42:59.258298+00:00",
+      "review_source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/cast-wines/",
+        "https://castwines.com/visit-cast-wines-in-sonoma-county/group-experiences/"
+      ],
+      "review_reason": "Currentoperatorprivategroupeventoffer;regional8500DryCreekRoadGeyserville. Nine listedspaces oneparent;birthday/corporateofferingnotweddingpermission. Directory50meal/30indoorstanding/70combinedseated notsum. Limitsunknown.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-560c89ac782b92",
@@ -5667,10 +6272,19 @@
       "county": "Sonoma",
       "city": null,
       "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "catellis-restaurant-geyserville-sonoma"
+      ],
       "match_method": "Exact normalized name aid only; identity and current terms need manual review",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T04:42:59.258298+00:00",
+      "review_source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/catellis/",
+        "http://www.mycatellis.com"
+      ],
+      "review_reason": "Primaryrestaurantandregionalnamedgardenprivate-eventofferingidentityconfirmed;candidateimportnamecorrupt,correctedfromoperator. Dininghours12–8ishnotprivateeventmusiccutoff. Weddingpermissioncurrentlyunknownandseatingrequestsnotguaranteed.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-cbc3d904313b98",
@@ -5688,10 +6302,19 @@
       "county": "Sonoma",
       "city": null,
       "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "chalk-hill-estate-healdsburg-sonoma"
+      ],
       "match_method": "Exact normalized name aid only; identity and current terms need manual review",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T04:42:59.258298+00:00",
+      "review_source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/chalk-hill-estate-vineyards-winery/",
+        "https://www.chalkhill.com/"
+      ],
+      "review_reason": "Same officialestate andtourism10300ChalkHillRoad,Healdsburg. Privateeventsprimarynav;weddingpermissionnotestablished.1300acresnotcapacity;directory50meal/150standing/80combinedseateddifferentlayoutscopes. Followactualprivateeventspage.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-d6720fdd3e5933",
@@ -5709,10 +6332,19 @@
       "county": "Sonoma",
       "city": null,
       "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "chateau-st-jean-kenwood-sonoma"
+      ],
       "match_method": "Exact normalized name aid only; identity and current terms need manual review",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T04:42:59.258298+00:00",
+      "review_source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/chateau-st-jean/",
+        "https://www.chateaustjean.com"
+      ],
+      "review_reason": "Currentofficialweddingofferingmatchesregional8555SonomaHighwayKenwood. Chateau,courtyard/patio,lawnseparate;nocapacity,sumorallinpriceassumed.1973winemakingnotfirstweddingyear.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-60383078ae7c98",
@@ -5730,10 +6362,19 @@
       "county": "Sonoma",
       "city": null,
       "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "cline-cellars-sonoma"
+      ],
       "match_method": "Exact normalized name aid only; identity and current terms need manual review",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T04:42:59.258298+00:00",
+      "review_source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/cline-family-cellars/",
+        "https://clinecellars.com"
+      ],
+      "review_reason": "ClineCellars/FamilyCellars samecurrentSonomaoperator andtourism24737ArnoldDriveproperty,notnewvenue. GreatLawnvsAdobeMission/FlagstonePatio separateguestcounts. Existingmasternamealiasretained;completecurrentfees/permissionspending.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-4088defb54a292",
@@ -5751,10 +6392,19 @@
       "county": "Sonoma",
       "city": null,
       "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "cornerstone-sonoma-event-venue-sonoma"
+      ],
       "match_method": "Exact normalized name aid only; identity and current terms need manual review",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T04:42:59.258298+00:00",
+      "review_source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/cornerstone-sonoma/",
+        "https://cornerstonesonoma.com"
+      ],
+      "review_reason": "Official weddingoffer andtourism23570ArnoldDrive,distinctfromCline24737nearby. WeddingGarden,VineyardLawn,RusticBarnoneparent. Exclusivecateringnotoutsidevendorpermission;actualpackages/roomrulesneedreview.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-eadf49b225abbf",
@@ -5772,10 +6422,19 @@
       "county": "Sonoma",
       "city": null,
       "geography_scope": "Sonoma tourism inventory; individual jurisdiction/availability still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "cyrus-events-geyserville-sonoma"
+      ],
       "match_method": "Exact normalized name aid only; identity and current terms need manual review",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T04:42:59.258298+00:00",
+      "review_source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/cyrus/",
+        "https://www.cyrusrestaurant.com/events-at-cyrus"
+      ],
+      "review_reason": "Primaryrestaurantnine-spaceweddingofferandexactaddressverified. Up to250seatedgeneric,notallindoordinnerdance;KitchenTable12distinctfromGardenTerrace,PearTreeOrchard,MulberryGrove,VineyardLawn,BubblesLoungeandprogressiveroomuse. Do notsumspacesorextrapolateprices.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-952e6ef05382cb",

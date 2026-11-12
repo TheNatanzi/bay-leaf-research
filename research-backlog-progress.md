@@ -1,4 +1,12 @@
-# Research progress — November 8
+# Research progress — November 11
+
+- **91 of the original 500 pending profiles resolved**: 40 venue/property records added and 51 profiles matched to existing records. **7 hidden-address identity blockers** remain unresolved, alongside **402 unreviewed profiles**.
+- **2,428 venue/room records** now appear in the master. This is not a verified unique-property count. All **110 locality workstreams remain partial**.
+- Missing records recovered include The Mountain Winery, Saratoga Springs, Villa Ragusa, Hillside Club, San José Museum of Art, La Vigna at Hecker Pass Winery, Shadow Lakes Club, Chateau St. Jean and Cornerstone Sonoma. Identity review does not mean all costs, room layouts or permissions are complete.
+- Current Cinnabar Hills FAQ was actually read: five reception hours, $1,500 ceremony component, $1,200/hour overtime up to 11 PM, and day-specific minimums with fees credited toward the minimum. Service/tax and conditions prevent an all-in total. Its operator postal city is San Jose; the earlier Morgan Hill label is preserved in correction history.
+- [Expansive discovery methods: 10 repositories and 6 guides](expansive-discovery-methods-20261111.md) · [Current evidence-backed dispositions](discovery-backlog-resolution-20261111.json). Raw captures are preparation; unreadable sources and unreviewed material remain separate.
+
+## Earlier November 8 milestone
 
 - **20/20 search audits complete**, including the remaining 18. [Full audit](discovery-method-audit-20261108.md)
 - **44 records added; 32 existing records updated or source-reconciled** across this work session. Census: **2,388 records**; rooms and properties remain distinct.
@@ -34,7 +42,7 @@
 
 ## Still unfinished
 
-- **500 candidate URLs** and remaining authorities within **110 partially reviewed local workstreams**.
+- **402 unreviewed candidate URLs**, **7 unresolved physical-identity blockers**, and remaining authorities/source families within **110 partially reviewed local workstreams**.
 - Complete costs, mandatory lodging, approved dinner/dance layouts, independent cutoffs, history and defensible valuations.
 - Some documents are blocked or inquiry-only. Six county pages were readable through standard web search, but direct archival collection was held at the robots check; no raw download success is claimed.
 - Three caterer leads remain unresolved: Storek's operator redirect, Legion of Honor's blocked primary page, and City Hall's robot-verification hold. Other linked floor plans, brochures and technical appendices remain explicitly unreviewed.

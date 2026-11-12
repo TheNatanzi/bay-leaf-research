@@ -1,11 +1,12 @@
 {
   "candidate_urls": 580,
-  "resolved_candidate_urls": 80,
-  "unresolved_candidate_urls": 500,
+  "resolved_candidate_urls": 171,
+  "unresolved_candidate_urls": 409,
   "review_counts": {
-    "pending": 500,
-    "reviewed_existing": 17,
-    "reviewed_added": 60,
+    "reviewed_added": 100,
+    "reviewed_existing": 68,
+    "pending": 402,
+    "blocked": 7,
     "excluded": 3
   },
   "complete": false,
@@ -15,14 +16,16 @@
       "candidate_id": "directory-lead-b291c66df29e01",
       "name": "Alameda County Fairgrounds Event Center",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/alameda-county-fairgrounds-event-center-pleasanton",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "alameda-county-fairgrounds-event-center-pleasanton-alameda"
+      ]
     },
     {
       "candidate_id": "directory-lead-11786b1773b945",
       "name": "Berkeley City Club",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/berkeley-city-club-berkeley",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "berkeley-city-club-alameda"
       ]
@@ -31,14 +34,16 @@
       "candidate_id": "directory-lead-290ec392d5aa09",
       "name": "Blackhawk Museum",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/blackhawk-museum-danville",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "blackhawk-museum-event-rentals-danville-contra-costa"
+      ]
     },
     {
       "candidate_id": "directory-lead-e061130785f802",
       "name": "Blanco Urban Venue",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/blanco-urban-venue-san-jose",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "blanco-urban-venue-santa-clara"
       ]
@@ -56,15 +61,19 @@
       "candidate_id": "directory-lead-ae0361ebd3d36f",
       "name": "Boulder Ridge by Wedgewood Weddings",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/boulder-ridge-by-wedgewood-weddings-san-jose",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "boulder-ridge-wedgewood-san-jose-santa-clara"
+      ]
     },
     {
       "candidate_id": "directory-lead-f72b1a56c4839d",
       "name": "Brazilian Room at Tilden Regional Park",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/brazilian-room-at-tilden-regional-park-berkeley",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "tilden-regional-park-brazilian-room-contra-costa"
+      ]
     },
     {
       "candidate_id": "directory-lead-71e6741fdfab04",
@@ -79,7 +88,7 @@
       "candidate_id": "directory-lead-c5b904aec2da3d",
       "name": "Callippe Preserve Golf Course",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/callippe-preserve-golf-course-pleasanton",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "the-callippe-preserve-golf-course-alameda"
       ]
@@ -88,7 +97,7 @@
       "candidate_id": "directory-lead-3348e53bdebfb3",
       "name": "Casa Real at Ruby Hill Winery",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/casa-real-at-ruby-hill-winery-pleasanton",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "casa-real-at-ruby-hill-winery-amber-room-alameda",
         "casa-real-at-ruby-hill-winery-grand-salon-alameda",
@@ -99,7 +108,7 @@
       "candidate_id": "directory-lead-10b5341c3ea193",
       "name": "Chabot Space & Science Center",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/chabot-space-science-center-oakland",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "chabot-space-science-center-across-the-universe-package-alameda",
         "chabot-space-science-center-alameda",
@@ -133,7 +142,7 @@
       "candidate_id": "directory-lead-dda7e649bbfa9b",
       "name": "Cinnabar Hills Golf Club",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/cinnabar-hills-golf-club-san-jose",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "cinnabar-hills-golf-club-santa-clara"
       ]
@@ -149,35 +158,9 @@
       "candidate_id": "directory-lead-5bbb1ddf3ab6a6",
       "name": "Claremont Resort & Club",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/claremont-resort-club-berkeley",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
-        "claremont-resort-club-alameda",
-        "claremont-resort-club-alumni-alameda",
-        "claremont-resort-club-bayview-terrace-alameda",
-        "claremont-resort-club-boardroom-alameda",
-        "claremont-resort-club-claremont-ballroom-alameda",
-        "claremont-resort-club-empire-ballroom-alameda",
-        "claremont-resort-club-front-lawn-alameda",
-        "claremont-resort-club-garber-alameda",
-        "claremont-resort-club-garden-private-dining-alameda",
-        "claremont-resort-club-garden-room-alameda",
-        "claremont-resort-club-grizzly-peak-alameda",
-        "claremont-resort-club-hillary-tenzing-alameda",
-        "claremont-resort-club-lanai-alameda",
-        "claremont-resort-club-piedmont-alameda",
-        "claremont-resort-club-presidential-suite-alameda",
-        "claremont-resort-club-redwood-alameda",
-        "claremont-resort-club-rockridge-a-alameda",
-        "claremont-resort-club-rockridge-a-b-alameda",
-        "claremont-resort-club-rockridge-a-b-c-alameda",
-        "claremont-resort-club-rockridge-b-alameda",
-        "claremont-resort-club-rockridge-b-c-alameda",
-        "claremont-resort-club-rockridge-c-alameda",
-        "claremont-resort-club-secret-garden-alameda",
-        "claremont-resort-club-skyline-a-alameda",
-        "claremont-resort-club-skyline-a-b-alameda",
-        "claremont-resort-club-skyline-b-alameda",
-        "claremont-resort-club-temescal-alameda"
+        "claremont-resort-club-alameda"
       ]
     },
     {
@@ -191,8 +174,10 @@
       "candidate_id": "directory-lead-62a070e693d401",
       "name": "Club Los Meganos",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/club-los-meganos-brentwood",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "club-los-meganos-trilogy-at-the-vineyards-contra-costa"
+      ]
     },
     {
       "candidate_id": "directory-lead-2386b66dd07c41",
@@ -212,7 +197,7 @@
       "candidate_id": "directory-lead-60925a49e71d77",
       "name": "Corinthian Grand Ballroom",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/corinthian-grand-ballroom-san-jose",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "corinthian-grand-ballroom-santa-clara"
       ]
@@ -235,64 +220,82 @@
       "candidate_id": "directory-lead-475127b6ab5389",
       "name": "Dunsmuir Hellman Historic Estate",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/dunsmuir-hellman-historic-estate-oakland",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "dunsmuir-hellman-historic-estate-oakland-alameda"
+      ]
     },
     {
       "candidate_id": "directory-lead-7da663e39b7c6a",
       "name": "Eagle Ridge by Wedgewood Weddings",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/eagle-ridge-by-wedgewood-weddings-gilroy",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "eagle-ridge-wedgewood-gilroy-santa-clara"
+      ]
     },
     {
       "candidate_id": "directory-lead-de6c911b3099f9",
       "name": "Elliston Vineyards",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/elliston-vineyards-sunol",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "elliston-vineyards-sunol-alameda"
+      ]
     },
     {
       "candidate_id": "directory-lead-9e648055b1ec49",
       "name": "Fairview Metropolitan",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/fairview-metropolitan-oakland",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "fairview-metropolitan-oakland-alameda"
+      ]
     },
     {
       "candidate_id": "directory-lead-7a267cdc66f9d4",
       "name": "Fortino Winery",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/fortino-winery-gilroy",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "fortino-winery-and-event-center-santa-clara"
+      ]
     },
     {
       "candidate_id": "directory-lead-670f82beb87bbf",
       "name": "Gamble Garden",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/gamble-garden-palo-alto",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "elizabeth-f-gamble-garden-palo-alto-santa-clara"
+      ]
     },
     {
       "candidate_id": "directory-lead-5125a23d119f5f",
       "name": "Garré Vineyard & Winery",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/garre-vineyard-winery-livermore",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "bella-rosa-at-garr-vineyard-and-winery-alameda"
+      ]
     },
     {
       "candidate_id": "directory-lead-5fafa6711f7359",
       "name": "Gilroy Lodge on the Hill",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/gilroy-lodge-on-the-hill-gilroy",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "gilroy-lodge-on-the-hill-elks-1567-santa-clara"
+      ]
     },
     {
       "candidate_id": "directory-lead-33cac965e61d54",
       "name": "Guglielmo Winery",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/guglielmo-winery-morgan-hill",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "guglielmo-winery-villa-emile-heritage-morgan-hill-santa-clara"
+      ]
     },
     {
       "candidate_id": "directory-lead-07aa64bf79c56c",
@@ -305,7 +308,7 @@
       "candidate_id": "directory-lead-8443e535d6a3b2",
       "name": "Hakone Estate and Gardens",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/hakone-estate-and-gardens-saratoga",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "hakone-estate-and-gardens-santa-clara"
       ]
@@ -314,46 +317,37 @@
       "candidate_id": "directory-lead-bbdb19822c9c2b",
       "name": "Hannah Nicole Vineyards & Winery",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/hannah-nicole-vineyards-winery-brentwood",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "hannah-nicole-vineyards-winery-brentwood-contra-costa"
+      ]
     },
     {
       "candidate_id": "directory-lead-22f8cc196e8c84",
       "name": "Hayes Mansion San Jose",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/hayes-mansion-san-jose-san-jose",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "hayes-mansion-san-jose-curio-collection-by-hilton-santa-clara"
+      ]
     },
     {
       "candidate_id": "directory-lead-de43e85f4df362",
       "name": "Hillside Club",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/hillside-club-berkeley",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "hillside-club-berkeley-alameda"
+      ]
     },
     {
       "candidate_id": "directory-lead-599c3e51390398",
       "name": "Hilton Concord",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/hilton-concord-concord",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
-        "hilton-concord-baldwin-room-contra-costa",
-        "hilton-concord-chabot-room-contra-costa",
-        "hilton-concord-club-room-1-contra-costa",
-        "hilton-concord-club-room-2-contra-costa",
-        "hilton-concord-courtyard-contra-costa",
         "hilton-concord-golden-gate-ballroom-contra-costa",
-        "hilton-concord-golden-gate-parlor-a-contra-costa",
-        "hilton-concord-golden-gate-parlor-b-contra-costa",
-        "hilton-concord-golden-gate-parlor-c-contra-costa",
-        "hilton-concord-golden-gate-parlor-d-contra-costa",
-        "hilton-concord-golden-gate-parlor-e-contra-costa",
-        "hilton-concord-park-room-contra-costa",
-        "hilton-concord-seminar-1-contra-costa",
-        "hilton-concord-seminar-2-contra-costa",
-        "hilton-concord-seminar-3-contra-costa",
-        "hilton-concord-seminar-4-contra-costa",
-        "hilton-concord-tilden-room-contra-costa"
+        "hilton-concord-courtyard-contra-costa"
       ]
     },
     {
@@ -367,43 +361,55 @@
       "candidate_id": "directory-lead-9a2627ac003812",
       "name": "Hotel Los Gatos",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/hotel-los-gatos-los-gatos",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "hotel-los-gatos-weddings-santa-clara"
+      ]
     },
     {
       "candidate_id": "directory-lead-d8c9783b23220b",
       "name": "La Vigna Event Center at Hecker Pass Winery",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/la-vigna-event-center-at-hecker-pass-winery-gilroy",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "la-vigna-hecker-pass-winery-gilroy-santa-clara"
+      ]
     },
     {
       "candidate_id": "directory-lead-b550ea6d92f814",
       "name": "Lafayette Park Hotel & Spa",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/lafayette-park-hotel-spa-lafayette",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "lafayette-park-hotel-spa-contra-costa"
+      ]
     },
     {
       "candidate_id": "directory-lead-3946acc5ef79f2",
       "name": "Lafayette Veterans Memorial Center",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/lafayette-veterans-memorial-center-lafayette",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "lafayette-veterans-memorial-center-contra-costa"
+      ]
     },
     {
       "candidate_id": "directory-lead-1c8b3b532325be",
       "name": "Lake Merritt Sailboat House",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/lake-merritt-sailboat-house-oakland",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "lake-merritt-sailboat-house-oakland-alameda"
+      ]
     },
     {
       "candidate_id": "directory-lead-a7ce3cf62382dd",
       "name": "Los Altos History Museum",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/los-altos-history-museum-los-altos",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "los-altos-history-museum-wedding-rental-santa-clara"
+      ]
     },
     {
       "candidate_id": "directory-lead-1ea95e7e43139b",
@@ -418,7 +424,7 @@
       "candidate_id": "directory-lead-f7a6f98417dd51",
       "name": "Montalvo Arts Center",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/montalvo-arts-center-saratoga",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "montalvo-arts-center-santa-clara"
       ]
@@ -427,7 +433,7 @@
       "candidate_id": "directory-lead-3c8a1ef9490b5c",
       "name": "Nella Terra Cellars",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/nella-terra-cellars-sunol",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "nella-terra-cellars-alameda"
       ]
@@ -436,13 +442,10 @@
       "candidate_id": "directory-lead-1b6ad4d9fc66d0",
       "name": "Oakland Museum of California",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/oakland-museum-of-california-oakland",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "oakland-museum-of-california-garden-alameda",
-        "oakland-museum-of-california-james-moore-theater-alameda",
-        "oakland-museum-of-california-lillie-education-center-alameda",
-        "oakland-museum-of-california-peace-terrace-alameda",
-        "oakland-museum-of-california-town-fare-cafe-alameda"
+        "oakland-museum-of-california-peace-terrace-alameda"
       ]
     },
     {
@@ -463,40 +466,44 @@
       "candidate_id": "directory-lead-390203fe202369",
       "name": "Palm Event Center in the Vineyard",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/palm-event-center-in-the-vineyard-pleasanton",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "palm-event-center"
+      ]
     },
     {
       "candidate_id": "directory-lead-6da46eefc7f596",
       "name": "Paradise Ballrooms",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/paradise-ballrooms-fremont",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "paradise-ballrooms-fremont-alameda"
+      ]
     },
     {
       "candidate_id": "directory-lead-4f7b1f5f5c8c10",
       "name": "Piedmont Community Hall",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/piedmont-community-hall-piedmont",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "piedmont-community-hall-alameda",
-        "piedmont-community-hall-amphitheater-alameda",
-        "piedmont-exedra-plaza-fountain-alameda",
-        "piedmont-japanese-tea-house-alameda"
+        "piedmont-community-hall-amphitheater-alameda"
       ]
     },
     {
       "candidate_id": "directory-lead-647fa8f6974acb",
       "name": "Pleasant Hill Community Center",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/pleasant-hill-community-center-pleasant-hill",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "pleasant-hill-community-center-pleasant-hill-contra-costa"
+      ]
     },
     {
       "candidate_id": "directory-lead-1b6e9517275d99",
       "name": "Preservation Park",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/preservation-park-oakland",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "preservation-park-alameda"
       ]
@@ -505,14 +512,16 @@
       "candidate_id": "directory-lead-b57749a0b19597",
       "name": "Purple Orchid Wine Country Resort & Spa",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/purple-orchid-wine-country-resort-spa-livermore",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "the-purple-orchid-wine-country-resort-and-spa-alameda"
+      ]
     },
     {
       "candidate_id": "directory-lead-1a8f513d294bc7",
       "name": "Rengstorff House",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/rengstorff-house-mountain-view",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "rengstorff-house-santa-clara"
       ]
@@ -535,35 +544,43 @@
       "candidate_id": "directory-lead-52c232845add21",
       "name": "San José City Hall Rotunda",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/san-jose-city-hall-rotunda-san-jose",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "city-hall-rotunda-city-hall-rotunda-santa-clara"
+      ]
     },
     {
       "candidate_id": "directory-lead-7056ea177ff41b",
       "name": "San José Museum of Art",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/san-jose-museum-of-art-san-jose",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "san-jose-museum-of-art-event-rental-santa-clara"
+      ]
     },
     {
       "candidate_id": "directory-lead-890e59f9804f9d",
       "name": "San Jose Woman's Club",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/san-jose-woman-s-club-san-jose",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "san-jose-womans-club-historic-venue-santa-clara"
+      ]
     },
     {
       "candidate_id": "directory-lead-cdfcf94473565a",
       "name": "San Ramon Golf Club",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/san-ramon-golf-club-san-ramon",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "san-ramon-golf-club-wedgewood-contra-costa"
+      ]
     },
     {
       "candidate_id": "directory-lead-1950e89633a038",
       "name": "Sanborn County Park",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/sanborn-county-park-saratoga",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "sanborn-county-park-sequoia-peterson-grove-santa-clara"
       ]
@@ -572,14 +589,16 @@
       "candidate_id": "directory-lead-385e382d966f6c",
       "name": "Saratoga Springs",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/saratoga-springs-saratoga",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "saratoga-springs-events-weddings-santa-clara"
+      ]
     },
     {
       "candidate_id": "directory-lead-49e21d5953e577",
       "name": "Sequoyah Country Club",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/sequoyah-country-club-oakland",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "sequoyah-country-club-alameda"
       ]
@@ -588,21 +607,25 @@
       "candidate_id": "directory-lead-adc1118344e79c",
       "name": "Shadow Lakes Club",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/shadow-lakes-club-brentwood",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "shadow-lakes-club-brentwood-contra-costa"
+      ]
     },
     {
       "candidate_id": "directory-lead-7717dfd0439053",
       "name": "Sunol's Casa Bella",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/sunol-s-casa-bella-sunol",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "sunols-casa-bella-alameda"
+      ]
     },
     {
       "candidate_id": "directory-lead-841a17e04bf672",
       "name": "The Bridges Golf Club",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/the-bridges-golf-club-san-ramon",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "the-bridges-golf-club-contra-costa"
       ]
@@ -618,7 +641,7 @@
       "candidate_id": "directory-lead-9c20e23d983b8b",
       "name": "The Club at Ruby Hill",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/the-club-at-ruby-hill-pleasanton",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "the-club-at-ruby-hill-alameda"
       ]
@@ -627,7 +650,7 @@
       "candidate_id": "directory-lead-2534fc7faa9cc2",
       "name": "The Clubhouse at Boundary Oak",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/the-clubhouse-at-boundary-oak-walnut-creek",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "the-clubhouse-at-boundary-oak-contra-costa"
       ]
@@ -636,14 +659,16 @@
       "candidate_id": "directory-lead-12c49625b331d4",
       "name": "The Faculty Club at UC Berkeley",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/the-faculty-club-at-uc-berkeley-berkeley",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "the-faculty-club-alameda"
+      ]
     },
     {
       "candidate_id": "directory-lead-81cf7c666f08ec",
       "name": "The Gardens at Heather Farm",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/the-gardens-at-heather-farm-walnut-creek",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "the-gardens-at-heather-farm-contra-costa"
       ]
@@ -659,15 +684,19 @@
       "candidate_id": "directory-lead-1247f5ac291ea5",
       "name": "The Mountain Winery",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/the-mountain-winery-saratoga",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "the-mountain-winery-saratoga-santa-clara"
+      ]
     },
     {
       "candidate_id": "directory-lead-4a8e6a717968d8",
       "name": "The Ranch at Silver Creek by Wedgewood Weddings",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/the-ranch-at-silver-creek-by-wedgewood-weddings-san-jose",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "ranch-at-silver-creek-wedgewood-san-jose-santa-clara"
+      ]
     },
     {
       "candidate_id": "directory-lead-73c4d81c574255",
@@ -680,43 +709,57 @@
       "candidate_id": "directory-lead-bea71360633072",
       "name": "The Terrace Room at Lake Merritt",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/the-terrace-room-at-lake-merritt-oakland",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "the-terrace-room-at-the-lake-merritt-alameda"
+      ]
     },
     {
       "candidate_id": "directory-lead-cec861c009f2c1",
       "name": "Triton Museum of Art",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/triton-museum-of-art-santa-clara",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "triton-museum-of-art-santa-clara"
+      ]
     },
     {
       "candidate_id": "directory-lead-1b7956df11685b",
       "name": "UC Botanical Garden at Berkeley",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/uc-botanical-garden-at-berkeley-berkeley",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "uc-botanical-garden-alameda",
+        "uc-botanical-garden-redwood-grove-amphitheater-ceremony-only-alameda"
+      ]
     },
     {
       "candidate_id": "directory-lead-974cae3d1816f9",
       "name": "Villa Ragusa",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/villa-ragusa-campbell",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "villa-ragusa-campbell-santa-clara"
+      ]
     },
     {
       "candidate_id": "directory-lead-b58be1fc4af2c0",
       "name": "Wente Vineyards",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/wente-vineyards-livermore",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "wente-family-vineyards-cresta-blanca-room-alameda",
+        "wente-family-vineyards-terrace-lawn-alameda"
+      ]
     },
     {
       "candidate_id": "directory-lead-8f449d58162eb7",
       "name": "Wildwood Acres Resort",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/wildwood-acres-resort-lafayette",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "wildwood-acres-contra-costa"
+      ]
     },
     {
       "candidate_id": "directory-lead-25045125c870d0",
@@ -999,35 +1042,41 @@
       "candidate_id": "directory-lead-d76ec169fb9d01",
       "name": "Art Deco + Mod High Design Event Venue",
       "url": "https://giggster.com/listing/art-deco-mod-old-hollywood-event-venue",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "monroe-private-events-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-9c261b9479fda3",
       "name": "Urban Winery",
       "url": "https://giggster.com/listing/urban-winery",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "noria-wines-berkeley-alameda"
+      ]
     },
     {
       "candidate_id": "directory-lead-03726acc0a6ce8",
       "name": "Urban Oasis with Lush Patio in the Heart of SF",
       "url": "https://giggster.com/listing/urban-oasis-with-lush-patio-in-the-heart-of-sf",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "plant-connection-sf-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-68de6e6fa28459",
       "name": "Mill Valley Modern Masterpiece",
       "url": "https://giggster.com/listing/mill-valley-modern-masterpiece",
-      "state": "pending",
+      "state": "blocked",
       "record_ids": []
     },
     {
       "candidate_id": "directory-lead-d218164f141a6a",
       "name": "Mill Valley Beauty",
       "url": "https://giggster.com/listing/mill-valley-beauty",
-      "state": "pending",
+      "state": "blocked",
       "record_ids": []
     },
     {
@@ -1041,14 +1090,14 @@
       "candidate_id": "directory-lead-0fb95117db464b",
       "name": "Stunning Indoor/Outdoor Luxury Space",
       "url": "https://giggster.com/listing/stunning-indoor-outdoor-luxury-home",
-      "state": "pending",
+      "state": "blocked",
       "record_ids": []
     },
     {
       "candidate_id": "directory-lead-c9f8d8112b615d",
       "name": "Outer Sunset/ San Francisco",
       "url": "https://giggster.com/listing/outer-sunset-san-francisco",
-      "state": "pending",
+      "state": "blocked",
       "record_ids": []
     },
     {
@@ -1069,7 +1118,7 @@
       "candidate_id": "directory-lead-920498f3dcff30",
       "name": "Spacious Updated Ranch Home & Resort Style Yard",
       "url": "https://giggster.com/listing/spacious-stunning-ranch-resort-style-home-yard",
-      "state": "pending",
+      "state": "blocked",
       "record_ids": []
     },
     {
@@ -1090,8 +1139,10 @@
       "candidate_id": "directory-lead-21f2de9055e8b4",
       "name": "Cheaper Than Therapy",
       "url": "https://giggster.com/listing/historic-independent-theater-arts-community",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "cheaper-than-therapy-event-space-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-e8dff01fb7ca19",
@@ -1111,14 +1162,14 @@
       "candidate_id": "directory-lead-5142ee1ee4533b",
       "name": "Luxe, Modern & Bright Victorian Duplex w/ Barn",
       "url": "https://giggster.com/listing/luxe-modern-bright-victorian-duplex-w-barn",
-      "state": "pending",
+      "state": "blocked",
       "record_ids": []
     },
     {
       "candidate_id": "directory-lead-92d3d1cb410c0b",
       "name": "Backyard with full grill and party room",
       "url": "https://giggster.com/listing/backyard-with-full-grill-and-party-room",
-      "state": "pending",
+      "state": "blocked",
       "record_ids": []
     },
     {
@@ -1132,8 +1183,10 @@
       "candidate_id": "directory-lead-4742be50a4a1be",
       "name": "Renovated Modern Warehouse",
       "url": "https://giggster.com/listing/renovated-modern-warehouse",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "lovely-day-oakland-alameda"
+      ]
     },
     {
       "candidate_id": "directory-lead-e64f227bb87882",
@@ -1863,7 +1916,7 @@
       "candidate_id": "directory-lead-60dc1cc1d5c2f9",
       "name": "AC by Marriott Santa Rosa Sonoma Wine Country",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/ac-by-marriott-santa-rosa-sonoma-wine-country/",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "ac-by-marriott-santa-rosa-sonoma-wine-country-sonoma"
       ]
@@ -1872,7 +1925,7 @@
       "candidate_id": "directory-lead-086bbf4ec61dd5",
       "name": "Alexander Valley Hall",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/alexander-valley-hall/",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "alexander-valley-hall-sonoma"
       ]
@@ -1881,7 +1934,7 @@
       "candidate_id": "directory-lead-d6cebc041134b5",
       "name": "Annadel Estate Winery",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/annadel-estate-winery/",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "annadel-estate-winery-sonoma"
       ]
@@ -1890,7 +1943,7 @@
       "candidate_id": "directory-lead-6dbd03e3553de3",
       "name": "B.R. Cohn Winery & Olive Oil Company",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/b-r-cohn-winery-olive-oil-company/",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "b-r-cohn-winery-olive-oil-company-sonoma"
       ]
@@ -1899,7 +1952,7 @@
       "candidate_id": "directory-lead-ba5ccb4ee6f7d6",
       "name": "Bacchus Landing Cellars",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/bacchus-landing-cellars/",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "bacchus-landing-cellars-sonoma"
       ]
@@ -1908,7 +1961,7 @@
       "candidate_id": "directory-lead-ee4c87cc60df27",
       "name": "Balletto Vineyards",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/balletto-vineyards/",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "balletto-vineyards-sonoma"
       ]
@@ -1926,7 +1979,7 @@
       "candidate_id": "directory-lead-da9bea1f97ec3a",
       "name": "Bees N Blooms",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/bees-n-blooms/",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "bees-n-blooms-sonoma"
       ]
@@ -1935,7 +1988,7 @@
       "candidate_id": "directory-lead-dfd5b948222d0d",
       "name": "Beltane Ranch Bed & Breakfast",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/beltane-ranch-bed-breakfast/",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "beltane-ranch-bed-breakfast-sonoma"
       ]
@@ -1944,7 +1997,7 @@
       "candidate_id": "directory-lead-6ef9da7bafe737",
       "name": "Bodega Bay Secret Gardens",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/bodega-bay-secret-gardens/",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "bodega-bay-secret-gardens-sonoma"
       ]
@@ -1953,23 +2006,16 @@
       "candidate_id": "directory-lead-9e830d910c5bf4",
       "name": "Boho Manor",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/boho-manor/",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
-        "boho-deck-sonoma",
-        "boho-dining-sonoma",
-        "boho-firepit-sonoma",
-        "boho-garden-sonoma",
-        "boho-manor-sonoma",
-        "boho-midweek-group-package-sonoma",
-        "boho-piano-sonoma",
-        "boho-speakeasy-sonoma"
+        "boho-manor-sonoma"
       ]
     },
     {
       "candidate_id": "directory-lead-020360a998c18c",
       "name": "boon hotel + spa",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/boon-hotel-spa/",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "boon-hotel-spa-sonoma"
       ]
@@ -1978,71 +2024,91 @@
       "candidate_id": "directory-lead-3c577e2356d8ee",
       "name": "Buena Vista Winery",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/buena-vista-winery/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "buena-vista-winery-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-45cb8fbf5693d0",
       "name": "CaÃ¢â‚¬â„¢Bianca Italian Restaurant",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/cabianca-italian-restaurant/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "ca-bianca-italian-restaurant-santa-rosa-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-9646b7e5415368",
       "name": "Capo Creek Winery",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/capo-creek-winery/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "capo-creek-winery-healdsburg-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-505df103370aed",
       "name": "Cast Wines",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/cast-wines/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "cast-wines-geyserville-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-560c89ac782b92",
       "name": "CatelliÃ¢â‚¬â„¢s",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/catellis/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "catellis-restaurant-geyserville-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-cbc3d904313b98",
       "name": "Chalk Hill Estate Vineyards & Winery",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/chalk-hill-estate-vineyards-winery/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "chalk-hill-estate-healdsburg-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-d6720fdd3e5933",
       "name": "Chateau St. Jean",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/chateau-st-jean/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "chateau-st-jean-kenwood-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-60383078ae7c98",
       "name": "Cline Family Cellars",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/cline-family-cellars/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "cline-cellars-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-4088defb54a292",
       "name": "Cornerstone Sonoma",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/cornerstone-sonoma/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "cornerstone-sonoma-event-venue-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-eadf49b225abbf",
       "name": "Cyrus",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/cyrus/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "cyrus-events-geyserville-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-952e6ef05382cb",

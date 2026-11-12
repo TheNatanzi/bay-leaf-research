@@ -26,5 +26,21 @@ const fillmore=by('the-fillmore-main-ballroom-san-francisco');assert.equal(N.val
 const yacht=by('golden-gate-yacht-club-americas-cup-room-san-francisco');assert.equal(N.value(yacht,'capacity_seated'),100);assert.equal(N.value(yacht,'wedding_permission'),'advertised');assert.equal(N.value(yacht,'music_indoor'),null);
 assert.equal(N.value(by('svn-west-event-venue-san-francisco'),'music_outdoor'),1320);assert.equal(N.value(by('the-midway-event-venue-san-francisco'),'capacity_max'),null);assert.equal(N.value(by('620-jones-event-venue-san-francisco'),'capacity_max'),null);
 for(const id of ['pier-27-event-venue-san-francisco','pier-35-event-venue-san-francisco','pier-48-event-venue-san-francisco'])assert.equal(N.value(by(id),'capacity_seated'),null);
-const queue=require('./directory-candidates.json');assert.equal(queue.summary.current_review_counts.pending,500);assert.equal(queue.candidates.filter(x=>x.url.includes('ggcatering.com/venues/')&&x.review_state==='pending').length,3);
+const queue=require('./directory-candidates.json'),resolution=require('./discovery-backlog-resolution-20261111.json');
+assert.equal(resolution.original_pending_candidates,500);
+const applications=resolution.reviewed_dispositions_applied;
+assert.equal(new Set(applications.map(x=>x.candidate_id)).size,applications.length);
+assert.equal(resolution.unreviewed_original_inputs,500-applications.length);
+assert.equal(queue.summary.current_review_counts.pending,resolution.unreviewed_original_inputs);
+for(const receipt of applications){
+ const c=queue.candidates.find(x=>x.id===receipt.candidate_id);assert(c);
+ assert.equal(c.review_state,receipt.state);assert(c.review_reason&&c.reviewed_utc);
+ assert(receipt.source_urls.length&&receipt.candidate_capture_sha256);
+ assert(receipt.source_urls.every(u=>c.review_source_urls.includes(u)));
+ if(receipt.state==='blocked'){assert(receipt.blocker_kind);assert(!receipt.record_ids.length);}
+ else{assert(receipt.operator_capture_sha256);assert(receipt.record_ids.length);for(const id of receipt.record_ids)assert(c.matched_record_ids.includes(by(id).id));}
+}
+const reconciliation=require('./discovery-reconciliation.json');
+assert.equal(resolution.complete,false);assert.equal(resolution.municipal_searches_completed,0);
+assert.equal(queue.candidates.filter(x=>x.url.includes('ggcatering.com/venues/')&&x.review_state==='pending').length,3);
 console.log('Package limits, capacity conflicts, exact reviews, property identity, component costs, sunset clocks and complete founder export passed.');
