@@ -1,15 +1,15 @@
 {
   "candidate_urls": 580,
-  "resolved_candidate_urls": 471,
-  "unresolved_candidate_urls": 109,
+  "resolved_candidate_urls": 479,
+  "unresolved_candidate_urls": 101,
   "review_counts": {
-    "reviewed_added": 276,
-    "reviewed_existing": 185,
+    "reviewed_added": 279,
+    "reviewed_existing": 188,
     "blocked": 10,
     "reviewed_supplier_not_venue_offer": 1,
-    "reviewed_outside_scope": 6,
+    "reviewed_outside_scope": 8,
     "excluded": 3,
-    "pending": 99
+    "pending": 91
   },
   "complete": false,
   "scope_note": "Candidate-queue resolution only; even zero unresolved leads does not establish all venues discovered. Room counts and source downloads are not property coverage.",
@@ -4414,43 +4414,53 @@
       "candidate_id": "directory-lead-5cd69435bba421",
       "name": "Saratoga Foothill Club",
       "url": "https://www.bayareaweddings.com/vendor/saratoga-foothill-club",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "saratoga-foothill-club-santa-clara"
+      ]
     },
     {
       "candidate_id": "directory-lead-64a8b78764a791",
       "name": "Seacliff Inn Aptos",
       "url": "https://www.bayareaweddings.com/vendor/seacliff-inn-aptos",
-      "state": "pending",
+      "state": "reviewed_outside_scope",
       "record_ids": []
     },
     {
       "candidate_id": "directory-lead-a9a3a39463a5fa",
       "name": "Seven Branches Venue and Inn",
       "url": "https://www.bayareaweddings.com/vendor/seven-branches-venue-and-inn",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "seven-branches-venue-inn-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-a52744c3ae20ad",
       "name": "Skyview Marin",
       "url": "https://www.bayareaweddings.com/vendor/skyview-marin",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "skyview-marin-uucm-marin"
+      ]
     },
     {
       "candidate_id": "directory-lead-7cb7d0eb48e6aa",
       "name": "Sonoma Stonehouse",
       "url": "https://www.bayareaweddings.com/vendor/sonoma-stonehouse",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "sonoma-stonehouse-santa-rosa-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-d98c46858707d0",
       "name": "The Bridges Golf Club",
       "url": "https://www.bayareaweddings.com/vendor/the-bridges-golf-club",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "the-bridges-golf-club-contra-costa"
+      ]
     },
     {
       "candidate_id": "directory-lead-95574d068ff75f",
@@ -4465,15 +4475,17 @@
       "candidate_id": "directory-lead-d8432c992c2284",
       "name": "The Hollins House",
       "url": "https://www.bayareaweddings.com/vendor/the-hollins-house",
-      "state": "pending",
+      "state": "reviewed_outside_scope",
       "record_ids": []
     },
     {
       "candidate_id": "directory-lead-79bc29f8c392d4",
       "name": "The Lighthouse at Glen Cove Marina",
       "url": "https://www.bayareaweddings.com/vendor/the-lighthouse-at-glen-cove-marina",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "the-lighthouse-at-glen-cove-marina-solano"
+      ]
     },
     {
       "candidate_id": "directory-lead-6eedbc73971a83",

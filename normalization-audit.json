@@ -1,13 +1,13 @@
 {
-  "normalized_utc": "2026-11-12T14:56:11.071831+00:00",
-  "record_count": 2724,
-  "property_group_count": 1361,
+  "normalized_utc": "2026-11-12T15:06:04.869718+00:00",
+  "record_count": 2728,
+  "property_group_count": 1365,
   "identity_review_candidates": 91,
   "numeric_review_queue": 3274,
   "field_count": 106,
   "known_by_field": {
     "capacity_max": 1460,
-    "capacity_seated": 665,
+    "capacity_seated": 667,
     "capacity_standing": 376,
     "capacity_dinner_dance": 31,
     "capacity_rain_backup": 0,
@@ -34,7 +34,7 @@
     "rental_hours": 46,
     "minimum_rental_hours": 87,
     "bar_hours": 2,
-    "hourly_fee": 46,
+    "hourly_fee": 47,
     "overtime_hourly": 11,
     "security_hourly": 46,
     "staff_hourly": 18,
@@ -114,8 +114,8 @@
     "lodging_payer": 1
   },
   "status_counts": {
-    "published_evidence": 7446,
-    "needs_confirmation": 14210,
+    "published_evidence": 7449,
+    "needs_confirmation": 14226,
     "conflicting": 244,
     "searched_no_public_answer": 3612
   },

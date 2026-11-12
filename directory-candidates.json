@@ -2,8 +2,8 @@
   "summary": {
     "checked_utc": "2026-10-26T13:28:51.955107+00:00",
     "candidate_urls": 580,
-    "candidate_urls_with_exact_match": 461,
-    "candidate_urls_without_exact_match": 119,
+    "candidate_urls_with_exact_match": 467,
+    "candidate_urls_without_exact_match": 113,
     "source_counts": {
       "moderndjs": {
         "raw_named_cards": 361,
@@ -53,16 +53,16 @@
     },
     "added_venue_records": 0,
     "note": "Candidate URLs are not a venue count. Old source collection counts retain their original dates; followup state counts are current. Fragment-only links merged; names/URLs are aids, not automatic reviews. Original added_venue_records=0 describes index-only ingestion; primary_followup_records_added is separate.",
-    "primary_followup_records_added": 280,
-    "followup_checked_utc": "2026-11-12T14:53:23.790593+00:00",
+    "primary_followup_records_added": 283,
+    "followup_checked_utc": "2026-11-12T15:03:34.141785+00:00",
     "current_review_counts": {
-      "reviewed_added": 276,
-      "reviewed_existing": 185,
+      "reviewed_added": 279,
+      "reviewed_existing": 188,
       "blocked": 10,
       "reviewed_supplier_not_venue_offer": 1,
-      "reviewed_outside_scope": 6,
+      "reviewed_outside_scope": 8,
       "excluded": 3,
-      "pending": 99
+      "pending": 91
     }
   },
   "candidates": [
@@ -14548,13 +14548,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "saratoga-foothill-club-santa-clara"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_added",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/saratoga-foothill-club#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T15:03:34.141785+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/saratoga-foothill-club",
+        "https://saratogafoothillclub.org/rental"
+      ],
+      "review_reason": "20399ParkPlaceSaratogaSantaClaraNEWclubnotSaratogaCountryClub. Actualhome/rental+currentlinked2026–27sevenpagePDFALLtextread;3lowtextpagesrenderedbutNOTyetvisuallyread/nofloorplanapprovalclaim. IndoorDINING120/theater144/outdoorpatio150SEATEDnot270combined. Fri2450Sat3750Sun3250/MonThu1500for4h+300hour;ALLrates2setup+UPTO5event+1cleanup wordingCONFLICTweekday4h/notassume8hours1500.1000REFUNDsecurity+one-dayinsurance. OUTSIDEcaterer1850additionalINCLUDESmanager/tablechairsetup/janitorial;doNOTdoublechargestaffcleanupalreadycovered. RequiredapprovedlistedcatererlicensedhealthGLWC. Guntherinhouse/BYObeveragesorhousebarperbrochure/BYOBserviceconditionsfeesunknown. Tableschairs/piano/stage/changingroom/ADAACWiFi/parkingincluded, linenfoodbarstaffscopeunknown. Currenttotalnotallin.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-64a8b78764a791",
@@ -14572,13 +14581,19 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
+      "collection_status": "Reviewed scoped disposition; not a verified in-scope venue or access blocker",
       "matched_record_ids": [],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_outside_scope",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/seacliff-inn-aptos#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T15:03:34.141785+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/seacliff-inn-aptos",
+        "https://www.seacliffinn.com/santa-cruz-wedding-venues/"
+      ],
+      "review_reason": "SeacliffInn7500OldDominionAptosSantaCruzOUTSIDE9core/detailedprimaryfactsretainedprivateadjacentreceipt.140banquetnot150theater/Lawn100banquet130rec;Monarch10vs12conference/282vs315sqftconflicts;lodging10+roomblockDISCOUNTnotmandatorylodging. Nofood/rentquote."
     },
     {
       "id": "directory-lead-a9a3a39463a5fa",
@@ -14596,13 +14611,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "seven-branches-venue-inn-sonoma"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_existing",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/seven-branches-venue-and-inn#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T15:03:34.141785+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/seven-branches-venue-and-inn",
+        "https://sevenbranchesvenueandinn.com/events/weddings/"
+      ],
+      "review_reason": "Existing450WSpainSonomaONEpropertyBallroomPatioCourtyard+BridalSuite/6privateinnroomsnot6newvenues. Actualhome/weddingbody/formfieldsread. Allinclusivemarketingnotcompletepriceditemization. Currentprimarycapacityrentfoodbarservicetax/requiredroomnightsunknown/notassumemandatory6roombuyout. BridalSuitefullmirrorshairmakeupprivatebathoffered. Formnotfilled/submitted.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-a52744c3ae20ad",
@@ -14620,13 +14644,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "skyview-marin-uucm-marin"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_added",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/skyview-marin#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T15:03:34.141785+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/skyview-marin",
+        "https://skyviewmarin.com/"
+      ],
+      "review_reason": "SameactualSkyviewUUCMnewlyaddedkeyword28inTHIScontinuousresearch;registeroriginaldirectoryleadagainstownednewpropertynotduplicate. Priorpricing/wedding/Fellowship/Wrightbodiesalreadyreviewednotrepeated.4500wholeUPPERoutdoorweddingpackageincludingfurniturestaffbasicAV/foodbarcomplexAVextra/expired500June1discountnotapplied.124roundtablesvs125wedding/WrightLOWERNOwheelchairNOAVoverridesblanketADAclaim. Noformsubmitted.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-7cb7d0eb48e6aa",
@@ -14644,13 +14677,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "sonoma-stonehouse-santa-rosa-sonoma"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_added",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/sonoma-stonehouse#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T15:03:34.141785+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/sonoma-stonehouse",
+        "https://www.sonomastonehouse.org/wedding-booking"
+      ],
+      "review_reason": "3555SonomaHwySantaRosaSonomaNEWnotSonomaCITYfromname. Actualhome(wasmostlytestimonials)/wedding/eventbooking/ALLFAQread.14SUITES30OVERNIGHTnot30eventcapacity;FAQ13doubles+onefamily4vsEvent7king6queen1doublebedsconfigurationneedsconfirmation. EventweddingoffersEXCLUSIVEpropertyvsordinarysinglesuiteCOMMUNALareas/noonsitestaff/OneFineBnBmanagement;eventstaffandbuyoutrequiredrooms/nightsunknownnotassumed. Freeprivateparking/roommicrowavefridgecoffee/communespresso/game/diningpatio. Currentrentfoodbarlicensedvendorinsurancemusiccleanuptermsunknown/floorplanlinknotactualapprovedcapacity/unreviewed. Noformfilled.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-d98c46858707d0",
@@ -14668,13 +14710,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "the-bridges-golf-club-contra-costa"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_existing",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/the-bridges-golf-club#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T15:03:34.141785+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/the-bridges-golf-club",
+        "https://www.thebridgesgolf.com/special-events/"
+      ],
+      "review_reason": "ExistingSanRamonBridges9000SGaleRidgeNOTSanRamonWaters. Actualhome/specialevents/ALLFAQread.300Paviliongeneric300CEREMONYterrace/Club120/Fireside48/View60evening/Tournament275differentnot330approveddinner. Published6hEVENTvsFAQ5hceremonyINCLUDES/excludessetupcleanupCONFLICT. PaidOTup2AMnotallmusicbarcleanupconfirmed2AM. OutsideLICENSEDcatererMonFri+SundayNOTSATURDAY/perguestimportfeeandguestminunknown/ALLbeveragesvenuepurchaseexceptwineCORKAGE/owncakeallowed. VenuefeePLUSF&Bminvariesseason/day;outsidecateringstillguestmin. Standardlinensfurnituretablewaredancefloor/setupcleanupincluded/cakecutincludedgeneralpackagevsFAQpossiblyextraCONFLICT. Nonrefunddepositamountunknown/50%F&Bmin9months/balanceheadcount14days/extraeventcostscardonfile. Ebrochure16pageviewerloadedbrowser60butnavigationwouldnotadvance;actualOBSERVEDimageassets1–3exportedandvisuallyviewed, originalPDFNOTsaved/remainder4–16UNREVIEWED/sourcepartialnotwholevenueblocker. DrivingrangeclosureNOTeventvenueclosed.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-95574d068ff75f",
@@ -14725,13 +14776,19 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
+      "collection_status": "Reviewed scoped disposition; not a verified in-scope venue or access blocker",
       "matched_record_ids": [],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_outside_scope",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/the-hollins-house#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T15:03:34.141785+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/the-hollins-house",
+        "https://www.thehollinshouse.com/weddings/"
+      ],
+      "review_reason": "HollinsHouse20ClubhouseSantaCruzOUTSIDE9core/detailed12pwedding8peventoriginalsALLTEXTread/privateadjacentreceiptretained.180max100offseasonPDFvs200ceremonyweb/capacitiesconditionsnotcollapsed.2023URLpricebrochureyearcurrentunknown/food95menuminvs90FAQvs75WEB/beerwine35vs32/beverage40vs37vsweb30conflict. Weddingrent6000MonThu8500FriSun/1200ceremonyWITHreceptiononly;GENERALevent3800notweddingrent.23%service+tax/securitybarstaffextra. Noallintotal/nooutreach."
     },
     {
       "id": "directory-lead-79bc29f8c392d4",
@@ -14749,13 +14806,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "the-lighthouse-at-glen-cove-marina-solano"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_existing",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/the-lighthouse-at-glen-cove-marina#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T15:03:34.141785+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/the-lighthouse-at-glen-cove-marina",
+        "https://www.thelighthousegcm.com/wedding"
+      ],
+      "review_reason": "ExistingLighthouse2000GlenCoveMarinaVallejoSolano. Actualcurrenthome/weddingbodyread8995package150BANQUETmax vsolderdirectory12500/120guests/12hoursinclusionsCONFLICT;doNOTsilentlycarryold12h8overnighttermsintocurrentpackage. CurrentincludesEastWestGardensdeckmarketlightsheatlampsAdirondacks/indoorbanquet/chairsroundbanquetcocktailtableslinens8ftbarSOUND/setupbreakdown/parking/2×90minplanning/floorplansvendorlogisticsdayofexecution. 3300sqftSUITE4bed2bathovernightincludedbutactualsleepercountnightsunknown. FOODALCOHOLcatererstafftaxinsurancecleanupcutoffnotexplicitlyincludeddespiteALLinclusiveheadline. PublishedFAQrouteHTTP404/noFAQreviewclaimed;pricingneedcurrentproposal/notwholepropertyblocked.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-6eedbc73971a83",
