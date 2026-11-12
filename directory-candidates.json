@@ -2,8 +2,8 @@
   "summary": {
     "checked_utc": "2026-10-26T13:28:51.955107+00:00",
     "candidate_urls": 580,
-    "candidate_urls_with_exact_match": 475,
-    "candidate_urls_without_exact_match": 105,
+    "candidate_urls_with_exact_match": 482,
+    "candidate_urls_without_exact_match": 98,
     "source_counts": {
       "moderndjs": {
         "raw_named_cards": 361,
@@ -53,16 +53,16 @@
     },
     "added_venue_records": 0,
     "note": "Candidate URLs are not a venue count. Old source collection counts retain their original dates; followup state counts are current. Fragment-only links merged; names/URLs are aids, not automatic reviews. Original added_venue_records=0 describes index-only ingestion; primary_followup_records_added is separate.",
-    "primary_followup_records_added": 289,
-    "followup_checked_utc": "2026-11-12T15:14:20.960754+00:00",
+    "primary_followup_records_added": 291,
+    "followup_checked_utc": "2026-11-12T15:23:23.415903+00:00",
     "current_review_counts": {
-      "reviewed_added": 285,
-      "reviewed_existing": 190,
+      "reviewed_added": 287,
+      "reviewed_existing": 195,
       "blocked": 10,
       "reviewed_supplier_not_venue_offer": 1,
-      "reviewed_outside_scope": 8,
+      "reviewed_outside_scope": 9,
       "excluded": 3,
-      "pending": 83
+      "pending": 75
     }
   },
   "candidates": [
@@ -15154,13 +15154,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "viansa-sonoma-wedding-offering-sonoma"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_existing",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/viansa-winery#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T15:23:23.415903+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/viansa-winery",
+        "https://www.sonomacounty.com/weddings/wedding-venues/viansa-sonoma/"
+      ],
+      "review_reason": "Existing Viansa 25200 Arnold Drive, Sonoma. Actual county-tourism named property description/address reviewed; wedding offer corroborated. Operator homepage returns an age-affirmation splash: ordinary web and browser61 verified gate, not clicked. No current operator pricing or FAQ review claimed. Directory reports seasonal fees and wine minimum but these remain unverified secondary claims. One winery, not a new duplicate parent.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-ec045d0efb63b3",
@@ -15178,13 +15187,19 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
+      "collection_status": "Reviewed scoped disposition; not a verified in-scope venue or access blocker",
       "matched_record_ids": [],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_outside_scope",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/waterfall-lodge-retreat#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T15:23:23.415903+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/waterfall-lodge-retreat",
+        "https://www.waterfallsantacruz.com/about"
+      ],
+      "review_reason": "Physical Ben Lomond, Santa Cruz County, adjacent outside nine core counties. Detailed current wedding facts preserved in profiles50-waterfall-adjacent-facts.json; not silently discarded/not core county from SanJose driving time.150day/89overnight33cabins+2lodge bedrooms vs32oldhome conflict; minimum16cabins for full OR partial buyout; guests may pay own lodging. Partial reserves all33cabins, actual minimum16 not33requiredpaid. Micro30;2028honeymoonhousefuture not current. Owncaterer allowed/noinhousefood. Prices/nightminimum/barcurfewunknown."
     },
     {
       "id": "directory-lead-5a04db85865b9d",
@@ -15202,13 +15217,24 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "wente-family-vineyards-cresta-blanca-room-alameda",
+        "wente-family-vineyards-terrace-lawn-alameda",
+        "wente-family-vineyards-vineyard-lawn-alameda"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_existing",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/wente-vineyards#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T15:23:23.415903+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/wente-vineyards",
+        "https://wentevineyards.com/plan-your-wedding/"
+      ],
+      "review_reason": "Existing ONE Wente property at5050 Arroyo Road with three room records. Current wedding and private-event bodies read. Two15-page wedding PDFs reviewed by full2027 text plus full text diff against2026 and visual pages2/3/12/13/14; six-page bridal menu all text read. Classic200/person, Signature215, Platinum250 includes four-hour beverage package, food/dessert and full service staff/furniture/standard linens/tableware. Text extraction interleaves Classic/Signature prices; rendered page3 establishes correct mapping. Add25%ADMIN and tax; admin is not stated gratuity. Facility fees May–Nov Sat6000/FriSun5000/MonThu4000; Dec–Apr Sat5000/FriSun4000/MonThu3000.2027 linked version additionally publishes F&B minima May–Nov25000/23000/12000, Dec–Apr15000/12000/8000, excluding admin/tax. Rental and F&B are separate charges; minimum is a floor, not added again to qualifying package spend. Ceremony setup1500 if ceremony selected; cake NOT included, cake cut3/person. Extra protein20, filet15; premium spirits10/person, Barrel wine upgrade10, ports4, additional bartender250 conditions unknown. Platinum says Barrel and toast included while beverage pages list toast10 extra: scope conflict retained. Five-hour event;150indoor/800outdoor PDF vs140indoor/450–500Terrace/700Vineyard current web conflict. Private-event page150indoor/700Vineyard/500Terrace; Terrace lawn included with Cresta Blanca reservation, not extra additive capacity. Veranda35seated/Caves40 additional spaces, not new parents. Outside food cuisine exception licensedinsured extra, NOoutsidealcohol. Terrace event11PM/Vineyard10PM, cleanup unknown. Bridal suite trays serve12, prices100–150 not per-person wedding dinner; beverages consumption or50/person +250bartender, not base wedding bar. No full total invented.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-02903d40ce7f32",
@@ -15226,13 +15252,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "alila-napa-valley-st-helena-napa"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_added",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/alila-napa-valley#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T15:23:23.415903+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/alila-napa-valley",
+        "https://www.sthelena.com/listing/alila-napa-valley/"
+      ],
+      "review_reason": "Local official tourism listing establishes Alila at1915 Main Street, StHelena, Napa and identifies wedding/event offering. Hyatt/Alila operator routes and two search-discovered2026PDFs fail ordinary collector robots retrieval; ordinary reader error/browser62 blank. Not bypassed; no original PDF bytes or current prices claimed.64 hotel rooms and adults-only lodging atmosphere are tourism claims, not64 event seats or verified prohibition on minors attending weddings.195Thanksgiving dinner and76tea event are retail public events, not wedding package rates. Directory venue starting3000/12000 and inclusions remain unverified. Current operator booking status/room inventory/approval/costs unresolved; not a whole-venue closure.",
+      "identity_review_source_kind": "regional_tourism_directory"
     },
     {
       "id": "directory-lead-b768a8e8a1439c",
@@ -15250,13 +15285,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "allied-arts-guild-san-mateo"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_existing",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/allied-arts-guild#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T15:23:23.415903+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/allied-arts-guild",
+        "https://alliedartsguild.org/weddings"
+      ],
+      "review_reason": "Existing Allied Arts Guild75ArborMenloPark. Reuse prior keyword17 wedding/form review after comparing exact source SHA: same property/source, not a second audit. Current body read confirms140generic guests, property rental starts4000/catering extra; ceremony-only3000 between10AM–2PM, ceremony+reception10AM–9PM. Business hours MonSat10–5 are not wedding hours. Conference24plus20 sparechairs not44 banquet approval. No additional facts asserted from unrelated website counters.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-e55e64a1e64d29",
@@ -15274,13 +15318,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "asian-art-museum-samsung-hall-san-francisco"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_existing",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/asian-art-museum#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T15:23:23.415903+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/asian-art-museum",
+        "https://rentals.asianart.org/weddings-private-events/"
+      ],
+      "review_reason": "Existing ONE Asian Art Museum200LarkinSF. Current wedding room body read; same-source FAQ/catering/packages/guidelines completed profile32 reused, not repeated. Samsung250SEATED350standing225theater; Loggia50cafe175standing; Peterson30seated50standing earliest6PM. Bowes/Bogart room-specific80seated100theater with200/250standing differs generic200–300cards; do not treat cards as dining. General event5:30PM–midnight, vendors2PM–2AM distinct. Galleries variable capacity/tours optional. Current rent/approved dinner+dance layout remain unknown; no duplicate property.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-4c308d4fa7cb3b",
@@ -15298,13 +15351,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "auberge-du-soleil-rutherford-napa"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_added",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/auberge-du-soleil#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T15:23:23.415903+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/auberge-du-soleil",
+        "https://auberge.com/auberge-du-soleil/events/weddings/"
+      ],
+      "review_reason": "New ONE physical resort at180RutherfordHillRoadRutherfordNapa, notStHelena from directory city. Actual relevant wedding body, all room/table configurations and event amenities read; unrelated global property portfolio not claimed reviewed. Actual one-page resort map text and visual reviewed. BellevueI+II120ROUNDS/120reception; BellevueI80rounds/48rectangle/120THEATER/100standing; II60rounds/40rectangle; Maison30round20rectangle; Rotonde40round18rectangle; LeSalon20seated. LeJardin table20rectangle/30standing but buyout family-dinner prose18 conflicts; special garden access with full buyout does not require all50hotel rooms for every wedding.50hotelroomsnot50eventguests. Food/wine/spirit packages and service available, prices/fees/BYO rules unknown. Team works WITH external wedding planner; not free planner assumed. Property33acres not capacity.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-6c29c0e0820b00",
@@ -15322,13 +15384,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "bloc15-whole-oakland-alameda"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_existing",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/bloc15#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T15:23:23.415903+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/bloc15",
+        "https://bloc15.com/events/oakland-wedding-venues/"
+      ],
+      "review_reason": "Existing BLOC15whole252SecondOakland, not new parent or second physical floor. Wedding250generic versus general550BANQUET/1000standing/750theater/430classroom conflict remains layout-specific unresolved, not330approved wedding dinner. Actual wedding, full venueFAQ, catering and bar bodies read. Own trusted caterer allowed despite exclusive-list headline;600sqftcommercialkitchen. Venue provides inhousebar/softbarbeerwine/fulltop-shelf/nohostcash options; prices and compulsory staffing unknown. ProjectorsBOSEsoundlighting available notverifiedallfree. Public streetparking and garage acrossstreet notallguestsreserved/freegarage guarantee. General accessible-ramp claim not detailed mezzanine access. No contracts/forms or payments.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-e386fdc916ce72",

@@ -1,15 +1,15 @@
 {
   "candidate_urls": 580,
-  "resolved_candidate_urls": 487,
-  "unresolved_candidate_urls": 93,
+  "resolved_candidate_urls": 495,
+  "unresolved_candidate_urls": 85,
   "review_counts": {
-    "reviewed_added": 285,
-    "reviewed_existing": 190,
+    "reviewed_added": 287,
+    "reviewed_existing": 195,
     "blocked": 10,
     "reviewed_supplier_not_venue_offer": 1,
-    "reviewed_outside_scope": 8,
+    "reviewed_outside_scope": 9,
     "excluded": 3,
-    "pending": 83
+    "pending": 75
   },
   "complete": false,
   "scope_note": "Candidate-queue resolution only; even zero unresolved leads does not establish all venues discovered. Room counts and source downloads are not property coverage.",
@@ -4592,57 +4592,73 @@
       "candidate_id": "directory-lead-34cde5277b2e42",
       "name": "Viansa Winery",
       "url": "https://www.bayareaweddings.com/vendor/viansa-winery",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "viansa-sonoma-wedding-offering-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-ec045d0efb63b3",
       "name": "Waterfall Lodge & Retreat",
       "url": "https://www.bayareaweddings.com/vendor/waterfall-lodge-retreat",
-      "state": "pending",
+      "state": "reviewed_outside_scope",
       "record_ids": []
     },
     {
       "candidate_id": "directory-lead-5a04db85865b9d",
       "name": "Wente Vineyards",
       "url": "https://www.bayareaweddings.com/vendor/wente-vineyards",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "wente-family-vineyards-cresta-blanca-room-alameda",
+        "wente-family-vineyards-terrace-lawn-alameda",
+        "wente-family-vineyards-vineyard-lawn-alameda"
+      ]
     },
     {
       "candidate_id": "directory-lead-02903d40ce7f32",
       "name": "Alila Napa Valley",
       "url": "https://www.bayareaweddings.com/vendor/alila-napa-valley",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "alila-napa-valley-st-helena-napa"
+      ]
     },
     {
       "candidate_id": "directory-lead-b768a8e8a1439c",
       "name": "Allied Arts Guild",
       "url": "https://www.bayareaweddings.com/vendor/allied-arts-guild",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "allied-arts-guild-san-mateo"
+      ]
     },
     {
       "candidate_id": "directory-lead-e55e64a1e64d29",
       "name": "Asian Art Museum",
       "url": "https://www.bayareaweddings.com/vendor/asian-art-museum",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "asian-art-museum-samsung-hall-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-4c308d4fa7cb3b",
       "name": "Auberge du Soleil",
       "url": "https://www.bayareaweddings.com/vendor/auberge-du-soleil",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "auberge-du-soleil-rutherford-napa"
+      ]
     },
     {
       "candidate_id": "directory-lead-6c29c0e0820b00",
       "name": "BLOC15",
       "url": "https://www.bayareaweddings.com/vendor/bloc15",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "bloc15-whole-oakland-alameda"
+      ]
     },
     {
       "candidate_id": "directory-lead-e386fdc916ce72",
