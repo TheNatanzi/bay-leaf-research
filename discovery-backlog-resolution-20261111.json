@@ -1,6 +1,6 @@
 {
   "audit_id": "discovery-backlog-20261111",
-  "updated_utc": "2026-11-12T10:56:48.995241+00:00",
+  "updated_utc": "2026-11-12T11:06:19.832798+00:00",
   "original_pending_candidates": 500,
   "reviewed_dispositions_applied": [
     {
@@ -5594,9 +5594,66 @@
       "candidate_reader_evidence_sha256": "8df361c1bfea9c33618b6a7fb1c98c52026d496af2f8bc35c989cfcaf0d66ad6",
       "candidate_raw_retrieval_state": "http_error",
       "candidate_evidence_method": "Exact standard-web reader export actually reviewed; failed raw retrieval preserved."
+    },
+    {
+      "candidate_id": "directory-lead-b8765f723742a3",
+      "original_pending_index": 138,
+      "checked_utc": "2026-11-12T11:06:19.832798+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "exploratorium-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.partyslate.com/venues/exploratorium",
+        "https://www.exploratorium.edu/sites/default/files/2026-10/Wedding_Packages_Exploratorium_2026.pdf"
+      ],
+      "candidate_capture_sha256": null,
+      "operator_capture_sha256": "9c1b3db880dbb91cdd75c8f00f2ea94381958a2948c65c839e7bbf6f77ae23cf",
+      "reason": "FullnewPartySlatebodyreadviaretainedreader;currentprimaryrentalmain/planningbrowserbodiesread,sixcurrentlinkedoriginalPDFsdownloadedviaSUPPORTedbrowserafterordinaryHTTP403/reader13MBlimit;actualbytes/SHAverified. Wedding11p,corporate4p,map1p,policy8p,caterers1p,vendors3p=28originalpagesactuallytextread;fee/FAQ/table/maprenderedandvisuallycheckedoroverviewedasnoted. OnePier15propertynotfivegalleryproperties.2026socialbrochureFisher12325/150banquet200standing100ceremony+reception,East15725/150banquet450standing150combined,Central+Outdoor20825/500banquet1200standing500combined,West13175/200banquet450standing200combined. CorporatecurrenttableCentral400dining/West500standing/East180dining conflictwithsocial500/450/150;notarbitrarysum/dinnerdanceapproval. Observatory+East24225bundle,Central+East31025or+West29325TOTALbundlepricesnotaddedagainontop20825. Venuefeesincludevenue tax/service,3%cardconditional;CATERING/BAR/FURNITURE/PLANNERextra,notallin. Table/chairsNOTincluded;bridalclassroom/onehourphototime/membership/Explainers/LEDsoundoffered,guestservicefeeincludeduptoscoped200/500. Basicguestsdepart11:30PM/cleanup12:30AM;extra3AMamplifiedmusicand1:45AMbarONLYwithpurchasedextra hours,notstandardbookingapproval;policy100dBanimals/volumecontrolconflictswithFAQNo restrictions. ApprovedcaterersONLY;Sept2026listnowConstellationinhousevs2025policySeaglassliquorconcession;licensebuyout1000>=21days/1500latepolicy,caterersincludefeecurrentFAQ,avoidduplication/supersessionunclear.50%nonrefundablecrediteddeposit/balance3monthsnotextraexpense. Mandatoryplanner/dayofallowed;insuredlicensedbarprovider,personalweddingclient1mGLexceptionnot5mcommercialumbrella. Optionalclassrooms200/30minonlywithgallery,Kanbarchairmove500conditional. Publicpaidparkingnotincluded. Original2025weddingPDFnotread/fullcopyunsaved,new2026reviewedsupersedingpricecomparisonexplicit.",
+      "candidate_reader_evidence_sha256": "77987612d8afa9891b04298b38a85aad60c7a7e6a18e5e00a9fc9051bec202dd",
+      "candidate_raw_retrieval_state": "http_error",
+      "candidate_evidence_method": "Exact standard-web reader export actually reviewed; failed raw retrieval preserved."
+    },
+    {
+      "candidate_id": "directory-lead-bbd0cacedc6d0c",
+      "original_pending_index": 139,
+      "checked_utc": "2026-11-12T11:06:19.832798+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "california-academy-of-sciences-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.partyslate.com/venues/california-academy-of-sciences",
+        "https://www.calacademy.org/weddings"
+      ],
+      "candidate_capture_sha256": null,
+      "operator_capture_sha256": "2a40e3cd8963217a785bab2e79c6b00e0f28ec364dae2c3fbe2d25c135251b17",
+      "reason": "EntirePartySlateprofileandcurrentprimaryweddings/plananevent/formread;actual15pagebrochureand12pageapprovedvendorPDFfullytextread,roompagesvisuallyoverviewed. Exact55MusicConcourseoneproperty,15eventspacesnot15newproperties. Currentrequiresexternalprofessionalcoordinator/approvedcaterersonly,nooutsidelistapproval;noncateringvendorsmaychosenwithpre-eventwalkthroughperdatedMarch2023list(231201filename). Security/coatcheck/custodialbasicAVofferedbutactualinclusion/addonamountunknown;AV/docentextra perbrochure. Eventstarts6:30PM/readyroom5PM/photosLivingRoof5:30–6:30;currentinquiryformEVENTendmidnightnotcleanup/music/bar. GarageSEPARATELYpaid/vendor,nomemberdiscount. Currentprimaryfullbuilding1000seated3000+receptionvsdirectory600/3500;roomseating/layoutcountsconflict,no330dinnerdanceapproval. AfricanHall280primaryvs250directory;Aquarium100vs75;Piazza350and450standingcurrentvs500standingolderbrochure;LivingRoof140standing/variable seatingnot100dinner. RainforestNOfooddrink/closes8PMolderbrochure;planetariumtheater296oldvs290currentnotdinner,DarkAdapt50seateddifferent.15primaryvs12olderbrochurespaces,nosilentcurrentstatusassumption. CurrentinquiryformvenuebudgetSTARTS5000notallinquote/minimumuniversal. Requiredcontact/budgetrange/date/count/season-yearfallbackdescription/country/eventtype/referralfieldsread,noentry/submission. Noformquestionnaireduplicationifpublishedfactsanswer. Originalprivatehasharchive;notnewvenueperroom.",
+      "candidate_reader_evidence_sha256": "77987612d8afa9891b04298b38a85aad60c7a7e6a18e5e00a9fc9051bec202dd",
+      "candidate_raw_retrieval_state": "http_error",
+      "candidate_evidence_method": "Exact standard-web reader export actually reviewed; failed raw retrieval preserved."
+    },
+    {
+      "candidate_id": "directory-lead-e3dd3ab9341b34",
+      "original_pending_index": 141,
+      "checked_utc": "2026-11-12T11:06:19.832798+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "the-westin-st-francis-san-francisco-on-union-square-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.partyslate.com/venues/the-westin-st-francis",
+        "https://www.marriott.com/en-us/hotels/sfouw-the-westin-st-francis-san-francisco-on-union-square/weddings/"
+      ],
+      "candidate_capture_sha256": null,
+      "operator_capture_sha256": "cb8ad38d75678b799c4109fdfd6161bd7fd922cb4ff2276f0ebcc1b4272c5733",
+      "reason": "EntirePartySlateprofile/currentMarriottweddingbodyandcurrenteventpageuniquelinesread;duplicatechart/bodylinesexactlymatched,notomittednewcontent. Actual7page2024originalweddingPDFfullytextread,packageFAQpagesfullsizevisuallyread/layoutsvisuallyoverviewed. One335Powellhotelnot36newproperties,35/36roomsand51646/56000sqftmarketingconflictsretained. CurrentFAQ800dinnerdancevs2024GrandBallroom750dinnerdance;currentcapacitychart980BANQUET/1500RECEPTION/1100theaternot980dinnerdance,roomapprovalneedsconfirmation.2024MissionBay100dinnerdance/120ceremony/200cocktail,GoldenGate200fullfloorOR250withdance/dessertMissionBay;notaddcapacitiesorconfusewithPresidioGoldenGateClub. Guide249/279/339ppF&BPLUS25%staffhouse/tax8.625DATED2024notcurrentlegalrate;directory271taxfeesincludedcontradictionnotallin. Mandatoryifbarbartender437.50EACH1/100guests+tax;optionalcoat312.50EACH1/200+tax;vendor93.75+tax;requiredoutsideplanneralsoCURRENTFAQconfirmeddespitegenericfullplanningmarketing. RoomrentalnotlistedPDF/directory2000–10000secondarynotcurrentissuedquote.2024room/labor/AVpricesINCLUDE25housecharge,doNOTadd25again;F&B25added,distributionplated15staff10house/buffet18.75staff6.25house,notallgratuity.10%estimateoveragepotentialrefundnotmandatoryspentfee. Complimentaryweddingnightsuite/discountroomsnotmandatoryblock;extras937.50+tax/hourDATEDnotbaserent. MidnightdirectoryEVENTcurfewnotmusic/bar/cleanupindependentproof. Updatedcurrentrates/approvedlayoutstillunknown.",
+      "candidate_reader_evidence_sha256": "77987612d8afa9891b04298b38a85aad60c7a7e6a18e5e00a9fc9051bec202dd",
+      "candidate_raw_retrieval_state": "http_error",
+      "candidate_evidence_method": "Exact standard-web reader export actually reviewed; failed raw retrieval preserved."
     }
   ],
-  "unreviewed_original_inputs": 228,
+  "unreviewed_original_inputs": 225,
   "municipal_searches_completed": 0,
   "complete": false,
   "scope": "Queue identity resolution is not full venue facts, exhaustive geographic discovery or permission for any event. Actual access/identity blockers remain separate from unreviewed work."
