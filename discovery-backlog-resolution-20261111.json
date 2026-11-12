@@ -1,6 +1,6 @@
 {
   "audit_id": "discovery-backlog-20261111",
-  "updated_utc": "2026-11-12T12:24:23.663178+00:00",
+  "updated_utc": "2026-11-12T12:31:15.688457+00:00",
   "original_pending_candidates": 500,
   "reviewed_dispositions_applied": [
     {
@@ -6230,9 +6230,81 @@
       "candidate_capture_sha256": "f841d38dd3867f1115b8249d9ab829050cc9585d9a01c7ce544b8ecf5e23ff7a",
       "operator_capture_sha256": "462bfde2e12e2b574fe38186f09fba33ad390c59f1c89bb60ea3c88734b5f10c",
       "reason": "Actual full SFUVA and primary room/wedding/vendor/form pages read;15 original PDFs text-reviewed with original bytes and hashes, selected floorplan/inventory/appendix images inspected. Existing ONE lower-campus property with nested rooms, no duplicate venue per room. Preserve room/layout-specific capacities, dated2019/2024/2025/2026 conflicts, required client-paid labor/electrical/cleaning and optional AV/furniture costs. PDFs archived privately and readback SHA verified. Request PDF requires email; live online submission capability remains unverified. General Residence UpperFortMason not silently merged. No current all-in rent or approved dinnerdance inferred; no contract/form sent."
+    },
+    {
+      "candidate_id": "directory-lead-2b874e07b9f0bb",
+      "original_pending_index": 175,
+      "checked_utc": "2026-11-12T12:29:32.133567+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "the-masonic-live-nation-grand-lobby-san-francisco",
+        "the-masonic-live-nation-california-room-san-francisco",
+        "the-masonic-live-nation-exhibition-hall-san-francisco",
+        "the-masonic-live-nation-auditorium-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.sfuva.com/freemasons-hall",
+        "https://freemason.org/magazine/freemasons-hall/"
+      ],
+      "candidate_capture_sha256": "f5837756298967daebba87e887fdfac5e6f9e756699fc709eeec5acdad9cdfa1",
+      "operator_capture_sha256": "0ef030d2ab4e41e879c1612ec47c389f3e41b029a6400cd75ed802905ecd9252",
+      "reason": "FullSFUVAandprimaryMasonsofficialarticleactuallyread, officialmap1111California identity sectionread. FreemasonsHallnestedwithinexisting1111CaliforniaMasonicbuilding notnewphysicalparentorLiveNationauditorium. Primary50lodgecapacity versusSFUVA60theater/Portrait60banquet conflicting; no capacity transplanted tootherrooms. Portrait/Lodge/Study threeinterconnectedrooms retainedasnestedaliases, separatepublicrentaloperator/bookingeligibilityunknown. Historicalarticle notissuedweddingapproval/prices."
+    },
+    {
+      "candidate_id": "directory-lead-a22d845dac5acf",
+      "original_pending_index": 178,
+      "checked_utc": "2026-11-12T12:29:32.133567+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "grace-cathedral-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.sfuva.com/grace-cathedral",
+        "https://gracecathedral.org/private-and-corporate-event-rentals/"
+      ],
+      "candidate_capture_sha256": "1cb37499ef06cfc5e7d66cb98e1b3d5edb8b6a7d96635334e5be9e300068cd7e",
+      "operator_capture_sha256": "34eb823e7221ff4f8b52e12fa3c9b3869d052f27bc9917395ccf7d3c193f04cd",
+      "reason": "EntireprimaryrentalandweddingFAQbodiesread. ONEcathedralwithnestedrooms, no seven independentproperties. Nave450fixedpewsup1300additionalchairsNOTbanquet; GreatQuire185headingvs175prose200maxconflict. Dining76/Gresham80–200/Plaza500generic not330approveddinner. Generalnonreligiousarts/eventsalloweddoesNOTwaiveweddingriteeligibility:onepartnerbaptizedChristian,Episcopalrites/staffnormallyofficiates,3–4prepmeetings,sacredmusiconlyunlessMusicDeptapproves. Notmembershiprequired. WeddingusualFriSat/weekdaypreapproval;noSundays,HolyWeek,Memorialweekend,December. Feecoverscounseling/organistorgan/verger/soundengineer/coordinator/space/rehearsal/dressingrooms/leafletbutdollarscontactgated. Calameobrochureordinaryreader502/browserERR_EMPTY_RESPONSE, actualbrochureUNREADnotclaimedreviewed. Noinventedspousedetailsorformsubmission."
+    },
+    {
+      "candidate_id": "directory-lead-26be7a830249c6",
+      "original_pending_index": 179,
+      "checked_utc": "2026-11-12T12:29:32.133567+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "gray-area-grand-theater-mission-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.sfuva.com/the-grand-theater",
+        "https://grayarea.org/book"
+      ],
+      "candidate_capture_sha256": "0149eca3e7c1baad6b3f0bcd1f697151249aedefbb3478b403f318381f1d8b8a",
+      "operator_capture_sha256": "5610938315eb38e72998c0f7c43063c45def0dfbc4ef3e007e794900e1a4fb59",
+      "reason": "FullSFUVAandcurrentprimaryrentalbodyread. ONE2665Missionproperty,GrandTheater/halfconfiguration/lobby/classroomnestednotfourparents. Current6000sf800generic450seatedversusdirectory668reception500theater200banquet unresolved;450seatednot450approveddinnerdance. Lobby800sf80generic50seated;Half4000sf400generic250seated;classroom250sf30generic. Whole10000sfbuildingnot7000SFUVA, no additivecapacity. AVlightingfiber/fullbarpackagesadvertisednotautomaticallyfree. Nonprofit501c3communitydiscountrequiresqualifyingmissionandIRSdeterminationletter, notautomaticpersonalwedding. ActualpublicAirtableformrenderedviaordinarybrowserafterrejectoptionalcookies:FirstLastEmailPhoneEventNameEventStartEndDateTime/nonprofitquestion/referrals/Submit. Requiredvalidationnottriggered/noentriesnosubmission. FormwasreadNOTshellclassifiedasblocked. Currentweddingpermission/rent/allmandatoryfeesunverified. LegacyCOVIDcapacitytextnotcurrentlawinference."
+    },
+    {
+      "candidate_id": "directory-lead-896023e48f48dc",
+      "original_pending_index": 176,
+      "checked_utc": "2026-11-12T12:31:15.688457+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "oracle-park-private-events-san-francisco",
+        "cooperstown-sf-giants-enterprises-san-francisco",
+        "mission-rock-china-basin-park-giants-san-francisco",
+        "lot-a-giants-enterprises-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.sfuva.com/giants-enterprises",
+        "https://giantsenterprises.com/inside-oracle-park/"
+      ],
+      "candidate_capture_sha256": "57d2b65ee5c6acadf3b63d10c201af4dc04b91dd5b69f25a1e5ae4340296de7d",
+      "operator_capture_sha256": null,
+      "reason": "EntireSFUVA/actualpublishedprimaryOraclePierMissionRockCooperstownLotAbodiesandall10Oracle-roompagebodiesread. ThreeoriginalPDFs21pbrochure1prate21pcateringALLtextreviewed plusrate/conditionchartsvisuallyread andprivateDriveSHAverified. FOURnewphysicalsitesOraclePark/CooperstownSF/ChinaBasinParkMissionRock/LotA,sharedGiantsoperatornotroomsasproperties. ExistingPier48updatedseparately. LegacyCaliforniaSpirit/DiamondSeasin2024ratecardhavecurrentlinkedOnTheWater404; notassertedcurrentbookableor silentlydropped, heldasdatedpropertyleads. NewbrochureKingStreetWarehouseandCurranTheatreidentity/currentprimarypagespending, preservedasfrontierleads. Current250000vs300000whole/Cooper5000vs7500vsquote/Lot10kvs20k/Suite5000vs7500 conflictsretained. GeneralcapacitiesNOTapproveddinnerdance; currentallinunknown. Rawrobotsfailpreserved; actualstandardreaderexportsnotcalledoriginalHTML. Nocontact/formsubmit/commitment.",
+      "reader_evidence_sha256": "86b2532511d04341ea496511a8dba2484188adaa651eaf9c8132332546d23f87",
+      "evidence_method": "Exact standard-web reader export reviewed; original HTML retrieval state preserved; no raw HTML success claimed"
     }
   ],
-  "unreviewed_original_inputs": 192,
+  "unreviewed_original_inputs": 188,
   "municipal_searches_completed": 0,
   "complete": false,
   "scope": "Queue identity resolution is not full venue facts, exhaustive geographic discovery or permission for any event. Actual access/identity blockers remain separate from unreviewed work."
