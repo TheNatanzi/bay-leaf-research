@@ -75,4 +75,11 @@ assert.equal(N.value(by('first-presbyterian-church-concord-contra-costa'),'byob'
 for(const id of ['faith-christian-fellowship-walnut-creek-contra-costa','walnut-creek-elks-lodge-creekside-hall-contra-costa','first-presbyterian-church-concord-contra-costa','north-marin-community-services-wilson-avenue-center-marin']){
  assert.equal(by(id).mandatory_total_price,null);assert.equal(N.value(by(id),'fixed_mandatory'),null,'unpublished costs must stay unknown');
 }
+const cityView=by('city-view-hall-treasure-island-san-francisco');assert.equal(cityView.address,'900 Avenue D, San Francisco, CA 94130');
+assert.equal(N.value(cityView,'capacity_seated'),225);assert.equal(N.value(cityView,'tables_included'),'no');assert.equal(N.value(cityView,'music_indoor'),null,'commissary production access is not hall music permission');
+const jccsf=by('jewish-community-center-of-san-francisco-san-francisco');assert.equal(N.value(jccsf,'tables_included'),'yes');assert.equal(N.value(jccsf,'deposit_refundable'),500);
+assert.equal(jccsf.source_room_inventory.find(r=>r.id==='jccsf-kanbar-hall-san-francisco').published_capacity.banquet,350);assert.equal(N.value(jccsf,'capacity_dinner_dance'),null);
+assert.equal(N.value(jccsf,'event_end'),null,'building and garage hours are not event cutoff');assert.equal(jccsf.mandatory_total_price,null);
+const temescal=by('temescal-works-event-space-oakland-alameda');assert.equal(N.value(temescal,'hourly_fee'),null,'two live primary pages conflict on rate');assert.equal(N.value(temescal,'minimum_rental_hours'),4);assert.equal(N.value(temescal,'fee_min'),null,'conflicting hourly base cannot yield a resolved current minimum');assert.equal(temescal.mandatory_total_price,null);assert(temescal.conditional_pricing_evidence[0].rate_conflict_unresolved);
+const moriarty=by('st-anne-of-the-sunset-moriarty-hall-san-francisco');assert.equal(N.value(moriarty,'music_indoor'),1320);assert.equal(N.value(moriarty,'event_end'),1380);assert.equal(N.value(moriarty,'cleanup_end'),null);assert.equal(N.value(moriarty,'fixed_mandatory'),null,'dated insurance quote is not current mandatory total');
 console.log('Package limits, capacity conflicts, exact reviews, property identity, component costs, sunset clocks and complete founder export passed.');
