@@ -2,8 +2,8 @@
   "summary": {
     "checked_utc": "2026-10-26T13:28:51.955107+00:00",
     "candidate_urls": 580,
-    "candidate_urls_with_exact_match": 407,
-    "candidate_urls_without_exact_match": 173,
+    "candidate_urls_with_exact_match": 412,
+    "candidate_urls_without_exact_match": 168,
     "source_counts": {
       "moderndjs": {
         "raw_named_cards": 361,
@@ -53,13 +53,13 @@
     },
     "added_venue_records": 0,
     "note": "Candidate URLs are not a venue count. Old source collection counts retain their original dates; followup state counts are current. Fragment-only links merged; names/URLs are aids, not automatic reviews. Original added_venue_records=0 describes index-only ingestion; primary_followup_records_added is separate.",
-    "primary_followup_records_added": 246,
-    "followup_checked_utc": "2026-11-12T13:20:32.857052+00:00",
+    "primary_followup_records_added": 249,
+    "followup_checked_utc": "2026-11-12T13:39:18.300878+00:00",
     "current_review_counts": {
-      "reviewed_added": 242,
-      "reviewed_existing": 165,
+      "reviewed_added": 245,
+      "reviewed_existing": 167,
       "blocked": 10,
-      "pending": 160,
+      "pending": 155,
       "excluded": 3
     }
   },
@@ -6806,10 +6806,19 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "underdogs-cantina-king-san-francisco"
+      ],
       "match_method": "Not yet manually reconciled",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T13:39:18.300878+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/underdogs-cantina",
+        "http://underdogscantina.com/reservations/"
+      ],
+      "review_reason": "Fullprimaryreservationbodyread. Oneoperator128King/CantinaandNextDooradjacent2floorvenue, separateNextDoorstreetaddressunverified/notinvented. NextDoor100–450GENERICweddingsadvertised; Arcade20–35/lower25–50/main50–300+ not450dinner.225picnic8people2bucketsTecateNachosNOTweddingprice; otherbuyoutquoteunknown. Formrequestnotguarantee/72hordinaryreservationnotice. FullserviceAVsecuritydecorF&Bofferednotallincluded. Kitchenhoursnoteventcutoff.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-d4a9be5315567b",
@@ -6827,10 +6836,19 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "walt-disney-family-museum-san-francisco"
+      ],
       "match_method": "Not yet manually reconciled",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T13:39:18.300878+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/the-walt-disney-family-museum",
+        "https://www.waltdisney.org/visit/events-venue-rentals/weddings"
+      ],
+      "review_reason": "Fullprimaryevent/wedding/room bodies read. OneMuseumproperty/nestedDianeDisneyMillerHall130DINNERwithdance175reception;Awardsweb60dinner200recvsoriginal70/300conflict. Theater114FIXEDnotdinner. Actual2p2025rentaloriginalread/p2chartviewed:Hall8000up4h/Awards6200base6800season/Theater3800/4200up4h, notallin. All3publishedInfoSheetURLs identicalSHAbytes; versionsretained/reviewscope reused. Preferred2025vendorlist2IMAGEpagesbothviewed, preferredNOTexclusivepermission. Noformsubmission/datecommitment.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-ce669e7e622071",
@@ -6848,10 +6866,19 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "sf-war-memorial-performing-arts-center-campus-san-francisco"
+      ],
       "match_method": "Not yet manually reconciled",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T13:39:18.300878+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/war-memorial-performing-arts-center",
+        "https://sfwarmemorial.org/reception-spaces/"
+      ],
+      "review_reason": "Onecampussummary/sharedoperator with4physicalbuildings nested, notsixindependentoutreachproperties. Actualprimaryvenues/receptionchart/weddings/GreenRoom fullbody+browserRates/Expensesread; Davies/Herbst/Opera/Wilsey technicalpagesSCOPEDaddress/rental/requiredfees, alltechnicalridersUNREAD. Davies201VanNess currentreceptionchartNOTdinners/weddingsdespitegeneric200seateddirectory. Opera301VanNessEXPLICITNOweddings. Veterans401VanNessGreenRoom160–180dinner/400standing+Herbst892fixedtheater/Wilsey270–299theater/education200standing. Zellerbach300Franklinrehearsalnotweddingpermission. GreenRoomownlicensedcaterer vsDaviesOperaHerbstGlobalGourmetexclusive; nooperatorwidecateringrule. Do notflattenperformanceadmissionrenttoweddingquote. Sixweekplanningminimum/requiredpaidstaffinsuranceequipment.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-258d66456c6de8",
@@ -6869,10 +6896,21 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "presidio-golden-gate-club-golden-gate-club-san-francisco",
+        "presidio-officers-club-moraga-san-francisco",
+        "presidio-log-cabin-log-cabin-san-francisco"
+      ],
       "match_method": "Not yet manually reconciled",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T13:39:18.300878+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/wedgewood-at-the-presidio",
+        "https://www.wedgewoodevents.com/venue/northern-california-golden-gate-club"
+      ],
+      "review_reason": "OriginalprofilecoversTHREEexistingphysicalproperties GoldenGate135Fisher/Officers50Moraga/Log1299Storey; sameWedgewoodoperator notonebuilding. Currentprimary3venuebodies/3currentlinked12pAllPackagesPDFs text reviewed (Officers/Log pages4–12 exactentiretextmatchalreadyreadGoldenpages verified),all6rate/capacitychartsvisuallyread. Gridlabels2027–29 despite2022URLfolder; amountBASISnotexplicitnamed/venuefeeandminimumspendapply so noautomaticrent/minimumassignment. 49.98buffet62.98duet+22percentADMIN/tax,venuefee/minimaextra. Meeting62.98fiveh94.98eighthNOTweddingbundle. GoldenVentana180banquetvs220generic/CypressHawthorn110eachnonadditive. OfficersOrtega160banquet/Moraga60vsprimary200seatedconflict/Ortega250genericvs220header. Log120banquetvs150primarygeneric. Nooutsidecatering; includedtablewarelinenbanquetstaff/setupnotallcomplete.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-4ae025a80480b7",
@@ -6890,10 +6928,19 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "ybca-forum-san-francisco"
+      ],
       "match_method": "Not yet manually reconciled",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T13:39:18.300878+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/yerba-buena-center-for-the-arts",
+        "https://ybca.org/venues/"
+      ],
+      "review_reason": "ExistingForum701Missioncapacity300banquet400theater500standing/rent11000standard14000premium alreadyNov8read,recheckednotnewdiscovery. BlueShield700Howard separatebuildingSPACE sameYBCAcampus/operator757FIXEDtheater notdinner. GrandLobby350standingNOT300dir/5000dayANDmustwithForumTheater;Screening2500Lounge750notstandalone despiteartist/nonprofitfreeLoungeclaim. Currentfull4primarybodies and24pageVenuesUsePolicyALLTEXTread/p21liquorfeesviewed. Venue8AM11PMaccess notmusicclock;extraMonTueafter8PMsecurity vsPDFdaily11PMconflict. Eventmanagerbaseincluded;alltechIATSE16paid,housemanagerushershourly,janitorialfoodor50plus,conditionalsecurityengineerITextra. TablechairfoodservicegearNOTfree;noice;outsideequipmentprocuredbyYBCA15%markup. Allcatererspreapproval;ownalcohol1000privateSURRENDERfee+permitsliability NOTsimplefreeBYOB. Forum630/ Theater900/1260CONCESSIONSbuyoutconditionalticketedperformanceNOTeverywedding. NearbyYerbaBuenaGardensseparateoperator/fees.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-60dc1cc1d5c2f9",

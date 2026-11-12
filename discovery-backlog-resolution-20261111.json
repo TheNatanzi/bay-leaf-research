@@ -1,6 +1,6 @@
 {
   "audit_id": "discovery-backlog-20261111",
-  "updated_utc": "2026-11-12T13:20:32.857052+00:00",
+  "updated_utc": "2026-11-12T13:39:18.300878+00:00",
   "original_pending_candidates": 500,
   "reviewed_dispositions_applied": [
     {
@@ -6757,9 +6757,91 @@
       "reason": "NewONE1675OwensRutterCenter; do notmergeall3UCSFcampuses. HTTPonlyLoading retained; actualwholewebreaderhomeandroomtables read/exporthashed. NONUCSFthroughJune2027 Robertson7500half11000full/Fisher5500half9000full/Coblentz2500/3500/conf2125/3000each/AtriumPubTerrace3000full/2FPatio1500full. Half/fullhoursunknown; lowerINTERNALRECHARGEratesNOTpersonalweddingrates. CurrentRobertson/Fisher300ROUNDSnot330dinner;theater560/375. HardliquorPROHIBITED;preapprovedlicensedalcoholcaterer/COInonUCSF/AVthirdpartyfacilityfeespossible/limitedparking. Operating8PMnotassumedmusiccleanup. PublicSmartsheetrouteunsubmitted/internalEMSMyAccessnotpublicavailability; weddingpermissionunknown.",
       "reader_evidence_sha256": "e35421366291742be20d8fb55c31210e13171b36db55b6a676b9a9659eb90c60",
       "evidence_method": "Exact standard-web reader export reviewed; original HTML retrieval state preserved; no raw HTML success claimed"
+    },
+    {
+      "candidate_id": "directory-lead-abf9e3683801b4",
+      "original_pending_index": 208,
+      "checked_utc": "2026-11-12T13:39:18.300878+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "underdogs-cantina-king-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.sfuva.com/underdogs-cantina",
+        "http://underdogscantina.com/reservations/"
+      ],
+      "candidate_capture_sha256": "c8f114523e59536b0fdce897779774cf49b3d39eed9b3e4d0b9079cac7f163ab",
+      "operator_capture_sha256": "5917e96c69123eaac0dc728da4a541fb6c6d541a9b201b3f114f42b6b5e74978",
+      "reason": "Fullprimaryreservationbodyread. Oneoperator128King/CantinaandNextDooradjacent2floorvenue, separateNextDoorstreetaddressunverified/notinvented. NextDoor100–450GENERICweddingsadvertised; Arcade20–35/lower25–50/main50–300+ not450dinner.225picnic8people2bucketsTecateNachosNOTweddingprice; otherbuyoutquoteunknown. Formrequestnotguarantee/72hordinaryreservationnotice. FullserviceAVsecuritydecorF&Bofferednotallincluded. Kitchenhoursnoteventcutoff."
+    },
+    {
+      "candidate_id": "directory-lead-d4a9be5315567b",
+      "original_pending_index": 209,
+      "checked_utc": "2026-11-12T13:39:18.300878+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "walt-disney-family-museum-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.sfuva.com/the-walt-disney-family-museum",
+        "https://www.waltdisney.org/visit/events-venue-rentals/weddings"
+      ],
+      "candidate_capture_sha256": "7848a74b6c64d5e0ec4fe2fec7229bcda7d6d3aaa7cbeb45ea86b52a32217795",
+      "operator_capture_sha256": "8b1954885aa31761d0bf0672ce881d1e5e48ecaa187f84046ae2f3bab0484431",
+      "reason": "Fullprimaryevent/wedding/room bodies read. OneMuseumproperty/nestedDianeDisneyMillerHall130DINNERwithdance175reception;Awardsweb60dinner200recvsoriginal70/300conflict. Theater114FIXEDnotdinner. Actual2p2025rentaloriginalread/p2chartviewed:Hall8000up4h/Awards6200base6800season/Theater3800/4200up4h, notallin. All3publishedInfoSheetURLs identicalSHAbytes; versionsretained/reviewscope reused. Preferred2025vendorlist2IMAGEpagesbothviewed, preferredNOTexclusivepermission. Noformsubmission/datecommitment."
+    },
+    {
+      "candidate_id": "directory-lead-ce669e7e622071",
+      "original_pending_index": 210,
+      "checked_utc": "2026-11-12T13:39:18.300878+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "sf-war-memorial-performing-arts-center-campus-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.sfuva.com/war-memorial-performing-arts-center",
+        "https://sfwarmemorial.org/reception-spaces/"
+      ],
+      "candidate_capture_sha256": "f56bbf0a97078013566a9446cad588c74ae952545adf3fa51bdbd453a9371686",
+      "operator_capture_sha256": "0058ba17795714d5374a7d2c28dba587ca76da562737953f8f8a0433e688c281",
+      "reason": "Onecampussummary/sharedoperator with4physicalbuildings nested, notsixindependentoutreachproperties. Actualprimaryvenues/receptionchart/weddings/GreenRoom fullbody+browserRates/Expensesread; Davies/Herbst/Opera/Wilsey technicalpagesSCOPEDaddress/rental/requiredfees, alltechnicalridersUNREAD. Davies201VanNess currentreceptionchartNOTdinners/weddingsdespitegeneric200seateddirectory. Opera301VanNessEXPLICITNOweddings. Veterans401VanNessGreenRoom160–180dinner/400standing+Herbst892fixedtheater/Wilsey270–299theater/education200standing. Zellerbach300Franklinrehearsalnotweddingpermission. GreenRoomownlicensedcaterer vsDaviesOperaHerbstGlobalGourmetexclusive; nooperatorwidecateringrule. Do notflattenperformanceadmissionrenttoweddingquote. Sixweekplanningminimum/requiredpaidstaffinsuranceequipment."
+    },
+    {
+      "candidate_id": "directory-lead-258d66456c6de8",
+      "original_pending_index": 211,
+      "checked_utc": "2026-11-12T13:39:18.300878+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "presidio-golden-gate-club-golden-gate-club-san-francisco",
+        "presidio-officers-club-moraga-san-francisco",
+        "presidio-log-cabin-log-cabin-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.sfuva.com/wedgewood-at-the-presidio",
+        "https://www.wedgewoodevents.com/venue/northern-california-golden-gate-club"
+      ],
+      "candidate_capture_sha256": "6815077ec1708af0a1a7df0961a44dda2cdc3c9515e9054f99e1a26c6a37d17a",
+      "operator_capture_sha256": "54152d8c0fa3daf53c4375a155a958e14be0558ccf81d7080f2262ef75718ca7",
+      "reason": "OriginalprofilecoversTHREEexistingphysicalproperties GoldenGate135Fisher/Officers50Moraga/Log1299Storey; sameWedgewoodoperator notonebuilding. Currentprimary3venuebodies/3currentlinked12pAllPackagesPDFs text reviewed (Officers/Log pages4–12 exactentiretextmatchalreadyreadGoldenpages verified),all6rate/capacitychartsvisuallyread. Gridlabels2027–29 despite2022URLfolder; amountBASISnotexplicitnamed/venuefeeandminimumspendapply so noautomaticrent/minimumassignment. 49.98buffet62.98duet+22percentADMIN/tax,venuefee/minimaextra. Meeting62.98fiveh94.98eighthNOTweddingbundle. GoldenVentana180banquetvs220generic/CypressHawthorn110eachnonadditive. OfficersOrtega160banquet/Moraga60vsprimary200seatedconflict/Ortega250genericvs220header. Log120banquetvs150primarygeneric. Nooutsidecatering; includedtablewarelinenbanquetstaff/setupnotallcomplete."
+    },
+    {
+      "candidate_id": "directory-lead-4ae025a80480b7",
+      "original_pending_index": 212,
+      "checked_utc": "2026-11-12T13:39:18.300878+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "ybca-forum-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.sfuva.com/yerba-buena-center-for-the-arts",
+        "https://ybca.org/venues/"
+      ],
+      "candidate_capture_sha256": "33acae44003f4d8c5e16f186db146b28333b174f9544a302395eadb2ba9eb781",
+      "operator_capture_sha256": "56b95c1e7f8eff1ead6cbcb4427fbe4887f156e239dabf475b9641efd0e0acab",
+      "reason": "ExistingForum701Missioncapacity300banquet400theater500standing/rent11000standard14000premium alreadyNov8read,recheckednotnewdiscovery. BlueShield700Howard separatebuildingSPACE sameYBCAcampus/operator757FIXEDtheater notdinner. GrandLobby350standingNOT300dir/5000dayANDmustwithForumTheater;Screening2500Lounge750notstandalone despiteartist/nonprofitfreeLoungeclaim. Currentfull4primarybodies and24pageVenuesUsePolicyALLTEXTread/p21liquorfeesviewed. Venue8AM11PMaccess notmusicclock;extraMonTueafter8PMsecurity vsPDFdaily11PMconflict. Eventmanagerbaseincluded;alltechIATSE16paid,housemanagerushershourly,janitorialfoodor50plus,conditionalsecurityengineerITextra. TablechairfoodservicegearNOTfree;noice;outsideequipmentprocuredbyYBCA15%markup. Allcatererspreapproval;ownalcohol1000privateSURRENDERfee+permitsliability NOTsimplefreeBYOB. Forum630/ Theater900/1260CONCESSIONSbuyoutconditionalticketedperformanceNOTeverywedding. NearbyYerbaBuenaGardensseparateoperator/fees."
     }
   ],
-  "unreviewed_original_inputs": 160,
+  "unreviewed_original_inputs": 155,
   "municipal_searches_completed": 0,
   "complete": false,
   "scope": "Queue identity resolution is not full venue facts, exhaustive geographic discovery or permission for any event. Actual access/identity blockers remain separate from unreviewed work."
