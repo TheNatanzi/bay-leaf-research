@@ -2,8 +2,8 @@
   "summary": {
     "checked_utc": "2026-10-26T13:28:51.955107+00:00",
     "candidate_urls": 580,
-    "candidate_urls_with_exact_match": 319,
-    "candidate_urls_without_exact_match": 261,
+    "candidate_urls_with_exact_match": 324,
+    "candidate_urls_without_exact_match": 256,
     "source_counts": {
       "moderndjs": {
         "raw_named_cards": 361,
@@ -53,12 +53,12 @@
     },
     "added_venue_records": 0,
     "note": "Candidate URLs are not a venue count. Old source collection counts retain their original dates; followup state counts are current. Fragment-only links merged; names/URLs are aids, not automatic reviews. Original added_venue_records=0 describes index-only ingestion; primary_followup_records_added is separate.",
-    "primary_followup_records_added": 182,
-    "followup_checked_utc": "2026-11-12T08:13:19.072395+00:00",
+    "primary_followup_records_added": 186,
+    "followup_checked_utc": "2026-11-12T08:39:47.997296+00:00",
     "current_review_counts": {
-      "reviewed_added": 186,
-      "reviewed_existing": 106,
-      "pending": 278,
+      "reviewed_added": 190,
+      "reviewed_existing": 108,
+      "pending": 272,
       "blocked": 7,
       "excluded": 3
     }
@@ -2258,10 +2258,19 @@
       "county": "Santa Clara",
       "city": "San Jose",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "the-glasshouse-san-jose-santa-clara"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T08:35:15.194263+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/the-glasshouse-san-jose-san-jose",
+        "https://epicvenues.net/the-glasshouse-san-jose/"
+      ],
+      "review_reason": "Full original profile and current Epic Venues primary reader body read. Old glasshousesj.com DNSfails in actualbrowser. Actualofficialtourismtghsj.comlinkredirects Epic namedGlassHouse; samebusinesssourcechainconfirmed. Tourism2SMarket versusprimary84WSantaClaraSuite100 retained as address/entrance alias requiring exactaccessconfirmation, notseparateproperties. Not StanlyRanchGlasshouseorDrWilkinsonGlassHouse. Primary800vs900genericcapacityconflict; olddirectory550seatednotadopted. Outsidevendorsallowed/cateringpreparea notunconditionaloutsidecateringorBYOB. Furniture/linens/china/decor/setup/cleanup/bar/AV/parkingadvertised, exactpackageinclusion/costunknown. Corinthian/Chorus/Oasisotheroperatorvenuesnotmergedintothisproperty. Formfields/SMSoptin/CAPTCHAread,nosubmit. No currentcompleteprices/clocks.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-1247f5ac291ea5",
@@ -2337,10 +2346,19 @@
       "county": "Contra Costa",
       "city": "Walnut Creek",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "ruth-bancroft-garden-walnut-creek-contra-costa"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T08:35:15.194263+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/the-ruth-bancroft-garden-walnut-creek",
+        "https://www.ruthbancroftgarden.org/private-events/"
+      ],
+      "review_reason": "Fulloriginalprofileandactualcurrentprimaryprivateeventbodyread. Old/rentals/weddingsroutefails; actual/private-eventslive. Indoor102generic/outdoor150generic, not150indoorordinnerdance. CoitVisitorEducationCenterandgardenoneproperty; no252sum. Privateeventafter4PMpublicclosing;eventend9PMSunThu/10PMFriSat, independentmusic/bar/cleanupunknown. Currentmicro-wedding1–45,2heventor4hwithcocktail/cake, notold1–30. PeakAprilJuneandSeptemberOctober, actualpricingpacketrequiresinquiryform. Historical2023/24S3ratessearchleadnotadoptedcurrent.500member/550nonmemberphoto-sessionfeesand100rushNOTweddingrentals;photoshootalcoholprohibitionnottransferredtoreception. SeparateHeatherFarmandFaithChristianFellowshipproperties despiteBancroftnames/road. Noformsubmitted.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-bea71360633072",
@@ -2534,10 +2552,19 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "fort-mason-center-san-francisco"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T08:39:47.997296+00:00",
+      "review_source_urls": [
+        "https://www.wedding-spot.com/venue/148/fort-mason-center-for-arts-culture/",
+        "https://fortmason.org/venues/"
+      ],
+      "review_reason": "FulloriginalWeddingSpotprofile,currentprimaryvenueindexandcurrentweddingpage/table read. ExactexistingFortMasoncampusretained,notnewvenue. CurrentGallery308/Firehouse/Festival/StoreHouse/Gatewayfiveweddingoptionsnested, notfiveparentproperties.11vs12generalvenuerosterwordingunresolved. Generic3840Festival/2000Gatewaynotseatedweddings;actualcurrenttable1000/400seated respectively, notdinnerdanceapproval. OlderprofileGeneralsResidence/ChapelnotautomaticallyconfirmedcurrentbookablebyFMCAC; operator/scopecheckremains. Olddirectory10percentpreservation/fees/11PMclocknotpromotedwithoutcurrentprimaryterms. Separatephysicalcampusandroomidentitypreserved.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-666afb0abe8a5f",
@@ -2555,10 +2582,19 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "mohi-ranch-sycamore-creek-morgan-hill-santa-clara"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T08:39:47.997296+00:00",
+      "review_source_urls": [
+        "https://www.wedding-spot.com/venue/18275/mohi-ranch/",
+        "https://www.liveloveleal.com/experience/mohi-ranch-weddings-celebrations-mohi-winery"
+      ],
+      "review_reason": "Fulloriginaldirectory/currentprimaryweddingsbodyread; exact12775UvasphysicalsiteandformerSycamoreCreekaliascheckedagainstmaster. NotMOHIFarmdowntown,TheMOHIhotel,LealVineyardsHollisterorWillowHeights1978WillowSprings. Primarytop200/footer400capacityconflictheld; not330approvedlayout. Primaryallinservicescoordination/DJ/wine/catering/florals/tablescapesadvertised, tierprices/mandatorycomponentsunknown. Directorynoamplification/noendtimerestrictionnotacceptedovercurrentDJoffer; no unlimitedhoursinferred. Directory5000intimate/20000GoldenStatepackagesnotcurrentcompletequote or330guestprice.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-a23d88b69066db",
@@ -2576,12 +2612,19 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
         "willow-heights-mansion-santa-clara"
       ],
       "match_method": "Exact normalized name only; identity/branch not confirmed",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T08:39:47.997296+00:00",
+      "review_source_urls": [
+        "https://www.wedding-spot.com/venue/2191/willow-heights-mansion/",
+        "https://www.liveloveleal.com/experience/willow-heights-mansion-weddings-celebrations"
+      ],
+      "review_reason": "Fulloriginaldirectory/currentprimaryweddingbodyread; existing1978WillowSpringsMansionretained, notMOHIRanch12775Uvas. Currentprimary300generic andsixovernightsuites, not300dinnerdance ormandatorylodging. Servicescatering/rentals/DJ/floral/dayofcoordinationoffered, packagecostscopeunknown. Thirdparty2024pricingPDFandotherarchivedpricePDFretrievalblocked; notread/currentconfirmed. Older2021tourismnolodgingnotpreferredovercurrentsixsuitesprimary, nofeeimportfromsnippet. Directory5000/20000packages and10PMnotprimarycontractverified.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-c6a68fdf605580",
@@ -2628,10 +2671,19 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "immanuel-lutheran-church-los-altos-santa-clara"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T08:39:47.997296+00:00",
+      "review_source_urls": [
+        "https://www.wedding-spot.com/venue/110/immanuel-lutheran-church/",
+        "https://www.ilclosaltos.com/plan-your-wedding"
+      ],
+      "review_reason": "Fulloriginaldirectory/currentplanning/venuepages,actual2page2023brochure,1page2019applicationandlinked2022JPGread. Feespageactuallyrendered/visuallychecked. Primaryceremonysanctuary240notdirectory300; hall/patioover400generic/comfortablyover200seated, notexact400dinnerdance. Membershiptestnotrequired, Christiancontext, ownminister/caterercontactsallowed. Currentweb500crediteddepositvsPDF/application300crediteddepositconflict. BrochureN/M09.23Sanctuary1500+custodial300+deposit300=displayed2100, butdepositcredited: noadditionaldepositdoublecount orautomatic1800expensechoice. Reception3600+custodial300+AV250=4150historical,optionalminister500/organistfrom250. No currentallintotal. CurrentBYOB/music/independentclocksunknown; olddirectorytermsnotcurrentprimary. NotImmanuelAlamedaat1420Lafayette/1910SantaClara.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-592c6d0c39d8a6",

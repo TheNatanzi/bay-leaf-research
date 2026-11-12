@@ -1,6 +1,6 @@
 {
   "audit_id": "discovery-backlog-20261111",
-  "updated_utc": "2026-11-12T08:13:19.072395+00:00",
+  "updated_utc": "2026-11-12T08:39:47.997296+00:00",
   "original_pending_candidates": 500,
   "reviewed_dispositions_applied": [
     {
@@ -4767,9 +4767,107 @@
       "candidate_capture_sha256": "d3670bc46b446ec2e12be181b560322f33ed577e80b511b6f068c42e2e53b456",
       "operator_capture_sha256": "2b19c89548e18564534ceeaa5ffdc4925dc258d30ea0ad92ade240befbde583e",
       "reason": "Fulloriginalprofile/currentprimaryweddings/venues/formbodies andreaderaddressread. OldWeddings-Eventsroutefails; newprimarylive. GrandBallroom350withdance/400without includesDelPozoBarandPatio;Verona120generic,DelPozoLounge80genericnested,notadditive. Dayofcoordinationavailable,notconfirmedfree. Currentprices/vendor/bar/minimums/clocksunknown. ThirdpartyoldpricesPDFleadnotreadoradopted. CastlewoodsCountryClubMississippinotsameproperty. Publishedformrequiredname/phone/email,dates/guestfieldsoptionalinreader,nosubmit."
+    },
+    {
+      "candidate_id": "directory-lead-28118c89cdf022",
+      "original_pending_index": 70,
+      "checked_utc": "2026-11-12T08:35:15.194263+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "the-glasshouse-san-jose-santa-clara"
+      ],
+      "source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/the-glasshouse-san-jose-san-jose",
+        "https://epicvenues.net/the-glasshouse-san-jose/"
+      ],
+      "candidate_capture_sha256": "af94e3baa4396fb5debd8c1c305cc51788d9b3f12ebb5dfee9d1798a4cad9b91",
+      "operator_capture_sha256": null,
+      "reason": "Full original profile and current Epic Venues primary reader body read. Old glasshousesj.com DNSfails in actualbrowser. Actualofficialtourismtghsj.comlinkredirects Epic namedGlassHouse; samebusinesssourcechainconfirmed. Tourism2SMarket versusprimary84WSantaClaraSuite100 retained as address/entrance alias requiring exactaccessconfirmation, notseparateproperties. Not StanlyRanchGlasshouseorDrWilkinsonGlassHouse. Primary800vs900genericcapacityconflict; olddirectory550seatednotadopted. Outsidevendorsallowed/cateringpreparea notunconditionaloutsidecateringorBYOB. Furniture/linens/china/decor/setup/cleanup/bar/AV/parkingadvertised, exactpackageinclusion/costunknown. Corinthian/Chorus/Oasisotheroperatorvenuesnotmergedintothisproperty. Formfields/SMSoptin/CAPTCHAread,nosubmit. No currentcompleteprices/clocks.",
+      "reader_evidence_sha256": "7913708a4d84bb052497ce160ace2277250c0e11ddd11f18acc01193d45a3161",
+      "evidence_method": "Exact standard-web reader export reviewed; original HTML retrieval state preserved; no raw HTML success claimed"
+    },
+    {
+      "candidate_id": "directory-lead-73c4d81c574255",
+      "original_pending_index": 73,
+      "checked_utc": "2026-11-12T08:35:15.194263+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "ruth-bancroft-garden-walnut-creek-contra-costa"
+      ],
+      "source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/the-ruth-bancroft-garden-walnut-creek",
+        "https://www.ruthbancroftgarden.org/private-events/"
+      ],
+      "candidate_capture_sha256": "886428aa5a0615054c13e07a8ff12bd92790425011a122e8eefb2af7c4aca540",
+      "operator_capture_sha256": "a54cf162613d3784d4f7739854b20b77439d338037332dbed4eb47bf0e261fb9",
+      "reason": "Fulloriginalprofileandactualcurrentprimaryprivateeventbodyread. Old/rentals/weddingsroutefails; actual/private-eventslive. Indoor102generic/outdoor150generic, not150indoorordinnerdance. CoitVisitorEducationCenterandgardenoneproperty; no252sum. Privateeventafter4PMpublicclosing;eventend9PMSunThu/10PMFriSat, independentmusic/bar/cleanupunknown. Currentmicro-wedding1–45,2heventor4hwithcocktail/cake, notold1–30. PeakAprilJuneandSeptemberOctober, actualpricingpacketrequiresinquiryform. Historical2023/24S3ratessearchleadnotadoptedcurrent.500member/550nonmemberphoto-sessionfeesand100rushNOTweddingrentals;photoshootalcoholprohibitionnottransferredtoreception. SeparateHeatherFarmandFaithChristianFellowshipproperties despiteBancroftnames/road. Noformsubmitted."
+    },
+    {
+      "candidate_id": "directory-lead-25045125c870d0",
+      "original_pending_index": 80,
+      "checked_utc": "2026-11-12T08:39:47.997296+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "fort-mason-center-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.wedding-spot.com/venue/148/fort-mason-center-for-arts-culture/",
+        "https://fortmason.org/venues/"
+      ],
+      "candidate_capture_sha256": "b5a04da2b93a799fee7d5a614dfa9dc6ecbd3c54f7ebe4a6154fb1991a915863",
+      "operator_capture_sha256": "462bfde2e12e2b574fe38186f09fba33ad390c59f1c89bb60ea3c88734b5f10c",
+      "reason": "FulloriginalWeddingSpotprofile,currentprimaryvenueindexandcurrentweddingpage/table read. ExactexistingFortMasoncampusretained,notnewvenue. CurrentGallery308/Firehouse/Festival/StoreHouse/Gatewayfiveweddingoptionsnested, notfiveparentproperties.11vs12generalvenuerosterwordingunresolved. Generic3840Festival/2000Gatewaynotseatedweddings;actualcurrenttable1000/400seated respectively, notdinnerdanceapproval. OlderprofileGeneralsResidence/ChapelnotautomaticallyconfirmedcurrentbookablebyFMCAC; operator/scopecheckremains. Olddirectory10percentpreservation/fees/11PMclocknotpromotedwithoutcurrentprimaryterms. Separatephysicalcampusandroomidentitypreserved."
+    },
+    {
+      "candidate_id": "directory-lead-666afb0abe8a5f",
+      "original_pending_index": 81,
+      "checked_utc": "2026-11-12T08:39:47.997296+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "mohi-ranch-sycamore-creek-morgan-hill-santa-clara"
+      ],
+      "source_urls": [
+        "https://www.wedding-spot.com/venue/18275/mohi-ranch/",
+        "https://www.liveloveleal.com/experience/mohi-ranch-weddings-celebrations-mohi-winery"
+      ],
+      "candidate_capture_sha256": "dbf63df515057c7084d4e45b99457b28f6497ffdd9b091001d784b13369b6588",
+      "operator_capture_sha256": "876ef63e0c876a7d46eec76690e4377a4796041493592fdd7c961522f766b01f",
+      "reason": "Fulloriginaldirectory/currentprimaryweddingsbodyread; exact12775UvasphysicalsiteandformerSycamoreCreekaliascheckedagainstmaster. NotMOHIFarmdowntown,TheMOHIhotel,LealVineyardsHollisterorWillowHeights1978WillowSprings. Primarytop200/footer400capacityconflictheld; not330approvedlayout. Primaryallinservicescoordination/DJ/wine/catering/florals/tablescapesadvertised, tierprices/mandatorycomponentsunknown. Directorynoamplification/noendtimerestrictionnotacceptedovercurrentDJoffer; no unlimitedhoursinferred. Directory5000intimate/20000GoldenStatepackagesnotcurrentcompletequote or330guestprice."
+    },
+    {
+      "candidate_id": "directory-lead-a23d88b69066db",
+      "original_pending_index": 82,
+      "checked_utc": "2026-11-12T08:39:47.997296+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "willow-heights-mansion-santa-clara"
+      ],
+      "source_urls": [
+        "https://www.wedding-spot.com/venue/2191/willow-heights-mansion/",
+        "https://www.liveloveleal.com/experience/willow-heights-mansion-weddings-celebrations"
+      ],
+      "candidate_capture_sha256": "6905e9f8a34bb22019ece47c78d3ebde50f22afbd5e05ed1685e62dab9a5814e",
+      "operator_capture_sha256": "937cfb4c0deb3c42738025d456eb1ad9203bd1a4958507bd70113f7157602357",
+      "reason": "Fulloriginaldirectory/currentprimaryweddingbodyread; existing1978WillowSpringsMansionretained, notMOHIRanch12775Uvas. Currentprimary300generic andsixovernightsuites, not300dinnerdance ormandatorylodging. Servicescatering/rentals/DJ/floral/dayofcoordinationoffered, packagecostscopeunknown. Thirdparty2024pricingPDFandotherarchivedpricePDFretrievalblocked; notread/currentconfirmed. Older2021tourismnolodgingnotpreferredovercurrentsixsuitesprimary, nofeeimportfromsnippet. Directory5000/20000packages and10PMnotprimarycontractverified."
+    },
+    {
+      "candidate_id": "directory-lead-83cb4e34296ffe",
+      "original_pending_index": 83,
+      "checked_utc": "2026-11-12T08:39:47.997296+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "immanuel-lutheran-church-los-altos-santa-clara"
+      ],
+      "source_urls": [
+        "https://www.wedding-spot.com/venue/110/immanuel-lutheran-church/",
+        "https://www.ilclosaltos.com/plan-your-wedding"
+      ],
+      "candidate_capture_sha256": "5eb9faccc5e71d6f768609c8dc726befde2a0aa3d36a5063ec8d8ccea5c479a9",
+      "operator_capture_sha256": "38ea7aa83a2f6a01cde06ffaf5d3236866f833e51e3835e9f82a8ae341dffad2",
+      "reason": "Fulloriginaldirectory/currentplanning/venuepages,actual2page2023brochure,1page2019applicationandlinked2022JPGread. Feespageactuallyrendered/visuallychecked. Primaryceremonysanctuary240notdirectory300; hall/patioover400generic/comfortablyover200seated, notexact400dinnerdance. Membershiptestnotrequired, Christiancontext, ownminister/caterercontactsallowed. Currentweb500crediteddepositvsPDF/application300crediteddepositconflict. BrochureN/M09.23Sanctuary1500+custodial300+deposit300=displayed2100, butdepositcredited: noadditionaldepositdoublecount orautomatic1800expensechoice. Reception3600+custodial300+AV250=4150historical,optionalminister500/organistfrom250. No currentallintotal. CurrentBYOB/music/independentclocksunknown; olddirectorytermsnotcurrentprimary. NotImmanuelAlamedaat1420Lafayette/1910SantaClara."
     }
   ],
-  "unreviewed_original_inputs": 278,
+  "unreviewed_original_inputs": 272,
   "municipal_searches_completed": 0,
   "complete": false,
   "scope": "Queue identity resolution is not full venue facts, exhaustive geographic discovery or permission for any event. Actual access/identity blockers remain separate from unreviewed work."
