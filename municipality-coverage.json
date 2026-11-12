@@ -2363,15 +2363,43 @@
   {
     "county": "Sonoma",
     "municipality": "Unincorporated areas / county agencies",
-    "municipal_rental_status": "Partial county/park-source review",
+    "municipal_rental_status": "Partial official county/special-district review; Monte Rio named facilities and October2026rates newly reviewed; remaining authorities open",
     "private_venue_status": "Partial operator-led discovery; not systematic or complete",
     "source_urls": [
       "https://dawnranch.com/wp-content/uploads/2025/10/Official-2026-Wedding-Packages-Dawn-Ranch.pdf",
       "https://sonomavalleygrange.org/renting/",
       "https://bodegabaygrange.org/new-hall-rental/",
       "https://farmyesno.com/",
-      "https://sonomacounty.gov/development-services/sonoma-public-infrastructure/divisions/administration-and-renting-facilities"
+      "https://sonomacounty.gov/development-services/sonoma-public-infrastructure/divisions/administration-and-renting-facilities",
+      "http://www.mrrpd.org/",
+      "https://www.mrrpd.org/monte-rio-community-center/",
+      "https://www.mrrpd.org/monte-rio-amphitheater/",
+      "https://www.mrrpd.org/riverfront-meadow/",
+      "https://www.mrrpd.org/wp-content/uploads/2026/10/mrrpd-2026-facilities-rates.pdf"
     ],
-    "remaining": "Partial acquisition/lease/inn/winery review; title/value/permit/layout/quote/private inventory incomplete."
+    "remaining": "Partial acquisition/lease/inn/winery review; title/value/permit/layout/quote/private inventory incomplete.",
+    "authority_inventory_reviews": [
+      {
+        "audit_id": "monte-rio-inventory-20261111",
+        "checked_utc": "2026-11-12T05:04:40.280729+00:00",
+        "authority": "Monte Rio Recreation & Park District",
+        "source_family": "Official special-district inventory and dated original rental PDF",
+        "source_urls": [
+          "http://www.mrrpd.org/",
+          "https://www.mrrpd.org/monte-rio-community-center/",
+          "https://www.mrrpd.org/monte-rio-amphitheater/",
+          "https://www.mrrpd.org/riverfront-meadow/",
+          "https://www.mrrpd.org/wp-content/uploads/2026/10/mrrpd-2026-facilities-rates.pdf"
+        ],
+        "record_ids": [
+          "monte-rio-community-center-sonoma",
+          "monte-rio-amphitheater-sonoma",
+          "monte-rio-riverfront-meadow-sonoma"
+        ],
+        "review_status": "Actual named pages and complete October2026one-page rates reviewed; county workstream remains partial",
+        "findings": "CommunityCenter and Amphitheater are distinct physical venues; RiverfrontMeadow is another beachside location. Wedding pricing separate from general1500package. Beach public notice prohibits alcohol/amplifiedsound; applicability/exceptions for private meadow events require clarification, not assumed to apply to indoorCenter.",
+        "remaining": "Park/courts/Creekside/Koret site permission and address review, issued wedding quote/contracts, other Sonoma county/district/private authorities and independent source rosters"
+      }
+    ]
   }
 ]

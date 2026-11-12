@@ -1,9 +1,9 @@
 # Research progress — November 11
 
-- **91 of the original 500 pending profiles resolved**: 40 venue/property records added and 51 profiles matched to existing records. **7 hidden-address identity blockers** remain unresolved, alongside **402 unreviewed profiles**.
-- **2,428 venue/room records** now appear in the master. This is not a verified unique-property count. All **110 locality workstreams remain partial**.
+- **154 of the original 500 pending profiles resolved**. **7 hidden-address identity blockers** remain unresolved, alongside **339 profiles awaiting final disposition**, some partly reviewed.
+- **90 new venue/property/space lead records** now bring the master to **2,478 records**. These include uncertain event offers, not a verified count of unique or approved wedding properties. All **110 locality workstreams remain partial**.
 - Missing records recovered include The Mountain Winery, Saratoga Springs, Villa Ragusa, Hillside Club, San José Museum of Art, La Vigna at Hecker Pass Winery, Shadow Lakes Club, Chateau St. Jean and Cornerstone Sonoma. Identity review does not mean all costs, room layouts or permissions are complete.
-- Current Cinnabar Hills FAQ was actually read: five reception hours, $1,500 ceremony component, $1,200/hour overtime up to 11 PM, and day-specific minimums with fees credited toward the minimum. Service/tax and conditions prevent an all-in total. Its operator postal city is San Jose; the earlier Morgan Hill label is preserved in correction history.
+- **Aliases and shared operators checked:** Sunol’s Casa Bella was an existing Casa Bella alias; the duplicate was merged with sources/history retained. Mayo’s Glen Ellen and Kenwood sites, and Monte Rio’s Community Center and Amphitheater, remain separate physical properties. Monte Rio’s actual October2026PDF explicitly prices Community Center weddings separately from its $1,500 general package.
 - [Expansive discovery methods: 10 repositories and 6 guides](expansive-discovery-methods-20261111.md) · [Current evidence-backed dispositions](discovery-backlog-resolution-20261111.json). Raw captures are preparation; unreadable sources and unreviewed material remain separate.
 
 ## Earlier November 8 milestone
@@ -42,7 +42,7 @@
 
 ## Still unfinished
 
-- **402 unreviewed candidate URLs**, **7 unresolved physical-identity blockers**, and remaining authorities/source families within **110 partially reviewed local workstreams**.
+- **339 candidate URLs awaiting final disposition**, **7 unresolved physical-identity blockers**, and remaining authorities/source families within **110 partially reviewed local workstreams**.
 - Complete costs, mandatory lodging, approved dinner/dance layouts, independent cutoffs, history and defensible valuations.
 - Some documents are blocked or inquiry-only. Six county pages were readable through standard web search, but direct archival collection was held at the robots check; no raw download success is claimed.
 - Three caterer leads remain unresolved: Storek's operator redirect, Legion of Honor's blocked primary page, and City Hall's robot-verification hold. Other linked floor plans, brochures and technical appendices remain explicitly unreviewed.

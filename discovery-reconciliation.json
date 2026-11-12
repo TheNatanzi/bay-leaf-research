@@ -1,11 +1,11 @@
 {
   "candidate_urls": 580,
-  "resolved_candidate_urls": 171,
-  "unresolved_candidate_urls": 409,
+  "resolved_candidate_urls": 234,
+  "unresolved_candidate_urls": 346,
   "review_counts": {
-    "reviewed_added": 100,
-    "reviewed_existing": 68,
-    "pending": 402,
+    "reviewed_added": 148,
+    "reviewed_existing": 83,
+    "pending": 339,
     "blocked": 7,
     "excluded": 3
   },
@@ -530,8 +530,10 @@
       "candidate_id": "directory-lead-a337c86a648baf",
       "name": "Rios-Lovell Winery",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/rios-lovell-winery-livermore",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "rios-lovell-winery-livermore-alameda"
+      ]
     },
     {
       "candidate_id": "directory-lead-ca1c97a83947f4",
@@ -616,9 +618,9 @@
       "candidate_id": "directory-lead-7717dfd0439053",
       "name": "Sunol's Casa Bella",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/sunol-s-casa-bella-sunol",
-      "state": "reviewed_added",
+      "state": "reviewed_existing",
       "record_ids": [
-        "sunols-casa-bella-alameda"
+        "casa-bella-alameda"
       ]
     },
     {
@@ -2031,7 +2033,7 @@
     },
     {
       "candidate_id": "directory-lead-45cb8fbf5693d0",
-      "name": "CaÃ¢â‚¬â„¢Bianca Italian Restaurant",
+      "name": "Ca’ Bianca Italian Restaurant",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/cabianca-italian-restaurant/",
       "state": "reviewed_added",
       "record_ids": [
@@ -2058,7 +2060,7 @@
     },
     {
       "candidate_id": "directory-lead-560c89ac782b92",
-      "name": "CatelliÃ¢â‚¬â„¢s",
+      "name": "Catelli’s Restaurant",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/catellis/",
       "state": "reviewed_added",
       "record_ids": [
@@ -2114,46 +2116,39 @@
       "candidate_id": "directory-lead-952e6ef05382cb",
       "name": "Dawn Ranch",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/dawn-ranch/",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
-        "dawn-ranch-band-shell-sonoma",
-        "dawn-ranch-boathouse-deck-sonoma",
-        "dawn-ranch-boathouse-lawn-sonoma",
-        "dawn-ranch-center-orchard-sonoma",
-        "dawn-ranch-crabapple-orchard-sonoma",
         "dawn-ranch-exclusive-wedding-weekend-package-sonoma",
-        "dawn-ranch-kitchen-garden-sonoma",
-        "dawn-ranch-lower-orchard-sonoma",
-        "dawn-ranch-meadow-sonoma",
-        "dawn-ranch-micro-wedding-package-sonoma",
-        "dawn-ranch-orchard-sonoma",
         "dawn-ranch-orchard-wedding-weekend-package-sonoma",
-        "dawn-ranch-patio-sonoma",
-        "dawn-ranch-sycamore-green-with-band-shell-sonoma",
-        "dawn-ranch-weekday-wedding-package-sonoma",
-        "dawn-ranch-winter-wedding-package-sonoma"
+        "dawn-ranch-weekday-wedding-package-sonoma"
       ]
     },
     {
       "candidate_id": "directory-lead-03e8f68e54b15a",
       "name": "Deerfield Ranch Winery",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/deerfield-ranch-winery/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "deerfield-ranch-winery-kenwood-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-6e9d17c02bceb8",
       "name": "DeLoach Vineyards",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/deloach-vineyards/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "deloach-vineyards-santa-rosa-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-19d3b1f8536ce9",
       "name": "deLorimier Winery",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/delorimier-winery/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "delorimier-winery-geyserville-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-0214cd91bfa7e3",
@@ -2180,64 +2175,75 @@
       "candidate_id": "directory-lead-f11f59ca2fd32a",
       "name": "Fairmont Sonoma Mission Inn & Spa",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/fairmont-sonoma-mission-inn-spa/",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
-        "fairmont-sonoma-mission-inn-spa-breezeway-lawn-sonoma",
         "fairmont-sonoma-mission-inn-spa-creekside-lawn-sonoma",
-        "fairmont-sonoma-mission-inn-spa-kenwood-ballroom-sonoma",
-        "fairmont-sonoma-mission-inn-spa-pavilion-sonoma",
-        "fairmont-sonoma-mission-inn-spa-sonoma-valley-patio-sonoma",
-        "fairmont-sonoma-mission-inn-spa-sonoma-valley-room-sonoma"
+        "fairmont-sonoma-mission-inn-spa-breezeway-lawn-sonoma",
+        "fairmont-sonoma-mission-inn-spa-sonoma-valley-patio-sonoma"
       ]
     },
     {
       "candidate_id": "directory-lead-f48a310590afb2",
       "name": "Farmhouse Inn",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/farmhouse-inn/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "farmhouse-inn-forestville-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-31d79c748ea6c4",
       "name": "Flamingo Resort & Spa Santa Rosa Sonoma, Tapestry Collection by Hilton",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/flamingo-resort-spa-santa-rosa-sonoma-tapestry-collection-by-hilton/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "flamingo-resort-spa-santa-rosa-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-42129bbc406414",
       "name": "Flying Cloud Special Event & Conference Center",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/flying-cloud-special-event-conference-center/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "flying-cloud-farm-petaluma-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-a4b6f641a0bf67",
       "name": "Foley Sonoma",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/foley-sonoma/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "foley-sonoma-geyserville-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-b251aef7e72051",
       "name": "Foxtail Golf Club",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/foxtail-golf-club/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "foxtail-golf-club-rohnert-park-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-1a3976b5efd6fa",
       "name": "Francis Ford Coppola Winery",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/francis-ford-coppola-winery/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "francis-ford-coppola-winery-geyserville-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-0f51c026e1aaf4",
       "name": "The Maysonnave House",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/the-maysonnave-house/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "maysonnave-house-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-2c6653ffa1d0ee",
@@ -2252,82 +2258,83 @@
       "candidate_id": "directory-lead-b32b1ae99b0080",
       "name": "The Sea Ranch Chapel",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/the-sea-ranch-chapel/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "sea-ranch-chapel-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-e829abd948735e",
       "name": "The Sea Ranch Lodge",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/the-sea-ranch-lodge/",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "the-sea-ranch-lodge-barn-meadow-north-sonoma",
         "the-sea-ranch-lodge-barn-meadow-south-sonoma",
-        "the-sea-ranch-lodge-courtyard-sonoma",
-        "the-sea-ranch-lodge-dining-room-sonoma",
-        "the-sea-ranch-lodge-fireside-lounge-sonoma",
-        "the-sea-ranch-lodge-meadow-room-sonoma",
-        "the-sea-ranch-lodge-ocean-deck-sonoma",
-        "the-sea-ranch-lodge-ocean-meadow-sonoma",
-        "the-sea-ranch-lodge-redwood-room-sonoma",
-        "the-sea-ranch-lodge-solarium-sonoma",
-        "the-sea-ranch-lodge-the-meadow-sonoma"
+        "the-sea-ranch-lodge-ocean-deck-sonoma"
       ]
     },
     {
       "candidate_id": "directory-lead-ccfca09c32cca4",
       "name": "The Venue at The Barlow",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/the-venue-at-the-barlow/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "the-venue-at-the-barlow-sebastopol-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-4f8ab0439241cb",
       "name": "Timber Cove Resort",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/timber-cove-resort/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "timber-cove-resort-jenner-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-f30b7ce035d8fe",
       "name": "Trentadue Winery",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/trentadue-winery/",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
-        "trentadue-winery-grape-arbor-sonoma",
-        "trentadue-winery-la-storia-room-sonoma",
         "trentadue-winery-north-lawn-sonoma",
-        "trentadue-winery-sala-de-leon-pavilion-sonoma",
-        "trentadue-winery-south-arbor-sonoma",
-        "trentadue-winery-south-lawn-sonoma"
+        "trentadue-winery-south-lawn-sonoma",
+        "trentadue-winery-sala-de-leon-pavilion-sonoma"
       ]
     },
     {
       "candidate_id": "directory-lead-87f3746944aef8",
       "name": "Trione Vineyards & Winery",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/trione-vineyards-winery/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "trione-vineyards-winery-geyserville-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-3fe766f73836ea",
       "name": "Valley Ford Hotel",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/valley-ford-hotel/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "valley-ford-hotel-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-fedb9a3ad8314b",
       "name": "Valley of the Moon Club",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/valley-of-the-moon-club/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "fairview-valley-of-the-moon-santa-rosa-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-df5d5f5fb937c7",
       "name": "Viansa Sonoma",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/viansa-sonoma/",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "viansa-sonoma-wedding-offering-sonoma"
       ]
@@ -2336,28 +2343,27 @@
       "candidate_id": "directory-lead-9f601ce6d47012",
       "name": "Villa Chanticleer",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/villa-chanticleer/",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
-        "villa-chanticleer-annex-sonoma",
-        "villa-chanticleer-garden-sonoma",
         "villa-chanticleer-main-villa-sonoma",
-        "villa-chanticleer-wedding-package-sonoma"
+        "villa-chanticleer-annex-sonoma",
+        "villa-chanticleer-garden-sonoma"
       ]
     },
     {
       "candidate_id": "directory-lead-3ef6df9bf213e2",
       "name": "Vinarosa Resort & Spa",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/vinarosa-resort-spa/",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "vinarosa-resort-spa-sonoma"
       ]
     },
     {
       "candidate_id": "directory-lead-014a12790b44ab",
-      "name": "Vine Hill House at OÃ¢â‚¬â„¢Connell Vineyards",
+      "name": "Vine Hill House at O’Connell Vineyards",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/vine-hill-house-at-oconnell-vineyards/",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "vine-hill-house-at-o-connell-vineyards-sonoma"
       ]
@@ -2366,22 +2372,29 @@
       "candidate_id": "directory-lead-497be6f0534e80",
       "name": "Vintage House",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/vintage-house/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "vintage-house-stone-hall-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-9a03e4e5a2e326",
       "name": "Westerbeke Ranch Conference Center",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/westerbeke-ranch-conference-center/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "westerbeke-ranch-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-c64e4bf1c538ec",
       "name": "Wildhaven Sonoma Glamping",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/wildhaven-sonoma-glamping/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "wildhaven-sonoma-sonoma",
+        "wildhaven-sonoma-two-night-weekend-buyout-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-27b0cff9b2f2d3",
@@ -2394,35 +2407,43 @@
       "candidate_id": "directory-lead-99403102d50a72",
       "name": "Windsor Golf Club",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/windsor-golf-club/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "windsor-golf-club-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-7d47f6613acec3",
       "name": "Woods Resort",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/woods-resort/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "woods-resort-guerneville-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-c11c6fab07c9b7",
       "name": "Friedman Event Center",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/friedman-event-center/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "friedman-event-center-santa-rosa-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-985e02621c45ee",
       "name": "Garden Valley Ranch",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/garden-valley-ranch/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "garden-valley-ranch-petaluma-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-6ce5c99f0755ed",
       "name": "Geyserville Inn",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/geyserville-inn/",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "geyserville-inn-sonoma"
       ]
@@ -2431,22 +2452,28 @@
       "candidate_id": "directory-lead-3438dff2ffe758",
       "name": "Glaser Center",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/glaser-center/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "glaser-center-santa-rosa-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-5029ef5539ee41",
       "name": "Gloria Ferrer Caves & Vineyards",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/gloria-ferrer-caves-vineyards/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "gloria-ferrer-caves-vineyards-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-89b3caf4a192cc",
       "name": "Green Music Center at Sonoma State University",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/green-music-center-at-sonoma-state-university/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "green-music-center-sonoma-state-rohnert-park-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-eb61d52b29b2ce",
@@ -2459,29 +2486,38 @@
       "candidate_id": "directory-lead-5387553a023049",
       "name": "Gundlach Bundschu Winery",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/gundlach-bundschu-winery/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "gundlach-bundschu-winery-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-47452d7809a175",
       "name": "Hall of the Above",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/hall-of-the-above/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "hall-of-the-above-petaluma-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-098c65fa5b0893",
-      "name": "Hanna Winery â€“ Alexander Valley Hospitality Center",
+      "name": "HANNA Winery - Alexander Valley Hospitality Center",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/hanna-winery-alexander-valley-hospitality-center/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "hanna-winery-alexander-valley-hospitality-center-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-aefaff4149620c",
       "name": "Hans Fahden Winery",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/hans-fahden-winery/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "hans-fahden-vineyards-wedding-offering-sonoma",
+        "hans-fahden-vineyards-2026-sweet-simple-small-wedding-package-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-6a9d9a54259109",
@@ -2494,50 +2530,64 @@
       "candidate_id": "directory-lead-e7e7bffc8b4792",
       "name": "Highland Dell Lodge",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/highland-dell-lodge/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "highland-dell-lodge-monte-rio-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-a73b3cefe78f08",
       "name": "HopMonk Tavern Sebastopol",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/hopmonk-tavern-sebastopol/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "hopmonk-tavern-sebastopol-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-16e5cc73640521",
       "name": "Hotel E",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/hotel-e/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "hotel-e-santa-rosa-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-b95d2b100bd243",
       "name": "Hotel Petaluma, Tapestry Collection by Hilton",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/hotel-petaluma-tapestry-collection-by-hilton/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "hotel-petaluma-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-aff88c90a811a6",
       "name": "Hyatt Regency Sonoma Wine Country",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/hyatt-regency-sonoma-wine-country/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "hyatt-regency-sonoma-wine-country-santa-rosa-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-f06d5f35e3e6f1",
       "name": "Inn at Occidental",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/inn-at-occidental/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "inn-at-occidental-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-c075d37bbc2356",
       "name": "Inn on the Russian River",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/inn-on-the-russian-river/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "inn-on-russian-river-monte-rio-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-1f42c97fbd47d3",
@@ -2550,14 +2600,16 @@
       "candidate_id": "directory-lead-edf8db58cbb07f",
       "name": "Jack London State Historic Park",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/jack-london-state-historic-park/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "jack-london-state-historic-park-glen-ellen-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-a42864dfcc3732",
       "name": "Jacuzzi Family Vineyards",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/jacuzzi-family-vineyards/",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "jacuzzi-family-vineyards-sonoma"
       ]
@@ -2566,7 +2618,7 @@
       "candidate_id": "directory-lead-67aa1228d7bdd4",
       "name": "Jenner Inn",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/jenner-inn/",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "jenner-inn-inn-restaurant-event-lawn-acquisition-lead-sonoma"
       ]
@@ -2575,64 +2627,83 @@
       "candidate_id": "directory-lead-ac926735689ac9",
       "name": "Kenwood Inn and Spa",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/kenwood-inn-and-spa/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "kenwood-inn-spa-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-2f30745b19b022",
       "name": "Kenwood Ranch",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/kenwood-ranch/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "kenwood-ranch-events-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-6a5c8f0ab6d3fd",
       "name": "Kunde Family Winery",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/kunde-family-winery/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "kunde-family-winery-kenwood-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-70296cf221616e",
       "name": "Lancaster Estate",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/lancaster-estate/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "lancaster-estate-healdsburg-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-20c3a5081dcef9",
       "name": "Landmark Vineyards",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/landmark-vineyards/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "landmark-vineyards-kenwood-estate-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-ab000d74ccd73a",
       "name": "Luther Burbank Center for the Arts",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/luther-burbank-center-for-the-arts/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "luther-burbank-center-arts-santa-rosa-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-8abd5e9108af31",
       "name": "Luther Burbank Home & Gardens",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/luther-burbank-home-gardens/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "luther-burbank-home-gardens-santa-rosa-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-8f40f181ea9c40",
       "name": "Mauna Kai Water Gardens",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/mauna-kai-water-gardens/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "mauna-kai-water-gardens-santa-rosa-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-020fb27a3f0f8e",
       "name": "Mayo Family Winery",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/mayo-family-winery/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "mayo-family-winery-glen-ellen-sonoma",
+        "mayo-family-winery-reserve-room-kenwood-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-d24d5517b402ff",
@@ -2645,29 +2716,38 @@
       "candidate_id": "directory-lead-2515fbbc05bd6c",
       "name": "Monte Rio Recreation and Park District",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/monte-rio-recreation-and-park-district/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "monte-rio-community-center-sonoma",
+        "monte-rio-amphitheater-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-5fa44b7a551d1c",
       "name": "Monte Rio Riverfront Meadow",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/monte-rio-riverfront-meadow/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "monte-rio-riverfront-meadow-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-a98f80ef563951",
       "name": "Mountain House Estate",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/mountain-house-estate/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "mountain-house-estate-cloverdale-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-4628f4dd3487cb",
       "name": "NewTree Ranch",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/newtree-ranch/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "newtree-ranch-healdsburg-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-f1ba34599d4d62",
