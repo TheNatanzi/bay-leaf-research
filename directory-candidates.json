@@ -2,8 +2,8 @@
   "summary": {
     "checked_utc": "2026-10-26T13:28:51.955107+00:00",
     "candidate_urls": 580,
-    "candidate_urls_with_exact_match": 317,
-    "candidate_urls_without_exact_match": 263,
+    "candidate_urls_with_exact_match": 319,
+    "candidate_urls_without_exact_match": 261,
     "source_counts": {
       "moderndjs": {
         "raw_named_cards": 361,
@@ -53,12 +53,12 @@
     },
     "added_venue_records": 0,
     "note": "Candidate URLs are not a venue count. Old source collection counts retain their original dates; followup state counts are current. Fragment-only links merged; names/URLs are aids, not automatic reviews. Original added_venue_records=0 describes index-only ingestion; primary_followup_records_added is separate.",
-    "primary_followup_records_added": 180,
-    "followup_checked_utc": "2026-11-12T08:03:08.453853+00:00",
+    "primary_followup_records_added": 182,
+    "followup_checked_utc": "2026-11-12T08:13:19.072395+00:00",
     "current_review_counts": {
-      "reviewed_added": 184,
+      "reviewed_added": 186,
       "reviewed_existing": 106,
-      "pending": 280,
+      "pending": 278,
       "blocked": 7,
       "excluded": 3
     }
@@ -1789,10 +1789,19 @@
       "county": "Contra Costa",
       "city": "Alamo",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "round-hill-country-club-alamo-contra-costa"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T08:13:19.072395+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/round-hill-country-club-alamo",
+        "https://www.rhcountryclub.com/private-events"
+      ],
+      "review_reason": "Actualprimaryreaderbodyandaddressplusfulloriginalprofile read. Stage/danceflooratnoadditionalcharge. FairwayDining125onlyfullclubhousebuyout;Terrace/PavilionCOCKTAILONLY,nositdown;CeremonyPatio250onlyfullbuyout. No capacitysumming.350genericnot330dinnerdanceapproval. Othercosts/clocksunknown. Formrequiresguestcount,nosubmit. RH_Wedding-Brochure-Web.pdfsearchhitactuallyRedHouseSeafoodSingapore2023–2024onfull6pageread,rejectednotRoundHillpricing. OwnHTMLrobotsunavailable; exactstandardreaderexporthashretained,notoriginalHTML.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-52c232845add21",
@@ -2103,10 +2112,19 @@
       "county": "Alameda",
       "city": "Pleasanton",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "the-club-at-castlewood-pleasanton-alameda"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T08:13:19.072395+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/the-club-at-castlewood-pleasanton",
+        "https://www.castlewoodcc.org/celebrations-events/venues"
+      ],
+      "review_reason": "Fulloriginalprofile/currentprimaryweddings/venues/formbodies andreaderaddressread. OldWeddings-Eventsroutefails; newprimarylive. GrandBallroom350withdance/400without includesDelPozoBarandPatio;Verona120generic,DelPozoLounge80genericnested,notadditive. Dayofcoordinationavailable,notconfirmedfree. Currentprices/vendor/bar/minimums/clocksunknown. ThirdpartyoldpricesPDFleadnotreadoradopted. CastlewoodsCountryClubMississippinotsameproperty. Publishedformrequiredname/phone/email,dates/guestfieldsoptionalinreader,nosubmit.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-9c20e23d983b8b",

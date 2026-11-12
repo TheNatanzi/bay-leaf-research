@@ -38,7 +38,7 @@ for(const receipt of applications){
  assert(receipt.source_urls.length&&receipt.candidate_capture_sha256);
  assert(receipt.source_urls.every(u=>c.review_source_urls.includes(u)));
  if(receipt.state==='blocked'){assert(receipt.blocker_kind);assert(!receipt.record_ids.length);}
- else{assert(receipt.operator_capture_sha256);assert(receipt.record_ids.length);for(const id of receipt.record_ids)assert(c.matched_record_ids.includes(by(id).id));}
+ else{assert(receipt.operator_capture_sha256 || (/^[a-f0-9]{64}$/.test(receipt.reader_evidence_sha256||'') && receipt.evidence_method.includes('Exact standard-web reader export reviewed')),'review needs original source bytes or a separately hashed, explicitly identified primary reader export');assert(receipt.record_ids.length);for(const id of receipt.record_ids)assert(c.matched_record_ids.includes(by(id).id));}
 }
 const reconciliation=require('./discovery-reconciliation.json');
 assert.equal(resolution.complete,false);assert.equal(resolution.municipal_searches_completed,0);
@@ -93,4 +93,10 @@ assert.equal(by('cordevalle-winery-santa-clara').address,'1 Hummingbird Lane, Sa
 assert.equal(N.value(by('club-auto-sport-san-jose-santa-clara'),'byob'),'no');assert.equal(N.value(by('club-auto-sport-san-jose-santa-clara'),'capacity_dinner_dance'),null);assert.equal(by('club-auto-sport-san-jose-santa-clara').source_room_inventory.length,4);
 const hiltonSc=by('hilton-santa-clara-great-america-santa-clara');assert.equal(hiltonSc.address,'4949 Great America Parkway, Santa Clara, CA 95054');assert.equal(hiltonSc.source_room_inventory.find(r=>r.id.includes('sierra-ballroom')).published_capacity.banquet,200);assert.equal(N.value(hiltonSc,'capacity_dinner_dance'),null,'300reception and280hotelrooms are not dinnerdance');
 assert.equal(N.value(by('orinda-country-club-contra-costa'),'capacity_seated'),null,'250acres must not become approved250seats');assert.equal(N.value(by('oakland-scottish-rite-center-alameda'),'capacity_dinner_dance'),null,'unverifiedhistoricalbanquetoffer notcurrent');
+const castlewood=by('the-club-at-castlewood-pleasanton-alameda'),roundhill=by('round-hill-country-club-alamo-contra-costa');
+assert.equal(N.value(castlewood,'capacity_dinner_dance'),350);assert.equal(N.value(roundhill,'capacity_dinner_dance'),200);
+const eriaSau=by('eria-sausalito-bridgeway-property-marin'),eriaMar=by('eria-marina-chestnut-san-francisco');assert.equal(eriaSau.source_room_inventory.length,2);assert.equal(eriaSau.source_room_inventory[0].published_capacity.seated,120);assert.equal(eriaSau.source_room_inventory[1].published_capacity.seated_inside,250);assert.equal(N.value(eriaSau,'capacity_dinner_dance'),null);assert.equal(N.value(eriaMar,'capacity_dinner_dance'),null);assert.equal(eriaMar.published_capacity.indoor_seated,150);assert.equal(eriaSau.mandatory_total_price,null);assert.equal(eriaMar.mandatory_total_price,null);
+assert.equal(N.value(eriaMar,'music_indoor'),1320);assert.equal(N.value(eriaSau,'music_indoor'),null);assert.equal(N.value(eriaSau,'outside_catering'),'yes');
+const cavallo=by('cavallo-point-the-lodge-at-the-golden-gate-marin');assert.equal(N.value(cavallo,'service_pct'),26);assert.equal(cavallo.mandatory_total_price,null);assert(cavallo.evidence_conflicts.includes('250currentdancevs300olderdance'));
+assert.equal(by('crescent-bistro-pleasant-hill-contra-costa').wedding_permission,null,'general private dining is not wedding approval');assert.equal(N.value(by('butterflutes-wedding-chapel-sausalito-marin'),'capacity_dinner_dance'),null,'20-person ceremony form is not dinner-and-dance capacity');
 console.log('Package limits, capacity conflicts, exact reviews, property identity, component costs, sunset clocks and complete founder export passed.');

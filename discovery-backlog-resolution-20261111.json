@@ -1,6 +1,6 @@
 {
   "audit_id": "discovery-backlog-20261111",
-  "updated_utc": "2026-11-12T08:03:08.453853+00:00",
+  "updated_utc": "2026-11-12T08:13:19.072395+00:00",
   "original_pending_candidates": 500,
   "reviewed_dispositions_applied": [
     {
@@ -4733,9 +4733,43 @@
       "candidate_capture_sha256": "443da920ecc67ce7817ac8269e90ba49f4ebafd4bfd584832992211c20ab4bc8",
       "operator_capture_sha256": "80d781fae1160a6c0a5f3813bf98a3672dd50ded6883827bd125e0832c83413a",
       "reason": "Exactphysicalcenteridentified fromfulloriginalprofile, actualChamberlisting andactualWestEdgeOperatenantvenuepage at1547Lakeside. Oldoaklandscottishrite.com ACTUALLYredirectsto unrelatedgamblingsite; quarantinednotcontactsource,nointeraction/installation/login. Searchcachedlegitimateoldhomepageisnotproof ofcurrentoperatorcontrol. WEOusesfourthfloortheater;1400theaterseatsnotweddingdinner. Directory200–600dinnerdancehistoricaloffer and2026ownership/saleclaimsnotindependentlyconfirmed, notadopted. Currentweddingoperator,bookability,approvedrooms/layouts/pricesheldUnknown; donotsubmittooldwebsite. Physicalidentityresolved,notbookingproblemresolved."
+    },
+    {
+      "candidate_id": "directory-lead-ca1c97a83947f4",
+      "original_pending_index": 54,
+      "checked_utc": "2026-11-12T08:13:19.072395+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "round-hill-country-club-alamo-contra-costa"
+      ],
+      "source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/round-hill-country-club-alamo",
+        "https://www.rhcountryclub.com/private-events"
+      ],
+      "candidate_capture_sha256": "ee001d11c15651937c25e8b831bc9b3e6f3b16302fb652133d25897b584c2860",
+      "operator_capture_sha256": null,
+      "reason": "Actualprimaryreaderbodyandaddressplusfulloriginalprofile read. Stage/danceflooratnoadditionalcharge. FairwayDining125onlyfullclubhousebuyout;Terrace/PavilionCOCKTAILONLY,nositdown;CeremonyPatio250onlyfullbuyout. No capacitysumming.350genericnot330dinnerdanceapproval. Othercosts/clocksunknown. Formrequiresguestcount,nosubmit. RH_Wedding-Brochure-Web.pdfsearchhitactuallyRedHouseSeafoodSingapore2023–2024onfull6pageread,rejectednotRoundHillpricing. OwnHTMLrobotsunavailable; exactstandardreaderexporthashretained,notoriginalHTML.",
+      "reader_evidence_sha256": "0a07522cdd6823f4b43bd2e9cd145fdf155223482594e5b300228b8e57566102",
+      "evidence_method": "Exact standard-web reader export reviewed; original HTML retrieval state preserved; no raw HTML success claimed"
+    },
+    {
+      "candidate_id": "directory-lead-c09eac1ac00a27",
+      "original_pending_index": 65,
+      "checked_utc": "2026-11-12T08:13:19.072395+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "the-club-at-castlewood-pleasanton-alameda"
+      ],
+      "source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/the-club-at-castlewood-pleasanton",
+        "https://www.castlewoodcc.org/celebrations-events/venues"
+      ],
+      "candidate_capture_sha256": "d3670bc46b446ec2e12be181b560322f33ed577e80b511b6f068c42e2e53b456",
+      "operator_capture_sha256": "2b19c89548e18564534ceeaa5ffdc4925dc258d30ea0ad92ade240befbde583e",
+      "reason": "Fulloriginalprofile/currentprimaryweddings/venues/formbodies andreaderaddressread. OldWeddings-Eventsroutefails; newprimarylive. GrandBallroom350withdance/400without includesDelPozoBarandPatio;Verona120generic,DelPozoLounge80genericnested,notadditive. Dayofcoordinationavailable,notconfirmedfree. Currentprices/vendor/bar/minimums/clocksunknown. ThirdpartyoldpricesPDFleadnotreadoradopted. CastlewoodsCountryClubMississippinotsameproperty. Publishedformrequiredname/phone/email,dates/guestfieldsoptionalinreader,nosubmit."
     }
   ],
-  "unreviewed_original_inputs": 280,
+  "unreviewed_original_inputs": 278,
   "municipal_searches_completed": 0,
   "complete": false,
   "scope": "Queue identity resolution is not full venue facts, exhaustive geographic discovery or permission for any event. Actual access/identity blockers remain separate from unreviewed work."
