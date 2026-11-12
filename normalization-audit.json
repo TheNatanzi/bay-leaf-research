@@ -1,7 +1,7 @@
 {
-  "normalized_utc": "2026-11-12T15:39:09.236041+00:00",
-  "record_count": 2747,
-  "property_group_count": 1384,
+  "normalized_utc": "2026-11-12T15:47:49.056981+00:00",
+  "record_count": 2750,
+  "property_group_count": 1387,
   "identity_review_candidates": 91,
   "numeric_review_queue": 3274,
   "field_count": 106,
@@ -78,7 +78,7 @@
     "chairs_included": 451,
     "dance_floor": 81,
     "wedding_permission": 459,
-    "availability": 90,
+    "availability": 91,
     "accessibility": 1,
     "food_basis": 187,
     "restrooms": 1,
@@ -114,8 +114,8 @@
     "lodging_payer": 1
   },
   "status_counts": {
-    "published_evidence": 7452,
-    "needs_confirmation": 14302,
+    "published_evidence": 7453,
+    "needs_confirmation": 14314,
     "conflicting": 244,
     "searched_no_public_answer": 3612
   },

@@ -1,6 +1,6 @@
 {
   "audit_id": "discovery-backlog-20261111",
-  "updated_utc": "2026-11-12T15:36:11.909355+00:00",
+  "updated_utc": "2026-11-12T15:43:56.435637+00:00",
   "original_pending_candidates": 500,
   "reviewed_dispositions_applied": [
     {
@@ -8254,9 +8254,171 @@
       "candidate_capture_sha256": "e6e8144fb5b2aded707fc00ae0f6a230a64885b88dd6f4088f3d801221cfe9ff",
       "operator_capture_sha256": "e5b1ed0b96434ecf17629571c7801e6e26551b0b4644207d6ee04e7538aedc07",
       "reason": "CafeWisteriarestaurant/caterer/eventspace75ArborMenloParkSAMEAlliedArtsGuildphysicalparent. Actualevent/cateringbodyread/privateweddingsadvertised;notnewparent/outreachidentity. CafeTuesSat10:30–2publiclunchhoursNOTprivateeventcurfew. Datedbrunch/retailcafemenuNOTweddingpackage. CurrentCafeprices/maxlayoutunknown;existingAlliedreviewretained. PubliccafeDrivePDFnotfollowed/outsideweddingcostscope/unreviewed."
+    },
+    {
+      "candidate_id": "directory-lead-5feed69b33a3c3",
+      "original_pending_index": 433,
+      "checked_utc": "2026-11-12T15:43:56.435637+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "camron-stanford-house-oakland-alameda"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/camron-stanford-house",
+        "https://www.cshouse.org/"
+      ],
+      "candidate_capture_sha256": "1c05dd17f6bfe9da7abf2d41e4163d77054bc8da194662e5ed2d9c0a0eae6da2",
+      "operator_capture_sha256": "2278955f17d227545a05bade1afc7252123ec52bc7395f5d2677246f6d51635f",
+      "reason": "NEWidentityhistoricalweddingvenue, CURRENToperatorhomeclosure/fire-recoverywarning takesprecedenceoverdirectory. ClosedpublicsinceAug2024/lease renewedFeb2026/fireApr4,2026/buildingdamage<10%/historicalroomsuntouched. Reopeningevents delayedmonths/fundinguncertain;notpermanentlycloseddeclared/noavailablebookingclaim. Oldweddingsroute404/retainedrecommendedvendorpageallowsownprofessionals butdoesNOTproveresumedweddings. Contactnewsletterstorageunconfigured/ThankyoucopyNOTsubmitted. Lowergalleries/restroomaccessible, upstairsrequiresstairs/notfullyADA.1876constructionnotopeningyear. Currentpricecapacityunverified."
+    },
+    {
+      "candidate_id": "directory-lead-79ab160d4e7112",
+      "original_pending_index": 434,
+      "checked_utc": "2026-11-12T15:43:56.435637+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "carneros-resort-and-spa-napa"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/carneros-resort-and-spa",
+        "https://www.carnerosresort.com/luxury-napa-weddings/"
+      ],
+      "candidate_capture_sha256": "f9c10f7fcfeb67619c75345bef024aa21ea4e944670a7e23c42bffe8c85eff4d",
+      "operator_capture_sha256": "da566217f7ce144f85fd664c8fdc18c8601ffaac6ee5573be825bde79d396804",
+      "reason": "Existing4048SonomaHwyNapaONEresort. Actualhome/wedding/elopement/eventvenuesbodies+5pelopementPDF/8pmeetingPDFALLTEXTread;elopementp2/capacityp7VISUAL. Weddings2–300generic vsmeetings500generic not500dinner. PDFNapaHall240ROUNDS170WITHDANCEAND12x24STAGE vsweb210generic;Sonoma120round60dance;Dining96round72dance vswedding85banquet/meeting80generic;Living32round50theater25reception vsmeetingweb85BANQUETcontradiction. Arbor180round250standing vsweb250generic;Vineyard300round500standing;Courtyard240round300standing;tent226genericseasonalnotextraadditiveproperty. Gathering48/Studio48round/Library32round/HilltopCourtyard120round/Harvest60round30standinganomaly/HilltopPatio48round80standing.100cottagesNOTeventcapacity/notmandatory100roomhotelbuyout. ElopementMON–THU6250/FRISAT8250+24%SERVICE+7.75%TAX/18TOTALattendees, onehourceremonysite,officiantflowers1.5hphotoguitaristtoastbitesNOTdinner. Sundayunpriced. Currentweb16guestsversus18totalinclcouplescopingnotautomaticconflict. AllweddingfullrentF&Bbarunknown/directory8000unverified.5%MASTERaccountrebateNEWMEETINGSnotweddings."
+    },
+    {
+      "candidate_id": "directory-lead-edbecb710f4c8c",
+      "original_pending_index": 435,
+      "checked_utc": "2026-11-12T15:43:56.435637+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "cavallo-point-the-lodge-at-the-golden-gate-marin"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/cavallo-point-lodge",
+        "https://www.cavallopoint.com/weddings"
+      ],
+      "candidate_capture_sha256": "253eff7d4c983f1235fcc5a6e903041cb698c91fc7cc5481770d65f6710122f6",
+      "operator_capture_sha256": "d0ba233547c950541c4e4385c742d869e7a72a33876f54b154c20fda510eebd8",
+      "reason": "Existing601MurrayCircleFortBakerSausalito. PriorTHISRUN08:24primary-document-review-20261112-cavallo ALLtenweb/PDFreviews retained, exactsourceSHAcompared/notrepeatnewaudit. Currentredirectweddingbodyread generic10–250;Callippecomplex530genericNOT530dinnerdance. NewcateringbodyREAD:ceremonyrehearsaltypically1hNOextrafee/timeconfirmed<=3weeksavoidotherbookings. SAMPLEtastingofferedforweddingsF&BMIN15000,notuniversalminimumallweddings. TastingMonFri11–3/4–8weeksbefore/2canapes2starters2entrees/limit4INCLUDINGcoordinator. PriordanceconflictsCallippe140web150FAQ180olderPDFretain, lawn250vs300older/Mission90dance100meal120round/nocollapse. LodgingblockDISCOUNTcontractednotmandatoryfullbuyout/currentpriceunknown."
+    },
+    {
+      "candidate_id": "directory-lead-e656ac160b7c5e",
+      "original_pending_index": 436,
+      "checked_utc": "2026-11-12T15:43:56.435637+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "chabot-space-science-center-alameda",
+        "chabot-space-science-center-full-facility-excluding-planetarium-theater-and-telescopes-alameda",
+        "chabot-space-science-center-entire-spees-building-with-courtyard-alameda",
+        "chabot-space-science-center-spees-level-1-alameda",
+        "chabot-space-science-center-spees-level-2-alameda",
+        "chabot-space-science-center-pleiades-courtyard-alameda",
+        "chabot-space-science-center-planetarium-alameda",
+        "chabot-space-science-center-theater-alameda",
+        "chabot-space-science-center-studio-3-astronomy-hall-alameda",
+        "chabot-space-science-center-observatory-observation-deck-alameda",
+        "chabot-space-science-center-classroom-1-alameda",
+        "chabot-space-science-center-classroom-2-alameda",
+        "chabot-space-science-center-classroom-3-alameda",
+        "chabot-space-science-center-classroom-4-alameda",
+        "chabot-space-science-center-classrooms-3-4-joined-alameda",
+        "chabot-space-science-center-laboratory-1-alameda",
+        "chabot-space-science-center-laboratory-2-alameda",
+        "chabot-space-science-center-across-the-universe-package-alameda",
+        "chabot-space-science-center-written-in-the-stars-package-alameda",
+        "chabot-space-science-center-saturn-s-rings-package-alameda",
+        "chabot-space-science-center-moonlight-package-alameda",
+        "chabot-space-science-center-new-horizons-package-alameda",
+        "chabot-space-science-center-pleiades-package-alameda",
+        "chabot-space-science-center-open-sky-package-alameda",
+        "chabot-space-science-center-elopement-1-package-alameda",
+        "chabot-space-science-center-elopement-2-package-alameda"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/chabot-space-science-center",
+        "https://chabotspace.org/visit/rent-chabot/weddings-private-events/"
+      ],
+      "candidate_capture_sha256": "4c23af6dbcf0df56e5d5d631493dffa53f849f568cccd9dc25cbf4fc79f91a55",
+      "operator_capture_sha256": "f760a78f4425c12cb2cba8a8644d3534c65cb6206dbbea65ae975118e95653d9",
+      "reason": "ExistingONEChabot10000SkylineOakland, allroom/packageIDsretained. CurrentweddingbodyREAD; planetariumtieredceremonynotapproveddinner. Prior20261108document-recovery-auditPASS2 pages4–7/12–14/23–24/26–27scopedreviewREUSED notnewfull30paudit. ActualexistingpackagefeesAcrossUniverse13900–15900/Moonlight8900–10900/NewHorizons7500/Pleiades5200/OpenSky6200sevenhours plus15%Dec/holidaynotfoodbarallin. Directory15900/13900genericnotsolepropertyprice. PriorSpees1DINING150/level2DINING80retained. Currentweddinglinkdoesnotestablishindependentmusic/bar/cleanupclock/nocurfewinvented. Nov11VeteransDayclosureoneDAYnotvenuepermanentclosed."
+    },
+    {
+      "candidate_id": "directory-lead-5e33af733c5c47",
+      "original_pending_index": 437,
+      "checked_utc": "2026-11-12T15:43:56.435637+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "charles-krug-winery-great-lawn-napa",
+        "charles-krug-winery-redwood-cellar-upstairs-napa",
+        "charles-krug-winery-redwood-cellar-downstairs-napa",
+        "charles-krug-winery-carriage-house-upstairs-napa",
+        "charles-krug-winery-carriage-house-downstairs-napa"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/charles-krug-winery",
+        "https://www.charleskrug.com/visit/wedding-celebrations"
+      ],
+      "candidate_capture_sha256": "90571006276a372ca61a99f9ec9961310a140b0c49497b2aac4bd4598691fd84",
+      "operator_capture_sha256": "7b2e5700f706d58f61c75df1f4d0e833e1d653e9ede695ddd8d65f5be61a6c35",
+      "reason": "ExistingCharlesKrug2800MainStHelenaONEwinery/fiveroomrows. ActualrelevantweddingbodyREADdespiteageaffirmationmarkup/notclickedgate. GreatLawn800SEATED1200reception/RedwoodUP110SEATED250standingDOWN120275/CarriageUP300SEATED500standingDOWN150275. WeddingpackageCarriageHouse+GuestHouse+GreatLawn/pricesunpublished. Roomsnotaddedtolargerapproveddinnerdance;production/parking/upscalefoodwineavailableunpriced. GenericonlyfiveNapaapprovedwineryclaimoperatorassertionnotindependentlyauditedlaw; June2025Bocelliconcertnotcurrentbookablewedding."
+    },
+    {
+      "candidate_id": "directory-lead-85fff3a03bb547",
+      "original_pending_index": 438,
+      "checked_utc": "2026-11-12T15:43:56.435637+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "fairyland-weddings-alameda"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/childrens-fairyland",
+        "https://fairyland.org/park-rentals/"
+      ],
+      "candidate_capture_sha256": "76a6aefd0ec4c86fe6adc38c2d7aa8ae548a25650935c3356db0816184b620f7",
+      "operator_capture_sha256": "a2f9e8ca0023de459776879a14728f8e4f8d2e3961377f19ff6a59289928ddcc",
+      "reason": "ExistingFairyland699BellevueOaklandONEthemepark10acres/1200GENERALnot1200dinner. ActualFULLrentalbodyFAQREAD.2–6hTOTALrecommendfirstsetup/lastcleanup not6eventhours;extratimefeeunknown.50–150ADMISSIONSincludedvariespackage notmaxcapacity. FullparkbuyoutCASEBYCASE/notautomaticallrentals.500DEPOSholdsdateUPTO2WEEKS;finalpayment10daysbefore/cancel>=2monthsmayrefundLESSdepositandpaidvendordeposits/notguaranteed. OutsidefoodbeveragesandvendorsallowedPARKPOLICIES/noexplicitunrestrictedspiritsBYOBinference. FurnitureSETNUMBERnotall1200/furnitureextracostunknown. PreapproveddecorNOconfettiglitteropenflame/musicwithinparknoiseguidelines/noactualclockpublished. RainrescheduleCASEBYCASEsubjectavailability/notguaranteedindoorbackup. CitymanagedparkingMAYcost5vehicle/notreservedfree. Serviceanimalexception/nootherpets. Commercialphotoapprovalrequired notautomaticallpersonalweddingphotobanned."
+    },
+    {
+      "candidate_id": "directory-lead-28ae207a5dc447",
+      "original_pending_index": 439,
+      "checked_utc": "2026-11-12T15:43:56.435637+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "city-cruises-california-hornblower-bay-area",
+        "city-cruises-san-francisco-belle-bay-area",
+        "city-cruises-san-francisco-spirit-bay-area",
+        "city-cruises-empress-hornblower-bay-area",
+        "city-cruises-sunset-hornblower-bay-area",
+        "city-cruises-pier-3-hornblower-landing-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/city-cruises-san-francisco",
+        "https://www.cityexperiences.com/san-francisco/city-cruises/weddings/"
+      ],
+      "candidate_capture_sha256": "285c77d3b143a35d9b1cccaaec401275d2aefd8a15bb236a2e6ab8ecdc143f28",
+      "operator_capture_sha256": "5c131307bd5587f4036bb6a1440bac079ed6ca96ec9ee9b95b1744f3061fb0c5",
+      "reason": "ExistingoperatorFLEETleadmatchedexplicitpriorreviewedwedding/fleet/directions/vesselbodies and original2021chart fromprofile33; notnewphysicalparentforeachmarketingpage. ExactweddingSHAunchanged5c131307..f0c5/priorcompleteprimaryreviewREUSED. GeneralSFlandingnowretailticketcalendar155.38brunch185.19dinner163.43signatureNOTprivateweddingpackagequote;20%BlackFridayretailofferNOTcharterdiscount. CurrentfleetCalifornia/Belle/Spirit/Empress/Sunset/Pier3IDsretained/separatephysicalvessels andlandingnotsharedhostnameidentitymerge. OldCommodore/Hybrid/Pacificredirectsremainidentitypending,notquietlymapped. Actualvesselapproveddinnerdance/bar/requiredstafftermsremainlayoutscoped/nofalseguaranteedinclusiveprice."
+    },
+    {
+      "candidate_id": "directory-lead-da61c16b259be0",
+      "original_pending_index": 440,
+      "checked_utc": "2026-11-12T15:43:56.435637+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "concannon-vineyard-alameda"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/concannon-vineyard",
+        "https://concannon.wine/private-events/"
+      ],
+      "candidate_capture_sha256": "1ca36eb2ef9086a6ac2c6f407c09505a426859375ee7018a8e1fa927db3e0412",
+      "operator_capture_sha256": "a5960df4da9e988b77f6d9280e1f4b1ebc59b17bef5a9966dcaa7c493030f558",
+      "reason": "ExistingConcannon4590TeslaLivermoreONEestate/newconcannon.winecanonicalroutefollowedfromoldredirect. CurrentprivateeventandvisitingFAQFULLbodiesREAD. GrandBarrel168SEATED/LegacyBallroom114SEATED/Bubbles40SEATED75standing/Library24SEATED30standing/Arbor100SEATED150standing/EstateRoom45Terrace60Tasting40SEATED/Pavilion70MainLawn150SEATED/EllenRoweHouse150SEATED150standing. Notadditive/no330dinnerdanceapproved.114BallroomintegratedAVmicrophonesconfidencemonitorsavailable/notallfreeconfirmed. PUBLICtastingFAQchildrenMonFri/weekend21plus mustclarifyprivateweddingexception/noinventminorsbanallweddings. PicnicoutsidefoodEstateLawn/GrapeArborlargegroups>8doesNOTconfirmweddingcatererpolicy. Tasting90min/picnic120min/50latecancel24hfee/public4–5PMclose notweddingrentcurfew/deposit.30/45tasting12chocolateNOTweddingppprices. CurrentrentF&Bbarstaffminclockunknown."
     }
   ],
-  "unreviewed_original_inputs": 67,
+  "unreviewed_original_inputs": 59,
   "municipal_searches_completed": 0,
   "complete": false,
   "scope": "Queue identity resolution is not full venue facts, exhaustive geographic discovery or permission for any event. Actual access/identity blockers remain separate from unreviewed work."
