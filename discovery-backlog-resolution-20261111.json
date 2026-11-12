@@ -1,6 +1,6 @@
 {
   "audit_id": "discovery-backlog-20261111",
-  "updated_utc": "2026-11-12T12:54:15.272160+00:00",
+  "updated_utc": "2026-11-12T13:05:39.491063+00:00",
   "original_pending_candidates": 500,
   "reviewed_dispositions_applied": [
     {
@@ -6529,9 +6529,121 @@
       "candidate_capture_sha256": "2f73ae0d9aff6e010fe02f1b7788f429f8b1911031a0bf2f0b4412db401586cc",
       "operator_capture_sha256": "7135c33b629a5149fecea18b36f05a2e9b4b5069e671a13419872938cf2cc638",
       "reason": "Actual indoor primary home/info/FAQ and8page presentation plus4page masterplan full text and all pages visually reviewed. NEW SPACE record for separately operated NPU indoor Exhibition Center3601Lyon within same Palace of Fine Arts campus as existing City Rotunda3301Lyon. Not new independent campus and no capacity copied onto outdoor City record. Primary expressly directs indoor toNPU but Rotunda toCity; separate booking permissions. 5000generic fullbuilding, ground4200/mezz1000 original not additive; directoryAtrium900seated unconfirmed current and21350/13500area conflict.135performingtheater primary vs150original theater conflict; not separate Palace Theatre962seats. Wedding offering includes ceremonyhall/suites/security/chairs tables linens150/logistics/rehearsal/dayof lead+2assistants, not proof all5000 guests equipped. Vendor choice allowed original, prices unknown. Masterplan grey shared/noaccess spaces not blanket exclusivebuyout. Footer88Fifth is NPU operator address, not wrong building. No paidparking/freeAV or late cutoff invented."
+    },
+    {
+      "candidate_id": "directory-lead-88515e52d624b9",
+      "original_pending_index": 194,
+      "checked_utc": "2026-11-12T13:05:39.491063+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "the-pearl-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.sfuva.com/the-pearl",
+        "https://www.thepearlsf.com/events/weddings"
+      ],
+      "candidate_capture_sha256": "9ed244db0380204f80c66173c69f2b5ca603496bfb610e484d79b45251664c96",
+      "operator_capture_sha256": "04581bb502611c87790f045c7e54ed106ac285808e626624ac10fb5e7d05fbdf",
+      "reason": "Actual current SFUVA whole profile and primary home read. Exact60119th one existing Pearl; School Night independently rented but same parent, already reconciled batch31 primary room/wedding/vendor reviews reused without repeating. SFUVA120parking does not prove free/exclusive venue parking. Rooftop tent exclusiveBright/AVexclusiveGotLight previously reviewed retained; coatcheckstaffextra. Four nested spaces not four new properties."
+    },
+    {
+      "candidate_id": "directory-lead-14f286c7524149",
+      "original_pending_index": 195,
+      "checked_utc": "2026-11-12T13:05:39.491063+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "pier-27-event-venue-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.sfuva.com/pier-27",
+        "https://metroevents.com/locations/pier-27/"
+      ],
+      "candidate_capture_sha256": "8d66a682438effa67cbaf7c4f0fc9860c76bd37f68fe42463444225e37664d03",
+      "operator_capture_sha256": "cd7cb48a27a00f5895f7ff52b18100dd4bb26232b0d891656e39a942723893c6",
+      "reason": "Entire primaryhome/Pier27/Pier35/Rotunda/Transportation/weddings/goodneighbor/contact and6pageoriginalFAQ/9page2023vendor list read. Pier27 existing one property with nestedCityView900seated1200reception1200theater, Bay125seated300reception230theatervsdirectory70/200/140, Coit300/600/500, Embarcadero700/1000/800. City22900sfvsoldPDF15000plusCoit6800; directoryCity1500receptionvs1200primary unresolved; Bay onlywithCitycurrent vsstandalone directory. Coit/Bay includedclaims DIRECTORYnotcurrent free guarantee. Actual2019Pier27+Pier35plans/2014Transportationplan read/text+visual, allPRIVATE restricteddesign originals not public. Currentwedpage100–800generic not800banquet. Required paidVenueManager/security/janitorial/Recology debrisbox, nofreefurnitureAVlightsdecorfood; approvedcatering/exclusiveBrownPelicanWiFi+EdlenPower vendor list. No kitchens: outdoorbuildout/firepermits needed. FAQ fee360first95additionalfirepermit/500buildingpermitadmin+actualcost CONDITIONAL datedunknown notverifiedcurrentlaw; firewatchTransport/Pier35Vintage mandatory, Pier27conditional. No liquorlicense:licensedinsuredcaterer/bar required.6AM2AMcontractaccess/2AMeventcutoff/outdooramplification10PM/2000hourafter2AM fromcurrentlylinkedundatedFAQ notblanketpermission. Portprevailingwageclaim needs currentverification, not legaladvice. Rotunda300FrankOgawa existingOakland sameoperator, SevenSpokesnested; notPalaceRotunda."
+    },
+    {
+      "candidate_id": "directory-lead-94b0fb845ef30b",
+      "original_pending_index": 196,
+      "checked_utc": "2026-11-12T13:05:39.491063+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "press-club-20-yerba-buena-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.sfuva.com/press-club",
+        "https://www.pressclubsf.com/hosted-events"
+      ],
+      "candidate_capture_sha256": "d4d13018f43f9d488fc79cfd3cb2edf311e9df1f1018a261b57aed0f784939a5",
+      "operator_capture_sha256": "bddd7e26802efdfd4dd8fcd85069066005a9281c739c5308c49c5669375a00b2",
+      "reason": "Entire primary hosted-events/contact/menu and full SFUVAprofile read. NEW ONE20YerbaBuenaLane; lounges/WineLibrary/ChampagneLounge/StoneBar/partial/full/tent nested configurations. Header600+standing conflicts samepagefulltent400 anddirectory275whole/400tent/450intro, unresolved notmaxpicked;20formalmeal not330banquet. Single10–12lounge/25overflow,Double16–20/50standingoverflow,Library15–20seated35standing;Tasting50–65standing notdinner. Threehourpartialeveningbase/extensions extra, taxes/admin/cateringlabor excluded per directory, currentpriceunknown. Actualpublished directbooking andTripleseat2328proposal links found but notsubmitted; no payment/booking. Publicretailmenu not automatically private catering quote."
+    },
+    {
+      "candidate_id": "directory-lead-bbb29b4415108f",
+      "original_pending_index": 197,
+      "checked_utc": "2026-11-12T13:05:39.491063+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "saluhall-food-hall-945-market-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.sfuva.com/saluhall",
+        "https://945market.com/en/l4-event-space"
+      ],
+      "candidate_capture_sha256": "f722dc1b0d2e9f8255aeb94b26f208d8ddcece3a5f8a9d25b78ae96f772dd5d6",
+      "operator_capture_sha256": "baf6adc04c492ad69b2ccd203c94d2e9e5c2c20ebc57f2bd85af3c1fb66260c4",
+      "reason": "Actual SFUVA full profile, existing building primaryL4 fullbody and published Saluhallfoodhallpage read. NEW SPACE Saluhall lower twolevels within same945Marketphysicalbuilding asL4fourthfloor, not newphysicalproperty, restaurantstallsnotparentvenues. PrimarySaluhallbook route actual browserCloudflare522originconnectiontimeout after ordinaryrequest/readerfail, nothumanCAPTCHA/loginrestriction. Alternatebuildingprimaryconfirmscurrentfoodhall but privatebooking/datepermission remainsunverified. Directory850generic not850dinner, Lagom60seated120standing/West80/150/Sauna20/35/SaunaEast70/90/Cookery20class, allnonadditive. L4outsidecateringpermissionnottransferredtofoodhall; no claimedusable form or inventedrecipient."
+    },
+    {
+      "candidate_id": "directory-lead-1271952dff7f83",
+      "original_pending_index": 198,
+      "checked_utc": "2026-11-12T13:05:39.491063+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "punch-line-comedy-club-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.sfuva.com/punch-line-san-francisco",
+        "https://specialevents.livenation.com/venues/punch-line-san-francisco"
+      ],
+      "candidate_capture_sha256": "080fd60a6316ce19e7d96c833c8363b392c8160375d627c8497635f4eb1b440c",
+      "operator_capture_sha256": "69638284fe9630e6fa33e40a4faa60bfbf693bec0e9fce27143018d98894f2bf",
+      "reason": "Actual fullprimary venue body/table/FAQ andSFUVA read. NEW ONE444BatteryPunchLine, notSacramento/Philadelphia. Primaryprose240reception/under200cabaret vschart180reception180theaterBANQUET N/A vsactual2pone-sheet259reception181seated;allconflictsretained,nobanquetguess. OneimagefloorplanactuallyviewedSFheadingbutPHILADELPHIAcontactfooterwrongtemplate, notusedforrecipient oraddress. OriginalcorrectSFonesheetaddress444Battery. Entertainment/menu/fullservicepossible, feeunknown notfreeAVorparking. PromotionalconfettiNOTclientpyrotechnicpermission. No330dinnercapacity."
+    },
+    {
+      "candidate_id": "directory-lead-a62bb6667c86d2",
+      "original_pending_index": 199,
+      "checked_utc": "2026-11-12T13:05:39.491063+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "san-francisco-botanical-garden-golden-gate-park"
+      ],
+      "source_urls": [
+        "https://www.sfuva.com/sf-botanical-garden",
+        "https://gggp.org/event-rentals/botanical-garden-event-rentals/"
+      ],
+      "candidate_capture_sha256": "cd07ff47cfe5358ae4d0bb26b57f73e2af68e1d467ee660c7254e3aee4661211",
+      "operator_capture_sha256": "e028efde8cde5c7bee9a76249192e14c4dd530c02d7498d08842b0d9b93a28fc",
+      "reason": "Actual full8684charcurrent primary page/ALL11FAQs and4roommodals reviewed in supportedbrowser and then ordinaryHTTP with larger LOCAL16MBcap preserving earlier2.5MBcollectorlimit. No site restriction bypass. NEW ONE55acreSFBotanicalGarden, notUCBotanicalBerkeley/Conservatory/JapaneseTeaGarden; nested4namedspaces despiteheader5unresolved. Celebration400seated600standing/10hsetupbreakdownincluded/eventmusic10PMvendorsmidnight; FAQmidnightincludingcleanup notmidnightmusic. RequiredGENERATOR/noelectricity/noWiFi;preapprovedvendors/50percentdeposit creditstatusunknown. Tenting/soundpermit/ParkPatrolmonitoring extra approvalcostsunknown andmayneedadditionalbuilddays. RedwoodNOW40seatedaftertreefall vsdirectory60,10–15minwalk/nonwheelchair/nofood. Moon20standinginclcoupleofficiantvsdir15/notwheelchair. Fragrance100seatedorstanding.1hmicro20nofooddeliveries,2hmax50/Redwood40nodeliveriesalcoholcatering,4honlyCelebrationFragrance/lightlimitedcatering;shortpackagesnotfullreception. No exactprice or330dinnerdanceapproval. Actualprimaryrawbytes4848779SHAarchived, readerfailedsize not hardaccessblock."
+    },
+    {
+      "candidate_id": "directory-lead-38a55f99548479",
+      "original_pending_index": 200,
+      "checked_utc": "2026-11-12T13:05:39.491063+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "san-francisco-design-center-galleria-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.sfuva.com/sf-design-center-galleria",
+        "https://sfvenues.com/"
+      ],
+      "candidate_capture_sha256": "b87b2cf28df306bc2d3acadd7a4e0c0094f2e581062ffcd2d87f0b5c005e1cfa",
+      "operator_capture_sha256": "a0e5e8c5d72ee36d0561a81d25ae2ac281e68e89f9a54c0cfe2b18d50e0def47",
+      "reason": "Entireprimaryhome/weddings/contact andactual4pageoriginalfloorplan text/allpagesvisuallyreviewed. ExistingONE101HenryAdamsSFDesignCenterGalleria, notdesignfirm100WestOhioRichmondor101UtahSFdesignerfooter. Mainfloor400BANQUETwithoutdance300WITHdance400theater1000reception; upperfloorupto200dependentonsightlinesnotextra200perfloorassumedvalid330dinnerplan. Total1600standingnotdinner. WeekdayEVENT6PM2AMsetupupper1PMmain3PM/weekend8AM2AM, cleanup/bar/musicindependentclocksunknown. Currentprimarynotproof100freeparkingdirectory. Floorplans2010/2012despite2022URL, privatecopyright/designlimitnotpublicrawdrawings. Sourcecontactformclaimbutactualfieldinteractionnotverified. Currentmandatorycostsunknown."
     }
   ],
-  "unreviewed_original_inputs": 174,
+  "unreviewed_original_inputs": 167,
   "municipal_searches_completed": 0,
   "complete": false,
   "scope": "Queue identity resolution is not full venue facts, exhaustive geographic discovery or permission for any event. Actual access/identity blockers remain separate from unreviewed work."

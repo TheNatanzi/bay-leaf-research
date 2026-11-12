@@ -2,8 +2,8 @@
   "summary": {
     "checked_utc": "2026-10-26T13:28:51.955107+00:00",
     "candidate_urls": 580,
-    "candidate_urls_with_exact_match": 394,
-    "candidate_urls_without_exact_match": 186,
+    "candidate_urls_with_exact_match": 400,
+    "candidate_urls_without_exact_match": 180,
     "source_counts": {
       "moderndjs": {
         "raw_named_cards": 361,
@@ -53,13 +53,13 @@
     },
     "added_venue_records": 0,
     "note": "Candidate URLs are not a venue count. Old source collection counts retain their original dates; followup state counts are current. Fragment-only links merged; names/URLs are aids, not automatic reviews. Original added_venue_records=0 describes index-only ingestion; primary_followup_records_added is separate.",
-    "primary_followup_records_added": 238,
-    "followup_checked_utc": "2026-11-12T12:54:15.272160+00:00",
+    "primary_followup_records_added": 242,
+    "followup_checked_utc": "2026-11-12T13:05:39.491063+00:00",
     "current_review_counts": {
-      "reviewed_added": 234,
-      "reviewed_existing": 159,
+      "reviewed_added": 238,
+      "reviewed_existing": 162,
       "blocked": 10,
-      "pending": 174,
+      "pending": 167,
       "excluded": 3
     }
   },
@@ -6353,12 +6353,19 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
         "the-pearl-san-francisco"
       ],
       "match_method": "Exact normalized name aid only; manual identity review still pending",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T13:05:39.491063+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/the-pearl",
+        "https://www.thepearlsf.com/events/weddings"
+      ],
+      "review_reason": "Actual current SFUVA whole profile and primary home read. Exact60119th one existing Pearl; School Night independently rented but same parent, already reconciled batch31 primary room/wedding/vendor reviews reused without repeating. SFUVA120parking does not prove free/exclusive venue parking. Rooftop tent exclusiveBright/AVexclusiveGotLight previously reviewed retained; coatcheckstaffextra. Four nested spaces not four new properties.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-14f286c7524149",
@@ -6376,10 +6383,19 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "pier-27-event-venue-san-francisco"
+      ],
       "match_method": "Not yet manually reconciled",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T13:05:39.491063+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/pier-27",
+        "https://metroevents.com/locations/pier-27/"
+      ],
+      "review_reason": "Entire primaryhome/Pier27/Pier35/Rotunda/Transportation/weddings/goodneighbor/contact and6pageoriginalFAQ/9page2023vendor list read. Pier27 existing one property with nestedCityView900seated1200reception1200theater, Bay125seated300reception230theatervsdirectory70/200/140, Coit300/600/500, Embarcadero700/1000/800. City22900sfvsoldPDF15000plusCoit6800; directoryCity1500receptionvs1200primary unresolved; Bay onlywithCitycurrent vsstandalone directory. Coit/Bay includedclaims DIRECTORYnotcurrent free guarantee. Actual2019Pier27+Pier35plans/2014Transportationplan read/text+visual, allPRIVATE restricteddesign originals not public. Currentwedpage100–800generic not800banquet. Required paidVenueManager/security/janitorial/Recology debrisbox, nofreefurnitureAVlightsdecorfood; approvedcatering/exclusiveBrownPelicanWiFi+EdlenPower vendor list. No kitchens: outdoorbuildout/firepermits needed. FAQ fee360first95additionalfirepermit/500buildingpermitadmin+actualcost CONDITIONAL datedunknown notverifiedcurrentlaw; firewatchTransport/Pier35Vintage mandatory, Pier27conditional. No liquorlicense:licensedinsuredcaterer/bar required.6AM2AMcontractaccess/2AMeventcutoff/outdooramplification10PM/2000hourafter2AM fromcurrentlylinkedundatedFAQ notblanketpermission. Portprevailingwageclaim needs currentverification, not legaladvice. Rotunda300FrankOgawa existingOakland sameoperator, SevenSpokesnested; notPalaceRotunda.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-94b0fb845ef30b",
@@ -6397,10 +6413,19 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "press-club-20-yerba-buena-san-francisco"
+      ],
       "match_method": "Not yet manually reconciled",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T13:05:39.491063+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/press-club",
+        "https://www.pressclubsf.com/hosted-events"
+      ],
+      "review_reason": "Entire primary hosted-events/contact/menu and full SFUVAprofile read. NEW ONE20YerbaBuenaLane; lounges/WineLibrary/ChampagneLounge/StoneBar/partial/full/tent nested configurations. Header600+standing conflicts samepagefulltent400 anddirectory275whole/400tent/450intro, unresolved notmaxpicked;20formalmeal not330banquet. Single10–12lounge/25overflow,Double16–20/50standingoverflow,Library15–20seated35standing;Tasting50–65standing notdinner. Threehourpartialeveningbase/extensions extra, taxes/admin/cateringlabor excluded per directory, currentpriceunknown. Actualpublished directbooking andTripleseat2328proposal links found but notsubmitted; no payment/booking. Publicretailmenu not automatically private catering quote.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-bbb29b4415108f",
@@ -6418,10 +6443,19 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "saluhall-food-hall-945-market-san-francisco"
+      ],
       "match_method": "Not yet manually reconciled",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T13:05:39.491063+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/saluhall",
+        "https://945market.com/en/l4-event-space"
+      ],
+      "review_reason": "Actual SFUVA full profile, existing building primaryL4 fullbody and published Saluhallfoodhallpage read. NEW SPACE Saluhall lower twolevels within same945Marketphysicalbuilding asL4fourthfloor, not newphysicalproperty, restaurantstallsnotparentvenues. PrimarySaluhallbook route actual browserCloudflare522originconnectiontimeout after ordinaryrequest/readerfail, nothumanCAPTCHA/loginrestriction. Alternatebuildingprimaryconfirmscurrentfoodhall but privatebooking/datepermission remainsunverified. Directory850generic not850dinner, Lagom60seated120standing/West80/150/Sauna20/35/SaunaEast70/90/Cookery20class, allnonadditive. L4outsidecateringpermissionnottransferredtofoodhall; no claimedusable form or inventedrecipient.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-1271952dff7f83",
@@ -6439,10 +6473,19 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "punch-line-comedy-club-san-francisco"
+      ],
       "match_method": "Not yet manually reconciled",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T13:05:39.491063+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/punch-line-san-francisco",
+        "https://specialevents.livenation.com/venues/punch-line-san-francisco"
+      ],
+      "review_reason": "Actual fullprimary venue body/table/FAQ andSFUVA read. NEW ONE444BatteryPunchLine, notSacramento/Philadelphia. Primaryprose240reception/under200cabaret vschart180reception180theaterBANQUET N/A vsactual2pone-sheet259reception181seated;allconflictsretained,nobanquetguess. OneimagefloorplanactuallyviewedSFheadingbutPHILADELPHIAcontactfooterwrongtemplate, notusedforrecipient oraddress. OriginalcorrectSFonesheetaddress444Battery. Entertainment/menu/fullservicepossible, feeunknown notfreeAVorparking. PromotionalconfettiNOTclientpyrotechnicpermission. No330dinnercapacity.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-a62bb6667c86d2",
@@ -6460,10 +6503,19 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "san-francisco-botanical-garden-golden-gate-park"
+      ],
       "match_method": "Not yet manually reconciled",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T13:05:39.491063+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/sf-botanical-garden",
+        "https://gggp.org/event-rentals/botanical-garden-event-rentals/"
+      ],
+      "review_reason": "Actual full8684charcurrent primary page/ALL11FAQs and4roommodals reviewed in supportedbrowser and then ordinaryHTTP with larger LOCAL16MBcap preserving earlier2.5MBcollectorlimit. No site restriction bypass. NEW ONE55acreSFBotanicalGarden, notUCBotanicalBerkeley/Conservatory/JapaneseTeaGarden; nested4namedspaces despiteheader5unresolved. Celebration400seated600standing/10hsetupbreakdownincluded/eventmusic10PMvendorsmidnight; FAQmidnightincludingcleanup notmidnightmusic. RequiredGENERATOR/noelectricity/noWiFi;preapprovedvendors/50percentdeposit creditstatusunknown. Tenting/soundpermit/ParkPatrolmonitoring extra approvalcostsunknown andmayneedadditionalbuilddays. RedwoodNOW40seatedaftertreefall vsdirectory60,10–15minwalk/nonwheelchair/nofood. Moon20standinginclcoupleofficiantvsdir15/notwheelchair. Fragrance100seatedorstanding.1hmicro20nofooddeliveries,2hmax50/Redwood40nodeliveriesalcoholcatering,4honlyCelebrationFragrance/lightlimitedcatering;shortpackagesnotfullreception. No exactprice or330dinnerdanceapproval. Actualprimaryrawbytes4848779SHAarchived, readerfailedsize not hardaccessblock.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-38a55f99548479",
@@ -6481,10 +6533,19 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "san-francisco-design-center-galleria-san-francisco"
+      ],
       "match_method": "Not yet manually reconciled",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T13:05:39.491063+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/sf-design-center-galleria",
+        "https://sfvenues.com/"
+      ],
+      "review_reason": "Entireprimaryhome/weddings/contact andactual4pageoriginalfloorplan text/allpagesvisuallyreviewed. ExistingONE101HenryAdamsSFDesignCenterGalleria, notdesignfirm100WestOhioRichmondor101UtahSFdesignerfooter. Mainfloor400BANQUETwithoutdance300WITHdance400theater1000reception; upperfloorupto200dependentonsightlinesnotextra200perfloorassumedvalid330dinnerplan. Total1600standingnotdinner. WeekdayEVENT6PM2AMsetupupper1PMmain3PM/weekend8AM2AM, cleanup/bar/musicindependentclocksunknown. Currentprimarynotproof100freeparkingdirectory. Floorplans2010/2012despite2022URL, privatecopyright/designlimitnotpublicrawdrawings. Sourcecontactformclaimbutactualfieldinteractionnotverified. Currentmandatorycostsunknown.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-90d3d5fd75f3fc",
