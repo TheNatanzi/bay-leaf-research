@@ -2,8 +2,8 @@
   "summary": {
     "checked_utc": "2026-10-26T13:28:51.955107+00:00",
     "candidate_urls": 580,
-    "candidate_urls_with_exact_match": 330,
-    "candidate_urls_without_exact_match": 250,
+    "candidate_urls_with_exact_match": 336,
+    "candidate_urls_without_exact_match": 244,
     "source_counts": {
       "moderndjs": {
         "raw_named_cards": 361,
@@ -53,12 +53,12 @@
     },
     "added_venue_records": 0,
     "note": "Candidate URLs are not a venue count. Old source collection counts retain their original dates; followup state counts are current. Fragment-only links merged; names/URLs are aids, not automatic reviews. Original added_venue_records=0 describes index-only ingestion; primary_followup_records_added is separate.",
-    "primary_followup_records_added": 190,
-    "followup_checked_utc": "2026-11-12T09:00:07.016539+00:00",
+    "primary_followup_records_added": 193,
+    "followup_checked_utc": "2026-11-12T09:22:24.769515+00:00",
     "current_review_counts": {
-      "reviewed_added": 194,
-      "reviewed_existing": 111,
-      "pending": 265,
+      "reviewed_added": 197,
+      "reviewed_existing": 117,
+      "pending": 256,
       "blocked": 7,
       "excluded": 3
     }
@@ -2910,14 +2910,21 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
-        "hacienda-de-las-flores-casita-town-managed-small-event-room-contra-costa",
         "hacienda-de-las-flores-pavilion-garden-non-tent-configuration-contra-costa",
-        "hacienda-de-las-flores-pavilion-garden-seasonal-tent-configuration-contra-costa"
+        "hacienda-de-las-flores-pavilion-garden-seasonal-tent-configuration-contra-costa",
+        "hacienda-de-las-flores-casita-town-managed-small-event-room-contra-costa"
       ],
       "match_method": "Exact normalized name only; identity/branch not confirmed",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T09:14:20.090870+00:00",
+      "review_source_urls": [
+        "https://www.wedding-spot.com/venue/15944/hacienda-de-las-flores/",
+        "https://www.wedgewoodweddings.com/venues/hacienda-de-las-flores"
+      ],
+      "review_reason": "Full directory and entire actualcurrentprimaryweddingbodyread. ExistingHacienda2100Donald retainedwiththreeconfigurationrows;non-tent200generic/Nov-Apriltent150differentseasonallayouts,notnewpropertiesorcapacitysum. Town-managedCasitanotautomaticallycoveredbyWedgewoodpackages. Current89BuildYourOwn/99Classic/129Premier/154Elitepergueststarting+595ceremony+1695venue+22percentadmin+tax+possibleminima, exactchargebase/scopeunknown. Olddirectory1400-3500eighthevent,220hour,750deposit,250application/BYOBbeerwine/currentclocknotpromotedovercurrentoperator. Noallintotalor330approval.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-4712f6b7f8aadf",
@@ -2935,10 +2942,19 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "bar-shoji-former-trou-normand-san-francisco"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T09:14:20.090870+00:00",
+      "review_source_urls": [
+        "https://www.wedding-spot.com/venue/11080/trou-normand/",
+        "https://www.shojisf.com/faq"
+      ],
+      "review_reason": "Full oldTrouNormanddirectory,currentShojiFAQ/eventsandApril18,2025SFistarticlebodyread. IndependentdatedarticleexplicitlyplacesBarShojiintheformerTrouNormandspace;exactcurrentprimarySuite1address/privatebuyoutofferchecked. Onephysicalrestaurantleadwithhistoricalalias,notseparateold/currentvenues. CurrentFULLbuyoutsonly,nopartial/patiobuyout;weddingpermissionunknown. OldButchersRoom12seated20standing/patio52seated100+standing/directory80headerandnoendtimerestrictionsNOTtransferredtocurrentShoji. Primaryregularbar21+withphysicalID;privatebuyoutexceptionsunknown,donotpromisefamilywedding.6ordinaryOpenTablereservation/7-12text/nopartiesover12isregularbookinglimitNOTprivatebuyoutcapacity. Cafe8-2:30/bar4-11/kitchen10/lastcall10:30areBUSINESSHOURSnotcontractedweddingdeadlines.30perguestreservationcancellationNOTweddingfee. Currentseateddancecapacity,completecostandprivateagepolicyunknown. PrivatePerfectVenueformnot submitted;oldTrouNormandinquiriesnotsent.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-991675b9cd5287",
@@ -2956,10 +2972,19 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "presidio-chapel-of-our-lady-chapel-of-our-lady-san-francisco"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T09:14:20.090870+00:00",
+      "review_source_urls": [
+        "https://www.wedding-spot.com/venue/326/chapel-of-our-lady-at-the-presidio/",
+        "https://presidio.gov/venues/chapel-of-our-lady"
+      ],
+      "review_reason": "Full originaldirectory and bothcurrentTrust/operatorprimarybodiesread. ExistingChapelOurLady45Moraga retainednotPresidioChapel130FisherorOfficersClub. Operator200historicpewceremonyseats,notdinnerdance. PairingwithOfficersClubadvertised,butcurrentoverviewdoesnotexplicitlystateexclusivebookingconditionlikePresidioChapelGoldenGate;old1495directorypairingnotcurrentstandalonequote. Currentoperator2027starting107BuildYourOwn/122Classic/162Premier/187EliteperguestPLUS1995ceremony/2495venue/22percentadmin/tax/minima,exactcombinedscopeandchargebaseunknown,noallintotal. Old6PMmusic/catering/BYOB/accessibilitynotnewlyverifiedprimary. Publicpaidparkingnotfreeeventparking.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-034a212090b95a",
@@ -2977,10 +3002,19 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "landmarks-art-and-garden-center-marin"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T09:14:20.090870+00:00",
+      "review_source_urls": [
+        "https://www.wedding-spot.com/venue/7149/the-landmarks-art-garden-center/",
+        "https://landmarkssociety.com/rentals/art-garden-center/"
+      ],
+      "review_reason": "Full originaldirectory/currentprimarybodyread. Existing841TiburonArtGardenCenter retainednotOldStHilarysorChinaCabin. CurrentoperatorSOLDOUT2027/booking2028 noticecheckedNov12,2026,notpermanentclosure. Lawn135reception/buffet,brick60table/75-85buffet/95-110cocktail;brick135CEREMONYnot135dinner. Cottage55generic,notadditiveto135lawn.4000<=44/4500for45-90/5000for91-135up to8huse,400/houradditional,rehearsal/setupscope;1000-2000returnablesecurity,50percentbookingcreditnotextraexpense. MidweekMonThuelopementmax30/1750for1.5hnotgeneralweddingprice. Noamplifiedmusicafter8:30PMnotdirectory9PM;daily8AM-9PMavailabilitynotseparateprovenbar/cleanupclock.12carparking/shuttle,30chairs/8tables,preferredlistcaterer,renterinsurance/nominalmembershiprequired,amountunknown. Linens/tablewarethroughcaterer,limitedkitchen,barthroughcaterer/bartender. Taxdeductibilityclaimnotindependenttaxadvice. Currentcompletecost/rainbackupunknown.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-406be31b1fd066",
@@ -2998,10 +3032,19 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "terrace-at-willow-glen-canoas-san-jose-santa-clara"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T09:22:24.769515+00:00",
+      "review_source_urls": [
+        "https://www.wedding-spot.com/venue/9822/the-terrace-at-willow-glen/",
+        "https://www.guntherscatering.com/theterraceatwillowglenn"
+      ],
+      "review_reason": "Fulloriginaldirectory,currentGuntherTerracebodyandlinkedgeneralweddingcateringpageactuallyread.2125CanoasVENUEseparatefromcaterer1601Meridianrestaurant. Primary300banquetWITHdance/150terraceceremony notdirectory400/250. Upto8eventhours,eventmidnight/cleanup1AM;independentmusic/barunknown. Security,bartenders,janitorial/setup/cleanup/layout/freeparking explicitlypricinginclusions.300chairs/25rounds10eightfoottables8sixfoottables5cocktailrounds/21ftdanceflooravailable;notassumedalltablewarefree. Gunthergeneralbuffet85for100+/plated99for100+ pluslabor/tax/20percentproductionF&B NOTconfirmedTerracecompletebundle. Menustaffincludedwordingversuspluslaborpriceconflictretained. Basicbar37for100+/Premium45+for100+fourhours;BYOB12/15/18suppliesand60bartenderhour5hmin,plus20production/tax;inclusionoverlapvenuebartenderrequiresclarification. DirectoryBYOBversusvenuealcoholcontradictionnotpickedascurrent;generalBYOBcatererservicenotunconditionalvenueBYOB. Quince/WeddingSpeciallinkedpage404,notreviewedpriceinvented. Noallintotalor330approval.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-2af03ca8e2eebf",
@@ -3019,10 +3062,19 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "las-trampas-regional-wilderness-little-hills-events-contra-costa"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T09:22:24.769515+00:00",
+      "review_source_urls": [
+        "https://www.wedding-spot.com/venue/2164/the-ranch-at-little-hills/",
+        "https://www.littlehillsevents.com/"
+      ],
+      "review_reason": "Full directory/currentprimaryhomepageandWeddingsSpecialEventsbodyread. Exact18013BollingerLittleHills existingparkproperty retained; RanchatLittleHillsnamehistoriccurrentLittleHillsEventsnotnewproperty. Primarytwotents,inhousecatering/waitstaffsetupcleanup,roundtables/Willowreceptionchairs/whiteceremonychairs/cocktailtables/chicbar/restrooms/parkingdescribed;fullcontractinclusions/mandatoryvendorconditionsunknown. Linked6CanvaPlanningGuide/CateringMenu/SomethingBorrowed/PreferredVendors/Brochure/FAQnotyetread,queuedexplicitlyNOTreviewed. Olddirectory250generic/4825-5970site/7500catering/4.5h/400ceremony/10PMnotcurrentprimaryconfirmed. No100percentnonrefundablebookingpaymentasadditionalexpense. Currentcapacity/music/bar/cleanup/mandatorycompletecoststillunknown, no330approval.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-1c760f8e69a913",
@@ -3040,12 +3092,19 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
         "china-cabin-marin"
       ],
       "match_method": "Exact normalized name only; identity/branch not confirmed",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T09:22:24.769515+00:00",
+      "review_source_urls": [
+        "https://www.wedding-spot.com/venue/6803/china-cabin/",
+        "https://landmarkssociety.com/rentals/china-cabin/"
+      ],
+      "review_reason": "Fulloriginaldirectory/currentprimarybodyread. Existing52BeachChinaCabinretainednotOldStHilarysorArtGardenCenter;staticrelocatedshipsaloonnotrentableboatcruise. Primary40indoorseated/55standing,40-45CEREMONYandadditional10deckweatherpermittingnot55seateddinnerdance.2500sixhourminimumblock,400additionalhour,750returnablesecurity/halfrentalbookingcreditnotextraexpense.50chairs/3sixfoottables,limitedkitchen,linen/tablewarethroughcaterer/preferredlist. BYOalcoholbutredwineinsuranceREQUIRED, generalinsurancestronglyrecommended(notblanketmandatoryfromdirectory),nominalmembershiprequiredfeeunknown. Primarydailyuntil10PMavailabilitynotindependentproven9PMmusicclock;musicindoorsrestrictionsunspecified,cleanupcaterer/client. Noopenflames. Taxdeductibilityclaimnotverifiedtaxadvice. Noallintotalor330layout.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-b435619cc3afba",
@@ -3063,12 +3122,19 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
         "lodge-at-marconi-marin"
       ],
       "match_method": "Exact normalized name only; identity/branch not confirmed",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T09:22:24.769515+00:00",
+      "review_source_urls": [
+        "https://www.wedding-spot.com/venue/12603/lodge-at-marconi/",
+        "https://lodgeatmarconi.com/gather/weddings/"
+      ],
+      "review_reason": "Full originaldirectory/currentprimaryweddingsincludingall12staticmapentriesread. Existing18500Hwy1campusretained,eightspacesnestednotnewproperties.250fullbuyoutgeneric/TowerHill250generic;Amphitheater40/McCargo40/Cypress45/Pine45/Buck100/Mables100genericnotapproveddinnerdance. MeadowPUBLICincludingparkvisitors,notexclusiveweddinglawnassumed. Mainlodge7AM-11PM/MablesTueSat3-9BUSINESSHOURSnotwedding/barcurfews. Roomnumbers101-123etcnotactual92roomcount;old40rooms108sleepnotcurrentapprovedlodging. FullbuyoutOPTIONnotmandatoryallweddings. Onsitecateringandlodgingsuitesoffered,currentroomblock/mandatorylodging/plannertermsunknown. Old10000/2500ceremony/500cash/8h/11:30music notcurrentprimaryverified. Noallintotal.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-c87bb6d4cb3ba9",
@@ -3086,10 +3152,19 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "san-ramon-waters-fircrest-contra-costa"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T09:22:24.769515+00:00",
+      "review_source_urls": [
+        "https://www.wedding-spot.com/venue/1071/san-ramon-waters-by-wedgewood-weddings/",
+        "https://www.wedgewoodweddings.com/venues/san-ramon-waters"
+      ],
+      "review_reason": "Full originaldirectory/currentprimarybodyread. Exact9430FircrestSanRamonWaters/GolfClubnototherWedgewoodvenues,EastBayclubsorRanchLittleHills. Currentstarting82BuildYourOwn/97Classic/127Premier/152EliteperguestPLUS995ceremony+1295venue+22percentadmin/tax/minima, priceyear/chargebase/fullscopeunknown. Olddirectory54-124/99Premier/895-3895venue/midnightnotcurrentprimaryconfirmed.250genericdirectorynotapproved330dinnerdance;primarymainbodydoesnotshowlayoutcapacity. Currentcoupletestimonials/advertisedallinclusivewordingnotcompleteissuedquote. DJ/tableware/barwhichpackageandmandatoryvendorconditionsnotinferred. Noallintotal, independentmusic/bar/cleanupclocksunknown.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-cd9969e51f7b58",
