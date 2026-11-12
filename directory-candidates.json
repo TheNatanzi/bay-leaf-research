@@ -2,8 +2,8 @@
   "summary": {
     "checked_utc": "2026-10-26T13:28:51.955107+00:00",
     "candidate_urls": 580,
-    "candidate_urls_with_exact_match": 357,
-    "candidate_urls_without_exact_match": 223,
+    "candidate_urls_with_exact_match": 360,
+    "candidate_urls_without_exact_match": 220,
     "source_counts": {
       "moderndjs": {
         "raw_named_cards": 361,
@@ -53,13 +53,13 @@
     },
     "added_venue_records": 0,
     "note": "Candidate URLs are not a venue count. Old source collection counts retain their original dates; followup state counts are current. Fragment-only links merged; names/URLs are aids, not automatic reviews. Original added_venue_records=0 describes index-only ingestion; primary_followup_records_added is separate.",
-    "primary_followup_records_added": 207,
-    "followup_checked_utc": "2026-11-12T11:06:19.832798+00:00",
+    "primary_followup_records_added": 208,
+    "followup_checked_utc": "2026-11-12T11:22:09.501946+00:00",
     "current_review_counts": {
-      "reviewed_added": 211,
-      "reviewed_existing": 131,
+      "reviewed_added": 212,
+      "reviewed_existing": 134,
       "blocked": 10,
-      "pending": 225,
+      "pending": 221,
       "excluded": 3
     }
   },
@@ -4462,20 +4462,27 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
-        "25-lusk-clarke-san-francisco",
-        "25-lusk-cleveland-san-francisco",
-        "25-lusk-lower-lounge-san-francisco",
-        "25-lusk-main-dining-san-francisco",
-        "25-lusk-main-plus-lounge-san-francisco",
-        "25-lusk-ogden-san-francisco",
+        "25-lusk-whole-san-francisco",
         "25-lusk-rooftop-san-francisco",
+        "25-lusk-main-dining-san-francisco",
+        "25-lusk-lower-lounge-san-francisco",
+        "25-lusk-cleveland-san-francisco",
         "25-lusk-semi-private-lounge-san-francisco",
-        "25-lusk-whole-san-francisco"
+        "25-lusk-ogden-san-francisco",
+        "25-lusk-clarke-san-francisco",
+        "25-lusk-main-plus-lounge-san-francisco"
       ],
       "match_method": "Exact normalized name only; identity/branch not confirmed",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T11:12:52.163817+00:00",
+      "review_source_urls": [
+        "https://www.partyslate.com/venues/25-lusk",
+        "https://25lusk.com/event-spaces/"
+      ],
+      "review_reason": "EntirePartySlateprofileandcurrentprimaryeventspaces/privateeventsbodyread;allnineexistingroom/configurationrowsmatchONE25LuskStproperty,notnineadditions. CurrentprimaryMainDining130seatedvsdirectory135;LowerLounge80seated250reception,Roof125reception/flexseatedvsdirectory70seated;SemiPrivate60receptionflexseatedvsdirectory50seated75standing;Ogden16/Clarke14/Cleveland35seated40reception,notwholepropertyapproveddinnerdancecapacity. Entirevenue500+receptioncustomseated/marketing550guestnot550dinnerdance. Combinedmain+loungealreadyexistingnotaddparent+rooms. ActualSeptember10,2026menuandAugust2026brochurealreadyreviewedandarchivedbyOctober26work,existingmasterconditions24eventmanagement+8.625datedtax+6employermandate/F&B3hbasis notreauditedorreplacedwith2024directory2500minimum. CurrentpublishedPDFlinksloggedbutno newdownload/readclaimthispass. OptionalthirdpartyAIinquirywidgetnotused/nodatasent. Noformsubmissionornewoutreach. Originalclock/allincost/approveddinnerdance/chargebasequestionsremainunresolved.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-a45ecbc35f5dbe",
@@ -4493,10 +4500,19 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "san-francisco-design-center-galleria-san-francisco"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T11:12:52.163817+00:00",
+      "review_source_urls": [
+        "https://www.partyslate.com/venues/san-francisco-design-center-galleria",
+        "https://sfvenues.com/"
+      ],
+      "review_reason": "EntirePartySlateprofile/currentprimaryhome/vendorsbodiesread. Exact101HenryAdamsoneGalleria,notnewpropertyperfourfloors. Primarymainfloor300BANQUETWITHDANCE/400banquetwithout/400theater/1000reception;upperthreefloors200receptioneach/scopedbanquetsightlinesnotflat1600dinnerdance. Directory750header/FAQvs1000seatedroomconflictswithprimary400/300differentlayout;retainexistingtestedprimaryvalues. VendorprimaryEXCLUSIVETapestrybar,unlistedcatererpriorapprovalAND2500extra;directoryfreeoutsidevendor/insideonlyiconscontradictorynotaccepted. CurrenthomeMonFri6PM–2AM/weekend8AM–2AMfacilityhours,setupupper1PM/main3PMweekday;notindependentmusic/bar/cleanuppermission. No currentpublicrentalfee primarybody/secondaryquote-only. Linked2021preferredvendorXLSremainsunreviewed,notclaimedcompletedsourcefrontier. Noforms/contact/submission;existinggovernment/valuationunknownsnotinvented.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-06a88dc9d80cac",
@@ -4514,10 +4530,19 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "pier-27-event-venue-san-francisco"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T11:22:09.501946+00:00",
+      "review_source_urls": [
+        "https://www.partyslate.com/venues/pier-27",
+        "https://metroevents.com/locations/pier-27/"
+      ],
+      "review_reason": "EntirePartySlateprofile/operatorroompage/weddings/goodneighbor/transportation/contactbodiesread;FIVEactualoriginals13social+9vendor+2floorplan+6FAQ+8ratespagesread. BayView125SEATED/230THEATERnotdirectory230dinner;Embarcadero700seatedvsdirectory800;social200–800rangeNOTspecificapproveddinnerdance. OnePier27withnestedrooms/outdoorTransportation;CoitWITHINCityViewnotadditive. CurrentlinkedSOCIAL12hpackageincludesguestparking/20Mbps/securityaccess/janitorial/5monitors/electricity/HVAC/oneRecologybin;generalFAQ/ratesseparateparking/WiFi/requiredstaffcostsconflictDIFFERENTPACKAGE,doNOTaddtwiceorassumegeneralrentalinclusions. Requiredoutsideplannercommunicable6months;approvedcaterersONLY/noonsitekitchen/catererbuildsoutsidekitchen;licensedinsuredalcoholprovider. SocialbrochureheadingratesbutNOactualdollaramountpages4–6visuallyconfirmed. Undateddirectory-linkedoriginalgeneralrates40kfull/30kCity/10kCoit/20kEmbarcadero plusrequiredstaff/electrical/cleanup,NOTallin/current2026quote. CurrentvendorPDFnamed2022actualcover2023;exclusiveEdlenElectrical/BrownPelicanWiFi. GeneralFAQ2AMeventend/after2AM2kperhourandoutdoor10PMampvsdirectorymidnight/14haccess/social12h;doNOTdefaultunlimitedmusic. 2019floorplanphysicalareasconflictprimary/nonguestgrayareasread,notapprovedseatingornewproperties. 50%bookingcreditednotdamagecash,final30days;12vs14monthconfirmationconflictretained. Fire/permitfeesdatedunknowncurrentlegalauthority,notlawassertion. Nocontactformsubmission/hold/commitment.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-2446c8537fd7cf",
@@ -4535,10 +4560,19 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "convene-100-stockton-san-francisco"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T11:22:09.501946+00:00",
+      "review_source_urls": [
+        "https://www.partyslate.com/venues/convene-100-stockton",
+        "https://prodcdn.convene.com/locations/san-francisco/100-stockton/"
+      ],
+      "review_reason": "EntirePartySlateprofile/currentprodcdnandrefreshoperatorbodiesread;original3pageonesheet+2imagefloorplans+separate3pagebrochureversionread,chartsfullsizevisuallychecked. Named40OFarrell/100Stocktonfloors4–5oneproperty,mastername/address/sourcealiassearchNOMATCH;not7newproperties/nearbyhotelnotsamevenue. LargestPacificHall468THEATER/288ROUNDS,stage432THEATER/224ROUNDS;NOTdirectory1000seatedorrefresh670genericdinnerdance. Fullbuyout1116orjustover1100vsdirectory1000/under470bodydifferentwhole/singleroomscope. FourfloorCoastalNorth96banquet/South72/Vista18each;ThirdBay26generic14conferencevsprimarypage18;Library80theaterNOroundsvalue. RefreshroomcardsNorth100/South75/Library61/Vista45conflictotherprimarytable/genericmax. Nestedgalleries348/160/396genericnotapproveddinnercapacity. Inhousecatering/AV/hospitalityadvertisednotallmandatoryrentalprice/nooutsidecateringpermissionproven;weddingapprovalunknown/nomusicbarcleanupclock/price. AdjacentPAIDparking;optionalhotelpartnerroomsnotmandatoryblock. ActualPDFnotesTPAmayberequiredsomelayouts,notpermitissued. Noforms/calls/commitments.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-55629b4f169bf2",

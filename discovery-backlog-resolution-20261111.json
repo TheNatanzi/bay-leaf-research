@@ -1,6 +1,6 @@
 {
   "audit_id": "discovery-backlog-20261111",
-  "updated_utc": "2026-11-12T11:06:19.832798+00:00",
+  "updated_utc": "2026-11-12T11:22:09.501946+00:00",
   "original_pending_candidates": 500,
   "reviewed_dispositions_applied": [
     {
@@ -5651,9 +5651,93 @@
       "candidate_reader_evidence_sha256": "77987612d8afa9891b04298b38a85aad60c7a7e6a18e5e00a9fc9051bec202dd",
       "candidate_raw_retrieval_state": "http_error",
       "candidate_evidence_method": "Exact standard-web reader export actually reviewed; failed raw retrieval preserved."
+    },
+    {
+      "candidate_id": "directory-lead-896845f0e55351",
+      "original_pending_index": 143,
+      "checked_utc": "2026-11-12T11:12:52.163817+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "25-lusk-whole-san-francisco",
+        "25-lusk-rooftop-san-francisco",
+        "25-lusk-main-dining-san-francisco",
+        "25-lusk-lower-lounge-san-francisco",
+        "25-lusk-cleveland-san-francisco",
+        "25-lusk-semi-private-lounge-san-francisco",
+        "25-lusk-ogden-san-francisco",
+        "25-lusk-clarke-san-francisco",
+        "25-lusk-main-plus-lounge-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.partyslate.com/venues/25-lusk",
+        "https://25lusk.com/event-spaces/"
+      ],
+      "candidate_capture_sha256": null,
+      "operator_capture_sha256": "f26834e3656d05ef83f94da71e7e6d492c9850ca80ac58a0c5a2f36451701705",
+      "reason": "EntirePartySlateprofileandcurrentprimaryeventspaces/privateeventsbodyread;allnineexistingroom/configurationrowsmatchONE25LuskStproperty,notnineadditions. CurrentprimaryMainDining130seatedvsdirectory135;LowerLounge80seated250reception,Roof125reception/flexseatedvsdirectory70seated;SemiPrivate60receptionflexseatedvsdirectory50seated75standing;Ogden16/Clarke14/Cleveland35seated40reception,notwholepropertyapproveddinnerdancecapacity. Entirevenue500+receptioncustomseated/marketing550guestnot550dinnerdance. Combinedmain+loungealreadyexistingnotaddparent+rooms. ActualSeptember10,2026menuandAugust2026brochurealreadyreviewedandarchivedbyOctober26work,existingmasterconditions24eventmanagement+8.625datedtax+6employermandate/F&B3hbasis notreauditedorreplacedwith2024directory2500minimum. CurrentpublishedPDFlinksloggedbutno newdownload/readclaimthispass. OptionalthirdpartyAIinquirywidgetnotused/nodatasent. Noformsubmissionornewoutreach. Originalclock/allincost/approveddinnerdance/chargebasequestionsremainunresolved.",
+      "candidate_reader_evidence_sha256": "a0e10025b0e177cbc499f801eaa4c1a2e47ff41fc12f84aefeb805cf07c4f771",
+      "candidate_raw_retrieval_state": "http_error",
+      "candidate_evidence_method": "Exact standard-web reader export actually reviewed; failed raw retrieval preserved."
+    },
+    {
+      "candidate_id": "directory-lead-a45ecbc35f5dbe",
+      "original_pending_index": 144,
+      "checked_utc": "2026-11-12T11:12:52.163817+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "san-francisco-design-center-galleria-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.partyslate.com/venues/san-francisco-design-center-galleria",
+        "https://sfvenues.com/"
+      ],
+      "candidate_capture_sha256": null,
+      "operator_capture_sha256": "a0e5e8c5d72ee36d0561a81d25ae2ac281e68e89f9a54c0cfe2b18d50e0def47",
+      "reason": "EntirePartySlateprofile/currentprimaryhome/vendorsbodiesread. Exact101HenryAdamsoneGalleria,notnewpropertyperfourfloors. Primarymainfloor300BANQUETWITHDANCE/400banquetwithout/400theater/1000reception;upperthreefloors200receptioneach/scopedbanquetsightlinesnotflat1600dinnerdance. Directory750header/FAQvs1000seatedroomconflictswithprimary400/300differentlayout;retainexistingtestedprimaryvalues. VendorprimaryEXCLUSIVETapestrybar,unlistedcatererpriorapprovalAND2500extra;directoryfreeoutsidevendor/insideonlyiconscontradictorynotaccepted. CurrenthomeMonFri6PM–2AM/weekend8AM–2AMfacilityhours,setupupper1PM/main3PMweekday;notindependentmusic/bar/cleanuppermission. No currentpublicrentalfee primarybody/secondaryquote-only. Linked2021preferredvendorXLSremainsunreviewed,notclaimedcompletedsourcefrontier. Noforms/contact/submission;existinggovernment/valuationunknownsnotinvented.",
+      "candidate_reader_evidence_sha256": "a0e10025b0e177cbc499f801eaa4c1a2e47ff41fc12f84aefeb805cf07c4f771",
+      "candidate_raw_retrieval_state": "http_error",
+      "candidate_evidence_method": "Exact standard-web reader export actually reviewed; failed raw retrieval preserved."
+    },
+    {
+      "candidate_id": "directory-lead-06a88dc9d80cac",
+      "original_pending_index": 145,
+      "checked_utc": "2026-11-12T11:22:09.501946+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "pier-27-event-venue-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.partyslate.com/venues/pier-27",
+        "https://metroevents.com/locations/pier-27/"
+      ],
+      "candidate_capture_sha256": null,
+      "operator_capture_sha256": "cd7cb48a27a00f5895f7ff52b18100dd4bb26232b0d891656e39a942723893c6",
+      "reason": "EntirePartySlateprofile/operatorroompage/weddings/goodneighbor/transportation/contactbodiesread;FIVEactualoriginals13social+9vendor+2floorplan+6FAQ+8ratespagesread. BayView125SEATED/230THEATERnotdirectory230dinner;Embarcadero700seatedvsdirectory800;social200–800rangeNOTspecificapproveddinnerdance. OnePier27withnestedrooms/outdoorTransportation;CoitWITHINCityViewnotadditive. CurrentlinkedSOCIAL12hpackageincludesguestparking/20Mbps/securityaccess/janitorial/5monitors/electricity/HVAC/oneRecologybin;generalFAQ/ratesseparateparking/WiFi/requiredstaffcostsconflictDIFFERENTPACKAGE,doNOTaddtwiceorassumegeneralrentalinclusions. Requiredoutsideplannercommunicable6months;approvedcaterersONLY/noonsitekitchen/catererbuildsoutsidekitchen;licensedinsuredalcoholprovider. SocialbrochureheadingratesbutNOactualdollaramountpages4–6visuallyconfirmed. Undateddirectory-linkedoriginalgeneralrates40kfull/30kCity/10kCoit/20kEmbarcadero plusrequiredstaff/electrical/cleanup,NOTallin/current2026quote. CurrentvendorPDFnamed2022actualcover2023;exclusiveEdlenElectrical/BrownPelicanWiFi. GeneralFAQ2AMeventend/after2AM2kperhourandoutdoor10PMampvsdirectorymidnight/14haccess/social12h;doNOTdefaultunlimitedmusic. 2019floorplanphysicalareasconflictprimary/nonguestgrayareasread,notapprovedseatingornewproperties. 50%bookingcreditednotdamagecash,final30days;12vs14monthconfirmationconflictretained. Fire/permitfeesdatedunknowncurrentlegalauthority,notlawassertion. Nocontactformsubmission/hold/commitment.",
+      "candidate_reader_evidence_sha256": "7c5c7352d201fb0800870877b4ff8abdf7caaffa2789b5482a57149792bd3ed7",
+      "candidate_raw_retrieval_state": "http_error",
+      "candidate_evidence_method": "Exact standard-web reader export actually reviewed; failed raw retrieval preserved."
+    },
+    {
+      "candidate_id": "directory-lead-2446c8537fd7cf",
+      "original_pending_index": 146,
+      "checked_utc": "2026-11-12T11:22:09.501946+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "convene-100-stockton-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.partyslate.com/venues/convene-100-stockton",
+        "https://prodcdn.convene.com/locations/san-francisco/100-stockton/"
+      ],
+      "candidate_capture_sha256": null,
+      "operator_capture_sha256": "cc24b2dbb0b49d5afb65f747d1684c6cf411dd0dfe4ddaf14f7f12d250b6dd7a",
+      "reason": "EntirePartySlateprofile/currentprodcdnandrefreshoperatorbodiesread;original3pageonesheet+2imagefloorplans+separate3pagebrochureversionread,chartsfullsizevisuallychecked. Named40OFarrell/100Stocktonfloors4–5oneproperty,mastername/address/sourcealiassearchNOMATCH;not7newproperties/nearbyhotelnotsamevenue. LargestPacificHall468THEATER/288ROUNDS,stage432THEATER/224ROUNDS;NOTdirectory1000seatedorrefresh670genericdinnerdance. Fullbuyout1116orjustover1100vsdirectory1000/under470bodydifferentwhole/singleroomscope. FourfloorCoastalNorth96banquet/South72/Vista18each;ThirdBay26generic14conferencevsprimarypage18;Library80theaterNOroundsvalue. RefreshroomcardsNorth100/South75/Library61/Vista45conflictotherprimarytable/genericmax. Nestedgalleries348/160/396genericnotapproveddinnercapacity. Inhousecatering/AV/hospitalityadvertisednotallmandatoryrentalprice/nooutsidecateringpermissionproven;weddingapprovalunknown/nomusicbarcleanupclock/price. AdjacentPAIDparking;optionalhotelpartnerroomsnotmandatoryblock. ActualPDFnotesTPAmayberequiredsomelayouts,notpermitissued. Noforms/calls/commitments.",
+      "candidate_reader_evidence_sha256": "7c5c7352d201fb0800870877b4ff8abdf7caaffa2789b5482a57149792bd3ed7",
+      "candidate_raw_retrieval_state": "http_error",
+      "candidate_evidence_method": "Exact standard-web reader export actually reviewed; failed raw retrieval preserved."
     }
   ],
-  "unreviewed_original_inputs": 225,
+  "unreviewed_original_inputs": 221,
   "municipal_searches_completed": 0,
   "complete": false,
   "scope": "Queue identity resolution is not full venue facts, exhaustive geographic discovery or permission for any event. Actual access/identity blockers remain separate from unreviewed work."
