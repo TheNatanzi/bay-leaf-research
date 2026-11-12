@@ -1,12 +1,14 @@
 {
   "candidate_urls": 580,
-  "resolved_candidate_urls": 283,
-  "unresolved_candidate_urls": 297,
+  "resolved_candidate_urls": 423,
+  "unresolved_candidate_urls": 157,
   "review_counts": {
-    "reviewed_added": 176,
-    "reviewed_existing": 104,
-    "pending": 290,
-    "blocked": 7,
+    "reviewed_added": 251,
+    "reviewed_existing": 167,
+    "blocked": 10,
+    "reviewed_supplier_not_venue_offer": 1,
+    "reviewed_outside_scope": 1,
+    "pending": 147,
     "excluded": 3
   },
   "complete": false,
@@ -151,8 +153,11 @@
       "candidate_id": "directory-lead-1cc4c632c433bb",
       "name": "Civic Park Community Center",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/civic-park-community-center-walnut-creek",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "civic-park-assembly-hall-walnut-creek-contra-costa",
+        "civic-park-gazebo-walnut-creek-contra-costa"
+      ]
     },
     {
       "candidate_id": "directory-lead-5bbb1ddf3ab6a6",
@@ -167,8 +172,10 @@
       "candidate_id": "directory-lead-2d83d8961362a6",
       "name": "Club Auto Sport",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/club-auto-sport-san-jose",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "club-auto-sport-san-jose-santa-clara"
+      ]
     },
     {
       "candidate_id": "directory-lead-62a070e693d401",
@@ -183,15 +190,19 @@
       "candidate_id": "directory-lead-2386b66dd07c41",
       "name": "Contra Costa Country Club",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/contra-costa-country-club-pleasant-hill",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "contra-costa-country-club-pleasant-hill-contra-costa"
+      ]
     },
     {
       "candidate_id": "directory-lead-19d09545bd868a",
       "name": "CordeValle",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/cordevalle-san-martin",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "cordevalle-resort-san-martin-santa-clara"
+      ]
     },
     {
       "candidate_id": "directory-lead-60925a49e71d77",
@@ -206,15 +217,19 @@
       "candidate_id": "directory-lead-1a0ef8cf5e5b2f",
       "name": "Craneway Pavilion",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/craneway-pavilion-richmond",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "craneway-pavilion-richmond-contra-costa"
+      ]
     },
     {
       "candidate_id": "directory-lead-7bea591d035e8b",
       "name": "Diablo Country Club",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/diablo-country-club-diablo",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "diablo-country-club-contra-costa"
+      ]
     },
     {
       "candidate_id": "directory-lead-475127b6ab5389",
@@ -301,8 +316,12 @@
       "candidate_id": "directory-lead-07aa64bf79c56c",
       "name": "Hacienda de Las Flores by Wedgewood Weddings",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/hacienda-de-las-flores-by-wedgewood-weddings-moraga",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "hacienda-de-las-flores-pavilion-garden-non-tent-configuration-contra-costa",
+        "hacienda-de-las-flores-pavilion-garden-seasonal-tent-configuration-contra-costa",
+        "hacienda-de-las-flores-casita-town-managed-small-event-room-contra-costa"
+      ]
     },
     {
       "candidate_id": "directory-lead-8443e535d6a3b2",
@@ -354,8 +373,10 @@
       "candidate_id": "directory-lead-452d9ae26786af",
       "name": "Hilton Santa Clara",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/hilton-santa-clara-santa-clara",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "hilton-santa-clara-great-america-santa-clara"
+      ]
     },
     {
       "candidate_id": "directory-lead-9a2627ac003812",
@@ -452,15 +473,19 @@
       "candidate_id": "directory-lead-b47f35cbbbf89c",
       "name": "Oakland Scottish Rite Center",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/oakland-scottish-rite-center-oakland",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "oakland-scottish-rite-center-alameda"
+      ]
     },
     {
       "candidate_id": "directory-lead-cdb65db583a20e",
       "name": "Orinda Country Club",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/orinda-country-club-orinda",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "orinda-country-club-contra-costa"
+      ]
     },
     {
       "candidate_id": "directory-lead-390203fe202369",
@@ -539,8 +564,10 @@
       "candidate_id": "directory-lead-ca1c97a83947f4",
       "name": "Round Hill Country Club",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/round-hill-country-club-alamo",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "round-hill-country-club-alamo-contra-costa"
+      ]
     },
     {
       "candidate_id": "directory-lead-52c232845add21",
@@ -636,8 +663,10 @@
       "candidate_id": "directory-lead-c09eac1ac00a27",
       "name": "The Club at Castlewood",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/the-club-at-castlewood-pleasanton",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "the-club-at-castlewood-pleasanton-alameda"
+      ]
     },
     {
       "candidate_id": "directory-lead-9c20e23d983b8b",
@@ -679,8 +708,10 @@
       "candidate_id": "directory-lead-28118c89cdf022",
       "name": "The GlassHouse San Jose",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/the-glasshouse-san-jose-san-jose",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "the-glasshouse-san-jose-santa-clara"
+      ]
     },
     {
       "candidate_id": "directory-lead-1247f5ac291ea5",
@@ -704,8 +735,10 @@
       "candidate_id": "directory-lead-73c4d81c574255",
       "name": "The Ruth Bancroft Garden",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/the-ruth-bancroft-garden-walnut-creek",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "ruth-bancroft-garden-walnut-creek-contra-costa"
+      ]
     },
     {
       "candidate_id": "directory-lead-bea71360633072",
@@ -767,21 +800,25 @@
       "candidate_id": "directory-lead-25045125c870d0",
       "name": "Fort Mason Center For Arts Culture",
       "url": "https://www.wedding-spot.com/venue/148/fort-mason-center-for-arts-culture/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "fort-mason-center-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-666afb0abe8a5f",
       "name": "Mohi Ranch",
       "url": "https://www.wedding-spot.com/venue/18275/mohi-ranch/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "mohi-ranch-sycamore-creek-morgan-hill-santa-clara"
+      ]
     },
     {
       "candidate_id": "directory-lead-a23d88b69066db",
       "name": "Willow Heights Mansion",
       "url": "https://www.wedding-spot.com/venue/2191/willow-heights-mansion/",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "willow-heights-mansion-santa-clara"
       ]
@@ -800,14 +837,16 @@
       "candidate_id": "directory-lead-83cb4e34296ffe",
       "name": "Immanuel Lutheran Church",
       "url": "https://www.wedding-spot.com/venue/110/immanuel-lutheran-church/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "immanuel-lutheran-church-los-altos-santa-clara"
+      ]
     },
     {
       "candidate_id": "directory-lead-592c6d0c39d8a6",
       "name": "Kohl Mansion",
       "url": "https://www.wedding-spot.com/venue/3/kohl-mansion/",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "kohl-mansion-san-mateo"
       ]
@@ -816,95 +855,117 @@
       "candidate_id": "directory-lead-c898bda3301145",
       "name": "Create Mix Mingle",
       "url": "https://www.wedding-spot.com/venue/12783/create-mix-mingle/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "create-mix-mingle-legacy-norfolk-san-mateo"
+      ]
     },
     {
       "candidate_id": "directory-lead-4b33552a714012",
       "name": "Villa Montalvo At Montalvo Arts Center",
       "url": "https://www.wedding-spot.com/venue/11700/villa-montalvo-at-montalvo-arts-center/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "montalvo-arts-center-santa-clara"
+      ]
     },
     {
       "candidate_id": "directory-lead-6524e79d33b793",
       "name": "Le Bateau Ivre",
       "url": "https://www.wedding-spot.com/venue/483/le-bateau-ivre/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "le-bateau-ivre-berkeley-alameda"
+      ]
     },
     {
       "candidate_id": "directory-lead-3470f9c13e05ee",
       "name": "Pavilion Redwood Estates",
       "url": "https://www.wedding-spot.com/venue/1104/pavilion-redwood-estates/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "redwood-estates-pavilion-los-gatos-santa-clara"
+      ]
     },
     {
       "candidate_id": "directory-lead-01f5df05142e7c",
       "name": "Old Saint Hilarys",
       "url": "https://www.wedding-spot.com/venue/8939/old-saint-hilarys/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "old-saint-hilarys-tiburon-marin"
+      ]
     },
     {
       "candidate_id": "directory-lead-7c12f4f925464b",
       "name": "Presidio Chapel San Francisco",
       "url": "https://www.wedding-spot.com/venue/327/presidio-chapel-san-francisco/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "presidio-presidio-chapel-presidio-chapel-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-4cb9cbdd5e339c",
       "name": "Hacienda De Las Flores",
       "url": "https://www.wedding-spot.com/venue/15944/hacienda-de-las-flores/",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
-        "hacienda-de-las-flores-casita-town-managed-small-event-room-contra-costa",
         "hacienda-de-las-flores-pavilion-garden-non-tent-configuration-contra-costa",
-        "hacienda-de-las-flores-pavilion-garden-seasonal-tent-configuration-contra-costa"
+        "hacienda-de-las-flores-pavilion-garden-seasonal-tent-configuration-contra-costa",
+        "hacienda-de-las-flores-casita-town-managed-small-event-room-contra-costa"
       ]
     },
     {
       "candidate_id": "directory-lead-4712f6b7f8aadf",
       "name": "Trou Normand",
       "url": "https://www.wedding-spot.com/venue/11080/trou-normand/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "bar-shoji-former-trou-normand-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-991675b9cd5287",
       "name": "Chapel Of Our Lady At The Presidio",
       "url": "https://www.wedding-spot.com/venue/326/chapel-of-our-lady-at-the-presidio/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "presidio-chapel-of-our-lady-chapel-of-our-lady-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-034a212090b95a",
       "name": "The Landmarks Art Garden Center",
       "url": "https://www.wedding-spot.com/venue/7149/the-landmarks-art-garden-center/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "landmarks-art-and-garden-center-marin"
+      ]
     },
     {
       "candidate_id": "directory-lead-406be31b1fd066",
       "name": "The Terrace At Willow Glen",
       "url": "https://www.wedding-spot.com/venue/9822/the-terrace-at-willow-glen/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "terrace-at-willow-glen-canoas-san-jose-santa-clara"
+      ]
     },
     {
       "candidate_id": "directory-lead-2af03ca8e2eebf",
       "name": "The Ranch At Little Hills",
       "url": "https://www.wedding-spot.com/venue/2164/the-ranch-at-little-hills/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "las-trampas-regional-wilderness-little-hills-events-contra-costa"
+      ]
     },
     {
       "candidate_id": "directory-lead-1c760f8e69a913",
       "name": "China Cabin",
       "url": "https://www.wedding-spot.com/venue/6803/china-cabin/",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "china-cabin-marin"
       ]
@@ -913,7 +974,7 @@
       "candidate_id": "directory-lead-b435619cc3afba",
       "name": "Lodge At Marconi",
       "url": "https://www.wedding-spot.com/venue/12603/lodge-at-marconi/",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "lodge-at-marconi-marin"
       ]
@@ -922,14 +983,16 @@
       "candidate_id": "directory-lead-c87bb6d4cb3ba9",
       "name": "San Ramon Waters By Wedgewood Weddings",
       "url": "https://www.wedding-spot.com/venue/1071/san-ramon-waters-by-wedgewood-weddings/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "san-ramon-waters-fircrest-contra-costa"
+      ]
     },
     {
       "candidate_id": "directory-lead-cd9969e51f7b58",
       "name": "Sausalito Womans Club",
       "url": "https://www.wedding-spot.com/venue/105/sausalito-womans-club/",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "sausalito-woman-s-club-clubhouse-and-garden-wedding-rental-marin"
       ]
@@ -938,21 +1001,25 @@
       "candidate_id": "directory-lead-301de24d504bf5",
       "name": "Joseph Grant Park",
       "url": "https://www.wedding-spot.com/venue/11224/joseph-grant-park/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "joseph-d-grant-county-park-rose-garden-cookhouse-santa-clara"
+      ]
     },
     {
       "candidate_id": "directory-lead-0e7dc087d528df",
       "name": "Community Congregational Church Of Tiburon",
       "url": "https://www.wedding-spot.com/venue/1052/community-congregational-church-of-tiburon/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "community-congregational-church-tiburon-marin"
+      ]
     },
     {
       "candidate_id": "directory-lead-0bb0a8d6870dc4",
       "name": "Stonetree Estate By Wedgewood Weddings",
       "url": "https://www.wedding-spot.com/venue/28/stonetree-estate-by-wedgewood-weddings/",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "stonetree-estate-by-wedgewood-weddings-marin"
       ]
@@ -961,7 +1028,7 @@
       "candidate_id": "directory-lead-57390e8c06a0a3",
       "name": "Stemple Creek Ranch",
       "url": "https://www.wedding-spot.com/venue/15980/stemple-creek-ranch/",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "stemple-creek-ranch-marin"
       ]
@@ -970,14 +1037,16 @@
       "candidate_id": "directory-lead-83654d90a33b91",
       "name": "The View Lounge",
       "url": "https://www.wedding-spot.com/venue/10151/the-view-lounge/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "san-francisco-marriott-marquis-view-lounge-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-07c3388aefe5cf",
       "name": "Historic Adobe Building",
       "url": "https://www.wedding-spot.com/venue/11873/historic-adobe-building/",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "historic-adobe-building-historic-adobe-building-santa-clara"
       ]
@@ -986,35 +1055,43 @@
       "candidate_id": "directory-lead-8618d83a5ca731",
       "name": "Great American Music Hall",
       "url": "https://www.wedding-spot.com/venue/3814/great-american-music-hall/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "great-american-music-hall-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-2faca86208efe8",
       "name": "Whitechapel Sf",
       "url": "https://www.wedding-spot.com/venue/9896/whitechapel-sf/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "whitechapel-polk-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-81ba897e2dd74b",
       "name": "Chase Suite Hotel Newark",
       "url": "https://www.wedding-spot.com/venue/11800/chase-suite-hotel-newark/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "chase-suite-hotel-newark-alameda"
+      ]
     },
     {
       "candidate_id": "directory-lead-bae41a84deb12b",
       "name": "San Jose Clubhouse",
       "url": "https://www.wedding-spot.com/venue/11162/san-jose-clubhouse/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "san-jose-clubhouse-union-santa-clara"
+      ]
     },
     {
       "candidate_id": "directory-lead-7498bf23946a14",
       "name": "Fern Cottage",
       "url": "https://www.wedding-spot.com/venue/620/fern-cottage/",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "kennedy-grove-regional-recreation-area-fern-cottage-contra-costa"
       ]
@@ -1023,22 +1100,28 @@
       "candidate_id": "directory-lead-8adc88cb549a9d",
       "name": "Courtyard By Marriott San Jose North Silicon Valley",
       "url": "https://www.wedding-spot.com/venue/11535/courtyard-by-marriott-san-jose-north-silicon-valley/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "courtyard-san-jose-north-holger-santa-clara"
+      ]
     },
     {
       "candidate_id": "directory-lead-fa4d82876a34fc",
       "name": "Red Poppy Art House",
       "url": "https://www.wedding-spot.com/venue/11403/red-poppy-art-house/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "red-poppy-art-house-folsom-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-14e31e5b9fffbf",
       "name": "Saratoga Country Club",
       "url": "https://www.wedding-spot.com/venue/553/saratoga-country-club/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "saratoga-country-club-prospect-santa-clara"
+      ]
     },
     {
       "candidate_id": "directory-lead-d76ec169fb9d01",
@@ -1085,8 +1168,10 @@
       "candidate_id": "directory-lead-2ac04f6bd5c366",
       "name": "Lovely Outdoor Veranda in East Cut",
       "url": "https://giggster.com/listing/outdoor-kitchen-with-views-of-downtown-sf",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "399-fremont-community-event-spaces-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-0fb95117db464b",
@@ -1106,14 +1191,16 @@
       "candidate_id": "directory-lead-e398dbb0f609e3",
       "name": "Sophisticated Lounge in Fillmore District",
       "url": "https://giggster.com/listing/fillmore-district-funky-lounge",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "2000-post-resident-lounge-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-d3d27d99ec41be",
       "name": "Outdoor Terrace with SF Skyline View",
       "url": "https://giggster.com/listing/outdoor-terrace-with-sf-skyline-view",
-      "state": "pending",
+      "state": "blocked",
       "record_ids": []
     },
     {
@@ -1127,15 +1214,19 @@
       "candidate_id": "directory-lead-d4db9ce9f6f266",
       "name": "42nd Floor Sky Lounge & Deck in East Cut",
       "url": "https://giggster.com/listing/42nd-floor-sky-view-lounge",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "399-fremont-community-event-spaces-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-56b0e0816e5b27",
       "name": "Clarion Performing Arts Center",
       "url": "https://giggster.com/listing/sf-chinatown-multiuse-venue",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "clarion-performing-arts-center-waverly-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-21f2de9055e8b4",
@@ -1150,15 +1241,17 @@
       "candidate_id": "directory-lead-e8dff01fb7ca19",
       "name": "Rustic San Francisco historical gem",
       "url": "https://giggster.com/listing/event-space-in-a-san-francisco-historical-gem",
-      "state": "pending",
+      "state": "blocked",
       "record_ids": []
     },
     {
       "candidate_id": "directory-lead-d6710bd718b22e",
       "name": "The Nest",
       "url": "https://giggster.com/listing/whimsical-cozy-art-studio-with-natural-lighting",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "the-nest-california-street-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-5142ee1ee4533b",
@@ -1178,7 +1271,7 @@
       "candidate_id": "directory-lead-96540258db2d92",
       "name": "Large Stylized Warehouse Space & Soundproofed Room",
       "url": "https://giggster.com/listing/large-stylized-warehouse-space-soundproofed-room",
-      "state": "pending",
+      "state": "blocked",
       "record_ids": []
     },
     {
@@ -1194,28 +1287,34 @@
       "candidate_id": "directory-lead-e64f227bb87882",
       "name": "Log Cabin at the Presidio by Wedgewood Weddings",
       "url": "https://www.partyslate.com/venues/log-cabin-at-the-presidio-by-wedgewood-weddings",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "presidio-log-cabin-log-cabin-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-bb110fb9ffb36a",
       "name": "Chapel of Our Lady by Wedgewood Weddings",
       "url": "https://www.partyslate.com/venues/chapel-of-our-lady-by-wedgewood-weddings",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "presidio-chapel-of-our-lady-chapel-of-our-lady-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-cdd0661e69f899",
       "name": "Officers' Club at the Presidio by Wedgewood Weddings",
       "url": "https://www.partyslate.com/venues/officers-club-at-the-presidio-by-wedgewood-weddings",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "presidio-officers-club-moraga-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-b8765f723742a3",
       "name": "Exploratorium",
       "url": "https://www.partyslate.com/venues/exploratorium",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "exploratorium-san-francisco"
       ]
@@ -1234,7 +1333,7 @@
       "candidate_id": "directory-lead-bbd0cacedc6d0c",
       "name": "California Academy of Sciences",
       "url": "https://www.partyslate.com/venues/california-academy-of-sciences",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "california-academy-of-sciences-san-francisco"
       ]
@@ -1243,85 +1342,99 @@
       "candidate_id": "directory-lead-97c13138eddb44",
       "name": "Golden Gate Club at the Presidio",
       "url": "https://www.partyslate.com/venues/golden-gate-club-at-the-presidio",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "presidio-golden-gate-club-golden-gate-club-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-e3dd3ab9341b34",
       "name": "The Westin St. Francis",
       "url": "https://www.partyslate.com/venues/the-westin-st-francis",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "the-westin-st-francis-san-francisco-on-union-square-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-3a997bc9ae8417",
       "name": "Presidio Chapel at the Presidio by Wedgewood Weddings",
       "url": "https://www.partyslate.com/venues/presidio-chapel-at-the-presidio-by-wedgewood-weddings",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "presidio-presidio-chapel-presidio-chapel-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-896845f0e55351",
       "name": "25 Lusk",
       "url": "https://www.partyslate.com/venues/25-lusk",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
-        "25-lusk-clarke-san-francisco",
-        "25-lusk-cleveland-san-francisco",
-        "25-lusk-lower-lounge-san-francisco",
-        "25-lusk-main-dining-san-francisco",
-        "25-lusk-main-plus-lounge-san-francisco",
-        "25-lusk-ogden-san-francisco",
+        "25-lusk-whole-san-francisco",
         "25-lusk-rooftop-san-francisco",
+        "25-lusk-main-dining-san-francisco",
+        "25-lusk-lower-lounge-san-francisco",
+        "25-lusk-cleveland-san-francisco",
         "25-lusk-semi-private-lounge-san-francisco",
-        "25-lusk-whole-san-francisco"
+        "25-lusk-ogden-san-francisco",
+        "25-lusk-clarke-san-francisco",
+        "25-lusk-main-plus-lounge-san-francisco"
       ]
     },
     {
       "candidate_id": "directory-lead-a45ecbc35f5dbe",
       "name": "San Francisco Design Center Galleria",
       "url": "https://www.partyslate.com/venues/san-francisco-design-center-galleria",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "san-francisco-design-center-galleria-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-06a88dc9d80cac",
       "name": "Pier 27",
       "url": "https://www.partyslate.com/venues/pier-27",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "pier-27-event-venue-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-2446c8537fd7cf",
       "name": "Convene 100 Stockton",
       "url": "https://www.partyslate.com/venues/convene-100-stockton",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "convene-100-stockton-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-55629b4f169bf2",
       "name": "BStar Bar",
       "url": "https://www.partyslate.com/venues/bstar-bar",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "b-star-bar-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-1e1deb4f01393c",
       "name": "Conservatory of Flowers",
       "url": "https://www.partyslate.com/venues/conservatory-of-flowers",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "conservatory-of-flowers-conservatory-galleries-san-francisco",
-        "conservatory-of-flowers-orchid-pavilion-san-francisco",
+        "conservatory-of-flowers-west-gallery-micro-ceremony-san-francisco",
         "conservatory-of-flowers-palm-terrace-san-francisco",
-        "conservatory-of-flowers-west-gallery-micro-ceremony-san-francisco"
+        "conservatory-of-flowers-orchid-pavilion-san-francisco"
       ]
     },
     {
       "candidate_id": "directory-lead-3da980ebaa6a88",
       "name": "The Newhall Nest",
       "url": "https://www.partyslate.com/venues/the-newhall-nest",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "the-newhall-nest-san-francisco"
       ]
@@ -1330,7 +1443,7 @@
       "candidate_id": "directory-lead-745b126d53d06d",
       "name": "The Pearl",
       "url": "https://www.partyslate.com/venues/the-pearl",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "the-pearl-san-francisco"
       ]
@@ -1348,14 +1461,16 @@
       "candidate_id": "directory-lead-1de3d6b94656bf",
       "name": "School Night",
       "url": "https://www.partyslate.com/venues/school-night",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "the-pearl-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-d3f121584c424e",
       "name": "W San Francisco",
       "url": "https://www.partyslate.com/venues/w-san-francisco",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "w-san-francisco-san-francisco"
       ]
@@ -1364,7 +1479,7 @@
       "candidate_id": "directory-lead-9211f631499ede",
       "name": "Nella Terra Cellars",
       "url": "https://www.herecomestheguide.com/wedding-venues/northern-california/vineyards-at-nella-terra-cellars",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "nella-terra-cellars-alameda"
       ]
@@ -1373,7 +1488,7 @@
       "candidate_id": "directory-lead-aee83393f44ec5",
       "name": "Shadelands Ranch Museum",
       "url": "https://www.herecomestheguide.com/wedding-venues/northern-california/shadelands-ranch-museum",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "shadelands-ranch-museum-contra-costa"
       ]
@@ -1382,15 +1497,19 @@
       "candidate_id": "directory-lead-8d4c01cfb2e153",
       "name": "Monroe",
       "url": "https://www.herecomestheguide.com/wedding-venues/northern-california/monroe",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "monroe-private-events-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-d24f60936f1f73",
       "name": "Log Cabin at the Presidio by Wedgewood Weddings",
       "url": "https://www.herecomestheguide.com/wedding-venues/northern-california/log-cabin-at-the-presidio-by-wedgewood-weddings",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "presidio-log-cabin-log-cabin-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-28c19d074bf146",
@@ -1424,15 +1543,19 @@
       "candidate_id": "directory-lead-840ca5847c5193",
       "name": "Aquatic Park Bathhouse",
       "url": "https://www.sfuva.com/aquatic-park-bathhouse",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "aquatic-park-bathhouse-maritime-museum-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-21915a7a878317",
       "name": "The Asian Art Museum",
       "url": "https://www.sfuva.com/the-asian-art-museum",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "asian-art-museum-samsung-hall-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-6e13e491328181",
@@ -1447,8 +1570,10 @@
       "candidate_id": "directory-lead-44ed8ec11d5bc9",
       "name": "August Hall",
       "url": "https://www.sfuva.com/august-hall",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "august-hall-fifth-arrow-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-8f808b19346893",
@@ -1472,21 +1597,25 @@
       "candidate_id": "directory-lead-b85e54e5eda934",
       "name": "The Battery",
       "url": "https://www.sfuva.com/the-battery",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "the-battery-musto-building-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-cd1e9e90c6918f",
       "name": "The Box SF",
       "url": "https://www.sfuva.com/the-box-sf",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "the-box-sf-howard-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-a4878a59807795",
       "name": "California Academy of Sciences",
       "url": "https://www.sfuva.com/california-academy-of-sciences",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "california-academy-of-sciences-san-francisco"
       ]
@@ -1495,43 +1624,60 @@
       "candidate_id": "directory-lead-9ded41ae56d35b",
       "name": "The Chapel",
       "url": "https://www.sfuva.com/the-chapel",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "the-chapel-curio-valencia-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-08e888bbeba576",
       "name": "Chase Center",
       "url": "https://www.sfuva.com/chase-center",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "above-the-rim-at-chase-center-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-b07fbbe2e7a2fa",
       "name": "Chotto Matte",
       "url": "https://www.sfuva.com/chotto-matte",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "chotto-matte-ofarrell-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-f5ce02d1cd7e49",
       "name": "City Cruises - San Francisco",
       "url": "https://www.sfuva.com/city-cruises-san-francisco",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "city-cruises-california-hornblower-bay-area",
+        "city-cruises-san-francisco-belle-bay-area",
+        "city-cruises-san-francisco-spirit-bay-area",
+        "city-cruises-empress-hornblower-bay-area",
+        "city-cruises-sunset-hornblower-bay-area",
+        "city-cruises-pier-3-hornblower-landing-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-da6dc5d1dbcacf",
       "name": "Cobb's Comedy Club",
       "url": "https://www.sfuva.com/cobbs-comedy-club",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "cobbs-comedy-club-columbus-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-e99fe677232479",
       "name": "The Commonwealth Club of CA",
       "url": "https://www.sfuva.com/the-commonwealth-club-of-ca",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "commonwealth-club-110-embarcadero-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-5a2dae77170f46",
@@ -1547,7 +1693,7 @@
       "candidate_id": "directory-lead-51bd05e614fb05",
       "name": "Conservatory of Flowers",
       "url": "https://www.sfuva.com/conservatory-of-flowers",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "conservatory-of-flowers-conservatory-galleries-san-francisco",
         "conservatory-of-flowers-orchid-pavilion-san-francisco",
@@ -1568,14 +1714,16 @@
       "candidate_id": "directory-lead-1a6f7b5b4aba0f",
       "name": "Convene",
       "url": "https://www.sfuva.com/convene",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "convene-100-stockton-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-871dc41a1349dd",
       "name": "Exploratorium",
       "url": "https://www.sfuva.com/exploratorium",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "exploratorium-san-francisco"
       ]
@@ -1584,42 +1732,58 @@
       "candidate_id": "directory-lead-55023a2c624fee",
       "name": "Ferry Building",
       "url": "https://www.sfuva.com/ferry-building",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "ferry-building-grand-hall-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-eadbb3c4cff924",
       "name": "The Fillmore",
       "url": "https://www.sfuva.com/the-fillmore",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "the-fillmore-main-ballroom-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-846f267b729bfa",
       "name": "Fort Mason Center for Arts & Culture",
       "url": "https://www.sfuva.com/fort-mason-center-for-arts-and-culture",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "fort-mason-center-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-2b874e07b9f0bb",
       "name": "Freemasons Hall",
       "url": "https://www.sfuva.com/freemasons-hall",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "the-masonic-live-nation-grand-lobby-san-francisco",
+        "the-masonic-live-nation-california-room-san-francisco",
+        "the-masonic-live-nation-exhibition-hall-san-francisco",
+        "the-masonic-live-nation-auditorium-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-896023e48f48dc",
       "name": "Giants Enterprises",
       "url": "https://www.sfuva.com/giants-enterprises",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "oracle-park-private-events-san-francisco",
+        "cooperstown-sf-giants-enterprises-san-francisco",
+        "mission-rock-china-basin-park-giants-san-francisco",
+        "lot-a-giants-enterprises-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-090bd9993672ac",
       "name": "Gold Bar Distillery Treasure Island",
       "url": "https://www.sfuva.com/gold-bar-distillery-treasure-island",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "gold-bar-distillery-treasure-island-interior-configuration-san-francisco",
         "gold-bar-distillery-treasure-island-interior-plus-outdoor-configuration-san-francisco"
@@ -1629,33 +1793,28 @@
       "candidate_id": "directory-lead-a22d845dac5acf",
       "name": "Grace Cathedral",
       "url": "https://www.sfuva.com/grace-cathedral",
-      "state": "pending",
+      "state": "reviewed_added",
       "record_ids": [
-        "grace-cathedral-cathedral-nave-san-francisco",
-        "grace-cathedral-chapel-of-grace-san-francisco",
-        "grace-cathedral-chapter-room-san-francisco",
-        "grace-cathedral-dining-room-san-francisco",
-        "grace-cathedral-great-quire-san-francisco",
-        "grace-cathedral-gresham-hall-san-francisco",
-        "grace-cathedral-indoor-labyrinth-san-francisco",
-        "grace-cathedral-outdoor-labyrinth-san-francisco",
-        "grace-cathedral-plaza-san-francisco",
-        "grace-cathedral-wilsey-a-b-c-configuration-san-francisco"
+        "grace-cathedral-san-francisco"
       ]
     },
     {
       "candidate_id": "directory-lead-26be7a830249c6",
       "name": "The Grand Theater",
       "url": "https://www.sfuva.com/the-grand-theater",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "gray-area-grand-theater-mission-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-0b33d91418fdfc",
       "name": "Great American Music Hall",
       "url": "https://www.sfuva.com/great-american-music-hall",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "great-american-music-hall-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-0f107503f8f7c0",
@@ -1670,43 +1829,58 @@
       "candidate_id": "directory-lead-99614f635f57a6",
       "name": "The Historic Klamath",
       "url": "https://www.sfuva.com/the-historic-klamath",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "historic-klamath-pier9-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-581cc0daee0173",
       "name": "Hungry Tables",
       "url": "https://www.sfuva.com/hungry-tables",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "hungry-tables-257-third-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-d4f36f202a79aa",
       "name": "Joey The Cats Mission Arcade",
       "url": "https://www.sfuva.com/joey-the-cats-mission-arcade",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "joey-the-cat-mission-arcade-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-2b1f304b253f42",
       "name": "Julia Morgan Ballroom",
       "url": "https://www.sfuva.com/julia-morgan-ballroom",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "merchants-exchange-julia-morgan-ballroom-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-3d4daa594dd43c",
       "name": "L4 at 945 Market",
       "url": "https://www.sfuva.com/l4-at-945-market",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "l4-945-market-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-34465286e77f09",
       "name": "The Masonic",
       "url": "https://www.sfuva.com/the-masonic",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "the-masonic-live-nation-grand-lobby-san-francisco",
+        "the-masonic-live-nation-california-room-san-francisco",
+        "the-masonic-live-nation-exhibition-hall-san-francisco",
+        "the-masonic-live-nation-auditorium-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-fa718462d2c1ee",
@@ -1721,42 +1895,52 @@
       "candidate_id": "directory-lead-19776c9dc35a27",
       "name": "The Merchants Exchange Club",
       "url": "https://www.sfuva.com/the-merchants-exchange-club",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "merchants-exchange-club-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-cd5ff857b01dd3",
       "name": "The Midway",
       "url": "https://www.sfuva.com/the-midway",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "the-midway-event-venue-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-183d6a3cb144ad",
       "name": "The Mint",
       "url": "https://www.sfuva.com/the-mint",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "the-san-francisco-mint-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-2d133e9a0cd8f7",
       "name": "Mosaic",
       "url": "https://www.sfuva.com/mosaic",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "mosaic-three-embarcadero-center-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-260a4a67dc63ab",
       "name": "Museum of San Francisco",
       "url": "https://www.sfuva.com/museum-of-san-francisco",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "museum-of-san-francisco-608-commercial-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-02fc8e3bf89608",
       "name": "The Newhall Nest",
       "url": "https://www.sfuva.com/the-newhall-nest",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "the-newhall-nest-san-francisco"
       ]
@@ -1765,16 +1949,16 @@
       "candidate_id": "directory-lead-def3c37f9d4059",
       "name": "Palace of Fine Arts",
       "url": "https://www.sfuva.com/palace-of-fine-arts",
-      "state": "pending",
+      "state": "reviewed_added",
       "record_ids": [
-        "palace-of-fine-arts-san-francisco"
+        "palace-of-fine-arts-indoor-exhibition-center-san-francisco"
       ]
     },
     {
       "candidate_id": "directory-lead-88515e52d624b9",
       "name": "The Pearl",
       "url": "https://www.sfuva.com/the-pearl",
-      "state": "pending",
+      "state": "reviewed_existing",
       "record_ids": [
         "the-pearl-san-francisco"
       ]
@@ -1783,85 +1967,109 @@
       "candidate_id": "directory-lead-14f286c7524149",
       "name": "Pier 27",
       "url": "https://www.sfuva.com/pier-27",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "pier-27-event-venue-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-94b0fb845ef30b",
       "name": "Press Club",
       "url": "https://www.sfuva.com/press-club",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "press-club-20-yerba-buena-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-bbb29b4415108f",
       "name": "Saluhall",
       "url": "https://www.sfuva.com/saluhall",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "saluhall-food-hall-945-market-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-1271952dff7f83",
       "name": "Punch Line San Francisco",
       "url": "https://www.sfuva.com/punch-line-san-francisco",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "punch-line-comedy-club-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-a62bb6667c86d2",
       "name": "SF Botanical Garden",
       "url": "https://www.sfuva.com/sf-botanical-garden",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "san-francisco-botanical-garden-golden-gate-park"
+      ]
     },
     {
       "candidate_id": "directory-lead-38a55f99548479",
       "name": "SF Design Center Galleria",
       "url": "https://www.sfuva.com/sf-design-center-galleria",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "san-francisco-design-center-galleria-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-90d3d5fd75f3fc",
       "name": "SF JAZZ",
       "url": "https://www.sfuva.com/sf-jazz",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "sfjazz-second-floor-lobby-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-ff20075d6b7fb6",
       "name": "SF MOMA",
       "url": "https://www.sfuva.com/sf-moma",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "sfmoma-wedding-rental-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-23f5f6eba25d2f",
       "name": "SHACK15",
       "url": "https://www.sfuva.com/shack15",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "shack15-ferry-building-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-c81cea50c5040c",
       "name": "Splash at Thrive City",
       "url": "https://www.sfuva.com/splash-at-thrive-city",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "splash-thrive-city-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-5b1559b095c439",
       "name": "SPUR Urban Center",
       "url": "https://www.sfuva.com/spur-urban-center",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "spur-urban-center-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-c40566df790817",
       "name": "Swedish American Hall & Cafe du Nord",
       "url": "https://www.sfuva.com/swedish-american-hall-cafe-du-nord",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "swedish-american-hall-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-262d015c7d7906",
@@ -1876,43 +2084,57 @@
       "candidate_id": "directory-lead-5b2e5ff06b510d",
       "name": "UCSF Mission Bay Conference Center",
       "url": "https://www.sfuva.com/ucsf-mission-bay-conference-center",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "ucsf-mission-bay-conference-center-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-abf9e3683801b4",
       "name": "Underdogs Cantina",
       "url": "https://www.sfuva.com/underdogs-cantina",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "underdogs-cantina-king-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-d4a9be5315567b",
       "name": "The Walt Disney Family Museum",
       "url": "https://www.sfuva.com/the-walt-disney-family-museum",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "walt-disney-family-museum-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-ce669e7e622071",
       "name": "War Memorial & Performing Arts Center",
       "url": "https://www.sfuva.com/war-memorial-performing-arts-center",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "sf-war-memorial-performing-arts-center-campus-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-258d66456c6de8",
       "name": "Wedgewood at the Presidio",
       "url": "https://www.sfuva.com/wedgewood-at-the-presidio",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "presidio-golden-gate-club-golden-gate-club-san-francisco",
+        "presidio-officers-club-moraga-san-francisco",
+        "presidio-log-cabin-log-cabin-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-4ae025a80480b7",
       "name": "Yerba Buena Center for the Arts",
       "url": "https://www.sfuva.com/yerba-buena-center-for-the-arts",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "ybca-forum-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-60dc1cc1d5c2f9",
@@ -2154,21 +2376,25 @@
       "candidate_id": "directory-lead-0214cd91bfa7e3",
       "name": "Diavola Pizzeria & Salumeria",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/diavola-pizzeria-salumeria/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "diavola-pizzeria-geyserville-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-cc7de48a91f6b9",
       "name": "DoubleTree by Hilton Hotel Sonoma Wine Country",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/doubletree-by-hilton-hotel-sonoma-wine-country/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "doubletree-sonoma-wine-country-rohnert-park-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-fb3762c88ccfe5",
       "name": "Dragonfly Floral",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/dragonfly-floral/",
-      "state": "pending",
+      "state": "reviewed_supplier_not_venue_offer",
       "record_ids": []
     },
     {
@@ -2400,8 +2626,10 @@
       "candidate_id": "directory-lead-27b0cff9b2f2d3",
       "name": "Wildwood Conservation Foundation & Retreat Center",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/wildwood-conservation-foundation-retreat-center/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "wildwood-conservation-retreat-guerneville-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-99403102d50a72",
@@ -2479,7 +2707,7 @@
       "candidate_id": "directory-lead-eb61d52b29b2ce",
       "name": "Gualala Arts Center",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/gualala-arts-center/",
-      "state": "pending",
+      "state": "reviewed_outside_scope",
       "record_ids": []
     },
     {
@@ -2523,8 +2751,10 @@
       "candidate_id": "directory-lead-6a9d9a54259109",
       "name": "Hawkwood Hill",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/hawkwood-hill/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "hawkwood-hill-farm-petaluma-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-e7e7bffc8b4792",
@@ -2593,8 +2823,10 @@
       "candidate_id": "directory-lead-1f42c97fbd47d3",
       "name": "Iron & Vine Restaurant",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/iron-vine-restaurant/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "iron-vine-bennett-valley-santa-rosa-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-edf8db58cbb07f",
@@ -2709,8 +2941,10 @@
       "candidate_id": "directory-lead-d24d5517b402ff",
       "name": "Medlock Ames Winery at Bell Mountain Ranch",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/medlock-ames-winery-at-bell-mountain-ranch/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "medlock-ames-bell-mountain-ranch-healdsburg-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-2515fbbc05bd6c",
