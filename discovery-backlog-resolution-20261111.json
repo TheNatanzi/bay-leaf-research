@@ -1,6 +1,6 @@
 {
   "audit_id": "discovery-backlog-20261111",
-  "updated_utc": "2026-11-12T12:31:15.688457+00:00",
+  "updated_utc": "2026-11-12T12:35:46.621990+00:00",
   "original_pending_candidates": 500,
   "reviewed_dispositions_applied": [
     {
@@ -6302,9 +6302,124 @@
       "reason": "EntireSFUVA/actualpublishedprimaryOraclePierMissionRockCooperstownLotAbodiesandall10Oracle-roompagebodiesread. ThreeoriginalPDFs21pbrochure1prate21pcateringALLtextreviewed plusrate/conditionchartsvisuallyread andprivateDriveSHAverified. FOURnewphysicalsitesOraclePark/CooperstownSF/ChinaBasinParkMissionRock/LotA,sharedGiantsoperatornotroomsasproperties. ExistingPier48updatedseparately. LegacyCaliforniaSpirit/DiamondSeasin2024ratecardhavecurrentlinkedOnTheWater404; notassertedcurrentbookableor silentlydropped, heldasdatedpropertyleads. NewbrochureKingStreetWarehouseandCurranTheatreidentity/currentprimarypagespending, preservedasfrontierleads. Current250000vs300000whole/Cooper5000vs7500vsquote/Lot10kvs20k/Suite5000vs7500 conflictsretained. GeneralcapacitiesNOTapproveddinnerdance; currentallinunknown. Rawrobotsfailpreserved; actualstandardreaderexportsnotcalledoriginalHTML. Nocontact/formsubmit/commitment.",
       "reader_evidence_sha256": "86b2532511d04341ea496511a8dba2484188adaa651eaf9c8132332546d23f87",
       "evidence_method": "Exact standard-web reader export reviewed; original HTML retrieval state preserved; no raw HTML success claimed"
+    },
+    {
+      "candidate_id": "directory-lead-0b33d91418fdfc",
+      "original_pending_index": 180,
+      "checked_utc": "2026-11-12T12:35:46.621990+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "great-american-music-hall-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.sfuva.com/great-american-music-hall",
+        "https://gamh.com/private-events/"
+      ],
+      "candidate_capture_sha256": "74aa81728ad601aa5155b4ed644fa13ee386dce6fadf1f7dc136649f23519226",
+      "operator_capture_sha256": "a76bf8658716fca89952e9941567105b0af34b586929778e1f10d67e56a1e2b4",
+      "reason": "EntireSFUVAandcurrentprimaryprivateevents/contactbodyread. Exact859OFarrellONEexistingproperty,weddings/vowrenewalsadvertised;650standingdirectorynot650dinner. Sound/danceflooravailable/inhousecateringnotautomaticfreeAV/rent. PublishedPerfectVenueinquirylinkcapturedJSshell,actualfieldsUNREVIEWEDnotfinalaccessblock. No currentprice/mandatorycosts/independentclocks."
+    },
+    {
+      "candidate_id": "directory-lead-99614f635f57a6",
+      "original_pending_index": 181,
+      "checked_utc": "2026-11-12T12:35:46.621990+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "historic-klamath-pier9-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.sfuva.com/the-historic-klamath",
+        "https://www.historicklamath.com"
+      ],
+      "candidate_capture_sha256": "3eddb7d08764ccbb7b7056d1fdcdd37898b05e923db8f68ee0f30baf94efa39f",
+      "operator_capture_sha256": "d623dcda7b2dd40d21d592e1ab54af5bf0b0e5ea6a0259e84b1a5b15fcf37503",
+      "reason": "Entire16196charprimarybodyincludingallroomandwedding/meeting/receptionmodalsread. ONEpermanentlysituatedPier9ferrypropertynotassumedcruise. Conference2400sf110DINING150theater200standingvswedding120prose/directory120/160/250conflict. Roof3000usable100dining275standingvsdirectory8000/140/250. Board400chart500prose32dining25meeting60standing/30vs45theaterconflicts. SunDeck1050sf48dining100standing. ROOFRENTINCLUDESBoardRoom: donotaddagain. ConferenceincludesexistingAV/furniture/mics/screens/tables;meetingpackageinclusionsnotnecessarilyweddingallinclusive.3hour75guestcocktailstarts11500NOTfullweddingquote. Weddingdressingloungesincluded. Public9–5hoursNOTevent/music/barcleanupcutoff. No330approvedlayout, allmandatorycostsunknown."
+    },
+    {
+      "candidate_id": "directory-lead-581cc0daee0173",
+      "original_pending_index": 182,
+      "checked_utc": "2026-11-12T12:35:46.621990+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "hungry-tables-257-third-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.sfuva.com/hungry-tables",
+        "https://hungrytablessf.com/"
+      ],
+      "candidate_capture_sha256": "024fe6adb7f0d0db36d0fccbe398d40186c7c9551c1e4e27734e1959fc3184cf",
+      "operator_capture_sha256": "691f0deb2d58f7cfd4af94d3e76d03a6c417dd9aafed2026d43b8061588b65e8",
+      "reason": "Entireprimaryhomeand7664charforplannersFAQs/formbodyread. ONE257ThirdStreet38seatedcommunal/60–90standing vsdirectory32–40/80, not330. Exclusiveuse/HDMImic/setupbreakdown/floorteamstandard;pricedcustomquoteunknown. InhousefoodbutoutsidecatererpossibleapprovalFEEunknownincldietary/religiousscope. KitchenFINISHINGONLY/norawcookingoropenflame. PublishedType41barbeerwinesakeSOJUcocktailsnotdistilledwhiskyvodka;providerclaimnotindependentlicenseverification. Eventcutoff1:30AMnotseparatemusic/bar/cleanup. SamebuildinggarageNOTfreeparking. InquirypagevisibleNameEmailPhoneasterisk/company/date/type/headcount/message, noentrynosubmission. No inventedcommitment."
+    },
+    {
+      "candidate_id": "directory-lead-d4f36f202a79aa",
+      "original_pending_index": 183,
+      "checked_utc": "2026-11-12T12:35:46.621990+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "joey-the-cat-mission-arcade-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.sfuva.com/joey-the-cats-mission-arcade",
+        "https://www.joeythecat.com/mission-arcade"
+      ],
+      "candidate_capture_sha256": "5e4face19f17cf73f1fbbdb94387c901587f52e6af7fb3ea5ac45aa16ffb4689",
+      "operator_capture_sha256": "ba5e74b0019c5391e23a0aceb5414bf0e7cb686acfb4deeffd747013bbc6169d",
+      "reason": "Entireprimary/FAQbodyread. ONE325219thStreetMissionArcade,nototherJoeygame-rentalwarehouse.95genericdirectorynot95dinner. Privatevenue/staff/gamesstandard;selectedtierfood/drink/gamecardcosts vary. Unlimitedgameplay15perpersonHOUR not15totalorallinclusive;10/20prepaidcardsdifferent. Outsidefoodrequiresapproval/possiblefee;NOoutsidealcohol. ADAproviderclaim/4restroomsnotindependentcertification. EventpricingcalculatorpublishedLovableappcapturedJSshellactualinteractionUNREVIEWED/pending,notfinalblocker. EventdecknewsletterstorageBROKENmessage;noPDFdownloadlinkfound, noemailentered/manufacturedattachment."
+    },
+    {
+      "candidate_id": "directory-lead-2b1f304b253f42",
+      "original_pending_index": 184,
+      "checked_utc": "2026-11-12T12:35:46.621990+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "merchants-exchange-julia-morgan-ballroom-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.sfuva.com/julia-morgan-ballroom",
+        "https://juliamorganballroom.com/our-space/"
+      ],
+      "candidate_capture_sha256": "0fb9c7bbdb94a332502c322a5ea1899240d42647f7d8a1f45951d0d21a9afc77",
+      "operator_capture_sha256": "eea7e66a3a8ebc9dcd3b2eb8e0dcc1bfde707d69cf3b2d38b64ec100198e9944",
+      "reason": "Entireprimaryhome/rooms/weddings/pricinginquiryand6pagewedding+4pageeventsoriginaltextread; capacity/addresspagesvisuallyreviewed. JuliaMorganBallroomNEWROOMrecordwithinEXISTINGMerchantsExchange465Californiaparent(sharedoperatorBankingHall),notnewphysicalproperty. Whole15thfloor15500sf includedbar/lounge/breakouts; ballroom4060chartvs4300prose. Current320banquet750standing500theatervs2021publishedbrochure350seated600standing conflict;not330dinnerdance. Posted8500–15000venuefee/dayseason/dynamicFandBminima, excludescustomcateringandotherproductioncosts. LowerBankingHall250capacitynotoverwrittenbyupstairs320. Bar27vs30ftdescriptionirrelevantunresolved; ZIPcurrent94605vsPDF94104conflictaddressnotguessed. Fivebreakoutsnestednot5newparents;brochureMXClub/Credoidentityleadsheldnotdropped. No unlimitedhoursclaimtransferredfromMXClubtoJulia."
+    },
+    {
+      "candidate_id": "directory-lead-3d4daa594dd43c",
+      "original_pending_index": 185,
+      "checked_utc": "2026-11-12T12:35:46.621990+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "l4-945-market-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.sfuva.com/l4-at-945-market",
+        "https://945market.com/en/l4-event-space"
+      ],
+      "candidate_capture_sha256": "8e73433b555eb41c0f4d6cfc2bc4cfec33ec2b1ef1178f3f2d8a97f704d46eee",
+      "operator_capture_sha256": "baf6adc04c492ad69b2ccd203c94d2e9e5c2c20ebc57f2bd85af3c1fb66260c4",
+      "reason": "Entireprimary/SFUVAand4pageoriginalPDFtextandallpagesvisualread. ONE945MarketbuildingL4fourthfloor3877sf250GENERICnot250seated. Saluhall7restaurants/HejWorkshop/IKEAarenot7additionalL4weddingproperties. OutsidecateringexplicitlyallowedPDF,feeandbartendersunknown; onsiteundergroundparkingnotfreeincludedparking. PrimaryPerfectVenueformlinkcapturedJSshellactualfieldsUNREVIEWEDnotblocker. No rent/currentmandatoryfees/bar/music/cleanupfactsinvented."
+    },
+    {
+      "candidate_id": "directory-lead-34465286e77f09",
+      "original_pending_index": 186,
+      "checked_utc": "2026-11-12T12:35:46.621990+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "the-masonic-live-nation-grand-lobby-san-francisco",
+        "the-masonic-live-nation-california-room-san-francisco",
+        "the-masonic-live-nation-exhibition-hall-san-francisco",
+        "the-masonic-live-nation-auditorium-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.sfuva.com/the-masonic",
+        "https://specialevents.livenation.com/venues/the-masonic"
+      ],
+      "candidate_capture_sha256": "9e6f369dc1c8946e27e077e04039d4627afaede13b67f6caacc0f6c24dd91449",
+      "operator_capture_sha256": "b7ea11f247eda46ece5337f12adcaeeeba386979291069012567087e42d86f57",
+      "reason": "ActualSFUVA/currentprimaryrentalparagraphs/capacitytable/FAQs/contactread; decorativegallerycaptionsnotallreviewed. Actual2pageonesheettext+9IMAGEfloorplanpagesALLreviewed,originalsprivateDriveSHAverified. ONE1111Californiaexisting4roomrecords(sharedphysicalsiteFreemasonsHallnestednotnewparent). CurrentchartLobby400rec250banquet/California250rec150banquet250theater/Expo800rec400banquet400theater/Aud1600rec550banquet2400theater. Auditoriumbody600banquetvschart550vsdirectory500/2750theater;Expo400recbodyvs800chartvs1000directory;Lobby750bodyvs400chart. Allconflictsretainednotmax-picked. PDF11000sfvsweb74023sfpropertyarea conflicting;not11000seats. Services/parking/AVcustomnotfree orallinclusiveunpriced. Promotionalconfetticannonconditionnotpermissiontobringpyrotechnics. No currentpriceorapproved330dinnerlayout."
     }
   ],
-  "unreviewed_original_inputs": 188,
+  "unreviewed_original_inputs": 181,
   "municipal_searches_completed": 0,
   "complete": false,
   "scope": "Queue identity resolution is not full venue facts, exhaustive geographic discovery or permission for any event. Actual access/identity blockers remain separate from unreviewed work."

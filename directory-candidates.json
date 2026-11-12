@@ -2,8 +2,8 @@
   "summary": {
     "checked_utc": "2026-10-26T13:28:51.955107+00:00",
     "candidate_urls": 580,
-    "candidate_urls_with_exact_match": 382,
-    "candidate_urls_without_exact_match": 198,
+    "candidate_urls_with_exact_match": 389,
+    "candidate_urls_without_exact_match": 191,
     "source_counts": {
       "moderndjs": {
         "raw_named_cards": 361,
@@ -53,13 +53,13 @@
     },
     "added_venue_records": 0,
     "note": "Candidate URLs are not a venue count. Old source collection counts retain their original dates; followup state counts are current. Fragment-only links merged; names/URLs are aids, not automatic reviews. Original added_venue_records=0 describes index-only ingestion; primary_followup_records_added is separate.",
-    "primary_followup_records_added": 229,
-    "followup_checked_utc": "2026-11-12T12:31:15.688457+00:00",
+    "primary_followup_records_added": 234,
+    "followup_checked_utc": "2026-11-12T12:35:46.621990+00:00",
     "current_review_counts": {
-      "reviewed_added": 225,
-      "reviewed_existing": 154,
+      "reviewed_added": 230,
+      "reviewed_existing": 156,
       "blocked": 10,
-      "pending": 188,
+      "pending": 181,
       "excluded": 3
     }
   },
@@ -5871,10 +5871,19 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "great-american-music-hall-san-francisco"
+      ],
       "match_method": "Not yet manually reconciled",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T12:35:46.621990+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/great-american-music-hall",
+        "https://gamh.com/private-events/"
+      ],
+      "review_reason": "EntireSFUVAandcurrentprimaryprivateevents/contactbodyread. Exact859OFarrellONEexistingproperty,weddings/vowrenewalsadvertised;650standingdirectorynot650dinner. Sound/danceflooravailable/inhousecateringnotautomaticfreeAV/rent. PublishedPerfectVenueinquirylinkcapturedJSshell,actualfieldsUNREVIEWEDnotfinalaccessblock. No currentprice/mandatorycosts/independentclocks.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-0f107503f8f7c0",
@@ -5920,10 +5929,19 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "historic-klamath-pier9-san-francisco"
+      ],
       "match_method": "Not yet manually reconciled",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T12:35:46.621990+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/the-historic-klamath",
+        "https://www.historicklamath.com"
+      ],
+      "review_reason": "Entire16196charprimarybodyincludingallroomandwedding/meeting/receptionmodalsread. ONEpermanentlysituatedPier9ferrypropertynotassumedcruise. Conference2400sf110DINING150theater200standingvswedding120prose/directory120/160/250conflict. Roof3000usable100dining275standingvsdirectory8000/140/250. Board400chart500prose32dining25meeting60standing/30vs45theaterconflicts. SunDeck1050sf48dining100standing. ROOFRENTINCLUDESBoardRoom: donotaddagain. ConferenceincludesexistingAV/furniture/mics/screens/tables;meetingpackageinclusionsnotnecessarilyweddingallinclusive.3hour75guestcocktailstarts11500NOTfullweddingquote. Weddingdressingloungesincluded. Public9–5hoursNOTevent/music/barcleanupcutoff. No330approvedlayout, allmandatorycostsunknown.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-581cc0daee0173",
@@ -5941,10 +5959,19 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "hungry-tables-257-third-san-francisco"
+      ],
       "match_method": "Not yet manually reconciled",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T12:35:46.621990+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/hungry-tables",
+        "https://hungrytablessf.com/"
+      ],
+      "review_reason": "Entireprimaryhomeand7664charforplannersFAQs/formbodyread. ONE257ThirdStreet38seatedcommunal/60–90standing vsdirectory32–40/80, not330. Exclusiveuse/HDMImic/setupbreakdown/floorteamstandard;pricedcustomquoteunknown. InhousefoodbutoutsidecatererpossibleapprovalFEEunknownincldietary/religiousscope. KitchenFINISHINGONLY/norawcookingoropenflame. PublishedType41barbeerwinesakeSOJUcocktailsnotdistilledwhiskyvodka;providerclaimnotindependentlicenseverification. Eventcutoff1:30AMnotseparatemusic/bar/cleanup. SamebuildinggarageNOTfreeparking. InquirypagevisibleNameEmailPhoneasterisk/company/date/type/headcount/message, noentrynosubmission. No inventedcommitment.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-d4f36f202a79aa",
@@ -5962,10 +5989,19 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "joey-the-cat-mission-arcade-san-francisco"
+      ],
       "match_method": "Not yet manually reconciled",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T12:35:46.621990+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/joey-the-cats-mission-arcade",
+        "https://www.joeythecat.com/mission-arcade"
+      ],
+      "review_reason": "Entireprimary/FAQbodyread. ONE325219thStreetMissionArcade,nototherJoeygame-rentalwarehouse.95genericdirectorynot95dinner. Privatevenue/staff/gamesstandard;selectedtierfood/drink/gamecardcosts vary. Unlimitedgameplay15perpersonHOUR not15totalorallinclusive;10/20prepaidcardsdifferent. Outsidefoodrequiresapproval/possiblefee;NOoutsidealcohol. ADAproviderclaim/4restroomsnotindependentcertification. EventpricingcalculatorpublishedLovableappcapturedJSshellactualinteractionUNREVIEWED/pending,notfinalblocker. EventdecknewsletterstorageBROKENmessage;noPDFdownloadlinkfound, noemailentered/manufacturedattachment.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-2b1f304b253f42",
@@ -5983,10 +6019,19 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "merchants-exchange-julia-morgan-ballroom-san-francisco"
+      ],
       "match_method": "Not yet manually reconciled",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T12:35:46.621990+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/julia-morgan-ballroom",
+        "https://juliamorganballroom.com/our-space/"
+      ],
+      "review_reason": "Entireprimaryhome/rooms/weddings/pricinginquiryand6pagewedding+4pageeventsoriginaltextread; capacity/addresspagesvisuallyreviewed. JuliaMorganBallroomNEWROOMrecordwithinEXISTINGMerchantsExchange465Californiaparent(sharedoperatorBankingHall),notnewphysicalproperty. Whole15thfloor15500sf includedbar/lounge/breakouts; ballroom4060chartvs4300prose. Current320banquet750standing500theatervs2021publishedbrochure350seated600standing conflict;not330dinnerdance. Posted8500–15000venuefee/dayseason/dynamicFandBminima, excludescustomcateringandotherproductioncosts. LowerBankingHall250capacitynotoverwrittenbyupstairs320. Bar27vs30ftdescriptionirrelevantunresolved; ZIPcurrent94605vsPDF94104conflictaddressnotguessed. Fivebreakoutsnestednot5newparents;brochureMXClub/Credoidentityleadsheldnotdropped. No unlimitedhoursclaimtransferredfromMXClubtoJulia.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-3d4daa594dd43c",
@@ -6004,10 +6049,19 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "l4-945-market-san-francisco"
+      ],
       "match_method": "Not yet manually reconciled",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T12:35:46.621990+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/l4-at-945-market",
+        "https://945market.com/en/l4-event-space"
+      ],
+      "review_reason": "Entireprimary/SFUVAand4pageoriginalPDFtextandallpagesvisualread. ONE945MarketbuildingL4fourthfloor3877sf250GENERICnot250seated. Saluhall7restaurants/HejWorkshop/IKEAarenot7additionalL4weddingproperties. OutsidecateringexplicitlyallowedPDF,feeandbartendersunknown; onsiteundergroundparkingnotfreeincludedparking. PrimaryPerfectVenueformlinkcapturedJSshellactualfieldsUNREVIEWEDnotblocker. No rent/currentmandatoryfees/bar/music/cleanupfactsinvented.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-34465286e77f09",
@@ -6025,10 +6079,22 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "the-masonic-live-nation-grand-lobby-san-francisco",
+        "the-masonic-live-nation-california-room-san-francisco",
+        "the-masonic-live-nation-exhibition-hall-san-francisco",
+        "the-masonic-live-nation-auditorium-san-francisco"
+      ],
       "match_method": "Not yet manually reconciled",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T12:35:46.621990+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/the-masonic",
+        "https://specialevents.livenation.com/venues/the-masonic"
+      ],
+      "review_reason": "ActualSFUVA/currentprimaryrentalparagraphs/capacitytable/FAQs/contactread; decorativegallerycaptionsnotallreviewed. Actual2pageonesheettext+9IMAGEfloorplanpagesALLreviewed,originalsprivateDriveSHAverified. ONE1111Californiaexisting4roomrecords(sharedphysicalsiteFreemasonsHallnestednotnewparent). CurrentchartLobby400rec250banquet/California250rec150banquet250theater/Expo800rec400banquet400theater/Aud1600rec550banquet2400theater. Auditoriumbody600banquetvschart550vsdirectory500/2750theater;Expo400recbodyvs800chartvs1000directory;Lobby750bodyvs400chart. Allconflictsretainednotmax-picked. PDF11000sfvsweb74023sfpropertyarea conflicting;not11000seats. Services/parking/AVcustomnotfree orallinclusiveunpriced. Promotionalconfetticannonconditionnotpermissiontobringpyrotechnics. No currentpriceorapproved330dinnerlayout.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-fa718462d2c1ee",
