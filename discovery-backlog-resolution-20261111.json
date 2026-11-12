@@ -1,6 +1,6 @@
 {
   "audit_id": "discovery-backlog-20261111",
-  "updated_utc": "2026-11-12T11:47:51.881906+00:00",
+  "updated_utc": "2026-11-12T12:00:35.695224+00:00",
   "original_pending_candidates": 500,
   "reviewed_dispositions_applied": [
     {
@@ -6000,9 +6000,108 @@
       "candidate_capture_sha256": "24e1abb627e7becc39f567e40a4c6bc85cd3ae24781d0699d7828842259058f4",
       "operator_capture_sha256": "7c5f0a37804853af4655f21a01ad37efd5b98eb31c4524cd63d9534051cbc2c5",
       "reason": "EntireSFUVA/currentprimaryhome/events/all6roompages/about/contactbodyread. Exact1069–1073Howardonefourfloorbuildingnot6parents/newrooms perlayout. Primaryeventpage80seated125standingTopFloor vsroompage100seated125standing/100generic,Gate32table50room;examples63smallround54largeround60banquet64theaterNOT100dinnerdance. Buddy35seated40standingroomvs30/30overview/directory;Webster16,Willy8seated10standing,Pressroom40overview50room,Speakeasy8ADDONONLYupperbarpackage2hmin;not8moregenericweddingcapacity. Topblocks8AM4PM/4PMmidnightvscontactvenuehours2AM/Tue2PMtypoheldnotautomaticmusicpermission. Suites4hminimum,standardWiFiincluded/Gigupgradeunpricedvsfreegigoverviewconflict. FurnitureGate/suitesincludedbutMAINROOMextra,projectorEXTRA/onsitemanagerincluded,OUTSIDEcateringfeeunknown/noF&BminimumNOTfreerental/allin. Pressroomsmallweddingsadvertised/wholeweddinglayoutapprovalunknown. PricesCONTACTGATED/retailpaidPDFsNOTeventbrochure/notpurchased. Noformsubmission."
+    },
+    {
+      "candidate_id": "directory-lead-a4878a59807795",
+      "original_pending_index": 162,
+      "checked_utc": "2026-11-12T12:00:35.695224+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "california-academy-of-sciences-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.sfuva.com/california-academy-of-sciences"
+      ],
+      "candidate_capture_sha256": "3a3a92aa817c67655b014465e22d62ebe827c68358f41931fd3c5b9ae0c4ff83",
+      "operator_capture_sha256": "3a3a92aa817c67655b014465e22d62ebe827c68358f41931fd3c5b9ae0c4ff83",
+      "reason": "Entire SFUVA profile reviewed and exact existing museum reconciled. Reuse completed batch27 current primary room inventory/15-page brochure/12-page vendor original review, not repeat audits. Directory room capacities retain layout/year scope: Planetarium 296 theater is not dinner; 1000+ seated/3000+ reception whole museum not 330 single-room approved dinner-and-dance. Current primary external professional coordinator, approved caterers and midnight event clock already sourced; no new current quote from directory."
+    },
+    {
+      "candidate_id": "directory-lead-9ded41ae56d35b",
+      "original_pending_index": 163,
+      "checked_utc": "2026-11-12T12:00:35.695224+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "the-chapel-curio-valencia-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.sfuva.com/the-chapel",
+        "https://thechapelsf.com/private-events/"
+      ],
+      "candidate_capture_sha256": "d6872936777a23a5261698d3fae2dfb46ba4f5c48e86c82cae6120a782c4ff0c",
+      "operator_capture_sha256": "111a32337558c217e45cb887935ea220819b1d8bef06294cc5ad11279f2afe6a",
+      "reason": "Entire SFUVA and current primary private-event body read. 777 Valencia music venue/Curio ONE property, not Presidio Chapel or Whitechapel. Primary 20–1000 generic capacity versus directory 20–800, not 1000 banquet. Directory Chapel150 dining/500+ reception and Curio bar65/100, private dining15/30, patio80/100 are nested and nonadditive; duplicate Curio Bar/Main Bar not counted twice. Weddings advertised; inhouse chef/bar/security/AV staff available, no published included-cost bundle or complete price. Public show ticket prices and business hours not private wedding rent/clocks."
+    },
+    {
+      "candidate_id": "directory-lead-08e888bbeba576",
+      "original_pending_index": 164,
+      "checked_utc": "2026-11-12T12:00:35.695224+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "above-the-rim-at-chase-center-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.sfuva.com/chase-center"
+      ],
+      "candidate_capture_sha256": "563d375873d3d3c3e095a8574104153c03fdb34d8ebc3d81ad4fd342dfd7028e",
+      "operator_capture_sha256": "563d375873d3d3c3e095a8574104153c03fdb34d8ebc3d81ad4fd342dfd7028e",
+      "reason": "Entire SFUVA body read. Existing Above the Rim is nested in Chase Center; no second parent from additional clubs. AboveRim160 rounds/300 reception/200 THEATER; Chase325–500 standing/200 theater, JPMorgan270 standing/90 theater, United700 standing/500 theater, Pepsi185 standing, Ultra365 upper340 lower standing, Modelo200 standing. Arena18000 seats not dining and no approved330 dinner inferred. Thrive courtyard/independent restaurant buyouts not automatically same operator properties. Primary privateevents route returns JS shell, current primary room terms and prices not reviewed/verified; directory identity only, not a permanent network blocker."
+    },
+    {
+      "candidate_id": "directory-lead-b07fbbe2e7a2fa",
+      "original_pending_index": 165,
+      "checked_utc": "2026-11-12T12:00:35.695224+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "chotto-matte-ofarrell-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.sfuva.com/chotto-matte",
+        "https://chotto-matte.com/sanfrancisco/book-your-event/"
+      ],
+      "candidate_capture_sha256": "2b5ab18f4773a19c524d9884a7015cb383d255290c7966d0392d72da964c71fe",
+      "operator_capture_sha256": "3e35bc88dc12785a135236b0009e840d99598ac76941cbc81db493332d177586",
+      "reason": "Entire SFUVA/current primary event/contact body and 20-page older2024/29-page currently linked2026 event deck reviewed; price/fee/layout pages visually checked. 50 OFarrell rooftop restaurant distinct operator/floor from Convene40OFarrell, not merged by shared building. Whole285seated500standing; main120/160, Jade20, Jungle tables16 each, current website terrace100/200 versus current PDF115/230 and DJ lounge30standing plan vs35 detail retained conflicts. Current menus95vegetarian/105I/140II/170Deluxepp plus20percent service/4percent Event Fee/5percent SF Health Mandate/8.63percent tax; compounding and charge bases unknown, no all-in quote. Older90/100/130/165 retained dated not current. Current bar2/3/4h80/110/140 premium or95/125/155 super, must span WHOLE EVENT, excludes shots/specialty cocktails. Sommelier250/hour optional plus sake bottles, no full meal inference from3.75canape. Published direct Tripleseat form reviewed, no submission, date/count requirement not inferred from static absence of required attr."
+    },
+    {
+      "candidate_id": "directory-lead-da6dc5d1dbcacf",
+      "original_pending_index": 167,
+      "checked_utc": "2026-11-12T12:00:35.695224+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "cobbs-comedy-club-columbus-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.sfuva.com/cobbs-comedy-club",
+        "https://specialevents.livenation.com/venues/cobbs-comedy-club"
+      ],
+      "candidate_capture_sha256": "4fd2ae58889f5b5db74ea86c6dc21e370ef4805e456e9da3cfbb802db0256fa6",
+      "operator_capture_sha256": "e81a2b0a2c07f8fb355f1c4466200137b94e0aa893ba8e21956fec81f76cca08",
+      "reason": "Entire SFUVA/current LiveNation body and original2-page one-sheet/1-page image floorplan reviewed; both chart and floorplan visually checked and actual Cobb identity confirmed. 915Columbus ONE property, showroom/mezz not multiple venues. Primary8000sf versus SFUVA100000sf copy error. Current chart150BANQUET400THEATER700reception versus one-sheet400 genericSEATED; main325cabaret+75mezz not330dinnerdance approval. Custom inhouse catering/bar/production/AV and parking/valet available unpriced; no free performers assumed; wedding advertising not issued layout permission. No current published rates or independent contracted clocks."
+    },
+    {
+      "candidate_id": "directory-lead-f5ce02d1cd7e49",
+      "original_pending_index": 166,
+      "checked_utc": "2026-11-12T12:00:35.695224+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "city-cruises-california-hornblower-bay-area",
+        "city-cruises-san-francisco-belle-bay-area",
+        "city-cruises-san-francisco-spirit-bay-area",
+        "city-cruises-empress-hornblower-bay-area",
+        "city-cruises-sunset-hornblower-bay-area",
+        "city-cruises-pier-3-hornblower-landing-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.sfuva.com/city-cruises-san-francisco",
+        "https://www.cityexperiences.com/san-francisco/city-cruises/corporate-events/"
+      ],
+      "candidate_capture_sha256": "c84c601861102fb0dabc3c95a0ef538859153cf27b2a9a87ac4d972927e381c9",
+      "operator_capture_sha256": "e7452352167d8575e5c4f0c326ce5f2e6fc804f3291afbf52713797240830e14",
+      "reason": "Full SFUVA plus actual current primary bodies reviewed; six distinct properties registered: five yachts California/Belle/Spirit/Empress/Sunset and land Pier3. All share CityCruises operator for outreach dedupe, no deck-count inflation. Legacy eight-link fleet page has duplicate Hybrid and Commodore/Hybrid/Pacific URLs now redirect current corporate page, not current per-vessel confirmation; retained as unresolved legacy leads, not silently discarded or invented new bookable boats. Current California page510intro vs600max/older645generic550passenger500wedding600directorydining unresolved. Belle1500total with500/deck generic, Spirit400total225/175deck not330singledeck approved layout. Empress250/Sunset80 based BERKELEY special request for SF; Sunset older100 vs current80 conflict. Current package list has cashbar/in-office coordinator while generic marketing sayspremiumbar/dancefloor/planner; inclusions LOCATION/PACKAGEdependent and enhancements not free. Original8-page2021charter template reviewed as DATED terms only: administrativefee notgratuity/rateunknown, securityextra ifrequired, guestcount21day vsfallback14day conflict, deposits credited reservation not damage. Not accepted or current legal verification."
     }
   ],
-  "unreviewed_original_inputs": 206,
+  "unreviewed_original_inputs": 200,
   "municipal_searches_completed": 0,
   "complete": false,
   "scope": "Queue identity resolution is not full venue facts, exhaustive geographic discovery or permission for any event. Actual access/identity blockers remain separate from unreviewed work."
