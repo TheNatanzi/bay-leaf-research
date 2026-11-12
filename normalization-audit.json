@@ -1,12 +1,12 @@
 {
-  "normalized_utc": "2026-11-12T07:39:47.754947+00:00",
-  "record_count": 2527,
-  "property_group_count": 1179,
+  "normalized_utc": "2026-11-12T07:53:46.187120+00:00",
+  "record_count": 2531,
+  "property_group_count": 1183,
   "identity_review_candidates": 86,
   "numeric_review_queue": 3270,
   "field_count": 106,
   "known_by_field": {
-    "capacity_max": 1406,
+    "capacity_max": 1407,
     "capacity_seated": 635,
     "capacity_standing": 373,
     "capacity_dinner_dance": 28,
@@ -72,12 +72,12 @@
     "property_appraisal_max": 0,
     "business_value_min": 0,
     "business_value_max": 0,
-    "outside_catering": 414,
-    "byob": 211,
+    "outside_catering": 415,
+    "byob": 212,
     "tables_included": 594,
     "chairs_included": 448,
     "dance_floor": 81,
-    "wedding_permission": 393,
+    "wedding_permission": 397,
     "availability": 90,
     "accessibility": 1,
     "food_basis": 187,
@@ -114,8 +114,8 @@
     "lodging_payer": 1
   },
   "status_counts": {
-    "published_evidence": 7198,
-    "needs_confirmation": 13418,
+    "published_evidence": 7205,
+    "needs_confirmation": 13434,
     "searched_no_public_answer": 3612,
     "conflicting": 239
   },

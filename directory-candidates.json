@@ -2,8 +2,8 @@
   "summary": {
     "checked_utc": "2026-10-26T13:28:51.955107+00:00",
     "candidate_urls": 580,
-    "candidate_urls_with_exact_match": 307,
-    "candidate_urls_without_exact_match": 273,
+    "candidate_urls_with_exact_match": 313,
+    "candidate_urls_without_exact_match": 267,
     "source_counts": {
       "moderndjs": {
         "raw_named_cards": 361,
@@ -53,12 +53,12 @@
     },
     "added_venue_records": 0,
     "note": "Candidate URLs are not a venue count. Old source collection counts retain their original dates; followup state counts are current. Fragment-only links merged; names/URLs are aids, not automatic reviews. Original added_venue_records=0 describes index-only ingestion; primary_followup_records_added is separate.",
-    "primary_followup_records_added": 172,
-    "followup_checked_utc": "2026-11-12T05:47:50.045581+00:00",
+    "primary_followup_records_added": 177,
+    "followup_checked_utc": "2026-11-12T07:52:02.996506+00:00",
     "current_review_counts": {
-      "reviewed_added": 176,
-      "reviewed_existing": 104,
-      "pending": 290,
+      "reviewed_added": 181,
+      "reviewed_existing": 105,
+      "pending": 284,
       "blocked": 7,
       "excluded": 3
     }
@@ -466,10 +466,19 @@
       "county": "Contra Costa",
       "city": "Walnut Creek",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "civic-park-assembly-hall-walnut-creek-contra-costa",
+        "civic-park-gazebo-walnut-creek-contra-costa"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T07:46:38.610514+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/civic-park-community-center-walnut-creek"
+      ],
+      "review_reason": "Full own-venue profile body and published city rental URL inspected. Same existing Walnut Creek Civic Park Assembly Hall/Gazebo pair, not Tice Valley or another city Civic Park. Link existing rooms without new rows or summed capacity. Current primary city route returns403 in collector; directory300/200capacities, BYOB and inclusions not adopted as current primary facts. Identity resolved at directory-source scope; policy/rate document recovery remains pending.",
+      "identity_review_source_kind": "wedding_vendor_directory"
     },
     {
       "id": "directory-lead-5bbb1ddf3ab6a6",
@@ -516,10 +525,19 @@
       "county": "Santa Clara",
       "city": "San Jose",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "club-auto-sport-san-jose-santa-clara"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T07:52:02.996506+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/club-auto-sport-san-jose",
+        "https://clubautosport.net/wedding-venue/"
+      ],
+      "review_reason": "Full current wedding, venue-space, contact, service-options and preferred-caterer source text read. ActualSuite101at521Charcot verified.250guests generic across selected layout, not dinnerdance. TMFC Museum/Patio/ExtendedPatio/Parkade/IndyConference are one property, not new operators or additive capacities. Security required for allgroups; currentpriceunknown. Freeparking/housemusic/cable/WiFi named inclusions; upgradedAV/heaters/simulators addedservices. Allalcohol throughlicensedvendor and nooutsidealcohol. Preferredcaterer exclusivity/exception terms needconfirmation. Old/events route404andoldlinked2018catererPDF404; currentHTMLlist readable. No unlimitedmusic inferred from testimonial.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-62a070e693d401",
@@ -566,10 +584,19 @@
       "county": "Contra Costa",
       "city": "Pleasant Hill",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "contra-costa-country-club-pleasant-hill-contra-costa"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T07:46:38.610514+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/contra-costa-country-club-pleasant-hill",
+        "https://online.flipbuilder.com/contracostacc/aigj/"
+      ],
+      "review_reason": "Full named profile at801GolfClubRoad matched actual current primary reader/address and operator-linked2026non-memberbanquetbook. One new physical property was already registered from keyword discovery, with all27publishertextpages read and keypages2–5visuallychecked. Reuse that row and four nested room IDs, not a second venue. Generic directory vendor-bundling claims not adopted; primary manager explicitly not day-ofcoordinator, and Oak/Terracecapacityconflicts remain.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-19d09545bd868a",
@@ -587,10 +614,19 @@
       "county": "Santa Clara",
       "city": "San Martin",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "cordevalle-resort-san-martin-santa-clara"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T07:52:02.996506+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/cordevalle-san-martin",
+        "https://www.cordevalle.com/weddings/venues"
+      ],
+      "review_reason": "Full current resort wedding/venue pages read; actualOneCordeValleClubDrive resort distinct from existingCordeValleWineryat1HummingbirdLane. Wineryactual5pagevendorPDF callsresortneighboringproperty forrehearsals/lodging. Do nottransfer wineryprices/vendorlist/100–200capacity ornormalizeoneoperatorbecausebrandshared. ResortBallroom2663sqft/120max;RoseGarden2500sqft/120max;OakTerrace2000sqft/100max. Generic maxima not dinnerdance; spacesnotadded. PrivatediningIlVigneto/LionsPeakGrill. Lodging available notshownmandatory; prices/clocks/completepackageunknown. Old/celebrations/weddings404; current/weddingsworks.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-60925a49e71d77",
@@ -637,10 +673,19 @@
       "county": "Contra Costa",
       "city": "Richmond",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "craneway-pavilion-richmond-contra-costa"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T07:52:02.996506+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/craneway-pavilion-richmond",
+        "https://www.visitrichmondca.org/visit/plan-your-event-in-richmond/meeting-facilities-and-event-venues/"
+      ],
+      "review_reason": "Physicalhistoricaleventvenueidentity matched namedprofile1414HarbourWaySouth andofficialRichmondtourism. Actualsupportedbrowser oldcraneway.com showsSquarespaceWebsiteExpired; ownerloginnotused. Alternateoperator-lookingthecranewaypavilion.com advertisespickleball/restaurant.2026municipalassessment/searchmaterialmentionsfutureuseundetermined butactualgovernmentPDFdownloadfailed anddraft/decisionstatusunreviewed. Thereforecurrentweddingbooking/roomavailabilityunresolved; notdeclaredclosedorbookable. Tourismhistoricalsize45ksqft/20kpatio notcurrentcapacity; dininghoursnotweddingclocks. No newoutreachauthorizedbythisidentityresolution.",
+      "identity_review_source_kind": "regional_tourism_directory"
     },
     {
       "id": "directory-lead-7bea591d035e8b",
@@ -658,10 +703,19 @@
       "county": "Contra Costa",
       "city": "Diablo",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "diablo-country-club-contra-costa"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T07:46:38.610514+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/diablo-country-club-diablo",
+        "https://www.diablocc.org/weddings-events"
+      ],
+      "review_reason": "Full primary wedding/event page and address read; exact named directory matched. Distinct from Contra Costa Country Club,PleasantHill or DiabloCreek,Concord. Primary wedding offer and event-inquiry form present; form success/error strings are embedded template text, not proof of any submission. Directory200capacity/allinclusive claims not adopted because primary page does not state current layout/complete cost. Event manager and recommended vendor assistance not assumed full wedding planner. No current prices, separate clocks or outside-vendor terms verified.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-475127b6ab5389",

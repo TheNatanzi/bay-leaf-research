@@ -1,6 +1,6 @@
 {
   "audit_id": "discovery-backlog-20261111",
-  "updated_utc": "2026-11-12T05:47:50.045581+00:00",
+  "updated_utc": "2026-11-12T07:52:02.996506+00:00",
   "original_pending_candidates": 500,
   "reviewed_dispositions_applied": [
     {
@@ -4573,9 +4573,105 @@
       "candidate_capture_sha256": "afa5cfd6f54b6f1fff3f8203ddc3e2c577d9b9b4b71d8230cb4d28ff78f55b49",
       "operator_capture_sha256": "ff18dac6493255093746f3aac553fe02c6bf50a17d76760044b97ec1b133f71b",
       "reason": "Actual primary wedding/private-event facility at 3535 Industrial Drive, Suite B4. Two ballrooms, protected patio and lounge share one property; 40–300 layout marketing is not a single approved dinner/dance capacity. Services and drop-off catering are options with current fee/contract scope still unknown."
+    },
+    {
+      "candidate_id": "directory-lead-1cc4c632c433bb",
+      "original_pending_index": 10,
+      "checked_utc": "2026-11-12T07:46:38.610514+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "civic-park-assembly-hall-walnut-creek-contra-costa",
+        "civic-park-gazebo-walnut-creek-contra-costa"
+      ],
+      "source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/civic-park-community-center-walnut-creek"
+      ],
+      "candidate_capture_sha256": "3e816ab0a995983bfa2342463311eb7dc37799d6ddaa93b27eca03a856b4b576",
+      "operator_capture_sha256": "3e816ab0a995983bfa2342463311eb7dc37799d6ddaa93b27eca03a856b4b576",
+      "reason": "Full own-venue profile body and published city rental URL inspected. Same existing Walnut Creek Civic Park Assembly Hall/Gazebo pair, not Tice Valley or another city Civic Park. Link existing rooms without new rows or summed capacity. Current primary city route returns403 in collector; directory300/200capacities, BYOB and inclusions not adopted as current primary facts. Identity resolved at directory-source scope; policy/rate document recovery remains pending."
+    },
+    {
+      "candidate_id": "directory-lead-2386b66dd07c41",
+      "original_pending_index": 14,
+      "checked_utc": "2026-11-12T07:46:38.610514+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "contra-costa-country-club-pleasant-hill-contra-costa"
+      ],
+      "source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/contra-costa-country-club-pleasant-hill",
+        "https://online.flipbuilder.com/contracostacc/aigj/"
+      ],
+      "candidate_capture_sha256": "a1d44c59721038bc2890ecd872be8b5c1d11e286fd6b0bdf417c49c471a85dee",
+      "operator_capture_sha256": "34d39f9b5136c02218d5a92570a59503b086a3881ba84456b84d8fbe5817cb92",
+      "reason": "Full named profile at801GolfClubRoad matched actual current primary reader/address and operator-linked2026non-memberbanquetbook. One new physical property was already registered from keyword discovery, with all27publishertextpages read and keypages2–5visuallychecked. Reuse that row and four nested room IDs, not a second venue. Generic directory vendor-bundling claims not adopted; primary manager explicitly not day-ofcoordinator, and Oak/Terracecapacityconflicts remain."
+    },
+    {
+      "candidate_id": "directory-lead-7bea591d035e8b",
+      "original_pending_index": 18,
+      "checked_utc": "2026-11-12T07:46:38.610514+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "diablo-country-club-contra-costa"
+      ],
+      "source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/diablo-country-club-diablo",
+        "https://www.diablocc.org/weddings-events"
+      ],
+      "candidate_capture_sha256": "2429303ee664b293930f7fc18373cd2990dca8c04e91dbea7e10d658f7712c2b",
+      "operator_capture_sha256": "6c166259aad7cd209567df7313bd6c79ce857102c8b3b5fbac80f447d5ab5ec5",
+      "reason": "Full primary wedding/event page and address read; exact named directory matched. Distinct from Contra Costa Country Club,PleasantHill or DiabloCreek,Concord. Primary wedding offer and event-inquiry form present; form success/error strings are embedded template text, not proof of any submission. Directory200capacity/allinclusive claims not adopted because primary page does not state current layout/complete cost. Event manager and recommended vendor assistance not assumed full wedding planner. No current prices, separate clocks or outside-vendor terms verified."
+    },
+    {
+      "candidate_id": "directory-lead-2d83d8961362a6",
+      "original_pending_index": 12,
+      "checked_utc": "2026-11-12T07:52:02.996506+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "club-auto-sport-san-jose-santa-clara"
+      ],
+      "source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/club-auto-sport-san-jose",
+        "https://clubautosport.net/wedding-venue/"
+      ],
+      "candidate_capture_sha256": "845724ee699f7730fa69232b1b21fb4461a617f6313ed8e681a519ef977afdc2",
+      "operator_capture_sha256": "377a11b960a2cbb91bd243a2bfcfbbeca8de528be60e6e23510c430ac443450a",
+      "reason": "Full current wedding, venue-space, contact, service-options and preferred-caterer source text read. ActualSuite101at521Charcot verified.250guests generic across selected layout, not dinnerdance. TMFC Museum/Patio/ExtendedPatio/Parkade/IndyConference are one property, not new operators or additive capacities. Security required for allgroups; currentpriceunknown. Freeparking/housemusic/cable/WiFi named inclusions; upgradedAV/heaters/simulators addedservices. Allalcohol throughlicensedvendor and nooutsidealcohol. Preferredcaterer exclusivity/exception terms needconfirmation. Old/events route404andoldlinked2018catererPDF404; currentHTMLlist readable. No unlimitedmusic inferred from testimonial."
+    },
+    {
+      "candidate_id": "directory-lead-19d09545bd868a",
+      "original_pending_index": 15,
+      "checked_utc": "2026-11-12T07:52:02.996506+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "cordevalle-resort-san-martin-santa-clara"
+      ],
+      "source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/cordevalle-san-martin",
+        "https://www.cordevalle.com/weddings/venues"
+      ],
+      "candidate_capture_sha256": "eecb123b13cf24c9f2839fd96a64d764a8171440299354c1a5dc9f6e992d1fb0",
+      "operator_capture_sha256": "d331a7b0ae32d935f04c27099fe38860791b137223b2e35b0e543a075f5a7a49",
+      "reason": "Full current resort wedding/venue pages read; actualOneCordeValleClubDrive resort distinct from existingCordeValleWineryat1HummingbirdLane. Wineryactual5pagevendorPDF callsresortneighboringproperty forrehearsals/lodging. Do nottransfer wineryprices/vendorlist/100–200capacity ornormalizeoneoperatorbecausebrandshared. ResortBallroom2663sqft/120max;RoseGarden2500sqft/120max;OakTerrace2000sqft/100max. Generic maxima not dinnerdance; spacesnotadded. PrivatediningIlVigneto/LionsPeakGrill. Lodging available notshownmandatory; prices/clocks/completepackageunknown. Old/celebrations/weddings404; current/weddingsworks."
+    },
+    {
+      "candidate_id": "directory-lead-1a0ef8cf5e5b2f",
+      "original_pending_index": 17,
+      "checked_utc": "2026-11-12T07:52:02.996506+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "craneway-pavilion-richmond-contra-costa"
+      ],
+      "source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/craneway-pavilion-richmond",
+        "https://www.visitrichmondca.org/visit/plan-your-event-in-richmond/meeting-facilities-and-event-venues/"
+      ],
+      "candidate_capture_sha256": "e9aef686c2ee82d3162cd142a767f8ffb249e397f7d7e56969d17fb5112bad05",
+      "operator_capture_sha256": "9de21806ef73665c28798593312193222a120128054277a38a89841a4b257cd6",
+      "reason": "Physicalhistoricaleventvenueidentity matched namedprofile1414HarbourWaySouth andofficialRichmondtourism. Actualsupportedbrowser oldcraneway.com showsSquarespaceWebsiteExpired; ownerloginnotused. Alternateoperator-lookingthecranewaypavilion.com advertisespickleball/restaurant.2026municipalassessment/searchmaterialmentionsfutureuseundetermined butactualgovernmentPDFdownloadfailed anddraft/decisionstatusunreviewed. Thereforecurrentweddingbooking/roomavailabilityunresolved; notdeclaredclosedorbookable. Tourismhistoricalsize45ksqft/20kpatio notcurrentcapacity; dininghoursnotweddingclocks. No newoutreachauthorizedbythisidentityresolution."
     }
   ],
-  "unreviewed_original_inputs": 290,
+  "unreviewed_original_inputs": 284,
   "municipal_searches_completed": 0,
   "complete": false,
   "scope": "Queue identity resolution is not full venue facts, exhaustive geographic discovery or permission for any event. Actual access/identity blockers remain separate from unreviewed work."
