@@ -1,15 +1,15 @@
 {
   "candidate_urls": 580,
-  "resolved_candidate_urls": 535,
-  "unresolved_candidate_urls": 45,
+  "resolved_candidate_urls": 543,
+  "unresolved_candidate_urls": 37,
   "review_counts": {
-    "reviewed_added": 296,
-    "reviewed_existing": 226,
+    "reviewed_added": 298,
+    "reviewed_existing": 232,
     "blocked": 10,
     "reviewed_supplier_not_venue_offer": 1,
     "reviewed_outside_scope": 9,
     "excluded": 3,
-    "pending": 35
+    "pending": 27
   },
   "complete": false,
   "scope_note": "Candidate-queue resolution only; even zero unresolved leads does not establish all venues discovered. Room counts and source downloads are not property coverage.",
@@ -5061,57 +5061,79 @@
       "candidate_id": "directory-lead-d8dd2844bbd0d8",
       "name": "Lucie Stern Community Center",
       "url": "https://www.bayareaweddings.com/vendor/lucie-stern-community-center",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "lucie-stern-community-center-palo-alto-santa-clara"
+      ]
     },
     {
       "candidate_id": "directory-lead-537910fa04b197",
       "name": "Mavericks House",
       "url": "https://www.bayareaweddings.com/vendor/mavericks-house",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "mavericks-house-indoor-ballroom-san-mateo",
+        "mavericks-house-indoor-plus-outdoor-deck-san-mateo",
+        "mavericks-house-oceanfront-lawn-san-mateo"
+      ]
     },
     {
       "candidate_id": "directory-lead-c4df667f965f24",
       "name": "Meadowood Napa Valley",
       "url": "https://www.bayareaweddings.com/vendor/meadowood-napa-valley",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "meadowood-napa-valley-current-social-gathering-retreat-offering-napa"
+      ]
     },
     {
       "candidate_id": "directory-lead-0fa8fbb1579157",
       "name": "Meritage Resort and Spa",
       "url": "https://www.bayareaweddings.com/vendor/meritage-resort-and-spa",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "the-meritage-resort-and-spa-napa"
+      ]
     },
     {
       "candidate_id": "directory-lead-13133484e9ccc3",
       "name": "Mountain Winery",
       "url": "https://www.bayareaweddings.com/vendor/mountain-winery",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "the-mountain-winery-saratoga-santa-clara"
+      ]
     },
     {
       "candidate_id": "directory-lead-c6937f483a43b5",
       "name": "Napa Valley Wine Train",
       "url": "https://www.bayareaweddings.com/vendor/napa-valley-wine-train",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "napa-valley-wine-train-napa"
+      ]
     },
     {
       "candidate_id": "directory-lead-fc3b4fb0a7f658",
       "name": "Nestldown",
       "url": "https://www.bayareaweddings.com/vendor/nestldown",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "nestldown-wedding-offering-santa-clara"
+      ]
     },
     {
       "candidate_id": "directory-lead-ad5bb17e381f01",
       "name": "Oakland Museum of California",
       "url": "https://www.bayareaweddings.com/vendor/oakland-museum-of-california",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "oakland-museum-of-california-garden-alameda",
+        "oakland-museum-of-california-peace-terrace-alameda",
+        "oakland-museum-of-california-town-fare-cafe-alameda",
+        "oakland-museum-of-california-james-moore-theater-alameda",
+        "oakland-museum-of-california-lillie-education-center-alameda"
+      ]
     },
     {
       "candidate_id": "directory-lead-7282cf2ae84859",

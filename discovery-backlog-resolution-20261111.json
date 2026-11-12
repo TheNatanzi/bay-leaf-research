@@ -1,6 +1,6 @@
 {
   "audit_id": "discovery-backlog-20261111",
-  "updated_utc": "2026-11-12T16:12:04.998428+00:00",
+  "updated_utc": "2026-11-12T16:26:36.447576+00:00",
   "original_pending_candidates": 500,
   "reviewed_dispositions_applied": [
     {
@@ -8800,9 +8800,147 @@
       "candidate_capture_sha256": "077cf2736160979219589e4df48d9a464813fa89dda3aa06c3cdfc1c82de213f",
       "operator_capture_sha256": "c673896bff9a263feb25045663a9c8ee443d047d1f2d77c2b0221a83668cfcf0",
       "reason": "ExistingLafayetteParkHotel3287MountDiabloLafayette94549NOTSFLafayettepublicpark. Actualhome+weddingbodyALLread/currentweddingCEREMONY/RECEPTIONtableIndependence220/200,Fountain220/200,BenFranklin80/70,GeorgeWashington120/110,Diderot30/30,WishingWell80/80. ReceptionLABELdoesnotverifyseateddinner+dance;roomcountsnotadditiveoneparent. Inhousechefcustommenus/weddingambassadorsnotindependentfullplannerpromise. Late-nightpartyGeorgeWashingtonmarketingNOactualclock. Currentrentfoodbarstafftaxmincurfewunknown/notdirectorycapacity300. ContactsiterequiresNAMEEMAILTELEPHONEinquiryandconsent;newsletterdifferentform/nothing submitted."
+    },
+    {
+      "candidate_id": "directory-lead-d8dd2844bbd0d8",
+      "original_pending_index": 465,
+      "checked_utc": "2026-11-12T16:26:36.447576+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "lucie-stern-community-center-palo-alto-santa-clara"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/lucie-stern-community-center",
+        "https://www.paloalto.gov/Departments/Community-Services/Facility-Rentals/Community-Centers/LSCC"
+      ],
+      "candidate_capture_sha256": "efe25a7d8c64e35b26a98d2951db0dacb11bc535f8677b4fb8fd06995cc7450a",
+      "operator_capture_sha256": null,
+      "reason": "NEW1305MiddlefieldPaloAltoLucieSternONEcommunitycenter notallroomparents. Currentcitynativebrowser69body+ALL5accordionsectionsread, ordinaryHTTPfailednotvenueclosed. ActualFY27packet18pALLTEXT/p1–10VISUALcontactsheet,p11ratesp12equipmentp18mapindividualVISUAL;1pinsuranceEXACTtextpacketp17/standalonemapVISUAL/generalrules5pALLTEXTold1998/2006/2012stamps. Ballroom200DINING300theater/Community75dining125theater/Fireside45dining70theater/Patio150dining250theater/notadditive. Rates263391/196275/149214/143212/kitchen5579 resident/nonresHR. FY27packetSat10hALLROOMsequipmentATTENDANT5502resident6373nonres versusolderdirectory5261. OtherwholeMonThu527652HR/FriSun576728HR. Single-roomafterofficeattendant54HR/Federalholiday82HR;packagealreadyincludesattendantdoNOTdoublecount.500minimumREFUNDABLEdamagecouldincrease2000. Insurance150+ORalcohol/1Mminimum/LIQUORliabilityforbeerwinechampagne/NOHARDLIQUOR. InsuranceCOI14daysguidelinevs30daysgeneraltermsCONFLICT. ABCpermitanymoneytransactionwithalcohol14daysbefore. 2.75%CARDfeeAug17,2026cashcheckexempt. HalfRENT+500deposit approval/balance1month/10daycancelmaybeshortened40daywebvs10dayPDFCONFLICT. Advance1year/min1monthorapprovalexception. RenterALLSETUPcleanupwithinpaidtime,staffnotcleaningservice. Music11PMFriSat9PMotherswithmanagerexceptiononly;noimpliedguestdeadline. KitchenREHEATONLYNOCOOKING/noICE/kitchenpatiorentseparately/nocatererrestrictionANYvendor. Ballroom200maxEXCLUDESdancefloor/extraequipment. Rect30tables300blackchairsFREEunlessavailability;round25at9resident12nonres/white200foldchairs1.77or2.72each/podium4268/sound1931/piano133208/warmers5075each. HallwaypubliccourtyardNOTexclusive(noalcohol/noequipmentpubliccourt). Otherdistrict2012generalconducthistoricalreadnotnewfees. Formapplication+agreementNOTfilled/signed;EnjoyaccountneededbookingsNOTcreated.",
+      "rendered_evidence_sha256": "ad353044f771e14c9fa1ff4e035c2e724301145723f07e84ff66be41f41f77a0",
+      "evidence_method": "Browser-visible DOM snapshot, retained separately from the static HTML source bytes"
+    },
+    {
+      "candidate_id": "directory-lead-537910fa04b197",
+      "original_pending_index": 466,
+      "checked_utc": "2026-11-12T16:26:36.447576+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "mavericks-house-indoor-ballroom-san-mateo",
+        "mavericks-house-indoor-plus-outdoor-deck-san-mateo",
+        "mavericks-house-oceanfront-lawn-san-mateo"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/mavericks-house",
+        "https://maverickshouse.com/weddings"
+      ],
+      "candidate_capture_sha256": "7bb54d0fa00b676e04f515c5e5dde588b0a6c66e401ed053718adc0a844e8d45",
+      "operator_capture_sha256": "c2131803279a995344f1c0c2360101e6b901b02117d7477d0537c8112937cf99",
+      "reason": "ExistingMavericksHouse107BroadwayHMB3roomrowsONEparent,actualweddingbodyALLread. INDOOR102DINNER120standing/INDOOR+DECK130DINNER140standingWEATHERPERMITTING/LAWN150DINNER150standingWEATHERnotadditive. Fullserviceonsitecateringdietaryoptionsuponrequest. SeparateparentcompanyHalfMoonBayBrewingaroundcornercanhostrehearsalwelcome/brunchNOTsameincludedroom. Noactualcurrentrent7–8kprimaryprinted/secondarynotquote. Eventteamdoesnotprovefullindependentplannerincluded/foodbarstafftaxserviceandclockunknown."
+    },
+    {
+      "candidate_id": "directory-lead-c4df667f965f24",
+      "original_pending_index": 467,
+      "checked_utc": "2026-11-12T16:26:36.447576+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "meadowood-napa-valley-current-social-gathering-retreat-offering-napa"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/meadowood-napa-valley",
+        "https://www.meadowood.com/weddings"
+      ],
+      "candidate_capture_sha256": "9debb4c094db4bd3b279ae408c7a3ec0325c15619d6534e07eaf584393361f8b",
+      "operator_capture_sha256": "6f3e4fcf19a9ffc3736ad437f5b9609e4ea7e5531d87a69aa66a8d954917ddb4",
+      "reason": "ExistingMeadowood900MeadowoodLaneStHelena/currentretreatsocialoffering6–80PERSONS36rooms. Actual/weddingsURLredirectsCONTACT,notcurrentweddingofferconfirmation. CurrentgroupsmeetingsbodyALLREADexecutiveretreatsintimategatherings/6+roomsGROUPofferandform6–36notmandatoryallweddings. Earlier2018PDFhistoricalNOTcurrentquote. CurrentfullweddingpermissionUNCONFIRMED/noclaimnewlyclosed.250ACRESnotcapacity/noseparateparentadded."
+    },
+    {
+      "candidate_id": "directory-lead-0fa8fbb1579157",
+      "original_pending_index": 468,
+      "checked_utc": "2026-11-12T16:26:36.447576+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "the-meritage-resort-and-spa-napa"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/meritage-resort-and-spa",
+        "https://www.meritageresort.com/gather/venues/napa-wedding-venues"
+      ],
+      "candidate_capture_sha256": "35a2f708f0be08c0b71358443ecc993d86208be4f19be94dee0680cbf96936a1",
+      "operator_capture_sha256": "8c08ced1dea8e6a8cda69f0299782137f95efdd0518479ec63d853371d9040e3",
+      "reason": "ExistingMeritage875BordeauxWayNapaONEresort/notmenuShipping2795NapaValleyCorporateDriveguestaddress. Currentvenue+toolkitfullbodyREAD/THREEuniqueoriginalPDFs general10p/cultural10p/menu8pALLTEXT;generalp9packagesVISUAL/culturalp5pricep8capacityVISUAL/menup7policiesVISUAL. FIVEsourceURLs2new2026namedassetsEXACTSHAlegacyCMSsoREUSE;menuinternal2025stillconflicts. GeneralClassic250ppElegant300Luxury350+site6000–15000+27%SERVICE+8.75%TAX.6h6h7hEVENT/barsALL5hbeerwine,Tier1,Tier2;welcomenone,sparkling,signature/apps2,3,4/dinnerClassicstarterENTREE(noDESSERTtable)ElegantdessertLuxurydessertlatesnack. ALLtoastincluded/accommodationoneoneTWO_nightsroomsquantityunknownnotallguests. SiteTWOspaces/ceremonychairswater/receptiontableswhiteLINENtablewarevotives/stagingDANCEFLOOR/banquetstaffmanager/tasting2+planner/39passengershuttleLOOP. RequiredWEDDINGDAYPROplannerdistincteventmanager/unpriced. Cultural1day10h+ceremonylunchreception2spaces/siteFROM12000/outsidecateringLINE45breakfast65lunch85dinnerppCOSTBASISwhatincludesUNKNOWNnotassumefullFOOD. Cultural3day5hSangeet+10hday2+3hbrunch/sitefrom12000perdayvswholeUNKNOWN. Bar5h90beerwine100Tier1115Tier2/26NA. Menu2025Classic250chefsdessertAND8upgradeconflictsgeneraltable/extraentree10/latesnack24/welcome8or18/toast6menuvsincludedbrochure/BarTier2110menuvs115cultural. Menuheader27%SERVICE45staff55hotelvsbrochure47staff53hotel;menupolicy26%SERVICE7.75TAXvsbrochure27/8.75CONFLICT. Bar250BARTENDERfeeEACHbarstandard1per75/500REVENUEminimumperbarbeforetaxservice/differencechargedNOTdeposit;appliestoincludedpackagesUNKNOWN. OwnalcoholNOexceptapprovedwine35per750ml+taxservice. AVEXCLUSIVEhotel/unpriced. SetupcleanupstaffincludedEXCEPTroomturnmiddayreset/latechanges<12hmore. ChiavarioutsideCave5eachavailability/tastingsetup12pp/winesteward250per50/chef250each/under20mealextra10pp/coatcheck40HR4hMINalltaxservice. Securityifneededextra/buffet>90minfeeunknown. Pricesconfirmed90days/depositNONREFUNDamountvaries/fullestimate2weeks/guarantee3BUSINESSdays/greaterACTUALorGUARANTEEcharged. Noopenflamesinside/outdoorflamesfireworkssparklersskyNO. OwnprofessionalvendorsapprovalEOI/notunrestrictedoutsidefoodexceptexplicitculturaloffering. CapacityPDFDeck270UPPER370combinedvsweb350/Meritage600PDFvs650web/Fountain250PDFvs300web/Carneros630headingvs500ownproseCONFLICT/allgenericnot330dinnerdance. OtherwebHilltop400Village1000West300Terrace350Oakville295Roof120+Lounge50Cave200Vintner120notadditive. Noallinquoteinvented."
+    },
+    {
+      "candidate_id": "directory-lead-13133484e9ccc3",
+      "original_pending_index": 469,
+      "checked_utc": "2026-11-12T16:26:36.447576+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "the-mountain-winery-saratoga-santa-clara"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/mountain-winery",
+        "https://www.mountainwinery.com/weddings"
+      ],
+      "candidate_capture_sha256": "eebf6cd13167df7bf4840efec1be59d1fef4384d9d9a8d6e364fe2362d9ee5d4",
+      "operator_capture_sha256": "ced53f67f40ba1f1bd233b3ab37f622a81e4d1feb3a13480a5793b215fc7d80a",
+      "reason": "ExistingMountainWinerySaratogaactualweddingbodyALLread/fullbar/custompackages/outsidecateringFLEXIBLEFORCULTURALEVENTS/fireceremonyWITHRESTRICTIONS/Baraatwalkingpaths/VintnersprivatePuja/HaldiSangeetspaces.400CEREMONYSEATED/MAXGENERICnot400dinnerdanceapproved. Wufooembeddedformnotactualfieldsreviewed/submitted/currentrentfoodbarstaffserviceunknown. Existingearlierprimaryreviewpreservednotnewparent."
+    },
+    {
+      "candidate_id": "directory-lead-c6937f483a43b5",
+      "original_pending_index": 470,
+      "checked_utc": "2026-11-12T16:26:36.447576+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "napa-valley-wine-train-napa"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/napa-valley-wine-train",
+        "https://www.winetrain.com/gatherings/weddings/"
+      ],
+      "candidate_capture_sha256": "784fad3ab7a7e4208c89243ab75223da28089e36e3e74c85a794765056c682d9",
+      "operator_capture_sha256": "7d190c3762c2821a7fb31d17ca74a3dfbeedd78997a47376373ba2d78a9b9431",
+      "reason": "NEWNapaValleyWineTrain1275McKinstryNapa94559 actualCURRENT/gatherings/weddingsfullbodyREAD old/groups-and-celebrations/weddings404recovered. ExplicitweddingsonPRIVATEcharterorexistingjourney. LegacyUPTO56GUESTS6hwith3htravel3htastings/MainTRAINUPTO120notdirectory300+/9passengercars2power2kitchensnotadditiveextra160. FullTRAINcharterchoosesdepartureRETURN/privateCARregularschedule. Tablewarecateringoffered/custombarpriceunknown/noautomaticretaillunchfareweddingquote. Seamlessrailtraveldoesnotincludefreehotelshuttle. FAQ125240charactersCAPTUREDUNREADnotclaimedwholeFAQreview. Actualdinnerdancefloorapprovalandrentfoodbarservice/curfewunpublished."
+    },
+    {
+      "candidate_id": "directory-lead-fc3b4fb0a7f658",
+      "original_pending_index": 471,
+      "checked_utc": "2026-11-12T16:26:36.447576+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "nestldown-wedding-offering-santa-clara"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/nestldown",
+        "https://nestldown.com/weddings"
+      ],
+      "candidate_capture_sha256": "3da7f2fba3adaf0738b504f42adc8c5c845738b9ff85cab783df7731611bc02c",
+      "operator_capture_sha256": "d8af02ee3d9069a6fb8d579bcdf62fa644d8b7b1b54f6fdc746e17dcabb6ec25",
+      "reason": "ExistingNestldown22420OldSantaCruzHighwayLosGatos95033/currentweddingFAQrequiredvendorsALLBODYREAD;actualCanva12pBROCHUREALLAX+SCREENSHOTREADnotPDFsaved/manualreceipt. Currentweb14950–39500/site150included200maxor240SPECIALARRANGEMENTnot330/holiday10%extra/5%militaryfirstresponderteacherdiscount;noVENUEtaxservicegratuityNOTvendorchargesfree. BrochureMonThu14950allseason/Fri17900–28900/SatSunHolidays18950–39500/addguestabove150FEEAMOUNTUNKNOWN/initial50%. BYOBFEEAMOUNTUNKNOWNdespitewebNOcorkage/ownbeerwineSPIRITSlicensedapprovedcatererbartender/MIXEDONLYnoSHOTSneatrocks. RequiredSEVENvendorcategoriescaterer,beverage,DJband,plannerIFhired,lightingBarninstall,shuttle,furniture;FULLplannerOPTIONAL/SEMrehearsaltimelineincluded/dayofmonthofcoordinatorsNOTallowed/currentNOofflistCATERERexceptions. Otherofflistapprovaltrainingfeeunknown/writtenapprovalBEFOREsigning. LivebandsdrumsloudbrassBARNONLYNOISEPERMIT. >150guestsrequiresATLEAST2x25licensedapprovedshuttlesextraunknown/75guestcars12vendor+40upperonlyLICENSEDVALETextra.9hTOTALlatest2–11/lastdance9:35/ampOFF9:45/guestsbeginexit9:40ALLoff10/vendoroff11;extraTIMEONLYBEGINNING. Earliest8brochuretimelinevs9samebrochureFAQCONFLICT;seasonMarDecweddingvsFebDecFAQCONFLICT/train22p5vs20p6webCONFLICT. Furniture200/ChapelandMainLawnsoundwirelessmic/screenPROJECTOR/golfcart5mobility/taxiCouple/5boxesdecor/2–3staffincluded. NOLODGE/changing30minONEpersonatstart/notgetreadyhairmakeup. RainBARN150DINNERinclLOFT/Atriumexistingtentedstructureclearwallsnotnewtentsallowed. Dogs2freePRIORAPPROVAL/notallguestpets. Dropboxvendorlists/CanvaavailabilityUNREAD;MoreNOdownload/SharedisablednoPDFretrieved/nohiddenendpoint. Allvendorfoodbarfeesextra/notallin."
+    },
+    {
+      "candidate_id": "directory-lead-ad5bb17e381f01",
+      "original_pending_index": 472,
+      "checked_utc": "2026-11-12T16:26:36.447576+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "oakland-museum-of-california-garden-alameda",
+        "oakland-museum-of-california-peace-terrace-alameda",
+        "oakland-museum-of-california-town-fare-cafe-alameda",
+        "oakland-museum-of-california-james-moore-theater-alameda",
+        "oakland-museum-of-california-lillie-education-center-alameda"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/oakland-museum-of-california",
+        "https://museumca.org/event-rentals"
+      ],
+      "candidate_capture_sha256": "63e5b2c89719a9bb5fcabad846057f5a828899bbc24041c45d6c5c33d326f553",
+      "operator_capture_sha256": null,
+      "reason": "ExistingOMCA1000OakOakland5ROOMROWSONEparent. Actualnativebrowser70mainrentalsbodyALLAX+ALL15EventServicesFAQsindividuallyexpandedread/manualreceipt;ordinaryHTTP/TLSfailrecoverednotvenueblocked. ONEcampus1000OakOakland5existingroomrowsnotnewparents. Garden21300sf900STANDING700DINNER300CEREMONY+DINNER400THEATER;Peace50STANDING/Cafe200DINNER250standing/Theater250GENERIC/Lillie150RECEPTIONNOSEATEDDINING. OutdooramppermitrequiredENDS10PM. RequiredPROeventplannerfulltimeline/rehearsalvendorcoordination. NOEQUIPMENTtableschairsheatersdecorfooddrinkclientprovided. TownFareEXCLUSIVEBARandCAFEfoodprovider/fivepreferredcaterersnotautomaticallyallmandatoryoutsidecafe. RentincludesONESPECIFICspaceNOTwholecampus/oneOMCAstafffromsetupthroughstrike/entryexitsecurityroamingasneeded/restroomjanitorial/signageLIMITEDPOWER/garageextendedhoursnotfreeparking. Garage180spots/eventflatfeeunknown. Setup2–3hCASEBYCASEnotguaranteed. RainCafe<=250dependinglayoutADDITIONALFEEunknown/over250WRITTENrainplanbeforecontract. Galleryaccessup2hEXTRA. Publicevent>50specialpermit/firehealthconditions/outdoormusicpermit;notallprivateweddingssamepublicpermit. Softdatehold30daysONLYinquiry>3monthsbefore/contracts+depositwithin7days/actualdepositrentfoodbarstafftaxunknown. ToursAPPOINTMENTonly/noformsfilled. GeneralcontactformseparatenamesemailSUBJECTmessageallrequired/reCAPTCHAnotsolved. MainSubmitInquiryisMAILTOnotactualwebRFPevenFAQmentionsform.",
+      "rendered_evidence_sha256": "e8cfc4f26096d4408fc22ed891fd5658c85eb906252ec6cac4cda02637b66772",
+      "evidence_method": "Browser-visible DOM snapshot, retained separately from the static HTML source bytes"
     }
   ],
-  "unreviewed_original_inputs": 35,
+  "unreviewed_original_inputs": 27,
   "municipal_searches_completed": 0,
   "complete": false,
   "scope": "Queue identity resolution is not full venue facts, exhaustive geographic discovery or permission for any event. Actual access/identity blockers remain separate from unreviewed work."

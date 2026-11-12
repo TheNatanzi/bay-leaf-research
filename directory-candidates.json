@@ -2,8 +2,8 @@
   "summary": {
     "checked_utc": "2026-10-26T13:28:51.955107+00:00",
     "candidate_urls": 580,
-    "candidate_urls_with_exact_match": 522,
-    "candidate_urls_without_exact_match": 58,
+    "candidate_urls_with_exact_match": 530,
+    "candidate_urls_without_exact_match": 50,
     "source_counts": {
       "moderndjs": {
         "raw_named_cards": 361,
@@ -53,16 +53,16 @@
     },
     "added_venue_records": 0,
     "note": "Candidate URLs are not a venue count. Old source collection counts retain their original dates; followup state counts are current. Fragment-only links merged; names/URLs are aids, not automatic reviews. Original added_venue_records=0 describes index-only ingestion; primary_followup_records_added is separate.",
-    "primary_followup_records_added": 300,
-    "followup_checked_utc": "2026-11-12T16:12:04.998428+00:00",
+    "primary_followup_records_added": 302,
+    "followup_checked_utc": "2026-11-12T16:26:36.447576+00:00",
     "current_review_counts": {
-      "reviewed_added": 296,
-      "reviewed_existing": 226,
+      "reviewed_added": 298,
+      "reviewed_existing": 232,
       "blocked": 10,
       "reviewed_supplier_not_venue_offer": 1,
       "reviewed_outside_scope": 9,
       "excluded": 3,
-      "pending": 35
+      "pending": 27
     }
   },
   "candidates": [
@@ -16774,13 +16774,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "lucie-stern-community-center-palo-alto-santa-clara"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_added",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/lucie-stern-community-center#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T16:26:36.447576+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/lucie-stern-community-center",
+        "https://www.paloalto.gov/Departments/Community-Services/Facility-Rentals/Community-Centers/LSCC"
+      ],
+      "review_reason": "NEW1305MiddlefieldPaloAltoLucieSternONEcommunitycenter notallroomparents. Currentcitynativebrowser69body+ALL5accordionsectionsread, ordinaryHTTPfailednotvenueclosed. ActualFY27packet18pALLTEXT/p1–10VISUALcontactsheet,p11ratesp12equipmentp18mapindividualVISUAL;1pinsuranceEXACTtextpacketp17/standalonemapVISUAL/generalrules5pALLTEXTold1998/2006/2012stamps. Ballroom200DINING300theater/Community75dining125theater/Fireside45dining70theater/Patio150dining250theater/notadditive. Rates263391/196275/149214/143212/kitchen5579 resident/nonresHR. FY27packetSat10hALLROOMsequipmentATTENDANT5502resident6373nonres versusolderdirectory5261. OtherwholeMonThu527652HR/FriSun576728HR. Single-roomafterofficeattendant54HR/Federalholiday82HR;packagealreadyincludesattendantdoNOTdoublecount.500minimumREFUNDABLEdamagecouldincrease2000. Insurance150+ORalcohol/1Mminimum/LIQUORliabilityforbeerwinechampagne/NOHARDLIQUOR. InsuranceCOI14daysguidelinevs30daysgeneraltermsCONFLICT. ABCpermitanymoneytransactionwithalcohol14daysbefore. 2.75%CARDfeeAug17,2026cashcheckexempt. HalfRENT+500deposit approval/balance1month/10daycancelmaybeshortened40daywebvs10dayPDFCONFLICT. Advance1year/min1monthorapprovalexception. RenterALLSETUPcleanupwithinpaidtime,staffnotcleaningservice. Music11PMFriSat9PMotherswithmanagerexceptiononly;noimpliedguestdeadline. KitchenREHEATONLYNOCOOKING/noICE/kitchenpatiorentseparately/nocatererrestrictionANYvendor. Ballroom200maxEXCLUDESdancefloor/extraequipment. Rect30tables300blackchairsFREEunlessavailability;round25at9resident12nonres/white200foldchairs1.77or2.72each/podium4268/sound1931/piano133208/warmers5075each. HallwaypubliccourtyardNOTexclusive(noalcohol/noequipmentpubliccourt). Otherdistrict2012generalconducthistoricalreadnotnewfees. Formapplication+agreementNOTfilled/signed;EnjoyaccountneededbookingsNOTcreated.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-537910fa04b197",
@@ -16798,13 +16807,24 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "mavericks-house-indoor-ballroom-san-mateo",
+        "mavericks-house-indoor-plus-outdoor-deck-san-mateo",
+        "mavericks-house-oceanfront-lawn-san-mateo"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_existing",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/mavericks-house#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T16:26:36.447576+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/mavericks-house",
+        "https://maverickshouse.com/weddings"
+      ],
+      "review_reason": "ExistingMavericksHouse107BroadwayHMB3roomrowsONEparent,actualweddingbodyALLread. INDOOR102DINNER120standing/INDOOR+DECK130DINNER140standingWEATHERPERMITTING/LAWN150DINNER150standingWEATHERnotadditive. Fullserviceonsitecateringdietaryoptionsuponrequest. SeparateparentcompanyHalfMoonBayBrewingaroundcornercanhostrehearsalwelcome/brunchNOTsameincludedroom. Noactualcurrentrent7–8kprimaryprinted/secondarynotquote. Eventteamdoesnotprovefullindependentplannerincluded/foodbarstafftaxserviceandclockunknown.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-c4df667f965f24",
@@ -16822,13 +16842,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "meadowood-napa-valley-current-social-gathering-retreat-offering-napa"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_existing",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/meadowood-napa-valley#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T16:26:36.447576+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/meadowood-napa-valley",
+        "https://www.meadowood.com/weddings"
+      ],
+      "review_reason": "ExistingMeadowood900MeadowoodLaneStHelena/currentretreatsocialoffering6–80PERSONS36rooms. Actual/weddingsURLredirectsCONTACT,notcurrentweddingofferconfirmation. CurrentgroupsmeetingsbodyALLREADexecutiveretreatsintimategatherings/6+roomsGROUPofferandform6–36notmandatoryallweddings. Earlier2018PDFhistoricalNOTcurrentquote. CurrentfullweddingpermissionUNCONFIRMED/noclaimnewlyclosed.250ACRESnotcapacity/noseparateparentadded.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-0fa8fbb1579157",
@@ -16846,13 +16875,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "the-meritage-resort-and-spa-napa"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_existing",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/meritage-resort-and-spa#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T16:26:36.447576+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/meritage-resort-and-spa",
+        "https://www.meritageresort.com/gather/venues/napa-wedding-venues"
+      ],
+      "review_reason": "ExistingMeritage875BordeauxWayNapaONEresort/notmenuShipping2795NapaValleyCorporateDriveguestaddress. Currentvenue+toolkitfullbodyREAD/THREEuniqueoriginalPDFs general10p/cultural10p/menu8pALLTEXT;generalp9packagesVISUAL/culturalp5pricep8capacityVISUAL/menup7policiesVISUAL. FIVEsourceURLs2new2026namedassetsEXACTSHAlegacyCMSsoREUSE;menuinternal2025stillconflicts. GeneralClassic250ppElegant300Luxury350+site6000–15000+27%SERVICE+8.75%TAX.6h6h7hEVENT/barsALL5hbeerwine,Tier1,Tier2;welcomenone,sparkling,signature/apps2,3,4/dinnerClassicstarterENTREE(noDESSERTtable)ElegantdessertLuxurydessertlatesnack. ALLtoastincluded/accommodationoneoneTWO_nightsroomsquantityunknownnotallguests. SiteTWOspaces/ceremonychairswater/receptiontableswhiteLINENtablewarevotives/stagingDANCEFLOOR/banquetstaffmanager/tasting2+planner/39passengershuttleLOOP. RequiredWEDDINGDAYPROplannerdistincteventmanager/unpriced. Cultural1day10h+ceremonylunchreception2spaces/siteFROM12000/outsidecateringLINE45breakfast65lunch85dinnerppCOSTBASISwhatincludesUNKNOWNnotassumefullFOOD. Cultural3day5hSangeet+10hday2+3hbrunch/sitefrom12000perdayvswholeUNKNOWN. Bar5h90beerwine100Tier1115Tier2/26NA. Menu2025Classic250chefsdessertAND8upgradeconflictsgeneraltable/extraentree10/latesnack24/welcome8or18/toast6menuvsincludedbrochure/BarTier2110menuvs115cultural. Menuheader27%SERVICE45staff55hotelvsbrochure47staff53hotel;menupolicy26%SERVICE7.75TAXvsbrochure27/8.75CONFLICT. Bar250BARTENDERfeeEACHbarstandard1per75/500REVENUEminimumperbarbeforetaxservice/differencechargedNOTdeposit;appliestoincludedpackagesUNKNOWN. OwnalcoholNOexceptapprovedwine35per750ml+taxservice. AVEXCLUSIVEhotel/unpriced. SetupcleanupstaffincludedEXCEPTroomturnmiddayreset/latechanges<12hmore. ChiavarioutsideCave5eachavailability/tastingsetup12pp/winesteward250per50/chef250each/under20mealextra10pp/coatcheck40HR4hMINalltaxservice. Securityifneededextra/buffet>90minfeeunknown. Pricesconfirmed90days/depositNONREFUNDamountvaries/fullestimate2weeks/guarantee3BUSINESSdays/greaterACTUALorGUARANTEEcharged. Noopenflamesinside/outdoorflamesfireworkssparklersskyNO. OwnprofessionalvendorsapprovalEOI/notunrestrictedoutsidefoodexceptexplicitculturaloffering. CapacityPDFDeck270UPPER370combinedvsweb350/Meritage600PDFvs650web/Fountain250PDFvs300web/Carneros630headingvs500ownproseCONFLICT/allgenericnot330dinnerdance. OtherwebHilltop400Village1000West300Terrace350Oakville295Roof120+Lounge50Cave200Vintner120notadditive. Noallinquoteinvented.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-13133484e9ccc3",
@@ -16870,13 +16908,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "the-mountain-winery-saratoga-santa-clara"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_existing",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/mountain-winery#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T16:26:36.447576+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/mountain-winery",
+        "https://www.mountainwinery.com/weddings"
+      ],
+      "review_reason": "ExistingMountainWinerySaratogaactualweddingbodyALLread/fullbar/custompackages/outsidecateringFLEXIBLEFORCULTURALEVENTS/fireceremonyWITHRESTRICTIONS/Baraatwalkingpaths/VintnersprivatePuja/HaldiSangeetspaces.400CEREMONYSEATED/MAXGENERICnot400dinnerdanceapproved. Wufooembeddedformnotactualfieldsreviewed/submitted/currentrentfoodbarstaffserviceunknown. Existingearlierprimaryreviewpreservednotnewparent.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-c6937f483a43b5",
@@ -16894,13 +16941,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "napa-valley-wine-train-napa"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_added",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/napa-valley-wine-train#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T16:26:36.447576+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/napa-valley-wine-train",
+        "https://www.winetrain.com/gatherings/weddings/"
+      ],
+      "review_reason": "NEWNapaValleyWineTrain1275McKinstryNapa94559 actualCURRENT/gatherings/weddingsfullbodyREAD old/groups-and-celebrations/weddings404recovered. ExplicitweddingsonPRIVATEcharterorexistingjourney. LegacyUPTO56GUESTS6hwith3htravel3htastings/MainTRAINUPTO120notdirectory300+/9passengercars2power2kitchensnotadditiveextra160. FullTRAINcharterchoosesdepartureRETURN/privateCARregularschedule. Tablewarecateringoffered/custombarpriceunknown/noautomaticretaillunchfareweddingquote. Seamlessrailtraveldoesnotincludefreehotelshuttle. FAQ125240charactersCAPTUREDUNREADnotclaimedwholeFAQreview. Actualdinnerdancefloorapprovalandrentfoodbarservice/curfewunpublished.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-fc3b4fb0a7f658",
@@ -16918,13 +16974,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "nestldown-wedding-offering-santa-clara"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_existing",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/nestldown#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T16:26:36.447576+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/nestldown",
+        "https://nestldown.com/weddings"
+      ],
+      "review_reason": "ExistingNestldown22420OldSantaCruzHighwayLosGatos95033/currentweddingFAQrequiredvendorsALLBODYREAD;actualCanva12pBROCHUREALLAX+SCREENSHOTREADnotPDFsaved/manualreceipt. Currentweb14950–39500/site150included200maxor240SPECIALARRANGEMENTnot330/holiday10%extra/5%militaryfirstresponderteacherdiscount;noVENUEtaxservicegratuityNOTvendorchargesfree. BrochureMonThu14950allseason/Fri17900–28900/SatSunHolidays18950–39500/addguestabove150FEEAMOUNTUNKNOWN/initial50%. BYOBFEEAMOUNTUNKNOWNdespitewebNOcorkage/ownbeerwineSPIRITSlicensedapprovedcatererbartender/MIXEDONLYnoSHOTSneatrocks. RequiredSEVENvendorcategoriescaterer,beverage,DJband,plannerIFhired,lightingBarninstall,shuttle,furniture;FULLplannerOPTIONAL/SEMrehearsaltimelineincluded/dayofmonthofcoordinatorsNOTallowed/currentNOofflistCATERERexceptions. Otherofflistapprovaltrainingfeeunknown/writtenapprovalBEFOREsigning. LivebandsdrumsloudbrassBARNONLYNOISEPERMIT. >150guestsrequiresATLEAST2x25licensedapprovedshuttlesextraunknown/75guestcars12vendor+40upperonlyLICENSEDVALETextra.9hTOTALlatest2–11/lastdance9:35/ampOFF9:45/guestsbeginexit9:40ALLoff10/vendoroff11;extraTIMEONLYBEGINNING. Earliest8brochuretimelinevs9samebrochureFAQCONFLICT;seasonMarDecweddingvsFebDecFAQCONFLICT/train22p5vs20p6webCONFLICT. Furniture200/ChapelandMainLawnsoundwirelessmic/screenPROJECTOR/golfcart5mobility/taxiCouple/5boxesdecor/2–3staffincluded. NOLODGE/changing30minONEpersonatstart/notgetreadyhairmakeup. RainBARN150DINNERinclLOFT/Atriumexistingtentedstructureclearwallsnotnewtentsallowed. Dogs2freePRIORAPPROVAL/notallguestpets. Dropboxvendorlists/CanvaavailabilityUNREAD;MoreNOdownload/SharedisablednoPDFretrieved/nohiddenendpoint. Allvendorfoodbarfeesextra/notallin.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-ad5bb17e381f01",
@@ -16942,13 +17007,26 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "oakland-museum-of-california-garden-alameda",
+        "oakland-museum-of-california-peace-terrace-alameda",
+        "oakland-museum-of-california-town-fare-cafe-alameda",
+        "oakland-museum-of-california-james-moore-theater-alameda",
+        "oakland-museum-of-california-lillie-education-center-alameda"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_existing",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/oakland-museum-of-california#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T16:26:36.447576+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/oakland-museum-of-california",
+        "https://museumca.org/event-rentals"
+      ],
+      "review_reason": "ExistingOMCA1000OakOakland5ROOMROWSONEparent. Actualnativebrowser70mainrentalsbodyALLAX+ALL15EventServicesFAQsindividuallyexpandedread/manualreceipt;ordinaryHTTP/TLSfailrecoverednotvenueblocked. ONEcampus1000OakOakland5existingroomrowsnotnewparents. Garden21300sf900STANDING700DINNER300CEREMONY+DINNER400THEATER;Peace50STANDING/Cafe200DINNER250standing/Theater250GENERIC/Lillie150RECEPTIONNOSEATEDDINING. OutdooramppermitrequiredENDS10PM. RequiredPROeventplannerfulltimeline/rehearsalvendorcoordination. NOEQUIPMENTtableschairsheatersdecorfooddrinkclientprovided. TownFareEXCLUSIVEBARandCAFEfoodprovider/fivepreferredcaterersnotautomaticallyallmandatoryoutsidecafe. RentincludesONESPECIFICspaceNOTwholecampus/oneOMCAstafffromsetupthroughstrike/entryexitsecurityroamingasneeded/restroomjanitorial/signageLIMITEDPOWER/garageextendedhoursnotfreeparking. Garage180spots/eventflatfeeunknown. Setup2–3hCASEBYCASEnotguaranteed. RainCafe<=250dependinglayoutADDITIONALFEEunknown/over250WRITTENrainplanbeforecontract. Galleryaccessup2hEXTRA. Publicevent>50specialpermit/firehealthconditions/outdoormusicpermit;notallprivateweddingssamepublicpermit. Softdatehold30daysONLYinquiry>3monthsbefore/contracts+depositwithin7days/actualdepositrentfoodbarstafftaxunknown. ToursAPPOINTMENTonly/noformsfilled. GeneralcontactformseparatenamesemailSUBJECTmessageallrequired/reCAPTCHAnotsolved. MainSubmitInquiryisMAILTOnotactualwebRFPevenFAQmentionsform.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-7282cf2ae84859",
