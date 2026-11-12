@@ -1,6 +1,6 @@
 {
   "audit_id": "discovery-backlog-20261111",
-  "updated_utc": "2026-11-12T13:39:18.300878+00:00",
+  "updated_utc": "2026-11-12T13:49:37.703212+00:00",
   "original_pending_candidates": 500,
   "reviewed_dispositions_applied": [
     {
@@ -6839,9 +6839,133 @@
       "candidate_capture_sha256": "33acae44003f4d8c5e16f186db146b28333b174f9544a302395eadb2ba9eb781",
       "operator_capture_sha256": "56b95c1e7f8eff1ead6cbcb4427fbe4887f156e239dabf475b9641efd0e0acab",
       "reason": "ExistingForum701Missioncapacity300banquet400theater500standing/rent11000standard14000premium alreadyNov8read,recheckednotnewdiscovery. BlueShield700Howard separatebuildingSPACE sameYBCAcampus/operator757FIXEDtheater notdinner. GrandLobby350standingNOT300dir/5000dayANDmustwithForumTheater;Screening2500Lounge750notstandalone despiteartist/nonprofitfreeLoungeclaim. Currentfull4primarybodies and24pageVenuesUsePolicyALLTEXTread/p21liquorfeesviewed. Venue8AM11PMaccess notmusicclock;extraMonTueafter8PMsecurity vsPDFdaily11PMconflict. Eventmanagerbaseincluded;alltechIATSE16paid,housemanagerushershourly,janitorialfoodor50plus,conditionalsecurityengineerITextra. TablechairfoodservicegearNOTfree;noice;outsideequipmentprocuredbyYBCA15%markup. Allcatererspreapproval;ownalcohol1000privateSURRENDERfee+permitsliability NOTsimplefreeBYOB. Forum630/ Theater900/1260CONCESSIONSbuyoutconditionalticketedperformanceNOTeverywedding. NearbyYerbaBuenaGardensseparateoperator/fees."
+    },
+    {
+      "candidate_id": "directory-lead-0214cd91bfa7e3",
+      "original_pending_index": 238,
+      "checked_utc": "2026-11-12T13:49:37.703212+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "diavola-pizzeria-geyserville-sonoma"
+      ],
+      "source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/diavola-pizzeria-salumeria/",
+        "https://www.diavolapizzeria.com/private-events"
+      ],
+      "candidate_capture_sha256": "8774bfc8947fb3a18dd995c488100b8be610d6fef355903b89ac65170648aedb",
+      "operator_capture_sha256": "c6b190edbdd213903e1b68453514c041baf9442056433289b5f95a6c23a1f420",
+      "reason": "Current primary home and complete private-events text read. Dining rooms/patio are nested spaces, not separate parent properties. Private patio buyout up to 40; smaller groups 15/20. Food menus $55/$65/$75/$85 per person, PLUS variable room fee, tax/service/bar unknown. Appetizer $10, passed appetizers $8–10, dessert $9 per person; cocktail $14 per person is a named optional offering, not an open-bar quote. Wedding option is present in the inquiry form, not issued wedding approval. Geyserville Gun Club is a sister bar next door, not automatically included. Public form fields read; nothing submitted."
+    },
+    {
+      "candidate_id": "directory-lead-cc7de48a91f6b9",
+      "original_pending_index": 239,
+      "checked_utc": "2026-11-12T13:49:37.703212+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "doubletree-sonoma-wine-country-rohnert-park-sonoma"
+      ],
+      "source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/doubletree-by-hilton-hotel-sonoma-wine-country/",
+        "https://www.hilton.com/en/hotels/rlsc-dt-doubletree-sonoma-wine-country/events/"
+      ],
+      "candidate_capture_sha256": "d3aca2ecaf36e51ef2e9b0257f5617c7d9c80db6b6aefa5e5221c842a7537e60",
+      "operator_capture_sha256": null,
+      "reason": "Exact primary Hilton home/events reader exports read, including all layout rows. One hotel, three ballrooms and subdivisions nested, not 15 parent properties. Grand Ballroom 500 BANQUET/1050 reception/850 theatre; Courtyard250/350, Vineyard230/350/300, Chardonnay210/300/200. 245 is GUESTROOMS, not wedding capacity. Current 15 meeting rooms versus directory13 retained; Salon I conference350 appears inconsistent with its60 banquet/100theatre, not silently corrected. Primary home parking22/day is general hotel parking, event waiver unknown. Weddings advertised; public group proposal route linked, not submitted. Outside catering is a tourism-directory claim only; primary permission/fees unverified. Raw Hilton HTTP failure preserved, not a raw archive success.",
+      "reader_evidence_sha256": "1d1486c0200be28ff9a39909301f776ffba2077cbd5567bd9ed6e470107921cf",
+      "evidence_method": "Exact standard-web reader export reviewed; original HTML retrieval state preserved; no raw HTML success claimed"
+    },
+    {
+      "candidate_id": "directory-lead-27b0cff9b2f2d3",
+      "original_pending_index": 264,
+      "checked_utc": "2026-11-12T13:49:37.703212+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "wildwood-conservation-retreat-guerneville-sonoma"
+      ],
+      "source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/wildwood-conservation-foundation-retreat-center/"
+      ],
+      "candidate_capture_sha256": "4db5b4225b01b44148099f78df9f65492b49c7aa0b5132a49876af272bb3535d",
+      "operator_capture_sha256": "4db5b4225b01b44148099f78df9f65492b49c7aa0b5132a49876af272bb3535d",
+      "reason": "Complete tourism profile read; older/undated wedding package $20,000 Friday2PM–Sunday2PM,150 ceremony/reception,60/62 summer overnight conflict. Lodging, bar staffing agreed hours, portable toilets and meals up to40 included BUT wedding reception meal, furniture-moving/setup/cleanup staff and likely guest shuttle extra; parking30. Primary homepage and /lander return empty script shells, not a working wedding offer. Actual county2023 original PDF reviewed ONLY pages1–5,12,14,23,26 and relevant permit conditions: phases52/60 TOTAL people including employees; one monthly Thu–Sun weekend35; special events NOT authorized by that permit; no amplified outdoor sound. Vesting/completed phases/newer modifications UNKNOWN. This materially conflicts with tourism150 and cannot establish current wedding permission. Do not declare closed or currently illegal from this document alone."
+    },
+    {
+      "candidate_id": "directory-lead-6a9d9a54259109",
+      "original_pending_index": 278,
+      "checked_utc": "2026-11-12T13:49:37.703212+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "hawkwood-hill-farm-petaluma-sonoma"
+      ],
+      "source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/hawkwood-hill/"
+      ],
+      "candidate_capture_sha256": "04fec04cfc62a778e823440d8cbbc2ff41b587c9e4a72d2c633d9e754fecda7a",
+      "operator_capture_sha256": "04fec04cfc62a778e823440d8cbbc2ff41b587c9e4a72d2c633d9e754fecda7a",
+      "reason": "Whole county listing and current published alternate primary HawkwoodHill.com home text read. Same horse-property identity as1002–1004Chileno broker listing, not Wildwood or Chileno Valley Ranch5105. Current primary markets equestrian services and240+acres, no current wedding price/availability. Broker marks SOLD and says property has hosted weddings, not proof venue closed or future permission. Directory capacities200/250 and old tourism300+ remain inconsistent and not approved dinner capacity. Old hawkwoodhillfarm.com unavailable; alternate primary is reachable, so not a generic access blocker. Contact form fields read, not submitted."
+    },
+    {
+      "candidate_id": "directory-lead-1f42c97fbd47d3",
+      "original_pending_index": 286,
+      "checked_utc": "2026-11-12T13:49:37.703212+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "iron-vine-bennett-valley-santa-rosa-sonoma"
+      ],
+      "source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/iron-vine-restaurant/",
+        "https://bennettvalleygolf.com/our-packages/"
+      ],
+      "candidate_capture_sha256": "ca162e63c33ade396f2554975e4f738c662fd41e34472173762824b596dbf238",
+      "operator_capture_sha256": "4fcfe9c3331a5d3613e47e68c9e62d8921b1310319972cb7c9550109c0b4c01a",
+      "reason": "Complete primary packages page and relevant restaurant wedding/contact sections read; old restaurant URL404 recovered actual published current site. One course/restaurant event offering, ballroom/veranda/Sunset Room nested. Actual currently linked2027 wedding guide11pages and2026–27 social guide5pages whole text read; pages4/5 wedding and2 social visually checked. Wedding5h INCLUDINGceremony,2h decorating; ballroom120/over120requireswholebuyout; plated meals100max. Social room40–120/Sunset20–50/whole120–200 versus website180generic conflict. Mandatory22%service on food/beverage/some setup/service, NOTgratuity, plus tax; venuefee and F&B minimum unknown. No numeric package prices in current docs. Professional DJ REQUIRED, family/friend substitute prohibited. Coordination available EXTRA, not included with manager. Outside food prohibited except licensed bakery weddingcake; own wine corkage permitted, amountunknown. Rentals through venue/exception approval; florist arrangements assembled offsite. Barsetup fee conditional/hostedwaiver versus general barfee language needs quote. General restaurant20%gratuity8+ and20corkage not assumed wedding rates. Social50%minimum-revenue deposit nonrefund/nontransfer; wedding initial deposit amountunknown. Wedding finalcount14days versus social10days; bothbalance10days. Do not mix package terms."
+    },
+    {
+      "candidate_id": "directory-lead-d24d5517b402ff",
+      "original_pending_index": 299,
+      "checked_utc": "2026-11-12T13:49:37.703212+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "medlock-ames-bell-mountain-ranch-healdsburg-sonoma"
+      ],
+      "source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/medlock-ames-winery-at-bell-mountain-ranch/",
+        "https://www.medlockames.com/Visit/Bell-Mountain-Ranch"
+      ],
+      "candidate_capture_sha256": "bc8bce1a829c42b1bdc5ab39dee76b8bbce3c1ed5d7d050f835f88c541c11022",
+      "operator_capture_sha256": "2690f4ca35087a8e75e1c674d72f86022c22ac6e911a0b545457d47d25ea48b7",
+      "reason": "Complete tourism and primary Bell Mountain/private-events/HistoricTastingRoom text read. TWO physical properties under same operator: Bell Mountain13414ChalkHill and HistoricTastingRoom3487AlexanderValley, not one address. BellMountain advertises tasting/tour experiences65/75/95/125 per person, not wedding meals or event rental quotes. Private-events page explicitly offers HistoricTastingRoom private dinners/intimate celebrations, not BellMountain wedding permission. BellMountain retained as directory wedding-category lead with current venue/event permission unverified;338acres notguestcapacity. Directory55vineyardacres/800olives vs primary44/650 source conflict irrelevant to guest limits. Shared operator must be coordinated for duplicate outreach; no inquiry sent."
+    },
+    {
+      "candidate_id": "directory-lead-fb3762c88ccfe5",
+      "original_pending_index": 240,
+      "checked_utc": "2026-11-12T13:49:37.703212+00:00",
+      "state": "reviewed_supplier_not_venue_offer",
+      "record_ids": [],
+      "source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/dragonfly-floral/",
+        "https://www.dragonflyhealdsburg.com/"
+      ],
+      "candidate_capture_sha256": "b72b9bfff3235157e442beae4aac921d4aa8aaf5740344bef2bf057a2b446152",
+      "operator_capture_sha256": "2c975856dd1f4664be6c26b2ac52e80ae41735d902e53b194c3c2875391fe714",
+      "reason": "Whole tourism/home/farmFAQ text read: florist and flower farm at425Westside, not a published wedding-space rental offer. Wedding/event inquiry means floral design, not proof onsite venue rental. FAQ picnic visitation conflicts with current homepage no walk-in visitors; do not infer public venue access. Retain supplier lead separately; no blanket claim that farm can never host events. Linked event-design site is an empty shell and remains unread. No venue record fabricated."
+    },
+    {
+      "candidate_id": "directory-lead-eb61d52b29b2ce",
+      "original_pending_index": 273,
+      "checked_utc": "2026-11-12T13:49:37.703212+00:00",
+      "state": "reviewed_outside_scope",
+      "record_ids": [],
+      "source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/gualala-arts-center/",
+        "https://gualalaarts.org/rent-the-gualala-arts-center/"
+      ],
+      "candidate_capture_sha256": "8238186c22a21ea89180a72e02780956eb5e257f0b0e4365e6e43a1de30c657e",
+      "operator_capture_sha256": "b408b1ad895cf875015077d3b54d40ef955219836b0695b15880f0262fa5b4e4",
+      "reason": "Whole tourism and primary rental/rate/space/wedding bodies read. Gualala Arts Center is in Mendocino County, outside original nine-county Bay Area scope despite inclusion on Sonoma tourism site. Retain all source evidence and a separate adjacent-area fact receipt, not an access failure. Current live rates explicitly effective11/1/2026:9500wholebuilding/1500securitydeposit; outdoor2000min5hSunFri+400h, indoor access triggerswholebuilding; allSaturdayprivatewholebuilding. Old web-reader7500/1500outdoor rates superseded by dated current primary. Coleman200dinner/300danceparty not330dinner. No in-scope venue record added."
     }
   ],
-  "unreviewed_original_inputs": 155,
+  "unreviewed_original_inputs": 147,
   "municipal_searches_completed": 0,
   "complete": false,
   "scope": "Queue identity resolution is not full venue facts, exhaustive geographic discovery or permission for any event. Actual access/identity blockers remain separate from unreviewed work."
