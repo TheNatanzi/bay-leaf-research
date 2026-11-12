@@ -1,6 +1,6 @@
 {
   "audit_id": "discovery-backlog-20261111",
-  "updated_utc": "2026-11-12T16:26:36.447576+00:00",
+  "updated_utc": "2026-11-12T16:37:26.351447+00:00",
   "original_pending_candidates": 500,
   "reviewed_dispositions_applied": [
     {
@@ -8938,9 +8938,151 @@
       "reason": "ExistingOMCA1000OakOakland5ROOMROWSONEparent. Actualnativebrowser70mainrentalsbodyALLAX+ALL15EventServicesFAQsindividuallyexpandedread/manualreceipt;ordinaryHTTP/TLSfailrecoverednotvenueblocked. ONEcampus1000OakOakland5existingroomrowsnotnewparents. Garden21300sf900STANDING700DINNER300CEREMONY+DINNER400THEATER;Peace50STANDING/Cafe200DINNER250standing/Theater250GENERIC/Lillie150RECEPTIONNOSEATEDDINING. OutdooramppermitrequiredENDS10PM. RequiredPROeventplannerfulltimeline/rehearsalvendorcoordination. NOEQUIPMENTtableschairsheatersdecorfooddrinkclientprovided. TownFareEXCLUSIVEBARandCAFEfoodprovider/fivepreferredcaterersnotautomaticallyallmandatoryoutsidecafe. RentincludesONESPECIFICspaceNOTwholecampus/oneOMCAstafffromsetupthroughstrike/entryexitsecurityroamingasneeded/restroomjanitorial/signageLIMITEDPOWER/garageextendedhoursnotfreeparking. Garage180spots/eventflatfeeunknown. Setup2–3hCASEBYCASEnotguaranteed. RainCafe<=250dependinglayoutADDITIONALFEEunknown/over250WRITTENrainplanbeforecontract. Galleryaccessup2hEXTRA. Publicevent>50specialpermit/firehealthconditions/outdoormusicpermit;notallprivateweddingssamepublicpermit. Softdatehold30daysONLYinquiry>3monthsbefore/contracts+depositwithin7days/actualdepositrentfoodbarstafftaxunknown. ToursAPPOINTMENTonly/noformsfilled. GeneralcontactformseparatenamesemailSUBJECTmessageallrequired/reCAPTCHAnotsolved. MainSubmitInquiryisMAILTOnotactualwebRFPevenFAQmentionsform.",
       "rendered_evidence_sha256": "e8cfc4f26096d4408fc22ed891fd5658c85eb906252ec6cac4cda02637b66772",
       "evidence_method": "Browser-visible DOM snapshot, retained separately from the static HTML source bytes"
+    },
+    {
+      "candidate_id": "directory-lead-7282cf2ae84859",
+      "original_pending_index": 473,
+      "checked_utc": "2026-11-12T16:37:26.351447+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "oakland-museum-of-california-garden-alameda",
+        "oakland-museum-of-california-peace-terrace-alameda",
+        "oakland-museum-of-california-town-fare-cafe-alameda",
+        "oakland-museum-of-california-james-moore-theater-alameda",
+        "oakland-museum-of-california-lillie-education-center-alameda"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/oakland-museum-of-california-omca-garden",
+        "https://museumca.org/event-rentals/"
+      ],
+      "candidate_capture_sha256": "9bc11f88089df820e33aeea7f52abc57a719b0605ecb3f800f1009211a20f356",
+      "operator_capture_sha256": null,
+      "reason": "ONEcampus1000OakOakland5existingroomrowsnotnewparents. Garden21300sf900STANDING700DINNER300CEREMONY+DINNER400THEATER;Peace50STANDING/Cafe200DINNER250standing/Theater250GENERIC/Lillie150RECEPTIONNOSEATEDDINING. OutdooramppermitrequiredENDS10PM. RequiredPROeventplannerfulltimeline/rehearsalvendorcoordination. NOEQUIPMENTtableschairsheatersdecorfooddrinkclientprovided. TownFareEXCLUSIVEBARandCAFEfoodprovider/fivepreferredcaterersnotautomaticallyallmandatoryoutsidecafe. RentincludesONESPECIFICspaceNOTwholecampus/oneOMCAstafffromsetupthroughstrike/entryexitsecurityroamingasneeded/restroomjanitorial/signageLIMITEDPOWER/garageextendedhoursnotfreeparking. Garage180spots/eventflatfeeunknown. Setup2–3hCASEBYCASEnotguaranteed. RainCafe<=250dependinglayoutADDITIONALFEEunknown/over250WRITTENrainplanbeforecontract. Galleryaccessup2hEXTRA. Publicevent>50specialpermit/firehealthconditions/outdoormusicpermit;notallprivateweddingssamepublicpermit. Softdatehold30daysONLYinquiry>3monthsbefore/contracts+depositwithin7days/actualdepositrentfoodbarstafftaxunknown. ToursAPPOINTMENTonly/noformsfilled. GeneralcontactformseparatenamesemailSUBJECTmessageallrequired/reCAPTCHAnotsolved. MainSubmitInquiryisMAILTOnotactualwebRFPevenFAQmentionsform. ExactsameparentGardenaliasREUSE56full15FAQaudit/not5newproperties.",
+      "rendered_evidence_sha256": "e8cfc4f26096d4408fc22ed891fd5658c85eb906252ec6cac4cda02637b66772",
+      "evidence_method": "Browser-visible DOM snapshot, retained separately from the static HTML source bytes"
+    },
+    {
+      "candidate_id": "directory-lead-893ef654fe4079",
+      "original_pending_index": 474,
+      "checked_utc": "2026-11-12T16:37:26.351447+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "oakland-scottish-rite-center-alameda"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/oakland-scottish-rite-center",
+        "https://business.oaklandchamber.com/list/member/oakland-scottish-rite-center-3496"
+      ],
+      "candidate_capture_sha256": "1f75f39d006316583959b6f4d4a833b051879c95c57b5e51d4ed1e123e2463fd",
+      "operator_capture_sha256": "80d781fae1160a6c0a5f3813bf98a3672dd50ded6883827bd125e0832c83413a",
+      "reason": "Existing1547LakesideOakland94612identityverifiedactualOaklandChamberfullbody. Currentoaklandscottishrite.com ROOTandWEDDINGS retrievedACTUALGAMBLINGNONVENUECONTENT; SOURCECORRUPTIONblockerpreserved/nointeractioninstallorclaimvenueclosed. CachedsearchnormalvenuecopyNOTcurrentreview;directory15000Saturday12000SunFri3000microSECONDARYnotactualprimarycurrentprice."
+    },
+    {
+      "candidate_id": "directory-lead-624e4c9f7f50f1",
+      "original_pending_index": 475,
+      "checked_utc": "2026-11-12T16:37:26.351447+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "paradise-ridge-winery-santa-rosa-sonoma"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/paradise-ridge-winery",
+        "https://www.prwinery.com/weddings"
+      ],
+      "candidate_capture_sha256": "6b5dfe0298b47a3ff91c7a764d0bcdb83c0f9d7e257e1bf258a3d2ff1c45d324",
+      "operator_capture_sha256": "d55474542abb8206dc575b6583548757ce1b6cc8d8603163ff82ee5efc6622a3",
+      "reason": "CurrentweddingandcontactbodiesFULLREAD4555ThomasLakeHarrisSantaRosa95403. Up250GENERICnot330dinnerdance. PoetryTerraceceremony/Veranda/VineRoom/NagasawaDance/SunsetPATIOdesignatedDISTILLEDSPIRITSarea. Standard5–10PMOPTIONextendASLATE2AM/feeandprecisemusicbarlimitsUNPUBLISHEDnotguaranteed. 1hrehearsaldaybefore/suitegroomlounge/chairsUPTO150ONLY/roundandsomeLONGtables/2physicalBARSnotfreebartenders/ovenforcaterers. Farmstay20overnighttwohouses2studiosSPECIALPRICE/notincludedorrequired. Currentpriceunpublished/agegateNOTclicked/notclaimadultonlyweddings."
+    },
+    {
+      "candidate_id": "directory-lead-e0af9be9d6999d",
+      "original_pending_index": 476,
+      "checked_utc": "2026-11-12T16:37:26.351447+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "preservation-park-alameda"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/preservation-park",
+        "https://www.preservationpark.com/"
+      ],
+      "candidate_capture_sha256": "ef3b1804e56ed5e383d29f21809aa85df8469a673d5369c39e73b2d6757e7b26",
+      "operator_capture_sha256": "9aada115441b4ecdf49be32987f7fbeb4db35c8a5cf304fd77fe91a20a521cbf",
+      "reason": "Actual14pageoriginalPDF ALLTEXT read; p4pricing andp6siteplan VISUALLYread. 1233PreservationParkWayOakland94612. CeremonyONLY3000/Sat8–11or12–3Sun3–6/150chairsincluded. CeremonyRECEPTION SatSun4–11PM/outdoorMAX300not330/AprilOctober. Premium5700BandstandFountain/GinnSMALL/staff/5hsecurity/30minpriornightrehearsal;Deluxe6500GinnHOUSEplusceremonySOUNDandMICs. SAMEp4says SECURITYREQUIREDADDITIONALfee yetbothpackages5hsecurityincluded CONFLICT notsilentlydoublecharge/omit. HalfRENTNONREFdeposit signing. OutdoorEquipmentEXTRAwhitepaddedfoldingchair4each/60inround15each21available/6x3table15or6x2.5table10/sound100excludingmics/wireless75each max3simultaneous/wired0. IndoorNileGinnseparateequipmentlist chairs230butNOT230weddingcapacity/ownprojectorlaptop/screensavailable. FullservicecatererlistAVAILABLEnotexclusive/20personMINunlessnoted. VendorDancefloor304–2400sizefinish+Oaklanddelivery100/latepickup8PM–8AMandstairsunpricedextra/vendorpricesUNDATEDnotverifiedcurrentquote. Garage1250MLKoutside/NOweekendonsiteparking/specialgarageARRANGEMENTrequired/garageMonFri5AM–7PMp14vs5AM–11PMp12CONFLICT/p14also11PMFridaytextCONFLICT;8hr48day20earlybirdprintedUNDATEDnotcurrentguarantee. PDFpath2025/05notguaranteed2026rates/noeffectiveyearprinted. Rootcurrentweddingsadvertised/EBALDCmanaged/notalllinkedgraphreviewed."
+    },
+    {
+      "candidate_id": "directory-lead-7b968da0bd8879",
+      "original_pending_index": 477,
+      "checked_utc": "2026-11-12T16:37:26.351447+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "rengstorff-house-santa-clara"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/rengstorff-house",
+        "https://www.mountainview.gov/our-city/departments/community-services/shoreline-at-mountain-view/rengstorff-house/weddings-events"
+      ],
+      "candidate_capture_sha256": "f8689b1d3610b90c299eefcbc924f11a07066481e260aa70920d0a96be93eaca",
+      "operator_capture_sha256": null,
+      "reason": "Currentcitybrowser71FULLAXpage read. Actual5originalPDFs saved: introFAQ6pALLTEXTdatedFY2022–23;applicationrules6pALLTEXT;planning24pALLTEXT plus9scannedpagescontactsheetVISUAL/p18heaterfullimageVISUAL;insurance1pALLTEXT;vendor11pALLTEXTbutimageonlyp11NOTfullvisualread. 3070NShorelineMountainView94043. LIVEratesMonThu100nonprofit125resident150nonresidentHR;offpeakweekend125175225HR/peakweekend175225275HR/8hpeak1320NONPROFIT1700RES2100NONRES. NOT225wholewedding. Live150peakAprOctCEREMONYRECEPTION/48offpeakNovMar/20dining/48standinginside. FY2022–23FAQ200ceremonyNOALCOHOLpotential exceptionnotcurrent150ordinarycapacity. EventsMUSICEND11PM/ALLdepartmidnight/latest7AM–midnightrental/setupcleanupPAID/largeevents1hbeforerentalend/overageDOUBLEHR. Citylive60BUSINESSdaysadvancevsoldFAQ60daysCONFLICT. ApprovedvendorsorNEWinsuranceREVIEW60daysbefore/noadditionalreviewfee;foodtruckpermitCOIrequirednotpreapprovedjustresource;selfcateringallowed/recommend7helpersper100. KitchenWARMINGNOrawcooking/outdoorcookingdesignatedpadapproval/extinguishers/noDEEPFRY/noPROPANErefill. BeerWINECHAMPAGNEonlywrittenapprovalinsurance/NOHARDLIQUOR/NOSALES/noREDWINEtomatobasedfoodinside. RenterCOI1Mperoccurrence2Maggregate/alcohol1M. CONTRACT30daysinsurancevsstandalone2weeksCONFLICT/vendorresource30BUSINESSdaysvsplanning30daysCONFLICT. HalfRENT+refundSECURITY+insurance+MANDATORYCITYJANITORfeeDUEbooking/remaining30days. JANITORbasicmaintenanceNOTEVENTcleanup/amountssecurityinsurancejanitorUNKNOWN/min50excesscleanup/32unreturnedbench. Applicant21ifalcohol18otherwise. 23reservedPARK+overflownotfreeguaranteedtransport. RentaldeliveriesSAMEday/ALLremovedbyend/earlystorage5x30possibleNOTsetup. OffpeakFAQNOtentsvscontractconditionaltentPERMITCONFLICT;max30x40unlikely100plus/nostakeswaterbarrels/60dayaestheticreview10BUSINESSemergencyweather/CitywrittenearlysetupnextdaypickupEXCEPTION. FireceremonysupervisedcontainedspecialAPPROVAL60daynotunrestricted. Heater2012scannedrulespermitfeesunknown/NOinsideTENT/tempstructures/balconies/clearance5ftcombustibles3ftopenings5ftexitdischarge. Amplifiedbelow90dB/noFOGsmoke/sparklersconfettiriceglitterballoonsdronesbouncyhouses/noordinarypetsSERVICEonly. StringsLIGHTSnosuspensionfromtreesbuilding/grassstakesprohibited. NOfoodbarfurnitureAVvendorpriceassumedincluded;mirrorarchuponrequestpeak. Cancel9mo10processing/9to6mo10%rent+10/6to3mo25%+10/<3mo50%+10/datechangesconditions/Citycancelreservationrefundnotvendorcost. Contractwrittenchanges30daysvsplanning10daydeadlineCONFLICT. NoapplicationSIGNEDSUBMITTED/noquoteaccepted.",
+      "rendered_evidence_sha256": "0b4c7d2bfd98dafb2c66031f5f72329467640f83ac25b59aeaa09d1aed3548f2",
+      "evidence_method": "Browser-visible DOM snapshot, retained separately from the static HTML source bytes"
+    },
+    {
+      "candidate_id": "directory-lead-65c42a7d08686f",
+      "original_pending_index": 478,
+      "checked_utc": "2026-11-12T16:37:26.351447+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "rosewood-sand-hill-menlo-park-san-mateo"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/rosewood-sand-hill",
+        "https://www.rosewoodhotels.com/en/sand-hill-menlo-park/events/weddings"
+      ],
+      "candidate_capture_sha256": "062c68d3e2a8aefc3976d66083ff2575c44813cdf3a701b3ce7407f366418fc0",
+      "operator_capture_sha256": "4a94fbe1be5807eef9294e3d7fc904748e76f7a14dc51f2ff42de948287e2692",
+      "reason": "NEW2825SandHillRoadMenloPark94025SanMateo/notSantaCruzCounty/notRosewoodCommonsPleasanton. WholemasterexactnameaddresssearchNOexistingmatch. ActualweddingANDpackagecompletebodiesREAD. Up300GENERICnot330dance/10000sqftOUTDOOR16ACRESnotsummedcapacity/terracesgardensBallroomPromenade/rehearsaldinneroptionalnotmandatory. WeddingSPECIALISTnotfreeindependentplanner. CurrentpackagesCOMINGSOON/TBDnoactualEverAfterpriceorallinquote. Accommodationshotelnotmandatoryguestbuyoutproven. Noformsfilled/unreadgeneralEventslimitsretained."
+    },
+    {
+      "candidate_id": "directory-lead-06da01b6689e25",
+      "original_pending_index": 479,
+      "checked_utc": "2026-11-12T16:37:26.351447+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "sf-city-hall-rotunda-san-francisco",
+        "sf-city-hall-mayors-balcony-san-francisco",
+        "sf-city-hall-fourth-floor-north-gallery-san-francisco",
+        "sf-city-hall-north-light-court-san-francisco",
+        "sf-city-hall-south-light-court-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/san-francisco-city-hall",
+        "https://sfcityhallevents.org/weddings/"
+      ],
+      "candidate_capture_sha256": "9ddda919f20582ecc0b6523dee54ca4aadb7c397bba054b9adc0922f9c3ff942",
+      "operator_capture_sha256": "ae1a7437c5a065ad888b5eb510d191d940e0ad84241653dd009377afda632cc6",
+      "reason": "ActualmainANDall3governmentpackagebodiesFULLREAD. OnehourFROM1200MonFri9–3/100TOTALMayorBalcony40SEATED60stand/FourthNorth60SEATED40stand/100standingoptional/NOT100dinner/noFOODBEVERAGE/noamplifiedorsinging/max2approvedACOUSTIC/woodchairs3.50Chiavari7.50EXTRA/securityINSURANCEincluded/officiantownNOlistrequired/handheldfloralsNOlistrequired/otherfloralapprovedvendor. 4weeksmin24monthsadvance/publicbuildingremainsopen/60minstrict. TwohourSat9–11or12–2FROM6000UPTO200/extraRENT4perpersonplusINSURANCE3perpersonMIN100foradditionalabove200/200WOODchairsincluded/Chiavariupgrade4each/securityinsuranceincluded/officiantown/2hINCLUDESloadsetupOUT/noequipmentAVprovided/approvedsoundvendor/outsideacousticmusicianapprovalpossible/plannerRECOMMENDEDnotrequired/3monthsMIN24monthadvance. EveningRotundaANDselectedLightCourtBUNDLED/notseparateroomrents/1–499ONEcourt12000/BOTHcourt1–99915000/1000–149917500/1500–199922500/2000–249927500/2500–300032500/above2000SPECIALapproval genericcountsNOTdinnerdancecapacities. MandatorySHERIFF10000–15000PLUSextra/insurance3guestMIN100CITYORownCOIWorkersCompPublicLiability1MPropertyDamage1M/PROWEDDINGPLANNERREQUIREDcannotguestfamilyfriend/ALLvendorsqualifiedlist/ALLtablechairsfoodbarAVlightingDECORextra/NOtrashreceptaclesorremovalALLwasteOFFSITEtypicallycaterer/licenseepermits. NorthLightaccess2PMother4PM/eventsMIDNIGHT/loadout2AM/earlierWeekdayROTUNDA1000HRLightCourt500HRPERROOM/weekendall500HR/laterGUEST5000HRloadout500HR+SheriffengineereventmanagerLABORextra/SETUPDAY50%baserent/approvalnotguaranteed. NOtuesdays/6monthsMIN2yearadvance/mandatoryvendorSITEvisit~6weeksbeforeMonThu11–2/flameANDonsitecookingpermitFIREWATCH/>500FireMarshallthroughout. Finalinvoice3weeks/fullpaid5days. Cancellationone/two6monthsfull/<6monthsdepositnonrefbutapplynewdatewithin12months/CHALLENGEbookingsNOrefundorreschedule. NoALLINtotalor330dancefitinvented/noformsfilled."
+    },
+    {
+      "candidate_id": "directory-lead-f8a8eea6e9fa94",
+      "original_pending_index": 480,
+      "checked_utc": "2026-11-12T16:37:26.351447+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "sequoyah-country-club-alameda"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/sequoyah-country-club",
+        "https://www.sequoyahcc.com/Default.aspx?p=dynamicmodule&pageid=146&ssid=100189&vnf=1"
+      ],
+      "candidate_capture_sha256": "83b44ffb230a4c25b39c58253e8b12a077de9031c9b56034fa576dfc618270e5",
+      "operator_capture_sha256": null,
+      "reason": "Currentnativebrowser72FULLweddingAXpageREAD ordinaryHTTProbotsunavailableRECOVEREDnormalbrowser.4550HeafeyRoadOakland94605explicitweddingsceremonyreceptionrehearsalwelcome/brunch. Indooroutdoor/flexrooms/inHOUSEcateringPLATEDBUFFETCOCKTAILBRUNCH/fullBARcuratedwinecocktails/complimentaryPARKING/eventteamtimelineroommenusbarcoordinationnotfreeindependentplanner. CurrentactualsiteNOcapacityNOpriceprinted;directory272SEATED/22202fullstarting/99offpeak12500minimumSECONDARYnotquote. ActualINQUIRYFORMfirstlastphoneemailDATEGUESTCOUNTtypecomments/reCAPTCHAexceedsFREEQUOTAmessage visible/unsubmitted/notproveformdeliveryworks/notbypass. PartyVenuepublishedseparatelinkUNREAD;loginNOTentered.",
+      "rendered_evidence_sha256": "41fe696976f851911738d7c63ee99afcc9ad5ecf41409c380d0bd58e55836869",
+      "evidence_method": "Browser-visible DOM snapshot, retained separately from the static HTML source bytes"
     }
   ],
-  "unreviewed_original_inputs": 27,
+  "unreviewed_original_inputs": 19,
   "municipal_searches_completed": 0,
   "complete": false,
   "scope": "Queue identity resolution is not full venue facts, exhaustive geographic discovery or permission for any event. Actual access/identity blockers remain separate from unreviewed work."

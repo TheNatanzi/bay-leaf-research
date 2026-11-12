@@ -1,15 +1,15 @@
 {
   "candidate_urls": 580,
-  "resolved_candidate_urls": 543,
-  "unresolved_candidate_urls": 37,
+  "resolved_candidate_urls": 551,
+  "unresolved_candidate_urls": 29,
   "review_counts": {
-    "reviewed_added": 298,
-    "reviewed_existing": 232,
+    "reviewed_added": 299,
+    "reviewed_existing": 239,
     "blocked": 10,
     "reviewed_supplier_not_venue_offer": 1,
     "reviewed_outside_scope": 9,
     "excluded": 3,
-    "pending": 27
+    "pending": 19
   },
   "complete": false,
   "scope_note": "Candidate-queue resolution only; even zero unresolved leads does not establish all venues discovered. Room counts and source downloads are not property coverage.",
@@ -5139,57 +5139,81 @@
       "candidate_id": "directory-lead-7282cf2ae84859",
       "name": "Oakland Museum of California (OMCA) Garden",
       "url": "https://www.bayareaweddings.com/vendor/oakland-museum-of-california-omca-garden",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "oakland-museum-of-california-garden-alameda",
+        "oakland-museum-of-california-peace-terrace-alameda",
+        "oakland-museum-of-california-town-fare-cafe-alameda",
+        "oakland-museum-of-california-james-moore-theater-alameda",
+        "oakland-museum-of-california-lillie-education-center-alameda"
+      ]
     },
     {
       "candidate_id": "directory-lead-893ef654fe4079",
       "name": "Oakland Scottish Rite Center",
       "url": "https://www.bayareaweddings.com/vendor/oakland-scottish-rite-center",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "oakland-scottish-rite-center-alameda"
+      ]
     },
     {
       "candidate_id": "directory-lead-624e4c9f7f50f1",
       "name": "Paradise Ridge Winery",
       "url": "https://www.bayareaweddings.com/vendor/paradise-ridge-winery",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "paradise-ridge-winery-santa-rosa-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-e0af9be9d6999d",
       "name": "Preservation Park",
       "url": "https://www.bayareaweddings.com/vendor/preservation-park",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "preservation-park-alameda"
+      ]
     },
     {
       "candidate_id": "directory-lead-7b968da0bd8879",
       "name": "Rengstorff House",
       "url": "https://www.bayareaweddings.com/vendor/rengstorff-house",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "rengstorff-house-santa-clara"
+      ]
     },
     {
       "candidate_id": "directory-lead-65c42a7d08686f",
       "name": "Rosewood Sand Hill",
       "url": "https://www.bayareaweddings.com/vendor/rosewood-sand-hill",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "rosewood-sand-hill-menlo-park-san-mateo"
+      ]
     },
     {
       "candidate_id": "directory-lead-06da01b6689e25",
       "name": "San Francisco City Hall",
       "url": "https://www.bayareaweddings.com/vendor/san-francisco-city-hall",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "sf-city-hall-rotunda-san-francisco",
+        "sf-city-hall-mayors-balcony-san-francisco",
+        "sf-city-hall-fourth-floor-north-gallery-san-francisco",
+        "sf-city-hall-north-light-court-san-francisco",
+        "sf-city-hall-south-light-court-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-f8a8eea6e9fa94",
       "name": "Sequoyah Country Club",
       "url": "https://www.bayareaweddings.com/vendor/sequoyah-country-club",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "sequoyah-country-club-alameda"
+      ]
     },
     {
       "candidate_id": "directory-lead-7b8316324aa6ad",
