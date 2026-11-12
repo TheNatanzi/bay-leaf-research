@@ -1,15 +1,15 @@
 {
   "candidate_urls": 580,
-  "resolved_candidate_urls": 519,
-  "unresolved_candidate_urls": 61,
+  "resolved_candidate_urls": 527,
+  "unresolved_candidate_urls": 53,
   "review_counts": {
-    "reviewed_added": 293,
-    "reviewed_existing": 213,
+    "reviewed_added": 294,
+    "reviewed_existing": 220,
     "blocked": 10,
     "reviewed_supplier_not_venue_offer": 1,
     "reviewed_outside_scope": 9,
     "excluded": 3,
-    "pending": 51
+    "pending": 43
   },
   "complete": false,
   "scope_note": "Candidate-queue resolution only; even zero unresolved leads does not establish all venues discovered. Room counts and source downloads are not property coverage.",
@@ -4917,57 +4917,73 @@
       "candidate_id": "directory-lead-9ce85fbbaaca41",
       "name": "Flood Mansion",
       "url": "https://www.bayareaweddings.com/vendor/flood-mansion",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "flood-mansion-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-dfa920716c38df",
       "name": "Fort Mason Center for Arts & Culture",
       "url": "https://www.bayareaweddings.com/vendor/fort-mason-center-for-arts-culture",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "fort-mason-center-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-760c96472a03da",
       "name": "Four One Nine",
       "url": "https://www.bayareaweddings.com/vendor/four-one-nine",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "four-one-nine-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-a94cbba0be2bcf",
       "name": "Garden Valley Ranch",
       "url": "https://www.bayareaweddings.com/vendor/garden-valley-ranch",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "garden-valley-ranch-petaluma-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-6fc36e7f906a71",
       "name": "Gloria Ferrer Winery",
       "url": "https://www.bayareaweddings.com/vendor/gloria-ferrer-winery",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "gloria-ferrer-caves-vineyards-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-9846bcda6db707",
       "name": "Golden Gate Club",
       "url": "https://www.bayareaweddings.com/vendor/golden-gate-club",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "presidio-golden-gate-club-golden-gate-club-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-e1523215715548",
       "name": "Gundlach Bundschu Winery",
       "url": "https://www.bayareaweddings.com/vendor/gundlach-bundschu-winery",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "gundlach-bundschu-winery-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-2a4def4f398641",
       "name": "Half Moon Bay Golf Links",
       "url": "https://www.bayareaweddings.com/vendor/half-moon-bay-golf-links",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "half-moon-bay-golf-links-san-mateo"
+      ]
     },
     {
       "candidate_id": "directory-lead-f977b3d6949012",

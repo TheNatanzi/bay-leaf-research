@@ -1,6 +1,6 @@
 {
   "audit_id": "discovery-backlog-20261111",
-  "updated_utc": "2026-11-12T15:51:52.321630+00:00",
+  "updated_utc": "2026-11-12T16:04:20.151825+00:00",
   "original_pending_candidates": 500,
   "reviewed_dispositions_applied": [
     {
@@ -8544,9 +8544,137 @@
       "candidate_capture_sha256": "4b6f39b655d6b40a64b2cbefb3d898b34b57ff8ee61a4d24fd969e57a3a9ed7f",
       "operator_capture_sha256": "6316ad21b82cdba63cc6e39cceae8cb71b4238cf8a32c4f1b988809035c87853",
       "reason": "NEWONEFiloli86CanadaWoodside;old/weddings404recovered/currentweddings/privateevents/partnersbodiesALLREAD. Twoactual2026six-pagePDFsALLTEXT;weddingp2capacityp3termsVISUAL. Buyoutfrom75000/SIXeventh5–11PM/webextend1AMPDFextend2AMadditionalUNPRICED/clockCONFLICTnotpromise2AM. Suite10AM–8PMweb/oneRoseGuildyear. Redwood20included+10max200each/twohours5000weekdays6000weekends/photoextra1h1000;Ballroom15+5max200each2h5000;Garden10+5max200each2h4000. ElopementsTURNKEYnoadditionaldecorrentalssetup/nonrefundableNONTRANSFERdate/toastNOTfulldinner. BallroomwebfirsthourceremonysecondphotosvsPDF2hceremonywithphotosscopeclarify. CurrentPDFseatedWoodland400/Bowling350/West500/Meadow1000+conditionalGENERALnot330danceapproved;standing800/500/800/1000+. Ballroom120/200;HouseCourt220/300;Pool120/200;Pavilion70/100;GardenHouse150/200;Sunken80/150;terracesNorthSouthBallroom150/200/Dining50/100/HighPlace50/100. Allnotadditive;PDFexplicitactualcapacitylayoutsetupdependent. EventsMeetingRoom120ROUNDS150standing/Vegetable30seat60stand/Cottage30seat40stand/Orchard1000+notweddingpackageautomatic. Foodbarstafftaxservice/requiredrestroomsecurityrentalsunpriced. PartnersEpicureanEXCLUSIVEonlyLectureVisitorCenter/tentexclusive labelsMULTIPLEHensleyBrightStandardneedclarify/vendorAVSoundImageGotLightImpactexclusiveBUYOUTWEDDINGSnotanyvendor. 10%parkingpartnerdiscountnotfreevalet, generalparkingADMISSIONincluded. General1500signatureprogrambuyoutnot1500seatedwedding. Corporateboardroom16from10000/Cottage25from7500MonThu8500FriSunNOTweddingrentalbudget. NoNoiseRestrictionsPDFoperatorclaimnotindependentlyverified/noacceptance."
+    },
+    {
+      "candidate_id": "directory-lead-9ce85fbbaaca41",
+      "original_pending_index": 449,
+      "checked_utc": "2026-11-12T16:04:20.151825+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "flood-mansion-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/flood-mansion",
+        "https://www.floodmansion.org"
+      ],
+      "candidate_capture_sha256": "df94a91bbbbb838ed04ef5293bf2e28e906de5d4bfd45b757b14c41f60a5f562",
+      "operator_capture_sha256": "63eccd4ee761c19f1c12a766d11f9e3c6b44866bc77d92c5cc08c456ac5ff454",
+      "reason": "Existing Flood Mansion2222BroadwaySF. Actual operator body plus all24brochurepages VISUALLYread.165SEATEDmainfloor/299standing;200ceremonytheater NOT200dinner. Rentalfrom14750/50%rental+REFUNDABLEdamage deposit amountunknown;balanceandCOIone monthbefore. LowerleveladditionalFEEunknown. FriSatguestexit22:30/other21:30/vendors90minlater NOTmidnightguestpermission. RentalGrandHall+ballroomwithbuiltindancefloor+courtyard;165dinnerdoesnotautomaticallyprove165danceplan. Foodbarstafftaxinsuranceamountunpublished;vendoradsnotprices. Actual24JPEGpageoriginalsprivatelySHAarchived,notPDF."
+    },
+    {
+      "candidate_id": "directory-lead-dfa920716c38df",
+      "original_pending_index": 450,
+      "checked_utc": "2026-11-12T16:04:20.151825+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "fort-mason-center-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/fort-mason-center-for-arts-culture",
+        "https://fortmason.org"
+      ],
+      "candidate_capture_sha256": "686f4ccf0b974570b2bce4ee1fa07de70a73c799200d3fd61e02104638013b10",
+      "operator_capture_sha256": "b0f2c2f6ca490e617f8277a224f7df86168bce4f8c01de503f004ad744c33259",
+      "reason": "Existing FortMasonONEcampus. Actualhomefullbodyread confirms weddings/events,1.5millionannualVISITORSnotcapacity. Priorbatch18actualvenues+weddingbodies and15originalPDFscopedreviews REUSEDunchangedexactsourceSHA,notrepeatedfullaudits. CampusroomGatewayPavilionGallery308CowellStorehouseFirehousemeetingrooms retainedseparate layoutsnotnewparents. No new publishedwholeweddingquote;directory4200–13000notcurrentoperatorprice."
+    },
+    {
+      "candidate_id": "directory-lead-760c96472a03da",
+      "original_pending_index": 451,
+      "checked_utc": "2026-11-12T16:04:20.151825+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "four-one-nine-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/four-one-nine",
+        "https://www.fouronenine.com"
+      ],
+      "candidate_capture_sha256": "e71f5d3fe8b9e720d9b9b2cfebd830813d500888b2d2724a9cd15b069f49f2d3",
+      "operator_capture_sha256": "fa7fdaf94327d6cee64033563924f9107e978499bf0db3ba82c1a05956c09912",
+      "reason": "Existing FourOneNine41910thSF. Currenthomebodyread/priorcompletekeyword28weddingpricing+2026ninepagePDFscopedreviewREUSEDexactsourceSHA.150seatedmaingallery/75standingupstairsnot225dinner;general200–250notdinner. General6hminimum1000hour,40personupstairsMonThu2h2000microEXCEPTION. Wedding1000hourwholevenue/full-dayminimumunknown. Twoeventmanagers65EACHhour,clean250admin250;AVapprovedoperatorrequiredextra. Labor8–12h1.5X/>12h2X/studioOT1.5X;loadinday5000up6h+manager. Nofoodbarminimum/ownvendors;16furniturechairsnot150. OnlyfirstfloorADA. PDFsmallstoragevswebNOstorage/cancel30dayboundaryconflictsretained. LinkedoverviewfloorplanparkingPDFsUNREAD."
+    },
+    {
+      "candidate_id": "directory-lead-a94cbba0be2bcf",
+      "original_pending_index": 452,
+      "checked_utc": "2026-11-12T16:04:20.151825+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "garden-valley-ranch-petaluma-sonoma"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/garden-valley-ranch",
+        "https://gardenvalley.com/pages/weddings-events"
+      ],
+      "candidate_capture_sha256": "cef3bc88d59e4b1f3a2c378ab9a7378a2a55da5a0fbacd4e5b0cbd26ee156a52",
+      "operator_capture_sha256": "8bff0b5e4e86c4d6d83490278343f6c1c222c6d073787de8471b63932e315d66",
+      "reason": "Existing GardenValleyRanch498PepperPetaluma. Olddirectorydomainfails;recoveredcurrentgardenvalley.com/weddings-events alreadykeyword21reviewed;actual2026brochure14pALLTEXT/priceandtwoFAQpagesVISUAL REUSEDnotnewaudit.12h50people5500/1008500/15010500;2hCEREMONYONLY2500/4000/4500NOTreception. Comfortable150/setup10AM/musicOFF9PM/ALLguestsANDvendorsdepart10PM. RequiredDAYOFcoordinator/approvedcatererorpriorWRITTENexception. OwnalcoholINCLUDINGliquor/noVENUEcorkage/requiredLICENSEDserviceviacatererextraunknown. NovApriloffseasondiscountamountunknown/rehearsaldinnerseparate. Bistrolights2physicalbarsrosesforfloralsincludednotfreealcohol/floraldesign. Cottagesleeps2notprice/inclusion;ZIP94592vs94952conflictretained."
+    },
+    {
+      "candidate_id": "directory-lead-6fc36e7f906a71",
+      "original_pending_index": 453,
+      "checked_utc": "2026-11-12T16:04:20.151825+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "gloria-ferrer-caves-vineyards-sonoma"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/gloria-ferrer-winery",
+        "https://www.gloriaferrer.com/weddings"
+      ],
+      "candidate_capture_sha256": "196844b696a39be06a229c6d8fcf3b75f29678127286e28c267138aeead1ae22",
+      "operator_capture_sha256": "d6d60c4e8de1ddd93bb0d0fef9413685148099b911da0341f46c5f6bd29c623c",
+      "reason": "Existing GloriaFerrer23555ArnoldSonoma95476. Actualwedding/privateevents/visitationFAQallread. Wedding30–120GENERICnotdirectory150–300. TastingRoom/VistaPavilionceremony/VistaTerracereception noapproveddancecapacity. Publictastings21+EXCEPTseasonalAlFrescoAprOctSatSunPavilionOakGroveallages;PRIVATEWEDDINGminorpolicyUNKNOWNnotautomaticban. Outsidetastingfoodbeverageprohibitionnotautomaticweddingcatererban;publicdogsAlFrescoonly/privateexceptionsunknown. Public60–90mintasting/24hcancelvariablefee/10–5notweddingterms. Currentrentfoodbarmincurfewunpublishednotdirectory4000–12000quote."
+    },
+    {
+      "candidate_id": "directory-lead-9846bcda6db707",
+      "original_pending_index": 454,
+      "checked_utc": "2026-11-12T16:04:20.151825+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "presidio-golden-gate-club-golden-gate-club-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/golden-gate-club",
+        "https://presidio.gov/venues/golden-gate-club"
+      ],
+      "candidate_capture_sha256": "f9c2a5e982a561a7d4ac2811debfbd6800e4908d032964540882eb487ed6d1cd",
+      "operator_capture_sha256": "be4079965eeba0d86c471bd84774bd05c662bc6bd95999dcc891176543c48bc3",
+      "reason": "ExistingGoldenGateClub135FisherLoopSF. GovernmentprimaryandcurrentWedgewoodbodyALLREAD;CURRENT2027BYO107pp/Classic122/Premier162/Elite187+ceremonyfrom2495+venuefrom4995+22%ADMIN+TAX/minimumamountunknown. ClassicnohostbarpriorFAQscope/Premieropenbar/Elitetopshelfextendedpartyphotoboothpackageconditionsnotuniversal.300GENERICnot300dinnerdance. PresidioChapelSEPARATEceremonyfacility/inclusionneedsconfirmation. Previous2026versionretainednotquietlyoverwrite. ParkingkitchenAVAVAILABLEnotnecessarilyfree. StonetreeOfficersLogCabinrecommendedOTHERpropertiesnotadditionalclubrooms."
+    },
+    {
+      "candidate_id": "directory-lead-e1523215715548",
+      "original_pending_index": 455,
+      "checked_utc": "2026-11-12T16:04:20.151825+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "gundlach-bundschu-winery-sonoma"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/gundlach-bundschu-winery",
+        "https://www.gunbun.com/sonoma-gundlach-bundschu-wedding/"
+      ],
+      "candidate_capture_sha256": "d85f1596f6f71841db83406806fd1fa2ba1760096d38281b3f9f9ff5e358dd6e",
+      "operator_capture_sha256": "a240a904d9788ef36ba5f4d6ddcd0974f06b923bb29e9927247b84a1616f6228",
+      "reason": "Existing GundlachBundschu2000DenmarkSonoma95476. Oldvisit/eventsactuallyredirectsLEGALWAIVERreadNOTaccepted/notprivateeventpricing. Currentprivateevents/wedding/visitorFAQallreadexplicitweddingsyearround. SipChill15minimumnotweddingmin;3hEVENINGCOCKTAILPicnicArbor notallweddingduration.150acrevs320acrepropertyscopeconflictnotcapacity. No currentprimarywedding13000fee/Overlookcapacityverified. Publicallages/tours12minimum/children50%tournotweddingdiscount. Dogstastingsnotconcerts/tours/privateeventexceptionunknown;noPUBLICpicnicnotweddingcatererban. Tastingtable8/15mingrace/48hcancel/publichoursnotprivateeventcurfew."
+    },
+    {
+      "candidate_id": "directory-lead-2a4def4f398641",
+      "original_pending_index": 456,
+      "checked_utc": "2026-11-12T16:04:20.151825+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "half-moon-bay-golf-links-san-mateo"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/half-moon-bay-golf-links",
+        "https://www.halfmoonbaygolf.com/weddings"
+      ],
+      "candidate_capture_sha256": "f4af86c2922649a681b81f4ddb9a70ded479253fc8a44105f1245b45f58e220b",
+      "operator_capture_sha256": "3d8f9a6ba2a2c0af000cfd261ad9613767ed4512c631885b309a42b84e943de0",
+      "reason": "NEWseparateHalfMoonBayGolfLinksTwoMiramontesPointRoadHalfMoonBay94019 confirmedactualofficialcontactbody. Currentweddingbody100–400GENERIClarge weddings/ceremonyreceptionorreceptiononly/layoutdancecapacityunverified. NearbyRitzatOneMiramontesisSEPARATEhotel/notincludedlodging/notmergebysharedview. CurrentSalesManagerHollySkoufosversusdirectoryoldKelseycontact;doNOTinventmaskedemail. InhouseSpecialEventManagerWeddingCoordinatoroffered/feeandfullplanningscopeunknown. Seasonvarypricingunpublished/AdobeGallerynotpricingpacketUNREAD. Weddinginquiryselflinkpossiblyembeddedformnotfilled/submitted."
     }
   ],
-  "unreviewed_original_inputs": 51,
+  "unreviewed_original_inputs": 43,
   "municipal_searches_completed": 0,
   "complete": false,
   "scope": "Queue identity resolution is not full venue facts, exhaustive geographic discovery or permission for any event. Actual access/identity blockers remain separate from unreviewed work."
