@@ -89,10 +89,17 @@
 
 ## Still unfinished
 
-- **290 candidate URLs awaiting final disposition**, **7 unresolved physical-identity blockers**, and remaining authorities/source families within **110 partially reviewed local workstreams**.
+- **256 candidate URLs awaiting final disposition**, **7 unresolved physical-identity blockers**, and remaining authorities/source families within **110 partially reviewed local workstreams**.
 - Complete costs, mandatory lodging, approved dinner/dance layouts, independent cutoffs, history and defensible valuations.
 - Some documents are blocked or inquiry-only. Six county pages were readable through standard web search, but direct archival collection was held at the robots check; no raw download success is claimed.
 - Three caterer leads remain unresolved: Storek's operator redirect, Legion of Honor's blocked primary page, and City Hall's robot-verification hold. Other linked floor plans, brochures and technical appendices remain explicitly unreviewed.
 - Live Pages interaction remains blocked by saved browser permissions. Data tests and GitHub Pages build verification are recorded separately.
 
 [Detailed follow-on receipts and sources](research-backlog-progress.json) · [Candidate queue](directory-candidates.json)
+
+
+## Six Little Hills documents actually reviewed — November 12
+
+All 65 displayed pages across the [operator-linked FAQ, brochure, planning guide, catering menu, rental catalog and 2027 vendor list](https://www.littlehillsevents.com/weddings) were read. Published 2026 buffet is /person and includes dinnerware and linens; bartenders are  each, with more required above 150 guests but no stated staffing ratio. The planning guide lists  per 100 guests for outside-catering onboarding, distinct from the FAQ’s refundable  damage cash; partial-hundred rounding is unknown. A ,250 manager/coordinator allocation and  extra planning hour are published, with package inclusion unresolved. The 2027 vendor guide explicitly requires a listed DJ.
+
+These are scoped components, **not an all-in quote**: service fee, current tax, vendor-policy supersession and approved dinner/dance capacity remain unresolved. Payment-card and child-price terms conflict between documents. Selected page-review notes and original viewer HTML are archived privately; no complete original PDF export is claimed. This completes these six document reads, not the venue census or all search-result review.
