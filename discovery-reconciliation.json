@@ -1,15 +1,15 @@
 {
   "candidate_urls": 580,
-  "resolved_candidate_urls": 511,
-  "unresolved_candidate_urls": 69,
+  "resolved_candidate_urls": 519,
+  "unresolved_candidate_urls": 61,
   "review_counts": {
-    "reviewed_added": 291,
-    "reviewed_existing": 207,
+    "reviewed_added": 293,
+    "reviewed_existing": 213,
     "blocked": 10,
     "reviewed_supplier_not_venue_offer": 1,
     "reviewed_outside_scope": 9,
     "excluded": 3,
-    "pending": 59
+    "pending": 51
   },
   "complete": false,
   "scope_note": "Candidate-queue resolution only; even zero unresolved leads does not establish all venues discovered. Room counts and source downloads are not property coverage.",
@@ -4845,57 +4845,73 @@
       "candidate_id": "directory-lead-2cf57cb4b9ed30",
       "name": "Cornerstone Sonoma",
       "url": "https://www.bayareaweddings.com/vendor/cornerstone-sonoma",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "cornerstone-sonoma-event-venue-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-3634b0d57c015c",
       "name": "Dunsmuir Hellman Historic Estate",
       "url": "https://www.bayareaweddings.com/vendor/dunsmuir-hellman-historic-estate",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "dunsmuir-hellman-historic-estate-oakland-alameda"
+      ]
     },
     {
       "candidate_id": "directory-lead-74a61f03f82e62",
       "name": "Elizabeth F. Gamble Garden",
       "url": "https://www.bayareaweddings.com/vendor/elizabeth-f-gamble-garden",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "elizabeth-f-gamble-garden-palo-alto-santa-clara"
+      ]
     },
     {
       "candidate_id": "directory-lead-9c2b3e4f3a884f",
       "name": "Fairview Crystal Springs",
       "url": "https://www.bayareaweddings.com/vendor/fairview-crystal-springs",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "fairview-crystal-springs-san-mateo"
+      ]
     },
     {
       "candidate_id": "directory-lead-5d362fa2d8488b",
       "name": "Fairview Napa",
       "url": "https://www.bayareaweddings.com/vendor/fairview-napa",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "fairview-napa-napa-golf-course-streblow-napa"
+      ]
     },
     {
       "candidate_id": "directory-lead-df2df48fd07f5d",
       "name": "Farmstead at Long Meadow Ranch",
       "url": "https://www.bayareaweddings.com/vendor/farmstead-at-long-meadow-ranch",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "farmstead-at-long-meadow-ranch-st-helena-napa"
+      ]
     },
     {
       "candidate_id": "directory-lead-57c78b5c634f69",
       "name": "Ferry Building",
       "url": "https://www.bayareaweddings.com/vendor/ferry-building",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "ferry-building-grand-hall-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-b05ba710fd04f2",
       "name": "Filoli Historic House & Garden",
       "url": "https://www.bayareaweddings.com/vendor/filoli-historic-house-garden",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "filoli-historic-house-garden-woodside-san-mateo"
+      ]
     },
     {
       "candidate_id": "directory-lead-9ce85fbbaaca41",

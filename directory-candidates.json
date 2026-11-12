@@ -2,8 +2,8 @@
   "summary": {
     "checked_utc": "2026-10-26T13:28:51.955107+00:00",
     "candidate_urls": 580,
-    "candidate_urls_with_exact_match": 498,
-    "candidate_urls_without_exact_match": 82,
+    "candidate_urls_with_exact_match": 506,
+    "candidate_urls_without_exact_match": 74,
     "source_counts": {
       "moderndjs": {
         "raw_named_cards": 361,
@@ -53,16 +53,16 @@
     },
     "added_venue_records": 0,
     "note": "Candidate URLs are not a venue count. Old source collection counts retain their original dates; followup state counts are current. Fragment-only links merged; names/URLs are aids, not automatic reviews. Original added_venue_records=0 describes index-only ingestion; primary_followup_records_added is separate.",
-    "primary_followup_records_added": 295,
-    "followup_checked_utc": "2026-11-12T15:43:56.435637+00:00",
+    "primary_followup_records_added": 297,
+    "followup_checked_utc": "2026-11-12T15:51:52.321630+00:00",
     "current_review_counts": {
-      "reviewed_added": 291,
-      "reviewed_existing": 207,
+      "reviewed_added": 293,
+      "reviewed_existing": 213,
       "blocked": 10,
       "reviewed_supplier_not_venue_offer": 1,
       "reviewed_outside_scope": 9,
       "excluded": 3,
-      "pending": 59
+      "pending": 51
     }
   },
   "candidates": [
@@ -15982,13 +15982,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "cornerstone-sonoma-event-venue-sonoma"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_existing",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/cornerstone-sonoma#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T15:51:52.321630+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/cornerstone-sonoma",
+        "https://cornerstonesonoma.com/weddings"
+      ],
+      "review_reason": "ExistingCornerstone23570ArnoldSonomaONEphysicalproperty. Actualwedding/venuesbodiesREAD. Peakweekday4000FriSun8000Sat13000;lowweekday3500FriSun7500Sat9500;seasonMONTHSnotgivenprimary/directoryMayOctnotverified.6hVENUEaccess+1hpriorrehearsal/privateweddingsuite/outdoorceremony/200paddedwoodchairs20round66tables/custombarGLASSWARE/sailclothdiningtentLIGHTS/LilyLawn/GardenBarnPatio/signage/2firepits8Adirondack2barrelbars included. BaralcoholfoodstafftaxserviceF&Bminunknown/exclusiveINHOUSEcaterer requirednotbare-rentallin. Generic300+eventcapacitynot330dinnerdance/200chairsnotmaxapproval. HarrowBarnoutboundisSEPARATEpropertyalreadythe-barn-at-harrow-cellars-sonoma/notadditionalCornerstoneroom/branchreviewpendingcurrentconditions.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-3634b0d57c015c",
@@ -16006,13 +16015,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "dunsmuir-hellman-historic-estate-oakland-alameda"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_existing",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/dunsmuir-hellman-historic-estate#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T15:51:52.321630+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/dunsmuir-hellman-historic-estate",
+        "https://dunsmuirhellman.wordpress.com/wedding-packages/"
+      ],
+      "review_reason": "ExistingnamedDunsmuirHellmanEstateOAKLANDONEproperty. ActuallegacyWordPressweddingbodyREAD:SouthPondPavilion300–500generic/MansionLawnPavilion200generic/MeadowCanopy4500CONCERTFESTIVALgeneralnot4500dinner/Carriageinside60outside200generic. Copy114yearoldmansionundatedhistoricalnot2026effective;citycurrentrentalrouteHTTPerror/ordinaryweb403,searchcachedsnippetnotfullsourceverification. DoNOTadoptdirectory927–6386ascurrentfeesnorinterpretweekdaypavilionpriceasoffseasonwholewedding. CurrentmunicipalratePDFnotretrievedreviewedhere/bookingtermsremainuncleared. Priorprofile6identitymatchedretainednotnewproperty.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-74a61f03f82e62",
@@ -16030,13 +16048,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "elizabeth-f-gamble-garden-palo-alto-santa-clara"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_existing",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/elizabeth-f-gamble-garden#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T15:51:52.321630+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/elizabeth-f-gamble-garden",
+        "https://www.gamblegarden.org/weddings-rentals/weddings/"
+      ],
+      "review_reason": "Existing1431WaverleyPaloAltoONEhalf-gardenrental. Actualweb+rate1p+contract14p+vendor5pALLTEXTread;rateVISUAL/contractp13rentalmapVISUAL.2026rates6hAprOct2100NovMar1800/8h28002400TOTALinclsetupcleanup/siteSUPERVISORnotservingstaff/planner. Rate9AM–10PMMonSun except2ndSat8AM–2PM versuscontractSatnoon2ndSat1PMSun1PMweekdays4PM historical2023internalstamps/current2026filenameCONFLICT;WisteriaNovMayapprovalvscontractafterMay1restrictionretain.50TOTALinclcouplepartychildren>18months not50plusparty;Carriage35seated50stand/patio50seat/Tea10seatedstand/patio40seat/all50combinednotadditive. Contract1000SECURITYDEPOSITconditionallyreturn3weeks;fullsitepaymentcontractdue;COIrequirednonrefundHUBvsweballowsotherprovider/cancelclauseinsuranceRETURNcontradiction. ChairsoptionalChiavari10eachmax50/50blackplastic100/alltables100/linenrenter/setupcleanrenter;rehearsal150oneh/getreadyhouse150/mainhouseaccess300hour. OvertimeAprOct300/hourNovMar275until10PM;after10PM800PENALTYNOTpermission. AllpeopleCLEANUPVACATE10PM/guests9PMsample2–10block. Owncatererpreferrednotmandatorylist/outlistCOIshealthdocs2monthsahead/selfcateringexplicitrules. HARDLIQUORNO/beerwineonlylicensedinsuredcaterer/nooutdoorgrillBBQpizza/frying/dishwasherunavailable. NOAMPLIFICATION/DJ/recordedmusic/speakers/microphones;ONLYapprovedlistacousticsoftmusic/dancingoutdoorbrickpatios. TentawningNOexceptreligioushandcanopy/treesdecorfine300p5vs500p6CONFLICT/notquietlychoose. Treesnothinghung/nohelium/noanimalexceptservice/noindoorkeg. PapercontractreadNOTsigned/submitted.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-9c2b3e4f3a884f",
@@ -16054,13 +16081,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "fairview-crystal-springs-san-mateo"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_existing",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/fairview-crystal-springs#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T15:51:52.321630+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/fairview-crystal-springs",
+        "https://www.fairviewevents.com/crystal-springs"
+      ],
+      "review_reason": "ExistingFairviewCrystalSpringsONEproperty; exactSHAe9a3d43..dca39 unchangedfromcompletekeyword19source/PDF26–27audit REUSEDnotnewaudit. Currentdirectorygeneric105pp/ceremonyinclusionambiguous;prioractualoperatorcomponentfees/packages/22%service+tax/currentcapacityconflicts retained notoverwritefromsecondary. Weddingpackage marketingallinclusiveNOTguaranteedallinamount. Noadditionalparent/room.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-5d362fa2d8488b",
@@ -16078,13 +16114,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "fairview-napa-napa-golf-course-streblow-napa"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_existing",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/fairview-napa#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T15:51:52.321630+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/fairview-napa",
+        "https://www.fairviewevents.com/napa"
+      ],
+      "review_reason": "ExistingFairviewNapa2295StreblowNapaGolfCourseDISTINCTFairviewChardonnay2555JamesonAmericanCanyon. ExactSHA614f72c..c2456 unchangedpriorcompletekeyword19+infoNapa20REUSEDnotnewaudit. Directory2025–26rates103–163/2300ceremony1800courtyard/15or25Satfacility/22%servicewording retainedSECONDARY only;actualpriorversion26–27reviewtakesprecedence. DoNOTclaim22%alreadyincludedifprioroperatoradditionrequired;noinventnewallin.225genericweddingvs200privateeventlayoutscope.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-df2df48fd07f5d",
@@ -16102,13 +16147,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "farmstead-at-long-meadow-ranch-st-helena-napa"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_added",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/farmstead-at-long-meadow-ranch#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T15:51:52.321630+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/farmstead-at-long-meadow-ranch",
+        "https://www.longmeadowranch.com/weddings-functions/weddings-events/"
+      ],
+      "review_reason": "NEWONEFarmstead738MainStHelenaNapa distinctMountainEstate/Rutherford/AndersonValleyoperatorbranchesnotautomaticweddingvenues. Currentprimaryheadline250WEDDINGvsolderpackagebody300/lawn300CONFLICT.12linkedoriginalPDFsALLTEXT/unique4floorplansVISUAL+packageVISUAL. Lawn300ROUNDS500standing300theater/Patio40ROUNDS150standing40theater/Barn64ROUNDS175standing100theater/Potting16conference30standing+primary16intimatedinner;notadditive/not330danceapproval. Classicpackage30minrehearsal/menutasting/bridalsuite/lights/votivesnapkinsprintedmenusfurnitureplace/settings;Farmsteadaddswoodfarmtablescrossbacks/gift/suitebottle/gamesupto6umbrellas. AV/gamesforCLASSIC/smores/runners/bonfireoptionalnotfree;packageALLfeesunpriced. LunchDinnerfamilymenus1salad2mains2sides1dessert/rollscoffeeicedteaincluded;LiveFire80MINappliesthatmenuonlynotallweddings. Oysterperpiece+CHEFATTENDANTextraunpriced. WinePDFNOOUTSIDEWINE/2casesminimumforWINESNOTLISTEDnotallpackagesalcoholminimum. Linked2021/2023filenamesnotassumed2026price/noneactualfoodbarfeeamountsprinted. TwoLawnmapURLsSAMEBYTESreuseonevisualnot2uniqueplans.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-57c78b5c634f69",
@@ -16126,13 +16180,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "ferry-building-grand-hall-san-francisco"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_existing",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/ferry-building#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T15:51:52.321630+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/ferry-building",
+        "https://www.ferrybuildingmarketplace.com/venue-rental-events/"
+      ],
+      "review_reason": "ExistingFerryBuildingGrandHallONEspace/OneFerrySF, notnewphysicalpropertyforcalendar. Priorprofile34completeactualvenuebodyexactSHA7fd21ee..c5ee reusednotnewaudit. Current/eventsbodyREADPUBLICcalendar/corporatepartnershipnotprivateweddingpricing. Directory5–12.5knotnewverifiedoperatorquote. ExistingSHACK15Suite201separateoperatorinsideSAMEphysicalbuildingretained/notGrandHallrentalcapacityextension. Noaggregatephysicalcapacity/newduplicateoutreach.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-b05ba710fd04f2",
@@ -16150,13 +16213,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "filoli-historic-house-garden-woodside-san-mateo"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_added",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/filoli-historic-house-garden#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T15:51:52.321630+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/filoli-historic-house-garden",
+        "https://filoli.org/private-events/weddings/"
+      ],
+      "review_reason": "NEWONEFiloli86CanadaWoodside;old/weddings404recovered/currentweddings/privateevents/partnersbodiesALLREAD. Twoactual2026six-pagePDFsALLTEXT;weddingp2capacityp3termsVISUAL. Buyoutfrom75000/SIXeventh5–11PM/webextend1AMPDFextend2AMadditionalUNPRICED/clockCONFLICTnotpromise2AM. Suite10AM–8PMweb/oneRoseGuildyear. Redwood20included+10max200each/twohours5000weekdays6000weekends/photoextra1h1000;Ballroom15+5max200each2h5000;Garden10+5max200each2h4000. ElopementsTURNKEYnoadditionaldecorrentalssetup/nonrefundableNONTRANSFERdate/toastNOTfulldinner. BallroomwebfirsthourceremonysecondphotosvsPDF2hceremonywithphotosscopeclarify. CurrentPDFseatedWoodland400/Bowling350/West500/Meadow1000+conditionalGENERALnot330danceapproved;standing800/500/800/1000+. Ballroom120/200;HouseCourt220/300;Pool120/200;Pavilion70/100;GardenHouse150/200;Sunken80/150;terracesNorthSouthBallroom150/200/Dining50/100/HighPlace50/100. Allnotadditive;PDFexplicitactualcapacitylayoutsetupdependent. EventsMeetingRoom120ROUNDS150standing/Vegetable30seat60stand/Cottage30seat40stand/Orchard1000+notweddingpackageautomatic. Foodbarstafftaxservice/requiredrestroomsecurityrentalsunpriced. PartnersEpicureanEXCLUSIVEonlyLectureVisitorCenter/tentexclusive labelsMULTIPLEHensleyBrightStandardneedclarify/vendorAVSoundImageGotLightImpactexclusiveBUYOUTWEDDINGSnotanyvendor. 10%parkingpartnerdiscountnotfreevalet, generalparkingADMISSIONincluded. General1500signatureprogrambuyoutnot1500seatedwedding. Corporateboardroom16from10000/Cottage25from7500MonThu8500FriSunNOTweddingrentalbudget. NoNoiseRestrictionsPDFoperatorclaimnotindependentlyverified/noacceptance.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-9ce85fbbaaca41",
