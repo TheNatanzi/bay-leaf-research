@@ -1,6 +1,6 @@
 {
   "audit_id": "discovery-backlog-20261111",
-  "updated_utc": "2026-11-12T12:07:53.778587+00:00",
+  "updated_utc": "2026-11-12T12:24:23.663178+00:00",
   "original_pending_candidates": 500,
   "reviewed_dispositions_applied": [
     {
@@ -6197,9 +6197,42 @@
       "candidate_capture_sha256": "d78f0d9ed9600e58ec06a8e6db4bf781d0b478b00913953cce49274e41dbfce4",
       "operator_capture_sha256": "b299c95fff7ab61fbab91b58ae0f7e1061235406e6f2eff7ceac58c8e080a99a",
       "reason": "Entire SFUVA/current LiveNation full relevant body+FAQ/actual original2pageone-sheet and3pageimagefloorplan read, ALLthree planpages visually checked as Ballroom/BalconyBar/PosterRoom/SF, not wrong-property map. Existing1805Geary oneproperty not each room. Current raw chartBallroom700reception200banquet400theater,Poster100/70/80,Balcony50standing vs current bodyBallroom800generic250seated/Poster100/Balcony100 and brochure800/250/500,Balcony100; conflict unresolved notpicklargest. Directory200banquet400theater800reception not330dinnerdance. Worldclass artists/production/AV/catering available unpriced, notfree entertainment; conditionalconfettipromotionnotrequiredfee. Formpersonalcontact+eventdate/guests/type/captcha reviewed,noentry. Current fullprices/music/bar/cleanupunknown."
+    },
+    {
+      "candidate_id": "directory-lead-090bd9993672ac",
+      "original_pending_index": 177,
+      "checked_utc": "2026-11-12T12:14:30.432526+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "gold-bar-distillery-treasure-island-interior-configuration-san-francisco",
+        "gold-bar-distillery-treasure-island-interior-plus-outdoor-configuration-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.sfuva.com/gold-bar-distillery-treasure-island",
+        "https://goldbarwhiskey.com/pages/private-events"
+      ],
+      "candidate_capture_sha256": "ec3081c372a64b698c847d33564bfaf8b07cffcb59cca560a9669e2a59562910",
+      "operator_capture_sha256": "ea344e818b62c673140eee9e89ba9a172220100c2416366422f9e8e4d7aad84c",
+      "reason": "FullSFUVA/currentprimaryfullbody/FAQsread; originalpublishedDrivefolderslistedand16actualPDForiginalsdownloaded byte-count/SHAverified.12uniquePDFhashes:fourfloorplanfiles7IMAGEpagesactuallyviewed;twofivepagerulesREAD;threepageequipment/onepagevendor/onepageCOI/onepageclass/onepageactivations/twopagevehiclesread;fourexactduplicatePDFsreusehashreadnotnewdocumentreview. TWOdistinctphysicalsitesTreasureIsland1AvenuePalms167andAlameda2505Monarch22 alreadyrepresentedbyfourconfigurationrows;sharedoperatornotmergedphysicalproperty and no newroomlead. FloorplansCONFIDENTIALlegendretainedPRIVATE/notpublished/copiedlayoutorassumedseatcounts. CurrentwebTI5000generic/Alameda5000cardsvs10000FAQ/dirTI450indoor1450combinedSEATEDnot5000dinner/currentapprovedlayoutunknown. Mandatoryclientpaidfirepermits/firewatchmin4hstarting1hprior,rateunknown. TIprepKitchenwrittenpermissionvsAlamedaNONE/outdoorcaterertent/equipmentextra.500garbageremovalconditionalcancreditedifclientarranges,notbothfeeandpenaltyautomatically;100peritemremoval/100dailyunclaimedstorageconditional. Nooutsidecleaningcrew/priornextdayloadextra/contracthoursunknown. Inventory296chairs40roundtables/onlytastingroomfurnitureexplicitincludedbuyout;notallinventoryfree. COI1mperocc2maggregate5mumbrellaonTIpublishedrequirements,costunknown/notcopiedtoAlameda. PreferredvendorsNOTmandatoryexclusive;currentoutsidecateringonlycertaintypesnotblanketfree. Optionalcocktailclass49weekday69weekendunitnotexplicit/over30buyoutrequired;18ppbarrelpulls/bottlesengravingextra NOTmealpackage. Nopublicfullrent/barprice/independentmusicclocks."
+    },
+    {
+      "candidate_id": "directory-lead-846f267b729bfa",
+      "original_pending_index": 174,
+      "checked_utc": "2026-11-12T12:24:23.663178+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "fort-mason-center-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.sfuva.com/fort-mason-center-for-arts-and-culture",
+        "https://fortmason.org/venues/"
+      ],
+      "candidate_capture_sha256": "f841d38dd3867f1115b8249d9ab829050cc9585d9a01c7ce544b8ecf5e23ff7a",
+      "operator_capture_sha256": "462bfde2e12e2b574fe38186f09fba33ad390c59f1c89bb60ea3c88734b5f10c",
+      "reason": "Actual full SFUVA and primary room/wedding/vendor/form pages read;15 original PDFs text-reviewed with original bytes and hashes, selected floorplan/inventory/appendix images inspected. Existing ONE lower-campus property with nested rooms, no duplicate venue per room. Preserve room/layout-specific capacities, dated2019/2024/2025/2026 conflicts, required client-paid labor/electrical/cleaning and optional AV/furniture costs. PDFs archived privately and readback SHA verified. Request PDF requires email; live online submission capability remains unverified. General Residence UpperFortMason not silently merged. No current all-in rent or approved dinnerdance inferred; no contract/form sent."
     }
   ],
-  "unreviewed_original_inputs": 194,
+  "unreviewed_original_inputs": 192,
   "municipal_searches_completed": 0,
   "complete": false,
   "scope": "Queue identity resolution is not full venue facts, exhaustive geographic discovery or permission for any event. Actual access/identity blockers remain separate from unreviewed work."

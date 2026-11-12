@@ -43,7 +43,7 @@ for(const receipt of applications){
  }
  assert(receipt.source_urls.every(u=>c.review_source_urls.includes(u)));
  if(receipt.state==='blocked'){assert(receipt.blocker_kind);assert(!receipt.record_ids.length);}
- else{assert(receipt.operator_capture_sha256 || (/^[a-f0-9]{64}$/.test(receipt.reader_evidence_sha256||'') && receipt.evidence_method.includes('Exact standard-web reader export reviewed')),'review needs original source bytes or a separately hashed, explicitly identified primary reader export');assert(receipt.record_ids.length);for(const id of receipt.record_ids)assert(c.matched_record_ids.includes(by(id).id));}
+ else{assert(receipt.operator_capture_sha256 || (/^[a-f0-9]{64}$/.test(receipt.reader_evidence_sha256||'') && receipt.evidence_method.includes('Exact standard-web reader export reviewed')) || (/^[a-f0-9]{64}$/.test(receipt.rendered_evidence_sha256||'') && receipt.evidence_method==='Browser-visible DOM snapshot, retained separately from the static HTML source bytes'),'review needs original source bytes or a separately hashed, explicitly identified reader export or visible browser snapshot');assert(receipt.record_ids.length);for(const id of receipt.record_ids)assert(c.matched_record_ids.includes(by(id).id));}
 }
 const reconciliation=require('./discovery-reconciliation.json');
 assert.equal(resolution.complete,false);assert.equal(resolution.municipal_searches_completed,0);

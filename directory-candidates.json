@@ -2,8 +2,8 @@
   "summary": {
     "checked_utc": "2026-10-26T13:28:51.955107+00:00",
     "candidate_urls": 580,
-    "candidate_urls_with_exact_match": 378,
-    "candidate_urls_without_exact_match": 202,
+    "candidate_urls_with_exact_match": 379,
+    "candidate_urls_without_exact_match": 201,
     "source_counts": {
       "moderndjs": {
         "raw_named_cards": 361,
@@ -54,12 +54,12 @@
     "added_venue_records": 0,
     "note": "Candidate URLs are not a venue count. Old source collection counts retain their original dates; followup state counts are current. Fragment-only links merged; names/URLs are aids, not automatic reviews. Original added_venue_records=0 describes index-only ingestion; primary_followup_records_added is separate.",
     "primary_followup_records_added": 223,
-    "followup_checked_utc": "2026-11-12T12:07:53.778587+00:00",
+    "followup_checked_utc": "2026-11-12T12:24:23.663178+00:00",
     "current_review_counts": {
       "reviewed_added": 222,
-      "reviewed_existing": 151,
+      "reviewed_existing": 153,
       "blocked": 10,
-      "pending": 194,
+      "pending": 192,
       "excluded": 3
     }
   },
@@ -5684,10 +5684,19 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "fort-mason-center-san-francisco"
+      ],
       "match_method": "Not yet manually reconciled",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T12:24:23.663178+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/fort-mason-center-for-arts-and-culture",
+        "https://fortmason.org/venues/"
+      ],
+      "review_reason": "Actual full SFUVA and primary room/wedding/vendor/form pages read;15 original PDFs text-reviewed with original bytes and hashes, selected floorplan/inventory/appendix images inspected. Existing ONE lower-campus property with nested rooms, no duplicate venue per room. Preserve room/layout-specific capacities, dated2019/2024/2025/2026 conflicts, required client-paid labor/electrical/cleaning and optional AV/furniture costs. PDFs archived privately and readback SHA verified. Request PDF requires email; live online submission capability remains unverified. General Residence UpperFortMason not silently merged. No current all-in rent or approved dinnerdance inferred; no contract/form sent.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-2b874e07b9f0bb",
@@ -5747,13 +5756,20 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
         "gold-bar-distillery-treasure-island-interior-configuration-san-francisco",
         "gold-bar-distillery-treasure-island-interior-plus-outdoor-configuration-san-francisco"
       ],
       "match_method": "Exact normalized name aid only; manual identity review still pending",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T12:14:30.432526+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/gold-bar-distillery-treasure-island",
+        "https://goldbarwhiskey.com/pages/private-events"
+      ],
+      "review_reason": "FullSFUVA/currentprimaryfullbody/FAQsread; originalpublishedDrivefolderslistedand16actualPDForiginalsdownloaded byte-count/SHAverified.12uniquePDFhashes:fourfloorplanfiles7IMAGEpagesactuallyviewed;twofivepagerulesREAD;threepageequipment/onepagevendor/onepageCOI/onepageclass/onepageactivations/twopagevehiclesread;fourexactduplicatePDFsreusehashreadnotnewdocumentreview. TWOdistinctphysicalsitesTreasureIsland1AvenuePalms167andAlameda2505Monarch22 alreadyrepresentedbyfourconfigurationrows;sharedoperatornotmergedphysicalproperty and no newroomlead. FloorplansCONFIDENTIALlegendretainedPRIVATE/notpublished/copiedlayoutorassumedseatcounts. CurrentwebTI5000generic/Alameda5000cardsvs10000FAQ/dirTI450indoor1450combinedSEATEDnot5000dinner/currentapprovedlayoutunknown. Mandatoryclientpaidfirepermits/firewatchmin4hstarting1hprior,rateunknown. TIprepKitchenwrittenpermissionvsAlamedaNONE/outdoorcaterertent/equipmentextra.500garbageremovalconditionalcancreditedifclientarranges,notbothfeeandpenaltyautomatically;100peritemremoval/100dailyunclaimedstorageconditional. Nooutsidecleaningcrew/priornextdayloadextra/contracthoursunknown. Inventory296chairs40roundtables/onlytastingroomfurnitureexplicitincludedbuyout;notallinventoryfree. COI1mperocc2maggregate5mumbrellaonTIpublishedrequirements,costunknown/notcopiedtoAlameda. PreferredvendorsNOTmandatoryexclusive;currentoutsidecateringonlycertaintypesnotblanketfree. Optionalcocktailclass49weekday69weekendunitnotexplicit/over30buyoutrequired;18ppbarrelpulls/bottlesengravingextra NOTmealpackage. Nopublicfullrent/barprice/independentmusicclocks.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-a22d845dac5acf",
