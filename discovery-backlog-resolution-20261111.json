@@ -1,6 +1,6 @@
 {
   "audit_id": "discovery-backlog-20261111",
-  "updated_utc": "2026-11-12T07:52:02.996506+00:00",
+  "updated_utc": "2026-11-12T08:03:08.453853+00:00",
   "original_pending_candidates": 500,
   "reviewed_dispositions_applied": [
     {
@@ -4669,9 +4669,73 @@
       "candidate_capture_sha256": "e9aef686c2ee82d3162cd142a767f8ffb249e397f7d7e56969d17fb5112bad05",
       "operator_capture_sha256": "9de21806ef73665c28798593312193222a120128054277a38a89841a4b257cd6",
       "reason": "Physicalhistoricaleventvenueidentity matched namedprofile1414HarbourWaySouth andofficialRichmondtourism. Actualsupportedbrowser oldcraneway.com showsSquarespaceWebsiteExpired; ownerloginnotused. Alternateoperator-lookingthecranewaypavilion.com advertisespickleball/restaurant.2026municipalassessment/searchmaterialmentionsfutureuseundetermined butactualgovernmentPDFdownloadfailed anddraft/decisionstatusunreviewed. Thereforecurrentweddingbooking/roomavailabilityunresolved; notdeclaredclosedorbookable. Tourismhistoricalsize45ksqft/20kpatio notcurrentcapacity; dininghoursnotweddingclocks. No newoutreachauthorizedbythisidentityresolution."
+    },
+    {
+      "candidate_id": "directory-lead-07aa64bf79c56c",
+      "original_pending_index": 28,
+      "checked_utc": "2026-11-12T08:03:08.453853+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "hacienda-de-las-flores-pavilion-garden-non-tent-configuration-contra-costa",
+        "hacienda-de-las-flores-pavilion-garden-seasonal-tent-configuration-contra-costa",
+        "hacienda-de-las-flores-casita-town-managed-small-event-room-contra-costa"
+      ],
+      "source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/hacienda-de-las-flores-by-wedgewood-weddings-moraga",
+        "https://www.wedgewoodweddings.com/venues/hacienda-de-las-flores"
+      ],
+      "candidate_capture_sha256": "4e219cc8f43759e950ffd83b75ca2260a97033dfd78993634307d83fa11d8c54",
+      "operator_capture_sha256": "f11b58879af57cfa8f9694df422b646f69d48a81c04deecf10cd44e901e3c7b0",
+      "reason": "Same existing2100DonaldDrivephysicalHaciendaestate verified byfullcurrentprimaryvenuepage/address. Linkexistingnon-tent/seasonaltentconfigurations andTownCasita, notnewvenue. Wedgewoodprivatewedding200peak/150NovApril configurations notadditive. Do nottransferWedgewoodpackages/catering toTownmanagedCasita; existingdocumentaudit/costfacts retained. OldthirdpartypublishedoperatorURL404, actualnew/venues/hacienda-de-las-floresavailable. No newunreviewedallinprice imported."
+    },
+    {
+      "candidate_id": "directory-lead-452d9ae26786af",
+      "original_pending_index": 34,
+      "checked_utc": "2026-11-12T08:03:08.453853+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "hilton-santa-clara-great-america-santa-clara"
+      ],
+      "source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/hilton-santa-clara-santa-clara"
+      ],
+      "candidate_capture_sha256": "5f8b52ed05b18def15842033619c33eec86e34e223a39dc8d4c4e12e501bda2b",
+      "operator_capture_sha256": "5f8b52ed05b18def15842033619c33eec86e34e223a39dc8d4c4e12e501bda2b",
+      "reason": "Fulloriginaldirectoryprofile bodymatched exactpropertyalreadyregisteredfromfullofficialstandardwebreaderexports, privatelyhasharchived. ReuseoneparentandnestedroomIDs, nonewduplicate. OriginalHTMLnotclaimedwherecollectorfailed. Hotel280roomsnotguestcapacity; Orinda250acresnot250approvedseats. Currentprices/dinnerdance/clocks andevent-specificapprovals remainunresolved."
+    },
+    {
+      "candidate_id": "directory-lead-cdb65db583a20e",
+      "original_pending_index": 45,
+      "checked_utc": "2026-11-12T08:03:08.453853+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "orinda-country-club-contra-costa"
+      ],
+      "source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/orinda-country-club-orinda"
+      ],
+      "candidate_capture_sha256": "f11c2de98e5f0c552d647fd7f065a78b25184c4c71622c56bc0bdb4caafc7ff6",
+      "operator_capture_sha256": "f11c2de98e5f0c552d647fd7f065a78b25184c4c71622c56bc0bdb4caafc7ff6",
+      "reason": "Fulloriginaldirectoryprofile bodymatched exactpropertyalreadyregisteredfromfullofficialstandardwebreaderexports, privatelyhasharchived. ReuseoneparentandnestedroomIDs, nonewduplicate. OriginalHTMLnotclaimedwherecollectorfailed. Hotel280roomsnotguestcapacity; Orinda250acresnot250approvedseats. Currentprices/dinnerdance/clocks andevent-specificapprovals remainunresolved."
+    },
+    {
+      "candidate_id": "directory-lead-b47f35cbbbf89c",
+      "original_pending_index": 44,
+      "checked_utc": "2026-11-12T08:03:08.453853+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "oakland-scottish-rite-center-alameda"
+      ],
+      "source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/oakland-scottish-rite-center-oakland",
+        "https://business.oaklandchamber.com/list/member/oakland-scottish-rite-center-3496"
+      ],
+      "candidate_capture_sha256": "443da920ecc67ce7817ac8269e90ba49f4ebafd4bfd584832992211c20ab4bc8",
+      "operator_capture_sha256": "80d781fae1160a6c0a5f3813bf98a3672dd50ded6883827bd125e0832c83413a",
+      "reason": "Exactphysicalcenteridentified fromfulloriginalprofile, actualChamberlisting andactualWestEdgeOperatenantvenuepage at1547Lakeside. Oldoaklandscottishrite.com ACTUALLYredirectsto unrelatedgamblingsite; quarantinednotcontactsource,nointeraction/installation/login. Searchcachedlegitimateoldhomepageisnotproof ofcurrentoperatorcontrol. WEOusesfourthfloortheater;1400theaterseatsnotweddingdinner. Directory200–600dinnerdancehistoricaloffer and2026ownership/saleclaimsnotindependentlyconfirmed, notadopted. Currentweddingoperator,bookability,approvedrooms/layouts/pricesheldUnknown; donotsubmittooldwebsite. Physicalidentityresolved,notbookingproblemresolved."
     }
   ],
-  "unreviewed_original_inputs": 284,
+  "unreviewed_original_inputs": 280,
   "municipal_searches_completed": 0,
   "complete": false,
   "scope": "Queue identity resolution is not full venue facts, exhaustive geographic discovery or permission for any event. Actual access/identity blockers remain separate from unreviewed work."

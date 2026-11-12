@@ -2,8 +2,8 @@
   "summary": {
     "checked_utc": "2026-10-26T13:28:51.955107+00:00",
     "candidate_urls": 580,
-    "candidate_urls_with_exact_match": 313,
-    "candidate_urls_without_exact_match": 267,
+    "candidate_urls_with_exact_match": 317,
+    "candidate_urls_without_exact_match": 263,
     "source_counts": {
       "moderndjs": {
         "raw_named_cards": 361,
@@ -53,12 +53,12 @@
     },
     "added_venue_records": 0,
     "note": "Candidate URLs are not a venue count. Old source collection counts retain their original dates; followup state counts are current. Fragment-only links merged; names/URLs are aids, not automatic reviews. Original added_venue_records=0 describes index-only ingestion; primary_followup_records_added is separate.",
-    "primary_followup_records_added": 177,
-    "followup_checked_utc": "2026-11-12T07:52:02.996506+00:00",
+    "primary_followup_records_added": 180,
+    "followup_checked_utc": "2026-11-12T08:03:08.453853+00:00",
     "current_review_counts": {
-      "reviewed_added": 181,
-      "reviewed_existing": 105,
-      "pending": 284,
+      "reviewed_added": 184,
+      "reviewed_existing": 106,
+      "pending": 280,
       "blocked": 7,
       "excluded": 3
     }
@@ -994,10 +994,21 @@
       "county": "Contra Costa",
       "city": "Moraga",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "hacienda-de-las-flores-pavilion-garden-non-tent-configuration-contra-costa",
+        "hacienda-de-las-flores-pavilion-garden-seasonal-tent-configuration-contra-costa",
+        "hacienda-de-las-flores-casita-town-managed-small-event-room-contra-costa"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T08:03:08.453853+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/hacienda-de-las-flores-by-wedgewood-weddings-moraga",
+        "https://www.wedgewoodweddings.com/venues/hacienda-de-las-flores"
+      ],
+      "review_reason": "Same existing2100DonaldDrivephysicalHaciendaestate verified byfullcurrentprimaryvenuepage/address. Linkexistingnon-tent/seasonaltentconfigurations andTownCasita, notnewvenue. Wedgewoodprivatewedding200peak/150NovApril configurations notadditive. Do nottransferWedgewoodpackages/catering toTownmanagedCasita; existingdocumentaudit/costfacts retained. OldthirdpartypublishedoperatorURL404, actualnew/venues/hacienda-de-las-floresavailable. No newunreviewedallinprice imported.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-8443e535d6a3b2",
@@ -1161,10 +1172,18 @@
       "county": "Santa Clara",
       "city": "Santa Clara",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "hilton-santa-clara-great-america-santa-clara"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T08:03:08.453853+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/hilton-santa-clara-santa-clara"
+      ],
+      "review_reason": "Fulloriginaldirectoryprofile bodymatched exactpropertyalreadyregisteredfromfullofficialstandardwebreaderexports, privatelyhasharchived. ReuseoneparentandnestedroomIDs, nonewduplicate. OriginalHTMLnotclaimedwherecollectorfailed. Hotel280roomsnotguestcapacity; Orinda250acresnot250approvedseats. Currentprices/dinnerdance/clocks andevent-specificapprovals remainunresolved.",
+      "identity_review_source_kind": "wedding_vendor_directory"
     },
     {
       "id": "directory-lead-9a2627ac003812",
@@ -1477,10 +1496,19 @@
       "county": "Alameda",
       "city": "Oakland",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "oakland-scottish-rite-center-alameda"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T08:03:08.453853+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/oakland-scottish-rite-center-oakland",
+        "https://business.oaklandchamber.com/list/member/oakland-scottish-rite-center-3496"
+      ],
+      "review_reason": "Exactphysicalcenteridentified fromfulloriginalprofile, actualChamberlisting andactualWestEdgeOperatenantvenuepage at1547Lakeside. Oldoaklandscottishrite.com ACTUALLYredirectsto unrelatedgamblingsite; quarantinednotcontactsource,nointeraction/installation/login. Searchcachedlegitimateoldhomepageisnotproof ofcurrentoperatorcontrol. WEOusesfourthfloortheater;1400theaterseatsnotweddingdinner. Directory200–600dinnerdancehistoricaloffer and2026ownership/saleclaimsnotindependentlyconfirmed, notadopted. Currentweddingoperator,bookability,approvedrooms/layouts/pricesheldUnknown; donotsubmittooldwebsite. Physicalidentityresolved,notbookingproblemresolved.",
+      "identity_review_source_kind": "regional_tourism_directory"
     },
     {
       "id": "directory-lead-cdb65db583a20e",
@@ -1498,10 +1526,18 @@
       "county": "Contra Costa",
       "city": "Orinda",
       "geography_scope": "Directory-explicit county/city; actual property/event eligibility unverified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "orinda-country-club-contra-costa"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T08:03:08.453853+00:00",
+      "review_source_urls": [
+        "https://www.modernweddingdjs.com/vendors/wedding-venues/orinda-country-club-orinda"
+      ],
+      "review_reason": "Fulloriginaldirectoryprofile bodymatched exactpropertyalreadyregisteredfromfullofficialstandardwebreaderexports, privatelyhasharchived. ReuseoneparentandnestedroomIDs, nonewduplicate. OriginalHTMLnotclaimedwherecollectorfailed. Hotel280roomsnotguestcapacity; Orinda250acresnot250approvedseats. Currentprices/dinnerdance/clocks andevent-specificapprovals remainunresolved.",
+      "identity_review_source_kind": "wedding_vendor_directory"
     },
     {
       "id": "directory-lead-390203fe202369",
