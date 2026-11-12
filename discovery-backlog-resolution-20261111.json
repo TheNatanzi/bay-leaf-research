@@ -1,6 +1,6 @@
 {
   "audit_id": "discovery-backlog-20261111",
-  "updated_utc": "2026-11-12T14:14:00.791701+00:00",
+  "updated_utc": "2026-11-12T14:23:50.763649+00:00",
   "original_pending_candidates": 500,
   "reviewed_dispositions_applied": [
     {
@@ -7141,11 +7141,13 @@
       "checked_utc": "2026-11-12T14:14:00.791701+00:00",
       "state": "reviewed_added",
       "record_ids": [
-        "ac-hotel-san-jose-santa-clara"
+        "ac-hotel-san-jose-santa-clara",
+        "ac-hotel-sunnyvale-cupertino"
       ],
       "source_urls": [
         "https://www.bayareaweddings.com/vendor/ac-san-jose-santa-clara-ac-sunnyvale-cupertino",
-        "https://www.marriott.com/en-us/hotels/sjccl-ac-hotel-san-jose-santa-clara/events/"
+        "https://www.marriott.com/en-us/hotels/sjccl-ac-hotel-san-jose-santa-clara/events/",
+        "https://www.marriott.com/en-us/hotels/sjcan-ac-hotel-sunnyvale-cupertino/events/"
       ],
       "candidate_capture_sha256": "60055bcc49d82f40a3e91924a7c03ac2878c9ce42b38fd142cc2f4abeebf588c",
       "operator_capture_sha256": "4b7be4479ba025cdf2c9f629e82bdec1c711d82daf5f3f03957dfe33dffb1a51",
@@ -7210,9 +7212,138 @@
       "candidate_capture_sha256": "8764f6d3392537ecd73e2fe4372922e747dd1568c5e7a7d0e5b4f81e35053db3",
       "operator_capture_sha256": "8bed0011158e08db60fb2ce4b8fbe3bac3d387b569787e03c9c46e91dddc5082",
       "reason": "SantaCruzCountySummitRoadoutsideoriginalninecountycore despiteLosGatospostalcity. PRIMARYactualwedding4p/private5pbrochuresread+pricingp4bothviewed: realweddingrent2000–6000bydayseason/8haccessincl2hsetup1hcleanup/event10PMcleanup11PM/50ideal75conditional+25%;holidaySatSun+20%/barserviceextra. Privateevent500/750/900tiersNOTweddingbuyout. Fulladjacentfactreceipt/originalsretained. No330capacityclaim."
+    },
+    {
+      "candidate_id": "directory-lead-df17334733348f",
+      "original_pending_index": 363,
+      "checked_utc": "2026-11-12T14:23:50.763649+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "capers-eat-drink-campbell"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/capers-loft",
+        "https://www.capersloft.com/"
+      ],
+      "candidate_capture_sha256": "b996d6611895f201b754d2fb95c6e7f8de7751ada462cec3b558e7daf24f231f",
+      "operator_capture_sha256": "8d28809779f2f2554d52581c611cf29de280119623a55d4bd7f0b76749d50695",
+      "reason": "TWOphysicalrestaurantsCapersCampbell1710WestCampbell/Loft90South2ndSanJose; onecoordinatorsharedbookingnotoneproperty. CurrentsharedFAQ/PDF175Capers250LoftSEATED; olderLoftbanquetpage150Capersconflict. Bothprimaryprivateweddingsadvertised. Currentdinnerbuffet40/45/60/70/80pp,plated40/45/55/65pp,brunch29/34/38pp; keepmealtypesnotlunch34asweddingdinner. Dessert8.95buffet/9.95platedoptionalexcepthigherbuffetsincluded. Bar35/40/45/55ppTWOHOURS+10/15eachhour; SAMEpageallalcoholperconsumption wording conflicts packagebasis. ReceptionF&Bminimumamountunknown/taxautomaticgratuityunknown vs18%SUGGESTEDnotmandatoryassumed. CapersduplicateSpicyMeatballs45vs90andbrunchmislabelledappetizermenu retained. Weddingrent/buyoutconditions/staff/security/AV/priceminima/dateyearunknown. Nightclub1:30AM ispublicnightlifeschedule NOTprivateweddingpermission."
+    },
+    {
+      "candidate_id": "directory-lead-6894ef5926c3d3",
+      "original_pending_index": 370,
+      "checked_utc": "2026-11-12T14:23:50.763649+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "flying-cloud-farm-petaluma-sonoma"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/flying-cloud-farm",
+        "https://flyingcloudfarm.com/get-quote/"
+      ],
+      "candidate_capture_sha256": "a89bce71c7a878915f1ffca7bfa25c1e1f9c9d198d6229a1399f460d611b7567",
+      "operator_capture_sha256": "c8581365d79afe6d01c63adb8860979636352d18b254ca4a8ae51c9f32013136",
+      "reason": "Actualhome/about/contact/GETQUOTEbodiesread. 2027Saturday12000/FridaySunday10000/MonThu8500upto150;30eachover150,max200. ALLdayaccessdurationundefined/monthofcoordination/planningsupport/personaldecorsetup/onsitefurnishingsincluded. Actual2026seasonFULLYBOOKED/2027limited,somemonthsbooked notallfutureunavailable. HomepageclienttestimonialBYOalcoholnotcurrentoperatorpermission; bar/catering/rentalmandatoryfees/tax/serviceunknown. Publishedquoteinquiryrequiredheadcount/date/contact/phone, flexibledatequestion; noformsubmitted."
+    },
+    {
+      "candidate_id": "directory-lead-57b7e70fcd304f",
+      "original_pending_index": 371,
+      "checked_utc": "2026-11-12T14:23:50.763649+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "forage-kitchen-events-oakland"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/forage-kitchen-events",
+        "https://www.foragekitchenevents.com/"
+      ],
+      "candidate_capture_sha256": "b194e8397c27f73cd255d87f86ca93c07dde37fe8dbcbd28e0b05bebcfebb86d",
+      "operator_capture_sha256": "349c29292ce2ac15726fa4bafec167978f370dcd31e67ad68deece93e485c471",
+      "reason": "Wholehome/weddings/pricing/FAQread.175SEATED250standing/2500++entirespace8hINCLUDESS E T U P+CLEANUP;food65pp++/bar30pp++4h includesbartenderglassware/setup,NOTfullallin.20%SERVICE/10.25%tax sourcecheckedrate,chargebaseunconfirmed/revenueminimumvaries/dayseason—notzerojustnoguestF&Bminimum. Owncaterer1000+licensedpermitCOI/sitevisit/ownstaff+reservedkitchenextra. OwnbeveragesNOexceptHalalKosherexceptionsbyapproval;hostedbar+OVER125guestssecuritymandatorypriceunknown. ProfessionaldayofcoordinatorREQUIREDbesideson-siteEventManager. FAQ12AMevent/outdoor10PMmusic vspricingALLmusic10PMconflict; home250overtimevsFAQ500/hourmax10htotal;50%nonrefunddepositvs25%securedate/refundpricing50%>2weeks25%<2weeks0<7daysvsFAQnonrefundable/25%aftersecondpayment;30daybalancevsFAQplanning10daybalance;offseasonNovFebvsNovMar. Retainallcontradictions,no inventedcurrentallin."
+    },
+    {
+      "candidate_id": "directory-lead-9e0e1c80b2440e",
+      "original_pending_index": 372,
+      "checked_utc": "2026-11-12T14:23:50.763649+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "hacienda-de-las-flores-pavilion-garden-non-tent-configuration-contra-costa",
+        "hacienda-de-las-flores-pavilion-garden-seasonal-tent-configuration-contra-costa"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/hacienda-de-las-flores-by-wedgewood-weddings",
+        "https://www.wedgewoodweddings.com/haciendaflores"
+      ],
+      "candidate_capture_sha256": "3bf31af90743f1855405f9081eacb7a554b5117fdafefae4785e6345ff2ccc16",
+      "operator_capture_sha256": "110a9a3632a1e80033cc0c08d610267a6c0af3d48f7ba036d7e9eff50c002234",
+      "reason": "ExistingONEHaciendaproperty/twooverlappingWedgewoodgardenconfigurationsnotnewvenue; CasitaTownsmallroomseparatebookingNOTassignedWedgewoodprice. Currentprimary89BuildYourOwn99Classic129Premier154Eliteperguest+ceremony595starting+venue1695starting+22%ADMINandtax/revenueminimavary. Older86/96/126/151directoryconflicts preserved,currenteffectiveyearunpublished. Up200garden/NovAprtent150seasonal. Actualglobalpackagebodiesreviewed: ClassicDJ/MC/twoentreebuffet/nohostbar+wine2bottlestable/champagne/softdrink/housecenterpieces/cakeCUTnotcake;Premierfullwellopenbar3entree6apps/freshfloralcenterpieces/customcake/invitationcredit;Eliteofficiant/topbar/photobooth3h/upgradedchairs/fullcloths/extraHOURatSELECTEDvenuesnotautomaticallyhere. BuildYourOwnessentialsincludecoordinationfurnituretableware butDJnotexplicitlyincluded. Allvenue/ceremonychargesADDITIONALtoperhead. GlobalFAQactual23uniqueanswersopened/read:25/25/50paymentsbooking180days10days/nontransfernonrefund/carddebit1.5%;ADMINnotgratuity/tipsvoluntary;revenueminimumamountunknown/photographyexcludedfromminimum;10dayheadcount/3underfree4–20discount4–15pppackageconditional. CateringvendorFAQNOoutsidevsotheranswerSELECTvenuesoutsideexception; THISpropertyeligibilityunconfirmed. Securityrequiredcostinproposalnotfree. Atleast1hpreaccess, notdaylong. Noquoteaccepted."
+    },
+    {
+      "candidate_id": "directory-lead-18f77f09e3a9fd",
+      "original_pending_index": 373,
+      "checked_utc": "2026-11-12T14:23:50.763649+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "half-moon-bay-lodge-san-mateo"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/half-moon-bay-lodge",
+        "https://www.halfmoonbaylodge.com/weddings-hotel-venues/"
+      ],
+      "candidate_capture_sha256": "08f1e79946be8aa793d25c4fad4439de6b45148bc866d1ccf138464694f31d5d",
+      "operator_capture_sha256": "5d767b2bdfbd6144da04817abc2e732a6d599c31137e6de966dc4ea9cd0ade4e",
+      "reason": "Actualwedding/startplanningtextread. EventDeck/Lawn40GENERIC;ClubRoom60CEREMONY/THEATERbut30RECEPTION,not60dinner.900sqftroom+400sqftpatio;Tower550sqftBRIDALSUITE/not550guests;80GUESTROOMSnotcapacity. OnsiteparkingWiFiincluded;rentfoodbarlinenstaffAVcutoffsunknown. NotHalfMoonBayGolfLinksRitzpropertyjustoverlookslinks. Startplanningformembeddedfieldsunread/noentry/submission."
+    },
+    {
+      "candidate_id": "directory-lead-006f8c5af3b114",
+      "original_pending_index": 374,
+      "checked_utc": "2026-11-12T14:23:50.763649+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "hall-of-the-above-petaluma-sonoma"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/hall-of-the-above",
+        "https://www.halloftheabove.com/event-rentals-petaluma"
+      ],
+      "candidate_capture_sha256": "60c9c8dd08cb23269eb68da9b0818e0202a145c05af15a44615535130f824060",
+      "operator_capture_sha256": "54dfc48f7ff0442bddf22c91e694c3782227a61e9b6b17063d111816fe3cc882",
+      "reason": "Actualhome/rental/ALLFAQ/floorplanTEXTread. MainHall156BUFFET154PLATED120ROUND165theater250standing/2732sqft. Mezzanine660includedinMainHallNOTadditive250+capacity;basement488extra3roomsnotextraapproveddinner.1500PARTIALLYrefundable securitydeposit/not100%refundnotexpenseentire;50%bookingrent/balanceandinsurance60days/clientreturncontract10BUSINESSdays. Access8AM/event11PMFriSat10PMOTHERdays/caterercleanupadditionaldurationunknown. AmpINDOORSonly11PMFriSat10PMSun;MonThuactualspecificmusiccutoffnotstatednotinferredbarclosing. StagingONLY/nocooking/noDISHWASHING/NOfoodtrucks.18rect3x6tables175metalchairs/cocktailtablesavailable; setuphourlyextra/clientown;linensTABLEWAREglasswareEXTRA;stage/soundrequirespaidHOTAstaff. AlcoholSALErequireslicenseandsecurity;privatefreebarlicensedcaterertermsnotblanketBYOpermission. Candleinglassfeeextra. ActualfloorplanIMAGESnotviewed, textcapacitiesreviewed. Currentroomrent/cleaning/security/insurancepremiumsunknown."
+    },
+    {
+      "candidate_id": "directory-lead-abb406ae4cdb22",
+      "original_pending_index": 375,
+      "checked_utc": "2026-11-12T14:23:50.763649+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "hennessey-estate-napa"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/hennessey-estate",
+        "https://hennesseyestate.com/napa-wedding-venue/"
+      ],
+      "candidate_capture_sha256": "16a8724b8268ac8ba288b80ee04f4128e88a7da9d397f371666923a2e44ea3cf",
+      "operator_capture_sha256": "5cfc5f528bb4a57c52efad6fd6cee6c53206b89a737012b51a75759f4f8e2c77",
+      "reason": "Wholewedding/30FAQanswers/inquirytextread. MANDATORYWHOLE10roomestateovernightbuyout/dayONLYNO.20overnight+30additionalday=50TOTAL/not50+20. Normalweekend2nights/holidaypeak3nights/weekdayarrangementsinquire.3500startingPER NIGHTcoversALL10roomsnotperroom;eligibility/datechargesunknown/notcompleteweddingquote. Poolspa/sauna/gardentastingroom/parkingdailybreakfastincluded, receptionfoodexternalpartnerEXTRA. FirstnightplusTAXmandatoryfeesbooking/balance30daysFULLestate/cancel>30daysfullrefundelseallpaymentnonrefund;individualroom5daypolicynotestate. Childrenallowedwithguardian/serviceanimalsnotpets/smokefreeincloutdoors. Pool8AM–9PMandcheckout11AMNOTeventmusiccutoffs. Inquiryallowsflexibledates/optionalcounts/fullbuyoutacknowledgement/noformsubmitted."
+    },
+    {
+      "candidate_id": "directory-lead-55688f1c6d5488",
+      "original_pending_index": 376,
+      "checked_utc": "2026-11-12T14:23:50.763649+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "hiddenbrooke-hills-by-wedgewood-weddings-solano"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/hiddenbrooke-hills-by-wedgewood-weddings",
+        "https://www.wedgewoodweddings.com/hiddenbrookehills"
+      ],
+      "candidate_capture_sha256": "6ecfb944852af7c99b0ce4c8a3d843e5bb9407ea267e630e26a2977c5898a932",
+      "operator_capture_sha256": "23041b6235f7cdef7daecb67e5b929adcdf31f1092901c97f89f328427664a39",
+      "reason": "ExistingHiddenbrookeVallejoSOLANOnotNapaCounty. Currentprimary87BuildOwn97Classic127Premier152Elitepp+995ceremonystarting+795venuestarting+22%ADMINtaxminimums;older84/94/124directoryratesconflict/currentyearunpublished. SAMEglobalpackage/FAQconditionalfactsasHaciendabutseparatephysicalproperty/venue-specificoutsidecatering/security/extensiontermsrequireapproval. 200capacitydirectorynotnewprimarychartconfirmation; no330dinnerapproval. Gardenpavilion/ballroom/fairwayceremonysitesnestednotextraproperties."
     }
   ],
-  "unreviewed_original_inputs": 131,
+  "unreviewed_original_inputs": 123,
   "municipal_searches_completed": 0,
   "complete": false,
   "scope": "Queue identity resolution is not full venue facts, exhaustive geographic discovery or permission for any event. Actual access/identity blockers remain separate from unreviewed work."

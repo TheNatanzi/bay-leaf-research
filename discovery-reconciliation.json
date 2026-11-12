@@ -1,15 +1,15 @@
 {
   "candidate_urls": 580,
-  "resolved_candidate_urls": 439,
-  "unresolved_candidate_urls": 141,
+  "resolved_candidate_urls": 447,
+  "unresolved_candidate_urls": 133,
   "review_counts": {
-    "reviewed_added": 264,
-    "reviewed_existing": 167,
+    "reviewed_added": 268,
+    "reviewed_existing": 171,
     "blocked": 10,
     "reviewed_supplier_not_venue_offer": 1,
     "reviewed_outside_scope": 4,
     "excluded": 3,
-    "pending": 131
+    "pending": 123
   },
   "complete": false,
   "scope_note": "Candidate-queue resolution only; even zero unresolved leads does not establish all venues discovered. Room counts and source downloads are not property coverage.",
@@ -4046,8 +4046,11 @@
       "candidate_id": "directory-lead-df17334733348f",
       "name": "Capers Loft",
       "url": "https://www.bayareaweddings.com/vendor/capers-loft",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "capers-eat-drink-campbell",
+        "loft-bar-bistro-downtown-san-jose"
+      ]
     },
     {
       "candidate_id": "directory-lead-313a047ba45288",
@@ -4135,50 +4138,65 @@
       "candidate_id": "directory-lead-6894ef5926c3d3",
       "name": "Flying Cloud Farm",
       "url": "https://www.bayareaweddings.com/vendor/flying-cloud-farm",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "flying-cloud-farm-petaluma-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-57b7e70fcd304f",
       "name": "Forage Kitchen Events",
       "url": "https://www.bayareaweddings.com/vendor/forage-kitchen-events",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "forage-kitchen-events-oakland"
+      ]
     },
     {
       "candidate_id": "directory-lead-9e0e1c80b2440e",
       "name": "Hacienda de las Flores by Wedgewood Weddings",
       "url": "https://www.bayareaweddings.com/vendor/hacienda-de-las-flores-by-wedgewood-weddings",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "hacienda-de-las-flores-pavilion-garden-non-tent-configuration-contra-costa",
+        "hacienda-de-las-flores-pavilion-garden-seasonal-tent-configuration-contra-costa"
+      ]
     },
     {
       "candidate_id": "directory-lead-18f77f09e3a9fd",
       "name": "Half Moon Bay Lodge",
       "url": "https://www.bayareaweddings.com/vendor/half-moon-bay-lodge",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "half-moon-bay-lodge-san-mateo"
+      ]
     },
     {
       "candidate_id": "directory-lead-006f8c5af3b114",
       "name": "Hall of the Above",
       "url": "https://www.bayareaweddings.com/vendor/hall-of-the-above",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "hall-of-the-above-petaluma-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-abb406ae4cdb22",
       "name": "Hennessey Estate",
       "url": "https://www.bayareaweddings.com/vendor/hennessey-estate",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "hennessey-estate-napa"
+      ]
     },
     {
       "candidate_id": "directory-lead-55688f1c6d5488",
       "name": "Hiddenbrooke Hills by Wedgewood Weddings",
       "url": "https://www.bayareaweddings.com/vendor/hiddenbrooke-hills-by-wedgewood-weddings",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "hiddenbrooke-hills-by-wedgewood-weddings-solano"
+      ]
     },
     {
       "candidate_id": "directory-lead-9221ea9ad1d6bd",
