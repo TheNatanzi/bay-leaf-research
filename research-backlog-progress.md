@@ -1,7 +1,9 @@
 # Research progress — November 12
 
-- **290 of the original 500 pending profiles resolved**. **10 hidden-address identity blockers** remain unresolved, alongside **200 profiles awaiting final disposition**, some partly reviewed.
-- **217 net new venue/property/space lead records** now bring the master to **2,605 records**. These include uncertain and historical event offers and an explicitly flagged adjacent Delta lead, not a verified count of unique or approved wedding properties. All **110 locality workstreams remain partial**.
+- **All 10,500 planned place × keyword searches executed; exact responses saved.** They returned **52,556 distinct source URLs**. Search execution is complete; actual result/source review is unfinished, and **zero queries are marked exhausted**. Downloads alone do not count as reviewed venues.
+
+- **296 of the original 500 pending profiles resolved**. **10 hidden-address identity blockers** remain unresolved, alongside **194 profiles awaiting final disposition**, some partly reviewed.
+- **218 net new venue/property/space lead records** now bring the master to **2,606 records**. These include uncertain and historical event offers and an explicitly flagged adjacent Delta lead, not a verified count of unique or approved wedding properties. All **110 locality workstreams remain partial**.
 - Missing records recovered include The Mountain Winery, Saratoga Springs, Villa Ragusa, Hillside Club, San José Museum of Art, La Vigna at Hecker Pass Winery, Shadow Lakes Club, Chateau St. Jean and Cornerstone Sonoma. Identity review does not mean all costs, room layouts or permissions are complete.
 - **Aliases and shared operators checked:** Sunol’s Casa Bella was an existing Casa Bella alias; the duplicate was merged with sources/history retained. Mayo’s Glen Ellen and Kenwood sites, and Monte Rio’s Community Center and Amphitheater, remain separate physical properties. Monte Rio’s actual October2026PDF explicitly prices Community Center weddings separately from its $1,500 general package.
 - [Expansive discovery methods: 10 repositories and 6 guides](expansive-discovery-methods-20261111.md) · [Current evidence-backed dispositions](discovery-backlog-resolution-20261111.json). Raw captures are preparation; unreadable sources and unreviewed material remain separate.

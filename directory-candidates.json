@@ -2,8 +2,8 @@
   "summary": {
     "checked_utc": "2026-10-26T13:28:51.955107+00:00",
     "candidate_urls": 580,
-    "candidate_urls_with_exact_match": 374,
-    "candidate_urls_without_exact_match": 206,
+    "candidate_urls_with_exact_match": 378,
+    "candidate_urls_without_exact_match": 202,
     "source_counts": {
       "moderndjs": {
         "raw_named_cards": 361,
@@ -53,13 +53,13 @@
     },
     "added_venue_records": 0,
     "note": "Candidate URLs are not a venue count. Old source collection counts retain their original dates; followup state counts are current. Fragment-only links merged; names/URLs are aids, not automatic reviews. Original added_venue_records=0 describes index-only ingestion; primary_followup_records_added is separate.",
-    "primary_followup_records_added": 222,
-    "followup_checked_utc": "2026-11-12T12:00:35.695224+00:00",
+    "primary_followup_records_added": 223,
+    "followup_checked_utc": "2026-11-12T12:07:53.778587+00:00",
     "current_review_counts": {
-      "reviewed_added": 221,
-      "reviewed_existing": 146,
+      "reviewed_added": 222,
+      "reviewed_existing": 151,
       "blocked": 10,
-      "pending": 200,
+      "pending": 194,
       "excluded": 3
     }
   },
@@ -5443,10 +5443,19 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "commonwealth-club-110-embarcadero-san-francisco"
+      ],
       "match_method": "Not yet manually reconciled",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T12:07:53.778587+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/the-commonwealth-club-of-ca",
+        "https://www.commonwealthclub.org/visit/private-events"
+      ],
+      "review_reason": "Entire SFUVA and actual current official browser-visible rental body reviewed after ordinary reader403/robots-unavailable; supported browser succeeds without auth/challenge/bypass. Raw failure preserved, NOT final access blocker. ONE110Embarcadero physical building with three floors/roof, not each room a parent. Current original room diagram downloaded/viewed; diagram no prices/capacity. Directory Rembe120THEATER/50halves,Taube250THEATER,Boardroom80banquet90theater70standing,Roof150standing; not330dinner or additive whole approved layout. Current primary advertises conferences/meetings/corporate, directory weddingsroof, current wedding permission unknown. Three catering kitchens/AV/sound featured NOT automatically included paid service/free outside catering. Membership99/139promotion NOT venue rent; no published actual rent/fees/currentclocks.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-5a2dae77170f46",
@@ -5493,7 +5502,7 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
         "conservatory-of-flowers-conservatory-galleries-san-francisco",
         "conservatory-of-flowers-orchid-pavilion-san-francisco",
@@ -5501,7 +5510,13 @@
         "conservatory-of-flowers-west-gallery-micro-ceremony-san-francisco"
       ],
       "match_method": "Exact normalized name aid only; manual identity review still pending",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T12:07:53.778587+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/conservatory-of-flowers"
+      ],
+      "review_reason": "Full new SFUVA body read, four existing room rows ONEConservatory property. Reuse batch30 current primary FAQs2026original map/shared inquiryform already actually reviewed. Greenhouse200cocktail/West50microceremony/Pavilion150seated200standing/Outdoor200 not cumulative and not330 dinner/rain backup. Current primary Palm TENTPROHIBITED and package-specific food/drink limits override directory generic dining assumption. No repeated document audit and no new current dollar quote.",
+      "identity_review_source_kind": "directory_profile"
     },
     {
       "id": "directory-lead-826cbf0325b233",
@@ -5551,10 +5566,18 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "convene-100-stockton-san-francisco"
+      ],
       "match_method": "Not yet manually reconciled",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T12:07:53.778587+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/convene"
+      ],
+      "review_reason": "Full new SFUVA profile read; exact existing100Stockton/40OFarrell floors4/5 oneConvene property, distinct Chotto rooftop operator. Reuse actual batch29 original3page brochure/2pageimageplan/3pageversion primary audit. Directory1800reception vs primary1116generic total and repeated4742sf669/699generic470theater280seated vs currentPacific468theater288rounds224withstage conflicts retained. Sevenrooms plus galleries not separate parent venues; duplicatePacific room table not new hall. Wedding permission/current rent unknown; no invented1800seated or330dinner.",
+      "identity_review_source_kind": "directory_profile"
     },
     {
       "id": "directory-lead-871dc41a1349dd",
@@ -5572,12 +5595,18 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
         "exploratorium-san-francisco"
       ],
       "match_method": "Exact normalized name aid only; manual identity review still pending",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T12:07:53.778587+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/exploratorium"
+      ],
+      "review_reason": "Full new SFUVA body read. One existingPier15 Exploratorium not sixgallery properties. Reuse batch27six actual currentlinked originals28pages reviewed and privatehasharchived. Directory4000reception1100whole seated not same-room dinner layout. DirectoryFisher150inside100terrace/Central500indoors300outdoors/West70–200/East90–200/Forum160–200 retain scoped discrepancy vs2026weddingandcorporatechart; outdoor not indoor rainbackup, no sums. Current tables/chairs/approvedcatering/planner extra and11:30guest12:30cleanup already sourced. No repeated source download counted as review.",
+      "identity_review_source_kind": "directory_profile"
     },
     {
       "id": "directory-lead-55023a2c624fee",
@@ -5595,10 +5624,19 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "ferry-building-grand-hall-san-francisco"
+      ],
       "match_method": "Not yet manually reconciled",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T12:07:53.778587+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/ferry-building",
+        "https://www.ferrybuildingmarketplace.com/venue-rental-events/"
+      ],
+      "review_reason": "Entire SFUVA/current primary full rental body read. One FerryBuilding existingGrandHall withPortHearingRoom/plazas nested not added parents. CurrentGrand30–650generic vs directory350seated650standing not650dinner. Portcurrent2000sf10–120classroom/table vsdirectory2200sf100standing/theater70round/classroom conflicting layout/area, no maximum silently substituted. Plazascurrentup50000sf vsdirectoryback30000front4000, public/sponsoredactivationnotguaranteedexclusiveweddinguse. Weddings advertisedGrand; date-specific permission/pricing/requiredvendor list/unbundled costs/clocks unknown. Page says form but actual raw forms/embeds absent, mailto getintouch—not fully verified submit-ready onlineform; no transmission.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-eadbb3c4cff924",
@@ -5616,10 +5654,19 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "the-fillmore-main-ballroom-san-francisco"
+      ],
       "match_method": "Not yet manually reconciled",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T12:07:53.778587+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/the-fillmore",
+        "https://specialevents.livenation.com/venues/the-fillmore"
+      ],
+      "review_reason": "Entire SFUVA/current LiveNation full relevant body+FAQ/actual original2pageone-sheet and3pageimagefloorplan read, ALLthree planpages visually checked as Ballroom/BalconyBar/PosterRoom/SF, not wrong-property map. Existing1805Geary oneproperty not each room. Current raw chartBallroom700reception200banquet400theater,Poster100/70/80,Balcony50standing vs current bodyBallroom800generic250seated/Poster100/Balcony100 and brochure800/250/500,Balcony100; conflict unresolved notpicklargest. Directory200banquet400theater800reception not330dinnerdance. Worldclass artists/production/AV/catering available unpriced, notfree entertainment; conditionalconfettipromotionnotrequiredfee. Formpersonalcontact+eventdate/guests/type/captcha reviewed,noentry. Current fullprices/music/bar/cleanupunknown.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-846f267b729bfa",
