@@ -35,7 +35,12 @@ assert.equal(queue.summary.current_review_counts.pending,resolution.unreviewed_o
 for(const receipt of applications){
  const c=queue.candidates.find(x=>x.id===receipt.candidate_id);assert(c);
  assert.equal(c.review_state,receipt.state);assert(c.review_reason&&c.reviewed_utc);
- assert(receipt.source_urls.length&&receipt.candidate_capture_sha256);
+ assert(receipt.source_urls.length);
+ if(!receipt.candidate_capture_sha256){
+  assert.match(receipt.candidate_reader_evidence_sha256||'',/^[a-f0-9]{64}$/,'A reviewed reader export requires its actual SHA-256');
+  assert(receipt.candidate_raw_retrieval_state&&receipt.candidate_raw_retrieval_state!=='retrieved','Do not relabel failed raw retrieval as a saved original');
+  assert.match(receipt.candidate_evidence_method||'',/Exact standard-web reader export actually reviewed/);
+ }
  assert(receipt.source_urls.every(u=>c.review_source_urls.includes(u)));
  if(receipt.state==='blocked'){assert(receipt.blocker_kind);assert(!receipt.record_ids.length);}
  else{assert(receipt.operator_capture_sha256 || (/^[a-f0-9]{64}$/.test(receipt.reader_evidence_sha256||'') && receipt.evidence_method.includes('Exact standard-web reader export reviewed')),'review needs original source bytes or a separately hashed, explicitly identified primary reader export');assert(receipt.record_ids.length);for(const id of receipt.record_ids)assert(c.matched_record_ids.includes(by(id).id));}

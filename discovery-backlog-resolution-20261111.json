@@ -1,6 +1,6 @@
 {
   "audit_id": "discovery-backlog-20261111",
-  "updated_utc": "2026-11-12T10:50:16.950112+00:00",
+  "updated_utc": "2026-11-12T10:56:48.995241+00:00",
   "original_pending_candidates": 500,
   "reviewed_dispositions_applied": [
     {
@@ -5499,9 +5499,104 @@
       "candidate_capture_sha256": "9c0a0c67bf82cf1e65e65a8f9f4a3329451f290da10206533c7b6f8987a93952",
       "reason": "Entire4000sqftEastOaklandwarehouseplatformprofileactuallyread;focusedpublishedexacttitle/Howlaliassearchdidnotverifycanonicalpropertyname/address. Withheldaddressnotguessed;nohostmessage/booking/accountcreation. Listing50seated85standingvs60+attendeeheader conflict,500sqftsoundroomnestednotanotherproperty. Security40/hourmandatoryover30guests;onsitemanager250–450over15;4hminimum72/hourstartingnotall-inrate. After11PMmusiconlyclosedmusicroom/loweredbass,2AMguest/noiseendversus8AM–3AMavailabilityconflict;nooutdooramplification/roof/redwinedownstairs. Bedrooms4extraindescriptionvs5detailsnotmandatorylodging. No currentweddingpermission/approveddinnerdance/fullcostproof. This is a physicalidentityblocker,notaccessfailureorresolvednamedvenue.",
       "blocker_kind": "unverified_physical_property_identity"
+    },
+    {
+      "candidate_id": "directory-lead-e64f227bb87882",
+      "original_pending_index": 135,
+      "checked_utc": "2026-11-12T10:56:48.995241+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "presidio-log-cabin-log-cabin-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.partyslate.com/venues/log-cabin-at-the-presidio-by-wedgewood-weddings",
+        "https://www.wedgewoodweddings.com/venues/presidio/log-cabin"
+      ],
+      "candidate_capture_sha256": null,
+      "operator_capture_sha256": "118bdd7c1fdd20bff4bf271304e5d7e3a4e4b770acd7555a88678bcdaa598994",
+      "reason": "EntirePartySlatebodyreadviaretainedstandardreaderandfullcurrentTrust/operatorbodiesread.1299StoreyexactidentitynototherLogCabins. PartySlate120seated/standing,operatorbrochure120generic versusTrust250genericconflict,not250dinnerdanceorFortScott30acreswholepropertyrental. Actual9pageoriginal2026–2028PDFfullytextread; package/pricetablesrenderedandvisuallyoverviewed.2027/2028packages107/122/162/187pp+1495ceremony+day/seasonvenue2495–10995/22admin/tax/minima,notallin.2026different105/120/160/185/2495–8995venue,keptdated. PackageBuildYourOwnnoDJ/MC/cake/openbar; ClassicDJhousecenterpieces/nohostbarsoftdrinks,Premiercake/florals/openwellbar,Elite6h/topbar/photobooth/officiant.5heventotherpackagesPLUSsetupnot5htotalaccess. Liabilityinsurance/dinnerware/standardchairs/linensstated;outsidecaterersdirectoryclaimnotoperatorpermission. Paidparkingnotfree. Promo1000onlybookcelebratewithin6months/event10000beforetax/nootherpromos,notautomaticdiscount. Independentclosingclocksunknown.",
+      "candidate_reader_evidence_sha256": "bbefa4406e4836aa646cb14648aab3902833c005a7f2efd86d41f48b674c0a7c",
+      "candidate_raw_retrieval_state": "http_error",
+      "candidate_evidence_method": "Exact standard-web reader export actually reviewed; failed raw retrieval preserved."
+    },
+    {
+      "candidate_id": "directory-lead-bb110fb9ffb36a",
+      "original_pending_index": 136,
+      "checked_utc": "2026-11-12T10:56:48.995241+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "presidio-chapel-of-our-lady-chapel-of-our-lady-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.partyslate.com/venues/chapel-of-our-lady-by-wedgewood-weddings",
+        "https://www.wedgewoodweddings.com/venues/presidio/chapel-of-our-lady"
+      ],
+      "candidate_capture_sha256": null,
+      "operator_capture_sha256": "6f5f46bdd5cb0862e5018732c5ff29837a4f040f8977b98ac51cb740a3651c42",
+      "reason": "EntirenewPartySlatebodyreadviaretainedstandardreader;existingcurrentprimaryreviewreused,notfalselyreaudited. Exact45MoragaChapelOurLady distinct130FisherPresidioChapel and50MoragaOfficersClub. PartySlate200headerbut175roomconflict;operator200PEWCEREMONYnotdinnerdance. Directorygenericamenitylistincludingpool/kosherkitchen/outsidecaterer notverifiedpermissions. Primarycurrent2027packagestartingpricespreviouslyreviewed keptscoped,notstandalone1495legacyquoteornewproperty. NoadditionalPDFlistedhere.",
+      "candidate_reader_evidence_sha256": "bbefa4406e4836aa646cb14648aab3902833c005a7f2efd86d41f48b674c0a7c",
+      "candidate_raw_retrieval_state": "http_error",
+      "candidate_evidence_method": "Exact standard-web reader export actually reviewed; failed raw retrieval preserved."
+    },
+    {
+      "candidate_id": "directory-lead-cdd0661e69f899",
+      "original_pending_index": 137,
+      "checked_utc": "2026-11-12T10:56:48.995241+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "presidio-officers-club-moraga-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.partyslate.com/venues/officers-club-at-the-presidio-by-wedgewood-weddings",
+        "https://www.wedgewoodweddings.com/venues/presidio/officers-club"
+      ],
+      "candidate_capture_sha256": null,
+      "operator_capture_sha256": "d949f9ad429a8826d8c744bb6bbe8bcb527b1b606bfca30c0322a05f0174d0f0",
+      "reason": "FullPartySlateprofilecurrentoperatorbodyandactual9page2026–2028originalPDFread. Canonicaloperator/PDF50Moraga;PartySlate135FisherisWRONGGoldenGateClubaddress,notidentitymerge. NewphysicalOfficersClubnotnewpropertyperMoragaHall/HardieCourtyard/OrtegaBallroom. ChapelOurLady45Moragaseparatelyexistingandpaired,notanothernewroom/property.220genericbrochure/operatorrelatedvenue,not220dinnerdanceapproval;directory220allroomsincludingchapel/200parknotadditive.2027–2028packages107/122/162/187pp+1995ceremony+dayseasonvenue2495–13495+22admin/tax/minima;2026different105/120/160/185pp/2495–9995venue. Package5hPLUSsetup/Elite6h,independentclosingunknown. Baseessentialsliabilityinsurance/setupbreakdown/dinnerware/banquetcaptain/cakecutting;ClassicandaboveDJ/MCnotBuildYourOwn;Premier/Elitecake/openbar. InnnearbyOPTIONnotmandatoryroomblock/overnightrequirement. Noissuedallintotal/caterer/BYOBpermissionfromdirectoryicons.",
+      "candidate_reader_evidence_sha256": "bbefa4406e4836aa646cb14648aab3902833c005a7f2efd86d41f48b674c0a7c",
+      "candidate_raw_retrieval_state": "http_error",
+      "candidate_evidence_method": "Exact standard-web reader export actually reviewed; failed raw retrieval preserved."
+    },
+    {
+      "candidate_id": "directory-lead-97c13138eddb44",
+      "original_pending_index": 140,
+      "checked_utc": "2026-11-12T10:56:48.995241+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "presidio-golden-gate-club-golden-gate-club-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.partyslate.com/venues/golden-gate-club-at-the-presidio",
+        "https://www.wedgewoodweddings.com/venues/presidio/golden-gate-club"
+      ],
+      "candidate_capture_sha256": null,
+      "operator_capture_sha256": "d03d44f624b86d1cf6befe49e5a980bbf057fd85a09a1a45dd74bb8973c19942",
+      "reason": "EntirePartySlateprofile,currentTrust/operatorbodiesandactual16pageSept23,2026filename2027–2029PDFread.135FisherGoldenGateClubnotOfficers50Moraga. PartySlate220header vs300Ventana/courtyard/Trust300genericconflict;Hawthorn200directorynotnewproperty/notadditive;no330dinnerdanceapproval. Actual2027/2028packages107/122/162/187pp+2495ceremony+season/dayvenue4995–19995+22admin/tax/minima.2029packages113/128/168/193/FridaySundaydifferent;notcurrent2027price. MinimumcontractsubtotalBEFOREadmin/tax,photographyexcludedtowardminimum;PartySlate10000minimumnotconfirmeduniversal. Publishedallservicesadmin,gratuityvoluntary/notincluded. Nooutsidealcohol,food/drinkexplicitpermission; independentvendorsallowedNOindependentvendorfee,discountvendor mealunpriced;notfreeoutsidecateringfromdirectory.25%reservation+paidto50%180days+balance10dayscreditedBUTnonrefundable;notdamagecashdeposit. Finalguestguarantee10days/afterfinalmeetingcannotreduce;unplannedextraguests1.5perpersonpenaltynotbaseprice. CoordinatorhandsreceptiontoBanquetCaptain,nopromisecontinuouspersonalplanner.5hevent/Elite6PLUSsetup,notindependentmusic/bar/cleanupdeadline. Inclementweatherno refund/backupcapacityunknown. Mandatorylodgingunproven.",
+      "candidate_reader_evidence_sha256": "8df361c1bfea9c33618b6a7fb1c98c52026d496af2f8bc35c989cfcaf0d66ad6",
+      "candidate_raw_retrieval_state": "http_error",
+      "candidate_evidence_method": "Exact standard-web reader export actually reviewed; failed raw retrieval preserved."
+    },
+    {
+      "candidate_id": "directory-lead-3a997bc9ae8417",
+      "original_pending_index": 142,
+      "checked_utc": "2026-11-12T10:56:48.995241+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "presidio-presidio-chapel-presidio-chapel-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.partyslate.com/venues/presidio-chapel-at-the-presidio-by-wedgewood-weddings",
+        "https://presidio.gov/venues/presidio-chapel"
+      ],
+      "candidate_capture_sha256": null,
+      "operator_capture_sha256": "5affa3453a5913bd03a811272eb21335158b3b2f9bcde8918dceacea4ea31a38",
+      "reason": "EntirenewPartySlatebodyread;earliercurrentTrust/operatorreviewreused,notrepeatnewproperty. Exact130FisherPresidioChapel not45MoragaOurLady/50MoragaOfficers/135GoldenGate. NewdirectorysaysonlywithLogCabinORGoldenGatewherecurrentoperatorpreviouslysaidexclusiveGoldenGate;supersessionconflictretained. Directory150seated/standing/garden vsTrust240generic remainsnotdinnerdance. Broadpool/kosherkitchen/dance/outsidefoodamenityiconsnotpermission. NoPDFpricingonthisprofile;earliercurrentoperatorquotedcombinedpricesnotstandaloneceremonyquote.",
+      "candidate_reader_evidence_sha256": "8df361c1bfea9c33618b6a7fb1c98c52026d496af2f8bc35c989cfcaf0d66ad6",
+      "candidate_raw_retrieval_state": "http_error",
+      "candidate_evidence_method": "Exact standard-web reader export actually reviewed; failed raw retrieval preserved."
     }
   ],
-  "unreviewed_original_inputs": 233,
+  "unreviewed_original_inputs": 228,
   "municipal_searches_completed": 0,
   "complete": false,
   "scope": "Queue identity resolution is not full venue facts, exhaustive geographic discovery or permission for any event. Actual access/identity blockers remain separate from unreviewed work."

@@ -2,8 +2,8 @@
   "summary": {
     "checked_utc": "2026-10-26T13:28:51.955107+00:00",
     "candidate_urls": 580,
-    "candidate_urls_with_exact_match": 351,
-    "candidate_urls_without_exact_match": 229,
+    "candidate_urls_with_exact_match": 356,
+    "candidate_urls_without_exact_match": 224,
     "source_counts": {
       "moderndjs": {
         "raw_named_cards": 361,
@@ -53,13 +53,13 @@
     },
     "added_venue_records": 0,
     "note": "Candidate URLs are not a venue count. Old source collection counts retain their original dates; followup state counts are current. Fragment-only links merged; names/URLs are aids, not automatic reviews. Original added_venue_records=0 describes index-only ingestion; primary_followup_records_added is separate.",
-    "primary_followup_records_added": 206,
-    "followup_checked_utc": "2026-11-12T10:50:16.950112+00:00",
+    "primary_followup_records_added": 207,
+    "followup_checked_utc": "2026-11-12T10:56:48.995241+00:00",
     "current_review_counts": {
-      "reviewed_added": 210,
-      "reviewed_existing": 124,
+      "reviewed_added": 211,
+      "reviewed_existing": 128,
       "blocked": 10,
-      "pending": 233,
+      "pending": 228,
       "excluded": 3
     }
   },
@@ -4183,10 +4183,19 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "presidio-log-cabin-log-cabin-san-francisco"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T10:56:48.995241+00:00",
+      "review_source_urls": [
+        "https://www.partyslate.com/venues/log-cabin-at-the-presidio-by-wedgewood-weddings",
+        "https://www.wedgewoodweddings.com/venues/presidio/log-cabin"
+      ],
+      "review_reason": "EntirePartySlatebodyreadviaretainedstandardreaderandfullcurrentTrust/operatorbodiesread.1299StoreyexactidentitynototherLogCabins. PartySlate120seated/standing,operatorbrochure120generic versusTrust250genericconflict,not250dinnerdanceorFortScott30acreswholepropertyrental. Actual9pageoriginal2026–2028PDFfullytextread; package/pricetablesrenderedandvisuallyoverviewed.2027/2028packages107/122/162/187pp+1495ceremony+day/seasonvenue2495–10995/22admin/tax/minima,notallin.2026different105/120/160/185/2495–8995venue,keptdated. PackageBuildYourOwnnoDJ/MC/cake/openbar; ClassicDJhousecenterpieces/nohostbarsoftdrinks,Premiercake/florals/openwellbar,Elite6h/topbar/photobooth/officiant.5heventotherpackagesPLUSsetupnot5htotalaccess. Liabilityinsurance/dinnerware/standardchairs/linensstated;outsidecaterersdirectoryclaimnotoperatorpermission. Paidparkingnotfree. Promo1000onlybookcelebratewithin6months/event10000beforetax/nootherpromos,notautomaticdiscount. Independentclosingclocksunknown.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-bb110fb9ffb36a",
@@ -4204,10 +4213,19 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "presidio-chapel-of-our-lady-chapel-of-our-lady-san-francisco"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T10:56:48.995241+00:00",
+      "review_source_urls": [
+        "https://www.partyslate.com/venues/chapel-of-our-lady-by-wedgewood-weddings",
+        "https://www.wedgewoodweddings.com/venues/presidio/chapel-of-our-lady"
+      ],
+      "review_reason": "EntirenewPartySlatebodyreadviaretainedstandardreader;existingcurrentprimaryreviewreused,notfalselyreaudited. Exact45MoragaChapelOurLady distinct130FisherPresidioChapel and50MoragaOfficersClub. PartySlate200headerbut175roomconflict;operator200PEWCEREMONYnotdinnerdance. Directorygenericamenitylistincludingpool/kosherkitchen/outsidecaterer notverifiedpermissions. Primarycurrent2027packagestartingpricespreviouslyreviewed keptscoped,notstandalone1495legacyquoteornewproperty. NoadditionalPDFlistedhere.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-cdd0661e69f899",
@@ -4225,10 +4243,19 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "presidio-officers-club-moraga-san-francisco"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T10:56:48.995241+00:00",
+      "review_source_urls": [
+        "https://www.partyslate.com/venues/officers-club-at-the-presidio-by-wedgewood-weddings",
+        "https://www.wedgewoodweddings.com/venues/presidio/officers-club"
+      ],
+      "review_reason": "FullPartySlateprofilecurrentoperatorbodyandactual9page2026–2028originalPDFread. Canonicaloperator/PDF50Moraga;PartySlate135FisherisWRONGGoldenGateClubaddress,notidentitymerge. NewphysicalOfficersClubnotnewpropertyperMoragaHall/HardieCourtyard/OrtegaBallroom. ChapelOurLady45Moragaseparatelyexistingandpaired,notanothernewroom/property.220genericbrochure/operatorrelatedvenue,not220dinnerdanceapproval;directory220allroomsincludingchapel/200parknotadditive.2027–2028packages107/122/162/187pp+1995ceremony+dayseasonvenue2495–13495+22admin/tax/minima;2026different105/120/160/185pp/2495–9995venue. Package5hPLUSsetup/Elite6h,independentclosingunknown. Baseessentialsliabilityinsurance/setupbreakdown/dinnerware/banquetcaptain/cakecutting;ClassicandaboveDJ/MCnotBuildYourOwn;Premier/Elitecake/openbar. InnnearbyOPTIONnotmandatoryroomblock/overnightrequirement. Noissuedallintotal/caterer/BYOBpermissionfromdirectoryicons.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-b8765f723742a3",
@@ -4331,10 +4358,19 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "presidio-golden-gate-club-golden-gate-club-san-francisco"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T10:56:48.995241+00:00",
+      "review_source_urls": [
+        "https://www.partyslate.com/venues/golden-gate-club-at-the-presidio",
+        "https://www.wedgewoodweddings.com/venues/presidio/golden-gate-club"
+      ],
+      "review_reason": "EntirePartySlateprofile,currentTrust/operatorbodiesandactual16pageSept23,2026filename2027–2029PDFread.135FisherGoldenGateClubnotOfficers50Moraga. PartySlate220header vs300Ventana/courtyard/Trust300genericconflict;Hawthorn200directorynotnewproperty/notadditive;no330dinnerdanceapproval. Actual2027/2028packages107/122/162/187pp+2495ceremony+season/dayvenue4995–19995+22admin/tax/minima.2029packages113/128/168/193/FridaySundaydifferent;notcurrent2027price. MinimumcontractsubtotalBEFOREadmin/tax,photographyexcludedtowardminimum;PartySlate10000minimumnotconfirmeduniversal. Publishedallservicesadmin,gratuityvoluntary/notincluded. Nooutsidealcohol,food/drinkexplicitpermission; independentvendorsallowedNOindependentvendorfee,discountvendor mealunpriced;notfreeoutsidecateringfromdirectory.25%reservation+paidto50%180days+balance10dayscreditedBUTnonrefundable;notdamagecashdeposit. Finalguestguarantee10days/afterfinalmeetingcannotreduce;unplannedextraguests1.5perpersonpenaltynotbaseprice. CoordinatorhandsreceptiontoBanquetCaptain,nopromisecontinuouspersonalplanner.5hevent/Elite6PLUSsetup,notindependentmusic/bar/cleanupdeadline. Inclementweatherno refund/backupcapacityunknown. Mandatorylodgingunproven.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-e3dd3ab9341b34",
@@ -4373,10 +4409,19 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "presidio-presidio-chapel-presidio-chapel-san-francisco"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T10:56:48.995241+00:00",
+      "review_source_urls": [
+        "https://www.partyslate.com/venues/presidio-chapel-at-the-presidio-by-wedgewood-weddings",
+        "https://presidio.gov/venues/presidio-chapel"
+      ],
+      "review_reason": "EntirenewPartySlatebodyread;earliercurrentTrust/operatorreviewreused,notrepeatnewproperty. Exact130FisherPresidioChapel not45MoragaOurLady/50MoragaOfficers/135GoldenGate. NewdirectorysaysonlywithLogCabinORGoldenGatewherecurrentoperatorpreviouslysaidexclusiveGoldenGate;supersessionconflictretained. Directory150seated/standing/garden vsTrust240generic remainsnotdinnerdance. Broadpool/kosherkitchen/dance/outsidefoodamenityiconsnotpermission. NoPDFpricingonthisprofile;earliercurrentoperatorquotedcombinedpricesnotstandaloneceremonyquote.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-896845f0e55351",
