@@ -2,8 +2,8 @@
   "summary": {
     "checked_utc": "2026-10-26T13:28:51.955107+00:00",
     "candidate_urls": 580,
-    "candidate_urls_with_exact_match": 400,
-    "candidate_urls_without_exact_match": 180,
+    "candidate_urls_with_exact_match": 407,
+    "candidate_urls_without_exact_match": 173,
     "source_counts": {
       "moderndjs": {
         "raw_named_cards": 361,
@@ -53,13 +53,13 @@
     },
     "added_venue_records": 0,
     "note": "Candidate URLs are not a venue count. Old source collection counts retain their original dates; followup state counts are current. Fragment-only links merged; names/URLs are aids, not automatic reviews. Original added_venue_records=0 describes index-only ingestion; primary_followup_records_added is separate.",
-    "primary_followup_records_added": 242,
-    "followup_checked_utc": "2026-11-12T13:05:39.491063+00:00",
+    "primary_followup_records_added": 246,
+    "followup_checked_utc": "2026-11-12T13:20:32.857052+00:00",
     "current_review_counts": {
-      "reviewed_added": 238,
-      "reviewed_existing": 162,
+      "reviewed_added": 242,
+      "reviewed_existing": 165,
       "blocked": 10,
-      "pending": 167,
+      "pending": 160,
       "excluded": 3
     }
   },
@@ -6563,10 +6563,19 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "sfjazz-second-floor-lobby-san-francisco"
+      ],
       "match_method": "Not yet manually reconciled",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T13:20:32.857052+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/sf-jazz",
+        "https://www.sfjazz.org/visit/rentals/"
+      ],
+      "review_reason": "Existing201Franklin single SFJAZZ Center. Actual whole webreader/current27p2025brochure+4p2018plans text read/all9layout/imagepages viewed. Globalassets404 recovered actual primary media links. Miner700 FIXED THEATER not banquet; Joe100theater/100standing, firstlobby150standing, second100dinner250standing, BSide60seated100standing nested. ApprovedcaterersONLY; publicbasicWiFi free/customnetworkextra; NOcomplimentaryvendorparking; 50percentbookingdeposit/balanceandinsurance30daysbefore; currentweddingpermission unverified.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-ff20075d6b7fb6",
@@ -6584,10 +6593,19 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "sfmoma-wedding-rental-san-francisco"
+      ],
       "match_method": "Not yet manually reconciled",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T13:20:32.857052+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/sf-moma",
+        "https://www.sfmoma.org/rental-events/weddings-at-sfmoma/"
+      ],
+      "review_reason": "Existing151ThirdSFMOMA. Actual fullrental/wedding/corporate/FAQ read including rooms outside oldparsermain. Weddingintro150maxreception conflicts SAMEPAGE Schwab450dinner600standing: not330weddingapproval. RequiredEnthusiastCuratorsCirclemembershipcostunknown/approvedcaterersonly/dayofcoordinator. Baseguardsengineersjanitorialmanagerincluded; furniturefoodgalleryextra/coatcheckconditional. Holiday20percentpremium; usualFriTue18:30-22:30/Wedfrom9AM; midnight-2AM3000hour needs6weeksadvance. Under21casebycaseintrovsFAQprohibition; religiousceremonypolicyclarification needed. Noformsubmitted.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-23f5f6eba25d2f",
@@ -6605,10 +6623,19 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "shack15-ferry-building-san-francisco"
+      ],
       "match_method": "Not yet manually reconciled",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T13:20:32.857052+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/shack15",
+        "https://www.shack15.com/"
+      ],
+      "review_reason": "NewSPACE inside SAMEFerryBuildingphysicalsite asGrandHall, distinctbookingoperator notnewbuilding. Fullprimaryhome/events read; private dinners advertised/weddingpermissionunknown. 52000 is AREA notcapacity; directory350seatedlayoutunspecified/Gallery176rounds250theater275standing not330dinnerapproval. PrimaryPerfectVenuepublishedroute notrendered/submitted; priceunknown.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-c81cea50c5040c",
@@ -6626,10 +6653,19 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "splash-thrive-city-san-francisco"
+      ],
       "match_method": "Not yet manually reconciled",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T13:20:32.857052+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/splash-at-thrive-city",
+        "https://splashsportsbar.com/private-events/book-a-party/"
+      ],
+      "review_reason": "NewSPACE on SAMEChaseCenterThriveCitycampus but distinctsportsbarbooking/notAboveTheRim. Fullprimaryhome/private/2floors/bookingread;FAQonlyquestions answersunread. Whole1000flow600indoor400outdoor NOTdinner; bookingRec125/View110/Bar75/Veranda150/Backyard150 conflictwithroomproseBackyard200Veranda200/directorylayouts. 20orlessdirectbookingF&Bminimumamountunknown/20plusTripleseat40697unsubmitted. Footer6percentallcheckssurcharge20percentgratuity8plus notautomaticallyprivatecontractbasis. Suite102textvsSuite101maplinkconflict; weddingpermissionunknown.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-5b1559b095c439",
@@ -6647,10 +6683,19 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "spur-urban-center-san-francisco"
+      ],
       "match_method": "Not yet manually reconciled",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T13:20:32.857052+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/spur-urban-center",
+        "https://www.spur.org/facility-rental/san-francisco/faqs"
+      ],
+      "review_reason": "NewONE654Mission. FullprimaryFAQ/both6pbrochures text read/all6capacityplanpagesviewed. 20000starting12hwholefloors1/2/4; citywide3DAYMINIMUM. 50percentnonrefundable/nontransferdeposit; venuecoordjanitorialbasicAV10MbpsWiFitableschairsincluded; AVTECHNOTincluded. NoKitchenonlybasementprep; ownvendorsallowed/licensedbar/COIclientsvendors/firepermitsterno. Hall80round120theater175standingvsdir200;Penthouse56round85standing/Gallery75-150standingexhibitdependent. Whole425genericNOTdinner. CurrentAnneWHalstedvsolderPublicAssembly samehallalias.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-c40566df790817",
@@ -6668,10 +6713,19 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "swedish-american-hall-san-francisco"
+      ],
       "match_method": "Not yet manually reconciled",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T13:20:32.857052+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/swedish-american-hall-cafe-du-nord",
+        "https://www.swedishamericanhall.com/faqs.html"
+      ],
+      "review_reason": "ExistingONE2174Marketbuilding inclCafeDuNord downstairs. Fullhome/wedding/2room/FAQ/partners read; technicalinventory scoped notallserialtail. CurrentFreja150banquet225theater300standingvsdir180banquet/Balder70banquet100standingvs60/120/Cafe80banquet100theater320standingvs100/80/300. Whole620STANDINGnotdinner. EveryFrejaincludesBalder but Balderdaytimealonepossible. 4/6/10hcontracts/50percentdepositrefundunknown. Mandatoryplannerstarts1monthbefore distinctincludedmanager. Licensedinsuredowncatererallowed/Meadowpreferred/GotLightexclusiveAVpartner. LinensEXCLUDED;10h10rounds6eightft200chairs. SetupFAQincludedvsTechpossiblelaborcharge conflict;packinpackouttrashvsincludedjanitorialscopeunknown.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-262d015c7d7906",
@@ -6722,10 +6776,19 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "ucsf-mission-bay-conference-center-san-francisco"
+      ],
       "match_method": "Not yet manually reconciled",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T13:20:32.857052+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/ucsf-mission-bay-conference-center",
+        "https://campuslifeserviceshome.ucsf.edu/conference-services"
+      ],
+      "review_reason": "NewONE1675OwensRutterCenter; do notmergeall3UCSFcampuses. HTTPonlyLoading retained; actualwholewebreaderhomeandroomtables read/exporthashed. NONUCSFthroughJune2027 Robertson7500half11000full/Fisher5500half9000full/Coblentz2500/3500/conf2125/3000each/AtriumPubTerrace3000full/2FPatio1500full. Half/fullhoursunknown; lowerINTERNALRECHARGEratesNOTpersonalweddingrates. CurrentRobertson/Fisher300ROUNDSnot330dinner;theater560/375. HardliquorPROHIBITED;preapprovedlicensedalcoholcaterer/COInonUCSF/AVthirdpartyfacilityfeespossible/limitedparking. Operating8PMnotassumedmusiccleanup. PublicSmartsheetrouteunsubmitted/internalEMSMyAccessnotpublicavailability; weddingpermissionunknown.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-abf9e3683801b4",

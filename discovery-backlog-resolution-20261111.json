@@ -1,6 +1,6 @@
 {
   "audit_id": "discovery-backlog-20261111",
-  "updated_utc": "2026-11-12T13:05:39.491063+00:00",
+  "updated_utc": "2026-11-12T13:20:32.857052+00:00",
   "original_pending_candidates": 500,
   "reviewed_dispositions_applied": [
     {
@@ -6641,9 +6641,125 @@
       "candidate_capture_sha256": "b87b2cf28df306bc2d3acadd7a4e0c0094f2e581062ffcd2d87f0b5c005e1cfa",
       "operator_capture_sha256": "a0e5e8c5d72ee36d0561a81d25ae2ac281e68e89f9a54c0cfe2b18d50e0def47",
       "reason": "Entireprimaryhome/weddings/contact andactual4pageoriginalfloorplan text/allpagesvisuallyreviewed. ExistingONE101HenryAdamsSFDesignCenterGalleria, notdesignfirm100WestOhioRichmondor101UtahSFdesignerfooter. Mainfloor400BANQUETwithoutdance300WITHdance400theater1000reception; upperfloorupto200dependentonsightlinesnotextra200perfloorassumedvalid330dinnerplan. Total1600standingnotdinner. WeekdayEVENT6PM2AMsetupupper1PMmain3PM/weekend8AM2AM, cleanup/bar/musicindependentclocksunknown. Currentprimarynotproof100freeparkingdirectory. Floorplans2010/2012despite2022URL, privatecopyright/designlimitnotpublicrawdrawings. Sourcecontactformclaimbutactualfieldinteractionnotverified. Currentmandatorycostsunknown."
+    },
+    {
+      "candidate_id": "directory-lead-90d3d5fd75f3fc",
+      "original_pending_index": 201,
+      "checked_utc": "2026-11-12T13:20:32.857052+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "sfjazz-second-floor-lobby-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.sfuva.com/sf-jazz",
+        "https://www.sfjazz.org/visit/rentals/"
+      ],
+      "candidate_capture_sha256": "8ed95e5b56dd75016d5c9f2f9ef9fa9ec25ded2bfb3f3838b0a0e8904859cf3b",
+      "operator_capture_sha256": null,
+      "reason": "Existing201Franklin single SFJAZZ Center. Actual whole webreader/current27p2025brochure+4p2018plans text read/all9layout/imagepages viewed. Globalassets404 recovered actual primary media links. Miner700 FIXED THEATER not banquet; Joe100theater/100standing, firstlobby150standing, second100dinner250standing, BSide60seated100standing nested. ApprovedcaterersONLY; publicbasicWiFi free/customnetworkextra; NOcomplimentaryvendorparking; 50percentbookingdeposit/balanceandinsurance30daysbefore; currentweddingpermission unverified.",
+      "reader_evidence_sha256": "e35421366291742be20d8fb55c31210e13171b36db55b6a676b9a9659eb90c60",
+      "evidence_method": "Exact standard-web reader export reviewed; original HTML retrieval state preserved; no raw HTML success claimed"
+    },
+    {
+      "candidate_id": "directory-lead-ff20075d6b7fb6",
+      "original_pending_index": 202,
+      "checked_utc": "2026-11-12T13:20:32.857052+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "sfmoma-wedding-rental-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.sfuva.com/sf-moma",
+        "https://www.sfmoma.org/rental-events/weddings-at-sfmoma/"
+      ],
+      "candidate_capture_sha256": "c9eec25fbcf86414e878b8ef96f3a2ffb21721ded3c11650104dbfb05602fb69",
+      "operator_capture_sha256": "323d20233cb037e35f37292599d094a4743251b34ccec9df053155a0b5e10594",
+      "reason": "Existing151ThirdSFMOMA. Actual fullrental/wedding/corporate/FAQ read including rooms outside oldparsermain. Weddingintro150maxreception conflicts SAMEPAGE Schwab450dinner600standing: not330weddingapproval. RequiredEnthusiastCuratorsCirclemembershipcostunknown/approvedcaterersonly/dayofcoordinator. Baseguardsengineersjanitorialmanagerincluded; furniturefoodgalleryextra/coatcheckconditional. Holiday20percentpremium; usualFriTue18:30-22:30/Wedfrom9AM; midnight-2AM3000hour needs6weeksadvance. Under21casebycaseintrovsFAQprohibition; religiousceremonypolicyclarification needed. Noformsubmitted."
+    },
+    {
+      "candidate_id": "directory-lead-23f5f6eba25d2f",
+      "original_pending_index": 203,
+      "checked_utc": "2026-11-12T13:20:32.857052+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "shack15-ferry-building-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.sfuva.com/shack15",
+        "https://www.shack15.com/"
+      ],
+      "candidate_capture_sha256": "4ccbe7acdd790e326cfe50a88c11d3d0b1063cca0dd93cb0fd62c7a847264914",
+      "operator_capture_sha256": "57949f804362b55a87d5bc7c15298af1c378583a3307c79bdaf7d313c54c59d3",
+      "reason": "NewSPACE inside SAMEFerryBuildingphysicalsite asGrandHall, distinctbookingoperator notnewbuilding. Fullprimaryhome/events read; private dinners advertised/weddingpermissionunknown. 52000 is AREA notcapacity; directory350seatedlayoutunspecified/Gallery176rounds250theater275standing not330dinnerapproval. PrimaryPerfectVenuepublishedroute notrendered/submitted; priceunknown."
+    },
+    {
+      "candidate_id": "directory-lead-c81cea50c5040c",
+      "original_pending_index": 204,
+      "checked_utc": "2026-11-12T13:20:32.857052+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "splash-thrive-city-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.sfuva.com/splash-at-thrive-city",
+        "https://splashsportsbar.com/private-events/book-a-party/"
+      ],
+      "candidate_capture_sha256": "d8a0d41f67c9f84723b2c78739528b74deeaaaf38772d2e39765b77012096c5f",
+      "operator_capture_sha256": "bed0b20392db4989769f477cbd86bc9fbf2efad38e1c1cda17fe940517cd9242",
+      "reason": "NewSPACE on SAMEChaseCenterThriveCitycampus but distinctsportsbarbooking/notAboveTheRim. Fullprimaryhome/private/2floors/bookingread;FAQonlyquestions answersunread. Whole1000flow600indoor400outdoor NOTdinner; bookingRec125/View110/Bar75/Veranda150/Backyard150 conflictwithroomproseBackyard200Veranda200/directorylayouts. 20orlessdirectbookingF&Bminimumamountunknown/20plusTripleseat40697unsubmitted. Footer6percentallcheckssurcharge20percentgratuity8plus notautomaticallyprivatecontractbasis. Suite102textvsSuite101maplinkconflict; weddingpermissionunknown."
+    },
+    {
+      "candidate_id": "directory-lead-5b1559b095c439",
+      "original_pending_index": 205,
+      "checked_utc": "2026-11-12T13:20:32.857052+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "spur-urban-center-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.sfuva.com/spur-urban-center",
+        "https://www.spur.org/facility-rental/san-francisco/faqs"
+      ],
+      "candidate_capture_sha256": "249fc57404c46f3ee7d6aec2a8858e45538ebf5cf57bad7eadf89590c6c637f8",
+      "operator_capture_sha256": "2699e374b5adebc65b8188738c7d789f1219f0e3be3a32d311027309e4a1d704",
+      "reason": "NewONE654Mission. FullprimaryFAQ/both6pbrochures text read/all6capacityplanpagesviewed. 20000starting12hwholefloors1/2/4; citywide3DAYMINIMUM. 50percentnonrefundable/nontransferdeposit; venuecoordjanitorialbasicAV10MbpsWiFitableschairsincluded; AVTECHNOTincluded. NoKitchenonlybasementprep; ownvendorsallowed/licensedbar/COIclientsvendors/firepermitsterno. Hall80round120theater175standingvsdir200;Penthouse56round85standing/Gallery75-150standingexhibitdependent. Whole425genericNOTdinner. CurrentAnneWHalstedvsolderPublicAssembly samehallalias."
+    },
+    {
+      "candidate_id": "directory-lead-c40566df790817",
+      "original_pending_index": 206,
+      "checked_utc": "2026-11-12T13:20:32.857052+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "swedish-american-hall-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.sfuva.com/swedish-american-hall-cafe-du-nord",
+        "https://www.swedishamericanhall.com/faqs.html"
+      ],
+      "candidate_capture_sha256": "11e41284d9e1561b9286412f954977bec3a8e4dd8413dd26f391d347681a381a",
+      "operator_capture_sha256": "736d9afcb85e3a804274768681ef507944c9c000582c8b6e643f4981e2b4c794",
+      "reason": "ExistingONE2174Marketbuilding inclCafeDuNord downstairs. Fullhome/wedding/2room/FAQ/partners read; technicalinventory scoped notallserialtail. CurrentFreja150banquet225theater300standingvsdir180banquet/Balder70banquet100standingvs60/120/Cafe80banquet100theater320standingvs100/80/300. Whole620STANDINGnotdinner. EveryFrejaincludesBalder but Balderdaytimealonepossible. 4/6/10hcontracts/50percentdepositrefundunknown. Mandatoryplannerstarts1monthbefore distinctincludedmanager. Licensedinsuredowncatererallowed/Meadowpreferred/GotLightexclusiveAVpartner. LinensEXCLUDED;10h10rounds6eightft200chairs. SetupFAQincludedvsTechpossiblelaborcharge conflict;packinpackouttrashvsincludedjanitorialscopeunknown."
+    },
+    {
+      "candidate_id": "directory-lead-5b2e5ff06b510d",
+      "original_pending_index": 207,
+      "checked_utc": "2026-11-12T13:20:32.857052+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "ucsf-mission-bay-conference-center-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.sfuva.com/ucsf-mission-bay-conference-center",
+        "https://campuslifeserviceshome.ucsf.edu/conference-services"
+      ],
+      "candidate_capture_sha256": "cb5df5d4bdec9c0ca7ba9b36df866450712691204e04287f1089f58b3c14a52a",
+      "operator_capture_sha256": "c9bed54552fa4d95a6aa146992526b97a3952c624ebb109ef5b38284e163a8d1",
+      "reason": "NewONE1675OwensRutterCenter; do notmergeall3UCSFcampuses. HTTPonlyLoading retained; actualwholewebreaderhomeandroomtables read/exporthashed. NONUCSFthroughJune2027 Robertson7500half11000full/Fisher5500half9000full/Coblentz2500/3500/conf2125/3000each/AtriumPubTerrace3000full/2FPatio1500full. Half/fullhoursunknown; lowerINTERNALRECHARGEratesNOTpersonalweddingrates. CurrentRobertson/Fisher300ROUNDSnot330dinner;theater560/375. HardliquorPROHIBITED;preapprovedlicensedalcoholcaterer/COInonUCSF/AVthirdpartyfacilityfeespossible/limitedparking. Operating8PMnotassumedmusiccleanup. PublicSmartsheetrouteunsubmitted/internalEMSMyAccessnotpublicavailability; weddingpermissionunknown.",
+      "reader_evidence_sha256": "e35421366291742be20d8fb55c31210e13171b36db55b6a676b9a9659eb90c60",
+      "evidence_method": "Exact standard-web reader export reviewed; original HTML retrieval state preserved; no raw HTML success claimed"
     }
   ],
-  "unreviewed_original_inputs": 167,
+  "unreviewed_original_inputs": 160,
   "municipal_searches_completed": 0,
   "complete": false,
   "scope": "Queue identity resolution is not full venue facts, exhaustive geographic discovery or permission for any event. Actual access/identity blockers remain separate from unreviewed work."
