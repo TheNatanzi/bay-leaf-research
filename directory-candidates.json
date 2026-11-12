@@ -2,8 +2,8 @@
   "summary": {
     "checked_utc": "2026-10-26T13:28:51.955107+00:00",
     "candidate_urls": 580,
-    "candidate_urls_with_exact_match": 482,
-    "candidate_urls_without_exact_match": 98,
+    "candidate_urls_with_exact_match": 490,
+    "candidate_urls_without_exact_match": 90,
     "source_counts": {
       "moderndjs": {
         "raw_named_cards": 361,
@@ -53,16 +53,16 @@
     },
     "added_venue_records": 0,
     "note": "Candidate URLs are not a venue count. Old source collection counts retain their original dates; followup state counts are current. Fragment-only links merged; names/URLs are aids, not automatic reviews. Original added_venue_records=0 describes index-only ingestion; primary_followup_records_added is separate.",
-    "primary_followup_records_added": 291,
-    "followup_checked_utc": "2026-11-12T15:23:23.415903+00:00",
+    "primary_followup_records_added": 294,
+    "followup_checked_utc": "2026-11-12T15:36:11.909355+00:00",
     "current_review_counts": {
-      "reviewed_added": 287,
-      "reviewed_existing": 195,
+      "reviewed_added": 290,
+      "reviewed_existing": 200,
       "blocked": 10,
       "reviewed_supplier_not_venue_offer": 1,
       "reviewed_outside_scope": 9,
       "excluded": 3,
-      "pending": 75
+      "pending": 67
     }
   },
   "candidates": [
@@ -15417,13 +15417,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "bardessono-hotel-spa-yountville-napa"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_added",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/bardessono-hotel-spa#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T15:36:11.909355+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/bardessono-hotel-spa",
+        "https://www.bardessono.com/napa-elopements.htm"
+      ],
+      "review_reason": "ONE resort. Published Sun–Thu elopement/vow-renewal package from8000 forUPTO12, includes officiant, seasonal bouquet/boutonniere,1.5hphotography/digitalgallery,1hacousticguitar, outdoorcourtyardseating, sparklingtoast and sweet/savoryhorsdoeuvres. NOTfullweddingdinner or330guestquote; beauty/spaoptional. Ballroom80SEATED100standing, BayMaple16/RedwoodClaro32/combined50, EventPatio70,foyer40,Lucy12,Cypress30,PoolDeck50,Magnolia75STANDING; generic120meetingheadline not120ballroomdinner. FAQ72perroomnightdestinationfee+tax/2.5%creditcardprocessing/alltransactions/25overnightvalet; notweddingguestfee. Group30minharvestwinereceptionandwellnessroomupgradesconditionalnotallweddinginclusions.2018capacityPDF404unsaved, currentwebtable reviewed. Fullweddingrent/F&Bmin/admin/taxbaseunknown.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-343e19fdf5da06",
@@ -15441,13 +15450,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "beaulieu-garden-rutherford-napa"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_added",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/beaulieu-garden#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T15:36:11.909355+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/beaulieu-garden",
+        "https://beaulieugarden.com/events.html"
+      ],
+      "review_reason": "New privatefamilyestate1901StHelenaHwyRutherford, distinctBeaulieuVineyard/Paulaoffice. Actualhome/events/property/contactbodyread. EXCLUSIVEPaulaLeDucFineCatering&Events manager/caterer handlesagreementsrulesCOIsfeesvisitrehearsal/dayofSITErepresentative, notfreeweddingplanner. GardenArbor/Sunken/Italian/Rose/Culinary/Orchard/Vineyard/ParkspacesONEparent. VIPsuitewetbar/fireplace notovernightlodgingpromise.48trees/300roses/300yearoldtreesnotcapacity. Directory300Plus/unverifiedfurnitureinclusions notoperatorcapacityapproval; actualrent/maxlayoutunknown.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-d2dfa9fa497437",
@@ -15465,13 +15483,25 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "beringer-vineyards-hudson-house-and-grounds-napa",
+        "beringer-vineyards-the-grove-napa",
+        "beringer-vineyards-rhine-house-napa",
+        "beringer-vineyards-wine-caves-napa"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_existing",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/beringer-vineyards#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T15:36:11.909355+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/beringer-vineyards",
+        "https://www.beringer.com/pages/wine-country-weddings"
+      ],
+      "review_reason": "ExistingONEBeringer2000MainStHelena/fourroomrecords. Wedding5heventHudsonHousegrounds/mainfloor/readyrooms3–5PM/valetFriSatSun. Additional1000/hourONLYATBEGINNING, notlateextensionpermission. ClientarrangesALLcatering/rentalsincludingtableschairsdancefloor;preferredcatererandprofessionalatleastPARTIALplannerrequired. BeringerSTILLwineMIN3CASES;purchasedcoordinator. Ownsparklingwine/beerNOcorkage;nohardliquorpermissioninferred. OutdoorAMPmusic10PM. RhineHouse<=10privategroups/not17roomsastotalvenues. Basemoney/maxdinnerlayoutunpublished;retail50%wineofferNOTeventdiscount.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-cbcee39c84f8a0",
@@ -15489,13 +15519,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "berkeley-city-club-alameda"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_existing",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/berkeley-city-club#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T15:36:11.909355+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/berkeley-city-club",
+        "https://www.berkeleycityclub.com/weddings"
+      ],
+      "review_reason": "Existing2315DurantBerkeleyONEproperty/sixactualroomdetailbodiesread. VenetianBallroom150–200BANQUETWITHDANCE/200–250WITHOUT,270theater300–350standing. MembersLounge40dance60without/190standing;Terrace70dance100without180theater200standing;TerraceNOindependententrance/CANNOTRENTALONE. Drawing40dance60without100theater120standing. BerkeleyRoom8CONFERENCE/noapprovedbanquetnot0. LoggiaNOTADAaccessible/15conference20theater25standing/noapprovedbanquetnot0. Roomsnotadditive.2024testimonialfreeweddingsuite/50%priornightnotguaranteedoperatorinclusion. RFPactualfieldsrequirephone,start/enddate,guestcount;budgetoptional. Noformsubmitted/currentfeesunknown;directory1800startingrentunverified.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-1831095be797db",
@@ -15513,13 +15552,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "bimbos-365-club-san-francisco"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_existing",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/bimbos-365-club#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T15:36:11.909355+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/bimbos-365-club",
+        "https://bimbos365club.com/private-events/"
+      ],
+      "review_reason": "Existing1025ColumbusSFONEproperty. Currentprivatepage400SEATEDDINNER/685standing versushome150–475. ThreeactualoriginalPNGfloorplansVISUALLYREAD:FULLBANQUET450MAINROOMwithtablesoncentralfloor;OPEN DANCEFLOOR274MAINROOM;COCKTAILBUFFET188SEATSnotstandingmax. Explicitsource/layoutconflict retained, not330danceapproval. RentincludesfurniturelinenscandlesbarSTAFFandbarGLASSWARE notfreealcohol. Buyout+barMIN+production+incidentalsallunpriced/COIrequired. Approvedcaterer20list/barinventoryreadnotpriced. Tech16pallTEXT/p10p11VISUAL/lighting1pTEXT+VISUALmarked2016notguaranteedcurrentequipment. NOoutsideLIQUORWINEBEER/noalcoholleavesbuilding;openflame/sternosFIREPERMIT/no confetti/glitter/balloonsdecoradvanceapproval. NOhousevideoscreensprojectorsLEDwalls/additionallightsunionlabor+cost/piano move+tuningfee/backstageUPFLIGHTSTAIRS/noonsitelaundry. Filmingbeyond1archival/socialcamerarequiresfees/license/unionlabor. Stage3fixedtiers/noceilingrigging. Loadingbusparkingnotfreeguestparking. Techp13p15photosUNREVIEWED.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-b920dd301b25a2",
@@ -15537,13 +15585,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "boulder-ridge-wedgewood-san-jose-santa-clara"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_existing",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/boulder-ridge-by-wedgewood-weddings#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T15:36:11.909355+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/boulder-ridge-by-wedgewood-weddings",
+        "https://www.wedgewoodweddings.com/boulderridge"
+      ],
+      "review_reason": "Existing1000OldQuarrySanJose. Currentbody105BYO/115Classic/145Premier/175Elitepp,ceremonyfrom995/venuefrom995,22%ADMIN+tax/minimumsunknown. Classicnohostbar/Premieropenbar/Elitetopshelf/extendedpartyselectionscoped;notuniversalextra1hpromise. RecommendedRanchSilverCreek300/Eagle225/SanRamon250areOTHERpropertiesnotBoulderRidgecapacity. ExistingWedgeFAQpriorreviewretained. Actualcurrentapproveddinner+dancecapacityunknown.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-5e6e7df992af1c",
@@ -15561,13 +15618,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "cia-at-copia-napa"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_added",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/cia-at-copia#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T15:36:11.909355+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/cia-at-copia",
+        "https://www.ciaatcopia.com"
+      ],
+      "review_reason": "NewCopia500FirstNapaONEphysicalproperty. SeparateGreystone2555MainStHelena sourcefactsretained/privatependinglead;NOTsameproperty. FouractualCIA PDFsALLTEXTread/wedding34p/vendors12p/holiday13p/general41p; onlyweddingp17p22p30VISUALread, otherdiagrams/photosunreviewed. CopiaAtrium240seated600standing/Garden160400/Amphitheater240TABLES750standing/WestPatio100150/MezzBalcony100200/Hestan60150/privateDining12/20/40notadditive. Ecolab250THEATER/NapaVintners72tastinglecture/Board25conferenceNOTdinnercapacities. Wedding6eventhours/add2500perhourEXCLUDESbarOT;sitefeeincludes1hrehearsal2readyroomsstandardfurniturelinentableware250chairsnot350. AVpremiumlinendecorfloralsexcluded. Taxable23%SERVICEforcateringstaffproductionNOTSITEFEE;taxrate/sitefee/F&Bminunknown. Wedding20guestminbuffetfamily110pp/3course120/4course140dessertincluded/addcourse20bread6.3passedapps34ONEHOUR/add12/mezze25cheese30seafoodMARKETpizza45notdinnerrate. WeddingUPTO5hbar55beerwine75premium85luxury/extrah10/14/16. General/holiday3hbar35/45/55differentSCOPE/extrah12/14/16. Corkage15PERGUESTnotbottle/BYOconditionsunknown. Coffee8oneh12twoh+6extrahvsfinalcoffeeTEAstationINCLUDEDconflict. Optionalcakecut8pp/minis25cookies15/latefood120DOZENnotperson. Holidayplated105NOTwedding120;holiday2026promotionexpiredSept30notcurrentoffer. Linked2023/2024URLsnotassumedcurrenteffectiveyear; currentlinkchecked20261112.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-eb0e4e553d7fa5",
@@ -15585,13 +15651,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "allied-arts-guild-san-mateo"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_existing",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/cafe-wisteria#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T15:36:11.909355+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/cafe-wisteria",
+        "https://www.cafewisteria.com/event-space"
+      ],
+      "review_reason": "CafeWisteriarestaurant/caterer/eventspace75ArborMenloParkSAMEAlliedArtsGuildphysicalparent. Actualevent/cateringbodyread/privateweddingsadvertised;notnewparent/outreachidentity. CafeTuesSat10:30–2publiclunchhoursNOTprivateeventcurfew. Datedbrunch/retailcafemenuNOTweddingpackage. CurrentCafeprices/maxlayoutunknown;existingAlliedreviewretained. PubliccafeDrivePDFnotfollowed/outsideweddingcostscope/unreviewed.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-5feed69b33a3c3",

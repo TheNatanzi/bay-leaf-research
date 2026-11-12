@@ -1,15 +1,15 @@
 {
   "candidate_urls": 580,
-  "resolved_candidate_urls": 495,
-  "unresolved_candidate_urls": 85,
+  "resolved_candidate_urls": 503,
+  "unresolved_candidate_urls": 77,
   "review_counts": {
-    "reviewed_added": 287,
-    "reviewed_existing": 195,
+    "reviewed_added": 290,
+    "reviewed_existing": 200,
     "blocked": 10,
     "reviewed_supplier_not_venue_offer": 1,
     "reviewed_outside_scope": 9,
     "excluded": 3,
-    "pending": 75
+    "pending": 67
   },
   "complete": false,
   "scope_note": "Candidate-queue resolution only; even zero unresolved leads does not establish all venues discovered. Room counts and source downloads are not property coverage.",
@@ -4664,57 +4664,76 @@
       "candidate_id": "directory-lead-e386fdc916ce72",
       "name": "Bardessono Hotel & Spa",
       "url": "https://www.bayareaweddings.com/vendor/bardessono-hotel-spa",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "bardessono-hotel-spa-yountville-napa"
+      ]
     },
     {
       "candidate_id": "directory-lead-343e19fdf5da06",
       "name": "Beaulieu Garden",
       "url": "https://www.bayareaweddings.com/vendor/beaulieu-garden",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "beaulieu-garden-rutherford-napa"
+      ]
     },
     {
       "candidate_id": "directory-lead-d2dfa9fa497437",
       "name": "Beringer Vineyards",
       "url": "https://www.bayareaweddings.com/vendor/beringer-vineyards",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "beringer-vineyards-hudson-house-and-grounds-napa",
+        "beringer-vineyards-the-grove-napa",
+        "beringer-vineyards-rhine-house-napa",
+        "beringer-vineyards-wine-caves-napa"
+      ]
     },
     {
       "candidate_id": "directory-lead-cbcee39c84f8a0",
       "name": "Berkeley City Club",
       "url": "https://www.bayareaweddings.com/vendor/berkeley-city-club",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "berkeley-city-club-alameda"
+      ]
     },
     {
       "candidate_id": "directory-lead-1831095be797db",
       "name": "Bimbo's 365 Club",
       "url": "https://www.bayareaweddings.com/vendor/bimbos-365-club",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "bimbos-365-club-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-b920dd301b25a2",
       "name": "Boulder Ridge by Wedgewood Weddings",
       "url": "https://www.bayareaweddings.com/vendor/boulder-ridge-by-wedgewood-weddings",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "boulder-ridge-wedgewood-san-jose-santa-clara"
+      ]
     },
     {
       "candidate_id": "directory-lead-5e6e7df992af1c",
       "name": "CIA at Copia",
       "url": "https://www.bayareaweddings.com/vendor/cia-at-copia",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "cia-at-copia-napa"
+      ]
     },
     {
       "candidate_id": "directory-lead-eb0e4e553d7fa5",
       "name": "Cafe Wisteria",
       "url": "https://www.bayareaweddings.com/vendor/cafe-wisteria",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "allied-arts-guild-san-mateo"
+      ]
     },
     {
       "candidate_id": "directory-lead-5feed69b33a3c3",
