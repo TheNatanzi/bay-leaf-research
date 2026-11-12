@@ -1,7 +1,7 @@
 {
-  "normalized_utc": "2026-11-12T17:26:58.471182+00:00",
-  "record_count": 2792,
-  "property_group_count": 1426,
+  "normalized_utc": "2026-11-12T17:45:42.658128+00:00",
+  "record_count": 2802,
+  "property_group_count": 1437,
   "identity_review_candidates": 91,
   "numeric_review_queue": 3274,
   "field_count": 106,
@@ -115,7 +115,7 @@
   },
   "status_counts": {
     "published_evidence": 7453,
-    "needs_confirmation": 14482,
+    "needs_confirmation": 14522,
     "conflicting": 244,
     "searched_no_public_answer": 3612
   },
