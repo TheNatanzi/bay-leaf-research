@@ -1,14 +1,14 @@
 {
   "candidate_urls": 580,
-  "resolved_candidate_urls": 423,
-  "unresolved_candidate_urls": 157,
+  "resolved_candidate_urls": 431,
+  "unresolved_candidate_urls": 149,
   "review_counts": {
-    "reviewed_added": 251,
+    "reviewed_added": 258,
     "reviewed_existing": 167,
     "blocked": 10,
     "reviewed_supplier_not_venue_offer": 1,
-    "reviewed_outside_scope": 1,
-    "pending": 147,
+    "reviewed_outside_scope": 2,
+    "pending": 139,
     "excluded": 3
   },
   "complete": false,
@@ -3014,8 +3014,10 @@
       "candidate_id": "directory-lead-03040747763d6e",
       "name": "Paul Mahder Gallery",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/paul-mahder-gallery/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "paul-mahder-gallery-the222-healdsburg-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-19fdffa142183c",
@@ -3039,8 +3041,10 @@
       "candidate_id": "directory-lead-f53a2e3ac8ed66",
       "name": "Robert Young Estate Winery",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/robert-young-estate-winery/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "robert-young-estate-scion-house-geyserville-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-11583c240bada8",
@@ -3055,15 +3059,19 @@
       "candidate_id": "directory-lead-9cdbe60e02f125",
       "name": "Rosewood Events",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/rosewood-events/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "rosewood-events-hicks-valley-petaluma"
+      ]
     },
     {
       "candidate_id": "directory-lead-bb945b199a710e",
       "name": "ruâ€™s Farm",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/rus-farm/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "rus-farm-healdsburg-country-gardens-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-98cf25f4cf5405",
@@ -3078,8 +3086,10 @@
       "candidate_id": "directory-lead-9068f02fbeb23e",
       "name": "Sabor Mexicano Farm",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/sabor-mexicano-farm/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "sabor-mexicano-farm-guerneville-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-6cd7422ae273c0",
@@ -3208,8 +3218,10 @@
       "candidate_id": "directory-lead-1df228cbf7d9f2",
       "name": "St. Teresa Catholic Church",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/st-teresa-catholic-church/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "st-teresa-avila-bodega-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-2b55441b80d131",
@@ -3251,7 +3263,7 @@
       "candidate_id": "directory-lead-d3b7d2033bfb3a",
       "name": "The Highlands Estate",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/the-highlands-estate/",
-      "state": "pending",
+      "state": "reviewed_outside_scope",
       "record_ids": []
     },
     {
@@ -3276,8 +3288,10 @@
       "candidate_id": "directory-lead-d489ab9ae50397",
       "name": "The Links at Bodega Harbour",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/the-links-at-bodega-harbour/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "links-bodega-harbour-bluewater-bistro-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-10d849499e6605",

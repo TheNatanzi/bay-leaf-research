@@ -1,6 +1,6 @@
 {
   "audit_id": "discovery-backlog-20261111",
-  "updated_utc": "2026-11-12T13:49:37.703212+00:00",
+  "updated_utc": "2026-11-12T14:03:48.331884+00:00",
   "original_pending_candidates": 500,
   "reviewed_dispositions_applied": [
     {
@@ -6963,9 +6963,134 @@
       "candidate_capture_sha256": "8238186c22a21ea89180a72e02780956eb5e257f0b0e4365e6e43a1de30c657e",
       "operator_capture_sha256": "b408b1ad895cf875015077d3b54d40ef955219836b0695b15880f0262fa5b4e4",
       "reason": "Whole tourism and primary rental/rate/space/wedding bodies read. Gualala Arts Center is in Mendocino County, outside original nine-county Bay Area scope despite inclusion on Sonoma tourism site. Retain all source evidence and a separate adjacent-area fact receipt, not an access failure. Current live rates explicitly effective11/1/2026:9500wholebuilding/1500securitydeposit; outdoor2000min5hSunFri+400h, indoor access triggerswholebuilding; allSaturdayprivatewholebuilding. Old web-reader7500/1500outdoor rates superseded by dated current primary. Coleman200dinner/300danceparty not330dinner. No in-scope venue record added."
+    },
+    {
+      "candidate_id": "directory-lead-03040747763d6e",
+      "original_pending_index": 307,
+      "checked_utc": "2026-11-12T14:03:48.331884+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "paul-mahder-gallery-the222-healdsburg-sonoma"
+      ],
+      "source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/paul-mahder-gallery/",
+        "https://paulmahdergallery.com/rent-the-gallery-2"
+      ],
+      "candidate_capture_sha256": "3a6f0154a12b50bd68284f2532d9e1376db482bb45b798ce649f631c2e55308c",
+      "operator_capture_sha256": "c28b28ecab00f5100e135aad7c0e749f85d712195d72a84605678017dec2f759",
+      "reason": "Completeprimarygalleryhome/rental andTHE222venuehire bodies read; one222Healdsburgproperty/sharedart/performancefacilities, nottwonewparents. Gallery20–200generic/rentstarting1000hour variable/no minimumhours published; currentTHE222190combinedspacesexclusiveoffering vsolder200/250directory. Not190approvedbanquet. Cateringbutton actually linksTheMatheson106Matheson private-diningpage, not a pricedTHE222brochure; distinctrestaurantcapacitynotaddedtoTHE222. GalleryAV/projector/technicianrentalextra/insurance riderrequested. Actual2017cityoriginal29IMAGEpages saved; ONLYphysicalp8/p9conditions visuallyread: unrelatedprivateparties/receptionsnotallowedunderTHATCUP2017-01,wineevents60/by9PM/ampnotafter10PM. Conflictswithcurrentweddingadvertising; newerpermit/currentapprovalUNKNOWN, no allegationcurrentillegal/closed. Do notturnhistoricalordinanceintoindependentcurrentcutoff."
+    },
+    {
+      "candidate_id": "directory-lead-f53a2e3ac8ed66",
+      "original_pending_index": 310,
+      "checked_utc": "2026-11-12T14:03:48.331884+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "robert-young-estate-scion-house-geyserville-sonoma"
+      ],
+      "source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/robert-young-estate-winery/",
+        "https://www.ryew.com/private-events/"
+      ],
+      "candidate_capture_sha256": "7c9223e7c959da97d8255ef2ee5fe0ecf0aec434e9899318b2f8fa01e168a697",
+      "operator_capture_sha256": "aae750602da7b44cde8dc471d01068757edc08350f6ef592c9c1f85066f8cd82",
+      "reason": "Wholeprimaryhome/privateevents andtourismprofile read. Oneestate/ScionHousehospitalityspace,448acresnotguestcapacity. Weddings/private lunchesdinnersadvertised; capacity/rent/catering/alcoholrestrictionsunknown. ActualpublishedTripleseatdynamicrequest597routeknown, notrendered/submitted. Do notcountScionHouseasanotherproperty."
+    },
+    {
+      "candidate_id": "directory-lead-9cdbe60e02f125",
+      "original_pending_index": 312,
+      "checked_utc": "2026-11-12T14:03:48.331884+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "rosewood-events-hicks-valley-petaluma"
+      ],
+      "source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/rosewood-events/",
+        "https://www.rosewoodevent.com/general-7"
+      ],
+      "candidate_capture_sha256": "0d94014dacb9ff6d4a53490d82cbd303fafea3416fda22e7c8601116c7f51e19",
+      "operator_capture_sha256": "d254abb50aebcd8670c261da72345a2e510c55b0ac7a2a80717fdd3e443706b5",
+      "reason": "Primarysingularrosewoodevent.com WORKS; earlierpluraldomainSSLfailurenotcurrentblocker. Fullhome/FAQ/about/contact bodies and text-onlyDinnerDancing/Glampingpagesread; images notfullyinterpreted. PrimarySonoma–Marinborder withsecondaryMarinclassification; preciseparcelcountyUNVERIFIED, countyfieldprovisionalnotSonomaTourismproof. NotRosewoodCommonsPleasanton. May–OctoberONLY/no weekdayweddings/oneweddingperweekend.13h9AM–10PMvenueaccess plusdaybeforetime, notindependentbar/music/cleanupapproval.200coveredreceptionvsdirectory225/otherdirectory250conflict. REQUIREDprofessionalweddingplanning/dayofcoordinationNOTpermitted. No mandatorybarpackage/BYOwineandhardliquor/nocorkage; licensing/staffconditionsunverified. Tentdrapinglightingchandelier/tableschairs/bars/firepit/2dressingsuites/parkingattendants/setupbreakdownincluded; nofullmeal/linen/staffpriceassumed. Guestcountbasedpricing/nohiddenfees/taxesclaimnotcompleteweddingquote. StaticcontactSuccessmessagesnotactualsubmission; noformfilled."
+    },
+    {
+      "candidate_id": "directory-lead-bb945b199a710e",
+      "original_pending_index": 313,
+      "checked_utc": "2026-11-12T14:03:48.331884+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "rus-farm-healdsburg-country-gardens-sonoma"
+      ],
+      "source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/rus-farm/",
+        "http://www.rusfarmweddings.com/the-package/"
+      ],
+      "candidate_capture_sha256": "2424c7ceb33b32a12931158af02dbdf4b8b9774571f264da6599570fc6225a97",
+      "operator_capture_sha256": "a3d3c02e11f1a8e070af2e6b2a3073ce259058a2e7a5814185bb78a08671447b",
+      "reason": "WholeprimaryWelcome/package/rates/policy/location/contact/extras/cottagebodiesread. ContactbioexplicitlyidentifiesformerHealdsburgCountryGarden alias; ONE15acrefarm, notseparatealiasproperty. Bella winerelationship doesnotmergeBella’sseparatephysicalsite. Published16500allweekdays+500securitydeposit(refundstatusnotverified), currentquote/effectiveyearunknown despite2017footer. Package5hprepvsExtras4hpropertyaccess+11AMbridalsalon conflict; both6hevent/Extras2hteardown/1hrehearsal. Includedmanager10h/2parkingattendants/18round12recttables/150chairs/4heaters/18umbrellas/3restrooms/4x20ampcircuits; linen/tablewarefoodbarstaffnotstatedincluded. Housewineatspecialrate/additionalbeveragesallowed; requiredwinepurchaseunknown. TwooptionalcottagesNest1–2/Coop6 notincludedlodgingor8eventcapacity. Cancellation>90days50%refundONLYifdate rebooked/otherwise100%feesretained; balance+deposit90days,interimpayment120days. Ownprimarypublicstreetaddressabsent; secondary670Bailhache notpromotedasprimaryverified. Nooutreachuntilproperty/address/historygateschecked."
+    },
+    {
+      "candidate_id": "directory-lead-9068f02fbeb23e",
+      "original_pending_index": 315,
+      "checked_utc": "2026-11-12T14:03:48.331884+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "sabor-mexicano-farm-guerneville-sonoma"
+      ],
+      "source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/sabor-mexicano-farm/"
+      ],
+      "candidate_capture_sha256": "c0e2d791abdade0f54702e2fd4eb2713029426ffdf775c50ee5ad921efa5fd14",
+      "operator_capture_sha256": "c0e2d791abdade0f54702e2fd4eb2713029426ffdf775c50ee5ad921efa5fd14",
+      "reason": "Wholeofficialtourismprofile read; farmhouse/130acrefarmONEproperty, not130guests. Airbnblinkedprofileonlynavigation shell, notactualhouse/eventrules reviewed. OrdinarysupportedbrowsercurrentSaborMexicanoVenuehomepageexplicitpasswordgate visuallyconfirmed; historicalwebsearchweddingdescriptionnotcurrentpermission. No passwordguesses/authbypass. Currentcapacity/rent/weddingapproval unknown. Propertyidentifiedfromofficialtourismaddress; sourceaccessblocker separatefromidentityresolution."
+    },
+    {
+      "candidate_id": "directory-lead-1df228cbf7d9f2",
+      "original_pending_index": 329,
+      "checked_utc": "2026-11-12T14:03:48.331884+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "st-teresa-avila-bodega-sonoma"
+      ],
+      "source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/st-teresa-catholic-church/",
+        "https://www.stphilipstteresa.org/locations.html"
+      ],
+      "candidate_capture_sha256": "16535c938a140c709ca118894344bca1a2af2e5d7713436658259100a89bab1c",
+      "operator_capture_sha256": "e9d7515a749bb6ce7bbff3dc4ebbe2859707c25803afc358a25ed0990c3a9a5b",
+      "reason": "Primarylocations/parish/pertinentStTeresalocationandsharedhalltextread. TWOphysicalchurches underoneparish:StTeresaBodega17120BodegaHighway(primary) vs17242tourismconflict;StPhilipOccidental3730BohemianHighway. The125seated/250standinghall and1935fees areStPHILIP’sOccidentalhall, NOTStTeresaBodega capacity/price. Catholicweddingsadvertisedtourism/sacramentaluseeligibilityneedsparishconfirmation. No churchcapacity/ceremonyfeeinvented. Sharedparishoutreachcoordinationrequired."
+    },
+    {
+      "candidate_id": "directory-lead-d489ab9ae50397",
+      "original_pending_index": 337,
+      "checked_utc": "2026-11-12T14:03:48.331884+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "links-bodega-harbour-bluewater-bistro-sonoma"
+      ],
+      "source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/the-links-at-bodega-harbour/",
+        "https://www.bodegaharbourgolf.com/explore/weddings-special-events"
+      ],
+      "candidate_capture_sha256": "6ec49e740176a1588a0e21786d2220151e238fcd9e5e70007cdefabff641d407",
+      "operator_capture_sha256": "7961c287b9a5d4954d78014e6ae21240e4da84f7d58f161478ad7f83a7a882d1",
+      "reason": "Actualprimaryweddingbody+4pageoriginal2026filenamebrochuretextread/p1coverIMAGE+p2tierchartvisuallyread. Golfcourse6thtee2450/beach2250 each+300REFUNDABLEcleaningfee;ceremony100maximum. Bistro850NONMEMBER/550BHHA member4h+250extrahour;10%memberweddingdiscountnotpersonalautomatic. Menus35/45/55tiers/taco35/37/40+20%service/tax, tierbasisnotexplicitstatedsoNOTnormalizedperperson. Appetizerfor100quantitiesnotassumed100people; corkage20member30nonmemberbasisnotexplicitnamed. TOURISM’sYachtClub130 isseparatephysicalsiteonemilenorth andnotcurrentBistro/dinnercapacity. CurrentYachtClubaddress/operator/availabilityunverified; historiclease-relinquishmentproposalnotproofclosed. NoGolfgreenfees usedasweddingrent."
+    },
+    {
+      "candidate_id": "directory-lead-d3b7d2033bfb3a",
+      "original_pending_index": 334,
+      "checked_utc": "2026-11-12T14:03:48.331884+00:00",
+      "state": "reviewed_outside_scope",
+      "record_ids": [],
+      "source_urls": [
+        "https://www.sonomacounty.com/weddings/wedding-venues/the-highlands-estate/",
+        "https://www.thehighlandsestate.com/"
+      ],
+      "candidate_capture_sha256": "298cf75d46fb6b42b1331ab2a82017b42389b85c9604d7c764a5c43af2d579db",
+      "operator_capture_sha256": "ebad1fca7b023fa472147e0087e7bb5b04a72288a3d8a27f54e7be520a3e3201",
+      "reason": "Wholeprimaryhome/pricing/packages/directions/ALLFAQtextread. Actual33430Highway128Yorkville onMendocinoTourism, outsideoriginalninecountyBayAreacore despiteCloverdaleSonomaadvertising. Retainseparateadjacentpropertyfactreceipt withfullrates/conditions, notaccessblock orlostlead. Barn133DINNERvs200outside/OakTree125ceremony;22 overnight guests are lodging capacity, not event capacity. CurrentDay12500peakSaturday11000FriSun/19750overnight25500weekendup22lodging;150guestsincluded+50eachto200. Requiredhiredcuratedplanner/no dayof;outsidelicensedcatererapproval/BYOlicensedbar/nocorkage. Midnightrequires2x2000extraHOURSANDallguestbusing. Notcompleteallin; sourcefees/taxclaimdoesnotincludecaterer/planner/rentals."
     }
   ],
-  "unreviewed_original_inputs": 147,
+  "unreviewed_original_inputs": 139,
   "municipal_searches_completed": 0,
   "complete": false,
   "scope": "Queue identity resolution is not full venue facts, exhaustive geographic discovery or permission for any event. Actual access/identity blockers remain separate from unreviewed work."
