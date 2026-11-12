@@ -1,6 +1,6 @@
 {
   "audit_id": "discovery-backlog-20261111",
-  "updated_utc": "2026-11-12T10:31:59.519700+00:00",
+  "updated_utc": "2026-11-12T10:50:16.950112+00:00",
   "original_pending_candidates": 500,
   "reviewed_dispositions_applied": [
     {
@@ -5486,9 +5486,22 @@
       "candidate_capture_sha256": "6d10765e3d2c91732fa7cd6c687348c19802eb63e06c23b31cf4dd6c5016622c",
       "operator_capture_sha256": "6d10765e3d2c91732fa7cd6c687348c19802eb63e06c23b31cf4dd6c5016622c",
       "reason": "Entireexplicitlyaddressedplatformprofileread;recentpublicartist/eventlistingscorroborateTheNest4754CaliforniaSF(nototherNestvenues),butoperatorweddingcontractnotverified.600sqftgroundlevelstudio+loftMoonLoungenotadditionalproperty.60attendeeheadervs50standing40seated/30productioncountsconflict;no60dinnerdanceorstackedcapacity.100/hourstarting3hminimum,fees/deposits/eventrateunknown.6AM–11PMplatformavailabilitynotindependentmusic/bar/cleanupdeadline. Externalcateringlabelallowed,alcoholiconstatusunknown;weddingacceptanceunconfirmed. Noall-in total/no330."
+    },
+    {
+      "candidate_id": "directory-lead-96540258db2d92",
+      "original_pending_index": 133,
+      "checked_utc": "2026-11-12T10:50:16.950112+00:00",
+      "state": "blocked",
+      "record_ids": [],
+      "source_urls": [
+        "https://giggster.com/listing/large-stylized-warehouse-space-soundproofed-room"
+      ],
+      "candidate_capture_sha256": "9c0a0c67bf82cf1e65e65a8f9f4a3329451f290da10206533c7b6f8987a93952",
+      "reason": "Entire4000sqftEastOaklandwarehouseplatformprofileactuallyread;focusedpublishedexacttitle/Howlaliassearchdidnotverifycanonicalpropertyname/address. Withheldaddressnotguessed;nohostmessage/booking/accountcreation. Listing50seated85standingvs60+attendeeheader conflict,500sqftsoundroomnestednotanotherproperty. Security40/hourmandatoryover30guests;onsitemanager250–450over15;4hminimum72/hourstartingnotall-inrate. After11PMmusiconlyclosedmusicroom/loweredbass,2AMguest/noiseendversus8AM–3AMavailabilityconflict;nooutdooramplification/roof/redwinedownstairs. Bedrooms4extraindescriptionvs5detailsnotmandatorylodging. No currentweddingpermission/approveddinnerdance/fullcostproof. This is a physicalidentityblocker,notaccessfailureorresolvednamedvenue.",
+      "blocker_kind": "unverified_physical_property_identity"
     }
   ],
-  "unreviewed_original_inputs": 234,
+  "unreviewed_original_inputs": 233,
   "municipal_searches_completed": 0,
   "complete": false,
   "scope": "Queue identity resolution is not full venue facts, exhaustive geographic discovery or permission for any event. Actual access/identity blockers remain separate from unreviewed work."

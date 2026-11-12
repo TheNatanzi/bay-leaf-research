@@ -54,12 +54,12 @@
     "added_venue_records": 0,
     "note": "Candidate URLs are not a venue count. Old source collection counts retain their original dates; followup state counts are current. Fragment-only links merged; names/URLs are aids, not automatic reviews. Original added_venue_records=0 describes index-only ingestion; primary_followup_records_added is separate.",
     "primary_followup_records_added": 206,
-    "followup_checked_utc": "2026-11-12T10:31:59.519700+00:00",
+    "followup_checked_utc": "2026-11-12T10:50:16.950112+00:00",
     "current_review_counts": {
       "reviewed_added": 210,
       "reviewed_existing": 124,
-      "blocked": 9,
-      "pending": 234,
+      "blocked": 10,
+      "pending": 233,
       "excluded": 3
     }
   },
@@ -4128,10 +4128,15 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Reviewed platform listing; physical-property identity cannot be verified from published information; unresolved blocker",
       "matched_record_ids": [],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "blocked",
+      "reviewed_utc": "2026-11-12T10:50:16.950112+00:00",
+      "review_source_urls": [
+        "https://giggster.com/listing/large-stylized-warehouse-space-soundproofed-room"
+      ],
+      "review_reason": "Entire4000sqftEastOaklandwarehouseplatformprofileactuallyread;focusedpublishedexacttitle/Howlaliassearchdidnotverifycanonicalpropertyname/address. Withheldaddressnotguessed;nohostmessage/booking/accountcreation. Listing50seated85standingvs60+attendeeheader conflict,500sqftsoundroomnestednotanotherproperty. Security40/hourmandatoryover30guests;onsitemanager250–450over15;4hminimum72/hourstartingnotall-inrate. After11PMmusiconlyclosedmusicroom/loweredbass,2AMguest/noiseendversus8AM–3AMavailabilityconflict;nooutdooramplification/roof/redwinedownstairs. Bedrooms4extraindescriptionvs5detailsnotmandatorylodging. No currentweddingpermission/approveddinnerdance/fullcostproof. This is a physicalidentityblocker,notaccessfailureorresolvednamedvenue."
     },
     {
       "id": "directory-lead-4742be50a4a1be",
