@@ -2,8 +2,8 @@
   "summary": {
     "checked_utc": "2026-10-26T13:28:51.955107+00:00",
     "candidate_urls": 580,
-    "candidate_urls_with_exact_match": 336,
-    "candidate_urls_without_exact_match": 244,
+    "candidate_urls_with_exact_match": 342,
+    "candidate_urls_without_exact_match": 238,
     "source_counts": {
       "moderndjs": {
         "raw_named_cards": 361,
@@ -53,12 +53,12 @@
     },
     "added_venue_records": 0,
     "note": "Candidate URLs are not a venue count. Old source collection counts retain their original dates; followup state counts are current. Fragment-only links merged; names/URLs are aids, not automatic reviews. Original added_venue_records=0 describes index-only ingestion; primary_followup_records_added is separate.",
-    "primary_followup_records_added": 193,
-    "followup_checked_utc": "2026-11-12T09:22:24.769515+00:00",
+    "primary_followup_records_added": 198,
+    "followup_checked_utc": "2026-11-12T10:15:53.814858+00:00",
     "current_review_counts": {
-      "reviewed_added": 197,
-      "reviewed_existing": 117,
-      "pending": 256,
+      "reviewed_added": 202,
+      "reviewed_existing": 122,
+      "pending": 246,
       "blocked": 7,
       "excluded": 3
     }
@@ -3182,12 +3182,19 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
         "sausalito-woman-s-club-clubhouse-and-garden-wedding-rental-marin"
       ],
       "match_method": "Exact normalized name only; identity/branch not confirmed",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T10:15:53.814858+00:00",
+      "review_source_urls": [
+        "https://www.wedding-spot.com/venue/105/sausalito-womans-club/",
+        "https://sausalitowomansclub.org/sausalitoweddingvenue/"
+      ],
+      "review_reason": "Full originaldirectory/currentoperatorincludingallFAQtogglesread. Exact120CentralSausalitoexistingproperty,notnewroom.2026rental6500supersedesdirectory6000/2025;1800REFUNDABLEdamage separate,finalrent2monthsbefore;optionalprior-day3h500notdirectory300. Access9:30AM/event+music9:30PM/cleanupandlightsout10:30PM.100tables/chairs,60gardenCEREMONY,notsummed160or330. PreferredvendorlistbottomsaysNOTrequired vsrestrictionschoosefromlist,scopeconflict; nofoodtrucks/catererhealthpermit/businesslicense/COI. >40guestsvalet+shuttle/Uber required. Tablechairsetupbyarrangement; renter/caterercleanup andlinens/glassware/heatersnotincluded. BandDJyesbutamplificationindoorsonly,less50dBatgateoperatorclaimnotindependentlaw. Noopenflames. Linked28page7436136bytePPPSWCphotoPDFactuallyrendered/all28visuallyreviewed:photogalleryNOThiddenprices. Currentcompletecostunknown; testimonial110doesnotoverride100maximum. LastFAQemailhaswomensdomain typo,notused.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-301de24d504bf5",
@@ -3205,10 +3212,19 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "joseph-d-grant-county-park-rose-garden-cookhouse-santa-clara"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T10:15:53.814858+00:00",
+      "review_source_urls": [
+        "https://www.wedding-spot.com/venue/11224/joseph-grant-park/",
+        "https://parks.santaclaracounty.gov/things-do/reserve-grounds-county-parks-weddings-and-receptions"
+      ],
+      "review_reason": "Full originalprofile/currentCountyweddingpageactuallyread. JosephDGrant18405MtHamiltonexistingRoseGarden/Cookhouse,notLosAltosGrantPark. Currentcounty100site/60insidecookhouse,notdirectory160header/400Stockmansasthislayout.8AM–sunsetweddinghours(notfixed6PMmusicuniversally). Site-reservationfee+additionalweddingcharges/vehicle/staff,existing120weddingsurchargeevidencepreserved,not461allin. Onepicnicsiteperdateunlesslimitedcombinedapproval. AmplifiedDJ/speakeronlycertainapprovedsiteswithpermit;liveamplifiedBANDonlySanbornSequoiaPeterson,notJosephGrantautomatic. Sanbornseasonal6:30PMrestrictionNOTtransferredhere. Foodtruck/catereralloweddesignatedroad,6vehicleentry;BYOalcoholwithinreservedsites,salesrequireslicense. MonThu(nonholiday)rehearsalsnobasesitechargebutvehiclesapply;FridaySun/holiday/rehearsallunchregularfees. Portalexistsbutonlinepicnicbookingmustcallconvertwedding,noreservationmade. Actualrawfetchrobotsheld;exactstandardreaderexportarchived,notrawdownloadsuccess.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-0e7dc087d528df",
@@ -3226,10 +3242,19 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "community-congregational-church-tiburon-marin"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T10:15:53.814858+00:00",
+      "review_source_urls": [
+        "https://www.wedding-spot.com/venue/1052/community-congregational-church-of-tiburon/",
+        "https://www.ccctiburon.org/weddings.html"
+      ],
+      "review_reason": "Full directory/currentweddings/eventspace/contactbodiesread. Exact145RockHillRoadcurrentoperator, directoryDrsamephone/nameidentity,nototherCommunityCongregationalchurches. Sanctuaryexplicitlyceremony/reception/weatherbackup;LawnChapel/Seminarbridalsuite/Labyrinthdistinctareasoneproperty. Noactualroomcapacities/ratesonreviewedprimary, directory150genericCEREMONYnot150dinnerdance/330. Directory2500ceremony4hINCLUDINGsetupcleanup+1hrehearsal/200extra/500refundable/9PMnotcurrentoperatorconfirmed. NoimportofunrelatedchurchPDFsearchresultorVowcostassumed75food/stateaveragetax. GenericcontactformFirstLastEmailCommentrequired,NOdate/countmandatorythere; noformsubmitted. Currentallincost/mealvendor/BYOB/independentclocksunknown. TheKnot/WeddingWirelinkedasadditionalprofilesnotallreadinthisdecision.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-0bb0a8d6870dc4",
@@ -3247,12 +3272,19 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
         "stonetree-estate-by-wedgewood-weddings-marin"
       ],
       "match_method": "Exact normalized name only; identity/branch not confirmed",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T10:15:53.814858+00:00",
+      "review_source_urls": [
+        "https://www.wedding-spot.com/venue/28/stonetree-estate-by-wedgewood-weddings/",
+        "https://www.wedgewoodweddings.com/venues/stonetree-estate"
+      ],
+      "review_reason": "Full directory/currentoperatorbodyplusheader/footerread. Existing9StoneTreeLaneNovatoMarinnotcountycitynamedMarinorotherWedgewood. Current200genericcapacityNOTdinnerdance/330. Explicit2027starts94BuildYourOwn104Classic134Premier159Eliteperguest PLUS595ceremony1695venue22admin/tax/minima;bases/fullincludedscopeneedissuedquote. Olddirectory79–144/119Premier/1495ceremony/495–4495venue/midnightnotcurrentoperatorverified. Day-ofcoordinationDJtablewarebarpackagevariationnotallassumedat94. Noallintotal/independentmusicbarcleanupclock.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-57390e8c06a0a3",
@@ -3270,12 +3302,19 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
         "stemple-creek-ranch-marin"
       ],
       "match_method": "Exact normalized name only; identity/branch not confirmed",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T10:15:53.814858+00:00",
+      "review_source_urls": [
+        "https://www.wedding-spot.com/venue/15980/stemple-creek-ranch/",
+        "https://stemplecreek.com/pages/weddings"
+      ],
+      "review_reason": "Full originaldirectory/currentweddings/pricingandlinkedactualdirectionsreaderread. Exact900BurbanknearTomalesNOTBloomfieldoperatorclarifies,existingproperty. Weddingofferingcurrent,butactualcapacity/currentpricingpamphletrequirescontactcaptureform;didnotsubmitpersonalinfo. Historic2022MilestonepublicPDFURLreturns404,notread/downloadsuccessclaimed. Originaldirectory300generic/13500site/1000deposit/150furniture/midnightnotcurrentprimaryverified. Barnandgrovephotos/marketingall sizesnotnumeric330dinnerdanceapproval. Ranchstaysavailablebutnomandatoryroomblockorminimumstayproof. Rawdirectchallengepreserved,permittedstandardreaderarchiveonly;nochallengebypass. Fullcost/clocks/rainlayoutremainunknown.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-83654d90a33b91",
@@ -3293,10 +3332,19 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "san-francisco-marriott-marquis-view-lounge-san-francisco"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T10:15:53.814858+00:00",
+      "review_source_urls": [
+        "https://www.wedding-spot.com/venue/10151/the-view-lounge/",
+        "https://www.theviewlounge-sf.com/private-dining"
+      ],
+      "review_reason": "Full originalprofile/currentprivateevent/FAQ/home/contactbodiesread;originalpublishedcapacitychartimage16638bytesSHA990c553926d9e986bc3486939502ca510e2005df0b304c4e818fdc9af59c4ae9downloadedandvisuallyread. Exact780MissionMarriottMarquis39thflooronehotelparent,notseparate5properties. ChartfullViewbuyout300RECEPTION,Angel18/Astros20/Karl25/TwinPeaks100reception,FAQCitySide80generic;not300dinnerdance/summedroomcapacities. FAQstray329underduplicatechildquestionandHansomLondonhoursarecopyerrors,notusablelocalcapacity/time. Minorswithadultuntil9PMregularpolicy/privateexceptionunknown. Bartenderfeehalf/fullbuyouts,dedicatedserveralcovesHOTELEXTRACHARGE,amountunknown. CurrentRFPformmin20corporate/10–25alcovebookingsseparate;FAQnoreservationsvsalcoveonlineofferdifferentcontext/conflict. Regular4PM–midnightandspecial1AMNOTprivateeventclocks. Olddirectory8000/2h/1AMandconflictingoutsidecaterernotcurrentquote. Hotelotherballroomsremainunreviewed,nolodgingblockassumption.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-07c3388aefe5cf",
@@ -3314,12 +3362,19 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
         "historic-adobe-building-historic-adobe-building-santa-clara"
       ],
       "match_method": "Exact normalized name only; identity/branch not confirmed",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T10:15:53.814858+00:00",
+      "review_source_urls": [
+        "https://www.wedding-spot.com/venue/11873/historic-adobe-building/",
+        "https://www.mountainview.gov/our-city/departments/community-services/recreation/facilities-rentals/historic-adobe-building?locale=es"
+      ],
+      "review_reason": "Full originalprofile/currentofficialcitynotice/readersourcedbodyread. Existing157MoffettMountainViewnototherAdobes. CLOSED FOR RESERVATIONS duringmaintenanceUNTILFURTHERNOTICE,NOTpermanentclosure;noinquiries/holdssent. Posted100genericcapacitynotdinnerdance. Historical/undatedpostedfeesresident121off/182peakhour,nonresident151off/228peak;8hpeak1212resident/1515nonresident;nonprofit31.54off/92or182peakbutfootnote91contradiction.134janitorialPLUSinsurance,500/1000depositwithout/withalcohol(returnabilitynotexplicitonthispage),nonprofit250without. Not182allin.100indoor+100outdoorchairsinventorynot200occupancy,16parking. Linkedrentaldocuments/applicationnotyetfullyreviewed;currentclosuregovernsbookability. Directcanonical404,officialpublishedlocaleURLstandardreaderaccessible;rawHTMLnotclaimed.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-8618d83a5ca731",
@@ -3337,10 +3392,19 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "great-american-music-hall-san-francisco"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T10:15:53.814858+00:00",
+      "review_source_urls": [
+        "https://www.wedding-spot.com/venue/3814/great-american-music-hall/",
+        "https://gamh.com/private-events/"
+      ],
+      "review_reason": "Full originaldirectory/currentofficialprivateevents/FAQ/contactread. Exact859OFarrellGAMHnotunaffiliatedgreatmusichallticketSEOsite. Primaryweddings/dancefloor/soundsystemoffered,actualcurrentrentalcapacity/feesnotposted. Directory300generic/7200–8900rental/F&Bminimumunpriced/500ceremony/outsidecatererfee/1:30AMnotcurrentprimaryverified. Directory8hwith5event+3setup+1cleanupis9arithmeticconflict,notclean8heventduration. PrimaryFAQnooutsidefoodbeverageispublicSHOWpolicy,notautomaticprivateweddingcatererprohibition.6+allagespublicshowpolicy/privateinfantsunknown. Garage11PMweekday/midnightweekendtypicalnotevent/musicclock. Formoffered,actualembeddedfieldsnotyetreviewed. Noallintotalor330dinnerapproval.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-2faca86208efe8",
@@ -3358,10 +3422,19 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "whitechapel-polk-san-francisco"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T10:15:53.814858+00:00",
+      "review_source_urls": [
+        "https://www.wedding-spot.com/venue/9896/whitechapel-sf/",
+        "https://www.whitechapelsf.com/"
+      ],
+      "review_reason": "Full originaldirectory/currentprimaryhomepageandlinkedbeveragemenuread;embeddedoperatorname600Polk/addressSanFranciscoidentitychecked. CURRENTprivateevents40–125cocktailreceptionwithbuffets,notdirectory180generic/20–30Distillery30–40GinPalacesummedcapacity. Currentnoall-daypublicopeninference. No125seateddinnerdanceapproval;scatteredbanquetteseatingnotlayoutcount. Fullservicebar/cocktailbuffetcurrent,pricedmenuabsent. Directory5000/3h6–9PM/10PMmusic/BYOANDvenuealcoholcontradictionnotcurrentverified. Nooutsidealcoholpermissioninferredfrommenu. Noallintotal/currentindependentcutoffs.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-81ba897e2dd74b",
@@ -3379,10 +3452,19 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "chase-suite-hotel-newark-alameda"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T10:15:53.814858+00:00",
+      "review_source_urls": [
+        "https://www.wedding-spot.com/venue/11800/chase-suite-hotel-newark/",
+        "https://www.chasehotelnewark.com/groups-events"
+      ],
+      "review_reason": "Full originaldirectory/currentprimarygroups/events/contactandactual3pagehotelpolicyPDFread,NoPartyPage2renderedvisuallychecked.39150CedarNewarkCA notNewarkNJ. Hardage960sqft80GENERICmeetingcountnotdinnerdance. Primarymeetings/eventsconfirmed;directoryweddingofferingnotcurrentexplicitapproval. HotelpolicyNOparty/excessnoise,3per1bed/5per2bedandnonregisteredguestafter11PMrestrictions,500breachpenalty/securitynotfixedweddingfee;reconcileauthorizedmeetingeventsnotdeclareallrentalprohibited. Room-staydeposit/cancellation/petfeesnotautomaticallyeventcost. Freeparking/WiFi/localshuttle/currentAVandcateringavailable;completeinclusionsquoteunknown. Group-roomratesoptional,NOTmandatoryroomblock.700–900/12h/11PMdirectorynotcurrentoperatorquote. RFPasksdate/time/count/type;nosubmission. Noallintotal or330approval.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-bae41a84deb12b",

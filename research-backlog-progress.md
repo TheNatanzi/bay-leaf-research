@@ -89,7 +89,7 @@
 
 ## Still unfinished
 
-- **256 candidate URLs awaiting final disposition**, **7 unresolved physical-identity blockers**, and remaining authorities/source families within **110 partially reviewed local workstreams**.
+- **246 candidate URLs awaiting final disposition**, **7 unresolved physical-identity blockers**, and remaining authorities/source families within **110 partially reviewed local workstreams**.
 - Complete costs, mandatory lodging, approved dinner/dance layouts, independent cutoffs, history and defensible valuations.
 - Some documents are blocked or inquiry-only. Six county pages were readable through standard web search, but direct archival collection was held at the robots check; no raw download success is claimed.
 - Three caterer leads remain unresolved: Storek's operator redirect, Legion of Honor's blocked primary page, and City Hall's robot-verification hold. Other linked floor plans, brochures and technical appendices remain explicitly unreviewed.
@@ -110,3 +110,10 @@ These are scoped components, **not an all-in quote**: service fee, current tax, 
 Five physical properties added after reading current operator sources: [Saint John Hall in Orinda](https://saintjohnhall.org/), [Santa Clara Depot/SBHRS](https://sbhrs.org/page-18177), [Aracely Lounge in Danville](https://aracelylounge.com/weddings), [Pairfield’s private lounge](https://www.pairfieldpizza.com/upcoming-events/) and [Auburn Lounge’s Secret Parlor](https://www.auburnlounge.com/speakeasy). Wedding permission is explicit for the first and third; the others advertise event rentals with wedding scope still unknown.
 
 Aracely Danville is distinct from Aracely Cafe on Treasure Island. Garden dining220/indoor100 are separate layouts, not a combined330-person dinner/dance guarantee. SBHRS Freight House45table seats differs from83chairs/100standing; its train display requires whole-building rental and a docent. Workshop35/person at Pairfield is not a wedding rental price. Existing Joseph Nelson Center was checked against the city’s RecDesk:260dining/350assembly,400refundable damage deposit,3-hour minimum. Master now2574rows; original500 queue still237resolved/7physical-identity blockers/256pending and all110localworkstreams remain partial.
+
+
+## Ten more original profiles reconciled — November 12
+
+Original500 now247resolved,7separatephysical-identityblockers,246pending; all110localworkstreams remainpartial. Master2579rows. Added CCC Tiburon, Marriott Marquis/The View Lounge, Great American Music Hall, Whitechapel and Chase Suite Newark after current primary review. Existing Sausalito Woman’s Club, Joseph D. Grant, Stonetree, Stemple Creek and Historic Adobe identities reconciled.
+
+The latest retrieved [official Historic Adobe notice](https://www.mountainview.gov/our-city/departments/community-services/recreation/facilities-rentals/historic-adobe-building?locale=es) says reservations are closed for maintenance until further notice; reopening is unknown. Sausalito’s operator publishes6500for2026,1800refundablesecurity,9:30PMmusic/event and10:30PMcleanup. The View’s actual original chart is300RECEPTION, not300dinner/dance; its FAQ contains unrelated/corrupt entries that were excluded. Whitechapel currently markets40–125cocktailreceptions, not the directory’s180generic. Current Stonetree2027prices are94/104/134/159perguest plus venue/ceremony/admin/tax/minima, not an all-in total. Stemple current pricing pamphlet remains inquiry-gated. Actual originals of SWC28-page photoPDF, Chase3-pagepolicyPDF and Viewchart were saved privately/readbackhashverified; no private correspondence published.
