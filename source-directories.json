@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-11-08T20:29:36.220375+00:00",
+  "updated_utc": "2026-11-12T06:18:30.123985+00:00",
   "scope": "Nine Bay Area counties; directory boundaries and nearby results require validation. Nonexhaustive source registry.",
   "sources": [
     {
@@ -10,12 +10,21 @@
       "url": "https://www.theknot.com/marketplace/wedding-reception-venues-san-francisco-ca",
       "geography": "San Francisco search; nearby results may be outside scope",
       "discovery_checked_utc": "2026-10-26T08:06:19.266392+00:00",
-      "collection_status": "Three exact property profiles reviewed this run; broader collection pending",
-      "collection_method": "Primary platform web reader; named property/city and rating/count headings reviewed, not a successful direct scrape",
-      "checked_utc": "2026-10-26T12:30:07.639947+00:00",
+      "collection_status": "All 14 exposed pages of the named San Francisco search captured; 401 unique listing URLs. Individual-property reconciliation and other Bay Area regional searches pending.",
+      "collection_method": "Supported normal browser, actual listing-card DOM; observed pagination to final page. No bypass, login, form submission or paid tool.",
+      "checked_utc": "2026-11-12T06:18:30.123985+00:00",
       "collected_profiles": 3,
       "new_venue_records": 0,
-      "notes": "Kohl/Villa exact profiles read; Wayfare5.0/4 at old558Sacramento address observed and excluded from current201Pine aggregate. St.Regis exact profile read:5/5 from one review; property scope and small/old sample flagged."
+      "notes": "Earlier selected-property profile reviews preserved separately. Listing inventory does not establish reviewed facts, current venue permission, unique parent properties or complete Bay Area coverage.",
+      "previous_collection_observation": {
+        "collection_status": "Three exact property profiles reviewed this run; broader collection pending",
+        "collection_method": "Primary platform web reader; named property/city and rating/count headings reviewed, not a successful direct scrape",
+        "checked_utc": "2026-10-26T12:30:07.639947+00:00",
+        "collected_profiles": 3,
+        "notes": "Kohl/Villa exact profiles read; Wayfare5.0/4 at old558Sacramento address observed and excluded from current201Pine aggregate. St.Regis exact profile read:5/5 from one review; property scope and small/old sample flagged."
+      },
+      "pagination_audit_url": "directory-pagination-audit-20261111.json",
+      "pagination_scope": "The Knot San Francisco near-city unfiltered search and WeddingWire San Francisco regional unfiltered search, all currently exposed result pages. Not all Bay Area regional searches."
     },
     {
       "id": "weddingwire",
@@ -24,12 +33,21 @@
       "url": "https://www.weddingwire.com/c/ca-california/san-francisco-san-jose-oakland/wedding-venues/807-11-rca.html",
       "geography": "San Francisco / San Jose / Oakland region",
       "discovery_checked_utc": null,
-      "collection_status": "Three exact property profiles reviewed this run; broader collection pending",
-      "collection_method": "Primary platform web reader; named property/city and rating/count headings reviewed, not a successful direct scrape",
-      "checked_utc": "2026-10-26T12:30:07.639947+00:00",
+      "collection_status": "All 17 exposed pages of the named San Francisco search captured; 424 unique listing URLs. Individual-property reconciliation and other Bay Area regional searches pending.",
+      "collection_method": "Supported normal browser, actual listing-card DOM; observed pagination to final page. No bypass, login, form submission or paid tool.",
+      "checked_utc": "2026-11-12T06:18:30.123985+00:00",
       "collected_profiles": 3,
       "new_venue_records": 0,
-      "notes": "KohlMansion andVillaChanticleer. Whole-property ratings may span operators and duplicate populations across platforms; no new property counted again here. St.Regis exact profile read:5/5 from one review; property scope and small/old sample flagged."
+      "notes": "Earlier selected-property profile reviews preserved separately. Listing inventory does not establish reviewed facts, current venue permission, unique parent properties or complete Bay Area coverage.",
+      "previous_collection_observation": {
+        "collection_status": "Three exact property profiles reviewed this run; broader collection pending",
+        "collection_method": "Primary platform web reader; named property/city and rating/count headings reviewed, not a successful direct scrape",
+        "checked_utc": "2026-10-26T12:30:07.639947+00:00",
+        "collected_profiles": 3,
+        "notes": "KohlMansion andVillaChanticleer. Whole-property ratings may span operators and duplicate populations across platforms; no new property counted again here. St.Regis exact profile read:5/5 from one review; property scope and small/old sample flagged."
+      },
+      "pagination_audit_url": "directory-pagination-audit-20261111.json",
+      "pagination_scope": "The Knot San Francisco near-city unfiltered search and WeddingWire San Francisco regional unfiltered search, all currently exposed result pages. Not all Bay Area regional searches."
     },
     {
       "id": "zola",
