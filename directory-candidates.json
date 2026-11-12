@@ -2,8 +2,8 @@
   "summary": {
     "checked_utc": "2026-10-26T13:28:51.955107+00:00",
     "candidate_urls": 580,
-    "candidate_urls_with_exact_match": 342,
-    "candidate_urls_without_exact_match": 238,
+    "candidate_urls_with_exact_match": 351,
+    "candidate_urls_without_exact_match": 229,
     "source_counts": {
       "moderndjs": {
         "raw_named_cards": 361,
@@ -53,13 +53,13 @@
     },
     "added_venue_records": 0,
     "note": "Candidate URLs are not a venue count. Old source collection counts retain their original dates; followup state counts are current. Fragment-only links merged; names/URLs are aids, not automatic reviews. Original added_venue_records=0 describes index-only ingestion; primary_followup_records_added is separate.",
-    "primary_followup_records_added": 198,
-    "followup_checked_utc": "2026-11-12T10:15:53.814858+00:00",
+    "primary_followup_records_added": 206,
+    "followup_checked_utc": "2026-11-12T10:31:59.519700+00:00",
     "current_review_counts": {
-      "reviewed_added": 202,
-      "reviewed_existing": 122,
-      "pending": 246,
-      "blocked": 7,
+      "reviewed_added": 210,
+      "reviewed_existing": 124,
+      "blocked": 9,
+      "pending": 234,
       "excluded": 3
     }
   },
@@ -3482,10 +3482,19 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "san-jose-clubhouse-union-santa-clara"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T10:31:59.519700+00:00",
+      "review_source_urls": [
+        "https://www.wedding-spot.com/venue/11162/san-jose-clubhouse/",
+        "https://www.sanjoseclubhouse.com/rates-renting"
+      ],
+      "review_reason": "The full directory and current operator home, rates, amenities, parking and rental pages were read. Exact Union Avenue clubhouse identity confirmed; the school parking lot at5175Union is not the venue. Current Saturday/holiday200/hour with FIVE-hour minimum in rate prose but EIGHT-hour minimum on payment selector: unresolved; Sunday–Friday180/hour/five-hour minimum.160cleaning;100nonrefundable booking fee, credit treatment unstated; required event/host-liquor insurance premium unknown.350hard-liquor charge conditional;15/security overtime hour beyond8rental hours. Access7AM–11PM INCLUDES setup/cleanup, not11PMguest/music approval.80genericcapacity;80chairs/12sixfoottables,fullkitchen,stage,sound/projector/security described. Parking weekdays onlyafter4:30PM/fullweekends. Original one-page floorplan visually read; it is not occupancy approval. Directory190/160rates,140cleaning and105insurance are not current verified quote. No all-in total.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-7498bf23946a14",
@@ -3503,12 +3512,19 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
         "kennedy-grove-regional-recreation-area-fern-cottage-contra-costa"
       ],
       "match_method": "Exact normalized name only; identity/branch not confirmed",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T10:31:59.519700+00:00",
+      "review_source_urls": [
+        "https://www.wedding-spot.com/venue/620/fern-cottage/",
+        "https://www.ebparks.org/sites/default/files/Fern-Cottage-Rate-Sheet-2026.pdf"
+      ],
+      "review_reason": "Full original profile, current operator facility page and BOTH original rate PDFs were read. The current linked2026–2027PDF has broken extraction, so both pages were rendered and visually read. Current non-catered fee300supersedes older2025–2026PDF150. Resident weekdayday315(8AM–5PM),chosen5h370weekday/545weekend;nonresident378/444/654includes20%surcharge,notadd20%again. Extra weekday60/72,hourweekend90/108,chosen5hextensionmax5/total10. All access includes setup/cleanup. Noncatered mustENDby7PM and notlistedmajorholidays; after7approvedcaterer mustunlock/setup/cleanup/lock. Approved deliveries count noncatered; personalpickupfood allowed; no unapproved paidstaff. Refundabledamage200day/500by7/1000after7,initialbooking credited notextra. Late500/hour penalty not permissiontoextend.60SEATED/130STANDING,75chairs inventory not75approveddinner. Mainpagebackdeck50x40vsPDF30x16conflict;header6530vsdirections6531sameidentity unresolvedaddressdetail. Midnight access notmusic/barclock;old10PMdirectorynotnewlyconfirmed. CurrentAV65inchTVsoundbar replacesolderprojectorcartdescription. No330approval/all-in quote.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-8adc88cb549a9d",
@@ -3526,10 +3542,19 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "courtyard-san-jose-north-holger-santa-clara"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T10:31:59.519700+00:00",
+      "review_source_urls": [
+        "https://www.wedding-spot.com/venue/11535/courtyard-by-marriott-san-jose-north-silicon-valley/",
+        "https://www.marriott.com/en-us/hotels/sjcno-courtyard-san-jose-north-silicon-valley/events/"
+      ],
+      "review_reason": "Full directory/current Marriott event body, full capacity chart and original HTML footer address read. Exact111Holger property not otherCourtyardhotels. GrandBallroom180BANQUET/300standingRECEPTIONorTHEATER; SanJose andSantaClara90banquet/150receptioneach are divisible halves of GrandBallroom, notadditive. Berkley room40banquet50reception.3rooms/4chartconfigurations,not4properties. Equipment/services offered notallfree. Page dinner66/person/reception50/lunch46 are service components, not whole-wedding package. Search-indexed EventMenu1PDFreturns404, original notsaved/read. Directory2500reception/1500ceremony/midnight notcurrentMarriott quote. Group rooms offered, no mandatory block/minimumstay proven. No330dinnerdanceapproval/all-in total.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-fa4d82876a34fc",
@@ -3547,10 +3572,19 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "red-poppy-art-house-folsom-san-francisco"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T10:31:59.519700+00:00",
+      "review_source_urls": [
+        "https://www.wedding-spot.com/venue/11403/red-poppy-art-house/",
+        "https://redpoppyarthouse.org/rentals/"
+      ],
+      "review_reason": "Full originalprofile/currentrental/contactFAQs read. Exact2698Folsomat23rd,notunrelatedRedPoppy.net. Operator49seatedcontradictsdirectory75generic,not49dinnerdance. RentalmustCLOSEby10PM; separatebar/music/cleanupclocksnotexplicit. Currentratesdependtype/day/nonprofiteligibility;directory1200/8hnotcurrentquote. Smallkitchen/soundboard/piano/lights/WiFi/restroomandADAavailable; livemusicarrangedEXTRA. Actual13page2011plan/photowalkthrough read:allphotos/planpagesvisuallyoverviewed,page8full-size; historicaldimensions/layoutnotcurrentoccupancycertificateornewprices. Original2160160bytes/SHA98bf097d1da17e40d1e331e0a606b15e3cda1a18d9976c1808e4a9efa838c208saved. PublicshowFAQguestsfoodalloweddoesnotestablishallprivatecaterer/BYOBterms; showtickets/childadmissionnotweddingfees. Noall-in total.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-14e31e5b9fffbf",
@@ -3568,10 +3602,19 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "saratoga-country-club-prospect-santa-clara"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T10:31:59.519700+00:00",
+      "review_source_urls": [
+        "https://www.wedding-spot.com/venue/553/saratoga-country-club/",
+        "https://saratogacc.com/Weddings_Events"
+      ],
+      "review_reason": "Full originalprofile/currentoperatorweddings/contactpageandaddressread. SaratogaCA notSaratogaNYclubs. Ballroom250seatedwithseparatewordingdancefloor;donotassume250WITHdanceor330. Member/nonmemberbotheligible,notmandatorymembership. Privatebar/ceremonysite/onsitecustomethnicmenusandfullbaroffered; outsidecatererpermissionunknown. No publicfees onreviewedoperatorbody;directory2000ceremony+2000reception/100minimum/4.5h/700extra/11PMnotcurrentprimaryquote. Primaryinquiryformhassecuritycode/CAPTCHA;readonly,notattemptedorbypassed. MembershipInformation&Pricinglinknotweddingprice. Noall-in total/currentclocks.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-d76ec169fb9d01",
@@ -3728,10 +3771,18 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "399-fremont-community-event-spaces-san-francisco"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T10:31:59.519700+00:00",
+      "review_source_urls": [
+        "https://giggster.com/listing/outdoor-kitchen-with-views-of-downtown-sf"
+      ],
+      "review_reason": "Full platformVerandaprofileread; explicit linkedUDR399Fremonttourandofficialbuildingaddress/Veranda+SkyLoungelabelsread. SecondSkyLoungeprofileexplicitlypublishes399FremontSt,corroboratingoneparent. No privateunitaddress inferred from hiddenmap. Sevenrelatedroomprofilesactuallyread and retainedasnestedinventory,notsevenproperties. Veranda20seated/40standingvs45attendeeheaderconflict;poolNOTpermitted,semiprivate,3hmin. SkyLounge40seated45standing,3hmin. Kitchen/Dining6chairsbutbooking5,otherlounge/refined22/30/32andconference5vs6conflictsretained. OfficialUDRresidentialmarketingdoesnotapproveweddings/nonresidentrentals. Ratesareplatformstartingroomratesnotwhole-propertyweddingquote;bookingfees/depositsunknown.19%hostcommissionnotautomaticallyclient surcharge. No330approval/capacitysum/BYOBfromundifferentiatedicons.",
+      "identity_review_source_kind": "directory_profile"
     },
     {
       "id": "directory-lead-0fb95117db464b",
@@ -3801,10 +3852,18 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "2000-post-resident-lounge-san-francisco"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T10:31:59.519700+00:00",
+      "review_source_urls": [
+        "https://giggster.com/listing/fillmore-district-funky-lounge"
+      ],
+      "review_reason": "Full platformprofileandexplicitlylinkedofficialUDRphoto/tourbodyread;official2000PostStreetaddress/ResidentLoungelabelconfirmsidentity. Not399FremontorotherFillmorelounge.30seated/30standingplatformlimitsnotdinnerdance. Semiprivateresidentialcommonroomwithkitchen/appliances/pooltable/fireplace,3hminimum;175/hourdisplayedstartingratebeforeunknownfees/eventscope. MonSat9AM–10PM/Sunclosedplatformavailabilitynotindependentweddingmusic/cleanuppermission. Externalfoodallowedexplicitlabel;alcohol/loudnoiseiconstatusesnotinferred. UDRapartmentleaseofferingnotnonresidentweddingapproval. Noall-in total/no330.",
+      "identity_review_source_kind": "directory_profile"
     },
     {
       "id": "directory-lead-d3d27d99ec41be",
@@ -3822,10 +3881,15 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Reviewed platform listing; physical-property identity cannot be verified from published information; unresolved blocker",
       "matched_record_ids": [],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "blocked",
+      "reviewed_utc": "2026-11-12T10:31:59.519700+00:00",
+      "review_source_urls": [
+        "https://giggster.com/listing/outdoor-terrace-with-sf-skyline-view"
+      ],
+      "review_reason": "CompleteactualplatformlistingreviewedandonefocusedpublishedMendellSFidentitysearchattempted. Address remains withhelduntilbooking;publicdescription/videoaliasaloneisnotverifiedcanonicalparent. No booking/account/contactmessage attempted to revealaddress. Keepseparateidentityblocker,notcompletevenueorflataccessfailure. Listingoutdooronly3336sqft/multilevel,60seated100standingvs60+header,5parkingvs10+stackedparkingclaim; noindoorweatherbackup. Noadditional speakers/alcoholsales/ticketedsale rules;199/hour4hminnotcompletequote. No unverifiednamedbuilding/substitutionadded."
     },
     {
       "id": "directory-lead-920498f3dcff30",
@@ -3869,10 +3933,18 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "399-fremont-community-event-spaces-san-francisco"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T10:31:59.519700+00:00",
+      "review_source_urls": [
+        "https://giggster.com/listing/42nd-floor-sky-view-lounge"
+      ],
+      "review_reason": "CompleteSkyLoungeprofileandallfivepublishedother-roomlinksread. Explicit399FremontaddressandUDRlinkedphotoscorroborateVerandaparentcreatedinsameorderedbatch. Oneproperty,notanotherroomrow. SkyLounge40seated45standing,650/hourstarting3hminimum; residentialnoiseandnearbyrestrooms,fullprivateclaimappliestoSkyLoungeonlynotsemiprivateVeranda. Opening8AM–10PMnotweddingdeadline. Platformrelatedroomcapacitydifferencesnotadditive;no330orfullweddingapproval.",
+      "identity_review_source_kind": "directory_profile"
     },
     {
       "id": "directory-lead-56b0e0816e5b27",
@@ -3890,10 +3962,19 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "clarion-performing-arts-center-waverly-san-francisco"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T10:31:59.519700+00:00",
+      "review_source_urls": [
+        "https://giggster.com/listing/sf-chinatown-multiuse-venue",
+        "https://www.theclarionsf.org/rentals"
+      ],
+      "review_reason": "Fullplatformandcurrentofficialrentalbodyread. Exact2WaverlyprimaryfooterextractionomittedaddressbutindependentlypublishedCaliforniaArtsCouncil/actualplatformaddressmatchespublicClarion. Primary60seatednot60dinnerdance;platform75standingvsTagvenue70standingunresolved/notpreferred. Base stage/gallery/backstage/house lights/Bluetooth/restrooms/tables. Servingfood/alcoholallowed,sellingnot; renterremovesalltrashor50disposalfee. Breakdownwithinpaidtime,overtimechargesunknown. ProfessionalAVpackagesINCLUDEtechsupport,cannotdoubleaddtechlabor;pianoextra. Platform225/hour2hmin plusproaudio100/hour/provisual120/hour/AV180/hour/piano80/hour,notprimaryissuedquote;19%hostcommissionnotautomaticallyclientfee. Weddingacceptance/currentindependentclocksunknown;Saturdaypublichoursnotprivatepermission. No330/all-in total.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-21f2de9055e8b4",
@@ -3940,10 +4021,15 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Reviewed platform listing; physical-property identity cannot be verified from published information; unresolved blocker",
       "matched_record_ids": [],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "blocked",
+      "reviewed_utc": "2026-11-12T10:31:59.519700+00:00",
+      "review_source_urls": [
+        "https://giggster.com/listing/event-space-in-a-san-francisco-historical-gem"
+      ],
+      "review_reason": "Entireactual3850sqftNorthBeachrestaurantplatformprofileread,focusedexactlisting-titleidentitysearchfoundnoverifiednamedoperator/address. Historiclandmark/LGBTQdescriptionisnotidentityproof;noPaperDoll/otherlandmarkguesspromoted. Two-diningroomsnotseparateproperties. Listing80seatedvs52description,120standing/header,4hmin/192hourstarting;500kitchen/40peritemfurniture/10ppplacesettingsconditionalnotfullcost. No booking/account/hostmessage to revealwithheldaddress;retainactualidentityblockeroutsidecompletedvenues."
     },
     {
       "id": "directory-lead-d6710bd718b22e",
@@ -3961,10 +4047,18 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "the-nest-california-street-san-francisco"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T10:31:59.519700+00:00",
+      "review_source_urls": [
+        "https://giggster.com/listing/whimsical-cozy-art-studio-with-natural-lighting"
+      ],
+      "review_reason": "Entireexplicitlyaddressedplatformprofileread;recentpublicartist/eventlistingscorroborateTheNest4754CaliforniaSF(nototherNestvenues),butoperatorweddingcontractnotverified.600sqftgroundlevelstudio+loftMoonLoungenotadditionalproperty.60attendeeheadervs50standing40seated/30productioncountsconflict;no60dinnerdanceorstackedcapacity.100/hourstarting3hminimum,fees/deposits/eventrateunknown.6AM–11PMplatformavailabilitynotindependentmusic/bar/cleanupdeadline. Externalcateringlabelallowed,alcoholiconstatusunknown;weddingacceptanceunconfirmed. Noall-in total/no330.",
+      "identity_review_source_kind": "directory_profile"
     },
     {
       "id": "directory-lead-5142ee1ee4533b",
