@@ -58,4 +58,21 @@ const single=by('singlethread-restaurant-inn-healdsburg-sonoma');assert(single.c
 const belle=by('belle-vie-estate-sherman-island-sacramento');assert.equal(belle.county,'Sacramento');assert.match(belle.geography_scope,/outside original nine/);
 assert.equal(N.value(belle,'music_outdoor'),1380);assert.equal(N.value(belle,'bar_end'),1560);assert.equal(N.value(belle,'byob'),'no');assert.equal(N.value(belle,'capacity_dinner_dance'),null);assert.equal(belle.mandatory_total_price,null);
 for(const id of ['del-dotto-venetian-estate-st-helena-napa','piazza-del-dotto-napa'])assert.equal(N.value(by(id),'wedding_permission'),'explicit_no');
+const creekside=by('walnut-creek-elks-lodge-creekside-hall-contra-costa');
+assert.equal(N.value(creekside,'outside_catering'),'yes');
+assert.equal(N.value(creekside,'tables_included'),null,'listed tables are not confirmed free inclusions');
+assert.equal(N.value(creekside,'capacity_dinner_dance'),null,'one room layout is not a summed parent-property capacity');
+assert.equal(creekside.source_room_inventory.find(r=>r.id==='walnut-creek-elks-lodge-great-room-contra-costa').published_capacity.dinner_and_dancing,200);
+const faith=by('faith-christian-fellowship-walnut-creek-contra-costa');
+assert.equal(N.value(faith,'wedding_permission'),'advertised');assert.equal(N.value(faith,'capacity_dinner_dance'),null,'350 pew seats are not dinner-and-dancing seats');
+assert.equal(N.value(faith,'deposit_refundable'),300,'refundable cash exposure must remain separate from event expense');
+assert.equal(N.value(faith,'chairs_included'),'conditional','Fellowship Hall inclusion must not cover every room');
+assert.equal(N.value(faith,'music_indoor'),null,'no loud music during quiet hours is not an all-music or event-end clock');
+const faithRates=faith.conditional_pricing_evidence[0];assert.equal(faithRates.full_day_max_hours,6,'actual linked PDF differs from indexed differently named rate sheet');
+assert.equal(faithRates.room_rates_usd.worship_center.full_day,850);assert.equal(faithRates.room_rates_usd.both_spaces.half_day,700);
+assert(faithRates.cleaning_in_base_unresolved&&faithRates.av_technician_applicability_conflict&&faithRates.all_in_total_unknown);
+assert.equal(N.value(by('first-presbyterian-church-concord-contra-costa'),'byob'),'no');
+for(const id of ['faith-christian-fellowship-walnut-creek-contra-costa','walnut-creek-elks-lodge-creekside-hall-contra-costa','first-presbyterian-church-concord-contra-costa','north-marin-community-services-wilson-avenue-center-marin']){
+ assert.equal(by(id).mandatory_total_price,null);assert.equal(N.value(by(id),'fixed_mandatory'),null,'unpublished costs must stay unknown');
+}
 console.log('Package limits, capacity conflicts, exact reviews, property identity, component costs, sunset clocks and complete founder export passed.');
