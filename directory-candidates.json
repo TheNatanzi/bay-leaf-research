@@ -2,8 +2,8 @@
   "summary": {
     "checked_utc": "2026-10-26T13:28:51.955107+00:00",
     "candidate_urls": 580,
-    "candidate_urls_with_exact_match": 425,
-    "candidate_urls_without_exact_match": 155,
+    "candidate_urls_with_exact_match": 431,
+    "candidate_urls_without_exact_match": 149,
     "source_counts": {
       "moderndjs": {
         "raw_named_cards": 361,
@@ -53,16 +53,16 @@
     },
     "added_venue_records": 0,
     "note": "Candidate URLs are not a venue count. Old source collection counts retain their original dates; followup state counts are current. Fragment-only links merged; names/URLs are aids, not automatic reviews. Original added_venue_records=0 describes index-only ingestion; primary_followup_records_added is separate.",
-    "primary_followup_records_added": 262,
-    "followup_checked_utc": "2026-11-12T14:03:48.331884+00:00",
+    "primary_followup_records_added": 268,
+    "followup_checked_utc": "2026-11-12T14:14:00.791701+00:00",
     "current_review_counts": {
-      "reviewed_added": 258,
+      "reviewed_added": 264,
       "reviewed_existing": 167,
       "blocked": 10,
       "reviewed_supplier_not_venue_offer": 1,
-      "reviewed_outside_scope": 2,
-      "pending": 139,
-      "excluded": 3
+      "reviewed_outside_scope": 4,
+      "excluded": 3,
+      "pending": 131
     }
   },
   "candidates": [
@@ -597,7 +597,7 @@
         "https://www.modernweddingdjs.com/vendors/wedding-venues/contra-costa-country-club-pleasant-hill",
         "https://online.flipbuilder.com/contracostacc/aigj/"
       ],
-      "review_reason": "Full named profile at801GolfClubRoad matched actual current primary reader/address and operator-linked2026non-memberbanquetbook. One new physical property was already registered from keyword discovery, with all27publishertextpages read and keypages2–5visuallychecked. Reuse that row and four nested room IDs, not a second venue. Generic directory vendor-bundling claims not adopted; primary manager explicitly not day-ofcoordinator, and Oak/Terracecapacityconflicts remain.",
+      "review_reason": "Full named profile at801GolfClubRoad matched actual current primary reader/address and operator-linked2026non-memberbanquetbook. One new physical property was already registered from keyword discovery, with all27publishertextpages read and keypages2\u20135visuallychecked. Reuse that row and four nested room IDs, not a second venue. Generic directory vendor-bundling claims not adopted; primary manager explicitly not day-ofcoordinator, and Oak/Terracecapacityconflicts remain.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -627,7 +627,7 @@
         "https://www.modernweddingdjs.com/vendors/wedding-venues/cordevalle-san-martin",
         "https://www.cordevalle.com/weddings/venues"
       ],
-      "review_reason": "Full current resort wedding/venue pages read; actualOneCordeValleClubDrive resort distinct from existingCordeValleWineryat1HummingbirdLane. Wineryactual5pagevendorPDF callsresortneighboringproperty forrehearsals/lodging. Do nottransfer wineryprices/vendorlist/100–200capacity ornormalizeoneoperatorbecausebrandshared. ResortBallroom2663sqft/120max;RoseGarden2500sqft/120max;OakTerrace2000sqft/100max. Generic maxima not dinnerdance; spacesnotadded. PrivatediningIlVigneto/LionsPeakGrill. Lodging available notshownmandatory; prices/clocks/completepackageunknown. Old/celebrations/weddings404; current/weddingsworks.",
+      "review_reason": "Full current resort wedding/venue pages read; actualOneCordeValleClubDrive resort distinct from existingCordeValleWineryat1HummingbirdLane. Wineryactual5pagevendorPDF callsresortneighboringproperty forrehearsals/lodging. Do nottransfer wineryprices/vendorlist/100\u2013200capacity ornormalizeoneoperatorbecausebrandshared. ResortBallroom2663sqft/120max;RoseGarden2500sqft/120max;OakTerrace2000sqft/100max. Generic maxima not dinnerdance; spacesnotadded. PrivatediningIlVigneto/LionsPeakGrill. Lodging available notshownmandatory; prices/clocks/completepackageunknown. Old/celebrations/weddings404; current/weddingsworks.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -896,7 +896,7 @@
     {
       "id": "directory-lead-5125a23d119f5f",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/garre-vineyard-winery-livermore",
-      "name": "Garré Vineyard & Winery",
+      "name": "Garr\u00e9 Vineyard & Winery",
       "label_method": "Named anchor on downloaded index",
       "source_channels": [
         "moderndjs"
@@ -1479,7 +1479,7 @@
       "review_source_urls": [
         "https://www.modernweddingdjs.com/vendors/wedding-venues/oakland-museum-of-california-oakland"
       ],
-      "review_reason": "Actual named candidate profile and locality/space description compared against existing specific property records. ExactOMCAOaklandparent;currentprimaryTownFareandAlternativeVenuesbodyread,café200meal/Garden700mealvs300ceremony+meal differentconditions. No roomcapacitysumorblanket700weddingapproval. Duplicate identity only resolved; current fees, issued permissions and full room/document inventory remain open.",
+      "review_reason": "Actual named candidate profile and locality/space description compared against existing specific property records. ExactOMCAOaklandparent;currentprimaryTownFareandAlternativeVenuesbodyread,caf\u00e9200meal/Garden700mealvs300ceremony+meal differentconditions. No roomcapacitysumorblanket700weddingapproval. Duplicate identity only resolved; current fees, issued permissions and full room/document inventory remain open.",
       "identity_review_source_kind": "wedding_vendor_directory"
     },
     {
@@ -1509,7 +1509,7 @@
         "https://www.modernweddingdjs.com/vendors/wedding-venues/oakland-scottish-rite-center-oakland",
         "https://business.oaklandchamber.com/list/member/oakland-scottish-rite-center-3496"
       ],
-      "review_reason": "Exactphysicalcenteridentified fromfulloriginalprofile, actualChamberlisting andactualWestEdgeOperatenantvenuepage at1547Lakeside. Oldoaklandscottishrite.com ACTUALLYredirectsto unrelatedgamblingsite; quarantinednotcontactsource,nointeraction/installation/login. Searchcachedlegitimateoldhomepageisnotproof ofcurrentoperatorcontrol. WEOusesfourthfloortheater;1400theaterseatsnotweddingdinner. Directory200–600dinnerdancehistoricaloffer and2026ownership/saleclaimsnotindependentlyconfirmed, notadopted. Currentweddingoperator,bookability,approvedrooms/layouts/pricesheldUnknown; donotsubmittooldwebsite. Physicalidentityresolved,notbookingproblemresolved.",
+      "review_reason": "Exactphysicalcenteridentified fromfulloriginalprofile, actualChamberlisting andactualWestEdgeOperatenantvenuepage at1547Lakeside. Oldoaklandscottishrite.com ACTUALLYredirectsto unrelatedgamblingsite; quarantinednotcontactsource,nointeraction/installation/login. Searchcachedlegitimateoldhomepageisnotproof ofcurrentoperatorcontrol. WEOusesfourthfloortheater;1400theaterseatsnotweddingdinner. Directory200\u2013600dinnerdancehistoricaloffer and2026ownership/saleclaimsnotindependentlyconfirmed, notadopted. Currentweddingoperator,bookability,approvedrooms/layouts/pricesheldUnknown; donotsubmittooldwebsite. Physicalidentityresolved,notbookingproblemresolved.",
       "identity_review_source_kind": "regional_tourism_directory"
     },
     {
@@ -1597,7 +1597,7 @@
         "https://www.modernweddingdjs.com/vendors/wedding-venues/paradise-ballrooms-fremont",
         "https://paradiseballrooms.com/"
       ],
-      "review_reason": "One parent withParadiseandMirageballrooms,not twoindependent duplicateoutreachproperties. Operator150–1000combinedmaximum not1000dinner+dance. Setup,linens,china,catering,staffing,cleanup advertised. Separate roomfloorplans,prices,clocks remain unknown."
+      "review_reason": "One parent withParadiseandMirageballrooms,not twoindependent duplicateoutreachproperties. Operator150\u20131000combinedmaximum not1000dinner+dance. Setup,linens,china,catering,staffing,cleanup advertised. Separate roomfloorplans,prices,clocks remain unknown."
     },
     {
       "id": "directory-lead-4f7b1f5f5c8c10",
@@ -1802,13 +1802,13 @@
         "https://www.modernweddingdjs.com/vendors/wedding-venues/round-hill-country-club-alamo",
         "https://www.rhcountryclub.com/private-events"
       ],
-      "review_reason": "Actualprimaryreaderbodyandaddressplusfulloriginalprofile read. Stage/danceflooratnoadditionalcharge. FairwayDining125onlyfullclubhousebuyout;Terrace/PavilionCOCKTAILONLY,nositdown;CeremonyPatio250onlyfullbuyout. No capacitysumming.350genericnot330dinnerdanceapproval. Othercosts/clocksunknown. Formrequiresguestcount,nosubmit. RH_Wedding-Brochure-Web.pdfsearchhitactuallyRedHouseSeafoodSingapore2023–2024onfull6pageread,rejectednotRoundHillpricing. OwnHTMLrobotsunavailable; exactstandardreaderexporthashretained,notoriginalHTML.",
+      "review_reason": "Actualprimaryreaderbodyandaddressplusfulloriginalprofile read. Stage/danceflooratnoadditionalcharge. FairwayDining125onlyfullclubhousebuyout;Terrace/PavilionCOCKTAILONLY,nositdown;CeremonyPatio250onlyfullbuyout. No capacitysumming.350genericnot330dinnerdanceapproval. Othercosts/clocksunknown. Formrequiresguestcount,nosubmit. RH_Wedding-Brochure-Web.pdfsearchhitactuallyRedHouseSeafoodSingapore2023\u20132024onfull6pageread,rejectednotRoundHillpricing. OwnHTMLrobotsunavailable; exactstandardreaderexporthashretained,notoriginalHTML.",
       "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-52c232845add21",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/san-jose-city-hall-rotunda-san-jose",
-      "name": "San José City Hall Rotunda",
+      "name": "San Jos\u00e9 City Hall Rotunda",
       "label_method": "Named anchor on downloaded index",
       "source_channels": [
         "moderndjs"
@@ -1837,7 +1837,7 @@
     {
       "id": "directory-lead-7056ea177ff41b",
       "url": "https://www.modernweddingdjs.com/vendors/wedding-venues/san-jose-museum-of-art-san-jose",
-      "name": "San José Museum of Art",
+      "name": "San Jos\u00e9 Museum of Art",
       "label_method": "Named anchor on downloaded index",
       "source_channels": [
         "moderndjs"
@@ -1977,7 +1977,7 @@
         "https://www.modernweddingdjs.com/vendors/wedding-venues/saratoga-springs-saratoga",
         "https://www.saratoga-springs.com"
       ],
-      "review_reason": "Actual named operator and address confirmed. FiveprivategrovesLongbridge,Hilltop,CathedralGrove,RedwoodGrove,SaratogaCove plusCreeksideRoomneedindividualreview.50–2000genericpicnicspacesnot2000weddingdinnerdance. Oldestcontinuouslyoperatingclaim remainsoperatorassertion,notindependentlyverifiedhistoricalfact."
+      "review_reason": "Actual named operator and address confirmed. FiveprivategrovesLongbridge,Hilltop,CathedralGrove,RedwoodGrove,SaratogaCove plusCreeksideRoomneedindividualreview.50\u20132000genericpicnicspacesnot2000weddingdinnerdance. Oldestcontinuouslyoperatingclaim remainsoperatorassertion,notindependentlyverifiedhistoricalfact."
     },
     {
       "id": "directory-lead-49e21d5953e577",
@@ -2359,7 +2359,7 @@
         "https://www.modernweddingdjs.com/vendors/wedding-venues/the-ruth-bancroft-garden-walnut-creek",
         "https://www.ruthbancroftgarden.org/private-events/"
       ],
-      "review_reason": "Fulloriginalprofileandactualcurrentprimaryprivateeventbodyread. Old/rentals/weddingsroutefails; actual/private-eventslive. Indoor102generic/outdoor150generic, not150indoorordinnerdance. CoitVisitorEducationCenterandgardenoneproperty; no252sum. Privateeventafter4PMpublicclosing;eventend9PMSunThu/10PMFriSat, independentmusic/bar/cleanupunknown. Currentmicro-wedding1–45,2heventor4hwithcocktail/cake, notold1–30. PeakAprilJuneandSeptemberOctober, actualpricingpacketrequiresinquiryform. Historical2023/24S3ratessearchleadnotadoptedcurrent.500member/550nonmemberphoto-sessionfeesand100rushNOTweddingrentals;photoshootalcoholprohibitionnottransferredtoreception. SeparateHeatherFarmandFaithChristianFellowshipproperties despiteBancroftnames/road. Noformsubmitted.",
+      "review_reason": "Fulloriginalprofileandactualcurrentprimaryprivateeventbodyread. Old/rentals/weddingsroutefails; actual/private-eventslive. Indoor102generic/outdoor150generic, not150indoorordinnerdance. CoitVisitorEducationCenterandgardenoneproperty; no252sum. Privateeventafter4PMpublicclosing;eventend9PMSunThu/10PMFriSat, independentmusic/bar/cleanupunknown. Currentmicro-wedding1\u201345,2heventor4hwithcocktail/cake, notold1\u201330. PeakAprilJuneandSeptemberOctober, actualpricingpacketrequiresinquiryform. Historical2023/24S3ratessearchleadnotadoptedcurrent.500member/550nonmemberphoto-sessionfeesand100rushNOTweddingrentals;photoshootalcoholprohibitionnottransferredtoreception. SeparateHeatherFarmandFaithChristianFellowshipproperties despiteBancroftnames/road. Noformsubmitted.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -3225,7 +3225,7 @@
         "https://www.wedding-spot.com/venue/11224/joseph-grant-park/",
         "https://parks.santaclaracounty.gov/things-do/reserve-grounds-county-parks-weddings-and-receptions"
       ],
-      "review_reason": "Full originalprofile/currentCountyweddingpageactuallyread. JosephDGrant18405MtHamiltonexistingRoseGarden/Cookhouse,notLosAltosGrantPark. Currentcounty100site/60insidecookhouse,notdirectory160header/400Stockmansasthislayout.8AM–sunsetweddinghours(notfixed6PMmusicuniversally). Site-reservationfee+additionalweddingcharges/vehicle/staff,existing120weddingsurchargeevidencepreserved,not461allin. Onepicnicsiteperdateunlesslimitedcombinedapproval. AmplifiedDJ/speakeronlycertainapprovedsiteswithpermit;liveamplifiedBANDonlySanbornSequoiaPeterson,notJosephGrantautomatic. Sanbornseasonal6:30PMrestrictionNOTtransferredhere. Foodtruck/catereralloweddesignatedroad,6vehicleentry;BYOalcoholwithinreservedsites,salesrequireslicense. MonThu(nonholiday)rehearsalsnobasesitechargebutvehiclesapply;FridaySun/holiday/rehearsallunchregularfees. Portalexistsbutonlinepicnicbookingmustcallconvertwedding,noreservationmade. Actualrawfetchrobotsheld;exactstandardreaderexportarchived,notrawdownloadsuccess.",
+      "review_reason": "Full originalprofile/currentCountyweddingpageactuallyread. JosephDGrant18405MtHamiltonexistingRoseGarden/Cookhouse,notLosAltosGrantPark. Currentcounty100site/60insidecookhouse,notdirectory160header/400Stockmansasthislayout.8AM\u2013sunsetweddinghours(notfixed6PMmusicuniversally). Site-reservationfee+additionalweddingcharges/vehicle/staff,existing120weddingsurchargeevidencepreserved,not461allin. Onepicnicsiteperdateunlesslimitedcombinedapproval. AmplifiedDJ/speakeronlycertainapprovedsiteswithpermit;liveamplifiedBANDonlySanbornSequoiaPeterson,notJosephGrantautomatic. Sanbornseasonal6:30PMrestrictionNOTtransferredhere. Foodtruck/catereralloweddesignatedroad,6vehicleentry;BYOalcoholwithinreservedsites,salesrequireslicense. MonThu(nonholiday)rehearsalsnobasesitechargebutvehiclesapply;FridaySun/holiday/rehearsallunchregularfees. Portalexistsbutonlinepicnicbookingmustcallconvertwedding,noreservationmade. Actualrawfetchrobotsheld;exactstandardreaderexportarchived,notrawdownloadsuccess.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -3285,7 +3285,7 @@
         "https://www.wedding-spot.com/venue/28/stonetree-estate-by-wedgewood-weddings/",
         "https://www.wedgewoodweddings.com/venues/stonetree-estate"
       ],
-      "review_reason": "Full directory/currentoperatorbodyplusheader/footerread. Existing9StoneTreeLaneNovatoMarinnotcountycitynamedMarinorotherWedgewood. Current200genericcapacityNOTdinnerdance/330. Explicit2027starts94BuildYourOwn104Classic134Premier159Eliteperguest PLUS595ceremony1695venue22admin/tax/minima;bases/fullincludedscopeneedissuedquote. Olddirectory79–144/119Premier/1495ceremony/495–4495venue/midnightnotcurrentoperatorverified. Day-ofcoordinationDJtablewarebarpackagevariationnotallassumedat94. Noallintotal/independentmusicbarcleanupclock.",
+      "review_reason": "Full directory/currentoperatorbodyplusheader/footerread. Existing9StoneTreeLaneNovatoMarinnotcountycitynamedMarinorotherWedgewood. Current200genericcapacityNOTdinnerdance/330. Explicit2027starts94BuildYourOwn104Classic134Premier159Eliteperguest PLUS595ceremony1695venue22admin/tax/minima;bases/fullincludedscopeneedissuedquote. Olddirectory79\u2013144/119Premier/1495ceremony/495\u20134495venue/midnightnotcurrentoperatorverified. Day-ofcoordinationDJtablewarebarpackagevariationnotallassumedat94. Noallintotal/independentmusicbarcleanupclock.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -3345,7 +3345,7 @@
         "https://www.wedding-spot.com/venue/10151/the-view-lounge/",
         "https://www.theviewlounge-sf.com/private-dining"
       ],
-      "review_reason": "Full originalprofile/currentprivateevent/FAQ/home/contactbodiesread;originalpublishedcapacitychartimage16638bytesSHA990c553926d9e986bc3486939502ca510e2005df0b304c4e818fdc9af59c4ae9downloadedandvisuallyread. Exact780MissionMarriottMarquis39thflooronehotelparent,notseparate5properties. ChartfullViewbuyout300RECEPTION,Angel18/Astros20/Karl25/TwinPeaks100reception,FAQCitySide80generic;not300dinnerdance/summedroomcapacities. FAQstray329underduplicatechildquestionandHansomLondonhoursarecopyerrors,notusablelocalcapacity/time. Minorswithadultuntil9PMregularpolicy/privateexceptionunknown. Bartenderfeehalf/fullbuyouts,dedicatedserveralcovesHOTELEXTRACHARGE,amountunknown. CurrentRFPformmin20corporate/10–25alcovebookingsseparate;FAQnoreservationsvsalcoveonlineofferdifferentcontext/conflict. Regular4PM–midnightandspecial1AMNOTprivateeventclocks. Olddirectory8000/2h/1AMandconflictingoutsidecaterernotcurrentquote. Hotelotherballroomsremainunreviewed,nolodgingblockassumption.",
+      "review_reason": "Full originalprofile/currentprivateevent/FAQ/home/contactbodiesread;originalpublishedcapacitychartimage16638bytesSHA990c553926d9e986bc3486939502ca510e2005df0b304c4e818fdc9af59c4ae9downloadedandvisuallyread. Exact780MissionMarriottMarquis39thflooronehotelparent,notseparate5properties. ChartfullViewbuyout300RECEPTION,Angel18/Astros20/Karl25/TwinPeaks100reception,FAQCitySide80generic;not300dinnerdance/summedroomcapacities. FAQstray329underduplicatechildquestionandHansomLondonhoursarecopyerrors,notusablelocalcapacity/time. Minorswithadultuntil9PMregularpolicy/privateexceptionunknown. Bartenderfeehalf/fullbuyouts,dedicatedserveralcovesHOTELEXTRACHARGE,amountunknown. CurrentRFPformmin20corporate/10\u201325alcovebookingsseparate;FAQnoreservationsvsalcoveonlineofferdifferentcontext/conflict. Regular4PM\u2013midnightandspecial1AMNOTprivateeventclocks. Olddirectory8000/2h/1AMandconflictingoutsidecaterernotcurrentquote. Hotelotherballroomsremainunreviewed,nolodgingblockassumption.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -3405,7 +3405,7 @@
         "https://www.wedding-spot.com/venue/3814/great-american-music-hall/",
         "https://gamh.com/private-events/"
       ],
-      "review_reason": "Full originaldirectory/currentofficialprivateevents/FAQ/contactread. Exact859OFarrellGAMHnotunaffiliatedgreatmusichallticketSEOsite. Primaryweddings/dancefloor/soundsystemoffered,actualcurrentrentalcapacity/feesnotposted. Directory300generic/7200–8900rental/F&Bminimumunpriced/500ceremony/outsidecatererfee/1:30AMnotcurrentprimaryverified. Directory8hwith5event+3setup+1cleanupis9arithmeticconflict,notclean8heventduration. PrimaryFAQnooutsidefoodbeverageispublicSHOWpolicy,notautomaticprivateweddingcatererprohibition.6+allagespublicshowpolicy/privateinfantsunknown. Garage11PMweekday/midnightweekendtypicalnotevent/musicclock. Formoffered,actualembeddedfieldsnotyetreviewed. Noallintotalor330dinnerapproval.",
+      "review_reason": "Full originaldirectory/currentofficialprivateevents/FAQ/contactread. Exact859OFarrellGAMHnotunaffiliatedgreatmusichallticketSEOsite. Primaryweddings/dancefloor/soundsystemoffered,actualcurrentrentalcapacity/feesnotposted. Directory300generic/7200\u20138900rental/F&Bminimumunpriced/500ceremony/outsidecatererfee/1:30AMnotcurrentprimaryverified. Directory8hwith5event+3setup+1cleanupis9arithmeticconflict,notclean8heventduration. PrimaryFAQnooutsidefoodbeverageispublicSHOWpolicy,notautomaticprivateweddingcatererprohibition.6+allagespublicshowpolicy/privateinfantsunknown. Garage11PMweekday/midnightweekendtypicalnotevent/musicclock. Formoffered,actualembeddedfieldsnotyetreviewed. Noallintotalor330dinnerapproval.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -3435,7 +3435,7 @@
         "https://www.wedding-spot.com/venue/9896/whitechapel-sf/",
         "https://www.whitechapelsf.com/"
       ],
-      "review_reason": "Full originaldirectory/currentprimaryhomepageandlinkedbeveragemenuread;embeddedoperatorname600Polk/addressSanFranciscoidentitychecked. CURRENTprivateevents40–125cocktailreceptionwithbuffets,notdirectory180generic/20–30Distillery30–40GinPalacesummedcapacity. Currentnoall-daypublicopeninference. No125seateddinnerdanceapproval;scatteredbanquetteseatingnotlayoutcount. Fullservicebar/cocktailbuffetcurrent,pricedmenuabsent. Directory5000/3h6–9PM/10PMmusic/BYOANDvenuealcoholcontradictionnotcurrentverified. Nooutsidealcoholpermissioninferredfrommenu. Noallintotal/currentindependentcutoffs.",
+      "review_reason": "Full originaldirectory/currentprimaryhomepageandlinkedbeveragemenuread;embeddedoperatorname600Polk/addressSanFranciscoidentitychecked. CURRENTprivateevents40\u2013125cocktailreceptionwithbuffets,notdirectory180generic/20\u201330Distillery30\u201340GinPalacesummedcapacity. Currentnoall-daypublicopeninference. No125seateddinnerdanceapproval;scatteredbanquetteseatingnotlayoutcount. Fullservicebar/cocktailbuffetcurrent,pricedmenuabsent. Directory5000/3h6\u20139PM/10PMmusic/BYOANDvenuealcoholcontradictionnotcurrentverified. Nooutsidealcoholpermissioninferredfrommenu. Noallintotal/currentindependentcutoffs.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -3465,7 +3465,7 @@
         "https://www.wedding-spot.com/venue/11800/chase-suite-hotel-newark/",
         "https://www.chasehotelnewark.com/groups-events"
       ],
-      "review_reason": "Full originaldirectory/currentprimarygroups/events/contactandactual3pagehotelpolicyPDFread,NoPartyPage2renderedvisuallychecked.39150CedarNewarkCA notNewarkNJ. Hardage960sqft80GENERICmeetingcountnotdinnerdance. Primarymeetings/eventsconfirmed;directoryweddingofferingnotcurrentexplicitapproval. HotelpolicyNOparty/excessnoise,3per1bed/5per2bedandnonregisteredguestafter11PMrestrictions,500breachpenalty/securitynotfixedweddingfee;reconcileauthorizedmeetingeventsnotdeclareallrentalprohibited. Room-staydeposit/cancellation/petfeesnotautomaticallyeventcost. Freeparking/WiFi/localshuttle/currentAVandcateringavailable;completeinclusionsquoteunknown. Group-roomratesoptional,NOTmandatoryroomblock.700–900/12h/11PMdirectorynotcurrentoperatorquote. RFPasksdate/time/count/type;nosubmission. Noallintotal or330approval.",
+      "review_reason": "Full originaldirectory/currentprimarygroups/events/contactandactual3pagehotelpolicyPDFread,NoPartyPage2renderedvisuallychecked.39150CedarNewarkCA notNewarkNJ. Hardage960sqft80GENERICmeetingcountnotdinnerdance. Primarymeetings/eventsconfirmed;directoryweddingofferingnotcurrentexplicitapproval. HotelpolicyNOparty/excessnoise,3per1bed/5per2bedandnonregisteredguestafter11PMrestrictions,500breachpenalty/securitynotfixedweddingfee;reconcileauthorizedmeetingeventsnotdeclareallrentalprohibited. Room-staydeposit/cancellation/petfeesnotautomaticallyeventcost. Freeparking/WiFi/localshuttle/currentAVandcateringavailable;completeinclusionsquoteunknown. Group-roomratesoptional,NOTmandatoryroomblock.700\u2013900/12h/11PMdirectorynotcurrentoperatorquote. RFPasksdate/time/count/type;nosubmission. Noallintotal or330approval.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -3495,7 +3495,7 @@
         "https://www.wedding-spot.com/venue/11162/san-jose-clubhouse/",
         "https://www.sanjoseclubhouse.com/rates-renting"
       ],
-      "review_reason": "The full directory and current operator home, rates, amenities, parking and rental pages were read. Exact Union Avenue clubhouse identity confirmed; the school parking lot at5175Union is not the venue. Current Saturday/holiday200/hour with FIVE-hour minimum in rate prose but EIGHT-hour minimum on payment selector: unresolved; Sunday–Friday180/hour/five-hour minimum.160cleaning;100nonrefundable booking fee, credit treatment unstated; required event/host-liquor insurance premium unknown.350hard-liquor charge conditional;15/security overtime hour beyond8rental hours. Access7AM–11PM INCLUDES setup/cleanup, not11PMguest/music approval.80genericcapacity;80chairs/12sixfoottables,fullkitchen,stage,sound/projector/security described. Parking weekdays onlyafter4:30PM/fullweekends. Original one-page floorplan visually read; it is not occupancy approval. Directory190/160rates,140cleaning and105insurance are not current verified quote. No all-in total.",
+      "review_reason": "The full directory and current operator home, rates, amenities, parking and rental pages were read. Exact Union Avenue clubhouse identity confirmed; the school parking lot at5175Union is not the venue. Current Saturday/holiday200/hour with FIVE-hour minimum in rate prose but EIGHT-hour minimum on payment selector: unresolved; Sunday\u2013Friday180/hour/five-hour minimum.160cleaning;100nonrefundable booking fee, credit treatment unstated; required event/host-liquor insurance premium unknown.350hard-liquor charge conditional;15/security overtime hour beyond8rental hours. Access7AM\u201311PM INCLUDES setup/cleanup, not11PMguest/music approval.80genericcapacity;80chairs/12sixfoottables,fullkitchen,stage,sound/projector/security described. Parking weekdays onlyafter4:30PM/fullweekends. Original one-page floorplan visually read; it is not occupancy approval. Directory190/160rates,140cleaning and105insurance are not current verified quote. No all-in total.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -3525,7 +3525,7 @@
         "https://www.wedding-spot.com/venue/620/fern-cottage/",
         "https://www.ebparks.org/sites/default/files/Fern-Cottage-Rate-Sheet-2026.pdf"
       ],
-      "review_reason": "Full original profile, current operator facility page and BOTH original rate PDFs were read. The current linked2026–2027PDF has broken extraction, so both pages were rendered and visually read. Current non-catered fee300supersedes older2025–2026PDF150. Resident weekdayday315(8AM–5PM),chosen5h370weekday/545weekend;nonresident378/444/654includes20%surcharge,notadd20%again. Extra weekday60/72,hourweekend90/108,chosen5hextensionmax5/total10. All access includes setup/cleanup. Noncatered mustENDby7PM and notlistedmajorholidays; after7approvedcaterer mustunlock/setup/cleanup/lock. Approved deliveries count noncatered; personalpickupfood allowed; no unapproved paidstaff. Refundabledamage200day/500by7/1000after7,initialbooking credited notextra. Late500/hour penalty not permissiontoextend.60SEATED/130STANDING,75chairs inventory not75approveddinner. Mainpagebackdeck50x40vsPDF30x16conflict;header6530vsdirections6531sameidentity unresolvedaddressdetail. Midnight access notmusic/barclock;old10PMdirectorynotnewlyconfirmed. CurrentAV65inchTVsoundbar replacesolderprojectorcartdescription. No330approval/all-in quote.",
+      "review_reason": "Full original profile, current operator facility page and BOTH original rate PDFs were read. The current linked2026\u20132027PDF has broken extraction, so both pages were rendered and visually read. Current non-catered fee300supersedes older2025\u20132026PDF150. Resident weekdayday315(8AM\u20135PM),chosen5h370weekday/545weekend;nonresident378/444/654includes20%surcharge,notadd20%again. Extra weekday60/72,hourweekend90/108,chosen5hextensionmax5/total10. All access includes setup/cleanup. Noncatered mustENDby7PM and notlistedmajorholidays; after7approvedcaterer mustunlock/setup/cleanup/lock. Approved deliveries count noncatered; personalpickupfood allowed; no unapproved paidstaff. Refundabledamage200day/500by7/1000after7,initialbooking credited notextra. Late500/hour penalty not permissiontoextend.60SEATED/130STANDING,75chairs inventory not75approveddinner. Mainpagebackdeck50x40vsPDF30x16conflict;header6530vsdirections6531sameidentity unresolvedaddressdetail. Midnight access notmusic/barclock;old10PMdirectorynotnewlyconfirmed. CurrentAV65inchTVsoundbar replacesolderprojectorcartdescription. No330approval/all-in quote.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -3864,7 +3864,7 @@
       "review_source_urls": [
         "https://giggster.com/listing/fillmore-district-funky-lounge"
       ],
-      "review_reason": "Full platformprofileandexplicitlylinkedofficialUDRphoto/tourbodyread;official2000PostStreetaddress/ResidentLoungelabelconfirmsidentity. Not399FremontorotherFillmorelounge.30seated/30standingplatformlimitsnotdinnerdance. Semiprivateresidentialcommonroomwithkitchen/appliances/pooltable/fireplace,3hminimum;175/hourdisplayedstartingratebeforeunknownfees/eventscope. MonSat9AM–10PM/Sunclosedplatformavailabilitynotindependentweddingmusic/cleanuppermission. Externalfoodallowedexplicitlabel;alcohol/loudnoiseiconstatusesnotinferred. UDRapartmentleaseofferingnotnonresidentweddingapproval. Noall-in total/no330.",
+      "review_reason": "Full platformprofileandexplicitlylinkedofficialUDRphoto/tourbodyread;official2000PostStreetaddress/ResidentLoungelabelconfirmsidentity. Not399FremontorotherFillmorelounge.30seated/30standingplatformlimitsnotdinnerdance. Semiprivateresidentialcommonroomwithkitchen/appliances/pooltable/fireplace,3hminimum;175/hourdisplayedstartingratebeforeunknownfees/eventscope. MonSat9AM\u201310PM/Sunclosedplatformavailabilitynotindependentweddingmusic/cleanuppermission. Externalfoodallowedexplicitlabel;alcohol/loudnoiseiconstatusesnotinferred. UDRapartmentleaseofferingnotnonresidentweddingapproval. Noall-in total/no330.",
       "identity_review_source_kind": "directory_profile"
     },
     {
@@ -3945,7 +3945,7 @@
       "review_source_urls": [
         "https://giggster.com/listing/42nd-floor-sky-view-lounge"
       ],
-      "review_reason": "CompleteSkyLoungeprofileandallfivepublishedother-roomlinksread. Explicit399FremontaddressandUDRlinkedphotoscorroborateVerandaparentcreatedinsameorderedbatch. Oneproperty,notanotherroomrow. SkyLounge40seated45standing,650/hourstarting3hminimum; residentialnoiseandnearbyrestrooms,fullprivateclaimappliestoSkyLoungeonlynotsemiprivateVeranda. Opening8AM–10PMnotweddingdeadline. Platformrelatedroomcapacitydifferencesnotadditive;no330orfullweddingapproval.",
+      "review_reason": "CompleteSkyLoungeprofileandallfivepublishedother-roomlinksread. Explicit399FremontaddressandUDRlinkedphotoscorroborateVerandaparentcreatedinsameorderedbatch. Oneproperty,notanotherroomrow. SkyLounge40seated45standing,650/hourstarting3hminimum; residentialnoiseandnearbyrestrooms,fullprivateclaimappliestoSkyLoungeonlynotsemiprivateVeranda. Opening8AM\u201310PMnotweddingdeadline. Platformrelatedroomcapacitydifferencesnotadditive;no330orfullweddingapproval.",
       "identity_review_source_kind": "directory_profile"
     },
     {
@@ -4059,7 +4059,7 @@
       "review_source_urls": [
         "https://giggster.com/listing/whimsical-cozy-art-studio-with-natural-lighting"
       ],
-      "review_reason": "Entireexplicitlyaddressedplatformprofileread;recentpublicartist/eventlistingscorroborateTheNest4754CaliforniaSF(nototherNestvenues),butoperatorweddingcontractnotverified.600sqftgroundlevelstudio+loftMoonLoungenotadditionalproperty.60attendeeheadervs50standing40seated/30productioncountsconflict;no60dinnerdanceorstackedcapacity.100/hourstarting3hminimum,fees/deposits/eventrateunknown.6AM–11PMplatformavailabilitynotindependentmusic/bar/cleanupdeadline. Externalcateringlabelallowed,alcoholiconstatusunknown;weddingacceptanceunconfirmed. Noall-in total/no330.",
+      "review_reason": "Entireexplicitlyaddressedplatformprofileread;recentpublicartist/eventlistingscorroborateTheNest4754CaliforniaSF(nototherNestvenues),butoperatorweddingcontractnotverified.600sqftgroundlevelstudio+loftMoonLoungenotadditionalproperty.60attendeeheadervs50standing40seated/30productioncountsconflict;no60dinnerdanceorstackedcapacity.100/hourstarting3hminimum,fees/deposits/eventrateunknown.6AM\u201311PMplatformavailabilitynotindependentmusic/bar/cleanupdeadline. Externalcateringlabelallowed,alcoholiconstatusunknown;weddingacceptanceunconfirmed. Noall-in total/no330.",
       "identity_review_source_kind": "directory_profile"
     },
     {
@@ -4138,7 +4138,7 @@
       "review_source_urls": [
         "https://giggster.com/listing/large-stylized-warehouse-space-soundproofed-room"
       ],
-      "review_reason": "Entire4000sqftEastOaklandwarehouseplatformprofileactuallyread;focusedpublishedexacttitle/Howlaliassearchdidnotverifycanonicalpropertyname/address. Withheldaddressnotguessed;nohostmessage/booking/accountcreation. Listing50seated85standingvs60+attendeeheader conflict,500sqftsoundroomnestednotanotherproperty. Security40/hourmandatoryover30guests;onsitemanager250–450over15;4hminimum72/hourstartingnotall-inrate. After11PMmusiconlyclosedmusicroom/loweredbass,2AMguest/noiseendversus8AM–3AMavailabilityconflict;nooutdooramplification/roof/redwinedownstairs. Bedrooms4extraindescriptionvs5detailsnotmandatorylodging. No currentweddingpermission/approveddinnerdance/fullcostproof. This is a physicalidentityblocker,notaccessfailureorresolvednamedvenue."
+      "review_reason": "Entire4000sqftEastOaklandwarehouseplatformprofileactuallyread;focusedpublishedexacttitle/Howlaliassearchdidnotverifycanonicalpropertyname/address. Withheldaddressnotguessed;nohostmessage/booking/accountcreation. Listing50seated85standingvs60+attendeeheader conflict,500sqftsoundroomnestednotanotherproperty. Security40/hourmandatoryover30guests;onsitemanager250\u2013450over15;4hminimum72/hourstartingnotall-inrate. After11PMmusiconlyclosedmusicroom/loweredbass,2AMguest/noiseendversus8AM\u20133AMavailabilityconflict;nooutdooramplification/roof/redwinedownstairs. Bedrooms4extraindescriptionvs5detailsnotmandatorylodging. No currentweddingpermission/approveddinnerdance/fullcostproof. This is a physicalidentityblocker,notaccessfailureorresolvednamedvenue."
     },
     {
       "id": "directory-lead-4742be50a4a1be",
@@ -4196,7 +4196,7 @@
         "https://www.partyslate.com/venues/log-cabin-at-the-presidio-by-wedgewood-weddings",
         "https://www.wedgewoodweddings.com/venues/presidio/log-cabin"
       ],
-      "review_reason": "EntirePartySlatebodyreadviaretainedstandardreaderandfullcurrentTrust/operatorbodiesread.1299StoreyexactidentitynototherLogCabins. PartySlate120seated/standing,operatorbrochure120generic versusTrust250genericconflict,not250dinnerdanceorFortScott30acreswholepropertyrental. Actual9pageoriginal2026–2028PDFfullytextread; package/pricetablesrenderedandvisuallyoverviewed.2027/2028packages107/122/162/187pp+1495ceremony+day/seasonvenue2495–10995/22admin/tax/minima,notallin.2026different105/120/160/185/2495–8995venue,keptdated. PackageBuildYourOwnnoDJ/MC/cake/openbar; ClassicDJhousecenterpieces/nohostbarsoftdrinks,Premiercake/florals/openwellbar,Elite6h/topbar/photobooth/officiant.5heventotherpackagesPLUSsetupnot5htotalaccess. Liabilityinsurance/dinnerware/standardchairs/linensstated;outsidecaterersdirectoryclaimnotoperatorpermission. Paidparkingnotfree. Promo1000onlybookcelebratewithin6months/event10000beforetax/nootherpromos,notautomaticdiscount. Independentclosingclocksunknown.",
+      "review_reason": "EntirePartySlatebodyreadviaretainedstandardreaderandfullcurrentTrust/operatorbodiesread.1299StoreyexactidentitynototherLogCabins. PartySlate120seated/standing,operatorbrochure120generic versusTrust250genericconflict,not250dinnerdanceorFortScott30acreswholepropertyrental. Actual9pageoriginal2026\u20132028PDFfullytextread; package/pricetablesrenderedandvisuallyoverviewed.2027/2028packages107/122/162/187pp+1495ceremony+day/seasonvenue2495\u201310995/22admin/tax/minima,notallin.2026different105/120/160/185/2495\u20138995venue,keptdated. PackageBuildYourOwnnoDJ/MC/cake/openbar; ClassicDJhousecenterpieces/nohostbarsoftdrinks,Premiercake/florals/openwellbar,Elite6h/topbar/photobooth/officiant.5heventotherpackagesPLUSsetupnot5htotalaccess. Liabilityinsurance/dinnerware/standardchairs/linensstated;outsidecaterersdirectoryclaimnotoperatorpermission. Paidparkingnotfree. Promo1000onlybookcelebratewithin6months/event10000beforetax/nootherpromos,notautomaticdiscount. Independentclosingclocksunknown.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -4256,7 +4256,7 @@
         "https://www.partyslate.com/venues/officers-club-at-the-presidio-by-wedgewood-weddings",
         "https://www.wedgewoodweddings.com/venues/presidio/officers-club"
       ],
-      "review_reason": "FullPartySlateprofilecurrentoperatorbodyandactual9page2026–2028originalPDFread. Canonicaloperator/PDF50Moraga;PartySlate135FisherisWRONGGoldenGateClubaddress,notidentitymerge. NewphysicalOfficersClubnotnewpropertyperMoragaHall/HardieCourtyard/OrtegaBallroom. ChapelOurLady45Moragaseparatelyexistingandpaired,notanothernewroom/property.220genericbrochure/operatorrelatedvenue,not220dinnerdanceapproval;directory220allroomsincludingchapel/200parknotadditive.2027–2028packages107/122/162/187pp+1995ceremony+dayseasonvenue2495–13495+22admin/tax/minima;2026different105/120/160/185pp/2495–9995venue. Package5hPLUSsetup/Elite6h,independentclosingunknown. Baseessentialsliabilityinsurance/setupbreakdown/dinnerware/banquetcaptain/cakecutting;ClassicandaboveDJ/MCnotBuildYourOwn;Premier/Elitecake/openbar. InnnearbyOPTIONnotmandatoryroomblock/overnightrequirement. Noissuedallintotal/caterer/BYOBpermissionfromdirectoryicons.",
+      "review_reason": "FullPartySlateprofilecurrentoperatorbodyandactual9page2026\u20132028originalPDFread. Canonicaloperator/PDF50Moraga;PartySlate135FisherisWRONGGoldenGateClubaddress,notidentitymerge. NewphysicalOfficersClubnotnewpropertyperMoragaHall/HardieCourtyard/OrtegaBallroom. ChapelOurLady45Moragaseparatelyexistingandpaired,notanothernewroom/property.220genericbrochure/operatorrelatedvenue,not220dinnerdanceapproval;directory220allroomsincludingchapel/200parknotadditive.2027\u20132028packages107/122/162/187pp+1995ceremony+dayseasonvenue2495\u201313495+22admin/tax/minima;2026different105/120/160/185pp/2495\u20139995venue. Package5hPLUSsetup/Elite6h,independentclosingunknown. Baseessentialsliabilityinsurance/setupbreakdown/dinnerware/banquetcaptain/cakecutting;ClassicandaboveDJ/MCnotBuildYourOwn;Premier/Elitecake/openbar. InnnearbyOPTIONnotmandatoryroomblock/overnightrequirement. Noissuedallintotal/caterer/BYOBpermissionfromdirectoryicons.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -4355,7 +4355,7 @@
         "https://www.partyslate.com/venues/california-academy-of-sciences",
         "https://www.calacademy.org/weddings"
       ],
-      "review_reason": "EntirePartySlateprofileandcurrentprimaryweddings/plananevent/formread;actual15pagebrochureand12pageapprovedvendorPDFfullytextread,roompagesvisuallyoverviewed. Exact55MusicConcourseoneproperty,15eventspacesnot15newproperties. Currentrequiresexternalprofessionalcoordinator/approvedcaterersonly,nooutsidelistapproval;noncateringvendorsmaychosenwithpre-eventwalkthroughperdatedMarch2023list(231201filename). Security/coatcheck/custodialbasicAVofferedbutactualinclusion/addonamountunknown;AV/docentextra perbrochure. Eventstarts6:30PM/readyroom5PM/photosLivingRoof5:30–6:30;currentinquiryformEVENTendmidnightnotcleanup/music/bar. GarageSEPARATELYpaid/vendor,nomemberdiscount. Currentprimaryfullbuilding1000seated3000+receptionvsdirectory600/3500;roomseating/layoutcountsconflict,no330dinnerdanceapproval. AfricanHall280primaryvs250directory;Aquarium100vs75;Piazza350and450standingcurrentvs500standingolderbrochure;LivingRoof140standing/variable seatingnot100dinner. RainforestNOfooddrink/closes8PMolderbrochure;planetariumtheater296oldvs290currentnotdinner,DarkAdapt50seateddifferent.15primaryvs12olderbrochurespaces,nosilentcurrentstatusassumption. CurrentinquiryformvenuebudgetSTARTS5000notallinquote/minimumuniversal. Requiredcontact/budgetrange/date/count/season-yearfallbackdescription/country/eventtype/referralfieldsread,noentry/submission. Noformquestionnaireduplicationifpublishedfactsanswer. Originalprivatehasharchive;notnewvenueperroom.",
+      "review_reason": "EntirePartySlateprofileandcurrentprimaryweddings/plananevent/formread;actual15pagebrochureand12pageapprovedvendorPDFfullytextread,roompagesvisuallyoverviewed. Exact55MusicConcourseoneproperty,15eventspacesnot15newproperties. Currentrequiresexternalprofessionalcoordinator/approvedcaterersonly,nooutsidelistapproval;noncateringvendorsmaychosenwithpre-eventwalkthroughperdatedMarch2023list(231201filename). Security/coatcheck/custodialbasicAVofferedbutactualinclusion/addonamountunknown;AV/docentextra perbrochure. Eventstarts6:30PM/readyroom5PM/photosLivingRoof5:30\u20136:30;currentinquiryformEVENTendmidnightnotcleanup/music/bar. GarageSEPARATELYpaid/vendor,nomemberdiscount. Currentprimaryfullbuilding1000seated3000+receptionvsdirectory600/3500;roomseating/layoutcountsconflict,no330dinnerdanceapproval. AfricanHall280primaryvs250directory;Aquarium100vs75;Piazza350and450standingcurrentvs500standingolderbrochure;LivingRoof140standing/variable seatingnot100dinner. RainforestNOfooddrink/closes8PMolderbrochure;planetariumtheater296oldvs290currentnotdinner,DarkAdapt50seateddifferent.15primaryvs12olderbrochurespaces,nosilentcurrentstatusassumption. CurrentinquiryformvenuebudgetSTARTS5000notallinquote/minimumuniversal. Requiredcontact/budgetrange/date/count/season-yearfallbackdescription/country/eventtype/referralfieldsread,noentry/submission. Noformquestionnaireduplicationifpublishedfactsanswer. Originalprivatehasharchive;notnewvenueperroom.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -4385,7 +4385,7 @@
         "https://www.partyslate.com/venues/golden-gate-club-at-the-presidio",
         "https://www.wedgewoodweddings.com/venues/presidio/golden-gate-club"
       ],
-      "review_reason": "EntirePartySlateprofile,currentTrust/operatorbodiesandactual16pageSept23,2026filename2027–2029PDFread.135FisherGoldenGateClubnotOfficers50Moraga. PartySlate220header vs300Ventana/courtyard/Trust300genericconflict;Hawthorn200directorynotnewproperty/notadditive;no330dinnerdanceapproval. Actual2027/2028packages107/122/162/187pp+2495ceremony+season/dayvenue4995–19995+22admin/tax/minima.2029packages113/128/168/193/FridaySundaydifferent;notcurrent2027price. MinimumcontractsubtotalBEFOREadmin/tax,photographyexcludedtowardminimum;PartySlate10000minimumnotconfirmeduniversal. Publishedallservicesadmin,gratuityvoluntary/notincluded. Nooutsidealcohol,food/drinkexplicitpermission; independentvendorsallowedNOindependentvendorfee,discountvendor mealunpriced;notfreeoutsidecateringfromdirectory.25%reservation+paidto50%180days+balance10dayscreditedBUTnonrefundable;notdamagecashdeposit. Finalguestguarantee10days/afterfinalmeetingcannotreduce;unplannedextraguests1.5perpersonpenaltynotbaseprice. CoordinatorhandsreceptiontoBanquetCaptain,nopromisecontinuouspersonalplanner.5hevent/Elite6PLUSsetup,notindependentmusic/bar/cleanupdeadline. Inclementweatherno refund/backupcapacityunknown. Mandatorylodgingunproven.",
+      "review_reason": "EntirePartySlateprofile,currentTrust/operatorbodiesandactual16pageSept23,2026filename2027\u20132029PDFread.135FisherGoldenGateClubnotOfficers50Moraga. PartySlate220header vs300Ventana/courtyard/Trust300genericconflict;Hawthorn200directorynotnewproperty/notadditive;no330dinnerdanceapproval. Actual2027/2028packages107/122/162/187pp+2495ceremony+season/dayvenue4995\u201319995+22admin/tax/minima.2029packages113/128/168/193/FridaySundaydifferent;notcurrent2027price. MinimumcontractsubtotalBEFOREadmin/tax,photographyexcludedtowardminimum;PartySlate10000minimumnotconfirmeduniversal. Publishedallservicesadmin,gratuityvoluntary/notincluded. Nooutsidealcohol,food/drinkexplicitpermission; independentvendorsallowedNOindependentvendorfee,discountvendor mealunpriced;notfreeoutsidecateringfromdirectory.25%reservation+paidto50%180days+balance10dayscreditedBUTnonrefundable;notdamagecashdeposit. Finalguestguarantee10days/afterfinalmeetingcannotreduce;unplannedextraguests1.5perpersonpenaltynotbaseprice. CoordinatorhandsreceptiontoBanquetCaptain,nopromisecontinuouspersonalplanner.5hevent/Elite6PLUSsetup,notindependentmusic/bar/cleanupdeadline. Inclementweatherno refund/backupcapacityunknown. Mandatorylodgingunproven.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -4415,7 +4415,7 @@
         "https://www.partyslate.com/venues/the-westin-st-francis",
         "https://www.marriott.com/en-us/hotels/sfouw-the-westin-st-francis-san-francisco-on-union-square/weddings/"
       ],
-      "review_reason": "EntirePartySlateprofile/currentMarriottweddingbodyandcurrenteventpageuniquelinesread;duplicatechart/bodylinesexactlymatched,notomittednewcontent. Actual7page2024originalweddingPDFfullytextread,packageFAQpagesfullsizevisuallyread/layoutsvisuallyoverviewed. One335Powellhotelnot36newproperties,35/36roomsand51646/56000sqftmarketingconflictsretained. CurrentFAQ800dinnerdancevs2024GrandBallroom750dinnerdance;currentcapacitychart980BANQUET/1500RECEPTION/1100theaternot980dinnerdance,roomapprovalneedsconfirmation.2024MissionBay100dinnerdance/120ceremony/200cocktail,GoldenGate200fullfloorOR250withdance/dessertMissionBay;notaddcapacitiesorconfusewithPresidioGoldenGateClub. Guide249/279/339ppF&BPLUS25%staffhouse/tax8.625DATED2024notcurrentlegalrate;directory271taxfeesincludedcontradictionnotallin. Mandatoryifbarbartender437.50EACH1/100guests+tax;optionalcoat312.50EACH1/200+tax;vendor93.75+tax;requiredoutsideplanneralsoCURRENTFAQconfirmeddespitegenericfullplanningmarketing. RoomrentalnotlistedPDF/directory2000–10000secondarynotcurrentissuedquote.2024room/labor/AVpricesINCLUDE25housecharge,doNOTadd25again;F&B25added,distributionplated15staff10house/buffet18.75staff6.25house,notallgratuity.10%estimateoveragepotentialrefundnotmandatoryspentfee. Complimentaryweddingnightsuite/discountroomsnotmandatoryblock;extras937.50+tax/hourDATEDnotbaserent. MidnightdirectoryEVENTcurfewnotmusic/bar/cleanupindependentproof. Updatedcurrentrates/approvedlayoutstillunknown.",
+      "review_reason": "EntirePartySlateprofile/currentMarriottweddingbodyandcurrenteventpageuniquelinesread;duplicatechart/bodylinesexactlymatched,notomittednewcontent. Actual7page2024originalweddingPDFfullytextread,packageFAQpagesfullsizevisuallyread/layoutsvisuallyoverviewed. One335Powellhotelnot36newproperties,35/36roomsand51646/56000sqftmarketingconflictsretained. CurrentFAQ800dinnerdancevs2024GrandBallroom750dinnerdance;currentcapacitychart980BANQUET/1500RECEPTION/1100theaternot980dinnerdance,roomapprovalneedsconfirmation.2024MissionBay100dinnerdance/120ceremony/200cocktail,GoldenGate200fullfloorOR250withdance/dessertMissionBay;notaddcapacitiesorconfusewithPresidioGoldenGateClub. Guide249/279/339ppF&BPLUS25%staffhouse/tax8.625DATED2024notcurrentlegalrate;directory271taxfeesincludedcontradictionnotallin. Mandatoryifbarbartender437.50EACH1/100guests+tax;optionalcoat312.50EACH1/200+tax;vendor93.75+tax;requiredoutsideplanneralsoCURRENTFAQconfirmeddespitegenericfullplanningmarketing. RoomrentalnotlistedPDF/directory2000\u201310000secondarynotcurrentissuedquote.2024room/labor/AVpricesINCLUDE25housecharge,doNOTadd25again;F&B25added,distributionplated15staff10house/buffet18.75staff6.25house,notallgratuity.10%estimateoveragepotentialrefundnotmandatoryspentfee. Complimentaryweddingnightsuite/discountroomsnotmandatoryblock;extras937.50+tax/hourDATEDnotbaserent. MidnightdirectoryEVENTcurfewnotmusic/bar/cleanupindependentproof. Updatedcurrentrates/approvedlayoutstillunknown.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -4513,7 +4513,7 @@
         "https://www.partyslate.com/venues/san-francisco-design-center-galleria",
         "https://sfvenues.com/"
       ],
-      "review_reason": "EntirePartySlateprofile/currentprimaryhome/vendorsbodiesread. Exact101HenryAdamsoneGalleria,notnewpropertyperfourfloors. Primarymainfloor300BANQUETWITHDANCE/400banquetwithout/400theater/1000reception;upperthreefloors200receptioneach/scopedbanquetsightlinesnotflat1600dinnerdance. Directory750header/FAQvs1000seatedroomconflictswithprimary400/300differentlayout;retainexistingtestedprimaryvalues. VendorprimaryEXCLUSIVETapestrybar,unlistedcatererpriorapprovalAND2500extra;directoryfreeoutsidevendor/insideonlyiconscontradictorynotaccepted. CurrenthomeMonFri6PM–2AM/weekend8AM–2AMfacilityhours,setupupper1PM/main3PMweekday;notindependentmusic/bar/cleanuppermission. No currentpublicrentalfee primarybody/secondaryquote-only. Linked2021preferredvendorXLSremainsunreviewed,notclaimedcompletedsourcefrontier. Noforms/contact/submission;existinggovernment/valuationunknownsnotinvented.",
+      "review_reason": "EntirePartySlateprofile/currentprimaryhome/vendorsbodiesread. Exact101HenryAdamsoneGalleria,notnewpropertyperfourfloors. Primarymainfloor300BANQUETWITHDANCE/400banquetwithout/400theater/1000reception;upperthreefloors200receptioneach/scopedbanquetsightlinesnotflat1600dinnerdance. Directory750header/FAQvs1000seatedroomconflictswithprimary400/300differentlayout;retainexistingtestedprimaryvalues. VendorprimaryEXCLUSIVETapestrybar,unlistedcatererpriorapprovalAND2500extra;directoryfreeoutsidevendor/insideonlyiconscontradictorynotaccepted. CurrenthomeMonFri6PM\u20132AM/weekend8AM\u20132AMfacilityhours,setupupper1PM/main3PMweekday;notindependentmusic/bar/cleanuppermission. No currentpublicrentalfee primarybody/secondaryquote-only. Linked2021preferredvendorXLSremainsunreviewed,notclaimedcompletedsourcefrontier. Noforms/contact/submission;existinggovernment/valuationunknownsnotinvented.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -4543,7 +4543,7 @@
         "https://www.partyslate.com/venues/pier-27",
         "https://metroevents.com/locations/pier-27/"
       ],
-      "review_reason": "EntirePartySlateprofile/operatorroompage/weddings/goodneighbor/transportation/contactbodiesread;FIVEactualoriginals13social+9vendor+2floorplan+6FAQ+8ratespagesread. BayView125SEATED/230THEATERnotdirectory230dinner;Embarcadero700seatedvsdirectory800;social200–800rangeNOTspecificapproveddinnerdance. OnePier27withnestedrooms/outdoorTransportation;CoitWITHINCityViewnotadditive. CurrentlinkedSOCIAL12hpackageincludesguestparking/20Mbps/securityaccess/janitorial/5monitors/electricity/HVAC/oneRecologybin;generalFAQ/ratesseparateparking/WiFi/requiredstaffcostsconflictDIFFERENTPACKAGE,doNOTaddtwiceorassumegeneralrentalinclusions. Requiredoutsideplannercommunicable6months;approvedcaterersONLY/noonsitekitchen/catererbuildsoutsidekitchen;licensedinsuredalcoholprovider. SocialbrochureheadingratesbutNOactualdollaramountpages4–6visuallyconfirmed. Undateddirectory-linkedoriginalgeneralrates40kfull/30kCity/10kCoit/20kEmbarcadero plusrequiredstaff/electrical/cleanup,NOTallin/current2026quote. CurrentvendorPDFnamed2022actualcover2023;exclusiveEdlenElectrical/BrownPelicanWiFi. GeneralFAQ2AMeventend/after2AM2kperhourandoutdoor10PMampvsdirectorymidnight/14haccess/social12h;doNOTdefaultunlimitedmusic. 2019floorplanphysicalareasconflictprimary/nonguestgrayareasread,notapprovedseatingornewproperties. 50%bookingcreditednotdamagecash,final30days;12vs14monthconfirmationconflictretained. Fire/permitfeesdatedunknowncurrentlegalauthority,notlawassertion. Nocontactformsubmission/hold/commitment.",
+      "review_reason": "EntirePartySlateprofile/operatorroompage/weddings/goodneighbor/transportation/contactbodiesread;FIVEactualoriginals13social+9vendor+2floorplan+6FAQ+8ratespagesread. BayView125SEATED/230THEATERnotdirectory230dinner;Embarcadero700seatedvsdirectory800;social200\u2013800rangeNOTspecificapproveddinnerdance. OnePier27withnestedrooms/outdoorTransportation;CoitWITHINCityViewnotadditive. CurrentlinkedSOCIAL12hpackageincludesguestparking/20Mbps/securityaccess/janitorial/5monitors/electricity/HVAC/oneRecologybin;generalFAQ/ratesseparateparking/WiFi/requiredstaffcostsconflictDIFFERENTPACKAGE,doNOTaddtwiceorassumegeneralrentalinclusions. Requiredoutsideplannercommunicable6months;approvedcaterersONLY/noonsitekitchen/catererbuildsoutsidekitchen;licensedinsuredalcoholprovider. SocialbrochureheadingratesbutNOactualdollaramountpages4\u20136visuallyconfirmed. Undateddirectory-linkedoriginalgeneralrates40kfull/30kCity/10kCoit/20kEmbarcadero plusrequiredstaff/electrical/cleanup,NOTallin/current2026quote. CurrentvendorPDFnamed2022actualcover2023;exclusiveEdlenElectrical/BrownPelicanWiFi. GeneralFAQ2AMeventend/after2AM2kperhourandoutdoor10PMampvsdirectorymidnight/14haccess/social12h;doNOTdefaultunlimitedmusic. 2019floorplanphysicalareasconflictprimary/nonguestgrayareasread,notapprovedseatingornewproperties. 50%bookingcreditednotdamagecash,final30days;12vs14monthconfirmationconflictretained. Fire/permitfeesdatedunknowncurrentlegalauthority,notlawassertion. Nocontactformsubmission/hold/commitment.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -4573,7 +4573,7 @@
         "https://www.partyslate.com/venues/convene-100-stockton",
         "https://prodcdn.convene.com/locations/san-francisco/100-stockton/"
       ],
-      "review_reason": "EntirePartySlateprofile/currentprodcdnandrefreshoperatorbodiesread;original3pageonesheet+2imagefloorplans+separate3pagebrochureversionread,chartsfullsizevisuallychecked. Named40OFarrell/100Stocktonfloors4–5oneproperty,mastername/address/sourcealiassearchNOMATCH;not7newproperties/nearbyhotelnotsamevenue. LargestPacificHall468THEATER/288ROUNDS,stage432THEATER/224ROUNDS;NOTdirectory1000seatedorrefresh670genericdinnerdance. Fullbuyout1116orjustover1100vsdirectory1000/under470bodydifferentwhole/singleroomscope. FourfloorCoastalNorth96banquet/South72/Vista18each;ThirdBay26generic14conferencevsprimarypage18;Library80theaterNOroundsvalue. RefreshroomcardsNorth100/South75/Library61/Vista45conflictotherprimarytable/genericmax. Nestedgalleries348/160/396genericnotapproveddinnercapacity. Inhousecatering/AV/hospitalityadvertisednotallmandatoryrentalprice/nooutsidecateringpermissionproven;weddingapprovalunknown/nomusicbarcleanupclock/price. AdjacentPAIDparking;optionalhotelpartnerroomsnotmandatoryblock. ActualPDFnotesTPAmayberequiredsomelayouts,notpermitissued. Noforms/calls/commitments.",
+      "review_reason": "EntirePartySlateprofile/currentprodcdnandrefreshoperatorbodiesread;original3pageonesheet+2imagefloorplans+separate3pagebrochureversionread,chartsfullsizevisuallychecked. Named40OFarrell/100Stocktonfloors4\u20135oneproperty,mastername/address/sourcealiassearchNOMATCH;not7newproperties/nearbyhotelnotsamevenue. LargestPacificHall468THEATER/288ROUNDS,stage432THEATER/224ROUNDS;NOTdirectory1000seatedorrefresh670genericdinnerdance. Fullbuyout1116orjustover1100vsdirectory1000/under470bodydifferentwhole/singleroomscope. FourfloorCoastalNorth96banquet/South72/Vista18each;ThirdBay26generic14conferencevsprimarypage18;Library80theaterNOroundsvalue. RefreshroomcardsNorth100/South75/Library61/Vista45conflictotherprimarytable/genericmax. Nestedgalleries348/160/396genericnotapproveddinnercapacity. Inhousecatering/AV/hospitalityadvertisednotallmandatoryrentalprice/nooutsidecateringpermissionproven;weddingapprovalunknown/nomusicbarcleanupclock/price. AdjacentPAIDparking;optionalhotelpartnerroomsnotmandatoryblock. ActualPDFnotesTPAmayberequiredsomelayouts,notpermitissued. Noforms/calls/commitments.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -4603,7 +4603,7 @@
         "https://www.partyslate.com/venues/bstar-bar",
         "https://www.bstarbar.com/private-dining2"
       ],
-      "review_reason": "EntirePartySlateprofile/currentofficialprimaryprivateeventspageandformread.127ClementBStarBaronedistinctparentwithnested35guestpatio,mastername/addressaliassearchNOMATCH;notBurmaSuperstarsistersite. Full80primaryGENERICvsdirectory65/70seated75standing/FAQ75notapproveddinnerdance. Patio750SunThu/850FriSathour3hminimumincludesfoodnonalcoholicdrinks,alcoholtaxgratuityEXTRA. Wholelunch4000/dinnerMonThu5500/FriSun6500STARTS,includesspacefoodservice/softdrinks;not85ppallinfromdirectory. Small12–18group10ppFULLYREFUNDABLEreservationdepositup14days,notuniversalwholebuyoutcashorassumedspentfee. FormallowsNotyet/flexibledate,optionalbudget,requirescontact/referral/event/count/consent;nofill/submission. Publicbusinesshoursnotprivateeventmusiccleanup. Signaturecocktails/cake/floralsavailableONREQUESTnotautomaticallyincluded. Weddingpermission/outsidecaterer/currentmandatechargescopesunknown.",
+      "review_reason": "EntirePartySlateprofile/currentofficialprimaryprivateeventspageandformread.127ClementBStarBaronedistinctparentwithnested35guestpatio,mastername/addressaliassearchNOMATCH;notBurmaSuperstarsistersite. Full80primaryGENERICvsdirectory65/70seated75standing/FAQ75notapproveddinnerdance. Patio750SunThu/850FriSathour3hminimumincludesfoodnonalcoholicdrinks,alcoholtaxgratuityEXTRA. Wholelunch4000/dinnerMonThu5500/FriSun6500STARTS,includesspacefoodservice/softdrinks;not85ppallinfromdirectory. Small12\u201318group10ppFULLYREFUNDABLEreservationdepositup14days,notuniversalwholebuyoutcashorassumedspentfee. FormallowsNotyet/flexibledate,optionalbudget,requirescontact/referral/event/count/consent;nofill/submission. Publicbusinesshoursnotprivateeventmusiccleanup. Signaturecocktails/cake/floralsavailableONREQUESTnotautomaticallyincluded. Weddingpermission/outsidecaterer/currentmandatechargescopesunknown.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -4636,7 +4636,7 @@
         "https://www.partyslate.com/venues/conservatory-of-flowers",
         "https://gggp.org/event-rentals/conservatory-of-flowers-event-rentals/"
       ],
-      "review_reason": "EntirePartySlateprofile/relevantcompleteoperatorvenueoptionsFAQbody/actual2026mapandsharedTripleseatformread. ExistingFOURroomrowsONEConservatorypropertynot4newvenues;notSunnysideConservatory. Currentgallery6PMORLATERvsdirectory5PMconflict;noactiveprimarymidnightmusic/bar/cleanupconfirmation. Pavilion150sitdowndinner/200standingnot150dinnerdanceautomatically;Palm200ceremony/diningdependingpackage/TENTSPROHIBITEDno330rainbackup. Westmicro50ceremony/chairssetupincluded/NOfooddrink;outdoorceremonyonlyNOfooddrink/tenting vsBUYOUTallowsoutdoordinner,keepPACKAGESCOPE. Reception4h/buyout6hEXCLUDESsetup/loadout. Approvedcaterersrequired,offlistdietaryexceptiononlywithapprovalandpossibleunknownfee;notblanketoutsidecatering. GalleryNOglassware/limitedfooddrink. Directory2025micro4950/reception11000–15000/buyout17000notcurrentprimaryquote(currentCONTACTGATED). Credited50%contractbookingnotautomaticallyrefundabledeposit;sitevisitprimaryRECOMMENDEDvsdirectoryrequiredconflict. FormoneoperatorlocationsConservatory/JapaneseTea/BotanicalGardendistinctphysicalproperties,notthreeidentitiesmerged;contact/date/time/count/details/referral/privacyGoogleCAPTCHA,noentry/submission. 2026publicmapGoldman50BowlingGreenRIDESHAREnotvenuepostaladdress;classroomeventspaceeastofgreenhousealreadyOrchidPavilionareaidentitynotnewparent.",
+      "review_reason": "EntirePartySlateprofile/relevantcompleteoperatorvenueoptionsFAQbody/actual2026mapandsharedTripleseatformread. ExistingFOURroomrowsONEConservatorypropertynot4newvenues;notSunnysideConservatory. Currentgallery6PMORLATERvsdirectory5PMconflict;noactiveprimarymidnightmusic/bar/cleanupconfirmation. Pavilion150sitdowndinner/200standingnot150dinnerdanceautomatically;Palm200ceremony/diningdependingpackage/TENTSPROHIBITEDno330rainbackup. Westmicro50ceremony/chairssetupincluded/NOfooddrink;outdoorceremonyonlyNOfooddrink/tenting vsBUYOUTallowsoutdoordinner,keepPACKAGESCOPE. Reception4h/buyout6hEXCLUDESsetup/loadout. Approvedcaterersrequired,offlistdietaryexceptiononlywithapprovalandpossibleunknownfee;notblanketoutsidecatering. GalleryNOglassware/limitedfooddrink. Directory2025micro4950/reception11000\u201315000/buyout17000notcurrentprimaryquote(currentCONTACTGATED). Credited50%contractbookingnotautomaticallyrefundabledeposit;sitevisitprimaryRECOMMENDEDvsdirectoryrequiredconflict. FormoneoperatorlocationsConservatory/JapaneseTea/BotanicalGardendistinctphysicalproperties,notthreeidentitiesmerged;contact/date/time/count/details/referral/privacyGoogleCAPTCHA,noentry/submission. 2026publicmapGoldman50BowlingGreenRIDESHAREnotvenuepostaladdress;classroomeventspaceeastofgreenhousealreadyOrchidPavilionareaidentitynotnewparent.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -4666,7 +4666,7 @@
         "https://www.partyslate.com/venues/the-newhall-nest",
         "https://www.newhallnest.com/rooftop-wedding-venue-san-francisco"
       ],
-      "review_reason": "EntirePartySlate/currentprimarywedding/contact/vendor/all5roomdescriptionsread;actual10page2023brochure+1page2024vendorlistread/privateoriginals. Exact260California12floorpenthouseONEparentnotNest4754CaliforniaorNewhallMansionPiru. Brochure50inside80TOTALnot50+80;currentroof80genericvsdirectory50seated50standing,not80approveddinnerdance. Living14furnished/30stadiumvs32extrachairswebconflict;conference12–14vsdirectory18;5roomsnot5properties;gamerom/vendorbackhouseandkitchenfridge/icemaker/dishwasher/microwave,notcommercialcookingpermission. CurrentpreferredvendorpageALLOWSowninsuredvendors;datedlistsrecommendationsnotmandatoryvendorpurchase. Directory3000minimum4hnotcurrentprimaryrate(currentCONTACTGATED). Noparkingonsite,nearbygarage2024midnightclosingNOTvenueclock. Directory19stepsfrom11to12accessconstraintretained/blankethandicapiconnottrusted;noaccessible-routeapproval. Overnightaccommodationadvertisednoquantity/minstay/mandatoryblockproven. PubliccontactpageNOvisibleinquiryform/call/emailnotnewformclaim;nooutreach/booking.",
+      "review_reason": "EntirePartySlate/currentprimarywedding/contact/vendor/all5roomdescriptionsread;actual10page2023brochure+1page2024vendorlistread/privateoriginals. Exact260California12floorpenthouseONEparentnotNest4754CaliforniaorNewhallMansionPiru. Brochure50inside80TOTALnot50+80;currentroof80genericvsdirectory50seated50standing,not80approveddinnerdance. Living14furnished/30stadiumvs32extrachairswebconflict;conference12\u201314vsdirectory18;5roomsnot5properties;gamerom/vendorbackhouseandkitchenfridge/icemaker/dishwasher/microwave,notcommercialcookingpermission. CurrentpreferredvendorpageALLOWSowninsuredvendors;datedlistsrecommendationsnotmandatoryvendorpurchase. Directory3000minimum4hnotcurrentprimaryrate(currentCONTACTGATED). Noparkingonsite,nearbygarage2024midnightclosingNOTvenueclock. Directory19stepsfrom11to12accessconstraintretained/blankethandicapiconnottrusted;noaccessible-routeapproval. Overnightaccommodationadvertisednoquantity/minstay/mandatoryblockproven. PubliccontactpageNOvisibleinquiryform/call/emailnotnewformclaim;nooutreach/booking.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -4817,7 +4817,7 @@
         "https://www.herecomestheguide.com/wedding-venues/northern-california/vineyards-at-nella-terra-cellars",
         "https://www.nellaterra.com/faq"
       ],
-      "review_reason": "EntireHCTGprofileplusprimaryhome/events/fullFAQread.5005SheridanSunolNellaTerra/TheVineyardsaliasexistingONEestate,300ceremony/receptionprimaryNOT330,patio40separateconfigurationnotadditive. AprOctseason,8–10hpackageextensionsallowedMUSIC11PM/CLEANUPCOMMENCESmidnightnotcleanupcompleted. REQUIREDOnTheVinecatererANDSimplyLovelycoordinator;otherpreferredvendorsRECOMMENDATIONnotmandatoryasdirectoryproseclaims. OutsidealcoholPROHIBITED,venuebeveragepackages. CurrentprimarypopularpackageAVERAGE20–40knotminimum/allin330quote,formalpricingformgated. Directory3500–7900sitefee+eventminimum12000midweek/15000–17500FriSun/22000–24500Sat+750ceremony+23service+5gratuity+taxscopes/base/minimumcreditunknown;doNOTaddsite+minimumasextrasblindly. Morningceremony4500/4hseparateoffer. Shuttleavailablevs74stepsprimary/75directorynotnoaccessibility. Noformsubmitted/tourbooked.",
+      "review_reason": "EntireHCTGprofileplusprimaryhome/events/fullFAQread.5005SheridanSunolNellaTerra/TheVineyardsaliasexistingONEestate,300ceremony/receptionprimaryNOT330,patio40separateconfigurationnotadditive. AprOctseason,8\u201310hpackageextensionsallowedMUSIC11PM/CLEANUPCOMMENCESmidnightnotcleanupcompleted. REQUIREDOnTheVinecatererANDSimplyLovelycoordinator;otherpreferredvendorsRECOMMENDATIONnotmandatoryasdirectoryproseclaims. OutsidealcoholPROHIBITED,venuebeveragepackages. CurrentprimarypopularpackageAVERAGE20\u201340knotminimum/allin330quote,formalpricingformgated. Directory3500\u20137900sitefee+eventminimum12000midweek/15000\u201317500FriSun/22000\u201324500Sat+750ceremony+23service+5gratuity+taxscopes/base/minimumcreditunknown;doNOTaddsite+minimumasextrasblindly. Morningceremony4500/4hseparateoffer. Shuttleavailablevs74stepsprimary/75directorynotnoaccessibility. Noformsubmitted/tourbooked.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -4847,7 +4847,7 @@
         "https://www.herecomestheguide.com/wedding-venues/northern-california/shadelands-ranch-museum",
         "https://wchistory.org/museum/rentals/"
       ],
-      "review_reason": "EntireHCTGprofile/primaryrental/fullFAQ/actual12page2024–25contractandimage2022mapread.2660YgnacioValleyWalnutCreekONEoutdoorpropertynotmuseumindoorevent. 250–300lawnprimaryvs250seateddirectory/400standingnot330dinnerdance/noindoorbackup. 500/hour3hminimumINCLUDESSETUP/cleanup;150chairs30tables/90minrehearsal;200custodial>150webvs150+contractfaceEXACT150boundaryunresolved.100optionalkitchen/1000REFUNDdamage/atleast500creditedNONREFUNDbookingnotaddedtwice. 600/hourcontractovertimebilled30minincrementsNOTpermissionbeyond10PMevent/11PMcleanup;120day50%installmentface/final30day. ExternalvendorsFREEapprovedequipment,nochargescorkagecakebartenderFAQbutcustodialheadcountfeeconflictkept. Beer/wineONLYnohardliquor;securityMAYrequiredEXTRA/notinventamount. Outsidealcoholinpaper/cans/nooutdoorbottlescontract. 1mliabilityinsuranceEXTRA;noissuedlegalguidancefromcopiedlegacyordinancepages. PrimaryFAQparking35vscontract30vsmap23spaces/smokingparkingallowedFAQvscontractNONEparkinggrounds;birdseedALLOWEDprimaryvsdirectoryprohibitedconflict. Tents/generatorsrequirepreapproval/oldwiringnotcommercial,weathercancellationclientrisk/transfer100conditional. Actualbrochuretableinventory30round+othersnotallincluded30/150. Noform/contractexecuted/commitment.",
+      "review_reason": "EntireHCTGprofile/primaryrental/fullFAQ/actual12page2024\u201325contractandimage2022mapread.2660YgnacioValleyWalnutCreekONEoutdoorpropertynotmuseumindoorevent. 250\u2013300lawnprimaryvs250seateddirectory/400standingnot330dinnerdance/noindoorbackup. 500/hour3hminimumINCLUDESSETUP/cleanup;150chairs30tables/90minrehearsal;200custodial>150webvs150+contractfaceEXACT150boundaryunresolved.100optionalkitchen/1000REFUNDdamage/atleast500creditedNONREFUNDbookingnotaddedtwice. 600/hourcontractovertimebilled30minincrementsNOTpermissionbeyond10PMevent/11PMcleanup;120day50%installmentface/final30day. ExternalvendorsFREEapprovedequipment,nochargescorkagecakebartenderFAQbutcustodialheadcountfeeconflictkept. Beer/wineONLYnohardliquor;securityMAYrequiredEXTRA/notinventamount. Outsidealcoholinpaper/cans/nooutdoorbottlescontract. 1mliabilityinsuranceEXTRA;noissuedlegalguidancefromcopiedlegacyordinancepages. PrimaryFAQparking35vscontract30vsmap23spaces/smokingparkingallowedFAQvscontractNONEparkinggrounds;birdseedALLOWEDprimaryvsdirectoryprohibitedconflict. Tents/generatorsrequirepreapproval/oldwiringnotcommercial,weathercancellationclientrisk/transfer100conditional. Actualbrochuretableinventory30round+othersnotallincluded30/150. Noform/contractexecuted/commitment.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -4877,7 +4877,7 @@
         "https://www.herecomestheguide.com/wedding-venues/northern-california/monroe",
         "https://www.monroesf.com/private-events/"
       ],
-      "review_reason": "EntireHCTGprofile/currentoperatorprivateeventbody/actual7pagecateringmenuread.473BroadwayMonroeexistingONEpropertywithDeco/Peacock/Avedonnot3parents. Primary25–200+generic/directory200seatedNOT330dinnerdance. Directory3000rentalSTARTINGnotcurrentprimarypublishedrent. Actual20servingsplates90–220bites/130–180salads/90–140dessertsand250–400boards;someboarddescriptionsSAYperpersonwhilefooters20servingsconflictUNRESOLVED/notdivideasfullmeal. Server250EACH4hevent/setup/platters/plates/servingutensils/passedstationed/cleanupincluded;serverquantitycustom/nofixedratio. Cateringextra/foodtaxbargratuity/venuechargesunknown;notcompleteperheadweddingestimate. PrimaryAvedonenclosedheatedwithsmokingpermitadvertisementnotcitypermitindependentlyverified. Noformfilled/nooutreach.",
+      "review_reason": "EntireHCTGprofile/currentoperatorprivateeventbody/actual7pagecateringmenuread.473BroadwayMonroeexistingONEpropertywithDeco/Peacock/Avedonnot3parents. Primary25\u2013200+generic/directory200seatedNOT330dinnerdance. Directory3000rentalSTARTINGnotcurrentprimarypublishedrent. Actual20servingsplates90\u2013220bites/130\u2013180salads/90\u2013140dessertsand250\u2013400boards;someboarddescriptionsSAYperpersonwhilefooters20servingsconflictUNRESOLVED/notdivideasfullmeal. Server250EACH4hevent/setup/platters/plates/servingutensils/passedstationed/cleanupincluded;serverquantitycustom/nofixedratio. Cateringextra/foodtaxbargratuity/venuechargesunknown;notcompleteperheadweddingestimate. PrimaryAvedonenclosedheatedwithsmokingpermitadvertisementnotcitypermitindependentlyverified. Noformfilled/nooutreach.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -4907,7 +4907,7 @@
         "https://www.herecomestheguide.com/wedding-venues/northern-california/log-cabin-at-the-presidio-by-wedgewood-weddings",
         "https://presidio.gov/venues/log-cabin-at-the-presidio/"
       ],
-      "review_reason": "EntireHCTGprofileactuallyread;alreadyreviewedoperator/actual9page2026–2028PDFfrombatch26reusednotrepeated. Exact1299StoreyPresidioLogCabinNOTSanJoseAlumRockLogCabin. Newdirectory120seated/currentoperator120vsTrust250genericconflictretained.105ppdirectoryincludes2026tier/not2027starting107;venue2495–10995/1495ceremony+22admin/tax/minimaNOTallin. Same4.561MBpricebrochurealreadyactualreview/hash/privatearchive.5heventPLUSsetup,otheroutsidevendorsnotcatering/alcohol. Shortterm1000discountconditional/notuniversal. Onsiteaccommodationsdirectoryiconnotmandatoryroomblock.",
+      "review_reason": "EntireHCTGprofileactuallyread;alreadyreviewedoperator/actual9page2026\u20132028PDFfrombatch26reusednotrepeated. Exact1299StoreyPresidioLogCabinNOTSanJoseAlumRockLogCabin. Newdirectory120seated/currentoperator120vsTrust250genericconflictretained.105ppdirectoryincludes2026tier/not2027starting107;venue2495\u201310995/1495ceremony+22admin/tax/minimaNOTallin. Same4.561MBpricebrochurealreadyactualreview/hash/privatearchive.5heventPLUSsetup,otheroutsidevendorsnotcatering/alcohol. Shortterm1000discountconditional/notuniversal. Onsiteaccommodationsdirectoryiconnotmandatoryroomblock.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -5063,7 +5063,7 @@
         "https://www.sfuva.com/the-asian-art-museum",
         "https://rentals.asianart.org/weddings-private-events/"
       ],
-      "review_reason": "FullSFUVA/currentprimaryweddingroominventory/FAQ/catering/packages/guidelinesread.200LarkinAsianArtMuseumSamsungexistingONEparent/nestedotherroomsnotnewproperties. Samsung250seated350standingvsdirectory300standing/theater225;Bowes80seated200standing100theater,Loggia50cafe175standing,Peterson30seated50standing6PMstart. Terrace275seated500standingSFUVArequirescurrentprimaryscopeNOTautomaticallyapproved. WeddingEVENT5:30PMmidnight/latest1AMPAIDextension/guestoffbyspecifiedend;vendor2PMLOADDOCKonly/5:15PMeventroomsetup/2AMloadoutnot2PMguestaccess. Includedsecurity/liaisonONLYloadinout/coatROOMnotattendant/2–3studiosconditional;TABLESCHAIRSequipmentNOTincluded. APPROVEDcaterersonly/NOofflistfeeexception;FAQninevsactual11namescountconflict. InhouseAVequipmentrentalincludesonsitetech/clientoutsideAVallowed;docentextra/coatstaffextra;externalpacketrestrictionsCONTACTGATED. GenericreligiousEVENTbanvsweddingsadvertisedrequiresceremonyscopeclarificationnotblanketweddingban. All decorapproved/vendorwalkthrough/photographyapplication;noanimaldecor. Requiredinsurance/creditednonrefbookingunknownamount;holdchallengebindingcommitmentNOTperformed. Noformsfilled.",
+      "review_reason": "FullSFUVA/currentprimaryweddingroominventory/FAQ/catering/packages/guidelinesread.200LarkinAsianArtMuseumSamsungexistingONEparent/nestedotherroomsnotnewproperties. Samsung250seated350standingvsdirectory300standing/theater225;Bowes80seated200standing100theater,Loggia50cafe175standing,Peterson30seated50standing6PMstart. Terrace275seated500standingSFUVArequirescurrentprimaryscopeNOTautomaticallyapproved. WeddingEVENT5:30PMmidnight/latest1AMPAIDextension/guestoffbyspecifiedend;vendor2PMLOADDOCKonly/5:15PMeventroomsetup/2AMloadoutnot2PMguestaccess. Includedsecurity/liaisonONLYloadinout/coatROOMnotattendant/2\u20133studiosconditional;TABLESCHAIRSequipmentNOTincluded. APPROVEDcaterersonly/NOofflistfeeexception;FAQninevsactual11namescountconflict. InhouseAVequipmentrentalincludesonsitetech/clientoutsideAVallowed;docentextra/coatstaffextra;externalpacketrestrictionsCONTACTGATED. GenericreligiousEVENTbanvsweddingsadvertisedrequiresceremonyscopeclarificationnotblanketweddingban. All decorapproved/vendorwalkthrough/photographyapplication;noanimaldecor. Requiredinsurance/creditednonrefbookingunknownamount;holdchallengebindingcommitmentNOTperformed. Noformsfilled.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -5124,7 +5124,7 @@
         "https://www.sfuva.com/august-hall",
         "https://specialevents.livenation.com/venues/august-hall"
       ],
-      "review_reason": "EntireSFUVA/currentLiveNationprimaryactualHTMLbodyand2pageone-sheetread.420MasonONEAugustHallwithFifthArrow/GreenRoomnot3parents. CurrentwebAssembly850reception220banquet340theater vsoriginalonesheet950/200/350;mainfloor450/150/250plusmezz500standing/50theateroldernot950dinner. Green50banquet50theatercurrentvs60/72PDF;Fifth40banquet30theatercurrentvs80banquetold. Whole1200generic/primary50–1000bodyNOT1200dinner/330approved. ***SFUVA-linkedAugustHall_Floor_Plans.pdfACTUALLYStAndrewsHall431ECongressDETROIT***all4pagestext/firstpagevisuallyconfirmedwrongproperty;REJECTforSFlayouts/currentcorrectfloorplanstillgap,notnetworkblock. PrimaryreaderTIMEDOUTbutordinarycollectoractualHTMLsuccesspreserved—notfalsefinalblock. Weddingsadvertised/inhousecustomcateringbar/AVpricesunknown,nofreetalent/complimentaryconditionalofferassumption. Nopaidservices/formsubmissions.",
+      "review_reason": "EntireSFUVA/currentLiveNationprimaryactualHTMLbodyand2pageone-sheetread.420MasonONEAugustHallwithFifthArrow/GreenRoomnot3parents. CurrentwebAssembly850reception220banquet340theater vsoriginalonesheet950/200/350;mainfloor450/150/250plusmezz500standing/50theateroldernot950dinner. Green50banquet50theatercurrentvs60/72PDF;Fifth40banquet30theatercurrentvs80banquetold. Whole1200generic/primary50\u20131000bodyNOT1200dinner/330approved. ***SFUVA-linkedAugustHall_Floor_Plans.pdfACTUALLYStAndrewsHall431ECongressDETROIT***all4pagestext/firstpagevisuallyconfirmedwrongproperty;REJECTforSFlayouts/currentcorrectfloorplanstillgap,notnetworkblock. PrimaryreaderTIMEDOUTbutordinarycollectoractualHTMLsuccesspreserved\u2014notfalsefinalblock. Weddingsadvertised/inhousecustomcateringbar/AVpricesunknown,nofreetalent/complimentaryconditionalofferassumption. Nopaidservices/formsubmissions.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -5243,7 +5243,7 @@
         "https://www.sfuva.com/the-box-sf",
         "https://theboxsf.com/pages/events"
       ],
-      "review_reason": "EntireSFUVA/currentprimaryhome/events/all6roompages/about/contactbodyread. Exact1069–1073Howardonefourfloorbuildingnot6parents/newrooms perlayout. Primaryeventpage80seated125standingTopFloor vsroompage100seated125standing/100generic,Gate32table50room;examples63smallround54largeround60banquet64theaterNOT100dinnerdance. Buddy35seated40standingroomvs30/30overview/directory;Webster16,Willy8seated10standing,Pressroom40overview50room,Speakeasy8ADDONONLYupperbarpackage2hmin;not8moregenericweddingcapacity. Topblocks8AM4PM/4PMmidnightvscontactvenuehours2AM/Tue2PMtypoheldnotautomaticmusicpermission. Suites4hminimum,standardWiFiincluded/Gigupgradeunpricedvsfreegigoverviewconflict. FurnitureGate/suitesincludedbutMAINROOMextra,projectorEXTRA/onsitemanagerincluded,OUTSIDEcateringfeeunknown/noF&BminimumNOTfreerental/allin. Pressroomsmallweddingsadvertised/wholeweddinglayoutapprovalunknown. PricesCONTACTGATED/retailpaidPDFsNOTeventbrochure/notpurchased. Noformsubmission.",
+      "review_reason": "EntireSFUVA/currentprimaryhome/events/all6roompages/about/contactbodyread. Exact1069\u20131073Howardonefourfloorbuildingnot6parents/newrooms perlayout. Primaryeventpage80seated125standingTopFloor vsroompage100seated125standing/100generic,Gate32table50room;examples63smallround54largeround60banquet64theaterNOT100dinnerdance. Buddy35seated40standingroomvs30/30overview/directory;Webster16,Willy8seated10standing,Pressroom40overview50room,Speakeasy8ADDONONLYupperbarpackage2hmin;not8moregenericweddingcapacity. Topblocks8AM4PM/4PMmidnightvscontactvenuehours2AM/Tue2PMtypoheldnotautomaticmusicpermission. Suites4hminimum,standardWiFiincluded/Gigupgradeunpricedvsfreegigoverviewconflict. FurnitureGate/suitesincludedbutMAINROOMextra,projectorEXTRA/onsitemanagerincluded,OUTSIDEcateringfeeunknown/noF&BminimumNOTfreerental/allin. Pressroomsmallweddingsadvertised/wholeweddinglayoutapprovalunknown. PricesCONTACTGATED/retailpaidPDFsNOTeventbrochure/notpurchased. Noformsubmission.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -5302,7 +5302,7 @@
         "https://www.sfuva.com/the-chapel",
         "https://thechapelsf.com/private-events/"
       ],
-      "review_reason": "Entire SFUVA and current primary private-event body read. 777 Valencia music venue/Curio ONE property, not Presidio Chapel or Whitechapel. Primary 20–1000 generic capacity versus directory 20–800, not 1000 banquet. Directory Chapel150 dining/500+ reception and Curio bar65/100, private dining15/30, patio80/100 are nested and nonadditive; duplicate Curio Bar/Main Bar not counted twice. Weddings advertised; inhouse chef/bar/security/AV staff available, no published included-cost bundle or complete price. Public show ticket prices and business hours not private wedding rent/clocks.",
+      "review_reason": "Entire SFUVA and current primary private-event body read. 777 Valencia music venue/Curio ONE property, not Presidio Chapel or Whitechapel. Primary 20\u20131000 generic capacity versus directory 20\u2013800, not 1000 banquet. Directory Chapel150 dining/500+ reception and Curio bar65/100, private dining15/30, patio80/100 are nested and nonadditive; duplicate Curio Bar/Main Bar not counted twice. Weddings advertised; inhouse chef/bar/security/AV staff available, no published included-cost bundle or complete price. Public show ticket prices and business hours not private wedding rent/clocks.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -5331,7 +5331,7 @@
       "review_source_urls": [
         "https://www.sfuva.com/chase-center"
       ],
-      "review_reason": "Entire SFUVA body read. Existing Above the Rim is nested in Chase Center; no second parent from additional clubs. AboveRim160 rounds/300 reception/200 THEATER; Chase325–500 standing/200 theater, JPMorgan270 standing/90 theater, United700 standing/500 theater, Pepsi185 standing, Ultra365 upper340 lower standing, Modelo200 standing. Arena18000 seats not dining and no approved330 dinner inferred. Thrive courtyard/independent restaurant buyouts not automatically same operator properties. Primary privateevents route returns JS shell, current primary room terms and prices not reviewed/verified; directory identity only, not a permanent network blocker.",
+      "review_reason": "Entire SFUVA body read. Existing Above the Rim is nested in Chase Center; no second parent from additional clubs. AboveRim160 rounds/300 reception/200 THEATER; Chase325\u2013500 standing/200 theater, JPMorgan270 standing/90 theater, United700 standing/500 theater, Pepsi185 standing, Ultra365 upper340 lower standing, Modelo200 standing. Arena18000 seats not dining and no approved330 dinner inferred. Thrive courtyard/independent restaurant buyouts not automatically same operator properties. Primary privateevents route returns JS shell, current primary room terms and prices not reviewed/verified; directory identity only, not a permanent network blocker.",
       "identity_review_source_kind": "directory_profile"
     },
     {
@@ -5607,7 +5607,7 @@
       "review_source_urls": [
         "https://www.sfuva.com/exploratorium"
       ],
-      "review_reason": "Full new SFUVA body read. One existingPier15 Exploratorium not sixgallery properties. Reuse batch27six actual currentlinked originals28pages reviewed and privatehasharchived. Directory4000reception1100whole seated not same-room dinner layout. DirectoryFisher150inside100terrace/Central500indoors300outdoors/West70–200/East90–200/Forum160–200 retain scoped discrepancy vs2026weddingandcorporatechart; outdoor not indoor rainbackup, no sums. Current tables/chairs/approvedcatering/planner extra and11:30guest12:30cleanup already sourced. No repeated source download counted as review.",
+      "review_reason": "Full new SFUVA body read. One existingPier15 Exploratorium not sixgallery properties. Reuse batch27six actual currentlinked originals28pages reviewed and privatehasharchived. Directory4000reception1100whole seated not same-room dinner layout. DirectoryFisher150inside100terrace/Central500indoors300outdoors/West70\u2013200/East90\u2013200/Forum160\u2013200 retain scoped discrepancy vs2026weddingandcorporatechart; outdoor not indoor rainbackup, no sums. Current tables/chairs/approvedcatering/planner extra and11:30guest12:30cleanup already sourced. No repeated source download counted as review.",
       "identity_review_source_kind": "directory_profile"
     },
     {
@@ -5637,7 +5637,7 @@
         "https://www.sfuva.com/ferry-building",
         "https://www.ferrybuildingmarketplace.com/venue-rental-events/"
       ],
-      "review_reason": "Entire SFUVA/current primary full rental body read. One FerryBuilding existingGrandHall withPortHearingRoom/plazas nested not added parents. CurrentGrand30–650generic vs directory350seated650standing not650dinner. Portcurrent2000sf10–120classroom/table vsdirectory2200sf100standing/theater70round/classroom conflicting layout/area, no maximum silently substituted. Plazascurrentup50000sf vsdirectoryback30000front4000, public/sponsoredactivationnotguaranteedexclusiveweddinguse. Weddings advertisedGrand; date-specific permission/pricing/requiredvendor list/unbundled costs/clocks unknown. Page says form but actual raw forms/embeds absent, mailto getintouch—not fully verified submit-ready onlineform; no transmission.",
+      "review_reason": "Entire SFUVA/current primary full rental body read. One FerryBuilding existingGrandHall withPortHearingRoom/plazas nested not added parents. CurrentGrand30\u2013650generic vs directory350seated650standing not650dinner. Portcurrent2000sf10\u2013120classroom/table vsdirectory2200sf100standing/theater70round/classroom conflicting layout/area, no maximum silently substituted. Plazascurrentup50000sf vsdirectoryback30000front4000, public/sponsoredactivationnotguaranteedexclusiveweddinguse. Weddings advertisedGrand; date-specific permission/pricing/requiredvendor list/unbundled costs/clocks unknown. Page says form but actual raw forms/embeds absent, mailto getintouch\u2014not fully verified submit-ready onlineform; no transmission.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -5824,7 +5824,7 @@
         "https://www.sfuva.com/grace-cathedral",
         "https://gracecathedral.org/private-and-corporate-event-rentals/"
       ],
-      "review_reason": "EntireprimaryrentalandweddingFAQbodiesread. ONEcathedralwithnestedrooms, no seven independentproperties. Nave450fixedpewsup1300additionalchairsNOTbanquet; GreatQuire185headingvs175prose200maxconflict. Dining76/Gresham80–200/Plaza500generic not330approveddinner. Generalnonreligiousarts/eventsalloweddoesNOTwaiveweddingriteeligibility:onepartnerbaptizedChristian,Episcopalrites/staffnormallyofficiates,3–4prepmeetings,sacredmusiconlyunlessMusicDeptapproves. Notmembershiprequired. WeddingusualFriSat/weekdaypreapproval;noSundays,HolyWeek,Memorialweekend,December. Feecoverscounseling/organistorgan/verger/soundengineer/coordinator/space/rehearsal/dressingrooms/leafletbutdollarscontactgated. Calameobrochureordinaryreader502/browserERR_EMPTY_RESPONSE, actualbrochureUNREADnotclaimedreviewed. Noinventedspousedetailsorformsubmission.",
+      "review_reason": "EntireprimaryrentalandweddingFAQbodiesread. ONEcathedralwithnestedrooms, no seven independentproperties. Nave450fixedpewsup1300additionalchairsNOTbanquet; GreatQuire185headingvs175prose200maxconflict. Dining76/Gresham80\u2013200/Plaza500generic not330approveddinner. Generalnonreligiousarts/eventsalloweddoesNOTwaiveweddingriteeligibility:onepartnerbaptizedChristian,Episcopalrites/staffnormallyofficiates,3\u20134prepmeetings,sacredmusiconlyunlessMusicDeptapproves. Notmembershiprequired. WeddingusualFriSat/weekdaypreapproval;noSundays,HolyWeek,Memorialweekend,December. Feecoverscounseling/organistorgan/verger/soundengineer/coordinator/space/rehearsal/dressingrooms/leafletbutdollarscontactgated. Calameobrochureordinaryreader502/browserERR_EMPTY_RESPONSE, actualbrochureUNREADnotclaimedreviewed. Noinventedspousedetailsorformsubmission.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -5942,7 +5942,7 @@
         "https://www.sfuva.com/the-historic-klamath",
         "https://www.historicklamath.com"
       ],
-      "review_reason": "Entire16196charprimarybodyincludingallroomandwedding/meeting/receptionmodalsread. ONEpermanentlysituatedPier9ferrypropertynotassumedcruise. Conference2400sf110DINING150theater200standingvswedding120prose/directory120/160/250conflict. Roof3000usable100dining275standingvsdirectory8000/140/250. Board400chart500prose32dining25meeting60standing/30vs45theaterconflicts. SunDeck1050sf48dining100standing. ROOFRENTINCLUDESBoardRoom: donotaddagain. ConferenceincludesexistingAV/furniture/mics/screens/tables;meetingpackageinclusionsnotnecessarilyweddingallinclusive.3hour75guestcocktailstarts11500NOTfullweddingquote. Weddingdressingloungesincluded. Public9–5hoursNOTevent/music/barcleanupcutoff. No330approvedlayout, allmandatorycostsunknown.",
+      "review_reason": "Entire16196charprimarybodyincludingallroomandwedding/meeting/receptionmodalsread. ONEpermanentlysituatedPier9ferrypropertynotassumedcruise. Conference2400sf110DINING150theater200standingvswedding120prose/directory120/160/250conflict. Roof3000usable100dining275standingvsdirectory8000/140/250. Board400chart500prose32dining25meeting60standing/30vs45theaterconflicts. SunDeck1050sf48dining100standing. ROOFRENTINCLUDESBoardRoom: donotaddagain. ConferenceincludesexistingAV/furniture/mics/screens/tables;meetingpackageinclusionsnotnecessarilyweddingallinclusive.3hour75guestcocktailstarts11500NOTfullweddingquote. Weddingdressingloungesincluded. Public9\u20135hoursNOTevent/music/barcleanupcutoff. No330approvedlayout, allmandatorycostsunknown.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -5972,7 +5972,7 @@
         "https://www.sfuva.com/hungry-tables",
         "https://hungrytablessf.com/"
       ],
-      "review_reason": "Entireprimaryhomeand7664charforplannersFAQs/formbodyread. ONE257ThirdStreet38seatedcommunal/60–90standing vsdirectory32–40/80, not330. Exclusiveuse/HDMImic/setupbreakdown/floorteamstandard;pricedcustomquoteunknown. InhousefoodbutoutsidecatererpossibleapprovalFEEunknownincldietary/religiousscope. KitchenFINISHINGONLY/norawcookingoropenflame. PublishedType41barbeerwinesakeSOJUcocktailsnotdistilledwhiskyvodka;providerclaimnotindependentlicenseverification. Eventcutoff1:30AMnotseparatemusic/bar/cleanup. SamebuildinggarageNOTfreeparking. InquirypagevisibleNameEmailPhoneasterisk/company/date/type/headcount/message, noentrynosubmission. No inventedcommitment.",
+      "review_reason": "Entireprimaryhomeand7664charforplannersFAQs/formbodyread. ONE257ThirdStreet38seatedcommunal/60\u201390standing vsdirectory32\u201340/80, not330. Exclusiveuse/HDMImic/setupbreakdown/floorteamstandard;pricedcustomquoteunknown. InhousefoodbutoutsidecatererpossibleapprovalFEEunknownincldietary/religiousscope. KitchenFINISHINGONLY/norawcookingoropenflame. PublishedType41barbeerwinesakeSOJUcocktailsnotdistilledwhiskyvodka;providerclaimnotindependentlicenseverification. Eventcutoff1:30AMnotseparatemusic/bar/cleanup. SamebuildinggarageNOTfreeparking. InquirypagevisibleNameEmailPhoneasterisk/company/date/type/headcount/message, noentrynosubmission. No inventedcommitment.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -6032,7 +6032,7 @@
         "https://www.sfuva.com/julia-morgan-ballroom",
         "https://juliamorganballroom.com/our-space/"
       ],
-      "review_reason": "Entireprimaryhome/rooms/weddings/pricinginquiryand6pagewedding+4pageeventsoriginaltextread; capacity/addresspagesvisuallyreviewed. JuliaMorganBallroomNEWROOMrecordwithinEXISTINGMerchantsExchange465Californiaparent(sharedoperatorBankingHall),notnewphysicalproperty. Whole15thfloor15500sf includedbar/lounge/breakouts; ballroom4060chartvs4300prose. Current320banquet750standing500theatervs2021publishedbrochure350seated600standing conflict;not330dinnerdance. Posted8500–15000venuefee/dayseason/dynamicFandBminima, excludescustomcateringandotherproductioncosts. LowerBankingHall250capacitynotoverwrittenbyupstairs320. Bar27vs30ftdescriptionirrelevantunresolved; ZIPcurrent94605vsPDF94104conflictaddressnotguessed. Fivebreakoutsnestednot5newparents;brochureMXClub/Credoidentityleadsheldnotdropped. No unlimitedhoursclaimtransferredfromMXClubtoJulia.",
+      "review_reason": "Entireprimaryhome/rooms/weddings/pricinginquiryand6pagewedding+4pageeventsoriginaltextread; capacity/addresspagesvisuallyreviewed. JuliaMorganBallroomNEWROOMrecordwithinEXISTINGMerchantsExchange465Californiaparent(sharedoperatorBankingHall),notnewphysicalproperty. Whole15thfloor15500sf includedbar/lounge/breakouts; ballroom4060chartvs4300prose. Current320banquet750standing500theatervs2021publishedbrochure350seated600standing conflict;not330dinnerdance. Posted8500\u201315000venuefee/dayseason/dynamicFandBminima, excludescustomcateringandotherproductioncosts. LowerBankingHall250capacitynotoverwrittenbyupstairs320. Bar27vs30ftdescriptionirrelevantunresolved; ZIPcurrent94605vsPDF94104conflictaddressnotguessed. Fivebreakoutsnestednot5newparents;brochureMXClub/Credoidentityleadsheldnotdropped. No unlimitedhoursclaimtransferredfromMXClubtoJulia.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -6246,7 +6246,7 @@
         "https://www.sfuva.com/mosaic",
         "https://embarcaderocenter.com/conference-center/"
       ],
-      "review_reason": "Actual full center page and Mosaic primary, 12page2026 brochure full text and all pages visually read. NEW ONE Mosaic Lobby Level Three Embarcadero Center, not Commonwealth110Embarcadero or hotel room. Fullbuyout over550 GENERIC not550dinner; Redwood140 THEATER, Oak50/Bay40 MEETING, not dining. Public guest hourly1150/380/350 vs client950/320/290; Redwood guest4050halfday7650fullday/client3400/6400, durations unspecified, no assumed4/8hours. Citywide event exclusions. AV explicitly included and complimentary coffee/draft beverages; catering bespoke extra unknown. Weekday8–5 business hours NOT cutoff; brochure explicitly afterhours available. Direct published Tripleseat form static fields actually read, no entry/acceptance/submission. Three linked Issuu room sheets/virtual tour not yet reviewed.",
+      "review_reason": "Actual full center page and Mosaic primary, 12page2026 brochure full text and all pages visually read. NEW ONE Mosaic Lobby Level Three Embarcadero Center, not Commonwealth110Embarcadero or hotel room. Fullbuyout over550 GENERIC not550dinner; Redwood140 THEATER, Oak50/Bay40 MEETING, not dining. Public guest hourly1150/380/350 vs client950/320/290; Redwood guest4050halfday7650fullday/client3400/6400, durations unspecified, no assumed4/8hours. Citywide event exclusions. AV explicitly included and complimentary coffee/draft beverages; catering bespoke extra unknown. Weekday8\u20135 business hours NOT cutoff; brochure explicitly afterhours available. Direct published Tripleseat form static fields actually read, no entry/acceptance/submission. Three linked Issuu room sheets/virtual tour not yet reviewed.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -6396,7 +6396,7 @@
         "https://www.sfuva.com/pier-27",
         "https://metroevents.com/locations/pier-27/"
       ],
-      "review_reason": "Entire primaryhome/Pier27/Pier35/Rotunda/Transportation/weddings/goodneighbor/contact and6pageoriginalFAQ/9page2023vendor list read. Pier27 existing one property with nestedCityView900seated1200reception1200theater, Bay125seated300reception230theatervsdirectory70/200/140, Coit300/600/500, Embarcadero700/1000/800. City22900sfvsoldPDF15000plusCoit6800; directoryCity1500receptionvs1200primary unresolved; Bay onlywithCitycurrent vsstandalone directory. Coit/Bay includedclaims DIRECTORYnotcurrent free guarantee. Actual2019Pier27+Pier35plans/2014Transportationplan read/text+visual, allPRIVATE restricteddesign originals not public. Currentwedpage100–800generic not800banquet. Required paidVenueManager/security/janitorial/Recology debrisbox, nofreefurnitureAVlightsdecorfood; approvedcatering/exclusiveBrownPelicanWiFi+EdlenPower vendor list. No kitchens: outdoorbuildout/firepermits needed. FAQ fee360first95additionalfirepermit/500buildingpermitadmin+actualcost CONDITIONAL datedunknown notverifiedcurrentlaw; firewatchTransport/Pier35Vintage mandatory, Pier27conditional. No liquorlicense:licensedinsuredcaterer/bar required.6AM2AMcontractaccess/2AMeventcutoff/outdooramplification10PM/2000hourafter2AM fromcurrentlylinkedundatedFAQ notblanketpermission. Portprevailingwageclaim needs currentverification, not legaladvice. Rotunda300FrankOgawa existingOakland sameoperator, SevenSpokesnested; notPalaceRotunda.",
+      "review_reason": "Entire primaryhome/Pier27/Pier35/Rotunda/Transportation/weddings/goodneighbor/contact and6pageoriginalFAQ/9page2023vendor list read. Pier27 existing one property with nestedCityView900seated1200reception1200theater, Bay125seated300reception230theatervsdirectory70/200/140, Coit300/600/500, Embarcadero700/1000/800. City22900sfvsoldPDF15000plusCoit6800; directoryCity1500receptionvs1200primary unresolved; Bay onlywithCitycurrent vsstandalone directory. Coit/Bay includedclaims DIRECTORYnotcurrent free guarantee. Actual2019Pier27+Pier35plans/2014Transportationplan read/text+visual, allPRIVATE restricteddesign originals not public. Currentwedpage100\u2013800generic not800banquet. Required paidVenueManager/security/janitorial/Recology debrisbox, nofreefurnitureAVlightsdecorfood; approvedcatering/exclusiveBrownPelicanWiFi+EdlenPower vendor list. No kitchens: outdoorbuildout/firepermits needed. FAQ fee360first95additionalfirepermit/500buildingpermitadmin+actualcost CONDITIONAL datedunknown notverifiedcurrentlaw; firewatchTransport/Pier35Vintage mandatory, Pier27conditional. No liquorlicense:licensedinsuredcaterer/bar required.6AM2AMcontractaccess/2AMeventcutoff/outdooramplification10PM/2000hourafter2AM fromcurrentlylinkedundatedFAQ notblanketpermission. Portprevailingwageclaim needs currentverification, not legaladvice. Rotunda300FrankOgawa existingOakland sameoperator, SevenSpokesnested; notPalaceRotunda.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -6426,7 +6426,7 @@
         "https://www.sfuva.com/press-club",
         "https://www.pressclubsf.com/hosted-events"
       ],
-      "review_reason": "Entire primary hosted-events/contact/menu and full SFUVAprofile read. NEW ONE20YerbaBuenaLane; lounges/WineLibrary/ChampagneLounge/StoneBar/partial/full/tent nested configurations. Header600+standing conflicts samepagefulltent400 anddirectory275whole/400tent/450intro, unresolved notmaxpicked;20formalmeal not330banquet. Single10–12lounge/25overflow,Double16–20/50standingoverflow,Library15–20seated35standing;Tasting50–65standing notdinner. Threehourpartialeveningbase/extensions extra, taxes/admin/cateringlabor excluded per directory, currentpriceunknown. Actualpublished directbooking andTripleseat2328proposal links found but notsubmitted; no payment/booking. Publicretailmenu not automatically private catering quote.",
+      "review_reason": "Entire primary hosted-events/contact/menu and full SFUVAprofile read. NEW ONE20YerbaBuenaLane; lounges/WineLibrary/ChampagneLounge/StoneBar/partial/full/tent nested configurations. Header600+standing conflicts samepagefulltent400 anddirectory275whole/400tent/450intro, unresolved notmaxpicked;20formalmeal not330banquet. Single10\u201312lounge/25overflow,Double16\u201320/50standingoverflow,Library15\u201320seated35standing;Tasting50\u201365standing notdinner. Threehourpartialeveningbase/extensions extra, taxes/admin/cateringlabor excluded per directory, currentpriceunknown. Actualpublished directbooking andTripleseat2328proposal links found but notsubmitted; no payment/booking. Publicretailmenu not automatically private catering quote.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -6516,7 +6516,7 @@
         "https://www.sfuva.com/sf-botanical-garden",
         "https://gggp.org/event-rentals/botanical-garden-event-rentals/"
       ],
-      "review_reason": "Actual full8684charcurrent primary page/ALL11FAQs and4roommodals reviewed in supportedbrowser and then ordinaryHTTP with larger LOCAL16MBcap preserving earlier2.5MBcollectorlimit. No site restriction bypass. NEW ONE55acreSFBotanicalGarden, notUCBotanicalBerkeley/Conservatory/JapaneseTeaGarden; nested4namedspaces despiteheader5unresolved. Celebration400seated600standing/10hsetupbreakdownincluded/eventmusic10PMvendorsmidnight; FAQmidnightincludingcleanup notmidnightmusic. RequiredGENERATOR/noelectricity/noWiFi;preapprovedvendors/50percentdeposit creditstatusunknown. Tenting/soundpermit/ParkPatrolmonitoring extra approvalcostsunknown andmayneedadditionalbuilddays. RedwoodNOW40seatedaftertreefall vsdirectory60,10–15minwalk/nonwheelchair/nofood. Moon20standinginclcoupleofficiantvsdir15/notwheelchair. Fragrance100seatedorstanding.1hmicro20nofooddeliveries,2hmax50/Redwood40nodeliveriesalcoholcatering,4honlyCelebrationFragrance/lightlimitedcatering;shortpackagesnotfullreception. No exactprice or330dinnerdanceapproval. Actualprimaryrawbytes4848779SHAarchived, readerfailedsize not hardaccessblock.",
+      "review_reason": "Actual full8684charcurrent primary page/ALL11FAQs and4roommodals reviewed in supportedbrowser and then ordinaryHTTP with larger LOCAL16MBcap preserving earlier2.5MBcollectorlimit. No site restriction bypass. NEW ONE55acreSFBotanicalGarden, notUCBotanicalBerkeley/Conservatory/JapaneseTeaGarden; nested4namedspaces despiteheader5unresolved. Celebration400seated600standing/10hsetupbreakdownincluded/eventmusic10PMvendorsmidnight; FAQmidnightincludingcleanup notmidnightmusic. RequiredGENERATOR/noelectricity/noWiFi;preapprovedvendors/50percentdeposit creditstatusunknown. Tenting/soundpermit/ParkPatrolmonitoring extra approvalcostsunknown andmayneedadditionalbuilddays. RedwoodNOW40seatedaftertreefall vsdirectory60,10\u201315minwalk/nonwheelchair/nofood. Moon20standinginclcoupleofficiantvsdir15/notwheelchair. Fragrance100seatedorstanding.1hmicro20nofooddeliveries,2hmax50/Redwood40nodeliveriesalcoholcatering,4honlyCelebrationFragrance/lightlimitedcatering;shortpackagesnotfullreception. No exactprice or330dinnerdanceapproval. Actualprimaryrawbytes4848779SHAarchived, readerfailedsize not hardaccessblock.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -6819,7 +6819,7 @@
         "https://www.sfuva.com/underdogs-cantina",
         "http://underdogscantina.com/reservations/"
       ],
-      "review_reason": "Fullprimaryreservationbodyread. Oneoperator128King/CantinaandNextDooradjacent2floorvenue, separateNextDoorstreetaddressunverified/notinvented. NextDoor100–450GENERICweddingsadvertised; Arcade20–35/lower25–50/main50–300+ not450dinner.225picnic8people2bucketsTecateNachosNOTweddingprice; otherbuyoutquoteunknown. Formrequestnotguarantee/72hordinaryreservationnotice. FullserviceAVsecuritydecorF&Bofferednotallincluded. Kitchenhoursnoteventcutoff.",
+      "review_reason": "Fullprimaryreservationbodyread. Oneoperator128King/CantinaandNextDooradjacent2floorvenue, separateNextDoorstreetaddressunverified/notinvented. NextDoor100\u2013450GENERICweddingsadvertised; Arcade20\u201335/lower25\u201350/main50\u2013300+ not450dinner.225picnic8people2bucketsTecateNachosNOTweddingprice; otherbuyoutquoteunknown. Formrequestnotguarantee/72hordinaryreservationnotice. FullserviceAVsecuritydecorF&Bofferednotallincluded. Kitchenhoursnoteventcutoff.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -6879,7 +6879,7 @@
         "https://www.sfuva.com/war-memorial-performing-arts-center",
         "https://sfwarmemorial.org/reception-spaces/"
       ],
-      "review_reason": "Onecampussummary/sharedoperator with4physicalbuildings nested, notsixindependentoutreachproperties. Actualprimaryvenues/receptionchart/weddings/GreenRoom fullbody+browserRates/Expensesread; Davies/Herbst/Opera/Wilsey technicalpagesSCOPEDaddress/rental/requiredfees, alltechnicalridersUNREAD. Davies201VanNess currentreceptionchartNOTdinners/weddingsdespitegeneric200seateddirectory. Opera301VanNessEXPLICITNOweddings. Veterans401VanNessGreenRoom160–180dinner/400standing+Herbst892fixedtheater/Wilsey270–299theater/education200standing. Zellerbach300Franklinrehearsalnotweddingpermission. GreenRoomownlicensedcaterer vsDaviesOperaHerbstGlobalGourmetexclusive; nooperatorwidecateringrule. Do notflattenperformanceadmissionrenttoweddingquote. Sixweekplanningminimum/requiredpaidstaffinsuranceequipment.",
+      "review_reason": "Onecampussummary/sharedoperator with4physicalbuildings nested, notsixindependentoutreachproperties. Actualprimaryvenues/receptionchart/weddings/GreenRoom fullbody+browserRates/Expensesread; Davies/Herbst/Opera/Wilsey technicalpagesSCOPEDaddress/rental/requiredfees, alltechnicalridersUNREAD. Davies201VanNess currentreceptionchartNOTdinners/weddingsdespitegeneric200seateddirectory. Opera301VanNessEXPLICITNOweddings. Veterans401VanNessGreenRoom160\u2013180dinner/400standing+Herbst892fixedtheater/Wilsey270\u2013299theater/education200standing. Zellerbach300Franklinrehearsalnotweddingpermission. GreenRoomownlicensedcaterer vsDaviesOperaHerbstGlobalGourmetexclusive; nooperatorwidecateringrule. Do notflattenperformanceadmissionrenttoweddingquote. Sixweekplanningminimum/requiredpaidstaffinsuranceequipment.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -6911,7 +6911,7 @@
         "https://www.sfuva.com/wedgewood-at-the-presidio",
         "https://www.wedgewoodevents.com/venue/northern-california-golden-gate-club"
       ],
-      "review_reason": "OriginalprofilecoversTHREEexistingphysicalproperties GoldenGate135Fisher/Officers50Moraga/Log1299Storey; sameWedgewoodoperator notonebuilding. Currentprimary3venuebodies/3currentlinked12pAllPackagesPDFs text reviewed (Officers/Log pages4–12 exactentiretextmatchalreadyreadGoldenpages verified),all6rate/capacitychartsvisuallyread. Gridlabels2027–29 despite2022URLfolder; amountBASISnotexplicitnamed/venuefeeandminimumspendapply so noautomaticrent/minimumassignment. 49.98buffet62.98duet+22percentADMIN/tax,venuefee/minimaextra. Meeting62.98fiveh94.98eighthNOTweddingbundle. GoldenVentana180banquetvs220generic/CypressHawthorn110eachnonadditive. OfficersOrtega160banquet/Moraga60vsprimary200seatedconflict/Ortega250genericvs220header. Log120banquetvs150primarygeneric. Nooutsidecatering; includedtablewarelinenbanquetstaff/setupnotallcomplete.",
+      "review_reason": "OriginalprofilecoversTHREEexistingphysicalproperties GoldenGate135Fisher/Officers50Moraga/Log1299Storey; sameWedgewoodoperator notonebuilding. Currentprimary3venuebodies/3currentlinked12pAllPackagesPDFs text reviewed (Officers/Log pages4\u201312 exactentiretextmatchalreadyreadGoldenpages verified),all6rate/capacitychartsvisuallyread. Gridlabels2027\u201329 despite2022URLfolder; amountBASISnotexplicitnamed/venuefeeandminimumspendapply so noautomaticrent/minimumassignment. 49.98buffet62.98duet+22percentADMIN/tax,venuefee/minimaextra. Meeting62.98fiveh94.98eighthNOTweddingbundle. GoldenVentana180banquetvs220generic/CypressHawthorn110eachnonadditive. OfficersOrtega160banquet/Moraga60vsprimary200seatedconflict/Ortega250genericvs220header. Log120banquetvs150primarygeneric. Nooutsidecatering; includedtablewarelinenbanquetstaff/setupnotallcomplete.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -7328,7 +7328,7 @@
     {
       "id": "directory-lead-45cb8fbf5693d0",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/cabianca-italian-restaurant/",
-      "name": "Ca’ Bianca Italian Restaurant",
+      "name": "Ca\u2019 Bianca Italian Restaurant",
       "label_method": "Named tourism listing link",
       "source_channels": [
         "sonomatourism"
@@ -7354,7 +7354,7 @@
       ],
       "review_reason": "Actualoperatorwedding/private-diningoffering inVictorianhouse;regional835SecondSt address. Candidateimportnamehadmojibake;correctpublicnamefromactualoperator,notnewaliasproperty. Menus/rooms/chargesstillunreviewed.",
       "identity_review_source_kind": "primary_operator",
-      "original_imported_name": "CaÃ¢â‚¬â„¢Bianca Italian Restaurant",
+      "original_imported_name": "Ca\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2Bianca Italian Restaurant",
       "name_correction_source_urls": [
         "https://www.sonomacounty.com/weddings/wedding-venues/cabianca-italian-restaurant/",
         "https://www.cabianca.com"
@@ -7423,7 +7423,7 @@
     {
       "id": "directory-lead-560c89ac782b92",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/catellis/",
-      "name": "Catelli’s Restaurant",
+      "name": "Catelli\u2019s Restaurant",
       "label_method": "Named tourism listing link",
       "source_channels": [
         "sonomatourism"
@@ -7447,9 +7447,9 @@
         "https://www.sonomacounty.com/weddings/wedding-venues/catellis/",
         "http://www.mycatellis.com"
       ],
-      "review_reason": "Primaryrestaurantandregionalnamedgardenprivate-eventofferingidentityconfirmed;candidateimportnamecorrupt,correctedfromoperator. Dininghours12–8ishnotprivateeventmusiccutoff. Weddingpermissioncurrentlyunknownandseatingrequestsnotguaranteed.",
+      "review_reason": "Primaryrestaurantandregionalnamedgardenprivate-eventofferingidentityconfirmed;candidateimportnamecorrupt,correctedfromoperator. Dininghours12\u20138ishnotprivateeventmusiccutoff. Weddingpermissioncurrentlyunknownandseatingrequestsnotguaranteed.",
       "identity_review_source_kind": "primary_operator",
-      "original_imported_name": "CatelliÃ¢â‚¬â„¢s",
+      "original_imported_name": "Catelli\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s",
       "name_correction_source_urls": [
         "https://www.sonomacounty.com/weddings/wedding-venues/catellis/",
         "http://www.mycatellis.com"
@@ -7753,7 +7753,7 @@
         "https://www.sonomacounty.com/weddings/wedding-venues/diavola-pizzeria-salumeria/",
         "https://www.diavolapizzeria.com/private-events"
       ],
-      "review_reason": "Current primary home and complete private-events text read. Dining rooms/patio are nested spaces, not separate parent properties. Private patio buyout up to 40; smaller groups 15/20. Food menus $55/$65/$75/$85 per person, PLUS variable room fee, tax/service/bar unknown. Appetizer $10, passed appetizers $8–10, dessert $9 per person; cocktail $14 per person is a named optional offering, not an open-bar quote. Wedding option is present in the inquiry form, not issued wedding approval. Geyserville Gun Club is a sister bar next door, not automatically included. Public form fields read; nothing submitted.",
+      "review_reason": "Current primary home and complete private-events text read. Dining rooms/patio are nested spaces, not separate parent properties. Private patio buyout up to 40; smaller groups 15/20. Food menus $55/$65/$75/$85 per person, PLUS variable room fee, tax/service/bar unknown. Appetizer $10, passed appetizers $8\u201310, dessert $9 per person; cocktail $14 per person is a named optional offering, not an open-bar quote. Wedding option is present in the inquiry form, not issued wedding approval. Geyserville Gun Club is a sister bar next door, not automatically included. Public form fields read; nothing submitted.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -7901,7 +7901,7 @@
         "https://www.sonomacounty.com/weddings/wedding-venues/flamingo-resort-spa-santa-rosa-sonoma-tapestry-collection-by-hilton/",
         "https://www.flamingoresort.com/gatherings/weddings/"
       ],
-      "review_reason": "Current primary wedding offering recovered from actual homepage link. Tourism2777FourthStreetSantaRosa identifies property. The displayed couples-massage/beer-wine promotion and20guestrooms/night condition were for contracts signedJanuary1–March31,2025: expired, not a current general lodging mandate. Current packages/layout chart still need separate review.",
+      "review_reason": "Current primary wedding offering recovered from actual homepage link. Tourism2777FourthStreetSantaRosa identifies property. The displayed couples-massage/beer-wine promotion and20guestrooms/night condition were for contracts signedJanuary1\u2013March31,2025: expired, not a current general lodging mandate. Current packages/layout chart still need separate review.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -8170,7 +8170,7 @@
         "https://www.sonomacounty.com/weddings/wedding-venues/the-venue-at-the-barlow/",
         "https://thebarlow.net/pages/the-grove-events"
       ],
-      "review_reason": "Recovered actual operator through tourism-linked Eventective Website link. Same Sebastopol6770McKinleyStSuite100,withTheGrove alias. Current operator advertises weddings/corporate/private gatherings; third-party3500–5000promotion explicitlyJanuary–March2026 is historical, not current price. Combined indoor/outdoor400 is not dinner+dance approval.",
+      "review_reason": "Recovered actual operator through tourism-linked Eventective Website link. Same Sebastopol6770McKinleyStSuite100,withTheGrove alias. Current operator advertises weddings/corporate/private gatherings; third-party3500\u20135000promotion explicitlyJanuary\u2013March2026 is historical, not current price. Combined indoor/outdoor400 is not dinner+dance approval.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -8416,7 +8416,7 @@
     {
       "id": "directory-lead-014a12790b44ab",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/vine-hill-house-at-oconnell-vineyards/",
-      "name": "Vine Hill House at O’Connell Vineyards",
+      "name": "Vine Hill House at O\u2019Connell Vineyards",
       "label_method": "Named tourism listing link",
       "source_channels": [
         "sonomatourism"
@@ -8439,9 +8439,9 @@
       "review_source_urls": [
         "https://www.sonomacounty.com/weddings/wedding-venues/vine-hill-house-at-oconnell-vineyards/"
       ],
-      "review_reason": "Actual tourism profile name, address and offering compared against existing property records. Same Sebastopol Vine Hill House at O’Connell Vineyards. Current operator body independently names this event site; corrected spelling read from source, not a new alias property. Identity resolution only; full current permissions, room layouts and costs remain separate.",
+      "review_reason": "Actual tourism profile name, address and offering compared against existing property records. Same Sebastopol Vine Hill House at O\u2019Connell Vineyards. Current operator body independently names this event site; corrected spelling read from source, not a new alias property. Identity resolution only; full current permissions, room layouts and costs remain separate.",
       "identity_review_source_kind": "regional_tourism_directory",
-      "original_imported_name": "Vine Hill House at OÃ¢â‚¬â„¢Connell Vineyards",
+      "original_imported_name": "Vine Hill House at O\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2Connell Vineyards",
       "name_correction_source_urls": [
         "https://www.sonomacounty.com/weddings/wedding-venues/vine-hill-house-at-oconnell-vineyards/"
       ]
@@ -8473,7 +8473,7 @@
         "https://www.sonomacounty.com/weddings/wedding-venues/vintage-house/",
         "https://vintagehouse.org/rentals/"
       ],
-      "review_reason": "Current nonprofit rental offer at264FirstStEastSonoma. StoneHall is public rental:300assembly or200formal sitdown, not200dinner+dance. Multi-purpose rooms25–50 are nonprofit-only; this restriction does not apply automatically to StoneHall. Commercial kitchen/equipment/parking advertised; prices and current wedding permission unknown.",
+      "review_reason": "Current nonprofit rental offer at264FirstStEastSonoma. StoneHall is public rental:300assembly or200formal sitdown, not200dinner+dance. Multi-purpose rooms25\u201350 are nonprofit-only; this restriction does not apply automatically to StoneHall. Commercial kitchen/equipment/parking advertised; prices and current wedding permission unknown.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -8561,7 +8561,7 @@
       "review_source_urls": [
         "https://www.sonomacounty.com/weddings/wedding-venues/wildwood-conservation-foundation-retreat-center/"
       ],
-      "review_reason": "Complete tourism profile read; older/undated wedding package $20,000 Friday2PM–Sunday2PM,150 ceremony/reception,60/62 summer overnight conflict. Lodging, bar staffing agreed hours, portable toilets and meals up to40 included BUT wedding reception meal, furniture-moving/setup/cleanup staff and likely guest shuttle extra; parking30. Primary homepage and /lander return empty script shells, not a working wedding offer. Actual county2023 original PDF reviewed ONLY pages1–5,12,14,23,26 and relevant permit conditions: phases52/60 TOTAL people including employees; one monthly Thu–Sun weekend35; special events NOT authorized by that permit; no amplified outdoor sound. Vesting/completed phases/newer modifications UNKNOWN. This materially conflicts with tourism150 and cannot establish current wedding permission. Do not declare closed or currently illegal from this document alone.",
+      "review_reason": "Complete tourism profile read; older/undated wedding package $20,000 Friday2PM\u2013Sunday2PM,150 ceremony/reception,60/62 summer overnight conflict. Lodging, bar staffing agreed hours, portable toilets and meals up to40 included BUT wedding reception meal, furniture-moving/setup/cleanup staff and likely guest shuttle extra; parking30. Primary homepage and /lander return empty script shells, not a working wedding offer. Actual county2023 original PDF reviewed ONLY pages1\u20135,12,14,23,26 and relevant permit conditions: phases52/60 TOTAL people including employees; one monthly Thu\u2013Sun weekend35; special events NOT authorized by that permit; no amplified outdoor sound. Vesting/completed phases/newer modifications UNKNOWN. This materially conflicts with tourism150 and cannot establish current wedding permission. Do not declare closed or currently illegal from this document alone.",
       "identity_review_source_kind": "regional_tourism_directory"
     },
     {
@@ -8591,7 +8591,7 @@
         "https://www.sonomacounty.com/weddings/wedding-venues/windsor-golf-club/",
         "https://www.windsorgolf.com"
       ],
-      "review_reason": "Actual current primary wedding/banquet offer agrees with tourism134019thHoleDriveWindsor. September29aeration notice with no year is not permanent closure. Restaurant Jimmy’sLakesideGrill and banquet rooms are one golf-property parent; capacities/menu charges unknown.",
+      "review_reason": "Actual current primary wedding/banquet offer agrees with tourism134019thHoleDriveWindsor. September29aeration notice with no year is not permanent closure. Restaurant Jimmy\u2019sLakesideGrill and banquet rooms are one golf-property parent; capacities/menu charges unknown.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -8920,7 +8920,7 @@
       ],
       "review_reason": "Specific AlexanderValley branch at tourism9280Highway128, not HANNA RussianRiverValley tasting room nearSantaRosa on same domain. Current primary home confirms both branches; private wedding offer/permissions for this branch remain unknown. Imported punctuation corruption corrected in new record; no shared-domain merge.",
       "identity_review_source_kind": "primary_operator",
-      "original_imported_name": "Hanna Winery â€“ Alexander Valley Hospitality Center",
+      "original_imported_name": "Hanna Winery \u00e2\u20ac\u201c Alexander Valley Hospitality Center",
       "name_correction_source_urls": [
         "https://www.sonomacounty.com/weddings/wedding-venues/hanna-winery-alexander-valley-hospitality-center/",
         "https://www.hannawinery.com"
@@ -8983,7 +8983,7 @@
       "review_source_urls": [
         "https://www.sonomacounty.com/weddings/wedding-venues/hawkwood-hill/"
       ],
-      "review_reason": "Whole county listing and current published alternate primary HawkwoodHill.com home text read. Same horse-property identity as1002–1004Chileno broker listing, not Wildwood or Chileno Valley Ranch5105. Current primary markets equestrian services and240+acres, no current wedding price/availability. Broker marks SOLD and says property has hosted weddings, not proof venue closed or future permission. Directory capacities200/250 and old tourism300+ remain inconsistent and not approved dinner capacity. Old hawkwoodhillfarm.com unavailable; alternate primary is reachable, so not a generic access blocker. Contact form fields read, not submitted.",
+      "review_reason": "Whole county listing and current published alternate primary HawkwoodHill.com home text read. Same horse-property identity as1002\u20131004Chileno broker listing, not Wildwood or Chileno Valley Ranch5105. Current primary markets equestrian services and240+acres, no current wedding price/availability. Broker marks SOLD and says property has hosted weddings, not proof venue closed or future permission. Directory capacities200/250 and old tourism300+ remain inconsistent and not approved dinner capacity. Old hawkwoodhillfarm.com unavailable; alternate primary is reachable, so not a generic access blocker. Contact form fields read, not submitted.",
       "identity_review_source_kind": "regional_tourism_directory"
     },
     {
@@ -9130,7 +9130,7 @@
       "review_source_urls": [
         "https://www.sonomacounty.com/weddings/wedding-venues/hyatt-regency-sonoma-wine-country/"
       ],
-      "review_reason": "Actual regional profile identifies hotel, ballroom and two garden wedding offers. Primary Hyatt route restricted at robots check; no bypass.75–350generic event range and253guestrooms not350dinner+dance approval. KnightsValleyceremony/SonomaValleyreception/ballroom separate conditions; current contract and fees unknown.",
+      "review_reason": "Actual regional profile identifies hotel, ballroom and two garden wedding offers. Primary Hyatt route restricted at robots check; no bypass.75\u2013350generic event range and253guestrooms not350dinner+dance approval. KnightsValleyceremony/SonomaValleyreception/ballroom separate conditions; current contract and fees unknown.",
       "identity_review_source_kind": "regional_tourism_directory"
     },
     {
@@ -9219,7 +9219,7 @@
         "https://www.sonomacounty.com/weddings/wedding-venues/iron-vine-restaurant/",
         "https://bennettvalleygolf.com/our-packages/"
       ],
-      "review_reason": "Complete primary packages page and relevant restaurant wedding/contact sections read; old restaurant URL404 recovered actual published current site. One course/restaurant event offering, ballroom/veranda/Sunset Room nested. Actual currently linked2027 wedding guide11pages and2026–27 social guide5pages whole text read; pages4/5 wedding and2 social visually checked. Wedding5h INCLUDINGceremony,2h decorating; ballroom120/over120requireswholebuyout; plated meals100max. Social room40–120/Sunset20–50/whole120–200 versus website180generic conflict. Mandatory22%service on food/beverage/some setup/service, NOTgratuity, plus tax; venuefee and F&B minimum unknown. No numeric package prices in current docs. Professional DJ REQUIRED, family/friend substitute prohibited. Coordination available EXTRA, not included with manager. Outside food prohibited except licensed bakery weddingcake; own wine corkage permitted, amountunknown. Rentals through venue/exception approval; florist arrangements assembled offsite. Barsetup fee conditional/hostedwaiver versus general barfee language needs quote. General restaurant20%gratuity8+ and20corkage not assumed wedding rates. Social50%minimum-revenue deposit nonrefund/nontransfer; wedding initial deposit amountunknown. Wedding finalcount14days versus social10days; bothbalance10days. Do not mix package terms.",
+      "review_reason": "Complete primary packages page and relevant restaurant wedding/contact sections read; old restaurant URL404 recovered actual published current site. One course/restaurant event offering, ballroom/veranda/Sunset Room nested. Actual currently linked2027 wedding guide11pages and2026\u201327 social guide5pages whole text read; pages4/5 wedding and2 social visually checked. Wedding5h INCLUDINGceremony,2h decorating; ballroom120/over120requireswholebuyout; plated meals100max. Social room40\u2013120/Sunset20\u201350/whole120\u2013200 versus website180generic conflict. Mandatory22%service on food/beverage/some setup/service, NOTgratuity, plus tax; venuefee and F&B minimum unknown. No numeric package prices in current docs. Professional DJ REQUIRED, family/friend substitute prohibited. Coordination available EXTRA, not included with manager. Outside food prohibited except licensed bakery weddingcake; own wine corkage permitted, amountunknown. Rentals through venue/exception approval; florist arrangements assembled offsite. Barsetup fee conditional/hostedwaiver versus general barfee language needs quote. General restaurant20%gratuity8+ and20corkage not assumed wedding rates. Social50%minimum-revenue deposit nonrefund/nontransfer; wedding initial deposit amountunknown. Wedding finalcount14days versus social10days; bothbalance10days. Do not mix package terms.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -9666,7 +9666,7 @@
         "https://www.sonomacounty.com/weddings/wedding-venues/monte-rio-riverfront-meadow/",
         "https://www.mrrpd.org/riverfront-meadow/"
       ],
-      "review_reason": "Distinct beachside meadow at east end of MonteRioBeachparkinglot, not CommunityCenter at district contact address20488Highway116. ApproximateMemorialWeekend–September30season,limitedpower/daylight use.500generic not dinner+dance. Public beach notice prohibits alcohol/amplifiedsound; private meadow applicability/exceptions require clarification. October2026PDF lists100/hour general meadow rate plus conditional fees; not an all-in wedding quote.",
+      "review_reason": "Distinct beachside meadow at east end of MonteRioBeachparkinglot, not CommunityCenter at district contact address20488Highway116. ApproximateMemorialWeekend\u2013September30season,limitedpower/daylight use.500generic not dinner+dance. Public beach notice prohibits alcohol/amplifiedsound; private meadow applicability/exceptions require clarification. October2026PDF lists100/hour general meadow rate plus conditional fees; not an all-in wedding quote.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -9696,7 +9696,7 @@
         "https://www.sonomacounty.com/weddings/wedding-venues/mountain-house-estate/",
         "https://www.mountainhouseestate.com"
       ],
-      "review_reason": "Actual current operator wedding offer explicitly identifies SonomaCounty and Cloverdale38000CA128; parcel jurisdiction not independently verified.100–250ideal guest range not330approval. Current in-house catering/all-inclusive marketing is not a complete price or proof older outside-catering claims still apply. Estate rooms/terraces need separate capacity/weather/clock/package review.",
+      "review_reason": "Actual current operator wedding offer explicitly identifies SonomaCounty and Cloverdale38000CA128; parcel jurisdiction not independently verified.100\u2013250ideal guest range not330approval. Current in-house catering/all-inclusive marketing is not a complete price or proof older outside-catering claims still apply. Estate rooms/terraces need separate capacity/weather/clock/package review.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -9761,7 +9761,7 @@
     {
       "id": "directory-lead-3e2fb6c3b8e75a",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/olympias-valley-estate/",
-      "name": "Olympiaâ€™s Valley Estate",
+      "name": "Olympia\u00e2\u20ac\u2122s Valley Estate",
       "label_method": "Named tourism listing link",
       "source_channels": [
         "sonomatourism"
@@ -9847,7 +9847,7 @@
         "https://www.sonomacounty.com/weddings/wedding-venues/paul-mahder-gallery/",
         "https://paulmahdergallery.com/rent-the-gallery-2"
       ],
-      "review_reason": "Completeprimarygalleryhome/rental andTHE222venuehire bodies read; one222Healdsburgproperty/sharedart/performancefacilities, nottwonewparents. Gallery20–200generic/rentstarting1000hour variable/no minimumhours published; currentTHE222190combinedspacesexclusiveoffering vsolder200/250directory. Not190approvedbanquet. Cateringbutton actually linksTheMatheson106Matheson private-diningpage, not a pricedTHE222brochure; distinctrestaurantcapacitynotaddedtoTHE222. GalleryAV/projector/technicianrentalextra/insurance riderrequested. Actual2017cityoriginal29IMAGEpages saved; ONLYphysicalp8/p9conditions visuallyread: unrelatedprivateparties/receptionsnotallowedunderTHATCUP2017-01,wineevents60/by9PM/ampnotafter10PM. Conflictswithcurrentweddingadvertising; newerpermit/currentapprovalUNKNOWN, no allegationcurrentillegal/closed. Do notturnhistoricalordinanceintoindependentcurrentcutoff.",
+      "review_reason": "Completeprimarygalleryhome/rental andTHE222venuehire bodies read; one222Healdsburgproperty/sharedart/performancefacilities, nottwonewparents. Gallery20\u2013200generic/rentstarting1000hour variable/no minimumhours published; currentTHE222190combinedspacesexclusiveoffering vsolder200/250directory. Not190approvedbanquet. Cateringbutton actually linksTheMatheson106Matheson private-diningpage, not a pricedTHE222brochure; distinctrestaurantcapacitynotaddedtoTHE222. GalleryAV/projector/technicianrentalextra/insurance riderrequested. Actual2017cityoriginal29IMAGEpages saved; ONLYphysicalp8/p9conditions visuallyread: unrelatedprivateparties/receptionsnotallowedunderTHATCUP2017-01,wineevents60/by9PM/ampnotafter10PM. Conflictswithcurrentweddingadvertising; newerpermit/currentapprovalUNKNOWN, no allegationcurrentillegal/closed. Do notturnhistoricalordinanceintoindependentcurrentcutoff.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -9966,7 +9966,7 @@
         "https://www.sonomacounty.com/weddings/wedding-venues/rooster-run-golf-club/",
         "https://roosterrun.com/weddings/"
       ],
-      "review_reason": "Primary wedding package is advertised, 2301 East Washington Street. Up to 220 combined banquet/patio is not a dinner+dance layout. Page says updated packages/menu coming soon while listing 1000 up to100 and1500 for100–150 facility component plus150+ table setup. Effective year unknown and not all-in; retain current-price uncertainty. Rehearsal/golf perks do not imply date availability.",
+      "review_reason": "Primary wedding package is advertised, 2301 East Washington Street. Up to 220 combined banquet/patio is not a dinner+dance layout. Page says updated packages/menu coming soon while listing 1000 up to100 and1500 for100\u2013150 facility component plus150+ table setup. Effective year unknown and not all-in; retain current-price uncertainty. Rehearsal/golf perks do not imply date availability.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -9996,13 +9996,13 @@
         "https://www.sonomacounty.com/weddings/wedding-venues/rosewood-events/",
         "https://www.rosewoodevent.com/general-7"
       ],
-      "review_reason": "Primarysingularrosewoodevent.com WORKS; earlierpluraldomainSSLfailurenotcurrentblocker. Fullhome/FAQ/about/contact bodies and text-onlyDinnerDancing/Glampingpagesread; images notfullyinterpreted. PrimarySonoma–Marinborder withsecondaryMarinclassification; preciseparcelcountyUNVERIFIED, countyfieldprovisionalnotSonomaTourismproof. NotRosewoodCommonsPleasanton. May–OctoberONLY/no weekdayweddings/oneweddingperweekend.13h9AM–10PMvenueaccess plusdaybeforetime, notindependentbar/music/cleanupapproval.200coveredreceptionvsdirectory225/otherdirectory250conflict. REQUIREDprofessionalweddingplanning/dayofcoordinationNOTpermitted. No mandatorybarpackage/BYOwineandhardliquor/nocorkage; licensing/staffconditionsunverified. Tentdrapinglightingchandelier/tableschairs/bars/firepit/2dressingsuites/parkingattendants/setupbreakdownincluded; nofullmeal/linen/staffpriceassumed. Guestcountbasedpricing/nohiddenfees/taxesclaimnotcompleteweddingquote. StaticcontactSuccessmessagesnotactualsubmission; noformfilled.",
+      "review_reason": "Primarysingularrosewoodevent.com WORKS; earlierpluraldomainSSLfailurenotcurrentblocker. Fullhome/FAQ/about/contact bodies and text-onlyDinnerDancing/Glampingpagesread; images notfullyinterpreted. PrimarySonoma\u2013Marinborder withsecondaryMarinclassification; preciseparcelcountyUNVERIFIED, countyfieldprovisionalnotSonomaTourismproof. NotRosewoodCommonsPleasanton. May\u2013OctoberONLY/no weekdayweddings/oneweddingperweekend.13h9AM\u201310PMvenueaccess plusdaybeforetime, notindependentbar/music/cleanupapproval.200coveredreceptionvsdirectory225/otherdirectory250conflict. REQUIREDprofessionalweddingplanning/dayofcoordinationNOTpermitted. No mandatorybarpackage/BYOwineandhardliquor/nocorkage; licensing/staffconditionsunverified. Tentdrapinglightingchandelier/tableschairs/bars/firepit/2dressingsuites/parkingattendants/setupbreakdownincluded; nofullmeal/linen/staffpriceassumed. Guestcountbasedpricing/nohiddenfees/taxesclaimnotcompleteweddingquote. StaticcontactSuccessmessagesnotactualsubmission; noformfilled.",
       "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-bb945b199a710e",
       "url": "https://www.sonomacounty.com/weddings/wedding-venues/rus-farm/",
-      "name": "ruâ€™s Farm",
+      "name": "ru\u00e2\u20ac\u2122s Farm",
       "label_method": "Named tourism listing link",
       "source_channels": [
         "sonomatourism"
@@ -10026,7 +10026,7 @@
         "https://www.sonomacounty.com/weddings/wedding-venues/rus-farm/",
         "http://www.rusfarmweddings.com/the-package/"
       ],
-      "review_reason": "WholeprimaryWelcome/package/rates/policy/location/contact/extras/cottagebodiesread. ContactbioexplicitlyidentifiesformerHealdsburgCountryGarden alias; ONE15acrefarm, notseparatealiasproperty. Bella winerelationship doesnotmergeBella’sseparatephysicalsite. Published16500allweekdays+500securitydeposit(refundstatusnotverified), currentquote/effectiveyearunknown despite2017footer. Package5hprepvsExtras4hpropertyaccess+11AMbridalsalon conflict; both6hevent/Extras2hteardown/1hrehearsal. Includedmanager10h/2parkingattendants/18round12recttables/150chairs/4heaters/18umbrellas/3restrooms/4x20ampcircuits; linen/tablewarefoodbarstaffnotstatedincluded. Housewineatspecialrate/additionalbeveragesallowed; requiredwinepurchaseunknown. TwooptionalcottagesNest1–2/Coop6 notincludedlodgingor8eventcapacity. Cancellation>90days50%refundONLYifdate rebooked/otherwise100%feesretained; balance+deposit90days,interimpayment120days. Ownprimarypublicstreetaddressabsent; secondary670Bailhache notpromotedasprimaryverified. Nooutreachuntilproperty/address/historygateschecked.",
+      "review_reason": "WholeprimaryWelcome/package/rates/policy/location/contact/extras/cottagebodiesread. ContactbioexplicitlyidentifiesformerHealdsburgCountryGarden alias; ONE15acrefarm, notseparatealiasproperty. Bella winerelationship doesnotmergeBella\u2019sseparatephysicalsite. Published16500allweekdays+500securitydeposit(refundstatusnotverified), currentquote/effectiveyearunknown despite2017footer. Package5hprepvsExtras4hpropertyaccess+11AMbridalsalon conflict; both6hevent/Extras2hteardown/1hrehearsal. Includedmanager10h/2parkingattendants/18round12recttables/150chairs/4heaters/18umbrellas/3restrooms/4x20ampcircuits; linen/tablewarefoodbarstaffnotstatedincluded. Housewineatspecialrate/additionalbeveragesallowed; requiredwinepurchaseunknown. TwooptionalcottagesNest1\u20132/Coop6 notincludedlodgingor8eventcapacity. Cancellation>90days50%refundONLYifdate rebooked/otherwise100%feesretained; balance+deposit90days,interimpayment120days. Ownprimarypublicstreetaddressabsent; secondary670Bailhache notpromotedasprimaryverified. Nooutreachuntilproperty/address/historygateschecked.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -10298,7 +10298,7 @@
         "https://www.sonomacounty.com/weddings/wedding-venues/singlethread-farm-restaurant-inn/",
         "https://singlethreadfarms.com/private-events-2/"
       ],
-      "review_reason": "Actual primary restaurant-property buyout/rehearsal/corporate/private dining offer, 131 North Street on linked homepage. Separate production farm and off-site activations are not automatically rentable wedding properties. North Wing 10–16 semi-private, 10 single table/11–16 adjacent tables; five rooms are lodging not event occupancy. Restaurant buyout wedding permission and fees unknown. Linked 2025 event PDF queued for actual document review.",
+      "review_reason": "Actual primary restaurant-property buyout/rehearsal/corporate/private dining offer, 131 North Street on linked homepage. Separate production farm and off-site activations are not automatically rentable wedding properties. North Wing 10\u201316 semi-private, 10 single table/11\u201316 adjacent tables; five rooms are lodging not event occupancy. Restaurant buyout wedding permission and fees unknown. Linked 2025 event PDF queued for actual document review.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -10357,7 +10357,7 @@
         "https://www.sonomacounty.com/weddings/wedding-venues/songbird-parlour/",
         "https://www.songbirdparlour.com/"
       ],
-      "review_reason": "Actual primary wedding/custom-event offer. Primary 23–46 dining buyout differs from tourism50 seated/85reception; preserve scope/version conflict, not choose largest.105/person group menu has minimum requirements and is not all-in wedding cost. Ordinary5–9PM dining hours are not wedding cutoff. Regional14301ArnoldDriveSuite3 identifies property.",
+      "review_reason": "Actual primary wedding/custom-event offer. Primary 23\u201346 dining buyout differs from tourism50 seated/85reception; preserve scope/version conflict, not choose largest.105/person group menu has minimum requirements and is not all-in wedding cost. Ordinary5\u20139PM dining hours are not wedding cutoff. Regional14301ArnoldDriveSuite3 identifies property.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -10506,7 +10506,7 @@
         "https://www.sonomacounty.com/weddings/wedding-venues/st-teresa-catholic-church/",
         "https://www.stphilipstteresa.org/locations.html"
       ],
-      "review_reason": "Primarylocations/parish/pertinentStTeresalocationandsharedhalltextread. TWOphysicalchurches underoneparish:StTeresaBodega17120BodegaHighway(primary) vs17242tourismconflict;StPhilipOccidental3730BohemianHighway. The125seated/250standinghall and1935fees areStPHILIP’sOccidentalhall, NOTStTeresaBodega capacity/price. Catholicweddingsadvertisedtourism/sacramentaluseeligibilityneedsparishconfirmation. No churchcapacity/ceremonyfeeinvented. Sharedparishoutreachcoordinationrequired.",
+      "review_reason": "Primarylocations/parish/pertinentStTeresalocationandsharedhalltextread. TWOphysicalchurches underoneparish:StTeresaBodega17120BodegaHighway(primary) vs17242tourismconflict;StPhilipOccidental3730BohemianHighway. The125seated/250standinghall and1935fees areStPHILIP\u2019sOccidentalhall, NOTStTeresaBodega capacity/price. Catholicweddingsadvertisedtourism/sacramentaluseeligibilityneedsparishconfirmation. No churchcapacity/ceremonyfeeinvented. Sharedparishoutreachcoordinationrequired.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -10536,7 +10536,7 @@
         "https://www.sonomacounty.com/weddings/wedding-venues/sugarloaf-wine-co/",
         "https://www.sugarloafwineco.com/private-events/"
       ],
-      "review_reason": "Current primary private/corporate-event offer,6705CristoLane. Primary page does not explicitly confirm weddings, though regional profile does. Regional120 seated plus dance versus152salon/250–300wholeproperty are separate scopes, not summed. Outside catering welcome with current vendor/licensing conditions still unknown.",
+      "review_reason": "Current primary private/corporate-event offer,6705CristoLane. Primary page does not explicitly confirm weddings, though regional profile does. Regional120 seated plus dance versus152salon/250\u2013300wholeproperty are separate scopes, not summed. Outside catering welcome with current vendor/licensing conditions still unknown.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -10739,7 +10739,7 @@
         "https://www.sonomacounty.com/weddings/wedding-venues/the-links-at-bodega-harbour/",
         "https://www.bodegaharbourgolf.com/explore/weddings-special-events"
       ],
-      "review_reason": "Actualprimaryweddingbody+4pageoriginal2026filenamebrochuretextread/p1coverIMAGE+p2tierchartvisuallyread. Golfcourse6thtee2450/beach2250 each+300REFUNDABLEcleaningfee;ceremony100maximum. Bistro850NONMEMBER/550BHHA member4h+250extrahour;10%memberweddingdiscountnotpersonalautomatic. Menus35/45/55tiers/taco35/37/40+20%service/tax, tierbasisnotexplicitstatedsoNOTnormalizedperperson. Appetizerfor100quantitiesnotassumed100people; corkage20member30nonmemberbasisnotexplicitnamed. TOURISM’sYachtClub130 isseparatephysicalsiteonemilenorth andnotcurrentBistro/dinnercapacity. CurrentYachtClubaddress/operator/availabilityunverified; historiclease-relinquishmentproposalnotproofclosed. NoGolfgreenfees usedasweddingrent.",
+      "review_reason": "Actualprimaryweddingbody+4pageoriginal2026filenamebrochuretextread/p1coverIMAGE+p2tierchartvisuallyread. Golfcourse6thtee2450/beach2250 each+300REFUNDABLEcleaningfee;ceremony100maximum. Bistro850NONMEMBER/550BHHA member4h+250extrahour;10%memberweddingdiscountnotpersonalautomatic. Menus35/45/55tiers/taco35/37/40+20%service/tax, tierbasisnotexplicitstatedsoNOTnormalizedperperson. Appetizerfor100quantitiesnotassumed100people; corkage20member30nonmemberbasisnotexplicitnamed. TOURISM\u2019sYachtClub130 isseparatephysicalsiteonemilenorth andnotcurrentBistro/dinnercapacity. CurrentYachtClubaddress/operator/availabilityunverified; historiclease-relinquishmentproposalnotproofclosed. NoGolfgreenfees usedasweddingrent.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -10873,11 +10873,13 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "storek-ninth-street-san-francisco"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
-      "review_reason": "Absent exact baseline; caterer profile gives155 9thStreet, reception999. Operator link redirects to broad inventory and omits Storek: current availability unresolved, not declared closed.",
+      "review_state": "reviewed_added",
+      "review_reason": "Partner roster identifies Storek/40,000sqft/multiplefloors/999RECEPTION. Current published NPU operator link redirects to other-venue inventory without Storek. Historical identity retained as a qualified lead; current operator, booking and wedding permission UNKNOWN, not declared available or closed. 1559thStreet partner vs149legacy address conflict. Never999dinner.",
       "review_attempts": [
         {
           "checked_utc": "2026-11-08T20:52:04.794970+00:00",
@@ -10887,7 +10889,12 @@
           ],
           "outcome": "Partner retains property profile but old operator URL redirects to broad inventory omitting Storek. Alternate directories disagree on149/1559thStreet and generic space capacities. No current property-specific operator booking confirmation. Remains pending, neither closed nor available claimed."
         }
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T14:14:00.791701+00:00",
+      "review_source_urls": [
+        "https://www.ggcatering.com/venues/storek"
+      ],
+      "identity_review_source_kind": "directory_profile"
     },
     {
       "id": "directory-lead-c8d0a5f194e108",
@@ -11078,11 +11085,19 @@
       "county": "Contra Costa",
       "city": "Concord",
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "the-veranda-fountain-plaza-concord"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
-      "review_reason": "Tourism event-plaza lead; wedding permission and exact rentable scope Unknown."
+      "review_state": "reviewed_added",
+      "review_reason": "Actual tourismoutdoorvenueprofile lists fountainplaza1000GENERIC withtableschairs. Currentoperatorhome/brandpartnerships/contact read: commercial activations andeventinquiries advertised, NOexplicitprivateweddingpermission/rentalfee/layout. Retain qualifiedprospect notverifiedwedding. Tenantparties/coworking areNOTwholeplazabuyout. Tourism1000notdinner. Publicbusinesshoursnot eventdeadline.",
+      "reviewed_utc": "2026-11-12T14:14:00.791701+00:00",
+      "review_source_urls": [
+        "https://www.visitconcordca.com/meetings/outdoor-venues/",
+        "https://shoptheveranda.com/"
+      ],
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-4dd1223d72ba0f",
@@ -11253,7 +11268,7 @@
     {
       "id": "directory-lead-7475788529a292",
       "url": "https://www.nps.gov/goga/getinvolved/short-term-lease-event-rental-space.htm",
-      "name": "GGNRA Building 989 — Crissy Field",
+      "name": "GGNRA Building 989 \u2014 Crissy Field",
       "label_method": "Manually reviewed named lead / actual downloaded roster anchor",
       "source_channels": [
         "discovery-method-audit-20261108"
@@ -11309,7 +11324,7 @@
     {
       "id": "directory-lead-4dcde623d28102",
       "url": "https://www.grandlakekitchen.com/private-events/",
-      "name": "Grand Lake Kitchen — Dimond",
+      "name": "Grand Lake Kitchen \u2014 Dimond",
       "label_method": "Manually reviewed named lead / actual downloaded roster anchor",
       "source_channels": [
         "discovery-method-audit-20261108"
@@ -11337,7 +11352,7 @@
     {
       "id": "directory-lead-07ef2d829bf3dc",
       "url": "https://www.pieranch.org/site-rentals-and-weddings",
-      "name": "Pie Ranch — Full Lower Slice",
+      "name": "Pie Ranch \u2014 Full Lower Slice",
       "label_method": "Manually reviewed named lead / actual downloaded roster anchor",
       "source_channels": [
         "discovery-method-audit-20261108"
@@ -11422,7 +11437,7 @@
     {
       "id": "directory-lead-83524d1e003acf",
       "url": "https://luxecruises.com/fleet/",
-      "name": "Luxe Cruises & Events — Cabernet Sauvignon",
+      "name": "Luxe Cruises & Events \u2014 Cabernet Sauvignon",
       "label_method": "Manually reviewed named lead / actual downloaded roster anchor",
       "source_channels": [
         "discovery-method-audit-20261108"
@@ -11927,10 +11942,12 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "legion-of-honor-museum-san-francisco"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_added",
       "review_attempts": [
         {
           "checked_utc": "2026-11-08T21:00:05.590334+00:00",
@@ -11940,12 +11957,18 @@
           ],
           "outcome": "Primary rental page returned403; no bypass. Partner profile read but current terms/eligibility not yet verified."
         }
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T14:14:00.791701+00:00",
+      "review_source_urls": [
+        "https://www.ggcatering.com/venues/legion-of-honor"
+      ],
+      "review_reason": "Primarystatic403resolved by ordinarysupportedbrowser. Actualweddingpage + all14rentalFAQanswers opened/read: Court450SEATEDtented/600reception; tentREQUIREDexceptceremony, earliest6:30PM. Balustrade250ceremonyONLY+otherrental/6PM. Rodin80seatedGallery10/200standing. Terrace150dinnerWITHdanceor180withdancingOUTSIDE/350reception. Approved8caterersONLY/allothervendorsapproved; rentincludesengineer/somecustodial/representative/security, NOTfood/drink/service staff. Fourhourfee basis/latestevent1AM; setup/cleanup/bar deadlines unknown. GeneralFAQnoequipment conflicts specialdeYoungCafeincludedtableschairs exception. FAQexplicitlyrejectsreligious/fundraising/political/gambling/under21events: exact scope forfamilyweddingrequiresclarification, not silently ignored. GGC500seated/10024thaddress conflicts currentprimary450tented/10034th. No price found; unknown notzero.",
+      "identity_review_source_kind": "directory_profile"
     },
     {
       "id": "directory-lead-1e0ab4c3fbac80",
       "url": "https://www.ggcatering.com/venues/mission-rocks-china-basin-park",
-      "name": "Mission Rock’s China Basin Park",
+      "name": "Mission Rock\u2019s China Basin Park",
       "label_method": "Manually reviewed named lead / actual downloaded roster anchor",
       "source_channels": [
         "discovery-method-audit-20261108"
@@ -12740,7 +12763,7 @@
         "https://www.bayareaweddings.com/vendor/brazilian-room",
         "https://www.ebparks.org/reservations/event-venues/brazilian-room"
       ],
-      "review_reason": "Same existing Brazilian Room. Berkeley mailing city does not change Contra Costa physical county. Current primary page also notes November–March South Park Drive closure; this affects routing, not venue closure. Current fee/layout review remains separate.",
+      "review_reason": "Same existing Brazilian Room. Berkeley mailing city does not change Contra Costa physical county. Current primary page also notes November\u2013March South Park Drive closure; this affects routing, not venue closure. Current fee/layout review remains separate.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -12824,13 +12847,24 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "ac-hotel-san-jose-santa-clara",
+        "ac-hotel-sunnyvale-cupertino"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_added",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/ac-san-jose-santa-clara-ac-sunnyvale-cupertino#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T14:14:00.791701+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/ac-san-jose-santa-clara-ac-sunnyvale-cupertino",
+        "https://www.marriott.com/en-us/hotels/sjccl-ac-hotel-san-jose-santa-clara/events/",
+        "https://www.marriott.com/en-us/hotels/sjcan-ac-hotel-sunnyvale-cupertino/events/"
+      ],
+      "review_reason": "Directory title combines TWOphysicalhotels; preserveddistinctrecords. THISSantaClara4rooms/1389sqft/InnovationLab30BANQUET50reception/Boardroom12conference30reception. Terrace1004sqft/pool2297sqft capacityUNPUBLISHEDnotzero. WeddingservicesYESprimary. Exactrent/cateringrequirements/service/tax/deadlinesunknown. Sunnyvale separateproperty notsameparent.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-ea3a64b677ac6a",
@@ -12868,7 +12902,7 @@
     {
       "id": "directory-lead-63e4ae989d62dc",
       "url": "https://www.bayareaweddings.com/vendor/avline",
-      "name": "Avéline",
+      "name": "Av\u00e9line",
       "label_method": "Manually reviewed named lead / actual downloaded roster anchor",
       "source_channels": [
         "discovery-method-audit-20261108"
@@ -12881,13 +12915,19 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
+      "collection_status": "Reviewed scoped disposition; not a verified in-scope venue or access blocker",
       "matched_record_ids": [],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_outside_scope",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/avline#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T14:14:00.791701+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/avline",
+        "https://avelinesantacruz.com/"
+      ],
+      "review_reason": "AdjacentSantaCruzoutsideoriginalninecountycore. Actualhome/FAQ/contactread; guestwing3bed2bath/nofullkitchen/nomeals/hottubunheated. ContactstillWEDDINGVENUEwhilehome/FAQnowlodging; eventavailability/price/capacity/addressunknown. Retainedadjacentfactreceipt, notclosed/notdiscarded."
     },
     {
       "id": "directory-lead-da8fc6104903be",
@@ -12905,13 +12945,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "bally-keal-estate-fairfield-solano"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_added",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/bally-keal-estate#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T14:14:00.791701+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/bally-keal-estate",
+        "https://www.ballykeal.com/gather/weddings"
+      ],
+      "review_reason": "Actualprimarywedding/corporate/FAQ/forms and12pWEDDING13pCORPORATEbrochurewholetextread; imageonlyweddingp3/p6/p11andcorporatep8mapviewed. FairfieldSolanoNOTNapaCounty. EventCenter400/10000sqft,TastingRoom150/3000sqft,Vineyard450ceremony,Knoll400. Brochure400general vscombinedindoor/outdoor450primarynot400dinnerdanceguarantee. CorporateRavensNest40/Lahinch12notdinner. Onsitecommercialkitchen/externalchefsadvertisedcorporate, notblanketweddingoutsidecateringapproval. No pricedpackage/rent inACTUALbrochures; directoryKnot20000startingnotprimaryorallin. FAQmemberdiscountsDONOTapplyprivateeventalcohol. Tripleseatpublished2026\u201327inquiry shellnotrendered/submitted. Tastinghoursnoteventcutoff.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-cc39a94f49dda6",
@@ -13009,7 +13058,7 @@
         "https://www.bayareaweddings.com/vendor/bees-n-blooms",
         "https://beesnblooms.com/"
       ],
-      "review_reason": "Same existing Santa Rosa Bees N Blooms. Current primary says public farm visits closed until March 2027, while private indoor events up to 25 continue year-round and outdoor pavilion up to 200 is seasonal May 15–October 1. Public visitor closure does not mean private event venue closure. These are generic scoped capacities, not dinner plus dance.",
+      "review_reason": "Same existing Santa Rosa Bees N Blooms. Current primary says public farm visits closed until March 2027, while private indoor events up to 25 continue year-round and outdoor pavilion up to 200 is seasonal May 15\u2013October 1. Public visitor closure does not mean private event venue closure. These are generic scoped capacities, not dinner plus dance.",
       "identity_review_source_kind": "primary_operator"
     },
     {
@@ -13061,13 +13110,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "blake-garden-kensington-contra-costa"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_added",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/blake-garden#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T14:14:00.791701+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/blake-garden",
+        "https://ced.berkeley.edu/visit/blake-garden"
+      ],
+      "review_reason": "ActualCEDprimarybodyreadincludinghistoryandvisitorinformation. 10+acreKensingtonteachinggarden/LandscapeArchitecturelaboratory. Visitorfree/noreservationisPUBLICVISITnotfreeprivateevent. WebsiteexplicitLAEPstudentgraduationsonlyclause isgraduationuse, notproofblanketweddingban. No privateweddingrentaloffer/rate/capacitypublishedonreviewedprimarypage. Qualifieddirectoryleadonly; weddingavailabilityunverified. SeparateCEDoperatorfromStudentUnionBES. Eshleman2465Bancroftnotgardenaddress; exactpublicstreetaddressnotverifiedinthiscapture.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-cd57efcd53d5ea",
@@ -13149,13 +13207,19 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
+      "collection_status": "Reviewed scoped disposition; not a verified in-scope venue or access blocker",
       "matched_record_ids": [],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_outside_scope",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/burrell-school-vineyards-winery#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T14:14:00.791701+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/burrell-school-vineyards-winery",
+        "https://burrellschool.com/private-events/"
+      ],
+      "review_reason": "SantaCruzCountySummitRoadoutsideoriginalninecountycore despiteLosGatospostalcity. PRIMARYactualwedding4p/private5pbrochuresread+pricingp4bothviewed: realweddingrent2000\u20136000bydayseason/8haccessincl2hsetup1hcleanup/event10PMcleanup11PM/50ideal75conditional+25%;holidaySatSun+20%/barserviceextra. Privateevent500/750/900tiersNOTweddingbuyout. Fulladjacentfactreceipt/originalsretained. No330capacityclaim."
     },
     {
       "id": "directory-lead-26aa8e3647c522",
@@ -13343,7 +13407,7 @@
         "https://www.bayareaweddings.com/vendor/ellington-events",
         "https://www.ellingtonevents.com/"
       ],
-      "review_reason": "Actual primary wedding/private-event facility at 3535 Industrial Drive, Suite B4. Two ballrooms, protected patio and lounge share one property; 40–300 layout marketing is not a single approved dinner/dance capacity. Services and drop-off catering are options with current fee/contract scope still unknown.",
+      "review_reason": "Actual primary wedding/private-event facility at 3535 Industrial Drive, Suite B4. Two ballrooms, protected patio and lounge share one property; 40\u2013300 layout marketing is not a single approved dinner/dance capacity. Services and drop-off catering are options with current fee/contract scope still unknown.",
       "identity_review_source_kind": "primary_operator"
     },
     {

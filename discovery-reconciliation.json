@@ -1,15 +1,15 @@
 {
   "candidate_urls": 580,
-  "resolved_candidate_urls": 431,
-  "unresolved_candidate_urls": 149,
+  "resolved_candidate_urls": 439,
+  "unresolved_candidate_urls": 141,
   "review_counts": {
-    "reviewed_added": 258,
+    "reviewed_added": 264,
     "reviewed_existing": 167,
     "blocked": 10,
     "reviewed_supplier_not_venue_offer": 1,
-    "reviewed_outside_scope": 2,
-    "pending": 139,
-    "excluded": 3
+    "reviewed_outside_scope": 4,
+    "excluded": 3,
+    "pending": 131
   },
   "complete": false,
   "scope_note": "Candidate-queue resolution only; even zero unresolved leads does not establish all venues discovered. Room counts and source downloads are not property coverage.",
@@ -3333,8 +3333,10 @@
       "candidate_id": "directory-lead-5ad40a65631586",
       "name": "Storek",
       "url": "https://www.ggcatering.com/venues/storek",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "storek-ninth-street-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-c8d0a5f194e108",
@@ -3394,8 +3396,10 @@
       "candidate_id": "directory-lead-c6a9f52a0214f7",
       "name": "The Veranda fountain plaza",
       "url": "https://www.visitconcordca.com/meetings/outdoor-venues/",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "the-veranda-fountain-plaza-concord"
+      ]
     },
     {
       "candidate_id": "directory-lead-4dd1223d72ba0f",
@@ -3659,8 +3663,10 @@
       "candidate_id": "directory-lead-15a3c24c214962",
       "name": "Legion of Honor",
       "url": "https://www.ggcatering.com/venues/legion-of-honor",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "legion-of-honor-museum-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-1e0ab4c3fbac80",
@@ -3926,8 +3932,11 @@
       "candidate_id": "directory-lead-bae287a3e6c61e",
       "name": "AC SAN JOSE SANTA CLARA  & AC SUNNYVALE CUPERTINO",
       "url": "https://www.bayareaweddings.com/vendor/ac-san-jose-santa-clara-ac-sunnyvale-cupertino",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "ac-hotel-san-jose-santa-clara",
+        "ac-hotel-sunnyvale-cupertino"
+      ]
     },
     {
       "candidate_id": "directory-lead-ea3a64b677ac6a",
@@ -3942,15 +3951,17 @@
       "candidate_id": "directory-lead-63e4ae989d62dc",
       "name": "Avéline",
       "url": "https://www.bayareaweddings.com/vendor/avline",
-      "state": "pending",
+      "state": "reviewed_outside_scope",
       "record_ids": []
     },
     {
       "candidate_id": "directory-lead-da8fc6104903be",
       "name": "Bally Keal Estate",
       "url": "https://www.bayareaweddings.com/vendor/bally-keal-estate",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "bally-keal-estate-fairfield-solano"
+      ]
     },
     {
       "candidate_id": "directory-lead-cc39a94f49dda6",
@@ -3992,8 +4003,10 @@
       "candidate_id": "directory-lead-d84a2dfa422108",
       "name": "Blake Garden",
       "url": "https://www.bayareaweddings.com/vendor/blake-garden",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "blake-garden-kensington-contra-costa"
+      ]
     },
     {
       "candidate_id": "directory-lead-cd57efcd53d5ea",
@@ -4017,7 +4030,7 @@
       "candidate_id": "directory-lead-d051b4ed8619e7",
       "name": "Burrell School Vineyards & Winery",
       "url": "https://www.bayareaweddings.com/vendor/burrell-school-vineyards-winery",
-      "state": "pending",
+      "state": "reviewed_outside_scope",
       "record_ids": []
     },
     {

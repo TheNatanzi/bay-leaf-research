@@ -1,6 +1,6 @@
 {
   "audit_id": "discovery-backlog-20261111",
-  "updated_utc": "2026-11-12T14:03:48.331884+00:00",
+  "updated_utc": "2026-11-12T14:14:00.791701+00:00",
   "original_pending_candidates": 500,
   "reviewed_dispositions_applied": [
     {
@@ -7088,9 +7088,131 @@
       "candidate_capture_sha256": "298cf75d46fb6b42b1331ab2a82017b42389b85c9604d7c764a5c43af2d579db",
       "operator_capture_sha256": "ebad1fca7b023fa472147e0087e7bb5b04a72288a3d8a27f54e7be520a3e3201",
       "reason": "Wholeprimaryhome/pricing/packages/directions/ALLFAQtextread. Actual33430Highway128Yorkville onMendocinoTourism, outsideoriginalninecountyBayAreacore despiteCloverdaleSonomaadvertising. Retainseparateadjacentpropertyfactreceipt withfullrates/conditions, notaccessblock orlostlead. Barn133DINNERvs200outside/OakTree125ceremony;22 overnight guests are lodging capacity, not event capacity. CurrentDay12500peakSaturday11000FriSun/19750overnight25500weekendup22lodging;150guestsincluded+50eachto200. Requiredhiredcuratedplanner/no dayof;outsidelicensedcatererapproval/BYOlicensedbar/nocorkage. Midnightrequires2x2000extraHOURSANDallguestbusing. Notcompleteallin; sourcefees/taxclaimdoesnotincludecaterer/planner/rentals."
+    },
+    {
+      "candidate_id": "directory-lead-5ad40a65631586",
+      "original_pending_index": 339,
+      "checked_utc": "2026-11-12T14:14:00.791701+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "storek-ninth-street-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.ggcatering.com/venues/storek"
+      ],
+      "candidate_capture_sha256": "1756f44629b02c5694d359dcce22ead7365b91d09d4ffe0ae453b748ae771a2e",
+      "operator_capture_sha256": "1756f44629b02c5694d359dcce22ead7365b91d09d4ffe0ae453b748ae771a2e",
+      "reason": "Partner roster identifies Storek/40,000sqft/multiplefloors/999RECEPTION. Current published NPU operator link redirects to other-venue inventory without Storek. Historical identity retained as a qualified lead; current operator, booking and wedding permission UNKNOWN, not declared available or closed. 1559thStreet partner vs149legacy address conflict. Never999dinner."
+    },
+    {
+      "candidate_id": "directory-lead-c6a9f52a0214f7",
+      "original_pending_index": 341,
+      "checked_utc": "2026-11-12T14:14:00.791701+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "the-veranda-fountain-plaza-concord"
+      ],
+      "source_urls": [
+        "https://www.visitconcordca.com/meetings/outdoor-venues/",
+        "https://shoptheveranda.com/"
+      ],
+      "candidate_capture_sha256": "f361df4c51204c7560afc920638729ae01379e5cd5fec1fd7cd0f6bf3e9cc852",
+      "operator_capture_sha256": "798e10268b5fcbdfc6b0710736741daf285df9e123c946d810966b9b04aca6fe",
+      "reason": "Actual tourismoutdoorvenueprofile lists fountainplaza1000GENERIC withtableschairs. Currentoperatorhome/brandpartnerships/contact read: commercial activations andeventinquiries advertised, NOexplicitprivateweddingpermission/rentalfee/layout. Retain qualifiedprospect notverifiedwedding. Tenantparties/coworking areNOTwholeplazabuyout. Tourism1000notdinner. Publicbusinesshoursnot eventdeadline."
+    },
+    {
+      "candidate_id": "directory-lead-15a3c24c214962",
+      "original_pending_index": 344,
+      "checked_utc": "2026-11-12T14:14:00.791701+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "legion-of-honor-museum-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.ggcatering.com/venues/legion-of-honor"
+      ],
+      "candidate_capture_sha256": "762eeef61322a514dfcd795c60759c57df47699e5faf06352f87d71dce2e6f5f",
+      "operator_capture_sha256": "762eeef61322a514dfcd795c60759c57df47699e5faf06352f87d71dce2e6f5f",
+      "reason": "Primarystatic403resolved by ordinarysupportedbrowser. Actualweddingpage + all14rentalFAQanswers opened/read: Court450SEATEDtented/600reception; tentREQUIREDexceptceremony, earliest6:30PM. Balustrade250ceremonyONLY+otherrental/6PM. Rodin80seatedGallery10/200standing. Terrace150dinnerWITHdanceor180withdancingOUTSIDE/350reception. Approved8caterersONLY/allothervendorsapproved; rentincludesengineer/somecustodial/representative/security, NOTfood/drink/service staff. Fourhourfee basis/latestevent1AM; setup/cleanup/bar deadlines unknown. GeneralFAQnoequipment conflicts specialdeYoungCafeincludedtableschairs exception. FAQexplicitlyrejectsreligious/fundraising/political/gambling/under21events: exact scope forfamilyweddingrequiresclarification, not silently ignored. GGC500seated/10024thaddress conflicts currentprimary450tented/10034th. No price found; unknown notzero."
+    },
+    {
+      "candidate_id": "directory-lead-bae287a3e6c61e",
+      "original_pending_index": 351,
+      "checked_utc": "2026-11-12T14:14:00.791701+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "ac-hotel-san-jose-santa-clara"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/ac-san-jose-santa-clara-ac-sunnyvale-cupertino",
+        "https://www.marriott.com/en-us/hotels/sjccl-ac-hotel-san-jose-santa-clara/events/"
+      ],
+      "candidate_capture_sha256": "60055bcc49d82f40a3e91924a7c03ac2878c9ce42b38fd142cc2f4abeebf588c",
+      "operator_capture_sha256": "4b7be4479ba025cdf2c9f629e82bdec1c711d82daf5f3f03957dfe33dffb1a51",
+      "reason": "Directory title combines TWOphysicalhotels; preserveddistinctrecords. THISSantaClara4rooms/1389sqft/InnovationLab30BANQUET50reception/Boardroom12conference30reception. Terrace1004sqft/pool2297sqft capacityUNPUBLISHEDnotzero. WeddingservicesYESprimary. Exactrent/cateringrequirements/service/tax/deadlinesunknown. Sunnyvale separateproperty notsameparent."
+    },
+    {
+      "candidate_id": "directory-lead-da8fc6104903be",
+      "original_pending_index": 354,
+      "checked_utc": "2026-11-12T14:14:00.791701+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "bally-keal-estate-fairfield-solano"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/bally-keal-estate",
+        "https://www.ballykeal.com/gather/weddings"
+      ],
+      "candidate_capture_sha256": "d2fcafa185aea4c039d786128d075f72a448fc09fc16cc7a607bcb8f21268215",
+      "operator_capture_sha256": "6379be6cb871034d50b6fdaac1bd68f128ce0375df3659690e0e32de04e389cf",
+      "reason": "Actualprimarywedding/corporate/FAQ/forms and12pWEDDING13pCORPORATEbrochurewholetextread; imageonlyweddingp3/p6/p11andcorporatep8mapviewed. FairfieldSolanoNOTNapaCounty. EventCenter400/10000sqft,TastingRoom150/3000sqft,Vineyard450ceremony,Knoll400. Brochure400general vscombinedindoor/outdoor450primarynot400dinnerdanceguarantee. CorporateRavensNest40/Lahinch12notdinner. Onsitecommercialkitchen/externalchefsadvertisedcorporate, notblanketweddingoutsidecateringapproval. No pricedpackage/rent inACTUALbrochures; directoryKnot20000startingnotprimaryorallin. FAQmemberdiscountsDONOTapplyprivateeventalcohol. Tripleseatpublished2026–27inquiry shellnotrendered/submitted. Tastinghoursnoteventcutoff."
+    },
+    {
+      "candidate_id": "directory-lead-d84a2dfa422108",
+      "original_pending_index": 359,
+      "checked_utc": "2026-11-12T14:14:00.791701+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "blake-garden-kensington-contra-costa"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/blake-garden",
+        "https://ced.berkeley.edu/visit/blake-garden"
+      ],
+      "candidate_capture_sha256": "96a05851427999fd72286c3b160b01fd6049a9a4620f4f12b203300ba30ae0fd",
+      "operator_capture_sha256": "ae31ed549e8c298b3221442271f80dd6304472119bd486b0642e147557e1ee21",
+      "reason": "ActualCEDprimarybodyreadincludinghistoryandvisitorinformation. 10+acreKensingtonteachinggarden/LandscapeArchitecturelaboratory. Visitorfree/noreservationisPUBLICVISITnotfreeprivateevent. WebsiteexplicitLAEPstudentgraduationsonlyclause isgraduationuse, notproofblanketweddingban. No privateweddingrentaloffer/rate/capacitypublishedonreviewedprimarypage. Qualifieddirectoryleadonly; weddingavailabilityunverified. SeparateCEDoperatorfromStudentUnionBES. Eshleman2465Bancroftnotgardenaddress; exactpublicstreetaddressnotverifiedinthiscapture."
+    },
+    {
+      "candidate_id": "directory-lead-63e4ae989d62dc",
+      "original_pending_index": 353,
+      "checked_utc": "2026-11-12T14:14:00.791701+00:00",
+      "state": "reviewed_outside_scope",
+      "record_ids": [],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/avline",
+        "https://avelinesantacruz.com/"
+      ],
+      "candidate_capture_sha256": "a36c72ba9fd385501e162b327e8c78622b87f053ecf92de4681518c472af6990",
+      "operator_capture_sha256": "32993479868d1bd3d17f46bb6b1c332d6acea631c91b6b34a93dcd15db61983c",
+      "reason": "AdjacentSantaCruzoutsideoriginalninecountycore. Actualhome/FAQ/contactread; guestwing3bed2bath/nofullkitchen/nomeals/hottubunheated. ContactstillWEDDINGVENUEwhilehome/FAQnowlodging; eventavailability/price/capacity/addressunknown. Retainedadjacentfactreceipt, notclosed/notdiscarded."
+    },
+    {
+      "candidate_id": "directory-lead-d051b4ed8619e7",
+      "original_pending_index": 361,
+      "checked_utc": "2026-11-12T14:14:00.791701+00:00",
+      "state": "reviewed_outside_scope",
+      "record_ids": [],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/burrell-school-vineyards-winery",
+        "https://burrellschool.com/private-events/"
+      ],
+      "candidate_capture_sha256": "8764f6d3392537ecd73e2fe4372922e747dd1568c5e7a7d0e5b4f81e35053db3",
+      "operator_capture_sha256": "8bed0011158e08db60fb2ce4b8fbe3bac3d387b569787e03c9c46e91dddc5082",
+      "reason": "SantaCruzCountySummitRoadoutsideoriginalninecountycore despiteLosGatospostalcity. PRIMARYactualwedding4p/private5pbrochuresread+pricingp4bothviewed: realweddingrent2000–6000bydayseason/8haccessincl2hsetup1hcleanup/event10PMcleanup11PM/50ideal75conditional+25%;holidaySatSun+20%/barserviceextra. Privateevent500/750/900tiersNOTweddingbuyout. Fulladjacentfactreceipt/originalsretained. No330capacityclaim."
     }
   ],
-  "unreviewed_original_inputs": 139,
+  "unreviewed_original_inputs": 131,
   "municipal_searches_completed": 0,
   "complete": false,
   "scope": "Queue identity resolution is not full venue facts, exhaustive geographic discovery or permission for any event. Actual access/identity blockers remain separate from unreviewed work."
