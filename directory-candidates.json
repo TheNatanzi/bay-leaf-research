@@ -2,8 +2,8 @@
   "summary": {
     "checked_utc": "2026-10-26T13:28:51.955107+00:00",
     "candidate_urls": 580,
-    "candidate_urls_with_exact_match": 362,
-    "candidate_urls_without_exact_match": 218,
+    "candidate_urls_with_exact_match": 369,
+    "candidate_urls_without_exact_match": 211,
     "source_counts": {
       "moderndjs": {
         "raw_named_cards": 361,
@@ -53,13 +53,13 @@
     },
     "added_venue_records": 0,
     "note": "Candidate URLs are not a venue count. Old source collection counts retain their original dates; followup state counts are current. Fragment-only links merged; names/URLs are aids, not automatic reviews. Original added_venue_records=0 describes index-only ingestion; primary_followup_records_added is separate.",
-    "primary_followup_records_added": 209,
-    "followup_checked_utc": "2026-11-12T11:37:04.106928+00:00",
+    "primary_followup_records_added": 213,
+    "followup_checked_utc": "2026-11-12T11:47:51.881906+00:00",
     "current_review_counts": {
-      "reviewed_added": 213,
-      "reviewed_existing": 141,
+      "reviewed_added": 217,
+      "reviewed_existing": 144,
       "blocked": 10,
-      "pending": 213,
+      "pending": 206,
       "excluded": 3
     }
   },
@@ -4864,10 +4864,19 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "monroe-private-events-san-francisco"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T11:47:51.881906+00:00",
+      "review_source_urls": [
+        "https://www.herecomestheguide.com/wedding-venues/northern-california/monroe",
+        "https://www.monroesf.com/private-events/"
+      ],
+      "review_reason": "EntireHCTGprofile/currentoperatorprivateeventbody/actual7pagecateringmenuread.473BroadwayMonroeexistingONEpropertywithDeco/Peacock/Avedonnot3parents. Primary25–200+generic/directory200seatedNOT330dinnerdance. Directory3000rentalSTARTINGnotcurrentprimarypublishedrent. Actual20servingsplates90–220bites/130–180salads/90–140dessertsand250–400boards;someboarddescriptionsSAYperpersonwhilefooters20servingsconflictUNRESOLVED/notdivideasfullmeal. Server250EACH4hevent/setup/platters/plates/servingutensils/passedstationed/cleanupincluded;serverquantitycustom/nofixedratio. Cateringextra/foodtaxbargratuity/venuechargesunknown;notcompleteperheadweddingestimate. PrimaryAvedonenclosedheatedwithsmokingpermitadvertisementnotcitypermitindependentlyverified. Noformfilled/nooutreach.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-d24f60936f1f73",
@@ -4885,10 +4894,19 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "presidio-log-cabin-log-cabin-san-francisco"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T11:47:51.881906+00:00",
+      "review_source_urls": [
+        "https://www.herecomestheguide.com/wedding-venues/northern-california/log-cabin-at-the-presidio-by-wedgewood-weddings",
+        "https://presidio.gov/venues/log-cabin-at-the-presidio/"
+      ],
+      "review_reason": "EntireHCTGprofileactuallyread;alreadyreviewedoperator/actual9page2026–2028PDFfrombatch26reusednotrepeated. Exact1299StoreyPresidioLogCabinNOTSanJoseAlumRockLogCabin. Newdirectory120seated/currentoperator120vsTrust250genericconflictretained.105ppdirectoryincludes2026tier/not2027starting107;venue2495–10995/1495ceremony+22admin/tax/minimaNOTallin. Same4.561MBpricebrochurealreadyactualreview/hash/privatearchive.5heventPLUSsetup,otheroutsidevendorsnotcatering/alcohol. Shortterm1000discountconditional/notuniversal. Onsiteaccommodationsdirectoryiconnotmandatoryroomblock.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-28c19d074bf146",
@@ -5002,10 +5020,19 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "aquatic-park-bathhouse-maritime-museum-san-francisco"
+      ],
       "match_method": "Not yet manually reconciled",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T11:47:51.881906+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/aquatic-park-bathhouse",
+        "https://www.nps.gov/safr/getinvolved/event-rentals-at-the-aquatic-park-bathhouse.htm"
+      ],
+      "review_reason": "FullSFUVAandcurrentNPSprimaryeventrentalbodyread. AquaticParkBathhouseakaMaritimeMuseumONElandmarknotPleasantHillAquaticPark/notNPSmailingaddress2Marinaasvenue. CurrentNPSJuly5,2026rentalpageweddingsYES/shorttermlease225standing150SEATEDwholebuildingonly3rdfloorfulloccupancydirectory,notroomcapacitysum/330dinner. Full13kMonThuexcludingFederalholidays/15kFriSunincludingholidays;SFUVAindividualroomsstart4ksecondarynotprimaryquote. NPSfullincludes4thfloor/verandawheredirectoryomits;basementofflimits. Setupafter4PMopenpublicdays/allsetupcleanupoutsidepublichours;equipmentNOTstairs/elevatoropening7x3ft/historicprotection. NOdarkdrinksredwineANDcoffee;clientremoveswaste/walkthroughvendors>=1week/subjectNPSstaffgenerallymax2eventmonth. Genericinsuranceamountunknown. Nooutreach/lease/hold/commitment.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-21915a7a878317",
@@ -5023,10 +5050,19 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "asian-art-museum-samsung-hall-san-francisco"
+      ],
       "match_method": "Not yet manually reconciled",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T11:47:51.881906+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/the-asian-art-museum",
+        "https://rentals.asianart.org/weddings-private-events/"
+      ],
+      "review_reason": "FullSFUVA/currentprimaryweddingroominventory/FAQ/catering/packages/guidelinesread.200LarkinAsianArtMuseumSamsungexistingONEparent/nestedotherroomsnotnewproperties. Samsung250seated350standingvsdirectory300standing/theater225;Bowes80seated200standing100theater,Loggia50cafe175standing,Peterson30seated50standing6PMstart. Terrace275seated500standingSFUVArequirescurrentprimaryscopeNOTautomaticallyapproved. WeddingEVENT5:30PMmidnight/latest1AMPAIDextension/guestoffbyspecifiedend;vendor2PMLOADDOCKonly/5:15PMeventroomsetup/2AMloadoutnot2PMguestaccess. Includedsecurity/liaisonONLYloadinout/coatROOMnotattendant/2–3studiosconditional;TABLESCHAIRSequipmentNOTincluded. APPROVEDcaterersonly/NOofflistfeeexception;FAQninevsactual11namescountconflict. InhouseAVequipmentrentalincludesonsitetech/clientoutsideAVallowed;docentextra/coatstaffextra;externalpacketrestrictionsCONTACTGATED. GenericreligiousEVENTbanvsweddingsadvertisedrequiresceremonyscopeclarificationnotblanketweddingban. All decorapproved/vendorwalkthrough/photographyapplication;noanimaldecor. Requiredinsurance/creditednonrefbookingunknownamount;holdchallengebindingcommitmentNOTperformed. Noformsfilled.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-6e13e491328181",
@@ -5075,10 +5111,19 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "august-hall-fifth-arrow-san-francisco"
+      ],
       "match_method": "Not yet manually reconciled",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T11:47:51.881906+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/august-hall",
+        "https://specialevents.livenation.com/venues/august-hall"
+      ],
+      "review_reason": "EntireSFUVA/currentLiveNationprimaryactualHTMLbodyand2pageone-sheetread.420MasonONEAugustHallwithFifthArrow/GreenRoomnot3parents. CurrentwebAssembly850reception220banquet340theater vsoriginalonesheet950/200/350;mainfloor450/150/250plusmezz500standing/50theateroldernot950dinner. Green50banquet50theatercurrentvs60/72PDF;Fifth40banquet30theatercurrentvs80banquetold. Whole1200generic/primary50–1000bodyNOT1200dinner/330approved. ***SFUVA-linkedAugustHall_Floor_Plans.pdfACTUALLYStAndrewsHall431ECongressDETROIT***all4pagestext/firstpagevisuallyconfirmedwrongproperty;REJECTforSFlayouts/currentcorrectfloorplanstillgap,notnetworkblock. PrimaryreaderTIMEDOUTbutordinarycollectoractualHTMLsuccesspreserved—notfalsefinalblock. Weddingsadvertised/inhousecustomcateringbar/AVpricesunknown,nofreetalent/complimentaryconditionalofferassumption. Nopaidservices/formsubmissions.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-8f808b19346893",
@@ -5155,10 +5200,19 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "the-battery-musto-building-san-francisco"
+      ],
       "match_method": "Not yet manually reconciled",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T11:47:51.881906+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/the-battery",
+        "https://www.thebatterysf.com/private-events"
+      ],
+      "review_reason": "EntireSFUVA/currentprimary6roombodyread/masteraliassearchNOmatch.717BatteryONEprivateclubnot6propertyadds/clubmembershipnotautomaticallynonmemberweddingeligibility. CurrentPenthouse50seated120standing80theater6200sf vsdirectory150standing2500+3000sfconflict;Parlor72/120/70,Musto40/80,Library28/60,Cellar22/35,Study12. Homepage7spacesvs6privateeventcardsunresolvednotinvent7thvenue. Publichotel14suitesresidentmemberprogramNOTrequiredroomblock/privateeventpermission. Legacyroomavailabilitytimesnottransferredascurrentcontract/restrictionsunknown. Noexactweddingapproval/currentprices orindependentmusicbarcleanupfound,notrejectedjustunknown. Nologin/memberapplication/outreach.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-cd1e9e90c6918f",
@@ -5176,10 +5230,19 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "the-box-sf-howard-san-francisco"
+      ],
       "match_method": "Not yet manually reconciled",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T11:47:51.881906+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/the-box-sf",
+        "https://theboxsf.com/pages/events"
+      ],
+      "review_reason": "EntireSFUVA/currentprimaryhome/events/all6roompages/about/contactbodyread. Exact1069–1073Howardonefourfloorbuildingnot6parents/newrooms perlayout. Primaryeventpage80seated125standingTopFloor vsroompage100seated125standing/100generic,Gate32table50room;examples63smallround54largeround60banquet64theaterNOT100dinnerdance. Buddy35seated40standingroomvs30/30overview/directory;Webster16,Willy8seated10standing,Pressroom40overview50room,Speakeasy8ADDONONLYupperbarpackage2hmin;not8moregenericweddingcapacity. Topblocks8AM4PM/4PMmidnightvscontactvenuehours2AM/Tue2PMtypoheldnotautomaticmusicpermission. Suites4hminimum,standardWiFiincluded/Gigupgradeunpricedvsfreegigoverviewconflict. FurnitureGate/suitesincludedbutMAINROOMextra,projectorEXTRA/onsitemanagerincluded,OUTSIDEcateringfeeunknown/noF&BminimumNOTfreerental/allin. Pressroomsmallweddingsadvertised/wholeweddinglayoutapprovalunknown. PricesCONTACTGATED/retailpaidPDFsNOTeventbrochure/notpurchased. Noformsubmission.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-a4878a59807795",
