@@ -2,8 +2,8 @@
   "summary": {
     "checked_utc": "2026-10-26T13:28:51.955107+00:00",
     "candidate_urls": 580,
-    "candidate_urls_with_exact_match": 389,
-    "candidate_urls_without_exact_match": 191,
+    "candidate_urls_with_exact_match": 394,
+    "candidate_urls_without_exact_match": 186,
     "source_counts": {
       "moderndjs": {
         "raw_named_cards": 361,
@@ -53,13 +53,13 @@
     },
     "added_venue_records": 0,
     "note": "Candidate URLs are not a venue count. Old source collection counts retain their original dates; followup state counts are current. Fragment-only links merged; names/URLs are aids, not automatic reviews. Original added_venue_records=0 describes index-only ingestion; primary_followup_records_added is separate.",
-    "primary_followup_records_added": 234,
-    "followup_checked_utc": "2026-11-12T12:35:46.621990+00:00",
+    "primary_followup_records_added": 238,
+    "followup_checked_utc": "2026-11-12T12:54:15.272160+00:00",
     "current_review_counts": {
-      "reviewed_added": 230,
-      "reviewed_existing": 156,
+      "reviewed_added": 234,
+      "reviewed_existing": 159,
       "blocked": 10,
-      "pending": 181,
+      "pending": 174,
       "excluded": 3
     }
   },
@@ -6143,10 +6143,19 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "merchants-exchange-club-san-francisco"
+      ],
       "match_method": "Not yet manually reconciled",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T12:54:15.272160+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/the-merchants-exchange-club",
+        "https://mxpsf.com"
+      ],
+      "review_reason": "Actual SFUVA and full operator body reviewed. Legacy mxclubsf.com actually renders GoDaddy parked domain, not an active inquiry form. Alternate published mxpsf.com redirects to parent-company Merchants Exchange Productions page and still identifies Club separately from Julia Morgan; previously reviewed 2021 original confirms 465 California lower-level Club. NEW ROOM within same Merchants Exchange physical site/operator as Banking Hall and Julia Morgan, not new building. Directory 220 banquet/250 theater/110 classroom vs historical original 200 seated/450 standing unresolved. Lower Club and Moya del Pino lounge nested; not five new properties. No current all-in price or unrestricted hours inferred from historical brochure.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-cd5ff857b01dd3",
@@ -6164,10 +6173,19 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "the-midway-event-venue-san-francisco"
+      ],
       "match_method": "Not yet manually reconciled",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T12:54:15.272160+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/the-midway",
+        "https://corporate.themidwaysf.com"
+      ],
+      "review_reason": "Actual current primary homepage, full six-room index and FAQs, six individual room pages and contact-form body reviewed. Existing ONE 900 Marin Street property. RiDE400 banquet/700 theater/1500 standing; Gods90/150/350; CarreSel70/100/175; Gallery250 standing; Patio150/170/400; Observatory88/110/200, not additive whole-property dinner capacity. All 15 image-only media-kit pages visually reviewed; full 2024/2025 tech-pack text and 2025 map read. Required advance for rigging/load-in; forklift rental/labor and extra bandwidth charged unknown; equipment availability not free production. 2024 no-noise-restrictions marketing not unlimited-current event permission. Indoor pyrotechnics prohibited. 2025 stage34ft7in by23ft vs current35x24 vs2024 35x22 conflict. Old v01 rider actually404; public Google Doc tech link remains unread. Contact form asks date, budget, count and contact; no entry/submission.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-183d6a3cb144ad",
@@ -6185,10 +6203,19 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "the-san-francisco-mint-san-francisco"
+      ],
       "match_method": "Not yet manually reconciled",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T12:54:15.272160+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/the-mint",
+        "https://thesanfranciscomint.com/info/"
+      ],
+      "review_reason": "Actual primary home/info/full FAQ, original 8page venue presentation and 2page floorplans all text and every page visually reviewed. Existing Old Mint at88Fifth ONE property, not 608Commercial first-mint museum. Primary52000sf999generic, mainfloor700 and vault299 generic original; not999 seated. Directory90000sf and firstfloor300standing vs original700 remain conflicts. Courtyard primary4000sf vs directory3900. Wedding dates LIMITED, suites/operations/logistics management listed; rent and staffing charges unknown. Original allows preferred vendors or bring own, no blanket food exclusivity assumed. Primary20ft ceiling vs original30ft conflict. Original pages show ADA/freight route not engineering certification. Blank wrapper pages contained real embedded PDF assets followed and read; no download-only review claim.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-2d133e9a0cd8f7",
@@ -6206,10 +6233,19 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "mosaic-three-embarcadero-center-san-francisco"
+      ],
       "match_method": "Not yet manually reconciled",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T12:54:15.272160+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/mosaic",
+        "https://embarcaderocenter.com/conference-center/"
+      ],
+      "review_reason": "Actual full center page and Mosaic primary, 12page2026 brochure full text and all pages visually read. NEW ONE Mosaic Lobby Level Three Embarcadero Center, not Commonwealth110Embarcadero or hotel room. Fullbuyout over550 GENERIC not550dinner; Redwood140 THEATER, Oak50/Bay40 MEETING, not dining. Public guest hourly1150/380/350 vs client950/320/290; Redwood guest4050halfday7650fullday/client3400/6400, durations unspecified, no assumed4/8hours. Citywide event exclusions. AV explicitly included and complimentary coffee/draft beverages; catering bespoke extra unknown. Weekday8–5 business hours NOT cutoff; brochure explicitly afterhours available. Direct published Tripleseat form static fields actually read, no entry/acceptance/submission. Three linked Issuu room sheets/virtual tour not yet reviewed.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-260a4a67dc63ab",
@@ -6227,10 +6263,19 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "museum-of-san-francisco-608-commercial-san-francisco"
+      ],
       "match_method": "Not yet manually reconciled",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T12:54:15.272160+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/museum-of-san-francisco",
+        "https://www.sfhistory.org/museumrental"
+      ],
+      "review_reason": "Entire primary museum rental/FAQ/form body and SFUVA reviewed. NEW ONE Museum of San Francisco608Commercial at first western mint site, distinct from Old Mint88Fifth. Primary4000sf vs directory4400; up400 generic whole property NOT400dinner. GoldRoom200standing100seated, lowerVault50standing25seated, deck48standing. Includes2floors/kitchen/staging/restrooms/100chairs/sound4wirelessmics/podium/oneguard and initial staff; not assumed free eventlong staffing or streaming. Own preferred caterer allowed, museum list optional. Setup11AM earlier negotiable, evening events after4PM/daytimecasebycase; not hard music/bar/cleanup cutoff. Written decor/music/entertainment approval required. Oneevent/day. No published rent; nonprofit discount not automatic private wedding. Actual inquiry fields include FirstLastEmailPhonePreferredDate and optional2dates/message; no data or submission.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-02fc8e3bf89608",
@@ -6248,12 +6293,19 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
         "the-newhall-nest-san-francisco"
       ],
       "match_method": "Exact normalized name aid only; manual identity review still pending",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T12:54:15.272160+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/the-newhall-nest",
+        "https://www.newhallnest.com/"
+      ],
+      "review_reason": "Actual SFUVA full current profile and primary home reviewed. Existing ONE260California penthouse, not TheNest4754Newhall. Prior batch30 actual10page2023brochure and vendor original review reused, not downloaded/read again.80TOTAL not80plus50indoor; living14as-is/30THEATER, conference14 private dining, roof2000sf nested. Directory Murphy-bed overnight claim not independently current licensed accommodation. Kitchen fridge/ice/dishwasher/microwave not commercial raw cooking permission. No current price; rates inquiry required. Existing insured outside vendor terms preserved.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-def3c37f9d4059",
@@ -6271,12 +6323,19 @@
       "county": "San Francisco",
       "city": "San Francisco",
       "geography_scope": "Association states city-only membership; individual location/event approval still requires verification",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
-        "palace-of-fine-arts-san-francisco"
+        "palace-of-fine-arts-indoor-exhibition-center-san-francisco"
       ],
       "match_method": "Exact normalized name aid only; manual identity review still pending",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T12:54:15.272160+00:00",
+      "review_source_urls": [
+        "https://www.sfuva.com/palace-of-fine-arts",
+        "https://palaceoffinearts.com/info/"
+      ],
+      "review_reason": "Actual indoor primary home/info/FAQ and8page presentation plus4page masterplan full text and all pages visually reviewed. NEW SPACE record for separately operated NPU indoor Exhibition Center3601Lyon within same Palace of Fine Arts campus as existing City Rotunda3301Lyon. Not new independent campus and no capacity copied onto outdoor City record. Primary expressly directs indoor toNPU but Rotunda toCity; separate booking permissions. 5000generic fullbuilding, ground4200/mezz1000 original not additive; directoryAtrium900seated unconfirmed current and21350/13500area conflict.135performingtheater primary vs150original theater conflict; not separate Palace Theatre962seats. Wedding offering includes ceremonyhall/suites/security/chairs tables linens150/logistics/rehearsal/dayof lead+2assistants, not proof all5000 guests equipped. Vendor choice allowed original, prices unknown. Masterplan grey shared/noaccess spaces not blanket exclusivebuyout. Footer88Fifth is NPU operator address, not wrong building. No paidparking/freeAV or late cutoff invented.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-88515e52d624b9",
