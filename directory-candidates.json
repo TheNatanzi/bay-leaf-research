@@ -2,8 +2,8 @@
   "summary": {
     "checked_utc": "2026-10-26T13:28:51.955107+00:00",
     "candidate_urls": 580,
-    "candidate_urls_with_exact_match": 467,
-    "candidate_urls_without_exact_match": 113,
+    "candidate_urls_with_exact_match": 475,
+    "candidate_urls_without_exact_match": 105,
     "source_counts": {
       "moderndjs": {
         "raw_named_cards": 361,
@@ -53,16 +53,16 @@
     },
     "added_venue_records": 0,
     "note": "Candidate URLs are not a venue count. Old source collection counts retain their original dates; followup state counts are current. Fragment-only links merged; names/URLs are aids, not automatic reviews. Original added_venue_records=0 describes index-only ingestion; primary_followup_records_added is separate.",
-    "primary_followup_records_added": 283,
-    "followup_checked_utc": "2026-11-12T15:03:34.141785+00:00",
+    "primary_followup_records_added": 289,
+    "followup_checked_utc": "2026-11-12T15:14:20.960754+00:00",
     "current_review_counts": {
-      "reviewed_added": 279,
-      "reviewed_existing": 188,
+      "reviewed_added": 285,
+      "reviewed_existing": 190,
       "blocked": 10,
       "reviewed_supplier_not_venue_offer": 1,
       "reviewed_outside_scope": 8,
       "excluded": 3,
-      "pending": 91
+      "pending": 83
     }
   },
   "candidates": [
@@ -14839,13 +14839,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "the-lodge-at-sonoma-sonoma"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_added",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/the-lodge-at-sonoma#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T15:14:20.960754+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/the-lodge-at-sonoma",
+        "https://www.thelodgeatsonoma.com/weddings/our-venues/"
+      ],
+      "review_reason": "Primary wedding/venues/catering/destination/offer/FAQ/chart read; actual two-page floorplan visually reviewed. ONE hotel, rooms not new properties. Wedding dinner ballroom160/Pavilion160 vs general banquet180/tent220 and winter FAQ200 conflict; Stone80 wedding vs100banquet; Lawn225 vs240chart/200ceremony; BlueOak50wedding vs60chart. Do not add overlapping rooms. HeritageOak125ceremony/reception not confirmed125dinner. Package food/bar/champagne toast/furniturelinen/cakeCUT offered not free standalone/no price. Specific2026–27 promotional offer requires20000FOODBEVERAGEMIN and group rate10peak-night rooms TWO-NIGHT minimum; contract signed by2026-12-16. Discount unspecified; one-night cottageJR suite breakfast2/signaturecocktail/spa10%/4thapp/points specific offer, not universal.45plusTAXpernightlodgingresortfee. Fourweekdetails/10daymenuchanges/3BUSINESSdayguarantee no reductions/paygreateractual. Price/servicetax/curfews unknown.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-23663960821378",
@@ -14863,13 +14872,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "the-lodge-at-tiburon-marin"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_added",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/the-lodge-at-tiburon#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T15:14:20.960754+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/the-lodge-at-tiburon",
+        "https://www.lodgeattiburon.com/weddings/"
+      ],
+      "review_reason": "PrimaryweddingFAQ and full18page2025brochureTEXTread/chartp3VISUALLYread. Main120BANQUET200THEATER not200dinner; Spinnaker50/Chart40/Compass16/Skydeck60/Tavern64/TavernPatio74banquet. BackPatio100webvs60PDF/68x49vs20x42conflict. PDFGarden30Firepit60/Boulevard36dining/Anchor8CLASSROOMnot8dinner. Chartclassroom20tablevs25prose;Main110vs94;Spinnaker35web40PDF. Onsitecateringcustombar/AVavailableNOTverifiedfree.104hotelroomsnotcapacity/norequiredroomnightclaim. Destinationfee35plusTAXperdaycurrentFAQvs25PDF/complimentaryparkingvsfeeincludesparking. Retaildogfeesscopesnotweddingrent. Currenteventrentfoodbarservicetaxcurfewsunknown.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-4593d448db1dee",
@@ -14918,13 +14936,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "the-namak-hercules-contra-costa"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_added",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/the-namak#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T15:14:20.960754+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/the-namak",
+        "https://www.thenamak.com/banquet"
+      ],
+      "review_reason": "Primaryhome/banquet/contactread. IndianPakistaniHALALinhousefood, weddingmehndi/receptionoffers. GRANDWEDDING200GENERICcapacity notverifieddinnerdance. Reception150,Mehndi80,Quince150,Milestone150,Eid200,Corporate200,Graduation120,BabyShower80 notseparateproperties/additive. Packageheadlineincludesmulticoursemenu/premiumfloralscoordination butprice/tax/service/BYOconditionsunknown. DJREADYnotDJincluded. BarCOMINGSOONhome notconfirmedcurrentbar. Retailrestaurantmenupricesnotweddingpp. Restaurant9PM10PMhoursnotprivateeventcutoff. Noformsubmitted.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-2245a4ea1013de",
@@ -14942,13 +14969,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "palace-hotel-san-francisco"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_added",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/the-palace-hotel-san-francisco#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T15:14:20.960754+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/the-palace-hotel-san-francisco",
+        "https://www.sfpalace.com/weddings/"
+      ],
+      "review_reason": "Primaryhome/weddingFAQ/eventFAQ/room-specificintroductions/equipment/catering sections and SINGLE sharedfeetcapacitychart reviewed, notduplicatefourmobile/meterscharts/globalnav. ONEhotelallrooms. Grand720BANQUET1000standing/theater vs72headlineCONFLICT. Gold400banquetprosechartvs420headlineCONFLICT; Ralston420;Sunset220chartvs300headline/proseconflict300istheaterchart;FrenchUpper90dinner150standing/1290sqftchartvs7000headlineconflict/Lower40banquet. TwinPeaks240banquet330standing not330dinner;Regency250STANDINGnotdinner;GardenCourtuniquephysicalspace noseparatenewhotel. GenericCateringServicesDINNER135/person (notall-inweddingquote), reception170/person is differentservice;roomrentserviceTAXbarminimumunknown.24vs23eventroomsconflict. Hotel-roomaccessibilityrollinshowersboilerplate notvalidatedballroomaccess. PublishedemenurobotsdisallowedNOTreviewed/bypassed.35000KnotstartingpriceONLYdirectoryreported notprimary/currentverified.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-4a5734b6e9dd28",
@@ -14966,13 +15002,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "the-purple-orchid-wine-country-resort-and-spa-alameda"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_existing",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/the-purple-orchid-wine-country-resort-spa#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T15:14:20.960754+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/the-purple-orchid-wine-country-resort-spa",
+        "https://www.purpleorchid.com/events-faq-policies"
+      ],
+      "review_reason": "Existing4549CrossRoadLivermoreONEproperty/tenLODGINGroomsnottenvenues. Currentwedding/fullEVENTFAQread. CateringandbeveragePurpleOrchid/OnTheVine; outsidecatererONLYifcuisinecannotaccommodate,extraunpublishedfee/licensedinsured/precontractapproval andpossiblypreferredservicestaff. NOoutsidealcohol/eventterminationwarned.24%operations+5%cateringGRATUITY+10.25%statedtax, chargebasesandcurrentquoteunknown/noallintotal. Outdoorconclude10PM/indoor11PM notsameascleanupdeadline. Nonrefundretainerpercentageunknown;5+roomGROUPcontractnotmandatory5rooms/all10buyout. Required1mGL/cost100–190VENUEestimate/notfixedquote. Tentsstructuresrequiredapprovedvendors/firepermits/othervendorsinsuredlicensedcheckbeforecontract. Parkingcomplimentary.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-6892c75cce5029",
@@ -14990,13 +15035,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "saturday-afternoon-club-santa-rosa-sonoma"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_added",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/the-saturday-afternoon-club#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T15:14:20.960754+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/the-saturday-afternoon-club",
+        "https://thesaturdayafternoonclub.com/rental"
+      ],
+      "review_reason": "Primaryhome/fullrentalread.175DINING225GENERALassembly not225dinner;5000sqftnotguestcount. SevenhourrentINCLUDESsetupcleanup;additionalhourspriceunknown. CleaningfeeincludesbasicfurnitureSETUPteardowndeepclean and is DEDUCTEDfromdeposit, remainderrefundedwithin30days, notfullyrefundabledeposit. LiabilityinsuranceREQUIREDamountunknown. CommercialPREPkitchen/notguaranteeunrestrictedcooking;stage/dressingprivatebath/ADA/BluetoothsoundwirelessmicAVWiFi availableinclusionsunknown. Adjacentpublic7thstreetgarage/directADA gate NOTverifiedfreeparking. Currentrentalcleaningdepositamountsfoodbarcurfewsunknown. Sitefiller@godaddy.complaceholderNOTauthenticatedaccount.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-24a45d1fc393d9",
@@ -15014,13 +15068,42 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "stregis-sf-conservatory-san-francisco",
+        "stregis-sf-modernist-san-francisco",
+        "stregis-sf-impressionist-san-francisco",
+        "stregis-sf-impressionist1-san-francisco",
+        "stregis-sf-impressionist2-san-francisco",
+        "stregis-sf-level4foyer-san-francisco",
+        "stregis-sf-terrace-san-francisco",
+        "stregis-sf-vitrine-san-francisco",
+        "stregis-sf-collections-san-francisco",
+        "stregis-sf-collections1-san-francisco",
+        "stregis-sf-collections2-san-francisco",
+        "stregis-sf-muse-san-francisco",
+        "stregis-sf-level3foyer-san-francisco",
+        "stregis-sf-gallery-san-francisco",
+        "stregis-sf-gallery1-san-francisco",
+        "stregis-sf-gallery2-san-francisco",
+        "stregis-sf-sculpture1-san-francisco",
+        "stregis-sf-sculpture2-san-francisco",
+        "stregis-sf-williams-san-francisco",
+        "stregis-sf-williams-private-san-francisco",
+        "stregis-sf-salon-san-francisco"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_existing",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/the-st-regis-san-francisco#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T15:14:20.960754+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/the-st-regis-san-francisco",
+        "https://www.marriott.com/en-us/hotels/sfoxr-the-st-regis-san-francisco/events/"
+      ],
+      "review_reason": "ExistingSINGLEStRegis125ThirdSFmappedALL21existingroom/configurationIDs/not22ndparent. ActualEVENTSrouteworksdespiteHOMEHTTPerror;wholeeventrelevantbody/singlechart/equipmentFAQaddressread notnewnetworksuccessforfailedhome. Gallery300BANQUET350reception400THEATER vs432meetingproseconflict;Terrace250BANQUET250standing300THEATER;Conservatory120/Modernist70/Impressionist100,I70II30/Vitrine60/Collections100,I30II60/GalleryI150II130/Williams50banquet/Muse20CONFERENCEnotdinner. FoyersSculptureunknownnotzero;overlappingsectionsnotadditive.10eventroomsvs21legacyconfigurationrecordsnot21properties. Prices/foodbarvendorpolicyserviceTAXnightlimitsunknown. SeparatepublishedweddingpageNOTyetreviewed;homefailureNOTwholepropertyaccessblocker.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-5af730c05bd2ac",
@@ -15038,13 +15121,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "uucb-kensington-contra-costa"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_added",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/the-terrace-at-uucb#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T15:14:20.960754+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/the-terrace-at-uucb",
+        "https://uucb.org/about-us/rental/"
+      ],
+      "review_reason": "PhysicalKensingtonContraCostaNOTBerkeleycityfromchurchname. ONEpropertyTerrace/Atrium/SocialHall/Sanctuary/Fireside/Safirnotseparateparents. Actualrental/wedding/ALLrentalAVFAQ/rates/preferredcaterersread/actual2019siteplanvisuallyread/twopage2019catererPDFallTEXTread. Social220TABLE238rows250standing;Atrium80table200standing;Terrace70TABLE130SEATED175standing;Fireside50table60seated100standing;Sanctuary400rowsnot400dinner. Package200maxoverrides220roomcapacityforpackage/roomsnotadditive. Standard4500weekday11–17/5000eveningweekend6h;Premium6500/70008h;Platinum9500/1050010h;Decemberuseshigherpricing. Allmajorrooms/furniture/basicAVeventhost;StandardkitchenMINIMUMnocooking;Premiumfullkitchenpianouse/Platinumcoverslivestream2ndtechavailabilitypianistshade. SetupcleanupINSIDEtime/twoEXTRAsamedayhours300;2hrehearsalbusinesshoursStdPremium/3heveningPlatinumends10PM. HourlySanctuary450/500,Atrium300/350,TerraceFiresideSocial250/300,Safir100/150. Kitchenmin250FLATorFULL125/hourENTIRErental;ownfingerfoodwithoutkitchenNOkitchenfee. NOplatescupscutlerylinens/kitcheninventory. BeerWINEonlyNOspirits/+250REFUNDdeposit;unlistedorselfcatering+250REFUNDdepositnotfee. Required1mGL/dayevent;deposit250–1000weddingvs500–1000FAQconflict. BalancecontractfloorplanAV14days/nochangeslater/cancel<3monthsforfeitdeposit. SundayNOENTRYbefore3PM. Food>50mustremoveALLtrashrecyclingcompost/notchurchbins. Stocktableschairs/setupincludedBUTstaffNOoutsidefurnituresetup. SitehostNOTplanner/generalAVoperation;AVspecificsONLYchurchstaff andoneportablespeakerset conflictwithblanketperroomoffer. Piano200+tuning200conditional/150BENCHoutsidepianistorrecordedmusicwhenorganistavailable. 500livestreamSanctuary2tech/min1hsetup/72hfiles/30dayvideo. Noeventcurfewestablished/10PMrehearsalnotgeneralcurfew. Securitynotprovidedrecommendedpublicor>150/notmandatoryclaimed. Officiantapprovedbyministerhonorariumextra. Noformsubmitted.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-34cde5277b2e42",

@@ -1,15 +1,15 @@
 {
   "candidate_urls": 580,
-  "resolved_candidate_urls": 479,
-  "unresolved_candidate_urls": 101,
+  "resolved_candidate_urls": 487,
+  "unresolved_candidate_urls": 93,
   "review_counts": {
-    "reviewed_added": 279,
-    "reviewed_existing": 188,
+    "reviewed_added": 285,
+    "reviewed_existing": 190,
     "blocked": 10,
     "reviewed_supplier_not_venue_offer": 1,
     "reviewed_outside_scope": 8,
     "excluded": 3,
-    "pending": 91
+    "pending": 83
   },
   "complete": false,
   "scope_note": "Candidate-queue resolution only; even zero unresolved leads does not establish all venues discovered. Room counts and source downloads are not property coverage.",
@@ -4491,15 +4491,19 @@
       "candidate_id": "directory-lead-6eedbc73971a83",
       "name": "The Lodge at Sonoma",
       "url": "https://www.bayareaweddings.com/vendor/the-lodge-at-sonoma",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "the-lodge-at-sonoma-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-23663960821378",
       "name": "The Lodge at Tiburon",
       "url": "https://www.bayareaweddings.com/vendor/the-lodge-at-tiburon",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "the-lodge-at-tiburon-marin"
+      ]
     },
     {
       "candidate_id": "directory-lead-4593d448db1dee",
@@ -4514,43 +4518,75 @@
       "candidate_id": "directory-lead-08c566c2e8110f",
       "name": "The Namak",
       "url": "https://www.bayareaweddings.com/vendor/the-namak",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "the-namak-hercules-contra-costa"
+      ]
     },
     {
       "candidate_id": "directory-lead-2245a4ea1013de",
       "name": "The Palace Hotel San Francisco",
       "url": "https://www.bayareaweddings.com/vendor/the-palace-hotel-san-francisco",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "palace-hotel-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-4a5734b6e9dd28",
       "name": "The Purple Orchid Wine Country Resort & Spa",
       "url": "https://www.bayareaweddings.com/vendor/the-purple-orchid-wine-country-resort-spa",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "the-purple-orchid-wine-country-resort-and-spa-alameda"
+      ]
     },
     {
       "candidate_id": "directory-lead-6892c75cce5029",
       "name": "The Saturday Afternoon Club",
       "url": "https://www.bayareaweddings.com/vendor/the-saturday-afternoon-club",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "saturday-afternoon-club-santa-rosa-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-24a45d1fc393d9",
       "name": "The St. Regis San Francisco",
       "url": "https://www.bayareaweddings.com/vendor/the-st-regis-san-francisco",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "stregis-sf-conservatory-san-francisco",
+        "stregis-sf-modernist-san-francisco",
+        "stregis-sf-impressionist-san-francisco",
+        "stregis-sf-impressionist1-san-francisco",
+        "stregis-sf-impressionist2-san-francisco",
+        "stregis-sf-level4foyer-san-francisco",
+        "stregis-sf-terrace-san-francisco",
+        "stregis-sf-vitrine-san-francisco",
+        "stregis-sf-collections-san-francisco",
+        "stregis-sf-collections1-san-francisco",
+        "stregis-sf-collections2-san-francisco",
+        "stregis-sf-muse-san-francisco",
+        "stregis-sf-level3foyer-san-francisco",
+        "stregis-sf-gallery-san-francisco",
+        "stregis-sf-gallery1-san-francisco",
+        "stregis-sf-gallery2-san-francisco",
+        "stregis-sf-sculpture1-san-francisco",
+        "stregis-sf-sculpture2-san-francisco",
+        "stregis-sf-williams-san-francisco",
+        "stregis-sf-williams-private-san-francisco",
+        "stregis-sf-salon-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-5af730c05bd2ac",
       "name": "The Terrace at UUCB",
       "url": "https://www.bayareaweddings.com/vendor/the-terrace-at-uucb",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "uucb-kensington-contra-costa"
+      ]
     },
     {
       "candidate_id": "directory-lead-34cde5277b2e42",

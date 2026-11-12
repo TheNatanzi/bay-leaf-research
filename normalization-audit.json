@@ -1,7 +1,7 @@
 {
-  "normalized_utc": "2026-11-12T15:06:04.869718+00:00",
-  "record_count": 2728,
-  "property_group_count": 1365,
+  "normalized_utc": "2026-11-12T15:16:54.437103+00:00",
+  "record_count": 2736,
+  "property_group_count": 1373,
   "identity_review_candidates": 91,
   "numeric_review_queue": 3274,
   "field_count": 106,
@@ -21,7 +21,7 @@
     "ceremony_fee": 3,
     "deposit_refundable": 312,
     "booking_credit": 16,
-    "cleaning_fee": 21,
+    "cleaning_fee": 22,
     "food_min": 42,
     "food_max": 24,
     "bar_min": 1,
@@ -32,9 +32,9 @@
     "service_pct": 119,
     "tax_pct": 12,
     "rental_hours": 46,
-    "minimum_rental_hours": 87,
+    "minimum_rental_hours": 88,
     "bar_hours": 2,
-    "hourly_fee": 47,
+    "hourly_fee": 48,
     "overtime_hourly": 11,
     "security_hourly": 46,
     "staff_hourly": 18,
@@ -114,8 +114,8 @@
     "lodging_payer": 1
   },
   "status_counts": {
-    "published_evidence": 7449,
-    "needs_confirmation": 14226,
+    "published_evidence": 7452,
+    "needs_confirmation": 14258,
     "conflicting": 244,
     "searched_no_public_answer": 3612
   },
