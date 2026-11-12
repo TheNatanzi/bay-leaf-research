@@ -1,6 +1,6 @@
 {
   "audit_id": "discovery-backlog-20261111",
-  "updated_utc": "2026-11-12T11:22:09.501946+00:00",
+  "updated_utc": "2026-11-12T11:37:04.106928+00:00",
   "original_pending_candidates": 500,
   "reviewed_dispositions_applied": [
     {
@@ -5735,9 +5735,160 @@
       "candidate_reader_evidence_sha256": "7c5c7352d201fb0800870877b4ff8abdf7caaffa2789b5482a57149792bd3ed7",
       "candidate_raw_retrieval_state": "http_error",
       "candidate_evidence_method": "Exact standard-web reader export actually reviewed; failed raw retrieval preserved."
+    },
+    {
+      "candidate_id": "directory-lead-55629b4f169bf2",
+      "original_pending_index": 147,
+      "checked_utc": "2026-11-12T11:30:15.736756+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "b-star-bar-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.partyslate.com/venues/bstar-bar",
+        "https://www.bstarbar.com/private-dining2"
+      ],
+      "candidate_capture_sha256": null,
+      "operator_capture_sha256": "4ead561b5d87c28ac23f0319218b872ace0bbea63af44a6893048410b3f37113",
+      "reason": "EntirePartySlateprofile/currentofficialprimaryprivateeventspageandformread.127ClementBStarBaronedistinctparentwithnested35guestpatio,mastername/addressaliassearchNOMATCH;notBurmaSuperstarsistersite. Full80primaryGENERICvsdirectory65/70seated75standing/FAQ75notapproveddinnerdance. Patio750SunThu/850FriSathour3hminimumincludesfoodnonalcoholicdrinks,alcoholtaxgratuityEXTRA. Wholelunch4000/dinnerMonThu5500/FriSun6500STARTS,includesspacefoodservice/softdrinks;not85ppallinfromdirectory. Small12–18group10ppFULLYREFUNDABLEreservationdepositup14days,notuniversalwholebuyoutcashorassumedspentfee. FormallowsNotyet/flexibledate,optionalbudget,requirescontact/referral/event/count/consent;nofill/submission. Publicbusinesshoursnotprivateeventmusiccleanup. Signaturecocktails/cake/floralsavailableONREQUESTnotautomaticallyincluded. Weddingpermission/outsidecaterer/currentmandatechargescopesunknown.",
+      "candidate_reader_evidence_sha256": "73df5e5cb562ba3c6c9b98e97f994228fe83806f6de40556648d552872a806d9",
+      "candidate_raw_retrieval_state": "http_error",
+      "candidate_evidence_method": "Exact standard-web reader export actually reviewed; failed raw retrieval preserved."
+    },
+    {
+      "candidate_id": "directory-lead-1e1deb4f01393c",
+      "original_pending_index": 148,
+      "checked_utc": "2026-11-12T11:30:15.736756+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "conservatory-of-flowers-conservatory-galleries-san-francisco",
+        "conservatory-of-flowers-west-gallery-micro-ceremony-san-francisco",
+        "conservatory-of-flowers-palm-terrace-san-francisco",
+        "conservatory-of-flowers-orchid-pavilion-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.partyslate.com/venues/conservatory-of-flowers",
+        "https://gggp.org/event-rentals/conservatory-of-flowers-event-rentals/"
+      ],
+      "candidate_capture_sha256": null,
+      "operator_capture_sha256": null,
+      "reason": "EntirePartySlateprofile/relevantcompleteoperatorvenueoptionsFAQbody/actual2026mapandsharedTripleseatformread. ExistingFOURroomrowsONEConservatorypropertynot4newvenues;notSunnysideConservatory. Currentgallery6PMORLATERvsdirectory5PMconflict;noactiveprimarymidnightmusic/bar/cleanupconfirmation. Pavilion150sitdowndinner/200standingnot150dinnerdanceautomatically;Palm200ceremony/diningdependingpackage/TENTSPROHIBITEDno330rainbackup. Westmicro50ceremony/chairssetupincluded/NOfooddrink;outdoorceremonyonlyNOfooddrink/tenting vsBUYOUTallowsoutdoordinner,keepPACKAGESCOPE. Reception4h/buyout6hEXCLUDESsetup/loadout. Approvedcaterersrequired,offlistdietaryexceptiononlywithapprovalandpossibleunknownfee;notblanketoutsidecatering. GalleryNOglassware/limitedfooddrink. Directory2025micro4950/reception11000–15000/buyout17000notcurrentprimaryquote(currentCONTACTGATED). Credited50%contractbookingnotautomaticallyrefundabledeposit;sitevisitprimaryRECOMMENDEDvsdirectoryrequiredconflict. FormoneoperatorlocationsConservatory/JapaneseTea/BotanicalGardendistinctphysicalproperties,notthreeidentitiesmerged;contact/date/time/count/details/referral/privacyGoogleCAPTCHA,noentry/submission. 2026publicmapGoldman50BowlingGreenRIDESHAREnotvenuepostaladdress;classroomeventspaceeastofgreenhousealreadyOrchidPavilionareaidentitynotnewparent.",
+      "candidate_reader_evidence_sha256": "73df5e5cb562ba3c6c9b98e97f994228fe83806f6de40556648d552872a806d9",
+      "candidate_raw_retrieval_state": "http_error",
+      "candidate_evidence_method": "Exact standard-web reader export actually reviewed; failed raw retrieval preserved.",
+      "reader_evidence_sha256": "d9ee95e4bd635164a3d0dd0eceea8d0d7531d936ef98f75ab9ba01cd1adfeb33",
+      "evidence_method": "Exact standard-web reader export reviewed; original HTML retrieval state preserved; no raw HTML success claimed"
+    },
+    {
+      "candidate_id": "directory-lead-3da980ebaa6a88",
+      "original_pending_index": 149,
+      "checked_utc": "2026-11-12T11:30:15.736756+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "the-newhall-nest-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.partyslate.com/venues/the-newhall-nest",
+        "https://www.newhallnest.com/rooftop-wedding-venue-san-francisco"
+      ],
+      "candidate_capture_sha256": null,
+      "operator_capture_sha256": "0e7839a79c024a5651beb145093d61558a3f4c690600779efbe61ec55f8b3386",
+      "reason": "EntirePartySlate/currentprimarywedding/contact/vendor/all5roomdescriptionsread;actual10page2023brochure+1page2024vendorlistread/privateoriginals. Exact260California12floorpenthouseONEparentnotNest4754CaliforniaorNewhallMansionPiru. Brochure50inside80TOTALnot50+80;currentroof80genericvsdirectory50seated50standing,not80approveddinnerdance. Living14furnished/30stadiumvs32extrachairswebconflict;conference12–14vsdirectory18;5roomsnot5properties;gamerom/vendorbackhouseandkitchenfridge/icemaker/dishwasher/microwave,notcommercialcookingpermission. CurrentpreferredvendorpageALLOWSowninsuredvendors;datedlistsrecommendationsnotmandatoryvendorpurchase. Directory3000minimum4hnotcurrentprimaryrate(currentCONTACTGATED). Noparkingonsite,nearbygarage2024midnightclosingNOTvenueclock. Directory19stepsfrom11to12accessconstraintretained/blankethandicapiconnottrusted;noaccessible-routeapproval. Overnightaccommodationadvertisednoquantity/minstay/mandatoryblockproven. PubliccontactpageNOvisibleinquiryform/call/emailnotnewformclaim;nooutreach/booking.",
+      "candidate_reader_evidence_sha256": "73df5e5cb562ba3c6c9b98e97f994228fe83806f6de40556648d552872a806d9",
+      "candidate_raw_retrieval_state": "http_error",
+      "candidate_evidence_method": "Exact standard-web reader export actually reviewed; failed raw retrieval preserved."
+    },
+    {
+      "candidate_id": "directory-lead-745b126d53d06d",
+      "original_pending_index": 150,
+      "checked_utc": "2026-11-12T11:37:04.106928+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "the-pearl-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.partyslate.com/venues/the-pearl",
+        "https://www.thepearlsf.com/events/weddings"
+      ],
+      "candidate_capture_sha256": null,
+      "operator_capture_sha256": "04581bb502611c87790f045c7e54ed106ac285808e626624ac10fb5e7d05fbdf",
+      "reason": "EntirePartySlateprofile/currentoperatorwedding/fournestedspaces/vendorbodiesread.60119thONEPearlproperty;SchoolNightindependententrance/rentalbutwithinSAMEphysicalpropertynotanotherparent. Directory220seated800standingnot800dinner;main220/500,roof220/220,mezz60/80,School60/110vsSchoolown72/100andprimary100lessconflict;noroomsum. Currentprimarymain3457sf/31ftceiling/fullcateringkitchen,mezz1188sf/roof4655sf/School1388sf;ADAelevator/lift. RooftopTENTexclusivelyBrightEventRentals;AVEXCLUSIVELYGotLight. Rentalinclusions10h/tableschairs/clean/managerfromdirectoryLABOREXTRA,notwholeallin/currentquote;currentprimarycoatstaffEXTRA. Foodpartnershipnotunrestrictedcatererfreedom;noactualratePDFoncurrentreviewedpages.",
+      "candidate_reader_evidence_sha256": "42afb666849fc8efdc936466b7dc89153b815f198b97a74322a4ed8022e4ebec",
+      "candidate_raw_retrieval_state": "http_error",
+      "candidate_evidence_method": "Exact standard-web reader export actually reviewed; failed raw retrieval preserved."
+    },
+    {
+      "candidate_id": "directory-lead-1de3d6b94656bf",
+      "original_pending_index": 151,
+      "checked_utc": "2026-11-12T11:37:04.106928+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "the-pearl-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.partyslate.com/venues/school-night",
+        "https://www.thepearlsf.com/spaces/school-night"
+      ],
+      "candidate_capture_sha256": null,
+      "operator_capture_sha256": "52eebff7097288f70508ddc9e8db11aa06fdccdd6eb55f23e816e9724be110b1",
+      "reason": "EntirestandalonePartySlateprofileandcurrentPearlSchoolNightpageactuallyread. SchoolNightnestedPearl60119thNOTnewparentoutreach/propertydespiteprivateentrance. Primary100orlessgenericvsdirectory72seated100standing/Pearlotherprofile60seated110standingkeepconflict. CurrentpartnerBettyZlatchin,AVGotLightexclusiveadditionaluplightingvsbuiltinprojector/sound. Dateddirectory6hvenueonly4000/bar+venue7760JanNovor10260Decemberplus21production/dated8.625tax/FOODEXTRA notcurrentissuedtotal. SixhourSchoolpackagevs10hPearlnotautomaticallysamehours. No independentmusicbarcleanupclockorfreeoutsidecateringinferred.",
+      "candidate_reader_evidence_sha256": "42afb666849fc8efdc936466b7dc89153b815f198b97a74322a4ed8022e4ebec",
+      "candidate_raw_retrieval_state": "http_error",
+      "candidate_evidence_method": "Exact standard-web reader export actually reviewed; failed raw retrieval preserved."
+    },
+    {
+      "candidate_id": "directory-lead-d3f121584c424e",
+      "original_pending_index": 152,
+      "checked_utc": "2026-11-12T11:37:04.106928+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "w-san-francisco-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.partyslate.com/venues/w-san-francisco",
+        "https://www.marriott.com/en-us/hotels/sfowh-w-san-francisco/events/"
+      ],
+      "candidate_capture_sha256": null,
+      "operator_capture_sha256": "bae19b1cc3a9270c0842e718c6cbc614740a20fb49bf3a6f26b91c24e04643a8",
+      "reason": "EntirePartySlateprofile/currentprimaryrelevantfullwedding/package/FAQ/18configurationcapacitychartread(foot/metertablesexactcapacityduplicate). Directorylastupdated2024prices4000/4500/7000EXPLICITEXPIRED2021-08-31,notcurrentestimate;25service/taxdatednotcurrentquote. Current18roomchartnot18properties;Greatcombined250banquet450reception360theatervs180weddingceremony/receptioncard,roomhalves120banqueteachNOTaddto250. Industry90banquetcardvs100chartconflict;Social150banquet300receptionvs120weddingcard. Workroom200banquet300receptionnot330dinner. Studio10conferencevsdirectory12,Strategy20vsdirectory16. CurrentEndlessMagicprivateSPACEuntil1AM/3hfullopenbarNOTblanketmusic/bar/cleanupclocks/allpackages. Dedicatedplannerincludedlistedpackagesbutcurrentpricesunpublished;guestroom/weddingsuiteinclusionnotmandatoryblock. Fulltable18configurations/combinedWorkroomsnotadditive.",
+      "candidate_reader_evidence_sha256": "42afb666849fc8efdc936466b7dc89153b815f198b97a74322a4ed8022e4ebec",
+      "candidate_raw_retrieval_state": "http_error",
+      "candidate_evidence_method": "Exact standard-web reader export actually reviewed; failed raw retrieval preserved."
+    },
+    {
+      "candidate_id": "directory-lead-9211f631499ede",
+      "original_pending_index": 153,
+      "checked_utc": "2026-11-12T11:37:04.106928+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "nella-terra-cellars-alameda"
+      ],
+      "source_urls": [
+        "https://www.herecomestheguide.com/wedding-venues/northern-california/vineyards-at-nella-terra-cellars",
+        "https://www.nellaterra.com/faq"
+      ],
+      "candidate_capture_sha256": "5994b389e44c8804fdbd66e14d874d8e4043b2b3bf563c28fa07eb767c3f0a84",
+      "operator_capture_sha256": "f6ef51a46215f513f1e64f2d0620c555cf5afd8d0919fccd1db248cca2ee11eb",
+      "reason": "EntireHCTGprofileplusprimaryhome/events/fullFAQread.5005SheridanSunolNellaTerra/TheVineyardsaliasexistingONEestate,300ceremony/receptionprimaryNOT330,patio40separateconfigurationnotadditive. AprOctseason,8–10hpackageextensionsallowedMUSIC11PM/CLEANUPCOMMENCESmidnightnotcleanupcompleted. REQUIREDOnTheVinecatererANDSimplyLovelycoordinator;otherpreferredvendorsRECOMMENDATIONnotmandatoryasdirectoryproseclaims. OutsidealcoholPROHIBITED,venuebeveragepackages. CurrentprimarypopularpackageAVERAGE20–40knotminimum/allin330quote,formalpricingformgated. Directory3500–7900sitefee+eventminimum12000midweek/15000–17500FriSun/22000–24500Sat+750ceremony+23service+5gratuity+taxscopes/base/minimumcreditunknown;doNOTaddsite+minimumasextrasblindly. Morningceremony4500/4hseparateoffer. Shuttleavailablevs74stepsprimary/75directorynotnoaccessibility. Noformsubmitted/tourbooked."
+    },
+    {
+      "candidate_id": "directory-lead-aee83393f44ec5",
+      "original_pending_index": 154,
+      "checked_utc": "2026-11-12T11:37:04.106928+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "shadelands-ranch-museum-contra-costa"
+      ],
+      "source_urls": [
+        "https://www.herecomestheguide.com/wedding-venues/northern-california/shadelands-ranch-museum",
+        "https://wchistory.org/museum/rentals/"
+      ],
+      "candidate_capture_sha256": "d9ff32817e92ae564340857e4c73af788305318959b4b45e72f6c6aac8f9790b",
+      "operator_capture_sha256": "c36ab67557c62d3b11b3524aa10620452b4bc91e8c9ee9af100d2dfa27308db9",
+      "reason": "EntireHCTGprofile/primaryrental/fullFAQ/actual12page2024–25contractandimage2022mapread.2660YgnacioValleyWalnutCreekONEoutdoorpropertynotmuseumindoorevent. 250–300lawnprimaryvs250seateddirectory/400standingnot330dinnerdance/noindoorbackup. 500/hour3hminimumINCLUDESSETUP/cleanup;150chairs30tables/90minrehearsal;200custodial>150webvs150+contractfaceEXACT150boundaryunresolved.100optionalkitchen/1000REFUNDdamage/atleast500creditedNONREFUNDbookingnotaddedtwice. 600/hourcontractovertimebilled30minincrementsNOTpermissionbeyond10PMevent/11PMcleanup;120day50%installmentface/final30day. ExternalvendorsFREEapprovedequipment,nochargescorkagecakebartenderFAQbutcustodialheadcountfeeconflictkept. Beer/wineONLYnohardliquor;securityMAYrequiredEXTRA/notinventamount. Outsidealcoholinpaper/cans/nooutdoorbottlescontract. 1mliabilityinsuranceEXTRA;noissuedlegalguidancefromcopiedlegacyordinancepages. PrimaryFAQparking35vscontract30vsmap23spaces/smokingparkingallowedFAQvscontractNONEparkinggrounds;birdseedALLOWEDprimaryvsdirectoryprohibitedconflict. Tents/generatorsrequirepreapproval/oldwiringnotcommercial,weathercancellationclientrisk/transfer100conditional. Actualbrochuretableinventory30round+othersnotallincluded30/150. Noform/contractexecuted/commitment."
     }
   ],
-  "unreviewed_original_inputs": 221,
+  "unreviewed_original_inputs": 213,
   "municipal_searches_completed": 0,
   "complete": false,
   "scope": "Queue identity resolution is not full venue facts, exhaustive geographic discovery or permission for any event. Actual access/identity blockers remain separate from unreviewed work."

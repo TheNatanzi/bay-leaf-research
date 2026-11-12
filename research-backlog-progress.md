@@ -1,7 +1,7 @@
 # Research progress — November 12
 
-- **269 of the original 500 pending profiles resolved**. **10 hidden-address identity blockers** remain unresolved, alongside **221 profiles awaiting final disposition**, some partly reviewed.
-- **203 net new venue/property/space lead records** now bring the master to **2,591 records**. These include uncertain and historical event offers and an explicitly flagged adjacent Delta lead, not a verified count of unique or approved wedding properties. All **110 locality workstreams remain partial**.
+- **277 of the original 500 pending profiles resolved**. **10 hidden-address identity blockers** remain unresolved, alongside **213 profiles awaiting final disposition**, some partly reviewed.
+- **204 net new venue/property/space lead records** now bring the master to **2,592 records**. These include uncertain and historical event offers and an explicitly flagged adjacent Delta lead, not a verified count of unique or approved wedding properties. All **110 locality workstreams remain partial**.
 - Missing records recovered include The Mountain Winery, Saratoga Springs, Villa Ragusa, Hillside Club, San José Museum of Art, La Vigna at Hecker Pass Winery, Shadow Lakes Club, Chateau St. Jean and Cornerstone Sonoma. Identity review does not mean all costs, room layouts or permissions are complete.
 - **Aliases and shared operators checked:** Sunol’s Casa Bella was an existing Casa Bella alias; the duplicate was merged with sources/history retained. Mayo’s Glen Ellen and Kenwood sites, and Monte Rio’s Community Center and Amphitheater, remain separate physical properties. Monte Rio’s actual October2026PDF explicitly prices Community Center weddings separately from its $1,500 general package.
 - [Expansive discovery methods: 10 repositories and 6 guides](expansive-discovery-methods-20261111.md) · [Current evidence-backed dispositions](discovery-backlog-resolution-20261111.json). Raw captures are preparation; unreadable sources and unreviewed material remain separate.
@@ -165,3 +165,12 @@ Current [Westin St. Francis wedding FAQ](https://www.marriott.com/en-us/hotels/s
 - Pier 27 social package includes basic Wi-Fi, parking, access-point security, janitorial and one waste bin; general rental rates charge separately. Package conflict is retained to avoid double charges. Approved caterer and external planner are required. Bay View is 125 seated/230 theater, not 230 dinner guests.
 - 25 Lusk and Galleria matched existing properties. Galleria main floor is 300 banquet with dance/400 without, not the directory generic 750 or 1,000 seated. The current 25 Lusk menu/brochure audit was already completed and was reused.
 - Search execution and source review remain separate. The 10,500-query run is active, and no query is marked exhausted merely because search results were saved. All 110 locality workstreams remain partial.
+
+
+## Latest source review — November 12, 11:42 UTC
+
+- B Star Bar is one newly reconciled property: current patio750SunThu/850FriSathour,3hminimum; wholelunch4000/weekdaydinner5500/weekend6500starting. Food/nonalcoholicdrinks included,alcoholtaxgratuityextra. Currentformallowsflexibledates.
+- ConservatoryofFlowers,NewhallNest,Pearl/SchoolNight,W SanFrancisco,NellaTerraandShadelands matched existingparents. Newhall50inside80TOTALnot130; ConservatoryPalmTerracetentsprohibited;SchoolNightownentrancedoesnotmakenewparent.
+- W SanFrancisco directory package4000/4500/7000 explicitly expiredAugust31,2021 despite2024updateflag. Current18layoutchartconfigurations250banquet/450receptionGreatRoomvs180weddingcard,not330dinner. CurrentpackageprivateSPACEuntil1AMdoesnotprove1AMmusic/bar/cleanup.
+- NellaTerrarequiresOnTheVinecateringandSimplyLovelycoordinator;otherpreferredvendorsrecommended,notrequired.300guestmaximum,11PMmusic/cleanupCOMMENCESmidnight.20–40kpopularpackageaverageNOTcomplete330guestquote.
+- Shadelandsactual12page2024–25agreementandimageplanreviewed:500hour3hminimum,150chairs30tables/90minrehearsal,200custodialabove150vs150+coverconflict;100optionalkitchen/1000refundablecash/min500creditednonrefundablebooking. Event10PM/cleanup11PM. Originaldocumentsprivate,notpublicattachments.
