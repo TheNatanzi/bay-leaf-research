@@ -1,6 +1,6 @@
 {
   "audit_id": "discovery-backlog-20261111",
-  "updated_utc": "2026-11-12T16:37:26.351447+00:00",
+  "updated_utc": "2026-11-12T16:50:15.584622+00:00",
   "original_pending_candidates": 500,
   "reviewed_dispositions_applied": [
     {
@@ -9080,9 +9080,327 @@
       "reason": "Currentnativebrowser72FULLweddingAXpageREAD ordinaryHTTProbotsunavailableRECOVEREDnormalbrowser.4550HeafeyRoadOakland94605explicitweddingsceremonyreceptionrehearsalwelcome/brunch. Indooroutdoor/flexrooms/inHOUSEcateringPLATEDBUFFETCOCKTAILBRUNCH/fullBARcuratedwinecocktails/complimentaryPARKING/eventteamtimelineroommenusbarcoordinationnotfreeindependentplanner. CurrentactualsiteNOcapacityNOpriceprinted;directory272SEATED/22202fullstarting/99offpeak12500minimumSECONDARYnotquote. ActualINQUIRYFORMfirstlastphoneemailDATEGUESTCOUNTtypecomments/reCAPTCHAexceedsFREEQUOTAmessage visible/unsubmitted/notproveformdeliveryworks/notbypass. PartyVenuepublishedseparatelinkUNREAD;loginNOTentered.",
       "rendered_evidence_sha256": "41fe696976f851911738d7c63ee99afcc9ad5ecf41409c380d0bd58e55836869",
       "evidence_method": "Browser-visible DOM snapshot, retained separately from the static HTML source bytes"
+    },
+    {
+      "candidate_id": "directory-lead-7b8316324aa6ad",
+      "original_pending_index": 481,
+      "checked_utc": "2026-11-12T16:43:36.295841+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "silverado-resort-napa"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/silverado-resort-and-spa",
+        "https://www.silveradoresort.com/weddings"
+      ],
+      "candidate_capture_sha256": "e0ece4b0cbc1f50629f8632ab2d4370bde92ccc14d152d7387aac3e82f3e66b0",
+      "operator_capture_sha256": "6c0e85d8da540ec814eba7474e6c3bde644131286ab1f8d9c4d788e93457ae8d",
+      "reason": "ExistingSilverado1600AtlasPeakNapa94558/currentweddingsANDactualVENUESfullbodyREAD. Arbor90/VintnerCourt90/MansionGardens500/TheFairwayDeck320/Ballroom320/Grove250/CourtsideCommons160/RoyalOak60allGENERICnot330dinnerdance. MansionGardens500proseCEREMONYnot500dinner. WeddingessentialsTABLESCHAIRSwhiteivoryblackLINENnapkinsCHINAFLATWAREvotivesPRINTEDmenus/noGLASSWAREclaimabsent. Onsiteeventmanager/customCATERINGfullBARS/unpublishedpriceandmandatoryminimum/service/tax/clockunknown/notretailhotelpriceallin."
+    },
+    {
+      "candidate_id": "directory-lead-27eb3a446856b6",
+      "original_pending_index": 482,
+      "checked_utc": "2026-11-12T16:43:36.295841+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "st-francis-winery-vineyards-santa-rosa-sonoma"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/st-francis-winery-vineyards",
+        "https://www.stfranciswinery.com/private-events"
+      ],
+      "candidate_capture_sha256": "ea25c57204917758e103e38587533ee60718610201cb0aea867d598b1a692ac7",
+      "operator_capture_sha256": "201543e241edadc5543bed3ad39c694cb537b30cbebe0666f20f7b1475f6f032",
+      "reason": "ExistingStFrancis100PythianSantaRosa95409/currentprivateeventsBOTHURLbodiesANDactualWEDDINGpageFULLREAD. WeddingsEXPLICITGreatLawn/Porticoheated/DiningRoomcanbeDANCEfloor/privateHOSPITALITYparlor/staging/1hrehearsal/5hEVENT6–11PM/OPTIONextra11–MIDNIGHTfeeunknown/park/loungefurnitureBUILTINDANCEFLOORandBAR/VIPwineselectiontasting/notfreebartending. TrolleyOPTIONALunpriced. PrivateGENERAL200generic6–9PMnotwedding9PMcurfew. GeneralEVENTfeatures1BOTTLEPERPERSONWINEpurchaseMINIMUM/catererrequiredPREFERREDlist/marketLIGHTSparkinghospitalitymanagement/weddingapplicabilityofminimumconfirm. PrivateWINEDINNER20–60grazing4course6–9PMdifferentfromwedding. CurrentpricesUNPUBLISHEDnotdirectory7500/10500quote. Actualweddingformrequiresfiancenamephoneemailcountdates/notfilled."
+    },
+    {
+      "candidate_id": "directory-lead-306b0244e72411",
+      "original_pending_index": 483,
+      "checked_utc": "2026-11-12T16:43:36.295841+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "stonetree-estate-by-wedgewood-weddings-marin"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/stonetree-estate",
+        "https://www.wedgewoodweddings.com/stonetreeestate"
+      ],
+      "candidate_capture_sha256": "d39857a06afc4f9d57af3aed8974692710c8d56eda4b8b6816953597d0a0acee",
+      "operator_capture_sha256": "112720c84b2bf2057a10cc694cb8f051bc7e5fa40ea250ddea029f149827563e",
+      "reason": "ExistingStonetree9StoneTreeLaneNovato94945/fullcurrentbodyREAD. CurrentBYO94Classic104Premier134Elite159pp+ceremonyFROM595+venueFROM1695+22%ADMIN+TAX/certainminimumsUNKNOWNnotdirectory2028rates7795/1795. PremieropenbarEliteTOPSHELF+extendedtimePHOTOBOOTHnotallinBYO. PriorWedgewoodglobalFAQauditretained/packagedetailnewnotreviewedhere/no330dancecapacityinbody. CraftsmanspacespatioBalconygettingreadysuites/onsitecoordinationnotindependentplannerassumed."
+    },
+    {
+      "candidate_id": "directory-lead-92cb02443b23e6",
+      "original_pending_index": 484,
+      "checked_utc": "2026-11-12T16:43:36.295841+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "temescal-regional-recreation-area-temescal-beach-house-alameda"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/temescal-beach-house",
+        "https://www.ebparks.org/reservations/event-venues/beach-house"
+      ],
+      "candidate_capture_sha256": "d25ca28a0412ca842ddef8874744cc6a71c73c1cd8774edc96b751745c11f6d6",
+      "operator_capture_sha256": "0ac8a87e507499daa6392425a9badf2685868af0ea6cf8245af65744ececedb6",
+      "reason": "ExistingTemescalBeach6500BroadwayOakland94618NOTdistrictHQ2950Peralta;actualcitybodyREAD+actual2p2026–2027RATEPDFALLTEXT/p1VISUAL.80SEATED130STANDING/not130dinner. AlamedaContraCostaRESIDENTvsOUTCOUNTY20%surcharge: MonThuSPECIAL8AM–5PM395/474,additionalmultiday335/402;ordinary8h740/888;Fri945/1134Sat1775/2130Sun1200/1440;extra2hMAXweekday75/90HRweekend185/222HR. PaidtimeINCLUDESsetupstrikecleanup/maxMIDNIGHTnotmidnightmusicguarantee. NONCATERED300EXTRAonlyfinishcleanupby7PMNOTmajorholidays;lateapprovedFULLCATERERrequired/unlocksetupcleanupLOCKcaterer/NOaccessbeforecaterer. NoOFFLISTcatererstaffdelivery;selfPICKUPfromofflistrestaurantpermittedunderDIY/volunteersUNPAID. RefundDEPOSIT1000separateinitial1000creditrent>180days/balance180days/notwithin30withoutapproval/lateLOADOUT500HR. COI1Mocc2Maggregate/additionalinsured/beerWINECHAMPAGNEONLYNOliquorparkingalcohol. 15GATEDparkinginclMUSTmanagegate/extrapublic5carAprOctwhenkioskattended/freeNovMar. Tables90CHAIRinventory/chairCOLORwhiteLIVEvsdarkbrownPDFconflict/AV65TVsoundbar/WIFI/prepkitchenfridgefreezermicroSMALLconvection/gasdressingroom/umbrellas3/waterfallNOTreservedguarantee. Cancel180days50%initialrefundextrafees100/179–90days50%rent/<=89NORENTrefund/damageDEPOSIT100%cancel. CurrentbluegreenalgaeDANGERswimmingCLOSEDnotwholeeventvenueclosed."
+    },
+    {
+      "candidate_id": "directory-lead-d93772e83e6059",
+      "original_pending_index": 485,
+      "checked_utc": "2026-11-12T16:43:36.295841+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "the-barn-at-harrow-cellars-sonoma"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/the-barn-at-harrow-cellars",
+        "https://thebarnatharrowcellars.com"
+      ],
+      "candidate_capture_sha256": "9e6804c15c18efdff59e8344da8b5d766e467803eabddbfe89d263dc8fbdc2c7",
+      "operator_capture_sha256": "53d1eb276ae2df7ec862efcce078519d06671550844baf587712bdc14dd329d0",
+      "reason": "ExistingHarrowBarnONEparentseparateCornerstone. ActualrootfullbodyREAD/WillowLawn225+Barn200+HarrowLawn225+GENERICnot330dinnerdance/notadditive. Weddingsexplicit/exclusiveINHOUSEcatererallinSERVICEnotfreefood/unpriced/brideprepSUITE. ActualFORMfirstlastmobileemailsourceemailPROMOchoiceDATECOUNTdescription/notfilled/NOactualfeefoodbarminimumtaxserviceclock."
+    },
+    {
+      "candidate_id": "directory-lead-63508313176393",
+      "original_pending_index": 486,
+      "checked_utc": "2026-11-12T16:43:36.295841+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "cia-at-greystone-st-helena-napa"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/the-culinary-institute-of-america-at-greystone",
+        "https://www.ciafoodies.com/weddings-st-helena-ca/"
+      ],
+      "candidate_capture_sha256": "5d09efc653a9cf8282c3b971a70508aa5bcafd08b80090e5eb90ddae8ec70430",
+      "operator_capture_sha256": "798e4e07a88061903e2b771cd336515dee100e4b81f10336009e3703edac4c46",
+      "reason": "NEWCIAatGreystone2555MainStreetStHelena94574NapaDISTINCTCopia500FirstNapa. Brokenoldciacheflocationsroute404normalbrowserrecoveredOFFICIALCIAFoodiesweddings+spaces+propertyFULLBODYREAD. ActualweddingPACKAGES34pALLTEXT/p6capacityp10inclusionsp22dinnerp30barp34footerVISUAL;preferred12pALLTEXT. Currentlinked2023URLbutinternalYEARUNSTATED/nofalse2026quote. GreystoneBARREL350SEATED550STANDprosediningdancingnotexplicit330layout/HerbTerrace180seat300stand/Atrium18seat50stand/Bakery52seat75stand/Board24seat30stand/TerraceRestaurantPatio80seat150stand/notadditive. GreystonesiteFEEAMOUNTUNPUBLISHED/includes6hEVENT/1hrehearsal/2readyrooms/TABLES/ONLY250CHAIRS/standardLINENnapkinschinaflatwareglassware/votivesfooter. ExtraEVENT2500HRnotextraBARtime/AVflowersDECORpremiumLINENtableschairsover250EXTRA. 23%TAXABLESERVICEstaffLABORprecoordkitchenproductionSUPPLIESNOTSITEFEE+taxUNSPECIFIED. Dinner20MINbuffetFAMILYSTYLE110pp3courseplated1204course140/extraCOURSE20/bread6/apps3select34onehour+12selection/charcuterie30mezze25pizza45/seafoodMARKET/sweets25cookie15cakeCUT8pp/snacks120DOZENnot120perperson. 5hBARbeerwine55Premium75Luxury85pp/extra10,14,16ppHR/2specialcocktails15pp/welcome6/wineupgrade5/iceglasswaretablesidewinewaterINCL/corkage15PERPERSONnotbottle. Coffee8onehour12twohours+6extraHRvsfooterALLPACKAGESCOFFEEteaINCLUDED CONFLICT/notdoublecharge. FoodbarpricesmenuSUBJECTCHANGEnotallinquote/depositMINIMUMclockvendorplannerrequirementUNKNOWN/preferredvendorLISTnotmandatoryproof. SAMEPDFCopiaotherpropertylayouts240Atrium160garden240TABLESamphi100patio100mezz60Hestan/notapplyGreystonecapacitiestoCopia. CopiaowninclusionfourrollingBARsnotGreystoneuniversal."
+    },
+    {
+      "candidate_id": "directory-lead-b126cd106b26ab",
+      "original_pending_index": 487,
+      "checked_utc": "2026-11-12T16:43:36.295841+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "estate-yountville-vintage-estate-washington-napa"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/the-estate-yountville",
+        "https://www.theestateyountville.com/weddings-events/weddings/"
+      ],
+      "candidate_capture_sha256": "f2f86411ce3ece340cd1227d015ccaaf26185776999cbcdb4e4354189b721258",
+      "operator_capture_sha256": "b18d75a7d62c1d6895ee0e5ff5c05fee976715cf710186225ff594a728c17b7f",
+      "reason": "ExistingEstateYountville6481WashingtonYountville94599/currentwedding+SPACEbodiesFULLREAD/ONE22acrecomplex7advertisedspaces2hotelsnot7parentproperties. Published6namedcapacitiesSocial276/Pavilion420/Vineyard60/Grove300/Barrel180/FoundersBoard30GENERICnot330dinnerdance. Social276combinesindoor2767sqftoutdoor4730notseatapproval. IntimateVineyardSocial/ClassicPavilionBarrel/GrandPavilionSocialpackagepairings/noactualrate. Villa5bedandprivateSPAoptionalrentalnotmandatoryguestbuyout/freeprep. CurrentfoodbeverageMENUSofferedbutpricesmandatorychargesunknown/notHotelYountville6462Washingtonsameproperty."
+    },
+    {
+      "candidate_id": "directory-lead-b71aa800b8991b",
+      "original_pending_index": 488,
+      "checked_utc": "2026-11-12T16:43:36.295841+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "the-meritage-resort-and-spa-napa"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/the-meritage-resort-and-spa",
+        "https://www.meritageresort.com/gather/venues/napa-wedding-venues"
+      ],
+      "candidate_capture_sha256": "cff00358df931fc9dc5327946b21e59d4680094a07df7413f570d83b374f5b54",
+      "operator_capture_sha256": "8c08ced1dea8e6a8cda69f0299782137f95efdd0518479ec63d853371d9040e3",
+      "reason": "ExistingMeritagealiasROOTdifferentdirectoryrowEXACT56parent/actualvenuebodyand3uniqueoriginalPDFs+allconditionsREUSED56notrepeatnornewproperty. 56Classic250Elegant300Luxury350+site6000–15000+27%service8.75taxbrochure/menu2025conflicting26%7.75/preserve56FULLconflictevidenceandprivateSHAoriginals."
+    },
+    {
+      "candidate_id": "directory-lead-47bf582415cce4",
+      "original_pending_index": 489,
+      "checked_utc": "2026-11-12T16:50:15.584622+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "the-pearl-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/the-pearl",
+        "https://www.thepearlsf.com/events/weddings"
+      ],
+      "candidate_capture_sha256": "6524a021f2e18b1bd2a42fb3adda11ed94154e2c4904ac72368689cef5a0f6a7",
+      "operator_capture_sha256": "04581bb502611c87790f045c7e54ed106ac285808e626624ac10fb5e7d05fbdf",
+      "reason": "ActualrootSHELL147chars thenweddingFAQHTMLbrochureFULLBODYREAD. 60119thStreetSF94107existingONEparent/SchoolNightcanstandaloneorcombo(notnewparentwithoutidentityaudit). FAQ10hTOTALsetupstrike/extra1000HRORFRACTION+TAX/ALLguestsoff1AM/CATERERS2AM/ROOFTOP10PM/SERVICESTAFFTAXEXTRApossibleSECURITY. PlannerMONTHOFANDDAYOFREQUIRED/notonsitemanager. TablesCHAIRSbutLABORextra/NOlinens/fullKITCHEN/approvedOUTSIDECATERERFEEamountunknown/licensedinsured/ALLBARPearl/ownBEERWINECORKAGEunknown/NOOUTSIDESPIRITS. Roofincludedfull3floorsbuyout/partialONLYpossible<30daylead/tentBrightEXTRA/AVEXCLUSIVEGOTLIGHTnotfree. BrochureCURRENTLINKisSUPERBOWLFeb5–9rate60000+tax/BARMIN60000++ NOTweddingpricing. Main200BANQUET300THEATER500reception/Mezz80BANQUET80theater100reception/Roof200all/School60BANQUET100other/TOTAL540banquet900receptionmathematicalaggregateNOT330single-roomdancefit/max800event600AFTER10PM/notconflictresolvebytotaladd. Furniture180CHAIRS15round9banquet10cocktail4umbrellas6heatersroof2loungesALLLABOREXTRA/2mbpswifiupgrade/POSTEVENTJANITORmanagerbikePARK. ConferencegettingreadyroomEXTRApossible. COIrenterallvendors;limitedflamePERMITpriorapproval/NOsparklers/coldsparksapprovalonly. 20%nonprofitEXCEPTSepOctDecnotweddingdiscount. Ordinaryweddingrent7500/14750directoryNOTconfirmedprimary;brochureSUPERBOWLnotusualweddingquote."
+    },
+    {
+      "candidate_id": "directory-lead-c58d6a2ae73699",
+      "original_pending_index": 490,
+      "checked_utc": "2026-11-12T16:50:15.584622+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "the-ritz-carlton-half-moon-bay-san-mateo"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/the-ritz-carlton-half-moon-bay",
+        "https://www.ritzcarlton.com/en/hotels/hafrz-the-ritz-carlton-half-moon-bay/weddings/"
+      ],
+      "candidate_capture_sha256": "21b23cda5c043d9eacf4b01d4176495b2050ef67d0faa0195225a72da10ca5f0",
+      "operator_capture_sha256": "bd34adcc25ded42c2531fd57ca2ff123ca6064ff0abcede56c8ac83f1628f2cf",
+      "reason": "NEWTheRitzCarltonHalfMoonBay1MiramontesPointRoad94019SanMateo/DISTINCTGolfLinksTWOmiramontes. WholemasternameRitz/1Miramontesnoexistingrecord. OldURLredirectMEETINGSfull23264bodyREAD thenactualcurrentWEDDINGS28197bodyfirst18000READ+exactCOMMONcapacitychart/serviceslinescomparedallchangesREAD/diffreceiptneeded. Ballroom300DINNERDANCEvs480BANQUET600standing810THEATERnot330dance. Miramar80DINNERDANCEvs120BANQUET160reception. OceanLawn350CEREMONY220BANQUET300standing/MarVista450BANQUET600standing450theater/dim7500vsprose8000conflict. Weddingheader600ballroomgenericnotdinnerdance. CURRENTDINNERfoodbeverageAVERAGE250–300pp/LUNCH175–225exclusiveTAXABLESERVICEandTAXratesUNSTATED/includesappsMEALcakeCUTwinehostedbarMODERATEdrinkingnotguaranteedquote. ResortALLfoodBARexceptapprovedWINECHAMPAGNE60per750ml+serviceTAX/cakeONLYoutsidefood/cakeCUT6.50plate+fees maybealreadyaverageinclusionnotdoublecount. FoodMINIMUMactualDOLLARUNPUBLISHED/appliesfoodbeveragecakeNOTupgraderentalsAVdecorBARTENDERchefPARKhotelROOMSERVICE. Kid3–10from60/vendorMEAL60+. TASTINGonlymin15000up5inclplannerTueThu1–4EXTRAperson250. Menu4–6weeks/count3BUSINESSdaysorONEweekchoiceentrees/guaranteechargedifless. BallroomMUSICMIDNIGHT/MiramontesandOUTDOOR10PM/venuepublishedalcoholrecommendstop1hbefore/venueassert1:30AMcapnotindependentlyverifiedCaliforniaLAWnotclaimed. CeremonyONLYnotavailablemusthostMEALreception. Deposits25–100%foodMIN+serviceTAXsiteNONREFNONDATETRANSFER/fullPREPAY/creditcardrequired/noacceptance. ValetONLYextraUNPUBLISHEDguestorhostpays/notminimum. Roomblock10+specialrateRECOMMENDEDnotmandatorybuyout. Rehearsal1hNOFEEsubjectscheduleconfirmed3weeksprior. SpecialEventManagernotindependentfullweddingCOORD;outsidevendorsapprovallicenseCOIcodeconduct. AVEncorepartnerAVAILABLEnotincludedfee."
+    },
+    {
+      "candidate_id": "directory-lead-644701debeb771",
+      "original_pending_index": 491,
+      "checked_utc": "2026-11-12T16:50:15.584622+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "the-san-francisco-mint-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/the-san-francisco-mint",
+        "https://thesanfranciscomint.com"
+      ],
+      "candidate_capture_sha256": "4432601b384e6334128a54f46b426a42e9c2643f582c7116a2e9a7b966bee763",
+      "operator_capture_sha256": "1d9e0715bfb8dac5d8e82174dad5f61f6aca5c99da81134a512f9dca96e2e4b4",
+      "reason": "ExistingSanFranciscoMintsiteNPUfullrootANDFAQBODYREAD/52000sqftcurrentvsdirectory90000CONFLICT/notweddingseatedcapacity999generic. TWOORNATEballroomsMULTIfloorsopenCOURTYARD. CurrentpricingCUSTOMquote/realCOINmint155HermannDIFFERENTPROPERTYnotmergeOldMint. VenueDeckandFloorPlanroutesactualHTML32charSHELLSnotdocumentsreviewed;embeddedresourceUNREADbrowserrequired/notclaimfloorplanreviewed. Noactualpricesfoodbarvendorrequirementplannerclockknown fromthese;priorreviewsretain."
+    },
+    {
+      "candidate_id": "directory-lead-b5128f2d28ff61",
+      "original_pending_index": 492,
+      "checked_utc": "2026-11-12T16:50:15.584622+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "the-terrace-room-at-the-lake-merritt-alameda"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/the-terrace-room",
+        "https://www.theterraceroomevents.com"
+      ],
+      "candidate_capture_sha256": "ef89faea26e66ec5b3dcf6d558e5e228bc202c61bd603e44f40b7870dea6262d",
+      "operator_capture_sha256": "ef3964c76aecd32974dc63ccc864c5de9e85d45976aeaf5d756eccd7e670cffd",
+      "reason": "TWOdirectoryaliases489offset? ActualTHEterraceroomeventsROOTSERVICESFAQfullbodyREAD/1800MadisonOakland94612ONEpropertynotFairmontSFterraceroom. Current190SEATEDMEALWITHDANCEFLOOR/not330fit. Lakeside60microweekdaydinnerMonThu/weekendbrunch;Madison90PLATED70BUFFETsameavailability/notadditivefullbuyoutseats. FullrentprivateaccessCEREMONYtablesCHIAVARIglasswareflatwarefoodBARstaffchampagneLINENblackchampagnenapkins/PAFULLROOMonly/onsiteprovidedSETUPSTRIKEbyvenueclientdecorvendoritemsCLIENT. InHOUSEfoodONLYexceptdessertcake/ownwineSPARKLINGcorkageunknown/noownspirits. TastingBOOKEDweddingBUYOUT3–4mobeforeincludesHOUSEwine. ContractROOMRENTdepositamountunknown/DropboxSIGNNOTsubmitted. NOHOTELROOMSatvenuehistoricHOTELnowAPARTMENTS/noaffiliationlodging. Currentpricesunpublishednotdirectory1200lunch2450weekend4000minimumprimaryverified. PublishedaflipCATERINGmenuandBRUNCH/HeyzineholidaylinksUNREADnotpricesextracted;preserveunreviewedresources."
+    },
+    {
+      "candidate_id": "directory-lead-d7d03f99516ed4",
+      "original_pending_index": 493,
+      "checked_utc": "2026-11-12T16:50:15.584622+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "the-terrace-room-at-the-lake-merritt-alameda"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/the-terrace-room-at-lake-merritt",
+        "https://www.theterraceroomevents.com"
+      ],
+      "candidate_capture_sha256": "323079363fbfb0b1bea496b6c4567ba5c90d63fb54b947422443961e3659e9ed",
+      "operator_capture_sha256": "ef3964c76aecd32974dc63ccc864c5de9e85d45976aeaf5d756eccd7e670cffd",
+      "reason": "TWOdirectoryaliases489offset? ActualTHEterraceroomeventsROOTSERVICESFAQfullbodyREAD/1800MadisonOakland94612ONEpropertynotFairmontSFterraceroom. Current190SEATEDMEALWITHDANCEFLOOR/not330fit. Lakeside60microweekdaydinnerMonThu/weekendbrunch;Madison90PLATED70BUFFETsameavailability/notadditivefullbuyoutseats. FullrentprivateaccessCEREMONYtablesCHIAVARIglasswareflatwarefoodBARstaffchampagneLINENblackchampagnenapkins/PAFULLROOMonly/onsiteprovidedSETUPSTRIKEbyvenueclientdecorvendoritemsCLIENT. InHOUSEfoodONLYexceptdessertcake/ownwineSPARKLINGcorkageunknown/noownspirits. TastingBOOKEDweddingBUYOUT3–4mobeforeincludesHOUSEwine. ContractROOMRENTdepositamountunknown/DropboxSIGNNOTsubmitted. NOHOTELROOMSatvenuehistoricHOTELnowAPARTMENTS/noaffiliationlodging. Currentpricesunpublishednotdirectory1200lunch2450weekend4000minimumprimaryverified. PublishedaflipCATERINGmenuandBRUNCH/HeyzineholidaylinksUNREADnotpricesextracted;preserveunreviewedresources."
+    },
+    {
+      "candidate_id": "directory-lead-37d05f7f8bb968",
+      "original_pending_index": 494,
+      "checked_utc": "2026-11-12T16:50:15.584622+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "trione-vineyards-winery-geyserville-sonoma"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/trione-vineyards-winery",
+        "https://www.trionewinery.com/weddings"
+      ],
+      "candidate_capture_sha256": "a5e8c32a711832aa998b5a877d0a4d6025605595b557e5ebf7d00439486fe0c2",
+      "operator_capture_sha256": "b1942bea9bd21ce50e30af7819174ad8769e803cbdd0b97f66d074b4ed5e951f",
+      "reason": "ExistingTrione19550GeyservilleAveGeyserville/actualweddingfullbodyREADup200genericnot330/actual2pSCANPDFBOTHVISUALreadNOembeddedtext—notdownloadonly. URL2025/12/2025nameeffectiveyearunknown/currentlinkedquoteconfirm. WeekendFriSun8500/MonThu5750/REQUIREDWINE750RETAILvaluepurchasePER50GUESTS/not15ppcompletebar/noroundupguessed/BEERNOADDITIONALCOSTSERVICEstatementnotFREEpurchasedbeer. PreferredVENDORSbutoutsideNEWvendorsWELCOMEmanagementapproval notmandatoryofflistprohibited/catererexclusivitynotshown. ExclusiveMULTIPLEspacesprepSUITEceremonyreception/historic2floorbuilding. ActualnewPDFNO5–10PMprinted;directoryclockSECONDARYnotcurrentprimaryverified/foodstaffrentalsserviceTAXinsuranceunpublished. WelcomepicnicHOURLYseparate/rehearsaloptionalnotmandatory."
+    },
+    {
+      "candidate_id": "directory-lead-c0729abe5de7c5",
+      "original_pending_index": 495,
+      "checked_utc": "2026-11-12T16:50:15.584622+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "uc-botanical-garden-alameda",
+        "uc-botanical-garden-redwood-grove-amphitheater-ceremony-only-alameda",
+        "uc-botanical-garden-julia-morgan-hall-reception-only-alameda"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/uc-botanical-garden-at-berkeley",
+        "https://botanicalgarden.berkeley.edu/rentals"
+      ],
+      "candidate_capture_sha256": "8d2b861db4668e5123399b65bbc951db400e6da92d4dcdb25b5861f4ee3d6e25",
+      "operator_capture_sha256": "2901b6db63f8f49eb1bea09e6c58f2d92da9fc4a0f1b4b0497968cff5390baca",
+      "reason": "ExistingUCbotanicalONE200CentennialBerkeley3room/offeringrowsnotnewparents. Actualrentals+weddingoverview+ceremonyONLY+ceremonyRECEPTIONfullbodiesREAD/microandreceptionexactCOMMONTEXTREUSEcomparedactualnewtextALLread/receiptprofiles59-botanical-exact-common-text-reuse.json. Ceremony200inclCOUPLEnotvendors/FriSun4500MonThu3500/2h+30setup11–1or2–4/timingONEHOURearlierNovMar/10PARKincl/NOFOODDRINKinGROVE/ampallowedgroveallrentals. CeremonyRECEPTION82inclCOUPLE/9500FriSun8500MonThu/6hheadline5–11PMvsTIMELINEguests11vendorsMIDNIGHTCONFLICT/last1hCLEANUP/90minHallsetup30minGrove/50parkreserved/extraCOCKTAIL5006–7PMoneEntrancePlazaORTourDeck/notboth/oneFamilyPlusmembershiprehearsalpublicschedule2mobefore. ReceptionONLY82FriSun5500MonThu2500/4h5–9PMguestOFF8PM1hcleanup/extraHOURSfeeunknownpossiblecontradictsblanketNOamendableFAQ/50PARKOPTION600otherwiseMETERSnotguaranteedspaces/90minsetup/DANCINGONLYHALLDECK. Micro25guests2500/elopement12guests2000MonThuONEHOUR11–12or1–2or3–4/30minsetup/10park30before30after/notmeal. ALLrequiredPROplannerCOORD(notrentalMONITOR)/APPROVEDcaterers/ownBEERWINELIQUORallowedHallTourDeckEntranceNOTGROVE/insurance~100–200estimate/REQUIREDOPENHOUSETourBEFOREbooking/48hhold/noearlyDROPORLATEpickup/clientCLEANtrashvendorcateringtrash/noSMOKINGnofoodplantbedsNOFLAMEpetsbubblesdronesballoonsconfetti/fakepetals;REALpetalsGroveSTAGEPAVEDonlyremoved. AmpINDOORanytimeoutdoorAFTER5exceptGroveallowedallrental. Included82chairs12round18rect2small4umbrellasMICPROJECTORSCREENspeakerswirelessjackpodiumkitchenette2bath/WIFI/preplacedinventoryNOhighTOPheatershighchairswheelchairs. OnephotoSEATED200CEREMONYnot82receptionupgrade."
+    },
+    {
+      "candidate_id": "directory-lead-c3324ca35033af",
+      "original_pending_index": 496,
+      "checked_utc": "2026-11-12T16:50:15.584622+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "v-sattui-winery-barrel-cellar-barrel-room-napa",
+        "v-sattui-winery-lower-courtyard-napa",
+        "v-sattui-winery-tower-lawn-napa",
+        "v-sattui-winery-vittorio-s-terrace-napa",
+        "v-sattui-winery-vittorio-s-vineyard-lawn-napa",
+        "v-sattui-winery-gold-room-napa",
+        "v-sattui-winery-elopement-at-the-estate-napa",
+        "v-sattui-winery-piccolo-package-napa",
+        "v-sattui-winery-bellezza-package-napa",
+        "v-sattui-winery-matrimonio-evening-package-napa"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/v-sattui-winery",
+        "https://www.vsattui.com/experiences/wedding-events"
+      ],
+      "candidate_capture_sha256": "69642599ba57e0f54809d32a6c336be5d8f93f4f96c94e341d0ac72812e0c700",
+      "operator_capture_sha256": "d9c5e7f2b807aa83a05267b0fdd39dff4451804fa08f03213ce115fe4396cfdb",
+      "reason": "ExistingVSattuiONE1111WhiteLaneStHelenaTENroompackageofferrows(not10parents). ActualweddingBODY+packages8pALLTEXT/2026FAQ19pALLTEXT/p11PHOTOCOLLAGEVISUAL(noactualMAP)READ. Packages2–20ELOPE2hMonThu11AM/privateCEREMONYOFFICIANTtoasttruffleDUOcheesecharcuterie;Piccolo11–35MonThu11AM2.5–3hLUNCHfarmtablesLINENglassOFFICIANTtoastcake;Bellezza26–50anyday10or11AM4hLAWNambientdiningfarmtablesglassOFFICIANTtoastcake;Matrimonio50–200anyday6PM5h. VenueMAX170WITHDANCE200WITHOUT/courtyardCEREMONY135TowerLawn200NOT330. Matrimonio6–11PMexclusiveESTATE/portraits4:30Towerwait5:30/sitefeeAMOUNTNOTPRINTEDdespitepricingheading. IncludesrehearsalTABLESwordenCHAIRSstandardLINENglassSERVICEstaff2026FAQ/1yearwineCLUBnotlodging. FOODfrom175ppinhouseStefanoMasanti/notallin;mandatoryPARTIALPLANNERpreferredLISTfullwedding/dayofmicrocurrentpackage/onlyrequiredlistedvendorplanner/otheroutsideconsultapproval. WINE45ppBASE3500SunFri4000SatGREATERminimum+22%SERVICE7.75TAXonWINE/micro42ppOVER21. HardLIQUORNO;newpackageownBEERciderNAupto100CANSvs2026FAQbeerLOCALdistributor/KegsCONFLICT/notclaimunrestrictedBYOalcohol. OutdoorsLIVEMUSICOFF10PM/weddingends11PM. BarrelRAINVALTERNATIVEincludednotmandatorytent/dancefloorbuiltinNOextra rental. NonrefDEPOSITrefundableifdateREBOOKEDminus20%ADMIN/milestoneamountunknown/5dayholdcontractreview/notSENT/ACCEPTED. HotelsNEARBYroomblocksnotonsitelodging. URL2026packagecurrentlinked/2026FAQexplicitconditionsscope."
+    },
+    {
+      "candidate_id": "directory-lead-2af7ea013a2858",
+      "original_pending_index": 497,
+      "checked_utc": "2026-11-12T16:50:15.584622+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "villa-chanticleer-wedding-package-sonoma"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/villa-chanticleer",
+        "https://villachanticleer.com/weddings"
+      ],
+      "candidate_capture_sha256": "a8496e98c677ecc2eff331c8e437b17b6b1db89065493b7d38eec1b78ea2675d",
+      "operator_capture_sha256": "4d721d5961e75f9bba0b9a3554646860300654d103d9baa1f75a2b92006449a2",
+      "reason": "ExistingVillaChanticleerWEDDINGPACKAGErownotMAINVILLAgardenpublicseparateoffers. ActualweddingPRICINGFAQBARBOTHaliasesFULLBODYREAD/current2026–2027weddingMayOctSat8750FriSun6500MonThu4500/NovAprSat5750FriSun4500MonThu3000/notprivateEVENT4h1500–4500weddingrate. 6hEVENT4–10PM/access4hbeforeSTANDARDNOON/earlier500FLAT/extraEVENT500HR+extraBAR500HRSEPARATEuntilMIDNIGHTnot500total. Up250GENERICnot330/2roomsGardenGazebo/commercialKITCHEN/furniture360CHAIRS30tables12cocktails44barstools2farmtables/lounge2/AVprojectorSCREENbarGLASSWARE/disposalPARK151weddingsvsFAQ150minorconflict/noTRANSPOREQUIRED. OUTDOORactivitiesBEFORE6PM/INDOORdinnerDANCE/livebandsINDOOR. IncludedSETUPSTRIKEvenuefurniture/notWEDDINGCOORDINATION/requiredDAYOFnonguestcoordinator/approvedcatererORBUYOUT750/outsidePLANNER750/DJ500/BAND500plusCOIwalkthroughBEFOREbooking/vendoragreement/allphotofloralCOIagreement/nonspecialtyRENTALSEncoreBrightonly. BarBYOBEERWINE25pp/HOSTEDbeerwine30/twoWELLcocktails40/twoTOPSHELF50allbartenderglassSETUPNADRINKS/WEDDINGMIN2000vsprivate1250/minors10SODA/ownSPIRITSNO/beerWINEownNOcorkagebutSERVICEpackage25notfreebar. MandatoryEVENTHELPERinsurance1Mocc2MaggregateHOSTLIQUORwaiversubrogation/amountunknown/taxSERVICEunknown/500activeMILITARYdiscount/20%Healdsburgresidentdiscountconditionsnotassumed. LEDonlyNOFLAMEsparklershotcold/tentoptionalRAINorINSIDEbackup. CommercialbookletrequestFORMnotfilled/dinnerwarePDFpublishedUNREAD."
+    },
+    {
+      "candidate_id": "directory-lead-b51a0c74707023",
+      "original_pending_index": 498,
+      "checked_utc": "2026-11-12T16:50:15.584622+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "di-rosa-contemporary-art-reserve-napa-gallery-1-lounge-and-patio-napa",
+        "di-rosa-contemporary-art-reserve-napa-the-courtyard-napa",
+        "di-rosa-contemporary-art-reserve-napa-the-olive-grove-napa",
+        "di-rosa-contemporary-art-reserve-napa-around-campus-outdoor-areas-aggregate-lead-napa"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/di-rosa-center-for-contemporary-art",
+        "https://www.dirosaart.org/weddings-elopements/"
+      ],
+      "candidate_capture_sha256": "b341f5e3a5e7b4cf37f3dfa665782adbcb6b2182f6417c58fcc657f2da6c5ea9",
+      "operator_capture_sha256": "2bd62077a3178662e7d2a5bd9e320a3b4435c63ecbce92054646bc27ef7eb3bb",
+      "reason": "ExistingNapaONEcampus4roomrows/distinctSFcampusnotroomsNapa. ActualROOTPRIVATEEVENTSlandingWEDDINGSelopementandRENTALbodiesFULLREAD. Actualroot2–250GENERICnot330/217acrePROPERTYvs100vineyardacresnotcapacity. Gallery1capacityDEPENDSARTEXHIBIT/NOfoodbeverageinEXHIBITIONSPACEbutloungepatioelectricalADA/4500sqftnotseats. CourtyardgravelalcovelawnoverlookingWineryLake/tentyearroundCONDITIONALnotfreeweatherbackup/OliveGrovewaterELECTRIC12pluspicnictables/agriculturalACCESS/GlassChapelSculptureMeadowAGGREGATEnotseparateconfirmedroomcapacities. FREEVISITORPARKstatementnotcontractpromiseprivateattendantsfree/shuttleaccessibilityVISITORnotweddingtransportincluded. LodgingNEARBYnotonsite/privacyweddingpermissionexplicit/currentpricesSERVICEfoodbarrequirementsunknown/nonprofitDISCOUNTpercentunknown. GALLERIESnoordinarypetsSERVICEdogsallowed. ActualcontactformLoadingUNREVIEWEDnotclaimdeliveryworking."
+    },
+    {
+      "candidate_id": "directory-lead-8ad97d463795a1",
+      "original_pending_index": 499,
+      "checked_utc": "2026-11-12T16:50:15.584622+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "el-prado-palo-alto-santa-clara"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/el-prado",
+        "https://www.elpradopaloalto.com/gather/social"
+      ],
+      "candidate_capture_sha256": "4026b25c4d8e0e3e11672907a8b0512d914ff3d272e635f51fce267c34a4d0f7",
+      "operator_capture_sha256": "d07958d4603ab7ecb7153b254127c7f05f39a0a7d4391ed86a0c3a30468bc01a",
+      "reason": "NEWelPRADO520CowperPaloAlto94301SantaClara/formerGardenCourtHotelaliasnotfoundwholemasternameaddress. ActualHOMEWEDDINGSsocialMEETINGSandVENUESfullbodiesREAD. 62ROOMSnotguestcapacity/7300sqftEVENTnot330fit. Intimateweddingsadvertised/LaTerrazaBallroom3divisibleROOMS/CourtyardLshapedfountainpatio/LaBibliotecaprivateBALCONY/Granada12BOARDROOMnotweddingbanquet. ReimaginedballroomRENDERINGSnotphysicalcompletedrenovationverified. PreferredROOMRATESblocksoptionalnotmandatory/allfoodbarpricebyproposal/notretaildiscount20%hotelweddingquote. Eventplanner/catererAVAVAILABLEnotincludedfree/transportASSISTnotfreeSHUTTLE. Directory90guestreviewanecdoteNOTofficialmaximum/Grand300+labelUNSUPPORTED. RoomdetailpublishedlinksUNREADexactlayoutfeesunresolved/notnewparentperroom."
     }
   ],
-  "unreviewed_original_inputs": 19,
+  "unreviewed_original_inputs": 0,
   "municipal_searches_completed": 0,
   "complete": false,
   "scope": "Queue identity resolution is not full venue facts, exhaustive geographic discovery or permission for any event. Actual access/identity blockers remain separate from unreviewed work."

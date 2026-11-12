@@ -1,15 +1,14 @@
 {
   "candidate_urls": 580,
-  "resolved_candidate_urls": 551,
-  "unresolved_candidate_urls": 29,
+  "resolved_candidate_urls": 570,
+  "unresolved_candidate_urls": 10,
   "review_counts": {
-    "reviewed_added": 299,
-    "reviewed_existing": 239,
+    "reviewed_added": 302,
+    "reviewed_existing": 255,
     "blocked": 10,
     "reviewed_supplier_not_venue_offer": 1,
     "reviewed_outside_scope": 9,
-    "excluded": 3,
-    "pending": 19
+    "excluded": 3
   },
   "complete": false,
   "scope_note": "Candidate-queue resolution only; even zero unresolved leads does not establish all venues discovered. Room counts and source downloads are not property coverage.",
@@ -5219,50 +5218,64 @@
       "candidate_id": "directory-lead-7b8316324aa6ad",
       "name": "Silverado Resort and Spa",
       "url": "https://www.bayareaweddings.com/vendor/silverado-resort-and-spa",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "silverado-resort-napa"
+      ]
     },
     {
       "candidate_id": "directory-lead-27eb3a446856b6",
       "name": "St. Francis Winery & Vineyards",
       "url": "https://www.bayareaweddings.com/vendor/st-francis-winery-vineyards",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "st-francis-winery-vineyards-santa-rosa-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-306b0244e72411",
       "name": "Stonetree Estate",
       "url": "https://www.bayareaweddings.com/vendor/stonetree-estate",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "stonetree-estate-by-wedgewood-weddings-marin"
+      ]
     },
     {
       "candidate_id": "directory-lead-92cb02443b23e6",
       "name": "Temescal Beach House",
       "url": "https://www.bayareaweddings.com/vendor/temescal-beach-house",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "temescal-regional-recreation-area-temescal-beach-house-alameda"
+      ]
     },
     {
       "candidate_id": "directory-lead-d93772e83e6059",
       "name": "The Barn at Harrow Cellars",
       "url": "https://www.bayareaweddings.com/vendor/the-barn-at-harrow-cellars",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "the-barn-at-harrow-cellars-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-63508313176393",
       "name": "The Culinary Institute of America at Greystone",
       "url": "https://www.bayareaweddings.com/vendor/the-culinary-institute-of-america-at-greystone",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "cia-at-greystone-st-helena-napa"
+      ]
     },
     {
       "candidate_id": "directory-lead-b126cd106b26ab",
       "name": "The Estate Yountville",
       "url": "https://www.bayareaweddings.com/vendor/the-estate-yountville",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "estate-yountville-vintage-estate-washington-napa"
+      ]
     },
     {
       "candidate_id": "directory-lead-8c02f0f435eb43",
@@ -5277,85 +5290,123 @@
       "candidate_id": "directory-lead-b71aa800b8991b",
       "name": "The Meritage Resort and Spa",
       "url": "https://www.bayareaweddings.com/vendor/the-meritage-resort-and-spa",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "the-meritage-resort-and-spa-napa"
+      ]
     },
     {
       "candidate_id": "directory-lead-47bf582415cce4",
       "name": "The Pearl",
       "url": "https://www.bayareaweddings.com/vendor/the-pearl",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "the-pearl-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-c58d6a2ae73699",
       "name": "The Ritz-Carlton, Half Moon Bay",
       "url": "https://www.bayareaweddings.com/vendor/the-ritz-carlton-half-moon-bay",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "the-ritz-carlton-half-moon-bay-san-mateo"
+      ]
     },
     {
       "candidate_id": "directory-lead-644701debeb771",
       "name": "The San Francisco Mint",
       "url": "https://www.bayareaweddings.com/vendor/the-san-francisco-mint",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "the-san-francisco-mint-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-b5128f2d28ff61",
       "name": "The Terrace Room",
       "url": "https://www.bayareaweddings.com/vendor/the-terrace-room",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "the-terrace-room-at-the-lake-merritt-alameda"
+      ]
     },
     {
       "candidate_id": "directory-lead-d7d03f99516ed4",
       "name": "The Terrace Room at Lake Merritt",
       "url": "https://www.bayareaweddings.com/vendor/the-terrace-room-at-lake-merritt",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "the-terrace-room-at-the-lake-merritt-alameda"
+      ]
     },
     {
       "candidate_id": "directory-lead-37d05f7f8bb968",
       "name": "Trione Vineyards & Winery",
       "url": "https://www.bayareaweddings.com/vendor/trione-vineyards-winery",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "trione-vineyards-winery-geyserville-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-c0729abe5de7c5",
       "name": "UC Botanical Garden at Berkeley",
       "url": "https://www.bayareaweddings.com/vendor/uc-botanical-garden-at-berkeley",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "uc-botanical-garden-alameda",
+        "uc-botanical-garden-redwood-grove-amphitheater-ceremony-only-alameda",
+        "uc-botanical-garden-julia-morgan-hall-reception-only-alameda"
+      ]
     },
     {
       "candidate_id": "directory-lead-c3324ca35033af",
       "name": "V. Sattui Winery",
       "url": "https://www.bayareaweddings.com/vendor/v-sattui-winery",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "v-sattui-winery-barrel-cellar-barrel-room-napa",
+        "v-sattui-winery-lower-courtyard-napa",
+        "v-sattui-winery-tower-lawn-napa",
+        "v-sattui-winery-vittorio-s-terrace-napa",
+        "v-sattui-winery-vittorio-s-vineyard-lawn-napa",
+        "v-sattui-winery-gold-room-napa",
+        "v-sattui-winery-elopement-at-the-estate-napa",
+        "v-sattui-winery-piccolo-package-napa",
+        "v-sattui-winery-bellezza-package-napa",
+        "v-sattui-winery-matrimonio-evening-package-napa"
+      ]
     },
     {
       "candidate_id": "directory-lead-2af7ea013a2858",
       "name": "Villa Chanticleer",
       "url": "https://www.bayareaweddings.com/vendor/villa-chanticleer",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "villa-chanticleer-wedding-package-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-b51a0c74707023",
       "name": "di Rosa Center for Contemporary Art",
       "url": "https://www.bayareaweddings.com/vendor/di-rosa-center-for-contemporary-art",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "di-rosa-contemporary-art-reserve-napa-gallery-1-lounge-and-patio-napa",
+        "di-rosa-contemporary-art-reserve-napa-the-courtyard-napa",
+        "di-rosa-contemporary-art-reserve-napa-the-olive-grove-napa",
+        "di-rosa-contemporary-art-reserve-napa-around-campus-outdoor-areas-aggregate-lead-napa"
+      ]
     },
     {
       "candidate_id": "directory-lead-8ad97d463795a1",
       "name": "el PRADO",
       "url": "https://www.bayareaweddings.com/vendor/el-prado",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "el-prado-palo-alto-santa-clara"
+      ]
     }
   ]
 }
