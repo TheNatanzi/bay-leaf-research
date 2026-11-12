@@ -1,15 +1,15 @@
 {
   "candidate_urls": 580,
-  "resolved_candidate_urls": 447,
-  "unresolved_candidate_urls": 133,
+  "resolved_candidate_urls": 455,
+  "unresolved_candidate_urls": 125,
   "review_counts": {
-    "reviewed_added": 268,
-    "reviewed_existing": 171,
+    "reviewed_added": 269,
+    "reviewed_existing": 176,
     "blocked": 10,
     "reviewed_supplier_not_venue_offer": 1,
-    "reviewed_outside_scope": 4,
+    "reviewed_outside_scope": 6,
     "excluded": 3,
-    "pending": 123
+    "pending": 115
   },
   "complete": false,
   "scope_note": "Candidate-queue resolution only; even zero unresolved leads does not establish all venues discovered. Room counts and source downloads are not property coverage.",
@@ -4202,57 +4202,69 @@
       "candidate_id": "directory-lead-9221ea9ad1d6bd",
       "name": "Jefferson Street Mansion by Wedgewood Weddings",
       "url": "https://www.bayareaweddings.com/vendor/jefferson-street-mansion-by-wedgewood-weddings",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "jefferson-street-mansion-by-wedgewood-weddings-solano"
+      ]
     },
     {
       "candidate_id": "directory-lead-8eff93c887bf6f",
       "name": "Kennolyn",
       "url": "https://www.bayareaweddings.com/vendor/kennolyn",
-      "state": "pending",
+      "state": "reviewed_outside_scope",
       "record_ids": []
     },
     {
       "candidate_id": "directory-lead-42f81d9f8c797e",
       "name": "Little Hills Events",
       "url": "https://www.bayareaweddings.com/vendor/little-hills-events",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "las-trampas-regional-wilderness-little-hills-events-contra-costa"
+      ]
     },
     {
       "candidate_id": "directory-lead-6446c84dd0b055",
       "name": "Living Well Event Center",
       "url": "https://www.bayareaweddings.com/vendor/living-well-event-center",
-      "state": "pending",
+      "state": "reviewed_outside_scope",
       "record_ids": []
     },
     {
       "candidate_id": "directory-lead-f758b00d8de6a1",
       "name": "Log Cabin at the Presidio",
       "url": "https://www.bayareaweddings.com/vendor/log-cabin-at-the-presidio",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "presidio-log-cabin-log-cabin-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-8444de0a6198cf",
       "name": "Lone Tree Golf & Event Center",
       "url": "https://www.bayareaweddings.com/vendor/lone-tree-golf-event-center",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "lone-tree-golf-event-center-antioch"
+      ]
     },
     {
       "candidate_id": "directory-lead-9bccd221ae016d",
       "name": "Maple Lawn Estate",
       "url": "https://www.bayareaweddings.com/vendor/vendor-maple-lawn-estate",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "maple-lawn-estate-marin"
+      ]
     },
     {
       "candidate_id": "directory-lead-9d9d987ec4933a",
       "name": "Maysonnave House",
       "url": "https://www.bayareaweddings.com/vendor/maysonnave-house",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "maysonnave-house-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-0bfb6af735c9ab",

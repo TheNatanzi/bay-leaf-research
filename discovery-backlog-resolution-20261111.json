@@ -1,6 +1,6 @@
 {
   "audit_id": "discovery-backlog-20261111",
-  "updated_utc": "2026-11-12T14:23:50.763649+00:00",
+  "updated_utc": "2026-11-12T14:34:29.233936+00:00",
   "original_pending_candidates": 500,
   "reviewed_dispositions_applied": [
     {
@@ -7219,11 +7219,13 @@
       "checked_utc": "2026-11-12T14:23:50.763649+00:00",
       "state": "reviewed_added",
       "record_ids": [
-        "capers-eat-drink-campbell"
+        "capers-eat-drink-campbell",
+        "loft-bar-bistro-downtown-san-jose"
       ],
       "source_urls": [
         "https://www.bayareaweddings.com/vendor/capers-loft",
-        "https://www.capersloft.com/"
+        "https://www.capersloft.com/",
+        "https://loftsj.com/banquets/"
       ],
       "candidate_capture_sha256": "b996d6611895f201b754d2fb95c6e7f8de7751ada462cec3b558e7daf24f231f",
       "operator_capture_sha256": "8d28809779f2f2554d52581c611cf29de280119623a55d4bd7f0b76749d50695",
@@ -7341,9 +7343,133 @@
       "candidate_capture_sha256": "6ecfb944852af7c99b0ce4c8a3d843e5bb9407ea267e630e26a2977c5898a932",
       "operator_capture_sha256": "23041b6235f7cdef7daecb67e5b929adcdf31f1092901c97f89f328427664a39",
       "reason": "ExistingHiddenbrookeVallejoSOLANOnotNapaCounty. Currentprimary87BuildOwn97Classic127Premier152Elitepp+995ceremonystarting+795venuestarting+22%ADMINtaxminimums;older84/94/124directoryratesconflict/currentyearunpublished. SAMEglobalpackage/FAQconditionalfactsasHaciendabutseparatephysicalproperty/venue-specificoutsidecatering/security/extensiontermsrequireapproval. 200capacitydirectorynotnewprimarychartconfirmation; no330dinnerapproval. Gardenpavilion/ballroom/fairwayceremonysitesnestednotextraproperties."
+    },
+    {
+      "candidate_id": "directory-lead-9221ea9ad1d6bd",
+      "original_pending_index": 377,
+      "checked_utc": "2026-11-12T14:34:29.233936+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "jefferson-street-mansion-by-wedgewood-weddings-solano"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/jefferson-street-mansion-by-wedgewood-weddings",
+        "https://www.wedgewoodweddings.com/jeffersonstreetmansion"
+      ],
+      "candidate_capture_sha256": "4cd174e0af5e4ff287c67ee6b174d684133035e942c8647fb2a3b033003faad2",
+      "operator_capture_sha256": "15f969fe061c53f00e851e29068d55c5c9ede43414a9f1d62aa8470168e4cd5f",
+      "reason": "BeniciaSOLANOexistingJeffersonnotNapa. Actualcurrentprimary87BuildOwn97Classic127Premier152Elitepp+595ceremonystarting495venuestarting+22%ADMINtaxvariableminima. Fourglobalpackagebodyreviews/23generalFAQanswerspriorbatch44applyasgeneraloperatorpolicy, venueexceptionsneedconfirmation. Currenteffectivepriceyearunknown/notall-in. Primarynearbyvenues200isNOTownnewcapacitychart. SharedWedgewoodoperatorbutseparateproperty;noextraparentcreated."
+    },
+    {
+      "candidate_id": "directory-lead-42f81d9f8c797e",
+      "original_pending_index": 379,
+      "checked_utc": "2026-11-12T14:34:29.233936+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "las-trampas-regional-wilderness-little-hills-events-contra-costa"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/little-hills-events",
+        "https://www.littlehillsevents.com/"
+      ],
+      "candidate_capture_sha256": "bfb3b9859d811586221dd0030e1aea38be5e70f7b12a6af55ed925245ccab74c",
+      "operator_capture_sha256": "7f2288f806009ed92e2091103d9246577d4a676bb3aaa50d7aeef03544ee45b5",
+      "reason": "ExistingLittleHillsLasTrampas/RanchaliasONEproperty18013BollingerSanRamon. Actualcurrenthome/wedding/contactbodiesread. SIXpublishedCanvaIDsEXACTMATCHearliercompletedreviewsinTHISsamecontinuoustask; nofreshrepeatedaudit/PDFdownloadclaim. FAQ5p/brochure15p/catering13p/planning17p/rentals11p/vendors4p prioractualrenderedreviewsretained.2025rent3000weekday4000–5000Fri5000–6000Sat3000–4000Sun/175tent500lawnCONDITIONALinfrastructure/not500approveddinnerdance/currentquote. DJ/coordination/cateringmandatoryvsFAQconditionaloutsidevendor/pets/8vs10hoursconflictskept. PreviousnotesareselectedexcerptsNOToriginalPDF. Currentcanvalinkidentityverified, remoteversionnotclaimedunchangedfromIDalone."
+    },
+    {
+      "candidate_id": "directory-lead-f758b00d8de6a1",
+      "original_pending_index": 381,
+      "checked_utc": "2026-11-12T14:34:29.233936+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "presidio-log-cabin-log-cabin-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/log-cabin-at-the-presidio",
+        "https://www.wedgewoodweddings.com/logcabin"
+      ],
+      "candidate_capture_sha256": "2c275f52e964c758f7ca292c3ae96fe5303319644e00f3ec5ca90dd88c089a7c",
+      "operator_capture_sha256": "b4574daa40a927bf1d8960c031d86e185fb75642145f99b4323ff113ad5bded4",
+      "reason": "SameexistingPresidioLogCabin1299StoreyNOTSanJoseAlumRockLogCabin. Actualcurrentprimary107BuildOwn122Classic162Premier187Elitepp+1495ceremony2495venuestarting+22%ADMINtax/minima; nooldunlabelledpricegridassumedcurrentrent. Prioractual12pbrochure2027–29gridsalreadyreviewedbatch40notrepeated. GlobalWedgewoodgeneralFAQbatch44rulesincontext;venue-specificpermissionandtimingunconfirmed. PrimaryonlynearbyGoldenGate300/Officers220notLogCabinowncapacity. Directory120requiresissuedlayout;not330."
+    },
+    {
+      "candidate_id": "directory-lead-8444de0a6198cf",
+      "original_pending_index": 382,
+      "checked_utc": "2026-11-12T14:34:29.233936+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "lone-tree-golf-event-center-antioch"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/lone-tree-golf-event-center",
+        "https://www.lonetreegolfcourse.com/weddings"
+      ],
+      "candidate_capture_sha256": "0bfa38d1a9450a4ea8a3840d8713190aa171766f16978d449a62009008bde7b2",
+      "operator_capture_sha256": "f2dfefb914a72ef271cdea34069ef186a980c6e8c4318db137f29a3532716e64",
+      "reason": "Actualprimaryweddingbody+fourlinkedPDFsALLTEXTread:filename2026breakfast4p/lunch8p/dinner11p andURL2024wedding7p. Allinternalpriceeffectiveyearunverified; filenamesnotguaranteecurrentquote. BanquetCoastal120/800Blue40/250Conference20/125Patio40/200/CanyonOak300+1500combined/CoastalBlue1601050notadditiveROOMS.300+notexact330dinnerdanceapproval. Generalmenuafternoon4h/evening5h/+750hconfirmed14days/1000nonrefundbooking/14daybalanceheadcountonlyincrease. Required2guards<=119/4>=120;100/hourfor2guards,4guardrateandminhoursUNKNOWNnotinvent200. Foodbar22%service+tax. Dinner35.95–37.95themed41.95–45.95custom41.95–47.95plated COMPONENTS; breakfast17.95–33.95/lunch25.95+notweddingdinner. WeddingBronze65Silver75Gold95ppFACILITYfee/DANCEfloor/cakeCUT/linens/barstaffincluded;NOdoubleadd1500rent/privatebar150/cake2.5whenalreadybundled. CASHbarNOTopenbar/Gold2winesTABLEOR1hhostednotallnight. Currentgeneralroompackageoverlapneedsquote;security/insurance/bar/cleanupconditionsunknown. FirstTee300ceremony1250/Patio125750/1hrehearsal1hceremony. Ceremonychair archincluded. Currentkidsdinner19.95vswedding24.95differentpackages. Allfactsconditionednotcompleteallin."
+    },
+    {
+      "candidate_id": "directory-lead-9bccd221ae016d",
+      "original_pending_index": 383,
+      "checked_utc": "2026-11-12T14:34:29.233936+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "maple-lawn-estate-marin"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/vendor-maple-lawn-estate",
+        "https://www.maplelawnevents.com/contact"
+      ],
+      "candidate_capture_sha256": "a365aa063800e1cf8e35d27ea86a7842925a63690d957fa36cba98008b9b901d",
+      "operator_capture_sha256": "1f438c9aca191e9755434c81a9654c96ac1d439243e269c983930273ebaf163a",
+      "reason": "Actualhome/wedding/ALLFAQ/rooms/contact/pricinglinkcomponentsbodies+FOURPDFsread. Currentprimary1312MissionCstreetentryvsoldTerraceIMAGE1318Missionconflict.25x?notinventedcapacity;actualindoorIMAGEcapacityblank, notpartialtablecountmax. Websiteindoor150+GENERIC/canopy40–50notdinnerdance. Wedding5hevent/all-day10AMaccess vsFAQ8hevent+2setup1breakdown/rehearsal1hvs2h conflict.1000nonrefundcreditedbooking+1500REFUNDdamage/30daybalancebeverage/insurance1mclient. DayofcoordinatorREQUIRED/ownlicensedcatererapprovalplusup500nonpreferredfacilityfee. OwnalcoholNO/venuepurchase+mandatorybarstaff1per50–60additional+tax/corkagespecialpurchaseunknown. Outdooramp10PMvsALLamp10PMwordingconflict/DrakeafterpartyMIDNIGHT+1000notapprovedamplifiedmidnightinferred. Venuefurnituretableschairsincluded/linentablewarebarGLASSWAREwelcome coffeeEXTRA. PDFsubcontractorauto/WC/GLendorsementsnotallguestmandatorypolicies. Rentunpublished/pricingbuttonactualplaceholderNOTquote. Noformsubmitted."
+    },
+    {
+      "candidate_id": "directory-lead-9d9d987ec4933a",
+      "original_pending_index": 384,
+      "checked_utc": "2026-11-12T14:34:29.233936+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "maysonnave-house-sonoma"
+      ],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/maysonnave-house",
+        "https://www.maysonnavehouse.org/packages"
+      ],
+      "candidate_capture_sha256": "cea5aa7f88ce1c11a6a7f6f60c93ba2194d33b5a43a591b80775b28d0c603eb8",
+      "operator_capture_sha256": "fb7e9ee8c656e065ab11c94ed1fdb0ba4a394b41a86b2280e602d56f82de76fe",
+      "reason": "ActualhomeFAQcontactPACKAGESread.291FirstStreetEastSonomaONEhousegardens.2500EVERYDAY/4hguestarrivaldeparture/vendors8AM/guestsOUT9PM/cleanup10PM.100CEREMONYcapacity;house+gardenRECEPTIONsmallerunspecified not100dinnerdance. Houseonly12guests7504hcorporatemeetingNOTwholeweddingquote. Packagefixed2500everyday4hvsFAQHOURLYweekendpremiumminhoursconflict. FACILITYONLY/notableschairslinenstableware,rentthroughvendors. Ownfood/foodtruckspaellaBBQallowed/ownalcoholNOsurcharge/staffbarlicensingtermsunknownnotfreebartender.50%nonrefundbooking/50%14days;damagesbilledactualunknown. Optionalcoordinationstaffrentalscleanupbarpaidseparatecontract. Noquietorbarcutoffinventedfromguestdeadline."
+    },
+    {
+      "candidate_id": "directory-lead-8eff93c887bf6f",
+      "original_pending_index": 378,
+      "checked_utc": "2026-11-12T14:34:29.233936+00:00",
+      "state": "reviewed_outside_scope",
+      "record_ids": [],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/kennolyn",
+        "https://www.kennolyn.com"
+      ],
+      "candidate_capture_sha256": "1b07201f0d3cd149fa7370bcbb5fa547c946a5ea59434c646eee1f0f74c0c312",
+      "operator_capture_sha256": "9346cfa12b6c78ebdf84b940fd46703cf81f485d2fa5f2a7edd5f61825077e5a",
+      "reason": "AdjacentSantaCruzCountySoqueloutsideoriginalninecountycore;TWOsettingsStoneCreekVillage/HilltopHaciendaonecampusoperator retaineddetailedadjacentfacts,notdiscarded. Allmain/2FAQbodiesread; emailpricinggateconfirmedactualbrowser/NOhiddeninvestmentlinkfollowed/NOemailentered.60weekendcontractminimum/122overnightmax;Hilltop90–175seasoncontractmin/300Estatelawnceremony200RedwoodGrove/5.5hending10PM/requiredinhousefoodbarpreferredDJ/20%service+statedtaxes. Exactmainpricesunknown. No300+122additivecapacity."
+    },
+    {
+      "candidate_id": "directory-lead-6446c84dd0b055",
+      "original_pending_index": 380,
+      "checked_utc": "2026-11-12T14:34:29.233936+00:00",
+      "state": "reviewed_outside_scope",
+      "record_ids": [],
+      "source_urls": [
+        "https://www.bayareaweddings.com/vendor/living-well-event-center",
+        "https://livingwelleventcenter.com/"
+      ],
+      "candidate_capture_sha256": "a8e87b9b2e5bdb9a3ccf95be19dc206280b76eb73b218839811990d6c87fb486",
+      "operator_capture_sha256": "855296f26bf6e801bb4fb82225cb1b4d075a18caba9f4781e802285a5b466982",
+      "reason": "AdjacentSantaCruzCountyclassificationfromprimarycountyordinancecontext+matchingsecondarycountysearchresults;officialparcelcountynotindependentlyverified. Named22975SantaCruzHwyLosGatosnotpostalcitycountyassumption. Detailedcurrentprimary80guest3500–6500blockrates/rent9AM–3/6/9PM/partyALLmusic9PM/bar8:30PM/noovernight/BYOlicensedbarfurnitureoptional retainedadjacentreceipt,notdiscarded. Actualcurrentweddingpageagrees80/9PM;searchcache100/10PMhistoricalnotcurrentbody. Fullvenuechargesclaimnotallinwedding/foodbarstafflinenextra.2000nonrefunddeposit/90daybalance;venuecannot-hostrefundclausenotthirdparty. Permits/soundlawnotindependentlyverified,nolegalcomplianceguarantee."
     }
   ],
-  "unreviewed_original_inputs": 123,
+  "unreviewed_original_inputs": 115,
   "municipal_searches_completed": 0,
   "complete": false,
   "scope": "Queue identity resolution is not full venue facts, exhaustive geographic discovery or permission for any event. Actual access/identity blockers remain separate from unreviewed work."

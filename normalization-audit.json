@@ -1,7 +1,7 @@
 {
-  "normalized_utc": "2026-11-12T14:25:30.998441+00:00",
-  "record_count": 2702,
-  "property_group_count": 1339,
+  "normalized_utc": "2026-11-12T14:39:45.595278+00:00",
+  "record_count": 2706,
+  "property_group_count": 1343,
   "identity_review_candidates": 89,
   "numeric_review_queue": 3274,
   "field_count": 106,
@@ -14,12 +14,12 @@
     "capacity_ceremony": 11,
     "capacity_indoor": 4,
     "capacity_outdoor": 3,
-    "fee_min": 300,
+    "fee_min": 301,
     "fee_max": 278,
     "fixed_mandatory": 24,
     "minimum_spend": 5,
     "ceremony_fee": 3,
-    "deposit_refundable": 310,
+    "deposit_refundable": 311,
     "booking_credit": 16,
     "cleaning_fee": 20,
     "food_min": 42,
@@ -114,8 +114,8 @@
     "lodging_payer": 1
   },
   "status_counts": {
-    "published_evidence": 7431,
-    "needs_confirmation": 14122,
+    "published_evidence": 7433,
+    "needs_confirmation": 14138,
     "conflicting": 244,
     "searched_no_public_answer": 3612
   },
