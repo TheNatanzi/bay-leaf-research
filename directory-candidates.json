@@ -2,8 +2,8 @@
   "summary": {
     "checked_utc": "2026-10-26T13:28:51.955107+00:00",
     "candidate_urls": 580,
-    "candidate_urls_with_exact_match": 445,
-    "candidate_urls_without_exact_match": 135,
+    "candidate_urls_with_exact_match": 453,
+    "candidate_urls_without_exact_match": 127,
     "source_counts": {
       "moderndjs": {
         "raw_named_cards": 361,
@@ -53,16 +53,16 @@
     },
     "added_venue_records": 0,
     "note": "Candidate URLs are not a venue count. Old source collection counts retain their original dates; followup state counts are current. Fragment-only links merged; names/URLs are aids, not automatic reviews. Original added_venue_records=0 describes index-only ingestion; primary_followup_records_added is separate.",
-    "primary_followup_records_added": 273,
-    "followup_checked_utc": "2026-11-12T14:34:29.233936+00:00",
+    "primary_followup_records_added": 276,
+    "followup_checked_utc": "2026-11-12T14:45:54.603010+00:00",
     "current_review_counts": {
-      "reviewed_added": 269,
-      "reviewed_existing": 176,
+      "reviewed_added": 272,
+      "reviewed_existing": 181,
       "blocked": 10,
       "reviewed_supplier_not_venue_offer": 1,
       "reviewed_outside_scope": 6,
       "excluded": 3,
-      "pending": 115
+      "pending": 107
     }
   },
   "candidates": [
@@ -14020,13 +14020,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "nella-terra-cellars-alameda"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_existing",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/nella-terra-cellars#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T14:45:54.603010+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/nella-terra-cellars",
+        "https://www.nellaterra.com/events"
+      ],
+      "review_reason": "SunolAlamedaexistingnotLivermoredirectoryservicecity. Actualhome/events/fullFAQread.300ceremonyreception/40smallgardenpatio;AprilOctoberseason.20–40kAVERAGEpopularpackageinvestment notrentminimum/allin.8–10hrentalextensions/music11PM/cleanupsiteclosurecommencesmidnight NOTallcleanupcomplete. RequiredOnTheVinecaterer+SimplyLovelycoordination/NOoutsidealcohol/venuebeveragepackages. Shuttlefor74-stepvineyardstairs/accessibleparkingvenuelevel. Rateslineitemsunknown.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-f0da45c25eb61d",
@@ -14044,13 +14053,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "olympia-s-valley-sonoma"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_existing",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/vendor-olympia-s-valley#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T14:45:54.603010+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/vendor-olympia-s-valley",
+        "https://olympiasvalley.com/faqs"
+      ],
+      "review_reason": "1051WalkerPetalumaSonomaexisting. Actualhome/services/ALLFAQread.190seatedindoor/largerdinnermeadowdancebarnnotmax330approval.10–20kSITEfeeincludesitsservicechargesTAXnotadd20%/10%toTHISfee;foodothercontractsextra.11AM10PMexclusive+2hvendorcleanup/rehearsal2h.190ceremony+190receptionchairsNOT380guests/tableslightingrestroomsparkingattendantssetupbreakdownincluded. Requiredprofessionalcoordination/insuredvendors/listcaterer/localfood. BYObeerwineandspiritsTWOsignaturecocktailsNOcorkage/catererbartenders. SeasonMarch1OctvsclosedthroughfirstweekMarchconflict. RequiredNovAprshuttlevsFAQAprilMIDMAYparkingexclusions andoffseasonclosedconflicts.10PMguestsnormal/overtimefeeunknown. Independentpermitnotverified.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-a03bcbb028c1fd",
@@ -14068,13 +14086,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "phoenix-alameda-alameda"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_added",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/phoenix-alameda#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T14:45:54.603010+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/phoenix-alameda",
+        "https://www.phoenixalameda.com/gather"
+      ],
+      "review_reason": "2315LincolnAlamedaonepropertywithgallerynotseparateparent. Actualhome/gather/ALLEVENTFAQread.195/hourSTARTING+cleaningtrashALCOHOLfeesunknown/Satsholidaybuyoutratesdifferent;gallery+75/hourFAQ75basisunlabeled clarifiedgatherhour. Main80generic/gallery125genericnotseateddinner.50DINING/FAQ60viewingsvsweb70audienceCONFLICTnot70dinner. Weekdaysafter6PM/weekendsanytime/everysetupcleanupminutePAIDrecommend1hsetup0.5breakdown. KitchenincludedmicrowavefridgetoasterNOstovetopoven;outdoorpatioTACOcookingallowed.50chairsbasicAV/hostincludednotplannerbarservers;linenstablewarebarupgradesextra;layoutpreset125optional;barstarts40hour+20%coordination/sometimesmandatorybartender.50%nonrefundbooking/balance4weeks/cancelwithin4weeksfullpaymentlost. Parentmonitoredfamilykidsallowed/not3–11birthdayparties. Clientcleartables/resetstackchairsunlesspaidreset;cleaningfeecoverscleaners. FAQtrashhandledvsgathertrashfeenotassumedfree. Wedding-specificapprovalunknown.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-6f7aa12b53ff8e",
@@ -14092,13 +14119,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "palm-event-center"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_existing",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/palm-event-center-in-the-vineyard#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T14:45:54.603010+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/palm-event-center-in-the-vineyard",
+        "https://palmeventcenter.com/the-venue/"
+      ],
+      "review_reason": "Existing1184VineyardPleasantonAlameda. Actualhome/venue/eatdrink/getmarriedread. EstateRoom/Ballroom/Terrace/Suite/Loungeonepropertynotfiveparents. FivehourRECEPTIONplusoptionalceremonypackage;dayofcoordinationrehearsalmealexecutionincluded. Allweddingpackages4.5hFULLopenbar+champagnewineMEALpours/nonalcoholicchoices;customfoodmenus/inhouseculinary. Currentprimaryrent/packageprice/capacityminima/taxfeesunpublished. DirectoryKnot18300startingnotverifiedcurrentprimary/notallin. WeddingSuiteincluded;foodbaractualscopebeyondgeneralmarketingretained.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-e17a806b863e9a",
@@ -14116,13 +14152,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "palm-tree-weddings-events-summerset-brentwood-contra-costa"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_existing",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/palm-tree-weddings-events#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T14:45:54.603010+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/palm-tree-weddings-events",
+        "https://palmtreeweddingevents.com/"
+      ],
+      "review_reason": "SameexistingSummersetBrentwood/PalmTreeGolfClub100SummersetnotPalmEventPleasanton. Actualhome/packagesread.250GENERICmax/notissued250dinnerdance. Elegantpackageceremonysetup/furniturelinenCENTERPIECES/coordinationstaff/ownerfirstdanceSAXincluded;foodbarlistedcustomization/addonsNOTprovenallinclusivefoodalcohol. Intimate50–100targetnotwholepropertymax. Primarynopricedpackage;directory1995rent595ceremonyonlysecondaryneedsconfirmation. NofreeunlimitedDJ/livebandinferencefromsinglefirstdance.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-aad94aa9bc83e6",
@@ -14140,13 +14185,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "pardee-home-museum-alameda"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_added",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/pardee-home-museum#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T14:45:54.603010+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/pardee-home-museum",
+        "https://pardeehome.org/event-rentals/"
+      ],
+      "review_reason": "67211thOaklandAlamedaonepropertyNOTneighborPreservationPark. Actualrental/FAQ/contactread. RearGardens85seated225standing/CoachHouse40seated65standing/dining12seated25standing. GenericlawnUPWARDS150not150approveddinnernoradditive85+40. CoachHouseDANCEorbuffetuses;yearroundweddings/receptionsoffered. Kitchenstoragepreparationincludedbutlicense/rulesunknown. FAQ50AfternoonTea55HighTeaDONATIONNOTweddingfoodpackage/rent;tea10guestdeposit/tour50depositNOTweddingdeposit. Rent/taxbarvendorsecuritycleanupunknown. Officialevent/siteinquiryformfieldsreadnotfilled/submitted.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-013f7a36c011d9",
@@ -14164,13 +14218,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "point-san-pablo-harbor-contra-costa"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_added",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/point-san-pablo-harbor#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T14:45:54.603010+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/point-san-pablo-harbor",
+        "https://www.pspharbor.com/booking"
+      ],
+      "review_reason": "1900StenmarkRichmondContraCostaonepropertywithMeadowPavilion/KnotYachtClub/CrimsonCrowspaces. Actualhome/booking/meadow/Knot/Crow/booking2bodiesread.1800sqftPavilion120coveredseated200standing, booking400WITHmeadowadditionalCANOPYtableschairrentalsnot400coveredapproveddinnerdance. Knot50inside+25deck75seated120standingroompagevsbooking50+30=80/150standingCONFLICT. Crow30GENERIC/uphillunevengroundNOTaccessible/sharedPORTAPOTTY20yards/notprivatebusbathroom. OtherMeadowKnotaccessiblepervenue. OwncatererSELFCATERallowed/SailingGoatAnavivoptions/clubhousekitchenfridgerewarmnotfullcook. Rentmandatoryfees/insurancebar/cutoffsunknown. HarborSUNUPsunDOWNandrestaurant8:30PMNOTprivateeventcurfew. Officialformlinkbooking2presentbutembeddedfieldsnotvisibleinstaticbody/unreviewed. Publishedthe-knot-club404preserved/reviewedvalidthe-knot-yacht-club; initialguessedknot-yacht-club404notvenueblocker.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-bb05665d391fb9",
@@ -14188,13 +14251,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "presidio-presidio-golf-course-presidio-golf-course-san-francisco"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_existing",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/presidio-golf-course-clubhouse#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T14:45:54.603010+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/presidio-golf-course-clubhouse",
+        "https://www.presidiogcweddingsandevents.com/ourspaces"
+      ],
+      "review_reason": "ExistingPresidioGolf300FinleyNOTPresidioLogCabin. Actualhome/weddings/ourspaces/ALLcontactFAQ+THREEoriginalPDFs24/36/36pagesALLtextread, selectedpackage/capacitychartvisuallyviewed. Cover2026–27weddingguidefooterlastupdated1/8/2025/versionconditionsconflict. Fullbuyout230SEATED500standingPDF/notdirectory250seated;Terrace170seated130DAYTIMEparkingcap300standingPDFvs200standingweb. Clubhouse100seated80WITHdance/Palmer40seated60standingPDFvs50web. FriSatSunEVENINGfullbuyoutPDFvswebSatonlynotresolved. No330approveddinner. Allprices+3%PARK21%SERVICE+currenttax, bases/compoundingunknownnotallin. RentF&BMINmustbemetregardlessoutsidefood/noheadcountminimum. WebsiteculturallyspecificcateringexceptionvsPDFsupplemental/expressapproval/restrictivevendorclause;outsideALCOHOLNOthoughcorkagelinewithoutpriceexists/conflictnotBYOpermission. WeddingPDFPavilion3hBEERWINEvsOurPackagesPDF3hCALLLIQUOR/Pavilionincludedpassedapps differences. GoldenGate5hevent4hsuperpremiumbar/dessert/cakeCUTnotcake. Noactualbasepackagepricesinreadtext/selectedvisualchart;quoteunknown. Staffbar/managerfurnituretableware/setupcleanupincludednotcoordinator/personaldecorunlessupgrade. Vendor1hPDFvs2hWEBaccessconflict. DepositPDF>=25%F&BMIN+50%6months vsWEB25%or50%ofrentF&Btaxfeesconflict;balanceguarantee14days/no decrease. Menupricesguaranteedonly90days. Fooddisplay2hvs1.5h/currentpackageguideNoREALflamevsothersglass-enclosedcandles conflict. Clubhousemusic11PM/Tent10PM. Nooutsidechairlinenrentalsunlessapprovalthroughvenue. Paidparkingnotfree. Guidepricefiguresnoallin.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-1c3eb58717dd94",

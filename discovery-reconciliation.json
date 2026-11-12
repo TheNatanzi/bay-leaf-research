@@ -1,15 +1,15 @@
 {
   "candidate_urls": 580,
-  "resolved_candidate_urls": 455,
-  "unresolved_candidate_urls": 125,
+  "resolved_candidate_urls": 463,
+  "unresolved_candidate_urls": 117,
   "review_counts": {
-    "reviewed_added": 269,
-    "reviewed_existing": 176,
+    "reviewed_added": 272,
+    "reviewed_existing": 181,
     "blocked": 10,
     "reviewed_supplier_not_venue_offer": 1,
     "reviewed_outside_scope": 6,
     "excluded": 3,
-    "pending": 115
+    "pending": 107
   },
   "complete": false,
   "scope_note": "Candidate-queue resolution only; even zero unresolved leads does not establish all venues discovered. Room counts and source downloads are not property coverage.",
@@ -4270,57 +4270,73 @@
       "candidate_id": "directory-lead-0bfb6af735c9ab",
       "name": "Nella Terra Cellars",
       "url": "https://www.bayareaweddings.com/vendor/nella-terra-cellars",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "nella-terra-cellars-alameda"
+      ]
     },
     {
       "candidate_id": "directory-lead-f0da45c25eb61d",
       "name": "Olympia's Valley",
       "url": "https://www.bayareaweddings.com/vendor/vendor-olympia-s-valley",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "olympia-s-valley-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-a03bcbb028c1fd",
       "name": "PHOENIX Alameda",
       "url": "https://www.bayareaweddings.com/vendor/phoenix-alameda",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "phoenix-alameda-alameda"
+      ]
     },
     {
       "candidate_id": "directory-lead-6f7aa12b53ff8e",
       "name": "Palm Event Center in the Vineyard",
       "url": "https://www.bayareaweddings.com/vendor/palm-event-center-in-the-vineyard",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "palm-event-center"
+      ]
     },
     {
       "candidate_id": "directory-lead-e17a806b863e9a",
       "name": "Palm Tree Weddings & Events",
       "url": "https://www.bayareaweddings.com/vendor/palm-tree-weddings-events",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "palm-tree-weddings-events-summerset-brentwood-contra-costa"
+      ]
     },
     {
       "candidate_id": "directory-lead-aad94aa9bc83e6",
       "name": "Pardee Home Museum",
       "url": "https://www.bayareaweddings.com/vendor/pardee-home-museum",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "pardee-home-museum-alameda"
+      ]
     },
     {
       "candidate_id": "directory-lead-013f7a36c011d9",
       "name": "Point San Pablo Harbor",
       "url": "https://www.bayareaweddings.com/vendor/point-san-pablo-harbor",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "point-san-pablo-harbor-contra-costa"
+      ]
     },
     {
       "candidate_id": "directory-lead-bb05665d391fb9",
       "name": "Presidio Golf Course & Clubhouse",
       "url": "https://www.bayareaweddings.com/vendor/presidio-golf-course-clubhouse",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "presidio-presidio-golf-course-presidio-golf-course-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-1c3eb58717dd94",
