@@ -1,6 +1,6 @@
 {
   "audit_id": "discovery-backlog-20261111",
-  "updated_utc": "2026-11-12T08:39:47.997296+00:00",
+  "updated_utc": "2026-11-12T09:00:07.016539+00:00",
   "original_pending_candidates": 500,
   "reviewed_dispositions_applied": [
     {
@@ -4865,9 +4865,124 @@
       "candidate_capture_sha256": "5eb9faccc5e71d6f768609c8dc726befde2a0aa3d36a5063ec8d8ccea5c479a9",
       "operator_capture_sha256": "38ea7aa83a2f6a01cde06ffaf5d3236866f833e51e3835e9f82a8ae341dffad2",
       "reason": "Fulloriginaldirectory/currentplanning/venuepages,actual2page2023brochure,1page2019applicationandlinked2022JPGread. Feespageactuallyrendered/visuallychecked. Primaryceremonysanctuary240notdirectory300; hall/patioover400generic/comfortablyover200seated, notexact400dinnerdance. Membershiptestnotrequired, Christiancontext, ownminister/caterercontactsallowed. Currentweb500crediteddepositvsPDF/application300crediteddepositconflict. BrochureN/M09.23Sanctuary1500+custodial300+deposit300=displayed2100, butdepositcredited: noadditionaldepositdoublecount orautomatic1800expensechoice. Reception3600+custodial300+AV250=4150historical,optionalminister500/organistfrom250. No currentallintotal. CurrentBYOB/music/independentclocksunknown; olddirectorytermsnotcurrentprimary. NotImmanuelAlamedaat1420Lafayette/1910SantaClara."
+    },
+    {
+      "candidate_id": "directory-lead-592c6d0c39d8a6",
+      "original_pending_index": 84,
+      "checked_utc": "2026-11-12T08:56:11.688211+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "kohl-mansion-san-mateo"
+      ],
+      "source_urls": [
+        "https://www.wedding-spot.com/venue/3/kohl-mansion/",
+        "https://kohlmansion.com/"
+      ],
+      "candidate_capture_sha256": "ebcd130080542f7e9699cf2de457222bc719411dd20777014919f1a64ccc72d2",
+      "operator_capture_sha256": null,
+      "reason": "Full directory profile, primary homepage, complete Details terms and first Freddie Facts history page read. Exact existing Kohl Mansion at2750AdelineBurlingame retained, not a hidden separate estate. Homepage booking2024-25 headline stale, not current availability or closure proof. Details dated2018: eight continuous hours versus footnote eight or nine including two hours setup and one teardown; duration unresolved, not eight hours of guest event. Additional500/hour and500refundable security deposit published historical terms, current contract confirmation needed. Deposit half permit fee includes security; do not double count booking credit or refundable cash as expense. Full current rental quote and approved dinner/dance capacity remain unknown. Directory8500-16500/ninehours/11PM/off-list-caterer1500 not promoted as current primary confirmed. Historical63rooms is mansion architecture, not63 independently rentable properties. Linked Exhibit B archival procedure document not yet read.",
+      "reader_evidence_sha256": "f9dcaa8b218460c8e23e1b047357aa76bdb86712f06ca0263cd65e4e20ffe12c",
+      "evidence_method": "Exact standard-web reader export reviewed; original HTML retrieval state preserved; no raw HTML success claimed"
+    },
+    {
+      "candidate_id": "directory-lead-4b33552a714012",
+      "original_pending_index": 86,
+      "checked_utc": "2026-11-12T08:56:11.688211+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "montalvo-arts-center-santa-clara"
+      ],
+      "source_urls": [
+        "https://www.wedding-spot.com/venue/11700/villa-montalvo-at-montalvo-arts-center/",
+        "https://montalvoarts.org/host/weddings/"
+      ],
+      "candidate_capture_sha256": "a2138ee12f0fae56930c73d4411d4797707a0847a79c0d58f8e0bb438baebe0e",
+      "operator_capture_sha256": "aa183e262b22387fff24b18bd293c627a3161c3cec761f7ed1749e6fa9e6d2a6",
+      "reason": "Full original directory and entire current primary weddings body read. Existing Montalvo Arts Center estate retained: Great Lawn, Villa, Spanish Courtyard, Oval Garden and Love Temple nested spaces, not new parent properties. Primary fee depends on requirements and quote request; no current published price, approved dinner/dance capacity or independent deadline in reviewed body. Directory350generic,17000-20000ninehours,exclusivecaterer/10PM are not newly verified current primary contract terms. Linked inquiry not submitted; current issued event approval remains unknown."
+    },
+    {
+      "candidate_id": "directory-lead-6524e79d33b793",
+      "original_pending_index": 87,
+      "checked_utc": "2026-11-12T08:56:11.688211+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "le-bateau-ivre-berkeley-alameda"
+      ],
+      "source_urls": [
+        "https://www.wedding-spot.com/venue/483/le-bateau-ivre/",
+        "https://www.lebateauivre.net/events-catering"
+      ],
+      "candidate_capture_sha256": "64355e2c202d0c52a54d5f87e4b197267157c57a31f46117f4f038f746058f09",
+      "operator_capture_sha256": "36b8bd8ae9c7b6b2305469af7c84a25980331f14d27fce1ea92370514a5ae295",
+      "reason": "Full original directory and full primary Events and Catering body read. Physical restaurant2629Telegraph retained as historical wedding lead, not current verified bookable venue. Primary page says temporary closure and November/December cancellations and invites events in2023; stale relative to November2026, not proof permanent closure or reopening. Current operator response/bookability unknown, no outreach submitted. Directory100generic/34outdoorceremony and150-250fourhour fees/250refundable cash/unlimitedhours not accepted as current price or permission. Several rooms are same restaurant property, no capacity sum or330guest approval. No exact current all-in costs or independent event/music/bar/cleanup times."
+    },
+    {
+      "candidate_id": "directory-lead-c898bda3301145",
+      "original_pending_index": 85,
+      "checked_utc": "2026-11-12T09:00:07.016539+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "create-mix-mingle-legacy-norfolk-san-mateo"
+      ],
+      "source_urls": [
+        "https://www.wedding-spot.com/venue/12783/create-mix-mingle/"
+      ],
+      "candidate_capture_sha256": "c16e652f2effb4f3efe89a99020e98660aaccf9315da1488d43e0050cd34bf85",
+      "operator_capture_sha256": "c16e652f2effb4f3efe89a99020e98660aaccf9315da1488d43e0050cd34bf85",
+      "reason": "Full original profile and actual current primary studio/meeting/booking pages read. Directory identifies1888SouthNorfolk, while current operator25NKingston. These physical addresses remain separate records; no unsupported relocation/closure assertion and no70capacity/300hourlyrate transferred toKingston. Current Norfolk booking status unknown. Oldprofile70generic/300hour andnoamplifiedmusic/noendtimerestrictions notcurrentprimaryverified. Current studio birthday495/575rates notweddingrates. Directory valet/no parking contradiction remains; not silently picked. Partneroffsites/mobile service not owned newproperty identities."
+    },
+    {
+      "candidate_id": "directory-lead-3470f9c13e05ee",
+      "original_pending_index": 88,
+      "checked_utc": "2026-11-12T09:00:07.016539+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "redwood-estates-pavilion-los-gatos-santa-clara"
+      ],
+      "source_urls": [
+        "https://www.wedding-spot.com/venue/1104/pavilion-redwood-estates/",
+        "https://redwoodestates.net/wp-content/uploads/2025/04/Pavilion-Rental-Package-Non-Members-3.2.25.docx.pdf"
+      ],
+      "candidate_capture_sha256": "4b977449a406c40fe6da2593b60f5359710add11518fce8fc8ae97b48ce12393",
+      "operator_capture_sha256": "3d59eb55069da4be4425ddc8c6693cf718b089d99d5e71a92615d293602959cd",
+      "reason": "Full original directory and all7pages of actualMarch2,2025nonmemberPDFread,fee/capacityfirstpagerenderedandvisuallychecked. Original220480bytes/SHA3d59eb55069da4be4425ddc8c6693cf718b089d99d5e71a92615d293602959cdsaved. PDFsupersedesold3000/500directoryclaim:3500rental,1500unusedsecurityreturnable7days,50percentbookingcreditnotextraexpense.125maximumfacilityoccupancy,64parkingspaces. SunThu8AM-5PM/FriSat8AM-10PMallfacilityuse; indooramp9PM/outdooramp6PM,cleanupwithinhours. MilliondollarliabilitynamingRESAadditionalinsured; liquorliabilityifalcohol,permissioninagreement,nosalesdirectlyorinticket.125indoorbrown/125outdoorwhitechairs,20sixfoottables+3fourfoot,AVandprofessionalcleaningprovided,butrentertrash/sweeping/reset/kitchencleanupremains.10perbrownchairconditionaloutdoorcleaningfee. Outsidecatererapplicationnotunconditionalvendorpermission. Noemergencygenerator; noforprofitevents; rentalitemsremovedsameeveningunlessapproved. Noallintotal or330approval.",
+      "reader_evidence_sha256": "c361a236f26a0139293529dcf0f4160a2a4cc3fee4afe7b4da789f660d30cf7d",
+      "evidence_method": "Exact standard-web reader export reviewed; original HTML retrieval state preserved; no raw HTML success claimed"
+    },
+    {
+      "candidate_id": "directory-lead-01f5df05142e7c",
+      "original_pending_index": 89,
+      "checked_utc": "2026-11-12T09:00:07.016539+00:00",
+      "state": "reviewed_added",
+      "record_ids": [
+        "old-saint-hilarys-tiburon-marin"
+      ],
+      "source_urls": [
+        "https://www.wedding-spot.com/venue/8939/old-saint-hilarys/",
+        "https://landmarkssociety.com/rentals/st-hilarys/"
+      ],
+      "candidate_capture_sha256": "088351dc5daba7ddad5508bd84021471b6e11ed4b41fbd746d6789a400bd1b50",
+      "operator_capture_sha256": "628727234090051d50b5f89d57f219a29084d27993975ee1bb10e9e654084fc1",
+      "reason": "Full directory/currentprimarybodyread. Olddeconsecrated201EsperanzalandmarknotmodernStHilarysChurch.125totaloccupancynostanding,115pewseatsnotdinner.1500maximum3hINCLUDESphotography/setup/ceremony; directoryclaimssetupexcludedcontradicted. Additional400/hourincludingrehearsal,500returnablesecurity;50percentrentalpaymentcreditnotextraexpense. Allrentersnominalfeemembershiprequired,amountunknown. Nofood/beveragesor alcoholinside/outside,nokitchen/nodancefloor,rentercleanup. Limitedparkingrequiresroundtripshuttle,permitparking. Additionalinsurancestronglyrecommendednotmandatoryinreviewedprimary, contrarydirectory. SundayAprOctpublicaccessafternoonconstraint. Primarytaxdeductibilityclaimnotindependentlyverifiedtaxadvice. ChinaCabin/ArtGardenCenterseparatephysicalproperties, notreceptionroomsummedhere. Noindependentmusic/exitclockprimaryverified."
+    },
+    {
+      "candidate_id": "directory-lead-7c12f4f925464b",
+      "original_pending_index": 90,
+      "checked_utc": "2026-11-12T09:00:07.016539+00:00",
+      "state": "reviewed_existing",
+      "record_ids": [
+        "presidio-presidio-chapel-presidio-chapel-san-francisco"
+      ],
+      "source_urls": [
+        "https://www.wedding-spot.com/venue/327/presidio-chapel-san-francisco/",
+        "https://presidio.gov/venues/presidio-chapel"
+      ],
+      "candidate_capture_sha256": "27502f43f268c8d511d05e1f9d4f85fecf13614e4d9e0e562c17b24491008792",
+      "operator_capture_sha256": "5affa3453a5913bd03a811272eb21335158b3b2f9bcde8918dceacea4ea31a38",
+      "reason": "Full original profile and bothcurrentPresidioTrust/operatorprimarybodiesread. Existing130FisherLoopPresidioChapelnotChapelOurLadyorGoldenGateClub135Fisher. Trust240generic vsoperator150generic vsdirectory125unresolved; no330dinnerapproval. CurrentWedgewoodstatesEXCLUSIVELYwithGoldenGateClubreservation, notstandalone1200directoryceremony. Operator2027publishedstartingpackage107BuildYourOwn/122Classic/162Premier/187Eliteperguest PLUSceremony2495+venue4995,22percentadmin+tax+potentialminima; exactcombinedchapel/clubscope/chargebaseunknown,noallinquote. Old1200/250courtyard/500deposit/6PMdirectorynotcurrentprimaryconfirmed. Onsiteequipment/cateringavailabilitynotallfreeinclusion; otherPresidiopropertiesnotduplicatechapel."
     }
   ],
-  "unreviewed_original_inputs": 272,
+  "unreviewed_original_inputs": 265,
   "municipal_searches_completed": 0,
   "complete": false,
   "scope": "Queue identity resolution is not full venue facts, exhaustive geographic discovery or permission for any event. Actual access/identity blockers remain separate from unreviewed work."

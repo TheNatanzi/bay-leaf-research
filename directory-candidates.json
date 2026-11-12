@@ -2,8 +2,8 @@
   "summary": {
     "checked_utc": "2026-10-26T13:28:51.955107+00:00",
     "candidate_urls": 580,
-    "candidate_urls_with_exact_match": 324,
-    "candidate_urls_without_exact_match": 256,
+    "candidate_urls_with_exact_match": 330,
+    "candidate_urls_without_exact_match": 250,
     "source_counts": {
       "moderndjs": {
         "raw_named_cards": 361,
@@ -53,12 +53,12 @@
     },
     "added_venue_records": 0,
     "note": "Candidate URLs are not a venue count. Old source collection counts retain their original dates; followup state counts are current. Fragment-only links merged; names/URLs are aids, not automatic reviews. Original added_venue_records=0 describes index-only ingestion; primary_followup_records_added is separate.",
-    "primary_followup_records_added": 186,
-    "followup_checked_utc": "2026-11-12T08:39:47.997296+00:00",
+    "primary_followup_records_added": 190,
+    "followup_checked_utc": "2026-11-12T09:00:07.016539+00:00",
     "current_review_counts": {
-      "reviewed_added": 190,
-      "reviewed_existing": 108,
-      "pending": 272,
+      "reviewed_added": 194,
+      "reviewed_existing": 111,
+      "pending": 265,
       "blocked": 7,
       "excluded": 3
     }
@@ -2701,12 +2701,19 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
       "matched_record_ids": [
         "kohl-mansion-san-mateo"
       ],
       "match_method": "Exact normalized name only; identity/branch not confirmed",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T08:56:11.688211+00:00",
+      "review_source_urls": [
+        "https://www.wedding-spot.com/venue/3/kohl-mansion/",
+        "https://kohlmansion.com/"
+      ],
+      "review_reason": "Full directory profile, primary homepage, complete Details terms and first Freddie Facts history page read. Exact existing Kohl Mansion at2750AdelineBurlingame retained, not a hidden separate estate. Homepage booking2024-25 headline stale, not current availability or closure proof. Details dated2018: eight continuous hours versus footnote eight or nine including two hours setup and one teardown; duration unresolved, not eight hours of guest event. Additional500/hour and500refundable security deposit published historical terms, current contract confirmation needed. Deposit half permit fee includes security; do not double count booking credit or refundable cash as expense. Full current rental quote and approved dinner/dance capacity remain unknown. Directory8500-16500/ninehours/11PM/off-list-caterer1500 not promoted as current primary confirmed. Historical63rooms is mansion architecture, not63 independently rentable properties. Linked Exhibit B archival procedure document not yet read.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-c898bda3301145",
@@ -2724,10 +2731,18 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "create-mix-mingle-legacy-norfolk-san-mateo"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T09:00:07.016539+00:00",
+      "review_source_urls": [
+        "https://www.wedding-spot.com/venue/12783/create-mix-mingle/"
+      ],
+      "review_reason": "Full original profile and actual current primary studio/meeting/booking pages read. Directory identifies1888SouthNorfolk, while current operator25NKingston. These physical addresses remain separate records; no unsupported relocation/closure assertion and no70capacity/300hourlyrate transferred toKingston. Current Norfolk booking status unknown. Oldprofile70generic/300hour andnoamplifiedmusic/noendtimerestrictions notcurrentprimaryverified. Current studio birthday495/575rates notweddingrates. Directory valet/no parking contradiction remains; not silently picked. Partneroffsites/mobile service not owned newproperty identities.",
+      "identity_review_source_kind": "directory_profile"
     },
     {
       "id": "directory-lead-4b33552a714012",
@@ -2745,10 +2760,19 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "montalvo-arts-center-santa-clara"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T08:56:11.688211+00:00",
+      "review_source_urls": [
+        "https://www.wedding-spot.com/venue/11700/villa-montalvo-at-montalvo-arts-center/",
+        "https://montalvoarts.org/host/weddings/"
+      ],
+      "review_reason": "Full original directory and entire current primary weddings body read. Existing Montalvo Arts Center estate retained: Great Lawn, Villa, Spanish Courtyard, Oval Garden and Love Temple nested spaces, not new parent properties. Primary fee depends on requirements and quote request; no current published price, approved dinner/dance capacity or independent deadline in reviewed body. Directory350generic,17000-20000ninehours,exclusivecaterer/10PM are not newly verified current primary contract terms. Linked inquiry not submitted; current issued event approval remains unknown.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-6524e79d33b793",
@@ -2766,10 +2790,19 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "le-bateau-ivre-berkeley-alameda"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T08:56:11.688211+00:00",
+      "review_source_urls": [
+        "https://www.wedding-spot.com/venue/483/le-bateau-ivre/",
+        "https://www.lebateauivre.net/events-catering"
+      ],
+      "review_reason": "Full original directory and full primary Events and Catering body read. Physical restaurant2629Telegraph retained as historical wedding lead, not current verified bookable venue. Primary page says temporary closure and November/December cancellations and invites events in2023; stale relative to November2026, not proof permanent closure or reopening. Current operator response/bookability unknown, no outreach submitted. Directory100generic/34outdoorceremony and150-250fourhour fees/250refundable cash/unlimitedhours not accepted as current price or permission. Several rooms are same restaurant property, no capacity sum or330guest approval. No exact current all-in costs or independent event/music/bar/cleanup times.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-3470f9c13e05ee",
@@ -2787,10 +2820,19 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "redwood-estates-pavilion-los-gatos-santa-clara"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T09:00:07.016539+00:00",
+      "review_source_urls": [
+        "https://www.wedding-spot.com/venue/1104/pavilion-redwood-estates/",
+        "https://redwoodestates.net/wp-content/uploads/2025/04/Pavilion-Rental-Package-Non-Members-3.2.25.docx.pdf"
+      ],
+      "review_reason": "Full original directory and all7pages of actualMarch2,2025nonmemberPDFread,fee/capacityfirstpagerenderedandvisuallychecked. Original220480bytes/SHA3d59eb55069da4be4425ddc8c6693cf718b089d99d5e71a92615d293602959cdsaved. PDFsupersedesold3000/500directoryclaim:3500rental,1500unusedsecurityreturnable7days,50percentbookingcreditnotextraexpense.125maximumfacilityoccupancy,64parkingspaces. SunThu8AM-5PM/FriSat8AM-10PMallfacilityuse; indooramp9PM/outdooramp6PM,cleanupwithinhours. MilliondollarliabilitynamingRESAadditionalinsured; liquorliabilityifalcohol,permissioninagreement,nosalesdirectlyorinticket.125indoorbrown/125outdoorwhitechairs,20sixfoottables+3fourfoot,AVandprofessionalcleaningprovided,butrentertrash/sweeping/reset/kitchencleanupremains.10perbrownchairconditionaloutdoorcleaningfee. Outsidecatererapplicationnotunconditionalvendorpermission. Noemergencygenerator; noforprofitevents; rentalitemsremovedsameeveningunlessapproved. Noallintotal or330approval.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-01f5df05142e7c",
@@ -2808,10 +2850,19 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "old-saint-hilarys-tiburon-marin"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_added",
+      "reviewed_utc": "2026-11-12T09:00:07.016539+00:00",
+      "review_source_urls": [
+        "https://www.wedding-spot.com/venue/8939/old-saint-hilarys/",
+        "https://landmarkssociety.com/rentals/st-hilarys/"
+      ],
+      "review_reason": "Full directory/currentprimarybodyread. Olddeconsecrated201EsperanzalandmarknotmodernStHilarysChurch.125totaloccupancynostanding,115pewseatsnotdinner.1500maximum3hINCLUDESphotography/setup/ceremony; directoryclaimssetupexcludedcontradicted. Additional400/hourincludingrehearsal,500returnablesecurity;50percentrentalpaymentcreditnotextraexpense. Allrentersnominalfeemembershiprequired,amountunknown. Nofood/beveragesor alcoholinside/outside,nokitchen/nodancefloor,rentercleanup. Limitedparkingrequiresroundtripshuttle,permitparking. Additionalinsurancestronglyrecommendednotmandatoryinreviewedprimary, contrarydirectory. SundayAprOctpublicaccessafternoonconstraint. Primarytaxdeductibilityclaimnotindependentlyverifiedtaxadvice. ChinaCabin/ArtGardenCenterseparatephysicalproperties, notreceptionroomsummedhere. Noindependentmusic/exitclockprimaryverified.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-7c12f4f925464b",
@@ -2829,10 +2880,19 @@
       "county": null,
       "city": null,
       "geography_scope": "SF/Bay Area/Northern California search origin; individual geography not independently verified",
-      "collection_status": "Candidate only — individual profile and wedding permission not yet reviewed",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "presidio-presidio-chapel-presidio-chapel-san-francisco"
+      ],
       "match_method": "No exact URL/name match; this does not establish a new property",
-      "review_state": "pending"
+      "review_state": "reviewed_existing",
+      "reviewed_utc": "2026-11-12T09:00:07.016539+00:00",
+      "review_source_urls": [
+        "https://www.wedding-spot.com/venue/327/presidio-chapel-san-francisco/",
+        "https://presidio.gov/venues/presidio-chapel"
+      ],
+      "review_reason": "Full original profile and bothcurrentPresidioTrust/operatorprimarybodiesread. Existing130FisherLoopPresidioChapelnotChapelOurLadyorGoldenGateClub135Fisher. Trust240generic vsoperator150generic vsdirectory125unresolved; no330dinnerapproval. CurrentWedgewoodstatesEXCLUSIVELYwithGoldenGateClubreservation, notstandalone1200directoryceremony. Operator2027publishedstartingpackage107BuildYourOwn/122Classic/162Premier/187Eliteperguest PLUSceremony2495+venue4995,22percentadmin+tax+potentialminima; exactcombinedchapel/clubscope/chargebaseunknown,noallinquote. Old1200/250courtyard/500deposit/6PMdirectorynotcurrentprimaryconfirmed. Onsiteequipment/cateringavailabilitynotallfreeinclusion; otherPresidiopropertiesnotduplicatechapel.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-4cb9cbdd5e339c",
