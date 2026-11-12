@@ -1,15 +1,15 @@
 {
   "candidate_urls": 580,
-  "resolved_candidate_urls": 527,
-  "unresolved_candidate_urls": 53,
+  "resolved_candidate_urls": 535,
+  "unresolved_candidate_urls": 45,
   "review_counts": {
-    "reviewed_added": 294,
-    "reviewed_existing": 220,
+    "reviewed_added": 296,
+    "reviewed_existing": 226,
     "blocked": 10,
     "reviewed_supplier_not_venue_offer": 1,
     "reviewed_outside_scope": 9,
     "excluded": 3,
-    "pending": 43
+    "pending": 35
   },
   "complete": false,
   "scope_note": "Candidate-queue resolution only; even zero unresolved leads does not establish all venues discovered. Room counts and source downloads are not property coverage.",
@@ -4989,57 +4989,73 @@
       "candidate_id": "directory-lead-f977b3d6949012",
       "name": "Harvest Inn",
       "url": "https://www.bayareaweddings.com/vendor/harvest-inn",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "harvest-inn-st-helena-napa"
+      ]
     },
     {
       "candidate_id": "directory-lead-ed98acd710771d",
       "name": "Hastings House Garden Weddings",
       "url": "https://www.bayareaweddings.com/vendor/hastings-house-garden-weddings",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "hastings-house-garden-weddings-san-mateo"
+      ]
     },
     {
       "candidate_id": "directory-lead-4a0d7bd84dbd8b",
       "name": "Hotel Yountville",
       "url": "https://www.bayareaweddings.com/vendor/hotel-yountville",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_added",
+      "record_ids": [
+        "hotel-yountville-napa"
+      ]
     },
     {
       "candidate_id": "directory-lead-97196e1d9598f5",
       "name": "James Leary Flood Mansion",
       "url": "https://www.bayareaweddings.com/vendor/james-leary-flood-mansion",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "flood-mansion-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-b889d82e1eb120",
       "name": "Julia Morgan Ballroom",
       "url": "https://www.bayareaweddings.com/vendor/julia-morgan-ballroom",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "merchants-exchange-julia-morgan-ballroom-san-francisco"
+      ]
     },
     {
       "candidate_id": "directory-lead-fafcc71843163e",
       "name": "Kohl Mansion",
       "url": "https://www.bayareaweddings.com/vendor/kohl-mansion",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "kohl-mansion-san-mateo"
+      ]
     },
     {
       "candidate_id": "directory-lead-f3a7c71e04acbd",
       "name": "Kunde Family Winery",
       "url": "https://www.bayareaweddings.com/vendor/kunde-family-winery",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "kunde-family-winery-kenwood-sonoma"
+      ]
     },
     {
       "candidate_id": "directory-lead-51e27884a99ded",
       "name": "Lafayette Park Hotel & Spa",
       "url": "https://www.bayareaweddings.com/vendor/lafayette-park-hotel-spa",
-      "state": "pending",
-      "record_ids": []
+      "state": "reviewed_existing",
+      "record_ids": [
+        "lafayette-park-hotel-spa-contra-costa"
+      ]
     },
     {
       "candidate_id": "directory-lead-d8dd2844bbd0d8",

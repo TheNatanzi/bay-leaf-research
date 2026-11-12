@@ -2,8 +2,8 @@
   "summary": {
     "checked_utc": "2026-10-26T13:28:51.955107+00:00",
     "candidate_urls": 580,
-    "candidate_urls_with_exact_match": 514,
-    "candidate_urls_without_exact_match": 66,
+    "candidate_urls_with_exact_match": 522,
+    "candidate_urls_without_exact_match": 58,
     "source_counts": {
       "moderndjs": {
         "raw_named_cards": 361,
@@ -53,16 +53,16 @@
     },
     "added_venue_records": 0,
     "note": "Candidate URLs are not a venue count. Old source collection counts retain their original dates; followup state counts are current. Fragment-only links merged; names/URLs are aids, not automatic reviews. Original added_venue_records=0 describes index-only ingestion; primary_followup_records_added is separate.",
-    "primary_followup_records_added": 298,
-    "followup_checked_utc": "2026-11-12T16:04:20.151825+00:00",
+    "primary_followup_records_added": 300,
+    "followup_checked_utc": "2026-11-12T16:12:04.998428+00:00",
     "current_review_counts": {
-      "reviewed_added": 294,
-      "reviewed_existing": 220,
+      "reviewed_added": 296,
+      "reviewed_existing": 226,
       "blocked": 10,
       "reviewed_supplier_not_venue_offer": 1,
       "reviewed_outside_scope": 9,
       "excluded": 3,
-      "pending": 43
+      "pending": 35
     }
   },
   "candidates": [
@@ -16510,13 +16510,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "harvest-inn-st-helena-napa"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_added",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/harvest-inn#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T16:12:04.998428+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/harvest-inn",
+        "https://www.harvestinn.com/weddings/"
+      ],
+      "review_reason": "NEWHarvestInnONE MAINSTREETStHelena94574 verifiedactualweddingandFAQ. VinRoseLawn120CEREMONY/ManorHouseLawn200generic/VineyardViewTerrace130generic/Fountain50/IndoorViewRoom60 notcombinedcapacity/danceapproval. Actualculinaryteamcustommenuswithtableschairswinebarrelsarborincludednotfreefood. ElopementFROM2800onehourVinRoseceremony/officiant/onehourphoto/livemusic/toastcheeseboardNOTdinner. Proposal800sitepetalsbottle45minphotoNOTweddingrental. WeddingroomSPECIALrate8+rooms versusFAQ6+roomsGROUPmustcontractdifferentthresholds/notmandatory8roombuyout. Overnight50perextraadultpernight/150petfee/250mindamage/publicpool7–11notweddingcurfew. Familyfriendlychildrenunder17noHOTELfee/notfreeweddingcatering. Currentfullweddingrentfoodbarstafftaxminimumcurfewunpublished. RFPdatesflexiblequestion/headcountphone/name/email/messagedataconsentread/notfilled.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-ed98acd710771d",
@@ -16534,13 +16543,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "hastings-house-garden-weddings-san-mateo"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_existing",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/hastings-house-garden-weddings#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T16:12:04.998428+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/hastings-house-garden-weddings",
+        "https://hastingshouseweddings.com"
+      ],
+      "review_reason": "ExistingHastingsHouseGardenHalfMoonBayactualhomefullbodyREAD explicitCEREMONIESONLY/receptionnearbyassistanceNOTonsitereception. Halfacreprivategarden/since1984gardenerNOTvenueguestcapacity. Photographyandguitarofferedbyownerscostscopeunknown;twoownersnootherstaffdoesnotproveallplanningincluded. Currentfees/deposits/capacityASK/secondary3000up10and4200up30NOTverifiedcurrentprimary. Noformalstreetaddresspublishedinactualbody/retainunknownnotguess.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-4a0d7bd84dbd8b",
@@ -16558,13 +16576,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "hotel-yountville-napa"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_added",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/hotel-yountville#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T16:12:04.998428+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/hotel-yountville",
+        "https://www.hotelyountville.com/weddings.htm"
+      ],
+      "review_reason": "NEWHotelYountville6462WashingtonYountville94599 verifiedprimaryhome/wedding/elopement/capacitytableALLread. PrivateCelebrationupto60CEREMONYANDDINNER. GeneralOakHall64BANQUET86COCKTAIL80theater48class30U/South32banquet43cocktail32theater18class14U/Northsamebut15U. WholeOakHall1232sfvsSouth560+North560scopevariance notsum64plus64. Privatewedding60vsmeetingbanquet64retainlayoutscopes. ElopementSunThuFROM8000upto18/ceremonyofficiantseasonalbouquetboutonniere1.5hphoto1hguitar/seatingtoastsmallbitesNOTfulldinner/beautyaddonextra. DistinctBardessono6526Yountandits12person8000packageNOTsamepropertydespitesimilarcopy. HeritageOakonsitecatering/roomratesofferednotmandatoryroomcountorfreeSpa;4,400SQUAREFEETnotcapacity. Fullweddingrentfoodbarstafftaxminimumcurfewunknown. VirtualfloorplanlinkVisitingMediaUNREADnotclaimvisualreview.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-97196e1d9598f5",
@@ -16582,13 +16609,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "flood-mansion-san-francisco"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_existing",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/james-leary-flood-mansion#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T16:12:04.998428+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/james-leary-flood-mansion",
+        "https://www.floodmansion.org"
+      ],
+      "review_reason": "ExistingJamesLearyFloodMansionEXACTSAMEFloodMansion2222Broadwayaliasnotnewproperty. Entireactualdirectorybodyandmainoperatorread;24pageactualbrochurevisualreviewandprivateJPEGhasharchivecompleted54 REUSEDnotrepeated.165seated299standing/from14750/lowerlevelADDITIONALFEEunknown/guest22:30FriSat21:30othersvendors90minlater. No299seatedorvendor-midnightguestpromise.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-b889d82e1eb120",
@@ -16606,13 +16642,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "merchants-exchange-julia-morgan-ballroom-san-francisco"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_existing",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/julia-morgan-ballroom#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T16:12:04.998428+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/julia-morgan-ballroom",
+        "https://juliamorganballroom.com"
+      ],
+      "review_reason": "ExistingJuliaMorganBallroom15thfloor465California SAMEexistingMerchantsExchangeparent/lowerBankingHallseparatelayoutnotnewproperty. CurrenthomebodyREAD andexactpriorour-spaceSHAeea7e66..9944verified REUSEcomplete36wedding6p+events4pTEXT/capacityaddressVISUALscopes. Current320BANQUET750reception500theater220class160crescent versus2021PDF350SEATED600standingconflictretained/not330danceapproval.15500wholefloor4060ballroomnotguestcapacity;posted8500–15000venuefee withdynamicF&Bminimum/foodproductiontaxserviceunknown. Priorprovenancepreserved/notrepeatdocs;noadoptionsecondaryMayOctseasonwithoutprimary.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-fafcc71843163e",
@@ -16630,13 +16675,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "kohl-mansion-san-mateo"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_existing",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/kohl-mansion#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T16:12:04.998428+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/kohl-mansion",
+        "https://www.mercyhsb.com/about-us/kohl-mansion"
+      ],
+      "review_reason": "ExistingKohlMansion2750AdelineBurlingame confirmedactualMercyschoolprimarybody plusnativebrowser66DETAILS/WEDDINGS/FLOORPLANAXandmapSCREENSHOTread. OrdinarycollectorrobotsunavailablebutBROWSERRECOVEREDnotwholevenueblocker. Rental8h/footnote8or9hTOTALincludes2setup+1breakdown,extra500hour/notautomaticlatepermission. HalfpermitfeeinitialdepositINCLUDES500security(notadd500twice);balance90daysbefore/dateMAYNOTCHANGEafterdeposit/500damagebalanceconditionalreturn6weeks. Writtenonlycancel>12mo100%initialdepositLESS100/8–12mo50%LESS100/<8moNOrefund/nontransferable. Allinclusiveclaimmeanswholemansiongrounds/furnishingsdancefloorPROkitchenparking/NOCORKAGEandNOCAKECUTfee,NOTfreefoodbarstaff. No currentrate/capacityread. RoommapEntryLibraryGreatHallHallDiningMorningGardenPatioLawnRestroomsnumbered1–10NOTguestcounts. Oldprocedureguidelines2017WaybacklinkedUNREAD/notcurrentverifiedcontract;termsviewedNOTaccepted.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-f3a7c71e04acbd",
@@ -16654,13 +16708,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "kunde-family-winery-kenwood-sonoma"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_existing",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/kunde-family-winery#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T16:12:04.998428+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/kunde-family-winery",
+        "https://kunde.com/weddings"
+      ],
+      "review_reason": "ExistingKunde9825SonomaHwyKenwood95452. Old/events/weddings404recoveredCURRENT/weddings+private-eventsALLBODYread. LIVEcurrentBootHill200AprilOct/Plaza200/Caves50/Magnolia100GENERICnotseateddance. Cachedsearchcopy250BootHill+$10kSat8kFriSun6kMonThu/Plaza7kCaves5kMagnolia8k/wine30ppDIFFERSfromlive200andNOFEESprinted; cachedversionnotcurrentquote/preserveexplicitUNRESOLVEDversionconflict. LiveREQUIRESdedicatedplannerANDprofcaterer, Kundewine; fullbaravailablethroughSanFranciscoCocktailClubcostunknown.4–10PMreservedspace/1hrehearsalscheduled/stringlightsrestrooms/onlyCAVESincludeTABLESCHAIRS. Publictasting10:30–5NOTprivateeventclock.1850ACRES175feetundergroundNOTguestcapacity;separateAdairwinerybranchesnotroomcapacityextensions. Exactmusic/bar/cleanupclockandallmandatorycostsunpublished.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-51e27884a99ded",
@@ -16678,13 +16741,22 @@
       "county": null,
       "city": null,
       "geography_scope": "Candidate geography requires property-level verification",
-      "collection_status": "Captured; property review pending",
-      "matched_record_ids": [],
+      "collection_status": "Scoped property identity review applied; remaining facts/permissions explicitly unknown",
+      "matched_record_ids": [
+        "lafayette-park-hotel-spa-contra-costa"
+      ],
       "match_method": "No automatic identity closure",
-      "review_state": "pending",
+      "review_state": "reviewed_existing",
       "captured_url_variants": [
         "https://www.bayareaweddings.com/vendor/lafayette-park-hotel-spa#inquire"
-      ]
+      ],
+      "reviewed_utc": "2026-11-12T16:12:04.998428+00:00",
+      "review_source_urls": [
+        "https://www.bayareaweddings.com/vendor/lafayette-park-hotel-spa",
+        "https://lafayetteparkhotel.com/weddings/"
+      ],
+      "review_reason": "ExistingLafayetteParkHotel3287MountDiabloLafayette94549NOTSFLafayettepublicpark. Actualhome+weddingbodyALLread/currentweddingCEREMONY/RECEPTIONtableIndependence220/200,Fountain220/200,BenFranklin80/70,GeorgeWashington120/110,Diderot30/30,WishingWell80/80. ReceptionLABELdoesnotverifyseateddinner+dance;roomcountsnotadditiveoneparent. Inhousechefcustommenus/weddingambassadorsnotindependentfullplannerpromise. Late-nightpartyGeorgeWashingtonmarketingNOactualclock. Currentrentfoodbarstafftaxmincurfewunknown/notdirectorycapacity300. ContactsiterequiresNAMEEMAILTELEPHONEinquiryandconsent;newsletterdifferentform/nothing submitted.",
+      "identity_review_source_kind": "primary_operator"
     },
     {
       "id": "directory-lead-d8dd2844bbd0d8",
