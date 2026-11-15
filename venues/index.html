@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bay Leaf Venues</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.min.css">
+<style>
+:root{--bg:#f5f5f5;--card:#fff;--ink:#2d3142;--soft:#4f5d75;--line:#d9dce3;--accent:#1f6fb2;--good:#2f7d4f;--goodbg:#e8f3ec;--warn:#bf4520;--warnbg:#fbeae4;--mid:#8a5d06;--midbg:#fdf4de}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#16181d;--card:#20232b;--ink:#eceef3;--soft:#a9b1c2;--line:#353a47;--accent:#6fb1e8;--good:#7fcf9c;--goodbg:#1d3326;--warn:#f0906f;--warnbg:#3a231c;--mid:#e6c069;--midbg:#3a3220}}
+:root[data-theme="dark"]{--bg:#16181d;--card:#20232b;--ink:#eceef3;--soft:#a9b1c2;--line:#353a47;--accent:#6fb1e8;--good:#7fcf9c;--goodbg:#1d3326;--warn:#f0906f;--warnbg:#3a231c;--mid:#e6c069;--midbg:#3a3220}
+*{box-sizing:border-box}html,body{height:100%}body{margin:0;background:var(--bg);color:var(--ink);font-family:'Segoe UI',system-ui,Arial,sans-serif;font-size:17px;line-height:1.4}
+button,input,select{font:inherit;color:var(--ink)}
+.app{display:grid;grid-template-columns:460px 1fr;grid-template-rows:auto 1fr;height:100vh}
+header{grid-column:1/3;display:flex;flex-wrap:wrap;gap:10px 18px;align-items:baseline;padding:10px 16px;background:var(--card);border-bottom:1px solid var(--line)}
+header h1{font-size:1.35rem;font-weight:600;margin:0}header .sub{color:var(--soft)}header .tabs{display:none;margin-left:auto;gap:8px}
+.side{display:flex;flex-direction:column;min-height:0;background:var(--card);border-right:1px solid var(--line)}
+.filters{padding:12px 14px;border-bottom:1px solid var(--line);display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.filters input[type=search],.filters select{width:100%;padding:9px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg)}
+.filters .wide{grid-column:1/3}.checks{grid-column:1/3;display:flex;flex-wrap:wrap;gap:6px 14px}.checks label{display:flex;gap:6px;align-items:center;cursor:pointer}
+.count{padding:8px 14px;font-weight:600;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:8px;align-items:center}
+.count button{padding:5px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);cursor:pointer}
+.list{overflow-y:auto;flex:1;min-height:0}.item{padding:10px 14px;border-bottom:1px solid var(--line);cursor:pointer}.item:hover,.item.on{background:var(--bg)}
+.item .nm{font-weight:600}.item .meta{color:var(--soft);font-size:.94rem}.pills{display:flex;flex-wrap:wrap;gap:5px;margin-top:5px}
+.pill{border-radius:6px;padding:1px 8px;font-size:.88rem;background:var(--bg);border:1px solid var(--line);white-space:nowrap}
+.pill.f1{background:var(--goodbg);color:var(--good);border-color:var(--good);font-weight:600}.pill.f2{background:var(--midbg);color:var(--mid);border-color:var(--mid)}.pill.w{background:var(--warnbg);color:var(--warn);border-color:var(--warn)}
+.more{display:block;width:calc(100% - 28px);margin:12px 14px;padding:10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);cursor:pointer}
+.mapwrap{position:relative;min-height:0}#map{position:absolute;inset:0;background:var(--bg)}
+.legend{position:absolute;left:10px;bottom:22px;z-index:500;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:.9rem}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+.drawer{position:absolute;top:0;right:0;bottom:0;width:min(560px,100%);z-index:1000;background:var(--card);border-left:1px solid var(--line);overflow-y:auto;padding:16px 18px;display:none}
+.drawer.open{display:block}.drawer h2{font-size:1.4rem;font-weight:600;margin:0 40px 2px 0}.drawer .x{position:absolute;top:10px;right:12px;border:1px solid var(--line);background:var(--bg);border-radius:8px;padding:4px 12px;cursor:pointer}
+.drawer h3{font-size:1.05rem;font-weight:600;margin:18px 0 6px;color:var(--soft)}.kv{display:grid;grid-template-columns:150px 1fr;gap:4px 10px}.kv b{font-weight:600;color:var(--soft)}
+.fact{border:1px solid var(--line);border-radius:8px;padding:8px 10px;margin:6px 0}.fact .q{color:var(--soft);font-size:.94rem;border-left:3px solid var(--line);padding-left:8px;margin-top:4px}
+.fact .src{font-size:.88rem}.tag{font-size:.82rem;border-radius:5px;padding:0 6px;margin-left:6px;border:1px solid var(--line);white-space:nowrap}
+.tag.own{background:var(--goodbg);color:var(--good);border-color:var(--good)}.tag.dir{background:var(--midbg);color:var(--mid);border-color:var(--mid)}
+a{color:var(--accent)}.note{color:var(--soft);font-size:.94rem}
+.leaflet-container{font:inherit}.leaflet-popup-content{font-size:15px}
+.marker-cluster{background:rgba(31,111,178,.25);border-radius:50%}.marker-cluster div{background:#1f6fb2;color:#fff;border-radius:50%;width:30px;height:30px;margin:5px;text-align:center;line-height:30px;font-weight:600;font-size:13px}
+@media(max-width:900px){.app{grid-template-columns:1fr}header .tabs{display:flex}header .tabs button{padding:6px 14px;border:1px solid var(--line);border-radius:8px;background:var(--bg)}
+ header .tabs button.on{background:var(--accent);color:#fff;border-color:var(--accent)}.side,.mapwrap{grid-column:1;grid-row:2}body.showmap .side{display:none}body:not(.showmap) .mapwrap{visibility:hidden}.drawer{position:fixed}}
+</style>
+</head>
+<body>
+<div class="app">
+<header><h1>Bay Leaf venues</h1><span class="sub" id="built">Loading the venue list</span>
+<div class="tabs"><button id="tabList" class="on">List</button><button id="tabMap">Map</button></div></header>
+<div class="side">
+ <div class="filters">
+  <input class="wide" type="search" id="q" placeholder="Search name, city or address" aria-label="Search">
+  <select id="county" aria-label="County"><option value="">All counties</option></select>
+  <select id="fit" aria-label="Fit label"><option value="">All fit labels</option><option value="1">Best match: 300+ and midnight</option><option value="2">300+ guests, closing unknown</option><option value="3">300+ but ends before midnight</option><option value="4">200 to 299 guests</option><option value="5">Under 200 guests</option><option value="6">Capacity unknown</option></select>
+  <select id="minG" aria-label="Minimum guests"><option value="">Any guest count</option><option>100</option><option>200</option><option>300</option><option>400</option><option>500</option></select>
+  <select id="sort" aria-label="Sort"><option value="fit">Sort: best fit first</option><option value="g">Sort: most guests</option><option value="p">Sort: lowest price</option><option value="n">Sort: name</option></select>
+  <div class="checks">
+   <label><input type="checkbox" id="hp"> Has a price</label><label><input type="checkbox" id="hh"> Has a closing time</label>
+   <label><input type="checkbox" id="ho"> Outdoor space</label><label><input type="checkbox" id="hw"> Own website known</label>
+   <label><input type="checkbox" id="named"> Hide unnamed listings and bare rooms</label><label><input type="checkbox" id="inview"> Only what the map shows</label>
+  </div>
+ </div>
+ <div class="count"><span id="count"></span><button id="reset">Clear filters</button></div>
+ <div class="list" id="list"></div>
+</div>
+<div class="mapwrap"><div id="map"></div>
+ <div class="legend"><div><i style="background:#2f7d4f"></i>Best match</div><div><i style="background:#c98a12"></i>300+ guests</div><div><i style="background:#1f6fb2"></i>Other venues</div><div><i style="background:transparent;border:2px dashed #8a8f9c"></i>City known, street unknown</div></div>
+ <div class="drawer" id="drawer"><button class="x" id="close">Close</button><div id="dbody"></div></div>
+</div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js"></script>
+<script>
+const FIT={1:'Best match: 300+ guests, open to midnight',2:'300+ guests, closing time unknown',3:'300+ guests, ends before midnight',4:'200 to 299 guests',5:'Under 200 guests',6:'Capacity unknown'};
+const FIELD={price:'Price',hours:'Hours and end time',capacity:'Capacity',alcohol:'Alcohol',catering:'Catering',rental_terms:'Rental terms',contact:'Contact',event_space:'Event space',directory_listing:'Directory listing',other:'Other'};
+const KIND={own:"venue's own website",dir:'directory figure, not confirmed by the venue',census:'page found by the census',orig:'original research'};
+const ORDER=['price','capacity','hours','alcohol','catering','rental_terms','contact','event_space','directory_listing','other'];
+const $=id=>document.getElementById(id);let D=[],shown=[],limit=60,map,cluster,markers={},selected=null,detailCache={};
+const el=(t,c,x)=>{const e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e};
+const money=n=>'$'+n.toLocaleString();
+function color(r){return r[11]===1?'#2f7d4f':(r[11]===2||r[11]===3)?'#c98a12':'#1f6fb2'}
+function passes(r){const q=$('q').value.trim().toLowerCase(),c=$('county').value,f=$('fit').value,g=+$('minG').value||0;
+ if(c&&r[3]!==c)return false;if(f&&r[11]!=f)return false;if(g&&!(r[7]>=g))return false;
+ if($('hp').checked&&r[9]==null&&!(r[16]&1))return false;if($('hh').checked&&!r[8]&&!(r[16]&2))return false;if($('ho').checked&&!r[10])return false;
+ if($('hw').checked&&!r[12])return false;if($('named').checked&&(r[17]&1))return false;
+ if(q&&!(r[1]+' '+r[2]+' '+r[14]).toLowerCase().includes(q))return false;
+ if($('inview').checked&&map){if(r[4]==null||!map.getBounds().contains([r[4],r[5]]))return false}return true}
+function sorter(){const s=$('sort').value;return (a,b)=>{if(s==='n')return a[1].localeCompare(b[1]);if(s==='g')return (b[7]||-1)-(a[7]||-1)||a[1].localeCompare(b[1]);
+ if(s==='p')return (a[9]==null?1e12:a[9])-(b[9]==null?1e12:b[9])||a[1].localeCompare(b[1]);return a[11]-b[11]||(b[7]||0)-(a[7]||0)||a[1].localeCompare(b[1])}}
+function pills(r,box){box.appendChild(el('span','pill f'+r[11],FIT[r[11]]));if(r[7])box.appendChild(el('span','pill','Up to '+r[7].toLocaleString()+' guests'));
+ if(r[9]!=null)box.appendChild(el('span','pill','From '+money(r[9])));if(r[8])box.appendChild(el('span','pill','Closes '+r[8]));if(r[10])box.appendChild(el('span','pill','Outdoor'));
+ if(r[17]&2)box.appendChild(el('span','pill w','May be closed'));if(r[17]&1)box.appendChild(el('span','pill w','Unnamed listing or room'));if(r[17]&8)box.appendChild(el('span','pill w','City not confirmed'))}
+function drawList(){const L=$('list');L.textContent='';shown.slice(0,limit).forEach(r=>{const d=el('div','item'+(selected===r[0]?' on':''));d.appendChild(el('div','nm',r[1]));
+  d.appendChild(el('div','meta',[r[2],r[3]&&r[3]+' County'].filter(Boolean).join(', ')));const p=el('div','pills');pills(r,p);d.appendChild(p);d.onclick=()=>openVenue(r,true);L.appendChild(d)});
+ if(shown.length>limit){const b=el('button','more','Show 60 more ('+(shown.length-limit).toLocaleString()+' left)');b.onclick=()=>{limit+=60;drawList()};L.appendChild(b)}
+ const dots=shown.filter(r=>r[4]!=null).length;$('count').textContent=shown.length.toLocaleString()+' of '+D.length.toLocaleString()+' venues, '+dots.toLocaleString()+' on the map'}
+function drawMap(){if(!map)return;cluster.clearLayers();const ms=[];shown.forEach(r=>{if(r[4]==null)return;let m=markers[r[0]];
+  if(!m){m=L.circleMarker([r[4],r[5]],{radius:r[11]===1?9:7,color:color(r),weight:2,fillColor:color(r),fillOpacity:r[6]?0:.75,dashArray:r[6]?'3 3':null});
+   m.bindTooltip(r[1]+(r[6]?' (city only)':''));m.on('click',()=>openVenue(r,false));markers[r[0]]=m}ms.push(m)});cluster.addLayers(ms)}
+function apply(keepLimit){shown=D.filter(passes).sort(sorter());if(!keepLimit)limit=60;drawList();drawMap()}
+async function openVenue(r,fly){selected=r[0];drawList();const B=$('dbody');B.textContent='';$('drawer').classList.add('open');
+ B.appendChild(el('h2','',r[1]));B.appendChild(el('div','note',[r[14],r[2],r[3]&&r[3]+' County'].filter(Boolean).join(' · ')));const p=el('div','pills');pills(r,p);B.appendChild(p);
+ const kv=el('div','kv');kv.style.marginTop='12px';const add=(k,v,href)=>{if(!v)return;kv.appendChild(el('b','',k));const s=el('span');if(href){const a=el('a','',v);a.href=href;a.target='_blank';a.rel='noopener';s.appendChild(a)}else s.textContent=v;kv.appendChild(s)};
+ add('Own website',r[12]?r[12].replace(/^https?:\/\/(www\.)?/,'').slice(0,60):'',r[12]);add('Source link',!r[12]&&r[13]?r[13].replace(/^https?:\/\/(www\.)?/,'').slice(0,60):'',r[13]);
+ add('Map position',r[4]==null?'Not on the map: no street address or city centre':r[6]?'Approximate: city known, street address unknown':'From its street address');
+ add('Records under it',String(r[15]));add('Where from',['Original Codex research','Original research plus census','Claude census'][r[18]]);B.appendChild(kv);
+ if(fly&&map&&r[4]!=null){document.body.classList.contains('showmap')||0;map.setView([r[4],r[5]],Math.max(map.getZoom(),14))}
+ const wait=el('div','note','Loading its facts and quotes');wait.style.marginTop='14px';B.appendChild(wait);
+ try{const b=r[0].slice(-2);if(!detailCache[b])detailCache[b]=await fetch('data/d/'+b+'.json').then(x=>{if(!x.ok)throw Error(x.status);return x.json()});if(selected!==r[0])return;wait.remove();showDetail(detailCache[b][r[0]],B)}
+ catch(e){wait.textContent='The facts could not be loaded ('+e.message+'). If you opened this file by double-click, open it through the local link instead.'}}
+function showDetail(d,B){if(!d){B.appendChild(el('div','note','No detail saved for this venue.'));return}
+ if(d.flags&&d.flags.length){B.appendChild(el('h3','','Labels'));const p=el('div','pills');d.flags.forEach(f=>p.appendChild(el('span','pill w',f)));B.appendChild(p)}
+ const by={};d.r.forEach(rec=>rec.f.forEach(f=>{(by[f[0]]=by[f[0]]||[]).push([f,rec.n])}));
+ ORDER.concat(Object.keys(by).filter(k=>!ORDER.includes(k))).forEach(k=>{if(!by[k])return;B.appendChild(el('h3','',(FIELD[k]||k.replace(/_/g,' '))+' ('+by[k].length+')'));
+  by[k].slice(0,40).forEach(([f,recName])=>{const x=el('div','fact');const top=el('div');top.appendChild(document.createTextNode(f[1]));const t=el('span','tag '+f[4],KIND[f[4]]||f[4]);top.appendChild(t);x.appendChild(top);
+   if(f[2]&&f[2]!==f[1])x.appendChild(el('div','q','"'+f[2]+'"'));const s=el('div','src');if(d.r.length>1)s.appendChild(document.createTextNode(recName+' · '));
+   if(f[3]&&/^https?:/.test(f[3])){const a=el('a','',f[3].replace(/^https?:\/\/(www\.)?/,'').slice(0,70));a.href=f[3];a.target='_blank';a.rel='noopener';s.appendChild(a)}x.appendChild(s);B.appendChild(x)});
+  if(by[k].length>40)B.appendChild(el('div','note',(by[k].length-40)+' more not shown'))});
+ if(d.r.length>1){B.appendChild(el('h3','','Rooms and records under this venue ('+d.r.length+')'));d.r.forEach(rec=>B.appendChild(el('div','note',rec.n+(rec.k?' · '+rec.k:''))))}
+ B.appendChild(el('h3','','Research status'));d.r.slice(0,3).forEach(rec=>B.appendChild(el('div','note',rec.s)))}
+function initMap(){map=L.map('map',{preferCanvas:true}).setView([37.85,-122.25],9);L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; OpenStreetMap contributors'}).addTo(map);
+ cluster=L.markerClusterGroup({chunkedLoading:true,maxClusterRadius:50,disableClusteringAtZoom:15,iconCreateFunction:c=>L.divIcon({html:'<div>'+c.getChildCount()+'</div>',className:'marker-cluster',iconSize:[40,40]})});
+ map.addLayer(cluster);map.on('moveend',()=>{if($('inview').checked)apply(true)})}
+fetch('data/venues.json').then(r=>{if(!r.ok)throw Error(r.status);return r.json()}).then(j=>{D=j.rows;$('built').textContent=D.length.toLocaleString()+' parent venues · labels only, none removed for size or fit · built '+j.built;
+ [...new Set(D.map(r=>r[3]).filter(Boolean))].sort().forEach(c=>{const o=el('option','',c);$('county').appendChild(o)});try{initMap()}catch(e){$('map').textContent='The map could not start: '+e.message}apply()})
+ .catch(e=>{$('built').textContent='The venue list could not be loaded ('+e.message+'). Open this site through the local link, not by double-click.'});
+['q','county','fit','minG','sort','hp','hh','ho','hw','named','inview'].forEach(i=>$(i).addEventListener('input',()=>apply()));
+$('reset').onclick=()=>{['q','county','fit','minG'].forEach(i=>$(i).value='');$('sort').value='fit';['hp','hh','ho','hw','named','inview'].forEach(i=>$(i).checked=false);apply()};
+$('close').onclick=()=>{$('drawer').classList.remove('open');selected=null;drawList()};
+$('tabList').onclick=()=>{document.body.classList.remove('showmap');$('tabList').classList.add('on');$('tabMap').classList.remove('on')};
+$('tabMap').onclick=()=>{document.body.classList.add('showmap');$('tabMap').classList.add('on');$('tabList').classList.remove('on');setTimeout(()=>map&&map.invalidateSize(),50)};
+</script>
+</body>
+</html>
