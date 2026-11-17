@@ -26,22 +26,53 @@ body.withmap .wrap{grid-template-columns:minmax(0,1fr) 420px}
 table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
 th,td{text-align:left;padding:11px 12px;border-bottom:1px solid var(--line);vertical-align:top}
 th{font-weight:600;color:var(--soft);font-size:.92rem;white-space:nowrap;cursor:pointer;user-select:none;background:var(--card)}th.sorted{color:var(--accent)}
-tbody tr{cursor:pointer}tbody tr:hover{background:var(--accentbg)}td.n{white-space:nowrap;font-variant-numeric:tabular-nums}
-.nm{font-weight:600}.loc{color:var(--soft);font-size:.93rem}.none{color:var(--faint)}.best{display:inline-block;margin-left:8px;padding:0 8px;border-radius:6px;background:var(--goodbg);color:var(--good);font-size:.82rem;font-weight:600;vertical-align:1px}
+tbody tr{cursor:pointer}tbody tr:hover{background:var(--accentbg)}.price tbody tr{cursor:default}.price tbody tr:hover{background:none}td.n{white-space:nowrap;font-variant-numeric:tabular-nums}
+.nm{font-weight:600}.xp{display:inline-block;width:28px;height:26px;margin-right:8px;border:1px solid var(--line);border-radius:6px;background:var(--bg);cursor:pointer;font-size:.8rem;vertical-align:2px;line-height:1}tr.sp{cursor:default}tr.sp:hover{background:none}tr.sp.hide{display:none}tr.sp td{background:var(--bg);font-size:.95rem;color:var(--soft)}tr.sp td:first-child{padding-left:50px}.spm,.splist{display:none}.loc{color:var(--soft);font-size:.93rem}.none{color:var(--faint)}.best{display:inline-block;margin-left:8px;padding:0 8px;border-radius:6px;background:var(--goodbg);color:var(--good);font-size:.82rem;font-weight:600;vertical-align:1px}
 .more{display:block;margin:14px auto 0;padding:11px 22px;border:1px solid var(--line);border-radius:10px;background:var(--card);cursor:pointer}
-.sheetbg{position:fixed;inset:0;background:rgba(0,0,0,.35);z-index:900;display:none}.sheetbg.open{display:block}
-.sheet{position:fixed;top:0;right:0;bottom:0;width:min(620px,100%);z-index:1000;background:var(--card);overflow-y:auto;padding:20px 22px 40px;display:none;box-shadow:-8px 0 30px rgba(0,0,0,.18)}.sheet.open{display:block}
-.sheet h2{font-size:1.5rem;font-weight:600;margin:0 50px 2px 0}.sheet .x{position:absolute;top:14px;right:14px}
 .acts{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 4px}.acts a{padding:8px 14px;border:1px solid var(--line);border-radius:10px;background:var(--bg);text-decoration:none;color:var(--ink)}.acts a.main{background:var(--accent);border-color:var(--accent);color:#fff}
-.glance{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:14px 0 6px}.cell{border:1px solid var(--line);border-radius:10px;padding:10px 12px}.cell .k{color:var(--soft);font-size:.88rem}.cell .v{font-weight:600;font-size:1.08rem}
+.glance{display:grid;grid-template-columns:repeat(6,1fr);gap:8px;margin:14px 0 16px}.cell{border:1px solid var(--line);border-radius:10px;padding:10px 12px}.cell .k{color:var(--soft);font-size:.88rem}.cell .v{font-weight:600;font-size:1.08rem}
 .sec{border-top:1px solid var(--line);margin-top:16px;padding-top:12px}.sec h3{font-size:1.05rem;font-weight:600;margin:0 0 6px;display:flex;justify-content:space-between;align-items:center;gap:10px}
 .sec ul{margin:0;padding-left:20px}.sec li{margin:4px 0}.srcbtn{font-size:.88rem;padding:3px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);cursor:pointer;color:var(--soft);white-space:nowrap}
 .src{display:none;margin:3px 0 8px;padding:6px 10px;border-left:3px solid var(--line);color:var(--soft);font-size:.92rem;overflow-wrap:anywhere}.showsrc .src{display:block}
 .note{color:var(--soft);font-size:.94rem}
 .leaflet-container{font:inherit}.marker-cluster{background:rgba(179,84,30,.22);border-radius:50%}.marker-cluster div{background:#b3541e;color:#fff;border-radius:50%;width:30px;height:30px;margin:5px;text-align:center;line-height:30px;font-weight:600;font-size:13px}
-@media(max-width:900px){.top{position:static}.bar{gap:8px}.bar h1{flex:1 1 100%}.bar input[type=search]{flex:1 1 100%}.bar select,.bar .btn{flex:1 1 calc(50% - 4px);min-width:0}.chips label{flex:1 1 100%}body.withmap .wrap{grid-template-columns:1fr}body.withmap .mapbox{position:relative;top:0;height:60vh;order:-1}
- thead{display:none}table,tbody{display:block;border:0;background:transparent}tbody tr{display:grid;grid-template-columns:1fr 1fr;gap:2px 12px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin-bottom:10px}
- td{border:0;padding:1px 0}td.first{grid-column:1/3;padding-bottom:6px}td[data-k]::before{content:attr(data-k) ": ";color:var(--soft);font-size:.9rem}td.empty{display:none}.glance{grid-template-columns:1fr 1fr}.chips .count{margin-left:0;width:100%}}
+@media(max-width:900px){.top{position:static}.xp{display:none}.spm{display:inline-block;margin-top:4px;padding:3px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);font-size:.88rem;cursor:pointer}tbody tr.sp{display:none!important}tr.open .splist{display:block;margin-top:6px;color:var(--soft);font-size:.92rem;line-height:1.5}.splist div{padding:2px 0}.bar{gap:8px}.bar h1{flex:1 1 100%}.bar input[type=search]{flex:1 1 100%}.bar select,.bar .btn{flex:1 1 calc(50% - 4px);min-width:0}.chips label{flex:1 1 100%}body.withmap .wrap{grid-template-columns:1fr}body.withmap .mapbox{position:relative;top:0;height:60vh;order:-1}
+ .lst thead{display:none}.lst,.lst tbody{display:block;border:0;background:transparent}.lst tbody tr{display:grid;grid-template-columns:1fr 1fr;gap:2px 12px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin-bottom:10px}
+ .lst td{border:0;padding:1px 0}.lst td.first{grid-column:1/3;padding-bottom:6px}.lst td[data-k]::before{content:attr(data-k) ": ";color:var(--soft);font-size:.9rem}.chips .count{margin-left:0;width:100%}}
+
+*{font-style:normal}
+body.onpage .top,body.onpage .wrap{display:none}#vpage{display:none;min-height:100vh}body.onpage #vpage{display:block}
+.vwrap{max-width:1280px;margin:0 auto;padding:14px 16px 50px}
+.back{padding:9px 14px;border:1px solid var(--line);border-radius:10px;background:var(--card);cursor:pointer}
+.head{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:baseline;justify-content:space-between;margin:14px 0 0}.head h2{margin:0;font-size:1.8rem;font-weight:600}
+#vbody h2{font-size:1.8rem;font-weight:600}
+.pt{--tbl:#1c1f27;--tline:#343946;background:var(--tbl);border-radius:12px;padding:16px;color:#fff;margin-bottom:14px}
+.pt h3.tt{margin:16px 0 8px;font-size:1.15rem;font-weight:600}
+.guests{display:flex;align-items:center;gap:10px;margin-bottom:12px;flex-wrap:wrap}
+.guests input{width:110px;padding:8px 10px;border-radius:8px;border:2px solid #6cb8ff;background:#10131a;color:#6cb8ff;font-weight:600;font-size:1.1rem}
+.scroll{overflow-x:auto}
+table.price{border-collapse:collapse;min-width:1050px;width:100%;background:var(--tbl);border:0;border-radius:0}
+.price th,.price td{padding:10px 12px;border-bottom:1px solid var(--tline);text-align:left;white-space:nowrap;vertical-align:top;background:var(--tbl);color:#fff;cursor:default}
+.price th{color:#cfd5e2;font-weight:600;font-size:.92rem}
+.price td.lab,.price th.lab{position:sticky;left:0;background:var(--tbl);z-index:1;font-weight:600}
+.price .num{text-align:right;font-variant-numeric:tabular-nums}
+.price .fix{color:#fff}.price .var{color:#c9a2ff}.price .pick{color:#6cb8ff}.price td.credit{color:#ffbf4d;white-space:normal;min-width:140px}.price td.inc{color:#a9b1c2;white-space:normal;min-width:180px}
+.price select{background:#10131a;color:#6cb8ff;border:1px solid #6cb8ff;border-radius:6px;padding:5px 6px;font:inherit;max-width:260px;display:block;margin-bottom:4px;margin-left:auto}
+.price tr.sub td{border-top:2px solid #5a6072}.price tr.tot td{font-weight:700;font-size:1.1rem;border-top:2px solid #fff}
+.price .opt{color:#8f97a8;font-size:.85rem;font-weight:400}.pt .opt{color:#8f97a8;font-size:.9rem}
+.pt sup{color:#ffcf80}
+.legend{display:flex;flex-wrap:wrap;gap:14px;margin-top:12px;font-size:.92rem}.legend span::before{content:"";display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px;background:currentColor}
+.legend .fix{color:#fff}.legend .var{color:#c9a2ff}.legend .pick{color:#6cb8ff}.legend .credit{color:#ffbf4d}.legend .inc{color:#a9b1c2}
+.notes{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:14px}.notes h3{margin:10px 0 6px;font-size:1.05rem}.notes h3:first-child{margin-top:0}.notes ul{margin:0;padding-left:20px}.notes li{margin:4px 0;overflow-wrap:anywhere}
+.warn{color:var(--accent);font-weight:600;margin:6px 0}.nopr{margin-top:6px}
+@media(max-width:900px){.glance{grid-template-columns:1fr 1fr 1fr}}
+@media(max-width:700px){.vwrap{padding:10px 16px 40px}.pt{padding:12px;margin:0 -4px 14px}.price td.lab{min-width:120px;white-space:normal}.head h2{font-size:1.5rem}.glance{grid-template-columns:1fr 1fr}}
+
+.lst{table-layout:auto}.lst td.n{white-space:normal}.lst th{white-space:normal}.lst td:first-child{min-width:190px}
+@media(max-width:1200px){.lst th,.lst td{padding:9px 7px;font-size:.95rem}.lst td:first-child{min-width:170px}.bar{gap:8px}.bar h1{flex:1 1 100%}}
+.swipe{display:none;color:#ffcf80;font-size:.92rem;margin:0 0 8px}
+.scwrap{position:relative}
+@media(max-width:700px){.swipe{display:block}.scwrap::after{content:"";position:absolute;top:0;right:0;bottom:0;width:34px;background:linear-gradient(to right,rgba(28,31,39,0),#1c1f27);pointer-events:none}}
 </style>
 </head>
 <body>
@@ -51,73 +82,191 @@ tbody tr{cursor:pointer}tbody tr:hover{background:var(--accentbg)}td.n{white-spa
   <select id="county" aria-label="County"><option value="">All counties</option></select>
   <select id="minG" aria-label="Guests"><option value="">Any size</option><option value="100">100+ guests</option><option value="200">200+ guests</option><option value="300">300+ guests</option><option value="400">400+ guests</option><option value="500">500+ guests</option></select>
   <select id="late" aria-label="Closing time"><option value="">Any closing time</option><option value="1320">Open to 10 PM or later</option><option value="1380">Open to 11 PM or later</option><option value="1440">Open to midnight or later</option></select>
-  <select id="cater" aria-label="Catering"><option value="">Any catering</option><option>Outside caterers OK</option><option>Approved list</option><option>In-house only</option><option>In-house available</option></select>
+  <select id="cater" aria-label="Catering"><option value="">Any catering</option><option>In-house required</option><option>In-house or outside OK</option><option>Approved caterer list only</option><option>Outside caterer only</option></select>
   <button class="btn" id="mapbtn">Show map</button>
  </div>
  <div class="chips">
-  <label><input type="checkbox" id="hp"> Price known</label><label><input type="checkbox" id="byo"> Bring your own alcohol</label><label><input type="checkbox" id="ho"> Outdoor space</label>
+  <label><input type="checkbox" id="hp"> Price known</label><label><input type="checkbox" id="byo"> BYO allowed</label><label><input type="checkbox" id="ho"> Outdoor space</label>
   <label><input type="checkbox" id="unnamed"> Include <span id="un"></span> unnamed marketplace listings</label>
   <button class="btn" id="reset" style="padding:5px 12px">Clear</button><span class="count" id="count">Loading the venue list</span>
  </div>
 </div>
 <div class="wrap">
- <div><table><thead><tr><th data-s="rel" class="sorted">Venue</th><th data-s="g">Guests</th><th data-s="p">Price from</th><th data-s="c">Closes</th><th>Catering</th><th>Alcohol</th><th>Outdoor</th></tr></thead><tbody id="tb"></tbody></table>
+ <div><table class="lst"><thead><tr><th data-s="rel" class="sorted">Venue</th><th data-s="g">Guests</th><th data-s="p">Price from</th><th data-s="c">Closes</th><th data-s="m">Music cutoff</th><th>Catering</th><th>Alcohol</th><th>Outdoor</th></tr></thead><tbody id="tb"></tbody></table>
   <button class="more" id="more">Show more</button></div>
  <div class="mapbox"><div id="map"></div></div>
 </div>
-<div class="sheetbg" id="bg"></div>
-<div class="sheet" id="sheet"><button class="btn x" id="close">Close</button><div id="body"></div></div>
+<div id="vpage"><div class="vwrap"><button class="back" id="back">← Back to list</button><div id="vbody"></div></div></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js"></script>
 <script>
 const TOPIC=[['price','Pricing'],['capacity','Capacity'],['hours','Hours and end time'],['catering','Catering'],['alcohol','Alcohol'],['rental_terms','Rental terms'],['contact','Contact'],['event_space','About the space'],['other','Other']];
-const $=id=>document.getElementById(id);let D=[],shown=[],limit=50,sortK='rel',asc=true,map,cluster,markers={},cache={};
+const $=id=>document.getElementById(id);let D=[],shown=[],limit=50,sortK='rel',asc=true,map,cluster,markers={},cache={},openSet=new Set();
 const el=(t,c,x)=>{const e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e};
 function passes(r){const q=$('q').value.trim().toLowerCase(),c=$('county').value,g=+$('minG').value||0,l=+$('late').value||0,ca=$('cater').value;
  if(!$('unnamed').checked&&r[24])return false;if(c&&r[3]!==c)return false;if(g&&!(r[7]>=g))return false;if(l&&!(r[18]>=l))return false;if(ca&&r[19]!==ca)return false;
- if($('hp').checked&&!r[9])return false;if($('byo').checked&&r[20]!=='Bring your own')return false;if($('ho').checked&&!r[10])return false;
+ if($('hp').checked&&!r[9])return false;if($('byo').checked&&r[20]!=='Venue bar or BYO'&&r[20]!=='BYO only')return false;if($('ho').checked&&!r[10])return false;
  if(q&&!(r[1]+' '+r[2]+' '+r[14]).toLowerCase().includes(q))return false;return true}
-function cmp(a,b){const last=1e15,dir=asc?1:-1;if(sortK==='g')return ((b[7]||-1)-(a[7]||-1))*dir||b[23]-a[23];
+function cmp(a,b){const last=1e15,dir=asc?1:-1;if(sortK==='m'){const x=a[28],y=b[28];if(x==null||y==null)return x==null&&y==null?b[23]-a[23]:(x==null?1:-1);return (x-y)*dir||b[23]-a[23]}if(sortK==='g')return ((b[7]||-1)-(a[7]||-1))*dir||b[23]-a[23];
  if(sortK==='p'){const u={event:0,person:1,hour:2};const x=a[16]==null?last:u[a[17]]*1e9+a[16],y=b[16]==null?last:u[b[17]]*1e9+b[16];return (x===last||y===last)?x-y:(x-y)*dir||b[23]-a[23]}
  if(sortK==='c')return ((b[18]||-1)-(a[18]||-1))*dir||b[23]-a[23];return (b[23]-a[23])*dir||a[1].localeCompare(b[1])}
-function td(text,key,cls){const t=el('td',cls||'');if(text){t.textContent=text}else{t.textContent='—';t.classList.add('none','empty')}if(key)t.dataset.k=key;return t}
-function draw(){const tb=$('tb');tb.textContent='';shown.slice(0,limit).forEach(r=>{const tr=el('tr');const f=el('td','first');const n=el('div','nm',r[1]);if(r[11]===1)n.appendChild(el('span','best','Best match'));
-  f.appendChild(n);f.appendChild(el('div','loc',[r[2],r[3]&&r[3]+' County'].filter(Boolean).join(', ')+(r[25]?' · may be closed':'')));tr.appendChild(f);
-  tr.appendChild(td(r[7]?'Up to '+r[7].toLocaleString():'','Guests','n'));tr.appendChild(td(r[9],'Price from','n'));tr.appendChild(td(r[8],'Closes','n'));
-  tr.appendChild(td(r[19],'Catering'));tr.appendChild(td(r[20],'Alcohol'));tr.appendChild(td(r[10]?'Yes':'','Outdoor'));tr.onclick=()=>openVenue(r);tb.appendChild(tr)});
+function td(text,key,cls){const t=el('td',cls||'');if(text){t.textContent=text}else{t.textContent='—';t.classList.add('none')}if(key)t.dataset.k=key;return t}
+function togSp(pid){if(openSet.has(pid))openSet.delete(pid);else openSet.add(pid);draw()}
+function draw(){const tb=$('tb');tb.textContent='';shown.slice(0,limit).forEach(r=>{const sp=r[27]||[],has=sp.length>=2,open=has&&openSet.has(r[0]);
+ const tr=el('tr',open?'open':'');const f=el('td','first');
+ const n=el('div','nm');if(has){const x=el('button','xp',open?'▼':'▶');x.setAttribute('aria-label',open?'Hide spaces':'Show spaces');x.onclick=e=>{e.stopPropagation();togSp(r[0])};n.appendChild(x)}
+ n.appendChild(el('span','',r[1]));if(r[11]===1)n.appendChild(el('span','best','Best match'));f.appendChild(n);
+ f.appendChild(el('div','loc',[r[2],r[3]&&r[3]+' County'].filter(Boolean).join(', ')+(r[25]?' · may be closed':'')));
+ if(has){const sm=el('button','spm',sp.length+' spaces '+(open?'▼':'▶'));sm.onclick=e=>{e.stopPropagation();togSp(r[0])};f.appendChild(sm);
+  const sl=el('div','splist');sp.forEach(s=>sl.appendChild(el('div','',[s[0],s[1]?'up to '+s[1].toLocaleString():'',s[2]].filter(Boolean).join(' · '))));f.appendChild(sl)}
+ tr.appendChild(f);
+ tr.appendChild(td(r[7]?'Up to '+r[7].toLocaleString():'','Guests','n'));tr.appendChild(td(r[9],'Price from','n'));tr.appendChild(td(r[8],'Closes','n'));
+ tr.appendChild(td(r[26],'Music cutoff','n'));tr.appendChild(td(r[19],'Catering'));tr.appendChild(td(r[20],'Alcohol'));tr.appendChild(td(r[10]?'Yes':'','Outdoor'));
+ tr.onclick=()=>openVenue(r);tb.appendChild(tr);
+ sp.forEach(s=>{const st=el('tr',open?'sp':'sp hide');st.appendChild(el('td','',s[0]));st.appendChild(td(s[1]?'Up to '+s[1].toLocaleString():'','Guests','n'));
+  st.appendChild(td(s[2],'Price from','n'));for(let i=0;i<5;i++)st.appendChild(el('td'));tb.appendChild(st)})});
  $('more').style.display=shown.length>limit?'block':'none';$('more').textContent='Show 50 more ('+(shown.length-limit).toLocaleString()+' left)';
- $('count').textContent=shown.length.toLocaleString()+' venues';drawMap()}
+ $('count').textContent=(shown.length===1?'1 venue':shown.length.toLocaleString()+' venues');drawMap()}
 function apply(){shown=D.filter(passes).sort(cmp);limit=50;draw()}
 function drawMap(){if(!map||!document.body.classList.contains('withmap'))return;cluster.clearLayers();const ms=[];shown.forEach(r=>{if(r[4]==null)return;let m=markers[r[0]];
  if(!m){const col=r[11]===1?'#2f7d4f':'#b3541e';m=L.circleMarker([r[4],r[5]],{radius:r[11]===1?9:7,color:col,weight:2,fillColor:col,fillOpacity:r[6]?0:.75,dashArray:r[6]?'3 3':null});
   m.bindTooltip(r[1]+(r[6]?' (approximate: city only)':''));m.on('click',()=>openVenue(r));markers[r[0]]=m}ms.push(m)});cluster.addLayers(ms)}
 function initMap(){if(map)return;map=L.map('map',{preferCanvas:true}).setView([37.85,-122.25],9);L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; OpenStreetMap contributors'}).addTo(map);
  cluster=L.markerClusterGroup({chunkedLoading:true,maxClusterRadius:50,disableClusteringAtZoom:15,iconCreateFunction:c=>L.divIcon({html:'<div>'+c.getChildCount()+'</div>',className:'marker-cluster',iconSize:[40,40]})});map.addLayer(cluster)}
+/*CALC-START*/
+const ROWS=[['rental','Venue rental',1],['catering','Catering',1],['bar','Bar',1],['staff','Staff & rentals',1],['reqfee','Required venue fees',1],['ceremony','Ceremony fee',0],['extra','Extra hour',0],['cocktail','Cocktail hour',0]];
+const PK=[['tax','Tax'],['gratuity','Gratuity'],['service_fee','Service fee'],['tax_and_service','Service charge + tax']];
+const OG={staff_rentals:'staff',required_fee:'reqfee',ceremony:'ceremony',extra_hour:'extra',cocktail_hour:'cocktail'};
+const RLAB={rental:'Venue rental',catering:'Catering',bar:'Bar',staff:'Staff & rentals',reqfee:'Required venue fees',ceremony:'Ceremony fee',extra:'Extra hour',cocktail:'Cocktail hour'};
+const DEF_G=300,DEF_H=6;
+function isNum(v){return typeof v==='number'&&isFinite(v)&&v>0}
+function fmt(n){return '$'+Math.round(n).toLocaleString('en-US')}
+function spaceKey(n){let k=String(n||'').toLowerCase().trim();k=k.replace(/^the\s+/,'').replace(/\s+only$/,'');return k.replace(/[^a-z0-9]+/g,' ').trim()}
+function optName(o){return [o.label,o.yr?o.yr+' list':''].filter(Boolean).join(' · ')}
+function isMin(x){return x&&x.unit==='minimum_spend'||(x&&x.unit==='person'&&/minimum/i.test((x.label||'')+' '+(x.package||'')))}
+function mkOpt(x){const ps=[x.package,x.season,x.day,x.hours,x.label].map(v=>String(v||'').trim()).filter(Boolean);
+ const lab=ps.filter((p,i)=>{const k=p.toLowerCase();return !ps.some((q,j)=>j!==i&&(q.toLowerCase().includes(k)&&(q.length>p.length||j<i)))}).join(' · ');  // "peak" inside "Peak season fee" is said once
+ const m=String(x.url||'').match(/uploads\/(\d{4})\/(\d{2})\//),d=String(x.url||'').match(/\/((?:19|20)\d\d)\/\d\d\/\d\d\//);  // a dated article link gives its year
+ return {label:lab,yr:isNum(x.year)?x.year:(d&&!m?+d[1]:null),up:m?+(m[1]+m[2]):0,a:x.amount,b:isNum(x.amount_max)&&x.amount_max>x.amount?x.amount_max:null,unit:x.unit==='person'||x.unit==='hour'?x.unit:'event',sk:x.sk||'',src:x.sk==='venue'?'From the venue (Nov 2026)':(x.src||''),url:x.url||'',own:x.sk==='own',n:0}}
+function mult(o,key,g,h){if(o.unit==='person')return g;if(o.unit==='hour')return (key==='extra'||key==='cocktail')?1:h;return 1}
+function optText(o){return fmt(o.a)+(o.b?'–'+fmt(o.b):'')+(o.unit==='person'?' per guest':o.unit==='hour'?' per hour':'')}
+function normOpts(items,key){const ok=(items||[]).filter(x=>x&&typeof x==='object'&&isNum(x.amount)&&!isMin(x));let all=ok.map(mkOpt);const ven=all.filter(o=>o.sk==='venue'),own=ven.length?ven:all.filter(o=>o.own);let dropped=[];
+ if(own.length){dropped=all.filter(o=>!own.includes(o));all=own}
+ let old=[];const dated=all.filter(o=>o.yr);if(dated.length){const my=Math.max(...dated.map(o=>o.yr)),mu=Math.max(...dated.filter(o=>o.yr===my).map(o=>o.up));  // newest price list only
+  old=all.filter(o=>o.yr&&(o.yr<my||(o.yr===my&&mu&&o.up&&o.up<mu)));all=all.filter(o=>!old.includes(o))}
+ const seen=new Set(),out=[];all.forEach(o=>{const k=[o.label,o.a,o.b,o.unit].join('|');if(!seen.has(k)){seen.add(k);out.push(o)}});
+ out.sort((p,q)=>p.a*mult(p,key,DEF_G,DEF_H)-q.a*mult(q,key,DEF_G,DEF_H));out.dropped=dropped;out.old=old;return out}
+function rowOf(applies){const a=String(applies||'').toLowerCase();if(/cater|food|meal/.test(a))return 'catering';if(/\bbar\b|alcohol|beverage|drink/.test(a))return 'bar';return 'rental'}
+function buildTables(s){s=s||{};const rent=(s.rental||[]).filter(x=>x&&typeof x==='object');
+ const shared={catering:normOpts(s.catering_price,'catering'),bar:normOpts(s.bar_price,'bar')};
+ const og={};(s.other_costs||[]).forEach(x=>{const k=OG[x&&x.group];if(k)(og[k]=og[k]||[]).push(x)});
+ ['staff','reqfee','ceremony','extra','cocktail'].forEach(k=>{shared[k]=normOpts(og[k],k)});
+ const sm=new Map();rent.forEach(x=>{const nm=String(x.space||'').trim(),k=spaceKey(nm);if(!k)return;if(!sm.has(k))sm.set(k,{title:nm,items:[]});const e=sm.get(k);if(nm.length<e.title.length)e.title=nm;e.items.push(x)});
+ const general=rent.filter(x=>!spaceKey(x.space));const defs=[];
+ if(sm.size>=2||(sm.size===1&&normOpts(general,'rental').length)){sm.forEach(e=>defs.push({title:e.title,items:e.items}));if(normOpts(general,'rental').length)defs.push({title:'Whole venue (no space named)',items:general})}else defs.push({title:'',items:rent});
+ const tables=defs.map(d=>{const rows=Object.assign({},shared);rows.rental=normOpts(d.items,'rental');return {title:d.title,rows,pick:{},ppick:{}}});
+ const pcts=[];const pr=(s.percents||[]).filter(x=>x&&isNum(x.percent));
+ PK.forEach(([kind,label])=>{let xs=pr.filter(x=>x.kind===kind);if(!xs.length)return;if(xs.some(x=>x.sk==='venue'))xs=xs.filter(x=>x.sk==='venue');else if(xs.some(x=>x.sk==='own'))xs=xs.filter(x=>x.sk==='own');const seen=new Set(),opts=[];
+  xs.forEach(x=>{if(seen.has(x.percent))return;seen.add(x.percent);opts.push({pct:x.percent,label:x.percent+'%',sk:x.sk||'',src:x.sk==='venue'?'From the venue (Nov 2026)':(x.src||''),url:x.url||'',own:x.sk==='own',n:0})});opts.sort((a,b)=>a.pct-b.pct);pcts.push({kind,label,opts})});
+ const credits={},incl={};const addTo=(m,items,f)=>(items||[]).forEach(x=>{const t=String(f(x)||'').trim();if(!t)return;const k=rowOf(x.applies_to);(m[k]=m[k]||[]);if(!m[k].includes(t))m[k].push(t)});
+ addTo(credits,s.credits,x=>x.text);addTo(incl,s.included_other,x=>x.text);
+ const minspend=[];[s.rental,s.catering_price,s.bar_price].forEach(a=>(a||[]).forEach(x=>{if(isMin(x)&&isNum(x.amount)){const nm=[x.package,x.season,isNum(x.year)?x.year+' list':''].map(v=>String(v||'').trim()).filter(Boolean).join(' · ');const t='Food & drink minimum '+fmt(x.amount)+(isNum(x.amount_max)&&x.amount_max>x.amount?' to '+fmt(x.amount_max):'')+(x.unit==='person'?' per guest':'')+(nm?' ('+nm+')':'');if(!minspend.includes(t))minspend.push(t)}}));
+ const notes=[];const addN=t=>{t=String(t||'').trim();if(t&&!notes.includes(t))notes.push(t)};
+ (s.notes||[]).forEach(x=>addN(x&&x.text));
+ (s.other_costs||[]).forEach(x=>{if(x&&!OG[x.group]&&x.label)addN(x.label+(isNum(x.amount)?': '+optText(mkOpt(x)):''))});
+ const olds=[];[...tables.map(t=>t.rows.rental),shared.catering,shared.bar].forEach(os=>(os.old||[]).forEach(o=>{const t=optName(o)+' — '+optText(o);if(!olds.includes(t))olds.push(t)}));
+ if(olds.length)addN('Older price lists, not used above: '+olds.slice(0,8).join('; ')+(olds.length>8?' (+'+(olds.length-8)+' more)':''));
+ const warns=[];const chk=(key,opts)=>{const d=opts.dropped||[];if(!opts.length||!d.length)return;const own=opts.map(o=>o.a);const diff=d.filter(o=>!own.includes(o.a));if(!diff.length)return;
+  const seen=new Set(),bits=[];diff.forEach(o=>{const t=(o.src||'another source')+' says '+optText(o);if(!seen.has(t)&&bits.length<3){seen.add(t);bits.push(t)}});
+  warns.push('⚠ Sources disagree on '+RLAB[key].toLowerCase()+': '+(opts[0].sk==='venue'?'the venue told us':'the venue’s own site says')+' '+opts.slice(0,3).map(optText).join(', ')+'; '+bits.join('; ')+'.')};
+ chk('catering',shared.catering);chk('bar',shared.bar);['staff','reqfee','ceremony','extra','cocktail'].forEach(k=>chk(k,shared[k]));tables.forEach(t=>chk('rental',t.rows.rental));
+ const any=tables.some(t=>ROWS.some(([k])=>t.rows[k].length))||pcts.length>0;const hasHour=tables.some(t=>ROWS.some(([k])=>t.rows[k].some(o=>o.unit==='hour'&&k!=='extra'&&k!=='cocktail')));
+ return {tables,pcts,credits,incl,minspend,notes,warns,any,hasHour}}
+function evalTable(t,pcts,g,h){const rows=[];let m=0,known=0;const sub={lo:0,hi:0,pk:0},dep={lo:false,hi:false,pk:false};
+ ROWS.forEach(([key,label,always])=>{const opts=t.rows[key]||[];if(!opts.length&&!always)return;m++;if(!opts.length){rows.push({key,label,opts,none:true});return}known++;
+  let lo=null,hi=null;opts.forEach(o=>{const mu=mult(o,key,g,h),l=o.a*mu,u=(o.b||o.a)*mu;if(!lo||l<lo.v)lo={v:l,o};if(!hi||u>hi.v)hi={v:u,o}});
+  const po=opts[Math.min(t.pick[key]||0,opts.length-1)];const pk={v:po.a*mult(po,key,g,h),o:po};
+  [['lo',lo],['hi',hi],['pk',pk]].forEach(([c,x])=>{sub[c]+=x.v;if(x.o.unit==='person')dep[c]=true});
+  rows.push({key,label,opts,lo,hi,pk})});
+ const prow=[];const tot={lo:sub.lo,hi:sub.hi,pk:sub.pk};
+ if(known>0)pcts.forEach(p=>{const i=Math.min(t.ppick[p.kind]||0,p.opts.length-1);const lo=p.opts[0].pct*sub.lo/100,hi=p.opts[p.opts.length-1].pct*sub.hi/100,pk=p.opts[i].pct*sub.pk/100;tot.lo+=lo;tot.hi+=hi;tot.pk+=pk;prow.push({kind:p.kind,label:p.label,opts:p.opts,lo,hi,pk})});
+ return {rows,m,known,sub,dep,prow,tot,plus:known<m}}
+/*CALC-END*/
 function cell(k,v){const c=el('div','cell');c.appendChild(el('div','k',k));c.appendChild(el('div','v'+(v?'':' none'),v||'Not found yet'));return c}
-async function openVenue(r){const B=$('body');B.textContent='';$('sheet').classList.add('open');$('bg').classList.add('open');$('sheet').scrollTop=0;
- B.appendChild(el('h2','',r[1]));B.appendChild(el('div','note',[r[14]||r[2],r[3]&&r[3]+' County'].filter(Boolean).join(' · ')));
+let routeTok=0,fromList=false,savedY=0;
+function openVenue(r){fromList=true;location.hash='#v='+encodeURIComponent(r[0])}
+function route(){const m=/^#v=(.+)$/.exec(location.hash);if(!D.length)return;
+ if(!m){if(document.body.classList.contains('onpage')){document.body.classList.remove('onpage');document.title='Bay Leaf Venues';scrollTo(0,savedY)}return}
+ let pid;try{pid=decodeURIComponent(m[1])}catch(e){pid=m[1]}const r=D.find(x=>x[0]===pid);
+ if(!document.body.classList.contains('onpage'))savedY=window.scrollY;document.body.classList.add('onpage');scrollTo(0,0);showVenue(r)}
+async function showVenue(r){const tok=++routeTok,B=$('vbody');B.textContent='';
+ if(!r){B.appendChild(el('h2','','Venue not found'));B.appendChild(el('div','note','This link does not match a venue in the list.'));return}
+ document.title=r[1]+' | Bay Leaf';
+ const head=el('div','head');head.appendChild(el('h2','',r[1]));head.appendChild(el('div','loc',[r[14]||r[2],r[3]&&r[3]+' County'].filter(Boolean).join(' · ')));B.appendChild(head);
  const a=el('div','acts');const link=(t,h,m)=>{const x=el('a',m?'main':'',t);x.href=h;if(/^http/.test(h)){x.target='_blank';x.rel='noopener'}a.appendChild(x)};
  if(r[12])link('Visit website',r[12],true);else if(r[13])link('Open listing',r[13],false);if(r[21])link(r[21],'tel:'+r[21].replace(/\D/g,''));if(r[22])link(r[22],'mailto:'+r[22]);
- if(r[4]!=null&&!r[6])link('Directions','https://www.openstreetmap.org/?mlat='+r[4]+'&mlon='+r[5]+'#map=16/'+r[4]+'/'+r[5]);B.appendChild(a);
+ if(r[4]!=null&&!r[6])link('Map','https://www.openstreetmap.org/?mlat='+r[4]+'&mlon='+r[5]+'#map=16/'+r[4]+'/'+r[5]);B.appendChild(a);
  const g=el('div','glance');g.appendChild(cell('Guests',r[7]?'Up to '+r[7].toLocaleString():''));g.appendChild(cell('Price from',r[9]));g.appendChild(cell('Closes',r[8]));
- g.appendChild(cell('Catering',r[19]));g.appendChild(cell('Alcohol',r[20]));g.appendChild(cell('Outdoor space',r[10]?'Yes':''));B.appendChild(g);
+ g.appendChild(cell('Music cutoff',r[26]));g.appendChild(cell('Catering',r[19]));g.appendChild(cell('Alcohol',r[20]));B.appendChild(g);
  if(r[25])B.appendChild(el('div','note','A page says this place may be closed, renamed or no longer hosting events.'));
- const wait=el('div','note','Loading details');B.appendChild(wait);
- try{const b=r[0].slice(-2);if(!cache[b])cache[b]=await fetch('data/d/'+b+'.json').then(x=>{if(!x.ok)throw Error(x.status);return x.json()});wait.remove();details(cache[b][r[0]],B)}
- catch(e){wait.textContent='Details could not be loaded ('+e.message+').'}}
-function details(d,B){if(!d)return;TOPIC.forEach(([k,title])=>{const fs=d.f[k];if(!fs)return;const s=el('div','sec');const h=el('h3','',title);const b=el('button','srcbtn','Sources');b.onclick=()=>{s.classList.toggle('showsrc');b.textContent=s.classList.contains('showsrc')?'Hide sources':'Sources'};h.appendChild(b);s.appendChild(h);
+ const wait=el('div','note','Loading details');B.appendChild(wait);let d=null;
+ try{const b=r[0].slice(-2);if(!cache[b])cache[b]=await fetch('data/d/'+b+'.json').then(x=>{if(!x.ok)throw Error(x.status);return x.json()});d=cache[b][r[0]]||null;wait.remove()}
+ catch(e){wait.textContent='Details could not be loaded ('+e.message+'). Price figures need them.'}
+ if(tok!==routeTok)return;priceSection(d&&d.s,B);details(d,B)}
+function mkRef(td,extraCls){const v=el('span','v'),s=el('sup'),ol=el('div','opt');td.appendChild(v);td.appendChild(s);if(extraCls!==false)td.appendChild(ol);return {td,v,s,ol}}
+function setRef(ref,x,showOpt){ref.td.classList.remove('fix','var','pick');if(!x){ref.v.textContent='';ref.s.textContent='';ref.ol.textContent='';return}
+ ref.v.textContent=fmt(x.v);ref.s.textContent=x.o&&x.o.n?x.o.n:'';const u=x.o?x.o.unit:'event';ref.td.classList.add(u==='person'?'var':(u==='hour'?'pick':(ref.pickCol?'pick':'fix')));
+ ref.ol.textContent=showOpt&&x.o?(optName(x.o)||optText(x.o)).slice(0,40):''}
+function priceSection(s,B){const M=buildTables(s),srcs=[],srcIdx={};
+ const num=o=>{if(o.own||o.n)return;const k=(o.src||'')+'|'+o.url;if(!srcIdx[k]){srcs.push(o);srcIdx[k]=srcs.length}o.n=srcIdx[k]};
+ M.tables.forEach(t=>ROWS.forEach(([k])=>t.rows[k].forEach(num)));M.pcts.forEach(p=>p.opts.forEach(num));
+ const pt=el('div','pt');const gb=el('div','guests');gb.appendChild(el('b','','Guests'));const gi=el('input');gi.type='number';gi.min=0;gi.value=DEF_G;gi.id='g';gb.appendChild(gi);
+ let hi=null;if(M.hasHour){gb.appendChild(el('b','','hours'));hi=el('input');hi.type='number';hi.min=0;hi.value=DEF_H;hi.id='hrs';gb.appendChild(hi)}
+ gb.appendChild(el('span','opt','Type any number. Every purple cell and every total updates.'));pt.appendChild(gb);
+ const ups=[];
+ M.tables.forEach(t=>{if(t.title)pt.appendChild(el('h3','tt',t.title));const sc=el('div','scroll');const scw=el('div','scwrap');scw.appendChild(el('div','swipe','Swipe for Highest, Your pick →'));const tb=el('table','price');
+  const th=el('thead');const hr=el('tr');['Item','Lowest','Highest','Your pick','Credit','Also included'].forEach((x,i)=>hr.appendChild(el('th',i===0?'lab':(i<4?'num':''),x)));th.appendChild(hr);tb.appendChild(th);
+  const bd=el('tbody');tb.appendChild(bd);const ev0=evalTable(t,M.pcts,DEF_G,DEF_H);const refs={};
+  const addRow=(key,label,cls)=>{const tr=el('tr',cls||'');tr.appendChild(el('td','lab',label));const r={};['lo','hi','pk'].forEach(c=>{const td=el('td','num');tr.appendChild(td);r[c]=mkRef(td,c!=='pk');if(c==='pk'){r[c].pickCol=true}});bd.appendChild(tr);refs[key]=r;return {tr,r}};
+  const credCell=(tr,key)=>{const c=el('td','credit'),i=el('td','inc');(M.credits[key]||[]).forEach(x=>c.appendChild(el('div','',x)));(M.incl[key]||[]).forEach(x=>i.appendChild(el('div','',x)));tr.appendChild(c);tr.appendChild(i)};
+  const mkSel=(td,opts,cur,labf,onch)=>{const sel=el('select');opts.forEach((o,i)=>{const op=el('option','',labf(o));op.value=i;sel.appendChild(op)});sel.value=cur;sel.onchange=()=>{onch(+sel.value);recalc()};td.insertBefore(sel,td.firstChild)};
+  ev0.rows.forEach(rw=>{const {tr,r}=addRow(rw.key,rw.label);const key=rw.key;
+   if(rw.opts.length>1)mkSel(r.pk.td,rw.opts,t.pick[key]||0,o=>(optName(o)?optName(o)+' — ':'No package or season named — ')+optText(o),i=>{t.pick[key]=i});
+   credCell(tr,key)});
+  const subTr=addRow('sub','Subtotal','sub');subTr.tr.appendChild(el('td'));subTr.tr.appendChild(el('td'));
+  const prefs=[];ev0.prow.forEach(p=>{const {tr,r}=addRow('p:'+p.kind,p.label);if(p.opts.length>1)mkSel(r.pk.td,p.opts,t.ppick[p.kind]||0,o=>o.label,i=>{t.ppick[p.kind]=i});tr.appendChild(el('td'));tr.appendChild(el('td'));prefs.push(p.kind)});
+  const totTr=addRow('tot','TOTAL','tot');const known=el('div','opt');totTr.tr.firstChild.appendChild(known);totTr.tr.appendChild(el('td'));totTr.tr.appendChild(el('td'));
+  sc.appendChild(tb);scw.appendChild(sc);pt.appendChild(scw);
+  ups.push(()=>{const g=Math.max(0,+gi.value||0),h=Math.max(0,hi?+hi.value||0:DEF_H);const ev=evalTable(t,M.pcts,g,h);
+   ev.rows.forEach(rw=>{const r=refs[rw.key];if(rw.none){['lo','hi','pk'].forEach(c=>setRef(r[c],null));return}setRef(r.lo,rw.lo,rw.opts.length>1);setRef(r.hi,rw.hi,rw.opts.length>1);setRef(r.pk,rw.pk,false)});
+   const tot=(r,x,pl,dep)=>{['lo','hi','pk'].forEach(c=>{r[c].td.classList.remove('fix','var','pick');r[c].s.textContent='';r[c].ol.textContent='';if(ev.known===0){r[c].v.textContent='';return}
+     r[c].v.textContent=fmt(x[c])+(pl?'+':'');r[c].td.classList.add(dep[c]?'var':(c==='pk'?'pick':'fix'))})};
+   tot(refs.sub,ev.sub,false,ev.dep);ev.prow.forEach(p=>{const r=refs['p:'+p.kind];['lo','hi','pk'].forEach(c=>{r[c].s.textContent='';r[c].ol.textContent='';r[c].td.classList.remove('fix','var','pick');r[c].v.textContent=fmt(p[c]);r[c].td.classList.add(ev.dep[c]?'var':(c==='pk'?'pick':'fix'));
+     const o=c==='pk'?p.opts[Math.min(t.ppick[p.kind]||0,p.opts.length-1)]:(c==='lo'?p.opts[0]:p.opts[p.opts.length-1]);if(o&&o.n)r[c].s.textContent=o.n})});
+   tot(refs.tot,ev.tot,ev.plus,ev.dep);known.textContent=ev.plus?ev.known+' of '+ev.m+' costs known':''})});
+ const recalc=()=>ups.forEach(f=>f());gi.oninput=recalc;if(hi)hi.oninput=recalc;recalc();
+ if(!M.any)pt.appendChild(el('div','opt nopr','No price figures found yet.'));
+ const lg=el('div','legend');[['fix','Fixed cost'],['var','Changes with guests'],['pick','You pick or type'],['credit','Credit included'],['inc','Also included, outside our scope']].forEach(([c,t])=>lg.appendChild(el('span',c,t)));pt.appendChild(lg);
+ B.appendChild(pt);
+ const nt=el('div','notes');let any=false;
+ if(M.minspend.length||M.notes.length){any=true;nt.appendChild(el('h3','','Notes'));const ul=el('ul');M.minspend.concat(M.notes).forEach(x=>ul.appendChild(el('li','',x)));nt.appendChild(ul)}
+ if(M.warns.length){any=true;M.warns.forEach(w=>nt.appendChild(el('div','warn',w)))}
+ if(srcs.length){any=true;nt.appendChild(el('h3','','Price sources'));const ul=el('ul','srcl');srcs.forEach((o,i)=>{const li=el('li');li.appendChild(el('sup','',String(i+1)));li.appendChild(document.createTextNode(' '+(o.src||'Source')+(o.url?': ':'')));
+   if(o.url&&/^https?:/.test(o.url)){const x=el('a','',o.url.replace(/^https?:\/\/(www\.)?/,'').slice(0,70));x.href=o.url;x.target='_blank';x.rel='noopener';li.appendChild(x)}ul.appendChild(li)});nt.appendChild(ul)}
+ if(any)B.appendChild(nt)}
+function details(d,B){if(!d){B.appendChild(el('div','note','No further details found yet.'));return}TOPIC.forEach(([k,title])=>{const fs=d.f&&d.f[k];if(!fs)return;const s=el('div','sec');const h=el('h3','',title);const b=el('button','srcbtn','Sources');b.onclick=()=>{s.classList.toggle('showsrc');b.textContent=s.classList.contains('showsrc')?'Hide sources':'Sources'};h.appendChild(b);s.appendChild(h);
   const ul=el('ul');fs.forEach(f=>{const li=el('li','',f[0]);const src=el('div','src');if(f[1])src.appendChild(el('div','','“'+f[1]+'”'));const line=el('div');line.appendChild(document.createTextNode(f[3]+(f[2]?': ':'')));
    if(f[2]&&/^https?:/.test(f[2])){const x=el('a','',f[2].replace(/^https?:\/\/(www\.)?/,'').slice(0,60));x.href=f[2];x.target='_blank';x.rel='noopener';line.appendChild(x)}src.appendChild(line);li.appendChild(src);ul.appendChild(li)});s.appendChild(ul);B.appendChild(s)});
  if(d.rooms&&d.rooms.length){const s=el('div','sec');s.appendChild(el('h3','','Rooms and spaces'));const ul=el('ul');d.rooms.forEach(x=>ul.appendChild(el('li','',x)));s.appendChild(ul);B.appendChild(s)}
  B.appendChild(el('div','note','Figures come from public pages and directories. Nothing here is confirmed by the venue; check before relying on it.')).style.marginTop='18px'}
-function closeSheet(){$('sheet').classList.remove('open');$('bg').classList.remove('open')}
 fetch('data/venues.json').then(r=>{if(!r.ok)throw Error(r.status);return r.json()}).then(j=>{D=j.rows;$('un').textContent=D.filter(r=>r[24]).length.toLocaleString();
- [...new Set(D.map(r=>r[3]).filter(Boolean))].sort().forEach(c=>$('county').appendChild(el('option','',c)));apply()}).catch(e=>{$('count').textContent='The venue list could not be loaded ('+e.message+')'});
+ [...new Set(D.map(r=>r[3]).filter(Boolean))].sort().forEach(c=>$('county').appendChild(el('option','',c)));apply();route()}).catch(e=>{$('count').textContent='The venue list could not be loaded ('+e.message+')'});
 ['q','county','minG','late','cater','hp','byo','ho','unnamed'].forEach(i=>$(i).addEventListener('input',apply));
 $('reset').onclick=()=>{['q','county','minG','late','cater'].forEach(i=>$(i).value='');['hp','byo','ho','unnamed'].forEach(i=>$(i).checked=false);sortK='rel';asc=true;mark();apply()};
 function mark(){document.querySelectorAll('th').forEach(t=>t.classList.toggle('sorted',t.dataset.s===sortK))}
 document.querySelectorAll('th[data-s]').forEach(th=>th.onclick=()=>{const k=th.dataset.s;asc=sortK===k?!asc:true;sortK=k;mark();shown.sort(cmp);limit=50;draw()});
-$('more').onclick=()=>{limit+=50;draw()};$('close').onclick=closeSheet;$('bg').onclick=closeSheet;document.addEventListener('keydown',e=>{if(e.key==='Escape')closeSheet()});
+$('more').onclick=()=>{limit+=50;draw()};window.addEventListener('hashchange',route);
+$('back').onclick=()=>{if(fromList&&history.length>1){fromList=false;history.back()}else location.hash=''};
 $('mapbtn').onclick=()=>{const on=document.body.classList.toggle('withmap');$('mapbtn').classList.toggle('on',on);$('mapbtn').textContent=on?'Hide map':'Show map';if(on){try{initMap();setTimeout(()=>{map.invalidateSize();drawMap()},60)}catch(e){}}};
 </script>
 </body>
