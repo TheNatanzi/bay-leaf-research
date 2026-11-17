@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Venue Reply Approvals</title>
+<style>
+:root{--bg:#f6f5f1;--card:#fff;--ink:#1d2320;--mute:#5b6560;--green:#e3f0e8;--pink:#f7e6e0;--grey:#ecedea;--accent:#1f6b3f;--line:#d9dbd5}
+@media (prefers-color-scheme:dark){:root{--bg:#171a18;--card:#202522;--ink:#eceeea;--mute:#a4aca7;--green:#21352a;--pink:#3a2a25;--grey:#2a2f2c;--accent:#4aa774;--line:#38403b}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.5 Arial,Helvetica,sans-serif;font-style:normal}
+main{max-width:760px;margin:0 auto;padding:16px 16px 80px}
+h1{font-size:26px;margin:18px 0 6px}h2{font-size:21px;margin:0}
+.lead{color:var(--mute);margin:0 0 14px}
+.who{display:flex;gap:8px;align-items:center;margin:10px 0 18px;flex-wrap:wrap}
+input[type=text]{font:inherit;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink)}
+.card{background:var(--card);border:2px solid var(--line);border-radius:16px;padding:16px;margin:0 0 20px}
+.card.approve{border-color:var(--accent)}.card.skip{opacity:.75}
+.top{display:flex;justify-content:space-between;gap:10px;align-items:baseline;flex-wrap:wrap;margin-bottom:10px}
+.tag{font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:var(--mute)}
+.box{border-radius:12px;padding:12px 14px;margin:10px 0}.box ul{margin:6px 0 0;padding-left:20px}
+.obj{background:var(--grey)}.known{background:var(--green)}.want{background:var(--pink)}
+.lbl{font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--mute);margin:0 0 4px}
+textarea{width:100%;font:inherit;line-height:1.5;padding:12px;border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink);resize:vertical}
+.draft{min-height:260px}.note{min-height:64px}
+.row{display:flex;gap:10px;align-items:center;margin-top:12px;flex-wrap:wrap}
+button{font:inherit;font-weight:700;padding:10px 22px;border-radius:12px;border:2px solid var(--ink);background:transparent;color:var(--ink);cursor:pointer}
+button.go{background:var(--accent);border-color:var(--accent);color:#fff}
+button.on{outline:3px solid var(--accent)}
+.saved{color:var(--mute);font-size:15px}.err{color:#b3261e}
+.small{font-size:15px;color:var(--mute)}
+</style></head><body><main>
+<h1>Venue Reply Approvals</h1>
+<p class="lead">Read each card, edit the draft if you want, then press Approve or Skip. Everything saves by itself and stays saved. Nothing is sent until Medi tells Claude to send.</p>
+<div class="who"><label for="who">Your name:</label><input type="text" id="who" placeholder="Rinad or Medi" maxlength="30"></div>
+<div id="cards"></div>
+<p class="small">Cards 1 to 3 already went out on Nov 15. Edit them anyway so future emails follow your style.</p>
+</main>
+<script>
+const CARDS=[{"id": "reply-1", "n": 1, "name": "The Barn at Gambonini Family Ranch (Petaluma)", "status": "Sent Nov 15", "objective": "Stacey is open to a weekend. We want back-to-back days (henna night, then wedding) and the extension price to 12:30 a.m.", "known": ["Holds up to 450. 2026-27 prices \"starting at\": Saturday $19,500, Friday or Sunday $15,500, Monday to Thursday $10,500. These prices are for up to 250 guests.", "Over 250 guests: \"$1,000 for every 50 guests over 250\". So 300 guests adds $1,000, and 400 guests adds $3,000.", "Required: a professional event planner on site all day, vendors from their preferred list (\"open to discussion\"), alcohol served by a licensed bartender or caterer, event insurance, and a $2,500 refundable security deposit.", "Timing: access from 9:00 AM, \"Events end by 10:00 PM\", vendor breakdown done by 11:59 PM.", "Included: 40 round tables, 400 chairs, a 36-ft indoor bar, the patio, 600 lb of ice, setup and breakdown, and \"Parking Attendants and Security Day of Event (depending on event size)\".", "Booking: a signed contract plus 50% of the venue fee. The rest is due 60 days before.", "The Farmhouse (sleeps 8) is $750 a night (2-night minimum) plus a $200 cleaning fee."], "want": ["The full weekend price with a smaller henna night the evening before", "The price to extend past 10 PM (the brochure does not list it)", "Whether day-of security is already included for 200+ guests"], "draft": "Hi Stacey,\n\nThank you so much for such a warm and thorough reply, and for the brochure! The Barn looks like a lovely option for us.\n\nTo answer your question: yes, we'd love to host the henna night and the wedding on back-to-back days if possible. I noticed the brochure mentions a full weekend rental. Could you share what that might look like in pricing, with a smaller henna night (about 40-80 guests) the evening before the wedding?\n\nI also looked through the brochure for the extension options to 12:30 a.m. but couldn't seem to find them. Would you mind sending those over when you have a moment?\n\nLast one: for a guest count over 200, is the security you mentioned covered by the day-of security listed in the brochure, or would it be a separate cost?\n\nThank you again. We really appreciate your time!\n\nWarmly,\nMarjory"}, {"id": "reply-2", "n": 2, "name": "The Hangar (South San Francisco)", "status": "Sent Nov 15", "objective": "Joanie sent a catering guide and photos. We still need room size, music hours and bar prices.", "known": ["A weekend event is a full buyout, held in Camber, the second-floor restaurant: $4,000 rental, $15,000 food and beverage minimum, staff from $750. All of that is plus sales tax, a 5% administrative charge and gratuity.", "Dinner buffets are $55 to $62 per person (for 20+ guests). Plated or family-style 3-course dinners are $58 to $65 per person (family style for 30+). Passed appetizers are $6 to $11 per piece.", "The guide has no bar or alcohol prices, and nothing on end time or how many people the room seats.", "The photos show Camber as a restaurant and lounge, with high-top tables, lounge chairs, a bar and big windows."], "want": ["How many guests Camber seats for dinner with a dance floor", "How late music can go on a weekend buyout", "Bar packages or beverage pricing", "Whether a smaller henna night works on a weeknight"], "draft": "Hi Joanie,\n\nThank you so much for the details, the catering guide and the photos! The Hangar looks like a lovely option for us.\n\nA few questions as we picture the evening:\n\n1. How many guests can Camber seat for dinner while still leaving room for a dance floor?\n2. How late can music and dancing go for a weekend buyout?\n3. I didn't see bar options in the catering guide. Could you share your bar packages or beverage pricing?\n4. We're also planning a smaller henna night (about 40-80 guests). Would that be possible on a weeknight, and would the same rental fee and minimum apply?\n\nThank you again for your help!\n\nWarmly,\nMarjory"}, {"id": "reply-3", "n": 3, "name": "Roundhouse (San Ramon)", "status": "Sent Nov 15", "objective": "Megan sent menus and photos. We never gave her our event details, so we ask them now.", "known": ["Juniper Atrium (reception) plus Smith Plaza (ceremony): $1,500+ each, $3,000 total, with tables, chairs, linens and setup included.", "Weekend extras: a facility fee of $300 to $800 depending on event length, no outside food or drink, and a $2,500 food and beverage minimum. Everything carries a 24% service charge and 9.75% tax.", "Dinner buffets are $55 to $57 per person (minimum 10). Bar packages: beer, wine and soda at $16 per person per hour, or a full bar at $22 per person per hour. Bartender fee: $200 per 80 guests. Corkage: $20 per bottle of wine. Outside alcohol is not allowed without approval.", "The photos show the Atrium set with round tables and a dance floor, and the Plaza set for a ceremony.", "Our first message to them was the short version. It never mentioned the henna night or a guest count."], "want": ["Seated size of the Juniper Atrium with a dance floor", "Latest end time and music cutoff on a Saturday", "Which space and what price for a smaller henna night"], "draft": "Hi Megan,\n\nThank you so much for the information, the menus and the photos! Roundhouse looks like a lovely option for us.\n\nA few quick questions:\n\n1. How many guests can the Juniper Atrium seat for dinner with a dance floor?\n2. What is the latest an event can run on a Saturday, and how late can music go?\n3. We're also planning a smaller henna night for about 40-80 guests. Which space would you suggest for that, and what would the rental be?\n\nThank you again. We really appreciate your help!\n\nWarmly,\nMarjory"}, {"id": "reply-4", "n": 4, "name": "Charles Krug Winery (St. Helena)", "status": "Not sent yet", "objective": "Jessica sent a quote and vendor list. We answer her date question and ask about overtime.", "known": ["Quote, for up to 300 guests: Carriage House and Great Lawn $15,000, plus a wine minimum of $35 x 300 = $10,500, plus a $1,500 security deposit. Total $27,000, plus sales tax.", "Included: a six-hour reception ending by 10:00 PM (\"additional overtime charge for 11p.m.\"), tables and chairs for up to 200, parking, a prep kitchen, a wine tasting, an elevator and restrooms.", "Required vendors: one of 9 approved caterers, their bar company (San Francisco Cocktail Club only), an approved planner, and their rental and AV partners.", "The only July 2027 weekend left is July 2 and 3. She asked whether we want a Friday or a Saturday.", "Tours: Monday to Friday, 10 AM to 4 PM."], "want": ["What the 11 PM overtime costs, and whether later is ever possible", "Friday versus Saturday price difference", "A space and price for the smaller henna night"], "draft": "Hi Jessica,\n\nThank you so much for the kind congratulations, and for putting together the quote and vendor list so quickly! Charles Krug looks like a lovely option for us.\n\nTo answer your question, we're flexible between Friday and Saturday. Is there a price difference between the two days?\n\nA couple of other questions:\n\n1. What is the overtime charge to extend to 11:00 p.m.?\n2. We're also planning a smaller henna night for about 40-80 guests. Is there a space at the winery that would work for that, and what would it cost?\n\nWe'd love to come see the property in person a little later on. Thank you again for your help!\n\nWarmly,\nMarjory"}, {"id": "reply-5", "n": 5, "name": "Hotel Shattuck Plaza (Berkeley)", "status": "Not sent yet", "objective": "Patricia gave only the size and asked seven questions. We answer just enough to get a quote and stay vague on budget.", "known": ["Holds up to 200. July 17, 2027 is possible.", "She asked 7 questions: guest count, start times, reception length, photo spots, food preferences, budget, and special needs."], "want": ["Menus and a sample proposal or typical package ranges", "How late music can go", "Room rental and any minimum for each event"], "draft": "Hi Patricia,\n\nThank you so much for getting back to us, and for being open to July 17th! We'd be happy to keep the wedding at 200 guests, and the henna night would be about 40-80 guests.\n\nHere are a few details to help with the quote:\n\n- Both would be evening events of about six hours, with dinner and dancing.\n- We're open on food and beverage and would love to see your menus.\n- We're still comparing venues and don't have a set budget yet, so a sample proposal or your typical package ranges would be perfect.\n\nCould you also share how late music can go, and any room rental or minimum for each event?\n\nThank you again. We look forward to hearing from you!\n\nWarmly,\nMarjory"}];
+const URL_='https://yljcbdxvnkfrwvelypfu.supabase.co/rest/v1/bayleaf_approvals';
+const KEY='sb_publishable_KHUncBSO4RrvAhT08p0-vg_imPKEvsj';
+const H={apikey:KEY,Authorization:'Bearer '+KEY,'Content-Type':'application/json'};
+const $=s=>document.querySelector(s);
+const esc=s=>s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const whoEl=$('#who');try{whoEl.value=localStorage.getItem('bl_who')||''}catch(e){}
+whoEl.addEventListener('input',()=>{try{localStorage.setItem('bl_who',whoEl.value)}catch(e){}});
+async function add(item,kind,fields){
+  const r=await fetch(URL_,{method:'POST',headers:{...H,Prefer:'return=minimal'},body:JSON.stringify({item,kind,who:(whoEl.value||'').trim()||null,...fields})});
+  if(!r.ok)throw new Error(await r.text());
+}
+function build(){
+  $('#cards').innerHTML=CARDS.map(c=>`<section class="card" id="${c.id}">
+  <div class="top"><h2>${c.n}. ${esc(c.name)}</h2><span class="tag">${esc(c.status)}</span></div>
+  <div class="box obj"><p class="lbl">Objective</p>${esc(c.objective)}</div>
+  ${c.known.length?`<div class="box known"><p class="lbl">What we already know</p><ul>${c.known.map(k=>`<li>${esc(k)}</li>`).join('')}</ul></div>`:''}
+  <div class="box want"><p class="lbl">What we are trying to get</p><ul>${c.want.map(k=>`<li>${esc(k)}</li>`).join('')}</ul></div>
+  <p class="lbl" style="margin-top:14px">Our draft reply (you can edit it)</p>
+  <textarea class="draft" data-draft="${c.id}">${esc(c.draft)}</textarea>
+  <p class="lbl" style="margin-top:12px">Notes (optional)</p>
+  <textarea class="note" data-note="${c.id}" placeholder="Anything to change in the style or wording"></textarea>
+  <div class="row"><button class="go" data-dec="approve" data-id="${c.id}">Approve</button><button data-dec="skip" data-id="${c.id}">Skip</button><span class="saved" id="s-${c.id}"></span></div>
+  </section>`).join('');
+}
+function status(id,msg,bad){const e=$('#s-'+id);if(e){e.textContent=msg;e.className='saved'+(bad?' err':'')}}
+function mark(id,dec){const s=$('#'+id);s.classList.remove('approve','skip');if(dec)s.classList.add(dec);s.querySelectorAll('[data-dec]').forEach(b=>b.classList.toggle('on',b.dataset.dec===dec))}
+const timers={};
+function autosave(el,kind,key){
+  el.addEventListener('input',()=>{const id=el.dataset[key];status(id,'Saving...');clearTimeout(timers[kind+id]);
+    timers[kind+id]=setTimeout(async()=>{try{await add(id,kind,{body:el.value});status(id,'Saved')}catch(e){status(id,'Not saved. Check your connection and try again.',1)}},900)});
+}
+async function load(){
+  const r=await fetch(URL_+'?select=item,kind,decision,body,who,created_at&order=id.desc&limit=1000',{headers:H});
+  if(!r.ok)throw new Error('load');
+  const rows=await r.json(),seen={};
+  for(const x of rows){const k=x.item+'|'+x.kind;if(seen[k])continue;seen[k]=1;
+    if(x.kind==='draft'){const el=document.querySelector('[data-draft="'+x.item+'"]');if(el)el.value=x.body}
+    if(x.kind==='note'){const el=document.querySelector('[data-note="'+x.item+'"]');if(el)el.value=x.body||''}
+    if(x.kind==='decision'){mark(x.item,x.decision);status(x.item,(x.decision==='approve'?'Approved':'Skipped')+(x.who?' by '+x.who:'')+' on '+new Date(x.created_at).toLocaleString())}
+  }
+}
+build();
+document.querySelectorAll('[data-draft]').forEach(e=>autosave(e,'draft','draft'));
+document.querySelectorAll('[data-note]').forEach(e=>autosave(e,'note','note'));
+document.querySelectorAll('[data-dec]').forEach(b=>b.addEventListener('click',async()=>{
+  const id=b.dataset.id,dec=b.dataset.dec;status(id,'Saving...');
+  try{const t=document.querySelector('[data-draft="'+id+'"]');await add(id,'draft',{body:t.value});await add(id,'decision',{decision:dec});mark(id,dec);status(id,(dec==='approve'?'Approved':'Skipped')+' and saved')}
+  catch(e){status(id,'Not saved. Check your connection and try again.',1)}}));
+load().catch(()=>{document.querySelector('.lead').insertAdjacentHTML('afterend','<p class="err">Could not load saved answers. Reload the page.</p>')});
+</script></body></html>
