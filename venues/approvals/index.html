@@ -59,7 +59,7 @@ function build(){
   </section>`).join('');
 }
 function status(id,msg,bad){const e=$('#s-'+id);if(e){e.textContent=msg;e.className='saved'+(bad?' err':'')}}
-function mark(id,dec){const s=$('#'+id);s.classList.remove('approve','skip');if(dec)s.classList.add(dec);s.querySelectorAll('[data-dec]').forEach(b=>b.classList.toggle('on',b.dataset.dec===dec))}
+function mark(id,dec){const s=document.getElementById(id);if(!s)return;s.classList.remove('approve','skip');if(dec)s.classList.add(dec);s.querySelectorAll('[data-dec]').forEach(b=>b.classList.toggle('on',b.dataset.dec===dec))}
 const timers={};
 function autosave(el,kind,key){
   el.addEventListener('input',()=>{const id=el.dataset[key];status(id,'Saving...');clearTimeout(timers[kind+id]);
@@ -69,11 +69,11 @@ async function load(){
   const r=await fetch(URL_+'?select=item,kind,decision,body,who,created_at&order=id.desc&limit=1000',{headers:H});
   if(!r.ok)throw new Error('load');
   const rows=await r.json(),seen={};
-  for(const x of rows){const k=x.item+'|'+x.kind;if(seen[k])continue;seen[k]=1;
+  for(const x of rows){try{const k=x.item+'|'+x.kind;if(seen[k]||!document.getElementById(x.item))continue;seen[k]=1;
     if(x.kind==='draft'){const el=document.querySelector('[data-draft="'+x.item+'"]');if(el)el.value=x.body}
     if(x.kind==='note'){const el=document.querySelector('[data-note="'+x.item+'"]');if(el)el.value=x.body||''}
     if(x.kind==='decision'){mark(x.item,x.decision);status(x.item,(x.decision==='approve'?'Approved':'Skipped')+(x.who?' by '+x.who:'')+' on '+new Date(x.created_at).toLocaleString())}
-  }
+  }catch(e){}}
 }
 build();
 document.querySelectorAll('[data-draft]').forEach(e=>autosave(e,'draft','draft'));
