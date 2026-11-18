@@ -88,6 +88,7 @@ table.price{border-collapse:collapse;min-width:1050px;width:100%;background:var(
  <div class="chips">
   <label><input type="checkbox" id="hp"> Price known</label><label><input type="checkbox" id="byo"> BYO allowed</label><label><input type="checkbox" id="ho"> Outdoor space</label>
   <label><input type="checkbox" id="unnamed"> Include <span id="un"></span> unnamed marketplace listings</label>
+  <label><input type="checkbox" id="resto"> Show <span id="rn"></span> restaurants with no wedding or 100+ guest evidence</label>
   <button class="btn" id="reset" style="padding:5px 12px">Clear</button><span class="count" id="count">Loading the venue list</span>
  </div>
 </div>
@@ -104,7 +105,7 @@ const TOPIC=[['price','Pricing'],['capacity','Capacity'],['hours','Hours and end
 const $=id=>document.getElementById(id);let D=[],shown=[],limit=50,sortK='rel',asc=true,map,cluster,markers={},cache={},openSet=new Set();
 const el=(t,c,x)=>{const e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e};
 function passes(r){const q=$('q').value.trim().toLowerCase(),c=$('county').value,g=+$('minG').value||0,l=+$('late').value||0,ca=$('cater').value;
- if(!$('unnamed').checked&&r[24])return false;if(c&&r[3]!==c)return false;if(g&&!(r[7]>=g))return false;if(l&&!(r[18]>=l))return false;if(ca&&r[19]!==ca)return false;
+ if(!$('unnamed').checked&&r[24])return false;if(!$('resto').checked&&r[29])return false;if(c&&r[3]!==c)return false;if(g&&!(r[7]>=g))return false;if(l&&!(r[18]>=l))return false;if(ca&&r[19]!==ca)return false;
  if($('hp').checked&&!r[9])return false;if($('byo').checked&&r[20]!=='Venue bar or BYO'&&r[20]!=='BYO only')return false;if($('ho').checked&&!r[10])return false;
  if(q&&!(r[1]+' '+r[2]+' '+r[14]).toLowerCase().includes(q))return false;return true}
 function cmp(a,b){const last=1e15,dir=asc?1:-1;if(sortK==='m'){const x=a[28],y=b[28];if(x==null||y==null)return x==null&&y==null?b[23]-a[23]:(x==null?1:-1);return (x-y)*dir||b[23]-a[23]}if(sortK==='g')return ((b[7]||-1)-(a[7]||-1))*dir||b[23]-a[23];
@@ -259,10 +260,10 @@ function details(d,B){if(!d){B.appendChild(el('div','note','No further details f
    if(f[2]&&/^https?:/.test(f[2])){const x=el('a','',f[2].replace(/^https?:\/\/(www\.)?/,'').slice(0,60));x.href=f[2];x.target='_blank';x.rel='noopener';line.appendChild(x)}src.appendChild(line);li.appendChild(src);ul.appendChild(li)});s.appendChild(ul);B.appendChild(s)});
  if(d.rooms&&d.rooms.length){const s=el('div','sec');s.appendChild(el('h3','','Rooms and spaces'));const ul=el('ul');d.rooms.forEach(x=>ul.appendChild(el('li','',x)));s.appendChild(ul);B.appendChild(s)}
  B.appendChild(el('div','note','Figures come from public pages and directories. Nothing here is confirmed by the venue; check before relying on it.')).style.marginTop='18px'}
-fetch('data/venues.json').then(r=>{if(!r.ok)throw Error(r.status);return r.json()}).then(j=>{D=j.rows;$('un').textContent=D.filter(r=>r[24]).length.toLocaleString();
+fetch('data/venues.json').then(r=>{if(!r.ok)throw Error(r.status);return r.json()}).then(j=>{D=j.rows;$('un').textContent=D.filter(r=>r[24]).length.toLocaleString();$('rn').textContent=D.filter(r=>r[29]).length.toLocaleString();
  [...new Set(D.map(r=>r[3]).filter(Boolean))].sort().forEach(c=>$('county').appendChild(el('option','',c)));apply();route()}).catch(e=>{$('count').textContent='The venue list could not be loaded ('+e.message+')'});
-['q','county','minG','late','cater','hp','byo','ho','unnamed'].forEach(i=>$(i).addEventListener('input',apply));
-$('reset').onclick=()=>{['q','county','minG','late','cater'].forEach(i=>$(i).value='');['hp','byo','ho','unnamed'].forEach(i=>$(i).checked=false);sortK='rel';asc=true;mark();apply()};
+['q','county','minG','late','cater','hp','byo','ho','unnamed','resto'].forEach(i=>$(i).addEventListener('input',apply));
+$('reset').onclick=()=>{['q','county','minG','late','cater'].forEach(i=>$(i).value='');['hp','byo','ho','unnamed','resto'].forEach(i=>$(i).checked=false);sortK='rel';asc=true;mark();apply()};
 function mark(){document.querySelectorAll('th').forEach(t=>t.classList.toggle('sorted',t.dataset.s===sortK))}
 document.querySelectorAll('th[data-s]').forEach(th=>th.onclick=()=>{const k=th.dataset.s;asc=sortK===k?!asc:true;sortK=k;mark();shown.sort(cmp);limit=50;draw()});
 $('more').onclick=()=>{limit+=50;draw()};window.addEventListener('hashchange',route);
