@@ -105,7 +105,7 @@ table.price{border-collapse:collapse;min-width:1050px;width:100%;background:var(
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js"></script>
 <script>
 const TOPIC=[['price','Pricing'],['capacity','Capacity'],['hours','Hours and end time'],['catering','Catering'],['alcohol','Alcohol'],['rental_terms','Rental terms'],['contact','Contact'],['event_space','About the space'],['other','Other']];
-const $=id=>document.getElementById(id);let D=[],shown=[],limit=50,sortK='rel',asc=true,map,cluster,markers={},cache={},openSet=new Set();
+const $=id=>document.getElementById(id);let D=[],MOVED={},shown=[],limit=50,sortK='rel',asc=true,map,cluster,markers={},cache={},openSet=new Set();
 const el=(t,c,x)=>{const e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e};
 function passes(r){const q=$('q').value.trim().toLowerCase(),c=$('county').value,g=+$('minG').value||0,l=+$('late').value||0,ca=$('cater').value;
  if(!$('unnamed').checked&&r[24])return false;if(!$('resto').checked&&r[29])return false;if(c&&r[3]!==c)return false;if(g&&!(r[7]>=g))return false;if(l&&!(r[18]>=l))return false;if(ca&&r[19]!==ca)return false;
@@ -203,7 +203,7 @@ let routeTok=0,fromList=false,savedY=0;
 function openVenue(r){fromList=true;location.hash='#v='+encodeURIComponent(r[0])}
 function route(){const m=/^#v=(.+)$/.exec(location.hash);if(!D.length)return;
  if(!m){if(document.body.classList.contains('onpage')){document.body.classList.remove('onpage');document.title='Bay Leaf Venues';scrollTo(0,savedY)}return}
- let pid;try{pid=decodeURIComponent(m[1])}catch(e){pid=m[1]}const r=D.find(x=>x[0]===pid);
+ let pid;try{pid=decodeURIComponent(m[1])}catch(e){pid=m[1]}if(MOVED[pid]){location.replace('#v='+encodeURIComponent(MOVED[pid]));return}const r=D.find(x=>x[0]===pid);
  if(!document.body.classList.contains('onpage'))savedY=window.scrollY;document.body.classList.add('onpage');scrollTo(0,0);showVenue(r)}
 async function showVenue(r){const tok=++routeTok,B=$('vbody');B.textContent='';
  if(!r){B.appendChild(el('h2','','Venue not found'));B.appendChild(el('div','note','This link does not match a venue in the list.'));return}
@@ -266,7 +266,7 @@ function details(d,B){if(!d){B.appendChild(el('div','note','No further details f
    if(f[2]&&/^https?:/.test(f[2])){const x=el('a','',f[2].replace(/^https?:\/\/(www\.)?/,'').slice(0,60));x.href=f[2];x.target='_blank';x.rel='noopener';line.appendChild(x)}src.appendChild(line);li.appendChild(src);ul.appendChild(li)});s.appendChild(ul);B.appendChild(s)});
  if(d.rooms&&d.rooms.length){const s=el('div','sec');s.appendChild(el('h3','','Rooms and spaces'));const ul=el('ul');d.rooms.forEach(x=>ul.appendChild(el('li','',x)));s.appendChild(ul);B.appendChild(s)}
  B.appendChild(el('div','note','Figures come from public pages and directories. Nothing here is confirmed by the venue; check before relying on it.')).style.marginTop='18px'}
-fetch('data/venues.json').then(r=>{if(!r.ok)throw Error(r.status);return r.json()}).then(j=>{D=j.rows;$('un').textContent=D.filter(r=>r[24]).length.toLocaleString();$('rn').textContent=D.filter(r=>r[29]).length.toLocaleString();
+fetch('data/venues.json').then(r=>{if(!r.ok)throw Error(r.status);return r.json()}).then(j=>{D=j.rows;MOVED=j.moved||{};$('un').textContent=D.filter(r=>r[24]).length.toLocaleString();$('rn').textContent=D.filter(r=>r[29]).length.toLocaleString();
  [...new Set(D.map(r=>r[3]).filter(Boolean))].sort().forEach(c=>$('county').appendChild(el('option','',c)));apply();route()}).catch(e=>{$('count').textContent='The venue list could not be loaded ('+e.message+')'});
 ['q','county','minG','late','cater','hp','byo','ho','unnamed','resto'].forEach(i=>$(i).addEventListener('input',apply));
 $('reset').onclick=()=>{['q','county','minG','late','cater'].forEach(i=>$(i).value='');['hp','byo','ho','unnamed','resto'].forEach(i=>$(i).checked=false);sortK='rel';asc=true;mark();apply()};
