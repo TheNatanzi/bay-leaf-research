@@ -159,9 +159,9 @@ if(D.photos&&D.photos.length>1){$('pics').innerHTML=D.photos.slice(1).map(u=>'<a
 function fixHours(t){['h','hs','hx','hl'].forEach(i=>$(i).style.display='none');$('hfix').style.display='block';$('hfix').innerHTML=t;}
 if(D.hours_fixed)fixHours(D.hours_fixed);
 function header(){const h=D.hdr;$('nm').textContent=h.name;let r='';
-  const rv=(h.reviews||[]).filter(x=>x.rating!=null&&x.count);
+  const all=(h.reviews||[]).filter(x=>x.rating!=null&&x.count),rv=all.filter(x=>!x.exclude);
   if(rv.length){const n=rv.reduce((a,x)=>a+x.count,0),avg=rv.reduce((a,x)=>a+x.rating*x.count,0)/n;
-    r='<span class="stars">★ '+avg.toFixed(1)+'</span> <span>('+n.toLocaleString()+' reviews)</span> <span class="rsrc">'+rv.map(x=>x.src+' '+x.rating+' ('+x.count+')').join(' · ')+(h.review_note?' · '+h.review_note:'')+'</span>';}
+    r='<span class="stars">★ '+avg.toFixed(1)+'</span> <span>('+n.toLocaleString()+' reviews)</span> <span class="rsrc">'+all.map(x=>x.src+' '+x.rating+' ('+x.count+(x.exclude?', '+x.exclude:'')+')').join(' · ')+(h.review_note?' · '+h.review_note:'')+'</span>';}
   else r='<span class="rsrc">Reviews: not collected yet</span>';
   $('hdr').innerHTML='<span>'+h.city+'</span>'+(h.site?'<a href="'+h.site+'" target="_blank">'+h.site.replace(/^https?:\/\/(www\.)?/,'').replace(/\/$/,'')+'</a>':'<span class="rsrc">No website on record</span>')+r;}
 function detail(){const F=D.dfinal,V=D.dval||{},S={find:'We find it',first:'Ask in the first email',last:'Ask only in the last email'};
