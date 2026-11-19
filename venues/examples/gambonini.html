@@ -165,7 +165,7 @@ function header(){const h=D.hdr;$('nm').textContent=h.name;let r='';
   else r='<span class="rsrc">Reviews: not collected yet</span>';
   $('hdr').innerHTML='<span>'+h.city+'</span>'+(h.site?'<a href="'+h.site+'" target="_blank">'+h.site.replace(/^https?:\/\/(www\.)?/,'').replace(/\/$/,'')+'</a>':'<span class="rsrc">No website on record</span>')+r;}
 function detail(){const F=D.dfinal,V=D.dval||{},S={find:'We find it',first:'Ask in the first email',last:'Ask only in the last email'};
-  const SRC={venue:'Venue said',google:'Google',ours:'Our data',calc:'Worked out'};
+  const SRC={venue:'Venue said',google:'Google',ours:'Our data',calc:'Worked out',abc:'State licence record'};
   const rows=F.rows,filled=rows.filter(r=>V[r.id]).length,ask1=rows.filter(r=>r.stage==='first'&&!V[r.id]).length;
   let h='<div class="dsum"><b>'+filled+' of '+rows.length+'</b> filled · first email would ask <b>'+ask1+'</b> · last email <b>'+rows.filter(r=>r.stage==='last'&&!V[r.id]).length+'</b></div>';
   ['find','first','last'].forEach(st=>{h+='<h3 class="dh">'+S[st]+'</h3><div class="dl">';
