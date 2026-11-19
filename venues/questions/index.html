@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Venue Detail Questions</title>
+<style>
+:root{--bg:#f6f5f1;--card:#fff;--ink:#1d2320;--mute:#5b6560;--accent:#1f6b3f;--line:#d9dbd5;--ask:#1f5fa8;--find:#1f6b3f;--cut:#8a3b2a;--warn:#fff3cd;--warnb:#c98a00}
+@media (prefers-color-scheme:dark){:root{--bg:#171a18;--card:#202522;--ink:#eceeea;--mute:#a4aca7;--accent:#4aa774;--line:#38403b;--ask:#3d7cc4;--find:#2f8a57;--cut:#b0553f;--warn:#3a3020;--warnb:#c98a00}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.5 Arial,Helvetica,sans-serif}
+main{max-width:760px;margin:0 auto;padding:16px 16px 80px}
+h1{font-size:26px;margin:18px 0 6px}h2{font-size:20px;margin:0}h3{font-size:15px;letter-spacing:.06em;text-transform:uppercase;color:var(--mute);margin:26px 0 8px}
+.lead{color:var(--mute);margin:0 0 14px}
+.who{display:flex;gap:8px;align-items:center;margin:10px 0 14px;flex-wrap:wrap;position:sticky;top:0;background:var(--bg);padding:8px 0;z-index:2}
+.sum{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 14px;margin-bottom:10px}
+.card{background:var(--card);border:2px solid var(--line);border-radius:16px;padding:14px 16px;margin:0 0 14px}
+.card.diff{border-color:var(--warnb)}
+.cov{color:var(--mute);margin:4px 0 6px}
+.why{font-size:15px;color:var(--mute)}
+.row{display:flex;gap:8px;margin-top:10px}
+button{font:inherit;font-weight:700;padding:9px 0;border-radius:10px;border:2px solid var(--line);background:transparent;color:var(--ink);cursor:pointer;flex:1}
+.who button{flex:none;padding:8px 20px}
+.who button.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+button.on[data-v=ask]{background:var(--ask);border-color:var(--ask);color:#fff}
+button.on[data-v=find]{background:var(--find);border-color:var(--find);color:#fff}
+button.on[data-v=cut]{background:var(--cut);border-color:var(--cut);color:#fff}
+.both{font-size:15px;margin-top:8px}
+.flag{background:var(--warn);border-radius:8px;padding:2px 8px;font-size:14px;font-weight:700;margin-left:8px;vertical-align:middle}
+a.addnote{font-size:15px;color:var(--mute);cursor:pointer;text-decoration:underline;display:inline-block;margin-top:8px}
+textarea{width:100%;font:inherit;padding:10px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);min-height:70px;margin-top:6px;display:none}
+.saved{font-size:14px;color:var(--mute);margin-left:8px}.err{color:#b3261e}
+.notes{font-size:15px;color:var(--mute);margin-top:6px}
+.foot{color:var(--mute);font-size:15px}
+</style></head><body><main>
+<h1>Venue Detail Questions</h1>
+<p class="lead">23 topics merged from about 100 old attributes. Each starts with Claude's pick already ticked. Tap to change it. Everything saves by itself and stays saved.<br><b>Ask venue</b> = goes on the venue forms. <b>We find it</b> = we look it up ourselves. <b>Cut</b> = dropped.</p>
+<div class="who"><span>I am:</span><button data-who="Medi">Medi</button><button data-who="Rinad">Rinad</button><span class="saved" id="whonote">Pick your name first</span></div>
+<div class="sum" id="sum"></div>
+<div id="cards"></div>
+<p class="foot">Left off on purpose: 38 business-launch attributes (owning, leasing, contracts) and everything already on the Price tab.</p>
+</main>
+<script>
+const T=[{"id": "q-capacity", "group": "The space", "name": "Capacity by setup", "covers": "Seated dinner with a dance floor, ceremony seated, standing; comfortable count vs legal maximum", "pick": "ask", "why": "Sites give one big number; we need the dinner-and-dance count"}, {"id": "q-spaces", "group": "The space", "name": "Spaces and layout", "covers": "Indoor and outdoor spaces, floor plan and sizes, cocktail-hour space, how the room flip works, exits", "pick": "find", "why": "Usually on the venue's site, brochure or directories"}, {"id": "q-basics", "group": "The space", "name": "Venue basics", "covers": "Weddings allowed, exact site and room, county, operator or owner, sales contact, open or closed", "pick": "find", "why": "We already have most of this"}, {"id": "q-history", "group": "The space", "name": "Venue history", "covers": "Year built, year weddings started, current operator since", "pick": "cut", "why": "Nice to know, not a deciding factor"}, {"id": "q-style", "group": "The space", "name": "Look and style", "covers": "Photos of real events, style (barn, winery, ballroom)", "pick": "find", "why": "Photos already collected for 5,182 venues"}, {"id": "q-reviews", "group": "The space", "name": "Reviews", "covers": "Combined review score and count (Google plus directories)", "pick": "find", "why": "Public, no need to ask"}, {"id": "q-availability", "group": "Booking", "name": "Dates and booking window", "covers": "Open dates, how far ahead they book", "pick": "ask", "why": "Only the venue knows"}, {"id": "q-privacy", "group": "Booking", "name": "Private use", "covers": "Other events at the same time, private areas, private photo spots", "pick": "ask", "why": "Matters for a large wedding; rarely online"}, {"id": "q-culture", "group": "Booking", "name": "Cultural fit", "covers": "Cultural ceremonies, baraat or procession, henna night or multi-day events, cultural food from outside caterers", "pick": "ask", "why": "Key for us and rarely stated online"}, {"id": "q-decor", "group": "Rules", "name": "Decor rules", "covers": "Attaching decor, moving furniture, candles and open flame, confetti and sparklers, flower disposal", "pick": "find", "why": "Usually in the venue's rules or brochure"}, {"id": "q-alcohol-rules", "group": "Rules", "name": "Alcohol licence and rules", "covers": "Who holds the licence, who gets the event permit, last-call routine, alcohol storage", "pick": "find", "why": "Usually in the bar packet; price side is on the Price tab"}, {"id": "q-vendors", "group": "Rules", "name": "Vendor paperwork", "covers": "Food trucks, vendor insurance papers, vendor approval deadlines, vendor commissions", "pick": "cut", "why": "Contract-stage detail"}, {"id": "q-timing", "group": "The day", "name": "Day-of timing", "covers": "Bar last call, guest departure, vendor load-in, cleanup deadline, rehearsal access, setup the day before", "pick": "ask", "why": "Changes how long we pay vendors"}, {"id": "q-staff", "group": "The day", "name": "Venue staff on the day", "covers": "On-site manager, who sets up and removes decor, flip crew, after-hours contact", "pick": "ask", "why": "Decides how much our own crew must do"}, {"id": "q-weather", "group": "The day", "name": "Rain and heat backup", "covers": "Backup space and its capacity, who decides and by when, heat and cold, wind, smoke or fire, power loss, closure refund, tent permit", "pick": "ask", "why": "Outdoor venues only; rarely online"}, {"id": "q-food-extras", "group": "The day", "name": "Food extras", "covers": "Kids' and vendor meals, allergies, tasting", "pick": "cut", "why": "Caterer question, not venue"}, {"id": "q-kitchen-ops", "group": "The day", "name": "Kitchen operations", "covers": "Cold storage and ice, water and handwashing, service routes, food waste", "pick": "cut", "why": "Kitchen type is already on the Price tab"}, {"id": "q-comfort", "group": "Guests", "name": "Guest comfort", "covers": "Restroom count and condition, dressing suites, quiet room, nursing room, coat and gift storage", "pick": "find", "why": "Restrooms trigger a cost line; rest is on site pages"}, {"id": "q-access", "group": "Guests", "name": "Accessibility", "covers": "Step-free route, accessible restrooms and seating, stairs and elevators, accessible drop-off, night lighting", "pick": "find", "why": "Often on site pages; can ask later"}, {"id": "q-travel", "group": "Guests", "name": "Getting there", "covers": "Drive time from SF, nearest airport, nearby hotels, parking count, coach and rideshare pickup", "pick": "find", "why": "We can compute this from the address"}, {"id": "q-production", "group": "Visit", "name": "Production details", "covers": "Loading path, delivery vehicles, dock and elevator, storage, phone signal and wifi, rigging, sound limits, sunset sightlines", "pick": "cut", "why": "Site-visit detail"}, {"id": "q-handover", "group": "Visit", "name": "Planning handover", "covers": "Final walkthrough, approved timeline and floor plan, vendor contact sheet", "pick": "cut", "why": "Only after booking"}, {"id": "q-quote-expiry", "group": "Booking", "name": "Quote date and expiry", "covers": "When the quoted prices were set and how long they hold", "pick": "ask", "why": "Keeps the Price tab honest"}];
+const URL_='https://yljcbdxvnkfrwvelypfu.supabase.co/rest/v1/bayleaf_approvals';
+const H={apikey:'sb_publishable_KHUncBSO4RrvAhT08p0-vg_imPKEvsj',Authorization:'Bearer sb_publishable_KHUncBSO4RrvAhT08p0-vg_imPKEvsj','Content-Type':'application/json'};
+const L={ask:'Ask venue',find:'We find it',cut:'Cut'};
+const P={Medi:{},Rinad:{}},N={Medi:{},Rinad:{}};let me=null;
+try{me=localStorage.getItem('bl-q-who')}catch(e){}
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;');
+async function add(item,kind,body){const r=await fetch(URL_,{method:'POST',headers:{...H,Prefer:'return=minimal'},body:JSON.stringify({item,kind,who:me,body})});if(!r.ok)throw new Error(r.status);}
+const pick=(who,t)=>P[who][t.id]||t.pick;
+function render(){
+  document.querySelectorAll('.who button').forEach(b=>b.classList.toggle('on',b.dataset.who===me));
+  $('whonote').textContent=me?'Saving as '+me:'Pick your name first';
+  let g=null,h='',diff=0;const cnt={ask:0,find:0,cut:0};
+  T.forEach(t=>{const m=pick('Medi',t),r=pick('Rinad',t),d=m!==r;if(d)diff++;else cnt[m]++;
+    if(t.group!==g){g=t.group;h+='<h3>'+g+'</h3>';}
+    const mine=me?pick(me,t):null,myNote=me&&N[me][t.id]?N[me][t.id]:'';
+    h+='<div class="card'+(d?' diff':'')+'" id="'+t.id+'"><h2>'+t.name+(d?'<span class="flag">You differ</span>':'')+'</h2>'+
+      '<div class="cov">'+t.covers+'</div><div class="why">Claude: '+L[t.pick]+'. '+t.why+'</div>'+
+      '<div class="row">'+['ask','find','cut'].map(v=>'<button data-v="'+v+'" data-id="'+t.id+'" class="'+(mine===v?'on':'')+'">'+L[v]+'</button>').join('')+'</div>'+
+      '<div class="both">Medi: <b>'+L[m]+'</b>'+(P.Medi[t.id]?'':' (pre-ticked)')+' · Rinad: <b>'+L[r]+'</b>'+(P.Rinad[t.id]?'':' (pre-ticked)')+'<span class="saved" id="s-'+t.id+'"></span></div>'+
+      ['Medi','Rinad'].filter(w=>N[w][t.id]&&w!==me).map(w=>'<div class="notes">'+w+'’s note: '+esc(N[w][t.id])+'</div>').join('')+
+      '<a class="addnote" data-id="'+t.id+'" style="'+(myNote?'display:none':'')+'">Add a note</a>'+
+      '<textarea data-note="'+t.id+'" placeholder="Explain here" style="'+(myNote?'display:block':'')+'">'+esc(myNote)+'</textarea></div>';});
+  $('cards').innerHTML=h;
+  $('sum').innerHTML='<b>Agreed:</b> '+cnt.ask+' ask · '+cnt.find+' we find · '+cnt.cut+' cut · <b>'+diff+' to talk about</b>';
+  document.querySelectorAll('.row button').forEach(b=>b.onclick=async()=>{if(!me){alert('Tap Medi or Rinad at the top first');return;}
+    const id=b.dataset.id,v=b.dataset.v;P[me][id]=v;render();$('s-'+id).textContent=' Saving...';
+    try{await add(id,'draft',v);$('s-'+id).textContent=' Saved'}catch(e){$('s-'+id).innerHTML=' <span class="err">Not saved. Try again.</span>'}});
+  document.querySelectorAll('a.addnote').forEach(a=>a.onclick=()=>{if(!me){alert('Tap Medi or Rinad at the top first');return;}
+    const ta=document.querySelector('[data-note="'+a.dataset.id+'"]');ta.style.display='block';ta.focus();a.style.display='none';});
+  const tm={};document.querySelectorAll('textarea').forEach(ta=>ta.addEventListener('input',()=>{const id=ta.dataset.note;$('s-'+id).textContent=' Saving...';clearTimeout(tm[id]);
+    tm[id]=setTimeout(async()=>{try{await add(id,'note',ta.value);N[me][id]=ta.value;$('s-'+id).textContent=' Saved'}catch(e){$('s-'+id).innerHTML=' <span class="err">Not saved. Try again.</span>'}},900)}));
+}
+document.querySelectorAll('.who button').forEach(b=>b.onclick=()=>{me=b.dataset.who;try{localStorage.setItem('bl-q-who',me)}catch(e){}render();});
+async function load(){const r=await fetch(URL_+'?select=item,kind,body,who&item=like.q-*&order=id.desc&limit=2000',{headers:H});if(!r.ok)throw new Error(r.status);const rows=await r.json();const seen={};
+  for(const x of rows){if(!P[x.who])continue;const k=x.item+'|'+x.kind+'|'+x.who;if(seen[k])continue;seen[k]=1;
+    if(x.kind==='draft'&&L[x.body])P[x.who][x.item]=x.body;if(x.kind==='note'&&x.body)N[x.who][x.item]=x.body;}}
+render();load().then(render).catch(()=>{$('sum').insertAdjacentHTML('afterend','<p class="err">Could not load saved answers. Reload the page.</p>')});
+</script></body></html>
