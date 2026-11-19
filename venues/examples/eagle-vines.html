@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Eagle Vines Venue Sheet</title>
+<style>
+*{box-sizing:border-box}
+.pics{display:flex;gap:.5rem;overflow-x:auto;margin:0 0 1rem;padding-bottom:.3rem}
+.pics img{height:190px;border-radius:8px;flex:none;object-fit:cover;background:#ddd}
+
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;font-size:17px;background:#f5f5f5;color:#2d3142;margin:0;padding:1.5rem 1rem;line-height:1.4}
+.f{max-width:1100px;margin:0 auto}
+h1{font-size:1.8rem;font-weight:600;margin:.2rem 0 .8rem}
+h2{font-size:1.25rem;font-weight:600;margin:1.2rem 0 .5rem}
+.small{color:#4f5d75}
+.controls{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem 1.4rem;background:#fff;border:1px solid #ccc;border-radius:8px;padding:1.1rem 1.2rem;margin-bottom:1rem}
+.controls>div{display:flex;flex-direction:column;min-width:0}
+.controls label{font-weight:600;display:flex;justify-content:space-between;gap:.5rem;height:1.6rem;margin-bottom:.4rem;white-space:nowrap}
+.lock{font-size:15px;color:#4f5d75;height:1.4rem;margin-top:.2rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.strip{display:flex;align-items:flex-end;gap:2px;height:44px;margin-top:.3rem;cursor:pointer}
+.strip i{flex:1;background:#c9cfdb;border-radius:2px 2px 0 0;min-height:3px}
+.strip i.on{background:#2d3142}.strip i.x{background:#f3d3cb}
+.sx{display:flex;justify-content:space-between;font-size:14px;color:#4f5d75;margin-top:.15rem}
+.hfix{display:none;background:#f0f2f6;border-radius:6px;padding:.5rem .7rem;font-size:15px;line-height:1.35;margin-top:.2rem}
+.lock.on{color:#bf4520;font-weight:600}
+.controls label span{font-weight:400;color:#4f5d75;overflow:hidden;text-overflow:ellipsis}
+input[type=range]{width:100%;height:2.4rem;margin:0}
+.seg{display:flex;height:2.4rem;border:1px solid #2d3142;border-radius:6px;overflow:hidden}
+.seg button{flex:1;font:inherit;font-size:15px;padding:0 .4rem;border:0;border-left:1px solid #2d3142;background:#fff;cursor:pointer;white-space:nowrap;color:#2d3142}
+.seg button:first-child{border-left:0}
+.seg button.on{background:#2d3142;color:#fff}
+.opts{display:grid;gap:.6rem;margin-bottom:1rem}
+.opt{display:grid;grid-template-columns:1.6rem 1fr auto;gap:.2rem .8rem;align-items:center;background:#fff;border:2px solid #ccc;border-radius:8px;padding:.7rem 1rem;cursor:pointer}
+.opt.on{border-color:#2d3142;box-shadow:0 0 0 1px #2d3142}
+.opt.off{opacity:.55;cursor:not-allowed}
+.opt .dot{width:1.1rem;height:1.1rem;border-radius:50%;border:2px solid #2d3142}
+.opt.on .dot{background:#2d3142}
+.opt .nm{font-weight:600}
+.opt .pp{font-size:1.4rem;font-weight:700;text-align:right}
+.opt .meta{grid-column:2/4;font-size:15px;color:#4f5d75}
+.tag{display:inline-block;font-size:14px;font-weight:600;border-radius:4px;padding:.05rem .4rem;margin-right:.3rem;background:#e3f2e8;color:#2f7d4f}
+.tag.red{background:#fde8e4;color:#bf4520}.tag.grey{background:#eee;color:#666}.tag.yel{background:#fff3cd;color:#8a5a00}
+.total{display:grid;grid-template-columns:repeat(4,1fr);gap:.8rem;margin-bottom:1rem}
+.card{background:#fff;border-radius:8px;padding:.9rem 1rem;border:2px solid #2d3142}
+.card b{display:block;font-size:2rem}
+.card.warn{border-color:#c98a00;background:#fff8e6}
+.card.apart{border-color:#888}
+.flag{background:#fff3cd;border:2px solid #c98a00;border-radius:8px;padding:.7rem 1rem;margin-bottom:.6rem;font-weight:600}
+.flag.red{background:#fde8e4;border-color:#bf4520}
+table{border-collapse:collapse;width:100%;background:#fff}
+td,th{border-bottom:1px solid #e2e2e2;padding:.45rem .6rem;text-align:left;vertical-align:top}
+th{background:#2d3142;color:#fff;font-weight:600}
+tr.g td{background:#e9e4dc;font-weight:700}
+td.amt{text-align:right;white-space:nowrap;font-weight:600}
+.chip{display:inline-block;font-size:14px;font-weight:600;border-radius:4px;padding:.1rem .45rem;white-space:nowrap}
+.inc{background:#e3f2e8;color:#2f7d4f}.venue{background:#e6ecf5;color:#2d4a7a}.own{background:#efe6f7;color:#6a3d8f}
+.req{background:#fde8e4;color:#bf4520}.unk{background:#eee;color:#777}.na{background:#f6f6f6;color:#aaa}.apart{background:#eee;color:#444}.flagc{background:#fff3cd;color:#8a5a00}
+.q{font-size:14px;color:#4f5d75;margin-top:.2rem}
+tr.dim td{color:#aaa}
+@media(max-width:900px){.controls{grid-template-columns:1fr 1fr}.total{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.controls{grid-template-columns:1fr}.total{grid-template-columns:1fr}}
+@media(max-width:700px){#t td:nth-child(3),#t th:nth-child(3){display:none}}
+.hdr{display:flex;flex-wrap:wrap;gap:.3rem 1rem;align-items:baseline;margin:-.4rem 0 .8rem;font-size:17px}
+.hdr a{color:#2d4a7a}.stars{font-weight:700}.rsrc{color:#4f5d75;font-size:15px}
+.tabs{display:flex;gap:0;border-bottom:2px solid #2d3142;margin:0 0 1rem}
+.tabs button{font:inherit;font-weight:600;padding:.55rem 1.4rem;border:2px solid #2d3142;border-bottom:0;background:#fff;color:#2d3142;cursor:pointer;border-radius:8px 8px 0 0;margin-right:.4rem}
+.tabs button.on{background:#2d3142;color:#fff}
+.dt td:first-child{width:28%}.dt .cov{font-size:14px;color:#4f5d75}
+.ask{background:#e6ecf5;color:#2d4a7a}.find{background:#e3f2e8;color:#2f7d4f}
+.dsum{background:#f3f4f7;border-radius:10px;padding:.6rem .9rem;margin:.2rem 0 .6rem}
+.dh{font-size:15px;letter-spacing:.05em;text-transform:uppercase;color:#4f5d75;margin:1.2rem 0 .4rem}
+.dl{border:1px solid #d9dbd5;border-radius:12px;overflow:hidden;background:#fff}
+.dr{display:grid;grid-template-columns:38% 1fr;gap:.8rem;padding:.6rem .9rem;border-top:1px solid #eceee9}.dr:first-child{border-top:0}
+.dk{font-weight:600}.dn{display:block;font-weight:400;font-size:14px;color:#6b7280}.dash{color:#9aa0a6;font-weight:700}
+.chip.src{background:#eef1f6;color:#4f5d75;font-size:13px}
+@media (max-width:600px){.dr{grid-template-columns:1fr;gap:.2rem}}
+</style></head><body><div class="f">
+<p class="small">Bay Leaf · Cost per head · EXAMPLE SHEET 2 (venue with spaces) for Medi's approval · 2026-11-18</p>
+<h1 id="nm"></h1>
+<div class="hdr" id="hdr"></div>
+
+<div class="pics" id="pics"></div><p class="small" id="picsrc" style="margin:-.6rem 0 1rem;font-size:15px"></p>
+<div class="tabs"><button data-t="price" class="on">Price</button><button data-t="detail">Detail</button></div>
+<div id="tab-price">
+<div class="controls">
+  <div><label>Guests <span id="gv"></span></label><input id="g" type="range" min="50" max="600" step="10" value="300"><div class="strip" id="gs"></div><div class="sx" id="gx"></div><div class="lock" id="gl"></div></div>
+  <div><label>Hours with guests <span id="hv"></span></label><input id="h" type="range" min="3" max="10" step="0.5" value="6"><div class="strip" id="hs"></div><div class="sx" id="hx"></div><div class="lock" id="hl"></div><div class="hfix" id="hfix"></div></div>
+  <div><label>Alcohol</label><div class="seg" id="alc"><button data-v="none">None</button><button data-v="bw">Beer &amp; wine</button><button data-v="full" class="on">Full bar</button></div></div>
+  <div><label>Day</label><div class="seg" id="day"><button data-v="sat" class="on">Saturday</button><button data-v="fs">Fri / Sun</button><button data-v="mt">Mon–Thu</button></div></div>
+  <div><label>Ceremony on site</label><div class="seg" id="cer"><button data-v="1" class="on">On</button><button data-v="0">Off</button></div></div>
+  <div><label>Wedding cake</label><div class="seg" id="cake"><button data-v="1" class="on">On</button><button data-v="0">Off</button></div></div>
+</div>
+
+<h2>Spaces <span class="small" style="font-weight:400;font-size:16px">· cheapest one that fits is picked for you; tap another to compare</span></h2>
+<div class="opts" id="opts"></div>
+<div id="flags"></div>
+<div class="total">
+  <div class="card"><span>Known so far, per guest</span><b id="pp"></b><span id="tot"></span></div>
+  <div class="card warn"><span>Lines still unknown</span><b id="unk"></b><span>each becomes a form question</span></div>
+  <div class="card warn"><span>Required, price unknown</span><b id="rq"></b><span id="rql"></span></div>
+  <div class="card apart"><span>Cash needed early</span><b id="dep"></b><span id="depl"></span></div>
+</div>
+
+<table id="t"><tr><th>Line</th><th>Status</th><th>Why / source</th><th style="text-align:right">Cost</th></tr></table>
+<p class="small" style="margin-top:1rem">Colors: <span class="chip inc">Included</span> <span class="chip venue">Venue price</span> <span class="chip own">Your price</span> <span class="chip req">Required</span> <span class="chip unk">Unknown</span> <span class="chip na">Not needed</span></p>
+</div>
+<div id="tab-detail" hidden></div>
+</div>
+<script>
+const D={"name": "Eagle Vines Vineyard & Golf Club, Napa", "sub": "2 spaces. Facts come only from the venue's reply and wedding packet (Nov 2026). Everything else stays unknown.", "lines": [{"group": "Venue", "id": "venue_rent", "name": "Venue rent", "unit": "per event, or per hour x hours", "needed_when": "always", "venue_rules": "venue's own price (newest price list)", "price_from": "venue"}, {"group": "Venue", "id": "fnb_minimum", "name": "Food & drink minimum", "unit": "per event", "needed_when": "venue sets one", "venue_rules": "you pay the HIGHER of your food+drink bill or the minimum; ask for a breakdown", "price_from": "venue"}, {"group": "Venue", "id": "service_charge", "name": "Service charge", "unit": "% of what the venue says it covers", "needed_when": "venue charges one", "venue_rules": "only the venue's stated % and base; never assumed", "price_from": "venue"}, {"group": "Venue", "id": "sales_tax", "name": "Sales tax", "unit": "% of taxable items the venue names", "needed_when": "venue states it", "venue_rules": "asked of venues, not auto-added", "price_from": "venue"}, {"group": "Venue", "id": "ceremony_fee", "name": "Ceremony fee", "unit": "per event", "needed_when": "ceremony switch ON", "venue_rules": "venue's price", "price_from": "venue"}, {"group": "Venue", "id": "flip_fee", "name": "Ceremony-to-reception flip", "unit": "per event", "needed_when": "ceremony switch ON", "venue_rules": "venue may charge a turnover fee or include it", "price_from": "venue"}, {"group": "Venue", "id": "overtime", "name": "Overtime", "unit": "per extra hour", "needed_when": "event runs past venue end time (hours slider)", "venue_rules": "hard stop with no extension = tag: can't reach midnight", "price_from": "venue"}, {"group": "Venue", "id": "setup_teardown", "name": "Setup / teardown hours", "unit": "per hour outside the event", "needed_when": "venue charges for them", "venue_rules": "venue's rate", "price_from": "venue"}, {"group": "Venue", "id": "cleaning_fee", "name": "Cleaning fee", "unit": "per event", "needed_when": "venue charges one", "venue_rules": "venue's price", "price_from": "venue"}, {"group": "Venue", "id": "deposit", "name": "Security deposit", "unit": "per event", "needed_when": "venue asks for one", "venue_rules": "SHOWN APART as cash needed, not in cost per head (refundable)", "price_from": "venue"}, {"group": "Venue", "id": "outside_vendor_fee", "name": "Outside vendor fee", "unit": "per outside vendor, or flat", "needed_when": "you bring a vendor and the venue charges for it", "venue_rules": "venue's price", "price_from": "venue"}, {"group": "Venue", "id": "approved_vendor_list", "name": "Approved vendors only", "unit": "label", "needed_when": "venue requires its list", "venue_rules": "yellow warning tag; prices from venue's range/menus, never a stand-in", "price_from": "label"}, {"group": "Venue", "id": "kitchen_surcharge", "name": "No-kitchen caterer surcharge", "unit": "per event or per guest (your caterer)", "needed_when": "venue has no kitchen, or prep only", "venue_rules": "price from your caterer (you're asking)", "price_from": "our sheet"}, {"group": "Venue", "id": "generator", "name": "Generator", "unit": "per event", "needed_when": "no power for vendors", "venue_rules": "your price sheet", "price_from": "our sheet"}, {"group": "Venue", "id": "restroom_trailer", "name": "Restroom trailer", "unit": "per event", "needed_when": "not enough restrooms for the guest count", "venue_rules": "your price sheet", "price_from": "our sheet"}, {"group": "Venue", "id": "permit", "name": "Permit fee", "unit": "per event", "needed_when": "park/lawn site, or amplified sound permit", "venue_rules": "venue or city fee", "price_from": "venue"}, {"group": "Venue", "id": "valet", "name": "Valet", "unit": "per event or per hour", "needed_when": "ONLY if venue requires it", "venue_rules": "venue's price or your sheet", "price_from": "venue/our sheet"}, {"group": "Venue", "id": "liquor_liability", "name": "Liquor liability insurance", "unit": "per event", "needed_when": "ONLY if venue requires it", "venue_rules": "your price sheet", "price_from": "our sheet"}, {"group": "Food & drink", "id": "catering_food", "name": "Catering: Food", "unit": "per guest", "needed_when": "always", "venue_rules": "included = $0; venue's own only = venue price; bring your own = your caterer (private price)", "price_from": "venue/our sheet"}, {"group": "Food & drink", "id": "catering_dessert", "name": "Catering: Dessert", "unit": "per guest", "needed_when": "always", "venue_rules": "cake-cutting fee if outside dessert at an in-house-food venue", "price_from": "venue/our sheet"}, {"group": "Food & drink", "id": "wedding_cake", "name": "Wedding cake", "unit": "per guest", "needed_when": "CAKE SWITCH on", "venue_rules": "cake-cutting fee if outside", "price_from": "venue/our sheet"}, {"group": "Food & drink", "id": "cake_cutting", "name": "Cake-cutting fee", "unit": "per guest", "needed_when": "outside cake/dessert and the venue charges it", "venue_rules": "venue's price", "price_from": "venue"}, {"group": "Food & drink", "id": "bartenders", "name": "Bartenders", "unit": "per bartender per hour (about 1 per 75 guests, source in step 3)", "needed_when": "alcohol ON", "venue_rules": "venue may force its own", "price_from": "venue/our sheet"}, {"group": "Food & drink", "id": "bar_alcohol", "name": "Bar / Alcohol", "unit": "per guest, by setting (none / beer & wine / full bar)", "needed_when": "alcohol ON", "venue_rules": "venue bar package, or your own bottles", "price_from": "venue/our sheet"}, {"group": "Food & drink", "id": "corkage", "name": "Corkage", "unit": "per bottle (0.6 wine bottles per guest at 6 hours; estimate)", "needed_when": "your own alcohol and the venue charges it", "venue_rules": "venue's price per bottle", "price_from": "venue"}, {"group": "People & music", "id": "servers_staff", "name": "Servers / staff", "unit": "per server per hour", "needed_when": "extra staff ONLY if venue requires it (your caterer's buffet servers count)", "venue_rules": "venue may force its own staff", "price_from": "venue/our sheet"}, {"group": "People & music", "id": "planner", "name": "Wedding / event planner", "unit": "per event", "needed_when": "ONLY if venue requires it", "venue_rules": "venue's coordinator or your sheet", "price_from": "venue/our sheet"}, {"group": "People & music", "id": "security", "name": "Security", "unit": "per guard per hour", "needed_when": "ONLY if venue requires it (often by guest count)", "venue_rules": "venue's ratio and rate", "price_from": "venue/our sheet"}, {"group": "People & music", "id": "parking_attendant", "name": "Parking attendant", "unit": "per attendant per hour", "needed_when": "venue requires it, or parking is tight", "venue_rules": "ties to valet and shuttles", "price_from": "venue/our sheet"}, {"group": "People & music", "id": "dj", "name": "DJ", "unit": "per event", "needed_when": "always", "venue_rules": "venue may force in-house DJ; music cutoff tag", "price_from": "venue/our sheet"}, {"group": "Sound, light, look", "id": "sound", "name": "Sound system", "unit": "per event", "needed_when": "venue has none AND your DJ doesn't bring one", "venue_rules": "venue may force in-house AV", "price_from": "venue/our sheet"}, {"group": "Sound, light, look", "id": "lighting", "name": "Lighting", "unit": "per event", "needed_when": "outdoor at night, or a dark/raw space", "venue_rules": "venue may force in-house AV", "price_from": "venue/our sheet"}, {"group": "Sound, light, look", "id": "draping", "name": "Draping", "unit": "per event", "needed_when": "ONLY if venue requires it", "venue_rules": "venue's price", "price_from": "venue"}, {"group": "Sound, light, look", "id": "decorations", "name": "Decorations", "unit": "per table (basic level)", "needed_when": "always", "venue_rules": "venue may include; may ban (open flame)", "price_from": "venue/our sheet"}, {"group": "Sound, light, look", "id": "florals", "name": "Florals", "unit": "per table (basic level)", "needed_when": "always", "venue_rules": "venue may include or force its florist (rare: 1 in 8,413)", "price_from": "venue/our sheet"}, {"group": "Rentals", "id": "chairs", "name": "Rentals: Chairs", "unit": "per chair (1 per guest; flip reuses them)", "needed_when": "always", "venue_rules": "venue may include; else rental company", "price_from": "venue/our sheet"}, {"group": "Rentals", "id": "tables", "name": "Rentals: Tables", "unit": "per table (guests / 8, source in step 3)", "needed_when": "always", "venue_rules": "venue may include; else rental company", "price_from": "venue/our sheet"}, {"group": "Rentals", "id": "linens", "name": "Rentals: Linens", "unit": "per table", "needed_when": "always", "venue_rules": "venue may include; else rental company", "price_from": "venue/our sheet"}, {"group": "Rentals", "id": "silverware", "name": "Rentals: Silverware", "unit": "per guest", "needed_when": "always", "venue_rules": "venue may include; else rental company", "price_from": "venue/our sheet"}, {"group": "Rentals", "id": "dishware", "name": "Rentals: Dishware", "unit": "per guest", "needed_when": "always", "venue_rules": "venue may include; else rental company", "price_from": "venue/our sheet"}, {"group": "Rentals", "id": "dance_floor", "name": "Dance floor install", "unit": "per event, sized by guest count", "needed_when": "lawn, grass or no hard floor", "venue_rules": "venue may include its own", "price_from": "venue/our sheet"}, {"group": "Site & guests", "id": "tenting", "name": "Tenting", "unit": "per square foot (sq ft per guest, source in step 3)", "needed_when": "outdoor space with no covered backup", "venue_rules": "venue may include or force its tent vendor", "price_from": "venue/our sheet"}, {"group": "Site & guests", "id": "heaters", "name": "Heaters", "unit": "per heater (guests per heater, source in step 3)", "needed_when": "outdoor space, evening event", "venue_rules": "venue may include (Deer Park Villa does)", "price_from": "venue/our sheet"}, {"group": "Site & guests", "id": "shuttles", "name": "Shuttles", "unit": "per shuttle per hour", "needed_when": "little or no parking for the guest count, or venue requires it", "venue_rules": "your price sheet", "price_from": "our sheet"}, {"group": "Site & guests", "id": "event_insurance", "name": "Event insurance", "unit": "per event", "needed_when": "ONLY if venue requires it", "venue_rules": "coverage amount from venue", "price_from": "our sheet"}, {"group": "Site & guests", "id": "lodging", "name": "Hotel rooms / lodging", "unit": "flag + credit", "needed_when": "venue requires a room block or overnight stay", "venue_rules": "NOT in cost per head: big flag; included lodging = orange credit (both numbers shown)", "price_from": "label"}], "options": [{"id": "club", "name": "Clubhouse / Restaurant", "max": 125, "rent": {"sat": 3000, "fs": 3000, "mt": 3000}, "rent_q": "Clubhouse/Restaurant Venue-FACILITY FEE: $3,000", "block": null, "end": null, "end_max": null, "music": null, "season": "Year-round"}, {"id": "pav", "name": "Grand Pavilion (tent)", "max": 250, "rent": {"sat": 6500, "fs": 5500, "mt": 5500}, "rent_q": "FACILITY FEE: $6,500 Saturday / $5,500 Non-Saturday (Max Cap. 250)", "block": 6, "ot_half": 1000, "ot_q": "$1,000 late fee for each additional 1⁄2 hour", "ot_note": "Overtime needs the venue's approval", "end": 23, "end_max": null, "music": null, "season": "Mid-April to October only"}], "facts": {"catering_food": {"t": "pp", "rate": 83, "svc": 1, "tax": 1, "note": "In-house only. Cheapest package: The Eagle's Flight (buffet). Others $96, $102, $109", "q": "The Eagle’s Flight $83"}, "bar_alcohol": {"t": "bar", "rates": {"bw": 35, "full": 48}, "extra": {"bw": null, "full": 9.5}, "hours": 5, "min": 75, "names": {"bw": "Hosted beer & wine bar", "full": "Hosted full bar"}, "q": "Entire event $35/pp (5 Hours)"}, "service_charge": {"t": "pct", "pct": 20, "on": "svc", "note": "20% on food and bar packages", "q": "Packages Priced per Person and do not include 20% service charge or applicable local sales tax. (7.75%)"}, "sales_tax": {"t": "pct", "pct": 7.75, "on": "svc", "note": "7.75% on food and bar packages", "q": "Packages Priced per Person and do not include 20% service charge or applicable local sales tax. (7.75%)"}, "fnb_minimum": {"t": "min", "lo": 4000, "hi": 6000, "days": ["sat", "fs"], "days_text": "Friday to Sunday", "q": "There is a $4,000-$6,000"}, "deposit": {"t": "apart", "amt": 2000, "note": "To hold the date. Forfeited if you cancel. Counts toward the bill? ask", "q": "A deposit of $2,000 is required to secure the"}, "corkage": {"t": "na", "note": "No outside alcohol, so the venue bar is used", "q": "Absolutely no outside alcoholic beverages are allowed onto Eagle Vines property"}, "cake_cutting": {"t": "inc", "note": "Included in every package", "q": "(packet summary, exact wording not saved: all packages include white padded chairs, linen, napkins, flatware, stemware, china, champagne toast, cake cutting)"}, "wedding_cake": {"t": "req", "note": "Outside cake is allowed. Add a cake price to your sheet", "q": "Eagle Vines will provide all food and beverage"}, "setup_teardown": {"t": "inc", "note": "Included", "q": "Set up and Clean up are included"}, "chairs": {"t": "inc", "note": "White padded chairs included", "q": "(packet summary, exact wording not saved: all packages include white padded chairs, linen, napkins, flatware, stemware, china)"}, "linens": {"t": "inc", "note": "Linen and napkins included", "q": "(packet summary, exact wording not saved: all packages include white padded chairs, linen, napkins, flatware, stemware, china)"}, "silverware": {"t": "inc", "note": "Flatware included", "q": "(packet summary, exact wording not saved: all packages include white padded chairs, linen, napkins, flatware, stemware, china)"}, "dishware": {"t": "inc", "note": "China and stemware included", "q": "(packet summary, exact wording not saved: all packages include white padded chairs, linen, napkins, flatware, stemware, china)"}, "approved_vendor_list": {"t": "flag", "note": "All food and drink in-house (cake excepted)", "q": "Eagle Vines will provide all food and beverage"}, "tenting": {"byopt": {"pav": {"t": "inc", "note": "The Pavilion is a tent", "q": "The Eagle Vines Pavilion is our elegant new 4000 square foot tent."}, "club": {"t": "na", "note": "Indoor clubhouse"}}}, "lighting": {"byopt": {"pav": {"t": "inc", "note": "Pavilion has chandeliers and evening lighting", "q": "provide up to 250 guests with romantic lighting as evening falls."}}}}, "flags": ["Food and drink are in-house only, so our own caterer is not used here."], "photos": ["https://www.eaglevinesgolfclub.com/events/", "https://www.eaglevinesgolfclub.com/wp-content/uploads/sites/7780/2020/03/wpg17.jpg", "https://www.eaglevinesgolfclub.com/wp-content/uploads/sites/7780/2020/03/wpg20.jpg", "https://www.eaglevinesgolfclub.com/wp-content/uploads/sites/7780/2020/03/wpg15.jpg"], "start": 17, "topics": [{"id": "q-capacity", "group": "The space", "name": "Capacity by setup", "covers": "Seated dinner with a dance floor, ceremony seated, standing; comfortable count vs legal maximum", "pick": "ask", "why": "Sites give one big number; we need the dinner-and-dance count"}, {"id": "q-spaces", "group": "The space", "name": "Spaces and layout", "covers": "Indoor and outdoor spaces, floor plan and sizes, cocktail-hour space, how the room flip works, exits", "pick": "find", "why": "Usually on the venue's site, brochure or directories"}, {"id": "q-basics", "group": "The space", "name": "Venue basics", "covers": "Weddings allowed, exact site and room, county, operator or owner, sales contact, open or closed", "pick": "find", "why": "We already have most of this"}, {"id": "q-history", "group": "The space", "name": "Venue history", "covers": "Year built, year weddings started, current operator since", "pick": "cut", "why": "Nice to know, not a deciding factor"}, {"id": "q-style", "group": "The space", "name": "Look and style", "covers": "Photos of real events, style (barn, winery, ballroom)", "pick": "find", "why": "Photos already collected for 5,182 venues"}, {"id": "q-reviews", "group": "The space", "name": "Reviews", "covers": "Combined review score and count (Google plus directories)", "pick": "find", "why": "Public, no need to ask"}, {"id": "q-availability", "group": "Booking", "name": "Dates and booking window", "covers": "Open dates, how far ahead they book", "pick": "ask", "why": "Only the venue knows"}, {"id": "q-privacy", "group": "Booking", "name": "Private use", "covers": "Other events at the same time, private areas, private photo spots", "pick": "ask", "why": "Matters for a large wedding; rarely online"}, {"id": "q-culture", "group": "Booking", "name": "Cultural fit", "covers": "Cultural ceremonies, baraat or procession, henna night or multi-day events, cultural food from outside caterers", "pick": "ask", "why": "Key for us and rarely stated online"}, {"id": "q-decor", "group": "Rules", "name": "Decor rules", "covers": "Attaching decor, moving furniture, candles and open flame, confetti and sparklers, flower disposal", "pick": "find", "why": "Usually in the venue's rules or brochure"}, {"id": "q-alcohol-rules", "group": "Rules", "name": "Alcohol licence and rules", "covers": "Who holds the licence, who gets the event permit, last-call routine, alcohol storage", "pick": "find", "why": "Usually in the bar packet; price side is on the Price tab"}, {"id": "q-vendors", "group": "Rules", "name": "Vendor paperwork", "covers": "Food trucks, vendor insurance papers, vendor approval deadlines, vendor commissions", "pick": "cut", "why": "Contract-stage detail"}, {"id": "q-timing", "group": "The day", "name": "Day-of timing", "covers": "Bar last call, guest departure, vendor load-in, cleanup deadline, rehearsal access, setup the day before", "pick": "ask", "why": "Changes how long we pay vendors"}, {"id": "q-staff", "group": "The day", "name": "Venue staff on the day", "covers": "On-site manager, who sets up and removes decor, flip crew, after-hours contact", "pick": "ask", "why": "Decides how much our own crew must do"}, {"id": "q-weather", "group": "The day", "name": "Rain and heat backup", "covers": "Backup space and its capacity, who decides and by when, heat and cold, wind, smoke or fire, power loss, closure refund, tent permit", "pick": "ask", "why": "Outdoor venues only; rarely online"}, {"id": "q-food-extras", "group": "The day", "name": "Food extras", "covers": "Kids' and vendor meals, allergies, tasting", "pick": "cut", "why": "Caterer question, not venue"}, {"id": "q-kitchen-ops", "group": "The day", "name": "Kitchen operations", "covers": "Cold storage and ice, water and handwashing, service routes, food waste", "pick": "cut", "why": "Kitchen type is already on the Price tab"}, {"id": "q-comfort", "group": "Guests", "name": "Guest comfort", "covers": "Restroom count and condition, dressing suites, quiet room, nursing room, coat and gift storage", "pick": "find", "why": "Restrooms trigger a cost line; rest is on site pages"}, {"id": "q-access", "group": "Guests", "name": "Accessibility", "covers": "Step-free route, accessible restrooms and seating, stairs and elevators, accessible drop-off, night lighting", "pick": "find", "why": "Often on site pages; can ask later"}, {"id": "q-travel", "group": "Guests", "name": "Getting there", "covers": "Drive time from SF, nearest airport, nearby hotels, parking count, coach and rideshare pickup", "pick": "find", "why": "We can compute this from the address"}, {"id": "q-production", "group": "Visit", "name": "Production details", "covers": "Loading path, delivery vehicles, dock and elevator, storage, phone signal and wifi, rigging, sound limits, sunset sightlines", "pick": "cut", "why": "Site-visit detail"}, {"id": "q-handover", "group": "Visit", "name": "Planning handover", "covers": "Final walkthrough, approved timeline and floor plan, vendor contact sheet", "pick": "cut", "why": "Only after booking"}, {"id": "q-quote-expiry", "group": "Booking", "name": "Quote date and expiry", "covers": "When the quoted prices were set and how long they hold", "pick": "ask", "why": "Keeps the Price tab honest"}], "hdr": {"name": "Eagle Vines Vineyard & Golf Club", "city": "American Canyon · Napa County", "site": "https://www.eaglevinesgolfclub.com/", "reviews": [{"src": "Google", "rating": 4.2, "count": 464}], "review_note": "Google covers the whole golf club; The Knot, WeddingWire: not collected yet"}, "detail": {"q-basics": "580 S Kelly Rd, American Canyon, CA 94503 · weddings allowed (venue reply)", "q-spaces": "Clubhouse / Restaurant (up to 125) and Grand Pavilion tent (up to 250, about 4,000 sq ft)", "q-reviews": "Google 4.2 from 464 reviews (Nov 19, 2026)"}, "dfinal": {"source": "Medi + Rinad form, 2026-11-19", "rows": [{"id": "addr", "stage": "find", "label": "Address and county", "from": "q-basics", "note": null}, {"id": "owner", "stage": "find", "label": "Owner or operator", "from": "q-basics", "note": null}, {"id": "open", "stage": "find", "label": "Open or closed", "from": "q-basics", "note": null}, {"id": "spaces", "stage": "find", "label": "Spaces", "from": "q-spaces", "note": null}, {"id": "inout", "stage": "find", "label": "Indoor, outdoor or both (ceremony and reception)", "from": "q-weather", "note": "Note: find out if spaces are outdoor only, indoor only, or both"}, {"id": "photos", "stage": "find", "label": "Photos", "from": "q-style", "note": "Note: use the photo database already built"}, {"id": "style", "stage": "find", "label": "Style", "from": "q-style", "note": null}, {"id": "history", "stage": "find", "label": "Building and business history", "from": "q-history", "note": "Note: public records"}, {"id": "travel", "stage": "find", "label": "Distance from SF and nearest airport", "from": "q-travel", "note": null}, {"id": "stay", "stage": "find", "label": "Hotels nearby and parking", "from": "q-travel", "note": null}, {"id": "seated", "stage": "first", "label": "Seated dinner with a dance floor: how many", "from": "q-capacity", "note": "Note: only seated and dance floor capacity"}, {"id": "ceremony", "stage": "first", "label": "Ceremony and reception: same space (flip fee?) or separate ceremony space", "from": "q-spaces", "note": "Note on Spaces"}, {"id": "dates", "stage": "first", "label": "Open dates", "from": "q-availability", "note": "Note: cut how far ahead they book"}, {"id": "kids", "stage": "first", "label": "Children's meal price", "from": "q-food-extras", "note": "Note: ask the price for children"}, {"id": "kitchen", "stage": "first", "label": "Kitchen our caterer can use", "from": "q-kitchen-ops", "note": "Note: only if the venue does not do catering"}, {"id": "music", "stage": "first", "label": "Music until midnight (move indoors?)", "from": "standing rule", "note": "Asked of every venue"}, {"id": "private", "stage": "last", "label": "Private use (other events, private areas)", "from": "q-privacy", "note": "Note: last email only"}, {"id": "decor", "stage": "last", "label": "Decor rules", "from": "q-decor", "note": "Note: last email only"}, {"id": "weather", "stage": "last", "label": "Rain and heat backup", "from": "q-weather", "note": "Note: outdoor spaces only; rain and heat only"}], "cut": ["q-culture (cultural fit)", "q-alcohol-rules", "q-vendors", "q-timing", "q-staff", "q-comfort", "q-access", "q-production", "q-handover", "q-quote-expiry", "q-reviews (shown in the header instead)"]}, "dval": {"addr": {"v": "580 S Kelly Rd, American Canyon, CA 94503 · Napa County", "src": "google", "na": false}, "open": {"v": "Open: replied to us in Nov 2026", "src": "venue", "na": false}, "photos": {"v": "4 photos, shown at the top of the page", "src": "ours", "na": false}, "travel": {"v": "About 32 miles from SF City Hall · nearest airport Oakland (OAK), about 35 miles (straight line, not driving)", "src": "calc", "na": false}, "spaces": {"v": "Clubhouse / Restaurant: up to 125, year-round. Grand Pavilion: 4,000 sq ft tent, up to 250, mid-April to October.", "src": "venue", "na": false}, "inout": {"v": "Clubhouse is indoor. Pavilion is a tent (outdoor, covered).", "src": "venue", "na": false}, "style": {"v": "Vineyard golf club with a tent pavilion", "src": "venue", "na": false}, "dates": {"v": "Pavilion only mid-April to October; exact dates not asked yet", "src": "venue", "na": false}, "kids": {"v": "Under 12: $25 (chicken strips, fries, fruit)", "src": "venue", "na": false}, "kitchen": {"v": "Not needed: all food is in-house", "src": "venue", "na": true}}};
+const $=id=>document.getElementById(id);
+const S={g:300,h:6,alc:'full',day:'sat',cer:1,cake:1,pick:null};
+const money=n=>'$'+Math.round(n).toLocaleString('en-US');
+const clock=x=>{x=((x%24)+24)%24;if(x===0)return 'midnight';if(x===12)return 'noon';const hh=Math.floor(x),mm=Math.round((x-hh)*60);return ((hh%12)||12)+(mm?':'+String(mm).padStart(2,'0'):'')+(hh<12?' am':' pm');};
+function seg(id,key){$(id).querySelectorAll('button').forEach(b=>b.onclick=()=>{$(id).querySelectorAll('button').forEach(x=>x.classList.remove('on'));b.classList.add('on');S[key]=isNaN(+b.dataset.v)?b.dataset.v:+b.dataset.v;draw();});}
+seg('alc','alc');seg('day','day');seg('cer','cer');seg('cake','cake');
+$('g').oninput=e=>{S.g=+e.target.value;S.pick=null;draw()};$('h').oninput=e=>{S.h=+e.target.value;draw()};
+const CH={inc:['inc','Included'],venue:['venue','Venue price'],own:['own','Your price'],req:['req','Required'],unk:['unk','Unknown'],na:['na','Not needed'],apart:['apart','Paid early'],flag:['flagc','Label']};
+const START=D.start||18;
+// one line for one space option
+function line(l,o){
+  const g=S.g,end=START+S.h; let f=D.facts[l.id]; if(f&&f.byopt) f=f.byopt[o.id]||f.other||null;
+  if(['ceremony_fee','flip_fee'].includes(l.id)&&!S.cer) return {st:'na',why:'Ceremony switch is off'};
+  if(['wedding_cake','cake_cutting'].includes(l.id)&&!S.cake) return {st:'na',why:'Cake switch is off'};
+  if(['bartenders','bar_alcohol','corkage','liquor_liability'].includes(l.id)&&S.alc==='none') return {st:'na',why:'Alcohol set to none'};
+  if(l.id==='venue_rent'){const r=o.rent[S.day];return {st:'venue',why:o.name+', '+{sat:'Saturday',fs:'Fri / Sun',mt:'Mon–Thu'}[S.day]+' rate',q:o.rent_q,amt:r};}
+  if(l.id==='overtime'){
+    if(!o.block) return {st:'unk',why:'Not stated by venue'};
+    if(S.h<=o.block) return {st:'na',why:'Fits the venue\'s '+o.block+'-hour block',q:o.ot_q};
+    const halves=(S.h-o.block)*2; return {st:'venue',why:(S.h-o.block)+' hour(s) past the '+o.block+'-hour block = '+halves+' × '+money(o.ot_half)+' per half hour'+(o.ot_note?'. '+o.ot_note:''),q:o.ot_q,amt:halves*o.ot_half};
+  }
+  if(!f) return {st:'unk',why:'Not stated by venue'};
+  switch(f.t){
+    case 'inc': return {st:'inc',why:f.note||'Included',q:f.q,amt:0};
+    case 'pp': return {st:f.st||'venue',why:f.note+'. '+money(f.rate)+' × '+g+' guests',q:f.q,amt:f.rate*g,svc:f.svc,tax:f.tax};
+    case 'bar': {const r=f.rates[S.alc];let a=r*g,why=f.names[S.alc]+': '+money(r)+' × '+g+' guests for '+f.hours+' hours',miss=0;
+      if(S.h>f.hours){const x=f.extra[S.alc];if(x){a+=x*g*(S.h-f.hours);why+=' + '+(S.h-f.hours)+' extra hour(s) at $'+x.toFixed(2)+' per guest per hour';}else{why+='. Extra '+(S.h-f.hours)+' hour(s): price not listed, ask';miss=1;}}
+      if(f.min&&g<f.min) why+='. Needs at least '+f.min+' guests';
+      return {st:'venue',why,q:f.q,amt:a,svc:1,tax:1,miss};}
+    case 'pct': return {st:'venue',pct:f.pct,on:f.on,why:f.note,q:f.q};
+    case 'min': return {st:'venue',min:f,q:f.q};
+    case 'apart': return {st:'apart',why:f.note,q:f.q,amt:f.amt,apart:1};
+    case 'flag': return {st:'flag',why:f.note,q:f.q};
+    case 'req': return {st:'req',why:f.note+'. Price unknown: ask or add to your price sheet',q:f.q,amt:null,miss:1};
+    case 'na': return {st:'na',why:f.note,q:f.q};
+  }
+  return {st:'unk',why:'Not stated'};
+}
+function cost(o){
+  const rows=D.lines.map(l=>({l,x:line(l,o)}));
+  let base=0,svcBase=0,taxBase=0;
+  rows.forEach(({x})=>{if(x.amt&&!x.apart){base+=x.amt;if(x.svc)svcBase+=x.amt;if(x.tax)taxBase+=x.amt;}});
+  rows.forEach(({x})=>{
+    if(x.pct!==undefined){const b=x.on==='svc'?svcBase:taxBase;x.amt=b*x.pct/100;x.why=x.why+': '+x.pct+'% of '+money(b);}
+  });
+  // service charge is taxed? not stated -> tax on packages only
+  rows.forEach(({x})=>{if(x.min){const f=x.min,fb=svcBase,dayOk=f.days.includes(S.day);
+    if(!dayOk){x.st='na';x.why='Minimum applies '+f.days_text+' only';x.amt=0;}
+    else if(fb>=f.hi){x.amt=0;x.why='Your food + drink bill '+money(fb)+' is above the '+money(f.lo)+'–'+money(f.hi)+' minimum, so $0 extra';}
+    else {x.amt=Math.max(0,f.hi-fb);x.why='Food + drink '+money(fb)+' is under the top of the '+money(f.lo)+'–'+money(f.hi)+' minimum: up to '+money(x.amt)+' extra';}}});
+  let tot=0,unk=0,rq=[],dep=null;
+  rows.forEach(({l,x})=>{if(x.st==='unk')unk++;if(x.miss)rq.push(l.name);if(x.amt&&!x.apart)tot+=x.amt;if(x.apart)dep=x;});
+  return {rows,tot,unk,rq,dep};
+}
+function priceAt(g,h){const og=S.g,oh=S.h;S.g=g;S.h=h;
+  const R=D.options.filter(o=>g<=o.max).map(o=>({o,c:cost(o)})).sort((a,b)=>a.c.tot-b.c.tot);
+  let r=R.find(x=>x.o.id===S.pick)||R[0];S.g=og;S.h=oh;return r?{pp:r.c.tot/g,sp:r.o.name}:null;}
+function strip(id,el,key,fmt){const sl=$(el),mn=+sl.min,mx=+sl.max,st=+sl.step,vals=[];for(let v=mn;v<=mx+1e-9;v+=st)vals.push(+v.toFixed(2));
+  const P=vals.map(v=>key==='g'?priceAt(v,S.h):priceAt(S.g,v)),ok=P.filter(Boolean).map(p=>p.pp),hi=Math.max(...ok),lo=Math.min(...ok);
+  $(id+'s').innerHTML=vals.map((v,i)=>{const p=P[i];return '<i data-v="'+v+'" class="'+(p?'':'x')+(v===S[key]?' on':'')+'" style="height:'+(p?(hi===lo?50:15+85*(p.pp-lo)/(hi-lo)):100)+'%" title="'+fmt(v)+': '+(p?money(p.pp)+' per guest, '+p.sp:'no space fits')+'"></i>';}).join('');
+  $(id+'s').querySelectorAll('i').forEach(b=>b.onclick=()=>{S[key]=+b.dataset.v;sl.value=S[key];if(key==='g')S.pick=null;draw();});
+  const a=P[0],z=P[P.length-1];$(id+'x').innerHTML='<span>'+fmt(vals[0])+(a?' · '+money(a.pp):'')+'</span><span>'+(lo===hi?'same price at every '+(key==='g'?'size':'length'):'')+'</span><span>'+fmt(vals[vals.length-1])+(z?' · '+money(z.pp):'')+'</span>';}
+function draw(){
+  $('gv').textContent=S.g;$('gl').textContent=D.lockG;$('gl').className='lock'+(S.g>=+$('g').max?' on':'');$('hl').textContent=D.lockH;$('hl').className='lock'+(D.lockH.startsWith('🔒')&&S.h>=+$('h').max?' on':'');$('hv').textContent=S.h+' h · ends '+clock(START+S.h);
+  strip('g','g','g',v=>v+' guests');strip('h','h','h',v=>v+' h');
+  const R=D.options.map(o=>({o,fits:S.g<=o.max,c:cost(o)}));
+  const fit=R.filter(r=>r.fits).sort((a,b)=>a.c.tot-b.c.tot);
+  const auto=fit[0]?fit[0].o.id:null;
+  let cur=R.find(r=>r.o.id===(S.pick||auto));
+  if(cur&&!cur.fits){S.pick=null;cur=R.find(r=>r.o.id===auto);}
+  // option cards
+  $('opts').innerHTML=R.map(r=>{const o=r.o,end=START+S.h;let tags='';
+    if(!r.fits) tags+='<span class="tag red">Too small: max '+o.max+'</span>';
+    else tags+='<span class="tag">Fits '+o.max+'</span>';
+    if(r.fits&&r.o.id===auto) tags+='<span class="tag">Cheapest that fits</span>';
+    tags+= o.end!=null?'<span class="tag '+(o.end_max!=null&&end>o.end_max?'red':'grey')+'">Rent covers to '+clock(o.end)+(o.end_max!=null&&o.end_max>o.end?' (paid to '+clock(o.end_max)+')':o.end_max==null?' · latest end: ask':'')+'</span>':'<span class="tag grey">End time: ask</span>';
+    tags+= o.music!=null?'<span class="tag '+(end>o.music?'yel':'grey')+'">Music stops '+clock(o.music)+(end>o.music?': last '+(end-o.music)+' h quiet':'')+'</span>':'<span class="tag grey">Music cutoff: ask</span>';
+    if(o.season) tags+='<span class="tag grey">'+o.season+'</span>';
+    return '<div class="opt'+(cur&&cur.o.id===o.id?' on':'')+(r.fits?'':' off')+'" data-id="'+o.id+'"><span class="dot"></span><span class="nm">'+o.name+'</span><span class="pp">'+(r.fits?money(r.c.tot/S.g)+'<span class="small" style="font-size:14px;font-weight:400"> /guest</span>':'—')+'</span><div class="meta">'+tags+'</div></div>';}).join('');
+  $('opts').querySelectorAll('.opt').forEach(el=>el.onclick=()=>{const r=R.find(r=>r.o.id===el.dataset.id);if(r.fits){S.pick=el.dataset.id;draw();}});
+  const t=$('t'); t.querySelectorAll('tr:not(:first-child)').forEach(r=>r.remove());
+  let f='';
+  if(!cur){f+='<div class="flag red">No space here fits '+S.g+' guests (largest holds '+Math.max(...D.options.map(o=>o.max))+'). This venue would be HIDDEN from the list at this size. Move the guest slider down to see it.</div>';
+    $('flags').innerHTML=f;['pp','tot','unk','rq','rql','dep','depl'].forEach(i=>$(i).textContent='—');return;}
+  const c=cur.c,o=cur.o,end=START+S.h;
+  if(o.end_max!=null&&end>o.end_max) f+='<div class="flag red">'+o.name+' must end by '+clock(o.end_max)+': a '+S.h+'-hour event from '+clock(START)+' is not possible here.</div>';
+  if(o.music!=null&&end>o.music) f+='<div class="flag">Music stops at '+clock(o.music)+' in '+o.name+': the last '+(end-o.music)+' hour(s) have no amplified music.</div>';
+  (D.flags||[]).forEach(x=>f+='<div class="flag">'+x+'</div>');
+  $('flags').innerHTML=f;
+  let grp=null;
+  c.rows.forEach(({l,x})=>{
+    if(l.group!==grp){grp=l.group;const r=t.insertRow();r.className='g';const cc=r.insertCell();cc.colSpan=4;cc.textContent=grp;}
+    const r=t.insertRow(); if(x.st==='na')r.className='dim';
+    r.insertCell().innerHTML='<b>'+l.name+'</b><div class="q">'+l.unit+'</div>';
+    r.insertCell().innerHTML='<span class="chip '+CH[x.st][0]+'">'+CH[x.st][1]+'</span>';
+    r.insertCell().innerHTML=(x.why||'')+(x.q?'<div class="q">“'+x.q+'”</div>':'');
+    const a=r.insertCell();a.className='amt';a.textContent=x.amt!=null&&x.amt!==undefined?money(x.amt):(x.st==='na'?'$0':'—');
+  });
+  $('pp').textContent=money(c.tot/S.g); $('tot').textContent=money(c.tot)+' total for '+S.g+' guests in '+o.name;
+  $('unk').textContent=c.unk; $('rq').textContent=c.rq.length; $('rql').textContent=c.rq.join(', ')||'none';
+  if(c.dep){$('dep').textContent=money(c.dep.amt);$('depl').textContent=c.dep.why;}else{$('dep').textContent='—';$('depl').textContent='not stated';}
+}
+{const big=D.options.reduce((a,o)=>o.max>a.max?o:a);$('g').max=big.max;S.g=Math.min(D.start_g||300,big.max);$('g').value=S.g;
+ D.lockG='🔒 Max '+big.max+': size of '+big.name.replace(/ \(.*\)/,'');
+ const ends=D.options.map(o=>o.end_max);
+ if(ends.every(e=>e!=null)){const e=Math.max(...ends);$('h').max=e-START;D.lockH='🔒 Ends by '+clock(e)+': venue rule';}
+ else {$('h').max=24-START;D.lockH='Stops at midnight: latest end not stated, ask';}
+ const blk=D.options.map(o=>o.block).filter(b=>b!=null);
+ if(blk.length){D.min_h=Math.max(...blk);D.lockH=D.min_h+' h in rent'+(D.lockH.startsWith('🔒')?' · '+D.lockH:' · midnight max, latest end: ask');}
+ const priced=D.options.some(o=>o.ot_half)||D.lines.some(l=>{const f=D.facts[l.id];return f&&f.extra&&Object.values(f.extra).some(v=>v);});
+ if(!priced)D.hours_fixed=D.hours_fixed||('Flat fee'+(blk.length?' for '+Math.max(...blk)+' hours':'')+'. No extra-hour price listed: ask.');
+ if(D.min_h){$('h').min=D.min_h;S.h=Math.max(S.h,D.min_h);$('h').value=S.h;}}
+
+if(D.photos&&D.photos.length>1){$('pics').innerHTML=D.photos.slice(1).map(u=>'<a href="'+D.photos[0]+'" target="_blank"><img loading="lazy" src="'+u+'" alt="" onerror="this.parentNode.remove()"></a>').join('')+'';$('picsrc').innerHTML='Photos link to the venue’s own site: <a href="'+D.photos[0]+'" target="_blank">'+D.photos[0].replace(/^https?:\/\/(www\.)?/,'').replace(/\/$/,'')+'</a>';}
+function fixHours(t){['h','hs','hx','hl'].forEach(i=>$(i).style.display='none');$('hfix').style.display='block';$('hfix').innerHTML=t;}
+if(D.hours_fixed)fixHours(D.hours_fixed);
+function header(){const h=D.hdr;$('nm').textContent=h.name;let r='';
+  const rv=(h.reviews||[]).filter(x=>x.rating!=null&&x.count);
+  if(rv.length){const n=rv.reduce((a,x)=>a+x.count,0),avg=rv.reduce((a,x)=>a+x.rating*x.count,0)/n;
+    r='<span class="stars">★ '+avg.toFixed(1)+'</span> <span>('+n.toLocaleString()+' reviews)</span> <span class="rsrc">'+rv.map(x=>x.src+' '+x.rating+' ('+x.count+')').join(' · ')+(h.review_note?' · '+h.review_note:'')+'</span>';}
+  else r='<span class="rsrc">Reviews: not collected yet</span>';
+  $('hdr').innerHTML='<span>'+h.city+'</span>'+(h.site?'<a href="'+h.site+'" target="_blank">'+h.site.replace(/^https?:\/\/(www\.)?/,'').replace(/\/$/,'')+'</a>':'<span class="rsrc">No website on record</span>')+r;}
+function detail(){const F=D.dfinal,V=D.dval||{},S={find:'We find it',first:'Ask in the first email',last:'Ask only in the last email'};
+  const SRC={venue:'Venue said',google:'Google',ours:'Our data',calc:'Worked out'};
+  const rows=F.rows,filled=rows.filter(r=>V[r.id]).length,ask1=rows.filter(r=>r.stage==='first'&&!V[r.id]).length;
+  let h='<div class="dsum"><b>'+filled+' of '+rows.length+'</b> filled · first email would ask <b>'+ask1+'</b> · last email <b>'+rows.filter(r=>r.stage==='last'&&!V[r.id]).length+'</b></div>';
+  ['find','first','last'].forEach(st=>{h+='<h3 class="dh">'+S[st]+'</h3><div class="dl">';
+    rows.filter(r=>r.stage===st).forEach(r=>{const v=V[r.id];
+      h+='<div class="dr'+(v?'':' miss')+'"><div class="dk">'+r.label+(r.note?'<span class="dn">'+r.note+'</span>':'')+'</div>'+
+        '<div class="dv">'+(v?(v.na?'<span class="chip unk">'+v.v+'</span>':v.v+' <span class="chip src">'+(SRC[v.src]||v.src)+'</span>'):'<span class="dash">—</span>')+'</div></div>';});
+    h+='</div>';});
+  h+='<p class="small">Cut on the form: '+F.cut.join(', ')+'. From your form answers, '+F.source.replace('Medi + Rinad form, ','')+'.</p>';
+  $('tab-detail').innerHTML=h;}
+function tab(w){['price','detail'].forEach(x=>{$('tab-'+x).hidden=x!==w;document.querySelector('.tabs [data-t='+x+']').classList.toggle('on',x===w);});}
+document.querySelectorAll('.tabs button').forEach(b=>b.onclick=()=>tab(b.dataset.t));
+header();detail();
+draw();
+</script></body></html>
