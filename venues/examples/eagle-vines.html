@@ -51,8 +51,8 @@ th{background:#2d3142;color:#fff;font-weight:600}
 tr.g td{background:#e9e4dc;font-weight:700}
 td.amt{text-align:right;white-space:nowrap;font-weight:600}
 .chip{display:inline-block;font-size:14px;font-weight:600;border-radius:4px;padding:.1rem .45rem;white-space:nowrap}
-.inc{background:#2a3040;color:#e9ecf2}.venue{background:#2a3040;color:#e9ecf2}.own{background:#2a3040;color:#e9ecf2}
-.req{background:#4a2420;color:#ffb4a8}.unk{background:#2a3040;color:#8b93a3}.na{background:#1f2430;color:#6b7280}.apart{background:#2a3040;color:#e9ecf2}.flagc{background:#2a3040;color:#e9ecf2}
+.inc{background:#eef0f3;color:#2d3142}.venue{background:#eef0f3;color:#2d3142}.own{background:#eef0f3;color:#2d3142}
+.req{background:#fde8e4;color:#bf4520}.unk{background:#f3f4f6;color:#8a929e}.na{background:#f6f6f6;color:#a0a6ae}.apart{background:#eef0f3;color:#2d3142}.flagc{background:#eef0f3;color:#2d3142}
 .q{font-size:14px;color:#4f5d75;margin-top:.2rem}
 tr.dim td{color:#aaa}
 @media(max-width:900px){.controls{grid-template-columns:1fr 1fr}.total{grid-template-columns:1fr 1fr}}
@@ -84,20 +84,20 @@ tr.dim td{color:#aaa}
 #gn{width:5.5rem;font:inherit;font-weight:700;padding:.05rem .3rem;border:1px solid #1f5fbf;border-radius:6px;color:#1f5fbf;text-align:right}
 input[type=range]{accent-color:#1f5fbf}.pk select{color:#1f5fbf}.step b{color:#1f5fbf}
 .calc{color:#1f5fbf}
-.ct{border-collapse:collapse;width:100%;background:#10131a;color:#e9ecf2;border-radius:10px;overflow:hidden}
-.ct td,.ct th{border-bottom:1px solid #262c3a;padding:.5rem .6rem;text-align:left;vertical-align:top}
-.ct th{background:#1b2030;color:#e9ecf2;font-weight:600}.ct th.pk{color:#7fb2ff}
+.ct{border-collapse:collapse;width:100%;background:#fff;color:#111;border:1px solid #ccc;border-radius:10px;overflow:hidden}
+.ct td,.ct th{border-bottom:1px solid #e2e2e2;padding:.5rem .6rem;text-align:left;vertical-align:top}
+.ct th{background:#2d3142;color:#fff;font-weight:600}.ct th.pk{color:#9cc3ff}
 .ct td.n,.ct th.n{text-align:right;white-space:nowrap}.ct td.n{font-weight:600}
-.ct td.pick{background:#14203a}.ct .q{color:#9aa3b5}.ct a{color:#7fb2ff}.ct tr.dim td{color:#6b7280}
-.ct tr.g td{background:#1b2030;color:#e9ecf2;font-weight:700}.ct tr.tot td{border-top:2px solid #e9ecf2;font-weight:700;background:#161a24}
-.ct .var{color:#c9a2ff}.ct .cred{color:#ffbf4d}.ct .dash{color:#6b7280}.ct .out{color:#9aa3b5}
+.ct td.pick{background:#eef4fd}.ct .q{color:#4f5d75}.ct a{color:#1f5fbf}.ct tr.dim td{color:#a0a6ae}
+.ct tr.g td{background:#e9e4dc;color:#111;font-weight:700}.ct tr.tot td{font-weight:700;background:#fafafa;font-size:18px}.ct tr.tot+tr.tot td{border-bottom:2px solid #2d3142}
+.ct .var{color:#7b3fc4}.ct .cred{color:#b85c00}.ct .dash{color:#9aa0a6}.ct .out{color:#6b7280}
 .var{color:#7b3fc4}.cred{color:#b85c00}
-#sum tr.cat{cursor:pointer}#sum tr.cat td:first-child{font-weight:700}#sum .tog{display:inline-block;width:1.1rem;color:#7fb2ff}
-#sum tr.sub td{background:#151925;font-size:15px}#sum tr.sub td:first-child{padding-left:1.8rem;font-weight:400}
-.legend{display:flex;flex-wrap:wrap;gap:.4rem 1rem;align-items:center;background:#10131a;color:#e9ecf2;border-radius:10px;padding:.55rem .9rem;margin:.5rem 0 1.2rem;font-size:15px}
+#sum tr.cat{cursor:pointer}#sum tr.cat td:first-child{padding-left:1.4rem}#sum tr.sub td:first-child{padding-left:2.8rem!important}#sum tr.cat td:first-child{font-weight:700}#sum .tog{display:inline-block;width:1.1rem;color:#1f5fbf}#sum tr.acc td{cursor:pointer;font-weight:700;background:#f3f6fb;color:#1f5fbf}
+#sum tr.sub td{background:#fbfbfc;font-size:15px}#sum tr.sub td:first-child{padding-left:1.8rem;font-weight:400}
+.legend{display:flex;flex-wrap:wrap;gap:.4rem 1rem;align-items:center;background:#fff;border:1px solid #ccc;color:#111;border-radius:10px;padding:.55rem .9rem;margin:.5rem 0 1.2rem;font-size:15px}
 .legend b{font-weight:700}
 
-sup a{color:#7fb2ff;text-decoration:none;font-weight:700}
+sup a{color:#1f5fbf;text-decoration:none;font-weight:700}
 .notes,.srcs{background:#fff;border:1px solid #ccc;border-radius:8px;padding:.7rem 1.1rem;margin-top:1rem}.notes li,.srcs li{margin:.25rem 0}
 .flag.dis{background:#fdf0e3;border-color:#b85c00}
 .facts{margin-top:1rem}.facts button{font:inherit;font-weight:600;padding:.45rem 1rem;border:2px solid #2d3142;border-radius:8px;background:#fff;cursor:pointer}
@@ -113,9 +113,9 @@ sup a{color:#7fb2ff;text-decoration:none;font-weight:700}
 <div class="pics" id="pics"></div><p class="small" id="picsrc" style="margin:-.6rem 0 1rem;font-size:15px"></p>
 <div class="tabs"><button data-t="price" class="on">Price</button><button data-t="detail">Detail</button></div>
 <div id="tab-price">
-<h2>Cost summary <span class="small" style="font-weight:400;font-size:16px">· tap a category to see its lines</span></h2>
+<h2>Cost summary <span class="small" style="font-weight:400;font-size:16px">· open "Cost by category", then any category</span></h2>
 <div style="overflow-x:auto;-webkit-overflow-scrolling:touch"><table class="ct" id="sum"></table></div>
-<div class="legend"><span><b>White</b> = fixed cost</span><span class="var" style="color:#c9a2ff"><b>Purple</b> = changes with guests or hours</span><span style="color:#7fb2ff"><b>Blue</b> = what you pick or type</span><span style="color:#ffbf4d"><b>Orange</b> = credit</span><span style="color:#8b93a3"><b>—</b> = unknown</span><span style="color:#8b93a3">"+" = some costs still unknown</span></div>
+<div class="legend"><span><b>Black</b> = fixed cost</span><span style="color:#7b3fc4"><b>Purple</b> = changes with guests or hours</span><span style="color:#1f5fbf"><b>Blue</b> = what you pick or type</span><span style="color:#b85c00"><b>Orange</b> = credit</span><span style="color:#8a929e"><b>—</b> = unknown</span><span style="color:#4f5d75">"+" = some costs still unknown</span></div>
 <div class="controls">
   <div><label>Adults <input id="gn" type="number" min="1" step="1" title="Type any number"></label><input id="g" type="range" min="50" max="600" step="10" value="300"><div class="strip" id="gs"></div><div class="sx" id="gx"></div><div class="lock" id="gl"></div></div>
   <div id="kidbox" style="display:none"><label>Children under 12 <span id="kv"></span></label><input id="k" type="range" min="0" max="100" step="5" value="0"><div class="lock" id="kl"></div></div>
@@ -391,7 +391,11 @@ function summary(c,LO,HI,VAR){const T0=$('sum');const cnt=x=>!x.out&&!x.apart&&!
   const fmt=(sum,unk,v,cls)=>sum==null?'<span class="dash">—</span>':'<span class="'+(cls||(v?'var':''))+'">'+money(sum)+(unk?'+':'')+'</span>';
   const col=(L,src)=>{let s=0,k=0,u=0,v=0;L.forEach(({l,x})=>{const y=src?src.m[l.id]:x;if(!y||!cnt(y))return;if(y.amt==null){u++;return;}k++;s+=y.amt;if(VAR(l,x))v=1;});return {s:k?s:null,u,v};};
   let h='<tr><th>Category</th><th class="n">Lowest</th><th class="n">Highest</th><th class="n pk">Your pick</th><th class="n">Credit</th><th class="n">Outside scope</th></tr>';
-  grouped(c.rows).forEach(([g,L],i)=>{const a=col(L,LO),b=col(L,HI),p=col(L,null),add=g.startsWith('Add-ons');
+  const tz=z=>'<span class="var">'+money(z.tot)+(z.unk||z.rq.length?'+':'')+'</span>',pz=z=>money(z.tot/T())+(z.unk||z.rq.length?'+':'');
+  h+='<tr class="tot"><td>Total<div class="q">'+c.known+' of '+c.all+' costs known</div></td><td class="n">'+tz(LO.c)+'</td><td class="n">'+tz(HI.c)+'</td><td class="n pick">'+tz(c)+'</td><td class="n">'+(c.cred?'<span class="cred">'+money(c.cred)+'</span>':'<span class="dash">—</span>')+'</td><td></td></tr>';
+  h+='<tr class="tot"><td>Per guest<div class="q">'+T()+' guests</div></td><td class="n"><span class="var">'+pz(LO.c)+'</span></td><td class="n"><span class="var">'+pz(HI.c)+'</span></td><td class="n pick"><span class="var">'+pz(c)+'</span></td><td></td><td></td></tr>';
+  const GR=grouped(c.rows);h+='<tr class="acc" id="accrow"><td colspan="6"><span class="tog">'+(S.openCat?'▼':'▶')+'</span>Cost by category ('+GR.length+' categories)</td></tr>';
+  if(S.openCat)GR.forEach(([g,L],i)=>{const a=col(L,LO),b=col(L,HI),p=col(L,null),add=g.startsWith('Add-ons');
     const all=L.filter(r=>cnt(r.x)).length,known=L.filter(r=>cnt(r.x)&&r.x.amt!=null).length;
     const cr=L.reduce((z,r)=>z+(r.x.credit||0),0),ou=L.filter(r=>r.x.out),os=ou.reduce((z,r)=>z+(r.x.amt||0),0);
     const op=!!S.open[g];
@@ -401,10 +405,7 @@ function summary(c,LO,HI,VAR){const T0=$('sum');const cnt=x=>!x.out&&!x.apart&&!
     if(op)L.forEach(({l,x})=>{const v=VAR(l,x),f1=y=>!y||y.out||!cnt(y)&&y.st!=='na'&&!y.apart?'<span class="dash">—</span>':y.amt==null?(y.st==='na'?'$0':'<span class="dash">—</span>'):'<span class="'+(v?'var':'')+'">'+money(y.amt)+'</span>';
       h+='<tr class="sub'+(x.st==='na'?' dim':'')+'"><td>'+l.name+' <span class="chip '+CH[x.st][0]+'">'+CH[x.st][1]+'</span></td><td class="n">'+(add?'':f1(LO.m[l.id]))+'</td><td class="n">'+(add?'':f1(HI.m[l.id]))+'</td><td class="n pick">'+f1(x)+'</td>'+
         '<td class="n">'+(x.credit?'<span class="cred">'+money(x.credit)+'</span>':'')+'</td><td class="n out">'+(x.out?(x.amt!=null?money(x.amt):CH[x.st][1]):'')+'</td></tr>';});});
-  const tz=z=>money(z.tot)+(z.unk||z.rq.length?'+':''),pz=z=>money(z.tot/T())+(z.unk||z.rq.length?'+':'');
-  h+='<tr class="tot"><td>Total<div class="q">'+c.known+' of '+c.all+' costs known</div></td><td class="n">'+tz(LO.c)+'</td><td class="n">'+tz(HI.c)+'</td><td class="n pick">'+tz(c)+'</td><td class="n">'+(c.cred?'<span class="cred">'+money(c.cred)+'</span>':'<span class="dash">—</span>')+'</td><td></td></tr>';
-  h+='<tr class="tot"><td>Per guest<div class="q">'+T()+' guests</div></td><td class="n"><span class="var">'+pz(LO.c)+'</span></td><td class="n"><span class="var">'+pz(HI.c)+'</span></td><td class="n pick"><span class="var">'+pz(c)+'</span></td><td></td><td></td></tr>';
-  T0.innerHTML=h;T0.querySelectorAll('tr.cat').forEach(r=>r.onclick=()=>{S.open[r.dataset.g]=!S.open[r.dataset.g];draw();});}
+  T0.innerHTML=h;$('accrow').onclick=()=>{S.openCat=!S.openCat;draw();};T0.querySelectorAll('tr.cat').forEach(r=>r.onclick=()=>{S.open[r.dataset.g]=!S.open[r.dataset.g];draw();});}
 function extras(){
   $('notes').innerHTML=(D.notes||[]).length?'<div class="notes"><b>Notes</b><ul>'+D.notes.map(n=>'<li>'+n.t+(n.src?sup(n.src):'')+'</li>').join('')+'</ul></div>':'';
   $('srcs').innerHTML=(D.sources||[]).length?'<div class="srcs"><b>Sources</b><ol>'+D.sources.map((s,i)=>'<li id="src-'+(i+1)+'">'+(s.url?'<a href="'+s.url+'" target="_blank">'+s.name+'</a>':s.name)+(s.note?' <span class="fs">· '+s.note+'</span>':'')+'</li>').join('')+'</ol></div>':'';
