@@ -339,4 +339,4 @@ draw();
 
 // citation links: scroll to the source without touching the page address (the #v= venue id must stay)
 document.addEventListener('click',e=>{const a=e.target.closest&&e.target.closest('a[href^="#"]');if(!a)return;const id=a.getAttribute('href').slice(1);if(/^(v|id)=/.test(id))return;
-  e.preventDefault();const t=document.getElementById(id);if(!t)return;t.scrollIntoView({behavior:'smooth',block:'center'});t.classList.remove('flash');void t.offsetWidth;t.classList.add('flash');});
+  e.preventDefault();const t=document.getElementById(id);if(!t)return;t.scrollIntoView({block:'center'});t.classList.remove('flash');void t.offsetWidth;t.classList.add('flash');});

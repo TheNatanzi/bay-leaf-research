@@ -150,7 +150,7 @@ sup a{color:#1f5fbf;text-decoration:none;font-weight:700}
 (async function(){const q=new URLSearchParams(location.search),h=/[#&](?:v|id)=([^&]+)/.exec(location.hash);let pid=decodeURIComponent((h&&h[1])||q.get('v')||q.get('id')||'');
  const msg=t=>{document.getElementById('nm').textContent=t;};
  if(!pid){msg('Pick a venue on the venue list first.');return;}
- try{const C=await fetch('common.json').then(r=>r.json());if(C.moved&&C.moved[pid])pid=C.moved[pid];
+ try{const C=await fetch('common.json',{cache:'no-cache'}).then(r=>r.json());if(C.moved&&C.moved[pid])pid=C.moved[pid];
   const V=await fetch('d/'+pid.slice(-2)+'.json').then(r=>r.json());const v=V[pid];if(!v){msg('Venue not found: '+pid);return;}
   const L=C.lines.slice();(v.lines_add||[]).forEach(a=>{const i=L.findIndex(x=>x.id===a.after);L.splice(i+1,0,a.l);});window.__D=Object.assign({dfinal:C.dfinal,PS:C.PS},v,{lines:L});
   try{const F=await fetch(C.facts_path+pid.slice(-2)+'.json').then(r=>r.json());window.__D.allfacts=(F[pid]||{}).f||{};}catch(e){}
