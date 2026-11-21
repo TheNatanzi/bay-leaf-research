@@ -336,3 +336,7 @@ document.querySelectorAll('.tabs button').forEach(b=>b.onclick=()=>tab(b.dataset
 header();detail();extras();if(D.test_case)$('testcase').textContent=' · test: '+D.test_case;
 if(!(D.barpkgs||{})[S.alc])S.alc=D.no_alcohol?'none':(D.barpkgs&&Object.keys(D.barpkgs).length?Object.keys(D.barpkgs).sort((a,b)=>a==='full'?-1:1)[0]:(D.byo&&D.byo.allowed&&D.byo.default!==false?'byo':'venue'));
 draw();
+
+// citation links: scroll to the source without touching the page address (the #v= venue id must stay)
+document.addEventListener('click',e=>{const a=e.target.closest&&e.target.closest('a[href^="#"]');if(!a)return;const id=a.getAttribute('href').slice(1);if(/^(v|id)=/.test(id))return;
+  e.preventDefault();const t=document.getElementById(id);if(!t)return;t.scrollIntoView({behavior:'smooth',block:'center'});t.classList.remove('flash');void t.offsetWidth;t.classList.add('flash');});

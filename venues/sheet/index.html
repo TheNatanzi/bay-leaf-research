@@ -105,6 +105,7 @@ sup a{color:#1f5fbf;text-decoration:none;font-weight:700}
 .facts h4{margin:.8rem 0 .2rem}.facts .fs{font-size:14px;color:#4f5d75}
 @media(max-width:700px){#t td.why,#t th.why{display:none}#t{min-width:560px}#t td,#t th{padding:.4rem .4rem}}
 #t .qq{display:none}#t.showq .qq{display:block}
+@keyframes fl{0%{background:#fff3b0}100%{background:transparent}}.flash{animation:fl 2s ease-out}
 </style></head><body><div class="f">
 <p class="small">Bay Leaf · Cost per head · venue sheet · updated 2026-11-20<span id="testcase"></span></p>
 <h1 id="nm"></h1>
@@ -155,5 +156,5 @@ sup a{color:#1f5fbf;text-decoration:none;font-weight:700}
   try{const F=await fetch(C.facts_path+pid.slice(-2)+'.json').then(r=>r.json());window.__D.allfacts=(F[pid]||{}).f||{};}catch(e){}
   const s=document.createElement('script');s.src='app.js?b='+C.built;document.body.appendChild(s);}
  catch(e){msg('Could not load this venue ('+e.message+').');}})();
-window.addEventListener('hashchange',()=>location.reload());
+window.addEventListener('hashchange',()=>{if(/[#&](?:v|id)=/.test(location.hash))location.reload();});
 </script></body></html>
