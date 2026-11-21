@@ -164,7 +164,7 @@ const START=D.start||18;
 // one line for one space option
 function line(l,o){const x0=line0(l,o);if(x0&&!x0.src&&x0.st!=='unk'&&D.facts[l.id]){const f=D.facts[l.id];x0.src=(f&&(f.src||(f.byopt&&((f.byopt[o.id]||{}).src))))||D.src_default;}return x0;}
 function line0(l,o){
-  const g=S.g,end=START+S.h; let f=D.facts[l.id]; if(f&&f.byopt) f=f.byopt[o.id]||f.other||null;
+  const g=D.kids?S.g:T(),end=START+S.h; let f=D.facts[l.id]; if(f&&f.byopt) f=f.byopt[o.id]||f.other||null;
   if(['ceremony_fee','flip_fee'].includes(l.id)&&!S.cer) return {st:'na',why:'Ceremony switch is off'};
   if(['wedding_cake','cake_cutting'].includes(l.id)&&!S.cake) return {st:'na',why:'Cake switch is off'};
   if(['bartenders','bar_alcohol','corkage','liquor_liability'].includes(l.id)&&S.alc==='none') return {st:'na',why:'Alcohol set to none'};
@@ -195,7 +195,7 @@ function line0(l,o){
         rate=rateOf(p);nm=p.name+': ';q=p.q;if(rate==null)return {st:'unk',why:p.name+': no price for this day',q};}
       const K=D.kids&&D.kids.line===l.id?D.kids:null;
       if(K&&S.k){ka=S.k*K.rate;kid=' + '+S.k+' children × '+money(K.rate);}
-      return {st:f.st||'venue',why:nm+money(rate)+' × '+n+' adults'+kid+(P?'':'. '+f.note),q,amt:rate*n+ka,svc:f.svc,tax:f.tax};}
+      return {st:f.st||'venue',why:nm+money(rate)+' × '+n+(D.kids?' adults':' guests')+kid+(P?'':'. '+f.note),q,amt:rate*n+ka,svc:f.svc,tax:f.tax};}
     case 'bar': {const BP=(D.barpkgs||{})[S.alc],bp=BP?(BP.find(b=>b.id===S.pkg['bar_'+S.alc])||BP[0]):null;
       if(bp&&bp.cash)return {st:'venue',why:bp.name+'. Set-up fee for 2 bars; drinks are paid by guests',q:bp.q,amt:bp.setup};
       const r=bp?bp.rate:f.rates[S.alc],BH=(bp&&bp.hours)||f.hours;let a=r*g,why=(bp?bp.name:f.names[S.alc])+': '+money(r)+' × '+g+' guests, '+BH+' h'+(bp&&bp.rate_note?' ('+bp.rate_note+')':''),miss=0;
@@ -305,7 +305,7 @@ function renderPk(){let h='';
   $('pk').querySelectorAll('[data-xb]').forEach(e=>e.onclick=()=>{S.xb=Math.max(0,Math.min(barMax().n,xbNow()+ +e.dataset.xb));S.xbHand=1;draw();});
   $('pk').querySelectorAll('[data-n]').forEach(e=>e.onchange=()=>{S.n[e.dataset.n]=Math.max(0,Math.min(S.g,+e.value||0));draw();});}
 function draw(){renderPk();
-  if(document.activeElement!==$('gn'))$('gn').value=S.g;if(D.kids){$('kidbox').style.display='';$('kv').textContent=S.k;$('kl').textContent=money(D.kids.rate)+' each: '+D.kids.menu;}$('gl').textContent=D.lockG+(S.k?' (adults + children)':'');$('gl').className='lock'+(T()>=D.bigmax?' on':'');$('hl').textContent=D.lockH;$('hl').className='lock'+(D.lockH.startsWith('🔒')&&S.h>=+$('h').max?' on':'');$('hv').textContent=S.h+' h · ends '+clock(START+S.h);
+  if(document.activeElement!==$('gn'))$('gn').value=S.g;$('kidbox').style.display='';$('kv').textContent=S.k;$('kl').textContent=D.kids?money(D.kids.rate)+' each: '+D.kids.menu:'no child price: counted as adults · ask';$('gl').textContent=D.lockG+(S.k?' (adults + children)':'');$('gl').className='lock'+(T()>=D.bigmax?' on':'');$('hl').textContent=D.lockH;$('hl').className='lock'+(D.lockH.startsWith('🔒')&&S.h>=+$('h').max?' on':'');$('hv').textContent=S.h+' h · ends '+clock(START+S.h);
   strip('g','g','g',v=>v+' guests');strip('h','h','h',v=>v+' h');
   const R=D.options.map(o=>({o,fits:T()<=o.max&&rentOf(o)!==null,c:cost(o)}));
   const fit=R.filter(r=>r.fits).sort((a,b)=>a.c.tot-b.c.tot);
@@ -328,6 +328,7 @@ function draw(){renderPk();
   const c=cur.c,o=cur.o,end=START+S.h;
   if(o.end_max!=null&&end>o.end_max) f+='<div class="flag red">'+o.name+' must end by '+clock(o.end_max)+': a '+S.h+'-hour event from '+clock(START)+' is not possible here.</div>';
   (D.flags||[]).forEach(x=>f+='<div class="flag">'+x+'</div>');
+  if(!D.kids&&S.k)f+='<div class="flag">Child price not stated: '+S.k+' children counted at the adult price. Ask the venue.</div>';
   (D.conflicts||[]).forEach(x=>f+='<div class="flag dis">Sources disagree: '+x.text+' '+(x.srcs||[]).map(sup).join('')+'</div>');
   $('flags').innerHTML=f;
   // purple = the figure moves when guests or hours move
@@ -436,7 +437,7 @@ function srcList(c){const Q={};const add=(id,q)=>{if(!q)return;id=id||D.src_defa
   $('srcs').innerHTML=(D.sources||[]).length?'<div class="srcs"><b>Sources</b><ol>'+D.sources.map((s,i)=>{const L=[...(Q[s.id]||[])];
     return '<li id="src-'+(i+1)+'">'+(s.url?'<a href="'+s.url+'" target="_blank">'+s.name+'</a>':s.name)+(s.note?' <span class="fs">· '+s.note+'</span>':'')+
       (L.length?'<details><summary class="fs">Exact wording used ('+L.length+')</summary><ul class="fs">'+L.map(q=>'<li>“'+q+'”</li>').join('')+'</ul></details>':'')+'</li>';}).join('')+'</ol></div>':'';}
-function extras(){
+function extras(){if(!D.kids&&!(D.notes||[]).some(n=>n.kid))(D.notes=D.notes||[]).push({t:'Open question: child price (not stated; children are counted as adults for now).',kid:1});
   $('notes').innerHTML=(D.notes||[]).length?'<div class="notes"><b>Notes</b><ul>'+D.notes.map(n=>'<li>'+n.t+(n.src?sup(n.src):'')+'</li>').join('')+'</ul></div>':'';
   /* sources drawn in draw() */
   const A=D.allfacts;if(A&&Object.keys(A).length){let h='<button id="fb">Sources: all facts we have, by topic</button><div class="fl">';
