@@ -169,7 +169,7 @@ function line0(l,o){
   if(['wedding_cake','cake_cutting'].includes(l.id)&&!S.cake) return {st:'na',why:'Cake switch is off'};
   if(['bartenders','bar_alcohol','corkage','liquor_liability'].includes(l.id)&&S.alc==='none') return {st:'na',why:'Alcohol set to none'};
   if(S.alc==='byo'&&D.byo){const B=D.byo,dr=Math.round(g*B.drink_ratio);
-    if(l.id==='bar_alcohol')return {st:'own',why:B.what+': $'+B.pp_drinker.toFixed(2)+' × '+dr+' drinkers ('+Math.round(B.drink_ratio*100)+'% of '+g+')'+(B.fee?' + '+B.fee_name+' '+money(B.fee):''),q:B.list_q,amt:B.pp_drinker*dr+(B.fee||0),src:'ours'};
+    if(l.id==='bar_alcohol')return B.fee?{st:'venue',why:B.fee_name.replace(/^./,c=>c.toUpperCase())+': '+money(B.fee)+' flat',q:B.fee_q||'',amt:B.fee,src:B.cork_src,own_alc:{dr,rate:B.pp_drinker}}:{st:'na',why:'No venue bar charge (BYO)',own_alc:{dr,rate:B.pp_drinker},src:B.cork_src};
     if(l.id==='corkage'){if(B.corkage==null)return {st:'unk',why:'Corkage: not stated'};const bt=Math.ceil(dr*B.bottles_per_drinker);
       return B.corkage?{st:'venue',why:bt+' bottles × $'+B.corkage+' corkage'+(B.cork_note?' · '+B.cork_note:''),q:B.cork_q,amt:bt*B.corkage,src:B.cork_src}:{st:'inc',why:'No corkage fee',q:B.cork_q,amt:0,src:B.cork_src};}}
   if(l.id==='corkage'&&D.byo&&S.alc!=='byo'&&S.alc!=='none')return {st:'na',why:'Using the venue bar: no corkage',q:D.byo.cork_q,src:D.byo.cork_src};
@@ -191,7 +191,7 @@ function line0(l,o){
     case 'inc': return {st:'inc',why:f.note||'Included',q:f.q,amt:0};
     case 'pp': {const P=(D.pkgs||{})[l.id];let rate=f.rate,nm='',q=f.q,n=g,kid='',ka=0;
       if(P){const p=pk(l.id);if(p.base){const b=rateOf(p),ex=Math.max(0,g-p.incl)*p.extra[S.day],own=(p.own_pp||0)*g;
-          return {st:'venue',why:p.name+': '+money(b)+' base (≤'+p.incl+' guests)'+(ex?' + '+(g-p.incl)+' × '+money(p.extra[S.day]):'')+(own?' + your caterer '+money(p.own_pp)+' × '+g+' = '+money(own):''),q:p.q,amt:b+ex+own,svc_amt:b+ex,src:p.src,svc:1};}
+          return {st:'venue',why:p.name+' (venue service, no food): '+money(b)+' base (≤'+p.incl+' guests)'+(ex?' + '+(g-p.incl)+' × '+money(p.extra[S.day]):''),q:p.q,amt:b+ex,src:p.src,svc:1,own_food:{rate:p.own_pp,g}};}
         rate=rateOf(p);nm=p.name+': ';q=p.q;if(rate==null)return {st:'unk',why:p.name+': no price for this day',q};}
       const K=D.kids&&D.kids.line===l.id?D.kids:null;
       if(K&&S.k){ka=S.k*K.rate;kid=' + '+S.k+' children × '+money(K.rate);}
@@ -233,6 +233,12 @@ function xbAuto(){const b=barX();if(!b||b.off||!b.hours)return 0;return Math.max
 function xbNow(){const b=barX();if(!b||b.off)return 0;return S.xbHand?Math.min(S.xb,barMax().n):xbAuto();}
 function cost(o){
   const rows=D.lines.map(l=>({l,x:line(l,o)}));
+  // your own caterer / your own alcohol: separate lines priced from your price sheet (never under the venue's service fee)
+  for(let i=rows.length-1;i>=0;i--){const {l,x}=rows[i];
+    if(x.own_food){const F=x.own_food;rows.splice(i+1,0,{l:{id:'own-caterer',name:'Outside caterer (your price sheet)',group:l.group,unit:'per guest'},
+      x:F.rate==null?{st:'own',why:'No caterer price on your sheet',amt:null,miss:1,src:'ours'}:{st:'own',why:money(F.rate)+' × '+F.g+' guests (your caterer)',q:D.own_food_q||'',amt:F.rate*F.g,src:'ours'}});}
+    if(x.own_alc){const A=x.own_alc;rows.splice(i+1,0,{l:{id:'own-alcohol',name:'Your own alcohol (price sheet)',group:l.group,unit:'per drinker'},
+      x:A.rate==null?{st:'own',why:'No alcohol price on your sheet',amt:null,miss:1,src:'ours'}:{st:'own',why:(D.byo.what||'Your alcohol')+': $'+A.rate.toFixed(2)+' × '+A.dr+' drinkers ('+Math.round(D.byo.drink_ratio*100)+'% of guests)',q:D.byo.list_q,amt:A.rate*A.dr,src:'ours'}});}}
   (D.addons||[]).filter(a=>S.add[a.id]&&!a.kids).forEach(a=>{if(a.unit==='unknown'){rows.push({l:{id:'add-'+a.id,name:a.name,group:'Add-ons you ticked',unit:'unit not stated'},x:{st:'req',why:money(a.rate)+', but the packet does not say per guest or per display. Not counted: ask',q:a.q,amt:null,miss:1}});return;}const amt=a.unit==='pp'?a.rate*T():a.amt;
     rows.push({l:{id:'add-'+a.id,name:a.name,group:'Add-ons you ticked',unit:a.unit==='pp'?'per guest':'per event'},
       x:{st:'venue',why:(a.unit==='pp'?money(a.rate)+' × '+T()+' guests':'Flat')+(a.note?'. '+a.note:''),q:a.q,amt,svc:a.svc,tax:a.tax}});});
@@ -402,7 +408,7 @@ function detail(){const F=D.dfinal,V=D.dval||{},S={contact:'Contact',find:'We fi
     h+='</div>';});
   h+='<p class="small">Cut on the form: '+F.cut.join(', ')+'. From your form answers, '+F.source.replace('Medi + Rinad form, ','')+'.</p>';
   $('tab-detail').innerHTML=h;}
-const BAR_IDS=['bar_alcohol','add-xbar','corkage','bartenders','liquor_liability'];
+const BAR_IDS=['bar_alcohol','own-alcohol','add-xbar','corkage','bartenders','liquor_liability'];
 const GORD=['Venue','Food & drink','Bar / Alcohol','People & music','Sound, light, look','Rentals','Site & guests','Add-ons you ticked'];
 function grpOf(l){return BAR_IDS.includes(l.id)?'Bar / Alcohol':l.group;}
 function grouped(rows){const G={};rows.forEach(r=>{const g=grpOf(r.l);(G[g]=G[g]||[]).push(r);});
