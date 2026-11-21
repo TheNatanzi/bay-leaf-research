@@ -69,6 +69,7 @@ function line0(l,o){
       return {st:'venue',why,q:f.q,amt:a,svc:1,tax:1,miss};}
     case 'pct': return {st:'venue',pct:f.pct,on:f.on,why:f.note,q:f.q};
     case 'min': return {st:'venue',min:f,q:f.q};
+    case 'ocf': return ownFood()?{st:'venue',why:'Outside-caterer fee: '+money(f.rate)+' × '+g+' guests',q:f.q,amt:f.rate*g,src:f.src}:{st:'na',why:'Only when you bring your own caterer',q:f.q};
     case 'apart': return {st:'apart',why:f.note,q:f.q,amt:f.amt,apart:1};
     case 'flag': return {st:'flag',why:f.note,q:f.q};
     case 'req': return f.ps?Object.assign(psCalc(f.ps,f.note),{req:1}):{st:'req',why:f.note+' · price unknown',q:f.q,amt:null,miss:1};
@@ -124,6 +125,8 @@ function cost(o){
   rows.forEach(({x})=>{if(x.min){let f=x.min;const fb=fnbBase;
     if(f.byday){const v=f.byday[S.day];f=Object.assign({},f,{lo:v,hi:v,days:v==null?[]:[S.day],days_text:'on other days'});}
     if(noMin){x.st='na';x.why='No minimum with the chosen package';x.amt=0;return;}
+    if(ownFood()&&!D.min_own_applies){x.amt=0;x.miss=1;x.why='With your own caterer: the venue has not said if its '+money(f.lo)+(f.hi!==f.lo?'–'+money(f.hi):'')+' minimum still applies · ask';return;}
+    if(ownFood())x.q=D.min_own_q||x.q;
     const dayOk=f.days.includes(S.day);
     if(!dayOk){x.st='na';x.why=f.byday?'No minimum stated for this day':'Minimum applies '+f.days_text+' only';x.amt=0;}
     else if(fb>=f.hi){x.amt=0;x.why='F&B '+money(fb)+' ≥ '+money(f.lo)+(f.hi!==f.lo?'–'+money(f.hi):'')+' minimum: $0 extra';}
@@ -148,7 +151,7 @@ function barList(){const BA=[{id:'none',alc:'none',name:'No bar',rate:0}].concat
   return BA.sort((a,b)=>(a.rate||0)-(b.rate||0));}
 // Lowest / Highest: cheapest or priciest choice in every dropdown (space, menu, bar), add-ons off
 function scen(hi){const keep={pkg:Object.assign({},S.pkg),alc:S.alc,add:S.add,xbHand:S.xbHand,xb:S.xb};
-  const pk0={};Object.entries(D.pkgs||{}).forEach(([id,P])=>{const eff=p=>p.base?(rateOf(p)+Math.max(0,T()-p.incl)*p.extra[S.day]+(p.own_pp||0)*T())/T():(rateOf(p)||0);const s=[...P].sort((a,b)=>eff(a)-eff(b));pk0[id]=(hi?s[s.length-1]:s[0]).id;});
+  const pk0={};Object.entries(D.pkgs||{}).forEach(([id,P])=>{const eff=p=>p.base?(rateOf(p)+Math.max(0,T()-p.incl)*p.extra[S.day]+(p.own_pp||0)*T())/T():(rateOf(p)||0);const P2=P.filter(p=>!p.unconfirmed),s=[...(P2.length?P2:P)].sort((a,b)=>eff(a)-eff(b));pk0[id]=(hi?s[s.length-1]:s[0]).id;});
   let bars=barList().filter(b=>b.id!=='none');if(!bars.length)bars=[{id:keep.alc,alc:keep.alc}];
   let opts=D.options.filter(o=>T()<=o.max&&avail(o));if(!opts.length)opts=[D.options.reduce((a,o)=>o.max>a.max?o:a)];
   let best=null;S.add={};S.xbHand=0;S.hiPrice=!!hi;
