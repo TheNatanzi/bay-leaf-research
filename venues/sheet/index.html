@@ -162,7 +162,8 @@ a,.hdr,.srcs li,.notes li,.facts li{overflow-wrap:anywhere}html,body{overflow-x:
  try{const C=await fetch('common.json',{cache:'no-cache'}).then(r=>r.json());if(C.moved&&C.moved[pid])pid=C.moved[pid];
   const V=await fetch('d/'+pid.slice(-2)+'.json').then(r=>r.json());const v=V[pid];if(!v){msg('Venue not found: '+pid);return;}
   const L=C.lines.slice();(v.lines_add||[]).forEach(a=>{const i=L.findIndex(x=>x.id===a.after);L.splice(i+1,0,a.l);});window.__D=Object.assign({dfinal:C.dfinal,PS:C.PS},v,{lines:L});
-  try{const F=await fetch(C.facts_path+pid.slice(-2)+'.json').then(r=>r.json());window.__D.allfacts=(F[pid]||{}).f||{};window.__D.sm=(F[pid]||{}).sm||[];}catch(e){}
+  try{const F=await fetch(C.facts_path+pid.slice(-2)+'.json').then(r=>r.json());window.__D.allfacts=(F[pid]||{}).f||{};window.__D.sm=(F[pid]||{}).sm||[];window.__D.fn=(F[pid]||{}).fn||0;}catch(e){}
+  window.__D.pid=pid;window.__D.f_all_path=C.facts_path.replace(/d\/$/,'f/');
   const s=document.createElement('script');s.src='app.js?b='+C.built;document.body.appendChild(s);}
  catch(e){msg('Could not load this venue ('+e.message+').');}})();
 window.addEventListener('hashchange',()=>{if(/[#&](?:v|id)=/.test(location.hash))location.reload();});

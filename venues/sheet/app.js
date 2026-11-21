@@ -161,9 +161,13 @@ function scen(hi){const keep={pkg:Object.assign({},S.pkg),alc:S.alc,add:S.add,xb
     const r=cost(o);if(!best||(hi?r.tot>best.c.tot:r.tot<best.c.tot))best={o,b,c:r};}));
   S.hiPrice=false;Object.assign(S,keep);const m={};best.c.rows.forEach(({l,x})=>m[l.id]=x);return {m,c:best.c,o:best.o,b:best.b};}
 function pk(id){const P=D.pkgs[id];return P.find(x=>x.id===S.pkg[id])||P[0];}
+function pkLabel(x){if(x.own_pp!=null||x.own_ps){const P=x.own_ps&&D.PS&&D.PS[x.own_ps],r=P&&P.lo!=null?P.lo:x.own_pp,fe=(D.facts.outside_cater_fee||{}).rate;
+    return r!=null?money(r)+' per guest (your price sheet)'+(fe?' + '+money(fe)+' venue fee':''):'price: ask';}
+  if(x.base){const b=rateOf(x);return b==null?'price: ask':money(b)+' base ≤'+x.incl+' + '+money(x.extra[S.day])+'/extra guest';}
+  const r=rateOf(x);return r==null?'price: ask':money(r)+' per adult';}
 function renderPk(){let h='';
   Object.entries(D.pkgs||{}).forEach(([id,P])=>{const p=pk(id);
-    h+='<div class="row"><b>'+(D.lines.find(l=>l.id===id)||{name:id}).name+'</b><div><select data-pk="'+id+'">'+P.map(x=>'<option value="'+x.id+'"'+(x.id===p.id?' selected':'')+'>'+x.name+' — '+(x.base?money(rateOf(x))+' base ≤'+x.incl+' + '+money(x.extra[S.day])+'/extra guest':money(rateOf(x)||0)+' per adult')+'</option>').join('')+'</select>'+
+    h+='<div class="row"><b>'+(D.lines.find(l=>l.id===id)||{name:id}).name+'</b><div><select data-pk="'+id+'">'+P.map(x=>'<option value="'+x.id+'"'+(x.id===p.id?' selected':'')+'>'+x.name+' — '+pkLabel(x)+'</option>').join('')+'</select>'+
       '<div class="pd">'+(p.show||p.desc||'')+sup(p.src||D.src_default)+'</div>'+(D.pkg_common_show&&D.pkg_common_show[id]?'<div class="pd"><b>All packages include:</b> '+D.pkg_common_show[id]+sup(D.src_default)+'</div>':'')+(p.note?'<div class="pd">'+p.note+'</div>':'')+'</div></div>';});
   const BA=barList();
   if(BA.length>1){const cur=S.alc==='none'?'none':S.alc==='byo'?'byo':S.alc==='venue'?'venue':(S.pkg['bar_'+S.alc]||D.barpkgs[S.alc][0].id),b=BA.find(x=>x.id===cur)||BA[0];
@@ -338,7 +342,14 @@ function extras(){if(!D.kids&&!(D.notes||[]).some(n=>n.kid))(D.notes=D.notes||[]
    $('posts').innerHTML=SM.length?'<div class="posts"><b>Posts about this venue</b>'+(st.length?'<h4>Stories &amp; videos</h4><ul>'+st.map(li).join('')+'</ul>':'')+(ls.length?'<h4>Listed on other sites</h4><ul>'+ls.map(li).join('')+'</ul>':'')+'</div>':'';}
   const A=D.allfacts;if(A&&Object.keys(A).length){let h='<button id="fb">Sources: all facts we have, by topic</button><div class="fl">';
     Object.entries(A).forEach(([k,L])=>{h+='<h4>'+k.replace(/_/g,' ').replace(/^./,c=>c.toUpperCase())+'</h4><ul>'+L.map(x=>'<li>'+x[0]+' <span class="fs">· '+(x[2]?'<a href="'+x[2]+'" target="_blank">'+(x[3]||'source')+'</a>':(x[3]||''))+(x[1]&&x[1]!==x[0]&&x[1].length<220?' · “'+x[1]+'”':'')+'</span></li>').join('')+'</ul>';});
-    $('facts').innerHTML=h+'</div>';$('fb').onclick=()=>$('facts').classList.toggle('open');}
+    if(D.fn)h+='<button id="fall" style="margin-top:.8rem">Show all '+D.fn.toLocaleString('en-US')+' facts</button><div id="fallb"></div>';
+    $('facts').innerHTML=h+'</div>';$('fb').onclick=()=>$('facts').classList.toggle('open');
+    if(D.fn)$('fall').onclick=async()=>{const B=$('fall');B.disabled=true;B.textContent='Loading…';
+      const E=t=>String(t==null?'':t).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+      try{const A2=((await fetch(D.f_all_path+D.pid.slice(-2)+'.json').then(r=>r.json()))[D.pid])||{};let g='';
+        Object.entries(A2).forEach(([k,L])=>{g+='<h4>'+E(k.replace(/_/g,' ').replace(/^./,c=>c.toUpperCase()))+' ('+L.length+')</h4><ul>'+L.map(x=>'<li>'+E(x[0])+' <span class="fs">· '+(x[2]&&/^https?:\/\//.test(x[2])?'<a href="'+E(x[2])+'" target="_blank" rel="noopener">'+E(x[3]||'source')+'</a>':E(x[3]||''))+(x[4]?' · '+E(x[4]):'')+(x[1]&&x[1]!==x[0]&&x[1].length<220?' · “'+E(x[1])+'”':'')+'</span></li>').join('')+'</ul>';});
+        $('fallb').innerHTML='<h3 style="margin-top:1rem">All facts, every source</h3>'+(g||'<p>No facts found.</p>');B.remove();}
+      catch(e){B.disabled=false;B.textContent='Could not load the facts: try again';}};}
   const a=D.acts||{};let b='';
   if(a.site)b+='<a href="'+a.site+'" target="_blank">Website</a>';if(a.phone)b+='<a href="tel:'+a.phone.replace(/[^0-9]/g,'').slice(0,10)+'">Call</a>';
   if(a.email)b+='<a href="mailto:'+a.email+'">Email</a>';if(a.map)b+='<a href="https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(a.map)+'" target="_blank">Map</a>';
