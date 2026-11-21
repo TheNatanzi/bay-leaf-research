@@ -72,7 +72,11 @@ td.replied{color:var(--good);font-weight:600}
 @media(max-width:900px){.glance{grid-template-columns:1fr 1fr 1fr}}
 @media(max-width:700px){.vwrap{padding:10px 16px 40px}.pt{padding:12px;margin:0 -4px 14px}.price td.lab{min-width:120px;white-space:normal}.head h2{font-size:1.5rem}.glance{grid-template-columns:1fr 1fr}}
 
-.lst{table-layout:auto}.lst td.n{white-space:normal}.lst th{white-space:normal}.lst td:first-child{min-width:190px}
+.lst{table-layout:auto;overflow:visible}
+/* 2026-11-20 Medi: "freeze the titles (venue, guests, etc) so that i can see it as im scrolling" */
+.lst thead th{position:sticky;top:var(--toph,0px);z-index:5;background:var(--card);box-shadow:0 1px 0 var(--line)}
+.lst td:first-child{position:sticky;left:0;z-index:2;background:var(--card)}.lst thead th:first-child{left:0;z-index:6}
+.lst td.n{white-space:normal}.lst th{white-space:normal}.lst td:first-child{min-width:190px}
 @media(max-width:1200px){.lst th,.lst td{padding:9px 7px;font-size:.95rem}.lst td:first-child{min-width:170px}.bar{gap:8px}.bar h1{flex:1 1 100%}}
 .swipe{display:none;color:#ffcf80;font-size:.92rem;margin:0 0 8px}
 .scwrap{position:relative}
@@ -275,6 +279,7 @@ function details(d,B){if(!d){B.appendChild(el('div','note','No further details f
    if(f[2]&&/^https?:/.test(f[2])){const x=el('a','',f[2].replace(/^https?:\/\/(www\.)?/,'').slice(0,60));x.href=f[2];x.target='_blank';x.rel='noopener';line.appendChild(x)}src.appendChild(line);li.appendChild(src);ul.appendChild(li)});s.appendChild(ul);B.appendChild(s)});
  if(d.rooms&&d.rooms.length){const s=el('div','sec');s.appendChild(el('h3','','Rooms and spaces'));const ul=el('ul');d.rooms.forEach(x=>ul.appendChild(el('li','',x)));s.appendChild(ul);B.appendChild(s)}
  B.appendChild(el('div','note','Figures come from public pages and directories. Nothing here is confirmed by the venue; check before relying on it.')).style.marginTop='18px'}
+(()=>{const t=document.querySelector('.top');if(!t)return;const set=()=>document.documentElement.style.setProperty('--toph',(getComputedStyle(t).position==='sticky'?t.offsetHeight:0)+'px');set();new ResizeObserver(set).observe(t);addEventListener('resize',set)})();
 fetch('data/venues.json').then(r=>{if(!r.ok)throw Error(r.status);return r.json()}).then(j=>{D=j.rows;MOVED=j.moved||{};SHEET=!!j.sheet;$('un').textContent=D.filter(r=>r[24]).length.toLocaleString();$('rn').textContent=D.filter(r=>r[29]).length.toLocaleString();
  [...new Set(D.map(r=>r[3]).filter(Boolean))].sort().forEach(c=>$('county').appendChild(el('option','',c)));apply();route()}).catch(e=>{$('count').textContent='The venue list could not be loaded ('+e.message+')'});
 ['q','county','minG','late','cater','pk','out','hp','byo','ho','unnamed','resto'].forEach(i=>$(i).addEventListener('input',apply));
