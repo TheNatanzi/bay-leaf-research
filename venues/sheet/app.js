@@ -8,7 +8,8 @@ const clock=x=>{x=((x%24)+24)%24;if(x===0)return 'midnight';if(x===12)return 'no
 function seg(id,key){$(id).querySelectorAll('button').forEach(b=>b.onclick=()=>{$(id).querySelectorAll('button').forEach(x=>x.classList.remove('on'));b.classList.add('on');S[key]=isNaN(+b.dataset.v)?b.dataset.v:+b.dataset.v;draw();});}
 seg('day','day');seg('cake','cake');
 const rateOf=p=>p.base?(p.base[S.day]??null):(p.rate&&typeof p.rate==='object'?(p.rate[S.day]??null):p.rate);
-const rentOf=o=>{const R=D.seasons&&o.rent[S.season]?o.rent[S.season]:o.rent;const H=S.hiPrice&&o.rent_hi?(D.seasons&&o.rent_hi[S.season]?o.rent_hi[S.season]:o.rent_hi):null;return (H&&H[S.day]!=null?H[S.day]:R[S.day])??null;};
+const tierOf=o=>(o.tiers||[]).find(t=>(t.lo==null||S.h>=t.lo)&&(t.hi==null||S.h<=t.hi));
+const rentOf=o=>{const TT=tierOf(o);if(TT)return TT.rent[S.day]??null;const R=D.seasons&&o.rent[S.season]?o.rent[S.season]:o.rent;const H=S.hiPrice&&o.rent_hi?(D.seasons&&o.rent_hi[S.season]?o.rent_hi[S.season]:o.rent_hi):null;return (H&&H[S.day]!=null?H[S.day]:R[S.day])??null;};
 const avail=o=>o.rent_unknown||rentOf(o)!==null;
 const money2=n=>n<20&&Math.round(n)!==n?'$'+n.toFixed(2):'$'+Math.round(n).toLocaleString('en-US');
 // your price sheet (D.PS, rebuilt from our-price-sheet.json + checked online prices at every build). Pick = low end; Highest = high end.
@@ -73,7 +74,7 @@ function line0(l,o){
     case 'apart': return {st:'apart',why:f.note,q:f.q,amt:f.amt,apart:1};
     case 'flag': return {st:'flag',why:f.note,q:f.q};
     case 'req': return f.ps?Object.assign(psCalc(f.ps,f.note),{req:1}):{st:'req',why:f.note+' · price unknown',q:f.q,amt:null,miss:1};
-    case 'ps': if(f.only_own&&!ownFood())return {st:'unk',why:f.off||'Not stated'};return psCalc(f.ps||f,f.pre);
+    case 'ps': if(f.only_own&&!ownFood())return {st:'unk',why:f.off||'Not stated'};if(l.id==='catering_dessert'&&S.cake)return {st:'na',why:'Off while the cake switch is on (cake is the dessert)'};return psCalc(f.ps||f,f.pre);
     case 'inc_own': return ownFood()?{st:'inc',why:f.note,q:f.q,amt:0}:{st:'unk',why:'Not stated'};
     case 'byo_ps': return S.alc==='byo'?psCalc(f.ps,f.pre||'Your bartenders (BYO)'):{st:'unk',why:f.off||'Not stated'};
     case 'na': return {st:'na',why:f.note,q:f.q};
@@ -111,16 +112,16 @@ function cost(o){
     rows.push({l:{id:'add-'+a.id,name:a.name,group:'Add-ons you ticked',unit:a.unit==='pp'?'per guest':'per event'},
       x:{st:'venue',why:(a.unit==='pp'?money(a.rate)+' × '+T()+' guests':'Flat')+(a.note?'. '+a.note:''),q:a.q,amt,svc:a.svc,tax:a.tax}});});
   {const b=barX(),XB=xbNow();if(b&&!b.off&&XB){const amt=XB*b.x*S.g;
-    const bi=rows.findIndex(r=>r.l.id==='bar_alcohol');rows.splice(bi<0?rows.length:bi+1,0,{l:{id:'add-xbar',name:'Extra bar hours',group:bi<0?'Bar':rows[bi].l.group,unit:'per guest per hour'},x:{st:'venue',why:XB+' extra hour'+(XB>1?'s':'')+' × $'+b.x.toFixed(2)+' × '+S.g+' guests = '+money(amt)+' ('+b.name+')'+(S.k?'. Counted for adults only':''),q:b.q,amt,svc:1,tax:1}});}}
+    const bi=rows.findIndex(r=>r.l.id==='bar_alcohol');rows.splice(bi<0?rows.length:bi+1,0,{l:{id:'xbar',name:'Extra bar hours',group:bi<0?'Bar':rows[bi].l.group,unit:'per guest per hour'},x:{st:'venue',why:XB+' extra hour'+(XB>1?'s':'')+' × $'+b.x.toFixed(2)+' × '+S.g+' guests = '+money(amt)+' ('+b.name+')'+(S.k?'. Counted for adults only':''),q:b.q,amt,svc:1,tax:1}});}}
   rows.forEach(({l,x})=>{if((D.out_scope||['valet','planner']).includes(l.id)&&!['req','na','inc'].includes(x.st)&&!x.req)x.out=1;});
   if(D.svc_all)rows.forEach(({x})=>{if(x.st==='venue'&&x.amt&&!x.apart&&!x.out&&x.pct===undefined&&!x.min)x.svc=1;});
-  let base=0,svcBase=0,taxBase=0;
-  rows.forEach(({x})=>{if(x.amt&&!x.apart&&!x.out){base+=x.amt;if(x.svc)svcBase+=(x.svc_amt??x.amt);if(x.tax)taxBase+=(x.svc_amt??x.amt);}});
+  let base=0,svcBase=0,taxBase=0,rentBase=0;
+  rows.forEach(({l,x})=>{if(x.amt&&Number.isFinite(x.amt)&&!x.apart&&!x.out&&x.pct===undefined){base+=x.amt;if(x.svc)svcBase+=(x.svc_amt??x.amt);if(x.tax)taxBase+=(x.svc_amt??x.amt);if(['venue_rent','overtime'].includes(l.id))rentBase+=x.amt;}});
   rows.forEach(({x})=>{
-    if(x.pct!==undefined){const b=x.on==='svc'?svcBase:taxBase;x.amt=b*x.pct/100;x.why=x.pct+'% of '+money(b)+' ('+x.why+')';}
+    if(x.pct!==undefined){const b=x.on==='rent'?rentBase:x.on==='all'?base:x.on==='tax'?taxBase:svcBase;x.amt=b*x.pct/100;x.why=x.pct+'% of '+money(b)+' ('+x.why+')';}
   });
   // service charge is taxed? not stated -> tax on packages only
-  const FNB=['catering_food','catering_dessert','bar_alcohol','add-xbar','cake_cutting'];let fnbBase=0;rows.forEach(({l,x})=>{if(x.amt&&!x.apart&&!x.out&&x.st==='venue'&&(FNB.includes(l.id)||l.id.startsWith('add-')))fnbBase+=x.amt;});
+  const FNB=['catering_food','catering_dessert','bar_alcohol','xbar','cake_cutting'];let fnbBase=0;rows.forEach(({l,x})=>{if(x.amt&&!x.apart&&!x.out&&x.st==='venue'&&(FNB.includes(l.id)||l.id.startsWith('add-')))fnbBase+=x.amt;});
   const noMin=Object.keys(D.pkgs||{}).some(id=>pk(id).no_min);
   rows.forEach(({x})=>{if(x.min){let f=x.min;const fb=fnbBase;
     if(f.byday){const v=f.byday[S.day];f=Object.assign({},f,{lo:v,hi:v,days:v==null?[]:[S.day],days_text:'on other days'});}
@@ -131,7 +132,8 @@ function cost(o){
     if(!dayOk){x.st='na';x.why=f.byday?'No minimum stated for this day':'Minimum applies '+f.days_text+' only';x.amt=0;}
     else if(fb>=f.hi){x.amt=0;x.why='F&B '+money(fb)+' ≥ '+money(f.lo)+(f.hi!==f.lo?'–'+money(f.hi):'')+' minimum: $0 extra';}
     else {x.amt=Math.max(0,f.hi-fb);x.why='F&B '+money(fb)+' < '+(f.hi!==f.lo?'top of '+money(f.lo)+'–':'')+money(f.hi)+' minimum: '+(f.hi!==f.lo?'up to ':'')+money(x.amt)+' extra';}}});
-  if(D.min_plusplus){const sh=rows.reduce((z,{x})=>z+(x.min&&x.amt?x.amt:0),0);if(sh)rows.forEach(({x})=>{if(x.pct!==undefined&&x.on==='svc'){x.amt+=sh*x.pct/100;x.why+=' + '+x.pct+'% of the '+money(sh)+' minimum top-up';}});}
+  if(D.min_plusplus!==false){const sh=rows.reduce((z,{x})=>z+(x.min&&x.amt?x.amt:0),0);if(sh)rows.forEach(({x})=>{if(x.pct!==undefined&&['svc','tax','all'].includes(x.on)){x.amt+=sh*x.pct/100;x.why+=' + '+x.pct+'% of the '+money(sh)+' minimum top-up';}});}
+  rows.forEach(({x})=>{if(x.amt!=null&&!Number.isFinite(x.amt)){x.amt=null;x.miss=1;x.why=(x.why||'')+' · price: ask';}});
   let tot=0,unk=0,rq=[],dep=null;
   let known=0,all=0,cred=0;
   rows.forEach(({l,x})=>{if(x.credit)cred+=x.credit;if(x.out)return;if(!['na','flag'].includes(x.st)){all++;if(x.amt!=null)known++;}if(x.st==='unk')unk++;if(x.miss)rq.push(l.name);if(x.amt&&!x.apart)tot+=x.amt;if(x.apart)dep=x;});
@@ -196,7 +198,7 @@ function draw(){renderPk();
     if(r.fits&&r.o.id===auto) tags+='<span class="tag">Cheapest that fits</span>';
     tags+= o.end!=null?'<span class="tag '+(o.end_max!=null&&end>o.end_max?'red':'grey')+'">Rent covers to '+clock(o.end)+(o.end_max!=null&&o.end_max>o.end?' (paid to '+clock(o.end_max)+')':o.end_max==null?' · latest end: ask':'')+'</span>':'<span class="tag grey">End time: ask</span>';
     tags+= o.music!=null?'<span class="tag '+(end>o.music?'yel':'grey')+'">Music stops '+clock(o.music)+(end>o.music?': last '+(end-o.music)+' h quiet':'')+'</span>':'<span class="tag grey">Music cutoff: ask</span>';
-    {const pc=((D.space_photos||{})[o.name]||{}).photos;if(pc&&pc.length)tags+='<span class="tag grey">📷 '+pc.length+'</span>';}
+    {const pc=((D.space_photos||{})[o.photo_key||o.name.replace(/ \(hourly\)$/,'')]||{}).photos;if(pc&&pc.length)tags+='<span class="tag grey">📷 '+pc.length+'</span>';}
     if(o.season) tags+='<span class="tag grey">'+o.season+'</span>';
     return '<div class="opt'+(cur&&cur.o.id===o.id?' on':'')+(r.fits?'':' off')+'" data-id="'+o.id+'"><span class="dot"></span><span class="nm">'+o.name+'</span><span class="pp">'+(r.fits?money(r.c.tot/T())+'<span class="small" style="font-size:14px;font-weight:400"> /guest</span>':'—')+'</span><div class="meta">'+tags+'</div></div>';}).join('');
   $('opts').querySelectorAll('.opt').forEach(el=>el.onclick=()=>{const r=R.find(r=>r.o.id===el.dataset.id);if(r.fits){S.pick=el.dataset.id;draw();}});
@@ -214,9 +216,9 @@ function draw(){renderPk();
   const MG=mv(10,0),MH=mv(0,.5),LO=scen(0),HI=scen(1);
   const fig=(x,mv)=>{if(!x)return '<span class="dash">—</span>';if(x.out)return '<span class="dash">—</span>';if(x.amt==null)return x.st==='na'?'$0':'<span class="dash">—</span>';return '<span class="'+(mv?'var':'')+'">'+money(x.amt)+'</span>';};
   const VAR=(l,x)=>x.amt!=null&&(MG[l.id]!==x.amt||MH[l.id]!==x.amt);
-  summary(c,LO,HI,VAR);srcList(c);
+  const U=uni(c,LO,HI);summary(c,LO,HI,VAR,U);srcList(c);
   let grp=null;
-  grouped(c.rows).flatMap(([g,L])=>L).forEach(({l,x})=>{
+  grouped(U).flatMap(([g,L])=>L).forEach(({l,x})=>{
     if(grpOf(l)!==grp){grp=grpOf(l);const r=t.insertRow();r.className='g';const cc=r.insertCell();cc.colSpan=7;cc.textContent=grp;}
     const r=t.insertRow(); if(x.st==='na')r.className='dim';
     const v=VAR(l,x);
@@ -249,7 +251,7 @@ function draw(){renderPk();
 
 // photos follow the picked space (links only, never copies)
 function showPics(o){const key=o?o.name:'';if(showPics.k===key)return;showPics.k=key;
-  const sp=o&&(D.space_photos||{})[o.name],own=sp&&sp.photos&&sp.photos.length,G=D.gallery||{},gal=(G.photos||[]).length,home=D.photos&&D.photos.length>1?D.photos[0]:(gal?((G.pages||[])[0]||G.photos[0].found_on||G.photos[0].url):null);
+  const sp=o&&(D.space_photos||{})[o.photo_key||o.name.replace(/ \(hourly\)$/,'')],own=sp&&sp.photos&&sp.photos.length,G=D.gallery||{},gal=(G.photos||[]).length,home=D.photos&&D.photos.length>1?D.photos[0]:(gal?((G.pages||[])[0]||G.photos[0].found_on||G.photos[0].url):null);
   const list=own?sp.photos.map(p=>({u:p.url,t:p.label||o.name,h:sp.page_url||p.found_on||p.url})):(D.photos&&D.photos.length>1?D.photos.slice(1).map(u=>({u,t:'',h:home})):G.photos?G.photos.map(p=>({u:p.url,t:p.label||'',h:p.found_on||home})):[]);
   $('pics').innerHTML=list.map(p=>'<a href="'+p.h+'" target="_blank" title="'+String(p.t).replace(/"/g,'')+'"><img loading="lazy" src="'+p.u+'" alt="" onerror="this.parentNode.remove()"></a>').join('');
   let c='';if(own)c='<b>'+o.name+'</b>';else if(home)c='Venue photos';
@@ -290,21 +292,22 @@ function detail(){const F=D.dfinal,V=D.dval||{},S={contact:'Contact',find:'We fi
     h+='</div>';});
   h+='<p class="small">Cut on the form: '+F.cut.join(', ')+'. From your form answers, '+F.source.replace('Medi + Rinad form, ','')+'.</p>';
   $('tab-detail').innerHTML=h;}
-const BAR_IDS=['bar_alcohol','own-alcohol','add-xbar','corkage','bartenders','liquor_liability'];
+const BAR_IDS=['bar_alcohol','own-alcohol','xbar','corkage','bartenders','liquor_liability'];
 const GORD=['Venue','Food & drink','Bar / Alcohol','People & music','Sound, light, look','Rentals','Site & guests','Add-ons you ticked'];
 function grpOf(l){return BAR_IDS.includes(l.id)?'Bar / Alcohol':l.group;}
 function grouped(rows){const G={};rows.forEach(r=>{const g=grpOf(r.l);(G[g]=G[g]||[]).push(r);});
   return Object.keys(G).sort((a,b)=>(GORD.indexOf(a)+1||99)-(GORD.indexOf(b)+1||99)).map(g=>[g,G[g]]);}
 function sup(id){const i=(D.sources||[]).findIndex(s=>s.id===id);return i<0?'':'<sup><a href="#src-'+(i+1)+'" title="'+D.sources[i].name.replace(/"/g,'')+'">'+(i+1)+'</a></sup>';}
 S.open=S.open||{};
-function summary(c,LO,HI,VAR){const T0=$('sum');const cnt=x=>!x.out&&!x.apart&&!['na','flag'].includes(x.st);
+function uni(c,LO,HI){const U=c.rows.slice();[[LO,'Lowest'],[HI,'Highest']].forEach(([Z,nm])=>Z.c.rows.forEach(({l},i)=>{if(U.some(z=>z.l.id===l.id))return;const prev=i?Z.c.rows[i-1].l.id:null,j=prev?U.findIndex(z=>z.l.id===prev):-1;U.splice(j+1,0,{l,x:{st:'na',why:'Only in the '+nm+' column (not in your pick)'}});}));return U;}
+function summary(c,LO,HI,VAR,U){U=U||c.rows;const T0=$('sum');const cnt=x=>!x.out&&!x.apart&&!['na','flag'].includes(x.st);
   const fmt=(sum,unk,v,cls)=>sum==null?'<span class="dash">—</span>':'<span class="'+(cls||(v?'var':''))+'">'+money(sum)+(unk?'+':'')+'</span>';
   const col=(L,src)=>{let s=0,k=0,u=0,v=0;L.forEach(({l,x})=>{const y=src?src.m[l.id]:x;if(!y||!cnt(y))return;if(y.amt==null){u++;return;}k++;s+=y.amt;if(VAR(l,x))v=1;});return {s:k?s:null,u,v};};
   let h='<tr><th>Category</th><th class="n">Lowest</th><th class="n">Highest</th><th class="n pk">Your pick</th><th class="n">Credit</th><th class="n">Outside scope</th></tr>';
   const tz=z=>'<span class="var">'+money(z.tot)+(z.unk||z.rq.length?'+':'')+'</span>',pz=z=>money(z.tot/T())+(z.unk||z.rq.length?'+':'');
   h+='<tr class="tot"><td>Total<div class="q">'+c.known+'/'+c.all+' known</div></td><td class="n">'+tz(LO.c)+'</td><td class="n">'+tz(HI.c)+'</td><td class="n pick">'+tz(c)+'</td><td class="n">'+(c.cred?'<span class="cred">'+money(c.cred)+'</span>':'<span class="dash">—</span>')+'</td><td></td></tr>';
   h+='<tr class="tot"><td>Per guest<div class="q">'+T()+' guests</div></td><td class="n"><span class="var">'+pz(LO.c)+'</span></td><td class="n"><span class="var">'+pz(HI.c)+'</span></td><td class="n pick"><span class="var">'+pz(c)+'</span></td><td></td><td></td></tr>';
-  const GR=grouped(c.rows);h+='<tr class="acc" id="accrow"><td colspan="6"><span class="tog">'+(S.openCat?'▼':'▶')+'</span>By category ('+GR.length+')</td></tr>';
+  const GR=grouped(U);h+='<tr class="acc" id="accrow"><td colspan="6"><span class="tog">'+(S.openCat?'▼':'▶')+'</span>By category ('+GR.length+')</td></tr>';
   if(S.openCat)GR.forEach(([g,L],i)=>{const a=col(L,LO),b=col(L,HI),p=col(L,null),add=g.startsWith('Add-ons');
     const all=L.filter(r=>cnt(r.x)).length,known=L.filter(r=>cnt(r.x)&&r.x.amt!=null).length;
     const cr=L.reduce((z,r)=>z+(r.x.credit||0),0),ct=L.filter(r=>r.x.credit_text).length,ou=L.filter(r=>r.x.out),os=ou.reduce((z,r)=>z+(r.x.amt||0),0);
