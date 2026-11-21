@@ -45,6 +45,7 @@ function line0(l,o){
       return {st:'venue',why:(START+S.h-o.end)+' h past '+clock(o.end)+(o.end_max!=null?' (allowed to '+clock(o.end_max)+')':'')+' · price: ask',q:o.ot_q,amt:null,miss:1,src:o.ot_src};}
     if(S.h<=o.block) return {st:'na',why:'Fits the venue\'s '+o.block+'-hour block'+(o.block_note?' ('+o.block_note+')':''),q:o.ot_q,src:o.ot_src};
     if(o.ot_hr){const hh=Math.ceil(S.h-o.block-1e-9);return {st:'venue',why:hh+' h past the '+o.block+'-hour block × '+money(o.ot_hr)+' per hour'+(o.block_note?' ('+o.block_note+')':''),q:o.ot_q,amt:hh*o.ot_hr,src:o.ot_src};}
+    if(!o.ot_half)return {st:'venue',why:(S.h-o.block)+' h past the '+o.block+'-hour block'+(o.block_note?' ('+o.block_note+')':'')+' · price: ask',q:o.ot_q,amt:null,miss:1,src:o.ot_src};
     const halves=(S.h-o.block)*2; return {st:'venue',why:(S.h-o.block)+' hour(s) past the '+o.block+'-hour block = '+halves+' × '+money(o.ot_half)+' per half hour'+(o.ot_note?'. '+o.ot_note:''),q:o.ot_q,amt:halves*o.ot_half};
   }
   if(!f) return {st:'unk',why:'Not stated'};
@@ -136,7 +137,7 @@ function cost(o){
 function priceAt(g,h){const og=S.g,oh=S.h;S.g=g;S.h=h;
   const R=D.options.filter(o=>g+S.k<=o.max&&avail(o)).map(o=>({o,c:cost(o)})).sort((a,b)=>a.c.tot-b.c.tot);
   let r=R.find(x=>x.o.id===S.pick)||R[0];S.g=og;S.h=oh;return r?{pp:r.c.tot/(g+S.k),sp:r.o.name}:null;}
-function strip(id,el,key,fmt){const sl=$(el),mn=+sl.min,mx=+sl.max,st=+sl.step,vals=[];for(let v=mn;v<=mx+1e-9;v+=st)vals.push(+v.toFixed(2));
+function strip(id,el,key,fmt){const sl=$(el),mn=+sl.min,mx=+sl.max,st=+sl.step,vals=[];for(let v=mn;v<=mx+1e-9;v+=st)vals.push(+v.toFixed(2));if(!vals.length)vals.push(mn);
   const P=vals.map(v=>key==='g'?priceAt(v,S.h):priceAt(S.g,v)),ok=P.filter(Boolean).map(p=>p.pp),hi=Math.max(...ok),lo=Math.min(...ok);
   $(id+'s').innerHTML=vals.map((v,i)=>{const p=P[i];return '<i data-v="'+v+'" class="'+(p?'':'x')+(v===S[key]?' on':'')+'" style="height:'+(p?(hi===lo?50:15+85*(p.pp-lo)/(hi-lo)):100)+'%" title="'+fmt(v)+': '+(p?money(p.pp)+' per guest, '+p.sp:'no space fits')+'"></i>';}).join('');
   $(id+'s').querySelectorAll('i').forEach(b=>b.onclick=()=>{S[key]=+b.dataset.v;if(key==='h')S.xbHand=0;if(key==='g')S.g=Math.min(S.g,D.bigmax-S.k);sl.value=S[key];if(key==='g')S.pick=null;draw();});
@@ -241,7 +242,7 @@ function draw(){renderPk();
  if(blk.length){D.min_h=Math.max(...blk);D.lockH=D.min_h+' h in rent'+(D.lockH.startsWith('🔒')?' · '+D.lockH:' · midnight max, latest end: ask');}
  const priced=D.options.some(o=>o.ot_half||o.ot_hr||o.rent_unit==='hr')||D.lines.some(l=>{const f=D.facts[l.id];return f&&f.extra&&Object.values(f.extra).some(v=>v);});
  if(!priced)D.hours_fixed=D.hours_fixed||('Flat fee'+(blk.length?' for '+Math.max(...blk)+' hours':'')+'. No extra-hour price listed: ask.');
- if(D.min_h&&!D.no_min_h){$('h').min=D.min_h;S.h=Math.max(S.h,D.min_h);$('h').value=S.h;}}
+ if(D.min_h&&!D.no_min_h){$('h').min=Math.min(D.min_h,+$('h').max);S.h=Math.min(Math.max(S.h,+$('h').min),+$('h').max);$('h').value=S.h;}}
 
 // photos follow the picked space (links only, never copies)
 function showPics(o){const key=o?o.name:'';if(showPics.k===key)return;showPics.k=key;
