@@ -106,7 +106,7 @@ sup a{color:#1f5fbf;text-decoration:none;font-weight:700}
 @media(max-width:700px){#t td.why,#t th.why{display:none}#t{min-width:560px}#t td,#t th{padding:.4rem .4rem}}
 #t .qq{display:none}#t.showq .qq{display:block}
 </style></head><body><div class="f">
-<p class="small">Bay Leaf · Cost per head · venue sheet · updated 2026-11-20</p>
+<p class="small">Bay Leaf · Cost per head · venue sheet · updated 2026-11-20<span id="testcase"></span></p>
 <h1 id="nm"></h1>
 <div class="hdr" id="hdr"></div>
 <div class="acts" id="acts"></div>
@@ -122,6 +122,7 @@ sup a{color:#1f5fbf;text-decoration:none;font-weight:700}
   <div id="kidbox" style="display:none"><label>Children under 12 <span id="kv"></span></label><input id="k" type="range" min="0" max="100" step="5" value="0"><div class="lock" id="kl"></div></div>
   <div><label>Hours with guests <span id="hv"></span></label><input id="h" type="range" min="3" max="10" step="0.5" value="6"><div class="strip" id="hs"></div><div class="sx" id="hx"></div><div class="lock" id="hl"></div><div class="hfix" id="hfix"></div></div>
   <div><label>Day</label><div class="seg" id="day"><button data-v="sat" class="on">Saturday</button><button data-v="fs">Fri / Sun</button><button data-v="mt">Mon–Thu</button></div><div class="hfix" id="dayn"></div></div>
+  <div id="seasonbox" style="display:none"><label>Season</label><div class="seg" id="season"></div><div class="hfix" id="seasonn"></div></div>
   <div><label>Ceremony and reception</label><div class="hfix" id="cern" style="display:block"></div></div>
   <div id="cakebox"><label>Wedding cake</label><div class="seg" id="cake"><button data-v="1" class="on">On</button><button data-v="0">Off</button></div></div>
 </div>
@@ -154,6 +155,8 @@ const money=n=>'$'+Math.round(n).toLocaleString('en-US');
 const clock=x=>{x=((x%24)+24)%24;if(x===0)return 'midnight';if(x===12)return 'noon';const hh=Math.floor(x),mm=Math.round((x-hh)*60);return ((hh%12)||12)+(mm?':'+String(mm).padStart(2,'0'):'')+(hh<12?' am':' pm');};
 function seg(id,key){$(id).querySelectorAll('button').forEach(b=>b.onclick=()=>{$(id).querySelectorAll('button').forEach(x=>x.classList.remove('on'));b.classList.add('on');S[key]=isNaN(+b.dataset.v)?b.dataset.v:+b.dataset.v;draw();});}
 seg('day','day');seg('cake','cake');
+const rateOf=p=>p.base?(p.base[S.day]??null):(p.rate&&typeof p.rate==='object'?(p.rate[S.day]??null):p.rate);
+const rentOf=o=>{const R=D.seasons&&o.rent[S.season]?o.rent[S.season]:o.rent;return R[S.day]??null;};
 $('g').oninput=e=>{const m=D.bigmax-S.k;S.g=Math.min(+e.target.value,m);e.target.value=S.g;S.pick=null;draw()};$('k').oninput=e=>{S.k=Math.min(+e.target.value,D.bigmax-+$('g').min);e.target.value=S.k;if(S.g+S.k>D.bigmax){S.g=D.bigmax-S.k;$('g').value=S.g;}S.pick=null;draw()};$('h').oninput=e=>{S.h=+e.target.value;S.xbHand=0;draw()};
 $('gn').onchange=e=>{S.g=Math.max(1,Math.round(+e.target.value||0));$('g').value=Math.min(S.g,+$('g').max);S.pick=null;draw();};
 const CH={inc:['inc','Included'],venue:['venue','Venue price'],own:['own','Your price'],req:['req','Required'],unk:['unk','Unknown'],na:['na','Not needed'],apart:['apart','Paid early'],flag:['flagc','Label']};
@@ -166,35 +169,39 @@ function line0(l,o){
   if(['wedding_cake','cake_cutting'].includes(l.id)&&!S.cake) return {st:'na',why:'Cake switch is off'};
   if(['bartenders','bar_alcohol','corkage','liquor_liability'].includes(l.id)&&S.alc==='none') return {st:'na',why:'Alcohol set to none'};
   if(S.alc==='byo'&&D.byo){const B=D.byo,dr=Math.round(g*B.drink_ratio);
-    if(l.id==='bar_alcohol')return {st:'own',why:B.what+': $'+B.pp_drinker.toFixed(2)+' × '+dr+' drinkers ('+Math.round(B.drink_ratio*100)+'% of '+g+')',q:B.list_q,amt:B.pp_drinker*dr,src:'ours'};
+    if(l.id==='bar_alcohol')return {st:'own',why:B.what+': $'+B.pp_drinker.toFixed(2)+' × '+dr+' drinkers ('+Math.round(B.drink_ratio*100)+'% of '+g+')'+(B.fee?' + '+B.fee_name+' '+money(B.fee):''),q:B.list_q,amt:B.pp_drinker*dr+(B.fee||0),src:'ours'};
     if(l.id==='corkage'){if(B.corkage==null)return {st:'unk',why:'Corkage: not stated'};const bt=Math.ceil(dr*B.bottles_per_drinker);
       return B.corkage?{st:'venue',why:bt+' bottles × $'+B.corkage+' corkage'+(B.cork_note?' · '+B.cork_note:''),q:B.cork_q,amt:bt*B.corkage,src:B.cork_src}:{st:'inc',why:'No corkage fee',q:B.cork_q,amt:0,src:B.cork_src};}}
   if(l.id==='corkage'&&D.byo&&S.alc!=='byo'&&S.alc!=='none')return {st:'na',why:'Using the venue bar: no corkage',q:D.byo.cork_q,src:D.byo.cork_src};
-  if(l.id==='venue_rent'){const r=o.rent[S.day],dn={sat:'Saturday',fs:'Fri / Sun',mt:'Mon–Thu'}[S.day];
-    if(o.rent_unit==='hr'){const hh=Math.max(S.h,o.rent_min_h||0);return {st:'venue',why:o.name+', '+dn+': '+money(r)+' per hour × '+hh+' h'+(o.rent_min_h&&S.h<o.rent_min_h?' (minimum '+o.rent_min_h+' h)':''),q:o.rent_q,amt:r*hh,src:o.rent_src};}
+  if(l.id==='venue_rent'){const r=rentOf(o),dn={sat:'Saturday',fs:'Fri / Sun',mt:'Mon–Thu'}[S.day]+(D.seasons?', '+D.seasons.find(z=>z.id===S.season).name:'');
+    if(r==null)return {st:'unk',why:o.name+': no price for this day',q:o.rent_q,src:o.rent_src};
+    if(o.rent_unit==='hr'){const hh=Math.max(S.h+(o.rent_pad_h||0),o.rent_min_h||0);return {st:'venue',why:o.name+', '+dn+': '+money(r)+' per hour × '+hh+' h'+(o.rent_pad_h?' ('+S.h+' h event + '+o.rent_pad_h+' h '+(o.rent_pad_note||'wind-down')+')':'')+(o.rent_min_h&&S.h+(o.rent_pad_h||0)<o.rent_min_h?' (minimum '+o.rent_min_h+' h)':''),q:o.rent_q,amt:r*hh,src:o.rent_src};}
     const st=o.rent_step,ex=st&&g>st.over?Math.ceil((g-st.over)/st.per)*st.amt:0;
-    return {st:'venue',why:o.name+', '+dn+(st?' (≤'+st.over+' guests)'+(ex?' + '+money(ex)+' ('+(g-st.over)+' over, '+money(st.amt)+' per '+st.per+')':''):''),q:o.rent_q,amt:r+ex,src:o.rent_src};}
+    return {st:'venue',why:o.name+', '+dn+(o.rent_note?' · '+o.rent_note:'')+(st?' (≤'+st.over+' guests)'+(ex?' + '+money(ex)+' ('+(g-st.over)+' over, '+money(st.amt)+' per '+st.per+')':''):''),q:o.rent_q,amt:r+ex,src:o.rent_src,credit_text:o.rent_credit_text};}
   if(l.id==='overtime'){
     if(!o.block){if(o.end==null)return {st:'unk',why:'Not stated'};
       if(START+S.h<=o.end)return {st:'na',why:'Event ends by '+clock(o.end)+', the venue end time',q:o.ot_q,src:o.ot_src};
       return {st:'venue',why:(START+S.h-o.end)+' h past '+clock(o.end)+(o.end_max!=null?' (allowed to '+clock(o.end_max)+')':'')+' · price: ask',q:o.ot_q,amt:null,miss:1,src:o.ot_src};}
-    if(S.h<=o.block) return {st:'na',why:'Fits the venue\'s '+o.block+'-hour block',q:o.ot_q};
+    if(S.h<=o.block) return {st:'na',why:'Fits the venue\'s '+o.block+'-hour block'+(o.block_note?' ('+o.block_note+')':''),q:o.ot_q,src:o.ot_src};
+    if(o.ot_hr){const hh=Math.ceil(S.h-o.block-1e-9);return {st:'venue',why:hh+' h past the '+o.block+'-hour block × '+money(o.ot_hr)+' per hour'+(o.block_note?' ('+o.block_note+')':''),q:o.ot_q,amt:hh*o.ot_hr,src:o.ot_src};}
     const halves=(S.h-o.block)*2; return {st:'venue',why:(S.h-o.block)+' hour(s) past the '+o.block+'-hour block = '+halves+' × '+money(o.ot_half)+' per half hour'+(o.ot_note?'. '+o.ot_note:''),q:o.ot_q,amt:halves*o.ot_half};
   }
   if(!f) return {st:'unk',why:'Not stated'};
   switch(f.t){
     case 'inc': return {st:'inc',why:f.note||'Included',q:f.q,amt:0};
     case 'pp': {const P=(D.pkgs||{})[l.id];let rate=f.rate,nm='',q=f.q,n=g,kid='',ka=0;
-      if(P){const p=pk(l.id);rate=p.rate;nm=p.name+': ';q=p.q;}
+      if(P){const p=pk(l.id);if(p.base){const b=rateOf(p),ex=Math.max(0,g-p.incl)*p.extra[S.day],own=(p.own_pp||0)*g;
+          return {st:'venue',why:p.name+': '+money(b)+' base (≤'+p.incl+' guests)'+(ex?' + '+(g-p.incl)+' × '+money(p.extra[S.day]):'')+(own?' + your caterer '+money(p.own_pp)+' × '+g+' = '+money(own):''),q:p.q,amt:b+ex+own,svc_amt:b+ex,src:p.src,svc:1};}
+        rate=rateOf(p);nm=p.name+': ';q=p.q;if(rate==null)return {st:'unk',why:p.name+': no price for this day',q};}
       const K=D.kids&&D.kids.line===l.id?D.kids:null;
       if(K&&S.k){ka=S.k*K.rate;kid=' + '+S.k+' children × '+money(K.rate);}
       return {st:f.st||'venue',why:nm+money(rate)+' × '+n+' adults'+kid+(P?'':'. '+f.note),q,amt:rate*n+ka,svc:f.svc,tax:f.tax};}
     case 'bar': {const BP=(D.barpkgs||{})[S.alc],bp=BP?(BP.find(b=>b.id===S.pkg['bar_'+S.alc])||BP[0]):null;
       if(bp&&bp.cash)return {st:'venue',why:bp.name+'. Set-up fee for 2 bars; drinks are paid by guests',q:bp.q,amt:bp.setup};
-      const r=bp?bp.rate:f.rates[S.alc];let a=r*g,why=(bp?bp.name:f.names[S.alc])+': '+money(r)+' × '+g+' guests, '+f.hours+' h',miss=0;
+      const r=bp?bp.rate:f.rates[S.alc],BH=(bp&&bp.hours)||f.hours;let a=r*g,why=(bp?bp.name:f.names[S.alc])+': '+money(r)+' × '+g+' guests, '+BH+' h'+(bp&&bp.rate_note?' ('+bp.rate_note+')':''),miss=0;
       if(bp&&bp.q)f=Object.assign({},f,{q:bp.q});
       const XB=xbNow();if(XB&&(bp?bp.extra:(f.extra||{})[S.alc]))why+=' · +'+XB+' extra h (next line)';
-      if(S.h>f.hours+XB)why+=' · bar '+(f.hours+XB)+' of '+S.h+' h'+(XB?' (venue limit)':': add extra hours under Bar package');
+      if(S.h>BH+XB)why+=' · bar '+(BH+XB)+' of '+S.h+' h'+(XB?' (venue limit)':': add extra hours under Bar package');
       if(f.min&&g<f.min) why+='. Needs at least '+f.min+' guests';
       if(S.k) why+='. Counted for adults only; whether children are charged: ask';
       return {st:'venue',why,q:f.q,amt:a,svc:1,tax:1,miss};}
@@ -206,13 +213,18 @@ function line0(l,o){
     case 'na': return {st:'na',why:f.note,q:f.q};
     case 'own': return {st:'own',why:f.note+': '+money(f.rate)+' × '+g+' guests',q:f.q,amt:f.rate*g,src:f.src||'ours'};
     case 'req_over': return g<=f.over?{st:'na',why:'Only required over '+f.over+' guests',q:f.q}:{st:'req',why:f.note+' · price unknown',q:f.q,amt:null,miss:1};
-    case 'credit': return {st:'inc',why:f.note,q:f.q,amt:0,credit:f.amt};
+    case 'credit': return {st:'inc',why:f.note,q:f.q,amt:0,credit:f.amt,credit_text:f.credit_text};
+    case 'fixed': return {st:'venue',why:f.note,q:f.q,amt:f.amt,svc:f.svc};
+    case 'base': {const ex=Math.max(0,T()-f.incl)*f.per;return {st:'venue',why:money(f.amt)+' (≤'+f.incl+' guests)'+(ex?' + '+(T()-f.incl)+' × '+money(f.per)+' = '+money(f.amt+ex):'')+(f.note?' · '+f.note:''),q:f.q,amt:f.amt+ex,svc:f.svc};}
+    case 'tier': {const t=f.tiers.find(z=>T()<=z.max);if(!t)return {st:'req',why:f.note+' · over '+f.tiers[f.tiers.length-1].max+' guests: price unknown',q:f.q,amt:null,miss:1};
+      return t.amt==null?{st:'req',why:f.note+' · '+t.label+': price unknown',q:f.q,amt:null,miss:1}:{st:t.inc?'inc':'venue',why:f.note+' · '+t.label,q:f.q,amt:t.amt};}
+    case 'req_if': {const on=(f.alc&&S.alc!=='none')||(f.over&&T()>f.over);return on?{st:'req',why:f.note+' · price unknown',q:f.q,amt:null,miss:1}:{st:'na',why:'Not needed: '+f.off_note,q:f.q};}
   }
   return {st:'unk',why:'Not stated'};
 }
 function barX(){if(S.alc==='none'||S.alc==='byo')return null;const BP=(D.barpkgs||{})[S.alc],bp=BP?(BP.find(b=>b.id===S.pkg['bar_'+S.alc])||BP[0]):null;let f=D.facts.bar_alcohol;if(f&&f.byopt)f=null;
   if(!bp&&!(f&&f.t==='bar'))return null;if(bp&&bp.cash)return {off:1};
-  const x=bp?bp.extra:(f.extra||{})[S.alc];return x?{x,name:bp?bp.name:(f.names||{})[S.alc]||'',q:bp?(bp.xq||bp.q):(f.xq||{})[S.alc]||f.q,hours:f?f.hours:null}:{off:1};}
+  const x=bp?bp.extra:(f.extra||{})[S.alc];return x?{x,name:bp?bp.name:(f.names||{})[S.alc]||'',q:bp?(bp.xq||bp.q):(f.xq||{})[S.alc]||f.q,hours:(bp&&bp.hours)||(f?f.hours:null)}:{off:1};}
 function barMax(){if(D.bar_xmax!=null)return {n:D.bar_xmax,why:'venue limit'+(D.bar_xmax_q?' ("'+D.bar_xmax_q+'")':'')};
   const b=barX(),e=D.options.map(o=>o.end_max);
   if(b&&b.hours&&e.length&&e.every(v=>v!=null))return {n:Math.max(0,Math.floor(Math.max(...e)-START-b.hours)),why:'stops at the venue latest end time'};
@@ -226,24 +238,31 @@ function cost(o){
       x:{st:'venue',why:(a.unit==='pp'?money(a.rate)+' × '+T()+' guests':'Flat')+(a.note?'. '+a.note:''),q:a.q,amt,svc:a.svc,tax:a.tax}});});
   {const b=barX(),XB=xbNow();if(b&&!b.off&&XB){const amt=XB*b.x*S.g;
     const bi=rows.findIndex(r=>r.l.id==='bar_alcohol');rows.splice(bi<0?rows.length:bi+1,0,{l:{id:'add-xbar',name:'Extra bar hours',group:bi<0?'Bar':rows[bi].l.group,unit:'per guest per hour'},x:{st:'venue',why:XB+' extra hour'+(XB>1?'s':'')+' × $'+b.x.toFixed(2)+' × '+S.g+' guests = '+money(amt)+' ('+b.name+')'+(S.k?'. Counted for adults only':''),q:b.q,amt,svc:1,tax:1}});}}
-  rows.forEach(({l,x})=>{if((D.out_scope||['valet','planner']).includes(l.id)&&x.st!=='req'&&x.st!=='na')x.out=1;});
+  rows.forEach(({l,x})=>{if((D.out_scope||['valet','planner']).includes(l.id)&&!['req','na','inc'].includes(x.st))x.out=1;});
+  if(D.svc_all)rows.forEach(({x})=>{if(x.st==='venue'&&x.amt&&!x.apart&&!x.out&&x.pct===undefined&&!x.min)x.svc=1;});
   let base=0,svcBase=0,taxBase=0;
-  rows.forEach(({x})=>{if(x.amt&&!x.apart&&!x.out){base+=x.amt;if(x.svc)svcBase+=x.amt;if(x.tax)taxBase+=x.amt;}});
+  rows.forEach(({x})=>{if(x.amt&&!x.apart&&!x.out){base+=x.amt;if(x.svc)svcBase+=(x.svc_amt??x.amt);if(x.tax)taxBase+=(x.svc_amt??x.amt);}});
   rows.forEach(({x})=>{
     if(x.pct!==undefined){const b=x.on==='svc'?svcBase:taxBase;x.amt=b*x.pct/100;x.why=x.pct+'% of '+money(b)+' ('+x.why+')';}
   });
   // service charge is taxed? not stated -> tax on packages only
-  rows.forEach(({x})=>{if(x.min){const f=x.min,fb=svcBase,dayOk=f.days.includes(S.day);
-    if(!dayOk){x.st='na';x.why='Minimum applies '+f.days_text+' only';x.amt=0;}
-    else if(fb>=f.hi){x.amt=0;x.why='F&B '+money(fb)+' ≥ '+money(f.lo)+'–'+money(f.hi)+' minimum: $0 extra';}
-    else {x.amt=Math.max(0,f.hi-fb);x.why='F&B '+money(fb)+' < top of '+money(f.lo)+'–'+money(f.hi)+' minimum: up to '+money(x.amt)+' extra';}}});
+  const FNB=['catering_food','catering_dessert','bar_alcohol','add-xbar','cake_cutting'];let fnbBase=0;rows.forEach(({l,x})=>{if(x.amt&&!x.apart&&!x.out&&x.st==='venue'&&(FNB.includes(l.id)||l.id.startsWith('add-')))fnbBase+=x.amt;});
+  const noMin=Object.keys(D.pkgs||{}).some(id=>pk(id).no_min);
+  rows.forEach(({x})=>{if(x.min){let f=x.min;const fb=fnbBase;
+    if(f.byday){const v=f.byday[S.day];f=Object.assign({},f,{lo:v,hi:v,days:v==null?[]:[S.day],days_text:'on other days'});}
+    if(noMin){x.st='na';x.why='No minimum with the chosen package';x.amt=0;return;}
+    const dayOk=f.days.includes(S.day);
+    if(!dayOk){x.st='na';x.why=f.byday?'No minimum stated for this day':'Minimum applies '+f.days_text+' only';x.amt=0;}
+    else if(fb>=f.hi){x.amt=0;x.why='F&B '+money(fb)+' ≥ '+money(f.lo)+(f.hi!==f.lo?'–'+money(f.hi):'')+' minimum: $0 extra';}
+    else {x.amt=Math.max(0,f.hi-fb);x.why='F&B '+money(fb)+' < '+(f.hi!==f.lo?'top of '+money(f.lo)+'–':'')+money(f.hi)+' minimum: '+(f.hi!==f.lo?'up to ':'')+money(x.amt)+' extra';}}});
+  if(D.min_plusplus){const sh=rows.reduce((z,{x})=>z+(x.min&&x.amt?x.amt:0),0);if(sh)rows.forEach(({x})=>{if(x.pct!==undefined&&x.on==='svc'){x.amt+=sh*x.pct/100;x.why+=' + '+x.pct+'% of the '+money(sh)+' minimum top-up';}});}
   let tot=0,unk=0,rq=[],dep=null;
   let known=0,all=0,cred=0;
   rows.forEach(({l,x})=>{if(x.credit)cred+=x.credit;if(x.out)return;if(!['na','flag'].includes(x.st)){all++;if(x.amt!=null)known++;}if(x.st==='unk')unk++;if(x.miss)rq.push(l.name);if(x.amt&&!x.apart)tot+=x.amt;if(x.apart)dep=x;});
   return {rows,tot,unk,rq,dep,known,all,cred};
 }
 function priceAt(g,h){const og=S.g,oh=S.h;S.g=g;S.h=h;
-  const R=D.options.filter(o=>g+S.k<=o.max).map(o=>({o,c:cost(o)})).sort((a,b)=>a.c.tot-b.c.tot);
+  const R=D.options.filter(o=>g+S.k<=o.max&&rentOf(o)!==null).map(o=>({o,c:cost(o)})).sort((a,b)=>a.c.tot-b.c.tot);
   let r=R.find(x=>x.o.id===S.pick)||R[0];S.g=og;S.h=oh;return r?{pp:r.c.tot/(g+S.k),sp:r.o.name}:null;}
 function strip(id,el,key,fmt){const sl=$(el),mn=+sl.min,mx=+sl.max,st=+sl.step,vals=[];for(let v=mn;v<=mx+1e-9;v+=st)vals.push(+v.toFixed(2));
   const P=vals.map(v=>key==='g'?priceAt(v,S.h):priceAt(S.g,v)),ok=P.filter(Boolean).map(p=>p.pp),hi=Math.max(...ok),lo=Math.min(...ok);
@@ -255,9 +274,9 @@ function barList(){const BA=[{id:'none',alc:'none',name:'No bar',rate:0}].concat
   return BA.sort((a,b)=>(a.rate||0)-(b.rate||0));}
 // Lowest / Highest: cheapest or priciest choice in every dropdown (space, menu, bar), add-ons off
 function scen(hi){const keep={pkg:Object.assign({},S.pkg),alc:S.alc,add:S.add,xbHand:S.xbHand,xb:S.xb};
-  const pk0={};Object.entries(D.pkgs||{}).forEach(([id,P])=>{const s=[...P].sort((a,b)=>a.rate-b.rate);pk0[id]=(hi?s[s.length-1]:s[0]).id;});
-  let bars=barList().filter(b=>b.id!=='none');if(!bars.length)bars=[{id:'none',alc:'none'}];
-  let opts=D.options.filter(o=>T()<=o.max);if(!opts.length)opts=[D.options.reduce((a,o)=>o.max>a.max?o:a)];
+  const pk0={};Object.entries(D.pkgs||{}).forEach(([id,P])=>{const eff=p=>p.base?(rateOf(p)+Math.max(0,T()-p.incl)*p.extra[S.day]+(p.own_pp||0)*T())/T():(rateOf(p)||0);const s=[...P].sort((a,b)=>eff(a)-eff(b));pk0[id]=(hi?s[s.length-1]:s[0]).id;});
+  let bars=barList().filter(b=>b.id!=='none');if(!bars.length)bars=[{id:keep.alc,alc:keep.alc}];
+  let opts=D.options.filter(o=>T()<=o.max&&rentOf(o)!==null);if(!opts.length)opts=[D.options.reduce((a,o)=>o.max>a.max?o:a)];
   let best=null;S.add={};S.xbHand=0;
   opts.forEach(o=>bars.forEach(b=>{S.pkg=Object.assign({},keep.pkg,pk0);S.alc=b.alc;if(b.alc!=='none'&&b.alc!=='byo')S.pkg['bar_'+b.alc]=b.id;
     const r=cost(o);if(!best||(hi?r.tot>best.c.tot:r.tot<best.c.tot))best={o,b,c:r};}));
@@ -265,7 +284,7 @@ function scen(hi){const keep={pkg:Object.assign({},S.pkg),alc:S.alc,add:S.add,xb
 function pk(id){const P=D.pkgs[id];return P.find(x=>x.id===S.pkg[id])||P[0];}
 function renderPk(){let h='';
   Object.entries(D.pkgs||{}).forEach(([id,P])=>{const p=pk(id);
-    h+='<div class="row"><b>'+(D.lines.find(l=>l.id===id)||{name:id}).name+'</b><div><select data-pk="'+id+'">'+P.map(x=>'<option value="'+x.id+'"'+(x.id===p.id?' selected':'')+'>'+x.name+' — '+money(x.rate)+' per adult</option>').join('')+'</select>'+
+    h+='<div class="row"><b>'+(D.lines.find(l=>l.id===id)||{name:id}).name+'</b><div><select data-pk="'+id+'">'+P.map(x=>'<option value="'+x.id+'"'+(x.id===p.id?' selected':'')+'>'+x.name+' — '+(x.base?money(rateOf(x))+' base ≤'+x.incl+' + '+money(x.extra[S.day])+'/extra guest':money(rateOf(x)||0)+' per adult')+'</option>').join('')+'</select>'+
       '<div class="pd">'+(p.show||p.desc||'')+sup(p.src||D.src_default)+'</div>'+(D.pkg_common_show&&D.pkg_common_show[id]?'<div class="pd"><b>All packages include:</b> '+D.pkg_common_show[id]+sup(D.src_default)+'</div>':'')+(p.note?'<div class="pd">'+p.note+'</div>':'')+'</div></div>';});
   const BA=barList();
   if(BA.length>1){const cur=S.alc==='none'?'none':S.alc==='byo'?'byo':(S.pkg['bar_'+S.alc]||D.barpkgs[S.alc][0].id),b=BA.find(x=>x.id===cur)||BA[0];
@@ -288,14 +307,14 @@ function renderPk(){let h='';
 function draw(){renderPk();
   if(document.activeElement!==$('gn'))$('gn').value=S.g;if(D.kids){$('kidbox').style.display='';$('kv').textContent=S.k;$('kl').textContent=money(D.kids.rate)+' each: '+D.kids.menu;}$('gl').textContent=D.lockG+(S.k?' (adults + children)':'');$('gl').className='lock'+(T()>=D.bigmax?' on':'');$('hl').textContent=D.lockH;$('hl').className='lock'+(D.lockH.startsWith('🔒')&&S.h>=+$('h').max?' on':'');$('hv').textContent=S.h+' h · ends '+clock(START+S.h);
   strip('g','g','g',v=>v+' guests');strip('h','h','h',v=>v+' h');
-  const R=D.options.map(o=>({o,fits:T()<=o.max,c:cost(o)}));
+  const R=D.options.map(o=>({o,fits:T()<=o.max&&rentOf(o)!==null,c:cost(o)}));
   const fit=R.filter(r=>r.fits).sort((a,b)=>a.c.tot-b.c.tot);
   const auto=fit[0]?fit[0].o.id:null;
   let cur=R.find(r=>r.o.id===(S.pick||auto));
   if(cur&&!cur.fits){S.pick=null;cur=R.find(r=>r.o.id===auto);}
   // option cards
   $('opts').innerHTML=R.map(r=>{const o=r.o,end=START+S.h;let tags='';
-    if(!r.fits) tags+='<span class="tag red">Too small: max '+o.max+'</span>';
+    if(rentOf(o)===null) tags+='<span class="tag red">Not offered this day</span>';else if(!r.fits) tags+='<span class="tag red">Too small: max '+o.max+'</span>';
     else tags+='<span class="tag">Fits '+o.max+'</span>';
     if(r.fits&&r.o.id===auto) tags+='<span class="tag">Cheapest that fits</span>';
     tags+= o.end!=null?'<span class="tag '+(o.end_max!=null&&end>o.end_max?'red':'grey')+'">Rent covers to '+clock(o.end)+(o.end_max!=null&&o.end_max>o.end?' (paid to '+clock(o.end_max)+')':o.end_max==null?' · latest end: ask':'')+'</span>':'<span class="tag grey">End time: ask</span>';
@@ -326,7 +345,7 @@ function draw(){renderPk();
     const w=r.insertCell();w.className='why';w.innerHTML=(x.why||'')+(x.src?sup(x.src):'')+'';
     [LO.m[l.id],HI.m[l.id]].forEach(y=>{const cc=r.insertCell();cc.className='n';cc.innerHTML=l.id.startsWith('add-')?'<span class="dash">—</span>':fig(y,v);});
     const pc=r.insertCell();pc.className='n pick';pc.innerHTML=fig(x,v)+(x.apart?'<div class="q">paid early, not in total</div>':'');
-    const cr=r.insertCell();cr.className='n';cr.innerHTML=x.credit?'<span class="cred">'+money(x.credit)+'</span>':'';
+    const cr=r.insertCell();cr.className='n';cr.innerHTML=x.credit?'<span class="cred">'+money(x.credit)+'</span>':x.credit_text?'<span class="cred">'+x.credit_text+'</span>':'';
     const oc=r.insertCell();oc.className='n out';oc.innerHTML=x.out?(x.amt!=null?'<span class="'+(v?'var':'')+'">'+money(x.amt)+'</span>':CH[x.st][1]):'';
   });
   const pl=(z)=>money(z.tot)+(z.unk||z.rq.length?'+':'');
@@ -345,12 +364,13 @@ function draw(){renderPk();
  else {$('h').max=24-START;D.lockH='Stops at midnight: latest end not stated, ask';}
  const blk=D.options.map(o=>o.block).filter(b=>b!=null);
  if(blk.length){D.min_h=Math.max(...blk);D.lockH=D.min_h+' h in rent'+(D.lockH.startsWith('🔒')?' · '+D.lockH:' · midnight max, latest end: ask');}
- const priced=D.options.some(o=>o.ot_half)||D.lines.some(l=>{const f=D.facts[l.id];return f&&f.extra&&Object.values(f.extra).some(v=>v);});
+ const priced=D.options.some(o=>o.ot_half||o.ot_hr||o.rent_unit==='hr')||D.lines.some(l=>{const f=D.facts[l.id];return f&&f.extra&&Object.values(f.extra).some(v=>v);});
  if(!priced)D.hours_fixed=D.hours_fixed||('Flat fee'+(blk.length?' for '+Math.max(...blk)+' hours':'')+'. No extra-hour price listed: ask.');
- if(D.min_h){$('h').min=D.min_h;S.h=Math.max(S.h,D.min_h);$('h').value=S.h;}}
+ if(D.min_h&&!D.no_min_h){$('h').min=D.min_h;S.h=Math.max(S.h,D.min_h);$('h').value=S.h;}}
 
 if(D.photos&&D.photos.length>1){$('pics').innerHTML=D.photos.slice(1).map(u=>'<a href="'+D.photos[0]+'" target="_blank"><img loading="lazy" src="'+u+'" alt="" onerror="this.parentNode.remove()"></a>').join('')+'';$('picsrc').innerHTML='Photos link to the venue’s own site: <a href="'+D.photos[0]+'" target="_blank">'+D.photos[0].replace(/^https?:\/\/(www\.)?/,'').replace(/\/$/,'')+'</a>';}
 if(D.cake_fixed){$('cakebox').innerHTML='<label>Wedding cake</label><div class="hfix" style="display:block">'+D.cake_fixed+'</div>';S.cake=1;}
+if(D.seasons){$('seasonbox').style.display='';$('season').innerHTML=D.seasons.map((z,i)=>'<button data-v="'+z.id+'"'+(i===(D.season_default||0)?' class="on"':'')+'>'+z.name+'</button>').join('');S.season=D.seasons[D.season_default||0].id;seg('season','season');if(D.season_note){$('seasonn').style.display='block';$('seasonn').innerHTML=D.season_note;}}
 if(D.day_note){$('dayn').style.display='block';$('dayn').innerHTML=D.day_note;}
 if(D.cer_note)$('cern').innerHTML=D.cer_note;S.cer=1;
 function fixHours(t){['h','hs','hx','hl'].forEach(i=>$(i).style.display='none');$('hfix').style.display='block';$('hfix').innerHTML=t;}
@@ -398,14 +418,14 @@ function summary(c,LO,HI,VAR){const T0=$('sum');const cnt=x=>!x.out&&!x.apart&&!
   const GR=grouped(c.rows);h+='<tr class="acc" id="accrow"><td colspan="6"><span class="tog">'+(S.openCat?'▼':'▶')+'</span>By category ('+GR.length+')</td></tr>';
   if(S.openCat)GR.forEach(([g,L],i)=>{const a=col(L,LO),b=col(L,HI),p=col(L,null),add=g.startsWith('Add-ons');
     const all=L.filter(r=>cnt(r.x)).length,known=L.filter(r=>cnt(r.x)&&r.x.amt!=null).length;
-    const cr=L.reduce((z,r)=>z+(r.x.credit||0),0),ou=L.filter(r=>r.x.out),os=ou.reduce((z,r)=>z+(r.x.amt||0),0);
+    const cr=L.reduce((z,r)=>z+(r.x.credit||0),0),ct=L.filter(r=>r.x.credit_text).length,ou=L.filter(r=>r.x.out),os=ou.reduce((z,r)=>z+(r.x.amt||0),0);
     const op=!!S.open[g];
     h+='<tr class="cat" data-g="'+g+'"><td><span class="tog">'+(op?'▼':'▶')+'</span>'+g+'<div class="q">'+known+'/'+all+' known</div></td>'+
       '<td class="n">'+(add?'<span class="dash">—</span>':fmt(a.s,a.u,a.v))+'</td><td class="n">'+(add?'<span class="dash">—</span>':fmt(b.s,b.u,b.v))+'</td><td class="n pick">'+fmt(p.s,p.u,p.v)+'</td>'+
-      '<td class="n">'+(cr?'<span class="cred">'+money(cr)+'</span>':'')+'</td><td class="n out">'+(ou.length?(os?money(os):ou.length+' line'+(ou.length>1?'s':'')+', —'):'')+'</td></tr>';
+      '<td class="n">'+(cr?'<span class="cred">'+money(cr)+'</span>':'')+(ct?'<span class="cred">'+ct+' perk'+(ct>1?'s':'')+'</span>':'')+'</td><td class="n out">'+(ou.length?(os?money(os):ou.length+' line'+(ou.length>1?'s':'')+', —'):'')+'</td></tr>';
     if(op)L.forEach(({l,x})=>{const v=VAR(l,x),f1=y=>!y||y.out||!cnt(y)&&y.st!=='na'&&!y.apart?'<span class="dash">—</span>':y.amt==null?(y.st==='na'?'$0':'<span class="dash">—</span>'):'<span class="'+(v?'var':'')+'">'+money(y.amt)+'</span>';
       h+='<tr class="sub'+(x.st==='na'?' dim':'')+'"><td>'+l.name+' <span class="chip '+CH[x.st][0]+'">'+CH[x.st][1]+'</span></td><td class="n">'+(add?'':f1(LO.m[l.id]))+'</td><td class="n">'+(add?'':f1(HI.m[l.id]))+'</td><td class="n pick">'+f1(x)+'</td>'+
-        '<td class="n">'+(x.credit?'<span class="cred">'+money(x.credit)+'</span>':'')+'</td><td class="n out">'+(x.out?(x.amt!=null?money(x.amt):CH[x.st][1]):'')+'</td></tr>';});});
+        '<td class="n">'+(x.credit?'<span class="cred">'+money(x.credit)+'</span>':x.credit_text?'<span class="cred">'+x.credit_text+'</span>':'')+'</td><td class="n out">'+(x.out?(x.amt!=null?money(x.amt):CH[x.st][1]):'')+'</td></tr>';});});
   T0.innerHTML=h;$('accrow').onclick=()=>{S.openCat=!S.openCat;draw();};T0.querySelectorAll('tr.cat').forEach(r=>r.onclick=()=>{S.open[r.dataset.g]=!S.open[r.dataset.g];draw();});}
 function srcList(c){const Q={};const add=(id,q)=>{if(!q)return;id=id||D.src_default;(Q[id]=Q[id]||new Set()).add(q);};
   c.rows.forEach(({x})=>add(x.src,x.q));
@@ -428,7 +448,7 @@ function extras(){
   if(D.alc_label)b+='<span class="pol">Alcohol: '+D.alc_label+'</span>';$('acts').innerHTML=b;}
 function tab(w){['price','detail'].forEach(x=>{$('tab-'+x).hidden=x!==w;document.querySelector('.tabs [data-t='+x+']').classList.toggle('on',x===w);});}
 document.querySelectorAll('.tabs button').forEach(b=>b.onclick=()=>tab(b.dataset.t));
-header();detail();extras();
-if(!(D.barpkgs||{})[S.alc])S.alc=D.byo&&D.byo.allowed?'byo':'none';
+header();detail();extras();if(D.test_case)$('testcase').textContent=' · test: '+D.test_case;
+if(!(D.barpkgs||{})[S.alc])S.alc=D.byo&&D.byo.allowed?'byo':(D.barpkgs?'none':'venue');
 draw();
 </script></body></html>
