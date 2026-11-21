@@ -325,6 +325,11 @@ function srcList(c){const Q={};const add=(id,q)=>{if(!q)return;id=id||D.src_defa
 function extras(){if(!D.kids&&!(D.notes||[]).some(n=>n.kid))(D.notes=D.notes||[]).push({t:'Open question: child price (not stated; children are counted as adults for now).',kid:1});
   $('notes').innerHTML=(D.notes||[]).length?'<div class="notes"><b>Notes</b><ul>'+D.notes.map(n=>'<li>'+n.t+(n.src?sup(n.src):'')+'</li>').join('')+'</ul></div>':'';
   /* sources drawn in draw() */
+  {const SM=(D.sm||[]).filter(x=>x&&/^https?:\/\//.test(x[0]));const E=t=>String(t==null?'':t).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+   const TY={video:'Video',couple_story:'Couple story',news:'News',vendor_page:'Vendor post',venue_page:'Listing'};
+   const li=x=>'<li><a href="'+E(x[0])+'" target="_blank" rel="noopener">'+E(x[2]||x[1]||'Link')+'</a> <span class="fs">· '+E(x[1]||'')+(x[3]?' · '+E(x[3]):'')+(x[4]!=='venue_page'&&TY[x[4]]?' · '+TY[x[4]]:'')+'</span></li>';
+   const st=SM.filter(x=>x[4]!=='venue_page'),ls=SM.filter(x=>x[4]==='venue_page');
+   $('posts').innerHTML=SM.length?'<div class="posts"><b>Posts about this venue</b>'+(st.length?'<h4>Stories &amp; videos</h4><ul>'+st.map(li).join('')+'</ul>':'')+(ls.length?'<h4>Listed on other sites</h4><ul>'+ls.map(li).join('')+'</ul>':'')+'</div>':'';}
   const A=D.allfacts;if(A&&Object.keys(A).length){let h='<button id="fb">Sources: all facts we have, by topic</button><div class="fl">';
     Object.entries(A).forEach(([k,L])=>{h+='<h4>'+k.replace(/_/g,' ').replace(/^./,c=>c.toUpperCase())+'</h4><ul>'+L.map(x=>'<li>'+x[0]+' <span class="fs">· '+(x[2]?'<a href="'+x[2]+'" target="_blank">'+(x[3]||'source')+'</a>':(x[3]||''))+(x[1]&&x[1]!==x[0]&&x[1].length<220?' · “'+x[1]+'”':'')+'</span></li>').join('')+'</ul>';});
     $('facts').innerHTML=h+'</div>';$('fb').onclick=()=>$('facts').classList.toggle('open');}

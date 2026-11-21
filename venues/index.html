@@ -96,7 +96,7 @@ table.price{border-collapse:collapse;min-width:1050px;width:100%;background:var(
   <button class="btn" id="mapbtn">Show map</button>
  </div>
  <div class="chips">
-  <label><input type="checkbox" id="hp"> Price known</label><label><input type="checkbox" id="byo"> BYO allowed</label><label><input type="checkbox" id="ho"> Outdoor space</label>
+  <label><input type="checkbox" id="hp"> Price known</label><label><input type="checkbox" id="byo"> BYO allowed</label><label><input type="checkbox" id="ho"> Outdoor space</label><label title="Posts, stories, videos and listings about this venue on other sites"><input type="checkbox" id="sm"> Has posts about it</label>
   <label><input type="checkbox" id="unnamed"> Include <span id="un"></span> unnamed marketplace listings</label>
   <label><input type="checkbox" id="resto"> Show <span id="rn"></span> restaurants with no wedding or 100+ guest evidence</label>
   <button class="btn" id="reset" style="padding:5px 12px">Clear</button><span class="count" id="count">Loading the venue list</span>
@@ -118,7 +118,7 @@ function passes(r){const q=$('q').value.trim().toLowerCase(),c=$('county').value
  if(!$('unnamed').checked&&r[24])return false;if(!$('resto').checked&&r[29])return false;if(c&&r[3]!==c)return false;if(g&&!(r[7]>=g))return false;if(l&&!(r[18]>=l))return false;if(ca&&r[19]!==ca)return false;const pk=$('pk').value,ou=$('out').value,kn=r[32]?(r[32].length>3?r[32][2]:r[32][0]):0,os=r[31]?r[31][0]:'none';
  if(pk&&!(pk==='most'?kn>=5:pk==='some'?kn>=2&&kn<5:pk==='little'?kn===1:kn===0))return false;
  if(ou&&!(ou===os||(ou==='any'&&os!=='none'&&os!=='waiting')))return false;
- if($('hp').checked&&!r[9])return false;if($('byo').checked&&r[20]!=='Venue bar or BYO'&&r[20]!=='BYO only')return false;if($('ho').checked&&!r[10])return false;
+ if($('hp').checked&&!r[9])return false;if($('sm').checked&&!r[33])return false;if($('byo').checked&&r[20]!=='Venue bar or BYO'&&r[20]!=='BYO only')return false;if($('ho').checked&&!r[10])return false;
  if(q&&!(r[1]+' '+r[2]+' '+r[14]).toLowerCase().includes(q))return false;return true}
 const OUTRANK={complete:0,emails:1,replied:2,sent:3,waiting:4};
 function cmp(a,b){const last=1e15,dir=asc?1:-1;if(sortK==='k'){const x=a[32]?(a[32][2]||0)*100+a[32][0]:-1,y=b[32]?(b[32][2]||0)*100+b[32][0]:-1;return (y-x)*dir||b[23]-a[23]}
@@ -283,8 +283,8 @@ function details(d,B){if(!d){B.appendChild(el('div','note','No further details f
 (()=>{const t=document.querySelector('.top');if(!t)return;const set=()=>document.documentElement.style.setProperty('--toph',(getComputedStyle(t).position==='sticky'?t.offsetHeight:0)+'px');set();new ResizeObserver(set).observe(t);addEventListener('resize',set)})();
 fetch('data/venues.json').then(r=>{if(!r.ok)throw Error(r.status);return r.json()}).then(j=>{D=j.rows;MOVED=j.moved||{};SHEET=!!j.sheet;$('un').textContent=D.filter(r=>r[24]).length.toLocaleString();$('rn').textContent=D.filter(r=>r[29]).length.toLocaleString();
  [...new Set(D.map(r=>r[3]).filter(Boolean))].sort().forEach(c=>$('county').appendChild(el('option','',c)));apply();route()}).catch(e=>{$('count').textContent='The venue list could not be loaded ('+e.message+')'});
-['q','county','minG','late','cater','pk','out','hp','byo','ho','unnamed','resto'].forEach(i=>$(i).addEventListener('input',apply));
-$('reset').onclick=()=>{['q','county','minG','late','cater','pk','out'].forEach(i=>$(i).value='');['hp','byo','ho','unnamed','resto'].forEach(i=>$(i).checked=false);sortK='rel';asc=true;mark();apply()};
+['q','county','minG','late','cater','pk','out','hp','byo','ho','unnamed','resto','sm'].forEach(i=>$(i).addEventListener('input',apply));
+$('reset').onclick=()=>{['q','county','minG','late','cater','pk','out'].forEach(i=>$(i).value='');['hp','byo','ho','unnamed','resto','sm'].forEach(i=>$(i).checked=false);sortK='rel';asc=true;mark();apply()};
 function mark(){document.querySelectorAll('th').forEach(t=>t.classList.toggle('sorted',t.dataset.s===sortK))}
 document.querySelectorAll('th[data-s]').forEach(th=>th.onclick=()=>{const k=th.dataset.s;asc=sortK===k?!asc:true;sortK=k;mark();shown.sort(cmp);limit=50;draw()});
 $('more').onclick=()=>{limit+=50;draw()};window.addEventListener('hashchange',route);
