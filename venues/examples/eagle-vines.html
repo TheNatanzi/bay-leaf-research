@@ -149,8 +149,8 @@ function line(l,o){
       if(bp&&bp.cash)return {st:'venue',why:bp.name+'. Set-up fee for 2 bars; drinks are paid by guests',q:bp.q,amt:bp.setup};
       const r=bp?bp.rate:f.rates[S.alc];let a=r*g,why=(bp?bp.name:f.names[S.alc])+': '+money(r)+' × '+g+' guests for '+f.hours+' hours',miss=0;
       if(bp&&bp.q)f=Object.assign({},f,{q:bp.q});
-      const XB=xbNow();if(XB&&(bp?bp.extra:(f.extra||{})[S.alc]))why+='. Plus '+XB+' extra bar hour(s): see Add-ons';
-      if(S.h>f.hours+XB)why+='. Bar runs '+(f.hours+XB)+' h of your '+S.h+' h event'+(XB?': venue limit reached':': add extra bar hours under Add-ons');
+      const XB=xbNow();if(XB&&(bp?bp.extra:(f.extra||{})[S.alc]))why+='. Plus '+XB+' extra bar hour(s): see under Bar package';
+      if(S.h>f.hours+XB)why+='. Bar runs '+(f.hours+XB)+' h of your '+S.h+' h event'+(XB?': venue limit reached':': add extra bar hours under Bar package');
       if(f.min&&g<f.min) why+='. Needs at least '+f.min+' guests';
       if(S.k) why+='. Counted for adults only; whether children are charged: ask';
       return {st:'venue',why,q:f.q,amt:a,svc:1,tax:1,miss};}
@@ -178,7 +178,7 @@ function cost(o){
     rows.push({l:{id:'add-'+a.id,name:a.name,group:'Add-ons you ticked',unit:a.unit==='pp'?'per guest':'per event'},
       x:{st:'venue',why:(a.unit==='pp'?money(a.rate)+' × '+T()+' guests':'Flat')+(a.note?'. '+a.note:''),q:a.q,amt,svc:a.svc,tax:a.tax}});});
   {const b=barX(),XB=xbNow();if(b&&!b.off&&XB){const amt=XB*b.x*S.g;
-    rows.push({l:{id:'add-xbar',name:'Extra bar hours',group:'Add-ons you ticked',unit:'per guest per hour'},x:{st:'venue',why:XB+' extra hour'+(XB>1?'s':'')+' × $'+b.x.toFixed(2)+' × '+S.g+' guests = '+money(amt)+' ('+b.name+')'+(S.k?'. Counted for adults only':''),q:b.q,amt,svc:1,tax:1}});}}
+    const bi=rows.findIndex(r=>r.l.id==='bar_alcohol');rows.splice(bi<0?rows.length:bi+1,0,{l:{id:'add-xbar',name:'Extra bar hours',group:bi<0?'Bar':rows[bi].l.group,unit:'per guest per hour'},x:{st:'venue',why:XB+' extra hour'+(XB>1?'s':'')+' × $'+b.x.toFixed(2)+' × '+S.g+' guests = '+money(amt)+' ('+b.name+')'+(S.k?'. Counted for adults only':''),q:b.q,amt,svc:1,tax:1}});}}
   let base=0,svcBase=0,taxBase=0;
   rows.forEach(({x})=>{if(x.amt&&!x.apart){base+=x.amt;if(x.svc)svcBase+=x.amt;if(x.tax)taxBase+=x.amt;}});
   rows.forEach(({x})=>{
@@ -208,12 +208,13 @@ function renderPk(){let h='';
       (p.items?'<ul class="inc-l">'+p.items.map(i=>'<li>'+i+'</li>').join('')+'</ul>':'<div class="pd">'+(p.desc||'')+'</div>')+(D.pkg_common&&D.pkg_common[id]?'<div class="pd"><b>Every package also includes:</b> '+D.pkg_common[id]+'</div>':'')+(p.note?'<div class="pd">'+p.note+'</div>':'')+'</div></div>';});
   const BA=[{id:'none',alc:'none',name:'No bar',rate:0}].concat(...Object.entries(D.barpkgs||{}).map(([k,v])=>v.map(x=>Object.assign({alc:k},x)))).sort((a,b)=>a.rate-b.rate);
   if(BA.length>1){const cur=S.alc==='none'?'none':(S.pkg['bar_'+S.alc]||D.barpkgs[S.alc][0].id),b=BA.find(x=>x.id===cur)||BA[0];
-    h+='<div class="row"><b>Bar package</b><div><select data-bar="1">'+BA.map(x=>'<option value="'+x.id+'"'+(x.id===b.id?' selected':'')+'>'+x.name+(x.cash?' — '+money(x.setup)+' set-up, guests pay':x.rate?' — '+money(x.rate)+' per guest':'')+'</option>').join('')+'</select>'+(b.items?'<ul class="inc-l">'+b.items.map(i=>'<li>'+i+'</li>').join('')+'</ul>':'<div class="pd">'+(b.desc||'')+'</div>')+'</div></div>';}
+    h+='<div class="row"><b>Bar package</b><div><select data-bar="1">'+BA.map(x=>'<option value="'+x.id+'"'+(x.id===b.id?' selected':'')+'>'+x.name+(x.cash?' — '+money(x.setup)+' set-up, guests pay':x.rate?' — '+money(x.rate)+' per guest':'')+'</option>').join('')+'</select>'+(b.items?'<ul class="inc-l">'+b.items.map(i=>'<li>'+i+'</li>').join('')+'</ul>':'<div class="pd">'+(b.desc||'')+'</div>')+'%%XB%%</div></div>';}
   let xr='';{const b=barX();if(b){if(b.off)xr='<div class="ad"><span><b>Extra bar hours</b> · <span class="dash">—</span> not offered with this bar package</span></div>';
     else{const m=barMax(),X=xbNow(),need=b.hours?Math.max(0,Math.ceil(S.h-b.hours-1e-9)):0;
       const note=S.xbHand?'set by hand; moving the hours slider or changing the bar package recalculates it':(b.hours?'auto: event '+S.h+' hrs, package covers '+b.hours+(need>m.n?', capped at '+m.n:''):'');
       xr='<div class="ad"><span class="step"><button data-xb="-1"'+(X<=0?' disabled':'')+'>−</button><b>'+X+'</b><button data-xb="1"'+(X>=m.n?' disabled':'')+'>+</button></span><span><b>Extra bar hours</b> · $'+b.x.toFixed(2)+' per guest per hour ('+b.name+(b.hours?', '+b.hours+' h included':'')+')'+(X?' · <b>'+X+' × $'+b.x.toFixed(2)+' × '+S.g+' guests = '+money(X*b.x*S.g)+'</b>':'')+'<span class="pd"> · max '+m.n+': '+m.why+'</span>'+(note?'<div class="pd">'+note+'</div>':'')+'</span></div>';}}}
-  if((D.addons||[]).length||xr){h+='<div class="row"><b>Add-ons</b><div>'+xr+(D.addons||[]).map(a=>'<label class="ad"><input type="checkbox" data-ad="'+a.id+'"'+(S.add[a.id]?' checked':'')+'><span><b>'+a.name+'</b> · '+(a.unit==='unknown'?money(a.rate)+' (unit not stated)':a.unit==='pp'||a.kids?money(a.rate)+(a.kids?' each':' per guest'):money(a.amt))+
+  h=h.replace('%%XB%%',xr?'<div class="xbar" style="margin-top:.5rem;padding-top:.5rem;border-top:1px dashed #b8c0cc">'+xr+'</div>':'');
+  if((D.addons||[]).length){h+='<div class="row"><b>Add-ons</b><div>'+(D.addons||[]).map(a=>'<label class="ad"><input type="checkbox" data-ad="'+a.id+'"'+(S.add[a.id]?' checked':'')+'><span><b>'+a.name+'</b> · '+(a.unit==='unknown'?money(a.rate)+' (unit not stated)':a.unit==='pp'||a.kids?money(a.rate)+(a.kids?' each':' per guest'):money(a.amt))+
     (a.kids&&S.add[a.id]?' · how many <input type="number" min="0" max="'+S.g+'" value="'+(S.n[a.id]||0)+'" data-n="'+a.id+'">':'')+(a.note?'<span class="pd"> · '+a.note+'</span>':'')+'</span></label>').join('')+'</div></div>';}
   if(h&&D.pkg_src)h+='<div class="q">Source for everything above: '+D.pkg_src+'. Exact wording is under each line in the cost table.</div>';
   if(!h)h='<div class="none">No packages or add-ons listed by this venue yet. The first email asks for them.</div>';
