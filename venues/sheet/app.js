@@ -54,6 +54,7 @@ function line0(l,o){
     case 'inc': return {st:'inc',why:f.note||'Included',q:f.q,amt:0};
     case 'pp': {const P=(D.pkgs||{})[l.id];let rate=f.rate,nm='',q=f.q,n=g,kid='',ka=0;
       if(P){const p=pk(l.id);if(p.base){const b=rateOf(p),ex=Math.max(0,g-p.incl)*p.extra[S.day],own=(p.own_pp||0)*g;if(p.own_ps&&D.PS&&D.PS[p.own_ps]){p.own_pp=S.hiPrice&&D.PS[p.own_ps].hi!=null?D.PS[p.own_ps].hi:D.PS[p.own_ps].lo;}
+          if((p.own_pp!=null||p.own_ps)&&!b&&!ex)return {st:'na',why:p.name+': food priced on the next line from your price sheet'+((D.facts.outside_cater_fee||{}).rate?'; the venue fee is its own line':'; any venue fee for outside caterers: ask'),q:p.q,amt:0,src:p.src,own_food:{rate:p.own_pp,g}};
           return {st:'venue',why:p.name+' (venue service, no food): '+money(b)+' base (≤'+p.incl+' guests)'+(ex?' + '+(g-p.incl)+' × '+money(p.extra[S.day]):''),q:p.q,amt:b+ex,src:p.src,svc:1,own_food:{rate:p.own_pp,g}};}
         rate=rateOf(p);nm=p.name+': ';q=p.q;if(rate==null)return {st:'unk',why:p.name+': no price for this day',q};}
       const K=D.kids&&D.kids.line===l.id?D.kids:null;
