@@ -64,7 +64,7 @@ table.price{border-collapse:collapse;min-width:1050px;width:100%;background:var(
 .price tr.sub td{border-top:2px solid #5a6072}.price tr.tot td{font-weight:700;font-size:1.1rem;border-top:2px solid #fff}
 .price .opt{color:#8f97a8;font-size:.85rem;font-weight:400}.pt .opt{color:#8f97a8;font-size:.9rem}
 .pt sup{color:#fff}
-td.replied{color:var(--good);font-weight:600}
+.pill{display:inline-block;padding:3px 10px;border-radius:999px;font-size:.88rem;font-weight:600;white-space:nowrap;border:1px solid var(--line);background:var(--bg);color:var(--soft)}.pill.st-sent{color:var(--accent);background:var(--accentbg);border-color:transparent}.pill.st-replied,.pill.st-emails{color:var(--good);background:var(--goodbg);border-color:transparent}.pill.st-complete{color:#fff;background:var(--good);border-color:transparent}
 .legend{display:flex;flex-wrap:wrap;gap:14px;margin-top:12px;font-size:.92rem}.legend span::before{content:"";display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px;background:currentColor}
 .legend .fix{color:#fff}.legend .var{color:#c9a2ff}.legend .pick{color:#6cb8ff}.legend .credit{color:#ffbf4d}.legend .inc{color:#a9b1c2}
 .notes{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:14px}.notes h3{margin:10px 0 6px;font-size:1.05rem}.notes h3:first-child{margin-top:0}.notes ul{margin:0;padding-left:20px}.notes li{margin:4px 0;overflow-wrap:anywhere}
@@ -92,7 +92,7 @@ td.replied{color:var(--good);font-weight:600}
   <select id="late" aria-label="Closing time"><option value="">Any closing time</option><option value="1320">Open to 10 PM or later</option><option value="1380">Open to 11 PM or later</option><option value="1440">Open to midnight or later</option></select>
   <select id="cater" aria-label="Catering"><option value="">Any catering</option><option>In-house required</option><option>In-house or outside OK</option><option>Approved caterer list only</option><option>Outside caterer only</option></select>
   <select id="pk" aria-label="Pricing known"><option value="">Any pricing info</option><option value="most">Most key costs known (5+ of 10)</option><option value="some">Some key costs known (2-4)</option><option value="little">1 key cost known</option><option value="zero">No key costs known yet</option></select>
-  <select id="out" aria-label="Outreach"><option value="">Any outreach</option><option value="none">Not contacted</option><option value="any">Contacted (sent or replied)</option><option value="replied">Replied</option><option value="form_sent">Form sent</option><option value="email_sent">Email sent</option><option value="auto_receipt">Auto-receipt only</option><option value="awaiting_robot_tick">Form needs robot tick</option><option value="queued">Queued, not sent</option></select>
+  <select id="out" aria-label="Contact stage"><option value="">Any contact stage</option><option value="none">Not contacted</option><option value="waiting">Waiting to send</option><option value="sent">Sent, no reply yet</option><option value="replied">Replied</option><option value="emails">Emails going back and forth</option><option value="complete">Contact complete</option><option value="any">Sent or further</option></select>
   <button class="btn" id="mapbtn">Show map</button>
  </div>
  <div class="chips">
@@ -103,7 +103,7 @@ td.replied{color:var(--good);font-weight:600}
  </div>
 </div>
 <div class="wrap">
- <div><table class="lst"><thead><tr><th data-s="rel" class="sorted">Venue</th><th data-s="g">Guests</th><th data-s="p">Price from</th><th data-s="c">Closes</th><th data-s="m">Music cutoff</th><th>Catering</th><th>Alcohol</th><th>Outdoor</th><th data-s="k" title="Out of 10 key costs: rent, food, bar, service charge, tax, F&amp;B minimum, overtime, ceremony fee, corkage, rentals">Key costs known</th><th data-s="o">Outreach</th></tr></thead><tbody id="tb"></tbody></table>
+ <div><table class="lst"><thead><tr><th data-s="rel" class="sorted">Venue</th><th data-s="g">Guests</th><th data-s="p">Price from</th><th data-s="c">Closes</th><th data-s="m">Music cutoff</th><th>Catering</th><th>Alcohol</th><th>Outdoor</th><th data-s="k" title="Out of 10 key costs: rent, food, bar, service charge, tax, F&amp;B minimum, overtime, ceremony fee, corkage, rentals">Key costs known</th><th data-s="o">Contact</th></tr></thead><tbody id="tb"></tbody></table>
   <button class="more" id="more">Show more</button></div>
  <div class="mapbox"><div id="map"></div></div>
 </div>
@@ -117,14 +117,15 @@ const el=(t,c,x)=>{const e=document.createElement(t);if(c)e.className=c;if(x!=nu
 function passes(r){const q=$('q').value.trim().toLowerCase(),c=$('county').value,g=+$('minG').value||0,l=+$('late').value||0,ca=$('cater').value;
  if(!$('unnamed').checked&&r[24])return false;if(!$('resto').checked&&r[29])return false;if(c&&r[3]!==c)return false;if(g&&!(r[7]>=g))return false;if(l&&!(r[18]>=l))return false;if(ca&&r[19]!==ca)return false;const pk=$('pk').value,ou=$('out').value,kn=r[32]?(r[32].length>3?r[32][2]:r[32][0]):0,os=r[31]?r[31][0]:'none';
  if(pk&&!(pk==='most'?kn>=5:pk==='some'?kn>=2&&kn<5:pk==='little'?kn===1:kn===0))return false;
- if(ou&&!(ou===os||(ou==='any'&&['replied','form_sent','email_sent','auto_receipt'].includes(os))||(ou==='queued'&&/queued/.test(os))))return false;
+ if(ou&&!(ou===os||(ou==='any'&&os!=='none'&&os!=='waiting')))return false;
  if($('hp').checked&&!r[9])return false;if($('byo').checked&&r[20]!=='Venue bar or BYO'&&r[20]!=='BYO only')return false;if($('ho').checked&&!r[10])return false;
  if(q&&!(r[1]+' '+r[2]+' '+r[14]).toLowerCase().includes(q))return false;return true}
-const OUTRANK={replied:0,auto_receipt:1,form_sent:2,email_sent:3,awaiting_robot_tick:4,form_queued:5,email_queued:6};
+const OUTRANK={complete:0,emails:1,replied:2,sent:3,waiting:4};
 function cmp(a,b){const last=1e15,dir=asc?1:-1;if(sortK==='k'){const x=a[32]?(a[32][2]||0)*100+a[32][0]:-1,y=b[32]?(b[32][2]||0)*100+b[32][0]:-1;return (y-x)*dir||b[23]-a[23]}
  if(sortK==='o'){const x=a[31]?(OUTRANK[a[31][0]]??8):9,y=b[31]?(OUTRANK[b[31][0]]??8):9;return (x-y)*dir||b[23]-a[23]}if(sortK==='m'){const x=a[28],y=b[28];if(x==null||y==null)return x==null&&y==null?b[23]-a[23]:(x==null?1:-1);return (x-y)*dir||b[23]-a[23]}if(sortK==='g')return ((b[7]||-1)-(a[7]||-1))*dir||b[23]-a[23];
  if(sortK==='p'){const u={event:0,person:1,hour:2};const x=a[16]==null?last:u[a[17]]*1e9+a[16],y=b[16]==null?last:u[b[17]]*1e9+b[16];return (x===last||y===last)?x-y:(x-y)*dir||b[23]-a[23]}
  if(sortK==='c')return ((b[18]||-1)-(a[18]||-1))*dir||b[23]-a[23];return (b[23]-a[23])*dir||a[1].localeCompare(b[1])}
+const MON=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];function fmtD(d){const m=/^\d{4}-(\d{2})-(\d{2})/.exec(d||'');return m?MON[+m[1]-1]+' '+(+m[2]):d}
 function td(text,key,cls){const t=el('td',cls||'');if(text){t.textContent=text}else{t.textContent='—';t.classList.add('none')}if(key)t.dataset.k=key;return t}
 function togSp(pid){if(openSet.has(pid))openSet.delete(pid);else openSet.add(pid);draw()}
 function pimg(u,c){const i=document.createElement('img');i.className=c;i.src=u;i.alt='';i.loading='lazy';i.referrerPolicy='no-referrer';i.onerror=()=>i.remove();return i}
@@ -140,7 +141,7 @@ function draw(){const tb=$('tb');tb.textContent='';shown.slice(0,limit).forEach(
  tr.appendChild(td(r[7]?'Up to '+r[7].toLocaleString():'','Guests','n'));tr.appendChild(td(r[9],'Price from','n'));tr.appendChild(td(r[8],'Closes','n'));
  tr.appendChild(td(r[26],'Music cutoff','n'));tr.appendChild(td(r[19],'Catering'));tr.appendChild(td(r[20],'Alcohol'));tr.appendChild(td(r[10]?'Yes':'','Outdoor'));
  const kt=td(r[32]&&r[32].length>3?r[32][2]+' of '+r[32][3]:'','Key costs known','n');if(r[32])kt.title=r[32][0]+' of '+r[32][1]+' cost lines known in all';tr.appendChild(kt);
- const ot=td(r[31]?r[31][1]+(r[31][2]?' · '+r[31][2].slice(5).replace('-','/'):''):'Not contacted','Outreach',r[31]&&r[31][0]==='replied'?'replied':'');if(!r[31])ot.classList.add('none');tr.appendChild(ot);
+ const ot=el('td','');ot.dataset.k='Contact';if(r[31]){const pl=el('span','pill st-'+r[31][0],r[31][1]+(r[31][2]?' · '+fmtD(r[31][2]):''));pl.title=r[31][3].map(x=>x[1]+(x[2]?' '+fmtD(x[2]):'')).join(' → ');ot.appendChild(pl)}else{ot.textContent='Not contacted';ot.classList.add('none')}tr.appendChild(ot);
  tr.onclick=()=>openVenue(r);tb.appendChild(tr);
  sp.forEach(s=>{const st=el('tr',open?'sp':'sp hide');st.appendChild(el('td','',s[0]));st.appendChild(td(s[1]?'Up to '+s[1].toLocaleString():'','Guests','n'));
   st.appendChild(td(s[2],'Price from','n'));for(let i=0;i<7;i++)st.appendChild(el('td'));tb.appendChild(st)})});

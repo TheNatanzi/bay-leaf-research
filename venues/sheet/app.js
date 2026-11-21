@@ -340,3 +340,10 @@ draw();
 // citation links: scroll to the source without touching the page address (the #v= venue id must stay)
 document.addEventListener('click',e=>{const a=e.target.closest&&e.target.closest('a[href^="#"]');if(!a)return;const id=a.getAttribute('href').slice(1);if(/^(v|id)=/.test(id))return;
   e.preventDefault();const t=document.getElementById(id);if(!t)return;t.scrollIntoView({block:'center'});t.classList.remove('flash');void t.offsetWidth;t.classList.add('flash');});
+
+// contact progress pills (row field 31 from the site: [key,label,date,stages]) + back to the venue list
+(function(){const M=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];const dt=d=>{const m=/^(\d{4})-(\d\d)-(\d\d)/.exec(d||'');return m?' · '+M[+m[2]-1]+' '+(+m[3]):'';};
+  const O=D.outreach,el=document.getElementById('cpill');if(el){if(!O||!O.length)el.innerHTML='<span class="cp none cur">Not contacted</span>';
+  else{const st=(O[3]&&O[3].length)?O[3]:[[O[0],O[1],O[2]]];el.innerHTML=st.map((x,i)=>'<span class="cp '+x[0]+(i===st.length-1?' cur':'')+'">'+x[1]+dt(x[2])+'</span>').join('<span class="cpa">&rarr;</span>');}}
+  const b=document.getElementById('back');if(b)b.onclick=e=>{try{const r=document.referrer?new URL(document.referrer):null,L=new URL('../',location.href);
+    if(r&&r.origin===L.origin&&r.pathname===L.pathname&&history.length>1){e.preventDefault();history.back();}}catch(_){}};})();
