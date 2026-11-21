@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Venue Sheet</title>
+<style>
+*{box-sizing:border-box}
+.pics{display:flex;gap:.5rem;overflow-x:auto;margin:0 0 1rem;padding-bottom:.3rem}
+.pics img{height:190px;border-radius:8px;flex:none;object-fit:cover;background:#ddd}
+
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;font-size:17px;background:#f5f5f5;color:#2d3142;margin:0;padding:1.5rem 1rem;line-height:1.4}
+.f{max-width:1100px;margin:0 auto}
+h1{font-size:1.8rem;font-weight:600;margin:.2rem 0 .8rem}
+h2{font-size:1.25rem;font-weight:600;margin:1.2rem 0 .5rem}
+.small{color:#4f5d75}
+.controls{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem 1.4rem;background:#fff;border:1px solid #ccc;border-radius:8px;padding:1.1rem 1.2rem;margin-bottom:1rem}
+.controls>div{display:flex;flex-direction:column;min-width:0}
+.controls label{font-weight:600;display:flex;justify-content:space-between;gap:.5rem;height:1.6rem;margin-bottom:.4rem;white-space:nowrap}
+.lock{font-size:15px;color:#4f5d75;height:1.4rem;margin-top:.2rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.strip{display:flex;align-items:flex-end;gap:2px;height:44px;margin-top:.3rem;cursor:pointer}
+.strip i{flex:1;background:#c9cfdb;border-radius:2px 2px 0 0;min-height:3px}
+.strip i.on{background:#2d3142}.strip i.x{background:#f3d3cb}
+.sx{display:flex;justify-content:space-between;font-size:14px;color:#4f5d75;margin-top:.15rem}
+.hfix{display:none;background:#f0f2f6;border-radius:6px;padding:.5rem .7rem;font-size:15px;line-height:1.35;margin-top:.2rem}
+.lock.on{color:#bf4520;font-weight:600}
+.controls label span{font-weight:400;color:#4f5d75;overflow:hidden;text-overflow:ellipsis}
+input[type=range]{width:100%;height:2.4rem;margin:0}
+.seg{display:flex;height:2.4rem;border:1px solid #2d3142;border-radius:6px;overflow:hidden}
+.seg button{flex:1;font:inherit;font-size:15px;padding:0 .4rem;border:0;border-left:1px solid #2d3142;background:#fff;cursor:pointer;white-space:nowrap;color:#2d3142}
+.seg button:first-child{border-left:0}
+.seg button.on{background:#2d3142;color:#fff}
+.opts{display:grid;gap:.35rem}
+.opt{display:grid;grid-template-columns:1rem 1fr auto;gap:.1rem .5rem;align-items:center;background:#fff;border:2px solid #ccc;border-radius:8px;padding:.35rem .6rem;cursor:pointer;font-size:15px}
+.opt.on{border-color:#2d3142;box-shadow:0 0 0 1px #2d3142}
+.opt.off{opacity:.55;cursor:not-allowed}
+.opt .dot{width:.85rem;height:.85rem;border-radius:50%;border:2px solid #2d3142}
+.opt.on .dot{background:#2d3142}
+.opt .nm{font-weight:600}
+.opt .pp{font-size:1.05rem;font-weight:700;text-align:right;white-space:nowrap}
+.opt .meta{grid-column:2/4;font-size:13px;color:#4f5d75;line-height:1.5}.opt .tag{font-size:12px;padding:0 .3rem}.spbox{grid-row:span 2}
+.tag{display:inline-block;font-size:14px;font-weight:600;border-radius:4px;padding:.05rem .4rem;margin-right:.3rem;background:#e3f2e8;color:#2f7d4f}
+.tag.red{background:#fde8e4;color:#bf4520}.tag.grey{background:#eee;color:#666}.tag.yel{background:#fff3cd;color:#8a5a00}
+.total{display:grid;grid-template-columns:repeat(4,1fr);gap:.8rem;margin-bottom:1rem}
+.card{background:#fff;border-radius:8px;padding:.9rem 1rem;border:2px solid #2d3142}
+.card b{display:block;font-size:2rem}
+.card.warn{border-color:#c98a00;background:#fff8e6}
+.card.apart{border-color:#888}
+.flag{background:#fff3cd;border:2px solid #c98a00;border-radius:8px;padding:.7rem 1rem;margin-bottom:.6rem;font-weight:600}
+.flag.red{background:#fde8e4;border-color:#bf4520}
+table{border-collapse:collapse;width:100%;background:#fff}
+td,th{border-bottom:1px solid #e2e2e2;padding:.45rem .6rem;text-align:left;vertical-align:top}
+th{background:#2d3142;color:#fff;font-weight:600}
+tr.g td{background:#e9e4dc;font-weight:700}
+td.amt{text-align:right;white-space:nowrap;font-weight:600}
+.chip{display:inline-block;font-size:14px;font-weight:600;border-radius:4px;padding:.1rem .45rem;white-space:nowrap}
+.inc{background:#eef0f3;color:#2d3142}.venue{background:#eef0f3;color:#2d3142}.own{background:#eef0f3;color:#2d3142}
+.req{background:#fde8e4;color:#bf4520}.unk{background:#f3f4f6;color:#8a929e}.na{background:#f6f6f6;color:#a0a6ae}.apart{background:#eef0f3;color:#2d3142}.flagc{background:#eef0f3;color:#2d3142}
+.q{font-size:14px;color:#4f5d75;margin-top:.2rem}
+tr.dim td{color:#aaa}
+@media(max-width:900px){.controls{grid-template-columns:1fr 1fr}.total{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.controls{grid-template-columns:1fr}.total{grid-template-columns:1fr}}
+
+.hdr{display:flex;flex-wrap:wrap;gap:.3rem 1rem;align-items:baseline;margin:-.4rem 0 .8rem;font-size:17px}
+.hdr a{color:#2d4a7a}.stars{font-weight:700}.rsrc{color:#4f5d75;font-size:15px}
+.tabs{display:flex;gap:0;border-bottom:2px solid #2d3142;margin:0 0 1rem}
+.tabs button{font:inherit;font-weight:600;padding:.55rem 1.4rem;border:2px solid #2d3142;border-bottom:0;background:#fff;color:#2d3142;cursor:pointer;border-radius:8px 8px 0 0;margin-right:.4rem}
+.tabs button.on{background:#2d3142;color:#fff}
+.dt td:first-child{width:28%}.dt .cov{font-size:14px;color:#4f5d75}
+.ask{background:#e6ecf5;color:#2d4a7a}.find{background:#e3f2e8;color:#2f7d4f}
+.dsum{background:#f3f4f7;border-radius:10px;padding:.6rem .9rem;margin:.2rem 0 .6rem}
+.dh{font-size:15px;letter-spacing:.05em;text-transform:uppercase;color:#4f5d75;margin:1.2rem 0 .4rem}
+.dl{border:1px solid #d9dbd5;border-radius:12px;overflow:hidden;background:#fff}
+.dr{display:grid;grid-template-columns:38% 1fr;gap:.8rem;padding:.6rem .9rem;border-top:1px solid #eceee9}.dr:first-child{border-top:0}
+.dk{font-weight:600}.dn{display:block;font-weight:400;font-size:14px;color:#6b7280}.dash{color:#9aa0a6;font-weight:700}
+.chip.src{background:#eef1f6;color:#4f5d75;font-size:13px}
+@media (max-width:600px){.dr{grid-template-columns:1fr;gap:.2rem}}
+.pk{background:#fff;border:1px solid #ccc;border-radius:8px;padding:.9rem 1.1rem;margin-bottom:1rem;display:grid;gap:.7rem}
+.pk .row{display:grid;grid-template-columns:11rem 1fr;gap:.6rem;align-items:start}
+.pk select{width:100%;font:inherit;padding:.35rem .4rem;border:1px solid #2d3142;border-radius:6px;max-width:100%}
+.pk .ad{display:flex;gap:.5rem;align-items:flex-start;margin:.15rem 0}.step{display:inline-flex;align-items:center;gap:.4rem;flex:none}.step button{width:2rem;height:2rem;border:1px solid #b8c0cc;border-radius:8px;background:#fff;font:700 18px Arial,sans-serif;cursor:pointer}.step button:disabled{opacity:.35;cursor:default}.step b{min-width:1.2rem;text-align:center}.dash{color:#8a94a6}.pk .ad span{min-width:0;overflow-wrap:anywhere}.pk .row>div{min-width:0}.pk .ad input[type=checkbox]{flex:none;width:1.2rem;height:1.2rem;margin-top:.15rem}
+.pk .ad input[type=number]{width:4.5rem;font:inherit;padding:.1rem .3rem}
+.pk .pd{font-size:15px;color:#4f5d75}.inc-l{margin:.35rem 0 .2rem;padding-left:1.2rem;font-size:15px}.inc-l li{margin:.1rem 0}.pk .none{color:#4f5d75}
+@media(max-width:560px){.pk .row{grid-template-columns:1fr}}
+.acts{display:flex;flex-wrap:wrap;gap:.5rem;margin:-.2rem 0 1rem}.acts a{display:inline-block;padding:.45rem 1rem;border:2px solid #2d3142;border-radius:999px;color:#2d3142;text-decoration:none;font-weight:600;background:#fff}
+.acts .pol{display:inline-block;padding:.45rem .9rem;border-radius:999px;background:#efe6f7;color:#5b2d86;font-weight:600}
+#gn{width:5.5rem;font:inherit;font-weight:700;padding:.05rem .3rem;border:1px solid #1f5fbf;border-radius:6px;color:#1f5fbf;text-align:right}
+input[type=range]{accent-color:#1f5fbf}.pk select{color:#1f5fbf}.step b{color:#1f5fbf}
+.calc{color:#1f5fbf}
+.ct{border-collapse:collapse;width:100%;background:#fff;color:#111;border:1px solid #ccc;border-radius:10px;overflow:hidden}
+.ct td,.ct th{border-bottom:1px solid #e2e2e2;padding:.5rem .6rem;text-align:left;vertical-align:top}
+.ct th{background:#2d3142;color:#fff;font-weight:600}.ct th.pk{color:#9cc3ff}
+.ct td.n,.ct th.n{text-align:right;white-space:nowrap}.ct td.n{font-weight:600}
+.ct td.pick{background:#eef4fd}.ct .q{color:#4f5d75}.ct a{color:#1f5fbf}.ct tr.dim td{color:#a0a6ae}
+.ct tr.g td{background:#e9e4dc;color:#111;font-weight:700}.ct tr.tot td{font-weight:700;background:#fafafa;font-size:18px}.ct tr.tot+tr.tot td{border-bottom:2px solid #2d3142}
+.ct .var{color:#7b3fc4}.ct .cred{color:#b85c00}.ct .dash{color:#9aa0a6}.ct .out{color:#6b7280}
+.var{color:#7b3fc4}.cred{color:#b85c00}
+#sum tr.cat{cursor:pointer}#sum tr.cat td:first-child{padding-left:1.4rem}#sum tr.sub td:first-child{padding-left:2.8rem!important}#sum tr.cat td:first-child{font-weight:700}#sum .tog{display:inline-block;width:1.1rem;color:#1f5fbf}#sum tr.acc td{cursor:pointer;font-weight:700;background:#f3f6fb;color:#1f5fbf}
+#sum tr.sub td{background:#fbfbfc;font-size:15px}#sum tr.sub td:first-child{padding-left:1.8rem;font-weight:400}
+.legend{display:flex;flex-wrap:wrap;gap:.4rem 1rem;align-items:center;background:#fff;border:1px solid #ccc;color:#111;border-radius:10px;padding:.55rem .9rem;margin:.5rem 0 1.2rem;font-size:15px}
+.legend b{font-weight:700}
+
+sup a{color:#1f5fbf;text-decoration:none;font-weight:700}
+.notes,.srcs{background:#fff;border:1px solid #ccc;border-radius:8px;padding:.7rem 1.1rem;margin-top:1rem}.notes li,.srcs li{margin:.25rem 0}
+.flag.dis{background:#fdf0e3;border-color:#b85c00}
+.facts{margin-top:1rem}.facts button{font:inherit;font-weight:600;padding:.45rem 1rem;border:2px solid #2d3142;border-radius:8px;background:#fff;cursor:pointer}
+.facts .fl{display:none;background:#fff;border:1px solid #ccc;border-radius:8px;padding:.6rem 1.1rem;margin-top:.6rem}.facts.open .fl{display:block}
+.facts h4{margin:.8rem 0 .2rem}.facts .fs{font-size:14px;color:#4f5d75}
+@media(max-width:700px){#t td.why,#t th.why{display:none}#t{min-width:560px}#t td,#t th{padding:.4rem .4rem}}
+#t .qq{display:none}#t.showq .qq{display:block}
+</style></head><body><div class="f">
+<p class="small">Bay Leaf · Cost per head · venue sheet · updated 2026-11-20<span id="testcase"></span></p>
+<h1 id="nm"></h1>
+<div class="hdr" id="hdr"></div>
+<div class="acts" id="acts"></div>
+
+<div class="pics" id="pics"></div><p class="small" id="picsrc" style="margin:-.6rem 0 1rem;font-size:15px"></p>
+<div class="tabs"><button data-t="price" class="on">Price</button><button data-t="detail">Detail</button></div>
+<div id="tab-price">
+<h2>Cost summary</h2>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch"><table class="ct" id="sum"></table></div>
+<div class="legend"><span><b>Black</b> fixed</span><span style="color:#7b3fc4"><b>Purple</b> moves with guests/hours</span><span style="color:#1f5fbf"><b>Blue</b> your choice</span><span style="color:#b85c00"><b>Orange</b> credit</span><span style="color:#8a929e"><b>—</b> unknown</span><span style="color:#4f5d75"><b>+</b> more costs unknown</span><span style="color:#4f5d75">Lowest/Highest = cheapest/priciest pick in every dropdown, no add-ons</span></div>
+<div class="controls">
+  <div><label>Adults <input id="gn" type="number" min="1" step="1" title="Type any number"></label><input id="g" type="range" min="50" max="600" step="10" value="300"><div class="strip" id="gs"></div><div class="sx" id="gx"></div><div class="lock" id="gl"></div></div>
+  <div id="kidbox" style="display:none"><label>Children under 12 <span id="kv"></span></label><input id="k" type="range" min="0" max="100" step="5" value="0"><div class="lock" id="kl"></div></div>
+  <div class="spbox"><label>Space <span>cheapest that fits · tap to compare</span></label><div class="opts" id="opts"></div></div>
+  <div><label>Hours with guests <span id="hv"></span></label><input id="h" type="range" min="3" max="10" step="0.5" value="6"><div class="strip" id="hs"></div><div class="sx" id="hx"></div><div class="lock" id="hl"></div><div class="hfix" id="hfix"></div></div>
+  <div><label>Day</label><div class="seg" id="day"><button data-v="sat" class="on">Saturday</button><button data-v="fs">Fri / Sun</button><button data-v="mt">Mon–Thu</button></div><div class="hfix" id="dayn"></div></div>
+  <div id="seasonbox" style="display:none"><label>Season</label><div class="seg" id="season"></div><div class="hfix" id="seasonn"></div></div>
+  <div><label>Ceremony and reception</label><div class="hfix" id="cern" style="display:block"></div></div>
+  <div id="cakebox"><label>Wedding cake</label><div class="seg" id="cake"><button data-v="1" class="on">On</button><button data-v="0">Off</button></div></div>
+</div>
+
+<h2>Packages and add-ons <span class="small" style="font-weight:400;font-size:16px">· cheapest picked · add-ons off</span></h2>
+<div class="pk" id="pk"></div>
+<div id="flags"></div>
+<div class="total">
+  <div class="card"><span>Your pick, per guest</span><b id="pp"></b><span id="tot"></span></div>
+  <div class="card warn"><span>Costs known</span><b id="unk"></b><span id="unkl"></span></div>
+  <div class="card warn"><span>Required, price unknown</span><b id="rq"></b><span id="rql"></span></div>
+  <div class="card apart"><span>Cash needed early</span><b id="dep"></b><span id="depl"></span></div>
+</div>
+
+<h2>All cost lines</h2>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch"><table class="ct" id="t"><tr><th>Line</th><th class="why">Why / source</th><th class="n" title="Cheapest choice in every dropdown, no add-ons">Lowest</th><th class="n" title="Priciest choice in every dropdown, no add-ons">Highest</th><th class="n pk">Your pick</th><th class="n">Credit</th><th class="n" title="Valet and coordinator when the venue does not require them: shown, not counted">Outside scope</th></tr></table></div>
+<p class="small" style="margin-top:1rem">Status: <span class="chip inc">Included</span> <span class="chip venue">Venue price</span> <span class="chip own">Your price</span> <span class="chip req">Required</span> <span class="chip unk">Unknown</span> <span class="chip na">Not needed</span></p>
+<div id="notes"></div><div id="srcs"></div><div class="facts" id="facts"></div>
+</div>
+<div id="tab-detail" hidden></div>
+</div>
+<script>
+(async function(){const q=new URLSearchParams(location.search),h=/[#&]v=([^&]+)/.exec(location.hash);let pid=decodeURIComponent((h&&h[1])||q.get('v')||'');
+ const msg=t=>{document.getElementById('nm').textContent=t;};
+ if(!pid){msg('Pick a venue on the venue list first.');return;}
+ try{const C=await fetch('common.json').then(r=>r.json());if(C.moved&&C.moved[pid])pid=C.moved[pid];
+  const V=await fetch('d/'+pid.slice(-2)+'.json').then(r=>r.json());const v=V[pid];if(!v){msg('Venue not found: '+pid);return;}
+  const L=C.lines.slice();(v.lines_add||[]).forEach(a=>{const i=L.findIndex(x=>x.id===a.after);L.splice(i+1,0,a.l);});window.__D=Object.assign({dfinal:C.dfinal,PS:C.PS},v,{lines:L});
+  try{const F=await fetch(C.facts_path+pid.slice(-2)+'.json').then(r=>r.json());window.__D.allfacts=(F[pid]||{}).f||{};}catch(e){}
+  const s=document.createElement('script');s.src='app.js?b='+C.built;document.body.appendChild(s);}
+ catch(e){msg('Could not load this venue ('+e.message+').');}})();
+window.addEventListener('hashchange',()=>location.reload());
+</script></body></html>
