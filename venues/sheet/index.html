@@ -146,7 +146,7 @@ sup a{color:#1f5fbf;text-decoration:none;font-weight:700}
 <div id="tab-detail" hidden></div>
 </div>
 <script>
-(async function(){const q=new URLSearchParams(location.search),h=/[#&]v=([^&]+)/.exec(location.hash);let pid=decodeURIComponent((h&&h[1])||q.get('v')||'');
+(async function(){const q=new URLSearchParams(location.search),h=/[#&](?:v|id)=([^&]+)/.exec(location.hash);let pid=decodeURIComponent((h&&h[1])||q.get('v')||q.get('id')||'');
  const msg=t=>{document.getElementById('nm').textContent=t;};
  if(!pid){msg('Pick a venue on the venue list first.');return;}
  try{const C=await fetch('common.json').then(r=>r.json());if(C.moved&&C.moved[pid])pid=C.moved[pid];
