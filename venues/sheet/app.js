@@ -257,12 +257,12 @@ function draw(){renderPk();
 // photos follow the picked space (links only, never copies)
 function showPics(o){const key=o?o.name:'';if(showPics.k===key)return;showPics.k=key;
   const sp=o&&(D.space_photos||{})[o.photo_key||o.name.replace(/ \(hourly\)$/,'')],own=sp&&sp.photos&&sp.photos.length,G=D.gallery||{},gal=(G.photos||[]).length,home=D.photos&&D.photos.length>1?D.photos[0]:(gal?((G.pages||[])[0]||G.photos[0].found_on||G.photos[0].url):null);
-  const list=own?sp.photos.map(p=>({u:p.url,t:p.label||o.name,h:sp.page_url||p.found_on||p.url})):(D.photos&&D.photos.length>1?D.photos.slice(1).map(u=>({u,t:'',h:home})):G.photos?G.photos.map(p=>({u:p.url,t:p.label||'',h:p.found_on||home})):[]);
+  const list=(()=>{const L=own?sp.photos.map(p=>({u:p.url,t:p.label||o.name,h:sp.page_url||p.found_on||p.url})):[],S=new Set(L.map(x=>x.u));(D.photos&&D.photos.length>1?D.photos.slice(1):[]).forEach(u=>{if(!S.has(u)){S.add(u);L.push({u,t:'',h:home});}});(G.photos||[]).forEach(p=>{if(p&&p.url&&!S.has(p.url)){S.add(p.url);L.push({u:p.url,t:p.label||'',h:p.found_on||home});}});return L;})();
   $('pics').innerHTML=list.map(p=>'<a href="'+p.h+'" target="_blank" title="'+String(p.t).replace(/"/g,'')+'"><img loading="lazy" src="'+p.u+'" alt="" onerror="this.parentNode.remove()"></a>').join('');
   let c='';if(own)c='<b>'+o.name+'</b>';else if(home)c='Venue photos';
   if(sp&&sp.page_url)c+=(c?' · ':'')+'<a href="'+sp.page_url+'" target="_blank">See '+o.name+' photos</a>';
   if(sp&&!own)c+=(c?' · ':'')+'No photos of this space found; see link';
-  if(!own&&home)c+=' · <a href="'+home+'" target="_blank">'+home.replace(/^https?:\/\/(www\.)?/,'').replace(/\/$/,'').slice(0,40)+'</a>';
+  if(own&&list.length>own)c+=' · then venue photos';if(home)c+=' · <a href="'+home+'" target="_blank">'+home.replace(/^https?:\/\/(www\.)?/,'').replace(/\/$/,'').slice(0,40)+'</a>';
   $('picsrc').innerHTML=c;}
 
 if(D.cake_fixed){$('cakebox').innerHTML='<label>Wedding cake</label><div class="hfix" style="display:block">'+D.cake_fixed+'</div>';S.cake=1;}
