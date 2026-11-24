@@ -198,7 +198,7 @@ function draw(){renderPk();
   if(cur&&!cur.fits){S.pick=null;cur=R.find(r=>r.o.id===auto);}
   // option cards
   $('opts').innerHTML=R.map(r=>{const o=r.o,end=START+S.h;let tags='';
-    if(!avail(o)) tags+='<span class="tag red">Not offered this day</span>';else if(!r.fits) tags+='<span class="tag red">Too small: max '+o.max+'</span>';
+    if(!avail(o)) tags+='<span class="tag red">Not offered this day</span>';else if(o.max_unknown) tags+='<span class="tag">Capacity unknown</span>';else if(!r.fits) tags+='<span class="tag red">Too small: max '+o.max+'</span>';
     else tags+='<span class="tag">Fits '+o.max+'</span>';
     if(r.fits&&r.o.id===auto) tags+='<span class="tag">Cheapest that fits</span>';
     tags+= o.end!=null?'<span class="tag '+(o.end_max!=null&&end>o.end_max?'red':'grey')+'">Rent covers to '+clock(o.end)+(o.end_max!=null&&o.end_max>o.end?' (paid to '+clock(o.end_max)+')':o.end_max==null?' · latest end: ask':'')+'</span>':'<span class="tag grey">End time: ask</span>';
@@ -209,7 +209,7 @@ function draw(){renderPk();
   $('opts').querySelectorAll('.opt').forEach(el=>el.onclick=()=>{const r=R.find(r=>r.o.id===el.dataset.id);if(r.fits){S.pick=el.dataset.id;draw();}});
   const t=$('t'); t.querySelectorAll('tr:not(:first-child)').forEach(r=>r.remove());
   let f='';
-  if(!cur){const big=R.reduce((a,r)=>r.o.max>a.o.max?r:a);cur=big;f+='<div class="flag red">Over capacity: '+T()+' guests; largest space ('+big.o.name+') holds '+big.o.max+'. Figures use it anyway; hidden from the list at this size.</div>';}
+  if(!cur){const big=R.reduce((a,r)=>r.o.max>a.o.max?r:a);cur=big;f+='<div class="flag red">Over capacity: '+T()+' guests; largest space ('+big.o.name+') holds '+(big.o.max_unknown?'an unknown number (not stated)':big.o.max)+'. Figures use it anyway; hidden from the list at this size.</div>';}
   const c=cur.c,o=cur.o,end=START+S.h;showPics(o);
   if(o.end_max!=null&&end>o.end_max) f+='<div class="flag red">'+o.name+' must end by '+clock(o.end_max)+': a '+S.h+'-hour event from '+clock(START)+' is not possible here.</div>';
   (D.flags||[]).forEach(x=>f+='<div class="flag">'+x+'</div>');
@@ -244,7 +244,7 @@ function draw(){renderPk();
   if(c.dep){$('dep').textContent=money(c.dep.amt);$('depl').textContent=c.dep.why;}else{$('dep').textContent='—';$('depl').textContent='not stated';}
 }
 {const big=D.options.reduce((a,o)=>o.max>a.max?o:a);D.bigmax=big.max;$('g').max=big.max;if(big.max<=60){$('g').min=5;$('g').step=5;}else if(big.max<100){$('g').min=10;}S.g=Math.min(D.start_g||300,big.max);$('g').value=S.g;
- D.lockG='🔒 Max '+big.max+': size of '+big.name.replace(/ \(.*\)/,'');
+ D.lockG=big.max_unknown?'Capacity unknown: slider runs to 1,000':'🔒 Max '+big.max+': size of '+big.name.replace(/ \(.*\)/,'');
  const ends=D.options.map(o=>o.end_max);
  if(ends.every(e=>e!=null)){const e=Math.max(...ends);$('h').max=e-START;D.lockH='🔒 Ends by '+clock(e)+': venue rule';}
  else {$('h').max=24-START;D.lockH='Stops at midnight: latest end not stated, ask';}
