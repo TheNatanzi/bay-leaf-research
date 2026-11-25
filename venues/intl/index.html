@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bay Leaf International</title>
+<style>
+:root{--bg:#f6f6f4;--card:#fff;--ink:#23262f;--soft:#5d6577;--faint:#a3a9b6;--line:#e2e4e9;--accent:#b3541e;--accentbg:#fbefe7;--good:#2f7d4f;--goodbg:#e8f3ec;--warn:#8a5a00;--warnbg:#fff4d6}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#15171c;--card:#1f222a;--ink:#eceef3;--soft:#a9b1c2;--faint:#6b7386;--line:#343946;--accent:#f0a273;--accentbg:#3a2a20;--good:#7fcf9c;--goodbg:#1d3326;--warn:#ffd27a;--warnbg:#3a3020}}
+:root[data-theme="dark"]{--bg:#15171c;--card:#1f222a;--ink:#eceef3;--soft:#a9b1c2;--faint:#6b7386;--line:#343946;--accent:#f0a273;--accentbg:#3a2a20;--good:#7fcf9c;--goodbg:#1d3326;--warn:#ffd27a;--warnbg:#3a3020}
+*{box-sizing:border-box;font-style:normal}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Segoe UI',system-ui,Arial,sans-serif;font-size:17px;line-height:1.45}
+a{color:var(--accent)}button{font:inherit;color:var(--ink)}
+.top{background:var(--card);border-bottom:1px solid var(--line)}
+.bar{max-width:1280px;margin:0 auto;padding:12px 16px;display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.bar h1{font-size:1.3rem;font-weight:600;margin:0 8px 0 0}
+.tabs{display:flex;gap:6px}.tabs a{padding:8px 14px;border:1px solid var(--line);border-radius:10px;text-decoration:none;color:var(--ink);background:var(--bg)}.tabs a.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.wrap{max-width:1280px;margin:0 auto;padding:14px 16px 50px}
+.rate{color:var(--soft);margin:0 0 12px}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;cursor:pointer;display:flex;flex-direction:column}
+.card:hover{border-color:var(--accent)}
+.card img{width:100%;height:190px;object-fit:cover;background:var(--line);display:block}
+.card .b{padding:12px 14px;display:flex;flex-direction:column;gap:6px;flex:1}
+.nm{font-weight:600;font-size:1.08rem}.loc{color:var(--soft)}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:2px 10px}.kv .k{color:var(--soft)}
+.lab{color:var(--soft);font-size:.9rem}
+.warn{background:var(--warnbg);color:var(--warn);border-radius:8px;padding:6px 10px;font-size:.94rem}
+.badge{display:inline-block;background:var(--goodbg);color:var(--good);border-radius:8px;padding:3px 10px;font-size:.92rem}
+.btn{display:inline-block;padding:9px 14px;border:1px solid var(--line);border-radius:10px;background:var(--bg);text-decoration:none;color:var(--ink);cursor:pointer}.btn.main{background:var(--accent);border-color:var(--accent);color:#fff}
+.card .acts{margin-top:auto;padding-top:6px}
+#page{display:none}body.onpage #list{display:none}body.onpage #page{display:block}
+.head h2{margin:12px 0 2px;font-size:1.7rem;font-weight:600}
+.acts{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.photos{display:flex;gap:8px;overflow-x:auto;margin:12px 0;scroll-snap-type:x mandatory}.photos img{height:220px;max-width:85vw;object-fit:cover;border-radius:8px;flex:none;scroll-snap-align:start;background:var(--line)}
+.glance{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:8px;margin:14px 0}
+.cell{border:1px solid var(--line);border-radius:10px;padding:10px 12px;background:var(--card)}.cell .k{color:var(--soft);font-size:.9rem}.cell .v{font-weight:600}.cell .s{color:var(--soft);font-size:.9rem;font-weight:400}
+.sec{border-top:1px solid var(--line);margin-top:16px;padding-top:12px}.sec h3{font-size:1.08rem;font-weight:600;margin:0 0 6px}
+.sec ul,.sec ol{margin:0;padding-left:22px}.sec li{margin:5px 0}
+sup a{text-decoration:none;font-size:.8rem;padding:0 1px}
+.srcs li{overflow-wrap:anywhere;color:var(--soft);font-size:.94rem}.srcs q{color:var(--ink)}
+@media(max-width:600px){.photos img{height:180px}.head h2{font-size:1.4rem}}
+</style>
+</head>
+<body>
+<div class="top"><div class="bar"><h1>Bay Leaf venues</h1>
+ <nav class="tabs"><a href="../">Bay Area</a><a class="on" href="./">International</a></nav></div></div>
+<div class="wrap">
+ <div id="list"><p class="rate" id="rate"></p><div class="cards" id="cards"></div></div>
+ <div id="page"><button class="btn" id="back">← All international venues</button><div id="vbody"></div></div>
+</div>
+<script>
+const $=id=>document.getElementById(id);
+const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let DATA={venues:[]},RATE=null;
+const eur=n=>'€'+(+n).toLocaleString('en-US',{maximumFractionDigits:2});
+const usd=n=>'$'+(+n).toLocaleString('en-US',{minimumFractionDigits:0,maximumFractionDigits:0});
+function srcLabel(url,status){let h='';try{h=new URL(url).hostname.replace(/^www\./,'')}catch(e){h=url}
+ if(status==='directory_figure_not_venue_confirmed')return h+' (directory)';
+ if(status==='venue_website')return "from the venue's site";
+ return h}
+function warnParts(w){if(!w)return null;const q=/'([^']+)'/.exec(w);if(!q)return{t:w};
+ const n=(q[1].match(/\d+(?=\s*€)|(?<=unos\s)\d+/g)||[]).map(Number);const u=/about ([\d.]+) to ([\d.]+) USD/.exec(w);
+ const who=/^A ([^ ]+) reviewer/.exec(w);
+ const t=(who?'A '+who[1]+' reviewer':'A reviewer')+' says the real cost is higher'+(n.length>1?': about €'+n[0]+' to €'+n[n.length-1]+' per guest':'')+(u?' (about $'+Math.round(u[1])+' to $'+Math.round(u[2])+')':'')+'. Reviewer claim, not venue-confirmed.';
+ return{t,q:q[1]}}
+function price(v){const p=v.price||{};
+ if(p.per_guest_from_eur!=null)return{t:'from '+eur(p.per_guest_from_eur),u:'about '+usd(p.per_guest_from_usd),st:p.status,src:p.source,q:p.quote,warn:p.warning};
+ const e=p.per_guest_eur,u=p.per_guest_usd;
+ if(Array.isArray(e))return{t:eur(e[0])+' to '+eur(e[1]),u:'about '+usd(u[0])+' to '+usd(u[1]),st:p.status,src:p.source,q:p.quote,warn:p.warning};
+ if(e!=null)return{t:eur(e),u:'about '+usd(u),st:p.status,src:p.source,q:p.quote,warn:p.warning};
+ return{t:'Not published',u:'',note:p.note,warn:p.warning}}
+function cap(v){const c=v.capacity||{};const mx=c.max!=null?c.max:c.max_seated;
+ if(mx==null)return{t:'Unknown'};return{t:mx.toLocaleString()+(c.max_seated!=null&&c.max==null?' seated':''),st:c.status,src:c.source,q:c.quote,min:c.min}}
+const topicFact=(v,t)=>(v.facts||[]).find(f=>f.topic===t);
+function late(v){const f=topicFact(v,'hours');return f?f.summary:'Unknown'}
+function rooms(v){const f=topicFact(v,'lodging');return f?f.summary:'Unknown'}
+function card(v,i){const p=price(v),c=cap(v),ph=(v.photos||[])[0];
+ return `<div class="card" data-i="${i}">${ph?`<img loading="lazy" referrerpolicy="no-referrer" src="${esc(ph)}" alt="${esc(v.name)}" onerror="this.style.display='none'">`:''}
+ <div class="b"><div class="nm">${esc(v.name)}</div><div class="loc">${esc(v.city)}, ${esc(v.country)}</div>
+ ${v.venue_replied?'<div><span class="badge">Venue replied, no prices in writing</span></div>':''}
+ <div class="kv"><span class="k">Price per guest</span><span>${esc(p.t)}${p.u?' · '+esc(p.u):''}${p.st?`<br><span class="lab">${esc(srcLabel(p.src,p.st))}</span>`:''}</span>
+ <span class="k">Max guests</span><span>${esc(c.t)}</span>
+ <span class="k">Late limit</span><span>${esc(late(v))}</span>
+ <span class="k">Rooms on site</span><span>${esc(rooms(v))}</span></div>
+ ${p.warn?`<div class="warn">${esc(warnParts(p.warn).t)}</div>`:''}
+ <div class="acts">${v.website?`<a class="btn main" href="${esc(v.website)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Website</a>`:''}<span class="btn">Fact sheet</span></div></div></div>`}
+function drawList(){const r=DATA.exchange_rate;
+ $('rate').textContent=`${DATA.venues.length} venues. Prices in euros, dollars at 1 EUR = ${r.rate} USD (rate of ${r.date}).`;
+ $('cards').innerHTML=DATA.venues.map(card).join('');
+ document.querySelectorAll('.card').forEach(el=>el.onclick=()=>{location.hash='#v='+encodeURIComponent(DATA.venues[+el.dataset.i].id)})}
+const TOPIC={size:'Size',exclusivity:'Exclusivity',catering:'Catering',included:'What is included',service:'Service',services:'Services',ceremony:'Ceremony',hours:'Hours',music:'Music',lodging:'Lodging',parking:'Parking',terms:'Terms',payment:'Payment',deposit:'Deposit',minimums:'Minimums',price_extra:'Extra costs',pricing_structure:'How pricing works',tax:'Tax',discount:'Discounts',children:'Children',planner:'Planner',buyout:'Buyout',reviews:'Reviews'};
+function sheet(v){const S=[];const ref=(url,q,st)=>{if(!url)return'';let i=S.findIndex(s=>s.url===url&&s.q===q);if(i<0){S.push({url,q,st});i=S.length-1}return`<sup><a href="#s${i+1}">${i+1}</a></sup>`};
+ const p=price(v),c=cap(v);
+ let h=`<div class="head"><h2>${esc(v.name)}</h2><div class="loc">${esc(v.city)}${v.region?', '+esc(v.region):''}, ${esc(v.country)}${v.type?' · '+esc(v.type):''}</div></div>`;
+ if(v.venue_replied)h+='<p><span class="badge">Venue replied, no prices in writing</span></p>';
+ h+=`<div class="acts">${v.website?`<a class="btn main" href="${esc(v.website)}" target="_blank" rel="noopener">Visit website</a>`:''}${v.address?`<a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(v.name+', '+v.address)}">Map</a>`:''}</div>`;
+ if((v.photos||[]).length)h+=`<div class="photos">${v.photos.map(u=>`<img loading="lazy" referrerpolicy="no-referrer" src="${esc(u)}" alt="" onerror="this.style.display='none'">`).join('')}</div>`+(v.photos_note?`<p class="lab">${esc(v.photos_note)}</p>`:'');
+ h+=`<div class="glance">
+ <div class="cell"><div class="k">Price per guest</div><div class="v">${esc(p.t)}${p.q?ref(p.src,p.q,p.st):''}</div><div class="s">${esc(p.u)}${p.st?(p.u?' · ':'')+esc(srcLabel(p.src,p.st)):''}</div></div>
+ <div class="cell"><div class="k">Max guests</div><div class="v">${esc(c.t)}${c.q?ref(c.src,c.q,c.st):''}</div><div class="s">${c.min!=null?'minimum '+c.min:''}${c.st?' · '+esc(srcLabel(c.src,c.st)):''}</div></div>
+ <div class="cell"><div class="k">Late limit</div><div class="v">${esc(late(v))}</div></div>
+ <div class="cell"><div class="k">Rooms on site</div><div class="v">${esc(rooms(v))}</div></div></div>`;
+ const pr=v.price||{};
+ if(pr.warning){const w=warnParts(pr.warning);h+=`<div class="warn">Price warning: ${esc(w.t)}${w.q?ref(pr.directory_source||pr.source,w.q,'directory_figure_not_venue_confirmed'):''}</div>`}
+ const pl=[];if(pr.note)pl.push(esc(pr.note));
+ if(pr.directory_range_eur)pl.push(`Directory range ${eur(pr.directory_range_eur[0])} to ${eur(pr.directory_range_eur[1])} (about ${usd(pr.directory_range_usd[0])} to ${usd(pr.directory_range_usd[1])})`+ref(pr.directory_source,pr.directory_quote,'directory_figure_not_venue_confirmed')+' · '+esc(srcLabel(pr.directory_source,'directory_figure_not_venue_confirmed')));
+ if((v.capacity||{}).directory_max)pl.push('A directory lists up to '+v.capacity.directory_max+' guests');
+ if(pl.length)h+=`<div class="sec"><h3>Price and size notes</h3><ul>${pl.map(x=>'<li>'+x+'</li>').join('')}</ul></div>`;
+ if((v.spaces||[]).length)h+=`<div class="sec"><h3>Spaces</h3><ul>${v.spaces.map(s=>`<li><b>${esc(s.name)}</b>${s.capacity?' · '+s.capacity+' guests':''}${s.capacity_type?' ('+esc(s.capacity_type)+')':''}${s.use?' · '+esc(s.use):''}${s.quote?ref(s.source,s.quote,s.status):''}</li>`).join('')}</ul></div>`;
+ const by={};(v.facts||[]).forEach(f=>(by[f.topic]=by[f.topic]||[]).push(f));
+ Object.keys(by).forEach(t=>{h+=`<div class="sec"><h3>${esc(TOPIC[t]||t)}</h3><ul>${by[t].map(f=>`<li>${esc(f.summary)}${ref(f.source,f.quote,f.status)}</li>`).join('')}</ul></div>`});
+ const ct=v.contact||{};const cl=[];
+ if(ct.person)cl.push(esc(ct.person)+(ct.person_email?` · <a href="mailto:${esc(ct.person_email)}">${esc(ct.person_email)}</a>`:''));
+ if(ct.email)cl.push(`<a href="mailto:${esc(ct.email)}">${esc(ct.email)}</a>`);
+ (ct.phones||(ct.phone?[ct.phone]:[])).forEach(x=>cl.push(esc(x)));
+ if(v.address)cl.push(esc(v.address)+(v.address_status?' ('+esc(srcLabel('',v.address_status)).trim()+')':''));
+ if(cl.length)h+=`<div class="sec"><h3>Contact</h3><ul>${cl.map(x=>'<li>'+x+'</li>').join('')}</ul></div>`;
+ if((v.documents||[]).length)h+=`<div class="sec"><h3>Brochures</h3><ul>${v.documents.map(u=>`<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(decodeURIComponent(u.split('/').pop()))}</a></li>`).join('')}</ul></div>`;
+ if((v.unknown||[]).length)h+=`<div class="sec"><h3>Still unknown</h3><ul>${v.unknown.map(x=>'<li>'+esc(x)+'</li>').join('')}</ul></div>`;
+ if(S.length)h+=`<div class="sec"><h3>Sources</h3><ol class="srcs">${S.map((s,i)=>`<li id="s${i+1}"><q>${esc(s.q)}</q> · <a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(srcLabel(s.url,s.st))}</a></li>`).join('')}</ol></div>`;
+ return h}
+function route(){const m=/^#v=(.+)$/.exec(location.hash);const v=m&&DATA.venues.find(x=>x.id===decodeURIComponent(m[1]));
+ if(v){$('vbody').innerHTML=sheet(v);document.body.classList.add('onpage');document.title=v.name+' · Bay Leaf';scrollTo(0,0)}
+ else{document.body.classList.remove('onpage');document.title='Bay Leaf International'}}
+$('back').onclick=()=>{location.hash=''};
+addEventListener('hashchange',route);
+fetch('../data/international.json').then(r=>r.json()).then(d=>{d.venues.sort((a,b)=>a.name.localeCompare(b.name));DATA=d;drawList();route()})
+ .catch(()=>{$('cards').textContent='Could not load the international venues.'});
+</script>
+</body>
+</html>
