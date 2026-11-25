@@ -107,7 +107,7 @@ function sheet(v){const S=[];const ref=(url,q,st)=>{if(!url)return'';let i=S.fin
  if(pr.directory_range_eur)pl.push(`Directory range ${eur(pr.directory_range_eur[0])} to ${eur(pr.directory_range_eur[1])} (about ${usd(pr.directory_range_usd[0])} to ${usd(pr.directory_range_usd[1])})`+ref(pr.directory_source,pr.directory_quote,'directory_figure_not_venue_confirmed')+' · '+esc(srcLabel(pr.directory_source,'directory_figure_not_venue_confirmed')));
  if((v.capacity||{}).directory_max)pl.push('A directory lists up to '+v.capacity.directory_max+' guests');
  if(pl.length)h+=`<div class="sec"><h3>Price and size notes</h3><ul>${pl.map(x=>'<li>'+x+'</li>').join('')}</ul></div>`;
- if((v.spaces||[]).length)h+=`<div class="sec"><h3>Spaces</h3><ul>${v.spaces.map(s=>`<li><b>${esc(s.name)}</b>${s.capacity?' · '+s.capacity+' guests':''}${s.capacity_type?' ('+esc(s.capacity_type)+')':''}${s.use?' · '+esc(s.use):''}${s.quote?ref(s.source,s.quote,s.status):''}</li>`).join('')}</ul></div>`;
+ if((v.spaces||[]).length)h+=`<div class="sec"><h3>Spaces</h3><ul>${v.spaces.map(s=>`<li><b>${esc(s.name)}</b>${s.capacity?' · '+s.capacity+' guests':''}${s.capacity_type?' ('+esc(s.capacity_type)+')':''}${s.use?' · '+esc(s.use):''}${s.quote?ref(s.source,s.quote,s.status):''}${s.photo?` · <a href="${esc(s.photo)}" target="_blank" rel="noopener">photo</a>`:''}</li>`).join('')}</ul></div>`;
  const by={};(v.facts||[]).forEach(f=>(by[f.topic]=by[f.topic]||[]).push(f));
  Object.keys(by).forEach(t=>{h+=`<div class="sec"><h3>${esc(TOPIC[t]||t)}</h3><ul>${by[t].map(f=>`<li>${esc(f.summary)}${ref(f.source,f.quote,f.status)}</li>`).join('')}</ul></div>`});
  const ct=v.contact||{};const cl=[];
