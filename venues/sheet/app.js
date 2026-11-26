@@ -286,10 +286,18 @@ function docsBlock(){const X=D.docs;if(!X)return '';let h='<h3 class="dh">Docume
   if(D.public)h+='<div class="dr"><div class="dk">Emailed brochures and PDF copies</div><div class="dv"><span class="dash">In the private copy (Google Drive)</span></div></div>';
   else if(X.drive_url)h+='<div class="dr"><div class="dk">All files for this venue</div><div class="dv"><a href="'+X.drive_url+'" target="_blank">Open the Drive folder</a></div></div>';
   return h+'</div>';}
+function spacesBlock(){const X=D.spaces_list;if(!X||!X.length)return '';const e=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;');
+  let h='<h3 class="dh">Spaces</h3><div class="spl">';
+  X.forEach(s=>{h+='<div class="spi"><b>'+e(s.n)+'</b>'+(s.cap?' · '+Number(s.cap).toLocaleString()+' guests':'')+(s.use?' · '+e(s.use):'')+(s.src?sup(s.src):'');
+    if(s.ph&&s.ph.length)h+='<div class="sph">'+s.ph.map(u=>'<a href="'+e(u)+'" target="_blank" rel="noopener"><img src="'+e(u)+'" loading="lazy" referrerpolicy="no-referrer" alt="'+e(s.n)+'" onerror="this.parentNode.remove()"></a>').join('')+'</div>';
+    else if(s.link)h+='<div class="sph0">No photo found yet · <a href="'+e(s.link)+'" target="_blank" rel="noopener">space page</a></div>';
+    else h+='<div class="sph0">No photo of this space found yet</div>';
+    h+='</div>';});
+  return h+'</div>';}
 function detail(){const F=D.dfinal,V=D.dval||{},S={contact:'Contact',find:'We find it',first:'Ask in the first email',last:'Ask only in the last email'};
   const SRC={venue:'Venue said',google:'Google',ours:'Our data',calc:'Worked out',abc:'State licence record'};
   const rows=F.rows,filled=rows.filter(r=>V[r.id]).length,ask1=rows.filter(r=>r.stage==='first'&&!V[r.id]).length;const PRIV=D.public?'<span class="dash">In the private copy</span>':null;
-  let h='<div class="dsum"><b>'+filled+'/'+rows.length+'</b> filled · first email asks <b>'+ask1+'</b> · last email <b>'+rows.filter(r=>r.stage==='last'&&!V[r.id]).length+'</b></div>';
+  let h='<div class="dsum"><b>'+filled+'/'+rows.length+'</b> filled · first email asks <b>'+ask1+'</b> · last email <b>'+rows.filter(r=>r.stage==='last'&&!V[r.id]).length+'</b></div>'+spacesBlock();
   ['contact','find','first','last'].forEach(st=>{if(st==='find')h+=docsBlock();h+='<h3 class="dh">'+S[st]+'</h3><div class="dl">';
     rows.filter(r=>r.stage===st).forEach(r=>{const v=V[r.id];
       h+='<div class="dr'+(v?'':' miss')+'"><div class="dk">'+r.label+''+'</div>'+
@@ -308,7 +316,7 @@ function uni(c,LO,HI){const U=c.rows.slice();[[LO,'Lowest'],[HI,'Highest']].forE
 function summary(c,LO,HI,VAR,U){U=U||c.rows;const T0=$('sum');const cnt=x=>!x.out&&!x.apart&&!['na','flag'].includes(x.st);
   const fmt=(sum,unk,v,cls)=>sum==null?'<span class="dash">—</span>':'<span class="'+(cls||(v?'var':''))+'">'+money(sum)+(unk?'+':'')+'</span>';
   const col=(L,src)=>{let s=0,k=0,u=0,v=0;L.forEach(({l,x})=>{const y=src?src.m[l.id]:x;if(!y||!cnt(y))return;if(y.amt==null){u++;return;}k++;s+=y.amt;if(VAR(l,x))v=1;});return {s:k?s:null,u,v};};
-  let h='<tr><th>Category</th><th class="n">Lowest</th><th class="n">Highest</th><th class="n pk">Your pick</th><th class="n">Credit</th><th class="n">Outside scope</th></tr>';
+  let h='<tr><th>Category</th><th class="n">Lowest</th><th class="n">Highest</th><th class="n pkh">Your pick</th><th class="n">Credit</th><th class="n">Outside scope</th></tr>';
   const tz=z=>'<span class="var">'+money(z.tot)+(z.unk||z.rq.length?'+':'')+'</span>',pz=z=>money(z.tot/T())+(z.unk||z.rq.length?'+':'');
   h+='<tr class="tot"><td>Total<div class="q">'+c.known+'/'+c.all+' known</div></td><td class="n">'+tz(LO.c)+'</td><td class="n">'+tz(HI.c)+'</td><td class="n pick">'+tz(c)+'</td><td class="n">'+(c.cred?'<span class="cred">'+money(c.cred)+'</span>':'<span class="dash">—</span>')+'</td><td></td></tr>';
   h+='<tr class="tot"><td>Per guest<div class="q">'+T()+' guests</div></td><td class="n"><span class="var">'+pz(LO.c)+'</span></td><td class="n"><span class="var">'+pz(HI.c)+'</span></td><td class="n pick"><span class="var">'+pz(c)+'</span></td><td></td><td></td></tr>';

@@ -86,7 +86,7 @@ input[type=range]{accent-color:#1f5fbf}.pk select{color:#1f5fbf}.step b{color:#1
 .calc{color:#1f5fbf}
 .ct{border-collapse:collapse;width:100%;background:#fff;color:#111;border:1px solid #ccc;border-radius:10px;overflow:hidden}
 .ct td,.ct th{border-bottom:1px solid #e2e2e2;padding:.5rem .6rem;text-align:left;vertical-align:top}
-.ct th{background:#2d3142;color:#fff;font-weight:600}.ct th.pk{color:#9cc3ff}
+.ct th{background:#2d3142;color:#fff;font-weight:600}.ct th.pkh{color:#9cc3ff}
 .ct td.n,.ct th.n{text-align:right;white-space:nowrap}.ct td.n{font-weight:600}
 .ct td.pick{background:#eef4fd}.ct .q{color:#4f5d75}.ct a{color:#1f5fbf}.ct tr.dim td{color:#a0a6ae}
 .ct tr.g td{background:#e9e4dc;color:#111;font-weight:700}.ct tr.tot td{font-weight:700;background:#fafafa;font-size:18px}.ct tr.tot+tr.tot td{border-bottom:2px solid #2d3142}
@@ -98,6 +98,7 @@ input[type=range]{accent-color:#1f5fbf}.pk select{color:#1f5fbf}.step b{color:#1
 .legend b{font-weight:700}
 
 sup a{color:#1f5fbf;text-decoration:none;font-weight:700}
+.sph{display:flex;gap:8px;overflow-x:auto;margin:6px 0 4px;padding-bottom:4px}.sph img{height:150px;width:auto;max-width:80vw;object-fit:cover;border-radius:8px;display:block;background:#eee}.sph0{color:#777;background:#f1f1f1;border-radius:6px;padding:.35rem .7rem;margin:6px 0 4px;display:inline-block}.spi{margin:.2rem 0 .9rem}
 .notes,.srcs{background:#fff;border:1px solid #ccc;border-radius:8px;padding:.7rem 1.1rem;margin-top:1rem}.notes li,.srcs li{margin:.25rem 0}
 .flag.dis{background:#fdf0e3;border-color:#b85c00}
 .facts{margin-top:1rem}.facts button{font:inherit;font-weight:600;padding:.45rem 1rem;border:2px solid #2d3142;border-radius:8px;background:#fff;cursor:pointer}
@@ -149,7 +150,7 @@ a,.hdr,.srcs li,.notes li,.facts li{overflow-wrap:anywhere}html,body{overflow-x:
 </div>
 
 <h2>All cost lines</h2>
-<div style="overflow-x:auto;-webkit-overflow-scrolling:touch"><table class="ct" id="t"><tr><th>Line</th><th class="why">Why / source</th><th class="n" title="Cheapest choice in every dropdown, no add-ons">Lowest</th><th class="n" title="Priciest choice in every dropdown, no add-ons">Highest</th><th class="n pk">Your pick</th><th class="n">Credit</th><th class="n" title="Valet and coordinator when the venue does not require them: shown, not counted">Outside scope</th></tr></table></div>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch"><table class="ct" id="t"><tr><th>Line</th><th class="why">Why / source</th><th class="n" title="Cheapest choice in every dropdown, no add-ons">Lowest</th><th class="n" title="Priciest choice in every dropdown, no add-ons">Highest</th><th class="n pkh">Your pick</th><th class="n">Credit</th><th class="n" title="Valet and coordinator when the venue does not require them: shown, not counted">Outside scope</th></tr></table></div>
 <p class="small" style="margin-top:1rem">Status: <span class="chip inc">Included</span> <span class="chip venue">Venue price</span> <span class="chip own">Your price</span> <span class="chip req">Required</span> <span class="chip unk">Unknown</span> <span class="chip na">Not needed</span></p>
 <div id="notes"></div><div id="srcs"></div><div id="posts"></div><div class="facts" id="facts"></div>
 </div>
