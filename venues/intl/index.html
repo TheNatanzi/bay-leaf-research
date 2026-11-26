@@ -105,7 +105,7 @@ table.price{border-collapse:collapse;min-width:1050px;width:100%;background:var(
  </div>
 </div>
 <div class="wrap">
- <div><table class="lst"><thead><tr><th data-s="rel" class="sorted">Venue</th><th data-s="g">Guests</th><th data-s="p">Price from</th><th data-s="c">Closes</th><th data-s="m">Music cutoff</th><th>Catering</th><th>Alcohol</th><th>Outdoor</th><th data-s="k" title="Out of 10 key costs: rent, food, bar, service charge, tax, F&amp;B minimum, overtime, ceremony fee, corkage, rentals">Key costs known</th><th data-s="o">Contact</th></tr></thead><tbody id="tb"></tbody></table>
+ <div><table class="lst"><thead><tr><th data-s="rel" class="sorted">Venue</th><th data-s="L">Location</th><th data-s="g">Guests</th><th data-s="p">Price from</th><th data-s="c">Closes</th><th data-s="m">Music cutoff</th><th>Catering</th><th>Alcohol</th><th>Outdoor</th><th data-s="k" title="Out of 10 key costs: rent, food, bar, service charge, tax, F&amp;B minimum, overtime, ceremony fee, corkage, rentals">Key costs known</th><th data-s="o">Contact</th></tr></thead><tbody id="tb"></tbody></table>
   <button class="more" id="more">Show more</button></div>
  <div class="mapbox"><div id="map"></div></div>
 </div>
@@ -123,7 +123,7 @@ function passes(r){const q=$('q').value.trim().toLowerCase(),c=$('county').value
  if($('hp').checked&&!r[9])return false;const fi=$('fit').value;if(fi&&!(r[11]===1&&(fi==='b'||/^confirmed/i.test(r[34]||''))))return false;if($('sm').checked&&!r[33])return false;if($('byo').checked&&r[20]!=='Venue bar or BYO'&&r[20]!=='BYO only')return false;if($('ho').checked&&!r[10])return false;
  if(q&&!(r[1]+' '+r[2]+' '+r[14]).toLowerCase().includes(q))return false;return true}
 const OUTRANK={complete:0,emails:1,replied:2,sent:3,waiting:4};
-function cmp(a,b){const last=1e15,dir=asc?1:-1;if(sortK==='k'){const x=a[32]?(a[32][2]||0)*100+a[32][0]:-1,y=b[32]?(b[32][2]||0)*100+b[32][0]:-1;return (y-x)*dir||b[23]-a[23]}
+function cmp(a,b){const last=1e15,dir=asc?1:-1;if(sortK==='L')return ((a[3]||'')+(a[2]||'')).localeCompare((b[3]||'')+(b[2]||''))*dir||b[23]-a[23];if(sortK==='k'){const x=a[32]?(a[32][2]||0)*100+a[32][0]:-1,y=b[32]?(b[32][2]||0)*100+b[32][0]:-1;return (y-x)*dir||b[23]-a[23]}
  if(sortK==='o'){const x=a[31]?(OUTRANK[a[31][0]]??8):9,y=b[31]?(OUTRANK[b[31][0]]??8):9;return (x-y)*dir||b[23]-a[23]}if(sortK==='m'){const x=a[28],y=b[28];if(x==null||y==null)return x==null&&y==null?b[23]-a[23]:(x==null?1:-1);return (x-y)*dir||b[23]-a[23]}if(sortK==='g')return ((b[7]||-1)-(a[7]||-1))*dir||b[23]-a[23];
  if(sortK==='p'){const u={event:0,person:1,hour:2};const x=a[16]==null?last:u[a[17]]*1e9+a[16],y=b[16]==null?last:u[b[17]]*1e9+b[16];return (x===last||y===last)?x-y:(x-y)*dir||b[23]-a[23]}
  if(sortK==='c')return ((b[18]||-1)-(a[18]||-1))*dir||b[23]-a[23];return (b[23]-a[23])*dir||a[1].localeCompare(b[1])}
@@ -136,16 +136,16 @@ function draw(){const tb=$('tb');tb.textContent='';shown.slice(0,limit).forEach(
  if(r[30]&&r[30][1])f.appendChild(pimg(r[30][1],'thumb'));
  const n=el('div','nm');if(has){const x=el('button','xp',open?'▼':'▶');x.setAttribute('aria-label',open?'Hide spaces':'Show spaces');x.onclick=e=>{e.stopPropagation();togSp(r[0])};n.appendChild(x)}
  n.appendChild(el('span','',r[1]));if(r[11]===1){const ok=/^confirmed/i.test(r[34]||'');const bm=el('span','best'+(ok?'':' unc'),ok?'Best match ✓':'Best match?');bm.title=ok?'Checked: '+r[34]:'Not confirmed: '+(r[34]||'not checked yet');n.appendChild(bm)}f.appendChild(n);
- f.appendChild(el('div','loc',[r[2],r[3]].filter(Boolean).join(', ')+(r[25]?' · may be closed':'')));
+ 
  if(has){const sm=el('button','spm',sp.length+' spaces '+(open?'▼':'▶'));sm.onclick=e=>{e.stopPropagation();togSp(r[0])};f.appendChild(sm);
   const sl=el('div','splist');sp.forEach(s=>sl.appendChild(el('div','',[s[0],s[1]?'up to '+s[1].toLocaleString():'',s[2]].filter(Boolean).join(' · '))));f.appendChild(sl)}
- tr.appendChild(f);
+ tr.appendChild(f);tr.appendChild(td([r[2],r[3]].filter(Boolean).join(', '),'Location'));
  tr.appendChild(td(r[7]?'Up to '+r[7].toLocaleString():'','Guests','n'));tr.appendChild(td(r[9],'Price from','n'));tr.appendChild(td(r[8],'Closes','n'));
  tr.appendChild(td(r[26],'Music cutoff','n'));tr.appendChild(td(r[19],'Catering'));tr.appendChild(td(r[20],'Alcohol'));tr.appendChild(td(r[10]?'Yes':'','Outdoor'));
  const kt=td(r[32]&&r[32].length>3?r[32][2]+' of '+r[32][3]:'','Key costs known','n');if(r[32])kt.title=r[32][0]+' of '+r[32][1]+' cost lines known in all';tr.appendChild(kt);
  const ot=el('td','');ot.dataset.k='Contact';if(r[31]){const pl=el('span','pill st-'+r[31][0],r[31][1]+(r[31][2]?' · '+fmtD(r[31][2]):''));pl.title=r[31][3].map(x=>x[1]+(x[2]?' '+fmtD(x[2]):'')).join(' → ');ot.appendChild(pl)}else{ot.textContent='Not contacted';ot.classList.add('none')}tr.appendChild(ot);
  tr.onclick=()=>openVenue(r);tb.appendChild(tr);
- sp.forEach(s=>{const st=el('tr',open?'sp':'sp hide');st.appendChild(el('td','',s[0]));st.appendChild(td(s[1]?'Up to '+s[1].toLocaleString():'','Guests','n'));
+ sp.forEach(s=>{const st=el('tr',open?'sp':'sp hide');st.appendChild(el('td','',s[0]));st.appendChild(el('td'));st.appendChild(td(s[1]?'Up to '+s[1].toLocaleString():'','Guests','n'));
   st.appendChild(td(s[2],'Price from','n'));for(let i=0;i<7;i++)st.appendChild(el('td'));tb.appendChild(st)})});
  $('more').style.display=shown.length>limit?'block':'none';$('more').textContent='Show 50 more ('+(shown.length-limit).toLocaleString()+' left)';
  $('count').textContent=(shown.length===1?'1 venue':shown.length.toLocaleString()+' venues');drawMap()}
