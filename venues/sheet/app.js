@@ -303,7 +303,7 @@ function detail(){const F=D.dfinal,V=D.dval||{},S={contact:'Contact',find:'We fi
       h+='<div class="dr'+(v?'':' miss')+'"><div class="dk">'+r.label+''+'</div>'+
         '<div class="dv">'+(v&&v.priv&&PRIV?PRIV:v?(v.na?'<span class="chip unk">'+v.v+'</span>':v.v+' <span class="chip src">'+(SRC[v.src]||v.src)+'</span>'):'<span class="dash">—</span>')+'</div></div>';});
     h+='</div>';});
-  h+='<p class="small">Cut on the form: '+F.cut.join(', ')+'. From your form answers, '+F.source.replace('Medi + Rinad form, ','')+'.</p>';
+  h+='<p class="small">Cut on the form: '+F.cut.join(', ')+'. From your form answers, '+F.source.replace(/^.*form, /,'')+'.</p>';
   $('tab-detail').innerHTML=h;}
 const BAR_IDS=['bar_alcohol','own-alcohol','xbar','corkage','bartenders','liquor_liability'];
 const GORD=['Venue','Food & drink','Bar / Alcohol','People & music','Sound, light, look','Rentals','Site & guests','Add-ons you ticked'];
