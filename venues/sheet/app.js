@@ -14,7 +14,7 @@ const avail=o=>o.rent_unknown||rentOf(o)!==null;
 const money2=n=>n<20&&Math.round(n)!==n?'$'+n.toFixed(2):'$'+Math.round(n).toLocaleString('en-US');
 // your price sheet (D.PS, rebuilt from our-price-sheet.json + checked online prices at every build). Pick = low end; Highest = high end.
 function ownFood(){const f=D.facts.catering_food;if(f&&f.t==='own')return true;const P=(D.pkgs||{}).catering_food;return !!(P&&pk('catering_food').own_pp);}
-function psCalc(spec,pre){const P=(D.PS||{})[spec.k];if(!P||P.lo==null)return {st:'own',why:(pre?pre+' · ':'')+'no price on your sheet',amt:null,miss:1,src:'ours'};
+function psCalc(spec,pre){const P=(D.PS||{})[spec.k];if(D.abroad)return {st:'unk',why:'Unknown: ask the venue or a local supplier (our Bay Area prices do not apply abroad)',amt:null,miss:1};if(!P||P.lo==null)return {st:'own',why:(pre?pre+' · ':'')+'no price on your sheet',amt:null,miss:1,src:'ours'};
   const rate=S.hiPrice&&P.hi!=null?P.hi:P.lo,n=spec.n==='guests'?T():spec.n==='tables'?Math.ceil(T()/8):spec.n==='per'?Math.ceil(T()/spec.ratio):1,hrs=spec.per_h?S.h:1;
   const lbl=spec.n==='guests'?' guests':spec.n==='tables'?' tables (8 per table)':spec.n==='per'?' '+(spec.unit||'staff')+' (1 per '+spec.ratio+')':'';
   return {st:'own',why:(pre?pre+' · ':'')+(spec.note?spec.note+': ':'')+money2(rate)+(n>1||spec.n?' × '+n+lbl:'')+(spec.per_h?' × '+S.h+' h':'')+(P.hi!=null&&P.hi!==P.lo?' (sheet range '+money2(P.lo)+'–'+money2(P.hi)+')':''),q:P.q,amt:rate*n*hrs,src:'ours'};}
