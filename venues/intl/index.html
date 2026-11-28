@@ -25,7 +25,7 @@ body.withmap .wrap{grid-template-columns:minmax(0,1fr) 420px}
 .mapbox{display:none;position:sticky;top:130px;height:calc(100vh - 150px);border:1px solid var(--line);border-radius:12px;overflow:hidden}body.withmap .mapbox{display:block}#map{height:100%}
 table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
 th,td{text-align:left;padding:11px 12px;border-bottom:1px solid var(--line);vertical-align:top}
-th{font-weight:600;color:var(--soft);font-size:.92rem;white-space:nowrap;cursor:pointer;user-select:none;background:var(--card)}th.sorted{color:var(--accent)}
+th{font-weight:600;color:var(--soft);font-size:.92rem;white-space:nowrap;cursor:pointer;user-select:none;background:var(--card)}th.sorted{color:var(--accent)}.ss{display:inline-block;margin-left:6px;padding:1px 8px;border:1px solid var(--line);border-radius:10px;font-size:.85rem;cursor:pointer}.ss.sorted{color:var(--accent);border-color:var(--accent)}
 tbody tr{cursor:pointer}tbody tr:hover{background:var(--accentbg)}.price tbody tr{cursor:default}.price tbody tr:hover{background:none}td.n{white-space:nowrap;font-variant-numeric:tabular-nums}
 .thumb{float:left;width:72px;height:54px;object-fit:cover;border-radius:6px;margin:2px 10px 4px 0;background:var(--line)}
 .photos{display:flex;gap:8px;overflow-x:auto;margin:14px 0 4px;scroll-snap-type:x mandatory}.photos img{height:220px;max-width:85vw;object-fit:cover;border-radius:8px;flex:none;scroll-snap-align:start;background:var(--line)}
@@ -105,7 +105,7 @@ table.price{border-collapse:collapse;min-width:1050px;width:100%;background:var(
  </div>
 </div>
 <div class="wrap">
- <div><table class="lst"><thead><tr><th data-s="rel" class="sorted">Venue</th><th data-s="L">Location</th><th data-s="g">Guests</th><th data-s="p">Price from</th><th data-s="c">Closes</th><th data-s="m">Music cutoff</th><th>Catering</th><th>Alcohol</th><th>Outdoor</th><th data-s="k" title="Out of 10 key costs: rent, food, bar, service charge, tax, F&amp;B minimum, overtime, ceremony fee, corkage, rentals">Key costs known</th><th data-s="o">Contact</th></tr></thead><tbody id="tb"></tbody></table>
+ <div><table class="lst"><thead><tr><th data-s="rel" class="sorted">Venue</th><th class="loc2">Location <span class="ss" data-s="L" title="Sort by country, then city">Country</span><span class="ss" data-s="LC" title="Sort by city, then country">City</span></th><th data-s="g">Guests</th><th data-s="p">Price from</th><th data-s="c">Closes</th><th data-s="m">Music cutoff</th><th>Catering</th><th>Alcohol</th><th>Outdoor</th><th data-s="k" title="Out of 10 key costs: rent, food, bar, service charge, tax, F&amp;B minimum, overtime, ceremony fee, corkage, rentals">Key costs known</th><th data-s="o">Contact</th></tr></thead><tbody id="tb"></tbody></table>
   <button class="more" id="more">Show more</button></div>
  <div class="mapbox"><div id="map"></div></div>
 </div>
@@ -123,7 +123,7 @@ function passes(r){const q=$('q').value.trim().toLowerCase(),c=$('county').value
  if($('hp').checked&&!r[9])return false;const fi=$('fit').value;if(fi&&!(r[11]===1&&(fi==='b'||/^confirmed/i.test(r[34]||''))))return false;if($('sm').checked&&!r[33])return false;if($('byo').checked&&r[20]!=='Venue bar or BYO'&&r[20]!=='BYO only')return false;if($('ho').checked&&!r[10])return false;
  if(q&&!(r[1]+' '+r[2]+' '+r[14]).toLowerCase().includes(q))return false;return true}
 const OUTRANK={complete:0,emails:1,replied:2,sent:3,waiting:4};
-function cmp(a,b){const last=1e15,dir=asc?1:-1;if(sortK==='L')return ((a[3]||'')+(a[2]||'')).localeCompare((b[3]||'')+(b[2]||''))*dir||b[23]-a[23];if(sortK==='k'){const x=a[32]?(a[32][2]||0)*100+a[32][0]:-1,y=b[32]?(b[32][2]||0)*100+b[32][0]:-1;return (y-x)*dir||b[23]-a[23]}
+function cmp(a,b){const last=1e15,dir=asc?1:-1;if(sortK==='L')return ((a[3]||'~')+'|'+(a[2]||'~')).localeCompare((b[3]||'~')+'|'+(b[2]||'~'))*dir||b[23]-a[23];if(sortK==='LC')return ((a[2]||'~')+'|'+(a[3]||'~')).localeCompare((b[2]||'~')+'|'+(b[3]||'~'))*dir||b[23]-a[23];if(sortK==='k'){const x=a[32]?(a[32][2]||0)*100+a[32][0]:-1,y=b[32]?(b[32][2]||0)*100+b[32][0]:-1;return (y-x)*dir||b[23]-a[23]}
  if(sortK==='o'){const x=a[31]?(OUTRANK[a[31][0]]??8):9,y=b[31]?(OUTRANK[b[31][0]]??8):9;return (x-y)*dir||b[23]-a[23]}if(sortK==='m'){const x=a[28],y=b[28];if(x==null||y==null)return x==null&&y==null?b[23]-a[23]:(x==null?1:-1);return (x-y)*dir||b[23]-a[23]}if(sortK==='g')return ((b[7]||-1)-(a[7]||-1))*dir||b[23]-a[23];
  if(sortK==='p'){const u={event:0,person:1,hour:2};const x=a[16]==null?last:u[a[17]]*1e9+a[16],y=b[16]==null?last:u[b[17]]*1e9+b[16];return (x===last||y===last)?x-y:(x-y)*dir||b[23]-a[23]}
  if(sortK==='c')return ((b[18]||-1)-(a[18]||-1))*dir||b[23]-a[23];return (b[23]-a[23])*dir||a[1].localeCompare(b[1])}
@@ -287,8 +287,8 @@ fetch('../data/intl-rows.json').then(r=>{if(!r.ok)throw Error(r.status);return r
  [...new Set(D.map(r=>r[3]).filter(Boolean))].sort().forEach(c=>$('county').appendChild(el('option','',c)));apply();route()}).catch(e=>{$('count').textContent='The venue list could not be loaded ('+e.message+')'});
 ['q','county','fit','minG','late','cater','pk','out','hp','byo','ho','unnamed','resto','sm'].forEach(i=>$(i).addEventListener('input',apply));
 $('reset').onclick=()=>{['q','county','fit','minG','late','cater','pk','out'].forEach(i=>$(i).value='');['hp','byo','ho','unnamed','resto','sm'].forEach(i=>$(i).checked=false);sortK='rel';asc=true;mark();apply()};
-function mark(){document.querySelectorAll('th').forEach(t=>t.classList.toggle('sorted',t.dataset.s===sortK))}
-document.querySelectorAll('th[data-s]').forEach(th=>th.onclick=()=>{const k=th.dataset.s;asc=sortK===k?!asc:true;sortK=k;mark();shown.sort(cmp);limit=50;draw()});
+function mark(){document.querySelectorAll('th,.ss').forEach(t=>t.classList.toggle('sorted',t.dataset.s===sortK))}
+document.querySelectorAll('[data-s]').forEach(th=>th.onclick=()=>{const k=th.dataset.s;asc=sortK===k?!asc:true;sortK=k;mark();shown.sort(cmp);limit=50;draw()});
 $('more').onclick=()=>{limit+=50;draw()};window.addEventListener('hashchange',route);
 $('back').onclick=()=>{if(fromList&&history.length>1){fromList=false;history.back()}else location.hash=''};
 $('mapbtn').onclick=()=>{const on=document.body.classList.toggle('withmap');$('mapbtn').classList.toggle('on',on);$('mapbtn').textContent=on?'Hide map':'Show map';if(on){try{initMap();setTimeout(()=>{map.invalidateSize();drawMap()},60)}catch(e){}}};
